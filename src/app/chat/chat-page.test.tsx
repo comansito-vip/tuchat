@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { it, expect } from "vitest";
 import { buildRoomCrumbs, buildFaq } from "@/app/chat/[slug]/copy";
 import { getPlace } from "@/data";
 

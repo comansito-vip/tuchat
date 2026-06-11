@@ -4,6 +4,6 @@ module.exports = {
   generateRobotsTxt: true,
   exclude: ["/webchat"],
   robotsTxtOptions: {
-    policies: [{ userAgent: "*", allow: "/" }],
+    policies: [{ userAgent: "*", allow: "/", disallow: ["/webchat"] }],
   },
 };

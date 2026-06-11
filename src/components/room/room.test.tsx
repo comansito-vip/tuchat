@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { RoomInfoPanel } from "./RoomInfoPanel";
 import { RelatedRooms } from "./RelatedRooms";
