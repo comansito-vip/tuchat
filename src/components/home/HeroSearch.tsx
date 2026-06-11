@@ -1,0 +1,59 @@
+import { Button } from "@/components/ui/Button";
+import { SearchInput } from "@/components/ui/SearchInput";
+import { RoomCard } from "./RoomCard";
+import { getCountries, getCities, getRooms } from "@/data";
+
+export function HeroSearch() {
+  const countries = getCountries();
+  const cities = getCities();
+  const rooms = getRooms();
+
+  const totalUsers = rooms.reduce((sum, r) => sum + r.users, 0);
+
+  const stats = [
+    { value: countries.length + "+", label: "Salas por países" },
+    { value: cities.length + "+", label: "Ciudades disponibles" },
+    { value: totalUsers.toLocaleString("es"), label: "Usuarios conectados" },
+    { value: "Top 10", label: "Ranking diario" },
+  ];
+
+  return (
+    <section className="mx-auto grid max-w-6xl gap-10 px-4 py-12 lg:grid-cols-[1.1fr_.9fr] lg:py-16">
+      {/* LEFT column */}
+      <div>
+        <h1 className="text-3xl font-extrabold leading-tight text-ink sm:text-4xl">
+          Chat gratis en español
+        </h1>
+        <p className="mt-3 max-w-xl text-muted">
+          Entra en salas de chat por países, ciudades y temas. Conoce gente nueva, conversa en
+          tiempo real y descubre comunidades activas de habla hispana.
+        </p>
+
+        <div className="mt-5">
+          <SearchInput size="lg" />
+        </div>
+
+        <div className="mt-4 flex flex-wrap gap-3">
+          <Button href="/webchat?canal=espana">Entrar al chat</Button>
+          <Button href="#salas" variant="secondary">Ver salas populares</Button>
+        </div>
+
+        <dl className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          {stats.map((s) => (
+            <div key={s.label}>
+              <dt className="text-xl font-bold text-ink">{s.value}</dt>
+              <dd className="text-xs text-muted">{s.label}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+
+      {/* RIGHT column — top 3 rooms, visible only on lg+ */}
+      <div className="hidden flex-col gap-3 lg:flex">
+        {rooms.slice(0, 3).map((place) => (
+          <RoomCard key={place.slug} place={place} />
+        ))}
+      </div>
+    </section>
+  );
+}
