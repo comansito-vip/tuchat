@@ -174,7 +174,7 @@ export const TOPICS: Place[] = [
     votes: 305,
     activity: "Media",
     channels: ["salud", "amistad", "chatzona"],
-    related: ["cocina", "deporte", "viajes", "filosofia", "amor", "espana"],
+    related: ["cocina", "deportes", "viajes", "filosofia", "amor", "espana"],
     intro:
       "Hábitos, entrenamiento, salud mental y nutrición sin dogmatismos: una sala donde se comparten experiencias reales, no posts de Instagram con cuerpos de catálogo.",
   },

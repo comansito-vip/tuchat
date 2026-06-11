@@ -25,7 +25,7 @@ export const COUNTRIES: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["mexico", "internacional", "amistad", "chatzona"],
-    related: ["ciudad-de-mexico", "colombia", "argentina", "peru", "amistad", "amor", "musica"],
+    related: ["ciudad-de-mexico", "colombia", "argentina", "lima", "amistad", "amor", "musica"],
     intro:
       "De Tijuana a Mérida hay miles de kilómetros y cientos de acentos: la sala de México los reúne a todos. Rancheras, reggaeton y debates que no terminan nunca.",
   },
@@ -39,7 +39,7 @@ export const COUNTRIES: Place[] = [
     tag: "Tendencia",
     activity: "Alta",
     channels: ["argentina", "internacional", "amistad", "chatzona"],
-    related: ["buenos-aires", "montevideo", "chile", "colombia", "amistad", "amor", "deportes"],
+    related: ["buenos-aires", "montevideo", "santiago-de-chile", "colombia", "amistad", "amor", "deportes"],
     intro:
       "Donde el voseo reina, el asado es religión de los domingos y el fútbol divide familias. Los argentinos no necesitan mucho para arrancar una conversación que dure hasta las cuatro.",
   },
@@ -52,7 +52,7 @@ export const COUNTRIES: Place[] = [
     votes: 925,
     activity: "Alta",
     channels: ["colombia", "internacional", "amistad", "chatzona"],
-    related: ["bogota", "mexico", "argentina", "peru", "amistad", "amor", "musica"],
+    related: ["bogota", "mexico", "argentina", "lima", "amistad", "amor", "musica"],
     intro:
       "Colombia tiene el don de la amabilidad en el trato y la pasión en la discusión: en esta sala se habla de fútbol, de vallenato, de la economía y de los planes del fin de semana.",
   },
