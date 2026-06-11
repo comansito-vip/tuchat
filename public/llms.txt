@@ -1,0 +1,10 @@
+# TuChat.org
+
+TuChat es un portal de salas de chat en español: por países, ciudades y temáticas,
+con acceso a un webchat en tiempo real, además de noticias, tiempo, loterías y horóscopo.
+
+## Secciones
+- /chat/{ciudad|pais|tematica}: salas de chat (ej. /chat/madrid, /chat/mexico, /chat/amor)
+- /noticias: actualidad, deportes, tecnología, IA, cultura
+- /ranking: salas más activas
+- /webchat: acceso al chat en directo
