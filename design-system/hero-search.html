@@ -1,0 +1,63 @@
+<!-- @dsCard group="Home" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#1E3A8A;color:#fff;margin:0;padding:0;-webkit-font-smoothing:antialiased}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;min-height:320px}
+.left{padding:40px 36px 40px 40px;display:flex;flex-direction:column;justify-content:center;gap:16px}
+.right{background:rgba(255,255,255,.08);padding:24px;display:flex;flex-direction:column;gap:10px;justify-content:center}
+h1{font-size:28px;font-weight:800;line-height:1.15;margin:0;color:#fff}
+h1 span{color:#22C55E}
+p{font-size:14px;color:rgba(255,255,255,.75);margin:0;line-height:1.5}
+.search{display:flex;gap:6px}
+.search input{flex:1;padding:10px 14px;border-radius:8px;border:none;font-size:14px;font-family:inherit}
+.search button{background:#22C55E;color:#fff;border:none;border-radius:8px;padding:10px 16px;font-weight:600;font-size:13px;cursor:pointer;font-family:inherit}
+.btns{display:flex;gap:8px}
+.btn-p{background:#2563EB;color:#fff;border:none;border-radius:8px;padding:9px 16px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+.btn-s{background:rgba(255,255,255,.12);color:#fff;border:none;border-radius:8px;padding:9px 16px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+.stats{display:flex;gap:20px;margin-top:4px}
+.stat dt{font-size:18px;font-weight:800;color:#22C55E}
+.stat dd{font-size:10px;color:rgba(255,255,255,.6);margin:0}
+.mini-card{background:rgba(255,255,255,.1);border-radius:10px;padding:10px 12px;display:flex;align-items:center;justify-content:space-between}
+.mc-left{display:flex;align-items:center;gap:8px}
+.mc-name{font-size:13px;font-weight:600;color:#fff}
+.mc-stat{font-size:11px;color:rgba(255,255,255,.6)}
+.mc-btn{background:#2563EB;color:#fff;border:none;border-radius:6px;padding:5px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit}
+.dot{width:7px;height:7px;border-radius:50%;background:#22C55E;display:inline-block;margin-right:3px}
+</style></head><body>
+<div class="hero">
+  <div class="left">
+    <h1>Chat gratis en español,<br><span>sin registro</span></h1>
+    <p>Más de 1.200 usuarios conectados ahora mismo en salas de España, México, Argentina y toda Latinoamérica.</p>
+    <div class="search">
+      <input type="text" placeholder="Busca un país, ciudad o temática…">
+      <button>Buscar</button>
+    </div>
+    <div class="btns">
+      <button class="btn-p">Entrar al chat →</button>
+      <button class="btn-s">Ver todos los países</button>
+    </div>
+    <div class="stats">
+      <dl class="stat"><dt>1.200+</dt><dd>usuarios ahora</dd></dl>
+      <dl class="stat"><dt>16</dt><dd>ciudades</dd></dl>
+      <dl class="stat"><dt>4</dt><dd>países</dd></dl>
+      <dl class="stat"><dt>15</dt><dd>temáticas</dd></dl>
+    </div>
+  </div>
+  <div class="right">
+    <div class="mini-card">
+      <div class="mc-left"><span style="font-size:20px">🇪🇸</span><div><div class="mc-name">España</div><div class="mc-stat"><span class="dot"></span>1.240 hablando</div></div></div>
+      <button class="mc-btn">Entrar</button>
+    </div>
+    <div class="mini-card">
+      <div class="mc-left"><span style="font-size:20px">🏙️</span><div><div class="mc-name">Madrid</div><div class="mc-stat"><span class="dot"></span>920 hablando</div></div></div>
+      <button class="mc-btn">Entrar</button>
+    </div>
+    <div class="mini-card">
+      <div class="mc-left"><span style="font-size:20px">❤️</span><div><div class="mc-name">Amor</div><div class="mc-stat"><span class="dot"></span>640 hablando</div></div></div>
+      <button class="mc-btn">Entrar</button>
+    </div>
+  </div>
+</div>
+</body></html>

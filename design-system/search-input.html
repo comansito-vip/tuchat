@@ -1,0 +1,35 @@
+<!-- @dsCard group="Primitives" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#F8FAFC;padding:24px;-webkit-font-smoothing:antialiased}
+h3{font-size:11px;font-weight:600;color:#94A3B8;text-transform:uppercase;letter-spacing:.06em;margin:20px 0 8px}
+h3:first-child{margin-top:0}
+.field{display:flex;gap:6px;max-width:400px}
+input{flex:1;padding:10px 14px;border:1px solid #E2E8F0;border-radius:8px;font-size:14px;font-family:inherit;color:#0F172A;background:#fff;outline:none}
+input:focus{border-color:#2563EB;box-shadow:0 0 0 3px rgba(37,99,235,.12)}
+input::placeholder{color:#94A3B8}
+button{background:#2563EB;color:#fff;border:none;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap}
+.standalone{max-width:400px}
+.standalone input{width:100%;padding:11px 42px 11px 14px;font-size:14px;border-radius:10px}
+.icon{position:relative;max-width:400px}
+.icon input{width:100%;padding:10px 14px 10px 40px;border:1px solid #E2E8F0;border-radius:8px;font-size:14px;font-family:inherit;color:#0F172A;background:#fff;outline:none}
+.icon svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;stroke:#94A3B8;fill:none;stroke-width:2}
+</style></head><body>
+<h3>Con botón (hero)</h3>
+<div class="field">
+  <input type="text" placeholder="Busca un país, ciudad o temática…">
+  <button>Buscar</button>
+</div>
+<h3>Con icono</h3>
+<div class="icon">
+  <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+  <input type="text" placeholder="Busca un país, ciudad o temática…">
+</div>
+<h3>Focus</h3>
+<div class="field">
+  <input type="text" placeholder="Busca un país, ciudad o temática…" style="border-color:#2563EB;box-shadow:0 0 0 3px rgba(37,99,235,.12)">
+  <button>Buscar</button>
+</div>
+</body></html>

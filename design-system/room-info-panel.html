@@ -1,0 +1,31 @@
+<!-- @dsCard group="Room" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#F8FAFC;padding:24px;-webkit-font-smoothing:antialiased}
+.card{background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:18px;max-width:260px}
+dl{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;font-size:13px;margin:0 0 16px}
+dt{color:#94A3B8;font-weight:500}
+dd{color:#0F172A;font-weight:600;margin:0}
+.dot{width:7px;height:7px;border-radius:50%;background:#22C55E;display:inline-block;margin-right:4px}
+.channels{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.chip{background:#EFF6FF;color:#2563EB;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.btn{display:block;width:100%;background:#2563EB;color:#fff;border:none;border-radius:8px;padding:10px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;text-align:center}
+</style></head><body>
+<div class="card">
+  <dl>
+    <dt>Sala</dt><dd>#madrid</dd>
+    <dt>País</dt><dd>🇪🇸 España</dd>
+    <dt>Categoría</dt><dd>Ciudad</dd>
+    <dt>Actividad</dt><dd><span class="dot"></span>Alta · 920 usuarios</dd>
+  </dl>
+  <div class="channels">
+    <span class="chip">#madrid</span>
+    <span class="chip">#espana</span>
+    <span class="chip">#amistad</span>
+    <span class="chip">#chatzona</span>
+  </div>
+  <button class="btn" style="margin-top:16px">Entrar al chat</button>
+</div>
+</body></html>

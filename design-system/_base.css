@@ -1,0 +1,8 @@
+/* Shared tokens — inlined in each preview via <style> */
+:root {
+  --bg: #F8FAFC; --card: #FFFFFF;
+  --blue: #2563EB; --blue-dark: #1E3A8A;
+  --ink: #0F172A; --muted: #475569;
+  --line: #E2E8F0; --active: #22C55E;
+}
+body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--muted); -webkit-font-smoothing: antialiased; margin: 0; padding: 24px; }
