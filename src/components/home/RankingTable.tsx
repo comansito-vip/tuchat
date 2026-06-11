@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { getRanking } from "@/data";
-import { clsx } from "clsx";
 
 const kindLabel: Record<string, string> = {
   pais: "País",

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import type { Crumb } from "@/lib/seo";
@@ -23,9 +24,9 @@ export function ScaffoldPage({
         <p>
           <strong className="text-ink">Sección en preparación.</strong> Estamos ampliando esta
           página con contenido actualizado. Mientras tanto, puedes{" "}
-          <a href="/chat" className="text-blue hover:underline">
+          <Link href="/chat" className="text-blue hover:underline">
             explorar las salas de chat
-          </a>
+          </Link>
           .
         </p>
       </Card>
