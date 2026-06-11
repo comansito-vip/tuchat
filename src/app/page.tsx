@@ -19,9 +19,11 @@ export default function HomePage() {
         <SectionTitle href="/chat" cta="Ver todas">
           Salas más activas
         </SectionTitle>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] sm:grid sm:grid-cols-3 sm:overflow-visible lg:grid-cols-4">
           {rooms.map((p) => (
-            <RoomCard key={p.slug} place={p} />
+            <div key={p.slug} className="min-w-[160px] shrink-0 snap-start sm:min-w-0">
+              <RoomCard place={p} />
+            </div>
           ))}
         </div>
       </section>

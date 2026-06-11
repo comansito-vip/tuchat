@@ -18,9 +18,11 @@ export function CategoryGrid() {
   const topics = getTopics();
 
   return (
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+    <div className="flex snap-x gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-3 sm:overflow-visible lg:grid-cols-5">
       {topics.map((place) => (
-        <CategoryCard key={place.slug} place={place} />
+        <div key={place.slug} className="min-w-[140px] shrink-0 snap-start sm:min-w-0">
+          <CategoryCard place={place} />
+        </div>
       ))}
     </div>
   );
