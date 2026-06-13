@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { getPlace, getCities } from "@/data";
+import { getPlace, getCities, getCountries } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { cap } from "@/lib/slug";
+
+export function generateStaticParams() {
+  return getCountries().map((c) => ({ pais: c.slug }));
+}
 
 export async function generateMetadata({
   params,

@@ -29,6 +29,10 @@ const SIGN_INTROS: Record<string, string> = {
     "Piscis, soñador y empático, navega hoy por sus aguas más profundas. El horóscopo revela lo que los planetas tienen preparado para tu intuición y tu corazón.",
 };
 
+export function generateStaticParams() {
+  return Object.keys(SIGN_INTROS).map((signo) => ({ signo }));
+}
+
 export async function generateMetadata({
   params,
 }: {

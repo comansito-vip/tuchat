@@ -4,6 +4,11 @@ import { getNews } from "@/data";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { slugify, cap } from "@/lib/slug";
 
+export function generateStaticParams() {
+  const categorias = new Set(getNews().map((n) => slugify(n.category)));
+  return [...categorias].map((categoria) => ({ categoria }));
+}
+
 export async function generateMetadata({
   params,
 }: {
