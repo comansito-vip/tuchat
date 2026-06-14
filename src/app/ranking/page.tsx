@@ -4,8 +4,9 @@ import { RankingTable } from "@/components/home/RankingTable";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
 
-// Refleja los votos en vivo de la comunidad.
-export const dynamic = "force-dynamic";
+// Refleja los votos de la comunidad; se regenera cada 5 min (prerenderizable
+// e indexable en el sitemap, a diferencia de force-dynamic).
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Ranking de salas de chat",
