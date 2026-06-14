@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "generate:news": "npx tsx scripts/generate-news.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
