@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
-import { getTopics } from "@/data";
+import { getPrimaryTopics } from "@/data";
 import type { Place } from "@/data";
 
 export function CategoryCard({ place }: { place: Place }) {
@@ -15,7 +15,7 @@ export function CategoryCard({ place }: { place: Place }) {
 }
 
 export function CategoryGrid() {
-  const topics = getTopics();
+  const topics = getPrimaryTopics();
 
   return (
     <div className="flex snap-x gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-3 sm:overflow-visible lg:grid-cols-5">
