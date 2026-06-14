@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RankingTable } from "@/components/home/RankingTable";
-import { getGlobalRanking } from "@/lib/ranking";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
 
 // Refleja los votos en vivo de la comunidad.
 export const dynamic = "force-dynamic";
@@ -19,7 +20,12 @@ const crumbs = [
 ];
 
 export default async function RankingPage() {
-  const ranking = await getGlobalRanking(10);
+  const [general, paises, ciudades, tematicas] = await Promise.all([
+    getGlobalRanking(10),
+    getRankingByKind("pais", 10),
+    getRankingByKind("ciudad", 10),
+    getRankingByKind("tematica", 10),
+  ]);
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
@@ -28,9 +34,23 @@ export default async function RankingPage() {
         Las salas más votadas por la comunidad. El ranking se actualiza en tiempo real según la
         actividad y los votos de los usuarios.
       </p>
-      <div className="mt-6">
-        <RankingTable ranking={ranking} />
-      </div>
+
+      <section className="mt-8">
+        <SectionTitle>General</SectionTitle>
+        <RankingTable ranking={general} />
+      </section>
+      <section className="mt-10">
+        <SectionTitle>Por temática</SectionTitle>
+        <RankingTable ranking={tematicas} />
+      </section>
+      <section className="mt-10">
+        <SectionTitle>Por país</SectionTitle>
+        <RankingTable ranking={paises} />
+      </section>
+      <section className="mt-10">
+        <SectionTitle>Por ciudad</SectionTitle>
+        <RankingTable ranking={ciudades} />
+      </section>
     </main>
   );
 }
