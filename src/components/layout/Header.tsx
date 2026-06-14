@@ -6,10 +6,10 @@ const NAV_ITEMS = [
   { label: "Países", href: "/pais/espana" },
   { label: "Ciudades", href: "/chat/madrid" },
   { label: "Temáticas", href: "/chat/amor" },
+  { label: "Deportes", href: "/deportes" },
+  { label: "Tarot", href: "/tarot" },
+  { label: "Anime", href: "/anime" },
   { label: "Noticias", href: "/noticias" },
-  { label: "Tiempo", href: "/tiempo/madrid" },
-  { label: "Loterías", href: "/loterias/espana" },
-  { label: "Horóscopo", href: "/horoscopo/aries" },
   { label: "Ranking", href: "/ranking" },
 ];
 

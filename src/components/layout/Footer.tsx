@@ -37,11 +37,22 @@ const COLUMNS = [
     ],
   },
   {
-    heading: "Noticias",
+    heading: "Secciones",
     links: [
-      { label: "Actualidad", href: "/noticias" },
-      { label: "Deportes", href: "/noticias" },
-      { label: "Tecnología", href: "/noticias" },
+      { label: "Deportes", href: "/deportes" },
+      { label: "Resultados", href: "/resultados" },
+      { label: "Tarot", href: "/tarot" },
+      { label: "Anime", href: "/anime" },
+      { label: "Ranking", href: "/ranking" },
+    ],
+  },
+  {
+    heading: "Servicios",
+    links: [
+      { label: "Noticias", href: "/noticias" },
+      { label: "Horóscopo", href: "/horoscopo/aries" },
+      { label: "El tiempo", href: "/tiempo/madrid" },
+      { label: "Loterías", href: "/loterias/espana" },
     ],
   },
   {
@@ -58,7 +69,7 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-line mt-12">
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
           {COLUMNS.map((col) => (
             <div key={col.heading}>
               <h3 className="text-sm font-bold text-ink mb-3">{col.heading}</h3>

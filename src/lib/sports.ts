@@ -106,6 +106,56 @@ export const LEAGUES: League[] = [
       ["Tigres", 0],
     ]),
   },
+  {
+    slug: "bundesliga",
+    name: "Bundesliga",
+    footballData: "BL1",
+    apiFootball: 78,
+    theSportsDB: 4331,
+    fallback: fb([
+      ["Bayern München", 0],
+      ["Bayer Leverkusen", 0],
+      ["VfB Stuttgart", 0],
+      ["Borussia Dortmund", 0],
+    ]),
+  },
+  {
+    slug: "ligue1",
+    name: "Ligue 1",
+    footballData: "FL1",
+    apiFootball: 61,
+    theSportsDB: 4334,
+    fallback: fb([
+      ["Paris Saint-Germain", 0],
+      ["Mónaco", 0],
+      ["Marsella", 0],
+      ["Lille", 0],
+    ]),
+  },
+  {
+    slug: "argentina",
+    name: "Liga Profesional Argentina",
+    apiFootball: 128,
+    theSportsDB: 4406,
+    fallback: fb([
+      ["Boca Juniors", 0],
+      ["River Plate", 0],
+      ["Racing Club", 0],
+      ["Independiente", 0],
+    ]),
+  },
+  {
+    slug: "brasileirao",
+    name: "Brasileirão",
+    apiFootball: 71,
+    theSportsDB: 4351,
+    fallback: fb([
+      ["Flamengo", 0],
+      ["Palmeiras", 0],
+      ["Botafogo", 0],
+      ["São Paulo", 0],
+    ]),
+  },
 ];
 
 export function getLeague(slug: string): League | undefined {
@@ -279,4 +329,6 @@ export const TEAM_LEAGUE: Record<string, string> = {
   "fc-barcelona": "laliga",
   "atletico-madrid": "laliga",
   "america-mexico": "ligamx",
+  "boca-juniors": "argentina",
+  "river-plate": "argentina",
 };
