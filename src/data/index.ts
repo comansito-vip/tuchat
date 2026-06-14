@@ -1,15 +1,17 @@
 import { CITIES } from "./cities";
+import { CITIES_WORLD } from "./cities-world";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 
-const ALL: Place[] = [...COUNTRIES, ...CITIES, ...TOPICS];
+const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
+const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...TOPICS];
 
 export function getPlace(slug: string): Place | undefined {
   return ALL.find((p) => p.slug === slug);
 }
-export function getCities() { return CITIES; }
+export function getCities() { return ALL_CITIES; }
 export function getCountries() { return COUNTRIES; }
 export function getTopics() { return TOPICS; }
 export function getNews() { return NEWS; }
