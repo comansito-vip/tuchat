@@ -56,8 +56,9 @@ export default function DeportesPage() {
         Liga, Champions, Libertadores, Fórmula 1 y mucho más. Comenta cada jornada en directo,
         defiende a tu equipo y conoce gente que vive el deporte con la misma pasión que tú.
       </p>
-      <div className="mt-4">
+      <div className="mt-4 flex flex-wrap gap-2">
         <Button href="/webchat?canal=deportes">Entrar al chat de deportes</Button>
+        <Button href="/resultados" variant="secondary">Ver resultados y clasificaciones</Button>
       </div>
 
       <section className="mt-8">
