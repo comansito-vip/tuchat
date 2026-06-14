@@ -28,6 +28,19 @@ export function getRanking(): Place[] {
 export function getRelated(slugs: string[]): Place[] {
   return slugs.map(getPlace).filter((p): p is Place => Boolean(p));
 }
+// Estadísticas agregadas para el panel de control.
+export function getStats() {
+  const all = ALL;
+  return {
+    countries: COUNTRIES.length,
+    cities: ALL_CITIES.length,
+    topics: ALL_TOPICS.length,
+    rooms: all.length,
+    news: NEWS.length,
+    totalVotes: all.reduce((s, p) => s + p.votes, 0),
+    totalUsers: all.reduce((s, p) => s + p.users, 0),
+  };
+}
 // Salas hijas de un lugar (ciudades de un país, sub-salas de una temática).
 export function getChildren(slug: string): Place[] {
   return ALL.filter((p) => p.parentSlug === slug);
