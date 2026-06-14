@@ -15,7 +15,7 @@ export function NewsGrid() {
     <div className="grid gap-6 lg:grid-cols-2">
       {/* Featured story */}
       {featured && (
-        <Link href="/noticias" className="block">
+        <Link href={`/noticias/articulo/${featured.slug}`} className="block">
           <Card className="overflow-hidden hover:border-blue transition-colors">
             {/* Subtle image placeholder */}
             <div className="aspect-[16/9] bg-bg flex items-end p-4">
@@ -37,7 +37,7 @@ export function NewsGrid() {
         {rest.map((item) => (
           <Link
             key={item.slug}
-            href="/noticias"
+            href={`/noticias/articulo/${item.slug}`}
             className="block py-4 first:pt-0 hover:text-blue transition-colors"
           >
             <span className="text-xs font-semibold uppercase text-blue">{item.category}</span>

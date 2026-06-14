@@ -37,6 +37,7 @@ const OPENAI_MODEL = "gpt-4o";
 interface GeneratedItem {
   title: string;
   excerpt: string;
+  body: string;
 }
 
 interface NewsItem {
@@ -46,6 +47,7 @@ interface NewsItem {
   excerpt: string;
   date: string;
   featured?: boolean;
+  body?: string;
 }
 
 // ───────────────────────── Prompt (anti-IA) ─────────────────────────
@@ -60,9 +62,10 @@ const SYSTEM_PROMPT =
 function userPrompt(category: string, date: string): string {
   return (
     `Genera ${ITEMS_PER_CATEGORY} noticias plausibles y actuales de la categoría "${category}" ` +
-    `para la fecha ${date}. Cada una con un titular periodístico (sin comillas internas) y una ` +
-    `entradilla de 2-3 frases con datos concretos. Devuelve un array JSON con este formato exacto:\n` +
-    `[{"title": "...", "excerpt": "..."}]`
+    `para la fecha ${date}. Cada una con: un titular periodístico (sin comillas internas), una ` +
+    `entradilla de 2-3 frases con datos concretos, y un cuerpo de 2-3 párrafos (separa los ` +
+    `párrafos con \\n\\n) con estilo editorial humano. Devuelve un array JSON con este formato exacto:\n` +
+    `[{"title": "...", "excerpt": "...", "body": "..."}]`
   );
 }
 
@@ -79,7 +82,11 @@ function parseJsonArray(text: string): GeneratedItem[] {
   if (!Array.isArray(parsed)) throw new Error("JSON no es un array");
   return parsed
     .filter((it) => it && typeof it.title === "string" && typeof it.excerpt === "string")
-    .map((it) => ({ title: it.title.trim(), excerpt: it.excerpt.trim() }));
+    .map((it) => ({
+      title: it.title.trim(),
+      excerpt: it.excerpt.trim(),
+      body: typeof it.body === "string" ? it.body.trim() : "",
+    }));
 }
 
 /** Claude (Anthropic Messages API). Sin temperature/budget_tokens (rechazados en Opus 4.8). */
@@ -169,23 +176,22 @@ function slugify(text: string): string {
     .slice(0, 70);
 }
 
-function escape(text: string): string {
-  // Comillas dobles internas → tipográficas, para no romper el string TS.
-  return text.replace(/"/g, "”");
-}
-
 function renderFile(items: NewsItem[]): string {
+  // JSON.stringify produce literales de string válidos en TS (escapa comillas y
+  // saltos de línea), seguro para el body multipárrafo.
+  const q = (s: string) => JSON.stringify(s);
   const body = items
     .map((n) => {
-      const featured = n.featured ? "\n    featured: true," : "";
-      return `  {
-    slug: "${n.slug}",
-    title: "${escape(n.title)}",
-    category: "${n.category}",
-    excerpt:
-      "${escape(n.excerpt)}",
-    date: "${n.date}",${featured}
-  },`;
+      const lines = [
+        `    slug: ${q(n.slug)},`,
+        `    title: ${q(n.title)},`,
+        `    category: ${q(n.category)},`,
+        `    excerpt: ${q(n.excerpt)},`,
+        `    date: ${q(n.date)},`,
+      ];
+      if (n.featured) lines.push("    featured: true,");
+      if (n.body) lines.push(`    body: ${q(n.body)},`);
+      return `  {\n${lines.join("\n")}\n  },`;
     })
     .join("\n");
 
@@ -216,6 +222,7 @@ async function main() {
         excerpt: it.excerpt,
         date,
         featured: all.length === 0 && idx === 0,
+        body: it.body || undefined,
       });
     });
   }

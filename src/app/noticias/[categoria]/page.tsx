@@ -52,7 +52,7 @@ export default async function CategoriaPage({
         {matched.map((item) => (
           <li key={item.slug} className="py-4">
             <Link
-              href={`/noticias/${item.slug}`}
+              href={`/noticias/articulo/${item.slug}`}
               className="block hover:text-blue transition-colors"
             >
               <span className="text-xs font-semibold uppercase text-blue">{item.category}</span>

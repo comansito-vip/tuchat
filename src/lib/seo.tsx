@@ -41,6 +41,33 @@ export function collectionJsonLd(name: string, url: string) {
   return { "@context": "https://schema.org", "@type": "CollectionPage", name, url: `${SITE}${url}` };
 }
 
+export function articleJsonLd(a: {
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+  slug: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: a.title,
+    description: a.description,
+    datePublished: a.date,
+    dateModified: a.date,
+    articleSection: a.category,
+    inLanguage: "es",
+    mainEntityOfPage: `${SITE}/noticias/articulo/${a.slug}`,
+    author: { "@type": "Organization", name: "TuChat", url: SITE },
+    publisher: {
+      "@type": "Organization",
+      name: "TuChat",
+      url: SITE,
+      logo: { "@type": "ImageObject", url: `${SITE}/opengraph-image` },
+    },
+  };
+}
+
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",

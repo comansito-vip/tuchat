@@ -25,6 +25,7 @@ export interface NewsItem {
   excerpt: string;
   date: string;          // ISO
   featured?: boolean;
+  body?: string;         // cuerpo del artículo (párrafos separados por \n\n)
 }
 
 export interface TrendItem { label: string; href: string; }
