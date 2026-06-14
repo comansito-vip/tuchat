@@ -4,9 +4,9 @@ const COLUMNS = [
   {
     heading: "TuChat",
     links: [
-      { label: "Sobre TuChat", href: "/" },
-      { label: "Cómo funciona", href: "/" },
-      { label: "Contacto", href: "/" },
+      { label: "Inicio", href: "/" },
+      { label: "Todas las salas", href: "/chat" },
+      { label: "Contacto", href: "/contacto" },
     ],
   },
   {
@@ -58,9 +58,9 @@ const COLUMNS = [
   {
     heading: "Legal",
     links: [
-      { label: "Aviso legal", href: "/" },
-      { label: "Privacidad", href: "/" },
-      { label: "Cookies", href: "/" },
+      { label: "Aviso legal", href: "/legal/aviso-legal" },
+      { label: "Privacidad", href: "/legal/privacidad" },
+      { label: "Cookies", href: "/legal/cookies" },
     ],
   },
 ];
