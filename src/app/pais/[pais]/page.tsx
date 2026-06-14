@@ -20,8 +20,8 @@ export async function generateMetadata({
   const place = getPlace(pais);
   if (place) {
     return {
-      title: `Chat de ${place.name}`,
-      description: place.intro,
+      title: `Salas de chat de ${place.name}`,
+      description: `Directorio de salas de chat de ${place.name}: explora por ciudades y temáticas y entra gratis a conocer gente de ${place.name}.`,
       alternates: { canonical: `/pais/${pais}` },
     };
   }
