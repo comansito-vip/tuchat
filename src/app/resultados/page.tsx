@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Button } from "@/components/ui/Button";
-import { LEAGUES, getLeague, getStandings } from "@/lib/sports";
+import { LEAGUES, getLeague, getStandings, getFixtures } from "@/lib/sports";
 
 // Datos en vivo: render bajo demanda.
 export const dynamic = "force-dynamic";
@@ -24,7 +24,17 @@ export default async function ResultadosPage({
   const { liga } = await searchParams;
   const slug = getLeague(liga ?? "") ? (liga as string) : "laliga";
   const league = getLeague(slug)!;
-  const { rows, source } = await getStandings(slug);
+  const [{ rows, source }, fixtures] = await Promise.all([
+    getStandings(slug),
+    getFixtures(slug),
+  ]);
+  const dateFmt = new Intl.DateTimeFormat("es-ES", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
 
   const crumbs = [
     { name: "Inicio", url: "/" },
@@ -95,6 +105,27 @@ export default async function ResultadosPage({
             : `Datos en vivo vía ${source}.`}
         </p>
       </section>
+
+      {fixtures.length > 0 && (
+        <section className="mt-10">
+          <SectionTitle>Próximos partidos</SectionTitle>
+          <Card className="divide-y divide-line">
+            {fixtures.map((f, i) => (
+              <div key={i} className="flex items-center justify-between gap-4 p-4 text-sm">
+                <span className="font-medium text-ink">
+                  {f.home} <span className="text-muted">vs</span> {f.away}
+                </span>
+                <span className="shrink-0 text-muted">
+                  {(() => {
+                    const d = new Date(f.date);
+                    return isNaN(d.getTime()) ? "" : dateFmt.format(d);
+                  })()}
+                </span>
+              </div>
+            ))}
+          </Card>
+        </section>
+      )}
 
       <div className="mt-8">
         <Button href="/webchat?canal=futbol">Entrar al chat de fútbol</Button>

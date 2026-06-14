@@ -198,3 +198,85 @@ export async function getStandings(slug: string): Promise<StandingsResult> {
   }
   return { source: "reserva", season: SEASON_SDB, rows: league.fallback };
 }
+
+// ───────────────────────── Próximos partidos ─────────────────────────
+
+export interface Fixture {
+  date: string; // ISO
+  home: string;
+  away: string;
+}
+
+async function fixturesFootballData(l: League): Promise<Fixture[]> {
+  const token = process.env.FOOTBALL_DATA_TOKEN;
+  if (!token || !l.footballData) throw new Error("football-data no disponible");
+  const res = await fetch(
+    `https://api.football-data.org/v4/competitions/${l.footballData}/matches?status=SCHEDULED`,
+    { headers: { "X-Auth-Token": token }, cache: "no-store" },
+  );
+  if (!res.ok) throw new Error(`football-data ${res.status}`);
+  const data = await res.json();
+  return (data?.matches ?? []).slice(0, 10).map((m: { utcDate: string; homeTeam: { name: string }; awayTeam: { name: string } }) => ({
+    date: m.utcDate,
+    home: m.homeTeam.name,
+    away: m.awayTeam.name,
+  }));
+}
+
+async function fixturesApiFootball(l: League): Promise<Fixture[]> {
+  const key = process.env.API_FOOTBALL_KEY;
+  if (!key || !l.apiFootball) throw new Error("api-football no disponible");
+  const res = await fetch(
+    `https://v3.football.api-sports.io/fixtures?league=${l.apiFootball}&season=${SEASON_YEAR}&next=10`,
+    { headers: { "x-apisports-key": key }, cache: "no-store" },
+  );
+  if (!res.ok) throw new Error(`api-football ${res.status}`);
+  const data = await res.json();
+  return (data?.response ?? []).map((f: { fixture: { date: string }; teams: { home: { name: string }; away: { name: string } } }) => ({
+    date: f.fixture.date,
+    home: f.teams.home.name,
+    away: f.teams.away.name,
+  }));
+}
+
+async function fixturesTheSportsDB(l: League): Promise<Fixture[]> {
+  const key = process.env.THESPORTSDB_KEY || "3";
+  const res = await fetch(
+    `https://www.thesportsdb.com/api/v1/json/${key}/eventsnextleague.php?id=${l.theSportsDB}`,
+    { cache: "no-store" },
+  );
+  if (!res.ok) throw new Error(`thesportsdb ${res.status}`);
+  const data = await res.json();
+  const events = data?.events;
+  if (!Array.isArray(events) || events.length === 0) throw new Error("thesportsdb sin partidos");
+  return events.slice(0, 10).map((e: Record<string, string>) => ({
+    date: e.strTimestamp || `${e.dateEvent}T${e.strTime || "00:00:00"}`,
+    home: e.strHomeTeam,
+    away: e.strAwayTeam,
+  }));
+}
+
+const FIXTURE_PROVIDERS = [fixturesFootballData, fixturesApiFootball, fixturesTheSportsDB];
+
+/** Próximos partidos de una liga, con la misma cadena de fallback. */
+export async function getFixtures(slug: string): Promise<Fixture[]> {
+  const league = getLeague(slug);
+  if (!league) return [];
+  for (const fetchFixtures of FIXTURE_PROVIDERS) {
+    try {
+      const rows = await fetchFixtures(league);
+      if (rows.length > 0) return rows;
+    } catch {
+      /* siguiente proveedor */
+    }
+  }
+  return [];
+}
+
+/** Equipos (slug de sala) → liga cuya clasificación les corresponde. */
+export const TEAM_LEAGUE: Record<string, string> = {
+  "real-madrid": "laliga",
+  "fc-barcelona": "laliga",
+  "atletico-madrid": "laliga",
+  "america-mexico": "ligamx",
+};

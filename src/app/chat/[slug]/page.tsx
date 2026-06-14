@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
+import { LeagueStandings } from "@/components/room/LeagueStandings";
+import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { RelatedRooms } from "@/components/room/RelatedRooms";
 import { FAQBlock } from "@/components/room/FAQBlock";
@@ -136,8 +138,14 @@ export default async function ChatRoomPage({
         </div>
 
         {/* RIGHT column — info panel (sticky on lg) */}
-        <aside className="self-start lg:sticky lg:top-20">
+        <aside className="self-start lg:sticky lg:top-20 space-y-4">
           <RoomInfoPanel place={place} />
+          {TEAM_LEAGUE[place.slug] && (
+            <LeagueStandings
+              liga={TEAM_LEAGUE[place.slug]}
+              leagueName={getLeague(TEAM_LEAGUE[place.slug])?.name ?? ""}
+            />
+          )}
         </aside>
       </div>
 
