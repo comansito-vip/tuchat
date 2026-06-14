@@ -4,7 +4,7 @@ import type { Place } from "./types";
 // equipos de fútbol, esoterismo, cultura, LGTBI y comunidad latina. Contenido
 // único por sala (regla anti-IA). Se incluyen en /chat, el catálogo y el sitemap,
 // pero NO en el carrusel de categorías de la home (ver getPrimaryTopics).
-export const TOPICS_EXTRA: Place[] = [
+const RAW: Place[] = [
   // ───────────────────────── Anime ─────────────────────────
   {
     slug: "naruto",
@@ -515,3 +515,49 @@ export const TOPICS_EXTRA: Place[] = [
       "Chat que une a la comunidad hispana de todo el mundo, especialmente a quienes viven en Estados Unidos, España y Latinoamérica y comparten el idioma como hogar. Se habla de la vida lejos del país de origen, oportunidades, cultura, música y los pequeños detalles que nos identifican como hispanohablantes. Es un lugar para hacer amistades, sentirse acompañado y mantener vivas las raíces estés donde estés. Ambiente cercano, plural y respetuoso, donde el español nos junta por encima de cualquier frontera.",
   },
 ];
+
+// Tema padre de cada vertical, para migas de pan jerárquicas y enlazado interno.
+// El padre debe ser un slug de temática existente (TOPICS o TOPICS_EXTRA).
+const PARENT: Record<string, { slug: string; name: string }> = {
+  // Anime → Anime
+  naruto: { slug: "anime", name: "Anime" },
+  "dragon-ball": { slug: "anime", name: "Anime" },
+  "one-piece": { slug: "anime", name: "Anime" },
+  "kimetsu-no-yaiba": { slug: "anime", name: "Anime" },
+  "jujutsu-kaisen": { slug: "anime", name: "Anime" },
+  pokemon: { slug: "anime", name: "Anime" },
+  manga: { slug: "anime", name: "Anime" },
+  // Equipos → Fútbol; Fórmula 1 → Deportes
+  "real-madrid": { slug: "futbol", name: "Fútbol" },
+  "fc-barcelona": { slug: "futbol", name: "Fútbol" },
+  "atletico-madrid": { slug: "futbol", name: "Fútbol" },
+  "boca-juniors": { slug: "futbol", name: "Fútbol" },
+  "river-plate": { slug: "futbol", name: "Fútbol" },
+  "america-mexico": { slug: "futbol", name: "Fútbol" },
+  "formula-1": { slug: "deportes", name: "Deportes" },
+  // Esoterismo → Tarot (hub esotérico existente)
+  esoterismo: { slug: "tarot", name: "Tarot" },
+  videncia: { slug: "tarot", name: "Tarot" },
+  astrologia: { slug: "tarot", name: "Tarot" },
+  magia: { slug: "tarot", name: "Tarot" },
+  // Cultura → hijos de Cultura (cultura queda como vertical raíz)
+  literatura: { slug: "cultura", name: "Cultura" },
+  debate: { slug: "cultura", name: "Cultura" },
+  historia: { slug: "cultura", name: "Cultura" },
+  // LGTBI → LGTBI
+  chueca: { slug: "lgtbi", name: "LGTBI" },
+  gay: { slug: "lgtbi", name: "LGTBI" },
+  bisexuales: { slug: "lgtbi", name: "LGTBI" },
+  trans: { slug: "lgtbi", name: "LGTBI" },
+  "gay-madrid": { slug: "lgtbi", name: "LGTBI" },
+  "gay-barcelona": { slug: "lgtbi", name: "LGTBI" },
+  // LatinChat → hijos de Latinos (latinos queda como vertical raíz)
+  latinas: { slug: "latinos", name: "Latinos" },
+  latinoamerica: { slug: "latinos", name: "Latinos" },
+  hispanos: { slug: "latinos", name: "Latinos" },
+};
+
+export const TOPICS_EXTRA: Place[] = RAW.map((p) => {
+  const parent = PARENT[p.slug];
+  return parent ? { ...p, parentSlug: parent.slug, parentName: parent.name } : p;
+});

@@ -28,5 +28,9 @@ export function getRanking(): Place[] {
 export function getRelated(slugs: string[]): Place[] {
   return slugs.map(getPlace).filter((p): p is Place => Boolean(p));
 }
+// Salas hijas de un lugar (ciudades de un país, sub-salas de una temática).
+export function getChildren(slug: string): Place[] {
+  return ALL.filter((p) => p.parentSlug === slug);
+}
 export * from "./types";
 export { CONTINENTS } from "./countries";

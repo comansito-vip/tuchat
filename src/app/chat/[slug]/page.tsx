@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPlace, getCountries, getCities, getTopics } from "@/data";
+import { getPlace, getCountries, getCities, getTopics, getChildren } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+import { RoomCard } from "@/components/home/RoomCard";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { RelatedRooms } from "@/components/room/RelatedRooms";
@@ -44,6 +45,9 @@ export default async function ChatRoomPage({
   const bullets = roomBullets(place);
   const aboutText = place.about ?? place.intro;
   const extraLead = aboutLead(place);
+  const children = getChildren(place.slug);
+  const childrenTitle =
+    place.kind === "pais" ? `Ciudades de ${place.name}` : `Más salas de ${place.name}`;
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -136,6 +140,18 @@ export default async function ChatRoomPage({
           <RoomInfoPanel place={place} />
         </aside>
       </div>
+
+      {/* Child rooms (cities of a country / sub-rooms of a topic) */}
+      {children.length > 0 && (
+        <section className="mt-10">
+          <SectionTitle>{childrenTitle}</SectionTitle>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {children.map((c) => (
+              <RoomCard key={c.slug} place={c} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Related rooms */}
       <section className="mt-10">
