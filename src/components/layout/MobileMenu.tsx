@@ -27,7 +27,7 @@ const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = 
     heading: "Servicios",
     links: [
       { label: "Noticias", href: "/noticias" },
-      { label: "Horóscopo", href: "/horoscopo/aries" },
+      { label: "Horóscopo", href: "/horoscopo" },
       { label: "El tiempo", href: "/tiempo/madrid" },
       { label: "Loterías", href: "/loterias/espana" },
     ],

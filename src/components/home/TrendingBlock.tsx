@@ -5,7 +5,7 @@ const TRENDS: { label: string; href: string }[] = [
   { label: "Mundial 2026: calendario y grupos", href: "/noticias" },
   { label: "Resultados deportivos de hoy", href: "/noticias" },
   { label: "Lotería y sorteos del día", href: "/loterias/espana" },
-  { label: "Horóscopo diario", href: "/horoscopo/aries" },
+  { label: "Horóscopo diario", href: "/horoscopo" },
   { label: "El tiempo por ciudades", href: "/tiempo/madrid" },
   { label: "Lo último en tecnología e IA", href: "/noticias" },
   { label: "Actualidad de España y Latinoamérica", href: "/noticias" },
