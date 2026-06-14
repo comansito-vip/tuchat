@@ -1,5 +1,6 @@
 import type { Place } from "@/data";
 import { Card } from "@/components/ui/Card";
+import { VoteButton } from "@/components/room/VoteButton";
 
 function kindLabel(kind: Place["kind"]): string {
   if (kind === "pais") return "País";
@@ -45,6 +46,13 @@ export function RoomInfoPanel({ place }: { place: Place }) {
           <dd className="flex items-center gap-1.5 font-medium text-ink">
             <span className="inline-block h-2 w-2 rounded-full bg-active" aria-hidden="true" />
             {place.activity}
+          </dd>
+        </div>
+
+        <div className="flex items-center justify-between gap-2">
+          <dt className="text-muted">Votos</dt>
+          <dd>
+            <VoteButton slug={place.slug} votes={place.votes} />
           </dd>
         </div>
 
