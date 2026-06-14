@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 Disallow: /webchat
 Disallow: /admin
+Disallow: /api
 
 # Host
 Host: https://tuchat.org
