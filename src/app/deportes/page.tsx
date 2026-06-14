@@ -5,7 +5,6 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
-import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Chat de deportes y fútbol: salas por equipo",
@@ -49,7 +48,6 @@ export default function DeportesPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
 
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de deportes y fútbol</h1>
       <p className="mt-2 max-w-2xl text-muted">

@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { ARCANOS_MAYORES, cartaDelDia } from "@/data/tarot";
-import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 // Refresca la carta del día una vez al día.
 export const revalidate = 86400;
@@ -43,7 +42,6 @@ export default function TarotPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
 
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Tarot online gratis</h1>
       <p className="mt-2 max-w-2xl text-muted">
