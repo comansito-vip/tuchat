@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RankingTable } from "@/components/home/RankingTable";
+import { getGlobalRanking } from "@/lib/ranking";
+
+// Refleja los votos en vivo de la comunidad.
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Ranking de salas de chat",
@@ -14,7 +18,8 @@ const crumbs = [
   { name: "Ranking", url: "/ranking" },
 ];
 
-export default function RankingPage() {
+export default async function RankingPage() {
+  const ranking = await getGlobalRanking(10);
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
@@ -24,7 +29,7 @@ export default function RankingPage() {
         actividad y los votos de los usuarios.
       </p>
       <div className="mt-6">
-        <RankingTable />
+        <RankingTable ranking={ranking} />
       </div>
     </main>
   );

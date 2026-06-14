@@ -1,9 +1,8 @@
 "use client";
 
-import { useCallback, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const STORAGE_KEY = "tuchat_votes";
-const EVENT = "tuchat_votes_change";
 
 function readVoted(): Record<string, true> {
   try {
@@ -13,45 +12,76 @@ function readVoted(): Record<string, true> {
   }
 }
 
-function subscribe(cb: () => void) {
-  window.addEventListener("storage", cb);
-  window.addEventListener(EVENT, cb);
-  return () => {
-    window.removeEventListener("storage", cb);
-    window.removeEventListener(EVENT, cb);
-  };
-}
-
 /**
- * Botón de voto de una sala. El conteo base (`votes`) es estático/servidor; el
- * voto del usuario se guarda en localStorage (sin backend) y se suma de forma
- * optimista. Usa useSyncExternalStore para una lectura segura en hidratación:
- * en servidor y primer render devuelve `false`, luego sincroniza con el store.
+ * Botón de voto de una sala. Persiste el voto en el servidor (/api/vote) y
+ * refleja el conteo global. localStorage evita votar dos veces desde el mismo
+ * navegador. Si el backend no responde, degrada a un incremento optimista local.
  */
 export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
-  const getSnapshot = useCallback(() => Boolean(readVoted()[slug]), [slug]);
-  const voted = useSyncExternalStore(subscribe, getSnapshot, () => false);
+  const [count, setCount] = useState(votes);
+  const [voted, setVoted] = useState(false);
+  const [busy, setBusy] = useState(false);
 
-  const toggle = useCallback(() => {
-    const store = readVoted();
-    if (store[slug]) delete store[slug];
-    else store[slug] = true;
-    try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
-    } catch {
-      /* almacenamiento no disponible: el voto vive solo hasta recargar */
+  useEffect(() => {
+    let cancelled = false;
+    async function load() {
+      const alreadyVoted = Boolean(readVoted()[slug]);
+      try {
+        const res = await fetch(`/api/vote?slug=${encodeURIComponent(slug)}`, {
+          cache: "no-store",
+        });
+        if (res.ok && !cancelled) {
+          const data = await res.json();
+          setCount(data.votes);
+        }
+      } catch {
+        /* sin backend: mantenemos el conteo base */
+      }
+      if (!cancelled) setVoted(alreadyVoted);
     }
-    window.dispatchEvent(new Event(EVENT));
+    load();
+    return () => {
+      cancelled = true;
+    };
   }, [slug]);
 
-  const count = votes + (voted ? 1 : 0);
+  const vote = useCallback(async () => {
+    if (voted || busy) return;
+    setBusy(true);
+    // Optimista
+    setVoted(true);
+    setCount((c) => c + 1);
+    try {
+      const store = readVoted();
+      store[slug] = true;
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
+    } catch {
+      /* almacenamiento no disponible */
+    }
+    try {
+      const res = await fetch("/api/vote", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ slug }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setCount(data.votes); // conteo autoritativo del servidor
+      }
+    } catch {
+      /* el voto queda al menos reflejado de forma optimista */
+    } finally {
+      setBusy(false);
+    }
+  }, [slug, voted, busy]);
 
   return (
     <button
       type="button"
-      onClick={toggle}
+      onClick={vote}
+      disabled={voted || busy}
       aria-pressed={voted}
-      title={voted ? "Quitar mi voto" : "Votar esta sala"}
+      title={voted ? "Ya has votado esta sala" : "Votar esta sala"}
       className={
         "flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
         (voted

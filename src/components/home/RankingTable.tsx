@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
-import { getRanking } from "@/data";
+import { getRanking, type Place } from "@/data";
 
 const kindLabel: Record<string, string> = {
   pais: "País",
@@ -19,8 +19,8 @@ function PositionBadge({ pos }: { pos: number }) {
   return <span className="text-muted text-sm">{pos}</span>;
 }
 
-export function RankingTable() {
-  const ranking = getRanking();
+export function RankingTable({ ranking }: { ranking?: Place[] }) {
+  const rows = ranking ?? getRanking();
 
   return (
     <Card className="overflow-x-auto">
@@ -35,7 +35,7 @@ export function RankingTable() {
           </tr>
         </thead>
         <tbody>
-          {ranking.map((place, i) => (
+          {rows.map((place, i) => (
             <tr key={place.slug} className="border-t border-line">
               <td className="px-4 py-3 text-center">
                 <PositionBadge pos={i + 1} />

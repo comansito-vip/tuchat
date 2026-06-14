@@ -43,3 +43,6 @@ next-env.d.ts
 # project brief / brainstorm files (not part of the codebase)
 .superpowers/
 _brief/
+
+# Local votes store
+.data/
