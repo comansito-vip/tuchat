@@ -7,7 +7,16 @@ import { TrendingBlock } from "@/components/home/TrendingBlock";
 import { NewsGrid } from "@/components/home/NewsGrid";
 import { RankingTable } from "@/components/home/RankingTable";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+import { Card } from "@/components/ui/Card";
+import Link from "next/link";
 import { getRooms } from "@/data";
+
+const HUBS = [
+  { href: "/deportes", icon: "⚽", title: "Deportes", desc: "Salas por equipo y resultados en vivo" },
+  { href: "/resultados", icon: "🏆", title: "Resultados", desc: "Clasificaciones de las grandes ligas" },
+  { href: "/tarot", icon: "🔮", title: "Tarot", desc: "Carta del día y significado de las cartas" },
+  { href: "/anime", icon: "🎌", title: "Anime", desc: "Salas por serie y comunidad otaku" },
+];
 
 export default function HomePage() {
   const rooms = getRooms();
@@ -41,6 +50,21 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-10">
         <SectionTitle>Temáticas</SectionTitle>
         <CategoryGrid />
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-10">
+        <SectionTitle>Secciones destacadas</SectionTitle>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          {HUBS.map((h) => (
+            <Link key={h.href} href={h.href} className="block">
+              <Card className="h-full p-4 transition-colors hover:border-blue">
+                <div className="text-2xl" aria-hidden="true">{h.icon}</div>
+                <div className="mt-1 font-semibold text-ink">{h.title}</div>
+                <p className="mt-0.5 text-sm text-muted">{h.desc}</p>
+              </Card>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <TrendingBlock />
