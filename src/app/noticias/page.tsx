@@ -7,7 +7,7 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, articleListJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Noticias en español — Actualidad, deportes, tecnología",
+  title: "Noticias en español — Actualidad y últimas noticias",
   description:
     "Las últimas noticias en español: actualidad, deportes, tecnología, cultura, viajes, salud y economía. Seleccionadas por la comunidad de TuChat.",
   alternates: { canonical: "/noticias" },

@@ -20,7 +20,7 @@ export async function generateMetadata({
   const league = getLeague(liga);
   if (!league) return {};
   return {
-    title: `Clasificación ${league.name} — resultados en vivo`,
+    title: `${league.name} — clasificación y tabla`,
     description: `Clasificación actualizada de ${league.name}. Sigue la jornada en directo y comenta los resultados en el chat de deportes de TuChat.`,
     alternates: { canonical: `/resultados/${liga}` },
   };

@@ -12,7 +12,7 @@ import { getRelated } from "@/data";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Tarot online gratis: carta del día y significado de las cartas",
+  title: "Tarot online: carta del día y Arcanos Mayores",
   description:
     "Consulta la carta del tarot de hoy y el significado de los 22 Arcanos Mayores. Entra gratis al chat de tarot y comparte tus tiradas con otros aficionados.",
   alternates: { canonical: "/tarot" },
