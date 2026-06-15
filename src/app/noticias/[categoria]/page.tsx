@@ -127,7 +127,7 @@ export default async function CategoriaPage({
     <ScaffoldPage
       title={`Noticias de ${nombre}`}
       crumbs={crumbs}
-      intro={`Todas las noticias de ${nombre} en español. Aquí encontrarás los artículos más recientes sobre ${nombre.toLowerCase()} seleccionados por la comunidad de TuChat.`}
+      intro={`Todas las noticias de ${nombre} en español. Aquí encontrarás los artículos más recientes seleccionados por la comunidad de TuChat.`}
       placeholder={false}
     >
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
