@@ -124,7 +124,7 @@ export default async function ChatRoomPage({
 
           {/* Salas relacionadas (encima de noticias) */}
           {place.related.length > 0 && (
-            <section className="mt-8">
+            <section id="relacionadas" className="mt-8">
               <SectionTitle>Otras salas que te pueden gustar</SectionTitle>
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {getRelated(place.related).slice(0, 6).map((r) => (
