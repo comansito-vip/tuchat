@@ -23,6 +23,7 @@ export async function generateMetadata({
     title: `${league.name} — clasificación y tabla`,
     description: `Clasificación actualizada de ${league.name}. Sigue la jornada en directo y comenta los resultados en el chat de deportes de TuChat.`,
     alternates: { canonical: `/resultados/${liga}` },
+    openGraph: { url: `/resultados/${liga}` },
   };
 }
 

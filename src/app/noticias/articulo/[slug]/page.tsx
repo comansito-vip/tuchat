@@ -33,7 +33,7 @@ export async function generateMetadata({
     title: a.title,
     description: a.excerpt,
     alternates: { canonical: `/noticias/articulo/${a.slug}` },
-    openGraph: { type: "article", publishedTime: `${a.date}T00:00:00Z` },
+    openGraph: { type: "article", url: `/noticias/articulo/${a.slug}`, publishedTime: `${a.date}T00:00:00Z` },
   };
 }
 

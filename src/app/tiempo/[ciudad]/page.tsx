@@ -23,6 +23,7 @@ export async function generateMetadata({
     title: `Previsión del tiempo en ${nombre}`,
     description: `Previsión del tiempo en ${nombre}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
     alternates: { canonical: `/tiempo/${ciudad}` },
+    openGraph: { url: `/tiempo/${ciudad}` },
   };
 }
 

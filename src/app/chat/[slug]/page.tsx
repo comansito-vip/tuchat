@@ -38,6 +38,7 @@ export async function generateMetadata({
     title: ROOM_TITLES[slug] ?? `Chat ${place.name} gratis`,
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
+    openGraph: { url: `/chat/${place.slug}` },
   };
 }
 

@@ -23,6 +23,7 @@ export async function generateMetadata({
     title: `Loterías de ${nombre} — resultados`,
     description: `Resultados de las loterías y sorteos más populares de ${nombre}: números premiados, fechas de próximos sorteos y premios actualizados en TuChat.`,
     alternates: { canonical: `/loterias/${pais}` },
+    openGraph: { url: `/loterias/${pais}` },
   };
 }
 

@@ -32,6 +32,7 @@ export async function generateMetadata({
     title: `Horóscopo ${sign.name}: amor, trabajo y salud`,
     description: `Horóscopo de ${sign.name} (${sign.dates}). Predicciones de amor, trabajo y salud, personalidad, compatibilidad y rasgos del signo.`,
     alternates: { canonical: `/horoscopo/${sign.slug}` },
+    openGraph: { url: `/horoscopo/${sign.slug}` },
   };
 }
 
