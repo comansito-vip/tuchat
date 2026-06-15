@@ -2,13 +2,13 @@ import Link from "next/link";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
 const TRENDS: { label: string; href: string }[] = [
-  { label: "Mundial 2026: calendario y grupos", href: "/noticias" },
-  { label: "Resultados deportivos de hoy", href: "/noticias" },
+  { label: "Resultados y clasificaciones en vivo", href: "/resultados/laliga" },
+  { label: "Debate deportivo: fútbol, baloncesto y más", href: "/deportes" },
   { label: "Lotería y sorteos del día", href: "/loterias/espana" },
-  { label: "Horóscopo diario", href: "/horoscopo" },
+  { label: "Horóscopo diario de los 12 signos", href: "/horoscopo" },
   { label: "El tiempo por ciudades", href: "/tiempo/madrid" },
-  { label: "Lo último en tecnología e IA", href: "/noticias" },
-  { label: "Actualidad de España y Latinoamérica", href: "/noticias" },
+  { label: "Lo último en tecnología e IA", href: "/noticias/tecnologia" },
+  { label: "Actualidad de España y Latinoamérica", href: "/noticias/actualidad" },
 ];
 
 export function TrendingBlock() {
