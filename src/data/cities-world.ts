@@ -4,424 +4,7 @@ import type { Place } from "./types";
 // capitales de provincia de España, grandes urbes de Hispanoamérica y ciudades
 // del mundo con comunidad hispana. Contenido único por ciudad (regla anti-IA).
 export const CITIES_WORLD: Place[] = [
-  // ───────────────────────── España ─────────────────────────
-  {
-    slug: "murcia",
-    name: "Murcia",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 268,
-    votes: 540,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["murcia", "espana", "amistad", "chatzona"],
-    related: ["alicante", "almeria", "valencia", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Murcia para conocer gente de la huerta, hablar en directo y quedar con usuarios de la ciudad y la Región.",
-    about:
-      "En el chat de Murcia se nota el acento de la huerta y las ganas de quedar en la Trapería o en las terrazas de la plaza de las Flores. Se habla de los Bandos de la Huerta, del zarangollo y el pastel de carne, del calor de agosto y de las escapadas a la playa de La Manga. Gente cercana, de tapeo y marineta, que tira de michirones y buen humor.",
-  },
-  {
-    slug: "valladolid",
-    name: "Valladolid",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 214,
-    votes: 430,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["valladolid", "espana", "amistad", "chatzona"],
-    related: ["salamanca", "leon", "burgos", "madrid", "espana", "amistad"],
-    intro:
-      "Entra en el chat de Valladolid para conocer pucelanos, hablar en directo y quedar de vinos por la Plaza Mayor.",
-    about:
-      "El chat de Valladolid junta a pucelanos que presumen de Plaza Mayor, de los vinos de la calle Correos y del Ribera del Duero a buen precio. Se habla de la Semana Santa de tallas y silencio, del Pisuerga, del Pingüino para el frío del invierno castellano y de la Seminci en otoño. Conversaciones tranquilas, con sorna castellana y mucho tapeo en la zona de Coca y San Miguel.",
-  },
-  {
-    slug: "cordoba",
-    name: "Córdoba",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 198,
-    votes: 410,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["cordoba", "espana", "amistad", "chatzona"],
-    related: ["sevilla", "granada", "malaga", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Córdoba para conocer gente, hablar en directo y quedar entre patios y callejuelas de la Judería.",
-    about:
-      "En el chat de Córdoba se habla de la Mezquita al amanecer, de los patios floridos de mayo y del calor de julio que derrite el asfalto. Salmorejo, flamenquín y rabo de toro salen en cualquier conversación, igual que la Feria de Mayo y las cruces. Cordobeses orgullosos de su casco viejo, del puente romano sobre el Guadalquivir y de tomarse las cosas con la calma del sur.",
-  },
-  {
-    slug: "granada",
-    name: "Granada",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 256,
-    votes: 520,
-    tag: "Tendencia",
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["granada", "espana", "amistad", "chatzona"],
-    related: ["malaga", "cordoba", "sevilla", "almeria", "espana", "amistad"],
-    intro:
-      "Entra en el chat de Granada para conocer gente, hablar en directo y quedar de tapas gratis con la Alhambra de fondo.",
-    about:
-      "El chat de Granada vive del ambiente universitario y de las tapas que aún regalan con la caña. Se habla del Albaicín y sus carmen, de las puestas de sol del Mirador de San Nicolás con la Alhambra enfrente, de las teterías de la Calderería y de irse a esquiar a Sierra Nevada en pleno invierno. Gente mezclada, estudiantes y granaínos de toda la vida, con su quejío y su mala follá tan célebre.",
-  },
-  {
-    slug: "gijon",
-    name: "Gijón",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 187,
-    votes: 380,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["gijon", "espana", "amistad", "chatzona"],
-    related: ["oviedo", "santander", "leon", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Gijón para conocer xixoneses, hablar en directo y quedar en el paseo de San Lorenzo.",
-    about:
-      "En el chat de Gijón se respira el Cantábrico de la playa de San Lorenzo y del barrio pescador de Cimavilla. Se escancia sidra culín a culín, se habla de la Semana Negra de verano, del Sporting en El Molinón y de los cachopos que no caben en el plato. Xixoneses de carácter abierto y noche larga, que presumen del Cerro de Santa Catalina y del orbayu que no perdona ni en agosto.",
-  },
-  {
-    slug: "oviedo",
-    name: "Oviedo",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 176,
-    votes: 350,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["oviedo", "espana", "amistad", "chatzona"],
-    related: ["gijon", "leon", "santander", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Oviedo para conocer carbayones, hablar en directo y quedar por el casco antiguo.",
-    about:
-      "El chat de Oviedo reúne a carbayones que pasean por el casco antiguo limpio y burgués que tanto gustaba a Woody Allen. Se habla de las sidrerías de la calle Gascona, del Naranco con Santa María al fondo, de la fabada que sienta en invierno y del antroxu en febrero. Gente que distingue bien lo suyo de lo de Gijón, con su orgullo de capital del Principado y su elegancia algo señorial.",
-  },
-  {
-    slug: "palma",
-    name: "Palma",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 231,
-    votes: 470,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["palma", "espana", "amistad", "chatzona"],
-    related: ["valencia", "barcelona", "alicante", "espana", "amistad", "viajes"],
-    intro:
-      "Entra en el chat de Palma para conocer gente de Mallorca, hablar en directo y quedar junto al mar.",
-    about:
-      "En el chat de Palma se mezcla el mallorquín de toda la vida con quien llegó por el clima y se quedó. Se habla del Paseo del Borne, de la Catedral de la Seu reflejada en el mar, de la ensaimada y el pa amb oli, y de huir de los cruceros buscando una cala tranquila. Conversaciones de isla: ritmo pausado en invierno, hervidero en verano, y la queja eterna del precio de los alquileres.",
-  },
-  {
-    slug: "las-palmas",
-    name: "Las Palmas de Gran Canaria",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 223,
-    votes: 460,
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["las-palmas", "espana", "amistad", "chatzona"],
-    related: ["tenerife", "malaga", "palma", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Las Palmas para conocer canariones, hablar en directo y quedar en Las Canteras.",
-    about:
-      "El chat de Las Palmas de Gran Canaria gira en torno a la playa de Las Canteras y a su veintipico grados todo el año. Se habla del Carnaval con sus drag queens, de las papas arrugadas con mojo picón, del barrio de Vegueta y de bañarse en pleno diciembre. Gente isleña con su seseo y su aché, que celebra que aquí no se cambia de armario y que en una hora plantas la toalla en la arena.",
-  },
-  {
-    slug: "pamplona",
-    name: "Pamplona",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 184,
-    votes: 390,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["pamplona", "espana", "amistad", "chatzona"],
-    related: ["san-sebastian", "bilbao", "zaragoza", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Pamplona para conocer gente de Navarra, hablar en directo y quedar por el Casco Viejo.",
-    about:
-      "En el chat de Pamplona los Sanfermines marcan el calendario, pero la ciudad es mucho más que el 7 de julio. Se habla de los pintxos del Casco Viejo, de la Plaza del Castillo y el café del Iruña, de la Ciudadela para correr y de los Caídos al fondo. Gente del norte, directa y de cuadrilla cerrada, que aguanta el frío con un buen vino de Navarra y poteo de calle Estafeta.",
-  },
-  {
-    slug: "san-sebastian",
-    name: "San Sebastián",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 209,
-    votes: 440,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["san-sebastian", "espana", "amistad", "chatzona"],
-    related: ["bilbao", "pamplona", "santander", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de San Sebastián para conocer donostiarras, hablar en directo y quedar de pintxos por la Parte Vieja.",
-    about:
-      "El chat de San Sebastián tiene el sabor de los pintxos de la Parte Vieja y la postal de la Concha con la isla de Santa Clara. Se habla del Zinemaldia en septiembre, de subir al Monte Igueldo, de la Tamborrada que no deja dormir el 20 de enero y de surfear en la Zurriola. Donostiarras presumidos de su ciudad, su gastronomía estrellada y el verde imposible de un sirimiri que cae casi todo el año.",
-  },
-  {
-    slug: "santander",
-    name: "Santander",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 172,
-    votes: 350,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["santander", "espana", "amistad", "chatzona"],
-    related: ["bilbao", "oviedo", "gijon", "san-sebastian", "espana", "amistad"],
-    intro:
-      "Entra en el chat de Santander para conocer gente de Cantabria, hablar en directo y quedar en el Sardinero.",
-    about:
-      "En el chat de Santander se habla de los baños en El Sardinero, del Palacio de la Magdalena y de pasear por la bahía hacia el Centro Botín. Rabas para acompañar la caña, cursos de verano de la UIMP y el recuerdo del gran incendio que rehízo media ciudad. Gente cántabra de trato llano, que aguanta el viento del norte y se escapa a los pueblos de Cabárceno o Comillas en cuanto sale el sol.",
-  },
-  {
-    slug: "cadiz",
-    name: "Cádiz",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 195,
-    votes: 410,
-    tag: "Tendencia",
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["cadiz", "espana", "amistad", "chatzona"],
-    related: ["sevilla", "malaga", "cordoba", "granada", "espana", "amistad"],
-    intro:
-      "Entra en el chat de Cádiz para conocer gaditanos, hablar en directo y quedar entre playa y carnaval.",
-    about:
-      "El chat de Cádiz es pura guasa gaditana: aquí se habla con coplas del Carnaval en la boca y poca vergüenza. Se cuentan las puestas de sol en La Caleta, los pescaítos fritos del barrio de la Viña, las tardes en La Playa Victoria y lo de ser la ciudad más antigua de Occidente. Gente abierta, salada y de cachondeo fácil, que vive de cara al Atlántico y al levante que vuelve loco a todo el mundo.",
-  },
-  {
-    slug: "almeria",
-    name: "Almería",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 158,
-    votes: 320,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["almeria", "espana", "amistad", "chatzona"],
-    related: ["granada", "murcia", "malaga", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Almería para conocer gente, hablar en directo y quedar entre el desierto y el Cabo de Gata.",
-    about:
-      "En el chat de Almería se habla del sol que casi nunca falta, de la Alcazaba mirando al puerto y de las calas vírgenes del Cabo de Gata. Tapa gratis con la caña, paseos por el desierto de Tabernas donde se rodaron westerns y los caballos del agua en la Feria de agosto. Gente del sureste, tranquila y de poco postureo, que presume de tener playa de cine y un clima que envidia media España.",
-  },
-  {
-    slug: "tenerife",
-    name: "Santa Cruz de Tenerife",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 217,
-    votes: 450,
-    activity: "Alta",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["tenerife", "espana", "amistad", "chatzona"],
-    related: ["las-palmas", "palma", "malaga", "espana", "amistad", "viajes"],
-    intro:
-      "Entra en el chat de Santa Cruz de Tenerife para conocer chicharreros, hablar en directo y quedar con el Teide de fondo.",
-    about:
-      "El chat de Santa Cruz de Tenerife vive volcado en su Carnaval, uno de los más grandes del mundo, y en el Teide nevado que se ve desde la ciudad. Se habla del Auditorio de Calatrava, de la playa de Las Teresitas con su arena traída del Sáhara y de subirse a La Laguna a tomar algo. Chicharreros de habla canaria y trato suave, que presumen del mejor clima y de tener montaña y mar a un paso.",
-  },
-  {
-    slug: "salamanca",
-    name: "Salamanca",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 181,
-    votes: 370,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["salamanca", "espana", "amistad", "chatzona"],
-    related: ["valladolid", "leon", "madrid", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Salamanca para conocer gente, hablar en directo y quedar de cañas en la Plaza Mayor.",
-    about:
-      "El chat de Salamanca respira ambiente universitario y piedra dorada de Villamayor. Se habla de buscar la rana de la fachada, de las terrazas de la Plaza Mayor al atardecer, del hornazo y del farolillo de los Erasmus que llenan los bares de la Van Dyck. Conversaciones jóvenes y de paso, mezcla de salmantinos y estudiantes de medio mundo, con la Catedral y el Tormes presidiendo cada postal.",
-  },
-  {
-    slug: "leon",
-    name: "León",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 169,
-    votes: 340,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["leon", "espana", "amistad", "chatzona"],
-    related: ["oviedo", "valladolid", "salamanca", "gijon", "espana", "amistad"],
-    intro:
-      "Entra en el chat de León para conocer leoneses, hablar en directo y quedar de tapas por el Barrio Húmedo.",
-    about:
-      "En el chat de León las tapas gratis del Barrio Húmedo son religión: pides la caña y cae algo de comer. Se habla de la Catedral de las mil vidrieras, de la Casa Botines de Gaudí, de la Semana Santa y los Procuradores, y del frío que pela en el páramo. Cecina, morcilla y mucho orgullo de reino antiguo: leoneses de carácter recio que defienden su provincia y su historia con uñas y dientes.",
-  },
-  {
-    slug: "burgos",
-    name: "Burgos",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 162,
-    votes: 330,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["burgos", "espana", "amistad", "chatzona"],
-    related: ["valladolid", "santander", "bilbao", "leon", "espana", "amistad"],
-    intro:
-      "Entra en el chat de Burgos para conocer burgaleses, hablar en directo y quedar al pie de la Catedral.",
-    about:
-      "El chat de Burgos tiene el sello de la Catedral gótica y del Cid cabalgando en el Espolón. Se habla de la morcilla con su arroz, del lechazo, del queso fresco y del frío de nueve meses de invierno que es marca de la casa. Atapuerca y los primeros europeos salen también en la charla. Burgaleses sobrios y de pocas palabras, que presumen de su catedral Patrimonio y de aguantar el cierzo sin rechistar.",
-  },
-  {
-    slug: "tarragona",
-    name: "Tarragona",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 166,
-    votes: 340,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["tarragona", "espana", "amistad", "chatzona"],
-    related: ["barcelona", "girona", "valencia", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Tarragona para conocer gente, hablar en directo y quedar entre ruinas romanas y playa.",
-    about:
-      "En el chat de Tarragona conviven las ruinas romanas y el mar: el Anfiteatro junto a la playa, el Balcó del Mediterrani y el acueducto del Pont del Diable. Se habla de los castells que levantan las colles, de los calçots en temporada, del Santa Tecla en septiembre y del romesco. Gente del Camp de Tarragona, abierta y mediterránea, orgullosa de su Tarraco Patrimonio y de no ser solo el patio trasero de Barcelona.",
-  },
-  {
-    slug: "girona",
-    name: "Girona",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 154,
-    votes: 310,
-    activity: "Baja",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["girona", "espana", "amistad", "chatzona"],
-    related: ["barcelona", "tarragona", "valencia", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Girona para conocer gente, hablar en directo y quedar entre las casas del Onyar.",
-    about:
-      "El chat de Girona tiene de fondo las casas de colores del Onyar y los puentes que las cruzan. Se habla del Call judío con sus callejones de piedra, de las escaleras de la Catedral que salieron en Juego de Tronos, del Temps de Flors que llena la ciudad de macetas en mayo y de El Celler de Can Roca. Gente del Gironès, tranquila y muy de su tierra, con la Costa Brava y los Pirineos a tiro de coche.",
-  },
-  {
-    slug: "toledo",
-    name: "Toledo",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 173,
-    votes: 360,
-    activity: "Media",
-    parentName: "España",
-    parentSlug: "espana",
-    channels: ["toledo", "espana", "amistad", "chatzona"],
-    related: ["madrid", "cordoba", "salamanca", "espana", "amistad", "amor"],
-    intro:
-      "Entra en el chat de Toledo para conocer toledanos, hablar en directo y quedar en la ciudad de las tres culturas.",
-    about:
-      "El chat de Toledo se mueve entre callejones medievales donde convivieron cristianos, judíos y musulmanes. Se habla del Alcázar y la Catedral dominando el cerro, del Tajo abrazando la ciudad, del mazapán, del Greco y del Corpus que viste de toldos las calles. Gente toledana acostumbrada a las cuestas y a los turistas de día, que recupera su ciudad al caer la tarde cuando los autobuses se van y vuelve el silencio de piedra.",
-  },
 
-  // ──────────────── México · Centroamérica · Caribe · EE.UU. ────────────────
-  {
-    slug: "guadalajara",
-    name: "Guadalajara",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 520,
-    votes: 860,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "México",
-    parentSlug: "mexico",
-    channels: ["guadalajara", "mexico", "amistad", "chatzona"],
-    related: ["ciudad-de-mexico", "monterrey", "puebla", "mexico", "los-angeles", "musica", "amistad"],
-    intro:
-      "El chat de Guadalajara junta a tapatíos de toda la ciudad para platicar, hacer amigos y aventar el chal en buena onda.",
-    about:
-      "Aquí se junta la raza de Chapalita, Providencia y la Minerva con los del Centro y Tlaquepaque. Se habla del mariachi en la plaza, de las tortas ahogadas que pican a media mañana, del Atlas contra Chivas y de los tejuinos del tianguis. Pura banda tapatía echando carrilla, con ese acento cantadito y el “¿qué onda?” por delante. Sala movida casi todo el día.",
-  },
-  {
-    slug: "monterrey",
-    name: "Monterrey",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 460,
-    votes: 730,
-    tag: "Tendencia",
-    activity: "Alta",
-    parentName: "México",
-    parentSlug: "mexico",
-    channels: ["monterrey", "mexico", "amistad", "chatzona"],
-    related: ["ciudad-de-mexico", "guadalajara", "tijuana", "mexico", "estados-unidos", "futbol", "amistad"],
-    intro:
-      "Sala de chat para regios de San Pedro, Guadalupe, Apodaca y todo el área metropolitana que quieran platicar en directo.",
-    about:
-      "Con el Cerro de la Silla de fondo, los regios platican del calorón que parte la madre, del cabrito y la machaca con huevo, y de si le vas a Rayados o a Tigres porque aquí eso define amistades. Hablan golpeado y directo, con el “¿a poco?” y el “ándale pues” a flor de piel. Gente trabajadora, fiestera los fines y orgullosa de su norte. Chat con harto movimiento.",
-  },
-  {
-    slug: "puebla",
-    name: "Puebla",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 280,
-    votes: 440,
-    activity: "Media",
-    parentName: "México",
-    parentSlug: "mexico",
-    channels: ["puebla", "mexico", "amistad", "chatzona"],
-    related: ["ciudad-de-mexico", "guadalajara", "monterrey", "mexico", "cocina", "amistad", "amor"],
-    intro:
-      "El chat de Puebla reúne a poblanos del Centro Histórico, Cholula y la Angelópolis para conocer gente y platicar a gusto.",
-    about:
-      "Tierra del mole poblano y los chiles en nogada, donde los poblanos presumen los talavera del Centro, las cemitas de la calle y las pirámides de Cholula a un lado. Se habla del 5 de Mayo, de las iglesias que tapizan la ciudad y de las escapadas a los volcanes. Gente más mocha y tranquila que en el DF, con su “ahorita” eterno. Sala con buen ambiente entre semana y fines.",
-  },
-  {
-    slug: "tijuana",
-    name: "Tijuana",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 310,
-    votes: 510,
-    activity: "Alta",
-    parentName: "México",
-    parentSlug: "mexico",
-    channels: ["tijuana", "mexico", "amistad", "chatzona"],
-    related: ["ciudad-de-mexico", "monterrey", "guadalajara", "mexico", "los-angeles", "estados-unidos", "musica"],
-    intro:
-      "Sala de chat de Tijuana, la frontera que nunca duerme: gente de la Zona Río, Playas y la Cinco y Diez platicando a toda hora.",
-    about:
-      "Pegada a la línea con San Diego, Tijuana vive entre dos mundos: aquí cruzan a chambear “al otro lado”, se comen tacos de birria de madrugada y suena el corrido tumbado en cada antro de la Sexta. Los tijuas hablan medio pochos, mezclando inglés y español, y presumen su Cervecería y el mariscazo de Playas. Ciudad bravía, abierta y noctámbula. Chat movido hasta la madrugada.",
-  },
   {
     slug: "cancun",
     name: "Cancún",
@@ -441,24 +24,6 @@ export const CITIES_WORLD: Place[] = [
       "Más allá de los all inclusive, Cancún tiene su lado real: las Regiones donde vive la raza que trabaja en hoteles, los cenotes a media hora y la combi al centro. Aquí se junta gente venida de Chiapas, Tabasco y Yucatán, así que se oye desde el maya hasta el “uay” yucateco. Se habla de turnos en la Zona Hotelera, del calor pegajoso y de escaparse a Holbox. Sala con mucho flujo de recién llegados.",
   },
   {
-    slug: "ciudad-de-guatemala",
-    name: "Ciudad de Guatemala",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 240,
-    votes: 380,
-    tag: "Popular",
-    activity: "Media",
-    parentName: "Guatemala",
-    parentSlug: "guatemala",
-    channels: ["ciudad-de-guatemala", "guatemala", "amistad", "chatzona"],
-    related: ["san-salvador", "tegucigalpa", "guatemala", "el-salvador", "miami", "amistad", "musica"],
-    intro:
-      "Sala de chat de la capital chapina: gente de la Zona 1 a la Zona 14 platicando, haciendo amigos y pasando el rato.",
-    about:
-      "En la Guate la vida se mide por zonas: la Zona Viva para salir, la Zona 1 con el Centro Histórico y el Mercado Central, y el tráfico que vuelve loco a todos. Los chapines hablan del paca, del shuco con aguacate en la esquina, de los volcanes que se ven al fondo y de escaparse a la Antigua el finde. Gente cálida, con su “vos” y su “qué chilero”. Chat tranquilo pero constante.",
-  },
-  {
     slug: "san-jose-costa-rica",
     name: "San José",
     kind: "ciudad",
@@ -475,252 +40,7 @@ export const CITIES_WORLD: Place[] = [
     about:
       "Los josefinos le dicen Chepe a su ciudad y se mueven entre el Mercado Central, el Teatro Nacional y las presas eternas de la General Cañas. Se habla del gallo pinto en el desayuno, del cafecito a las tres, de irse a la playa el finde y del “pura vida” para todo. Gente pacífica y educada, con su “mae” en cada frase y esa calma tica. Sala relajada, fiel a su gente.",
   },
-  {
-    slug: "ciudad-de-panama",
-    name: "Ciudad de Panamá",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 220,
-    votes: 360,
-    activity: "Media",
-    parentName: "Panamá",
-    parentSlug: "panama",
-    channels: ["ciudad-de-panama", "panama", "amistad", "chatzona"],
-    related: ["san-jose-costa-rica", "santo-domingo", "panama", "costa-rica", "miami", "amistad", "musica"],
-    intro:
-      "Sala de chat de la capital panameña: gente del Casco Antiguo, Calidonia y los rascacielos de la cinta costera charlando en directo.",
-    about:
-      "Panamá City mezcla los rascacielos de Punta Pacífica con el Casco Antiguo de calles coloniales y el bullicio de la Avenida Central. Aquí se ve pasar los barcos por el Canal, se come sancocho de gallina y se baila típico y reggae en español. Los panameños hablan con su “xopá” y su “qué sopá”, y presumen las playas a un rato de la ciudad. Chat con buen movimiento de gente joven.",
-  },
-  {
-    slug: "san-salvador",
-    name: "San Salvador",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 230,
-    votes: 370,
-    activity: "Media",
-    parentName: "El Salvador",
-    parentSlug: "el-salvador",
-    channels: ["san-salvador", "el-salvador", "amistad", "chatzona"],
-    related: ["ciudad-de-guatemala", "tegucigalpa", "el-salvador", "guatemala", "los-angeles", "amistad", "amor"],
-    intro:
-      "El chat de San Salvador junta a guanacos de la capital y alrededores para platicar, hacer amigos y pasar el rato.",
-    about:
-      "Bajo el volcán de San Salvador, los salvadoreños se juntan los domingos a comer pupusas de chicharrón con curtido y a tomar horchata. Se habla del Paseo El Carmen en Santa Tecla, de las playas de La Libertad para surfear y del calorcito de todo el año. Los guanacos hablan con su “cipote”, su “vaya pues” y ese cariño franco. Mucha familia tiene gente en Los Ángeles. Sala cálida y cercana.",
-  },
-  {
-    slug: "tegucigalpa",
-    name: "Tegucigalpa",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 190,
-    votes: 300,
-    activity: "Media",
-    parentName: "Honduras",
-    parentSlug: "honduras",
-    channels: ["tegucigalpa", "honduras", "amistad", "chatzona"],
-    related: ["san-salvador", "managua", "honduras", "el-salvador", "miami", "amistad", "futbol"],
-    intro:
-      "Sala de chat de Tegucigalpa, la capital catracha encajada entre cerros: gente del centro y las colonias platicando en directo.",
-    about:
-      "Tegus se reparte por los cerros, con el Cristo del Picacho mirándolo todo y el puente que la une con Comayagüela. Los catrachos hablan de las baleadas de la esquina, de la H jugando eliminatoria, del calorón del mediodía y del fresco que baja de noche. Gente sencilla y trabajadora, con su “maje” y su “alaplena”. Muchos tienen familia migrada al norte. Chat con ritmo pausado pero leal.",
-  },
-  {
-    slug: "managua",
-    name: "Managua",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 180,
-    votes: 290,
-    activity: "Media",
-    parentName: "Nicaragua",
-    parentSlug: "nicaragua",
-    channels: ["managua", "nicaragua", "amistad", "chatzona"],
-    related: ["san-jose-costa-rica", "tegucigalpa", "nicaragua", "costa-rica", "miami", "amistad", "amor"],
-    intro:
-      "El chat de Managua reúne a nicas de la capital, una ciudad sin centro fijo donde todo se ubica “de donde fue el árbol”.",
-    about:
-      "Managua es la ciudad de las referencias raras: nadie da direcciones por calles sino “de donde fue la Pepsi, dos cuadras al lago”. A la orilla del Xolotlán, los nicas comen gallopinto y vigorón, toman pinolillo y se refrescan del calor del trópico seco. Hablan con su “ideay”, su “dale pues” y ese vos cantadito. Gente alegre pese a todo. Sala con buen ambiente entre paisanos.",
-  },
-  {
-    slug: "santo-domingo",
-    name: "Santo Domingo",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 320,
-    votes: 520,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "República Dominicana",
-    parentSlug: "republica-dominicana",
-    channels: ["santo-domingo", "republica-dominicana", "amistad", "chatzona"],
-    related: ["santiago-de-los-caballeros", "san-juan", "la-habana", "republica-dominicana", "nueva-york", "musica", "amistad"],
-    intro:
-      "Sala de chat de Santo Domingo: gente de la Zona Colonial, el Malecón y los barrios platicando con todo el sabor dominicano.",
-    about:
-      "La primada de América, con la Zona Colonial donde caminó Colón y el Malecón sonando bachata y dembow a todo volumen. Los capitaleños comen mangú en el desayuno, la bandera al mediodía y se tiran al colmado a beber Presidente bien fría. Hablan rapidísimo, comiéndose las eses, con su “qué lo que” y su “tú ta loco”. Mucha familia en Nueva York. Sala bien prendida y dicharachera.",
-  },
-  {
-    slug: "santiago-de-los-caballeros",
-    name: "Santiago de los Caballeros",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 200,
-    votes: 320,
-    activity: "Media",
-    parentName: "República Dominicana",
-    parentSlug: "republica-dominicana",
-    channels: ["santiago-de-los-caballeros", "republica-dominicana", "amistad", "chatzona"],
-    related: ["santo-domingo", "san-juan", "republica-dominicana", "cuba", "nueva-york", "musica", "amistad"],
-    intro:
-      "El chat de Santiago de los Caballeros junta a cibaeños del corazón del Cibao para charlar y conocer gente con sabor.",
-    about:
-      "Capital del Cibao y cuna del merengue, Santiago presume su Monumento a los Héroes en lo alto y el tabaco que sale de sus campos. Los cibaeños tienen su propio dejo, cambian la r por la i (“vamo a comei”), y son orgullosos de su tierra. Se come el sancocho, se fuma buen cigarro y se baila merengue de verdad. Gente trabajadora y echada pa lante. Sala con identidad cibaeña marcada.",
-  },
-  {
-    slug: "la-habana",
-    name: "La Habana",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 260,
-    votes: 420,
-    tag: "Popular",
-    activity: "Media",
-    parentName: "Cuba",
-    parentSlug: "cuba",
-    channels: ["la-habana", "cuba", "amistad", "chatzona"],
-    related: ["santo-domingo", "san-juan", "cuba", "republica-dominicana", "miami", "musica", "amistad"],
-    intro:
-      "Sala de chat de La Habana: habaneros del Vedado, Centro Habana y La Habana Vieja conversando entre el malecón y los almendrones.",
-    about:
-      "Entre fachadas descascaradas y almendrones de los cincuenta, los habaneros viven en el Malecón al atardecer, en las colas y en la resolvedera del día a día. Se habla del Vedado, de los cuentapropistas, del cafecito amargo y del son que sale de cualquier portal. El cubano echa “asere”, “qué bolá” y choteo para todo, hasta para la falta. Mucha familia partida hacia Miami. Sala llena de ingenio y nostalgia.",
-  },
-  {
-    slug: "san-juan",
-    name: "San Juan",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 250,
-    votes: 400,
-    activity: "Media",
-    parentName: "Puerto Rico",
-    parentSlug: "puerto-rico",
-    channels: ["san-juan", "puerto-rico", "amistad", "chatzona"],
-    related: ["santo-domingo", "la-habana", "puerto-rico", "republica-dominicana", "nueva-york", "musica", "amistad"],
-    intro:
-      "El chat de San Juan reúne a boricuas del Viejo San Juan, Santurce y Río Piedras para janguear y conocer gente con flow.",
-    about:
-      "Del adoquín azul del Viejo San Juan a la movida de Santurce, la capital boricua vive entre el Morro, la playa del Condado y la salsa que suena en La Placita los viernes. Aquí se come mofongo y alcapurrias, se dice “wepa” y “brutal”, y se janguea hasta tarde. El boricua mezcla inglés sin pena y tiene la mitad de la familia en Nueva York u Orlando. Sala con perreo y buena vibra.",
-  },
-  {
-    slug: "miami",
-    name: "Miami",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 480,
-    votes: 760,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Estados Unidos",
-    parentSlug: "estados-unidos",
-    channels: ["miami", "estados-unidos", "amistad", "chatzona"],
-    related: ["nueva-york", "los-angeles", "la-habana", "estados-unidos", "cuba", "musica", "amistad"],
-    intro:
-      "Sala de chat de Miami, la capital latina de EE.UU.: cubanos, venezolanos, colombianos y boricuas conviviendo en español.",
-    about:
-      "En Miami el español manda: de la Calle Ocho de la Pequeña Habana al cafecito cubano de la ventanita, pasando por Doral lleno de venezolanos y Hialeah donde casi nadie habla inglés. Se mezcla el “qué bolá” cubano, el “marico” venezolano y el “parce” colombiano en una misma cuadra. Calor, playa de South Beach y reguetón a todo dar. Sala muy activa, crisol de todo el Caribe y Suramérica.",
-  },
-  {
-    slug: "nueva-york",
-    name: "Nueva York",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 440,
-    votes: 700,
-    tag: "Tendencia",
-    activity: "Alta",
-    parentName: "Estados Unidos",
-    parentSlug: "estados-unidos",
-    channels: ["nueva-york", "estados-unidos", "amistad", "chatzona"],
-    related: ["miami", "los-angeles", "santo-domingo", "estados-unidos", "puerto-rico", "musica", "amistad"],
-    intro:
-      "El chat de Nueva York junta a la comunidad latina de Washington Heights, el Bronx y Queens para hablar en español en la Gran Manzana.",
-    about:
-      "Nueva York es dominicana en Washington Heights, boricua en el Bronx y mexicana en Sunset Park y Corona. Se monta en el subway entre idiomas, se come un chimi o un mangú a las dos de la mañana y suena bachata desde los carros en verano. El español neoyorquino mezcla spanglish con acentos de medio Caribe. La ciudad que nunca para, también en latino. Sala diversa y muy movida.",
-  },
-  {
-    slug: "los-angeles",
-    name: "Los Ángeles",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 430,
-    votes: 690,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Estados Unidos",
-    parentSlug: "estados-unidos",
-    channels: ["los-angeles", "estados-unidos", "amistad", "chatzona"],
-    related: ["miami", "nueva-york", "tijuana", "estados-unidos", "mexico", "musica", "amistad"],
-    intro:
-      "Sala de chat de Los Ángeles, donde la comunidad mexicana y centroamericana hace ciudad: de East LA a Boyle Heights, todo en español.",
-    about:
-      "LA es la segunda ciudad mexicana del mundo: en East LA y Boyle Heights se venden tacos al pastor de la troca, suena banda y corridos, y en Pico-Union se juntan los salvadoreños con sus pupusas. El chicano mezcla “órale” y “homie”, y mantiene viva la cultura aunque haya nacido aquí. Tráfico eterno en la 405, sol todo el año y raíces que cruzan la frontera. Sala con harta banda latina.",
-  },
 
-  // ───────────────────────── Sudamérica ─────────────────────────
-  {
-    slug: "cordoba-argentina",
-    name: "Córdoba",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 320,
-    votes: 610,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Argentina",
-    parentSlug: "argentina",
-    channels: ["cordoba-argentina", "argentina", "amistad", "chatzona"],
-    related: ["buenos-aires", "rosario", "mendoza", "argentina", "amistad", "musica", "futbol"],
-    intro:
-      "La docta, el fernet con coca y esa tonada cantadita que se reconoce a la primera. Los cordobeses entran a charlar y nunca aflojan.",
-    about:
-      "En la sala de Córdoba se cruzan estudiantes de la Universidad Nacional, fanáticos de Talleres y Belgrano y los que bajan los fines de semana a Carlos Paz o a las sierras de La Cumbrecita. Acá se habla del cuarteto de la Mona Jiménez, del lomito y el choripán, y todo con esa cadencia que estira las vocales. Gente alegre, jodona y de las que te hacen reír sí o sí.",
-  },
-  {
-    slug: "rosario",
-    name: "Rosario",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 240,
-    votes: 430,
-    activity: "Alta",
-    parentName: "Argentina",
-    parentSlug: "argentina",
-    channels: ["rosario", "argentina", "amistad", "chatzona"],
-    related: ["buenos-aires", "cordoba-argentina", "mendoza", "argentina", "futbol", "amor", "musica"],
-    intro:
-      "Cuna de Messi, del Che y de la bandera. A orillas del Paraná, los rosarinos tienen tema para rato.",
-    about:
-      "El chat de Rosario junta a hinchas de Central y Newell's que se la pasan picándose, gente que se manda al Monumento a la Bandera o se toma unos mates en la costanera mirando el río. Se habla de carlitos (el sándwich, no la persona), del calor pegajoso del verano santafesino y de la noche de Pichincha. Acento bien argento, charla suelta y orgullo de ciudad.",
-  },
-  {
-    slug: "mendoza",
-    name: "Mendoza",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 210,
-    votes: 395,
-    activity: "Media",
-    parentName: "Argentina",
-    parentSlug: "argentina",
-    channels: ["mendoza", "argentina", "amistad", "chatzona"],
-    related: ["buenos-aires", "cordoba-argentina", "santiago-de-chile", "argentina", "viajes", "amistad", "cocina"],
-    intro:
-      "Tierra del sol y del buen vino, con el Aconcagua de telón de fondo. En Mendoza la sobremesa puede durar horas.",
-    about:
-      "En la sala mendocina se habla de bodegas en Maipú y Luján de Cuyo, de asados regados con un malbec y de las acequias que bordean cada calle. Hay quien sube a Potrerillos o cruza a Chile por Uspallata, y quien defiende a muerte el club Godoy Cruz. Gente tranquila, de hablar pausado, que vive al ritmo de la siesta y de la Fiesta de la Vendimia.",
-  },
   {
     slug: "mar-del-plata",
     name: "Mar del Plata",
@@ -739,314 +59,6 @@ export const CITIES_WORLD: Place[] = [
       "El chat de Mar del Plata mezcla a los marplatenses de toda la vida con los porteños que bajan en enero a la playa Bristol y a la rambla. Se habla de churros en la costa, de los lobos marinos del puerto, de pescar en la escollera y de bancarse el viento que nunca falta. También de Aldosivi y del frío de invierno cuando la ciudad se queda vacía y se vuelve de los locales.",
   },
   {
-    slug: "medellin",
-    name: "Medellín",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 410,
-    votes: 720,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Colombia",
-    parentSlug: "colombia",
-    channels: ["medellin", "colombia", "amistad", "chatzona"],
-    related: ["bogota", "cali", "barranquilla", "colombia", "amistad", "amor", "musica"],
-    intro:
-      "La ciudad de la eterna primavera, el metro que tanto enorgullece a los paisas y el acento más coqueto de Colombia. Entra, parcero.",
-    about:
-      "En el chat de Medellín mandan los paisas con su “¿bien o qué, pues?”, gente del Poblado, de Laureles y de las comunas que subieron en metrocable. Se habla de la bandeja paisa, del aguardiente Antioqueño, de la Feria de las Flores y de si el América o Nacional. Gente echada pa lante, emprendedora y conversadora, que te recibe con un “hágale” y una sonrisa.",
-  },
-  {
-    slug: "cali",
-    name: "Cali",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 300,
-    votes: 540,
-    activity: "Alta",
-    parentName: "Colombia",
-    parentSlug: "colombia",
-    channels: ["cali", "colombia", "amistad", "chatzona"],
-    related: ["bogota", "medellin", "barranquilla", "colombia", "musica", "amor", "amistad"],
-    intro:
-      "La capital mundial de la salsa, el calor del Valle y la rumba que no se acaba. En Cali se baila hasta para saludar.",
-    about:
-      "El chat de Cali huele a salsa de Juanchito y a champús bien frío. Los caleños presumen del cielo despejado, de las chontaduras en la calle, del sancocho de gallina y de las mujeres más lindas del país (eso dicen ellos). Se habla del América y del Deportivo Cali, de la Feria de diciembre y de salir a darle a los pies. Gente cálida, recochera y orgullosa de su tierra valluna.",
-  },
-  {
-    slug: "barranquilla",
-    name: "Barranquilla",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 230,
-    votes: 420,
-    activity: "Media",
-    parentName: "Colombia",
-    parentSlug: "colombia",
-    channels: ["barranquilla", "colombia", "amistad", "chatzona"],
-    related: ["bogota", "cali", "cartagena", "colombia", "musica", "amistad", "futbol"],
-    intro:
-      "La Arenosa, la puerta de oro de Colombia y el carnaval más famoso del Caribe. Quien lo vive es quien lo goza.",
-    about:
-      "En la sala de Barranquilla se siente la brisa caribeña y el costeñol con sus “ajá” y “erda”. Aquí se habla de butifarra, de bollo e yuca, del Junior con su corazón rojiblanco y, cómo no, de Shakira. En febrero todo gira en torno al Carnaval, la marimonda y la cumbia. Gente alegre, abierta y dicharachera, de las que te suben el ánimo solo con el acento.",
-  },
-  {
-    slug: "cartagena",
-    name: "Cartagena",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 215,
-    votes: 400,
-    activity: "Media",
-    parentName: "Colombia",
-    parentSlug: "colombia",
-    channels: ["cartagena", "colombia", "amistad", "chatzona"],
-    related: ["barranquilla", "bogota", "medellin", "colombia", "viajes", "amor", "amistad"],
-    intro:
-      "La heroica, sus murallas coloniales y el atardecer desde el Café del Mar. Cartagena enamora y da conversación para días.",
-    about:
-      "El chat de Cartagena junta a los corraleros del centro amurallado, de Getsemaní y de Bocagrande. Se habla de las palenqueras con sus frutas, del arroz con coco, de las islas del Rosario y de las chivas rumberas. La gente mezcla el calor pegajoso con la sabrosura costeña y el orgullo de vivir en una de las ciudades más bonitas del Caribe. Turismo, historia y mucho sabor.",
-  },
-  {
-    slug: "arequipa",
-    name: "Arequipa",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 220,
-    votes: 405,
-    activity: "Media",
-    parentName: "Perú",
-    parentSlug: "peru",
-    channels: ["arequipa", "peru", "amistad", "chatzona"],
-    related: ["lima", "cusco", "trujillo", "peru", "cocina", "amistad", "viajes"],
-    intro:
-      "La Ciudad Blanca, el sillar volcánico y el Misti vigilando desde lo alto. Los arequipeños tienen fama de orgullosos, y con razón.",
-    about:
-      "En la sala de Arequipa se nota ese carácter característico: gente que defiende su rocoto relleno, su chupe de camarones y sus picanterías como si fueran patrimonio (lo son). Se habla del sillar blanco de los edificios, del Monasterio de Santa Catalina, del Colca y sus cóndores. Hasta dicen en broma que tienen pasaporte propio. Tono pausado, fino y con ese dejo serrano que los delata.",
-  },
-  {
-    slug: "trujillo",
-    name: "Trujillo",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 180,
-    votes: 330,
-    activity: "Media",
-    parentName: "Perú",
-    parentSlug: "peru",
-    channels: ["trujillo", "peru", "amistad", "chatzona"],
-    related: ["lima", "arequipa", "cusco", "peru", "amistad", "musica", "cocina"],
-    intro:
-      "La capital de la marinera, la ciudad de la eterna primavera y Chan Chan a un paso. En Trujillo el norte chico tiene sabor propio.",
-    about:
-      "El chat de Trujillo reúne a los liberteños que presumen del cebiche del puerto de Huanchaco con sus caballitos de totora, del shámbar de los lunes y de la marinera norteña. Se habla de la huaca del Sol y de la Luna, del Festival de la Primavera y de la Universidad Nacional. Gente del norte peruano, sencilla y cálida, con ese hablar cantadito de la costa norteña.",
-  },
-  {
-    slug: "cusco",
-    name: "Cusco",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 205,
-    votes: 385,
-    activity: "Media",
-    parentName: "Perú",
-    parentSlug: "peru",
-    channels: ["cusco", "peru", "amistad", "chatzona"],
-    related: ["lima", "arequipa", "la-paz", "peru", "viajes", "amistad", "musica"],
-    intro:
-      "El ombligo del mundo, capital del imperio inca y puerta a Machu Picchu. En Cusco se respira historia a 3.400 metros.",
-    about:
-      "En la sala de Cusco se cruzan los qosqueños de toda la vida con la marea de viajeros que pasan rumbo al Valle Sagrado. Se habla en castellano salpicado de quechua, de los muros incas de la calle Hatun Rumiyoc, del Inti Raymi en Sacsayhuamán, del cuy al horno y del mate de coca para el soroche. Gente orgullosa de su raíz andina, con la Plaza de Armas y la catedral como punto de encuentro.",
-  },
-  {
-    slug: "valparaiso",
-    name: "Valparaíso",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 200,
-    votes: 370,
-    activity: "Media",
-    parentName: "Chile",
-    parentSlug: "chile",
-    channels: ["valparaiso", "chile", "amistad", "chatzona"],
-    related: ["santiago-de-chile", "vina-del-mar", "concepcion", "chile", "musica", "amistad", "amor"],
-    intro:
-      "Los cerros, los ascensores y los murales que pintan cada esquina. Valpo es bohemio, poético y medio desordenado, como a Neruda le gustaba.",
-    about:
-      "El chat de Valparaíso tiene alma de puerto: gente de los cerros Alegre y Concepción, estudiantes, artistas y viejos lobos de mar. Se habla del chorrillana para compartir, de los perros vagos que conocen cada escalera, de la casa de Neruda en La Sebastiana y de los grafitis que son patrimonio. Modismos chilensis a full —“cachái”, “al tiro”, “bacán”— y ese espíritu porteño medio melancólico y muy creativo.",
-  },
-  {
-    slug: "concepcion",
-    name: "Concepción",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 185,
-    votes: 340,
-    activity: "Media",
-    parentName: "Chile",
-    parentSlug: "chile",
-    channels: ["concepcion", "chile", "amistad", "chatzona"],
-    related: ["santiago-de-chile", "valparaiso", "vina-del-mar", "chile", "musica", "amistad", "futbol"],
-    intro:
-      "La cuna del rock chileno, la ciudad universitaria del sur y el río Biobío de fondo. En Conce siempre hay tocata y harta movida.",
-    about:
-      "En la sala de Concepción mandan los penquistas: estudiantes de la Universidad de Concepción, melómanos que crecieron con Los Tres y Los Bunkers, e hinchas que se dividen entre Fernández Vial y la U de Conce. Se habla del frío y la lluvia del sur, del completo italiano, de panoramas en el Parque Ecuador y de arrancar a la costa de Dichato. Gente del sur, directa y con harto carácter rockero.",
-  },
-  {
-    slug: "vina-del-mar",
-    name: "Viña del Mar",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 195,
-    votes: 355,
-    activity: "Media",
-    parentName: "Chile",
-    parentSlug: "chile",
-    channels: ["vina-del-mar", "chile", "amistad", "chatzona"],
-    related: ["valparaiso", "santiago-de-chile", "concepcion", "chile", "musica", "amor", "viajes"],
-    intro:
-      "La Ciudad Jardín, el reloj de flores y el festival que cada febrero pone a cantar a todo Chile. Viña es playa, casino y postal.",
-    about:
-      "El chat de Viña del Mar junta a los viñamarinos con los santiaguinos que veranean en Reñaca y Concón. Se habla del Festival y de la temida “gaviota”, del paseo por la costanera, de empanadas de marisco y de la rivalidad cariñosa con la vecina Valpo. Modismos chilenos por todos lados y un aire más pituco y turístico que el del puerto de al lado. Sol, mar y harta pinta.",
-  },
-  {
-    slug: "punta-del-este",
-    name: "Punta del Este",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 170,
-    votes: 320,
-    activity: "Media",
-    parentName: "Uruguay",
-    parentSlug: "uruguay",
-    channels: ["punta-del-este", "uruguay", "amistad", "chatzona"],
-    related: ["montevideo", "buenos-aires", "uruguay", "argentina", "viajes", "amor", "amistad"],
-    intro:
-      "Los dedos de La Mano en la playa Brava, los yates en el puerto y el verano más glamoroso del Río de la Plata. Acá se viene a disfrutar.",
-    about:
-      "La sala de Punta del Este se llena de uruguayos y de los argentinos que cruzan a veranear. Se habla con voseo rioplatense de la playa Mansa para los tranquilos y la Brava para los que buscan olas, del faro, de Casapueblo en Punta Ballena al atardecer y de la movida nocturna de La Barra y José Ignacio. Mate en mano, chivito de por medio y ese aire de balneario top que la hace única.",
-  },
-  {
-    slug: "caracas",
-    name: "Caracas",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 350,
-    votes: 630,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Venezuela",
-    parentSlug: "venezuela",
-    channels: ["caracas", "venezuela", "amistad", "chatzona"],
-    related: ["maracaibo", "valencia-venezuela", "bogota", "venezuela", "amistad", "musica", "amor"],
-    intro:
-      "El Ávila vigilando la ciudad, la arepa de cada mañana y ese hablar caraqueño lleno de pana y chévere. Entra a echar el cuento.",
-    about:
-      "En el chat de Caracas se juntan los caraqueños de Petare a Chacao, con el Ávila como telón de fondo y bandera de la ciudad. Se habla de la arepa reina pepiada, del cachapa, de la nostalgia de los que se fueron y los que se quedaron, del Caracas FC y los Leones del Caracas en el béisbol. Gente echada pa lante, con humor para todo y ese acento cantadito que mezcla cariño y picardía. “Naguará”, aquí se conversa de todo.",
-  },
-  {
-    slug: "maracaibo",
-    name: "Maracaibo",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 240,
-    votes: 440,
-    activity: "Media",
-    parentName: "Venezuela",
-    parentSlug: "venezuela",
-    channels: ["maracaibo", "venezuela", "amistad", "chatzona"],
-    related: ["caracas", "valencia-venezuela", "venezuela", "colombia", "amistad", "musica", "amor"],
-    intro:
-      "La tierra del sol amada, el calor que no perdona y el relámpago del Catatumbo. Los maracuchos hablan fuerte, claro y con el vos por delante.",
-    about:
-      "El chat de Maracaibo tiene el sello inconfundible del maracucho: el voseo, el “verga” como signo de puntuación y un calor de 38 grados que lo justifica todo. Se habla de los patacones, del tumbarrancho, de la gaita en diciembre, del puente sobre el lago y del Zulia FC. Gente franca, exagerada y con un orgullo regional enorme. Aquí no se anda con rodeos: se dice lo que se piensa y se ríe a carcajadas.",
-  },
-  {
-    slug: "valencia-venezuela",
-    name: "Valencia",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 200,
-    votes: 370,
-    activity: "Media",
-    parentName: "Venezuela",
-    parentSlug: "venezuela",
-    channels: ["valencia-venezuela", "venezuela", "amistad", "chatzona"],
-    related: ["caracas", "maracaibo", "venezuela", "amistad", "futbol", "musica", "amor"],
-    intro:
-      "La capital industrial de Venezuela, cuna del Carabobo y puerta a las playas de Puerto Cabello. En Valencia se conversa con sabor llanero y caribeño.",
-    about:
-      "En la sala de Valencia se reúnen los valencianos del centro, de Naguanagua y San Diego, orgullosos del Campo de Carabobo donde se selló la independencia. Se habla del Carabobo FC y de los Navegantes del Magallanes, de escaparse al Parque Recreacional Sur, de arepas y empanadas en cualquier esquina y del calor del valle. Gente trabajadora, cercana y con ese acento central venezolano lleno de chamo y épale.",
-  },
-  {
-    slug: "quito",
-    name: "Quito",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 290,
-    votes: 520,
-    activity: "Alta",
-    parentName: "Ecuador",
-    parentSlug: "ecuador",
-    channels: ["quito", "ecuador", "amistad", "chatzona"],
-    related: ["guayaquil", "cuenca", "bogota", "ecuador", "amistad", "viajes", "musica"],
-    intro:
-      "La carita de Dios, el centro histórico más bonito de América y la mitad del mundo a un paso. Quito habla pausado y mira desde los Andes.",
-    about:
-      "El chat de Quito junta a los quiteños de la Mariscal, del Centro Histórico y de los valles de Cumbayá y Los Chillos. Se habla del hornado y las empanadas de viento, del locro de papa, de subir al Panecillo o al teleférico del Pichincha, y de la rivalidad cariñosa con los costeños de Guayaquil. Acento serrano, hablar suave con su “¿no cierto?” y un orgullo enorme por vivir entre volcanes a 2.800 metros.",
-  },
-  {
-    slug: "guayaquil",
-    name: "Guayaquil",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 300,
-    votes: 540,
-    activity: "Alta",
-    parentName: "Ecuador",
-    parentSlug: "ecuador",
-    channels: ["guayaquil", "ecuador", "amistad", "chatzona"],
-    related: ["quito", "cuenca", "lima", "ecuador", "amistad", "futbol", "musica"],
-    intro:
-      "El puerto principal, el Malecón 2000 y el calor costeño que pega de verdad. Los guayacos son directos, alegres y muy de su tierra.",
-    about:
-      "En la sala de Guayaquil mandan los guayacos con su hablar rápido y costeño, gente del centro, de Urdesa y de los cerros Santa Ana y del Carmen. Se habla del encebollado para la resaca, del bolón de verde, de los caimanes del Malecón y de la pasión por Barcelona y Emelec, que divide hasta familias. Calor, humor y carácter abierto: aquí todo se dice de frente y con cariño, “¿oíste, ñaño?”.",
-  },
-  {
-    slug: "cuenca",
-    name: "Cuenca",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 175,
-    votes: 320,
-    activity: "Media",
-    parentName: "Ecuador",
-    parentSlug: "ecuador",
-    channels: ["cuenca", "ecuador", "amistad", "chatzona"],
-    related: ["quito", "guayaquil", "ecuador", "peru", "amistad", "viajes", "cocina"],
-    intro:
-      "La Atenas del Ecuador, sus cúpulas celestes y los cuatro ríos que la cruzan. Cuenca es tranquila, colonial y de las más bonitas del país.",
-    about:
-      "El chat de Cuenca reúne a los morlacos orgullosos de su centro histórico, de la catedral nueva con sus cúpulas azules y del río Tomebamba. Se habla del mote pillo, del cuy asado, de los sombreros de paja toquilla (mal llamados Panama hats) y del Carnaval con agua y harina. Gente cordial, de hablar dulce y arrastrado, con ese aire señorial y pausado que distingue a la sierra austral ecuatoriana.",
-  },
-  {
-    slug: "la-paz",
-    name: "La Paz",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 230,
-    votes: 420,
-    activity: "Media",
-    parentName: "Bolivia",
-    parentSlug: "bolivia",
-    channels: ["la-paz", "bolivia", "amistad", "chatzona"],
-    related: ["santa-cruz-bolivia", "cusco", "bolivia", "peru", "amistad", "viajes", "musica"],
-    intro:
-      "La sede de gobierno más alta del mundo, el Illimani nevado y los teleféricos volando sobre la hoyada. La Paz te quita el aliento, literal.",
-    about:
-      "En la sala de La Paz se juntan paceños de la zona Sur y de las laderas, junto a los vecinos de El Alto. Se habla de la salteña de media mañana, del api con pasteles, de las cholitas con sus polleras y bombines, del mate de coca para el apunamiento y de subirse al teleférico para cruzar la ciudad. Gente del altiplano, de hablar pausado y cálido, orgullosa de vivir a 3.600 metros entre montañas.",
-  },
-  {
     slug: "santa-cruz-bolivia",
     name: "Santa Cruz de la Sierra",
     kind: "ciudad",
@@ -1063,81 +75,7 @@ export const CITIES_WORLD: Place[] = [
     about:
       "El chat de Santa Cruz de la Sierra tiene sabor camba: gente del centro, de los anillos y de Equipetrol, con ese acento cantadito del oriente boliviano. Se habla del majadito, del cuñapé, de la sonso y del zonzo, de la feria de septiembre y del calor tropical que invita a la cerveza bien fría. Ambiente festivo, hablar relajado y un carácter abierto que contrasta con el del altiplano. Tierra de la chicha y el carnaval cruceño.",
   },
-  {
-    slug: "asuncion",
-    name: "Asunción",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 200,
-    votes: 370,
-    activity: "Media",
-    parentName: "Paraguay",
-    parentSlug: "paraguay",
-    channels: ["asuncion", "paraguay", "amistad", "chatzona"],
-    related: ["buenos-aires", "santa-cruz-bolivia", "paraguay", "argentina", "amistad", "futbol", "cocina"],
-    intro:
-      "La madre de ciudades a orillas del río Paraguay, el tereré para el calor y el guaraní mezclado en cada frase. En Asunción se charla con jopará.",
-    about:
-      "En la sala de Asunción se juntan los asuncenos con su jopará, esa mezcla de español y guaraní donde no falta el “nde” ni el “luego”. Se habla del tereré bajo la sombra para aguantar el calor, de la chipa y la sopa paraguaya (que es sólida, ojo), de la Costanera y del Cerro Porteño contra Olimpia. Gente cálida, tranquila y muy de la familia, con ese ritmo pausado del corazón de Sudamérica.",
-  },
 
-  // ───────────────── Europa · comunidad hispana ─────────────────
-  {
-    slug: "paris",
-    name: "París",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 264,
-    votes: 410,
-    tag: "Tendencia",
-    activity: "Alta",
-    parentName: "Francia",
-    parentSlug: "francia",
-    channels: ["paris", "francia", "amistad", "chatzona"],
-    related: ["francia", "madrid", "londres", "berlin", "amistad", "amor", "musica"],
-    intro:
-      "La sala de París conecta a los hispanos que viven entre el metro, los au pairs y los estudiantes Erasmus que añoran hablar en su idioma después de un día en francés.",
-    about:
-      "Aquí coinciden colombianos, españoles y argentinos que se mueven por el barrio latino cerca de Saint-Michel, hacen la compra en las tiendas de productos andinos del distrito 18 o se reúnen los domingos en el Parc de la Villette. Se habla del precio imposible de los alquileres, de los papeles, de la nostalgia del arroz con frijoles y de esa mezcla rara de pedir un café en francés y soltar un “qué fuerte” sin pensarlo.",
-  },
-  {
-    slug: "berlin",
-    name: "Berlín",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 198,
-    votes: 305,
-    tag: "Tendencia",
-    activity: "Media",
-    parentName: "Alemania",
-    parentSlug: "alemania",
-    channels: ["berlin", "alemania", "amistad", "chatzona"],
-    related: ["alemania", "madrid", "paris", "londres", "amistad", "musica", "viajes"],
-    intro:
-      "Berlín atrae a una marea de latinos jóvenes, y esta sala es donde sueltan el alemán del trabajo para charlar en español sobre la vida en la ciudad.",
-    about:
-      "Mucho de la conversación gira en torno a Neukölln y Kreuzberg, donde se juntan españoles, venezolanos y mexicanos que llegaron por el Ausbildung, el techno o sencillamente por escapar del paro. Se comparten datos del Bürgeramt, dónde encontrar arepas o un buen mezcal, y la queja eterna del invierno gris. Entre tanto Späti y tanta cerveza barata, todos echan de menos el sol y una sobremesa que dure horas.",
-  },
-  {
-    slug: "londres",
-    name: "Londres",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 287,
-    votes: 445,
-    tag: "Popular",
-    activity: "Alta",
-    parentName: "Reino Unido",
-    parentSlug: "reino-unido",
-    channels: ["londres", "reino-unido", "amistad", "chatzona"],
-    related: ["reino-unido", "madrid", "paris", "bogota", "amistad", "amor", "futbol"],
-    intro:
-      "Londres tiene una de las comunidades latinas más grandes de Europa, y en esta sala se reúnen para hablar en español tras una jornada entre el tube y el trabajo.",
-    about:
-      "El corazón latino late en Elephant and Castle, con su mercado de locales colombianos y ecuatorianos, y en Seven Sisters, donde estaba el viejo Pueblito Paisa. Aquí coinciden quienes limpian oficinas de madrugada, estudiantes con el inglés a medias y nostálgicos del pan de verdad. Se habla del coste brutal de la vida, de mandar dinero a casa, del fútbol del finde y de ese cansancio de pensar en dos idiomas a la vez.",
-  },
-
-  // ──────────────── España · más capitales de provincia ────────────────
   {
     slug: "albacete",
     name: "Albacete",
@@ -1168,7 +106,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["badajoz", "espana", "amistad", "chatzona"],
     related: ["caceres", "sevilla", "huelva", "madrid", "espana", "amistad"],
     intro:
-      "Entra en el chat de Badajoz para conocer pacenses, hablar en directo y quedar junto a la Alcazaba sobre el Guadiana.",
+      "Entra en el chat de Badajoz para conocer pacenses: la Alcazaba almohade, el Carnaval de los Palomos y el jamón extremeño de fondo.",
     about:
       "En el chat de Badajoz se habla de la Alcazaba almohade, de los Palomos del Carnaval que paraliza la ciudad en febrero y de la cercanía con Portugal a un paso por Elvas. Salen las migas extremeñas, el jamón de bellota, la técula mécula y las tardes de bochorno en la Plaza Alta. Pacenses de hablar abierto, de tapeo por San Roque y orgullo de una frontera que se cruza para comprar toallas y café.",
   },
@@ -1185,7 +123,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["caceres", "espana", "amistad", "chatzona"],
     related: ["badajoz", "salamanca", "madrid", "sevilla", "espana", "amistad"],
     intro:
-      "Entra en el chat de Cáceres para conocer gente, hablar en directo y pasear por la ciudad monumental de piedra dorada.",
+      "Entra en el chat de Cáceres para conocer gente: la ciudad monumental de piedra dorada, el WOMAD de mayo y la torta del Casar.",
     about:
       "El chat de Cáceres gira en torno a su casco antiguo medieval, Patrimonio de la Humanidad, con palacios, torres y la Plaza Mayor que se llena en San Jorge con el dragón ardiendo. Se habla del WOMAD de mayo, de la Semana Santa, del frío seco de la meseta y del calor de julio. Cacereños tranquilos, amantes de la torta del Casar, las migas y el pitarra, que presumen de cielos limpios y dehesas alrededor.",
   },
@@ -1202,7 +140,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["castellon", "espana", "amistad", "chatzona"],
     related: ["valencia", "tarragona", "alicante", "espana", "amistad", "amor"],
     intro:
-      "Entra en el chat de Castellón para conocer gente, hablar en directo y quedar entre el Grao y la plaza Mayor.",
+      "Entra en el chat de Castellón para conocer gente: las fiestas de la Magdalena, el Grao con sus paellas y el Desierto de las Palmas de fondo.",
     about:
       "En el chat de Castelló se mezclan el valenciano y el castellano hablando de las fiestas de la Magdalena en marzo, las gaiatas y la romería a la ermita. Sale la paella de la Marjalería, el Grao y su puerto, las naranjas del campo y el Desert de les Palmes de fondo. Gente mediterránea y de buen comer, que disfruta de la playa del Pinar y de las traques con pólvora cuando llega la fiesta.",
   },
@@ -1219,7 +157,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["ciudad-real", "espana", "amistad", "chatzona"],
     related: ["albacete", "toledo", "cordoba", "madrid", "espana", "amistad"],
     intro:
-      "Entra en el chat de Ciudad Real para conocer gente de La Mancha, hablar en directo y quedar por la Plaza Mayor.",
+      "Entra en el chat de Ciudad Real para conocer manchegos: tierra de Don Quijote, queso manchego y vino de Valdepeñas a un paso.",
     about:
       "El chat de Ciudad Real respira tierra de Don Quijote, con la Puerta de Toledo en pie y el AVE que la dejó a una hora de Madrid. Se habla de la Pandorga en agosto en honor a la Virgen del Prado, del queso manchego, el pisto y el vino de Valdepeñas cerca. Manchegos de carácter franco, acostumbrados al calor del verano y a las llanuras de viñas y molinos que rodean la capital.",
   },
@@ -1236,7 +174,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["huelva", "espana", "amistad", "chatzona"],
     related: ["sevilla", "cadiz", "badajoz", "espana", "amistad", "amor"],
     intro:
-      "Entra en el chat de Huelva para conocer onubenses, hablar en directo y quedar de jamón y gambas junto a la ría.",
+      "Entra en el chat de Huelva para conocer onubenses: el Rocío, el jamón de Jabugo, las gambas blancas y los Lugares Colombinos a la puerta.",
     about:
       "En el chat de Huelva se habla del Rocío que vacía la ciudad en romería, del jamón de Jabugo y las gambas blancas de la costa. Salen las playas de Punta Umbría y Matalascañas, los Lugares Colombinos de La Rábida desde donde zarpó Colón y el olor a marisma de la ría. Onubenses de acento andaluz cantarín, amantes de las fritas, la mojama y de los atardeceres sobre el Odiel y el Tinto.",
   },
@@ -1253,7 +191,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["huesca", "espana", "amistad", "chatzona"],
     related: ["zaragoza", "lleida", "pamplona", "espana", "amistad", "viajes"],
     intro:
-      "Entra en el chat de Huesca para conocer gente del Alto Aragón, hablar en directo y quedar con los Pirineos de fondo.",
+      "Entra en el chat de Huesca para conocer oscenses: los Pirineos y Ordesa a un paso, las fiestas de San Lorenzo y la longaniza aragonesa.",
     about:
       "El chat de Huesca habla de las fiestas de San Lorenzo en agosto, vestidos de blanco y verde y al ritmo del danzante, y del Pirineo a un paso para esquiar o subir a Ordesa. Sale la longaniza, las tortetas, el ternasco y el vino del Somontano. Oscenses tranquilos de pueblo grande, orgullosos de la catedral, de la leyenda de la Campana de Huesca y de tener montaña, nieve y senderos cerca todo el año.",
   },
@@ -1270,7 +208,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["jaen", "espana", "amistad", "chatzona"],
     related: ["granada", "cordoba", "almeria", "espana", "amistad", "amor"],
     intro:
-      "Entra en el chat de Jaén para conocer gente, hablar en directo y quedar bajo el castillo de Santa Catalina.",
+      "Entra en el chat de Jaén: el castillo de Santa Catalina vigilando la ciudad, el mar de olivos más grande del mundo y aceite de primera.",
     about:
       "En el chat de Jaén se presume del mar de olivos que rodea la ciudad y del mejor aceite del mundo, del castillo de Santa Catalina vigilando desde lo alto y de la catedral renacentista de Vandelvira. Salen las pipirranas, las migas y el bacalao por la Semana Santa de tambores. Jienenses de carácter recio, amantes del tapeo gratis con la caña y de las escapadas a Úbeda, Baeza y la sierra de Cazorla.",
   },
@@ -1287,7 +225,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["lleida", "espana", "amistad", "chatzona"],
     related: ["tarragona", "huesca", "barcelona", "zaragoza", "espana", "amistad"],
     intro:
-      "Entra en el chat de Lleida para conocer leridanos, hablar en directo y quedar bajo la Seu Vella.",
+      "Entra en el chat de Lleida para conocer leridanos: la Seu Vella sobre el turó, el Aplec del Caragol y la fruta dulce del Segrià.",
     about:
       "El chat de Lleida habla en catalán de poniente, con la Seu Vella coronando el turó y vistas a la llanura. Salen los caracoles del Aplec del Caragol en mayo, la fruta dulce del Segrià, las peras y melocotones, y la niebla espesa del invierno. Leridanos de tierra adentro, agrícolas y francos, que presumen de cerca para esquiar en el Pirineo, del riu Segre y de unas fiestas de Sant Anastasi muy suyas.",
   },
@@ -1304,7 +242,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["logrono", "espana", "amistad", "chatzona"],
     related: ["pamplona", "burgos", "zaragoza", "bilbao", "espana", "amistad"],
     intro:
-      "Entra en el chat de Logroño para conocer gente, hablar en directo y quedar de pinchos por la calle Laurel.",
+      "Entra en el chat de Logroño para conocer riojanos: la calle Laurel con sus pinchos, el Rioja en cada copa y la Ruta del Vino de San Mateo.",
     about:
       "En el chat de Logroño manda la calle Laurel y sus pinchos, cada bar con su especialidad, el champi, las patatas bravas y el zapatero. Se habla del Rioja en cada copa, de las fiestas de San Mateo y la pisa de la uva en septiembre y del Camino de Santiago que cruza la ciudad. Riojanos de buen yantar, de paseo por el Ebro y el Espolón, cercanos y con fama de saber comer y beber bien.",
   },
@@ -1321,7 +259,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["lugo", "espana", "amistad", "chatzona"],
     related: ["ourense", "pontevedra", "oviedo", "espana", "amistad", "viajes"],
     intro:
-      "Entra en el chat de Lugo para conocer gente de Galicia, hablar en directo y dar la vuelta por la muralla romana.",
+      "Entra en el chat de Lugo para conocer luguenses: la muralla romana intacta, el polbo á feira del San Froilán y la Ribeira Sacra cerca.",
     about:
       "El chat de Lugo presume de su muralla romana intacta, la única del mundo que se rodea entera andando, y del San Froilán de octubre con sus pulpeiras y el polbo á feira. Se habla en gallego del orballo constante, del lacón con grelos, del Miño y de las terrazas de la Praza do Campo. Luguenses tranquilos, de comer fuerte y buen vino de la Ribeira Sacra cerca, gente de tierra adentro y trato sencillo.",
   },
@@ -1338,7 +276,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["ourense", "espana", "amistad", "chatzona"],
     related: ["lugo", "pontevedra", "vigo", "espana", "amistad", "viajes"],
     intro:
-      "Entra en el chat de Ourense para conocer gente, hablar en directo y quedar en las termas junto al Miño.",
+      "Entra en el chat de Ourense: las Burgas humeantes en pleno centro, las termas del Miño gratis y el vino del Ribeiro a precio de coste.",
     about:
       "En el chat de Ourense se habla de las Burgas humeantes en pleno centro y de las termas al aire libre a la orilla del Miño, gratis y calentitas en invierno. Salen el Entroido con sus peliqueiros y cigarróns, el vino del Ribeiro y el Ribeira Sacra, la catedral del Pórtico do Paraíso y el calor sofocante del verano gallego. Ourensanos de interior, de baño termal y buen comer en gallego.",
   },
@@ -1355,7 +293,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["pontevedra", "espana", "amistad", "chatzona"],
     related: ["ourense", "lugo", "vigo", "espana", "amistad", "amor"],
     intro:
-      "Entra en el chat de Pontevedra para conocer gente, hablar en directo y pasear por la zona vieja sin coches.",
+      "Entra en el chat de Pontevedra: el casco viejo peatonal más bonito de Galicia, el albariño de las Rías Baixas y las Cíes a un paso.",
     about:
       "El chat de Pontevedra habla de su casco viejo peatonal, modelo de ciudad para caminar, con la plaza da Leña y la Peregrina de planta de vieira. Salen la Festa da Auga en agosto, el mejillón y el albariño de las Rías Baixas, las Illas Cíes a un paso y la ría de fondo. Pontevedreses cómodos paseando, de buen marisco y vino blanco, con clima suave y mucho verde gallego alrededor.",
   },
@@ -1372,7 +310,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["segovia", "espana", "amistad", "chatzona"],
     related: ["valladolid", "salamanca", "madrid", "burgos", "espana", "amistad"],
     intro:
-      "Entra en el chat de Segovia para conocer gente, hablar en directo y quedar al pie del Acueducto.",
+      "Entra en el chat de Segovia: el Acueducto romano sin argamasa, el Alcázar de cuento, el cochinillo de horno y Madrid a media hora.",
     about:
       "En el chat de Segovia mandan el Acueducto romano sin una gota de argamasa y el Alcázar que inspiró castillos de cuento. Se habla del cochinillo asado de horno de leña, los judiones de La Granja y el ponche segoviano, del frío de la sierra y de las escapadas a La Granja de San Ildefonso. Segovianos de meseta, orgullosos de su piedra, sus murallas y de tener Madrid a media hora en el AVE.",
   },
@@ -1389,12 +327,11 @@ export const CITIES_WORLD: Place[] = [
     channels: ["vitoria", "espana", "amistad", "chatzona"],
     related: ["bilbao", "san-sebastian", "pamplona", "logrono", "espana", "amistad"],
     intro:
-      "Entra en el chat de Vitoria para conocer gente, hablar en directo y quedar en las fiestas de la Blanca con Celedón.",
+      "Entra en el chat de Vitoria para conocer vitorianos: las fiestas de la Blanca con Celedón, los pintxos de Cuchillería y el Anillo Verde.",
     about:
       "El chat de Vitoria-Gasteiz habla de las fiestas de la Virgen Blanca en agosto, con Celedón bajando con su paraguas, y del Anillo Verde que rodea una ciudad muy peatonal y ciclista. Salen los pintxos de la calle Cuchillería, las perretxikos, el txakoli y los caracoles. Vitorianos tranquilos, de clima fresco y lluvioso, orgullosos de su casco medieval almendrado, de ser capital verde y de comer bien sin prisas.",
   },
 
-  // ──────────────── Hispanoamérica · más grandes urbes ────────────────
   {
     slug: "queretaro",
     name: "Querétaro",
@@ -1446,23 +383,6 @@ export const CITIES_WORLD: Place[] = [
       "La Ciudad Blanca, el calorón yucateco y la cochinita pibil de los domingos: los meridanos te reciben con un “mare” y la calma del sureste.",
     about:
       "El chat de Mérida huele a recado rojo y a marquesitas del parque. Aquí platican de la tranquilidad que envidia todo el país, del bochorno que no perdona, de los huipiles y del fin de semana en Progreso. Se cuela alguna palabra en maya, se presume el Paseo de Montejo y se debate si los panuchos le ganan a los salbutes. Gente noble y muy su tierra.",
-  },
-  {
-    slug: "la-plata",
-    name: "La Plata",
-    kind: "ciudad",
-    icon: "🏙️",
-    users: 205,
-    votes: 360,
-    activity: "Media",
-    parentName: "Argentina",
-    parentSlug: "argentina",
-    channels: ["la-plata", "argentina", "amistad", "chatzona"],
-    related: ["buenos-aires", "mar-del-plata", "argentina", "futbol", "amistad", "amor"],
-    intro:
-      "La ciudad de las diagonales, los estudiantes y la eterna interna entre Gimnasia y Estudiantes: los platenses llegan al chat con la birome lista para debatir.",
-    about:
-      "La sala de La Plata se llena de estudiantes de la UNLP, de laburantes que viajan a Capital y de fanáticos repartidos entre el Lobo y el Pincha. Se habla de las diagonales que marean a cualquiera, de la Catedral, de la noche en calle 12 y del clásico más caliente del país. Acento bonaerense, mucha lectura y discusión garantizada.",
   },
   {
     slug: "tucuman",
