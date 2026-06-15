@@ -343,7 +343,7 @@ export const TOPICS: Place[] = [
     intro:
       "Espacio para mayores de edad sin filtros: conversaciones de adultos, contactos y todo lo que no cabe en las salas generales. Sólo para mayores de 18.",
     about:
-      "La sala de adultos es el espacio libre de filtros para mayores de dieciocho años: conversaciones que no caben en las salas generales, contactos directos entre adultos, y todo lo que queda fuera del chat convencional. Activa las veinticuatro horas con cientos de usuarios, sin registro previo ni verificaciones que ralenticen el acceso. La sala más grande de la categoría adultos de la red en español.",
+      "La sala de adultos es el espacio libre de filtros para mayores de dieciocho años: conversaciones que no caben en las salas generales, contactos directos entre adultos, y todo lo que queda fuera del chat convencional. Activa las veinticuatro horas con cientos de usuarios, sin registro previo ni verificaciones que ralenticen el acceso. La sala más grande de la categoría adultos de la red en español. No hace falta perfil ni foto: el anonimato forma parte del atractivo, y la posibilidad de hablar sin que nadie sepa quién eres lo hace más libre.",
   },
   {
     slug: "erotico",
@@ -359,7 +359,7 @@ export const TOPICS: Place[] = [
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
     about:
-      "La sala erótica es el espacio más directo del chat: fantasías, conversaciones hot, rol erótico y todo lo que la imaginación permite entre adultos. Sin tabúes, sin juzgar lo que se busca, con cientos de usuarios activos a cualquier hora. Una de las salas con mayor actividad constante de toda la red en español: más de trescientos usuarios conectados de media durante el día.",
+      "La sala erótica es el espacio más directo del chat: fantasías, conversaciones hot, rol erótico y todo lo que la imaginación permite entre adultos. Sin tabúes, sin juzgar lo que se busca, con cientos de usuarios activos a cualquier hora. Una de las salas con mayor actividad constante de toda la red en español: más de trescientos usuarios conectados de media durante el día. Se habla de rol, de fetiches, de encuentros imaginarios y de experiencias reales que se comparten con quien sepa escuchar. La libertad de expresión que no encuentras en otras redes o chats más restrictivos.",
   },
   {
     slug: "infieles",
@@ -375,7 +375,7 @@ export const TOPICS: Place[] = [
     intro:
       "Una de las salas más activas del chat: casados que buscan algo fuera, aventuras discretas y confesiones que nunca llegarían a la pareja. Sin juicios.",
     about:
-      "La sala de infieles es una de las más activas del chat: casados que buscan algo fuera, aventuras discretas que no quieren drama, confesiones que alivian y contactos que entienden la situación sin necesidad de explicarla. No hay juicios sobre lo que cada uno decide, solo personas que comparten algo parecido. Una sala con ritmo constante de actividad y discreción entendida.",
+      "La sala de infieles es una de las más activas del chat: casados que buscan algo fuera, aventuras discretas que no quieren drama, confesiones que alivian y contactos que entienden la situación sin necesidad de explicarla. No hay juicios sobre lo que cada uno decide, solo personas que comparten algo parecido. Una sala con ritmo constante de actividad y discreción entendida. Aquí se habla de lo que no se puede contar en casa: la necesidad de algo diferente, el aburrimiento que lleva a buscar fuera o simplemente el deseo de conectar con alguien nuevo sin consecuencias.",
   },
   {
     slug: "encuentros",
@@ -391,7 +391,7 @@ export const TOPICS: Place[] = [
     intro:
       "Para los que buscan algo más que chatear: citas, encuentros puntuales y contactos sin complicaciones. La sala donde el chat acaba en quedada.",
     about:
-      "La sala de encuentros es para quien busca que el chat acabe en algo real: citas, encuentros puntuales, contactos sin complicaciones en la misma ciudad o en la ciudad a la que se viaja. Se utilizan las salas de geolocalización y de ciudad para coordinar, y esta sala como punto de partida. Activa durante todo el día con personas de España y Latinoamérica que buscan lo mismo y lo dicen sin rodeos.",
+      "La sala de encuentros es para quien busca que el chat acabe en algo real: citas, encuentros puntuales, contactos sin complicaciones en la misma ciudad o en la ciudad a la que se viaja. Se utilizan las salas de geolocalización y de ciudad para coordinar, y esta sala como punto de partida. Activa durante todo el día con personas de España y Latinoamérica que buscan lo mismo y lo dicen sin rodeos. El filtro de ciudad ayuda a centrar la búsqueda: quien busca en Madrid encuentra madrileños, quien viaja a Barcelona puede preparar el encuentro antes de llegar.",
   },
   {
     slug: "lesbianas",
