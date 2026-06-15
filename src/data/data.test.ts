@@ -62,4 +62,26 @@ describe("SEO constraints", () => {
       .map((a) => `${a.slug}: ${a.excerpt.length} chars`);
     expect(violations).toEqual([]);
   });
+
+  it("all news article titles are ≤110 chars (schema.org NewsArticle headline limit)", () => {
+    const articles = getNews();
+    const violations = articles
+      .filter((a) => a.title.length > 110)
+      .map((a) => `${a.slug}: ${a.title.length} chars`);
+    expect(violations).toEqual([]);
+  });
+
+  it("all news article bodies have ≥250 words", () => {
+    const articles = getNews();
+    const violations = articles
+      .filter((a) => !a.body || a.body.trim().split(/\s+/).length < 250)
+      .map((a) => `${a.slug}: ${a.body ? a.body.trim().split(/\s+/).length : 0} words`);
+    expect(violations).toEqual([]);
+  });
+
+  it("exactly one news article is featured", () => {
+    const articles = getNews();
+    const featured = articles.filter((a) => a.featured);
+    expect(featured).toHaveLength(1);
+  });
 });

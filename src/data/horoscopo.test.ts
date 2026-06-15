@@ -27,4 +27,17 @@ describe("horoscopo data", () => {
   it("returns undefined for an unknown sign", () => {
     expect(getSign("xyz")).toBeUndefined();
   });
+
+  it("all signs have personality ≥300 chars and element, planet, dates set", () => {
+    const violations = getSigns()
+      .filter(
+        (s) =>
+          s.personality.length < 300 ||
+          !s.element ||
+          !s.planet ||
+          !s.dates
+      )
+      .map((s) => `${s.slug}: personality=${s.personality.length}ch, element=${s.element}, planet=${s.planet}`);
+    expect(violations).toEqual([]);
+  });
 });
