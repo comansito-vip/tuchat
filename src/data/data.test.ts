@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated } from "@/data";
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {
@@ -15,6 +15,41 @@ describe("data getters", () => {
     expect(getCities().some((c) => c.slug === "barcelona")).toBe(true);
     expect(getTopics().some((t) => t.slug === "amor")).toBe(true);
     expect(getNews().some((n) => n.featured)).toBe(true);
+  });
+  it("getRooms returns at most 12 rooms sorted by users descending", () => {
+    const rooms = getRooms();
+    expect(rooms.length).toBeLessThanOrEqual(12);
+    for (let i = 1; i < rooms.length; i++) {
+      expect(rooms[i].users).toBeLessThanOrEqual(rooms[i - 1].users);
+    }
+  });
+  it("getPrimaryTopics returns a subset of getTopics", () => {
+    const primary = getPrimaryTopics();
+    const all = getTopics();
+    expect(primary.length).toBeGreaterThan(0);
+    expect(primary.length).toBeLessThanOrEqual(all.length);
+    expect(primary.every((t) => all.some((a) => a.slug === t.slug))).toBe(true);
+  });
+  it("getStats returns correct counts", () => {
+    const stats = getStats();
+    expect(stats.countries).toBe(getCountries().length);
+    expect(stats.cities).toBe(getCities().length);
+    expect(stats.topics).toBe(getTopics().length);
+    expect(stats.news).toBe(getNews().length);
+    expect(stats.rooms).toBe(getCountries().length + getCities().length + getTopics().length);
+    expect(stats.totalVotes).toBeGreaterThan(0);
+    expect(stats.totalUsers).toBeGreaterThan(0);
+  });
+  it("getChildren returns cities of España", () => {
+    const children = getChildren("espana");
+    expect(children.length).toBeGreaterThan(0);
+    expect(children.every((c) => c.parentSlug === "espana")).toBe(true);
+  });
+  it("getRelated maps slugs to Place objects", () => {
+    const related = getRelated(["madrid", "barcelona", "nonexistent"]);
+    expect(related).toHaveLength(2); // nonexistent filtered out
+    expect(related[0].slug).toBe("madrid");
+    expect(related[1].slug).toBe("barcelona");
   });
 });
 
