@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd }
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
   description:
-    "Más de 260 salas de chat gratis sin registro: por países, ciudades y temáticas. Chatear online con gente, hacer amigos y ligar en español. Acceso instantáneo.",
+    "Más de 200 salas de chat gratis sin registro: por países, ciudades y temáticas. Chatear online con gente, hacer amigos y ligar en español. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
 };
 
@@ -25,7 +25,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 260 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: "TuChat tiene más de 200 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
   },
   {
     q: "¿El chat funciona en el móvil?",
@@ -60,7 +60,7 @@ export default async function ChatIndexPage({
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
       <p className="mt-2 max-w-2xl text-muted">
-        Más de 260 salas de chat online para chatear con gente, hacer amigos y ligar en español.
+        Más de 200 salas de chat online para chatear con gente, hacer amigos y ligar en español.
         Acceso gratis, sin registro y sin descargas.
       </p>
 
