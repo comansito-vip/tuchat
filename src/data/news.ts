@@ -329,4 +329,78 @@ La Xunta de Galicia ha aprobado un plan de emergencia que incluye la habilitaci�
 
 El impacto económico del Camino en Galicia alcanzó los 840 millones de euros en 2025, y las estimaciones para 2026 superan los 1.000 millones. La Consellería de Cultura ha lanzado una consulta pública para establecer medidas de gestión de la capacidad, que podrían incluir un sistema de reserva previa para los albergues públicos en el tramo más transitado.`,
   },
+
+  // ── Artículos adicionales (junio 2026) ────────────────────────────────────
+
+  {
+    slug: "salud-mental-jovenes-espana-2026",
+    title: "España registra el mayor número de diagnósticos de ansiedad en jóvenes de su historia",
+    category: "Salud",
+    excerpt:
+      "El último informe del Ministerio de Sanidad revela que el 34% de los jóvenes de 16 a 25 años ha recibido atención psicológica o psiquiátrica en el último año, triplicando la cifra de 2019.",
+    date: "2026-06-12",
+    body: `El Ministerio de Sanidad publicó esta semana el informe más completo jamás elaborado sobre salud mental juvenil en España. El dato más alarmante: el 34% de los jóvenes de entre 16 y 25 años ha recibido atención psicológica o psiquiátrica en los últimos doce meses, una cifra que triplica los registros de 2019 y que convierte a España en el país europeo con mayor prevalencia de trastornos ansiosos y depresivos entre la población joven.
+
+Los especialistas apuntan a varios factores que confluyen para explicar la crisis. La pandemia dejó una huella profunda en el desarrollo socioemocional de una generación que vivió el confinamiento en plena adolescencia. Las redes sociales, con sus dinámicas de comparación permanente y exposición al acoso digital, amplifican la angustia en perfiles ya vulnerables. Y el contexto socioeconómico —precios de la vivienda inaccesibles, mercado laboral precario, incertidumbre climática— genera una sensación de futuro bloqueado que los psicólogos denominan "anhedonia anticipatoria".
+
+El sistema público de salud mental está desbordado. La ratio de psicólogos clínicos en la red pública española es de 6 por cada 100.000 habitantes, frente a los 18 de media en la UE. Las listas de espera para atención psicológica superan los seis meses en ocho comunidades autónomas. En respuesta, el Ministerio ha anunciado la contratación de 1.200 psicólogos clínicos adicionales para centros de salud y una dotación extraordinaria de 240 millones de euros para el Plan Nacional de Salud Mental 2026-2030.
+
+Pero los expertos advierten que contratar más profesionales no es suficiente si no cambia el modelo. El sistema necesita atención comunitaria, detección temprana en colegios e institutos y dejar de estigmatizar la búsqueda de ayuda. "El joven que pide cita al psicólogo no está loco: está teniendo una respuesta normal a circunstancias anormales", resume la presidenta de la Sociedad Española de Psiquiatría.
+
+La iniciativa parlamentaria que más apoyo acumula en este momento es la creación de un servicio de atención psicológica gratuito para menores de 25 años, similar al modelo pilotado por Francia y los países nórdicos. El coste estimado sería de 320 millones anuales, menos del 0,1% del PIB.`,
+  },
+
+  {
+    slug: "inflacion-espana-junio-2026",
+    title: "La inflación en España baja al 1,8% en junio, mínimo desde 2020",
+    category: "Economía",
+    excerpt:
+      "El IPC se modera por tercer mes consecutivo impulsado por la caída de los precios energéticos y de los alimentos. El Banco de España prevé que los tipos de interés del BCE bajen otro cuarto de punto antes de septiembre.",
+    date: "2026-06-13",
+    body: `El Instituto Nacional de Estadística publicó el dato de inflación de junio con una lectura que supone un respiro para los hogares españoles: el IPC bajó al 1,8% interanual, su nivel más bajo desde octubre de 2020 y el tercer descenso mensual consecutivo. El desglose por componentes revela que la moderación se explica principalmente por el abaratamiento de la energía —la electricidad baja un 12,4% interanual— y de los alimentos frescos, que encadenan cuatro meses de deflación.
+
+La evolución es coherente con la tendencia general en la eurozona, donde la inflación se sitúa en el 2,1% de media, ya muy cerca del objetivo del 2% del Banco Central Europeo. Esta convergencia abre la puerta a una nueva reducción de tipos de interés que los analistas esperan para la reunión de septiembre. El euríbor a doce meses, el índice de referencia para la mayoría de las hipotecas variables en España, ya ha anticipado ese movimiento y se sitúa en el 2,45%, su nivel más bajo desde 2022.
+
+La buena noticia para los hipotecados de tipo variable es doble: primero, la cuota mensual ha bajado de media 210 euros desde el máximo de 2023; segundo, las condiciones para una futura renegociación o cambio a tipo fijo son las más favorables en cuatro años. Los bancos están ofreciendo tipos fijos a diez años por debajo del 3%, algo inimaginable hace solo dieciocho meses.
+
+Sin embargo, el alivio no es completo. La inflación subyacente —que excluye energía y alimentos frescos— sigue en el 2,9%, impulsada por los servicios, especialmente el alquiler de vivienda (+8,2%), el turismo y la hostelería. Este componente es más resistente a los ajustes monetarios porque refleja desequilibrios estructurales en el mercado inmobiliario y en el mercado laboral.
+
+El Gobierno ha aprovechado el dato para anunciar el fin de las bonificaciones al transporte público, que vencen el 30 de septiembre. La medida, adoptada durante el pico de inflación de 2022, ha costado más de 1.800 millones de euros. Los sindicatos ya han convocado una reunión de urgencia con el Ministerio de Transportes para explorar una alternativa que no impacte en los trabajadores de rentas bajas.`,
+  },
+
+  {
+    slug: "cultura-flamenco-patrimonio-hispanidad-2026",
+    title: "El flamenco cumple 15 años como Patrimonio Inmaterial de la Humanidad y supera al fútbol en audiencia global",
+    category: "Cultura",
+    excerpt:
+      "Desde que la UNESCO reconoció el arte jondo en 2010, el flamenco ha multiplicado por cuatro sus espectadores globales. Hoy se practica en 87 países y genera más de 1.000 millones de euros en exportaciones culturales.",
+    date: "2026-06-11",
+    body: `En noviembre de 2010 la UNESCO inscribía el flamenco en su Lista del Patrimonio Cultural Inmaterial de la Humanidad. Quince años después, el balance es extraordinario: lo que entonces era un arte reconocido pero amenazado de folklorización se ha convertido en uno de los fenómenos culturales hispanohablantes de mayor proyección global. Las cifras hablan por sí solas: el flamenco se practica en 87 países, tiene más de cuarenta millones de seguidores activos en todo el mundo, y en 2025 generó 1.100 millones de euros en exportaciones culturales, superando por primera vez en audiencia consolidada anual a los grandes torneos de fútbol español.
+
+El crecimiento ha sido especialmente explosivo en Asia. Japón tiene más academias de flamenco que ningún otro país fuera de España: más de tres mil centros distribuidos por todo el archipiélago, con una base de más de ochocientos mil practicantes. Corea del Sur y China han seguido el mismo camino: el interés comenzó como curiosidad cultural, se consolidó como disciplina artística y hoy alimenta un turismo especializado hacia Sevilla, Jerez y Granada que genera centenares de millones de euros anuales.
+
+La declaración de la UNESCO fue un catalizador pero no la causa del éxito. El flamenco lleva décadas evolucionando sin perder su esencia: artistas como Camarón de la Isla, Paco de Lucía y Enrique Morente abrieron el arte jondo al jazz, al rock y a la música árabe en los años ochenta y noventa. La siguiente generación —Rosalía, Israel Galván, María Pagés— lo proyectó al pop global, los grandes teatros internacionales y los festivales de vanguardia. Hoy conviven sin tensión la pureza de las peñas flamencas de Lebrija y la fusión de los estadios de todo el mundo.
+
+El reto actual es la sostenibilidad. Sevilla, capital simbólica del flamenco, recibe quince millones de turistas al año y algunos barrios históricos como el Triana están bajo presión por la gentrificación. La Junta de Andalucía trabaja en un plan de protección que incluye la creación de zonas de salvaguarda para los locales de flamenco tradicional y un programa de becas para artistas jóvenes que quieran formarse en el entorno original de la disciplina.
+
+El Instituto Cervantes, que coordina la enseñanza del español en 90 países, ha integrado el flamenco como palanca de atracción hacia el idioma. "Hay alumnos que aprenden español porque quieren entender las letras de las siguientes. Es el poder más grande que tiene una cultura: despertar el deseo de hablar su lengua", explicó su directora en una conferencia en Tokio.`,
+  },
+
+  {
+    slug: "teletrabajo-espana-empresas-vuelta-oficina-2026",
+    title: "El teletrabajo resiste: el 40% de los empleados españoles trabaja en remoto al menos tres días a la semana",
+    category: "Actualidad",
+    excerpt:
+      "Cinco años después de la pandemia, España consolida una tasa de teletrabajo estructural que es la más alta de su historia. Las empresas que intentan revertirlo afrontan fuga de talento y mayor rotación.",
+    date: "2026-06-10",
+    body: `Cinco años después del confinamiento que obligó a millones de trabajadores a transformar sus hogares en oficinas, el teletrabajo en España no solo no ha retrocedido: se ha asentado como una nueva normalidad laboral. La última Encuesta de Población Activa con módulo específico sobre modalidad de trabajo revela que el 40% de los empleados que pueden trabajar en remoto lo hace al menos tres días a la semana, y el 18% trabaja íntegramente en modalidad telemática. Son los datos más altos registrados en la historia estadística del país.
+
+El panorama contrasta con la narrativa que circuló hace dos años, cuando grandes empresas tecnológicas estadounidenses como Amazon, Meta y Google anunciaron políticas de retorno total a la oficina. Esa tendencia no ha calado de la misma manera en España. Las empresas españolas que han intentado revertir el teletrabajo —algunas lo han hecho por presión de sus matrices internacionales— reportan un aumento significativo de la rotación y dificultades para retener perfiles técnicos, que aceptan ofertas de competidores o de empresas extranjeras que mantienen la flexibilidad.
+
+El teletrabajo ha dejado de ser un beneficio y se ha convertido en un derecho percibido. En las encuestas de clima laboral, la flexibilidad de ubicación aparece como el segundo factor más valorado por los trabajadores, solo por detrás del salario y por delante de las posibilidades de promoción. Las generaciones más jóvenes son especialmente sensibles: el 72% de los menores de 35 años afirma que rechazaría una oferta de trabajo si exigiera presencia total en oficina.
+
+El impacto en las ciudades ha sido desigual. Las ciudades medianas —Málaga, Valencia, Alicante, Bilbao— han recibido una oleada de trabajadores remotos que buscan mejor calidad de vida y menores costes de vivienda que Madrid o Barcelona. El resultado es un reparto más equilibrado del talento entre territorios, aunque también una presión creciente sobre el alquiler en destinos que no estaban preparados para ese flujo.
+
+El marco legal ha evolucionado en paralelo. La Ley del Trabajo a Distancia aprobada en 2021 sentó las bases, pero la negociación colectiva ha ido mucho más lejos: más del 60% de los convenios colectivos firmados en 2025 incluyen cláusulas específicas sobre teletrabajo que garantizan el derecho a al menos dos días semanales de trabajo en remoto para quienes desempeñan funciones teletrabajables.`,
+  },
 ];
