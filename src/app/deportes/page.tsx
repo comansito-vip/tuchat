@@ -34,6 +34,10 @@ const FAQ = [
     q: "¿Puedo entrar siendo de cualquier equipo?",
     a: "Por supuesto. Hay pique sano entre aficiones, pero se viene a debatir con respeto. Elige tu sala y entra gratis sin registro.",
   },
+  {
+    q: "¿Hay clasificaciones de ligas en TuChat?",
+    a: "Sí. La sección de resultados de TuChat muestra clasificaciones actualizadas de LaLiga, Premier League, Serie A, Bundesliga, Liga MX, Ligue 1 y más. Puedes consultarlas en la sección de resultados deportivos.",
+  },
 ];
 
 export default function DeportesPage() {

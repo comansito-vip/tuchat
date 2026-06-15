@@ -37,6 +37,10 @@ const FAQ = [
     q: "¿Puedo hablar de mis tiradas con alguien?",
     a: "Claro. En el chat de tarot hay gente que lee cartas, comparte significados y resuelve dudas sin juzgar si crees o no crees. Entra gratis y sin registro.",
   },
+  {
+    q: "¿Qué son los Arcanos Mayores del tarot?",
+    a: "Los Arcanos Mayores son las 22 cartas principales del tarot, numeradas del 0 (El Loco) al 21 (El Mundo). Representan arquetipos universales y se consideran las cartas con mayor peso simbólico en una lectura.",
+  },
 ];
 
 const ESOTERIC_SLUGS = ["tarot", "esoterismo", "videncia", "astrologia", "magia", "horoscopo"];

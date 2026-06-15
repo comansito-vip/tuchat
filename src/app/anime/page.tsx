@@ -33,6 +33,10 @@ const FAQ = [
     q: "¿Hay que registrarse para entrar?",
     a: "No. Eliges un nick de invitado y entras al momento, desde el móvil o el ordenador, totalmente gratis.",
   },
+  {
+    q: "¿TuChat cubre anime clásico y también los estrenos actuales?",
+    a: "Sí. Hay salas para las grandes series de los 90 y 2000 —Dragon Ball Z, Naruto, One Piece— y también para los estrenos recientes como Jujutsu Kaisen, Kimetsu no Yaiba o Chainsaw Man. La comunidad opina de todo.",
+  },
 ];
 
 export default function AnimePage() {
