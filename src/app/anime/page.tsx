@@ -4,6 +4,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
+import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 import { getChildren, getPlace } from "@/data";
 
 export const metadata: Metadata = {
@@ -41,6 +42,9 @@ export default function AnimePage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={faqJsonLd(FAQ)} />
+      <JsonLd data={collectionJsonLd("Chat de anime y manga", "/anime")} />
       <Breadcrumbs crumbs={crumbs} />
 
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de anime y manga</h1>

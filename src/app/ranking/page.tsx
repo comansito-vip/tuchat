@@ -4,6 +4,7 @@ import { RankingTable } from "@/components/home/RankingTable";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 // Refleja los votos de la comunidad; se regenera cada 5 min (prerenderizable
 // e indexable en el sitemap, a diferencia de force-dynamic).
@@ -30,6 +31,8 @@ export default async function RankingPage() {
   ]);
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={collectionJsonLd("Ranking de salas", "/ranking")} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Ranking de salas</h1>
       <p className="mt-2 max-w-2xl text-muted">
