@@ -158,6 +158,15 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
+  it("all channel names are lowercase and non-empty", () => {
+    const violations = ALL_PLACES.flatMap((p) =>
+      p.channels
+        .filter((c) => !c || c !== c.toLowerCase() || /\s/.test(c))
+        .map((c) => `${p.slug}: "${c}"`)
+    );
+    expect(violations).toEqual([]);
+  });
+
   it("all places have at least one related slug", () => {
     const violations = ALL_PLACES.filter((p) => !p.related || p.related.length === 0)
       .map((p) => p.slug);
