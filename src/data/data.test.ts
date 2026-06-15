@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries } from "@/data";
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {
@@ -15,5 +15,43 @@ describe("data getters", () => {
     expect(getCities().some((c) => c.slug === "barcelona")).toBe(true);
     expect(getTopics().some((t) => t.slug === "amor")).toBe(true);
     expect(getNews().some((n) => n.featured)).toBe(true);
+  });
+});
+
+describe("SEO constraints", () => {
+  const ALL_PLACES = [...getCountries(), ...getCities(), ...getTopics()];
+
+  it("all place intro texts are ≤160 chars (meta description limit)", () => {
+    const violations = ALL_PLACES.filter((p) => p.intro.length > 160).map(
+      (p) => `${p.slug}: ${p.intro.length} chars`
+    );
+    expect(violations).toEqual([]);
+  });
+
+  it("all place about texts are ≥300 chars when present", () => {
+    const violations = ALL_PLACES.filter(
+      (p) => p.about !== undefined && p.about.length < 300
+    ).map((p) => `${p.slug}: ${p.about!.length} chars`);
+    expect(violations).toEqual([]);
+  });
+
+  it("no duplicate place slugs", () => {
+    const slugs = ALL_PLACES.map((p) => p.slug);
+    const counts = slugs.reduce<Record<string, number>>((acc, s) => {
+      acc[s] = (acc[s] ?? 0) + 1;
+      return acc;
+    }, {});
+    const dupes = Object.entries(counts)
+      .filter(([, n]) => n > 1)
+      .map(([s]) => s);
+    expect(dupes).toEqual([]);
+  });
+
+  it("all news articles have body, excerpt, and valid date format", () => {
+    const articles = getNews();
+    const violations = articles
+      .filter((a) => !a.body || !a.excerpt || !/^\d{4}-\d{2}-\d{2}$/.test(a.date))
+      .map((a) => a.slug);
+    expect(violations).toEqual([]);
   });
 });
