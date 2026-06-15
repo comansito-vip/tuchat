@@ -80,6 +80,7 @@ export default async function ArticuloPage({
           date: a.date,
           category: a.category,
           slug: a.slug,
+          body: a.body,
         })}
       />
 

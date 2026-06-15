@@ -47,7 +47,9 @@ export function articleJsonLd(a: {
   date: string;
   category: string;
   slug: string;
+  body?: string;
 }) {
+  const wordCount = a.body ? a.body.split(/\s+/).length : undefined;
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -57,6 +59,7 @@ export function articleJsonLd(a: {
     dateModified: a.date,
     articleSection: a.category,
     inLanguage: "es",
+    ...(wordCount !== undefined && { wordCount }),
     image: [`${SITE}/opengraph-image`],
     mainEntityOfPage: `${SITE}/noticias/articulo/${a.slug}`,
     author: { "@type": "Organization", name: "TuChat", url: SITE },
