@@ -34,7 +34,7 @@ export default async function TiempoCiudadPage({
   const { ciudad } = await params;
   const place = getPlace(ciudad);
   const nombre = place?.name ?? cap(ciudad);
-  const intro = place?.intro ?? `Consulta el tiempo en ${nombre}.`;
+  const intro = place?.about ?? place?.intro ?? `Consulta el tiempo en ${nombre}.`;
   const parentName = place?.parentName;
 
   const crumbs = [

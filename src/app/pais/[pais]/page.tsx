@@ -76,7 +76,7 @@ export default async function PaisPage({
         <JsonLd data={faqJsonLd(faq)} />
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de {nombre}</h1>
-        <p className="mt-2 max-w-2xl text-muted">{place.intro}</p>
+        <p className="mt-2 max-w-2xl text-muted">{place.about ?? place.intro}</p>
         <div className="mt-4 max-w-sm">
           <NickInput canal={pais} placeholder={`Tu nick para entrar a ${nombre}...`} />
         </div>

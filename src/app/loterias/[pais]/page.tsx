@@ -180,7 +180,7 @@ export default async function LoteriasPage({
       {place && (
         <div className="mt-6 rounded-xl border border-line bg-card p-5">
           <h2 className="font-bold text-ink">Sobre {nombre}</h2>
-          <p className="mt-2 text-sm text-muted">{place.intro}</p>
+          <p className="mt-2 text-sm text-muted">{place.about ?? place.intro}</p>
           <Link
             href={`/chat/${pais}`}
             className="mt-3 inline-block text-sm font-semibold text-blue hover:underline"
