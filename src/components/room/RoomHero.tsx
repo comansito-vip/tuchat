@@ -36,7 +36,7 @@ const KIND_LABEL: Record<Place["kind"], string> = {
   tematica: "Sala temática",
 };
 
-export function RoomHero({ place }: { place: Place }) {
+export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
   const gradient = GRADIENT_SLUG[place.slug] ?? GRADIENT_KIND[place.kind];
   return (
     <section
@@ -72,7 +72,7 @@ export function RoomHero({ place }: { place: Place }) {
           </div>
 
           <h1 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">
-            Chat {place.name} gratis
+            {h1 ?? `Chat ${place.name} gratis`}
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-white/85 sm:text-base">{place.intro}</p>
 

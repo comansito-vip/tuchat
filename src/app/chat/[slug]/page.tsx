@@ -67,7 +67,7 @@ export default async function ChatRoomPage({
       <Breadcrumbs crumbs={crumbs} />
 
       {/* Hero destacado con CTA principal */}
-      <RoomHero place={place} />
+      <RoomHero place={place} h1={ROOM_TITLES[slug]} />
 
       {/* Two-column body */}
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
