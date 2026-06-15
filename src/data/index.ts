@@ -18,7 +18,7 @@ export function getCountries() { return COUNTRIES; }
 export function getTopics() { return ALL_TOPICS; }
 // Solo los temas principales (para el carrusel de categorías de la home).
 export function getPrimaryTopics() { return TOPICS; }
-export function getNews() { return NEWS; }
+export function getNews() { return [...NEWS].sort((a, b) => b.date.localeCompare(a.date)); }
 export function getRooms(): Place[] {
   return [...ALL].sort((a, b) => b.users - a.users).slice(0, 12);
 }
