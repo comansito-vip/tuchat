@@ -186,6 +186,19 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
+  it("all places have users > 0 and votes > 0", () => {
+    const violations = ALL_PLACES.filter((p) => p.users <= 0 || p.votes <= 0)
+      .map((p) => `${p.slug}: users=${p.users}, votes=${p.votes}`);
+    expect(violations).toEqual([]);
+  });
+
+  it("all places have a valid activity level", () => {
+    const VALID = new Set(["Alta", "Media", "Baja"]);
+    const violations = ALL_PLACES.filter((p) => !VALID.has(p.activity))
+      .map((p) => `${p.slug}: "${p.activity}"`);
+    expect(violations).toEqual([]);
+  });
+
   it("all place intro texts are unique (no duplicated content)", () => {
     const seen = new Map<string, string>();
     const dupes: string[] = [];
