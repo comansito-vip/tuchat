@@ -1,5 +1,5 @@
 import type { Place } from "@/data";
-import { getPlace } from "@/data";
+import { getPlace, getRelated } from "@/data";
 import type { Crumb } from "@/lib/seo";
 
 export function buildRoomCrumbs(place: Place): Crumb[] {
@@ -16,22 +16,26 @@ export function buildRoomCrumbs(place: Place): Crumb[] {
 }
 
 export function buildFaq(place: Place): { q: string; a: string }[] {
+  const relatedNames = getRelated(place.related)
+    .slice(0, 3)
+    .map((p) => p.name)
+    .join(", ");
   return [
     {
       q: `¿El chat de ${place.name} es gratis?`,
-      a: `Sí. Entras sin registro, eliges un nick de invitado y empiezas a chatear al momento.`,
+      a: `Sí. Entras sin registro, eliges un nick de invitado y empiezas a chatear al momento. No hay cuotas ni suscripción.`,
     },
     {
-      q: `¿Necesito instalar algo?`,
-      a: `No. El chat funciona en el navegador, en el móvil y en el ordenador.`,
+      q: `¿Necesito instalar algo para chatear en ${place.name}?`,
+      a: `No. El chat funciona directamente en el navegador, en el móvil y en el ordenador. Sin descargas ni aplicaciones.`,
     },
     {
       q: `¿De qué se habla en la sala de ${place.name}?`,
-      a: place.intro,
+      a: place.about ?? place.intro,
     },
     {
-      q: `¿Cómo entro en otras salas relacionadas?`,
-      a: `Desde "Salas relacionadas" puedes saltar a ${place.related.slice(0, 3).join(", ")} y más.`,
+      q: `¿Qué otras salas puedo visitar desde aquí?`,
+      a: `Desde la sección "Otras salas que te pueden gustar" puedes acceder a ${relatedNames || "salas relacionadas"} y muchas más. Todas son gratis y sin registro.`,
     },
   ];
 }
