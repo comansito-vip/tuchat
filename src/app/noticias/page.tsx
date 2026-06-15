@@ -5,9 +5,9 @@ import { NewsGrid } from "@/components/home/NewsGrid";
 import { collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Noticias",
+  title: "Noticias en español — Actualidad, deportes, tecnología",
   description:
-    "Las últimas noticias en español: actualidad, deportes, tecnología, cultura, viajes, salud y economía.",
+    "Las últimas noticias en español: actualidad, deportes, tecnología, cultura, viajes, salud y economía. Seleccionadas por la comunidad de TuChat.",
   alternates: { canonical: "/noticias" },
 };
 

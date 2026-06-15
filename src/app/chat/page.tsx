@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getCountries, getCities, getTopics } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
+import { SearchInput } from "@/components/ui/SearchInput";
 import { collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -37,6 +38,10 @@ export default async function ChatIndexPage({
         Más de 200 salas de chat online para chatear con gente, hacer amigos y ligar en español.
         Acceso gratis, sin registro y sin descargas.
       </p>
+
+      <div className="mt-5 max-w-lg">
+        <SearchInput size="md" />
+      </div>
 
       {q && (
         <p className="mt-4 text-sm text-muted">
