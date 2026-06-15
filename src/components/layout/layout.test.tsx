@@ -1,9 +1,11 @@
 import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { Header } from "./Header";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { Footer } from "./Footer";
 import { ScaffoldPage } from "./ScaffoldPage";
+import { MobileBottomNav } from "./MobileBottomNav";
+import { MobileMenu } from "./MobileMenu";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 
@@ -46,5 +48,19 @@ describe("layout", () => {
       />
     );
     expect(screen.queryByText(/Sección en preparación/i)).not.toBeInTheDocument();
+  });
+  it("MobileBottomNav renders 5 nav links", () => {
+    render(<MobileBottomNav />);
+    const links = screen.getAllByRole("link");
+    expect(links.length).toBe(5);
+    expect(screen.getByRole("link", { name: "Chat" })).toHaveAttribute("href", "/chat");
+  });
+  it("MobileMenu opens dialog on button click", () => {
+    render(<MobileMenu />);
+    const openBtn = screen.getByRole("button", { name: /Abrir menú/i });
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+    fireEvent.click(openBtn);
+    expect(screen.getByRole("dialog")).toBeInTheDocument();
+    expect(screen.getByText("Todas las salas")).toBeInTheDocument();
   });
 });
