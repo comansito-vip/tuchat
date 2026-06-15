@@ -3,7 +3,7 @@ import { getCountries, getCities, getTopics } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { SearchInput } from "@/components/ui/SearchInput";
-import { collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
@@ -31,6 +31,7 @@ export default async function ChatIndexPage({
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs crumbs={crumbs} />
       <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>

@@ -4,7 +4,7 @@ import { getSigns, type Element } from "@/data/horoscopo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
-import { collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
   Fuego: "bg-red-500",
@@ -28,6 +28,7 @@ export default function HoroscopoIndexPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Horóscopo", "/horoscopo")} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Horóscopo de los 12 signos</h1>

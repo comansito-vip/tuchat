@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NewsGrid } from "@/components/home/NewsGrid";
-import { collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Noticias en español — Actualidad, deportes, tecnología",
@@ -32,6 +32,7 @@ export default function NoticiasPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Noticias", "/noticias")} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Noticias y actualidad</h1>
       <p className="mt-2 max-w-2xl text-muted">
