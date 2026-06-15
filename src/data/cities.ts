@@ -52,6 +52,8 @@ export const CITIES: Place[] = [
     related: ["madrid", "barcelona", "alicante", "sevilla", "espana", "amistad", "amor"],
     intro:
       "La paella, la huerta y el olor a azahar en marzo: Valencia tiene su propio carácter, y su sala de chat también. Únete y habla con gente del cap i casal.",
+    about:
+      "El chat de Valencia junta a gente del Cabanyal, el Carmen, Ruzafa y los barrios de la huerta. Se habla de las Fallas de marzo y si te quedaste sin dormir o sin voz, de la Albufera al atardecer, del Mestalla y del Valencia CF, y de si la paella lleva judías verdes o no. Entran valencianos de pura cepa y adoptivos que vinieron por la luz y se quedaron por la vida. Una sala con carácter mediterráneo y mucho orgullo de cap i casal.",
   },
   {
     slug: "sevilla",
@@ -67,6 +69,8 @@ export const CITIES: Place[] = [
     related: ["madrid", "malaga", "valencia", "bilbao", "espana", "amistad", "musica"],
     intro:
       "Aquí se habla con el calor del Sur: desde los que salen de madrugada por Triana hasta los que debaten si la Feria se ha comercializado demasiado.",
+    about:
+      "El chat de Sevilla reúne a gente de Triana, el Alfalfa, los Remedios y el Polígono. Se habla de la Semana Santa con las costaleras y el olor a incienso en la madrugada, de la Feria de Abril hasta el amanecer, del Betis y del Sevilla con la intensidad que se merece el derbi. La ciudad más caliente de España tiene conversaciones igual de intensas: copas en el Arenal, tapas en el Mercado de la Encarnación y el río Guadalquivir como telón de fondo.",
   },
   {
     slug: "bilbao",
@@ -82,6 +86,8 @@ export const CITIES: Place[] = [
     related: ["madrid", "barcelona", "zaragoza", "sevilla", "espana", "amistad", "deportes"],
     intro:
       "La ría, el Guggenheim y el pintxo de tortilla: Bilbao ha cambiado mucho en treinta años y su gente tiene mucho que contar. Súmate a la conversación.",
+    about:
+      "El chat de Bilbao reúne a gente del Casco Viejo, Indautxu, Begoña y la margen izquierda. Se habla del txikiteo de siete en siete por el Siete Calles, del Athletic Club y su política de canteras, del Guggenheim y la transformación de la ría que todavía sorprende a quien la vivió. Se mezcla el euskera y el castellano sin problema, y siempre hay alguien recordando la Aste Nagusia con sus conciertos y sus noches sin dormir en La Palanca.",
   },
   {
     slug: "malaga",
@@ -98,6 +104,8 @@ export const CITIES: Place[] = [
     related: ["sevilla", "madrid", "barcelona", "valencia", "espana", "viajes", "amor"],
     intro:
       "Málaga ya no es solo playa y Picasso: el Soho, el boom tecnológico y miles de nuevos residentes han creado una mezcla que vale la pena explorar en el chat.",
+    about:
+      "El chat de Málaga junta a malagueños de siempre con los miles de nuevos vecinos que llegaron del norte de Europa y de otras provincias. Se habla del Soho con sus murales y sus bares de moda, del Centro Pompidou junto al puerto, de los boquerones en vinagre y la fritura del Palo, y de aguantar agosto en la Malagueta. Una sala donde el ritmo de vida mediterráneo convive con el inglés que se escucha en cada esquina y el boom tecnológico que ha cambiado el precio del alquiler.",
   },
   {
     slug: "a-coruna",
@@ -159,6 +167,8 @@ export const CITIES: Place[] = [
     related: ["valencia", "malaga", "madrid", "barcelona", "espana", "viajes", "amor"],
     intro:
       "Las hogueras de junio, el Castillo de Santa Bárbara al atardecer y una costa que no para en todo el verano: Alicante tiene mucho de qué hablar.",
+    about:
+      "El chat de Alicante reúne a gente del Casco Antiguo, el Puerto, el Barrio de Santa Cruz y los alrededores del cap de l'Horta. Se habla de bajar a la playa del Postiguet antes de que se llene, de la Hoguera del Barrio de San Blas en junio y la noche de las mascletàs, de los arroces de la huerta alicantina y de aguantar julio y agosto en el Turia del sur. Entran alicantinos de toda la vida y forasteros que llegaron atraídos por el clima y se quedaron por el precio y la calidad de vida.",
   },
   {
     slug: "buenos-aires",
@@ -211,6 +221,8 @@ export const CITIES: Place[] = [
     related: ["colombia", "lima", "buenos-aires", "ciudad-de-mexico", "amistad", "amor", "viajes"],
     intro:
       "La Candelaria, el frío de los 2600 metros y el ajiaco de los domingos: los bogotanos son conversadores natos y esta sala lo demuestra a cualquier hora del día.",
+    about:
+      "El chat de Bogotá junta a rolos de Chapinero, Usaquén, Kennedy y Suba. Se habla del trancón del Portal de la 80, del clima que cambia en media hora, del ajiaco que calienta los domingos fríos y de si los Millonarios o el Santa Fe ganaron el último clásico capitalino. Entran estudiantes de Los Andes y la Nacional, trabajadores de Teleport y viajeros de paso que descubrieron que esta ciudad no se parece a lo que imaginaban desde fuera. Una sala de altura que nunca baja el nivel de la conversación.",
   },
   {
     slug: "lima",
@@ -226,6 +238,8 @@ export const CITIES: Place[] = [
     related: ["bogota", "argentina", "ciudad-de-mexico", "buenos-aires", "amistad", "amor", "cocina"],
     intro:
       "Capital de la mejor cocina del continente según quienes la conocen: los limeños hablan de ceviche, de la garúa invernal y de por qué todo pasa en Miraflores.",
+    about:
+      "El chat de Lima junta a limeños de Miraflores, San Isidro, Barranco y los Conos. Se habla del ceviche y el lomo saltado como religión, de la garúa que cubre la ciudad entre mayo y octubre y de por qué todos los planes terminan en Barranco. Entran jóvenes de las universidades privadas del centro con gente del Callao y San Juan de Lurigancho, y la conversación mezcla jerga limeña, polémica deportiva sobre la Blanquirroja y recomendaciones de huariques donde se come bien y barato.",
   },
   {
     slug: "santiago-de-chile",
@@ -241,6 +255,8 @@ export const CITIES: Place[] = [
     related: ["buenos-aires", "lima", "bogota", "argentina", "amistad", "amor", "viajes"],
     intro:
       "Los Andes al fondo, el smog en los días sin viento y la obsesión con el pisco sour: Santiago es más cosmopolita de lo que parece y su chat lo refleja.",
+    about:
+      "El chat de Santiago reúne a santiaguinos de Providencia, Las Condes, Ñuñoa y La Florida. Se habla de la vista de los Andes cuando el cielo se despeja, del taco en la Alameda en hora punta, del mejor pisco sour de Bellavista y de si el metro tiene solución. Entran estudiantes de la Chile y la Católica junto a trabajadores y jóvenes del Gran Santiago. Una sala donde el acento chileno suena fuerte, las bromas cortan fino y siempre hay alguien dispuesto a recomendar un panorama para el fin de semana.",
   },
   {
     slug: "montevideo",
