@@ -10,7 +10,6 @@ import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
 import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
-import { RelatedRooms } from "@/components/room/RelatedRooms";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
 import { breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
@@ -185,12 +184,6 @@ export default async function ChatRoomPage({
           </div>
         </section>
       )}
-
-      {/* Related rooms */}
-      <section id="relacionadas" className="mt-10 scroll-mt-20">
-        <SectionTitle>Salas relacionadas</SectionTitle>
-        <RelatedRooms slugs={place.related} />
-      </section>
 
       {/* FAQ */}
       <FAQBlock items={faq} />
