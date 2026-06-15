@@ -18,10 +18,6 @@ export default function AvisoLegalPage() {
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Aviso legal</h1>
       <div className="prose mt-4 space-y-4 text-muted">
-        <p className="rounded-lg border border-line bg-card p-3 text-sm">
-          ⚠️ Plantilla orientativa. Revisa y completa estos textos con asesoría legal antes de
-          publicar (titular, NIF, domicilio y datos registrales reales).
-        </p>
         <h2 className="text-lg font-bold text-ink">Titular del sitio</h2>
         <p>
           Este sitio web (tuchat.org) es un portal de salas de chat en español. Los datos

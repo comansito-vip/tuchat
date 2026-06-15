@@ -29,10 +29,6 @@ export default function ContactoPage() {
         >
           hola@tuchat.org
         </a>
-        <p className="mt-4 text-xs text-muted">
-          (Sustituye esta dirección por la real del proyecto. Para un formulario con envío, se puede
-          añadir una API route cuando haya un servicio de correo configurado.)
-        </p>
       </div>
     </main>
   );

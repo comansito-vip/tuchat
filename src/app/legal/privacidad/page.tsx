@@ -18,10 +18,6 @@ export default function PrivacidadPage() {
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Política de privacidad</h1>
       <div className="prose mt-4 space-y-4 text-muted">
-        <p className="rounded-lg border border-line bg-card p-3 text-sm">
-          ⚠️ Plantilla orientativa (RGPD/LOPDGDD). Revísala con asesoría legal y completa el
-          responsable del tratamiento y los terceros reales antes de publicar.
-        </p>
         <h2 className="text-lg font-bold text-ink">Datos que tratamos</h2>
         <p>
           TuChat está diseñado para minimizar la recogida de datos: el acceso al chat es sin

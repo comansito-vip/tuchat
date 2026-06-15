@@ -18,10 +18,6 @@ export default function CookiesPage() {
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Política de cookies</h1>
       <div className="prose mt-4 space-y-4 text-muted">
-        <p className="rounded-lg border border-line bg-card p-3 text-sm">
-          ⚠️ Plantilla orientativa. Ajusta la lista de cookies/terceros reales y, si procede, añade
-          un banner de consentimiento antes de publicar.
-        </p>
         <h2 className="text-lg font-bold text-ink">Almacenamiento propio</h2>
         <p>
           TuChat usa almacenamiento local del navegador (localStorage) para recordar tu nick de
