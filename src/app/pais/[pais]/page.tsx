@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getPlace, getCities, getCountries } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
@@ -89,6 +90,25 @@ export default async function PaisPage({
               <RoomCard key={c.slug} place={c} />
             ))}
           </div>
+        </section>
+
+        {/* Servicios relacionados */}
+        <section className="mt-8 grid gap-3 sm:grid-cols-3">
+          <Link href={`/tiempo/${pais}`} className="block rounded-xl border border-line bg-card p-4 hover:border-blue transition-colors">
+            <div className="text-xl" aria-hidden="true">🌤️</div>
+            <p className="mt-1 font-semibold text-sm text-ink">El tiempo en {nombre}</p>
+            <p className="text-xs text-muted mt-0.5">Previsión meteorológica</p>
+          </Link>
+          <Link href={`/loterias/${pais}`} className="block rounded-xl border border-line bg-card p-4 hover:border-blue transition-colors">
+            <div className="text-xl" aria-hidden="true">🎰</div>
+            <p className="mt-1 font-semibold text-sm text-ink">Loterías de {nombre}</p>
+            <p className="text-xs text-muted mt-0.5">Resultados y sorteos</p>
+          </Link>
+          <Link href="/noticias" className="block rounded-xl border border-line bg-card p-4 hover:border-blue transition-colors">
+            <div className="text-xl" aria-hidden="true">📰</div>
+            <p className="mt-1 font-semibold text-sm text-ink">Noticias de {nombre}</p>
+            <p className="text-xs text-muted mt-0.5">Actualidad en español</p>
+          </Link>
         </section>
 
         <FAQBlock items={faq} />
