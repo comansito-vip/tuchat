@@ -6,7 +6,8 @@ import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { NickInput } from "@/components/ui/NickInput";
 import { LEAGUES, getLeague, getStandings, getFixtures } from "@/lib/sports";
-import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { FAQBlock } from "@/components/room/FAQBlock";
 
 export const dynamic = "force-dynamic";
 
@@ -54,10 +55,26 @@ export default async function ResultadosLigaPage({
     { name: league.name, url: `/resultados/${liga}` },
   ];
 
+  const faq = [
+    {
+      q: `¿Cuándo se actualiza la clasificación de ${league.name}?`,
+      a: `La clasificación de ${league.name} se actualiza automáticamente con cada jornada disputada. Los datos en vivo se obtienen de fuentes oficiales y se reflejan en la tabla tan pronto como finaliza cada partido.`,
+    },
+    {
+      q: `¿Dónde puedo comentar los partidos de ${league.name}?`,
+      a: `En TuChat puedes comentar los partidos de ${league.name} en el chat de deportes y en las salas de equipos específicos. El acceso es gratuito y sin registro.`,
+    },
+    {
+      q: `¿Qué ligas además de ${league.name} están disponibles?`,
+      a: `TuChat cubre ${LEAGUES.map((l) => l.name).join(", ")}. Puedes cambiar de liga usando los botones de selección en la parte superior de la página.`,
+    },
+  ];
+
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(league.name, `/resultados/${liga}`)} />
+      <JsonLd data={faqJsonLd(faq)} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">
         Clasificación {league.name}
@@ -142,9 +159,18 @@ export default async function ResultadosLigaPage({
         </section>
       )}
 
-      <div className="mt-8 max-w-sm">
-        <NickInput canal="futbol" placeholder="Tu nick para el chat de fútbol..." />
-      </div>
+      <section className="mt-8 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-900 p-6 text-white">
+        <p className="text-sm font-semibold opacity-80">Debate en directo</p>
+        <h2 className="mt-1 text-xl font-extrabold">¿Cómo va el partido?</h2>
+        <p className="mt-1 text-sm opacity-80">
+          Comenta la jornada de {league.name} con otros aficionados en tiempo real.
+        </p>
+        <div className="mt-4 max-w-sm">
+          <NickInput canal="deportes" variant="onColor" placeholder="Tu nick para el chat de deportes..." />
+        </div>
+      </section>
+
+      <FAQBlock items={faq} />
     </main>
   );
 }

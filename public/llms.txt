@@ -1,10 +1,10 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (más de 460 salas con landing propia), con webchat en tiempo real,
-> verticales temáticos, rankings por votos, resultados deportivos en vivo y
-> noticias. Cubre España, toda Hispanoamérica y ciudades del mundo con comunidad
-> hispana.
+> temáticas (más de 260 landings propias, más de 460 canales accesibles), con
+> webchat en tiempo real, verticales temáticos, rankings por votos, resultados
+> deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
+> Hispanoamérica y ciudades del mundo con comunidad hispana.
 
 ## Cómo funciona
 - Acceso gratuito y sin registro: se elige un nick de invitado y se entra al chat.
@@ -18,14 +18,16 @@
 ## Verticales temáticos
 - Esoterismo: [Tarot](/tarot) (carta del día y significado de los arcanos), y salas de [esoterismo](/chat/esoterismo), [videncia](/chat/videncia), [astrología](/chat/astrologia).
 - Anime: [hub de anime](/anime) y salas por serie ([Naruto](/chat/naruto), [Dragon Ball](/chat/dragon-ball), [One Piece](/chat/one-piece)…).
-- Deportes: [hub de deportes](/deportes), [resultados y clasificaciones](/resultados) (LaLiga, Premier, Serie A, Liga MX y más) y salas por equipo ([Real Madrid](/chat/real-madrid), [FC Barcelona](/chat/fc-barcelona), [Boca Juniors](/chat/boca-juniors)…).
+- Deportes: [hub de deportes](/deportes), [resultados y clasificaciones](/resultados/laliga) (LaLiga, Premier, Serie A, Liga MX y más) y salas por equipo ([Real Madrid](/chat/real-madrid), [FC Barcelona](/chat/fc-barcelona), [Boca Juniors](/chat/boca-juniors)…).
 - LGTBI: [Chueca](/chat/chueca), [Gay](/chat/gay), [Trans](/chat/trans), [Gay Madrid](/chat/gay-madrid).
 - Comunidad latina: [Latinos](/chat/latinos), [Latinoamérica](/chat/latinoamerica), [Hispanos](/chat/hispanos).
 
 ## Otras secciones
 - [Ranking de salas](/ranking): más votadas, con desglose por temática, país y ciudad.
-- [Noticias](/noticias): actualidad, deportes, tecnología, cultura y más, por categoría.
-- [Horóscopo](/horoscopo/aries): predicción diaria por signo.
+- [Noticias](/noticias): actualidad, deportes, tecnología, IA, cultura, viajes, salud, economía y entretenimiento, por categoría.
+- [Horóscopo](/horoscopo): predicción por signo (Aries, Tauro, Géminis…); landing propia por signo en `/horoscopo/{signo}`.
+- [El tiempo](/tiempo/madrid): previsión meteorológica por ciudad o país; landing en `/tiempo/{ciudad}`.
+- [Loterías](/loterias/espana): resultados y sorteos por país (España, México, Argentina…); landing en `/loterias/{pais}`.
 - [Webchat](/webchat): acceso al chat en directo (no indexado).
 
 ## Información

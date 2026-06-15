@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contacto",
@@ -15,6 +16,7 @@ const crumbs = [
 export default function ContactoPage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Contacto</h1>
       <p className="mt-2 text-muted">
