@@ -32,6 +32,10 @@ const FAQ = [
     q: "¿Puedo comentar las noticias en el chat?",
     a: "Sí. Cada artículo incluye un acceso directo a la sala de chat relacionada con su temática para que puedas debatir la noticia con otros lectores en tiempo real.",
   },
+  {
+    q: "¿Las noticias de TuChat cubren Latinoamérica y España?",
+    a: "Sí. TuChat cubre toda la actualidad hispanohablante: política y sociedad de España, economía latinoamericana, cultura de México y Argentina, deportes de toda la región y tecnología global en español.",
+  },
 ];
 
 const CATEGORIES = [
