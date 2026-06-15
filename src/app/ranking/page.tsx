@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RankingTable } from "@/components/home/RankingTable";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
 
@@ -35,6 +36,9 @@ export default async function RankingPage() {
         Las salas más votadas por la comunidad. El ranking se actualiza en tiempo real según la
         actividad y los votos de los usuarios.
       </p>
+      <div className="mt-4 max-w-sm">
+        <NickInput canal="espana" placeholder="Tu nick para entrar al chat..." />
+      </div>
 
       <section className="mt-8">
         <SectionTitle>General</SectionTitle>

@@ -6,7 +6,6 @@ const COLUMNS = [
     links: [
       { label: "Inicio", href: "/" },
       { label: "Salas de chat gratis", href: "/chat" },
-      { label: "Ranking de salas", href: "/ranking" },
       { label: "Contacto", href: "/contacto" },
     ],
   },

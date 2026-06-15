@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { getSigns, getSign, type Element } from "@/data/horoscopo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
-import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
 
@@ -161,11 +161,11 @@ export default async function HoroscopoSignoPage({
 
       {/* CTA chat */}
       <section className="mt-8">
-        <Card className="flex flex-col items-start gap-3 p-5 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-ink">
+        <Card className="p-5">
+          <p className="mb-3 text-sm font-semibold text-ink">
             ¿Quieres hablar de tu signo con más gente? Entra en el chat de Horóscopo y Tarot.
           </p>
-          <Button href="/webchat?canal=horoscopo" variant="cta">Entrar al chat</Button>
+          <NickInput canal="horoscopo" placeholder={`Tu nick para el chat de ${sign.name}...`} />
         </Card>
       </section>
 
