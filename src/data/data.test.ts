@@ -160,4 +160,25 @@ describe("SEO constraints", () => {
       .map((p) => p.slug);
     expect(violations).toEqual([]);
   });
+
+  it("all place intro texts are unique (no duplicated content)", () => {
+    const seen = new Map<string, string>();
+    const dupes: string[] = [];
+    for (const p of ALL_PLACES) {
+      if (seen.has(p.intro)) dupes.push(`${p.slug} duplicates ${seen.get(p.intro)}`);
+      else seen.set(p.intro, p.slug);
+    }
+    expect(dupes).toEqual([]);
+  });
+
+  it("all place about texts are unique when present", () => {
+    const seen = new Map<string, string>();
+    const dupes: string[] = [];
+    for (const p of ALL_PLACES) {
+      if (!p.about) continue;
+      if (seen.has(p.about)) dupes.push(`${p.slug} duplicates ${seen.get(p.about)}`);
+      else seen.set(p.about, p.slug);
+    }
+    expect(dupes).toEqual([]);
+  });
 });
