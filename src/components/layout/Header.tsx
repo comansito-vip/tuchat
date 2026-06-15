@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
+import { ChatIcon } from "@/components/ui/icons";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 
 const NAV_ITEMS = [
@@ -41,7 +42,12 @@ export function Header() {
 
         {/* CTA */}
         <div className="ml-auto shrink-0">
-          <Button href="/webchat?canal=espana" className="text-xs lg:text-sm px-3 lg:px-4">
+          <Button
+            href="/webchat?canal=espana"
+            variant="cta"
+            icon={<ChatIcon className="hidden sm:block" />}
+            className="px-3 text-xs lg:px-4 lg:text-sm"
+          >
             Entrar al chat
           </Button>
         </div>

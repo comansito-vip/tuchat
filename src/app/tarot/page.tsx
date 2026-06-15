@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { ARCANOS_MAYORES, cartaDelDia } from "@/data/tarot";
+import { getRelated } from "@/data";
 
 // Refresca la carta del día una vez al día.
 export const revalidate = 86400;
@@ -36,8 +37,11 @@ const FAQ = [
   },
 ];
 
+const ESOTERIC_SLUGS = ["tarot", "esoterismo", "videncia", "astrologia", "magia", "horoscopo"];
+
 export default function TarotPage() {
   const carta = cartaDelDia(new Date());
+  const salas = getRelated(ESOTERIC_SLUGS);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -48,8 +52,8 @@ export default function TarotPage() {
         Descubre la carta del tarot de hoy, consulta el significado de los Arcanos Mayores y
         comparte tus tiradas en el chat de tarot con gente que disfruta del tema tanto como tú.
       </p>
-      <div className="mt-4">
-        <Button href="/webchat?canal=tarot">Entrar al chat de tarot</Button>
+      <div className="mt-4 max-w-sm">
+        <NickInput canal="tarot" placeholder="Tu nick para entrar al tarot..." />
       </div>
 
       {/* Carta del día */}
@@ -64,6 +68,16 @@ export default function TarotPage() {
         </div>
       </section>
 
+      {/* Salas de esoterismo */}
+      <section className="mt-10">
+        <SectionTitle>Salas de esoterismo y videncia</SectionTitle>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+          {salas.map((p) => (
+            <RoomCard key={p.slug} place={p} />
+          ))}
+        </div>
+      </section>
+
       {/* Significado de los Arcanos Mayores */}
       <section className="mt-10">
         <SectionTitle>Significado de los Arcanos Mayores</SectionTitle>
@@ -75,22 +89,6 @@ export default function TarotPage() {
               </h3>
               <p className="mt-1 text-sm text-muted">{a.meaning}</p>
             </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Salas relacionadas */}
-      <section className="mt-10">
-        <SectionTitle>Salas de esoterismo y videncia</SectionTitle>
-        <div className="flex flex-wrap gap-2">
-          {["tarot", "esoterismo", "videncia", "astrologia", "magia", "horoscopo"].map((slug) => (
-            <Link
-              key={slug}
-              href={`/chat/${slug}`}
-              className="rounded-full border border-line bg-card px-3 py-1.5 text-sm text-blue-dark hover:border-blue"
-            >
-              {slug}
-            </Link>
           ))}
         </div>
       </section>

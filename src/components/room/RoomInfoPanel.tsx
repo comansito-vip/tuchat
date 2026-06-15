@@ -1,5 +1,6 @@
 import type { Place } from "@/data";
 import { Card } from "@/components/ui/Card";
+import { NickInput } from "@/components/ui/NickInput";
 import { VoteButton } from "@/components/room/VoteButton";
 
 function kindLabel(kind: Place["kind"]): string {
@@ -20,7 +21,15 @@ export function RoomInfoPanel({ place }: { place: Place }) {
 
   return (
     <Card className="p-5">
-      <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-muted">
+      {/* CTA principal — sticky en desktop */}
+      <p className="mb-2 text-sm font-semibold text-ink">Entrar al chat</p>
+      <NickInput canal={place.slug} placeholder="Tu nick..." />
+      <p className="mt-2 mb-4 flex items-center justify-center gap-1.5 text-xs text-muted">
+        <span className="inline-block h-2 w-2 rounded-full bg-active" aria-hidden="true" />
+        {place.users.toLocaleString("es")} personas hablando ahora
+      </p>
+
+      <h2 className="mb-4 border-t border-line pt-4 text-sm font-semibold uppercase tracking-wide text-muted">
         Información de la sala
       </h2>
       <dl className="space-y-3 text-sm">

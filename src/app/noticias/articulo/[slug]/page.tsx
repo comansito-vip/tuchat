@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
 import { articleJsonLd, JsonLd } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
+
+const CATEGORY_CANAL: Record<string, string> = {
+  deportes: "deportes", tecnologia: "tecnologia", ia: "tecnologia",
+  cultura: "musica", entretenimiento: "musica", viajes: "viajes",
+  salud: "salud", economia: "bolsa", actualidad: "espana",
+};
 
 function getArticle(slug: string) {
   return getNews().find((n) => n.slug === slug);
@@ -53,6 +60,8 @@ export default async function ArticuloPage({
     .slice(0, 4);
   const paragraphs = a.body ? a.body.split(/\n\n+/) : [a.excerpt];
 
+  const canal = CATEGORY_CANAL[categoria] ?? "espana";
+
   const crumbs = [
     { name: "Inicio", url: "/" },
     { name: "Noticias", url: "/noticias" },
@@ -92,6 +101,16 @@ export default async function ArticuloPage({
           ))}
         </div>
       </article>
+
+      {/* CTA chat */}
+      <section className="mt-10 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-800 p-6 text-white">
+        <p className="text-sm font-semibold opacity-80">Debate en el chat</p>
+        <h2 className="mt-1 text-xl font-extrabold">¿Qué opinas sobre esta noticia?</h2>
+        <p className="mt-1 text-sm opacity-80">Comenta con otros lectores en tiempo real.</p>
+        <div className="mt-4">
+          <NickInput canal={canal} variant="onColor" placeholder="Tu nick para entrar..." />
+        </div>
+      </section>
 
       {related.length > 0 && (
         <section className="mt-10">

@@ -9,5 +9,7 @@ it("RankingTable lists rows", () => {
 });
 it("CityList links Madrid to /chat/madrid", () => {
   render(<CityList />);
-  expect(screen.getByRole("link", { name: "Madrid" })).toHaveAttribute("href", "/chat/madrid");
+  const links = screen.getAllByRole("link", { name: "Madrid" });
+  expect(links.length).toBeGreaterThanOrEqual(1);
+  expect(links[0]).toHaveAttribute("href", "/chat/madrid");
 });

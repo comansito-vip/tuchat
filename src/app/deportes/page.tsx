@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
@@ -54,9 +55,11 @@ export default function DeportesPage() {
         Liga, Champions, Libertadores, Fórmula 1 y mucho más. Comenta cada jornada en directo,
         defiende a tu equipo y conoce gente que vive el deporte con la misma pasión que tú.
       </p>
-      <div className="mt-4 flex flex-wrap gap-2">
-        <Button href="/webchat?canal=deportes">Entrar al chat de deportes</Button>
-        <Button href="/resultados" variant="secondary">Ver resultados y clasificaciones</Button>
+      <div className="mt-4 flex flex-wrap items-center gap-4">
+        <div className="max-w-sm flex-1">
+          <NickInput canal="deportes" placeholder="Tu nick para el chat de deportes..." />
+        </div>
+        <Button href="/resultados/laliga" variant="secondary">Ver resultados →</Button>
       </div>
 
       <section className="mt-8">

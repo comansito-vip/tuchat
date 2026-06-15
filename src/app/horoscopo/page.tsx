@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getSigns, type Element } from "@/data/horoscopo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
+import { NickInput } from "@/components/ui/NickInput";
 import { collectionJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
@@ -34,8 +35,11 @@ export default function HoroscopoIndexPage() {
         Elige tu signo del zodiaco y descubre su horóscopo: predicciones de amor, trabajo y salud,
         rasgos de personalidad y compatibilidad con el resto de signos.
       </p>
+      <div className="mt-4 max-w-sm">
+        <NickInput canal="horoscopo" placeholder="Tu nick para el chat de horóscopo..." />
+      </div>
 
-      <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
         {getSigns().map((s) => (
           <Link key={s.slug} href={`/horoscopo/${s.slug}`}>
             <Card className="flex h-full items-center gap-3 p-4 transition-colors hover:border-blue">

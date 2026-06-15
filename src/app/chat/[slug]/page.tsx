@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPlace, getCountries, getCities, getTopics, getChildren } from "@/data";
+import { getPlace, getCountries, getCities, getTopics, getChildren, getRelated } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
+import { RoomHero } from "@/components/room/RoomHero";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
 import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
@@ -56,16 +56,8 @@ export default async function ChatRoomPage({
       {/* Breadcrumbs */}
       <Breadcrumbs crumbs={crumbs} />
 
-      {/* Hero */}
-      <h1 className="mt-4 text-3xl font-extrabold text-ink">
-        Chat {place.name} gratis
-      </h1>
-      <p className="mt-2 max-w-2xl text-muted">{place.intro}</p>
-      <div className="mt-4">
-        <Button href={"/webchat?canal=" + place.slug}>
-          Entrar al chat de {place.name}
-        </Button>
-      </div>
+      {/* Hero destacado con CTA principal */}
+      <RoomHero place={place} />
 
       {/* Two-column body */}
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
@@ -87,9 +79,17 @@ export default async function ChatRoomPage({
               {place.kind === "tematica" &&
                 `Una sala centrada en lo que importa: el tema. Sin ruido de fondo, sin conversaciones que se van por las ramas, solo gente con el mismo interés que tú.`}
             </p>
-            <ul className="list-inside list-disc space-y-1">
+            <ul className="space-y-2">
               {bullets.map((b) => (
-                <li key={b}>{b}</li>
+                <li key={b} className="flex items-start gap-2.5">
+                  <span
+                    className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-blue/10 text-[11px] font-bold text-blue"
+                    aria-hidden="true"
+                  >
+                    ✓
+                  </span>
+                  <span>{b}</span>
+                </li>
               ))}
             </ul>
           </SEOTextBlock>
@@ -108,28 +108,42 @@ export default async function ChatRoomPage({
             </p>
           </SEOTextBlock>
 
+          {/* Salas relacionadas (encima de noticias) */}
+          {place.related.length > 0 && (
+            <section className="mt-8">
+              <SectionTitle>Otras salas que te pueden gustar</SectionTitle>
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {getRelated(place.related).slice(0, 6).map((r) => (
+                  <RoomCard key={r.slug} place={r} />
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* News and weather teasers */}
           <section className="mt-8 grid gap-4 sm:grid-cols-2">
-            <div className="rounded-xl border border-line bg-card p-4">
-              <h3 className="font-semibold text-ink">Noticias de {place.name}</h3>
+            <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
+              <div className="text-2xl" aria-hidden="true">📰</div>
+              <h3 className="mt-1 font-semibold text-ink">Noticias de {place.name}</h3>
               <p className="mt-1 text-sm text-muted">
                 Mantente al día con las últimas noticias relacionadas con {place.name}.
               </p>
               <Link
                 href="/noticias"
-                className="mt-2 inline-block text-sm font-medium text-blue hover:underline"
+                className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
               >
                 Ver noticias →
               </Link>
             </div>
-            <div className="rounded-xl border border-line bg-card p-4">
-              <h3 className="font-semibold text-ink">Tiempo en {place.name}</h3>
+            <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
+              <div className="text-2xl" aria-hidden="true">🌤️</div>
+              <h3 className="mt-1 font-semibold text-ink">Tiempo en {place.name}</h3>
               <p className="mt-1 text-sm text-muted">
                 Consulta la previsión del tiempo para planificar tu día en {place.name}.
               </p>
               <Link
                 href={`/tiempo/${place.slug}`}
-                className="mt-2 inline-block text-sm font-medium text-blue hover:underline"
+                className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
               >
                 Ver el tiempo →
               </Link>
@@ -162,7 +176,7 @@ export default async function ChatRoomPage({
       )}
 
       {/* Related rooms */}
-      <section className="mt-10">
+      <section id="relacionadas" className="mt-10 scroll-mt-20">
         <SectionTitle>Salas relacionadas</SectionTitle>
         <RelatedRooms slugs={place.related} />
       </section>

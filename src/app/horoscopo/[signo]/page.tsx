@@ -165,7 +165,7 @@ export default async function HoroscopoSignoPage({
           <p className="text-ink">
             ¿Quieres hablar de tu signo con más gente? Entra en el chat de Horóscopo y Tarot.
           </p>
-          <Button href="/webchat?canal=horoscopo">Entrar al chat</Button>
+          <Button href="/webchat?canal=horoscopo" variant="cta">Entrar al chat</Button>
         </Card>
       </section>
 

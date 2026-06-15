@@ -187,8 +187,8 @@ export const TOPICS: Place[] = [
     votes: 275,
     tag: "Nueva",
     activity: "Baja",
-    channels: ["tarot", "amistad", "chatzona"],
-    related: ["horoscopo", "amor", "filosofia", "amistad", "madrid", "sevilla"],
+    channels: ["esoterismo", "tarot", "ocio"],
+    related: ["horoscopo", "esoterismo", "videncia", "astrologia", "magia", "amor"],
     intro:
       "La Sota de Copas, el Ermitaño al revés y qué significa soñar con agua: aquí se leen tiradas, se debaten significados y nadie juzga si crees o no crees.",
   },

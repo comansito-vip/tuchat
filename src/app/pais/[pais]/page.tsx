@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getPlace, getCities, getCountries } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
@@ -52,10 +52,8 @@ export default async function PaisPage({
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de {place.name}</h1>
         <p className="mt-2 max-w-2xl text-muted">{place.intro}</p>
-        <div className="mt-4">
-          <Button href={`/webchat?canal=${pais}`} variant="primary">
-            Entrar al chat de {place.name}
-          </Button>
+        <div className="mt-4 max-w-sm">
+          <NickInput canal={pais} placeholder={`Tu nick para entrar a ${place.name}...`} />
         </div>
 
         <section className="mt-8">

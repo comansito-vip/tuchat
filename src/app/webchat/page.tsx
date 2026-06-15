@@ -1,35 +1,47 @@
 import type { Metadata } from "next";
 import { WebchatFrame } from "@/components/webchat/WebchatFrame";
-import { RelatedRooms } from "@/components/room/RelatedRooms";
 import { getPlace } from "@/data";
+import { resolveChannels } from "@/lib/channels";
+import { LiveDot } from "@/components/ui/icons";
 
 export const metadata: Metadata = { title: "Webchat", robots: { index: false } };
 
-export default async function WebchatPage({ searchParams }: { searchParams: Promise<{ canal?: string }> }) {
-  const { canal = "espana" } = await searchParams;
+export default async function WebchatPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ canal?: string; nick?: string }>;
+}) {
+  const { canal = "espana", nick } = await searchParams;
   const place = getPlace(canal);
   const clientId = process.env.NEXT_PUBLIC_WEBCHAT_CLIENT_ID ?? "af9476269cf237c0196b";
+  const channels = resolveChannels(canal);
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-6">
-      <h1 className="mb-1 text-xl font-bold text-ink">Chat de {place?.name ?? canal}</h1>
-      <p className="mb-4 text-sm text-muted">Estás entrando como invitado. Sé respetuoso y no compartas datos personales.</p>
-      <WebchatFrame canal={canal} clientId={clientId} />
-      {place && (
-        <section className="mt-6">
-          <h2 className="mb-2 text-sm font-bold text-ink">Salas relacionadas</h2>
-          <RelatedRooms slugs={place.related} />
-        </section>
-      )}
-      <section className="mt-6 text-sm text-muted">
-        <h2 className="mb-2 text-sm font-bold text-ink">Normas básicas</h2>
-        <ul className="list-disc space-y-1 pl-5">
-          <li>Respeto: nada de insultos ni acoso.</li>
-          <li>No compartas datos personales (teléfono, dirección, contraseñas).</li>
-          <li>Prohibido el spam y la publicidad.</li>
-          <li>Algunas salas son solo para mayores de edad.</li>
-        </ul>
-      </section>
-    </main>
+    <div className="flex flex-col overflow-hidden" style={{ height: "calc(100dvh - 3.5rem)" }}>
+      {/* Barra de canal */}
+      <div className="flex shrink-0 items-center gap-3 bg-slate-900 px-4 py-2.5">
+        <span className="text-green-400">
+          <LiveDot />
+        </span>
+        <span className="text-sm text-slate-400">Estás en</span>
+        <span className="truncate text-sm font-bold text-white">
+          {channels.map((c) => `#${c}`).join(" · ")}
+        </span>
+        {place && (
+          <span className="ml-auto shrink-0 text-xs text-slate-500">
+            {place.name} · {place.users.toLocaleString("es")} online
+          </span>
+        )}
+      </div>
+      {/* Iframe del chat */}
+      <div className="min-h-0 flex-1">
+        <WebchatFrame
+          canal={canal}
+          clientId={clientId}
+          nick={nick}
+          className="h-full w-full border-0"
+        />
+      </div>
+    </div>
   );
 }

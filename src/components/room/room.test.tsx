@@ -1,8 +1,10 @@
-import { it, expect } from "vitest";
+import { it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { RoomInfoPanel } from "./RoomInfoPanel";
 import { RelatedRooms } from "./RelatedRooms";
 import { getPlace } from "@/data";
+
+vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 
 it("info panel shows channel and activity", () => {
   render(<RoomInfoPanel place={getPlace("madrid")!} />);

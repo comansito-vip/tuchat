@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
@@ -49,8 +49,8 @@ export default function AnimePage() {
         capítulo y conoce gente con el mismo gusto. Salas por anime, por personaje y para
         lectores de manga que van un arco por delante.
       </p>
-      <div className="mt-4">
-        <Button href="/webchat?canal=anime">Entrar al chat de anime</Button>
+      <div className="mt-4 max-w-sm">
+        <NickInput canal="anime" placeholder="Tu nick para entrar al anime..." />
       </div>
 
       <section className="mt-8">

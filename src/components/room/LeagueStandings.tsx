@@ -39,7 +39,7 @@ export function LeagueStandings({ liga, leagueName }: { liga: string; leagueName
     <div className="rounded-xl border border-line bg-card p-4">
       <div className="mb-2 flex items-center justify-between">
         <h3 className="font-semibold text-ink">Clasificación · {leagueName}</h3>
-        <Link href={`/resultados?liga=${liga}`} className="text-sm font-medium text-blue hover:underline">
+        <Link href={`/resultados/${liga}`} className="text-sm font-medium text-blue hover:underline">
           Ver tabla →
         </Link>
       </div>

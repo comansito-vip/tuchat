@@ -1,15 +1,63 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #F8FAFC;
-  --color-card: #FFFFFF;
-  --color-blue: #2563EB;
-  --color-blue-dark: #1E3A8A;
-  --color-ink: #0F172A;
-  --color-muted: #475569;
-  --color-line: #E2E8F0;
-  --color-active: #22C55E;
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  /* Neutrales cálidos — nada de slate frío */
+  --color-bg: #faf9f7;
+  --color-card: #ffffff;
+  --color-ink: #16181d;
+  --color-muted: #5b636e;
+  --color-line: #ece9e4;
+
+  /* Marca: índigo estructural. Alias `blue` para compatibilidad con código existente. */
+  --color-brand: #4f46e5;
+  --color-brand-dark: #3730a3;
+  --color-blue: #4f46e5;
+  --color-blue-dark: #3730a3;
+
+  /* Energía "en vivo": rosa-coral para online/HOT */
+  --color-live: #f43f5e;
+  --color-live-soft: #fff1f3;
+  --color-active: #16a34a;
+
+  /* CTA de acción: rojo fuerte para botones "Entrar al chat" */
+  --color-cta: #ef4444;
+  --color-cta-dark: #dc2626;
+
+  /* Acentos por categoría (color-coding de temáticas) */
+  --color-amor: #ec4899;
+  --color-amistad: #0ea5e9;
+  --color-deportes: #10b981;
+  --color-musica: #8b5cf6;
+  --color-juegos: #f59e0b;
+  --color-anime: #d946ef;
+  --color-tarot: #6366f1;
+
+  /* Tipografía */
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-jakarta), sans-serif;
+
+  /* Animaciones */
+  --animate-fade-up: fade-up 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-ping-slow: ping-slow 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes ping-slow {
+  75%,
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
 }
 
 html {
@@ -17,7 +65,37 @@ html {
 }
 
 body {
-  background: var(--color-bg);
+  background:
+    radial-gradient(
+      55rem 55rem at 88% -12%,
+      color-mix(in oklab, var(--color-brand) 8%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(
+      45rem 45rem at -8% -4%,
+      color-mix(in oklab, var(--color-live) 6%, transparent),
+      transparent 55%
+    ),
+    var(--color-bg);
+  background-attachment: fixed;
   color: var(--color-muted);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Sombra cálida reutilizable para tarjetas */
+@utility shadow-card {
+  box-shadow: 0 1px 2px rgba(20, 18, 15, 0.04), 0 1px 3px rgba(20, 18, 15, 0.06);
+}
+@utility shadow-card-hover {
+  box-shadow: 0 10px 30px -12px rgba(79, 70, 229, 0.22), 0 2px 6px rgba(20, 18, 15, 0.06);
+}
+
+/* Oculta scrollbar en carruseles horizontales */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

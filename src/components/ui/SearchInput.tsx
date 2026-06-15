@@ -24,7 +24,7 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
       />
       <button
         type="submit"
-        className="shrink-0 rounded-lg bg-blue px-4 py-2.5 text-sm font-semibold text-white hover:bg-blue-dark"
+        className="shrink-0 rounded-lg bg-cta px-4 py-2.5 text-sm font-semibold text-white hover:bg-cta-dark transition-colors"
       >
         Buscar
       </button>

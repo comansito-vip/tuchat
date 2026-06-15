@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
+import { Flag } from "@/components/ui/Flag";
 import { getRanking, type Place } from "@/data";
 
 const kindLabel: Record<string, string> = {
@@ -45,7 +46,7 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
                   href={`/chat/${place.slug}`}
                   className="inline-flex items-center gap-2 font-semibold text-ink hover:text-blue transition-colors"
                 >
-                  <span aria-hidden="true">{place.icon}</span>
+                  <Flag emoji={place.icon} name={place.name} size={18} />
                   {place.name}
                 </Link>
               </td>

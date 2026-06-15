@@ -18,7 +18,7 @@ const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = 
     heading: "Secciones",
     links: [
       { label: "Deportes", href: "/deportes" },
-      { label: "Resultados", href: "/resultados" },
+      { label: "Resultados", href: "/resultados/laliga" },
       { label: "Tarot", href: "/tarot" },
       { label: "Anime", href: "/anime" },
     ],

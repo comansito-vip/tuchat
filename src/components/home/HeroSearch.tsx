@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import { SearchInput } from "@/components/ui/SearchInput";
+import { NickInput } from "@/components/ui/NickInput";
 import { RoomCard } from "./RoomCard";
 import { getCountries, getCities, getRooms } from "@/data";
+
 
 export function HeroSearch() {
   const countries = getCountries();
@@ -33,9 +35,14 @@ export function HeroSearch() {
           <SearchInput size="lg" />
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-3">
-          <Button href="/webchat?canal=espana">Entrar al chat</Button>
-          <Button href="#salas" variant="secondary">Ver salas populares</Button>
+        <div className="mt-4">
+          <NickInput canal="espana" placeholder="Tu nick para entrar al chat..." />
+        </div>
+
+        <div className="mt-3">
+          <Button href="#salas" variant="secondary" size="sm">
+            Ver salas populares →
+          </Button>
         </div>
 
         <dl className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4">
