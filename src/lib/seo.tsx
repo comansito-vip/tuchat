@@ -87,6 +87,19 @@ export function organizationJsonLd() {
   };
 }
 
+export function articleListJsonLd(articles: { slug: string; title: string; date: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: articles.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${SITE}/noticias/articulo/${a.slug}`,
+      name: a.title,
+    })),
+  };
+}
+
 export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />;
 }
