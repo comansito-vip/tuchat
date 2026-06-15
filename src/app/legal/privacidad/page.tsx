@@ -4,7 +4,7 @@ import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Política de privacidad",
-  description: "Cómo trata TuChat los datos personales de sus usuarios.",
+  description: "Política de privacidad de TuChat: cómo tratamos los datos personales. No pedimos registro ni email para chatear. Consulta tus derechos RGPD y cómo protegemos tu privacidad.",
   alternates: { canonical: "/legal/privacidad" },
 };
 

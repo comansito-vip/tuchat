@@ -4,7 +4,7 @@ import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Política de cookies",
-  description: "Uso de cookies y almacenamiento local en TuChat.",
+  description: "Política de cookies de TuChat: uso de almacenamiento local del navegador para guardar el nick y los votos. Sin cookies de seguimiento ni publicidad personalizada.",
   alternates: { canonical: "/legal/cookies" },
 };
 

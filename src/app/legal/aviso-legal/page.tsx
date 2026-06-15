@@ -4,7 +4,7 @@ import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Aviso legal",
-  description: "Información legal y condiciones de uso del portal TuChat.",
+  description: "Aviso legal y condiciones de uso de TuChat. Información sobre el titular del portal, derechos de propiedad intelectual y normas de uso del servicio de chat.",
   alternates: { canonical: "/legal/aviso-legal" },
 };
 
