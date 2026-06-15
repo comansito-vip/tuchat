@@ -13,7 +13,7 @@ export const TOPICS: Place[] = [
     channels: ["amor", "amistad", "citas"],
     related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona"],
     intro:
-      "Chat para buscar pareja y conocer gente gratis sin registro. Aquí se habla de primeras citas, rupturas y a veces, sin esperarlo, surge algo especial con alguien del chat.",
+      "Chat para buscar pareja y conocer gente gratis sin registro. Aquí se habla de primeras citas, rupturas y a veces surge algo especial con alguien del chat.",
     about:
       "La sala de amor es una de las más activas del chat en español: aquí se busca pareja, se habla de primeras citas que fueron bien y de segundas que nunca llegaron, de relaciones a distancia que se alimentan en estas conversaciones y de rupturas que necesitan un oído exterior. No hace falta tener el corazón roto para entrar: muchos vienen a conocer a alguien, con sinceridad y sin las poses de las redes sociales. El chat de amor funciona: hay parejas que se conocieron aquí y siguen hablando.",
   },
@@ -77,7 +77,7 @@ export const TOPICS: Place[] = [
     channels: ["musica", "amistad", "chatzona"],
     related: ["cine", "videojuegos", "deportes", "lgtbi", "amor", "madrid"],
     intro:
-      "De los clásicos del rock español a los últimos lanzamientos urbanos: en esta sala se comparten listas, se discuten letras y se descubren artistas que no salen en Spotify Discover.",
+      "De los clásicos del rock español a los últimos lanzamientos urbanos: se comparten listas, se discuten letras y se descubren artistas que no salen en Spotify.",
     about:
       "La sala de música es donde se comparten descubrimientos que no salen en los algoritmos: artistas en directo que merece la pena ver, álbumes que aún no están en playlists de moda, y debates sobre si el reggaetón es música o si Rosalía ha vendido su flamenco. De Los Planetas a Bad Bunny, de Calle 13 a Camarón: el rango es amplio y la discusión siempre tiene nivel. También es el sitio donde alguien siempre pide recomendaciones y alguien siempre tiene cinco para dar.",
   },
@@ -170,7 +170,7 @@ export const TOPICS: Place[] = [
     channels: ["viajes", "amistad", "chatzona"],
     related: ["cocina", "amistad", "amor", "madrid", "barcelona", "malaga"],
     intro:
-      "Rutas que nadie cuenta en los influencers, alojamientos donde no te roban, y esa pregunta eterna de si vale más viajar solo o en grupo. Comparte tu próximo destino.",
+      "Rutas que nadie cuenta en los influencers, alojamientos donde no te roban y el eterno dilema de viajar solo o en grupo. Comparte tu próximo destino.",
     about:
       "La sala de viajes es el mapa que los algoritmos no construyen: rutas que no salen en los primeros resultados de Google, alojamientos que no están en Airbnb, fronteras que se pasan mejor en autobús nocturno y presupuestos reales para destinos soñados. Se comparten experiencias de primera mano —Latinoamérica, el sur de España, el Sudeste Asiático— y se responden preguntas que las guías de viajes responden mal. También hay debate sobre si viajar solo o en grupo tiene más sentido, y la respuesta siempre es que depende.",
   },
@@ -185,7 +185,7 @@ export const TOPICS: Place[] = [
     channels: ["cocina", "amistad", "chatzona"],
     related: ["viajes", "salud", "amor", "espana", "mexico", "lima"],
     intro:
-      "Recetas de la abuela, experimentos fallidos y la eterna guerra entre los que sofríen el ajo primero y los que lo echan al final. La cocina de toda España y Latinoamérica.",
+      "Recetas de la abuela, experimentos fallidos y la guerra entre los que sofríen el ajo primero y los que lo echan al final. La cocina de España y Latinoamérica.",
     about:
       "La sala de cocina es el libro de recetas colectivo del chat: se comparten las de la abuela que nadie anotó a tiempo, trucos que cambian un plato para siempre, y experimentos que funcionaron o no, con la misma honestidad. Se discute si el ajo va primero o al final, si la paella lleva cebolla o es un sacrilegio, si el ceviche es peruano o mexicano, y si hay algo en el mundo que la tortilla de patata no pueda solucionar. La diversidad culinaria de España y Latinoamérica cabe entera en esta sala.",
   },
@@ -200,7 +200,7 @@ export const TOPICS: Place[] = [
     channels: ["salud", "amistad", "chatzona"],
     related: ["cocina", "deportes", "viajes", "filosofia", "amor", "espana"],
     intro:
-      "Hábitos, entrenamiento, salud mental y nutrición sin dogmatismos: una sala donde se comparten experiencias reales, no posts de Instagram con cuerpos de catálogo.",
+      "Hábitos, entrenamiento, salud mental y nutrición sin dogmatismos: experiencias reales, no posts de Instagram con cuerpos de catálogo.",
     about:
       "La sala de salud es el espacio para hablar de lo que importa sin filtros de Instagram: hábitos reales, entrenamientos que funcionan para personas normales, nutrición sin dogmatismos de moda, y salud mental en un momento en que el tema ya no da vergüenza. Se comparten experiencias con la ansiedad, el estrés laboral y los terapeutas que ayudaron o no. No hay diagnósticos ni consejos médicos, pero hay escucha genuina y más información útil que en muchos blogs de bienestar.",
   },
@@ -263,7 +263,7 @@ export const TOPICS: Place[] = [
     channels: ["series", "amistad", "chatzona"],
     related: ["cine", "musica", "videojuegos", "amor", "madrid", "barcelona"],
     intro:
-      "Gran Hermano, Netflix, HBO, Telecinco — da igual la plataforma: aquí se habla de series con spoilers libremente avisados y debates que se alargan hasta el siguiente episodio.",
+      "Gran Hermano, Netflix, HBO, Telecinco — la plataforma da igual: aquí se habla de series con spoilers avisados y debates que duran hasta el siguiente episodio.",
     about:
       "La sala de series es el espacio donde se comenta en tiempo real lo que se está viendo: el último capítulo de House of the Dragon, el estreno de Netflix del viernes, la telenovela latinoamericana que todos dicen no ver pero todos ven. Los spoilers se avisan o se ignoran según el estado de ánimo, y siempre hay alguien que ya ha terminado la temporada y tiene muchísima contención. Se recomiendan series que los algoritmos no suelen proponer y se descubren títulos que llevan años esperando en el catálogo.",
   },
@@ -294,7 +294,7 @@ export const TOPICS: Place[] = [
     channels: ["politica", "amistad", "chatzona"],
     related: ["filosofia", "tecnologia", "espana", "mexico", "argentina", "colombia"],
     intro:
-      "Debates sobre actualidad, partidos, elecciones y todo lo que pasa en España y Latinoamérica: una sala donde se puede discrepar sin insultarse, aunque no siempre se logra.",
+      "Debates sobre actualidad, partidos, elecciones y todo lo que pasa en España y Latinoamérica. Se puede discrepar sin insultar, aunque no siempre se logra.",
     about:
       "La sala de política es para debatir la actualidad de España y Latinoamérica con más argumentos y menos insultos de lo que se ve en redes. Se habla de elecciones, de economía, de migración, de los gobiernos de turno en cada país y de lo que pasa en el continente con una perspectiva que los medios locales no siempre tienen. Las discusiones son directas —a veces demasiado— y la sala no es apta para quien no tolera que le rebatan, pero tampoco para quien no tiene nada que decir. Entra con argumentos.",
   },
@@ -310,7 +310,7 @@ export const TOPICS: Place[] = [
     channels: ["ligar", "amor", "citas"],
     related: ["amor", "amistad", "lgtbi", "madrid", "barcelona", "espana"],
     intro:
-      "Chat para ligar gratis sin registro: la sala más activa para conocer gente y buscar pareja online. Sin vueltas: presentaciones, conversaciones y más de 500 usuarios conectados ahora.",
+      "Chat para ligar gratis sin registro: la sala más activa para conocer gente y buscar pareja online. Presentaciones y más de 500 usuarios conectados ahora mismo.",
     about:
       "La sala de ligar es una de las más activas del chat: aquí se viene directamente a conocer gente, sin rodeos ni perfiles de Instagram que revisar antes. Más de quinientos usuarios conectados en horas pico, presentaciones que salen bien, conversaciones que empiezan aquí y continúan en otro sitio. No hay algoritmos que filtren ni suscripciones que pagar: funciona con el mismo mecanismo que siempre ha funcionado, que es hablar con alguien que también tiene ganas de hablar.",
   },
@@ -325,7 +325,7 @@ export const TOPICS: Place[] = [
     channels: ["psicologia", "amistad", "chatzona"],
     related: ["filosofia", "salud", "amor", "tarot", "madrid", "barcelona"],
     intro:
-      "Ansiedad, relaciones, autoconocimiento y el eterno debate terapia vs. medicación: una sala sin diagnósticos, pero con mucha escucha y bastante introspección compartida.",
+      "Ansiedad, relaciones, autoconocimiento y debate terapia vs. medicación: una sala sin diagnósticos, pero con mucha escucha y bastante introspección compartida.",
     about:
       "La sala de psicología es el espacio donde se habla de lo que cuesta hablar en otros sitios: ansiedad, relaciones tóxicas, autoestima, procrastinación, el duelo que no termina de cerrar. No hay psicólogos licenciados dando diagnósticos, pero hay personas que han pasado por lo mismo o algo parecido y tienen algo que decir. También se debate sobre terapia —cognitivo-conductual, sistémica, online— y sobre medicación con una honestidad que no siempre se encuentra. Una sala de escucha sin juicios.",
   },

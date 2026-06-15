@@ -225,7 +225,7 @@ const RAW: Place[] = [
     channels: ["formula1", "deportes", "chatzona"],
     related: ["deportes", "tecnologia", "real-madrid", "espana", "mexico", "argentina"],
     intro:
-      "Chat de Fórmula 1 en español: análisis de Gran Premio, estrategias, parrilla, Verstappen, Hamilton y Alonso. La F1 debatida vuelta a vuelta por aficionados hispanohablantes.",
+      "Chat de Fórmula 1 en español: análisis de Gran Premio, estrategias, parrilla, Verstappen, Hamilton y Alonso. La F1 debatida vuelta a vuelta por aficionados.",
     about:
       "Adrenalina de domingo a 300 por hora. Se analiza cada Gran Premio vuelta a vuelta: estrategias de neumáticos, paradas en boxes, salidas en mojado y polémicas de comisarios. La era Verstappen-Red Bull, el legado de Hamilton y Alonso peleando con Aston Martin dan tema de sobra para el aficionado hispano. Monza, Mónaco y el regreso de circuitos míticos encienden la sala. Aquí se discute pole, undercut y campeonato como si cada décima valiera oro.",
   },
@@ -272,7 +272,7 @@ const RAW: Place[] = [
     channels: ["astrologia", "horoscopo", "esoterismo", "chatzona"],
     related: ["horoscopo", "tarot", "esoterismo", "videncia", "amor", "psicologia"],
     intro:
-      "Chat de astrología: cartas natales, tránsitos, retrógrados y compatibilidades entre signos. Para quienes van más allá del horóscopo diario y quieren conversar sin prisa.",
+      "Chat de astrología: cartas natales, tránsitos, retrógrados y compatibilidades. Para quienes van más allá del horóscopo diario y quieren conversar sin prisa.",
     about:
       "La sala gira en torno a las cartas natales, los tránsitos y la eterna pregunta de qué signos pegan entre sí. Hay quien sabe calcular ascendentes y casas con soltura y quien apenas conoce su signo solar, y ambos caben perfectamente. Se comentan retrógrados, lunas nuevas y cómo encaja todo esto con el carácter de cada uno. El tono es relajado y algo autocrítico: muchos lo usan más para conocerse y reírse de los tópicos de cada signo que para predecir el futuro.",
   },
@@ -287,7 +287,7 @@ const RAW: Place[] = [
     channels: ["magia", "esoterismo", "chatzona"],
     related: ["esoterismo", "tarot", "videncia", "astrologia", "filosofia", "barcelona"],
     intro:
-      "Chat de magia: rituales, hechizos, velas y tradiciones mágicas explicadas desde la experiencia. Espacio respetuoso para practicantes y curiosos de cualquier camino.",
+      "Chat de magia: rituales, hechizos, velas y tradiciones explicadas desde la experiencia. Espacio respetuoso para practicantes y curiosos de cualquier camino.",
     about:
       "Espacio para quienes sienten atracción por la magia en sus muchas formas: velas, hierbas, protección del hogar, fases lunares o tradiciones populares heredadas de las abuelas. Se comparten rituales sencillos, dudas sobre cómo empezar y experiencias personales, siempre con respeto y sin presumir de poderes. Hay practicantes de distintos caminos, curiosos y gente que solo busca entender de dónde vienen estas costumbres. Más que recetas mágicas, lo que circula son charlas honestas sobre intención, simbolismo y la cultura que rodea cada práctica.",
   },
@@ -304,7 +304,7 @@ const RAW: Place[] = [
     channels: ["cultura", "filosofia", "chatzona"],
     related: ["filosofia", "literatura", "historia", "cine", "debate", "espana"],
     intro:
-      "Chat de cultura en español: cine, arte, libros y tendencias. El rincón para hablar de todo lo que nos define, sin necesidad de ser experto en nada, solo curioso.",
+      "Chat de cultura en español: cine, arte, libros y tendencias. Para hablar de todo lo que nos define, sin necesidad de ser experto, solo curioso.",
     about:
       "Un punto de encuentro para gente con inquietudes amplias: exposiciones que merecen la pena, series que dan que pensar, museos, música y esas tradiciones que cambian de un pueblo a otro. La conversación salta del arte clásico a lo más actual sin complejos, y siempre hay alguien dispuesto a recomendar algo nuevo. No hace falta ser experto en nada: aquí se valora la curiosidad por encima del título. Es habitual terminar con una lista de pelis, libros o planes apuntados para el fin de semana.",
   },
@@ -319,7 +319,7 @@ const RAW: Place[] = [
     channels: ["literatura", "cultura", "chatzona"],
     related: ["cultura", "filosofia", "historia", "cine", "debate", "psicologia"],
     intro:
-      "Chat de literatura en español: lecturas compartidas, autores favoritos y recomendaciones para devoradores de libros. De novela negra a clásicos, siempre hay algo por descubrir.",
+      "Chat de literatura: lecturas compartidas, autores favoritos y recomendaciones. De novela negra a clásicos, siempre hay algo por descubrir. Sin registro.",
     about:
       "Sala para lectores de todo tipo, desde quien devora novela negra hasta quien prefiere poesía o ensayo. Se comentan lecturas recientes, clásicos que siguen vigentes y esos libros que a uno le cambiaron algo por dentro. Hay recomendaciones constantes, debates sobre finales que dividieron a media sala y consejos para salir de un bache lector. Conviven aficionados a la fantasía, fans de los premios literarios y gente que escribe sus propias cosas. El ambiente es tranquilo, ideal para descubrir tu próxima lectura sin spoilers gratuitos.",
   },
@@ -334,7 +334,7 @@ const RAW: Place[] = [
     channels: ["debate", "cultura", "chatzona"],
     related: ["cultura", "filosofia", "politica", "historia", "psicologia", "tecnologia"],
     intro:
-      "Chat de debate en español: argumentos, ideas enfrentadas y respeto mutuo. Aquí se discute para pensar, no para ganar. Actualidad, ética, ciencia y sociedad a fondo.",
+      "Chat de debate en español: argumentos, ideas enfrentadas y respeto mutuo. Se discute para pensar, no para ganar. Actualidad, ética, ciencia y sociedad a fondo.",
     about:
       "El sitio para quienes disfrutan poniendo ideas sobre la mesa y defendiéndolas con argumentos. Se tratan temas de actualidad, dilemas éticos, ciencia, sociedad y todo lo que admita más de un punto de vista. La norma no escrita es discrepar sin faltar: aquí se viene a entender al de enfrente, no a tener razón a toda costa. Hay gente muy formada y gente que solo quiere aprender escuchando, y de esa mezcla salen conversaciones largas que a menudo te hacen replantearte lo que dabas por seguro.",
   },
@@ -349,7 +349,7 @@ const RAW: Place[] = [
     channels: ["historia", "cultura", "chatzona"],
     related: ["cultura", "filosofia", "literatura", "debate", "politica", "espana"],
     intro:
-      "Chat de historia en español: del mundo antiguo al siglo XX, curiosidades, batallas y personajes que marcaron una época. Para aficionados, estudiantes y curiosos de todas las eras.",
+      "Chat de historia en español: curiosidades, batallas y personajes del mundo antiguo al siglo XX. Para aficionados, estudiantes y curiosos de todas las eras.",
     about:
       "Rincón para apasionados del pasado, desde la Antigua Roma hasta la Guerra Fría. Se comparten curiosidades poco conocidas, recomendaciones de libros y documentales, y debates sobre cómo se cuenta la historia según quién la escriba. Conviven licenciados, divulgadores aficionados y curiosos que llegaron por una serie o un videojuego ambientado en otra época. Se habla de personajes, mitos que conviene desmontar y esos pequeños detalles cotidianos que hacían distinta la vida hace siglos. Ideal para resolver dudas y descubrir épocas que apenas te sonaban.",
   },
@@ -495,7 +495,7 @@ const RAW: Place[] = [
     channels: ["latinoamerica", "latinos", "amistad", "chatzona"],
     related: ["latinos", "latinas", "hispanos", "amistad", "musica", "mexico"],
     intro:
-      "Chat de Latinoamérica: un puente entre países donde de México a la Patagonia todo el continente conversa, comparte cultura y hace amistades que cruzan fronteras.",
+      "Chat de Latinoamérica: de México a la Patagonia, todo el continente conversa, comparte cultura y hace amistades que cruzan fronteras.",
     about:
       "Sala que reúne a todo el continente en una misma conversación, desde México hasta la Patagonia. Aquí se intercambian costumbres, modismos, recetas, música y miradas sobre la actualidad de cada país, con el plus de descubrir cómo se vive a un par de fronteras de distancia. Entran personas que buscan amistad, debate sano o simplemente practicar el arte de la charla larga. Un punto de encuentro diverso y respetuoso donde se celebra la riqueza cultural latinoamericana y se tienden puentes entre naciones hermanas.",
   },
