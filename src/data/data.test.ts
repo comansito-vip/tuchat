@@ -92,4 +92,14 @@ describe("SEO constraints", () => {
       .map((c) => `${c.slug} -> ${c.parentSlug}`);
     expect(violations).toEqual([]);
   });
+
+  it("all related slugs reference a valid place", () => {
+    const allSlugs = new Set(ALL_PLACES.map((p) => p.slug));
+    const violations = ALL_PLACES.flatMap((p) =>
+      p.related
+        .filter((r) => !allSlugs.has(r))
+        .map((r) => `${p.slug}.related -> ${r}`)
+    );
+    expect(violations).toEqual([]);
+  });
 });
