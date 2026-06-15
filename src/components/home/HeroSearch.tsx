@@ -27,8 +27,8 @@ export function HeroSearch() {
           Chat gratis en español
         </h1>
         <p className="mt-3 max-w-xl text-muted">
-          Entra en salas de chat por países, ciudades y temas. Conoce gente nueva, conversa en
-          tiempo real y descubre comunidades activas de habla hispana.
+          Chatear online gratis y sin registro en salas de chat por países, ciudades y temáticas.
+          Conoce gente nueva, haz amigos o liga con miles de usuarios de habla hispana.
         </p>
 
         <div className="mt-5">

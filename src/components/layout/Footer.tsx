@@ -5,7 +5,8 @@ const COLUMNS = [
     heading: "TuChat",
     links: [
       { label: "Inicio", href: "/" },
-      { label: "Todas las salas", href: "/chat" },
+      { label: "Salas de chat gratis", href: "/chat" },
+      { label: "Ranking de salas", href: "/ranking" },
       { label: "Contacto", href: "/contacto" },
     ],
   },
@@ -30,10 +31,11 @@ const COLUMNS = [
   {
     heading: "Temáticas",
     links: [
-      { label: "Amor", href: "/chat/amor" },
-      { label: "Amistad", href: "/chat/amistad" },
-      { label: "Deportes", href: "/chat/deportes" },
-      { label: "Música", href: "/chat/musica" },
+      { label: "Chat para ligar gratis", href: "/chat/ligar" },
+      { label: "Buscar pareja", href: "/chat/amor" },
+      { label: "Hacer amigos", href: "/chat/amistad" },
+      { label: "Chat de deportes", href: "/chat/deportes" },
+      { label: "Chat de música", href: "/chat/musica" },
     ],
   },
   {

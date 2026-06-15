@@ -18,6 +18,14 @@ export function generateStaticParams() {
   return [...getCountries(), ...getCities(), ...getTopics()].map((p) => ({ slug: p.slug }));
 }
 
+const ROOM_TITLES: Record<string, string> = {
+  amor: "Chat para buscar pareja y conocer gente gratis",
+  amistad: "Chat para hacer amigos gratis sin registro",
+  ligar: "Chat para ligar gratis en español sin registro",
+  adultos: "Chat de adultos gratis sin registro",
+  encuentros: "Chat de encuentros gratis sin registro",
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -27,7 +35,7 @@ export async function generateMetadata({
   const place = getPlace(slug);
   if (!place) return {};
   return {
-    title: `Chat ${place.name} gratis`,
+    title: ROOM_TITLES[slug] ?? `Chat ${place.name} gratis`,
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
   };

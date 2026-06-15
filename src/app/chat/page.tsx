@@ -5,9 +5,9 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Salas de chat en español",
+  title: "Salas de chat gratis sin registro en español",
   description:
-    "Explora todas las salas de chat en español: países, ciudades y temáticas. Entra gratis y sin registro.",
+    "Más de 200 salas de chat gratis sin registro: por países, ciudades y temáticas. Chatear online con gente, hacer amigos y ligar en español. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
 };
 
@@ -32,9 +32,10 @@ export default async function ChatIndexPage({
     <main className="mx-auto max-w-6xl px-4 py-6">
       <Breadcrumbs crumbs={crumbs} />
       <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
-      <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat</h1>
+      <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
       <p className="mt-2 max-w-2xl text-muted">
-        Elige entre cientos de salas por país, ciudad o temática. Acceso gratis, sin registro.
+        Más de 200 salas de chat online para chatear con gente, hacer amigos y ligar en español.
+        Acceso gratis, sin registro y sin descargas.
       </p>
 
       {q && (

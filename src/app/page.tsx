@@ -126,6 +126,45 @@ export default function HomePage() {
             </SectionTitle>
             <RankingTable />
           </section>
+
+          {/* SEO text block */}
+          <section className="prose prose-sm max-w-none text-muted">
+            <h2 className="text-base font-bold text-ink">Chat gratis sin registro en español</h2>
+            <p>
+              TuChat es un portal de <strong>salas de chat gratis</strong> para hablar con gente en
+              español. Entra <strong>sin registro</strong> y sin descargas: solo elige un nick y
+              empieza a chatear online ahora mismo. Tenemos salas por países, ciudades y temáticas
+              para que encuentres la conversación que buscas.
+            </p>
+            <p>
+              ¿Quieres <strong>ligar gratis</strong>? La sala{" "}
+              <Link href="/chat/ligar" className="text-blue hover:underline">
+                Chat para ligar
+              </Link>{" "}
+              reúne a miles de usuarios que buscan conocer gente y <strong>buscar pareja online</strong>.
+              ¿Prefieres <strong>hacer amigos</strong>? En{" "}
+              <Link href="/chat/amistad" className="text-blue hover:underline">
+                Sala de amistad
+              </Link>{" "}
+              encontrarás personas para chatear sin pretensiones, formar grupos y quedar.
+            </p>
+            <p>
+              También puedes entrar al{" "}
+              <Link href="/chat/espana" className="text-blue hover:underline">
+                chat de España
+              </Link>
+              ,{" "}
+              <Link href="/chat/mexico" className="text-blue hover:underline">
+                chat de México
+              </Link>{" "}
+              o{" "}
+              <Link href="/chat/argentina" className="text-blue hover:underline">
+                chat de Argentina
+              </Link>{" "}
+              y conectar con gente de tu país. Alternativa gratuita a plataformas como latinchat,
+              chatzona y terra chat: sin publicidad invasiva y sin registro obligatorio.
+            </p>
+          </section>
         </div>
 
         {/* ── SIDEBAR ── */}

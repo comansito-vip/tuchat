@@ -10,10 +10,10 @@ export const TOPICS: Place[] = [
     votes: 980,
     tag: "Popular",
     activity: "Alta",
-    channels: ["amor", "amistad", "chatzona"],
+    channels: ["amor", "amistad", "citas"],
     related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona"],
     intro:
-      "La sala más sincera de todas: aquí la gente cuenta sus primeras citas, pide consejo después de una ruptura y a veces, sin esperarlo, conoce a alguien especial.",
+      "Chat para buscar pareja y conocer gente gratis sin registro. Aquí se habla de primeras citas, rupturas y a veces, sin esperarlo, surge algo especial con alguien del chat.",
   },
   {
     slug: "amistad",
@@ -24,10 +24,10 @@ export const TOPICS: Place[] = [
     votes: 870,
     tag: "Popular",
     activity: "Alta",
-    channels: ["amistad", "chatzona"],
+    channels: ["amistad", "amigos", "ocio"],
     related: ["amor", "lgtbi", "viajes", "madrid", "barcelona", "espana"],
     intro:
-      "Para los que buscan conversación sin pretensiones: nuevos contactos, grupos para quedar o simplemente alguien con quien pasar un rato.",
+      "Chat para hacer amigos gratis sin registro. Busca amigos para chatear, conoce gente nueva y forma grupos de habla hispana. Entra y empieza a hablar ahora mismo.",
   },
   {
     slug: "lgtbi",
@@ -269,10 +269,10 @@ export const TOPICS: Place[] = [
     votes: 920,
     tag: "Popular",
     activity: "Alta",
-    channels: ["ligar", "amor", "chatzona"],
+    channels: ["ligar", "amor", "citas"],
     related: ["amor", "amistad", "lgtbi", "madrid", "barcelona", "espana"],
     intro:
-      "La sala más directa del chat: aquí la gente va sin rodeos. Presentaciones, conversaciones que empiezan en público y siguen en privado, y algún que otro flechazo inesperado.",
+      "Chat para ligar gratis sin registro: la sala más activa para conocer gente y buscar pareja online. Sin vueltas: presentaciones, conversaciones y más de 500 usuarios conectados ahora.",
   },
   {
     slug: "psicologia",

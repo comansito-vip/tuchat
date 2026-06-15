@@ -18,7 +18,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 const DESCRIPTION =
-  "Salas de chat por países, ciudades y temas. Conoce gente y conversa en tiempo real.";
+  "Chat gratis en español sin registro. Salas de chat online por países, ciudades y temáticas para chatear con gente, hacer amigos y ligar en tiempo real.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tuchat.org"),
