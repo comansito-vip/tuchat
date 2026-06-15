@@ -8,7 +8,7 @@ export const NEWS: NewsItem[] = [
     title: "Apple anuncia en la WWDC 2026 una IA integrada en iOS 20 que funciona sin conexión",
     category: "Tecnología",
     excerpt:
-      "Tim Cook presentó en el Moscone Center el sistema Apple Intelligence 2.0, capaz de redactar correos, resumir documentos y generar imágenes directamente en el dispositivo sin enviar datos a la nube.",
+      "Tim Cook presentó en el Moscone Center el sistema Apple Intelligence 2.0, capaz de redactar correos, resumir documentos y generar imágenes directamente en…",
     date: "2026-06-15",
     featured: true,
     body: `Tim Cook subió al escenario del Moscone Center de San Francisco con una promesa: la inteligencia artificial de Apple ya no necesita la nube para funcionar. La WWDC 2026 presentó iOS 20 con Apple Intelligence 2.0, un sistema que procesa todas las tareas directamente en el chip del dispositivo sin enviar datos a los servidores de la compañía. Es el movimiento más ambicioso de la empresa desde la llegada del iPhone y pone sobre la mesa una propuesta diferencial frente a Google y Microsoft: privacidad como arquitectura, no como promesa.
@@ -27,7 +27,7 @@ La actualización llegará como beta pública en julio para los dispositivos con
     title: "El Ministerio de Educación lanza 500 centros piloto con IA para personalizar el aprendizaje",
     category: "IA",
     excerpt:
-      "El programa 'Aula Inteligente' implantará sistemas de tutoría adaptativa basados en inteligencia artificial en institutos de secundaria de todas las comunidades autónomas. El objetivo es reducir el fracaso escolar un 20% antes de 2028.",
+      "El programa 'Aula Inteligente' implantará sistemas de tutoría adaptativa basados en inteligencia artificial en institutos de secundaria de todas las…",
     date: "2026-06-14",
     body: `El Ministerio de Educación anunció ayer el mayor despliegue de inteligencia artificial en centros educativos públicos de la historia de España. El programa 'Aula Inteligente' comenzará en septiembre en 500 institutos de secundaria, distribuidos entre todas las comunidades autónomas, y utilizará sistemas de tutoría adaptativa que ajustan en tiempo real los contenidos, el ritmo y el estilo de aprendizaje a las necesidades de cada alumno.
 
@@ -45,7 +45,7 @@ El presupuesto total del programa es de 180 millones de euros para los próximos
     title: "El Real Madrid conquista su decimoséptima Champions League con un gol de Mbappé en la prórroga",
     category: "Deportes",
     excerpt:
-      "Los blancos derrotaron al Bayern Múnich 2-1 en la final de Wembley gracias a un tanto de Kylian Mbappé en el minuto 112. Carlo Ancelotti se convierte en el técnico con más títulos de Champions de la historia.",
+      "Los blancos derrotaron al Bayern Múnich 2-1 en la final de Wembley gracias a un tanto de Kylian Mbappé en el minuto 112. Carlo Ancelotti se convierte en el…",
     date: "2026-06-13",
     body: `Wembley volvió a ser blanco. El Real Madrid ganó su decimoséptima Champions League en una final memorable que tuvo que resolverse en la prórroga y que mantuvo a los más de 85.000 espectadores del estadio londinense en vilo durante 112 minutos. El tanto de Kylian Mbappé, un disparo cruzado desde la frontal del área que se coló por la escuadra derecha de Manuel Neuer, selló el 2-1 definitivo ante el Bayern Múnich y desató el delirio blanco.
 
@@ -63,7 +63,7 @@ La expedición madridista llegó esta tarde al aeropuerto de Barajas, donde el c
     title: "Gran Hermano regresa a Telecinco 25 años después con un formato renovado y 18 concursantes",
     category: "Entretenimiento",
     excerpt:
-      "Mediaset España anuncia el regreso del reality más famoso de la televisión española para el otoño de 2026. Jorge Javier Vázquez presentará una edición que combinará concursantes anónimos con ex participantes icónicos.",
+      "Mediaset España anuncia el regreso del reality más famoso de la televisión española para el otoño de 2026. Jorge Javier Vázquez presentará una edición que…",
     date: "2026-06-13",
     body: `Telecinco guardó el secreto durante meses, pero ya es oficial: Gran Hermano vuelve. Mediaset España anunció ayer el regreso del reality show más icónico de la televisión española en una rueda de prensa en la que el director de contenidos confirmó que la nueva edición arrancará en octubre de 2026, coincidiendo con el 25 aniversario del primer Gran Hermano español.
 
@@ -81,7 +81,7 @@ La producción, a cargo de Zeppelin TV en colaboración con Endemol Shine, prev�
     title: "La inflación en España se modera al 2,1% en mayo, su nivel más bajo desde 2021",
     category: "Economía",
     excerpt:
-      "El INE confirma que el IPC bajó cuatro décimas respecto a abril. La caída de los precios energéticos explica la moderación, aunque los alimentos básicos siguen subiendo por encima de la media.",
+      "El INE confirma que el IPC bajó cuatro décimas respecto a abril. La caída de los precios energéticos explica la moderación, aunque los alimentos básicos…",
     date: "2026-06-12",
     body: `Los precios en España siguen cediendo terreno. El Instituto Nacional de Estadística publicó el dato del IPC correspondiente a mayo, que confirma una inflación interanual del 2,1%, cuatro décimas por debajo del dato de abril y el nivel más bajo desde octubre de 2021. La noticia tiene un impacto directo en los hogares: la pérdida de poder adquisitivo que comenzó con la crisis energética de 2021 se está corrigiendo, lentamente pero de manera sostenida.
 
@@ -99,7 +99,7 @@ El BCE celebra su próxima reunión de política monetaria el 25 de junio. Los m
     title: "Colombia celebra la primera vuelta de sus elecciones presidenciales con récord histórico de participación",
     category: "Actualidad",
     excerpt:
-      "Más del 62% del censo electoral acudió a las urnas, la cifra más alta en una primera vuelta desde 1994. Ningún candidato logró mayoría absoluta, por lo que habrá segunda vuelta el 19 de julio.",
+      "Más del 62% del censo electoral acudió a las urnas, la cifra más alta en una primera vuelta desde 1994. Ningún candidato logró mayoría absoluta, por lo que…",
     date: "2026-06-11",
     body: `Colombia vivió el domingo una jornada electoral histórica. Las elecciones presidenciales de 2026 registraron una participación del 62,3%, la más alta en una primera vuelta desde 1994. Los colombianos se movilizaron como no lo habían hecho en décadas, impulsados por una campaña polarizada que divide al país en torno a la herencia del gobierno actual y el modelo económico del próximo mandato.
 
@@ -117,7 +117,7 @@ Para la diáspora colombiana en España, la jornada también tuvo participación
     title: "Un estudio de Harvard confirma que la dieta mediterránea reduce un 23% el riesgo de muerte prematura",
     category: "Salud",
     excerpt:
-      "La investigación, publicada en 'The New England Journal of Medicine', siguió a 120.000 personas durante 30 años y concluye que es el patrón alimentario más eficaz para prevenir enfermedades cardiovasculares, diabetes y ciertos cánceres.",
+      "La investigación, publicada en 'The New England Journal of Medicine', siguió a 120.000 personas durante 30 años y concluye que es el patrón alimentario más…",
     date: "2026-06-12",
     body: `La ciencia vuelve a avalar lo que la abuela siempre supo. Una investigación de la Escuela de Salud Pública de Harvard, publicada esta semana en el New England Journal of Medicine, ofrece la evidencia más sólida hasta la fecha sobre los beneficios de la dieta mediterránea: seguir este patrón alimentario de forma consistente reduce el riesgo de muerte prematura por cualquier causa en un 23%, y las enfermedades cardiovasculares en un 31%.
 
@@ -135,7 +135,7 @@ La investigación concluye que los principios de la dieta mediterránea —alta 
     title: "Pedro Almodóvar recibe el Óscar honorífico en una ceremonia que reivindica el cine en español",
     category: "Cultura",
     excerpt:
-      "La Academia de Hollywood entregó el Óscar Honorífico al director manchego durante la gala de los Governors Awards en Los Ángeles. Almodóvar se convierte en el primer cineasta español en recibir este galardón.",
+      "La Academia de Hollywood entregó el Óscar Honorífico al director manchego durante la gala de los Governors Awards en Los Ángeles. Almodóvar se convierte en…",
     date: "2026-06-11",
     body: `Pedro Almodóvar recogió anoche el Óscar Honorífico de manos de Penélope Cruz en una gala emocionante en el Ray Dolby Ballroom de Hollywood. El director de La Mancha, de 76 años, se convierte así en el primer cineasta español en recibir este reconocimiento que la Academia de las Artes y las Ciencias Cinematográficas de Hollywood otorga a trayectorias excepcionales. En su discurso de aceptación, Almodóvar agradeció al cine español y latinoamericano que le formó y reivindicó la diversidad lingüística en el audiovisual global.
 
@@ -155,7 +155,7 @@ Almodóvar aprovechó la ocasión para confirmar que su próximo proyecto, una a
     title: "La UE aprueba el reglamento definitivo sobre IA generativa tras dos años de negociaciones",
     category: "Tecnología",
     excerpt:
-      "Bruselas cierra un acuerdo que obliga a los grandes modelos a etiquetar contenido sintético y a publicar sus conjuntos de datos de entrenamiento. Las Big Tech tienen doce meses para adaptarse.",
+      "Bruselas cierra un acuerdo que obliga a los grandes modelos a etiquetar contenido sintético y a publicar sus conjuntos de datos de entrenamiento. Las Big…",
     date: "2026-06-10",
     body: `Después de más de dos años de negociaciones que en más de una ocasión estuvieron a punto de naufragar, el Parlamento Europeo y el Consejo de la Unión Europea cerraron el acuerdo definitivo sobre el Reglamento de Inteligencia Artificial Generativa. El texto, que amplía y concreta el AI Act aprobado en 2024, establece obligaciones específicas para los grandes modelos de lenguaje e imagen generativa que operan en el mercado europeo.
 
@@ -173,7 +173,7 @@ El texto entrará en vigor treinta días después de su publicación en el Diari
     title: "España espera batir su récord de turismo con 98 millones de visitantes este verano",
     category: "Actualidad",
     excerpt:
-      "El Ministerio de Turismo prevé un nuevo máximo histórico impulsado por la demanda del norte de Europa y el auge de los destinos del interior como alternativa al litoral saturado.",
+      "El Ministerio de Turismo prevé un nuevo máximo histórico impulsado por la demanda del norte de Europa y el auge de los destinos del interior como…",
     date: "2026-06-09",
     body: `El sector turístico español afronta el verano de 2026 con una mezcla de euforia y preocupación. Las cifras anticipadas por el Ministerio de Turismo apuntan a 98 millones de visitantes internacionales, lo que supondría un nuevo máximo histórico y la tercera temporada consecutiva batiendo récords desde la recuperación postpandémica.
 
@@ -191,7 +191,7 @@ El impacto económico del turismo equivaldrá este año al 13,7% del PIB españo
     title: "España golea a Croacia y se mete en cuartos de la Eurocopa con autoridad",
     category: "Deportes",
     excerpt:
-      "Un doblete de Yamal y un gol de Pedri sellaron el 3-0 que manda a La Roja a cuartos sin ceder un solo gol en la fase de grupos. El próximo rival saldrá del Grupo D.",
+      "Un doblete de Yamal y un gol de Pedri sellaron el 3-0 que manda a La Roja a cuartos sin ceder un solo gol en la fase de grupos. El próximo rival saldrá del…",
     date: "2026-06-08",
     body: `La selección española de fútbol dejó una actuación de manual en el Estadio Olímpico de Múnich para golear 3-0 a Croacia y certificar su clasificación para los cuartos de final de la Eurocopa 2026 con una jornada de antelación. El resultado, que cierra la fase de grupos con doce goles a favor y ninguno en contra, apunta a un equipo que ha recuperado el dominio territorial y la solidez defensiva que la llevaron a ser campeona en 2024.
 
@@ -209,7 +209,7 @@ El seleccionador Luis de la Fuente restó importancia al marcador: "Doce puntos,
     title: "El precio de la vivienda en Madrid y Barcelona sube un 11% en el primer semestre",
     category: "Economía",
     excerpt:
-      "Los datos del Colegio de Registradores confirman que las dos capitales siguen sin freno a pesar de las medidas de contención del alquiler aprobadas a finales de 2025.",
+      "Los datos del Colegio de Registradores confirman que las dos capitales siguen sin freno a pesar de las medidas de contención del alquiler aprobadas a…",
     date: "2026-06-07",
     body: `El mercado residencial español no da señales de moderación. Los datos del Colegio de Registradores de la Propiedad confirman que el precio medio de la vivienda en Madrid capital ha subido un 11,4% en el primer semestre de 2026 respecto al mismo periodo del año anterior, mientras que en Barcelona el incremento es del 10,8%. Ambas cifras superan las previsiones más optimistas de los analistas y elevan el debate sobre la vivienda al primer plano político y social.
 
@@ -227,7 +227,7 @@ El Banco de España ha advertido que el endeudamiento hipotecario de los hogares
     title: "El Primavera Sound 2026 cierra con 65.000 asistentes diarios y cero incidencias graves",
     category: "Cultura",
     excerpt:
-      "La edición de este año consolidó a Rosalía como cabeza de cartel indiscutible y apostó por una programación con más artistas latinoamericanos que nunca. El festival ya trabaja en su expansión a Monterrey.",
+      "La edición de este año consolidó a Rosalía como cabeza de cartel indiscutible y apostó por una programación con más artistas latinoamericanos que nunca. El…",
     date: "2026-06-06",
     body: `El Primavera Sound 2026 cerró su edición barcelonesa con números récord: 65.000 asistentes diarios durante sus tres jornadas principales, cero incidentes graves reportados y una valoración media de 4,7 sobre 5 en las encuestas de satisfacción. La organización confirmó que es la mejor edición en los veinticinco años de historia del festival.
 
@@ -245,7 +245,7 @@ El impacto económico de la edición barcelonesa se cifra en 140 millones de eur
     title: "Un informe revela que uno de cada cuatro jóvenes españoles ha buscado ayuda psicológica en el último año",
     category: "Salud",
     excerpt:
-      "El estudio, elaborado por el Consejo General de la Psicología, señala la ansiedad y la soledad como los principales factores, y pide más plazas en la sanidad pública.",
+      "El estudio, elaborado por el Consejo General de la Psicología, señala la ansiedad y la soledad como los principales factores, y pide más plazas en la…",
     date: "2026-06-05",
     body: `El Consejo General de la Psicología de España publicó su informe anual sobre el estado de la salud mental en la población joven con datos reveladores: el 24,3% de los jóvenes españoles de entre 16 y 29 años ha buscado ayuda psicológica en el último año, una cifra que se ha triplicado en la última década y que sitúa a España en el tercer puesto europeo en demanda de atención psicológica entre jóvenes.
 
@@ -263,7 +263,7 @@ El 40% de los universitarios que solicitaron ayuda psicológica reconoce haber s
     title: "La OCDE advierte que la IA puede automatizar el 35% de los empleos en España antes de 2030",
     category: "IA",
     excerpt:
-      "Un informe del organismo internacional señala la administración pública, la banca y el sector legal como los más expuestos a la transformación por inteligencia artificial en los próximos cuatro años.",
+      "Un informe del organismo internacional señala la administración pública, la banca y el sector legal como los más expuestos a la transformación por…",
     date: "2026-06-10",
     body: `La Organización para la Cooperación y el Desarrollo Económicos publicó su informe anual sobre el impacto de la inteligencia artificial en el mercado laboral con una proyección que está generando debate en España: el 35% de los puestos de trabajo actuales podrían automatizarse parcial o totalmente antes de 2030 gracias a los avances en IA generativa y robótica de nueva generación.
 
@@ -281,7 +281,7 @@ El Gobierno español ha anunciado un Plan de Formación en Competencias Digitale
     title: "Netflix abre en Madrid su mayor estudio europeo con una inversión de 400 millones de euros",
     category: "Entretenimiento",
     excerpt:
-      "La plataforma americana apuesta por España como hub de producción para el mercado hispanohablante global. El complejo en Tres Cantos generará 2.000 empleos directos y albergará diez series en producción simultánea.",
+      "La plataforma americana apuesta por España como hub de producción para el mercado hispanohablante global. El complejo en Tres Cantos generará 2.000 empleos…",
     date: "2026-06-09",
     body: `Netflix eligió Madrid como sede de su mayor complejo de producción fuera de los Estados Unidos. El megaestudio de Tres Cantos, cuya apertura oficial fue anunciada ayer con la presencia de Ted Sarandos y la presidenta de la Comunidad de Madrid, supone una inversión de 400 millones de euros en infraestructura, equipos técnicos y contratos de producción a largo plazo con compañías españolas y latinoamericanas. Es la apuesta más grande que una plataforma de streaming ha hecho nunca en el sector audiovisual español.
 
@@ -299,7 +299,7 @@ El complejo de Tres Cantos estará plenamente operativo en marzo de 2027. La Com
     title: "El turismo rural bate récords en España: Extremadura y Castilla-La Mancha, los destinos del verano",
     category: "Viajes",
     excerpt:
-      "Las reservas en casas rurales y hoteles de interior han crecido un 58% respecto al verano de 2025. Los viajeros huyen de la masificación costera y buscan paisaje, gastronomía y autenticidad.",
+      "Las reservas en casas rurales y hoteles de interior han crecido un 58% respecto al verano de 2025. Los viajeros huyen de la masificación costera y buscan…",
     date: "2026-06-08",
     body: `El turismo de interior está viviendo en España su momento más dulce. Las reservas en alojamientos rurales han crecido un 58% respecto al mismo período del año anterior, según datos de Booking y Airbnb, y por primera vez en la historia dos destinos de interior —Extremadura y Castilla-La Mancha— aparecen entre los cinco destinos nacionales más reservados para julio y agosto, superando a Cantabria y Galicia.
 
@@ -317,7 +317,7 @@ El desafío para estas comunidades es gestionar el crecimiento sin repetir los e
     title: "El Camino de Santiago recibe ya más peregrinos en mayo que en todo 2019",
     category: "Viajes",
     excerpt:
-      "La Oficina del Peregrino en Santiago contabilizó más de 120.000 compostelas en el mes de mayo, cifra sin precedentes que desborda albergues en la etapa final desde Sarria.",
+      "La Oficina del Peregrino en Santiago contabilizó más de 120.000 compostelas en el mes de mayo, cifra sin precedentes que desborda albergues en la etapa…",
     date: "2026-06-04",
     body: `La Oficina del Peregrino en Santiago de Compostela publicó un dato histórico: en el mes de mayo de 2026 se entregaron 123.847 compostelas, más que en todo el año 2019 y un 31% por encima del récord previo para el mes de mayo. El Camino de Santiago se ha convertido en uno de los fenómenos culturales y turísticos más notables del siglo XXI, con una capacidad de atracción que no para de crecer.
 
@@ -337,7 +337,7 @@ El impacto económico del Camino en Galicia alcanzó los 840 millones de euros e
     title: "España registra el mayor número de diagnósticos de ansiedad en jóvenes de su historia",
     category: "Salud",
     excerpt:
-      "El último informe del Ministerio de Sanidad revela que el 34% de los jóvenes de 16 a 25 años ha recibido atención psicológica o psiquiátrica en el último año, triplicando la cifra de 2019.",
+      "El último informe del Ministerio de Sanidad revela que el 34% de los jóvenes de 16 a 25 años ha recibido atención psicológica o psiquiátrica en el último…",
     date: "2026-06-12",
     body: `El Ministerio de Sanidad publicó esta semana el informe más completo jamás elaborado sobre salud mental juvenil en España. El dato más alarmante: el 34% de los jóvenes de entre 16 y 25 años ha recibido atención psicológica o psiquiátrica en los últimos doce meses, una cifra que triplica los registros de 2019 y que convierte a España en el país europeo con mayor prevalencia de trastornos ansiosos y depresivos entre la población joven.
 
@@ -355,7 +355,7 @@ La iniciativa parlamentaria que más apoyo acumula en este momento es la creaci�
     title: "La inflación en España baja al 1,8% en junio, mínimo desde 2020",
     category: "Economía",
     excerpt:
-      "El IPC se modera por tercer mes consecutivo impulsado por la caída de los precios energéticos y de los alimentos. El Banco de España prevé que los tipos de interés del BCE bajen otro cuarto de punto antes de septiembre.",
+      "El IPC se modera por tercer mes consecutivo impulsado por la caída de los precios energéticos y de los alimentos. El Banco de España prevé que los tipos de…",
     date: "2026-06-13",
     body: `El Instituto Nacional de Estadística publicó el dato de inflación de junio con una lectura que supone un respiro para los hogares españoles: el IPC bajó al 1,8% interanual, su nivel más bajo desde octubre de 2020 y el tercer descenso mensual consecutivo. El desglose por componentes revela que la moderación se explica principalmente por el abaratamiento de la energía —la electricidad baja un 12,4% interanual— y de los alimentos frescos, que encadenan cuatro meses de deflación.
 
@@ -373,7 +373,7 @@ El Gobierno ha aprovechado el dato para anunciar el fin de las bonificaciones al
     title: "El flamenco cumple 15 años como Patrimonio Inmaterial de la Humanidad y supera al fútbol en audiencia global",
     category: "Cultura",
     excerpt:
-      "Desde que la UNESCO reconoció el arte jondo en 2010, el flamenco ha multiplicado por cuatro sus espectadores globales. Hoy se practica en 87 países y genera más de 1.000 millones de euros en exportaciones culturales.",
+      "Desde que la UNESCO reconoció el arte jondo en 2010, el flamenco ha multiplicado por cuatro sus espectadores globales. Hoy se practica en 87 países y genera…",
     date: "2026-06-11",
     body: `En noviembre de 2010 la UNESCO inscribía el flamenco en su Lista del Patrimonio Cultural Inmaterial de la Humanidad. Quince años después, el balance es extraordinario: lo que entonces era un arte reconocido pero amenazado de folklorización se ha convertido en uno de los fenómenos culturales hispanohablantes de mayor proyección global. Las cifras hablan por sí solas: el flamenco se practica en 87 países, tiene más de cuarenta millones de seguidores activos en todo el mundo, y en 2025 generó 1.100 millones de euros en exportaciones culturales, superando por primera vez en audiencia consolidada anual a los grandes torneos de fútbol español.
 
@@ -391,7 +391,7 @@ El Instituto Cervantes, que coordina la enseñanza del español en 90 países, h
     title: "El teletrabajo resiste: el 40% de los empleados españoles trabaja en remoto al menos tres días a la semana",
     category: "Actualidad",
     excerpt:
-      "Cinco años después de la pandemia, España consolida una tasa de teletrabajo estructural que es la más alta de su historia. Las empresas que intentan revertirlo afrontan fuga de talento y mayor rotación.",
+      "Cinco años después de la pandemia, España consolida una tasa de teletrabajo estructural que es la más alta de su historia. Las empresas que intentan…",
     date: "2026-06-10",
     body: `Cinco años después del confinamiento que obligó a millones de trabajadores a transformar sus hogares en oficinas, el teletrabajo en España no solo no ha retrocedido: se ha asentado como una nueva normalidad laboral. La última Encuesta de Población Activa con módulo específico sobre modalidad de trabajo revela que el 40% de los empleados que pueden trabajar en remoto lo hace al menos tres días a la semana, y el 18% trabaja íntegramente en modalidad telemática. Son los datos más altos registrados en la historia estadística del país.
 
@@ -409,7 +409,7 @@ El marco legal ha evolucionado en paralelo. La Ley del Trabajo a Distancia aprob
     title: "Apple lanza en España el Vision Pro 2 con precio rebajado y nuevas apps en español",
     category: "Tecnología",
     excerpt:
-      "El segundo modelo de las gafas de realidad espacial de Apple llega a España con una reducción de precio del 30% y un ecosistema de apps en español significativamente más amplio que su predecesor.",
+      "El segundo modelo de las gafas de realidad espacial de Apple llega a España con una reducción de precio del 30% y un ecosistema de apps en español…",
     date: "2026-06-13",
     body: `Apple ha comenzado la venta del Vision Pro 2 en España en una jornada que ha llenado las tiendas de la marca en Madrid, Barcelona, Valencia y Bilbao desde primera hora de la mañana. El segundo modelo de las gafas de realidad espacial llega al mercado europeo con un precio de partida de 2.999 euros —un 30% menos que los 4.299 que costaba el modelo original— y con mejoras sustanciales en autonomía, peso y rendimiento que los analistas habían identificado como los principales frenos para la adopción masiva del primer Vision Pro.
 
@@ -425,7 +425,7 @@ El mercado español ha recibido el dispositivo con más optimismo que en el lanz
     title: "Europa activa la primera fase del AI Act: qué cambia para las empresas españolas",
     category: "IA",
     excerpt:
-      "La regulación europea de inteligencia artificial entra en vigor con obligaciones concretas para sistemas de alto riesgo. Las empresas tienen seis meses para adaptarse o se enfrentan a multas de hasta el 3% de su facturación global.",
+      "La regulación europea de inteligencia artificial entra en vigor con obligaciones concretas para sistemas de alto riesgo. Las empresas tienen seis meses para…",
     date: "2026-06-14",
     body: `La primera fase del Reglamento Europeo de Inteligencia Artificial, conocido como AI Act, ha entrado en vigor en todos los estados miembros de la UE con efectos inmediatos para los sistemas de IA considerados de alto riesgo. La norma, que lleva dos años en proceso de adopción y cuya gestación ha coincidido con la explosión del uso de la IA generativa, establece un marco de obligaciones que afecta directamente a miles de empresas españolas que utilizan sistemas automatizados de toma de decisiones en sus operaciones.
 
@@ -441,7 +441,7 @@ Las multas por incumplimiento son significativas: hasta el 3% de la facturación
     title: "Luis Miguel agota entradas en 72 horas para sus conciertos de Madrid y Barcelona",
     category: "Entretenimiento",
     excerpt:
-      "El cantante mexicano vuelve a España con tres fechas en el Estadio Olímpico de Barcelona y dos en el WiZink Center de Madrid. Los precios del mercado secundario han llegado a triplicar el valor original.",
+      "El cantante mexicano vuelve a España con tres fechas en el Estadio Olímpico de Barcelona y dos en el WiZink Center de Madrid. Los precios del mercado…",
     date: "2026-06-12",
     body: `Luis Miguel ha vuelto a demostrar que no tiene rival en el mercado de conciertos de habla hispana. Las entradas para sus cinco actuaciones en España —tres en el Estadio Olímpico Lluís Companys de Barcelona y dos en el WiZink Center de Madrid, con fechas entre septiembre y octubre de 2026— se agotaron en menos de 72 horas desde que abrió la venta oficial. En las plataformas de reventa, las entradas cuadruplicaron su precio en pocas horas, llegando a superar los 1.200 euros para las localidades más cercanas al escenario.
 
@@ -457,7 +457,7 @@ El regreso de Luis Miguel a España coincide con un momento de renovado interés
     title: "España logra su mejor actuación histórica en el Mundial de Atletismo de Tokio",
     category: "Deportes",
     excerpt:
-      "Cinco medallas en los campeonatos del mundo de atletismo —una de oro, dos de plata y dos de bronce— catapultan a España al quinto puesto del medallero, su mejor clasificación en la historia de la competición.",
+      "Cinco medallas en los campeonatos del mundo de atletismo —una de oro, dos de plata y dos de bronce— catapultan a España al quinto puesto del medallero, su…",
     date: "2026-06-09",
     body: `España ha cerrado su participación en el Campeonato del Mundo de Atletismo de Tokio 2026 con un palmarés histórico: cinco medallas, una de oro, dos de plata y dos de bronce, que la sitúan por primera vez en el quinto puesto del medallero general, solo por detrás de Estados Unidos, Etiopía, Kenia y Jamaica. Es el mejor resultado de la historia del atletismo español en un Mundial y consolida la imagen de una generación de atletas que ha irrumpido con fuerza en la élite global tras años de renovación generacional.
 
@@ -473,7 +473,7 @@ Los bronces correspondieron a Ana Peleteiro en triple salto, que ganó por segun
     title: "El Alentejo portugués se consolida como destino de enoturismo de lujo para viajeros españoles",
     category: "Viajes",
     excerpt:
-      "La región vinícola portuguesa, a dos horas de Sevilla y tres de Madrid, se ha convertido en el destino de escapada favorito de los amantes del vino español. Los hoteles de viñedo llegan a los 800 euros la noche en temporada alta.",
+      "La región vinícola portuguesa, a dos horas de Sevilla y tres de Madrid, se ha convertido en el destino de escapada favorito de los amantes del vino español…",
     date: "2026-06-08",
     body: `A dos horas de Sevilla por la autopista y poco menos de tres de Madrid en AVE hasta Badajoz más coche, el Alentejo portugués lleva dos años siendo el secreto mejor guardado y, al mismo tiempo, el más comentado en los círculos del turismo gastronómico español. La región que produce algunos de los mejores vinos de Portugal —y varios de los mejores del mundo según la crítica especializada— ha pasado de ser un destino de iniciados a convertirse en una opción de escapada de lujo que compite directamente con la Ribera del Duero o La Rioja para los viajeros más exigentes.
 

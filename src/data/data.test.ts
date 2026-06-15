@@ -54,4 +54,12 @@ describe("SEO constraints", () => {
       .map((a) => a.slug);
     expect(violations).toEqual([]);
   });
+
+  it("all news article excerpts are ≤160 chars (used as meta description)", () => {
+    const articles = getNews();
+    const violations = articles
+      .filter((a) => a.excerpt.length > 160)
+      .map((a) => `${a.slug}: ${a.excerpt.length} chars`);
+    expect(violations).toEqual([]);
+  });
 });
