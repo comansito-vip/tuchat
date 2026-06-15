@@ -128,10 +128,10 @@ export function Sidebar() {
           {[
             { label: "Loterías de España", href: "/loterias/espana", emoji: "🎰" },
             { label: "Tarot gratis", href: "/tarot", emoji: "🔮" },
-            { label: "Deportes", href: "/deportes", emoji: "⚽" },
-            { label: "Resultados", href: "/resultados/laliga", emoji: "🏆" },
-            { label: "Anime", href: "/anime", emoji: "🎌" },
-            { label: "Noticias", href: "/noticias", emoji: "📰" },
+            { label: "Chat de deportes", href: "/deportes", emoji: "⚽" },
+            { label: "Resultados de fútbol", href: "/resultados/laliga", emoji: "🏆" },
+            { label: "Chat de anime", href: "/anime", emoji: "🎌" },
+            { label: "Noticias en español", href: "/noticias", emoji: "📰" },
           ].map((tool) => (
             <li key={tool.href}>
               <Link
