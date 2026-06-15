@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { NickInput } from "@/components/ui/NickInput";
 import { LEAGUES, getLeague, getStandings, getFixtures } from "@/lib/sports";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -55,6 +56,8 @@ export default async function ResultadosLigaPage({
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={collectionJsonLd(league.name, `/resultados/${liga}`)} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">
         Clasificación {league.name}

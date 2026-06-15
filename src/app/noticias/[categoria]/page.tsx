@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getNews } from "@/data";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { slugify, cap } from "@/lib/slug";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   const categorias = new Set(getNews().map((n) => slugify(n.category)));
@@ -73,6 +74,8 @@ export default async function CategoriaPage({
       crumbs={crumbs}
       intro={`Todas las noticias de ${nombre} en español. Aquí encontrarás los artículos más recientes sobre ${nombre.toLowerCase()} seleccionados por la comunidad de TuChat.`}
     >
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={collectionJsonLd(`Noticias de ${nombre}`, `/noticias/${categoria}`)} />
       {children}
     </ScaffoldPage>
   );
