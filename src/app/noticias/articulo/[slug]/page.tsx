@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
-import { articleJsonLd, JsonLd } from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 
 const CATEGORY_CANAL: Record<string, string> = {
@@ -71,6 +71,7 @@ export default async function ArticuloPage({
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs crumbs={crumbs} />
       <JsonLd
         data={articleJsonLd({
