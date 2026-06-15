@@ -6,9 +6,16 @@ import { FAQBlock } from "./FAQBlock";
 import { SEOTextBlock } from "./SEOTextBlock";
 import { VoteButton } from "./VoteButton";
 import { RoomHero } from "./RoomHero";
+import { LeagueStandings } from "./LeagueStandings";
 import { getPlace } from "@/data";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
+vi.mock("next/image", () => ({
+  default: ({ src, alt, ...props }: { src: string; alt: string; [k: string]: unknown }) => (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={src} alt={alt} {...props} />
+  ),
+}));
 
 global.fetch = vi.fn().mockResolvedValue({ ok: false } as Response);
 
@@ -51,4 +58,12 @@ it("RoomHero renders h1 with room name and a NickInput", () => {
   render(<RoomHero place={place} />);
   expect(screen.getByRole("heading", { level: 1, name: /Madrid/i })).toBeInTheDocument();
   expect(screen.getByRole("textbox")).toBeInTheDocument();
+});
+it("LeagueStandings shows loading state initially", () => {
+  render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
+  expect(screen.getByText(/Cargando clasificación/i)).toBeInTheDocument();
+});
+it("LeagueStandings renders a link to standings page", () => {
+  render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
+  expect(screen.getByRole("link", { name: /Ver tabla/i })).toHaveAttribute("href", "/resultados/laliga");
 });
