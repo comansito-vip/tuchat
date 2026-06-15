@@ -208,6 +208,12 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
+  it("all places have a non-empty icon", () => {
+    const violations = ALL_PLACES.filter((p) => !p.icon || p.icon.trim().length === 0)
+      .map((p) => p.slug);
+    expect(violations).toEqual([]);
+  });
+
   it("countries have kind=pais, cities have kind=ciudad, topics have kind=tematica", () => {
     const countryViolations = getCountries().filter((p) => p.kind !== "pais").map((p) => p.slug);
     const cityViolations = getCities().filter((p) => p.kind !== "ciudad").map((p) => p.slug);
