@@ -86,6 +86,7 @@ export async function generateMetadata({
     title,
     description: CATEGORY_DESC[categoria] ?? `Las últimas noticias de ${cap(categoria)} en español. Comenta la actualidad con la comunidad de TuChat.`,
     alternates: { canonical: `/noticias/${categoria}` },
+    openGraph: { url: `/noticias/${categoria}` },
   };
 }
 
