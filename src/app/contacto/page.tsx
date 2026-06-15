@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Contacto",
   description: "Contacta con TuChat para sugerencias, incidencias técnicas o reportar un abuso en el chat. Respondemos a todas las consultas por correo electrónico.",
   alternates: { canonical: "/contacto" },
+  openGraph: { url: "/contacto" },
 };
 
 const crumbs = [

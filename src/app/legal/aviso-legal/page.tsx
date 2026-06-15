@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Aviso legal",
   description: "Aviso legal y condiciones de uso de TuChat. Información sobre el titular del portal, derechos de propiedad intelectual y normas de uso del servicio de chat.",
   alternates: { canonical: "/legal/aviso-legal" },
+  openGraph: { url: "/legal/aviso-legal" },
 };
 
 const crumbs = [
