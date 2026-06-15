@@ -135,4 +135,29 @@ describe("SEO constraints", () => {
       .map((t) => `${t.slug} -> ${t.parentSlug}`);
     expect(violations).toEqual([]);
   });
+
+  it("all places have at least one channel defined", () => {
+    const violations = ALL_PLACES.filter((p) => !p.channels || p.channels.length === 0)
+      .map((p) => p.slug);
+    expect(violations).toEqual([]);
+  });
+
+  it("all places have at least one related slug", () => {
+    const violations = ALL_PLACES.filter((p) => !p.related || p.related.length === 0)
+      .map((p) => p.slug);
+    expect(violations).toEqual([]);
+  });
+
+  it("countries have kind=pais, cities have kind=ciudad, topics have kind=tematica", () => {
+    const countryViolations = getCountries().filter((p) => p.kind !== "pais").map((p) => p.slug);
+    const cityViolations = getCities().filter((p) => p.kind !== "ciudad").map((p) => p.slug);
+    const topicViolations = getTopics().filter((p) => p.kind !== "tematica").map((p) => p.slug);
+    expect([...countryViolations, ...cityViolations, ...topicViolations]).toEqual([]);
+  });
+
+  it("all places have non-empty intro text", () => {
+    const violations = ALL_PLACES.filter((p) => !p.intro || p.intro.trim().length === 0)
+      .map((p) => p.slug);
+    expect(violations).toEqual([]);
+  });
 });
