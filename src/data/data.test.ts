@@ -138,6 +138,26 @@ describe("SEO constraints", () => {
     expect(dupes).toEqual([]);
   });
 
+  it("no duplicate article titles", () => {
+    const seen = new Map<string, string>();
+    const dupes: string[] = [];
+    for (const a of getNews()) {
+      if (seen.has(a.title)) dupes.push(`${a.slug} duplicates ${seen.get(a.title)}`);
+      else seen.set(a.title, a.slug);
+    }
+    expect(dupes).toEqual([]);
+  });
+
+  it("no duplicate article excerpts", () => {
+    const seen = new Map<string, string>();
+    const dupes: string[] = [];
+    for (const a of getNews()) {
+      if (seen.has(a.excerpt)) dupes.push(`${a.slug} duplicates ${seen.get(a.excerpt)}`);
+      else seen.set(a.excerpt, a.slug);
+    }
+    expect(dupes).toEqual([]);
+  });
+
   it("all article categories are from the allowed set", () => {
     const VALID = new Set(["Actualidad", "Deportes", "Tecnología", "IA", "Cultura", "Viajes", "Salud", "Economía", "Entretenimiento"]);
     const violations = getNews()
