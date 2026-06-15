@@ -3,7 +3,8 @@ import Link from "next/link";
 import { getNews } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
-import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { FAQBlock } from "@/components/room/FAQBlock";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Noticias en español — Actualidad, deportes, tecnología",
@@ -15,6 +16,21 @@ export const metadata: Metadata = {
 const crumbs = [
   { name: "Inicio", url: "/" },
   { name: "Noticias", url: "/noticias" },
+];
+
+const FAQ = [
+  {
+    q: "¿Qué tipo de noticias encuentro en TuChat?",
+    a: "TuChat publica noticias de actualidad, deportes, tecnología, inteligencia artificial, cultura, viajes, salud y economía. Todo el contenido está en español y seleccionado para la comunidad hispanohablante.",
+  },
+  {
+    q: "¿Con qué frecuencia se actualizan las noticias?",
+    a: "La sección de noticias se actualiza regularmente con los artículos más relevantes de cada categoría. Puedes filtrar por categoría para ver solo los temas que más te interesan.",
+  },
+  {
+    q: "¿Puedo comentar las noticias en el chat?",
+    a: "Sí. Cada artículo incluye un acceso directo a la sala de chat relacionada con su temática para que puedas debatir la noticia con otros lectores en tiempo real.",
+  },
 ];
 
 const CATEGORIES = [
@@ -47,6 +63,7 @@ export default function NoticiasPage() {
       <Breadcrumbs crumbs={crumbs} />
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Noticias", "/noticias")} />
+      <JsonLd data={faqJsonLd(FAQ)} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Noticias y actualidad</h1>
       <p className="mt-2 max-w-2xl text-muted">
         Mantente informado con las noticias más relevantes en español, seleccionadas por nuestra
@@ -108,6 +125,10 @@ export default function NoticiasPage() {
             </Card>
           </Link>
         ))}
+      </div>
+
+      <div className="mt-12">
+        <FAQBlock items={FAQ} />
       </div>
     </main>
   );

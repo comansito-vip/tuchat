@@ -259,6 +259,60 @@ El 40% de los universitarios que solicitaron ayuda psicológica reconoce haber s
   },
 
   {
+    slug: "ia-trabajo-espana-informe-ocde-2026",
+    title: "La OCDE advierte que la IA puede automatizar el 35% de los empleos en España antes de 2030",
+    category: "IA",
+    excerpt:
+      "Un informe del organismo internacional señala la administración pública, la banca y el sector legal como los más expuestos a la transformación por inteligencia artificial en los próximos cuatro años.",
+    date: "2026-06-10",
+    body: `La Organización para la Cooperación y el Desarrollo Económicos publicó su informe anual sobre el impacto de la inteligencia artificial en el mercado laboral con una proyección que está generando debate en España: el 35% de los puestos de trabajo actuales podrían automatizarse parcial o totalmente antes de 2030 gracias a los avances en IA generativa y robótica de nueva generación.
+
+El informe, que analiza los mercados laborales de 38 países, sitúa a España en el grupo de economías con exposición media-alta a la automatización por IA, por encima de Alemania y Francia pero por debajo de Japón y Corea del Sur. Las actividades más expuestas son las que implican procesamiento de documentos, clasificación de datos, atención al cliente rutinaria y análisis financiero básico. Las profesiones menos expuestas son aquellas que requieren trabajo manual en entornos no estructurados, inteligencia emocional y creatividad no reproducible.
+
+Los tres sectores que concentran mayor riesgo en España son la administración pública, la banca y el sector legal. Los sistemas de IA ya procesan en 2026 el 60% de las declaraciones de renta en la AEAT sin intervención humana, y los grandes despachos de abogados han automatizado hasta el 80% de la revisión documental de contratos rutinarios. El sector bancario ha reducido un 32% su plantilla de gestores de banca minorista en los últimos tres años.
+
+Sin embargo, el informe advierte de que la automatización no equivale necesariamente a destrucción de empleo neto si va acompañada de formación y reorientación profesional. Los países que mejor han gestionado transiciones tecnológicas anteriores lo han hecho a través de programas de reskilling intensivos y sistemas de protección social que amortiguan el impacto sobre los trabajadores desplazados. "La IA es una palanca de productividad que puede crear más empleo del que destruye, pero la transición requiere políticas activas y no puede dejarse al mercado solo", señala el informe.
+
+El Gobierno español ha anunciado un Plan de Formación en Competencias Digitales con una dotación de 800 millones de euros para los próximos tres años, orientado a trabajadores mayores de 40 años y personas en situación de desempleo de larga duración. Los sindicatos consideran la inversión insuficiente y piden que las empresas contribuyan con una tasa sobre los beneficios obtenidos por automatización.`,
+  },
+
+  {
+    slug: "netflix-estudio-madrid-produccion-espanola-2026",
+    title: "Netflix abre en Madrid su mayor estudio europeo con una inversión de 400 millones de euros",
+    category: "Entretenimiento",
+    excerpt:
+      "La plataforma americana apuesta por España como hub de producción para el mercado hispanohablante global. El complejo en Tres Cantos generará 2.000 empleos directos y albergará diez series en producción simultánea.",
+    date: "2026-06-09",
+    body: `Netflix eligió Madrid como sede de su mayor complejo de producción fuera de los Estados Unidos. El megaestudio de Tres Cantos, cuya apertura oficial fue anunciada ayer con la presencia de Ted Sarandos y la presidenta de la Comunidad de Madrid, supone una inversión de 400 millones de euros en infraestructura, equipos técnicos y contratos de producción a largo plazo con compañías españolas y latinoamericanas. Es la apuesta más grande que una plataforma de streaming ha hecho nunca en el sector audiovisual español.
+
+El complejo cuenta con doce platos de rodaje, instalaciones de postproducción de última generación, un área de efectos especiales con tecnología de volumen virtual —similar a la usada en The Mandalorian— y capacidad para rodar diez series de forma simultánea. Las primeras producciones en instalarse serán la tercera temporada de La Casa de Papel: Legado, una nueva serie ambientada en Buenos Aires y dos proyectos originales en castellano que ya estaban en desarrollo. Juntas, estas producciones emplearán a más de 1.200 profesionales del audiovisual en los próximos dieciocho meses.
+
+La elección de Madrid no es casual. España se ha convertido en el principal mercado de contenido en español para Netflix: las series españolas representan el 28% del consumo de contenido no anglosajón en la plataforma, y el español es el segundo idioma más consumido en Netflix globalmente, solo por detrás del inglés. "España tiene el talento, las historias y el idioma que el mundo quiere ver. Este estudio es la consecuencia lógica de ese éxito", declaró Sarandos.
+
+La industria audiovisual española recibe la noticia con entusiasmo pero también con algunas advertencias. Los sindicatos de técnicos audiovisuales piden que el estudio se comprometa a contratar a través de las tablas salariales del convenio del sector y a no utilizar plataformas de trabajo a demanda para sustituir empleo indefinido. La Federación de Productoras Independientes pide que parte de la inversión se destine a coproducucciones con empresas medianas españolas para no concentrar toda la capacidad de producción en la propia Netflix.
+
+El complejo de Tres Cantos estará plenamente operativo en marzo de 2027. La Comunidad de Madrid ha cedido los terrenos en régimen de concesión administrativa a cambio de un compromiso de Netflix de mantener al menos 1.500 empleos directos durante diez años y de reservar el 20% de la capacidad del estudio para producciones ajenas a Netflix a precios de mercado.`,
+  },
+
+  {
+    slug: "turismo-rural-espana-extremadura-castilla-2026",
+    title: "El turismo rural bate récords en España: Extremadura y Castilla-La Mancha, los destinos del verano",
+    category: "Viajes",
+    excerpt:
+      "Las reservas en casas rurales y hoteles de interior han crecido un 58% respecto al verano de 2025. Los viajeros huyen de la masificación costera y buscan paisaje, gastronomía y autenticidad.",
+    date: "2026-06-08",
+    body: `El turismo de interior está viviendo en España su momento más dulce. Las reservas en alojamientos rurales han crecido un 58% respecto al mismo período del año anterior, según datos de Booking y Airbnb, y por primera vez en la historia dos destinos de interior —Extremadura y Castilla-La Mancha— aparecen entre los cinco destinos nacionales más reservados para julio y agosto, superando a Cantabria y Galicia.
+
+El fenómeno tiene una explicación multifactorial. La saturación y el encarecimiento de los destinos costeros clásicos está empujando a muchos viajeros a buscar alternativas. La preocupación por el impacto del turismo de masas, amplificada por los movimientos de protesta en Canarias y Baleares, ha creado un nuevo perfil de viajero más consciente. Y el trabajo en remoto, ya normalizado en muchas empresas, permite alargar estancias más allá del fin de semana y viajar fuera de la temporada alta.
+
+Extremadura lidera el crecimiento: Cáceres y Mérida registran ocupación media del 87% para el mes de agosto, un máximo histórico. Las Vegas Bajas del Guadiana y el Parque Natural de Monfragüe, prácticamente desconocidos para el gran público hace cinco años, han aparecido en los últimos meses en publicaciones de referencia como el NYT Escapes y Condé Nast Traveler. La gastronomía extremeña —jamón ibérico, torta del Casar, queso de La Serena, cordero a la caldereta— se ha convertido en uno de los principales reclamos junto al turismo de naturaleza y el ornitológico.
+
+En Castilla-La Mancha, la Ruta del Quijote y las ciudades de Cuenca, Toledo y Almagro aglutinan la mayor parte de las reservas, pero es el interior más desconocido el que crece con más fuerza: las Lagunas de Ruidera, el Parque Natural de Cabañeros y la comarca de la Mancha Alta registran tasas de ocupación sin precedentes. El turismo de senderismo y BTT ha crecido un 74% en la región.
+
+El desafío para estas comunidades es gestionar el crecimiento sin repetir los errores del litoral. Varios municipios ya trabajan en planes de capacidad máxima para rutas y espacios naturales, y la Junta de Extremadura ha aprobado una moratoria temporal sobre nuevos establecimientos de alojamiento turístico en siete áreas de especial fragilidad ecológica. La oportunidad económica es enorme: el turista de interior gasta de media un 22% más que el de sol y playa porque valora experiencias y gastronomía local por encima del precio del alojamiento.`,
+  },
+
+  {
     slug: "camino-santiago-record-peregrinos",
     title: "El Camino de Santiago recibe ya más peregrinos en mayo que en todo 2019",
     category: "Viajes",

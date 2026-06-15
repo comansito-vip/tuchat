@@ -57,6 +57,7 @@ export function articleJsonLd(a: {
     dateModified: a.date,
     articleSection: a.category,
     inLanguage: "es",
+    image: [`${SITE}/opengraph-image`],
     mainEntityOfPage: `${SITE}/noticias/articulo/${a.slug}`,
     author: { "@type": "Organization", name: "TuChat", url: SITE },
     publisher: {
@@ -74,9 +75,15 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: "TuChat",
     url: SITE,
-    logo: `${SITE}/opengraph-image`,
+    logo: { "@type": "ImageObject", url: `${SITE}/opengraph-image` },
     description:
       "Portal de chat global en español con salas por países, ciudades y temáticas.",
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "hola@tuchat.org",
+      contactType: "customer support",
+      availableLanguage: "Spanish",
+    },
   };
 }
 
