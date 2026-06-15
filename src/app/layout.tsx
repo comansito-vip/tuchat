@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "TuChat",
     locale: "es_ES",
-    url: "/",
   },
   twitter: {
     card: "summary_large_image",

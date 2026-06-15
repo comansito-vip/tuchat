@@ -18,6 +18,7 @@ import { getRooms } from "@/data";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  openGraph: { url: "/" },
 };
 
 const HUBS = [
