@@ -4,7 +4,7 @@ import { getNews } from "@/data";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { NickInput } from "@/components/ui/NickInput";
 import { slugify, cap } from "@/lib/slug";
-import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, articleListJsonLd, JsonLd } from "@/lib/seo";
 
 const CATEGORY_CANAL: Record<string, string> = {
   deportes: "deportes",
@@ -68,6 +68,7 @@ export default async function CategoriaPage({
     >
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(`Noticias de ${nombre}`, `/noticias/${categoria}`)} />
+      {matched.length > 0 && <JsonLd data={articleListJsonLd(matched)} />}
 
       {matched.length > 0 ? (
         <ul className="mt-6 divide-y divide-line">

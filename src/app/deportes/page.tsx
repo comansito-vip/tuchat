@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
@@ -52,6 +52,7 @@ export default function DeportesPage() {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={collectionJsonLd("Deportes", "/deportes")} />
+      <JsonLd data={itemListJsonLd(ranking.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
       <Breadcrumbs crumbs={crumbs} />
 
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de deportes y fútbol</h1>
