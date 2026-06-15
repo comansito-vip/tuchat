@@ -26,12 +26,14 @@ export async function generateMetadata({
       title: `Salas de chat de ${place.name}`,
       description: `Directorio de salas de chat de ${place.name}: explora por ciudades y temáticas y entra gratis a conocer gente de ${place.name}.`,
       alternates: { canonical: `/pais/${pais}` },
+      openGraph: { url: `/pais/${pais}` },
     };
   }
   return {
     title: `Chat de ${cap(pais)}`,
     description: `Únete al chat de ${cap(pais)} y conecta con personas de habla hispana de todo el mundo.`,
     alternates: { canonical: `/pais/${pais}` },
+    openGraph: { url: `/pais/${pais}` },
   };
 }
 
