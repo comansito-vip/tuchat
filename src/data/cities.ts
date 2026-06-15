@@ -136,6 +136,8 @@ export const CITIES: Place[] = [
     related: ["a-coruna", "madrid", "barcelona", "espana", "amistad", "deportes"],
     intro:
       "Puerto, conserveras, Celta y lluvia fina: Vigo es una ciudad con mucho carácter y gente con ganas de conversación, especialmente después del partido del domingo.",
+    about:
+      "El chat de Vigo junta a vigués del casco vello, Bouzas, Teis y los barrios del Puerto. Se habla del Celta con pasión y sufrimiento a partes iguales, de las empanadas de berberechos de toda la vida, de la lluvia que no cesa entre octubre y mayo y del orgullo de ser la ciudad más poblada de Galicia sin ser la capital. Hay quienes llevan décadas en Vigoa y quienes llegaron por la universidad o por los astilleros. Una sala con acento gallego marcado y conversaciones que no tienen prisa.",
   },
   {
     slug: "zaragoza",
@@ -151,6 +153,8 @@ export const CITIES: Place[] = [
     related: ["barcelona", "madrid", "bilbao", "valencia", "espana", "amistad", "amor"],
     intro:
       "A medio camino entre Madrid y Barcelona, Zaragoza lleva décadas quejándose de eso, pero los maños tienen orgullo de sobra. Ven a chatear y descúbrelo.",
+    about:
+      "El chat de Zaragoza reúne a gente del Casco Histórico, Delicias, Las Fuentes y el Ensanche. Se habla de las Fiestas del Pilar en octubre con sus jotas y gigantones, del Real Zaragoza y la promesa eterna de volver a Primera, del bocadillo de ternasco y los vinos del Somontano. Los maños tienen su propio humor y su propio carácter: directos, sin rodeos y con mucho orgullo de ser de una ciudad que no necesita compararse con ninguna.",
   },
   {
     slug: "alicante",
@@ -273,6 +277,8 @@ export const CITIES: Place[] = [
     related: ["buenos-aires", "argentina", "lima", "bogota", "amistad", "amor", "deportes"],
     intro:
       "El mate, la rambla y un ritmo de vida que los montevideanos defienden con orgullo frente al frenesí porteño: una sala tranquila pero con mucha chicha.",
+    about:
+      "El chat de Montevideo junta a gente del Centro, Pocitos, Punta Carretas y el Cerro. Se habla de la rambla al atardecer con el mate en la mano, del asado del domingo como ritual sagrado, del Peñarol y el Nacional y la rivalidad que lo es todo en Uruguay. Entran uruguayos de Montevideo y del interior que buscan a alguien de su tierra, y argentinos que cruzan el charco con curiosidad. Una sala pausada, con gusto por la música, el humor negro y las charlas largas que no tienen prisa en terminar.",
   },
   {
     slug: "murcia",
@@ -776,6 +782,8 @@ export const CITIES: Place[] = [
     related: ["cartagena", "medellin", "colombia", "amistad", "musica", "futbol"],
     intro:
       "Quien lo vive es quien lo goza: La Arenosa se prepara todo el año para su Carnaval, y mientras tanto se aguanta el calorón con un raspao y mucha labia costeña.",
+    about:
+      "El chat de Barranquilla reúne a barranquilleros del Centro, Prado, Villa del Rosario y los barrios del sur. Se habla del Carnaval como el evento que define la ciudad, de la cumbia, el vallenato y la champeta a cualquier hora, de los Sharks del Junior y la rivalidad con el América. Entran costeños que viven en Bogotá y extrañan el calorón y el sabor de la fritanga, y también quienes simplemente quieren una charla alegre con el sabor del Caribe colombiano.",
   },
   {
     slug: "cartagena",
@@ -891,6 +899,8 @@ export const CITIES: Place[] = [
     related: ["valparaiso", "santiago-de-chile", "chile", "amistad", "viajes", "amor"],
     intro:
       "La Ciudad Jardín del reloj de flores y las playas de Reñaca, donde cada febrero el Festival pone a todo Chile pendiente del 'monstruo' de la Quinta Vergara.",
+    about:
+      "El chat de Viña del Mar junta a viñamarinos del Plan, Miramar, Reñaca y los cerros. Se habla del Festival de la Canción de febrero, de las playas que llenan en enero con turistas del resto del país, del casino y la vida nocturna junto al mar. Los viñamarinos se definen por contraste con sus vecinos de Valparaíso: más ordenada, más turística, pero con su propia identidad. Entran estudiantes de la UVM y la CFT, trabajadores de temporada y gente del Gran Valparaíso buscando conversación junto al océano Pacífico.",
   },
   {
     slug: "salto",
