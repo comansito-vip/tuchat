@@ -145,19 +145,21 @@ export default async function ChatRoomPage({
                 Ver noticias →
               </Link>
             </div>
-            <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
-              <div className="text-2xl" aria-hidden="true">🌤️</div>
-              <h3 className="mt-1 font-semibold text-ink">Tiempo en {place.name}</h3>
-              <p className="mt-1 text-sm text-muted">
-                Consulta la previsión del tiempo para planificar tu día en {place.name}.
-              </p>
-              <Link
-                href={`/tiempo/${place.slug}`}
-                className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
-              >
-                Ver el tiempo →
-              </Link>
-            </div>
+            {place.kind !== "tematica" && (
+              <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
+                <div className="text-2xl" aria-hidden="true">🌤️</div>
+                <h3 className="mt-1 font-semibold text-ink">Tiempo en {place.name}</h3>
+                <p className="mt-1 text-sm text-muted">
+                  Consulta la previsión del tiempo para planificar tu día en {place.name}.
+                </p>
+                <Link
+                  href={`/tiempo/${place.slug}`}
+                  className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
+                >
+                  Ver el tiempo →
+                </Link>
+              </div>
+            )}
           </section>
         </div>
 
