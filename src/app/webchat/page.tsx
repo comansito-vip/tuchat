@@ -14,7 +14,7 @@ export default async function WebchatPage({
   const { canal = "espana", nick } = await searchParams;
   const place = getPlace(canal);
   const clientId = process.env.NEXT_PUBLIC_WEBCHAT_CLIENT_ID ?? "af9476269cf237c0196b";
-  const channels = resolveChannels(canal);
+  const channels = resolveChannels(canal).filter((c) => c !== "chatzona");
 
   return (
     <div className="flex flex-col overflow-hidden" style={{ height: "calc(100dvh - 3.5rem)" }}>
