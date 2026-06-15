@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { HeroSearch } from "@/components/home/HeroSearch";
 import { RoomCard } from "@/components/home/RoomCard";
 import { CountryGrid } from "@/components/home/CountryGrid";
@@ -7,11 +8,17 @@ import { TrendingBlock } from "@/components/home/TrendingBlock";
 import { NewsGrid } from "@/components/home/NewsGrid";
 import { RankingTable } from "@/components/home/RankingTable";
 import { Sidebar } from "@/components/home/Sidebar";
+import { FAQBlock } from "@/components/room/FAQBlock";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Card } from "@/components/ui/Card";
 import { FireIcon, SparkIcon } from "@/components/ui/icons";
+import { faqJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { getRooms } from "@/data";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const HUBS = [
   { href: "/deportes", icon: "⚽", title: "Deportes", desc: "Resultados y salas por equipo" },
@@ -20,12 +27,36 @@ const HUBS = [
   { href: "/anime", icon: "🎌", title: "Anime", desc: "Salas por serie y comunidad" },
 ];
 
+const FAQ = [
+  {
+    q: "¿Cómo entro al chat gratis sin registro?",
+    a: "Solo tienes que elegir una sala, escribir un nick de invitado y pulsar «Entrar al chat». No hay registro, correo ni contraseña: el acceso es inmediato y funciona desde el móvil y el ordenador.",
+  },
+  {
+    q: "¿Cuántas salas de chat hay disponibles?",
+    a: "TuChat tiene más de 250 salas: por países (España, México, Argentina y más de 25 países), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de 170 ciudades), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
+  },
+  {
+    q: "¿Es seguro chatear en TuChat?",
+    a: "Sí. No pedimos datos personales para acceder. Recomendamos usar un nick en lugar del nombre real y no compartir información privada. Si detectas comportamientos abusivos, puedes reportarlos desde el chat para que los moderadores actúen.",
+  },
+  {
+    q: "¿TuChat tiene aplicación móvil?",
+    a: "No es necesaria ninguna app. TuChat funciona directamente en el navegador del móvil, tablet u ordenador sin instalar nada. Entra desde Safari, Chrome o cualquier otro navegador y empieza a chatear.",
+  },
+  {
+    q: "¿Puedo chatear con gente de Latinoamérica?",
+    a: "Sí. TuChat tiene salas específicas para más de 20 países latinoamericanos y decenas de ciudades como Buenos Aires, Bogotá, Lima, Santiago, Ciudad de México y muchas más. También hay una sala internacional para hablar con hispanohablantes de todo el mundo.",
+  },
+];
+
 export default function HomePage() {
   const rooms = getRooms();
   const hotRooms = rooms.filter((r) => r.tag === "Popular").slice(0, 4);
 
   return (
     <main>
+      <JsonLd data={faqJsonLd(FAQ)} />
       <HeroSearch />
 
       {/* 2-column body: main content + sticky sidebar */}
@@ -126,6 +157,9 @@ export default function HomePage() {
             </SectionTitle>
             <RankingTable />
           </section>
+
+          {/* FAQ */}
+          <FAQBlock items={FAQ} />
 
           {/* SEO text block */}
           <section className="prose prose-sm max-w-none text-muted">

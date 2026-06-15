@@ -4,7 +4,8 @@ import { RankingTable } from "@/components/home/RankingTable";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
-import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { FAQBlock } from "@/components/room/FAQBlock";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
 // Refleja los votos de la comunidad; se regenera cada 5 min (prerenderizable
 // e indexable en el sitemap, a diferencia de force-dynamic).
@@ -22,6 +23,25 @@ const crumbs = [
   { name: "Ranking", url: "/ranking" },
 ];
 
+const FAQ = [
+  {
+    q: "¿Cómo se calcula el ranking de salas de chat?",
+    a: "El ranking combina los votos de la comunidad con el número de usuarios conectados en tiempo real. Las salas con más actividad y más votos acumulados aparecen más arriba en la lista.",
+  },
+  {
+    q: "¿Con qué frecuencia se actualiza el ranking?",
+    a: "El ranking se regenera cada cinco minutos para reflejar los cambios de actividad. En eventos especiales —partidos de fútbol, debates de actualidad, estrenos— algunas salas pueden subir rápidamente.",
+  },
+  {
+    q: "¿Puedo votar por mi sala favorita?",
+    a: "Sí. Desde la página de cualquier sala puedes emitir tu voto y contribuir a subir su posición en el ranking. Los votos son anónimos y no requieren registro previo.",
+  },
+  {
+    q: "¿Qué sala tiene más usuarios en este momento?",
+    a: "Las salas de España, México, Argentina y las temáticas de ligar y fútbol suelen liderar el ranking general. El ranking en tiempo real muestra la posición exacta de cada sala ahora mismo.",
+  },
+];
+
 export default async function RankingPage() {
   const [general, paises, ciudades, tematicas] = await Promise.all([
     getGlobalRanking(10),
@@ -33,6 +53,7 @@ export default async function RankingPage() {
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Ranking de salas", "/ranking")} />
+      <JsonLd data={faqJsonLd(FAQ)} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Ranking de salas</h1>
       <p className="mt-2 max-w-2xl text-muted">
@@ -59,6 +80,8 @@ export default async function RankingPage() {
         <SectionTitle>Por ciudad</SectionTitle>
         <RankingTable ranking={ciudades} />
       </section>
+
+      <FAQBlock items={FAQ} />
     </main>
   );
 }

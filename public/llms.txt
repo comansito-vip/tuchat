@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (más de 250 salas con landing propia), con webchat en tiempo real,
+> temáticas (más de 460 salas con landing propia), con webchat en tiempo real,
 > verticales temáticos, rankings por votos, resultados deportivos en vivo y
 > noticias. Cubre España, toda Hispanoamérica y ciudades del mundo con comunidad
 > hispana.
@@ -12,7 +12,7 @@
 
 ## Salas de chat (`/chat/{slug}`)
 - Por país: [España](/chat/espana), [México](/chat/mexico), [Argentina](/chat/argentina), [Colombia](/chat/colombia), [Venezuela](/chat/venezuela), y ~25 países más (índice de países en `/pais/{slug}`).
-- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami)… (~108 ciudades, incluidas capitales de provincia españolas y grandes urbes latinoamericanas).
+- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami)… (~179 ciudades: capitales de provincia españolas, grandes urbes latinoamericanas y ciudades del mundo hispano).
 - Por temática: [Amor](/chat/amor), [Amistad](/chat/amistad), [Ligar](/chat/ligar), [LGTBI](/chat/lgtbi), [Música](/chat/musica), [Videojuegos](/chat/videojuegos)…
 
 ## Verticales temáticos

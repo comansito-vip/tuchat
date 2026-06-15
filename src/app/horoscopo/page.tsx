@@ -4,7 +4,8 @@ import { getSigns, type Element } from "@/data/horoscopo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
-import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { FAQBlock } from "@/components/room/FAQBlock";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
   Fuego: "bg-red-500",
@@ -20,6 +21,25 @@ export const metadata: Metadata = {
   alternates: { canonical: "/horoscopo" },
 };
 
+const FAQ = [
+  {
+    q: "¿Cuál es el horóscopo de hoy?",
+    a: "Cada signo tiene su propia predicción diaria de amor, trabajo y salud. Elige tu signo en la lista y consulta qué dice el horóscopo para ti hoy.",
+  },
+  {
+    q: "¿Qué signos son más compatibles?",
+    a: "La compatibilidad astrológica depende del signo solar, el ascendente y el signo lunar. En general, los signos del mismo elemento (Fuego, Tierra, Aire, Agua) tienen más afinidad, aunque el horóscopo completo da una imagen más precisa.",
+  },
+  {
+    q: "¿Puedo comentar el horóscopo con otras personas?",
+    a: "Sí. TuChat tiene una sala de horóscopo y astrología donde puedes debatir las predicciones, preguntar por compatibilidades y compartir tu carta natal con la comunidad. Acceso gratis sin registro.",
+  },
+  {
+    q: "¿El horóscopo de TuChat se actualiza a diario?",
+    a: "Las predicciones de cada signo se revisan regularmente para reflejar los tránsitos astrológicos más relevantes: Mercurio retrógrado, luna llena, cambios de estación y otros eventos del calendario astrológico.",
+  },
+];
+
 export default function HoroscopoIndexPage() {
   const crumbs = [
     { name: "Inicio", url: "/" },
@@ -30,6 +50,7 @@ export default function HoroscopoIndexPage() {
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Horóscopo", "/horoscopo")} />
+      <JsonLd data={faqJsonLd(FAQ)} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Horóscopo de los 12 signos</h1>
       <p className="mt-2 max-w-2xl text-muted">
@@ -59,6 +80,8 @@ export default function HoroscopoIndexPage() {
           </Link>
         ))}
       </div>
+
+      <FAQBlock items={FAQ} />
     </main>
   );
 }
