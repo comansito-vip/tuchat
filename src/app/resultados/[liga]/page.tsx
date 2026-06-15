@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { Button } from "@/components/ui/Button";
+import { NickInput } from "@/components/ui/NickInput";
 import { LEAGUES, getLeague, getStandings, getFixtures } from "@/lib/sports";
 
 export const dynamic = "force-dynamic";
@@ -139,10 +139,8 @@ export default async function ResultadosLigaPage({
         </section>
       )}
 
-      <div className="mt-8">
-        <Button href="/webchat?canal=futbol" variant="cta">
-          Entrar al chat de fútbol
-        </Button>
+      <div className="mt-8 max-w-sm">
+        <NickInput canal="futbol" placeholder="Tu nick para el chat de fútbol..." />
       </div>
     </main>
   );
