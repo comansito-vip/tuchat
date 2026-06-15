@@ -11,7 +11,7 @@ import { getChildren, getPlace } from "@/data";
 export const metadata: Metadata = {
   title: "Chat de deportes y fútbol: salas por equipo",
   description:
-    "Vive cada partido en el chat de deportes: salas del Real Madrid, FC Barcelona, Boca, River, Club América, Fórmula 1 y más. Entra gratis y debate con otros aficionados.",
+    "Vive el fútbol en el chat de deportes: salas del Real Madrid, FC Barcelona, Boca, River, Club América y más. Entra gratis y debate con otros aficionados.",
   alternates: { canonical: "/deportes" },
 };
 

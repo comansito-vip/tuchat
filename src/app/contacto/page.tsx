@@ -4,7 +4,7 @@ import { breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contacto",
-  description: "Contacta con el equipo de TuChat para sugerencias, incidencias técnicas o reportar un abuso en el chat. Respondemos a todas las consultas por correo electrónico.",
+  description: "Contacta con TuChat para sugerencias, incidencias técnicas o reportar un abuso en el chat. Respondemos a todas las consultas por correo electrónico.",
   alternates: { canonical: "/contacto" },
 };
 
