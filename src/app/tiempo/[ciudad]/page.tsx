@@ -39,7 +39,7 @@ export default async function TiempoCiudadPage({
 
   const crumbs = [
     { name: "Inicio", url: "/" },
-    { name: "Tiempo", url: "/tiempo/madrid" },
+    { name: "El tiempo", url: "/tiempo/madrid" },
     { name: nombre, url: `/tiempo/${ciudad}` },
   ];
 
