@@ -144,6 +144,14 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
+  it("all city parentName values match their parent country's name", () => {
+    const countryNames = Object.fromEntries(getCountries().map((c) => [c.slug, c.name]));
+    const violations = getCities()
+      .filter((c) => c.parentSlug && countryNames[c.parentSlug] && c.parentName !== countryNames[c.parentSlug])
+      .map((c) => `${c.slug}: parentName="${c.parentName}", expected="${countryNames[c.parentSlug!]}"`);
+    expect(violations).toEqual([]);
+  });
+
   it("all places have at least one channel defined", () => {
     const violations = ALL_PLACES.filter((p) => !p.channels || p.channels.length === 0)
       .map((p) => p.slug);
