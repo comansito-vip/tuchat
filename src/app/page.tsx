@@ -12,7 +12,7 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Card } from "@/components/ui/Card";
 import { FireIcon, SparkIcon } from "@/components/ui/icons";
-import { faqJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, websiteJsonLd, organizationJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { getRooms } from "@/data";
 
@@ -56,6 +56,8 @@ export default function HomePage() {
 
   return (
     <main>
+      <JsonLd data={websiteJsonLd()} />
+      <JsonLd data={organizationJsonLd()} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <HeroSearch />
 
