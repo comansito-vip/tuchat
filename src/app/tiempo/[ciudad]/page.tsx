@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
-import { breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -65,6 +65,7 @@ export default async function TiempoCiudadPage({
   return (
     <main className="mx-auto max-w-4xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={collectionJsonLd(`El tiempo en ${nombre}`, `/tiempo/${ciudad}`)} />
       <JsonLd data={faqJsonLd(faq)} />
       <Breadcrumbs crumbs={crumbs} />
 
