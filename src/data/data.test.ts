@@ -102,4 +102,12 @@ describe("SEO constraints", () => {
     );
     expect(violations).toEqual([]);
   });
+
+  it("all topic parentSlug values reference a valid place", () => {
+    const allSlugs = new Set(ALL_PLACES.map((p) => p.slug));
+    const violations = getTopics()
+      .filter((t) => t.parentSlug !== undefined && !allSlugs.has(t.parentSlug))
+      .map((t) => `${t.slug} -> ${t.parentSlug}`);
+    expect(violations).toEqual([]);
+  });
 });
