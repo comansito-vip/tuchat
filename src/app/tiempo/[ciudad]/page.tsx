@@ -21,7 +21,7 @@ export async function generateMetadata({
   const nombre = place?.name ?? cap(ciudad);
   return {
     title: `El tiempo en ${nombre} — Previsión meteorológica`,
-    description: `Consulta la previsión del tiempo para ${nombre}: temperaturas, lluvia, viento y condiciones para los próximos días. Comparte el tiempo con la comunidad de chat de ${nombre}.`,
+    description: `Previsión del tiempo en ${nombre}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
     alternates: { canonical: `/tiempo/${ciudad}` },
   };
 }

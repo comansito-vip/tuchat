@@ -21,7 +21,7 @@ export async function generateMetadata({
   const nombre = place?.name ?? cap(pais);
   return {
     title: `Loterías y sorteos en ${nombre} — Resultados de hoy`,
-    description: `Resultados de las loterías y sorteos más populares de ${nombre}. Comprueba los números premiados, fechas de los próximos sorteos y premios actualizados.`,
+    description: `Resultados de las loterías y sorteos más populares de ${nombre}: números premiados, fechas de próximos sorteos y premios actualizados en TuChat.`,
     alternates: { canonical: `/loterias/${pais}` },
   };
 }
