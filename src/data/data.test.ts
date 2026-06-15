@@ -85,6 +85,31 @@ describe("SEO constraints", () => {
     expect(featured).toHaveLength(1);
   });
 
+  it("no duplicate article slugs", () => {
+    const slugs = getNews().map((a) => a.slug);
+    const counts = slugs.reduce<Record<string, number>>((acc, s) => {
+      acc[s] = (acc[s] ?? 0) + 1;
+      return acc;
+    }, {});
+    const dupes = Object.entries(counts).filter(([, n]) => n > 1).map(([s]) => s);
+    expect(dupes).toEqual([]);
+  });
+
+  it("all article categories are from the allowed set", () => {
+    const VALID = new Set(["Actualidad", "Deportes", "Tecnología", "IA", "Cultura", "Viajes", "Salud", "Economía", "Entretenimiento"]);
+    const violations = getNews()
+      .filter((a) => !VALID.has(a.category))
+      .map((a) => `${a.slug}: "${a.category}"`);
+    expect(violations).toEqual([]);
+  });
+
+  it("each category has at least 2 articles", () => {
+    const counts: Record<string, number> = {};
+    for (const a of getNews()) counts[a.category] = (counts[a.category] ?? 0) + 1;
+    const thin = Object.entries(counts).filter(([, n]) => n < 2).map(([c]) => c);
+    expect(thin).toEqual([]);
+  });
+
   it("all city parentSlug values reference a valid country slug", () => {
     const countrySlugs = new Set(getCountries().map((c) => c.slug));
     const violations = getCities()
