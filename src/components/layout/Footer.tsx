@@ -40,20 +40,20 @@ const COLUMNS = [
   {
     heading: "Secciones",
     links: [
-      { label: "Deportes", href: "/deportes" },
-      { label: "Resultados", href: "/resultados/laliga" },
-      { label: "Tarot", href: "/tarot" },
-      { label: "Anime", href: "/anime" },
-      { label: "Ranking", href: "/ranking" },
+      { label: "Chat de deportes", href: "/deportes" },
+      { label: "Resultados de fútbol", href: "/resultados/laliga" },
+      { label: "Tarot online gratis", href: "/tarot" },
+      { label: "Chat de anime", href: "/anime" },
+      { label: "Ranking de salas", href: "/ranking" },
     ],
   },
   {
     heading: "Servicios",
     links: [
-      { label: "Noticias", href: "/noticias" },
-      { label: "Horóscopo", href: "/horoscopo" },
-      { label: "El tiempo", href: "/tiempo/madrid" },
-      { label: "Loterías", href: "/loterias/espana" },
+      { label: "Noticias en español", href: "/noticias" },
+      { label: "Horóscopo de hoy", href: "/horoscopo" },
+      { label: "El tiempo en España", href: "/tiempo/madrid" },
+      { label: "Loterías y sorteos", href: "/loterias/espana" },
     ],
   },
   {
