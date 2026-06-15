@@ -112,6 +112,16 @@ export default async function ArticuloPage({
         <div className="mt-4">
           <NickInput canal={canal} variant="onColor" placeholder="Tu nick para entrar..." />
         </div>
+        <p className="mt-4 text-xs opacity-70">
+          O ve directamente a la{" "}
+          <Link href={`/chat/${canal}`} className="underline hover:opacity-90">
+            sala de chat
+          </Link>{" "}
+          y{" "}
+          <Link href={`/noticias/${categoria}`} className="underline hover:opacity-90">
+            más noticias de {a.category.toLowerCase()}
+          </Link>.
+        </p>
       </section>
 
       {related.length > 0 && (
