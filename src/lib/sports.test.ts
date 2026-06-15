@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { LEAGUES, getLeague } from "@/lib/sports";
+import { LEAGUES, TEAM_LEAGUE, getLeague } from "@/lib/sports";
 
 describe("sports data", () => {
   it("has exactly 8 leagues with unique slugs", () => {
@@ -39,5 +39,13 @@ describe("sports data", () => {
     const laliga = getLeague("laliga")!;
     expect(laliga.fallback[0].team).toBe("Real Madrid");
     expect(laliga.fallback[1].team).toBe("FC Barcelona");
+  });
+
+  it("all TEAM_LEAGUE values reference a valid league slug", () => {
+    const leagueSlugs = new Set(LEAGUES.map((l) => l.slug));
+    const violations = Object.entries(TEAM_LEAGUE)
+      .filter(([, liga]) => !leagueSlugs.has(liga))
+      .map(([team, liga]) => `${team} -> ${liga}`);
+    expect(violations).toEqual([]);
   });
 });
