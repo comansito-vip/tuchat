@@ -69,6 +69,10 @@ export default async function ResultadosLigaPage({
       q: `¿Qué ligas además de ${league.name} están disponibles?`,
       a: `TuChat cubre ${LEAGUES.map((l) => l.name).join(", ")}. Puedes cambiar de liga usando los botones de selección en la parte superior de la página.`,
     },
+    {
+      q: `¿Hay salas de chat para los equipos de ${league.name}?`,
+      a: `Sí. TuChat tiene salas dedicadas a los principales clubs: Real Madrid, FC Barcelona, Atlético de Madrid, Boca Juniors, River Plate y más. Puedes entrar gratis desde la sección de deportes.`,
+    },
   ];
 
   return (
