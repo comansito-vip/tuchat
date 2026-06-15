@@ -104,6 +104,42 @@ const LOTERIA_INFO: Record<string, { nombre: string; loterías: string[] }> = {
     nombre: "Panamá",
     loterías: ["Lotería Nacional de Beneficencia de Panamá", "Mida", "La Diaria"],
   },
+  "estados-unidos": {
+    nombre: "Estados Unidos",
+    loterías: ["Powerball", "Mega Millions", "Pick 3", "Pick 4", "Lucky for Life"],
+  },
+  portugal: {
+    nombre: "Portugal",
+    loterías: ["Lotaria Nacional", "Euromilhões", "Totoloto", "Joker", "Raspadinha"],
+  },
+  "reino-unido": {
+    nombre: "Reino Unido",
+    loterías: ["National Lottery", "EuroMillions", "Thunderball", "Lotto HotPicks", "Set For Life"],
+  },
+  italia: {
+    nombre: "Italia",
+    loterías: ["Lotto", "SuperEnalotto", "EuroJackpot", "Win for Life", "Gratta e Vinci"],
+  },
+  alemania: {
+    nombre: "Alemania",
+    loterías: ["Lotto 6aus49", "EuroJackpot", "Glücksspirale", "GoldCard", "Keno"],
+  },
+  francia: {
+    nombre: "Francia",
+    loterías: ["Loto de la FDJ", "EuroMillions", "Keno", "Amigo", "Astro"],
+  },
+  canada: {
+    nombre: "Canadá",
+    loterías: ["Lotto 6/49", "Lotto Max", "Daily Grand", "Encore", "Ontario 49"],
+  },
+  marruecos: {
+    nombre: "Marruecos",
+    loterías: ["Loterie Nationale du Maroc", "Quinte+", "Tiercé", "Multi"],
+  },
+  "guinea-ecuatorial": {
+    nombre: "Guinea Ecuatorial",
+    loterías: ["Lotería Nacional de Guinea Ecuatorial"],
+  },
 };
 
 export default async function LoteriasPage({
