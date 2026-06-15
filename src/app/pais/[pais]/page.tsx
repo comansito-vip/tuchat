@@ -6,6 +6,7 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { cap } from "@/lib/slug";
+import { breadcrumbJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
@@ -49,6 +50,8 @@ export default async function PaisPage({
 
     return (
       <main className="mx-auto max-w-6xl px-4 py-6">
+        <JsonLd data={breadcrumbJsonLd(crumbs)} />
+        <JsonLd data={collectionJsonLd(`Chat de ${place.name}`, `/pais/${pais}`)} />
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de {place.name}</h1>
         <p className="mt-2 max-w-2xl text-muted">{place.intro}</p>

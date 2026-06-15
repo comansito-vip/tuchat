@@ -13,6 +13,7 @@ import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { RelatedRooms } from "@/components/room/RelatedRooms";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
+import { breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return [...getCountries(), ...getCities(), ...getTopics()].map((p) => ({ slug: p.slug }));
@@ -61,6 +62,8 @@ export default async function ChatRoomPage({
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={faqJsonLd(faq)} />
       {/* Breadcrumbs */}
       <Breadcrumbs crumbs={crumbs} />
 
