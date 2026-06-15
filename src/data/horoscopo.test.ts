@@ -27,6 +27,20 @@ describe("horoscopo data", () => {
   it("returns undefined for an unknown sign", () => {
     expect(getSign("xyz")).toBeUndefined();
   });
+  it("all compatible signs reference each other symmetrically", () => {
+    const signs = getSigns();
+    const signsMap = new Map(signs.map((s) => [s.slug, s]));
+    const asymmetric: string[] = [];
+    for (const sign of signs) {
+      for (const compat of sign.compatible) {
+        const compatSign = signsMap.get(compat);
+        if (compatSign && !compatSign.compatible.includes(sign.slug)) {
+          asymmetric.push(`${sign.slug} -> ${compat} not reciprocal`);
+        }
+      }
+    }
+    expect(asymmetric).toEqual([]);
+  });
 
   it("all signs have personality ≥300 chars and element, planet, dates set", () => {
     const violations = getSigns()
