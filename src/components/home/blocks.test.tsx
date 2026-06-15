@@ -7,6 +7,8 @@ import { TrendingBlock } from "./TrendingBlock";
 import { CountryGrid } from "./CountryGrid";
 import { CategoryCard, CategoryGrid } from "./CategoryCard";
 import { HeroSearch } from "./HeroSearch";
+import { RoomCard } from "./RoomCard";
+import { Sidebar } from "./Sidebar";
 import { getPlace } from "@/data";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
@@ -84,4 +86,18 @@ it("HeroSearch shows main heading and stats", () => {
   render(<HeroSearch />);
   expect(screen.getByRole("heading", { level: 1, name: /Chat gratis en español/i })).toBeInTheDocument();
   expect(screen.getByText(/Salas por países/i)).toBeInTheDocument();
+});
+it("RoomCard links place name and Enter button to correct paths", () => {
+  const place = getPlace("madrid")!;
+  render(<RoomCard place={place} />);
+  expect(screen.getByRole("link", { name: /Madrid/ })).toHaveAttribute("href", "/chat/madrid");
+  expect(screen.getByRole("link", { name: /Entrar/i })).toHaveAttribute("href", expect.stringContaining("/webchat?canal=madrid"));
+});
+it("Sidebar shows ranking label and at least 5 ranked rooms", () => {
+  render(<Sidebar />);
+  expect(screen.getByText(/Ranking de salas/i)).toBeInTheDocument();
+  const links = screen.getAllByRole("link").filter((l) =>
+    l.getAttribute("href")?.startsWith("/chat/")
+  );
+  expect(links.length).toBeGreaterThanOrEqual(5);
 });

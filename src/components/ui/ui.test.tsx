@@ -6,6 +6,7 @@ import { NickInput } from "./NickInput";
 import { Flag, emojiToCountryCode } from "./Flag";
 import { Card } from "./Card";
 import { SectionTitle } from "./SectionTitle";
+import { SearchInput } from "./SearchInput";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 vi.mock("next/image", () => ({
@@ -78,5 +79,17 @@ describe("Card and SectionTitle", () => {
     render(<SectionTitle eyebrow="EN VIVO" description="Última hora">Noticias</SectionTitle>);
     expect(screen.getByText("EN VIVO")).toBeInTheDocument();
     expect(screen.getByText("Última hora")).toBeInTheDocument();
+  });
+});
+
+describe("SearchInput", () => {
+  it("renders a search input with placeholder and submit button", () => {
+    render(<SearchInput />);
+    expect(screen.getByPlaceholderText(/Buscar ciudad/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Buscar/i })).toBeInTheDocument();
+  });
+  it("input has aria-label Buscar", () => {
+    render(<SearchInput />);
+    expect(screen.getByRole("textbox", { name: /Buscar/i })).toBeInTheDocument();
   });
 });

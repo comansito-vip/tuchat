@@ -5,6 +5,7 @@ import { RelatedRooms } from "./RelatedRooms";
 import { FAQBlock } from "./FAQBlock";
 import { SEOTextBlock } from "./SEOTextBlock";
 import { VoteButton } from "./VoteButton";
+import { RoomHero } from "./RoomHero";
 import { getPlace } from "@/data";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
@@ -44,4 +45,10 @@ it("VoteButton button is not disabled initially", () => {
   render(<VoteButton slug="test-room" votes={0} />);
   const btn = screen.getByRole("button");
   expect(btn).not.toBeDisabled();
+});
+it("RoomHero renders h1 with room name and a NickInput", () => {
+  const place = getPlace("madrid")!;
+  render(<RoomHero place={place} />);
+  expect(screen.getByRole("heading", { level: 1, name: /Madrid/i })).toBeInTheDocument();
+  expect(screen.getByRole("textbox")).toBeInTheDocument();
 });
