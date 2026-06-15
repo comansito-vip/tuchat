@@ -403,4 +403,85 @@ El impacto en las ciudades ha sido desigual. Las ciudades medianas —Málaga, V
 
 El marco legal ha evolucionado en paralelo. La Ley del Trabajo a Distancia aprobada en 2021 sentó las bases, pero la negociación colectiva ha ido mucho más lejos: más del 60% de los convenios colectivos firmados en 2025 incluyen cláusulas específicas sobre teletrabajo que garantizan el derecho a al menos dos días semanales de trabajo en remoto para quienes desempeñan funciones teletrabajables.`,
   },
+
+  {
+    slug: "apple-vision-pro-2-lanzamiento-espana-2026",
+    title: "Apple lanza en España el Vision Pro 2 con precio rebajado y nuevas apps en español",
+    category: "Tecnología",
+    excerpt:
+      "El segundo modelo de las gafas de realidad espacial de Apple llega a España con una reducción de precio del 30% y un ecosistema de apps en español significativamente más amplio que su predecesor.",
+    date: "2026-06-13",
+    body: `Apple ha comenzado la venta del Vision Pro 2 en España en una jornada que ha llenado las tiendas de la marca en Madrid, Barcelona, Valencia y Bilbao desde primera hora de la mañana. El segundo modelo de las gafas de realidad espacial llega al mercado europeo con un precio de partida de 2.999 euros —un 30% menos que los 4.299 que costaba el modelo original— y con mejoras sustanciales en autonomía, peso y rendimiento que los analistas habían identificado como los principales frenos para la adopción masiva del primer Vision Pro.
+
+El anuncio más significativo para el mercado hispanohablante es la disponibilidad de un catálogo de aplicaciones nativas en español que en el lanzamiento del primer modelo brillaba por su ausencia. Entre las apps disponibles desde el día uno destacan versiones espaciales de plataformas de streaming como Movistar Plus+ y Atresplayer, aplicaciones de teletrabajo desarrolladas por empresas españolas, y un conjunto de experiencias educativas en español creadas en colaboración con editoriales como Santillana y SM.
+
+Los primeros usuarios que han podido probar el dispositivo en los Apple Store destacan la mejora en el sistema de pantallas: el nuevo panel micro-OLED de la segunda generación ofrece el doble de píxeles por pulgada que el anterior y corrige el problema de fatiga ocular que algunos usuarios reportaban tras sesiones largas. El peso también se ha reducido: el Vision Pro 2 pesa 550 gramos frente a los 600 del original, y la nueva correa ha sido rediseñada para distribuir mejor el peso.
+
+El mercado español ha recibido el dispositivo con más optimismo que en el lanzamiento de 2024. Varios factores explican el cambio de actitud: el precio más asequible, la madurez del ecosistema de apps, y el creciente uso del Vision Pro en entornos corporativos, especialmente en sectores como la arquitectura, el diseño industrial y la formación especializada. Empresas como Acciona, Inditex y Mercadona han anunciado proyectos piloto con el nuevo dispositivo para los próximos meses.`,
+  },
+
+  {
+    slug: "ia-legislacion-europa-ai-act-empresas-espanolas-2026",
+    title: "Europa activa la primera fase del AI Act: qué cambia para las empresas españolas",
+    category: "IA",
+    excerpt:
+      "La regulación europea de inteligencia artificial entra en vigor con obligaciones concretas para sistemas de alto riesgo. Las empresas tienen seis meses para adaptarse o se enfrentan a multas de hasta el 3% de su facturación global.",
+    date: "2026-06-14",
+    body: `La primera fase del Reglamento Europeo de Inteligencia Artificial, conocido como AI Act, ha entrado en vigor en todos los estados miembros de la UE con efectos inmediatos para los sistemas de IA considerados de alto riesgo. La norma, que lleva dos años en proceso de adopción y cuya gestación ha coincidido con la explosión del uso de la IA generativa, establece un marco de obligaciones que afecta directamente a miles de empresas españolas que utilizan sistemas automatizados de toma de decisiones en sus operaciones.
+
+Los sectores más afectados en España son los servicios financieros, la sanidad, los recursos humanos y la educación. Las entidades bancarias que utilizan modelos de scoring crediticio, los hospitales con sistemas de diagnóstico asistido por IA y las plataformas de empleo que filtran currículos mediante algoritmos tienen a partir de ahora la obligación de mantener documentación técnica detallada de sus sistemas, garantizar la supervisión humana de las decisiones más relevantes y pasar auditorías de conformidad antes del 1 de enero de 2027.
+
+La Agencia Española de Supervisión de Inteligencia Artificial (AESIA), con sede en La Coruña, ha publicado una guía de orientación para pymes que resume los criterios para determinar si un sistema de IA cae dentro de las categorías reguladas y qué pasos deben seguir para cumplir con la norma. Según sus cálculos, alrededor de ocho mil empresas españolas están afectadas en esta primera fase.
+
+Las multas por incumplimiento son significativas: hasta el 3% de la facturación mundial anual para las infracciones graves, y hasta el 6% en casos que impliquen el uso de prácticas de IA prohibidas, como los sistemas de puntuación social al estilo del utilizado en China o la manipulación subliminal de decisiones. Para las pymes, la Agencia ha anunciado que aplicará el principio de proporcionalidad durante los primeros doce meses, priorizando la orientación sobre la sanción.`,
+  },
+
+  {
+    slug: "luis-miguel-gira-espana-2026-barcelona-madrid",
+    title: "Luis Miguel agota entradas en 72 horas para sus conciertos de Madrid y Barcelona",
+    category: "Entretenimiento",
+    excerpt:
+      "El cantante mexicano vuelve a España con tres fechas en el Estadio Olímpico de Barcelona y dos en el WiZink Center de Madrid. Los precios del mercado secundario han llegado a triplicar el valor original.",
+    date: "2026-06-12",
+    body: `Luis Miguel ha vuelto a demostrar que no tiene rival en el mercado de conciertos de habla hispana. Las entradas para sus cinco actuaciones en España —tres en el Estadio Olímpico Lluís Companys de Barcelona y dos en el WiZink Center de Madrid, con fechas entre septiembre y octubre de 2026— se agotaron en menos de 72 horas desde que abrió la venta oficial. En las plataformas de reventa, las entradas cuadruplicaron su precio en pocas horas, llegando a superar los 1.200 euros para las localidades más cercanas al escenario.
+
+La gira, que lleva el nombre "Eterno" y comenzó en México y Estados Unidos a principios de año, es la primera gran actuación de Luis Miguel en Europa en más de una década. La espera ha multiplicado la expectativa: las listas de espera para obtener entradas en el momento de las previas convocaron a más de 400.000 personas en las plataformas oficiales solo en España, una cifra que supera ampliamente cualquier preventa previa de artistas internacionales en el mercado español.
+
+Los organizadores han insistido en que los sistemas anti-reventa implementados —verificación de identidad en la taquilla, nombre del titular en la entrada, y posibilidad de transferencia solo a través de la plataforma oficial— limitarán el impacto de los revendedores. Sin embargo, los datos del mercado secundario muestran que una parte significativa de las entradas ha escapado a esos controles a través de cuentas falsas y compras coordinadas desde múltiples dispositivos.
+
+El regreso de Luis Miguel a España coincide con un momento de renovado interés por la música pop latina de los años 90 entre las generaciones más jóvenes. Sus canciones han acumulado miles de millones de reproducciones en plataformas de streaming durante los últimos tres años, impulsadas en parte por el fenómeno de las series biográficas y los documentales sobre el artista que han introducido su catálogo a oyentes de 20 y 30 años que no le conocían en su etapa de mayor popularidad.`,
+  },
+
+  {
+    slug: "espana-atletismo-mundial-tokio-2026",
+    title: "España logra su mejor actuación histórica en el Mundial de Atletismo de Tokio",
+    category: "Deportes",
+    excerpt:
+      "Cinco medallas en los campeonatos del mundo de atletismo —una de oro, dos de plata y dos de bronce— catapultan a España al quinto puesto del medallero, su mejor clasificación en la historia de la competición.",
+    date: "2026-06-09",
+    body: `España ha cerrado su participación en el Campeonato del Mundo de Atletismo de Tokio 2026 con un palmarés histórico: cinco medallas, una de oro, dos de plata y dos de bronce, que la sitúan por primera vez en el quinto puesto del medallero general, solo por detrás de Estados Unidos, Etiopía, Kenia y Jamaica. Es el mejor resultado de la historia del atletismo español en un Mundial y consolida la imagen de una generación de atletas que ha irrumpido con fuerza en la élite global tras años de renovación generacional.
+
+El oro llegó de la mano de Mohamed Katir en los 5.000 metros lisos, una carrera en la que el fondista murciano corrió el último kilómetro en 2:22, destrozando la marca europea y arrebatando la victoria a los favoritos keniatas con una táctica de kicking final que dejó sin palabras a los comentaristas. Para Katir, que ya tiene en su palmarés el récord de Europa de los 5.000, es el primer título mundial de una carrera que empezó a despegar en los Juegos de Tokio 2021 y que ahora alcanza su cima.
+
+Las dos platas llegaron en relevos. El equipo masculino de 4x400 firmó la mejor actuación de España en esa prueba en toda la historia, terminando por delante de Gran Bretaña y Jamaica. La plata de las chicas llegó en el 4x100 femenino, donde el equipo español batió su propio récord nacional en semifinales y aguantó hasta la final para llevarse una medalla inesperada.
+
+Los bronces correspondieron a Ana Peleteiro en triple salto, que ganó por segunda vez consecutiva en un Mundial tras el oro de Budapest 2023, y a Álvaro Martín en 20 kilómetros marcha, una prueba donde España ha dominado históricamente y en la que el gallego sigue siendo referencia mundial a sus 32 años.`,
+  },
+
+  {
+    slug: "alentejo-portugal-enoturismo-espanoles-2026",
+    title: "El Alentejo portugués se consolida como destino de enoturismo de lujo para viajeros españoles",
+    category: "Viajes",
+    excerpt:
+      "La región vinícola portuguesa, a dos horas de Sevilla y tres de Madrid, se ha convertido en el destino de escapada favorito de los amantes del vino español. Los hoteles de viñedo llegan a los 800 euros la noche en temporada alta.",
+    date: "2026-06-08",
+    body: `A dos horas de Sevilla por la autopista y poco menos de tres de Madrid en AVE hasta Badajoz más coche, el Alentejo portugués lleva dos años siendo el secreto mejor guardado y, al mismo tiempo, el más comentado en los círculos del turismo gastronómico español. La región que produce algunos de los mejores vinos de Portugal —y varios de los mejores del mundo según la crítica especializada— ha pasado de ser un destino de iniciados a convertirse en una opción de escapada de lujo que compite directamente con la Ribera del Duero o La Rioja para los viajeros más exigentes.
+
+La oferta hotelera de viñedo ha crecido exponencialmente. En 2020 había cuatro hoteles integrados en bodegas de cierta entidad en el Alentejo; hoy hay más de cuarenta, con calidades que van desde el rural de encanto hasta el resort de cinco estrellas con spa y sumiller residente. Los precios han subido en consecuencia: en temporada alta, entre mayo y octubre, no es difícil encontrar habitaciones dobles a 600-800 euros la noche en las propiedades más cotizadas de Évora, Reguengos de Monsaraz y Estremoz.
+
+El atractivo va más allá del vino. El Alentejo tiene varias ciudades Patrimonio de la Humanidad en su territorio, Évora entre ellas, y una gastronomía que combina el cerdo negro alentejano, el queso de Serpa, las migas y el bacalhau en preparaciones que sorprenden por su sofisticación dentro de la aparente sencillez. Las temperaturas de verano, eso sí, son un factor a tener en cuenta: en julio y agosto el Alentejo puede superar los 42 grados.
+
+Para los viajeros españoles, el atractivo logístico es innegable. No hay barrera idiomática significativa, el euro es la moneda, y la diferencia de precios con respecto a destinos equivalentes en España sigue siendo favorable, especialmente en restauración. Un menú degustación de alto nivel en Évora cuesta entre 60 y 90 euros; el equivalente en Logroño o Peñafiel difícilmente baja de los 100.`,
+  },
+
 ];

@@ -14,7 +14,7 @@ export const revalidate = 300;
 export const metadata: Metadata = {
   title: "Ranking de salas de chat",
   description:
-    "Las salas de chat más votadas y activas del momento. Descubre qué canales tienen más gente conectada ahora mismo.",
+    "Las salas de chat más votadas y activas de TuChat: ranking general, por país, por ciudad y por temática. Descubre cuáles tienen más gente conectada ahora mismo.",
   alternates: { canonical: "/ranking" },
 };
 
