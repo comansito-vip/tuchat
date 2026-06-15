@@ -5,7 +5,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
   Fuego: "bg-red-500",
@@ -41,6 +41,7 @@ const FAQ = [
 ];
 
 export default function HoroscopoIndexPage() {
+  const signs = getSigns();
   const crumbs = [
     { name: "Inicio", url: "/" },
     { name: "Horóscopo", url: "/horoscopo" },
@@ -51,6 +52,7 @@ export default function HoroscopoIndexPage() {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Horóscopo", "/horoscopo")} />
       <JsonLd data={faqJsonLd(FAQ)} />
+      <JsonLd data={itemListJsonLd(signs.map((s) => ({ url: `/horoscopo/${s.slug}`, name: `Horóscopo de ${s.name}` })))} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Horóscopo de los 12 signos</h1>
       <p className="mt-2 max-w-2xl text-muted">
@@ -62,7 +64,7 @@ export default function HoroscopoIndexPage() {
       </div>
 
       <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-        {getSigns().map((s) => (
+        {signs.map((s) => (
           <Link key={s.slug} href={`/horoscopo/${s.slug}`}>
             <Card className="flex h-full items-center gap-3 p-4 transition-colors hover:border-blue">
               <span className="text-3xl" aria-hidden>

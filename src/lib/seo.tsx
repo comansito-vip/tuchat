@@ -100,6 +100,19 @@ export function articleListJsonLd(articles: { slug: string; title: string; date:
   };
 }
 
+export function itemListJsonLd(items: { url: string; name: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: item.url.startsWith("http") ? item.url : `${SITE}${item.url}`,
+      name: item.name,
+    })),
+  };
+}
+
 export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />;
 }

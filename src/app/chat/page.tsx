@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
@@ -49,11 +49,14 @@ export default async function ChatIndexPage({
     ? all.filter((p) => p.name.toLowerCase().includes(q.toLowerCase()))
     : all;
 
+  const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
+
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
       <JsonLd data={faqJsonLd(FAQ)} />
+      <JsonLd data={itemListJsonLd(topRooms.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
       <p className="mt-2 max-w-2xl text-muted">

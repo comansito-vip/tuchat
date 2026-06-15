@@ -17,7 +17,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
     about:
-      "El chat de Madrid reúne a gente de los barrios de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel. Se habla de quedadas, de planes de fin de semana, del Metro a las tantas y de dónde tomar algo sin gastarse el sueldo. Una sala con ritmo de capital: activa casi a cualquier hora.",
+      "El chat de Madrid reúne a gente de los barrios de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza. Se habla de planes de fin de semana, del Metro a las tantas, de dónde tomar algo sin gastarse el sueldo y de los locales que abren cuando los demás cierran. Madrileños de toda la vida y gente que lleva aquí dos años conviven en la misma sala. Una sala con ritmo de capital, especialmente animada los jueves, los viernes y los fines de semana. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
   },
   {
     slug: "barcelona",
@@ -35,7 +35,7 @@ export const CITIES: Place[] = [
     intro:
       "La sala de Barcelona es punto de encuentro para gente del Eixample, Gràcia y los barrios del litoral que quiere charlar, quedar o simplemente matar el rato.",
     about:
-      "Chat muy activo donde barceloneses de todos los rincones hablan de la Rambla, del Barça, de los apartamentos imposibles y de dónde desayunar sin colas de turistas.",
+      "El chat de Barcelona junta a gente del Eixample, Gràcia, Poblenou, Sarrià y el Barrio Gótico. Se habla del Barça y del Espanyol, de los pisos imposibles y los alquileres que no paran de subir, de dónde desayunar sin hacer cola de turistas y de la vida en los barrios que quedan fuera del circuito. Barceloneses de toda la vida y gente que llegó por la universidad o el trabajo conviven con naturalidad. Una sala activa con acento catalán y castellano a partes iguales, donde la conversación no para de lunes a domingo.",
   },
   {
     slug: "valencia",
@@ -192,7 +192,7 @@ export const CITIES: Place[] = [
     intro:
       "Desde Palermo hasta la Boca, los porteños tienen el don de la conversación a cualquier hora. Entra y comprueba si el acento te contagia.",
     about:
-      "La sala de Buenos Aires mezcla laburantes del centro, estudiantes de Caballito y noctámbulos de San Telmo. Se debate de política, de asados, del dólar blue y de si Gardel nació en Francia o en Tacuarembó. Fútbol, tango y mucha opinión: todo a la vez.",
+      "La sala de Buenos Aires mezcla laburantes del Microcentro, estudiantes de Caballito, noctámbulos de San Telmo y vecinos de Villa Urquiza. Se debate de política y del rumbo del peso, de asados en la terraza, del dólar blue y de si Gardel nació en Francia o en Tacuarembó. Hay hinchas de Boca y de River que se respetan fuera del estadio, milongueros que recuerdan los piringundines de los cincuenta y pibes que ven todo por streaming. Una sala porteña que no duerme y que tiene opinión sobre todo.",
   },
   {
     slug: "ciudad-de-mexico",
@@ -210,7 +210,7 @@ export const CITIES: Place[] = [
     intro:
       "Chilangos de Tepito, Coyoacán, la Condesa y el Estado de México conviven en esta sala con el ritmo frenético de la ciudad más grande de habla hispana.",
     about:
-      "El CDMX chat no duerme: a las 3 de la mañana hay gente discutiendo de tacos de canasta, del tráfico en el Periférico y del último temblor. Una sala que huele a chilaquiles y a café de olla.",
+      "El CDMX chat no duerme: a las 3 de la mañana hay gente de Tepito, Coyoacán, la Condesa e Iztapalapa discutiendo de tacos de canasta, del tráfico infernal en el Periférico y del último temblor. Chilangos de la metrópoli y defeños de corazón que ya no viven aquí se mezclan con gente de Guadalajara o Monterrey que se mudaron por el trabajo. Se habla de la UNAM, del Metro lleno, del tianguis del barrio y de las loncherías que cierran a las 2. Una sala tan densa y diversa como la ciudad misma.",
   },
   {
     slug: "bogota",
