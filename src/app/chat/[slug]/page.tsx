@@ -12,7 +12,7 @@ import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
-import { breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return [...getCountries(), ...getCities(), ...getTopics()].map((p) => ({ slug: p.slug }));
@@ -63,6 +63,9 @@ export default async function ChatRoomPage({
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(faq)} />
+      {children.length > 0 && (
+        <JsonLd data={itemListJsonLd(children.map((c) => ({ url: `/chat/${c.slug}`, name: `Chat ${c.name}` })))} />
+      )}
       {/* Breadcrumbs */}
       <Breadcrumbs crumbs={crumbs} />
 
