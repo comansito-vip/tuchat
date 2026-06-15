@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "El punto de encuentro otaku en español: salas de Naruto, Dragon Ball, One Piece y más. Debate sagas, personajes y estrenos y entra gratis al chat de anime.",
   alternates: { canonical: "/anime" },
+  openGraph: { url: "/anime" },
 };
 
 const crumbs = [

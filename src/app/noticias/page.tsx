@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description:
     "Las últimas noticias en español: actualidad, deportes, tecnología, cultura, viajes, salud y economía. Seleccionadas por la comunidad de TuChat.",
   alternates: { canonical: "/noticias" },
+  openGraph: { url: "/noticias" },
 };
 
 const crumbs = [

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description:
     "Más de 200 salas de chat gratis sin registro: por países, ciudades y temáticas. Chatear online con gente, hacer amigos y ligar en español. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
+  openGraph: { url: "/chat" },
 };
 
 const crumbs = [

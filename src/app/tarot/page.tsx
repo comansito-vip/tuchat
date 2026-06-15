@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description:
     "Consulta la carta del tarot de hoy y el significado de los 22 Arcanos Mayores. Entra gratis al chat de tarot y comparte tus tiradas con otros aficionados.",
   alternates: { canonical: "/tarot" },
+  openGraph: { url: "/tarot" },
 };
 
 const crumbs = [

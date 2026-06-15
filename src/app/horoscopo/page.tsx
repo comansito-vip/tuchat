@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Horóscopo de los 12 signos del zodiaco: amor, trabajo, salud, personalidad y compatibilidad de Aries a Piscis. Consulta tu signo en TuChat.",
   alternates: { canonical: "/horoscopo" },
+  openGraph: { url: "/horoscopo" },
 };
 
 const FAQ = [

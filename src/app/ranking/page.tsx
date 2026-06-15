@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description:
     "Las salas de chat más votadas y activas de TuChat: ranking general, por país, por ciudad y por temática. Descubre cuáles tienen más gente conectada ahora mismo.",
   alternates: { canonical: "/ranking" },
+  openGraph: { url: "/ranking" },
 };
 
 const crumbs = [

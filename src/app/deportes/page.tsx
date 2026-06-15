@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description:
     "Vive el fútbol en el chat de deportes: salas del Real Madrid, FC Barcelona, Boca, River, Club América y más. Entra gratis y debate con otros aficionados.",
   alternates: { canonical: "/deportes" },
+  openGraph: { url: "/deportes" },
 };
 
 const crumbs = [
