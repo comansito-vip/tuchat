@@ -7,6 +7,12 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { slugify, cap } from "@/lib/slug";
 import { breadcrumbJsonLd, collectionJsonLd, articleListJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
+const CATEGORY_NAME: Record<string, string> = {
+  ia: "IA",
+  economia: "Economía",
+  tecnologia: "Tecnología",
+};
+
 const CATEGORY_CANAL: Record<string, string> = {
   deportes: "deportes",
   tecnologia: "tecnologia",
@@ -81,10 +87,11 @@ export async function generateMetadata({
   params: Promise<{ categoria: string }>;
 }): Promise<Metadata> {
   const { categoria } = await params;
-  const title = `Noticias de ${cap(categoria)}`;
+  const nombre = CATEGORY_NAME[categoria] ?? cap(categoria);
+  const title = `Noticias de ${nombre}`;
   return {
     title,
-    description: CATEGORY_DESC[categoria] ?? `Las últimas noticias de ${cap(categoria)} en español. Comenta la actualidad con la comunidad de TuChat.`,
+    description: CATEGORY_DESC[categoria] ?? `Las últimas noticias de ${nombre} en español. Comenta la actualidad con la comunidad de TuChat.`,
     alternates: { canonical: `/noticias/${categoria}` },
     openGraph: { url: `/noticias/${categoria}` },
   };
@@ -100,7 +107,7 @@ export default async function CategoriaPage({
   params: Promise<{ categoria: string }>;
 }) {
   const { categoria } = await params;
-  const nombre = cap(categoria);
+  const nombre = CATEGORY_NAME[categoria] ?? cap(categoria);
 
   const crumbs = [
     { name: "Inicio", url: "/" },
