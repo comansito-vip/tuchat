@@ -8,7 +8,7 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { cap } from "@/lib/slug";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
@@ -70,11 +70,13 @@ export default async function PaisPage({
       },
     ];
 
+    const allRooms = [place, ...cities];
     return (
       <main className="mx-auto max-w-6xl px-4 py-6">
         <JsonLd data={breadcrumbJsonLd(crumbs)} />
         <JsonLd data={collectionJsonLd(`Chat de ${nombre}`, `/pais/${pais}`)} />
         <JsonLd data={faqJsonLd(faq)} />
+        <JsonLd data={itemListJsonLd(allRooms.map((r) => ({ url: `/chat/${r.slug}`, name: `Chat ${r.name}` })))} />
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de {nombre}</h1>
         <p className="mt-2 max-w-2xl text-muted">{place.about ?? place.intro}</p>
