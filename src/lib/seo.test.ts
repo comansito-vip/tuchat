@@ -90,4 +90,35 @@ describe("seo json-ld", () => {
     expect(ld.name).toBe("TuChat");
     expect(ld.contactPoint.email).toBe("hola@tuchat.org");
   });
+
+  it("all JSON-LD objects include @context schema.org", () => {
+    const objects = [
+      breadcrumbJsonLd([{ name: "Inicio", url: "/" }]),
+      faqJsonLd([{ q: "¿?", a: "Sí." }]),
+      websiteJsonLd(),
+      collectionJsonLd("Test", "/test"),
+      articleJsonLd({ title: "T", description: "D", date: "2026-01-01", category: "C", slug: "t", body: "b" }),
+      organizationJsonLd(),
+      articleListJsonLd([{ slug: "a", title: "A", date: "2026-01-01" }]),
+      itemListJsonLd([{ url: "/chat/madrid", name: "Madrid" }]),
+    ];
+    for (const obj of objects) {
+      expect(obj["@context"]).toBe("https://schema.org");
+    }
+  });
+
+  it("faqJsonLd wraps each item in a Question type", () => {
+    const ld = faqJsonLd([{ q: "Q1", a: "A1" }, { q: "Q2", a: "A2" }]);
+    expect(ld.mainEntity).toHaveLength(2);
+    expect(ld.mainEntity[0]["@type"]).toBe("Question");
+    expect(ld.mainEntity[1]["@type"]).toBe("Question");
+  });
+
+  it("articleJsonLd sets wordCount based on body", () => {
+    const ld = articleJsonLd({
+      title: "T", description: "D", date: "2026-01-01", category: "C", slug: "t",
+      body: "uno dos tres cuatro cinco",
+    });
+    expect(ld.wordCount).toBe(5);
+  });
 });
