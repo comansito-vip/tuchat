@@ -18,6 +18,18 @@ const CATEGORY_CANAL: Record<string, string> = {
   actualidad: "espana",
 };
 
+const CATEGORY_DESC: Record<string, string> = {
+  actualidad: "Noticias de actualidad en español: política, sociedad y sucesos del mundo hispanohablante. Comenta las noticias con la comunidad de TuChat.",
+  deportes: "Últimas noticias de deportes en español: fútbol, baloncesto, tenis y más. Sigue la actualidad deportiva y debate los resultados en el chat.",
+  tecnologia: "Noticias de tecnología en español: novedades de móviles, apps, internet y gadgets. Todo lo que necesitas saber sobre el mundo tech al día.",
+  ia: "Noticias sobre inteligencia artificial en español: ChatGPT, modelos de lenguaje, automatización y el impacto de la IA en el trabajo y la sociedad.",
+  cultura: "Noticias de cultura en español: cine, música, literatura, arte y patrimonio. Descubre lo más destacado del panorama cultural hispanohablante.",
+  viajes: "Noticias y artículos de viajes en español: destinos, consejos, rutas y experiencias para planificar tus próximas vacaciones.",
+  salud: "Noticias de salud en español: investigación médica, bienestar, nutrición y consejos para cuidar tu salud con información rigurosa.",
+  economia: "Noticias de economía en español: mercados, inflación, empleo y finanzas personales. Entiende la actualidad económica con TuChat.",
+  entretenimiento: "Noticias de entretenimiento en español: series, películas, música y celebrities. Lo más viral de la cultura pop hispanohablante.",
+};
+
 export function generateStaticParams() {
   const categorias = new Set(getNews().map((n) => slugify(n.category)));
   return [...categorias].map((categoria) => ({ categoria }));
@@ -32,7 +44,7 @@ export async function generateMetadata({
   const title = `Noticias de ${cap(categoria)}`;
   return {
     title,
-    description: `Las últimas noticias de ${cap(categoria)} en español. Mantente informado con TuChat.`,
+    description: CATEGORY_DESC[categoria] ?? `Las últimas noticias de ${cap(categoria)} en español. Comenta la actualidad con la comunidad de TuChat.`,
     alternates: { canonical: `/noticias/${categoria}` },
   };
 }

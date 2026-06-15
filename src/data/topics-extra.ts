@@ -18,7 +18,7 @@ const RAW: Place[] = [
     channels: ["naruto", "anime", "manga", "chatzona"],
     related: ["anime", "dragon-ball", "one-piece", "manga", "videojuegos", "madrid"],
     intro:
-      "Del Valle del Fin a la guerra contra Madara: aquí el equipo 7 todavía da para discutir horas.",
+      "Del Valle del Fin a la guerra contra Madara: el equipo 7, el arco de Pain y el debate eterno Naruto vs. Sasuke. Entra y elige bando.",
     about:
       "La sala donde se reabre el eterno debate Naruto contra Sasuke y si Sakura merecía más protagonismo. Se comenta el salto de calidad de Shippuden, el relleno interminable, la genialidad del arco de Pain y si Boruto está a la altura. Hay quien defiende a Itachi como el verdadero héroe y quien todavía no perdona el final de Kaguya. Fans del rasengan, del Sharingan y de Kakashi sin máscara entran a picarse y a recomendar capítulos.",
   },
@@ -34,7 +34,7 @@ const RAW: Place[] = [
     channels: ["dragon-ball", "anime", "manga", "chatzona"],
     related: ["anime", "naruto", "one-piece", "manga", "videojuegos", "barcelona"],
     intro:
-      "Desde la búsqueda de las esferas hasta el Ultra Instinto: la saga que nos enganchó a todos sigue dando guerra.",
+      "Desde la búsqueda de las esferas hasta el Ultra Instinto: la saga que nos enganchó a todos sigue dando guerra. ¿Z o Super? Elige y defiéndelo.",
     about:
       "Aquí se discute si Z fue la cumbre o si Super recuperó el nivel, si Gohan debió ser el protagonista tras Cell y por qué Vegeta se lleva el cariño del fandom. Cell, Freezer, Buu y Jiren reparten nostalgia y polémica a partes iguales. Se habla del torneo del poder, de las transformaciones infinitas, de GT como herejía y del manga de Toyotaro. Siempre hay alguien comparando poderes y otro recordando el doblaje latino contra el castellano.",
   },
@@ -50,7 +50,7 @@ const RAW: Place[] = [
     channels: ["one-piece", "anime", "manga", "chatzona"],
     related: ["anime", "naruto", "dragon-ball", "manga", "series", "madrid"],
     intro:
-      "Más de mil capítulos buscando el One Piece y la teoría del Gorosei sigue creciendo cada semana.",
+      "Más de mil capítulos buscando el One Piece: el Siglo Vacío, el Gear 5 y la teoría del Gorosei. Wano, Marineford y la voluntad de la D a debate.",
     about:
       "El refugio de los que aguantan el ritmo de Oda sin spoilers. Se teoriza sobre el Siglo Vacío, la voluntad de la D y qué es realmente el tesoro de Roger. Wano dividió opiniones por su duración, pero el Gear 5 de Luffy puso a todos de acuerdo. Se debate el mejor arco (Marineford, Enies Lobby, Water 7), se votan a los Sombrero de Paja favoritos y se queja del relleno del anime frente a un manga que no falla.",
   },
@@ -66,7 +66,7 @@ const RAW: Place[] = [
     channels: ["kimetsu-no-yaiba", "anime", "manga", "chatzona"],
     related: ["anime", "jujutsu-kaisen", "one-piece", "manga", "cine", "barcelona"],
     intro:
-      "La animación de Ufotable dejó el listón por las nubes: cada respiración de Tanjiro es un espectáculo.",
+      "La animación de Ufotable con Kimetsu no Yaiba dejó el listón altísimo: el tren infinito, los Hashira y cada respiración de Tanjiro, a debate.",
     about:
       "Sala para los que se quedaron sin palabras con el arco del tren infinito y la pelea contra Akaza. Se alaba el trabajo bestial de Ufotable, se debate si la historia es sencilla pero efectiva y quién es el Hashira favorito, con Rengoku y Giyu peleándose el puesto. Nezuko, Zenitsu y Inosuke generan memes sin parar. También se comenta el arco final contra Muzan, las muertes que dolieron y si la película batió récords con razón.",
   },
@@ -98,7 +98,7 @@ const RAW: Place[] = [
     channels: ["pokemon", "anime", "manga", "chatzona"],
     related: ["anime", "dragon-ball", "naruto", "manga", "videojuegos", "barcelona"],
     intro:
-      "De Kanto a Paldea: aquí todavía se discute cuál fue la mejor generación y por qué la primera es intocable.",
+      "De Kanto a Paldea: la mejor generación, los starters favoritos, shinies y el debate sin fin de si el viaje de Ash tuvo el final que merecía.",
     about:
       "Punto de encuentro de los que crecieron con Ash y Pikachu y de los que siguen criando equipos competitivos. Se debaten las generaciones, el eterno odio o amor a las megaevoluciones y los Pokémon dinamax, y si el cierre del viaje de Ash fue digno. Entrenadores hardcore hablan de IVs, naturalezas y tier list de Smogon mientras otros solo quieren recordar Oro y Plata. Los shinies, los starters favoritos y los legendarios injugables dan conversación para rato.",
   },
@@ -257,7 +257,7 @@ const RAW: Place[] = [
     channels: ["videncia", "tarot", "esoterismo", "chatzona"],
     related: ["tarot", "esoterismo", "horoscopo", "astrologia", "amor", "madrid"],
     intro:
-      "Conversaciones sobre intuición, presentimientos y tiradas para quienes buscan otra mirada.",
+      "Sala de videncia y intuición: tiradas de cartas, interpretación de sueños y consultas de amor o trabajo. Creyentes, curiosos y escépticos bienvenidos.",
     about:
       "Aquí se habla de intuición, corazonadas y esas sensaciones difíciles de explicar que muchos han tenido alguna vez. La gente comparte tiradas de cartas, interpretaciones de sueños y consultas sobre el amor o el trabajo, siempre como apoyo para reflexionar, no como verdad cerrada. Conviven creyentes convencidos, curiosos y escépticos que disfrutan del tema sin tomárselo todo al pie de la letra. Es un espacio para charlar con calma, contrastar puntos de vista y desahogarse cuando uno anda buscando respuestas.",
   },
