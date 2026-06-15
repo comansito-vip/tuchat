@@ -73,6 +73,7 @@ export default async function CategoriaPage({
       title={`Noticias de ${nombre}`}
       crumbs={crumbs}
       intro={`Todas las noticias de ${nombre} en español. Aquí encontrarás los artículos más recientes sobre ${nombre.toLowerCase()} seleccionados por la comunidad de TuChat.`}
+      placeholder={false}
     >
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(`Noticias de ${nombre}`, `/noticias/${categoria}`)} />
