@@ -85,6 +85,14 @@ describe("SEO constraints", () => {
     expect(featured).toHaveLength(1);
   });
 
+  it("all article dates are valid ISO dates and not in the future", () => {
+    const today = new Date().toISOString().slice(0, 10);
+    const violations = getNews()
+      .filter((a) => !/^\d{4}-\d{2}-\d{2}$/.test(a.date) || a.date > today)
+      .map((a) => `${a.slug}: ${a.date}`);
+    expect(violations).toEqual([]);
+  });
+
   it("no duplicate article slugs", () => {
     const slugs = getNews().map((a) => a.slug);
     const counts = slugs.reduce<Record<string, number>>((acc, s) => {
