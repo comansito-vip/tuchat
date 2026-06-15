@@ -84,4 +84,12 @@ describe("SEO constraints", () => {
     const featured = articles.filter((a) => a.featured);
     expect(featured).toHaveLength(1);
   });
+
+  it("all city parentSlug values reference a valid country slug", () => {
+    const countrySlugs = new Set(getCountries().map((c) => c.slug));
+    const violations = getCities()
+      .filter((c) => c.parentSlug !== undefined && !countrySlugs.has(c.parentSlug))
+      .map((c) => `${c.slug} -> ${c.parentSlug}`);
+    expect(violations).toEqual([]);
+  });
 });

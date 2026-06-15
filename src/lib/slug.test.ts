@@ -1,0 +1,32 @@
+import { describe, it, expect } from "vitest";
+import { slugify, cap } from "@/lib/slug";
+
+describe("slugify", () => {
+  it("lowercases and removes accents", () => {
+    expect(slugify("España")).toBe("espana");
+    expect(slugify("Málaga")).toBe("malaga");
+    expect(slugify("Bogotá")).toBe("bogota");
+  });
+
+  it("replaces spaces with hyphens", () => {
+    expect(slugify("Buenos Aires")).toBe("buenos-aires");
+    expect(slugify("Las Palmas de Gran Canaria")).toBe("las-palmas-de-gran-canaria");
+  });
+
+  it("handles multi-accent strings", () => {
+    expect(slugify("São Paulo")).toBe("sao-paulo");
+    expect(slugify("Zürich")).toBe("zurich");
+  });
+});
+
+describe("cap", () => {
+  it("capitalizes the first letter", () => {
+    expect(cap("amor")).toBe("Amor");
+    expect(cap("espana")).toBe("Espana");
+  });
+
+  it("replaces hyphens with spaces", () => {
+    expect(cap("buenos-aires")).toBe("Buenos aires");
+    expect(cap("las-palmas-de-gran-canaria")).toBe("Las palmas de gran canaria");
+  });
+});
