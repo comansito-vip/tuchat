@@ -30,3 +30,14 @@ describe("cap", () => {
     expect(cap("las-palmas-de-gran-canaria")).toBe("Las palmas de gran canaria");
   });
 });
+
+describe("slugify round-trips", () => {
+  it("slugify of already-slug is idempotent", () => {
+    expect(slugify("buenos-aires")).toBe("buenos-aires");
+    expect(slugify("espana")).toBe("espana");
+  });
+  it("slugify handles mixed case and accent", () => {
+    expect(slugify("Córdoba")).toBe("cordoba");
+    expect(slugify("SEVILLA")).toBe("sevilla");
+  });
+});
