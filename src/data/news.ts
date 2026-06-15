@@ -484,4 +484,150 @@ El atractivo va más allá del vino. El Alentejo tiene varias ciudades Patrimoni
 Para los viajeros españoles, el atractivo logístico es innegable. No hay barrera idiomática significativa, el euro es la moneda, y la diferencia de precios con respecto a destinos equivalentes en España sigue siendo favorable, especialmente en restauración. Un menú degustación de alto nivel en Évora cuesta entre 60 y 90 euros; el equivalente en Logroño o Peñafiel difícilmente baja de los 100.`,
   },
 
+  // ── Artículos mayo 2026 ──────────────────────────────────────────────────
+
+  {
+    slug: "spain-elecciones-municipales-mayo-2026",
+    title: "El PP gana las elecciones municipales en España pero pierde Madrid por un escaño",
+    category: "Actualidad",
+    excerpt:
+      "Los populares se impusieron en la mayoría de las grandes ciudades, excepto en la capital, donde la candidatura de izquierdas logró arrebatarles la alcaldía…",
+    date: "2026-05-28",
+    body: `Las elecciones municipales del 26 de mayo dejaron un mapa político fragmentado en el que el Partido Popular obtuvo la mejor cosecha de votos desde 2011 en términos globales, pero perdió la alcaldía de Madrid por un solo escaño gracias a un pacto de última hora entre el PSOE, Más Madrid e Izquierda Unida. El escenario contrasta con las previsiones de la mayoría de encuestas, que daban a los populares una mayoría suficiente para gobernar la capital sin necesidad de socios.
+
+En Barcelona, el PSC de Salvador Illa repitió alcaldía con holgada mayoría, confirmando el giro socialista de la ciudad condal iniciado en las anteriores municipales. En Sevilla, el PP recuperó la alcaldía que había perdido en 2019, mientras que en Valencia y Zaragoza los empates técnicos obligarán a semanas de negociación antes de que se constituyan los nuevos ayuntamientos.
+
+La participación fue del 62,4%, cuatro puntos por encima de las anteriores municipales, en lo que los analistas interpretan como señal de una mayor polarización y movilización del electorado urbano. Vox perdió representación en la mayoría de las grandes ciudades respecto a 2023, aunque mantuvo presencia significativa en municipios medianos del centro y sur peninsular.
+
+El resultado deja a los partidos ante semanas de negociaciones para constituir gobiernos locales en al menos quince capitales de provincia donde ningún candidato obtuvo mayoría absoluta. Los primeros análisis apuntan a que el tablero municipal resultante reflejará, en miniatura, las mismas tensiones y coaliciones que caracterizan la política nacional, con un PP que gobernará en alianza con Vox en algunas ciudades y con partidos regionalistas en otras.`,
+  },
+
+  {
+    slug: "formula1-monaco-2026-verstappen",
+    title: "Verstappen domina Mónaco y amplía su ventaja en el Mundial de Fórmula 1",
+    category: "Deportes",
+    excerpt:
+      "El piloto neerlandés de Red Bull ganó por cuarta vez consecutiva en el Principado y suma ya 87 puntos de ventaja sobre el segundo clasificado, Lando Norris…",
+    date: "2026-05-26",
+    body: `Max Verstappen escribió otro capítulo de su dominio absoluto en la Fórmula 1 ganando por cuarta vez consecutiva el Gran Premio de Mónaco. El piloto de Red Bull cruzó la línea de meta con más de cuatro segundos de ventaja sobre Lando Norris y amplió a 87 puntos su liderato en el Campeonato del Mundo, una renta que empieza a parecer insalvable con apenas siete pruebas disputadas de las veinticuatro que componen el calendario 2026.
+
+La carrera en las calles del Principado fue un ejercicio de control y gestión perfecta por parte del neerlandés. Verstappen salió desde la pole position, gestionó el desgaste de los neumáticos con precisión milimétrica y no cedió ni un milímetro cuando Norris intentó acercarse tras el único pit stop de la carrera. El circuito monegasco, donde adelantar es casi imposible, favoreció su estrategia de carrera conservadora pero implacable.
+
+El podio lo completó Carlos Sainz con el Ferrari SF-26, que se repuso de un inicio complicado para remontar desde el quinto lugar hasta el tercero en la segunda mitad de la carrera. El español celebró el podio con la afición española concentrada en las tribunas, que acompañó su remontada con una ovación especial en los últimos giros. Fernando Alonso, por su parte, tuvo que abandonar en la vuelta 42 por un problema eléctrico en el Aston Martin cuando marchaba en séptima posición.
+
+Con los resultados del Gran Premio de Mónaco, el panorama del campeonato empieza a perfilarse con claridad: Verstappen comanda con 189 puntos, Norris le sigue con 102, y Sainz ocupa el tercer puesto con 94. Las siguientes pruebas en Montreal y Silverstone, circuitos donde Red Bull históricamente no ha dominado con tanta claridad, serán la primera prueba real de si el dominio neerlandés tiene alguna fisura.`,
+  },
+
+  {
+    slug: "samsung-galaxy-ai-espana-mayo-2026",
+    title: "Samsung integra un asistente de IA multimodal en toda su gama Galaxy en España",
+    category: "Tecnología",
+    excerpt:
+      "La actualización llega a más de 12 millones de dispositivos Galaxy activos en España y permite al asistente procesar texto, imágenes, audio y vídeo de forma…",
+    date: "2026-05-22",
+    body: `Samsung lanzó en España la actualización más ambiciosa de su historia para la gama Galaxy, desplegando un asistente de inteligencia artificial multimodal capaz de procesar simultáneamente texto, imágenes, audio y vídeo. La actualización, denominada Galaxy AI 3.0, llegará en las próximas semanas a todos los dispositivos Galaxy S, Z y A lanzados desde 2024, lo que supone más de 12 millones de terminales activos en el mercado español.
+
+El asistente puede, entre otras cosas, analizar una fotografía y generar un texto descriptivo, transcribir y traducir en tiempo real conversaciones en más de 40 idiomas, resumir videos de YouTube o vídeos grabados en el propio teléfono, y componer correos o mensajes adaptando el tono según el destinatario. Samsung ha puesto especial énfasis en la privacidad: la mayoría de las operaciones se ejecutan en el propio dispositivo gracias al chip Exynos 2500, aunque las tareas más complejas se delegan a servidores con cifrado de extremo a extremo.
+
+La presentación española estuvo protagonizada por casos de uso cotidianos: traducción automática en visitas al médico para pacientes que no hablan español, asistencia en tiempo real para personas con discapacidad visual, y herramientas de productividad para autónomos y pequeñas empresas. La empresa coreana apunta especialmente al segmento profesional, donde compite directamente con Apple Business y los servicios Microsoft 365 Copilot.
+
+El mercado de smartphones en España vive un momento de transición. Las ventas de gama alta crecieron un 14% en el primer trimestre de 2026, impulsadas precisamente por las funciones de IA como argumento de actualización. Samsung mantiene el liderazgo en cuota de mercado con un 31%, pero Apple ha ganado cuatro puntos en el último año hasta situarse en el 28%, lo que convierte este despliegue de Galaxy AI 3.0 en una respuesta directa a la estrategia de Apple Intelligence anunciada en la WWDC.`,
+  },
+
+  {
+    slug: "openai-gpt5-lanzamiento-mayo-2026",
+    title: "OpenAI lanza GPT-5 con capacidad de razonamiento avanzado y memoria persistente",
+    category: "IA",
+    excerpt:
+      "El nuevo modelo supera en los principales benchmarks a sus predecesores y a los modelos de Google y Anthropic, con una reducción del 60% en alucinaciones…",
+    date: "2026-05-20",
+    body: `OpenAI presentó GPT-5, su modelo de lenguaje más avanzado hasta la fecha, con mejoras significativas en razonamiento matemático, comprensión del contexto y, sobre todo, en la reducción de alucinaciones. Según los benchmarks publicados por la compañía, el modelo supera a sus predecesores en un 40% en tareas de razonamiento complejo y reduce en un 60% la tasa de respuestas incorrectas presentadas con aparente seguridad, el principal problema que ha lastrado la adopción empresarial de los LLM.
+
+La novedad más destacada es la memoria persistente entre conversaciones. GPT-5 puede recordar preferencias, proyectos y contextos de sesiones anteriores con el mismo usuario, creando una experiencia progresivamente más personalizada sin que el usuario tenga que repetir información de base en cada conversación. La función es opcional y los usuarios pueden borrar o editar la memoria en cualquier momento desde el panel de configuración de ChatGPT.
+
+El modelo también incorpora capacidades mejoradas de razonamiento paso a paso, lo que OpenAI llama "chain-of-thought supervisado". Antes de dar una respuesta compleja, el modelo muestra un resumen de los pasos de razonamiento intermedios, lo que permite al usuario detectar errores en la cadena lógica antes de actuar sobre la respuesta final. Esta transparencia fue uno de los principales puntos de demanda de los reguladores europeos en las negociaciones del AI Act.
+
+El lanzamiento llega en un momento de máxima competencia en el sector. Google presentó Gemini Ultra 2 a principios de mayo y Anthropic lleva semanas en proceso de despliegue de Claude 4 Opus. Los analistas coinciden en que GPT-5 recupera para OpenAI el liderazgo técnico en el segmento empresarial, pero advierten que la ventaja puede ser efímera en un sector donde los ciclos de innovación se miden en meses, no en años.`,
+  },
+
+  {
+    slug: "bienal-flamenca-sevilla-2026",
+    title: "La Bienal de Flamenco de Sevilla bate su récord con 70.000 espectadores en la edición 2026",
+    category: "Cultura",
+    excerpt:
+      "La vigésima quinta edición del festival flamenco más importante del mundo reunió a los grandes nombres del género durante tres semanas con entradas agotadas…",
+    date: "2026-05-18",
+    body: `La Bienal de Flamenco de Sevilla cerró su vigésima quinta edición con 70.000 espectadores, un 18% más que en la edición anterior y el mejor dato de su historia. Las tres semanas de programación, celebradas entre el 25 de abril y el 16 de mayo en el Teatro de la Maestranza, el Teatro Central y varios espacios al aire libre del centro histórico, reunieron a las grandes figuras del flamenco actual en un cartel que combinó los nombres consagrados con las apuestas más rupturistas de las nuevas generaciones.
+
+Israel Galván protagonizó el momento más comentado del festival con una actuación de dos horas que mezcló el baile flamenco con instalaciones de arte contemporáneo y música electrónica en directo. La propuesta dividió a la crítica —algunos la tildaron de provocación vacua, otros la celebraron como la reinvención más audaz del género en décadas— pero tuvo el efecto de agotar entradas en horas y de generar un debate que trascendió los círculos flamencológicos para instalarse en los medios generalistas.
+
+El festival también acogió homenajes a figuras históricas como Camarón de la Isla, en el 35 aniversario de su muerte, con un espectáculo en el que participaron artistas de tres generaciones. La actuación de Arcángel, Estrella Morente y El Pele juntos en el escenario fue calificada por la crítica especializada como "el momento cumbre del flamenco en lo que llevamos de siglo".
+
+El impacto económico de la Bienal en Sevilla se cifra en más de 45 millones de euros según la Junta de Andalucía, con un efecto tractor sobre el turismo cultural que se extiende más allá del propio festival. Hoteles, restaurantes y el comercio del centro histórico reportaron una ocupación media del 94% durante las semanas del evento, datos récord para un período que habitualmente marca el inicio de la temporada alta sevillana.`,
+  },
+
+  {
+    slug: "islas-azores-turismo-sostenible-2026",
+    title: "Las islas Azores imponen tasa turística y cupo máximo de visitantes para proteger su ecosistema",
+    category: "Viajes",
+    excerpt:
+      "El archipiélago portugués, que recibió 1,8 millones de turistas en 2025, fija un máximo de 300 visitantes diarios en las zonas de alta sensibilidad ecológica…",
+    date: "2026-05-15",
+    body: `El Gobierno Regional de las Azores aprobó por unanimidad el nuevo marco de turismo sostenible que introduce una tasa de entrada de 10 euros por visitante y establece cupos máximos en las zonas de mayor fragilidad ecológica del archipiélago. La medida, que entrará en vigor el 1 de enero de 2027, limita a 300 el número de visitantes diarios en áreas como la Lagoa das Furnas en São Miguel, el Parque Natural de Pico y las playas de lava de Faial, algunos de los espacios naturales más singulares de Europa.
+
+Las Azores recibieron 1,8 millones de turistas en 2025, cifra que duplica la de 2018 y que ha comenzado a generar problemas de saturación en los ecosistemas más sensibles del archipiélago. Los datos del Servicio Regional del Ambiente muestran un aumento del 34% en la erosión de suelos volcánicos en las zonas de mayor afluencia y una disminución del 22% en la población de algunas aves endémicas en las áreas más transitadas.
+
+La tasa turística, de 10 euros por persona y visita para los mayores de 16 años, generará ingresos estimados de 18 millones de euros anuales que se destinarán íntegramente a la conservación del patrimonio natural y a la mejora de las infraestructuras de los núcleos rurales del interior de las islas. Los residentes de las Azores estarán exentos del pago, así como los niños menores de 16 años y los turistas que visiten las islas por segunda vez en el mismo año.
+
+Para los viajeros españoles, las Azores son un destino de creciente popularidad. El número de vuelos directos desde España se duplicó entre 2022 y 2025, y la presencia española en el archipiélago alcanza ya el 12% del total de visitantes. Los operadores turísticos españoles especializados en turismo de naturaleza reconocen que la medida puede encarecer el destino pero confían en que también lo diferencie positivamente en un mercado donde los viajeros más conscientes valoran activamente las garantías de sostenibilidad.`,
+  },
+
+  {
+    slug: "salud-mental-espana-psicologo-publico-2026",
+    title: "España amplía la red de psicólogos en la sanidad pública con 3.000 nuevas plazas",
+    category: "Salud",
+    excerpt:
+      "El plan de salud mental 2026-2030 incrementa en un 40% los profesionales de psicología clínica en la atención primaria para reducir las listas de espera…",
+    date: "2026-05-12",
+    body: `El Gobierno de España aprobó el Plan de Salud Mental 2026-2030, que incluye la creación de 3.000 nuevas plazas de psicólogo clínico en la atención primaria del Sistema Nacional de Salud. La medida, dotada con 480 millones de euros procedentes del Presupuesto General del Estado y fondos europeos, busca reducir las listas de espera para consulta de salud mental, que en algunas comunidades autónomas superan los doce meses, y acercar la atención psicológica a los ciudadanos sin que tengan que recurrir al sector privado.
+
+Los datos que justifican el plan son elocuentes. Un informe publicado por el Ministerio de Sanidad en abril reveló que uno de cada cuatro jóvenes españoles entre 15 y 24 años ha buscado ayuda psicológica en el último año, pero solo la mitad de los que la necesitaron pudieron acceder a ella a través del sistema público. La tasa de psicólogos clínicos por habitante en España es de 6 por cada 100.000 personas, muy por debajo de la media europea de 18 por 100.000.
+
+El plan contempla también la creación de 200 unidades de salud mental infanto-juvenil, una especialidad donde el déficit es especialmente crítico. Los pediatras de atención primaria llevan años denunciando que los tiempos de espera para derivaciones psiquiátricas en menores pueden superar el año en comunidades como Madrid, Andalucía y la Comunidad Valenciana, lo que convierte en urgente una intervención que ya debería haberse producido hace lustros.
+
+La formación de los nuevos profesionales es otro de los desafíos del plan. España forma actualmente unos 400 psicólogos clínicos al año a través del sistema PIR, una cifra muy inferior a las nuevas plazas previstas. El plan contempla un aumento del 60% en el número de plazas PIR en el horizonte 2026-2028 y la homologación acelerada de títulos para profesionales procedentes de otros países de la Unión Europea.`,
+  },
+
+  {
+    slug: "bono-joven-alquiler-espana-2026",
+    title: "El Gobierno amplía el bono joven al alquiler y sube el tope de ingresos a 30.000 euros",
+    category: "Economía",
+    excerpt:
+      "La medida beneficiará a 180.000 jóvenes adicionales y eleva la ayuda máxima mensual de 250 a 350 euros para menores de 35 años en zonas de mercado tensionado…",
+    date: "2026-05-08",
+    body: `El Gobierno aprobó en Consejo de Ministros la reforma del bono joven al alquiler que amplía el acceso de beneficiarios al elevar el tope de ingresos de 23.725 euros a 30.000 euros anuales y que incrementa la cuantía máxima mensual de 250 a 350 euros para los menores de 35 años que residan en zonas declaradas de mercado residencial tensionado. La medida, que entrará en vigor el 1 de julio, beneficiará a un estimado de 180.000 jóvenes adicionales que actualmente quedan fuera del programa por ingresos o por zona geográfica.
+
+El precio medio del alquiler en España alcanzó en abril de 2026 los 1.182 euros mensuales, un 8,4% más que en el mismo mes del año anterior y un 34% por encima de los niveles prepandemia. En Madrid y Barcelona, las capitales donde la presión es mayor, el precio medio supera los 1.600 euros, lo que implica que un joven con el salario mediano de su franja de edad —en torno a los 1.800 euros netos mensuales— destina más del 85% de su sueldo al alquiler si vive solo en la capital.
+
+Los críticos del bono señalan que la medida, sin ir acompañada de un aumento de la oferta de vivienda asequible, puede generar un efecto inflacionario al inyectar más demanda solvente en un mercado ya tensionado. El Banco de España ha advertido en varias ocasiones que las subvenciones a la demanda pueden contribuir a elevar los precios en los mercados con escasez estructural de oferta, algo que ocurre en las principales ciudades españolas desde hace más de una década.
+
+El ministro de Vivienda defendió la medida señalando que es complementaria al plan de construcción de 100.000 viviendas en suelo público aprobado el año anterior y a las modificaciones en la Ley de Arrendamientos Urbanos que entrarán en vigor en septiembre. La oposición calificó la ampliación del bono de "parche electoral" y reclamó medidas estructurales de mayor calado.`,
+  },
+
+  {
+    slug: "rosalia-gira-latinoamerica-2026",
+    title: "Rosalía arrasa en su gira por Latinoamérica con entradas agotadas en 12 países",
+    category: "Entretenimiento",
+    excerpt:
+      "La cantante barcelonesa actuó ante más de 800.000 personas en su gira MOTOMAMI World Tour Latinoamérica, con paradas en México, Argentina, Colombia y Chile…",
+    date: "2026-05-05",
+    body: `Rosalía puso punto final a la fase latinoamericana de su gira MOTOMAMI World Tour con un balance histórico: 36 conciertos en 12 países, más de 800.000 espectadores y todas las entradas agotadas en menos de 72 horas desde su puesta en venta. La artista barcelonesa se ha consolidado como la artista de habla española con mayor proyección internacional de su generación, capaz de llenar estadios en Buenos Aires, Ciudad de México y São Paulo con la misma naturalidad que lo hace en Madrid o Barcelona.
+
+El concierto de cierre de gira en el Estadio Monumental de Buenos Aires, con capacidad para 82.000 personas, se convirtió en el más visto de su carrera. La puesta en escena, con más de 200 técnicos, 40 camiones de equipamiento y un escenario en forma de motocicleta gigante que se desmontaba a mitad del espectáculo para revelar una segunda plataforma, fue calificada por la revista Rolling Stone como "el show más ambicioso de una artista española en la historia de la música".
+
+El impacto económico de la gira en los países visitados ha sido notable. Según datos de la promotora Live Nation, cada fecha de la gira generó un impacto económico local de entre 8 y 15 millones de euros en concepto de hostelería, transporte y comercio, con un efecto multiplicador especialmente visible en las ciudades medianas donde actuó en recintos de entre 15.000 y 20.000 aforos.
+
+En el plano artístico, la gira sirvió también para presentar en vivo los primeros temas de su próximo álbum, aún sin título oficial, que la propia Rosalía describió en una entrevista como "más personal y más íntimo" que sus trabajos anteriores. Los adelantos, grabados por fans y viralizados en redes sociales, apuntan a una dirección más acústica y menos electrónica que MOTOMAMI, lo que ha generado tanto expectativa como debate entre su base de seguidores.`,
+  },
+
 ];

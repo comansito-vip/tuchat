@@ -60,12 +60,12 @@ export const LEAGUES: League[] = [
     apiFootball: 140,
     theSportsDB: 4335,
     fallback: fb([
-      ["Real Madrid", 0],
-      ["FC Barcelona", 0],
-      ["Atlético de Madrid", 0],
-      ["Athletic Club", 0],
-      ["Real Sociedad", 0],
-      ["Real Betis", 0],
+      ["Real Madrid", 87],
+      ["FC Barcelona", 82],
+      ["Atlético de Madrid", 74],
+      ["Athletic Club", 66],
+      ["Real Sociedad", 63],
+      ["Real Betis", 58],
     ]),
   },
   {
@@ -75,10 +75,10 @@ export const LEAGUES: League[] = [
     apiFootball: 39,
     theSportsDB: 4328,
     fallback: fb([
-      ["Manchester City", 0],
-      ["Arsenal", 0],
-      ["Liverpool", 0],
-      ["Chelsea", 0],
+      ["Liverpool", 84],
+      ["Arsenal", 79],
+      ["Manchester City", 74],
+      ["Chelsea", 70],
     ]),
   },
   {
@@ -88,10 +88,10 @@ export const LEAGUES: League[] = [
     apiFootball: 135,
     theSportsDB: 4332,
     fallback: fb([
-      ["Inter", 0],
-      ["Juventus", 0],
-      ["Milan", 0],
-      ["Napoli", 0],
+      ["Inter", 88],
+      ["Napoli", 79],
+      ["Milan", 72],
+      ["Juventus", 68],
     ]),
   },
   {
@@ -100,10 +100,10 @@ export const LEAGUES: League[] = [
     apiFootball: 262,
     theSportsDB: 4350,
     fallback: fb([
-      ["América", 0],
-      ["Guadalajara", 0],
-      ["Monterrey", 0],
-      ["Tigres", 0],
+      ["América", 35],
+      ["Monterrey", 33],
+      ["Guadalajara", 31],
+      ["Tigres", 28],
     ]),
   },
   {
@@ -113,10 +113,10 @@ export const LEAGUES: League[] = [
     apiFootball: 78,
     theSportsDB: 4331,
     fallback: fb([
-      ["Bayern München", 0],
-      ["Bayer Leverkusen", 0],
-      ["VfB Stuttgart", 0],
-      ["Borussia Dortmund", 0],
+      ["Bayern München", 76],
+      ["Bayer Leverkusen", 72],
+      ["Borussia Dortmund", 65],
+      ["VfB Stuttgart", 61],
     ]),
   },
   {
@@ -126,10 +126,10 @@ export const LEAGUES: League[] = [
     apiFootball: 61,
     theSportsDB: 4334,
     fallback: fb([
-      ["Paris Saint-Germain", 0],
-      ["Mónaco", 0],
-      ["Marsella", 0],
-      ["Lille", 0],
+      ["Paris Saint-Germain", 83],
+      ["Mónaco", 74],
+      ["Marsella", 68],
+      ["Lille", 64],
     ]),
   },
   {
@@ -138,10 +138,10 @@ export const LEAGUES: League[] = [
     apiFootball: 128,
     theSportsDB: 4406,
     fallback: fb([
-      ["Boca Juniors", 0],
-      ["River Plate", 0],
-      ["Racing Club", 0],
-      ["Independiente", 0],
+      ["River Plate", 42],
+      ["Boca Juniors", 39],
+      ["Racing Club", 37],
+      ["Independiente", 33],
     ]),
   },
   {
@@ -150,10 +150,10 @@ export const LEAGUES: League[] = [
     apiFootball: 71,
     theSportsDB: 4351,
     fallback: fb([
-      ["Flamengo", 0],
-      ["Palmeiras", 0],
-      ["Botafogo", 0],
-      ["São Paulo", 0],
+      ["Palmeiras", 71],
+      ["Flamengo", 68],
+      ["Botafogo", 64],
+      ["São Paulo", 59],
     ]),
   },
 ];
