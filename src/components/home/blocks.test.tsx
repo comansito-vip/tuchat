@@ -1,8 +1,17 @@
-import { it, expect } from "vitest";
+import { it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { RankingTable } from "./RankingTable";
 import { CityList } from "./CityList";
 import { NewsGrid } from "./NewsGrid";
+import { TrendingBlock } from "./TrendingBlock";
+import { CountryGrid } from "./CountryGrid";
+
+vi.mock("next/image", () => ({
+  default: ({ src, alt, ...props }: { src: string; alt: string; [k: string]: unknown }) => (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={src} alt={alt} {...props} />
+  ),
+}));
 
 it("RankingTable lists rows", () => {
   render(<RankingTable />);
@@ -27,4 +36,29 @@ it("NewsGrid shows at least 4 article links", () => {
     l.getAttribute("href")?.startsWith("/noticias/articulo/")
   );
   expect(articleLinks.length).toBeGreaterThanOrEqual(4);
+});
+it("TrendingBlock renders at least 5 trending links", () => {
+  render(<TrendingBlock />);
+  const links = screen.getAllByRole("link").filter((l) =>
+    l.getAttribute("href")?.startsWith("/")
+  );
+  expect(links.length).toBeGreaterThanOrEqual(5);
+});
+it("TrendingBlock has a heading", () => {
+  render(<TrendingBlock />);
+  expect(screen.getByRole("heading", { name: /Tendencias/i })).toBeInTheDocument();
+});
+it("CountryGrid renders country links with /pais/ paths", () => {
+  render(<CountryGrid />);
+  const links = screen.getAllByRole("link").filter((l) =>
+    l.getAttribute("href")?.startsWith("/pais/")
+  );
+  expect(links.length).toBeGreaterThanOrEqual(10);
+});
+it("CountryGrid includes España and México", () => {
+  render(<CountryGrid />);
+  const espana = screen.getAllByRole("link", { name: /España/i });
+  expect(espana[0]).toHaveAttribute("href", "/pais/espana");
+  const mexico = screen.getAllByRole("link", { name: /México/i });
+  expect(mexico[0]).toHaveAttribute("href", "/pais/mexico");
 });
