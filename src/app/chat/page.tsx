@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd }
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
   description:
-    "Más de 200 salas de chat gratis sin registro: por países, ciudades y temáticas. Chatear online con gente, hacer amigos y ligar en español. Acceso instantáneo.",
+    "Más de 200 salas de chat gratis sin registro en español: por países, ciudades y temáticas. Chatea, conoce gente y liga en tiempo real. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
   openGraph: { url: "/chat" },
 };
