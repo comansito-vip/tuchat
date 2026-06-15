@@ -465,7 +465,9 @@ El oro llegó de la mano de Mohamed Katir en los 5.000 metros lisos, una carrera
 
 Las dos platas llegaron en relevos. El equipo masculino de 4x400 firmó la mejor actuación de España en esa prueba en toda la historia, terminando por delante de Gran Bretaña y Jamaica. La plata de las chicas llegó en el 4x100 femenino, donde el equipo español batió su propio récord nacional en semifinales y aguantó hasta la final para llevarse una medalla inesperada.
 
-Los bronces correspondieron a Ana Peleteiro en triple salto, que ganó por segunda vez consecutiva en un Mundial tras el oro de Budapest 2023, y a Álvaro Martín en 20 kilómetros marcha, una prueba donde España ha dominado históricamente y en la que el gallego sigue siendo referencia mundial a sus 32 años.`,
+Los bronces correspondieron a Ana Peleteiro en triple salto, que ganó por segunda vez consecutiva en un Mundial tras el oro de Budapest 2023, y a Álvaro Martín en 20 kilómetros marcha, una prueba donde España ha dominado históricamente y en la que el gallego sigue siendo referencia mundial a sus 32 años.
+
+La euforia en las redes sociales y en los chats deportivos fue inmediata. La sala de deportes de TuChat se convirtió en uno de los espacios de debate más activos durante los días del campeonato, con retransmisiones comentadas por la comunidad y análisis de cada medalla española en tiempo real. La afición expresó con entusiasmo que esta generación de atletas supone el relevo natural de los grandes campeones de los 90 y 2000.`,
   },
 
   {
@@ -499,7 +501,9 @@ En Barcelona, el PSC de Salvador Illa repitió alcaldía con holgada mayoría, c
 
 La participación fue del 62,4%, cuatro puntos por encima de las anteriores municipales, en lo que los analistas interpretan como señal de una mayor polarización y movilización del electorado urbano. Vox perdió representación en la mayoría de las grandes ciudades respecto a 2023, aunque mantuvo presencia significativa en municipios medianos del centro y sur peninsular.
 
-El resultado deja a los partidos ante semanas de negociaciones para constituir gobiernos locales en al menos quince capitales de provincia donde ningún candidato obtuvo mayoría absoluta. Los primeros análisis apuntan a que el tablero municipal resultante reflejará, en miniatura, las mismas tensiones y coaliciones que caracterizan la política nacional, con un PP que gobernará en alianza con Vox en algunas ciudades y con partidos regionalistas en otras.`,
+El resultado deja a los partidos ante semanas de negociaciones para constituir gobiernos locales en al menos quince capitales de provincia donde ningún candidato obtuvo mayoría absoluta. Los primeros análisis apuntan a que el tablero municipal resultante reflejará, en miniatura, las mismas tensiones y coaliciones que caracterizan la política nacional, con un PP que gobernará en alianza con Vox en algunas ciudades y con partidos regionalistas en otras.
+
+Desde la comunidad de chat de TuChat, los usuarios debatieron los resultados en tiempo real durante la noche electoral. Las salas de actualidad y política concentraron miles de mensajes en las horas posteriores al cierre de los colegios electorales, con debates que mezclaron análisis de datos, reacciones emocionales y predicciones sobre los pactos venideros. El chat de España fue el más activo de la noche con diferencia.`,
   },
 
   {
@@ -515,7 +519,9 @@ La carrera en las calles del Principado fue un ejercicio de control y gestión p
 
 El podio lo completó Carlos Sainz con el Ferrari SF-26, que se repuso de un inicio complicado para remontar desde el quinto lugar hasta el tercero en la segunda mitad de la carrera. El español celebró el podio con la afición española concentrada en las tribunas, que acompañó su remontada con una ovación especial en los últimos giros. Fernando Alonso, por su parte, tuvo que abandonar en la vuelta 42 por un problema eléctrico en el Aston Martin cuando marchaba en séptima posición.
 
-Con los resultados del Gran Premio de Mónaco, el panorama del campeonato empieza a perfilarse con claridad: Verstappen comanda con 189 puntos, Norris le sigue con 102, y Sainz ocupa el tercer puesto con 94. Las siguientes pruebas en Montreal y Silverstone, circuitos donde Red Bull históricamente no ha dominado con tanta claridad, serán la primera prueba real de si el dominio neerlandés tiene alguna fisura.`,
+Con los resultados del Gran Premio de Mónaco, el panorama del campeonato empieza a perfilarse con claridad: Verstappen comanda con 189 puntos, Norris le sigue con 102, y Sainz ocupa el tercer puesto con 94. Las siguientes pruebas en Montreal y Silverstone, circuitos donde Red Bull históricamente no ha dominado con tanta claridad, serán la primera prueba real de si el dominio neerlandés tiene alguna fisura.
+
+La comunidad de TuChat siguió la carrera en directo en el chat de deportes y en la sala específica de Fórmula 1. Los debates sobre estrategia de neumáticos, la remontada de Sainz y las posibilidades de que alguien pueda recortar distancias a Verstappen en lo que queda de temporada generaron miles de mensajes durante las dos horas que duró el Gran Premio.`,
   },
 
   {
@@ -547,7 +553,9 @@ La novedad más destacada es la memoria persistente entre conversaciones. GPT-5 
 
 El modelo también incorpora capacidades mejoradas de razonamiento paso a paso, lo que OpenAI llama "chain-of-thought supervisado". Antes de dar una respuesta compleja, el modelo muestra un resumen de los pasos de razonamiento intermedios, lo que permite al usuario detectar errores en la cadena lógica antes de actuar sobre la respuesta final. Esta transparencia fue uno de los principales puntos de demanda de los reguladores europeos en las negociaciones del AI Act.
 
-El lanzamiento llega en un momento de máxima competencia en el sector. Google presentó Gemini Ultra 2 a principios de mayo y Anthropic lleva semanas en proceso de despliegue de Claude 4 Opus. Los analistas coinciden en que GPT-5 recupera para OpenAI el liderazgo técnico en el segmento empresarial, pero advierten que la ventaja puede ser efímera en un sector donde los ciclos de innovación se miden en meses, no en años.`,
+El lanzamiento llega en un momento de máxima competencia en el sector. Google presentó Gemini Ultra 2 a principios de mayo y Anthropic lleva semanas en proceso de despliegue de Claude 4 Opus. Los analistas coinciden en que GPT-5 recupera para OpenAI el liderazgo técnico en el segmento empresarial, pero advierten que la ventaja puede ser efímera en un sector donde los ciclos de innovación se miden en meses, no en años.
+
+En el chat de TuChat, la sala de IA y tecnología registró un pico de actividad notable tras el anuncio. Los usuarios debatieron casos de uso, compararon las capacidades del nuevo modelo con las alternativas disponibles y compartieron primeras impresiones de las pruebas de acceso anticipado. La función de memoria persistente fue el tema más discutido, con opiniones divididas entre los que la valoran como un salto cualitativo en la experiencia y los que expresan reservas sobre privacidad.`,
   },
 
   {

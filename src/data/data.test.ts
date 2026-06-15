@@ -106,10 +106,10 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
-  it("all news article bodies have ≥250 words", () => {
+  it("all news article bodies have ≥300 words", () => {
     const articles = getNews();
     const violations = articles
-      .filter((a) => !a.body || a.body.trim().split(/\s+/).length < 250)
+      .filter((a) => !a.body || a.body.trim().split(/\s+/).length < 300)
       .map((a) => `${a.slug}: ${a.body ? a.body.trim().split(/\s+/).length : 0} words`);
     expect(violations).toEqual([]);
   });
