@@ -4,9 +4,12 @@ import { RoomInfoPanel } from "./RoomInfoPanel";
 import { RelatedRooms } from "./RelatedRooms";
 import { FAQBlock } from "./FAQBlock";
 import { SEOTextBlock } from "./SEOTextBlock";
+import { VoteButton } from "./VoteButton";
 import { getPlace } from "@/data";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
+
+global.fetch = vi.fn().mockResolvedValue({ ok: false } as Response);
 
 it("info panel shows channel and activity", () => {
   render(<RoomInfoPanel place={getPlace("madrid")!} />);
@@ -31,4 +34,14 @@ it("SEOTextBlock renders title and children", () => {
   render(<SEOTextBlock title="Sobre el chat"><p>Texto SEO de prueba.</p></SEOTextBlock>);
   expect(screen.getByRole("heading", { name: "Sobre el chat" })).toBeInTheDocument();
   expect(screen.getByText("Texto SEO de prueba.")).toBeInTheDocument();
+});
+it("VoteButton renders vote count and a button", () => {
+  render(<VoteButton slug="madrid" votes={42} />);
+  expect(screen.getByRole("button")).toBeInTheDocument();
+  expect(screen.getByText("42")).toBeInTheDocument();
+});
+it("VoteButton button is not disabled initially", () => {
+  render(<VoteButton slug="test-room" votes={0} />);
+  const btn = screen.getByRole("button");
+  expect(btn).not.toBeDisabled();
 });
