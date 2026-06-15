@@ -9,4 +9,9 @@ describe("generateNick", () => {
     const set = new Set(Array.from({ length: 20 }, () => generateNick()));
     expect(set.size).toBeGreaterThan(1);
   });
+  it("nick is always ≤20 chars (NickInput maxLength)", () => {
+    for (let i = 0; i < 10; i++) {
+      expect(generateNick().length).toBeLessThanOrEqual(20);
+    }
+  });
 });
