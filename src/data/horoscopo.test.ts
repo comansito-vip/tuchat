@@ -54,4 +54,25 @@ describe("horoscopo data", () => {
       .map((s) => `${s.slug}: personality=${s.personality.length}ch, element=${s.element}, planet=${s.planet}`);
     expect(violations).toEqual([]);
   });
+
+  it("all signs have amor, trabajo and salud ≥150 chars", () => {
+    const violations = getSigns()
+      .filter((s) => s.amor.length < 150 || s.trabajo.length < 150 || s.salud.length < 150)
+      .map((s) => `${s.slug}: amor=${s.amor.length}, trabajo=${s.trabajo.length}, salud=${s.salud.length}`);
+    expect(violations).toEqual([]);
+  });
+
+  it("all signs have at least 3 traits and 2 compatible signs", () => {
+    const violations = getSigns()
+      .filter((s) => s.traits.length < 3 || s.compatible.length < 2)
+      .map((s) => `${s.slug}: traits=${s.traits.length}, compatible=${s.compatible.length}`);
+    expect(violations).toEqual([]);
+  });
+
+  it("all signs have unique slugs and non-empty intro", () => {
+    const slugs = getSigns().map((s) => s.slug);
+    expect(new Set(slugs).size).toBe(slugs.length);
+    const noIntro = getSigns().filter((s) => !s.intro || s.intro.length < 30).map((s) => s.slug);
+    expect(noIntro).toEqual([]);
+  });
 });
