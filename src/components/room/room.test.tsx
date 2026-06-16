@@ -1,5 +1,5 @@
 import { it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { RoomInfoPanel } from "./RoomInfoPanel";
 import { RelatedRooms } from "./RelatedRooms";
 import { FAQBlock } from "./FAQBlock";
@@ -52,6 +52,17 @@ it("VoteButton button is not disabled initially", () => {
   render(<VoteButton slug="test-room" votes={0} />);
   const btn = screen.getByRole("button");
   expect(btn).not.toBeDisabled();
+});
+it("VoteButton increments count and disables after click", async () => {
+  render(<VoteButton slug="test-sala" votes={10} />);
+  const btn = screen.getByRole("button");
+  fireEvent.click(btn);
+  await waitFor(() => {
+    expect(btn).toBeDisabled();
+    expect(btn).toHaveAttribute("aria-pressed", "true");
+  });
+  // Count shows 11 (optimistic +1)
+  expect(screen.getByText("11")).toBeInTheDocument();
 });
 it("RoomHero renders h1 with room name and a NickInput", () => {
   const place = getPlace("madrid")!;
