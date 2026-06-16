@@ -165,7 +165,9 @@ Google, Meta, Anthropic y OpenAI tienen doce meses para adaptarse a las nuevas e
 
 Los defensores de la regulación destacan que Europa vuelve a marcar el paso normativo global, como ya hizo con el RGPD. Los críticos, encabezados por startups de IA del ecosistema francés y alemán, advierten que el coste de cumplimiento puede favorecer a los grandes actores americanos y chinos frente a competidores europeos más pequeños que carecen de recursos legales equivalentes.
 
-El texto entrará en vigor treinta días después de su publicación en el Diario Oficial de la UE, prevista para antes del verano. La Comisión Europea ya ha anunciado la creación de una Oficina de IA con sede en Bruselas que supervisará el cumplimiento del reglamento y centralizará las denuncias de ciudadanos y empresas afectadas.`,
+El texto entrará en vigor treinta días después de su publicación en el Diario Oficial de la UE, prevista para antes del verano. La Comisión Europea ya ha anunciado la creación de una Oficina de IA con sede en Bruselas que supervisará el cumplimiento del reglamento y centralizará las denuncias de ciudadanos y empresas afectadas.
+
+El impacto del reglamento en los usuarios finales tardará en ser visible, pero la industria ya está actuando. Las principales plataformas han comenzado a implementar marcas de agua invisibles en el contenido generado por IA, y varios modelos de lenguaje han actualizado sus términos de servicio para cumplir con las exigencias de transparencia. En la sala de tecnología de TuChat, los debates sobre la regulación de la IA generativa están entre los más activos del año, con usuarios que valoran positivamente el enfoque europeo pero alertan sobre el riesgo de que las empresas emergentes sean las más perjudicadas por la burocracia regulatoria frente a las grandes plataformas, que tienen equipos legales capaces de absorber ese coste.`,
   },
 
   {
@@ -183,7 +185,9 @@ El precio medio por noche ha subido un 14% respecto a 2025. Los hoteleros justif
 
 Barcelona, Málaga y las Islas Baleares han endurecido las restricciones a los pisos turísticos, mientras que varios municipios del interior ofrecen incentivos fiscales para atraer a visitantes que pernocten más de tres noches y dinamicen economías locales en declive demográfico.
 
-El impacto económico del turismo equivaldrá este año al 13,7% del PIB español. El debate sobre la sostenibilidad del modelo sigue abierto: el éxito turístico sin planificación adecuada genera presión sobre el precio de la vivienda, la infraestructura local y la calidad de vida de los residentes en los destinos más concurridos.`,
+El impacto económico del turismo equivaldrá este año al 13,7% del PIB español. El debate sobre la sostenibilidad del modelo sigue abierto: el éxito turístico sin planificación adecuada genera presión sobre el precio de la vivienda, la infraestructura local y la calidad de vida de los residentes en los destinos más concurridos.
+
+En la sala de viajes de TuChat, el tema generó un animado debate que reflejó la dualidad del fenómeno: orgullo por los récords turísticos frente a preocupación por la masificación. Usuarios de Baleares, Canarias y la Costa Brava compartieron sus experiencias de primera mano sobre el impacto del turismo de masas en sus comunidades, mientras que otros defendieron que el turismo sigue siendo el motor económico más importante para muchas familias. La conclusión más repetida: España necesita un pacto nacional que ponga en valor el turismo de calidad sin sacrificar la habitabilidad de sus destinos más populares.`,
   },
 
   {
@@ -201,7 +205,9 @@ Pedri González firmó el tercer gol con una vaselina después de asistir en el 
 
 El próximo rival de España saldrá del Grupo D, donde Portugal, Francia, Hungría y Rumanía dirimen su clasificación. Las apuestas señalan a Portugal como el candidato más probable, lo que abriría la posibilidad de un Clásico ibérico en cuartos con Ronaldo frente a Yamal.
 
-El seleccionador Luis de la Fuente restó importancia al marcador: "Doce puntos, doce goles, cero encajados. Todo eso está muy bien, pero hay que descansar y preparar el siguiente partido como si fuera el más difícil de nuestra vida". España jugará sus cuartos de final en Berlín.`,
+El seleccionador Luis de la Fuente restó importancia al marcador: "Doce puntos, doce goles, cero encajados. Todo eso está muy bien, pero hay que descansar y preparar el siguiente partido como si fuera el más difícil de nuestra vida". España jugará sus cuartos de final en Berlín.
+
+La actuación generó un ambiente de euforia en la comunidad de TuChat que no se veía desde la última Eurocopa. Las salas de deportes y las específicas de fútbol se llenaron de análisis tácticos sobre el sistema de Luis de la Fuente, comparativas de Yamal con los grandes extremos de la historia y debates sobre cuánto puede durar el ciclo de esta selección. El consenso mayoritario: el talento está, la solidez defensiva también y la química entre jugadores jóvenes y veteranos augura un torneo de alto nivel. Si España sigue mostrando este rendimiento, Berlín podría ser el escenario de un nuevo título histórico.`,
   },
 
   {
@@ -237,7 +243,9 @@ La programación latinoamericana fue la más extensa de la historia del festival
 
 El festival trabaja en su expansión más ambiciosa: una edición en Monterrey (México) para febrero de 2027, que se sumará a las ya consolidadas en Buenos Aires y Porto, convirtiendo al Primavera Sound en el primer festival europeo con presencia estable en tres continentes.
 
-El impacto económico de la edición barcelonesa se cifra en 140 millones de euros. El Ayuntamiento renovó el contrato con la organización hasta 2030 a cambio de mantener el 30% de las entradas a un precio máximo de 90 euros, un compromiso de accesibilidad que diferencia al Primavera Sound de otros grandes festivales europeos.`,
+El impacto económico de la edición barcelonesa se cifra en 140 millones de euros. El Ayuntamiento renovó el contrato con la organización hasta 2030 a cambio de mantener el 30% de las entradas a un precio máximo de 90 euros, un compromiso de accesibilidad que diferencia al Primavera Sound de otros grandes festivales europeos.
+
+Más allá de los números, la edición de 2026 marca un punto de inflexión en la vocación global del festival. El anuncio de la edición de Monterrey ha generado un efecto en cadena: otros festivales europeos han acelerado sus propios proyectos de expansión latinoamericana citando al Primavera Sound como modelo. La música en vivo en España mueve ya más de 900 millones de euros anuales, y el Primavera es el emblema de una generación de eventos que han sabido construir marcas globales sin perder su identidad local. Las entradas para la edición barcelonesa de 2027 saldrán a la venta en septiembre, con un cartel que los organizadores prometen "más sorprendente e internacional que nunca".`,
   },
 
   {
@@ -417,7 +425,9 @@ El anuncio más significativo para el mercado hispanohablante es la disponibilid
 
 Los primeros usuarios que han podido probar el dispositivo en los Apple Store destacan la mejora en el sistema de pantallas: el nuevo panel micro-OLED de la segunda generación ofrece el doble de píxeles por pulgada que el anterior y corrige el problema de fatiga ocular que algunos usuarios reportaban tras sesiones largas. El peso también se ha reducido: el Vision Pro 2 pesa 550 gramos frente a los 600 del original, y la nueva correa ha sido rediseñada para distribuir mejor el peso.
 
-El mercado español ha recibido el dispositivo con más optimismo que en el lanzamiento de 2024. Varios factores explican el cambio de actitud: el precio más asequible, la madurez del ecosistema de apps, y el creciente uso del Vision Pro en entornos corporativos, especialmente en sectores como la arquitectura, el diseño industrial y la formación especializada. Empresas como Acciona, Inditex y Mercadona han anunciado proyectos piloto con el nuevo dispositivo para los próximos meses.`,
+El mercado español ha recibido el dispositivo con más optimismo que en el lanzamiento de 2024. Varios factores explican el cambio de actitud: el precio más asequible, la madurez del ecosistema de apps, y el creciente uso del Vision Pro en entornos corporativos, especialmente en sectores como la arquitectura, el diseño industrial y la formación especializada. Empresas como Acciona, Inditex y Mercadona han anunciado proyectos piloto con el nuevo dispositivo para los próximos meses.
+
+La sala de tecnología de TuChat recibió el anuncio con una mezcla de entusiasmo y escepticismo que refleja bien el estado del debate sobre computación espacial en la sociedad española. Los entusiastas de la tecnología destacaron las mejoras en las pantallas y el ecosistema de apps en español; los más críticos señalaron que incluso a 2.999 euros sigue siendo un dispositivo de nicho para la mayoría. El consenso más extendido: el Vision Pro 2 es el primer modelo con posibilidades reales de éxito comercial en España, pero Apple necesitará al menos una tercera generación y un precio por debajo de los 1.500 euros para que la computación espacial deje de ser un lujo y se convierta en una herramienta de trabajo accesible.`,
   },
 
   {
@@ -433,7 +443,9 @@ Los sectores más afectados en España son los servicios financieros, la sanidad
 
 La Agencia Española de Supervisión de Inteligencia Artificial (AESIA), con sede en La Coruña, ha publicado una guía de orientación para pymes que resume los criterios para determinar si un sistema de IA cae dentro de las categorías reguladas y qué pasos deben seguir para cumplir con la norma. Según sus cálculos, alrededor de ocho mil empresas españolas están afectadas en esta primera fase.
 
-Las multas por incumplimiento son significativas: hasta el 3% de la facturación mundial anual para las infracciones graves, y hasta el 6% en casos que impliquen el uso de prácticas de IA prohibidas, como los sistemas de puntuación social al estilo del utilizado en China o la manipulación subliminal de decisiones. Para las pymes, la Agencia ha anunciado que aplicará el principio de proporcionalidad durante los primeros doce meses, priorizando la orientación sobre la sanción.`,
+Las multas por incumplimiento son significativas: hasta el 3% de la facturación mundial anual para las infracciones graves, y hasta el 6% en casos que impliquen el uso de prácticas de IA prohibidas, como los sistemas de puntuación social al estilo del utilizado en China o la manipulación subliminal de decisiones. Para las pymes, la Agencia ha anunciado que aplicará el principio de proporcionalidad durante los primeros doce meses, priorizando la orientación sobre la sanción.
+
+La sala de tecnología de TuChat ha sido uno de los espacios en español donde más activamente se ha debatido el AI Act desde su aprobación. Usuarios de España, México y Argentina han analizado sus implicaciones para empresas latinoamericanas que operan o tienen socios en el mercado europeo. El debate refleja una preocupación compartida: Europa está marcando el paso regulatorio global, y tarde o temprano otras regiones adoptarán marcos similares. Para las empresas hispanoamericanas con ambición de expansión hacia la UE, empezar a documentar sus sistemas de IA y a implementar supervisión humana no es ya una opción a futuro, sino una condición de entrada en el mercado más regulado del mundo.`,
   },
 
   {
@@ -449,7 +461,9 @@ La gira, que lleva el nombre "Eterno" y comenzó en México y Estados Unidos a p
 
 Los organizadores han insistido en que los sistemas anti-reventa implementados —verificación de identidad en la taquilla, nombre del titular en la entrada, y posibilidad de transferencia solo a través de la plataforma oficial— limitarán el impacto de los revendedores. Sin embargo, los datos del mercado secundario muestran que una parte significativa de las entradas ha escapado a esos controles a través de cuentas falsas y compras coordinadas desde múltiples dispositivos.
 
-El regreso de Luis Miguel a España coincide con un momento de renovado interés por la música pop latina de los años 90 entre las generaciones más jóvenes. Sus canciones han acumulado miles de millones de reproducciones en plataformas de streaming durante los últimos tres años, impulsadas en parte por el fenómeno de las series biográficas y los documentales sobre el artista que han introducido su catálogo a oyentes de 20 y 30 años que no le conocían en su etapa de mayor popularidad.`,
+El regreso de Luis Miguel a España coincide con un momento de renovado interés por la música pop latina de los años 90 entre las generaciones más jóvenes. Sus canciones han acumulado miles de millones de reproducciones en plataformas de streaming durante los últimos tres años, impulsadas en parte por el fenómeno de las series biográficas y los documentales sobre el artista que han introducido su catálogo a oyentes de 20 y 30 años que no le conocían en su etapa de mayor popularidad.
+
+Las salas de entretenimiento y música de TuChat registraron un pico de actividad notable tras el anuncio de la gira. La comunidad hispana en España —con una importante representación de mexicanos, argentinos y colombianos— convirtió los conciertos en un tema de conversación que mezcló nostalgia, planes de grupo para acudir a las fechas y debate sobre los precios del mercado secundario de entradas. Para muchos usuarios, la actuación de Luis Miguel en España tiene una dimensión que va más allá del concierto: es la oportunidad de vivir en directo a un artista que en muchas familias hispanohablantes forma parte de la banda sonora de toda una generación.`,
   },
 
   {
@@ -483,7 +497,9 @@ La oferta hotelera de viñedo ha crecido exponencialmente. En 2020 había cuatro
 
 El atractivo va más allá del vino. El Alentejo tiene varias ciudades Patrimonio de la Humanidad en su territorio, Évora entre ellas, y una gastronomía que combina el cerdo negro alentejano, el queso de Serpa, las migas y el bacalhau en preparaciones que sorprenden por su sofisticación dentro de la aparente sencillez. Las temperaturas de verano, eso sí, son un factor a tener en cuenta: en julio y agosto el Alentejo puede superar los 42 grados.
 
-Para los viajeros españoles, el atractivo logístico es innegable. No hay barrera idiomática significativa, el euro es la moneda, y la diferencia de precios con respecto a destinos equivalentes en España sigue siendo favorable, especialmente en restauración. Un menú degustación de alto nivel en Évora cuesta entre 60 y 90 euros; el equivalente en Logroño o Peñafiel difícilmente baja de los 100.`,
+Para los viajeros españoles, el atractivo logístico es innegable. No hay barrera idiomática significativa, el euro es la moneda, y la diferencia de precios con respecto a destinos equivalentes en España sigue siendo favorable, especialmente en restauración. Un menú degustación de alto nivel en Évora cuesta entre 60 y 90 euros; el equivalente en Logroño o Peñafiel difícilmente baja de los 100.
+
+La sala de viajes de TuChat ha sido un espacio donde el Alentejo lleva meses ganando adeptos entre usuarios que buscan alternativas al turismo de masas. Los que ya han visitado la región comparten recomendaciones de bodegas, rutas de senderismo por el Parque Natural de Serra de São Mamede y consejos para los mejores momentos para ir. El consenso: mayo y junio, antes de los grandes calores, son los meses óptimos. En septiembre, durante la vendimia, la región vive su momento más fotogénico y la mayoría de bodegas abren sus puertas a visitantes para los rituales de la recogida de la uva.`,
   },
 
   // ── Artículos mayo 2026 ──────────────────────────────────────────────────
@@ -537,7 +553,9 @@ El asistente puede, entre otras cosas, analizar una fotografía y generar un tex
 
 La presentación española estuvo protagonizada por casos de uso cotidianos: traducción automática en visitas al médico para pacientes que no hablan español, asistencia en tiempo real para personas con discapacidad visual, y herramientas de productividad para autónomos y pequeñas empresas. La empresa coreana apunta especialmente al segmento profesional, donde compite directamente con Apple Business y los servicios Microsoft 365 Copilot.
 
-El mercado de smartphones en España vive un momento de transición. Las ventas de gama alta crecieron un 14% en el primer trimestre de 2026, impulsadas precisamente por las funciones de IA como argumento de actualización. Samsung mantiene el liderazgo en cuota de mercado con un 31%, pero Apple ha ganado cuatro puntos en el último año hasta situarse en el 28%, lo que convierte este despliegue de Galaxy AI 3.0 en una respuesta directa a la estrategia de Apple Intelligence anunciada en la WWDC.`,
+El mercado de smartphones en España vive un momento de transición. Las ventas de gama alta crecieron un 14% en el primer trimestre de 2026, impulsadas precisamente por las funciones de IA como argumento de actualización. Samsung mantiene el liderazgo en cuota de mercado con un 31%, pero Apple ha ganado cuatro puntos en el último año hasta situarse en el 28%, lo que convierte este despliegue de Galaxy AI 3.0 en una respuesta directa a la estrategia de Apple Intelligence anunciada en la WWDC.
+
+La sala de tecnología de TuChat fue uno de los primeros foros en español donde se debatieron las implicaciones prácticas de Galaxy AI 3.0. Miles de usuarios compartieron primeras pruebas de las funciones de traducción simultánea, analizaron el rendimiento del chip Exynos 2500 en tareas de IA local y discutieron las implicaciones de privacidad del nuevo sistema. Los profesionales autónomos y las pymes mostraron especial interés por las herramientas de productividad: resumen automático de reuniones, redacción asistida de correos y análisis de documentos directamente en el dispositivo. Samsung también ha anunciado que su equipo de desarrollo en Madrid reforzará la integración con aplicaciones locales durante los próximos meses, apuntando a convertir España en laboratorio piloto de funciones de Galaxy AI específicas para mercados de habla hispana.`,
   },
 
   {
@@ -571,7 +589,9 @@ Israel Galván protagonizó el momento más comentado del festival con una actua
 
 El festival también acogió homenajes a figuras históricas como Camarón de la Isla, en el 35 aniversario de su muerte, con un espectáculo en el que participaron artistas de tres generaciones. La actuación de Arcángel, Estrella Morente y El Pele juntos en el escenario fue calificada por la crítica especializada como "el momento cumbre del flamenco en lo que llevamos de siglo".
 
-El impacto económico de la Bienal en Sevilla se cifra en más de 45 millones de euros según la Junta de Andalucía, con un efecto tractor sobre el turismo cultural que se extiende más allá del propio festival. Hoteles, restaurantes y el comercio del centro histórico reportaron una ocupación media del 94% durante las semanas del evento, datos récord para un período que habitualmente marca el inicio de la temporada alta sevillana.`,
+El impacto económico de la Bienal en Sevilla se cifra en más de 45 millones de euros según la Junta de Andalucía, con un efecto tractor sobre el turismo cultural que se extiende más allá del propio festival. Hoteles, restaurantes y el comercio del centro histórico reportaron una ocupación media del 94% durante las semanas del evento, datos récord para un período que habitualmente marca el inicio de la temporada alta sevillana.
+
+La proyección internacional del flamenco fue también una de las notas dominantes de esta edición. Según los datos de la organización, el 29% de los asistentes procedían del extranjero, con especial presencia de japoneses, estadounidenses, franceses y argentinos que viajaron expresamente para el festival. La Bienal se confirma como la cita mundial más relevante de una expresión artística que la UNESCO reconoció como Patrimonio Inmaterial de la Humanidad en 2010. La próxima edición, en 2028, coincidirá con el centenario de la muerte de Federico García Lorca y la organización trabaja ya en una programación homenaje que cruzará flamenco, poesía y teatro en los mismos escenarios donde el poeta granadino imaginó su obra.`,
   },
 
   {
@@ -587,7 +607,9 @@ Las Azores recibieron 1,8 millones de turistas en 2025, cifra que duplica la de 
 
 La tasa turística, de 10 euros por persona y visita para los mayores de 16 años, generará ingresos estimados de 18 millones de euros anuales que se destinarán íntegramente a la conservación del patrimonio natural y a la mejora de las infraestructuras de los núcleos rurales del interior de las islas. Los residentes de las Azores estarán exentos del pago, así como los niños menores de 16 años y los turistas que visiten las islas por segunda vez en el mismo año.
 
-Para los viajeros españoles, las Azores son un destino de creciente popularidad. El número de vuelos directos desde España se duplicó entre 2022 y 2025, y la presencia española en el archipiélago alcanza ya el 12% del total de visitantes. Los operadores turísticos españoles especializados en turismo de naturaleza reconocen que la medida puede encarecer el destino pero confían en que también lo diferencie positivamente en un mercado donde los viajeros más conscientes valoran activamente las garantías de sostenibilidad.`,
+Para los viajeros españoles, las Azores son un destino de creciente popularidad. El número de vuelos directos desde España se duplicó entre 2022 y 2025, y la presencia española en el archipiélago alcanza ya el 12% del total de visitantes. Los operadores turísticos españoles especializados en turismo de naturaleza reconocen que la medida puede encarecer el destino pero confían en que también lo diferencie positivamente en un mercado donde los viajeros más conscientes valoran activamente las garantías de sostenibilidad.
+
+La sala de viajes de TuChat refleja el creciente interés hispanohablante por las Azores. Usuarios de España, México y Argentina que ya han visitado el archipiélago comparten itinerarios, recomendaciones de alojamiento en casas de turismo rural y consejos para aprovechar al máximo cada isla. La naturaleza volcánica del archipiélago —fumarolas, lagunas de colores, calderas y el pico del volcán Pico que alcanza los 2.351 metros— es el principal argumento, pero también lo son la tranquilidad, la ausencia de masificación en los puntos interiores y una gastronomía que sorprende por la frescura del pescado y la calidad del queso ilha. Un destino que muchos usuarios describen como "Portugal sin turistas".`,
   },
 
   {
@@ -603,7 +625,9 @@ Los datos que justifican el plan son elocuentes. Un informe publicado por el Min
 
 El plan contempla también la creación de 200 unidades de salud mental infanto-juvenil, una especialidad donde el déficit es especialmente crítico. Los pediatras de atención primaria llevan años denunciando que los tiempos de espera para derivaciones psiquiátricas en menores pueden superar el año en comunidades como Madrid, Andalucía y la Comunidad Valenciana, lo que convierte en urgente una intervención que ya debería haberse producido hace lustros.
 
-La formación de los nuevos profesionales es otro de los desafíos del plan. España forma actualmente unos 400 psicólogos clínicos al año a través del sistema PIR, una cifra muy inferior a las nuevas plazas previstas. El plan contempla un aumento del 60% en el número de plazas PIR en el horizonte 2026-2028 y la homologación acelerada de títulos para profesionales procedentes de otros países de la Unión Europea.`,
+La formación de los nuevos profesionales es otro de los desafíos del plan. España forma actualmente unos 400 psicólogos clínicos al año a través del sistema PIR, una cifra muy inferior a las nuevas plazas previstas. El plan contempla un aumento del 60% en el número de plazas PIR en el horizonte 2026-2028 y la homologación acelerada de títulos para profesionales procedentes de otros países de la Unión Europea.
+
+La acogida en la comunidad de TuChat ha reflejado el estado de ánimo social. La sala de salud y bienestar del portal registra con regularidad debates sobre ansiedad, acceso a terapia y el difícil equilibrio entre presiones laborales y salud mental, evidenciando que se trata de una conversación que ya no se produce en voz baja. Los expertos coinciden: sin una respuesta institucional a la altura, la brecha entre la demanda creciente de atención psicológica y una oferta pública insuficiente solo puede agrandarse en los próximos años.`,
   },
 
   {
@@ -619,7 +643,9 @@ El precio medio del alquiler en España alcanzó en abril de 2026 los 1.182 euro
 
 Los críticos del bono señalan que la medida, sin ir acompañada de un aumento de la oferta de vivienda asequible, puede generar un efecto inflacionario al inyectar más demanda solvente en un mercado ya tensionado. El Banco de España ha advertido en varias ocasiones que las subvenciones a la demanda pueden contribuir a elevar los precios en los mercados con escasez estructural de oferta, algo que ocurre en las principales ciudades españolas desde hace más de una década.
 
-El ministro de Vivienda defendió la medida señalando que es complementaria al plan de construcción de 100.000 viviendas en suelo público aprobado el año anterior y a las modificaciones en la Ley de Arrendamientos Urbanos que entrarán en vigor en septiembre. La oposición calificó la ampliación del bono de "parche electoral" y reclamó medidas estructurales de mayor calado.`,
+El ministro de Vivienda defendió la medida señalando que es complementaria al plan de construcción de 100.000 viviendas en suelo público aprobado el año anterior y a las modificaciones en la Ley de Arrendamientos Urbanos que entrarán en vigor en septiembre. La oposición calificó la ampliación del bono de "parche electoral" y reclamó medidas estructurales de mayor calado.
+
+La comunidad de TuChat ha sido uno de los espacios donde con más claridad se ha debatido el problema del acceso a la vivienda entre los jóvenes. En las salas de actualidad y economía, los usuarios comparten regularmente experiencias sobre la imposibilidad de independizarse, los precios del alquiler en sus ciudades y las estrategias para ahorrar en un mercado desbocado. Para la mayoría de los participantes en esos debates, el bono es una ayuda bienvenida pero insuficiente: lo que hace falta, señalan, es un cambio estructural que permita a los jóvenes acceder a la vivienda sin hipotecar el 60% o más de sus ingresos mensuales.`,
   },
 
   {
@@ -635,7 +661,9 @@ El concierto de cierre de gira en el Estadio Monumental de Buenos Aires, con cap
 
 El impacto económico de la gira en los países visitados ha sido notable. Según datos de la promotora Live Nation, cada fecha de la gira generó un impacto económico local de entre 8 y 15 millones de euros en concepto de hostelería, transporte y comercio, con un efecto multiplicador especialmente visible en las ciudades medianas donde actuó en recintos de entre 15.000 y 20.000 aforos.
 
-En el plano artístico, la gira sirvió también para presentar en vivo los primeros temas de su próximo álbum, aún sin título oficial, que la propia Rosalía describió en una entrevista como "más personal y más íntimo" que sus trabajos anteriores. Los adelantos, grabados por fans y viralizados en redes sociales, apuntan a una dirección más acústica y menos electrónica que MOTOMAMI, lo que ha generado tanto expectativa como debate entre su base de seguidores.`,
+En el plano artístico, la gira sirvió también para presentar en vivo los primeros temas de su próximo álbum, aún sin título oficial, que la propia Rosalía describió en una entrevista como "más personal y más íntimo" que sus trabajos anteriores. Los adelantos, grabados por fans y viralizados en redes sociales, apuntan a una dirección más acústica y menos electrónica que MOTOMAMI, lo que ha generado tanto expectativa como debate entre su base de seguidores.
+
+Para la comunidad hispanohablante de TuChat, la gira de Rosalía fue uno de los eventos más comentados del año en las salas de música y entretenimiento. Los usuarios compartieron vídeos de los conciertos en tiempo real, debatieron las colaboraciones sorpresa que protagonizaron varias noches y anticiparon con entusiasmo los adelantos del nuevo álbum. La gira puso de manifiesto el apetito global por la música en español: en las ciudades latinoamericanas donde actuó, la artista llenó recintos normalmente reservados a las grandes estrellas del pop anglosajón, una señal de que el mercado de la música en castellano ha alcanzado una dimensión que hace apenas una década habría parecido imposible.`,
   },
 
 ];
