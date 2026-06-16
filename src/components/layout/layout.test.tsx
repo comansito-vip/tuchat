@@ -6,6 +6,7 @@ import { Footer } from "./Footer";
 import { ScaffoldPage } from "./ScaffoldPage";
 import { MobileBottomNav } from "./MobileBottomNav";
 import { MobileMenu } from "./MobileMenu";
+import { JsonLd } from "@/lib/seo";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 
@@ -71,5 +72,32 @@ describe("layout", () => {
     const closeButtons = screen.getAllByRole("button", { name: /Cerrar menú/i });
     fireEvent.click(closeButtons[closeButtons.length - 1]); // inner close button
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
+});
+
+describe("JsonLd", () => {
+  it("renders a script tag with type application/ld+json", () => {
+    const { container } = render(<JsonLd data={{ "@type": "WebSite", name: "TuChat" }} />);
+    const script = container.querySelector("script[type='application/ld+json']");
+    expect(script).toBeInTheDocument();
+  });
+
+  it("serializes the data object as JSON in the script innerHTML", () => {
+    const data = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [] };
+    const { container } = render(<JsonLd data={data} />);
+    const script = container.querySelector("script[type='application/ld+json']")!;
+    const parsed = JSON.parse(script.innerHTML);
+    expect(parsed["@type"]).toBe("FAQPage");
+    expect(parsed["@context"]).toBe("https://schema.org");
+  });
+
+  it("Breadcrumbs embeds JSON-LD script with BreadcrumbList type", () => {
+    const { container } = render(
+      <Breadcrumbs crumbs={[{ name: "Inicio", url: "/" }, { name: "Chat", url: "/chat" }]} />
+    );
+    const script = container.querySelector("script[type='application/ld+json']")!;
+    const parsed = JSON.parse(script.innerHTML);
+    expect(parsed["@type"]).toBe("BreadcrumbList");
+    expect(parsed.itemListElement).toHaveLength(2);
   });
 });

@@ -21,7 +21,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El chat de Cancún junta a gente de la Zona Hotelera y del centro, entre locales chambeadores y quienes llegaron del sureste a buscar chamba.",
     about:
-      "Más allá de los all inclusive, Cancún tiene su lado real: las Regiones donde vive la raza que trabaja en hoteles, los cenotes a media hora y la combi al centro. Aquí se junta gente venida de Chiapas, Tabasco y Yucatán, así que se oye desde el maya hasta el “uay” yucateco. Se habla de turnos en la Zona Hotelera, del calor pegajoso y de escaparse a Holbox. Sala con mucho flujo de recién llegados.",
+      "Más allá de los all inclusive, Cancún tiene su lado real: las Regiones donde vive la raza que trabaja en hoteles, los cenotes a media hora y la combi al centro. Aquí se junta gente venida de Chiapas, Tabasco y Yucatán, así que se oye desde el maya hasta el \'uay\' yucateco. Se habla de turnos en la Zona Hotelera, del calor pegajoso y de escaparse a Holbox. Sala con mucho flujo de recién llegados.",
   },
   {
     slug: "san-jose-costa-rica",
@@ -38,7 +38,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El chat de San José reúne a ticos del área metropolitana: del centro chepe a Escazú y Heredia, para charlar y conocer gente.",
     about:
-      "Los josefinos le dicen Chepe a su ciudad y se mueven entre el Mercado Central, el Teatro Nacional y las presas eternas de la General Cañas. Se habla del gallo pinto en el desayuno, del cafecito a las tres, de irse a la playa el finde y del “pura vida” para todo. Gente pacífica y educada, con su “mae” en cada frase y esa calma tica. Sala relajada, fiel a su gente.",
+      "Los josefinos le dicen Chepe a su ciudad y se mueven entre el Mercado Central con sus tiendas de todo, el Teatro Nacional neoclásico y las presas eternas de la General Cañas para llegar a Escazú o Heredia. Se habla del gallo pinto del desayuno con Lizano, del cafecito a las tres de la tarde, de irse al Pacífico o al Caribe el finde y del pura vida que sirve para todo. Gente pacífica, muy educada, con su mae en cada frase, y esa calma tica que no entiende las prisas. Sala tranquila, sin drama y fiel a su carácter.",
   },
 
   {
@@ -56,7 +56,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Feliz, los alfajores Havanna y el olor a mar de la peatonal San Martín. En verano se llena, pero el chat no para en todo el año.",
     about:
-      "El chat de Mar del Plata mezcla a los marplatenses de toda la vida con los porteños que bajan en enero a la playa Bristol y a la rambla. Se habla de churros en la costa, de los lobos marinos del puerto, de pescar en la escollera y de bancarse el viento que nunca falta. También de Aldosivi y del frío de invierno cuando la ciudad se queda vacía y se vuelve de los locales.",
+      "El chat de Mar del Plata mezcla a los marplatenses de toda la vida —que no aguantan a los turistas de enero— con los porteños que bajan a la Bristol y a la rambla del Casino. Se habla de churros con dulce de leche, de los lobos marinos del Puerto tomando sol en los muelles, de pescar en la escollera norte con frío y de bancarse el viento que nunca para. Sale también el Aldosivi, los alfajores Havanna como souvenir obligado y ese frío seco de julio cuando La Feliz se queda vacía y vuelve a ser de los locales que la prefieren así.",
   },
   {
     slug: "santa-cruz-bolivia",
@@ -159,7 +159,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Ciudad Real para conocer manchegos: tierra de Don Quijote, queso manchego y vino de Valdepeñas a un paso.",
     about:
-      "El chat de Ciudad Real respira tierra de Don Quijote, con la Puerta de Toledo en pie y el AVE que la dejó a una hora de Madrid. Se habla de la Pandorga en agosto en honor a la Virgen del Prado, del queso manchego, el pisto y el vino de Valdepeñas cerca. Manchegos de carácter franco, acostumbrados al calor del verano y a las llanuras de viñas y molinos que rodean la capital.",
+      "El chat de Ciudad Real respira tierra de Don Quijote, con la Puerta de Toledo medievalen pie y el AVE que la dejó a 50 minutos de Madrid y transformó la ciudad. Se habla de la Pandorga en agosto cuando se celebra a la Virgen del Prado con queso, pan y vino manchego para todos, del pisto que aquí se come con todo, de los Pozos de Calatrava y del vino de Valdepeñas que se cria a un paso. Manchegos de carácter franco y directo, acostumbrados al calor extremo del verano con 40 grados y a las llanuras de viñas y molinos de viento que Cervantes inmortalizó.",
   },
   {
     slug: "huelva",
@@ -295,7 +295,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Pontevedra: el casco viejo peatonal más bonito de Galicia, el albariño de las Rías Baixas y las Cíes a un paso.",
     about:
-      "El chat de Pontevedra habla de su casco viejo peatonal, modelo de ciudad para caminar, con la plaza da Leña y la Peregrina de planta de vieira. Salen la Festa da Auga en agosto, el mejillón y el albariño de las Rías Baixas, las Illas Cíes a un paso y la ría de fondo. Pontevedreses cómodos paseando, de buen marisco y vino blanco, con clima suave y mucho verde gallego alrededor.",
+      "El chat de Pontevedra habla de su casco viejo peatonal —modelo de movilidad urbana estudiado en todo el mundo— con la plaza da Leña y la basílica de la Peregrina de planta de vieira. Salen la Festa da Auga en agosto donde todo el mundo acaba empapado, el mejillón de bateas de las Rías Baixas, el albariño frío de Cambados, las Illas Cíes que son Parque Nacional y la ría mirando siempre al fondo. Pontevedreses cómodos paseando sin coche, de buen marisco y vino blanco frío, con clima atlántico suave y un verde gallego que no se cansa nunca.",
   },
   {
     slug: "segovia",
@@ -347,7 +347,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Del andador 5 de Mayo a la cúpula de Santa Rosa de Viterbo, los queretanos presumen una ciudad chiquita que crece rápido y una sala con harta plática.",
     about:
-      "El chat de Querétaro junta a los de toda la vida del Centro Histórico con los recién llegados que trabajan en el Bajío. Aquí se habla de las enchiladas queretanas, de las gorditas de migajas, de los acueductos y de si Juriquilla ya es mejor zona que el Centro. Banda tranquila, con su acento cantadito y mucha hospitalidad provinciana.",
+      "El chat de Querétaro junta a los queretanos de toda la vida del Centro Histórico Patrimonio UNESCO con los recién llegados que trabajan en el corredor industrial del Bajío. Aquí se habla de las enchiladas mineras con su nopales y zanahoria, de las gorditas de migajas del mercado, del andador Libertad en domingo y de si Juriquilla y El Marqués ya le comieron el mandado al Centro. Banda tranquila, con acento cantadito, mucha hospitalidad provinciana y ese orgullo queretano que se nota en cuanto abren la boca.",
   },
   {
     slug: "toluca",
@@ -364,7 +364,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La ciudad más fría de México, la del chorizo verde y los Diablos Rojos: los toluqueños aguantan el clima del Nevado y calientan el chat con buena plática.",
     about:
-      "En la sala de Toluca se juntan los que cruzan diario a la CDMX por la México-Toluca y los que defienden quedarse en el valle. Se habla del chorizo verde, de las tortas de Metepec, del Deportivo Toluca y del friito que pega de madrugada bajo el Nevado. Gente del Edomex, directa y con sentido del humor.",
+      "En la sala de Toluca se juntan los que cruzan diario a la CDMX por la autopista México-Toluca y los que defienden quedarse en el valle. Se habla del chorizo verde que no existe en ningún otro lado, de las tortas de Metepec, del Portales y de los Diablos Rojos cuando llegan a la liguilla. La gente del Edomex es directa, sarcástica y muy del taco de canasta tempranero antes de agarrar el trabajo. El friito del Nevado de Toluca obliga a traer chamarra en pleno verano y eso los hace únicos.",
   },
   {
     slug: "merida-mexico",
@@ -380,9 +380,9 @@ export const CITIES_WORLD: Place[] = [
     channels: ["merida-mexico", "mexico", "amistad", "chatzona"],
     related: ["cancun", "ciudad-de-mexico", "mexico", "cocina", "amistad", "amor"],
     intro:
-      "La Ciudad Blanca, el calorón yucateco y la cochinita pibil de los domingos: los meridanos te reciben con un “mare” y la calma del sureste.",
+      "La Ciudad Blanca, el calorón yucateco y la cochinita pibil de los domingos: los meridanos te reciben con un mare y la calma del sureste.",
     about:
-      "El chat de Mérida huele a recado rojo y a marquesitas del parque. Aquí platican de la tranquilidad que envidia todo el país, del bochorno que no perdona, de los huipiles y del fin de semana en Progreso. Se cuela alguna palabra en maya, se presume el Paseo de Montejo y se debate si los panuchos le ganan a los salbutes. Gente noble y muy su tierra.",
+      "El chat de Mérida huele a recado rojo y a marquesitas del Parque de Santa Lucía. Aquí platican de la tranquilidad que envidia todo el país, del bochorno que en junio llega a 40 grados, del sac-nic y el poc chuc, de los huipiles bordados y del fin de semana en Progreso con fresh coconut. Se cuela alguna palabra en maya —ts'u', le dan— se presume el Paseo de Montejo y se debate eternamente si los panuchos le ganan a los salbutes. Gente noble, muy su tierra y con un orgullo yucateco que no se negocia.",
   },
   {
     slug: "tucuman",
@@ -399,7 +399,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El Jardín de la República, la cuna de la Independencia y las empanadas tucumanas más defendidas del norte: acá el chat se prende con tonada cantora.",
     about:
-      "En la sala de Tucumán se juntan los del centro, los de Yerba Buena y los que bajan del cerro San Javier. Se habla de las empanadas fritas, del sánguche de milanesa, del azúcar y los ingenios, y de la Casa Histórica donde se declaró la Independencia. Tonada bien norteña, calor pegajoso y gente cálida que no para de charlar.",
+      "En la sala de Tucumán se juntan los del microcentro, los de Yerba Buena y Villa Alem, y los que bajan del cerro San Javier en colectivo. Se habla de las empanadas fritas con grasa —que son las buenas, no las al horno— del sánguche de milanesa con papas fritas, del azúcar y los ingenios que hicieron rica a la provincia, y de la Casa Histórica donde en 1816 se firmó la Independencia argentina. Tonada bien norteña, calor húmedo que agota en diciembre y enero, y una gente cálida que no para de charlar con el primer desconocido que se cruce.",
   },
   {
     slug: "salta",
@@ -417,7 +417,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Salta la Linda, las peñas hasta el amanecer y las empanadas salteñas que arman pelea con las tucumanas: una sala con folklore y hospitalidad norteña.",
     about:
-      "El chat de Salta se arma entre los del casco colonial, los amantes de las peñas de Balcarce y los que viajan al Tren a las Nubes o a Cafayate. Se habla de las empanadas jugosas, del vino torrontés, de las iglesias coloniales y del Cerro San Bernardo. Tonada cantora, coplas, mucha tradición y una calidez que enamora a todo el que pasa.",
+      "El chat de Salta se arma entre los del casco colonial Patrimonio Nacional, los amantes de las peñas de la calle Balcarce con zambas y coplas, y los que viajan al Tren a las Nubes o a Cafayate a comprar torrontés. Se habla de las empanadas salteñas jugosas con papa y aceituna —que son otro deporte—, del vino torrontés que se bebe fresquito, de las iglesias coloniales de San Francisco y del Cerro San Bernardo con su teleférico. Gente de tonada cantora, muy hospitalaria y orgullosa de vivir en la ciudad más bella del norte.",
   },
   {
     slug: "bucaramanga",
@@ -434,7 +434,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Ciudad Bonita, sus parques arborizados y las hormigas culonas que solo los santandereanos se atreven a comer: aquí el chat es franco y sin rodeos.",
     about:
-      "En la sala de Bucaramanga se juntan los del centro, los de Cabecera y los que suben a Floridablanca o Girón. Se habla de las hormigas culonas de temporada, del cabrito santandereano, de la arepa de maíz pelao y del carácter directo y echao pa’lante de la gente. Calor de valle, parques bonitos y una hospitalidad que sorprende al visitante.",
+      "En la sala de Bucaramanga se juntan los del centro, los de Cabecera del Llano, los de Floridablanca y los de Girón con su casco histórico colonial. Se habla de las hormigas culonas de temporada santa —manjar que divides a Colombia en dos bandos— del cabrito asado santandereano, de la arepa de maíz pelao con queso y del mute de maíz del domingo. El bumangués es directo y sin filtros, echao pa'lante y muy trabajador. Calor de valle, parques bien arborizados, la moto como reina del tránsito y una hospitalidad que sorprende a todo turista.",
   },
   {
     slug: "pereira",
@@ -452,7 +452,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Corazón del Eje Cafetero, la Querendona, Trasnochadora y Morena: los pereiranos tienen fama de rumberos y en el chat lo demuestran sin pena.",
     about:
-      "La sala de Pereira respira café y paisaje cultural cafetero. Acá se habla del Viaducto César Gaviria, de los fines de semana en el Quindío, del clima perfecto y de la rumba que aguanta hasta el amanecer. Gente paisa-pereirana, abierta y coqueta, que recibe al forastero con un tinto y mucha conversa. El acento cantado y la calidez son la marca de la casa.",
+      "La sala de Pereira respira café, fique y paisaje cultural cafetero. Acá se habla del Viaducto César Gaviria Trujillo que cruza el cañón del río Otún, de los fines de semana en el Quindío o en el parque de Los Nevados, del clima cafetero de 20 grados todo el año y de la rumba en la Zona Rosa que aguanta hasta el amanecer. Gente paisa-pereirana, muy abierta y coqueta, que recibe al forastero con un tinto cargado y mucha conversa. El acento cantado del Eje Cafetero y esa calidez generosa son la marca que te hace querer volver.",
   },
   {
     slug: "chiclayo",
@@ -469,7 +469,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Ciudad de la Amistad, el arroz con pato y el King Kong de manjar blanco: los chiclayanos del norte llegan al chat con sazón y buena onda.",
     about:
-      "El chat de Chiclayo junta a los del Mercado Modelo, los que veranean en Pimentel y los orgullosos del Señor de Sipán. Se habla del arroz con pato a la chiclayana, del ceviche norteño bien picante, del King Kong y de la chicha de jora. Calor costeño, gente cálida que hace honor a su apodo y un acento norteño que se reconoce al toque.",
+      "El chat de Chiclayo junta a los del Mercado Modelo con su bullicio mañanero, los que veranean en Pimentel o Santa Rosa, y los orgullosos del Señor de Sipán que desafía a Tutankamón. Se habla del arroz con pato a la chiclayana con culantro auténtico, del ceviche norteño bien picante con ají limo, del King Kong de manjar blanco que llevan a toda Lima, y de la chicha de jora que se consigue en las picanterías. Calor costeño todo el año, gente que hace honor a su apodo de Ciudad de la Amistad, y un acento norteño cantadito que se reconoce al toque.",
   },
   {
     slug: "piura",
@@ -486,7 +486,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Ciudad del Eterno Calor, el ceviche de mero y las playas de Máncora a un paso: los piuranos hablan cantadito y reciben con calor de verdad.",
     about:
-      "En la sala de Piura se juntan los del centro junto al río, los que escapan a Colán o Máncora y los amantes del seco de chabelo. Se habla del calorón que no baja ni de noche, del ceviche norteño, del algarrobina y del majado de yuca. Acento norteño marcado, gente franca y alegre, y un sol que parece no apagarse nunca sobre el desierto piurano.",
+      "En la sala de Piura se juntan los del centro histórico junto al río Piura, los que escapan a Colán, Máncora o Los Órganos en verano, y los amantes del seco de chabelo con yuca cocida. Se habla del calorón que llega a 38 grados y no baja ni de noche, del ceviche piurano con mero y ají amarillo, de la algarrobina en el pisco sour y del majado de yuca con chicharrón. El acento norteño es marcado y musical, la gente es franca y alegre, y ese sol sin piedad sobre el desierto de Sechura forma un carácter que mezcla paciencia tropical con mucha marcha.",
   },
   {
     slug: "antofagasta",
@@ -503,7 +503,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Perla del Norte, el desierto más árido del mundo pegado al mar y la minería que mueve todo: los antofagastinos arman un chat con harto carácter nortino.",
     about:
-      "La sala de Antofagasta junta a los mineros del cobre, los que pasean por el balneario y los que viven entre el desierto y el Pacífico. Se habla de La Portada, del calor seco de día y el frío de noche, del sueldo minero y de los completos a la salida del turno. Modismos chilenos a full, weón va y weón viene, y un orgullo nortino que no se discute.",
+      "La sala de Antofagasta junta a los mineros del cobre de Escondida y Chuquicamata, los que pasean por La Chimba o el barrio histórico, y los que viven entre el desierto de Atacama y el Pacífico sin ver una gota de lluvia en años. Se habla de La Portada como postal nortina obligada, del calor seco de día y el frío que pega de noche, del sueldo minero que mueve la economía y de los completos italianos a la salida del turno. Modismos nortinos a full —la wea, el bacán— y ese orgullo nortino de sostener a Chile que no se discute con nadie.",
   },
   {
     slug: "temuco",
@@ -521,6 +521,6 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Capital de La Araucanía, la lluvia que no afloja y el corazón de la cultura mapuche: en Temuco el chat tiene sello sureño y mucha raíz.",
     about:
-      "En la sala de Temuco se juntan los del centro, los de la Universidad de La Frontera y los que se escapan al lago Villarrica o a Pucón. Se habla del mote con huesillo, del muday y el merkén, de la feria Pinto y de la herencia mapuche que marca la zona. Llueve harto, hace frío sureño y la gente es más callada pero leal, con su weón sureño bien puesto.",
+      "En la sala de Temuco se juntan los del centro, los estudiantes de la Universidad de La Frontera, los profesores de la Católica de Temuco y los que se escapan al lago Villarrica o a Pucón a ver el volcán. Se habla del mote con huesillo de verano, del muday en la Feria Pinto, del merkén que va con todo, y de la herencia mapuche que marca la gastronomía y la cosmovisión de La Araucanía. Llueve muchos días al año, hace frío sureño de verdad y la gente es más callada y reservada que en el norte, pero leal a morir cuando te gana la confianza.",
   },
 ];

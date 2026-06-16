@@ -298,7 +298,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Murcia para hablar con gente de la huerta, quedar para unas marineras en Santa Catalina o comentar las Fiestas de Primavera.",
     about:
-      "El chat de Murcia junta a peña de la capital y de toda la huerta: del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Aquí se habla en panocho cuando apetece, se discute si el zarangollo lleva patata o no, y se queda para el Bando de la Huerta o para tomar cerveza fresquita cuando aprieta el calor. Una sala campechana, con guasa y poco postureo.",
+      "El chat de Murcia junta a peña de la capital y de toda la huerta: del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Aquí se habla en panocho cuando apetece, se discute si el zarangollo lleva patata o no, se debate el pastél de carne del Pasaje Lodares y se queda para el Bando de la Huerta, la Batalla de las Flores y para tomar un café con hielo cuando aprieta el calor extremeño. Una sala campechana, con guasa murciana, poco postureo y ese orgullo de estar entre el mar y la montaña en uno de los huertos más productivos de Europa.",
   },
   {
     slug: "valladolid",
@@ -315,7 +315,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Valladolid para charlar con pucelanos, organizar un tardeo de vinos por la Antigua o comentar la Semana Santa más sobria de Castilla.",
     about:
-      "El chat de Valladolid junta gente del Campo Grande, Las Delicias y Parquesol. Se habla del tardeo de vinos por la zona de la Antigua, de la Semana Santa con sus procesiones a oscuras y sin música, del Real Valladolid y de ese orgullo pucelano entre castellano y cosmopolita. Ciudad universitaria y capitalina, tranquila pero con bares que dan para largas noches de conversación.",
+      "El chat de Valladolid junta gente del Campo Grande con sus pavos reales, de Las Delicias, Parquesol y los barrios universitarios de la zona del Pisuerga. Se habla del tardeo de vinos y pinchos por la zona de la Antigua y la calle Platerías, de la Semana Santa con sus procesiones a oscuras y sin música que es declarada de Interés Turístico Internacional, del Pucela cuando sube de categoría y de ese orgullo pucelano mezcla de castellanía y ciudad moderna con buen tapeo. Tranquila el resto del año pero con vida nocturna sorprendente.",
   },
   {
     slug: "cordoba",
@@ -332,7 +332,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Córdoba: conoce gente entre patios floridos, habla de la Mezquita o queda a tomar salmorejo cuando el calor de agosto no deja pensar.",
     about:
-      "El chat de Córdoba reúne a gente de la Judería, San Basilio, el Brillante o Levante. Se habla de los patios en mayo, de la Feria de Mayo y las cruces, de bajar al río por la Calahorra y de aguantar los 45 grados del verano como buenamente se puede. Charlas con sorna andaluza y mucho cariño por la ciudad. Hay flamenco de fondo y conversación para rato.",
+      "El chat de Córdoba reúne a gente de la Judería, San Basilio, el Brillante y Levante. Se habla de los patios floridos en mayo que ganan concursos, de la Feria de Nuestra Señora de la Salud y las cruces de mayo, de bajar al río por la Calahorra y sentarse frente a la Mezquita-Catedral que mezcla milenios en una sola columna, y de aguantar los 45 grados del verano como buenamente se puede con cerveza fresquita. Charlas con esa sorna andaluza muy cordobesa, mucho orgullo por el patrimonio y conversación para rato.",
   },
   {
     slug: "granada",
@@ -350,7 +350,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Granada para conocer gente, hablar de tapas gratis y quedar a ver el atardecer en el Mirador de San Nicolás con la Alhambra de fondo.",
     about:
-      "El chat de Granada mezcla a estudiantes de Erasmus, gente del Albaicín, del Realejo y del Zaidín. Se habla de las tapas que caen solas con cada cerveza, de subir a Sierra Nevada a esquiar por la mañana y bañarse en la costa por la tarde, de teterías en la Calderería y de las fiestas del Corpus. Una sala joven, viva y muy de echar la tarde sin prisa.",
+      "El chat de Granada mezcla a estudiantes de Erasmus, gente del Albaicín, del Realejo y del Zaidín. Se habla de las tapas que caen solas con cada cerveza y de que en Granada no se paga la comida si pides un cañero, de subir a Sierra Nevada a esquiar por la mañana y bañarse en la costa por la tarde, de teterías en la Calderería, del Mirador de San Nicolás al atardecer y de las fiestas del Corpus con la ciudad desbordada. Una sala joven, ruidosa y muy de echar la tarde sin prisa viendo cómo oscurece la Alhambra.",
   },
   {
     slug: "gijon",
@@ -469,7 +469,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Santander para conocer gente, quedar a darse un baño en el Sardinero o pasear hasta el Faro de la Magdalena cuando el día sale despejado.",
     about:
-      "El chat de Santander junta gente del Sardinero, Cuatro Caminos y el centro con los que bajan de los pueblos cántabros los fines de semana. Se habla de las playas que se llenan en agosto y se vacían en octubre, del sobaos y los orujos de Liébana, del Racing de Santander y de ese veranito atlántico que es bueno pero corto. Tranquila el resto del año, acogedora con quien llega.",
+      "El chat de Santander junta gente del Sardinero, Cuatro Caminos y el centro con los que bajan de los pueblos cántabros en finde. Se habla de las playas del Sardinero que se llenan en agosto y se vacían en octubre, de los sobaos de Torrelavega, los orujos de Liébana y las anchoas del Cantábrico que son las mejores del mundo. Sale el Racing y sus altibajos, el Palacio de la Magdalena y el Festival Internacional de Santander en verano. Ciudad tranquila el resto del año, con ese carácter cántabro reservado pero muy acogedor cuando te gana la confianza.",
   },
   {
     slug: "cadiz",
@@ -641,7 +641,7 @@ export const CITIES: Place[] = [
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",
     about:
-      "El chat de Guadalajara junta chavos de Chapultepec, oficinistas de Andares y gente que vive cerquita de la Minerva. Se habla de las Chivas hasta enronquecer, de las tardes en Tlaquepaque y de a quién le tocó la mejor birria del barrio. Hay debate de bandas que salieron de aquí, planes para el FIL y un sentido del humor seco muy de la tierra. Buena onda, pero sin tragarse nada.",
+      "El chat de Guadalajara junta chavos de Chapultepec, oficinistas de Andares, gente de Zapopan y los que viven cerquita de la Minerva en la Perla de Occidente. Se habla de las Chivas hasta enronquecer —son las de abajo, las de corazón—, de las tardes en Tlaquepaque viendo artesanías y de a quién le tocó la mejor birria de barbacoa del barrio. Hay debate de bandas que salieron de aquí, planes para el FIL de Guadalajara en noviembre, el mariachi en la Plaza de los Mariachis y un sentido del humor seco muy tapatío que no se traga nada ni a nadie.",
   },
   {
     slug: "monterrey",
@@ -658,7 +658,7 @@ export const CITIES: Place[] = [
     intro:
       "Bajo el Cerro de la Silla, los regios entran directo al grano y con el carbón ya prendido. Aquí se habla recio, se trabaja duro y la carne asada no se discute.",
     about:
-      "La sala de Monterrey reúne ingenieros del Tec, gente del centro y norteños que dicen las cosas como son. Se arma debate de Tigres contra Rayados que no termina nunca, se presume el cabrito y se queja todo el mundo del calor de mayo. Entre el acento cantadito y el 'a poco', la plática va rápida y sin rodeos. Pregunta directo y te responden igual de directo.",
+      "La sala de Monterrey reúne ingenieros del Tec de Monterrey, gente del centro y del Barrio Antiguo, ejecutivos de San Pedro y norteños regiomontanos que dicen las cosas como son. Se arma debate de Tigres contra Rayados que no termina nunca —y es cuestión de vida y muerte— se presume el cabrito al pastor, las machacas del norte y se queja todo el mundo del calor de mayo que supera los 40 grados. Entre el acento cantadito y el 'a poco, güey', la plática va rápida y sin rodeos. Pregunta directo y te responden igual de directo.",
   },
   {
     slug: "puebla",

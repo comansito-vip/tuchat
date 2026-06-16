@@ -24,6 +24,22 @@ it("info panel shows channel and activity", () => {
   expect(screen.getByText(/#madrid/)).toBeInTheDocument();
   expect(screen.getByText(/Alta/)).toBeInTheDocument();
 });
+it("info panel shows country for a city", () => {
+  render(<RoomInfoPanel place={getPlace("madrid")!} />);
+  expect(screen.getByText("España")).toBeInTheDocument();
+  expect(screen.getByText("Ciudad")).toBeInTheDocument();
+});
+it("info panel shows Temática label and hides country for tematica", () => {
+  render(<RoomInfoPanel place={getPlace("amor")!} />);
+  expect(screen.getByText("Temática")).toBeInTheDocument();
+  // tematica has no country row
+  expect(screen.queryByText("País")).not.toBeInTheDocument();
+});
+it("info panel shows País category label for a country room", () => {
+  render(<RoomInfoPanel place={getPlace("espana")!} />);
+  // "País" appears as the kindLabel AND as the country-row dt — at least one must exist
+  expect(screen.getAllByText("País").length).toBeGreaterThanOrEqual(1);
+});
 it("related rooms link to chat pages", () => {
   render(<RelatedRooms slugs={["barcelona", "valencia"]} />);
   expect(screen.getByRole("link", { name: /Barcelona/ })).toHaveAttribute("href", "/chat/barcelona");

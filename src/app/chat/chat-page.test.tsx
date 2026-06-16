@@ -43,6 +43,24 @@ describe("chat room copy", () => {
     expect(aboutLead(getPlace("amor")!).length).toBeGreaterThan(40);
   });
 
+  it("aboutLead produces kind-specific text (3 unique outputs)", () => {
+    const ciudad = aboutLead(getPlace("madrid")!);
+    const pais = aboutLead(getPlace("espana")!);
+    const tematica = aboutLead(getPlace("amor")!);
+    // Each kind branch produces distinct copy
+    expect(ciudad).not.toBe(pais);
+    expect(ciudad).not.toBe(tematica);
+    expect(pais).not.toBe(tematica);
+  });
+
+  it("aboutLead ciudad mentions the place name", () => {
+    expect(aboutLead(getPlace("madrid")!)).toContain("Madrid");
+  });
+
+  it("aboutLead pais mentions the place name", () => {
+    expect(aboutLead(getPlace("espana")!)).toContain("España");
+  });
+
   it("roomBullets returns 4 items for each kind", () => {
     expect(roomBullets(getPlace("madrid")!)).toHaveLength(4);
     expect(roomBullets(getPlace("espana")!)).toHaveLength(4);
