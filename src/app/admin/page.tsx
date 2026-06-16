@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RankingTable } from "@/components/home/RankingTable";
+import { RedirectsManager } from "@/components/admin/RedirectsManager";
 import { CONTINENTS, getChildren, getStats, getNews } from "@/data";
 
 // Panel interno: no indexar.
@@ -102,20 +103,26 @@ export default function AdminPage() {
         </Card>
       </section>
 
-      {/* Acciones que requieren backend */}
+      {/* Redirecciones 301 (URLs antiguas → salas) */}
       <section className="mt-10">
-        <SectionTitle>Pendiente de backend</SectionTitle>
-        <Card className="p-5 text-sm text-muted">
-          <p>
-            Estas funciones del brief necesitan persistencia con autenticación y no están activas
-            en esta vista de solo lectura:
+        <SectionTitle>Redirecciones 301</SectionTitle>
+        <Card className="p-5">
+          <p className="mb-4 text-sm text-muted">
+            Redirige slugs antiguos del viejo tuchat hacia su sala equivalente. Se aplican como 301
+            permanentes en <code>/chat/&lt;slug&gt;</code>.
           </p>
-          <ul className="mt-3 list-inside list-disc space-y-1">
-            <li>Editar salas, canales IRC y crear landings temáticas</li>
+          <RedirectsManager />
+        </Card>
+      </section>
+
+      {/* Acciones aún pendientes */}
+      <section className="mt-10">
+        <SectionTitle>Próximas fases</SectionTitle>
+        <Card className="p-5 text-sm text-muted">
+          <ul className="list-inside list-disc space-y-1">
+            <li>Visibilidad e indexación de salas (ocultar / noindex)</li>
+            <li>Editar salas y canales IRC, y crear landings temáticas</li>
             <li>Aprobar/forzar regeneración de contenidos automáticos</li>
-            <li>Activar o desactivar la indexación de secciones</li>
-            <li>Rankings globales por país/ciudad/temática con votos persistidos en servidor</li>
-            <li>Gestionar redirecciones de URLs antiguas</li>
           </ul>
           <p className="mt-3">
             La regeneración de noticias ya está disponible vía <code>npm run generate:news</code>{" "}

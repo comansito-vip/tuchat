@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { getPlace, getCountries, getCities, getTopics, getChildren, getRelated } from "@/data";
+import { getRedirectTarget, isNoindex } from "@/data/admin-runtime";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
@@ -13,6 +14,10 @@ import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+
+// ISR: el contenido base es estático; las redirecciones/overrides del panel se
+// reflejan al revalidar (revalidatePath tras cada escritura del admin).
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return [...getCountries(), ...getCities(), ...getTopics()].map((p) => ({ slug: p.slug }));
@@ -39,6 +44,7 @@ export async function generateMetadata({
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
     openGraph: { url: `/chat/${place.slug}` },
+    ...((await isNoindex(slug)) ? { robots: { index: false, follow: false } } : {}),
   };
 }
 
@@ -48,6 +54,8 @@ export default async function ChatRoomPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const target = await getRedirectTarget(slug);
+  if (target) permanentRedirect(`/chat/${target}`);
   const place = getPlace(slug);
   if (!place) notFound();
 

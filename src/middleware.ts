@@ -4,7 +4,7 @@ import type { NextRequest } from "next/server";
 // Protege /admin con autenticación básica HTTP. Credenciales por entorno
 // (ADMIN_USER / ADMIN_PASS). Si ADMIN_PASS no está definido, el panel queda
 // abierto (cómodo en desarrollo); define la contraseña en el VPS para cerrarlo.
-export const config = { matcher: ["/admin", "/admin/:path*"] };
+export const config = { matcher: ["/admin", "/admin/:path*", "/api/admin", "/api/admin/:path*"] };
 
 export function middleware(req: NextRequest) {
   const pass = process.env.ADMIN_PASS;
