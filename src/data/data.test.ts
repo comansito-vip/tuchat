@@ -86,6 +86,20 @@ describe("CONTINENTS integrity", () => {
     const empty = CONTINENTS.filter((c) => c.places.length === 0).map((c) => c.title);
     expect(empty).toEqual([]);
   });
+
+  it("every country appears in exactly one continent", () => {
+    const countrySlugs = new Set(getCountries().map((c) => c.slug));
+    const continentSlugs = CONTINENTS.flatMap((c) => c.places.map((p) => p.slug));
+    const missingFromContinents = [...countrySlugs].filter((s) => !continentSlugs.includes(s));
+    expect(missingFromContinents).toEqual([]);
+    // Count occurrences
+    const counts = continentSlugs.reduce<Record<string, number>>((acc, s) => {
+      acc[s] = (acc[s] ?? 0) + 1;
+      return acc;
+    }, {});
+    const multipleContinent = Object.entries(counts).filter(([, n]) => n > 1).map(([s]) => s);
+    expect(multipleContinent).toEqual([]);
+  });
 });
 
 describe("SEO constraints", () => {
