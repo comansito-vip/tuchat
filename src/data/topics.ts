@@ -346,6 +346,22 @@ export const TOPICS: Place[] = [
       "La sala de adultos es el espacio libre de filtros para mayores de dieciocho años: conversaciones que no caben en las salas generales, contactos directos entre adultos, y todo lo que queda fuera del chat convencional. Activa las veinticuatro horas con cientos de usuarios, sin registro previo ni verificaciones que ralenticen el acceso. La sala más grande de la categoría adultos de la red en español. No hace falta perfil ni foto: el anonimato forma parte del atractivo, y la posibilidad de hablar sin que nadie sepa quién eres lo hace más libre.",
   },
   {
+    slug: "calentarg",
+    name: "Calentarg",
+    kind: "tematica",
+    icon: "🌶️",
+    users: 268,
+    votes: 432,
+    tag: "Tendencia",
+    activity: "Alta",
+    channels: ["argentina", "cibersexo"],
+    related: ["adultos", "erotico", "argentina", "cybersexo", "ligar"],
+    intro:
+      "Chat caliente argentino solo para mayores de 18: charla hot, sexting y contactos con acento porteño. Entrá sin registro y prendé la noche.",
+    about:
+      "Calentarg es el rincón adulto con sabor bien argentino, exclusivo para mayores de dieciocho años. Acá se viene a tirar onda sin vueltas: sexting, fantasías, rol hot y contactos entre grandes que saben lo que buscan, todo con ese acento y ese descaro tan porteño. Se charla de deseos, se coquetea sin prejuicios y se arma conversación picante entre gente de Buenos Aires, Córdoba, Rosario y todo el país. La única regla es clara: respeto y consentimiento siempre, que un no es un no y nadie insiste cuando no hay ganas. Quien quiera bajar un cambio tiene otras salas más tranquilas a un clic. Entrá, presentate y dejá que la calentura argentina haga el resto.",
+  },
+  {
     slug: "erotico",
     name: "Erótico",
     kind: "tematica",
