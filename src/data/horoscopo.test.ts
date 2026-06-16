@@ -42,11 +42,11 @@ describe("horoscopo data", () => {
     expect(asymmetric).toEqual([]);
   });
 
-  it("all signs have personality ≥300 chars and element, planet, dates set", () => {
+  it("all signs have personality ≥400 chars and element, planet, dates set", () => {
     const violations = getSigns()
       .filter(
         (s) =>
-          s.personality.length < 300 ||
+          s.personality.length < 400 ||
           !s.element ||
           !s.planet ||
           !s.dates

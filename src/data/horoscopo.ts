@@ -34,7 +34,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Primero del zodiaco, Aries arranca cualquier proyecto con un empuje que pocos signos igualan.",
     personality:
-      "Aries es puro arranque: donde otros dudan, el carnero ya ha echado a andar. Regido por Marte, vive con la energía a tope, dice lo que piensa sin filtros y se aburre con la rutina. Su impaciencia es legendaria, pero también su valentía para empezar de cero las veces que haga falta. Detrás de la coraza hay alguien leal y de risa fácil.",
+      "Aries es puro arranque: donde otros dudan, el carnero ya ha echado a andar. Regido por Marte, vive con la energía a tope, dice lo que piensa sin filtros y se aburre con la rutina. Su impaciencia es legendaria, pero también su valentía para empezar de cero las veces que haga falta. Detrás de la coraza hay alguien leal y de risa fácil. Competitivo por naturaleza, necesita un rival —aunque sea él mismo— para dar lo mejor de sí.",
     amor:
       "En el amor, Aries conquista con descaro y necesita una relación con chispa, sin medias tintas. Le va la pasión del primer momento, aunque le cuesta la paciencia del día a día. Funciona mejor con quien le sigue el ritmo y no teme plantarle cara.",
     trabajo:
@@ -56,7 +56,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Signo de tierra regido por Venus, Tauro busca la estabilidad y disfruta de los placeres con calma.",
     personality:
-      "Tauro va a su ritmo y no hay quien lo apure. Le gusta lo seguro, lo que se toca y se disfruta: buena comida, una casa cómoda, planes sin sobresaltos. Es de una lealtad de hierro y de una terquedad a juego; cuando decide algo, cambiarle la idea es tarea imposible. Bajo su aparente lentitud hay una determinación que rara vez se rinde.",
+      "Tauro va a su ritmo y no hay quien lo apure. Le gusta lo seguro, lo que se toca y se disfruta: buena comida, una casa cómoda, planes sin sobresaltos. Es de una lealtad de hierro y de una terquedad a juego; cuando decide algo, cambiarle la idea es tarea imposible. Bajo su aparente lentitud hay una determinación que rara vez se rinde. No busca el protagonismo; prefiere construir en silencio y que los resultados hablen.",
     amor:
       "Tauro ama despacio pero para quedarse. Detesta los juegos y los altibajos; quiere a alguien fiable con quien construir algo sólido. Es muy físico y detallista, aunque sus celos pueden asomar si siente que pisan su terreno.",
     trabajo:
@@ -78,7 +78,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Signo de aire y de doble cara, Géminis necesita estímulo mental y conversación a todas horas.",
     personality:
-      "Géminis tiene mil intereses y poca paciencia para el aburrimiento. Regido por Mercurio, habla, pregunta y conecta ideas a una velocidad que marea. Es sociable, ingenioso y se adapta a cualquier ambiente, aunque su famosa dualidad lo hace difícil de descifrar: hoy te abraza la idea y mañana la contraria. Vive de la curiosidad y de la palabra.",
+      "Géminis tiene mil intereses y poca paciencia para el aburrimiento. Regido por Mercurio, habla, pregunta y conecta ideas a una velocidad que marea. Es sociable, ingenioso y se adapta a cualquier ambiente, aunque su famosa dualidad lo hace difícil de descifrar: hoy te abraza la idea y mañana la contraria. Vive de la curiosidad y de la palabra. Tiene el don de hacer que la gente se sienta escuchada aunque él esté pensando en otra cosa.",
     amor:
       "En pareja, Géminis se enamora primero del cerebro. Necesita charla, humor y libertad para no agobiarse. Le cuesta la rutina sentimental; con quien le sorprenda y le siga el juego mental, se queda enganchado.",
     trabajo:
@@ -100,7 +100,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por la Luna, Cáncer siente todo a flor de piel y protege a los suyos como nadie.",
     personality:
-      "Cáncer lleva el corazón por delante y una coraza por fuera para protegerlo. La familia y el hogar son su centro de gravedad; cuida, recuerda fechas, cocina para los demás y guarda cada detalle. Su intuición es asombrosa: capta el ambiente de una sala al entrar. Cuando se siente herido, se mete en su caparazón hasta que se le pasa.",
+      "Cáncer lleva el corazón por delante y una coraza por fuera para protegerlo. La familia y el hogar son su centro de gravedad; cuida, recuerda fechas, cocina para los demás y guarda cada detalle. Su intuición es asombrosa: capta el ambiente de una sala al entrar. Cuando se siente herido, se mete en su caparazón hasta que se le pasa. No olvida fácilmente, ni las bondades ni las traiciones: su memoria emocional es de las más largas del zodiaco.",
     amor:
       "Profundamente romántico y entregado, Cáncer busca seguridad emocional y a alguien con quien hacer nido. Da mucho y necesita sentirse correspondido. Su lado tierno es enorme; su lado susceptible, también.",
     trabajo:
@@ -122,7 +122,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por el Sol, Leo nació para brillar y contagiar su calor a quien tiene alrededor.",
     personality:
-      "Leo entra en una habitación y se nota. Tiene magnetismo, generosidad de sobra y un orgullo que hay que saber llevar. Le encanta el reconocimiento, pero lo devuelve con creces: protege a los suyos, anima al grupo y se juega por sus amigos. Detrás del rugido hay un corazón leal que necesita sentirse querido y admirado.",
+      "Leo entra en una habitación y se nota. Tiene magnetismo, generosidad de sobra y un orgullo que hay que saber llevar. Le encanta el reconocimiento, pero lo devuelve con creces: protege a los suyos, anima al grupo y se juega por sus amigos. Detrás del rugido hay un corazón leal que necesita sentirse querido y admirado. Sabe cuándo brillar y cuándo ceder el protagonismo a los suyos, aunque le cueste admitirlo.",
     amor:
       "En el amor, Leo es puro romance y gestos grandes. Quiere admiración y fidelidad, y da lealtad a cambio. Su ego puede pasar factura, pero pocos signos aman con tanta entrega y calor como el león.",
     trabajo:
@@ -144,7 +144,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Signo de tierra regido por Mercurio, Virgo lo observa todo y mejora lo que toca.",
     personality:
-      "Virgo tiene ojo para el detalle que se le escapa a todos. Es práctico, ordenado y útil; ayuda sin que se lo pidan y disfruta cuando las cosas funcionan bien. Su perfeccionismo es un arma de doble filo: exige mucho a los demás, pero todavía más a sí mismo. Aparenta frialdad, aunque cuida con hechos más que con palabras.",
+      "Virgo tiene ojo para el detalle que se le escapa a todos. Es práctico, ordenado y útil; ayuda sin que se lo pidan y disfruta cuando las cosas funcionan bien. Su perfeccionismo es un arma de doble filo: exige mucho a los demás, pero todavía más a sí mismo. Aparenta frialdad, aunque cuida con hechos más que con palabras. No busca el aplauso, sino que las cosas funcionen bien; eso es su mayor satisfacción.",
     amor:
       "Reservado al principio, Virgo demuestra el amor en lo concreto: resolviendo, acordándose, estando. Busca alguien sensato y limpio de dramas. Le cuesta soltarse, pero quien gana su confianza gana a un compañero fiel.",
     trabajo:
@@ -166,7 +166,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por Venus, Libra busca el equilibrio, la belleza y la armonía en todo lo que le rodea.",
     personality:
-      "Libra no soporta el conflicto y hará lo posible por mantener la paz. Encantador y sociable, tiene un don para mediar y ver todos los puntos de vista, lo que también lo vuelve famosamente indeciso. Le atrae la belleza, el buen gusto y las relaciones; rara vez está solo del todo. Justo y considerado, busca siempre el punto medio.",
+      "Libra no soporta el conflicto y hará lo posible por mantener la paz. Encantador y sociable, tiene un don para mediar y ver todos los puntos de vista, lo que también lo vuelve famosamente indeciso. Le atrae la belleza, el buen gusto y las relaciones; rara vez está solo del todo. Justo y considerado, busca siempre el punto medio. Su secreto: necesita la paz tanto hacia dentro como hacia fuera, y trabaja sin cesar para mantenerlas.",
     amor:
       "Libra está hecho para la pareja: disfruta compartiendo y detesta la soledad. Es romántico, detallista y conciliador. Su indecisión y sus ganas de agradar pueden enredarlo; brilla con quien le dé seguridad sin asfixiarlo.",
     trabajo:
@@ -188,7 +188,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Profundo e intenso, Escorpio vive las cosas hasta el fondo y nunca se queda en la superficie.",
     personality:
-      "Escorpio es todo intensidad y misterio. Siente con una profundidad que asusta y guarda sus cartas hasta saber con quién juega. Es leal hasta el final con los suyos e implacable cuando lo traicionan. Tiene una capacidad enorme para reinventarse: cae y renace de sus cenizas las veces que haga falta. Pocos signos tienen su fuerza de voluntad.",
+      "Escorpio es todo intensidad y misterio. Siente con una profundidad que asusta y guarda sus cartas hasta saber con quién juega. Es leal hasta el final con los suyos e implacable cuando lo traicionan. Tiene una capacidad enorme para reinventarse: cae y renace de sus cenizas las veces que haga falta. Pocos signos tienen su fuerza de voluntad. No olvida fácilmente ni lo bueno ni lo malo; su memoria emocional es de las más largas de todo el zodiaco.",
     amor:
       "En el amor lo da todo o nada. Busca conexión total, pasión y verdad, y no perdona las medias tintas. Sus celos y su intensidad pueden agobiar, pero su entrega es absoluta con quien se gana su confianza.",
     trabajo:
@@ -210,7 +210,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por Júpiter, Sagitario mira siempre al horizonte buscando la próxima aventura.",
     personality:
-      "Sagitario necesita espacio, viajes e ideas grandes. Optimista incurable, encuentra el lado bueno hasta en el desastre y contagia sus ganas de vivir. Es sincero a veces hasta la imprudencia: dice lo que piensa sin medir el golpe. Ama la libertad por encima de casi todo y huye de quien intente atarlo. Filósofo de bar y explorador de vocación.",
+      "Sagitario necesita espacio, viajes e ideas grandes. Optimista incurable, encuentra el lado bueno hasta en el desastre y contagia sus ganas de vivir. Es sincero a veces hasta la imprudencia: dice lo que piensa sin medir el golpe. Ama la libertad por encima de casi todo y huye de quien intente atarlo. Filósofo de bar y explorador de vocación. Su optimismo es contagioso y su risa difícil de resistir; convierte hasta el caos en aventura.",
     amor:
       "En pareja quiere a un cómplice de aventuras, no a un carcelero. Es divertido, generoso y honesto, pero le cuesta el compromiso que huela a jaula. Funciona con quien comparta su sed de mundo y le dé aire.",
     trabajo:
@@ -232,7 +232,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por Saturno, Capricornio sube la montaña paso a paso hasta llegar siempre a la cima.",
     personality:
-      "Capricornio juega a largo plazo. Disciplinado y paciente, se fija una meta y trabaja por ella sin atajos ni dramas. Tiene los pies en el suelo, un sentido de la responsabilidad enorme y un humor seco que sorprende. Le cuesta mostrar lo que siente; prefiere demostrar con hechos. Madura pronto y, curiosamente, se relaja y disfruta más con los años.",
+      "Capricornio juega a largo plazo. Disciplinado y paciente, se fija una meta y trabaja por ella sin atajos ni dramas. Tiene los pies en el suelo, un sentido de la responsabilidad enorme y un humor seco que sorprende. Le cuesta mostrar lo que siente; prefiere demostrar con hechos. Madura pronto y, curiosamente, se relaja y disfruta más con los años. Lo que promete, lo cumple; y lo que afronta, lo termina con la cabeza bien alta.",
     amor:
       "Cauto y serio al principio, busca una relación estable y de verdad, no una aventura. Es fiel, comprometido y protector con quien quiere. Necesita tiempo para abrirse, pero cuando lo hace, va para quedarse.",
     trabajo:
@@ -254,7 +254,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Regido por Urano, Acuario piensa distinto y se adelanta a su tiempo en casi todo.",
     personality:
-      "Acuario va por libre y no le importa. Original, independiente y un punto rebelde, defiende sus ideas aunque vayan a contracorriente. Le mueven las causas, el futuro y la justicia más que lo personal: ama a la humanidad en abstracto y a veces se le olvida lo cercano. Es amistoso pero distante, brillante y, sobre todo, imprevisible.",
+      "Acuario va por libre y no le importa. Original, independiente y un punto rebelde, defiende sus ideas aunque vayan a contracorriente. Le mueven las causas, el futuro y la justicia más que lo personal: ama a la humanidad en abstracto y a veces se le olvida lo cercano. Es amistoso pero distante, brillante y, sobre todo, imprevisible. Puede parecer frío, pero es de los más comprometidos: lo que le importa, le importa de verdad.",
     amor:
       "Necesita libertad y un vínculo que sea también amistad. Le atrae lo diferente y huye de la posesividad. Es leal a su manera, aunque le cuesta el terreno emocional profundo; brilla con quien respete su independencia.",
     trabajo:
@@ -276,7 +276,7 @@ export const SIGNS: Sign[] = [
     intro:
       "Último signo del zodiaco, Piscis siente por todos y vive con un pie en la realidad y otro en el sueño.",
     personality:
-      "Piscis es pura sensibilidad. Empático hasta absorber las emociones ajenas, intuitivo y creativo, vive entre la realidad y su mundo interior. Tiene un corazón enorme y una imaginación sin fronteras, aunque a veces escapa de los problemas en lugar de afrontarlos. Es el signo de la compasión: perdona, comprende y se entrega como nadie.",
+      "Piscis es pura sensibilidad. Empático hasta absorber las emociones ajenas, intuitivo y creativo, vive entre la realidad y su mundo interior. Tiene un corazón enorme y una imaginación sin fronteras, aunque a veces escapa de los problemas en lugar de afrontarlos. Es el signo de la compasión: perdona, comprende y se entrega como nadie. Su sensibilidad es a la vez su mayor fortaleza y el punto donde más necesita cuidarse.",
     amor:
       "Romántico de los de película, Piscis ama sin reservas y se ilusiona fácil. Busca alma gemela y conexión espiritual. Su ternura es infinita, pero le conviene poner límites para no perderse en el otro.",
     trabajo:
