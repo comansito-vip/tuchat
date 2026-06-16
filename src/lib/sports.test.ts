@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { LEAGUES, TEAM_LEAGUE, getLeague } from "@/lib/sports";
+import { describe, it, expect, vi } from "vitest";
+import { LEAGUES, TEAM_LEAGUE, getLeague, getStandings } from "@/lib/sports";
 
 describe("sports data", () => {
   it("has exactly 8 leagues with unique slugs", () => {
@@ -47,5 +47,19 @@ describe("sports data", () => {
       .filter(([, liga]) => !leagueSlugs.has(liga))
       .map(([team, liga]) => `${team} -> ${liga}`);
     expect(violations).toEqual([]);
+  });
+});
+
+describe("getStandings", () => {
+  it("throws for an unknown liga", async () => {
+    await expect(getStandings("unknown-liga")).rejects.toThrow("liga desconocida");
+  });
+
+  it("falls back to static data when all providers fail", async () => {
+    global.fetch = vi.fn().mockRejectedValue(new Error("network error"));
+    const result = await getStandings("laliga");
+    expect(result.source).toBe("reserva");
+    expect(result.rows.length).toBeGreaterThan(0);
+    expect(result.rows[0].team).toBe("Real Madrid");
   });
 });
