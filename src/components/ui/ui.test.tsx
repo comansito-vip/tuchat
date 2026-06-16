@@ -113,4 +113,11 @@ describe("SearchInput", () => {
     render(<SearchInput />);
     expect(screen.getByRole("textbox", { name: /Buscar/i })).toBeInTheDocument();
   });
+  it("submitting navigates to /chat?q=<query>", () => {
+    mockPush.mockClear();
+    render(<SearchInput />);
+    fireEvent.change(screen.getByRole("textbox"), { target: { value: "Madrid" } });
+    fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
+    expect(mockPush).toHaveBeenCalledWith("/chat?q=Madrid");
+  });
 });
