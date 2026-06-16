@@ -30,6 +30,15 @@ describe("ui primitives", () => {
     render(<Badge tag="Popular" />);
     expect(screen.getByText("Popular")).toBeInTheDocument();
   });
+  it("renders all badge variants without error", () => {
+    const variants: Array<"Popular" | "Nueva" | "Tendencia" | "HOT" | "NUEVO" | "EN VIVO"> =
+      ["Popular", "Nueva", "Tendencia", "HOT", "NUEVO", "EN VIVO"];
+    for (const tag of variants) {
+      const { unmount } = render(<Badge tag={tag} />);
+      expect(screen.getByText(tag)).toBeInTheDocument();
+      unmount();
+    }
+  });
   it("NickInput renders with placeholder and Entrar button", () => {
     render(<NickInput canal="madrid" placeholder="Tu nick aquí..." />);
     expect(screen.getByPlaceholderText("Tu nick aquí...")).toBeInTheDocument();
