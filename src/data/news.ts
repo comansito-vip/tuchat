@@ -19,7 +19,9 @@ La propuesta no se limita a los terminales móviles. macOS 16 incorporará las m
 
 El mercado reaccionó con entusiasmo: las acciones de Apple subieron un 4,2% en la sesión del anuncio. Los analistas destacan que la apuesta por la IA local puede ser el argumento definitivo para convencer a usuarios corporativos y gubernamentales que desconfiaban de los sistemas de IA en la nube por razones de seguridad. En Europa, donde el Reglamento de IA Generativa aprobado la semana pasada obliga a mayor transparencia, la arquitectura local de Apple podría convertirse en una ventaja competitiva significativa frente a sus rivales.
 
-La actualización llegará como beta pública en julio para los dispositivos con chip A17 o superior y M3 o superior, con disponibilidad general prevista para septiembre junto al lanzamiento del iPhone 17.`,
+La actualización llegará como beta pública en julio para los dispositivos con chip A17 o superior y M3 o superior, con disponibilidad general prevista para septiembre junto al lanzamiento del iPhone 17.
+
+La sala de tecnología de TuChat fue uno de los espacios más activos en español durante y después de la WWDC. Los usuarios compartieron análisis técnicos en tiempo real durante el keynote, debatieron las implicaciones de privacidad del procesamiento local de IA y compararon las capacidades anunciadas con las de los competidores de Google y Samsung. La función más comentada fue la integración de Apple Intelligence 2.0 con las aplicaciones de productividad, especialmente Siri con contexto de pantalla completa. La comunidad está expectante: si Apple cumple lo prometido en la presentación, el iPhone 17 podría ser la actualización más significativa de la historia reciente de la plataforma para los usuarios que ya están en el ecosistema Apple.`,
   },
 
   {
@@ -37,7 +39,9 @@ El programa arrancará con Matemáticas y Lengua en primero y segundo de la ESO,
 
 No todos los agentes del sector educativo reciben la iniciativa con el mismo entusiasmo. Varios sindicatos de docentes advierten de los riesgos de reducir la enseñanza a métricas algorítmicas y de la brecha digital que puede abrir en familias sin acceso estable a internet. La Federación de AMPA también ha exigido garantías sobre la privacidad de los datos de los menores, ya que el sistema registra de forma continua el rendimiento individual durante las sesiones.
 
-El presupuesto total del programa es de 180 millones de euros para los próximos tres años, financiados en parte con fondos europeos del Plan de Recuperación. Si los resultados son positivos en la fase piloto, el Ministerio prevé extender el programa a todos los centros públicos de secundaria antes del año 2030.`,
+El presupuesto total del programa es de 180 millones de euros para los próximos tres años, financiados en parte con fondos europeos del Plan de Recuperación. Si los resultados son positivos en la fase piloto, el Ministerio prevé extender el programa a todos los centros públicos de secundaria antes del año 2030.
+
+La sala de tecnología de TuChat recibió el anuncio con interés, aunque también con algunas cautelas. Los usuarios señalaron que la IA educativa depende en gran medida de la calidad de los datos de entrenamiento y de la capacidad del sistema para adaptarse a la diversidad del alumnado español. También surgieron preguntas sobre privacidad y sobre qué ocurre con los datos de rendimiento de los menores generados por la plataforma. La respuesta de los expertos participantes en el chat fue clara: la transparencia en el uso de los datos y el control de las familias sobre la información de sus hijos son condiciones no negociables para que un programa de este tipo gane legitimidad social.`,
   },
 
   {
@@ -55,7 +59,9 @@ Carlo Ancelotti, que marcó el triunfo desde la banda con su calma característi
 
 Mbappé, en su primera temporada completa con el Real Madrid, cerró el curso como máximo goleador de la Champions con 14 dianas. La adaptación del delantero francés fue más difícil de lo esperado en el primer tramo de la campaña, pero encontró su mejor versión en la segunda vuelta y en la fase final del torneo. "He soñado con esto toda mi vida. Jugar en el mejor club del mundo y ganar la Champions es lo máximo", dijo el delantero.
 
-La expedición madridista llegó esta tarde al aeropuerto de Barajas, donde el club organizó una recepción en el Santiago Bernabéu. El lunes habrá una rúa por el centro de Madrid con salida desde Cibeles.`,
+La expedición madridista llegó esta tarde al aeropuerto de Barajas, donde el club organizó una recepción en el Santiago Bernabéu. El lunes habrá una rúa por el centro de Madrid con salida desde Cibeles.
+
+La sala de deportes y la de Real Madrid en TuChat fueron el epicentro de la celebración virtual hispanohablante. Aficionados de toda España y de América Latina compartieron imágenes, estadísticas históricas y comparativas entre las diferentes Champions del club, debatiendo si este título tiene más mérito que otros por las circunstancias en que llegó. El gol de Mbappé en la prórroga, que se convirtió en viral en menos de minutos, concentró miles de mensajes de euforia. Para la comunidad madridista de TuChat, el debate inmediato post-Copa ya apunta al siguiente objetivo: defender el título la próxima temporada y confirmar que Mbappé, plenamente integrado, puede ser el emblema de una nueva era en el palmarés más exitoso del fútbol europeo.`,
   },
 
   {
@@ -73,7 +79,9 @@ El anuncio llega en un contexto de competencia feroz por el prime time. La cuota
 
 Las reacciones en redes sociales fueron inmediatas y divididas. El hashtag #GHVuelve se situó en el primer puesto de tendencias en España en menos de dos horas, con una mezcla de entusiasmo de fans del formato y escepticismo de quienes consideran que el programa "ya dio lo que tenía que dar". Mediaset no ha confirmado aún ningún nombre de concursante.
 
-La producción, a cargo de Zeppelin TV en colaboración con Endemol Shine, prevé una edición de cinco meses con emisión martes y jueves en el canal principal y contenido de 24 horas en Mitele Plus. La inversión total supera los doce millones de euros, el mayor desembolso en un programa de entretenimiento de Telecinco en la última década.`,
+La producción, a cargo de Zeppelin TV en colaboración con Endemol Shine, prevé una edición de cinco meses con emisión martes y jueves en el canal principal y contenido de 24 horas en Mitele Plus. La inversión total supera los doce millones de euros, el mayor desembolso en un programa de entretenimiento de Telecinco en la última década.
+
+La sala de entretenimiento de TuChat recibió el anuncio con una mezcla de nostalgia y escepticismo que refleja bien las dos almas del público televisivo español. Los usuarios que vivieron las primeras ediciones en los años 2000 recordaron momentos icónicos y concursantes que se convirtieron en referentes culturales de una generación. Los más jóvenes, que no conocieron el fenómeno original, mostraron curiosidad pero también dudas sobre si el formato puede conectar con audiencias acostumbradas a la inmediatez de los realities en redes sociales. El debate más repetido: ¿puede Gran Hermano competir con el enganche en tiempo real de TikTok y las transmisiones en streaming de influencers?`,
   },
 
   {
@@ -91,7 +99,9 @@ El Banco de España valoró positivamente el dato, aunque advirtió de que la in
 
 Para los consumidores, el alivio más tangible llega a través de la factura de la luz. Un hogar medio con tarifa regulada ahorrará unos 180 euros anuales respecto a 2025, asumiendo que los precios se mantengan en los niveles actuales. Las familias más vulnerables, acogidas al Bono Social Eléctrico, disfrutarán de un descuento adicional de hasta el 65% en su factura durante los meses de verano.
 
-El BCE celebra su próxima reunión de política monetaria el 25 de junio. Los mercados descuentan con probabilidad del 73% un nuevo recorte de tipos de veinticinco puntos básicos, lo que llevaría el tipo de depósito al 2,25%, el nivel más bajo desde 2022. La moderación de la inflación española contribuye a la narrativa de que la política monetaria restrictiva ha cumplido su objetivo sin provocar una recesión severa.`,
+El BCE celebra su próxima reunión de política monetaria el 25 de junio. Los mercados descuentan con probabilidad del 73% un nuevo recorte de tipos de veinticinco puntos básicos, lo que llevaría el tipo de depósito al 2,25%, el nivel más bajo desde 2022. La moderación de la inflación española contribuye a la narrativa de que la política monetaria restrictiva ha cumplido su objetivo sin provocar una recesión severa.
+
+Las salas de economía de TuChat han registrado un notable aumento de actividad en los meses de mayor volatilidad de los precios. Trabajadores, autónomos y ahorradores debaten el impacto de la inflación en su vida diaria con un nivel de detalle que refleja una mayor cultura económica de base. El dato de mayo marca un punto de inflexión: por primera vez desde 2021, la conversación sobre los precios empieza a dejar de ser motivo de preocupación constante y comienza a incluir debates sobre cómo aprovechar la bajada de tipos para refinanciar hipotecas o mejorar condiciones de financiación.`,
   },
 
   {
@@ -109,7 +119,9 @@ La geografía del voto refleja las profundas divisiones regionales del país. Bo
 
 La Misión de Observación Electoral calificó la jornada de "ordenada y transparente", sin incidentes graves. Se registraron algunos retrasos en la apertura de puestos de votación en zonas rurales de Chocó y Nariño, pero nada que comprometiera la validez del proceso. El Consejo Nacional Electoral confirmará los resultados definitivos en los próximos días.
 
-Para la diáspora colombiana en España, la jornada también tuvo participación récord: más de 120.000 colombianos residentes en el país votaron en los consulados de Madrid, Barcelona, Valencia y Bilbao, un aumento del 40% respecto a las elecciones de 2022. Las comunidades hispanoamericanas en España siguen de cerca el proceso, conscientes de que el resultado afectará directamente a las remesas que muchos emigrantes envían a sus familias.`,
+Para la diáspora colombiana en España, la jornada también tuvo participación récord: más de 120.000 colombianos residentes en el país votaron en los consulados de Madrid, Barcelona, Valencia y Bilbao, un aumento del 40% respecto a las elecciones de 2022. Las comunidades hispanoamericanas en España siguen de cerca el proceso, conscientes de que el resultado afectará directamente a las remesas que muchos emigrantes envían a sus familias.
+
+En TuChat, la sala de actualidad fue testigo de uno de los debates más intensos del año entre usuarios colombianos y latinoamericanos residentes en España. El chat se convirtió en un espacio en tiempo real de seguimiento de los resultados, con usuarios compartiendo datos, imágenes de mesas de votación y análisis de la composición del voto regional. La segunda vuelta del 19 de julio se perfila como el siguiente gran momento de movilización política para una comunidad que, a miles de kilómetros de su país, no ha dejado de participar activamente en la vida democrática colombiana.`,
   },
 
   {
@@ -127,7 +139,9 @@ Los componentes más asociados a estos beneficios son el aceite de oliva virgen 
 
 En España, donde la dieta mediterránea forma parte del patrimonio cultural reconocido por la UNESCO desde 2010, los nutricionistas reciben el estudio como una validación científica pero advierten de que la adherencia real al patrón está cayendo entre los jóvenes. Según datos del Ministerio de Sanidad, el consumo de ultraprocesados entre menores de 30 años ha aumentado un 34% en la última década, mientras que el de legumbres y pescado ha bajado en el mismo período.
 
-La investigación concluye que los principios de la dieta mediterránea —alta ingesta de vegetales, grasas saludables y proteína vegetal— son exportables a cualquier cultura alimentaria, con mejoras similares en salud independientemente del origen de los participantes. Los autores proponen que los sistemas públicos de salud incorporen la educación nutricional basada en este patrón como medida preventiva de bajo coste y alto impacto.`,
+La investigación concluye que los principios de la dieta mediterránea —alta ingesta de vegetales, grasas saludables y proteína vegetal— son exportables a cualquier cultura alimentaria, con mejoras similares en salud independientemente del origen de los participantes. Los autores proponen que los sistemas públicos de salud incorporen la educación nutricional basada en este patrón como medida preventiva de bajo coste y alto impacto.
+
+La sala de salud de TuChat acogió el estudio con entusiasmo entre los usuarios más interesados en nutrición, que debatieron sus implicaciones prácticas y compartieron recetas y hábitos mediterráneos adaptados a la vida moderna. El aceite de oliva, las legumbres y el pescado azul concentraron la mayor parte de las recomendaciones, con usuarios de México, Argentina y Colombia preguntando cómo incorporar el patrón mediterráneo a una dieta latinoamericana donde algunos ingredientes típicos no están disponibles. La respuesta más repetida: los principios generales —más vegetales, menos ultraprocesados, grasas saludables, variedad— son universales aunque los ingredientes concretos varíen según el país.`,
   },
 
   {
@@ -145,7 +159,9 @@ La trayectoria de Almodóvar abarca más de cuarenta años, veintiún largometra
 
 El reconocimiento llega en un momento de especial relevancia para el cine hispanohablante. En la última edición de los Óscars, tres producciones en español estuvieron entre las nominadas a Mejor Película Internacional, y el streaming ha disparado el consumo de series y películas en castellano: según Netflix, el español es la segunda lengua más consumida en su plataforma, solo por detrás del inglés.
 
-Almodóvar aprovechó la ocasión para confirmar que su próximo proyecto, una adaptación rodada en Madrid y Buenos Aires, comenzará en octubre con Tilda Swinton y la actriz argentina Érica Rivas en el reparto, con producción conjunta de El Deseo, A24 y RTVE.`,
+Almodóvar aprovechó la ocasión para confirmar que su próximo proyecto, una adaptación rodada en Madrid y Buenos Aires, comenzará en octubre con Tilda Swinton y la actriz argentina Érica Rivas en el reparto, con producción conjunta de El Deseo, A24 y RTVE.
+
+La comunidad hispanohablante de TuChat celebró el reconocimiento con el calor que merece un evento que trasciende el mundo del cine. En las salas de cultura y entretenimiento se compartieron fragmentos de sus películas más emblemáticas, listas de favoritos personales y reflexiones sobre el impacto que el cine de Almodóvar ha tenido en la imagen de España y de Madrid en el mundo. Para muchos usuarios latinoamericanos, sus películas fueron la primera ventana a la cultura española; para los españoles, el testigo de que el cine en español puede competir de tú a tú con cualquier cinematografía del mundo.`,
   },
 
   // ── Artículos originales con body completo ────────────────────────────────
@@ -225,7 +241,9 @@ Las medidas de contención del alquiler aprobadas a finales de 2025, que fijaron
 
 El Gobierno trabaja en un Plan Estatal de Vivienda 2026-2030 que contempla la movilización de más de un millón de metros cuadrados de suelo público para construcción de vivienda protegida. Sin embargo, los promotores calculan que los plazos administrativos hacen inviable que esos proyectos tengan impacto en el mercado antes de 2029. La proporción de jóvenes menores de 35 años que acceden a la primera vivienda en propiedad ha caído al 18%, mínimo histórico.
 
-El Banco de España ha advertido que el endeudamiento hipotecario de los hogares supera ya el 80% de la renta disponible en las grandes capitales, un nivel que califica como "de atención" aunque alejado de los umbrales que precedieron a la crisis de 2008.`,
+El Banco de España ha advertido que el endeudamiento hipotecario de los hogares supera ya el 80% de la renta disponible en las grandes capitales, un nivel que califica como "de atención" aunque alejado de los umbrales que precedieron a la crisis de 2008.
+
+En TuChat, el acceso a la vivienda es uno de los temas más debatidos del año en las salas de economía y actualidad. Usuarios de Madrid y Barcelona relatan la dificultad de encontrar pisos a precios razonables incluso con salarios elevados, mientras que los de ciudades medianas observan cómo los efectos se extienden progresivamente fuera de las capitales. El consenso es amplio: sin una oferta pública de vivienda de verdad y a escala suficiente, el problema no tiene solución de mercado. La pregunta que más se repite en el chat es la misma que llevan años haciéndose los economistas: cuántos años más puede sostenerse un modelo donde la vivienda consume más de la mitad del salario de una generación entera.`,
   },
 
   {
@@ -263,7 +281,9 @@ La principal reivindicación del Consejo es la incorporación de psicólogos cl�
 
 El Ministerio de Sanidad anunció un plan de inversión de 230 millones de euros para la contratación de 1.500 psicólogos clínicos en atención primaria antes de 2028. Los colegios profesionales lo consideran insuficiente: "Necesitamos al menos 6.000 plazas para acercarnos a la media europea". El plan contempla también extender el programa de Atención a la Conducta Suicida a todos los centros de salud del país.
 
-El 40% de los universitarios que solicitaron ayuda psicológica reconoce haber suspendido al menos una asignatura a causa de la ansiedad. Los expertos coinciden: cada euro invertido en salud mental preventiva evita cuatro euros en costes sanitarios y de productividad a largo plazo, un argumento económico que debería acelerar la inversión pública en este ámbito.`,
+El 40% de los universitarios que solicitaron ayuda psicológica reconoce haber suspendido al menos una asignatura a causa de la ansiedad. Los expertos coinciden: cada euro invertido en salud mental preventiva evita cuatro euros en costes sanitarios y de productividad a largo plazo, un argumento económico que debería acelerar la inversión pública en este ámbito.
+
+La sala de salud de TuChat ha sido uno de los espacios online donde el informe generó más reacciones. Jóvenes de España, México y Argentina coincidieron en señalar que la salud mental sigue siendo el gran ausente de las políticas educativas y sanitarias de sus países, a pesar de que los datos apuntan a una crisis de proporciones crecientes. El cambio cultural que sí se aprecia es que cada vez más jóvenes hablan abiertamente de sus experiencias con la ansiedad o la depresión, un paso necesario para que la presión social se traduzca en políticas públicas a la altura del problema.`,
   },
 
   {
@@ -281,7 +301,9 @@ Los tres sectores que concentran mayor riesgo en España son la administración 
 
 Sin embargo, el informe advierte de que la automatización no equivale necesariamente a destrucción de empleo neto si va acompañada de formación y reorientación profesional. Los países que mejor han gestionado transiciones tecnológicas anteriores lo han hecho a través de programas de reskilling intensivos y sistemas de protección social que amortiguan el impacto sobre los trabajadores desplazados. "La IA es una palanca de productividad que puede crear más empleo del que destruye, pero la transición requiere políticas activas y no puede dejarse al mercado solo", señala el informe.
 
-El Gobierno español ha anunciado un Plan de Formación en Competencias Digitales con una dotación de 800 millones de euros para los próximos tres años, orientado a trabajadores mayores de 40 años y personas en situación de desempleo de larga duración. Los sindicatos consideran la inversión insuficiente y piden que las empresas contribuyan con una tasa sobre los beneficios obtenidos por automatización.`,
+El Gobierno español ha anunciado un Plan de Formación en Competencias Digitales con una dotación de 800 millones de euros para los próximos tres años, orientado a trabajadores mayores de 40 años y personas en situación de desempleo de larga duración. Los sindicatos consideran la inversión insuficiente y piden que las empresas contribuyan con una tasa sobre los beneficios obtenidos por automatización.
+
+La sala de tecnología y actualidad de TuChat es uno de los espacios donde el miedo al impacto de la IA en el empleo se debate con más honestidad. Trabajadores de distintos sectores comparten sus experiencias: desde el administrativo que ya ve cómo los sistemas automatizan el 80% de sus tareas hasta el programador que usa IA para multiplicar su productividad. El debate revela una brecha generacional: los más jóvenes ven la IA como una herramienta que amplifica sus capacidades; los de mediana edad con empleos rutinarios la perciben como una amenaza real. La formación continua emerge como la única respuesta viable, pero requiere voluntad política y empresarial que hasta ahora no ha estado a la altura del desafío.`,
   },
 
   {
@@ -299,7 +321,9 @@ La elección de Madrid no es casual. España se ha convertido en el principal me
 
 La industria audiovisual española recibe la noticia con entusiasmo pero también con algunas advertencias. Los sindicatos de técnicos audiovisuales piden que el estudio se comprometa a contratar a través de las tablas salariales del convenio del sector y a no utilizar plataformas de trabajo a demanda para sustituir empleo indefinido. La Federación de Productoras Independientes pide que parte de la inversión se destine a coproducucciones con empresas medianas españolas para no concentrar toda la capacidad de producción en la propia Netflix.
 
-El complejo de Tres Cantos estará plenamente operativo en marzo de 2027. La Comunidad de Madrid ha cedido los terrenos en régimen de concesión administrativa a cambio de un compromiso de Netflix de mantener al menos 1.500 empleos directos durante diez años y de reservar el 20% de la capacidad del estudio para producciones ajenas a Netflix a precios de mercado.`,
+El complejo de Tres Cantos estará plenamente operativo en marzo de 2027. La Comunidad de Madrid ha cedido los terrenos en régimen de concesión administrativa a cambio de un compromiso de Netflix de mantener al menos 1.500 empleos directos durante diez años y de reservar el 20% de la capacidad del estudio para producciones ajenas a Netflix a precios de mercado.
+
+La sala de entretenimiento de TuChat recibió la noticia como la consolidación de un fenómeno que los usuarios hispanohablantes llevan años celebrando: el cine y las series en español han dejado de ser nicho para convertirse en contenido de primer nivel global. La presencia de Netflix en Madrid con un estudio de esta envergadura es también el reconocimiento de que el talento narrativo hispanohablante —guionistas, directores, actores— es un activo estratégico de primer orden. El debate en el chat se centró en qué nuevas historias puede contar un estudio instalado en Madrid: la diversidad de América Latina, las historias de la España contemporánea y los lazos transatlánticos entre ambas orillas son, para muchos usuarios, el territorio más prometedor del audiovisual en español.`,
   },
 
   {
@@ -317,7 +341,9 @@ Extremadura lidera el crecimiento: Cáceres y Mérida registran ocupación media
 
 En Castilla-La Mancha, la Ruta del Quijote y las ciudades de Cuenca, Toledo y Almagro aglutinan la mayor parte de las reservas, pero es el interior más desconocido el que crece con más fuerza: las Lagunas de Ruidera, el Parque Natural de Cabañeros y la comarca de la Mancha Alta registran tasas de ocupación sin precedentes. El turismo de senderismo y BTT ha crecido un 74% en la región.
 
-El desafío para estas comunidades es gestionar el crecimiento sin repetir los errores del litoral. Varios municipios ya trabajan en planes de capacidad máxima para rutas y espacios naturales, y la Junta de Extremadura ha aprobado una moratoria temporal sobre nuevos establecimientos de alojamiento turístico en siete áreas de especial fragilidad ecológica. La oportunidad económica es enorme: el turista de interior gasta de media un 22% más que el de sol y playa porque valora experiencias y gastronomía local por encima del precio del alojamiento.`,
+El desafío para estas comunidades es gestionar el crecimiento sin repetir los errores del litoral. Varios municipios ya trabajan en planes de capacidad máxima para rutas y espacios naturales, y la Junta de Extremadura ha aprobado una moratoria temporal sobre nuevos establecimientos de alojamiento turístico en siete áreas de especial fragilidad ecológica. La oportunidad económica es enorme: el turista de interior gasta de media un 22% más que el de sol y playa porque valora experiencias y gastronomía local por encima del precio del alojamiento.
+
+La sala de viajes de TuChat se ha convertido en una fuente de recomendaciones de primera mano sobre turismo rural en España. Usuarios que han visitado Extremadura, Castilla-La Mancha, La Rioja y otras regiones interiores comparten itinerarios, casas rurales con encanto, rutas gastronómicas y consejos sobre los mejores momentos para visitar los parques naturales. El consenso es unánime: el interior de España tiene un potencial turístico extraordinario que aún no está en el radar de la mayoría de los viajeros extranjeros. Quienes lo han descubierto vuelven: la tranquilidad, los paisajes, la gastronomía y el trato cercano de las comunidades locales son difíciles de encontrar en los destinos masificados del litoral.`,
   },
 
   {
@@ -335,7 +361,9 @@ La composición del peregrino ha cambiado notablemente. El 38% de los caminantes
 
 La Xunta de Galicia ha aprobado un plan de emergencia que incluye la habilitación de instalaciones municipales como alojamiento temporal. Sin embargo, los responsables del Camino admiten que la masificación en el tramo Sarria-Santiago es ya un problema estructural que requiere medidas más profundas que la simple ampliación de plazas.
 
-El impacto económico del Camino en Galicia alcanzó los 840 millones de euros en 2025, y las estimaciones para 2026 superan los 1.000 millones. La Consellería de Cultura ha lanzado una consulta pública para establecer medidas de gestión de la capacidad, que podrían incluir un sistema de reserva previa para los albergues públicos en el tramo más transitado.`,
+El impacto económico del Camino en Galicia alcanzó los 840 millones de euros en 2025, y las estimaciones para 2026 superan los 1.000 millones. La Consellería de Cultura ha lanzado una consulta pública para establecer medidas de gestión de la capacidad, que podrían incluir un sistema de reserva previa para los albergues públicos en el tramo más transitado.
+
+La sala de viajes de TuChat es un punto de encuentro habitual para peregrinos que planean su ruta y para quienes ya la han completado. Usuarios de todos los países hispanohablantes comparten consejos sobre los mejores tramos, dónde encontrar albergues con plaza fuera de temporada alta y cómo prepararse físicamente para las etapas más exigentes. Para muchos, el Camino va más allá del turismo: es una experiencia transformadora que combina esfuerzo físico, desconexión digital y encuentro con personas de culturas muy distintas, todas unidas por el mismo destino en la Plaza del Obradoiro.`,
   },
 
   // ── Artículos adicionales (junio 2026) ────────────────────────────────────
@@ -355,7 +383,9 @@ El sistema público de salud mental está desbordado. La ratio de psicólogos cl
 
 Pero los expertos advierten que contratar más profesionales no es suficiente si no cambia el modelo. El sistema necesita atención comunitaria, detección temprana en colegios e institutos y dejar de estigmatizar la búsqueda de ayuda. "El joven que pide cita al psicólogo no está loco: está teniendo una respuesta normal a circunstancias anormales", resume la presidenta de la Sociedad Española de Psiquiatría.
 
-La iniciativa parlamentaria que más apoyo acumula en este momento es la creación de un servicio de atención psicológica gratuito para menores de 25 años, similar al modelo pilotado por Francia y los países nórdicos. El coste estimado sería de 320 millones anuales, menos del 0,1% del PIB.`,
+La iniciativa parlamentaria que más apoyo acumula en este momento es la creación de un servicio de atención psicológica gratuito para menores de 25 años, similar al modelo pilotado por Francia y los países nórdicos. El coste estimado sería de 320 millones anuales, menos del 0,1% del PIB.
+
+La sala de salud y bienestar de TuChat es uno de los espacios donde este tema se debate con mayor frankeza. Usuarios de todas las edades comparten experiencias sobre el acceso a la psicología clínica, los costes del sector privado y estrategias de autocuidado en espera de atención especializada. El debate refleja que el estigma sobre la salud mental está disminuyendo entre los jóvenes españoles, que hablan con normalidad de la terapia y la ansiedad con una apertura desconocida en generaciones anteriores. Ese cambio cultural, más que cualquier estadística, apunta a que la presión social para mejorar los recursos públicos de salud mental seguirá creciendo.`,
   },
 
   {
@@ -373,7 +403,9 @@ La buena noticia para los hipotecados de tipo variable es doble: primero, la cuo
 
 Sin embargo, el alivio no es completo. La inflación subyacente —que excluye energía y alimentos frescos— sigue en el 2,9%, impulsada por los servicios, especialmente el alquiler de vivienda (+8,2%), el turismo y la hostelería. Este componente es más resistente a los ajustes monetarios porque refleja desequilibrios estructurales en el mercado inmobiliario y en el mercado laboral.
 
-El Gobierno ha aprovechado el dato para anunciar el fin de las bonificaciones al transporte público, que vencen el 30 de septiembre. La medida, adoptada durante el pico de inflación de 2022, ha costado más de 1.800 millones de euros. Los sindicatos ya han convocado una reunión de urgencia con el Ministerio de Transportes para explorar una alternativa que no impacte en los trabajadores de rentas bajas.`,
+El Gobierno ha aprovechado el dato para anunciar el fin de las bonificaciones al transporte público, que vencen el 30 de septiembre. La medida, adoptada durante el pico de inflación de 2022, ha costado más de 1.800 millones de euros. Los sindicatos ya han convocado una reunión de urgencia con el Ministerio de Transportes para explorar una alternativa que no impacte en los trabajadores de rentas bajas.
+
+La evolución de los precios en España sigue siendo el tema más debatido en las salas de economía y actualidad de TuChat. Los usuarios comparten experiencias concretas sobre el impacto en sus compras, la factura del gas o la cuota de la hipoteca, convirtiendo el debate macroeconómico en una conversación muy cercana a la experiencia cotidiana. El alivio en los precios energéticos es bienvenido, pero la mayoría señala que los precios de los servicios y del alquiler siguen sin bajar, lo que hace que el alivio en la factura de la luz no se traduzca en una sensación real de menor presión económica.`,
   },
 
   {
@@ -409,7 +441,9 @@ El teletrabajo ha dejado de ser un beneficio y se ha convertido en un derecho pe
 
 El impacto en las ciudades ha sido desigual. Las ciudades medianas —Málaga, Valencia, Alicante, Bilbao— han recibido una oleada de trabajadores remotos que buscan mejor calidad de vida y menores costes de vivienda que Madrid o Barcelona. El resultado es un reparto más equilibrado del talento entre territorios, aunque también una presión creciente sobre el alquiler en destinos que no estaban preparados para ese flujo.
 
-El marco legal ha evolucionado en paralelo. La Ley del Trabajo a Distancia aprobada en 2021 sentó las bases, pero la negociación colectiva ha ido mucho más lejos: más del 60% de los convenios colectivos firmados en 2025 incluyen cláusulas específicas sobre teletrabajo que garantizan el derecho a al menos dos días semanales de trabajo en remoto para quienes desempeñan funciones teletrabajables.`,
+El marco legal ha evolucionado en paralelo. La Ley del Trabajo a Distancia aprobada en 2021 sentó las bases, pero la negociación colectiva ha ido mucho más lejos: más del 60% de los convenios colectivos firmados en 2025 incluyen cláusulas específicas sobre teletrabajo que garantizan el derecho a al menos dos días semanales de trabajo en remoto para quienes desempeñan funciones teletrabajables.
+
+En TuChat, el teletrabajo es uno de los temas de conversación más constantes en las salas de actualidad y trabajo. Profesionales de toda España y de la diáspora hispanohablante comparten estrategias para organizar su jornada, herramientas que mejoran la productividad en remoto y debates sobre el futuro del trabajo en un contexto donde la IA puede automatizar una parte creciente de las tareas de oficina. El consenso más extendido: el teletrabajo ha llegado para quedarse, pero su éxito depende de la confianza mutua entre empresa y empleado, y esa confianza es el activo más difícil de construir y el más fácil de destruir con políticas de control excesivo.`,
   },
 
   {
@@ -481,7 +515,9 @@ Las dos platas llegaron en relevos. El equipo masculino de 4x400 firmó la mejor
 
 Los bronces correspondieron a Ana Peleteiro en triple salto, que ganó por segunda vez consecutiva en un Mundial tras el oro de Budapest 2023, y a Álvaro Martín en 20 kilómetros marcha, una prueba donde España ha dominado históricamente y en la que el gallego sigue siendo referencia mundial a sus 32 años.
 
-La euforia en las redes sociales y en los chats deportivos fue inmediata. La sala de deportes de TuChat se convirtió en uno de los espacios de debate más activos durante los días del campeonato, con retransmisiones comentadas por la comunidad y análisis de cada medalla española en tiempo real. La afición expresó con entusiasmo que esta generación de atletas supone el relevo natural de los grandes campeones de los 90 y 2000.`,
+La euforia en las redes sociales y en los chats deportivos fue inmediata. La sala de deportes de TuChat se convirtió en uno de los espacios de debate más activos durante los días del campeonato, con retransmisiones comentadas por la comunidad y análisis de cada medalla española en tiempo real. La afición expresó con entusiasmo que esta generación de atletas supone el relevo natural de los grandes campeones de los 90 y 2000.
+
+El Mundial de Tokio cierra un ciclo extraordinario para el atletismo español que comenzó con la generación de Fermín Cacho y que hoy se proyecta hacia los Juegos Olímpicos de Los Ángeles 2028. Katir, Peleteiro, Álvaro Martín y los cuatro por cuatrocientos son ya nombres que forman parte del imaginario deportivo español, y sus medallas en Tokio son el argumento más poderoso para que la Federación y el Consejo Superior de Deportes aumenten la inversión en atletismo de base. El sueño de los primeros está en Los Ángeles; el de los que vienen detrás, en convertir España en potencia consolidada del atletismo mundial.`,
   },
 
   {
@@ -519,7 +555,9 @@ La participación fue del 62,4%, cuatro puntos por encima de las anteriores muni
 
 El resultado deja a los partidos ante semanas de negociaciones para constituir gobiernos locales en al menos quince capitales de provincia donde ningún candidato obtuvo mayoría absoluta. Los primeros análisis apuntan a que el tablero municipal resultante reflejará, en miniatura, las mismas tensiones y coaliciones que caracterizan la política nacional, con un PP que gobernará en alianza con Vox en algunas ciudades y con partidos regionalistas en otras.
 
-Desde la comunidad de chat de TuChat, los usuarios debatieron los resultados en tiempo real durante la noche electoral. Las salas de actualidad y política concentraron miles de mensajes en las horas posteriores al cierre de los colegios electorales, con debates que mezclaron análisis de datos, reacciones emocionales y predicciones sobre los pactos venideros. El chat de España fue el más activo de la noche con diferencia.`,
+Desde la comunidad de chat de TuChat, los usuarios debatieron los resultados en tiempo real durante la noche electoral. Las salas de actualidad y política concentraron miles de mensajes en las horas posteriores al cierre de los colegios electorales, con debates que mezclaron análisis de datos, reacciones emocionales y predicciones sobre los pactos venideros. El chat de España fue el más activo de la noche con diferencia.
+
+Las semanas posteriores a los comicios determinarán la configuración política de cientos de ayuntamientos. Los pactos que se formen en las grandes ciudades marcarán también el tono de la política nacional: una Madrid gobernada por la izquierda sería una señal potente para el ejecutivo central, mientras que las alianzas de PP y Vox en ciudades medianas indicarán si esa fórmula sigue siendo viable a nivel autonómico y estatal. El mapa municipal de 2026 será el primer gran termómetro de la política española antes de las próximas elecciones generales.`,
   },
 
   {
@@ -537,7 +575,9 @@ El podio lo completó Carlos Sainz con el Ferrari SF-26, que se repuso de un ini
 
 Con los resultados del Gran Premio de Mónaco, el panorama del campeonato empieza a perfilarse con claridad: Verstappen comanda con 189 puntos, Norris le sigue con 102, y Sainz ocupa el tercer puesto con 94. Las siguientes pruebas en Montreal y Silverstone, circuitos donde Red Bull históricamente no ha dominado con tanta claridad, serán la primera prueba real de si el dominio neerlandés tiene alguna fisura.
 
-La comunidad de TuChat siguió la carrera en directo en el chat de deportes y en la sala específica de Fórmula 1. Los debates sobre estrategia de neumáticos, la remontada de Sainz y las posibilidades de que alguien pueda recortar distancias a Verstappen en lo que queda de temporada generaron miles de mensajes durante las dos horas que duró el Gran Premio.`,
+La comunidad de TuChat siguió la carrera en directo en el chat de deportes y en la sala específica de Fórmula 1. Los debates sobre estrategia de neumáticos, la remontada de Sainz y las posibilidades de que alguien pueda recortar distancias a Verstappen en lo que queda de temporada generaron miles de mensajes durante las dos horas que duró el Gran Premio.
+
+La pregunta que más se repite entre los aficionados a la Fórmula 1 es si hay algún rival capaz de retar el dominio de Verstappen antes del final de la temporada. La respuesta más extendida apunta a que Norris y Sainz son los únicos con recursos suficientes para inquietar al neerlandés, pero que necesitarán que Red Bull cometa errores estratégicos o sufra problemas técnicos. Montreal y Silverstone, las dos próximas citas, son circuitos donde la potencia del motor puede ser más determinante que la carga aerodinámica, lo que podría dar a Ferrari y McLaren una oportunidad de recortar diferencias.`,
   },
 
   {
@@ -573,7 +613,9 @@ El modelo también incorpora capacidades mejoradas de razonamiento paso a paso, 
 
 El lanzamiento llega en un momento de máxima competencia en el sector. Google presentó Gemini Ultra 2 a principios de mayo y Anthropic lleva semanas en proceso de despliegue de Claude 4 Opus. Los analistas coinciden en que GPT-5 recupera para OpenAI el liderazgo técnico en el segmento empresarial, pero advierten que la ventaja puede ser efímera en un sector donde los ciclos de innovación se miden en meses, no en años.
 
-En el chat de TuChat, la sala de IA y tecnología registró un pico de actividad notable tras el anuncio. Los usuarios debatieron casos de uso, compararon las capacidades del nuevo modelo con las alternativas disponibles y compartieron primeras impresiones de las pruebas de acceso anticipado. La función de memoria persistente fue el tema más discutido, con opiniones divididas entre los que la valoran como un salto cualitativo en la experiencia y los que expresan reservas sobre privacidad.`,
+En el chat de TuChat, la sala de IA y tecnología registró un pico de actividad notable tras el anuncio. Los usuarios debatieron casos de uso, compararon las capacidades del nuevo modelo con las alternativas disponibles y compartieron primeras impresiones de las pruebas de acceso anticipado. La función de memoria persistente fue el tema más discutido, con opiniones divididas entre los que la valoran como un salto cualitativo en la experiencia y los que expresan reservas sobre privacidad.
+
+El debate entre la comunidad hispanohablante reflejó también la madurez creciente del ecosistema de usuarios de IA en español. Hace dos años, las conversaciones sobre modelos de lenguaje eran técnicas y se limitaban a desarrolladores; hoy participan profesionales de todo tipo que usan GPT-5 para redactar documentos legales, analizar contratos, resumir informes o preparar clases. Esta democratización del acceso a la IA de alta capacidad es quizá el impacto más transformador del lanzamiento de GPT-5: no el benchmark, sino la accesibilidad que ha convertido al modelo en una herramienta de trabajo cotidiana para millones de hispanohablantes.`,
   },
 
   {
@@ -627,7 +669,7 @@ El plan contempla también la creación de 200 unidades de salud mental infanto-
 
 La formación de los nuevos profesionales es otro de los desafíos del plan. España forma actualmente unos 400 psicólogos clínicos al año a través del sistema PIR, una cifra muy inferior a las nuevas plazas previstas. El plan contempla un aumento del 60% en el número de plazas PIR en el horizonte 2026-2028 y la homologación acelerada de títulos para profesionales procedentes de otros países de la Unión Europea.
 
-La acogida en la comunidad de TuChat ha reflejado el estado de ánimo social. La sala de salud y bienestar del portal registra con regularidad debates sobre ansiedad, acceso a terapia y el difícil equilibrio entre presiones laborales y salud mental, evidenciando que se trata de una conversación que ya no se produce en voz baja. Los expertos coinciden: sin una respuesta institucional a la altura, la brecha entre la demanda creciente de atención psicológica y una oferta pública insuficiente solo puede agrandarse en los próximos años.`,
+La acogida en la comunidad de TuChat ha reflejado el estado de ánimo social. La sala de salud y bienestar del portal registra con regularidad debates sobre ansiedad, acceso a terapia y el difícil equilibrio entre presiones laborales y salud mental, evidenciando que se trata de una conversación que ya no se produce en voz baja. Los expertos coinciden: sin una respuesta institucional a la altura, la brecha entre la demanda creciente de atención psicológica y una oferta pública insuficiente solo puede agrandarse en los próximos años. Para muchos usuarios, el plan de 3.000 plazas es una señal esperanzadora, pero su éxito dependerá de si el sistema logra absorber y retener a los nuevos profesionales con condiciones laborales dignas que eviten la fuga de talento hacia el sector privado.`,
   },
 
   {
