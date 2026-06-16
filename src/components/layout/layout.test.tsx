@@ -63,4 +63,13 @@ describe("layout", () => {
     expect(screen.getByRole("dialog")).toBeInTheDocument();
     expect(screen.getByText("Todas las salas")).toBeInTheDocument();
   });
+  it("MobileMenu closes dialog on Cerrar click", () => {
+    render(<MobileMenu />);
+    fireEvent.click(screen.getByRole("button", { name: /Abrir menú/i }));
+    expect(screen.getByRole("dialog")).toBeInTheDocument();
+    // Click the close button inside the panel
+    const closeButtons = screen.getAllByRole("button", { name: /Cerrar menú/i });
+    fireEvent.click(closeButtons[closeButtons.length - 1]); // inner close button
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
 });
