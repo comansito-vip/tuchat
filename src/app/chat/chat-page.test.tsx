@@ -13,8 +13,28 @@ describe("chat room copy", () => {
     expect(crumbs.map((c) => c.name)).toEqual(["Inicio", "España"]);
   });
 
+  it("builds breadcrumbs Inicio > Anime > Naruto for a sub-topic", () => {
+    const crumbs = buildRoomCrumbs(getPlace("naruto")!);
+    expect(crumbs.map((c) => c.name)).toEqual(["Inicio", "Anime", "Naruto"]);
+    // Parent is a topic (tematica), so URL should be /chat/anime
+    expect(crumbs[1].url).toBe("/chat/anime");
+  });
+
   it("builds a FAQ of 4 items for Madrid", () => {
     expect(buildFaq(getPlace("madrid")!)).toHaveLength(4);
+  });
+
+  it("buildFaq personalizes questions with the place name", () => {
+    const faq = buildFaq(getPlace("madrid")!);
+    expect(faq[0].q).toContain("Madrid");
+    expect(faq[1].q).toContain("Madrid");
+    expect(faq[2].q).toContain("Madrid");
+  });
+
+  it("buildFaq falls back to intro when about is absent", () => {
+    const place = { ...getPlace("amor")!, about: undefined };
+    const faq = buildFaq(place);
+    expect(faq[2].a).toBe(place.intro);
   });
 
   it("aboutLead returns a non-empty string for each kind", () => {
