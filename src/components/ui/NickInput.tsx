@@ -31,6 +31,7 @@ export function NickInput({
         value={nick}
         onChange={(e) => setNick(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && enter()}
+        aria-label={placeholder}
         placeholder={placeholder}
         maxLength={20}
         className={clsx(
