@@ -1506,4 +1506,38 @@ export const CITIES: Place[] = [
     about:
       "El chat de Londres recoge a la enorme colonia hispana de la ciudad: colombianos y ecuatorianos del sur, alrededor de Elephant & Castle, junto a españoles que cruzaron el Canal por trabajo. Se habla de la lluvia eterna, del coste de vida que ahoga, del Tube abarrotado y de los rincones donde aún se consigue una arepa o un buen café. Una sala variada donde se cruzan acentos de medio continente buscando con quién charlar en su idioma.",
   },
+  {
+    slug: "bariloche",
+    name: "Bariloche",
+    kind: "ciudad",
+    icon: "🏔️",
+    users: 156,
+    votes: 278,
+    activity: "Media",
+    parentName: "Argentina",
+    parentSlug: "argentina",
+    channels: ["bariloche", "argentina", "amistad", "chatzona"],
+    related: ["argentina", "buenos-aires", "viajes", "amistad", "amor"],
+    intro:
+      "Charlá con gente de Bariloche y la Patagonia: lagos, cerro Catedral y chocolate. Chat gratis sin registro del sur.",
+    about:
+      "El chat de Bariloche reúne a la gente de la Patagonia andina, esa que vive entre lagos, bosques y el reflejo del Nahuel Huapi. Se habla de la temporada de esquí en el cerro Catedral, de las chocolaterías de la calle Mitre, del frío que pela en invierno y de las caminatas por el Circuito Chico cuando afloja. Hay charla de la nieve, del Llao Llao, de la cerveza artesanal del sur y de la vida tranquila lejos del ritmo porteño. Conviven barilochenses de toda la vida, gente que llegó buscando la montaña y quienes sueñan con mudarse. Una sala con aire fresco de cordillera donde se hacen amistades y planes para recorrer el sur.",
+  },
+  {
+    slug: "chaco-corrientes",
+    name: "Chaco y Corrientes",
+    kind: "ciudad",
+    icon: "🪗",
+    users: 138,
+    votes: 244,
+    activity: "Media",
+    parentName: "Argentina",
+    parentSlug: "argentina",
+    channels: ["chaco-corrientes", "argentina", "amistad", "chatzona"],
+    related: ["argentina", "paraguay", "amistad", "musica", "latinos"],
+    intro:
+      "Gente del litoral: chamamé, calor y mate amargo. Chaco y Corrientes de la mano. Chat gratis sin registro.",
+    about:
+      "Sala para la gente del litoral argentino, donde el chamamé se mete en el cuerpo y el acordeón suena en cada fiesta. Se junta gente de Resistencia, Corrientes capital, Goya y los pueblos a la vera del Paraná. Se habla con el guaraní cerca, se aguanta el calor pegajoso del nordeste y se ceba mate amargo o tereré según el día. Hay charla del Carnaval correntino, del Gauchito Gil, de la pesca del dorado y de las leyendas que cuentan los abuelos. Es una cultura guaranítica de gente cálida y sencilla, con esa tonadita cantada tan del litoral. Un punto de encuentro para paisanos que llevan el chamamé y el río en el alma.",
+  },
 ];
