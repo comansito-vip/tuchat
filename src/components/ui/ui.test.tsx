@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { Button } from "./Button";
 import { Badge } from "./Badge";
 import { NickInput } from "./NickInput";
@@ -8,7 +8,8 @@ import { Card } from "./Card";
 import { SectionTitle } from "./SectionTitle";
 import { SearchInput } from "./SearchInput";
 
-vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
+const mockPush = vi.fn();
+vi.mock("next/navigation", () => ({ useRouter: () => ({ push: mockPush }) }));
 vi.mock("next/image", () => ({
   default: ({ src, alt, ...props }: { src: string; alt: string; [k: string]: unknown }) => (
     // eslint-disable-next-line @next/next/no-img-element
@@ -38,6 +39,26 @@ describe("ui primitives", () => {
     render(<NickInput canal="espana" />);
     const input = screen.getByRole("textbox");
     expect(input).toHaveAttribute("maxLength", "20");
+  });
+  it("NickInput navigates to /webchat with typed nick on button click", () => {
+    mockPush.mockClear();
+    render(<NickInput canal="madrid" />);
+    fireEvent.change(screen.getByRole("textbox"), { target: { value: "Pepito" } });
+    fireEvent.click(screen.getByRole("button", { name: /Entrar/i }));
+    expect(mockPush).toHaveBeenCalledWith("/webchat?canal=madrid&nick=Pepito");
+  });
+  it("NickInput falls back to Invitado when nick is empty", () => {
+    mockPush.mockClear();
+    render(<NickInput canal="barcelona" />);
+    fireEvent.click(screen.getByRole("button", { name: /Entrar/i }));
+    expect(mockPush).toHaveBeenCalledWith("/webchat?canal=barcelona&nick=Invitado");
+  });
+  it("NickInput navigates on Enter key press", () => {
+    mockPush.mockClear();
+    render(<NickInput canal="amor" />);
+    fireEvent.change(screen.getByRole("textbox"), { target: { value: "MiNick" } });
+    fireEvent.keyDown(screen.getByRole("textbox"), { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith("/webchat?canal=amor&nick=MiNick");
   });
 });
 
