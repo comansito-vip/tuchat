@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, CONTINENTS } from "@/data";
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {
@@ -58,6 +58,33 @@ describe("data getters", () => {
     for (let i = 1; i < ranking.length; i++) {
       expect(ranking[i].votes).toBeLessThanOrEqual(ranking[i - 1].votes);
     }
+  });
+});
+
+describe("CONTINENTS integrity", () => {
+  it("all CONTINENTS slugs reference valid country places", () => {
+    const countrySlugs = new Set(getCountries().map((c) => c.slug));
+    const violations = CONTINENTS.flatMap((cont) =>
+      cont.places
+        .filter((p) => !countrySlugs.has(p.slug))
+        .map((p) => `${cont.title}: "${p.slug}" (${p.name})`)
+    );
+    expect(violations).toEqual([]);
+  });
+
+  it("no duplicate slugs across CONTINENTS", () => {
+    const allSlugs = CONTINENTS.flatMap((c) => c.places.map((p) => p.slug));
+    const counts = allSlugs.reduce<Record<string, number>>((acc, s) => {
+      acc[s] = (acc[s] ?? 0) + 1;
+      return acc;
+    }, {});
+    const dupes = Object.entries(counts).filter(([, n]) => n > 1).map(([s]) => s);
+    expect(dupes).toEqual([]);
+  });
+
+  it("each continent has at least 1 place", () => {
+    const empty = CONTINENTS.filter((c) => c.places.length === 0).map((c) => c.title);
+    expect(empty).toEqual([]);
   });
 });
 

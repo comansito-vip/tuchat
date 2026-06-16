@@ -494,7 +494,6 @@ export const CONTINENTS: { title: string; places: { name: string; slug: string }
   {
     title: "Europa",
     places: [
-      { name: "España", slug: "espana" },
       { name: "Francia", slug: "francia" },
       { name: "Reino Unido", slug: "reino-unido" },
       { name: "Italia", slug: "italia" },
@@ -509,5 +508,4 @@ export const CONTINENTS: { title: string; places: { name: string; slug: string }
       { name: "Guinea Ecuatorial", slug: "guinea-ecuatorial" },
     ],
   },
-  { title: "Mundo", places: [{ name: "Internacional", slug: "internacional" }] },
 ];
