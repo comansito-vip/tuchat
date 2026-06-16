@@ -150,7 +150,7 @@ const RAW: Place[] = [
     intro:
       "Chat del FC Barcelona para culés de todo el mundo: La Masia, el tiki-taka, fichajes y el Clásico ante el Madrid. Orgullo blaugrana sin filtros.",
     about:
-      "El espíritu de Cruyff y Guardiola sigue mandando en esta sala. Se recuerda el sextete de 2009, la magia de Messi, Xavi e Iniesta, y se discute el presente de La Masia con Lamine Yamal y Pedri tirando del carro. La deuda, los fichajes y el regreso al Camp Nou remodelado dan para horas. El Clásico contra el Madrid enciende todo, y el orgullo blaugrana del “més que un club” no se negocia jamás.",
+      "El espiritu de Cruyff y Guardiola sigue mandando en esta sala. Se recuerda el sextete de 2009 con la Champions, La Liga, la Copa, la Supercopa de Espana, la Supercopa de Europa y el Mundial de Clubes, la magia de Messi, Xavi e Iniesta, y se discute el presente con Lamine Yamal y Pedri tirando del carro desde La Masia. La deuda economica, los fichajes del mercado y el regreso al Camp Nou remodelado dan para horas de debate. El Clasico contra el Real Madrid enciende todo, y el orgullo blaugrana del mes que un club no se negocia jamas con nadie.",
   },
   {
     slug: "atletico-madrid",
@@ -165,7 +165,7 @@ const RAW: Place[] = [
     intro:
       "Sala del Atlético de Madrid: el Cholismo, el Metropolitano, derbis madrileños y esa manera de sufrir y ganar que solo entiende el colchonero.",
     about:
-      "Sentimiento colchonero del bueno: sufrir, pelear y no rendirse jamás. Se rememoran las Ligas de Simeone, las dos finales de Champions perdidas ante el Madrid que aún escuecen, y leyendas como Aragonés, el Niño Torres y Koke. La afición del fondo sur, el “partido a partido” y el pique eterno con el vecino blanco mandan en los debates. El Cívitas Metropolitano es la nueva fortaleza desde que dejaron el Calderón.",
+      "Sentimiento colchonero del bueno: sufrir, pelear y no rendirse jamás. Se rememoran las Ligas de Simeone, las dos finales de Champions perdidas ante el Madrid que aún escuecen, y leyendas como Aragonés, el Niño Torres y Koke. La afición del fondo sur, el partido a partido y el pique eterno con el vecino blanco mandan en los debates. El Cívitas Metropolitano es la nueva fortaleza desde que dejaron el Calderón.",
   },
   {
     slug: "boca-juniors",
