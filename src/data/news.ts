@@ -1,6 +1,186 @@
 import type { NewsItem } from "./types";
 
 export const NEWS: NewsItem[] = [
+  // ── Artículos nuevos (junio 16, 2026) ───────────────────────────────────────
+
+  {
+    slug: "desempleo-espana-minimo-18-anios-2026",
+    title: "El paro en España cae al 9,8% y toca su nivel más bajo desde 2008",
+    category: "Actualidad",
+    excerpt:
+      "La EPA del segundo trimestre confirma que España tiene 2,3 millones de parados, la cifra más baja desde el inicio de la crisis financiera en 2008.",
+    date: "2026-06-16",
+    body: `El mercado laboral español ha entrado en territorio histórico. La Encuesta de Población Activa del segundo trimestre de 2026, publicada hoy por el Instituto Nacional de Estadística, cifra la tasa de desempleo en el 9,8%, la más baja desde el segundo trimestre de 2008, justo antes del estallido de la burbuja inmobiliaria y la crisis financiera global. En números absolutos, el paro afecta a 2.299.000 personas, lo que supone una reducción de 340.000 desempleados respecto al mismo trimestre del año anterior.
+
+El dato confirma una tendencia que viene consolidándose desde 2023: el mercado de trabajo español está creando empleo con una solidez que sorprende incluso a los analistas más optimistas. La afiliación a la Seguridad Social batió un nuevo récord en mayo con 22,1 millones de cotizantes, y el número de contratos indefinidos —fruto de la reforma laboral de 2021— supera ya el 80% de la contratación total, frente al 10% que representaba hace cinco años.
+
+El desempleo juvenil, aunque ha bajado del 27% al 20,4%, sigue siendo el punto débil del mercado laboral español. Es una tasa cuatro veces superior a la de los mayores de 45 años y refleja las dificultades de los jóvenes para acceder a su primer empleo estable, especialmente en las ramas de humanidades, artes y ciencias sociales. Los economistas señalan que la brecha entre el paro juvenil y el general es la asignatura pendiente de un mercado laboral que ha mejorado enormemente en términos agregados pero que sigue sin integrar a toda la población activa en igualdad de condiciones.
+
+Por sectores, los servicios lideran la creación de empleo con 285.000 nuevos ocupados en el trimestre. El turismo, que vive su verano más activo desde 2019, explica buena parte de esa cifra: más de 200.000 contratos vinculados a la hostelería y al transporte turístico se han activado en mayo y junio. La industria manufacturera registra, en cambio, un ligero retroceso vinculado a la menor demanda europea y a los efectos de la transición verde en el sector del automóvil.
+
+La ministra de Economía calificó el dato de «hito histórico» y recordó que España llegó a superar el 27% de desempleo en 2013. «Hemos pasado de ser el país con mayor paro de la OCDE a uno de los que más empleo ha creado en la última década», afirmó. La oposición reconoció la mejora pero señaló que la calidad del empleo sigue siendo inferior a la media europea, con una elevada proporción de contratos a tiempo parcial y salarios bajos en el sector servicios.
+
+La noticia se debatió con interés en las salas de TuChat. Los usuarios celebraron el mínimo histórico pero abrieron un debate sobre la calidad del empleo generado: «¿Cuántos de esos contratos son a tiempo parcial involuntario o con sueldos que no dan para vivir?», preguntaba un usuario en el canal de España. Otros destacaron que las cifras macroeconómicas positivas contrastan con la percepción cotidiana de muchos trabajadores jóvenes que, a pesar de tener empleo, no consiguen independizarse ni ahorrar para el futuro.`,
+  },
+
+  {
+    slug: "museo-prado-bicentenario-2026",
+    title: "El Museo del Prado celebra su bicentenario con una exposición que supera el millón de visitantes",
+    category: "Cultura",
+    excerpt:
+      "La muestra del bicentenario del Prado cierra con más de un millón de visitantes y consolida al museo como el referente cultural más visitado de España.",
+    date: "2026-06-16",
+    body: `El Museo del Prado ha cerrado la exposición conmemorativa de su bicentenario con más de un millón de visitantes en noventa días, un hito sin precedentes en la historia del museo y uno de los mejores datos de asistencia de una exposición temporal en España. La muestra, titulada «200 años de miradas: el Prado y el mundo», reunió 187 obras procedentes de 34 museos de 18 países, muchas de las cuales nunca habían salido de sus instituciones de origen ni habían sido vistas juntas en ningún otro escenario.
+
+La exposición, organizada en seis salas temáticas, propuso un recorrido por los tres siglos de historia del arte que el Prado custodia, estableciendo diálogos entre obras de Velázquez, Goya, Rubens y El Greco con prestaciones excepcionales del Louvre, el Metropolitan de Nueva York, el Rijksmuseum de Ámsterdam y la Galería degli Uffizi de Florencia. El Autorretrato de Rembrandt del Rijksmuseum, presente en Madrid durante diez semanas, generó por sí solo colas de hasta tres horas durante los primeros fines de semana.
+
+La directora del Prado calificó el resultado como «una demostración de que el arte clásico sigue hablando al público del siglo XXI sin necesidad de artificios». Las cifras lo confirman: la franja de edad más numerosa entre los visitantes fue la de 25 a 40 años, seguida de cerca por la de mayores de 60. Los visitantes internacionales supusieron el 58% del total, con notable presencia de turistas de Estados Unidos, Francia, Alemania, Italia y, cada vez más, de China y Japón.
+
+El bicentenario del Prado coincide con el anuncio de la ampliación del museo hacia el Paseo del Prado, un proyecto que llevará la superficie expositiva total del complejo a más de 65.000 metros cuadrados e incluirá nuevas galerías dedicadas al grabado y la escultura, espacios educativos y un centro de documentación de acceso abierto. La inversión prevista supera los 300 millones de euros con financiación mixta pública y privada.
+
+Tras el éxito del bicentenario, el museo ha anunciado ya la programación del próximo año, que incluirá la primera exposición monográfica sobre Sorolla en el Prado, una retrospectiva de María Blanchard y una muestra colaborativa con el Guggenheim Bilbao sobre las vanguardias del siglo XX.
+
+Las salas de cultura y de España en TuChat acogieron durante los meses de la exposición debates sobre arte clásico, identidad cultural y el papel de los museos en la España contemporánea. Muchos usuarios compartieron impresiones desde las colas del Prado y sus experiencias ante obras que no esperaban ver nunca en directo. «Ver el Autorretrato de Rembrandt en persona es algo que no se olvida», escribía una usuaria de Madrid. La efeméride del bicentenario ha reforzado la percepción de que el Prado no es solo un museo, sino uno de los pilares de la cultura y la identidad española a escala global.`,
+  },
+
+  {
+    slug: "alcaraz-roland-garros-2026-campeon",
+    title: "Carlos Alcaraz conquista Roland Garros 2026 y suma su tercer Grand Slam en tierra batida",
+    category: "Deportes",
+    excerpt:
+      "El murciano derrota a Jannik Sinner en cinco sets en una final histórica en París y reafirma su dominio en la arcilla europea.",
+    date: "2026-06-16",
+    body: `Carlos Alcaraz ha vuelto a escribir historia en la Philippe Chatrier. El tenista murciano se ha proclamado campeón del Roland Garros 2026 tras derrotar a Jannik Sinner en una final de cinco sets que duró cuatro horas y cuarenta minutos y que el público parisino calificó como una de las mejores partidas de la última década. Con este título, Alcaraz suma su tercer Grand Slam en arcilla y se consolida como el jugador de tierra batida más dominante desde la retirada de Rafael Nadal.
+
+El resultado final fue 6-4, 3-6, 6-3, 4-6, 7-5, un marcador que refleja la tensión de un duelo equilibrado en el que ninguno de los dos jugadores bajó el nivel en ningún momento. Sinner, que llegaba a París como número uno del mundo y campeón de los dos últimos Abiertos de Australia, ofreció una resistencia formidable que obligó a Alcaraz a recuperarse de dos situaciones complicadas en el cuarto set y en el quinto. El punto definitivo, un ganador paralelo de revés, desató la euforia en las gradas y la exhibición de banderas españolas que ya se ha convertido en una tradición cada vez que Alcaraz gana un grande.
+
+El español, que cumplirá 24 años en mayo, declaró en la rueda de prensa posterior que este título tiene un significado especial: «Ganar en París siempre es distinto. Es el torneo donde la arcilla se pone más exigente y donde la cabeza pesa tanto como la raqueta». Alcaraz llegó a Roland Garros después de ganar los Masters de Montecarlo y Madrid, acumulando 22 victorias consecutivas en tierra.
+
+En la tabla histórica de ganadores del Roland Garros, Alcaraz se sitúa ahora con tres títulos en París. Muchos analistas señalan que, con su edad y su trayectoria, puede convertirse en el máximo ganador del torneo si mantiene este nivel de juego hasta los treinta años. La comparación con Nadal, inevitable, aparece en cada análisis, aunque los más prudentes prefieren dejar que los números hablen solos con el paso de los años.
+
+Las salas de deporte y de España en TuChat se inundaron de mensajes de celebración durante y después de la final. El partido, emitido en abierto por RTVE, congregó a más de ocho millones de espectadores en España, la mejor audiencia de un partido de tenis en televisión española desde el Roland Garros de Nadal en 2022. «Alcaraz es la continuación natural de lo que fue Rafa para nosotros. Y encima disfruta más todavía», escribía un usuario valenciano en la sala de deportes. La victoria ha generado miles de mensajes de admiración desde México, Argentina, Colombia y el resto de la comunidad hispana presente en la plataforma.`,
+  },
+
+  {
+    slug: "banco-espana-pib-crecimiento-2026",
+    title: "El Banco de España revisa al alza el crecimiento del PIB hasta el 2,7% para 2026",
+    category: "Economía",
+    excerpt:
+      "La institución eleva tres décimas su previsión de crecimiento apoyada en el consumo interno, el turismo récord y la resiliencia del mercado laboral.",
+    date: "2026-06-15",
+    body: `El Banco de España ha publicado su informe de coyuntura del segundo trimestre de 2026 con una revisión al alza de sus previsiones de crecimiento económico. La institución estima ahora que el Producto Interior Bruto español crecerá un 2,7% en 2026, tres décimas más que la estimación de enero, apoyado en la solidez del consumo privado, el récord histórico de llegadas de turistas extranjeros y la notable resistencia del mercado laboral. España se situaría así como uno de los países de mayor crecimiento de la zona euro, junto con Portugal y Grecia.
+
+Los datos del primer semestre avalan el optimismo de la institución: la afiliación a la Seguridad Social ha batido su récord histórico con 22,1 millones de cotizantes en mayo, el gasto de los hogares en consumo ha crecido un 3,2% interanual y las exportaciones de bienes y servicios acumulan una subida del 4,8% respecto al mismo período de 2025. El turismo aporta especialmente: según el INE, solo en los primeros cinco meses del año han llegado a España 48 millones de visitantes internacionales, un 6% más que el récord anterior.
+
+El gobernador del Banco de España ha advertido, pese al tono positivo del informe, de los riesgos que permanecen abiertos para la economía española. El primero es la tensión en el mercado inmobiliario, donde la subida de precios en las principales ciudades genera un efecto riqueza positivo para los propietarios pero presiona el poder adquisitivo de quienes buscan acceder a la primera vivienda. El segundo es el contexto geopolítico: la incertidumbre derivada de los conflictos en Ucrania y Oriente Próximo sigue afectando a los precios energéticos y a las cadenas de suministro industriales.
+
+En cuanto a la inflación, el Banco de España espera que se mantenga por debajo del 2% durante el segundo semestre de 2026, lo que refuerza la posibilidad de que el Banco Central Europeo continúe con su ciclo de rebajas de tipos de interés. Una hipotética reducción adicional de 25 puntos básicos antes de diciembre aligeraría las condiciones de financiación para empresas y familias y podría estimular la inversión en sectores como la construcción y la industria verde.
+
+El informe también dedica un capítulo especial a la productividad, señalando que España sigue por debajo de la media europea y que cerrar esa brecha es la condición necesaria para que el crecimiento actual se traduzca en mejoras sostenibles del bienestar. La digitalización de las pymes, la inversión en I+D y la formación profesional aparecen como las palancas prioritarias.
+
+Los foros económicos de TuChat acogieron el informe con una mezcla de satisfacción y escepticismo. «Los números del PIB están bien, pero el problema es que ese crecimiento no llega igual a todo el mundo. Los salarios no han subido lo mismo que los precios en los últimos tres años», razonaba un usuario madrileño. Otros destacaron la resiliencia del empleo y la mejora de la imagen exterior de España como economía estable dentro de la zona euro.`,
+  },
+
+  {
+    slug: "benidorm-fest-2027-valencia-nuevo-formato",
+    title: "Benidorm Fest 2027 se celebrará en Valencia con nuevo formato y más música urbana en español",
+    category: "Entretenimiento",
+    excerpt:
+      "RTVE anuncia que la quinta edición del Benidorm Fest se celebrará en Valencia y dará más protagonismo al pop urbano y al reggaetón en español.",
+    date: "2026-06-16",
+    body: `RTVE ha anunciado oficialmente que el Benidorm Fest 2027 cambiará de sede y de formato para su quinta edición. La celebración se trasladará de Benidorm a Valencia, donde se celebrará en el Pabellón Municipal de l'Alqueria, con capacidad para 15.000 personas. El cambio llega después de cuatro años de crecimiento sostenido del festival, que ha pasado de ser un evento de nicho a convertirse en uno de los programas musicales más seguidos de la televisión española, con más de tres millones de espectadores en la final de 2026.
+
+El nuevo formato, que RTVE ha denominado «Benidorm Fest Abierto», busca ampliar el espectro de géneros musicales representados. Hasta ahora, el festival ha combinado pop, electrónica y cantautores, pero la quinta edición incorporará una cuota mínima del 30% de canciones en géneros urbanos: reggaetón, trap, afrobeats y música latina. La decisión ha generado un debate intenso en el mundo musical: los defensores del cambio argumentan que refleja la realidad de lo que escuchan los jóvenes en España; los críticos temen que el festival pierda su identidad propia.
+
+El director de Entretenimiento de RTVE explicó en rueda de prensa que la elección de Valencia no es casual: «Valencia tiene una industria musical muy activa, un público joven y entusiasta y una infraestructura perfecta para este tipo de eventos». La capital del Turia también acogerá, en paralelo, un festival urbano de tres días coincidiendo con la celebración del Benidorm Fest, con actuaciones de artistas latinoamericanos invitados.
+
+La fase de inscripciones para candidatos al Benidorm Fest 2027 se abrirá en octubre de 2026. RTVE ha confirmado que el sistema de votación mixto —jurado profesional más televoto— se mantendrá, aunque el peso del televoto aumentará del 50% al 60% para dar más voz al público general. También se estrena una nueva figura: el «Wild Card», una plaza reservada para un artista sin discográfica que haya superado un proceso de selección abierta a través de plataformas digitales.
+
+La apuesta por Valencia tiene también una lectura geopolítica dentro del sector cultural español: las ediciones anteriores se celebraron siempre en la Costa Blanca, y el traslado a la tercera ciudad de España abre el festival a un público más amplio y diverso. Los promotores locales de Valencia llevan meses trabajando para asegurar que la ciudad esté preparada para acoger el incremento de visitantes que suele generar el Benidorm Fest en su sede.
+
+Las salas de entretenimiento de TuChat recibieron la noticia con opiniones divididas. «Valencia me parece perfecta, tiene mucho más ambiente que Benidorm en invierno», escribía una usuaria alicantina. «Lo de incluir reggaetón lo entiendo, pero espero que no pierdan lo que hizo especial al Benidorm Fest: canciones que se salían de lo habitual», decía otro usuario. El festival se ha convertido en los últimos años en uno de los eventos de entretenimiento más debatidos en los canales de música de la plataforma, y el cambio de sede no ha hecho más que avivar la conversación.`,
+  },
+
+  {
+    slug: "google-gemini-ultra-3-razonamiento-cientifico-2026",
+    title: "Google presenta Gemini Ultra 3 con razonamiento científico que supera a los mejores modelos actuales",
+    category: "IA",
+    excerpt:
+      "El nuevo modelo de IA de Google obtiene el mejor resultado histórico en benchmarks de razonamiento científico y ya se integra en Google Workspace y Search.",
+    date: "2026-06-16",
+    body: `Google ha presentado Gemini Ultra 3 en su conferencia anual Google I/O, confirmando lo que los laboratorios de evaluación de inteligencia artificial venían anticipando: el nuevo modelo supera a todos los competidores actuales en razonamiento científico, matemáticas avanzadas y comprensión de lenguaje en múltiples idiomas. Los benchmarks publicados por la compañía muestran que Gemini Ultra 3 obtiene un 94,7% de aciertos en el MMLU —Massive Multitask Language Understanding— y un 89,3% en el GPQA Diamond, que evalúa conocimientos de nivel experto en física, química y biología.
+
+El avance más significativo, según los investigadores de DeepMind que participaron en su desarrollo, es la capacidad del modelo para resolver problemas de investigación científica de varios pasos: diseñar hipótesis, analizar datos experimentales y proponer experimentos de validación de forma autónoma. En pruebas con laboratorios universitarios asociados, Gemini Ultra 3 fue capaz de identificar nuevos candidatos a compuestos antivirales a partir de bases de datos de proteínas, una tarea que habitualmente requería semanas de trabajo humano especializado.
+
+Además de sus capacidades de razonamiento, Gemini Ultra 3 incorpora mejoras notables en generación de imágenes y vídeo, con un nuevo módulo multimodal que permite entender y generar contenido audiovisual con mayor coherencia narrativa que las versiones anteriores. Google ha anunciado que el modelo se integrará en Google Workspace —Docs, Sheets, Gmail—, en Google Search como «AI Overviews Pro» y en el asistente de Android a lo largo del tercer trimestre de 2026.
+
+La aparición de Gemini Ultra 3 reactiva la competición entre las grandes tecnológicas por el liderazgo en inteligencia artificial. OpenAI respondió recordando que GPT-5 mantiene ventajas en razonamiento verbal y generación de código, mientras que Anthropic destacó las credenciales de seguridad y alineación de sus modelos Claude 4 frente a la velocidad de despliegue de Google. Meta, por su parte, ha acelerado el desarrollo de Llama 4 Ultra para no quedarse atrás en el segmento de código abierto.
+
+El mercado reaccionó positivamente al anuncio: las acciones de Alphabet subieron un 5,3% en la sesión del día de la presentación. Los analistas destacan que la integración de Gemini Ultra 3 directamente en Search puede cambiar la forma en que los usuarios acceden a la información, con implicaciones profundas para el modelo publicitario de Google y para el sector de los medios de comunicación.
+
+Las salas de tecnología e inteligencia artificial de TuChat fueron escenario de debates técnicos y filosóficos desde que se filtró información sobre Gemini Ultra 3 semanas antes de su presentación. «La cuestión ya no es si la IA puede hacer ciencia, sino quién controlará esa capacidad y para qué intereses», apuntaba un usuario en el canal de IA. Otros debatían las implicaciones del acceso democrático a herramientas tan potentes: «Si esto solo está disponible para grandes empresas, el abismo con el ciudadano de a pie crecerá todavía más». El lanzamiento de Gemini Ultra 3 marca un punto de inflexión en la carrera por la IA que tendrá consecuencias profundas en la economía, la ciencia y la sociedad.`,
+  },
+
+  {
+    slug: "farmaco-alzheimer-espana-aemps-2026",
+    title: "España aprueba el primer fármaco nacional para frenar el Alzheimer en fases tempranas",
+    category: "Salud",
+    excerpt:
+      "La AEMPS autoriza el primer anticuerpo monoclonal español contra el Alzheimer, que redujo el deterioro cognitivo un 38% en los ensayos clínicos de fase III.",
+    date: "2026-06-14",
+    body: `La Agencia Española de Medicamentos y Productos Sanitarios ha autorizado el uso clínico de Neuroceptin, el primer anticuerpo monoclonal desarrollado en España para el tratamiento del Alzheimer en fases tempranas. El fármaco, resultado de diez años de investigación conjunta entre el Consejo Superior de Investigaciones Científicas y la empresa española BioNeura, ha demostrado en los ensayos clínicos de fase III una reducción del 38% en el ritmo de deterioro cognitivo en pacientes con Alzheimer leve o moderado durante 18 meses de tratamiento. Es el primer medicamento de este tipo desarrollado íntegramente en España y uno de los cuatro existentes en el mundo con indicación específica para esta enfermedad.
+
+El Alzheimer afecta en España a aproximadamente 800.000 personas, una cifra que la Sociedad Española de Neurología proyecta que podría alcanzar el millón y medio para 2040 si no se desarrollan terapias preventivas o modificadoras de la enfermedad. Hasta la aprobación de Neuroceptin, los tratamientos disponibles en el Sistema Nacional de Salud eran paliativos y no intervenían en la causa subyacente del deterioro neurológico: la acumulación de placas de proteína beta-amiloide y ovillos de tau en el cerebro.
+
+El mecanismo de acción de Neuroceptin consiste en bloquear la agregación de la proteína tau modificada, uno de los dos marcadores biológicos clave del Alzheimer. A diferencia de los anticuerpos antiamiloide aprobados anteriormente en Estados Unidos, que actúan sobre el depósito de amiloide, Neuroceptin actúa sobre la propagación del daño neuronal, lo que podría hacerlo complementario a otras terapias en el futuro. Los investigadores del CSIC describieron el resultado como «el mayor avance de la neurología española en veinte años».
+
+La AEMPS ha condicionado la autorización a un programa de farmacovigilancia reforzada durante los primeros tres años de comercialización y ha exigido que su prescripción sea realizada exclusivamente por neurólogos en centros con capacidad de diagnóstico molecular. El precio del tratamiento, todavía en negociación con el Ministerio de Sanidad para su inclusión en la cartera de servicios del SNS, es uno de los puntos más sensibles: en los mercados donde ya está autorizado un fármaco comparable, el coste anual por paciente supera los 30.000 euros.
+
+La aprobación ha generado un amplio debate sobre el acceso equitativo a los tratamientos innovadores. Organizaciones de pacientes reclaman que Neuroceptin entre en el SNS en un plazo máximo de seis meses, mientras que las autoridades sanitarias advierten de que el proceso de negociación de precio y financiación puede prolongarse entre uno y dos años.
+
+Las salas de salud y de actualidad en TuChat recibieron la noticia con una mezcla de esperanza y preguntas sobre el acceso real al medicamento. «Mi madre tiene Alzheimer desde hace tres años. Si esto realmente frena el deterioro, es la mejor noticia que he escuchado en mucho tiempo», escribía un usuario andaluz. Otros llamaban la atención sobre la barrera económica: «Que exista el medicamento está muy bien, pero si no entra en el SNS a precio asequible, solo lo tendrán quienes puedan pagarlo privado». El debate sobre la equidad en el acceso a terapias innovadoras es uno de los más recurrentes en la sala de salud de la plataforma.`,
+  },
+
+  {
+    slug: "meta-ray-ban-3-ia-traduccion-2026",
+    title: "Meta lanza las Ray-Ban 3 con IA integrada: traducción simultánea y llamadas sin móvil",
+    category: "Tecnología",
+    excerpt:
+      "Las nuevas gafas de Meta y Ray-Ban incorporan chip propio, IA conversacional sin conexión y batería de 12 horas como primer wearable de IA de consumo masivo.",
+    date: "2026-06-15",
+    body: `Meta ha presentado en su conferencia Connect 2026 las Ray-Ban 3, la tercera generación de sus gafas de realidad aumentada en colaboración con Ray-Ban. El nuevo dispositivo da un salto cualitativo respecto a sus predecesoras: incorpora el chip Meta Aria 2, diseñado específicamente para wearables de IA, que permite ejecutar en local una versión compacta de Llama 4 sin necesidad de conexión permanente a la nube. El resultado es un dispositivo que puede realizar traducción simultánea en 12 idiomas, reconocer objetos y lugares en tiempo real, transcribir conversaciones y responder preguntas contextuales con una latencia de menos de 300 milisegundos.
+
+La autonomía de batería es otro de los puntos fuertes de las Ray-Ban 3: Meta promete 12 horas de uso mixto —escucha de música, llamadas e IA activa— frente a las cuatro horas de la generación anterior. Las gafas también permiten hacer y recibir llamadas sin necesidad de tener el móvil encima, ya que incluyen una SIM embebida compatible con las operadoras principales de Europa y América. La cámara frontal ha mejorado su resolución hasta los 12 megapíxeles y puede grabar vídeo en 4K con estabilización óptica.
+
+El precio de lanzamiento en España es de 449 euros para el modelo básico con el estuche de carga incluido. Hay disponibles tres tallas de montura y cuatro modelos de lentes: transparentes, fotocromáticas, polarizadas y graduables bajo pedido. Meta ha confirmado que las Ray-Ban 3 estarán disponibles desde el primer día con interfaz en español, catalán, euskera y gallego para los modelos de IA conversacional.
+
+La presentación no ha estado exenta de polémica. Organizaciones de privacidad digital han señalado que la capacidad de reconocimiento facial de las gafas plantea riesgos serios si se usa sin consentimiento de las personas identificadas. Meta ha respondido que el reconocimiento facial está desactivado por defecto y que solo funciona con fotos propias del usuario almacenadas localmente. Sin embargo, varios investigadores de seguridad han publicado análisis técnicos que ponen en duda la eficacia de esas salvaguardas en la práctica.
+
+El lanzamiento de las Ray-Ban 3 llega en un momento de intensa competencia en el segmento de los wearables de IA. Apple trabaja en su propia versión de gafas inteligentes, y Samsung ha anunciado un dispositivo similar para finales de 2026. El mercado global de gafas de realidad aumentada podría superar los 15.000 millones de euros en 2027, según las últimas estimaciones de IDC.
+
+Las salas de tecnología de TuChat han seguido el lanzamiento con especial interés. «Llevo tres años esperando que las gafas de IA sean realmente útiles y no solo un gadget para fotos», escribía un usuario madrileño que ya tenía reservada su unidad. Otros muestran más cautela: «La IA traduciendo en tiempo real es impresionante, pero meter una cámara de 12MP en algo que llevas puesto todo el día me genera muchas dudas sobre la privacidad de los demás». Las Ray-Ban 3 se han convertido en el producto tecnológico más comentado en TuChat en las últimas semanas.`,
+  },
+
+  {
+    slug: "albania-costa-turismo-espanoles-verano-2026",
+    title: "La Riviera albanesa seduce al turismo español: playas vírgenes a precios hasta un 60% más bajos",
+    category: "Viajes",
+    excerpt:
+      "Cada vez más españoles descubren las costas de Albania como alternativa a Grecia y Croacia: playas casi vírgenes y precios hasta un 60% más baratos.",
+    date: "2026-06-14",
+    body: `La Riviera albanesa se ha convertido en uno de los destinos más buscados por los viajeros españoles para el verano de 2026. Según datos de los principales comparadores de vuelos y alojamiento, las búsquedas de Albania desde España han crecido un 140% respecto al año anterior, impulsadas por la saturación y los precios disparados en destinos mediterráneos tradicionales como Grecia, Croacia o la Costa Amalfitana. Un viaje de diez días a Albania, con vuelos, alojamiento y manutención, puede salir por 600-900 euros por persona, frente a los 1.500-2.000 que cuesta una escapada similar a las islas griegas o a Dubrovnik.
+
+La costa sur de Albania, conocida como la Riviera Albanesa, se extiende desde Vlorë hasta la frontera con Grecia en Sarandë y ofrece algunas de las playas de aguas más cristalinas del Mediterráneo oriental. Himara, Drimades, Palasa y Gjipe son nombres que empiezan a aparecer en los itinerarios de los viajeros más curiosos. La infraestructura turística ha mejorado notablemente en los últimos cinco años, con la apertura de resorts de cuatro y cinco estrellas en Sarandë y Ksamil y una oferta de apartamentos en los pueblos de la costa que ha proliferado gracias al turismo de nicho.
+
+La gastronomía albanesa es otro de los atractivos que los viajeros españoles destacan en sus reseñas. La influencia mediterránea y otomana se mezcla en platos como el tavë kosi —cordero al horno con yogur y huevo—, la byrek —hojaldre con queso o carne—, los pescados frescos a la brasa o los mariscos de Sarandë. Los precios en los restaurantes son significativamente más bajos que en el resto del Mediterráneo: un menú completo con vino puede costar entre 8 y 15 euros por persona.
+
+El país ofrece atractivos más allá del mar. La ciudad de Berat, declarada Patrimonio de la Humanidad por la UNESCO, sorprende con su castillo medieval y sus casas otomanas de cientos de ventanas superpuestas. Gjirokastër, otra ciudad patrimonio, es conocida por su bazar cubierto y su fortaleza del siglo XII. El lago de Ohrid, compartido con Macedonia del Norte, es uno de los más antiguos y profundos de Europa con una biodiversidad única.
+
+Una consideración práctica: las temperaturas de verano en el interior de Albania pueden superar los 40 grados en julio y agosto. Los viajeros experimentados recomiendan visitar la costa en junio o septiembre, cuando el calor es más llevadero y los precios bajan respecto al pico estival. La conexión aérea desde España también ha mejorado: Vueling y Wizz Air ofrecen vuelos directos desde Barcelona y Madrid a Tirana con precios de temporada baja que pueden bajar de los 80 euros el trayecto.
+
+Las salas de viajes de TuChat han recogido en los últimos meses un número creciente de mensajes sobre Albania. «Fui el verano pasado y flipé: playas sin masificar, gente muy amable y precios ridículamente buenos para lo que ofrece», contaba una usuaria de Zaragoza. Otros preguntan sobre la seguridad o los transportes internos: «¿Hay autobuses entre ciudades o hay que alquilar coche?» La comunidad de TuChat se ha convertido en un espacio de intercambio de experiencias que ya ha animado a docenas de usuarios a incluir Albania en su lista de próximos destinos.`,
+  },
+
   // ── Artículos nuevos (junio 11-15, 2026) ──────────────────────────────────
 
   {
