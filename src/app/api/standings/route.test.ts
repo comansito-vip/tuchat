@@ -12,6 +12,7 @@ import { getLeague, getStandings } from "@/lib/sports";
 const FAKE_LEAGUE = { slug: "laliga", name: "LaLiga", theSportsDB: "4335", fallback: [] };
 const FAKE_RESULT = {
   source: "fallback" as const,
+  season: "2025-26",
   rows: [{ rank: 1, team: "Real Madrid", played: 38, won: 28, drawn: 5, lost: 5, gf: 90, ga: 40, gd: 50, points: 89 }],
 };
 
@@ -48,7 +49,7 @@ describe("GET /api/standings", () => {
 
   it("passes the source field through from getStandings", async () => {
     vi.mocked(getLeague).mockReturnValue(FAKE_LEAGUE as never);
-    vi.mocked(getStandings).mockResolvedValue({ source: "live", rows: [] });
+    vi.mocked(getStandings).mockResolvedValue({ source: "live", season: "2025-26", rows: [] });
     const req = new Request("http://localhost/api/standings?liga=laliga");
     const res = await GET(req);
     const body = await res.json();

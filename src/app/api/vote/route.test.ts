@@ -17,7 +17,7 @@ import { getVoteCounts, incrementVote } from "@/lib/votes-store";
 const MADRID = {
   slug: "madrid",
   name: "Madrid",
-  kind: "ciudad",
+  kind: "ciudad" as const,
   votes: 100,
   users: 50,
   intro: "...",
