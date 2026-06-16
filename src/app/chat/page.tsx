@@ -5,6 +5,7 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { normalize } from "@/lib/slug";
 
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
@@ -47,8 +48,9 @@ export default async function ChatIndexPage({
 
   const all = [...getCountries(), ...getCities(), ...getTopics()];
   const filtered = q
-    ? all.filter((p) => p.name.toLowerCase().includes(q.toLowerCase()))
+    ? all.filter((p) => normalize(p.name).includes(normalize(q)))
     : all;
+
 
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
 

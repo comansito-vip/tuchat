@@ -1,10 +1,11 @@
+/** Lowercase and strip diacritics — for accent-insensitive search comparison */
+export function normalize(s: string): string {
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
 /** Lowercase, remove accents, replace spaces with hyphens */
 export function slugify(s: string): string {
-  return s
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+  return normalize(s).replace(/\s+/g, "-");
 }
 
 /** Capitalize first letter, replace hyphens with spaces */

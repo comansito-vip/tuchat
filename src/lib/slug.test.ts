@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { slugify, cap } from "@/lib/slug";
+import { slugify, cap, normalize } from "@/lib/slug";
 
 describe("slugify", () => {
   it("lowercases and removes accents", () => {
@@ -28,6 +28,19 @@ describe("cap", () => {
   it("replaces hyphens with spaces", () => {
     expect(cap("buenos-aires")).toBe("Buenos aires");
     expect(cap("las-palmas-de-gran-canaria")).toBe("Las palmas de gran canaria");
+  });
+});
+
+describe("normalize", () => {
+  it("strips accents and lowercases without touching spaces", () => {
+    expect(normalize("España")).toBe("espana");
+    expect(normalize("Córdoba")).toBe("cordoba");
+    expect(normalize("México")).toBe("mexico");
+    expect(normalize("Buenos Aires")).toBe("buenos aires");
+  });
+  it("allows accent-insensitive search matching", () => {
+    expect(normalize("España").includes(normalize("espana"))).toBe(true);
+    expect(normalize("Ñoño").includes(normalize("nono"))).toBe(true);
   });
 });
 
