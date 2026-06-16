@@ -91,11 +91,14 @@ it("CategoryGrid renders at least 6 topic cards", () => {
 it("HeroSearch shows main heading and stats", () => {
   render(<HeroSearch />);
   expect(screen.getByRole("heading", { level: 1, name: /Chat gratis en español/i })).toBeInTheDocument();
-  expect(screen.getByText(/Salas por países/i)).toBeInTheDocument();
+  // Stats use <dd> for labels
+  const dds = screen.getAllByRole("definition");
+  const labels = dds.map((el) => el.textContent);
+  expect(labels).toContain("Países");
+  expect(labels).toContain("Ciudades");
 });
 it("HeroSearch shows country count stat (≥29)", () => {
   render(<HeroSearch />);
-  // "29+ Salas por países" stat should be visible
   expect(screen.getByText(/29\+/)).toBeInTheDocument();
 });
 it("RoomCard links place name and Enter button to correct paths", () => {

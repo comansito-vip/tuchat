@@ -28,11 +28,11 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
       <table className="w-full text-sm">
         <thead>
           <tr className="text-left text-xs font-semibold uppercase text-muted">
-            <th className="px-4 py-3">Posición</th>
-            <th className="px-4 py-3">Sala</th>
-            <th className="px-4 py-3">País/Tema</th>
-            <th className="px-4 py-3">Actividad</th>
-            <th className="px-4 py-3" />
+            <th scope="col" className="px-4 py-3">Posición</th>
+            <th scope="col" className="px-4 py-3">Sala</th>
+            <th scope="col" className="px-4 py-3">País/Tema</th>
+            <th scope="col" className="px-4 py-3">Actividad</th>
+            <th scope="col" className="px-4 py-3"><span className="sr-only">Acción</span></th>
           </tr>
         </thead>
         <tbody>

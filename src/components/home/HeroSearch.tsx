@@ -13,8 +13,8 @@ export function HeroSearch() {
   const totalUsers = rooms.reduce((sum, r) => sum + r.users, 0);
 
   const stats = [
-    { value: countries.length + "+", label: "Salas por países" },
-    { value: cities.length + "+", label: "Ciudades disponibles" },
+    { value: countries.length + "+", label: "Países" },
+    { value: cities.length + "+", label: "Ciudades" },
     { value: totalUsers.toLocaleString("es"), label: "Usuarios conectados" },
     { value: "Top 10", label: "Ranking diario" },
   ];
