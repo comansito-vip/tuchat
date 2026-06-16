@@ -28,6 +28,11 @@ it("related rooms link to chat pages", () => {
   render(<RelatedRooms slugs={["barcelona", "valencia"]} />);
   expect(screen.getByRole("link", { name: /Barcelona/ })).toHaveAttribute("href", "/chat/barcelona");
 });
+it("RelatedRooms skips missing slugs gracefully", () => {
+  render(<RelatedRooms slugs={["barcelona", "does-not-exist"]} />);
+  expect(screen.getByRole("link", { name: /Barcelona/ })).toBeInTheDocument();
+  expect(screen.queryByRole("link", { name: /does-not-exist/ })).not.toBeInTheDocument();
+});
 it("FAQBlock renders all questions and answers", () => {
   const items = [
     { q: "¿Es gratis?", a: "Sí, totalmente gratis." },
