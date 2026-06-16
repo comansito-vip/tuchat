@@ -130,6 +130,10 @@ describe("SearchInput", () => {
     render(<SearchInput />);
     expect(screen.getByRole("textbox", { name: /Buscar/i })).toBeInTheDocument();
   });
+  it("form has role=search landmark", () => {
+    render(<SearchInput />);
+    expect(screen.getByRole("search")).toBeInTheDocument();
+  });
   it("submitting navigates to /chat?q=<query>", () => {
     mockPush.mockClear();
     render(<SearchInput />);

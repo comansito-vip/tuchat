@@ -91,9 +91,9 @@ it("CategoryGrid renders at least 6 topic cards", () => {
 it("HeroSearch shows main heading and stats", () => {
   render(<HeroSearch />);
   expect(screen.getByRole("heading", { level: 1, name: /Chat gratis en español/i })).toBeInTheDocument();
-  // Stats use <dd> for labels
-  const dds = screen.getAllByRole("definition");
-  const labels = dds.map((el) => el.textContent);
+  // Stats: label is in <dt> (term), value is in <dd> (definition)
+  const dts = screen.getAllByRole("term");
+  const labels = dts.map((el) => el.textContent);
   expect(labels).toContain("Países");
   expect(labels).toContain("Ciudades");
 });

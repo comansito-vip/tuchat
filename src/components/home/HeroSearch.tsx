@@ -48,8 +48,8 @@ export function HeroSearch() {
         <dl className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4">
           {stats.map((s) => (
             <div key={s.label}>
-              <dt className="text-xl font-bold text-ink">{s.value}</dt>
-              <dd className="text-xs text-muted">{s.label}</dd>
+              <dt className="text-xs text-muted">{s.label}</dt>
+              <dd className="text-xl font-bold text-ink">{s.value}</dd>
             </div>
           ))}
         </dl>

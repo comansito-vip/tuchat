@@ -7,6 +7,7 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
   const router = useRouter();
   return (
     <form
+      role="search"
       onSubmit={(e) => {
         e.preventDefault();
         router.push(`/chat?q=${encodeURIComponent(q)}`);
