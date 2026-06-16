@@ -11,7 +11,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["amor", "amistad", "citas"],
-    related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona"],
+    related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona", "mas-de-40"],
     intro:
       "Chat para buscar pareja y conocer gente gratis sin registro. Aquí se habla de primeras citas, rupturas y a veces surge algo especial con alguien del chat.",
     about:
@@ -27,7 +27,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["amistad", "amigos", "ocio"],
-    related: ["amor", "lgtbi", "viajes", "madrid", "barcelona", "espana"],
+    related: ["amor", "lgtbi", "viajes", "madrid", "barcelona", "espana", "mas-de-30"],
     intro:
       "Chat para hacer amigos gratis sin registro. Busca amigos para chatear, conoce gente nueva y forma grupos de habla hispana. Entra y empieza a hablar ahora mismo.",
     about:

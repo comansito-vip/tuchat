@@ -3,11 +3,13 @@ import { CITIES_WORLD } from "./cities-world";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
 import { TOPICS_EXTRA } from "./topics-extra";
+import { TOPICS_EDAD } from "./topics-edad";
+import { TOPICS_LEGACY } from "./topics-legacy";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 
 const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
-const ALL_TOPICS: Place[] = [...TOPICS, ...TOPICS_EXTRA];
+const ALL_TOPICS: Place[] = [...TOPICS, ...TOPICS_EXTRA, ...TOPICS_EDAD, ...TOPICS_LEGACY];
 const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 
 export function getPlace(slug: string): Place | undefined {
