@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking } from "@/data";
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {
@@ -50,6 +50,14 @@ describe("data getters", () => {
     expect(related).toHaveLength(2); // nonexistent filtered out
     expect(related[0].slug).toBe("madrid");
     expect(related[1].slug).toBe("barcelona");
+  });
+  it("getRanking returns at most 10 places sorted by votes descending", () => {
+    const ranking = getRanking();
+    expect(ranking.length).toBeLessThanOrEqual(10);
+    expect(ranking.length).toBeGreaterThan(0);
+    for (let i = 1; i < ranking.length; i++) {
+      expect(ranking[i].votes).toBeLessThanOrEqual(ranking[i - 1].votes);
+    }
   });
 });
 
