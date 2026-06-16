@@ -1,4 +1,4 @@
-import { it, expect, vi } from "vitest";
+import { it, expect, vi, describe } from "vitest";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { RoomInfoPanel } from "./RoomInfoPanel";
 import { RelatedRooms } from "./RelatedRooms";
@@ -70,11 +70,24 @@ it("RoomHero renders h1 with room name and a NickInput", () => {
   expect(screen.getByRole("heading", { level: 1, name: /Madrid/i })).toBeInTheDocument();
   expect(screen.getByRole("textbox")).toBeInTheDocument();
 });
-it("LeagueStandings shows loading state initially", () => {
-  render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
-  expect(screen.getByText(/Cargando clasificación/i)).toBeInTheDocument();
-});
-it("LeagueStandings renders a link to standings page", () => {
-  render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
-  expect(screen.getByRole("link", { name: /Ver tabla/i })).toHaveAttribute("href", "/resultados/laliga");
+describe("LeagueStandings", () => {
+  it("shows loading state initially", () => {
+    render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
+    expect(screen.getByText(/Cargando clasificación/i)).toBeInTheDocument();
+  });
+  it("renders a link to standings page", () => {
+    render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
+    expect(screen.getByRole("link", { name: /Ver tabla/i })).toHaveAttribute("href", "/resultados/laliga");
+  });
+  it("renders rows when fetch succeeds", async () => {
+    vi.mocked(global.fetch).mockResolvedValueOnce({
+      ok: true,
+      json: async () => ({ rows: [{ rank: 1, team: "Real Madrid", points: 89 }] }),
+    } as Response);
+    render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
+    await waitFor(() => {
+      expect(screen.getByText("Real Madrid")).toBeInTheDocument();
+      expect(screen.getByText("89")).toBeInTheDocument();
+    });
+  });
 });
