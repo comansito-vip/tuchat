@@ -40,7 +40,7 @@ const COLUMNS = [
   {
     heading: "Secciones",
     links: [
-      { label: "Chat de deportes", href: "/deportes" },
+      { label: "Hub de deportes", href: "/deportes" },
       { label: "Resultados de fútbol", href: "/resultados/laliga" },
       { label: "Tarot online gratis", href: "/tarot" },
       { label: "Chat de anime", href: "/anime" },
