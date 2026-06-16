@@ -112,9 +112,9 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
-  it("all place about texts are ≥300 chars when present", () => {
+  it("all place about texts are ≥400 chars when present", () => {
     const violations = ALL_PLACES.filter(
-      (p) => p.about !== undefined && p.about.length < 300
+      (p) => p.about !== undefined && p.about.length < 400
     ).map((p) => `${p.slug}: ${p.about!.length} chars`);
     expect(violations).toEqual([]);
   });
