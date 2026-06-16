@@ -122,7 +122,7 @@ export const CITIES: Place[] = [
     intro:
       "Desde la Torre de Hércules hasta el Paseo Marítimo: los coruñeses tienen fama de hablar claro y no andar con rodeos. Entra y compruébalo tú mismo.",
     about:
-      "El chat de A Coruña reúne a gente de Monte Alto, la Pescadería, el barrio de la Torre y la Ciudad Vieja. Se habla de la lluvia que cae sin avisar, del marisco de La Palloza y del Deportivo con pasión de toda la vida. Los coruñeses son directos, orgullosos de su ría y capaces de debatir horas sobre si viven en la mejor ciudad de Galicia. Hay mucho que contar y poco tiempo para andarse con rodeos.",
+      "El chat de A Coruña reúne a gente de Monte Alto, la Pescadería, el barrio de la Torre y la Ciudad Vieja. Se habla de la lluvia que cae sin avisar y se para igual de rápido, del marisco de La Palloza —los percebes y las ostras son religión—, del Deportivo con pasión de toda la vida y de los domingos paseando por el Paseo Marítimo más largo de Europa. Los coruñeses son directos, muy gallegos pero sin el hermetismo del interior, y capaces de debatir horas sobre si viven en la mejor ciudad de Galicia. Spoiler: creen que sí.",
   },
   {
     slug: "vigo",
@@ -401,7 +401,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Palma para conocer gente de la isla, quedar en un chiringuito de Portixol o tomar algo en Santa Catalina cuando se vacía de turistas.",
     about:
-      "El chat de Palma junta a mallorquines de toda la vida y a quienes vinieron y se quedaron. Se habla en mallorquín y en castellano, de bañarse en Cala Major después de currar, de las fiestas de Sant Sebastià en enero con los foguerons, de pillarse una ensaimada de domingo y de huir del centro en temporada alta. Una sala con sabor de isla, mezcla de mar, calma y mucho roce.",
+      "El chat de Palma junta a mallorquines de toda la vida —que distinguen perfectamente cuándo están ante un turista y cuándo ante un resident— y a quienes vinieron y se quedaron. Se habla en mallorquín y en castellano, de bañarse en Cala Major o Portixol después de currar, de las fiestas de Sant Sebastià en enero con los foguerons y la música en la calle, de pillarse una ensaimada de L\'Artesà el domingo y de huir del centro en julio cuando los cruceristas lo copan todo. Sala de isla: tranquila, mezclada y con mucho criterio.",
   },
   {
     slug: "las-palmas",
@@ -452,7 +452,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de San Sebastián para conocer gente, ir de pintxos por la Parte Vieja o quedar a ver las olas romper en el Paseo Nuevo cuando hay galerna.",
     about:
-      "El chat de Donostia reúne a gente del Antiguo, Gros, Egia y el Centro. Se habla de bajar a la Concha aunque haga frío, de los pintxos de la Parte Vieja y la txikiteo de cuadrilla, de la tamborrada del 20 de enero y del Festival de Cine en septiembre. Aquí se mezcla el euskera y el castellano sin problema, y se presume, con razón, de tener una de las bahías más bonitas del mundo.",
+      "El chat de Donostia reúne a gente del Antiguo, Gros, Egia y el Centro. Se habla de bajar a la Concha aunque haga frío y ponerse a contar olas, de los pintxos de la Parte Vieja con la cuadrilla de siempre, de la tamborrada del 20 de enero que congrega a miles de donostiarras a las doce de la noche, y del Festival Internacional de Cine de septiembre que convierte la ciudad en alfombra roja. Aquí se mezcla el euskera y el castellano sin problema y se presume, con razón y evidencia, de tener la bahía más bonita del mundo.",
   },
   {
     slug: "santander",
@@ -486,7 +486,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Cádiz para conocer gente, reírte con el cachondeo gaditano y quedar a comer pescaíto frito en La Viña antes de que empiece el Carnaval.",
     about:
-      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias. Se habla de las chirigotas y comparsas del Carnaval, de bañarse en La Caleta al caer la tarde, del pescaíto y los erizos, y de esa luz que tiene la ciudad más vieja de Occidente. Aquí no falta la guasa ni el cariño. Una sala alegre que se ríe hasta de su sombra.",
+      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias que no encontrarás en ningún otro sitio. Se habla de las chirigotas y comparsas del Carnaval —el mejor de España para quien lo sabe— de bañarse en La Caleta al caer la tarde con la puesta de sol de fondo, del pescaíto frito en cucurucho y los erizos en el Faro, y de esa luz blanca y plana que tiene la ciudad más vieja de Occidente. Aquí no falta la guasa ni el cariño gaditano. Una sala alegre que se ríe hasta de su propia sombra y te contagia.",
   },
   {
     slug: "almeria",
@@ -675,7 +675,7 @@ export const CITIES: Place[] = [
     intro:
       "Ciudad de talavera, iglesias barrocas y mole que tarda un día entero en cocinarse. En Puebla se conversa con educación angelopolitana y mucha sazón.",
     about:
-      "El chat poblano mezcla universitarios de la BUAP, familias del Centro Histórico y gente que sube los fines a Cholula. Se discute cuál chile en nogada vale la pena, se recuerda el 5 de mayo con orgullo y se manda al que confunde el mole con cualquier salsa. Hay charla de antros de la Recta, de cemitas a medianoche y de quién aguanta el picor del chile poblano. Tranquilo, sabroso y con su retintín.",
+      "El chat poblano mezcla universitarios de la BUAP, familias del Centro Histórico y gente que sube el finde a Cholula a ver la pirámide con iglesia encima. Se discute cuál chile en nogada vale la pena en temporada de agosto, se recuerda el 5 de mayo contra los franceses con mucho orgullo y se manda al que confunde el mole negro con cualquier otra salsa. Hay charla de antros de la Recta, de cemitas de milanesa a medianoche, de la talavera como artesanía que identifica la ciudad y de quién aguanta más el picor del chile ancho. Tranquilo y sabroso, con su retintín angelopolitano.",
   },
   {
     slug: "tijuana",
@@ -744,7 +744,7 @@ export const CITIES: Place[] = [
     intro:
       "Al pie de la cordillera y entre viñedos, los mendocinos conversan con calma de montaña. Entrá a brindar con un malbec aunque sea virtual.",
     about:
-      "La sala de Mendoza reúne gente de bodegas de Maipú, ciclistas del Parque San Martín y aventureros que miran el Aconcagua de reojo. Se habla de vendimia, de asados regados con buen vino y de escapadas a Potrerillos. El ritmo es más calmo que en Buenos Aires y se nota: nadie tiene apuro. Hay debate sobre cuál bodega manda y planes para cruzar a Chile. Tierra de sol, vino y siesta sagrada.",
+      "La sala de Mendoza reúne gente de las bodegas de Maipú y Luján de Cuyo, ciclistas del Parque General San Martín y aventureros que salen al Aconcagua o bajan a Potrerillos en kayak. Se habla de la Fiesta de la Vendimia en marzo cuando toda la provincia celebra la uva, de asados largos con malbec de bodega familiar y de escapadas al Valle de Uco con sus viñedos a 1200 metros. El ritmo es más calmo que en Buenos Aires y se nota: nadie tiene apuro, nadie te apremia. Hay debate sobre cuál bodega manda este año y planes para cruzar a Chile por Uspallata.",
   },
   {
     slug: "la-plata",
@@ -986,7 +986,7 @@ export const CITIES: Place[] = [
     intro:
       "Entre el Ávila siempre verde y el tráfico de la Francisco Fajardo, los caraqueños llegan al chat con la chispa de quien sobrevive la cola con un chiste.",
     about:
-      "Caracas es ruido, cerro y resolvedera. Aquí se habla del Ávila como de un familiar, se discute si la mejor arepa es la de Las Mercedes o la del kiosco de la esquina, y nadie se queda callado. El chat caraqueño mezcla a los que se quedaron, a los que volvieron y a los que escriben desde Madrid o Santiago extrañando la Cota Mil al amanecer. Caña, chalequeo y nostalgia en partes iguales.",
+      "Caracas es ruido, cerro y resolvedera permanente. Aquí se habla del Ávila como de un familiar que siempre está ahí —verde en invierno, nublado en lluvia—, se discute si la mejor arepa con queso de mano es la de Las Mercedes o la del kiosco de la esquina del barrio, y nadie se queda callado ni un minuto. El chat caraqueño mezcla a los que se quedaron con paciencia, a los que volvieron después de probar Miami, y a los que escriben desde Madrid, Bogotá o Santiago extrañando la Cota Mil al amanecer. Caña, chalequeo porteño y nostalgia en partes exactamente iguales.",
   },
   {
     slug: "maracaibo",
@@ -1003,7 +1003,7 @@ export const CITIES: Place[] = [
     intro:
       "Calor que no perdona, el puente sobre el lago y ese 'verga, vale' que delata al marabino apenas escribe: aquí se chatea con el ventilador a todo lo que da.",
     about:
-      "Maracaibo es la tierra del sol amada y no es exageración: el calor manda y la gaita suena desde octubre. El marabino habla golpeado, dice las cosas de frente y suelta su 'mollejúo' sin pena. En el chat hablan del Lago, del puente Rafael Urdaneta, de los patacones de la calle y del orgullo zuliano que no se negocia. Gente echada pa'lante, ocurrente y con un acento que se reconoce a kilómetros.",
+      "Maracaibo es la tierra del sol amada y no es exageración: 36 grados en enero son normales y el calor manda todo el año mientras la gaita zuliana suena desde octubre hasta enero. El marabino habla golpeado y cantado, dice las cosas de frente y suelta su mollejúo o su verga vale sin ninguna pena. En el chat hablan del Lago de Maracaibo y su petróleo, del puente General Rafael Urdaneta, de los patacones de la calle con queso blanco y del orgullo zuliano que no se negocia con nadie. Gente ocurrente, echada pa'lante y con un acento que se reconoce a kilómetros.",
   },
   {
     slug: "valencia-venezuela",
@@ -1435,7 +1435,7 @@ export const CITIES: Place[] = [
     intro:
       "Del español dominicano de Washington Heights al puertorriqueño del Bronx, Nueva York habla nuestro idioma en cada vagón del subway.",
     about:
-      "El chat de Nueva York reúne a la diáspora que construyó El Barrio y Washington Heights: dominicanos, boricuas, mexicanos de Sunset Park y ecuatorianos de Queens. Se conversa de bregar con la renta, de bachata a todo volumen un domingo, del frío que pega de verdad y del orgullo de la bandera en el desfile. Voces de mil barrios distintos que comparten el mismo idioma en la ciudad que nunca duerme.",
+      "El chat de Nueva York reúne a la diáspora que construyó El Barrio en East Harlem y Washington Heights: dominicanos, boricuas del South Bronx, mexicanos de Sunset Park y ecuatorianos de Jackson Heights en Queens. Se conversa de bregar con la renta que no para de subir, de la bachata a todo volumen el domingo en el parque, del frío que pega de verdad en febrero y del orgullo de la bandera tricolor en el desfile anual. Aquí el español convive con el spanglish, y las voces de mil barrios distintos comparten el idioma en la ciudad que nunca duerme.",
   },
   {
     slug: "los-angeles",

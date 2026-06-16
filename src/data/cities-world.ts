@@ -21,7 +21,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El chat de Cancún junta a gente de la Zona Hotelera y del centro, entre locales chambeadores y quienes llegaron del sureste a buscar chamba.",
     about:
-      "Más allá de los all inclusive, Cancún tiene su lado real: las Regiones donde vive la raza que trabaja en hoteles, los cenotes a media hora y la combi al centro. Aquí se junta gente venida de Chiapas, Tabasco y Yucatán, así que se oye desde el maya hasta el \'uay\' yucateco. Se habla de turnos en la Zona Hotelera, del calor pegajoso y de escaparse a Holbox. Sala con mucho flujo de recién llegados.",
+      "Más allá de los all inclusive y las pulseras de plástico, Cancún tiene su lado real: las Regiones numeradas donde vive la gente que trabaja en hoteles y restaurants, los cenotes de la Riviera Maya a media hora, la combi al centro y el mercado 28. Aquí se junta gente venida de Chiapas, Tabasco, Yucatán y toda la república, así que se oye desde el maya hasta el uay yucateco. Se habla de turnos en la Zona Hotelera, del calor húmedo que aprieta de junio a octubre y de escaparse a Holbox o Bacalar cuando hay chance. Sala con mucho flujo y energía de recién llegados.",
   },
   {
     slug: "san-jose-costa-rica",
@@ -91,7 +91,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Albacete para conocer gente de la llanura manchega, hablar en directo y quedar por el Paseo de la Cuba.",
     about:
-      "El chat de Albacete reúne a quienes presumen de las navajas de toda la vida y de la Feria de septiembre con su Recinto Ferial circular y la Cabalgata del Vítor. Se habla del calor seco del verano, del frío que baja de la mancha, de los miguelitos de La Roda y del gazpacho manchego. Gente llana y directa, de tapeo por la Posada del Rosario y paseo hasta el Parque Abelardo Sánchez.",
+      "El chat de Albacete reúne a quienes presumen de las navajas artesanas —la cuchillería albacetense es fama mundial— y de la Feria de septiembre con su Recinto Ferial circular único en España y la Cabalgata del Vítor con los gigantes y cabezudos. Se habla del calor seco del verano manchego, del frío que baja de la meseta en enero, de los miguelitos de La Roda con su hojaldre y crema, del gazpacho manchego con conejo y del ruidoso monolito. Gente llana, directa y sin postureo, de tapeo por la calle Ancha y paseo hasta el Parque Abelardo Sánchez.",
   },
   {
     slug: "badajoz",
@@ -108,7 +108,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Badajoz para conocer pacenses: la Alcazaba almohade, el Carnaval de los Palomos y el jamón extremeño de fondo.",
     about:
-      "En el chat de Badajoz se habla de la Alcazaba almohade, de los Palomos del Carnaval que paraliza la ciudad en febrero y de la cercanía con Portugal a un paso por Elvas. Salen las migas extremeñas, el jamón de bellota, la técula mécula y las tardes de bochorno en la Plaza Alta. Pacenses de hablar abierto, de tapeo por San Roque y orgullo de una frontera que se cruza para comprar toallas y café.",
+      "En el chat de Badajoz se habla de la Alcazaba almohade —la más grande de España con 11 hectáreas— de los Palomos con sus enormes disfraces del Carnaval que paraliza la ciudad en febrero, y de la cercanía con Portugal a diez minutos por Elvas. Salen las migas extremeñas con sus tropiezos, el jamón ibérico de bellota, la técula mécula de Olivenza y las tardes de bochorno en la Plaza Alta cuando el termómetro roza los 45 grados. Pacenses de hablar abierto, sin filtros, con tapeo por la calle San Roque y orgullo de una frontera que convive en paz.",
   },
   {
     slug: "caceres",
@@ -142,7 +142,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Castellón para conocer gente: las fiestas de la Magdalena, el Grao con sus paellas y el Desierto de las Palmas de fondo.",
     about:
-      "En el chat de Castelló se mezclan el valenciano y el castellano hablando de las fiestas de la Magdalena en marzo, las gaiatas y la romería a la ermita. Sale la paella de la Marjalería, el Grao y su puerto, las naranjas del campo y el Desert de les Palmes de fondo. Gente mediterránea y de buen comer, que disfruta de la playa del Pinar y de las traques con pólvora cuando llega la fiesta.",
+      "En el chat de Castelló se mezclan el valenciano y el castellano hablando de las fiestas de la Magdalena en marzo, las gaiatas que representan a los barrios, la Ronda de l'Armadà y la romería a la ermita del Magdaleneta. Sale la paella de arroz con verduras de la Marjalería, el Grao y su puerto pesquero, las naranjas del campo de Plana Baixa y el Desert de les Palmes de fondo verde como telón. Gente mediterránea y de buen comer, que disfruta de la playa del Pinar y de las traques y mascletàs con pólvora cuando llega la fiesta.",
   },
   {
     slug: "ciudad-real",
@@ -176,7 +176,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Huelva para conocer onubenses: el Rocío, el jamón de Jabugo, las gambas blancas y los Lugares Colombinos a la puerta.",
     about:
-      "En el chat de Huelva se habla del Rocío que vacía la ciudad en romería, del jamón de Jabugo y las gambas blancas de la costa. Salen las playas de Punta Umbría y Matalascañas, los Lugares Colombinos de La Rábida desde donde zarpó Colón y el olor a marisma de la ría. Onubenses de acento andaluz cantarín, amantes de las fritas, la mojama y de los atardeceres sobre el Odiel y el Tinto.",
+      "En el chat de Huelva se habla del Rocío que vacía la ciudad en mayo con la romería más multitudinaria del mundo, del jamón ibérico de Jabugo que es el mejor y los onubenses lo saben bien, y de las gambas blancas de Isla Cristina que son orgullo provincial. Salen las playas de Punta Umbría y Matalascañas, los Lugares Colombinos de La Rábida desde donde zarpó Colón en 1492, y el olor a marisma de la confluencia del Odiel y el Tinto. Onubenses de acento cantarín, amantes de las fritas con el limón y los atardeceres rosados sobre el estuario.",
   },
   {
     slug: "huesca",
@@ -210,7 +210,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Jaén: el castillo de Santa Catalina vigilando la ciudad, el mar de olivos más grande del mundo y aceite de primera.",
     about:
-      "En el chat de Jaén se presume del mar de olivos que rodea la ciudad y del mejor aceite del mundo, del castillo de Santa Catalina vigilando desde lo alto y de la catedral renacentista de Vandelvira. Salen las pipirranas, las migas y el bacalao por la Semana Santa de tambores. Jienenses de carácter recio, amantes del tapeo gratis con la caña y de las escapadas a Úbeda, Baeza y la sierra de Cazorla.",
+      "En el chat de Jaén se presume del mar de olivos —más de 40 millones de árboles— que rodea la ciudad y del aceite de oliva virgen extra que aquí consideran el mejor del mundo, del castillo de Santa Catalina vigilando la ciudad desde lo alto del Cerro de Santa Catalina y de la catedral renacentista de Andrés de Vandelvira que tardó siglos en construirse. Salen las pipirranas, las migas y el bacalao de la Semana Santa de tambores que llena las calles de procesiones. Jienenses de carácter recio y directo, amantes del tapeo gratis con la caña y de las escapadas a Úbeda y Baeza.",
   },
   {
     slug: "lleida",
@@ -244,7 +244,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Logroño para conocer riojanos: la calle Laurel con sus pinchos, el Rioja en cada copa y la Ruta del Vino de San Mateo.",
     about:
-      "En el chat de Logroño manda la calle Laurel y sus pinchos, cada bar con su especialidad, el champi, las patatas bravas y el zapatero. Se habla del Rioja en cada copa, de las fiestas de San Mateo y la pisa de la uva en septiembre y del Camino de Santiago que cruza la ciudad. Riojanos de buen yantar, de paseo por el Ebro y el Espolón, cercanos y con fama de saber comer y beber bien.",
+      "En el chat de Logroño manda la calle Laurel y sus pinchos de barra, cada bar con su especialidad —el champi de Blanco y Negro, las patatas a la riojana del Soriano y el zapatero del Lorenzo—, todos ellos por un euro con el vino incluido. Se habla del Rioja en cada copa, de las fiestas de San Mateo en septiembre con la pisa de la uva en el Espolón y el Camino de Santiago que atraviesa la ciudad. Riojanos de buen yantar, muy orgullosos de su tierra vinícola, de paseo por las orillas del Ebro y con fama bien ganada de saber comer y beber.",
   },
   {
     slug: "lugo",
@@ -278,7 +278,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Ourense: las Burgas humeantes en pleno centro, las termas del Miño gratis y el vino del Ribeiro a precio de coste.",
     about:
-      "En el chat de Ourense se habla de las Burgas humeantes en pleno centro y de las termas al aire libre a la orilla del Miño, gratis y calentitas en invierno. Salen el Entroido con sus peliqueiros y cigarróns, el vino del Ribeiro y el Ribeira Sacra, la catedral del Pórtico do Paraíso y el calor sofocante del verano gallego. Ourensanos de interior, de baño termal y buen comer en gallego.",
+      "En el chat de Ourense se habla de las Burgas humeantes en pleno centro urbano —tres fuentes de agua a 65 grados que brotan desde la época romana— y de las termas municipales al aire libre a la orilla del Miño, gratis y calentitas en invierno con vistas al río. Salen el Entroido ourensano con sus peliqueiros y cigarróns disfrazados golpeando a la gente, el Ribeiro blanco y el Ribeira Sacra tinto, la catedral del Pórtico do Paraíso y el calor sofocante del verano gallego interior que supera los 40 grados. Ourensanos de trato directo y sin postureo.",
   },
   {
     slug: "pontevedra",
@@ -312,7 +312,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Segovia: el Acueducto romano sin argamasa, el Alcázar de cuento, el cochinillo de horno y Madrid a media hora.",
     about:
-      "En el chat de Segovia mandan el Acueducto romano sin una gota de argamasa y el Alcázar que inspiró castillos de cuento. Se habla del cochinillo asado de horno de leña, los judiones de La Granja y el ponche segoviano, del frío de la sierra y de las escapadas a La Granja de San Ildefonso. Segovianos de meseta, orgullosos de su piedra, sus murallas y de tener Madrid a media hora en el AVE.",
+      "En el chat de Segovia mandan el Acueducto romano del siglo I sin una gota de argamasa —que aguanta 2000 años aguantando el peso de la piedra— y el Alcázar que se dice inspiró el castillo de Disney. Se habla del cochinillo asado en horno de leña que aquí se come con el canto del plato para demostrar que está tierno, de los judiones de La Granja con sus chorizos, y del ponche segoviano como postre. El frío de la sierra baja con fuerza en invierno pero los segovianos son de meseta: orgullosos de su piedra, sus cuestas empinadas y de tener Madrid a 28 minutos en Alvia.",
   },
   {
     slug: "vitoria",
