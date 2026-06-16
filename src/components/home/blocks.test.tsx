@@ -24,6 +24,12 @@ it("RankingTable lists rows", () => {
   render(<RankingTable />);
   expect(screen.getAllByRole("row").length).toBeGreaterThan(1);
 });
+it("RankingTable shows Entrar links pointing to /webchat", () => {
+  render(<RankingTable />);
+  const links = screen.getAllByRole("link", { name: /Entrar/i });
+  expect(links.length).toBeGreaterThan(0);
+  expect(links[0].getAttribute("href")).toMatch(/^\/webchat\?canal=/);
+});
 it("CityList links Madrid to /chat/madrid", () => {
   render(<CityList />);
   const links = screen.getAllByRole("link", { name: "Madrid" });
