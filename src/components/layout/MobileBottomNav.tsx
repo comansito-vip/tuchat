@@ -1,9 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { clsx } from "clsx";
 
 const NAV_ITEMS = [
   {
     label: "Inicio",
     href: "/",
+    activeOn: "exact" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <path
@@ -19,6 +24,7 @@ const NAV_ITEMS = [
   {
     label: "Chat",
     href: "/chat",
+    activeOn: "/chat" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <path
@@ -33,6 +39,7 @@ const NAV_ITEMS = [
   {
     label: "Países",
     href: "/pais/espana",
+    activeOn: "/pais" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <circle cx="10" cy="10" r="7.5" stroke="currentColor" strokeWidth="1.5" />
@@ -47,6 +54,7 @@ const NAV_ITEMS = [
   {
     label: "Noticias",
     href: "/noticias",
+    activeOn: "/noticias" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <rect x="2.5" y="3.5" width="15" height="13" rx="1.5" stroke="currentColor" strokeWidth="1.5" />
@@ -62,6 +70,7 @@ const NAV_ITEMS = [
   {
     label: "Más",
     href: "/ranking",
+    activeOn: "exact" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <rect x="2.5" y="2.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5" />
@@ -73,24 +82,43 @@ const NAV_ITEMS = [
   },
 ];
 
+function isActive(pathname: string, activeOn: string): boolean {
+  if (activeOn === "exact") return false;
+  if (activeOn === pathname) return true;
+  return pathname.startsWith(activeOn + "/") || pathname.startsWith(activeOn + "?");
+}
+
 export function MobileBottomNav() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   return (
     <nav
       className="fixed bottom-0 inset-x-0 z-40 border-t border-line bg-card lg:hidden"
       aria-label="Navegación inferior"
     >
       <div className="flex justify-around">
-        {NAV_ITEMS.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="flex flex-col items-center gap-0.5 py-2 text-[11px] text-muted hover:text-blue transition-colors min-w-0 flex-1"
-            aria-label={item.label}
-          >
-            {item.icon}
-            <span>{item.label}</span>
-          </Link>
-        ))}
+        {NAV_ITEMS.map((item) => {
+          const active = item.activeOn === "exact"
+            ? (item.href === "/" ? isHome : pathname === item.href)
+            : isActive(pathname, item.activeOn);
+
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={clsx(
+                "flex flex-col items-center gap-0.5 py-2 text-[11px] min-w-0 flex-1 transition-colors",
+                active ? "text-blue font-semibold" : "text-muted hover:text-ink",
+              )}
+              aria-label={item.label}
+              aria-current={active ? "page" : undefined}
+            >
+              {item.icon}
+              <span>{item.label}</span>
+            </Link>
+          );
+        })}
       </div>
     </nav>
   );

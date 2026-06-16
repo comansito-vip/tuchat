@@ -2,18 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { ChatIcon } from "@/components/ui/icons";
 import { MobileMenu } from "@/components/layout/MobileMenu";
-
-const NAV_ITEMS = [
-  { label: "Chat", href: "/chat" },
-  { label: "Países", href: "/pais/espana" },
-  { label: "Ciudades", href: "/chat/madrid" },
-  { label: "Temáticas", href: "/chat/amor" },
-  { label: "Deportes", href: "/deportes" },
-  { label: "Tarot", href: "/tarot" },
-  { label: "Anime", href: "/anime" },
-  { label: "Noticias", href: "/noticias" },
-  { label: "Ranking", href: "/ranking" },
-];
+import { NavLinks } from "@/components/layout/NavLinks";
 
 export function Header() {
   return (
@@ -29,15 +18,7 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-4 text-sm text-muted" aria-label="Navegación principal">
-          {NAV_ITEMS.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="hover:text-ink transition-colors"
-            >
-              {item.label}
-            </Link>
-          ))}
+          <NavLinks />
         </nav>
 
         {/* CTA */}

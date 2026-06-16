@@ -6,9 +6,14 @@ import { Footer } from "./Footer";
 import { ScaffoldPage } from "./ScaffoldPage";
 import { MobileBottomNav } from "./MobileBottomNav";
 import { MobileMenu } from "./MobileMenu";
+import { NavLinks } from "./NavLinks";
 import { JsonLd } from "@/lib/seo";
 
-vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
+const mockPathname = vi.fn(() => "/");
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: vi.fn() }),
+  usePathname: () => mockPathname(),
+}));
 
 describe("layout", () => {
   it("header shows the brand and the Entrar CTA", () => {
@@ -55,6 +60,34 @@ describe("layout", () => {
     const links = screen.getAllByRole("link");
     expect(links.length).toBe(5);
     expect(screen.getByRole("link", { name: "Chat" })).toHaveAttribute("href", "/chat");
+  });
+  it("MobileBottomNav marks Inicio as active on /", () => {
+    mockPathname.mockReturnValue("/");
+    render(<MobileBottomNav />);
+    expect(screen.getByRole("link", { name: "Inicio" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("link", { name: "Chat" })).not.toHaveAttribute("aria-current");
+  });
+  it("MobileBottomNav marks Chat as active on /chat/madrid", () => {
+    mockPathname.mockReturnValue("/chat/madrid");
+    render(<MobileBottomNav />);
+    expect(screen.getByRole("link", { name: "Chat" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("link", { name: "Inicio" })).not.toHaveAttribute("aria-current");
+  });
+  it("MobileBottomNav marks Noticias as active on /noticias/deportes", () => {
+    mockPathname.mockReturnValue("/noticias/deportes");
+    render(<MobileBottomNav />);
+    expect(screen.getByRole("link", { name: "Noticias" })).toHaveAttribute("aria-current", "page");
+  });
+  it("NavLinks marks Deportes as active on /deportes", () => {
+    mockPathname.mockReturnValue("/deportes");
+    render(<NavLinks />);
+    expect(screen.getByRole("link", { name: "Deportes" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("link", { name: "Chat" })).not.toHaveAttribute("aria-current");
+  });
+  it("NavLinks marks Noticias as active on /noticias/articulo/x", () => {
+    mockPathname.mockReturnValue("/noticias/articulo/algo");
+    render(<NavLinks />);
+    expect(screen.getByRole("link", { name: "Noticias" })).toHaveAttribute("aria-current", "page");
   });
   it("MobileMenu opens dialog on button click", () => {
     render(<MobileMenu />);
