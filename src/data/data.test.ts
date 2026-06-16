@@ -207,6 +207,18 @@ describe("SEO constraints", () => {
     expect(dupes).toEqual([]);
   });
 
+  it("no duplicate article body openings (first 100 chars)", () => {
+    const seen = new Map<string, string>();
+    const dupes: string[] = [];
+    for (const a of getNews()) {
+      if (!a.body) continue;
+      const opening = a.body.trim().slice(0, 100);
+      if (seen.has(opening)) dupes.push(`${a.slug} duplicates ${seen.get(opening)}`);
+      else seen.set(opening, a.slug);
+    }
+    expect(dupes).toEqual([]);
+  });
+
   it("all article categories are from the allowed set", () => {
     const VALID = new Set(["Actualidad", "Deportes", "Tecnología", "IA", "Cultura", "Viajes", "Salud", "Economía", "Entretenimiento"]);
     const violations = getNews()
