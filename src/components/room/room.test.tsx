@@ -70,6 +70,20 @@ it("RoomHero renders h1 with room name and a NickInput", () => {
   expect(screen.getByRole("heading", { level: 1, name: /Madrid/i })).toBeInTheDocument();
   expect(screen.getByRole("textbox")).toBeInTheDocument();
 });
+it("RoomHero uses slug-specific gradient for amor", () => {
+  const { container } = render(<RoomHero place={getPlace("amor")!} />);
+  const section = container.querySelector("section")!;
+  expect(section.className).toContain("from-rose-500");
+});
+it("RoomHero uses kind-based gradient for ciudad when no slug override", () => {
+  const { container } = render(<RoomHero place={getPlace("madrid")!} />);
+  const section = container.querySelector("section")!;
+  expect(section.className).toContain("from-sky-500");
+});
+it("RoomHero accepts custom h1 prop", () => {
+  render(<RoomHero place={getPlace("espana")!} h1="Bienvenidos a España" />);
+  expect(screen.getByRole("heading", { level: 1, name: "Bienvenidos a España" })).toBeInTheDocument();
+});
 describe("LeagueStandings", () => {
   it("shows loading state initially", () => {
     render(<LeagueStandings liga="laliga" leagueName="LaLiga" />);
