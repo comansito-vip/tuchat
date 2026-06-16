@@ -42,6 +42,7 @@ export function NickInput({
         )}
       />
       <button
+        type="button"
         onClick={enter}
         className="shrink-0 rounded-xl bg-cta px-4 py-2.5 text-sm font-bold text-white shadow-sm transition-all hover:bg-cta-dark active:scale-[.98]"
       >

@@ -66,7 +66,6 @@ module.exports = {
   exclude: ["/webchat", "/admin", "/api/*", "/resultados"],
   robotsTxtOptions: {
     policies: [{ userAgent: "*", allow: "/", disallow: ["/webchat", "/admin", "/api"] }],
-    additionalSitemaps: ["https://tuchat.org/sitemap.xml"],
   },
   transform: transformEntry,
   additionalPaths: async (config) =>

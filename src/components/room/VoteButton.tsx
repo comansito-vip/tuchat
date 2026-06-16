@@ -81,7 +81,7 @@ export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
       onClick={vote}
       disabled={voted || busy}
       aria-pressed={voted}
-      title={voted ? "Ya has votado esta sala" : "Votar esta sala"}
+      aria-label={voted ? "Ya has votado esta sala" : "Votar esta sala"}
       className={
         "flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
         (voted

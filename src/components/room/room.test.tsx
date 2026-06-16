@@ -74,6 +74,11 @@ it("VoteButton button is not disabled initially", () => {
   const btn = screen.getByRole("button");
   expect(btn).not.toBeDisabled();
 });
+it("VoteButton carries aria-label describing its action", () => {
+  render(<VoteButton slug="test-room" votes={5} />);
+  const btn = screen.getByRole("button");
+  expect(btn).toHaveAttribute("aria-label", "Votar esta sala");
+});
 it("VoteButton increments count and disables after click", async () => {
   render(<VoteButton slug="test-sala" votes={10} />);
   const btn = screen.getByRole("button");

@@ -49,6 +49,14 @@ describe("ui primitives", () => {
     const input = screen.getByRole("textbox");
     expect(input).toHaveAttribute("maxLength", "20");
   });
+  it("NickInput input carries aria-label matching placeholder", () => {
+    render(<NickInput canal="madrid" placeholder="Tu nick para Madrid..." />);
+    expect(screen.getByRole("textbox", { name: "Tu nick para Madrid..." })).toBeInTheDocument();
+  });
+  it("NickInput Entrar button has type=button", () => {
+    render(<NickInput canal="espana" />);
+    expect(screen.getByRole("button", { name: /Entrar/i })).toHaveAttribute("type", "button");
+  });
   it("NickInput navigates to /webchat with typed nick on button click", () => {
     mockPush.mockClear();
     render(<NickInput canal="madrid" />);
