@@ -93,6 +93,11 @@ it("HeroSearch shows main heading and stats", () => {
   expect(screen.getByRole("heading", { level: 1, name: /Chat gratis en español/i })).toBeInTheDocument();
   expect(screen.getByText(/Salas por países/i)).toBeInTheDocument();
 });
+it("HeroSearch shows country count stat (≥29)", () => {
+  render(<HeroSearch />);
+  // "29+ Salas por países" stat should be visible
+  expect(screen.getByText(/29\+/)).toBeInTheDocument();
+});
 it("RoomCard links place name and Enter button to correct paths", () => {
   const place = getPlace("madrid")!;
   render(<RoomCard place={place} />);
