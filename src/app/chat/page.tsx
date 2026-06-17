@@ -3,6 +3,7 @@ import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/mer
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { SearchInput } from "@/components/ui/SearchInput";
+import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 import { normalize } from "@/lib/slug";
@@ -51,13 +52,43 @@ export default async function ChatIndexPage({
     getMergedCities(),
     getMergedTopics(),
   ]);
-  const all = [...countries, ...cities, ...topics];
-  const filtered = q
-    ? all.filter((p) => normalize(p.name).includes(normalize(q)))
-    : all;
 
+  const all = [...countries, ...cities, ...topics];
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
 
+  // Búsqueda: mostrar resultados planos
+  if (q) {
+    const filtered = all.filter((p) => normalize(p.name).includes(normalize(q)));
+    return (
+      <main className="mx-auto max-w-6xl px-4 py-6">
+        <JsonLd data={breadcrumbJsonLd(crumbs)} />
+        <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
+        <JsonLd data={itemListJsonLd(topRooms.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
+        <Breadcrumbs crumbs={crumbs} />
+        <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
+        <div className="mt-5 max-w-lg">
+          <SearchInput size="md" />
+        </div>
+        <p className="mt-4 text-sm text-muted">
+          Resultados para: <span className="font-semibold text-ink">«{q}»</span>
+        </p>
+        {filtered.length === 0 ? (
+          <p className="mt-8 text-muted">
+            No encontramos salas para{" "}
+            <span className="font-semibold text-ink">«{q}»</span>. Prueba con otro término.
+          </p>
+        ) : (
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {filtered.map((p) => (
+              <RoomCard key={p.slug} place={p} />
+            ))}
+          </div>
+        )}
+      </main>
+    );
+  }
+
+  // Vista jerárquica (sin búsqueda)
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
@@ -70,35 +101,57 @@ export default async function ChatIndexPage({
         Más de 200 salas de chat online para chatear con gente, hacer amigos y ligar en español.
         Acceso gratis, sin registro y sin descargas.
       </p>
-
       <div className="mt-5 max-w-lg">
         <SearchInput size="md" />
       </div>
 
-      {q && (
-        <p className="mt-4 text-sm text-muted">
-          Resultados para: <span className="font-semibold text-ink">«{q}»</span>
-        </p>
-      )}
+      {/* Países */}
+      <section className="mt-10">
+        <SectionTitle>Países</SectionTitle>
+        <div className="mt-4 space-y-3">
+          {countries.map((country) => {
+            const citiesOfCountry = cities.filter((c) => c.parentSlug === country.slug);
+            return (
+              <details key={country.slug} className="group rounded-xl border border-line bg-card">
+                <summary className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:text-blue">
+                  <span className="text-xl">{country.icon}</span>
+                  <span className="font-semibold text-ink group-hover:text-blue">
+                    {country.name}
+                  </span>
+                  {citiesOfCountry.length > 0 && (
+                    <span className="ml-1 text-xs text-muted">
+                      ({citiesOfCountry.length} salas)
+                    </span>
+                  )}
+                  <span className="ml-auto text-muted group-open:rotate-180 transition-transform">
+                    ▼
+                  </span>
+                </summary>
+                <div className="grid grid-cols-2 gap-3 px-4 pb-4 pt-2 sm:grid-cols-3 lg:grid-cols-4">
+                  <RoomCard place={country} />
+                  {citiesOfCountry.map((c) => (
+                    <RoomCard key={c.slug} place={c} />
+                  ))}
+                </div>
+              </details>
+            );
+          })}
+        </div>
+      </section>
 
-      {filtered.length === 0 ? (
-        <p className="mt-8 text-muted">
-          No encontramos salas para{" "}
-          <span className="font-semibold text-ink">«{q}»</span>. Prueba con otro término.
-        </p>
-      ) : (
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {filtered.map((p) => (
+      {/* Temáticas */}
+      <section className="mt-10">
+        <SectionTitle>Temáticas</SectionTitle>
+        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+          {topics.map((p) => (
             <RoomCard key={p.slug} place={p} />
           ))}
         </div>
-      )}
+      </section>
 
-      {!q && (
-        <div className="mt-12">
-          <FAQBlock items={FAQ} />
-        </div>
-      )}
+      <div className="mt-12">
+        <FAQBlock items={FAQ} />
+      </div>
     </main>
   );
 }
