@@ -6,6 +6,10 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
+import { fetchWeather } from "@/lib/weather";
+import { WeatherWidget } from "@/components/tiempo/WeatherWidget";
+
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return [...getCities(), ...getCountries()].map((c) => ({ ciudad: c.slug }));
@@ -37,6 +41,8 @@ export default async function TiempoCiudadPage({
   const nombre = place?.name ?? cap(ciudad);
   const intro = place?.about ?? place?.intro ?? `Consulta el tiempo en ${nombre}.`;
   const parentName = place?.parentName;
+
+  const weatherData = await fetchWeather(ciudad);
 
   const crumbs = [
     { name: "Inicio", url: "/" },
@@ -76,40 +82,7 @@ export default async function TiempoCiudadPage({
         próximos días.
       </p>
 
-      {/* Weather placeholder card */}
-      <div className="mt-6 rounded-2xl border border-line bg-card p-6">
-        <div className="flex items-start gap-4">
-          <div className="text-5xl" aria-hidden="true">🌤️</div>
-          <div>
-            <p className="text-sm font-semibold text-muted uppercase tracking-wide">
-              Previsión actual
-            </p>
-            <p className="mt-1 text-lg font-bold text-ink">{nombre}</p>
-            <p className="mt-2 text-sm text-muted">
-              Los datos meteorológicos en tiempo real para {nombre} se mostrarán aquí. Por ahora
-              puedes consultar la previsión a través de servicios como AEMET, Meteored o Weather.com.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              <a
-                href="https://www.aemet.es"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-blue/10 px-4 py-1.5 text-sm font-medium text-blue hover:bg-blue/20 transition-colors"
-              >
-                AEMET →
-              </a>
-              <a
-                href="https://www.meteored.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-blue/10 px-4 py-1.5 text-sm font-medium text-blue hover:bg-blue/20 transition-colors"
-              >
-                Meteored →
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <WeatherWidget data={weatherData} nombre={nombre} />
 
       {/* About the place */}
       {place && (
