@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getNews } from "@/data";
+import { getNewsImage } from "@/lib/news-images";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { FAQBlock } from "@/components/room/FAQBlock";
@@ -96,8 +97,14 @@ export default function NoticiasPage() {
         <div className="mt-8">
           <Link href={`/noticias/articulo/${featured.slug}`} className="block group">
             <Card className="overflow-hidden hover:border-blue transition-colors">
-              <div className="aspect-[21/6] bg-gradient-to-br from-blue/10 to-brand/5 flex items-end p-5">
-                <span className="rounded-full bg-blue px-3 py-1 text-xs font-bold uppercase text-white">
+              <div className="relative aspect-[21/6] overflow-hidden bg-gradient-to-br from-blue/10 to-brand/5">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={featured.image ?? getNewsImage(featured.category, featured.slug)}
+                  alt={featured.title}
+                  className="h-full w-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-300"
+                />
+                <span className="absolute bottom-4 left-4 rounded-full bg-blue px-3 py-1 text-xs font-bold uppercase text-white">
                   {featured.category}
                 </span>
               </div>
@@ -119,15 +126,25 @@ export default function NoticiasPage() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {rest.map((item) => (
           <Link key={item.slug} href={`/noticias/articulo/${item.slug}`} className="block group">
-            <Card className="h-full hover:border-blue transition-colors p-5">
-              <span className="text-xs font-semibold uppercase text-blue">{item.category}</span>
-              <h3 className="mt-1 font-bold text-ink group-hover:text-blue transition-colors leading-snug">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-sm text-muted line-clamp-2">{item.excerpt}</p>
-              <time className="mt-3 block text-xs text-muted" dateTime={item.date}>
-                {formatDate(item.date)}
-              </time>
+            <Card className="h-full hover:border-blue transition-colors overflow-hidden">
+              <div className="aspect-[16/7] overflow-hidden bg-gradient-to-br from-blue/5 to-brand/5">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={item.image ?? getNewsImage(item.category, item.slug)}
+                  alt={item.title}
+                  className="h-full w-full object-cover opacity-75 group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-5">
+                <span className="text-xs font-semibold uppercase text-blue">{item.category}</span>
+                <h3 className="mt-1 font-bold text-ink group-hover:text-blue transition-colors leading-snug">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-sm text-muted line-clamp-2">{item.excerpt}</p>
+                <time className="mt-3 block text-xs text-muted" dateTime={item.date}>
+                  {formatDate(item.date)}
+                </time>
+              </div>
             </Card>
           </Link>
         ))}

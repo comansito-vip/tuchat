@@ -26,6 +26,7 @@ export interface NewsItem {
   date: string;          // ISO
   featured?: boolean;
   body?: string;         // cuerpo del artículo (párrafos separados por \n\n)
+  image?: string;        // URL de imagen destacada (Unsplash CDN)
 }
 
 export interface TrendItem { label: string; href: string; }

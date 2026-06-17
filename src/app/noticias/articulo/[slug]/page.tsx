@@ -6,6 +6,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
 import { articleJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
+import { getNewsImage } from "@/lib/news-images";
 
 const CATEGORY_CANAL: Record<string, string> = {
   deportes: "deportes", tecnologia: "tecnologia", ia: "tecnologia",
@@ -83,6 +84,16 @@ export default async function ArticuloPage({
           body: a.body,
         })}
       />
+
+      {/* Hero image */}
+      <div className="mt-4 overflow-hidden rounded-2xl aspect-[21/7] bg-gradient-to-br from-blue/10 to-brand/5">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={a.image ?? getNewsImage(a.category, a.slug)}
+          alt={a.title}
+          className="h-full w-full object-cover"
+        />
+      </div>
 
       <article className="mt-4">
         <Link
