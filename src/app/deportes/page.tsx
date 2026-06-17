@@ -7,6 +7,8 @@ import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd }
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
+import { getLeagues } from "@/lib/teams";
+import { TeamCard } from "@/components/deportes/TeamCard";
 
 export const metadata: Metadata = {
   title: "Chat de deportes y fútbol: salas por equipo",
@@ -60,23 +62,53 @@ export default function DeportesPage() {
       <JsonLd data={itemListJsonLd(ranking.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
       <Breadcrumbs crumbs={crumbs} />
 
-      <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de deportes y fútbol</h1>
-      <p className="mt-2 max-w-2xl text-muted">
-        Liga, Champions, Libertadores, Fórmula 1 y mucho más. Comenta cada jornada en directo,
-        defiende a tu equipo y conoce gente que vive el deporte con la misma pasión que tú.
-      </p>
-      <div className="mt-4 flex flex-wrap items-center gap-4">
-        <div className="max-w-sm flex-1">
-          <NickInput canal="deportes" placeholder="Tu nick para el chat de deportes..." />
+      {/* Hero deportes */}
+      <div className="relative mt-4 overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-900 p-8 text-white">
+        <span
+          className="pointer-events-none absolute right-6 top-1/2 -translate-y-1/2 text-[8rem] opacity-10 select-none"
+          aria-hidden="true"
+        >
+          ⚽
+        </span>
+        <h1 className="text-3xl font-extrabold">Chat de deportes y fútbol</h1>
+        <p className="mt-2 max-w-xl opacity-90">
+          Liga, Champions, Libertadores, Fórmula 1 y mucho más. Comenta cada jornada en directo y
+          defiende a tu equipo.
+        </p>
+        <div className="mt-5 flex flex-wrap items-center gap-4">
+          <div className="max-w-sm flex-1">
+            <NickInput canal="deportes" placeholder="Tu nick para el chat de deportes..." variant="onColor" />
+          </div>
+          <Button href="/resultados/laliga" variant="secondary">Ver resultados →</Button>
         </div>
-        <Button href="/resultados/laliga" variant="secondary">Ver resultados →</Button>
       </div>
 
-      <section className="mt-8">
+      {/* Salas de chat deportivas */}
+      <section className="mt-10">
         <SectionTitle>Salas por equipo y categoría</SectionTitle>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {ranking.map((p) => (
             <RoomCard key={p.slug} place={p} />
+          ))}
+        </div>
+      </section>
+
+      {/* Equipos por liga */}
+      <section className="mt-10">
+        <SectionTitle>Equipos por liga</SectionTitle>
+        <div className="mt-4 space-y-3">
+          {getLeagues().map((league) => (
+            <details key={league.slug} className="group rounded-xl border border-line bg-card">
+              <summary className="flex cursor-pointer items-center justify-between px-5 py-3 font-semibold text-ink hover:text-blue">
+                {league.name}
+                <span className="ml-2 text-muted group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <div className="grid grid-cols-2 gap-2 px-4 pb-4 pt-2 sm:grid-cols-3 lg:grid-cols-5">
+                {league.teams.map((team) => (
+                  <TeamCard key={team.name} team={team} />
+                ))}
+              </div>
+            </details>
           ))}
         </div>
       </section>
