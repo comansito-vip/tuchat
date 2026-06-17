@@ -6,6 +6,7 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RankingTable } from "@/components/home/RankingTable";
 import { RedirectsManager } from "@/components/admin/RedirectsManager";
 import { VisibilityManager } from "@/components/admin/VisibilityManager";
+import { RoomManager } from "@/components/admin/RoomManager";
 import { CONTINENTS, getChildren, getStats, getNews } from "@/data";
 
 // Panel interno: no indexar.
@@ -128,13 +129,24 @@ export default function AdminPage() {
         </Card>
       </section>
 
+      {/* Editar / crear salas */}
+      <section className="mt-10">
+        <SectionTitle>Editar y crear salas</SectionTitle>
+        <Card className="p-5">
+          <p className="mb-5 text-sm text-muted">
+            Sobreescribe campos de salas existentes (override en runtime) o crea landings nuevas.
+            Las salas base de los ficheros TS nunca se modifican.
+          </p>
+          <RoomManager />
+        </Card>
+      </section>
+
       {/* Acciones aún pendientes */}
       <section className="mt-10">
         <SectionTitle>Próximas fases</SectionTitle>
         <Card className="p-5 text-sm text-muted">
           <ul className="list-inside list-disc space-y-1">
-            <li>Editar salas y canales IRC, y crear landings temáticas</li>
-            <li>Aprobar/forzar regeneración de contenidos automáticos</li>
+            <li>Regeneración de noticias desde el panel (fase D)</li>
           </ul>
           <p className="mt-3">
             La regeneración de noticias ya está disponible vía <code>npm run generate:news</code>{" "}
