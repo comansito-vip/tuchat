@@ -1,11 +1,22 @@
 import { NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
+import { spawnSync } from "node:child_process";
 import type { Place } from "@/data/types";
 import * as store from "@/lib/admin-store";
 
 // El store en fichero usa fs; forzamos runtime Node y sin cache.
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+
+// Estado del último intento de regeneración (en memoria; se pierde en restart).
+export interface RegenStatus {
+  startedAt: string;
+  finishedAt?: string;
+  status: "ok" | "error";
+  duration?: number;
+  error?: string;
+}
+let lastRegen: RegenStatus | null = null;
 
 function str(v: unknown): string {
   if (typeof v !== "string" || !v.trim()) throw new Error("falta un campo de texto requerido");
@@ -14,7 +25,7 @@ function str(v: unknown): string {
 
 // GET /api/admin → estado actual del panel (para la UI).
 export async function GET() {
-  return NextResponse.json(await store.getAdminState());
+  return NextResponse.json({ ...(await store.getAdminState()), lastRegen });
 }
 
 // POST { action, ...payload } → muta el estado y revalida.
@@ -50,11 +61,31 @@ export async function POST(req: Request) {
       case "deleteRoom":
         await store.deleteRoom(str(body.slug));
         break;
-      case "regenNews":
-        return NextResponse.json(
-          { error: "regeneración de noticias no soportada en este entorno" },
-          { status: 501 }
-        );
+      case "regenNews": {
+        const startedAt = new Date().toISOString();
+        const t0 = Date.now();
+
+        const result = spawnSync("npx", ["tsx", "scripts/generate-news.ts"], {
+          cwd: process.cwd(),
+          timeout: 180_000,
+          encoding: "utf8",
+        });
+
+        const duration = Math.round((Date.now() - t0) / 1000);
+        const finishedAt = new Date().toISOString();
+
+        if (result.status === 0) {
+          lastRegen = { startedAt, finishedAt, status: "ok", duration };
+          return NextResponse.json({ ok: true, duration, lastRegen });
+        }
+
+        const errMsg =
+          (result.stderr as string)?.trim() ||
+          result.error?.message ||
+          "proceso terminó con error";
+        lastRegen = { startedAt, finishedAt, status: "error", duration, error: errMsg };
+        return NextResponse.json({ error: errMsg, lastRegen }, { status: 500 });
+      }
       default:
         return NextResponse.json({ error: `acción desconocida: ${String(action)}` }, { status: 400 });
     }

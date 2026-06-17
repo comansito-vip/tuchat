@@ -7,6 +7,7 @@ import { RankingTable } from "@/components/home/RankingTable";
 import { RedirectsManager } from "@/components/admin/RedirectsManager";
 import { VisibilityManager } from "@/components/admin/VisibilityManager";
 import { RoomManager } from "@/components/admin/RoomManager";
+import { RegenNewsButton } from "@/components/admin/RegenNewsButton";
 import { CONTINENTS, getChildren, getStats, getNews } from "@/data";
 
 // Panel interno: no indexar.
@@ -141,17 +142,11 @@ export default function AdminPage() {
         </Card>
       </section>
 
-      {/* Acciones aún pendientes */}
+      {/* Regenerar noticias */}
       <section className="mt-10">
-        <SectionTitle>Próximas fases</SectionTitle>
-        <Card className="p-5 text-sm text-muted">
-          <ul className="list-inside list-disc space-y-1">
-            <li>Regeneración de noticias desde el panel (fase D)</li>
-          </ul>
-          <p className="mt-3">
-            La regeneración de noticias ya está disponible vía <code>npm run generate:news</code>{" "}
-            (pipeline multi-LLM con fallback).
-          </p>
+        <SectionTitle>Regenerar noticias</SectionTitle>
+        <Card className="p-5">
+          <RegenNewsButton />
         </Card>
       </section>
     </main>
