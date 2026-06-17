@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RankingTable } from "@/components/home/RankingTable";
 import { RedirectsManager } from "@/components/admin/RedirectsManager";
+import { VisibilityManager } from "@/components/admin/VisibilityManager";
 import { CONTINENTS, getChildren, getStats, getNews } from "@/data";
 
 // Panel interno: no indexar.
@@ -115,12 +116,23 @@ export default function AdminPage() {
         </Card>
       </section>
 
+      {/* Visibilidad e indexación */}
+      <section className="mt-10">
+        <SectionTitle>Visibilidad e indexación</SectionTitle>
+        <Card className="p-5">
+          <p className="mb-5 text-sm text-muted">
+            Controla qué salas aparecen en el directorio y cuáles indexan los buscadores. Los
+            cambios se aplican en tiempo real sin redeploy.
+          </p>
+          <VisibilityManager />
+        </Card>
+      </section>
+
       {/* Acciones aún pendientes */}
       <section className="mt-10">
         <SectionTitle>Próximas fases</SectionTitle>
         <Card className="p-5 text-sm text-muted">
           <ul className="list-inside list-disc space-y-1">
-            <li>Visibilidad e indexación de salas (ocultar / noindex)</li>
             <li>Editar salas y canales IRC, y crear landings temáticas</li>
             <li>Aprobar/forzar regeneración de contenidos automáticos</li>
           </ul>

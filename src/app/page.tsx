@@ -14,7 +14,7 @@ import { Card } from "@/components/ui/Card";
 import { FireIcon, SparkIcon } from "@/components/ui/icons";
 import { faqJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
-import { getRooms } from "@/data";
+import { getMergedAll } from "@/data/merged";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -51,8 +51,9 @@ const FAQ = [
   },
 ];
 
-export default function HomePage() {
-  const rooms = getRooms();
+export default async function HomePage() {
+  const allRooms = await getMergedAll();
+  const rooms = [...allRooms].sort((a, b) => b.users - a.users).slice(0, 12);
   const hotRooms = rooms.filter((r) => r.tag === "Popular").slice(0, 4);
 
   return (

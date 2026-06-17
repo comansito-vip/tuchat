@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
-import { getPlace, getCountries, getCities, getTopics, getChildren, getRelated } from "@/data";
-import { getRedirectTarget, isNoindex } from "@/data/admin-runtime";
+import {
+  getMergedPlace,
+  getMergedChildren,
+  getMergedRelated,
+  getMergedCountries,
+  getMergedCities,
+  getMergedTopics,
+  getRedirectTarget,
+  isNoindex,
+} from "@/data/merged";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
@@ -19,8 +27,13 @@ import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd }
 // reflejan al revalidar (revalidatePath tras cada escritura del admin).
 export const revalidate = 3600;
 
-export function generateStaticParams() {
-  return [...getCountries(), ...getCities(), ...getTopics()].map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  const [countries, cities, topics] = await Promise.all([
+    getMergedCountries(),
+    getMergedCities(),
+    getMergedTopics(),
+  ]);
+  return [...countries, ...cities, ...topics].map((p) => ({ slug: p.slug }));
 }
 
 const ROOM_TITLES: Record<string, string> = {
@@ -37,7 +50,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const place = getPlace(slug);
+  const place = await getMergedPlace(slug);
   if (!place) return {};
   return {
     title: ROOM_TITLES[slug] ?? `Chat ${place.name} gratis`,
@@ -56,7 +69,7 @@ export default async function ChatRoomPage({
   const { slug } = await params;
   const target = await getRedirectTarget(slug);
   if (target) permanentRedirect(`/chat/${target}`);
-  const place = getPlace(slug);
+  const place = await getMergedPlace(slug);
   if (!place) notFound();
 
   const crumbs = buildRoomCrumbs(place);
@@ -64,7 +77,10 @@ export default async function ChatRoomPage({
   const bullets = roomBullets(place);
   const aboutText = place.about ?? place.intro;
   const extraLead = aboutLead(place);
-  const children = getChildren(place.slug);
+  const [children, related] = await Promise.all([
+    getMergedChildren(place.slug),
+    getMergedRelated(place.related),
+  ]);
   const childrenTitle =
     place.kind === "pais" ? `Ciudades de ${place.name}` : `Más salas de ${place.name}`;
 
@@ -132,11 +148,11 @@ export default async function ChatRoomPage({
           </SEOTextBlock>
 
           {/* Salas relacionadas (encima de noticias) */}
-          {place.related.length > 0 && (
+          {related.length > 0 && (
             <section id="relacionadas" className="mt-8">
               <SectionTitle>Otras salas que te pueden gustar</SectionTitle>
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-                {getRelated(place.related).slice(0, 6).map((r) => (
+                {related.slice(0, 6).map((r) => (
                   <RoomCard key={r.slug} place={r} />
                 ))}
               </div>

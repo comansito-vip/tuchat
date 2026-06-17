@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getCountries, getCities, getTopics } from "@/data";
+import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { SearchInput } from "@/components/ui/SearchInput";
@@ -46,11 +46,15 @@ export default async function ChatIndexPage({
 }) {
   const { q } = await searchParams;
 
-  const all = [...getCountries(), ...getCities(), ...getTopics()];
+  const [countries, cities, topics] = await Promise.all([
+    getMergedCountries(),
+    getMergedCities(),
+    getMergedTopics(),
+  ]);
+  const all = [...countries, ...cities, ...topics];
   const filtered = q
     ? all.filter((p) => normalize(p.name).includes(normalize(q)))
     : all;
-
 
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
 
