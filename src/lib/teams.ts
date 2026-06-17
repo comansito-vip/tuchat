@@ -16,10 +16,10 @@ const LEAGUES: League[] = [
     name: "LaLiga",
     teams: [
       { name: "Real Madrid",       slug: "real-madrid",  badge: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
-      { name: "FC Barcelona",      slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
-      { name: "Atlético de Madrid",slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_de_madrid_logo_2017.svg" },
+      { name: "FC Barcelona",      slug: "fc-barcelona", badge: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
+      { name: "Atlético de Madrid",slug: "atletico-madrid", badge: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_de_madrid_logo_2017.svg" },
       { name: "Sevilla FC",        slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg" },
-      { name: "Valencia CF",       slug: "valencia",     badge: "https://upload.wikimedia.org/wikipedia/en/c/ce/Valenciacf.svg" },
+      { name: "Valencia CF",       slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/c/ce/Valenciacf.svg" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const LEAGUES: League[] = [
     slug: "ligamx",
     name: "Liga MX",
     teams: [
-      { name: "Club América",      slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/a/a4/Club_America_crest.svg" },
+      { name: "Club América",      slug: "america-mexico", badge: "https://upload.wikimedia.org/wikipedia/en/a/a4/Club_America_crest.svg" },
       { name: "Chivas",            slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/a/ab/Chivas_Logo_2022.png" },
       { name: "Cruz Azul",         slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/6/67/Cruz_Azul_Logo.svg" },
       { name: "Tigres UANL",       slug: "",             badge: "https://upload.wikimedia.org/wikipedia/en/3/3a/Tigres_UANL_logo.svg" },

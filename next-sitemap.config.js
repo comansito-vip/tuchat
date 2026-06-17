@@ -63,15 +63,18 @@ function transformEntry(config, path) {
 module.exports = {
   siteUrl: "https://tuchat.org",
   generateRobotsTxt: true,
-  exclude: ["/webchat", "/admin", "/api/*", "/resultados"],
+  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image"],
   robotsTxtOptions: {
     policies: [{ userAgent: "*", allow: "/", disallow: ["/webchat", "/admin", "/api"] }],
   },
   transform: transformEntry,
+  // /chat recibe searchParams (no estática) y next-sitemap no la recoge del build:
+  // se añade explícitamente junto a las páginas de resultados por liga.
   additionalPaths: async (config) =>
-    Promise.all(
-      LEAGUE_SLUGS.map((slug) =>
+    Promise.all([
+      config.transform(config, "/chat"),
+      ...LEAGUE_SLUGS.map((slug) =>
         config.transform(config, `/resultados/${slug}`)
-      )
-    ),
+      ),
+    ]),
 };

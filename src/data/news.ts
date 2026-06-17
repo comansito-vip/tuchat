@@ -565,7 +565,7 @@ Pero los expertos advierten que contratar más profesionales no es suficiente si
 
 La iniciativa parlamentaria que más apoyo acumula en este momento es la creación de un servicio de atención psicológica gratuito para menores de 25 años, similar al modelo pilotado por Francia y los países nórdicos. El coste estimado sería de 320 millones anuales, menos del 0,1% del PIB.
 
-La sala de salud y bienestar de TuChat es uno de los espacios donde este tema se debate con mayor frankeza. Usuarios de todas las edades comparten experiencias sobre el acceso a la psicología clínica, los costes del sector privado y estrategias de autocuidado en espera de atención especializada. El debate refleja que el estigma sobre la salud mental está disminuyendo entre los jóvenes españoles, que hablan con normalidad de la terapia y la ansiedad con una apertura desconocida en generaciones anteriores. Ese cambio cultural, más que cualquier estadística, apunta a que la presión social para mejorar los recursos públicos de salud mental seguirá creciendo.`,
+La sala de salud y bienestar de TuChat es uno de los espacios donde este tema se debate con mayor franqueza. Usuarios de todas las edades comparten experiencias sobre el acceso a la psicología clínica, los costes del sector privado y estrategias de autocuidado en espera de atención especializada. El debate refleja que el estigma sobre la salud mental está disminuyendo entre los jóvenes españoles, que hablan con normalidad de la terapia y la ansiedad con una apertura desconocida en generaciones anteriores. Ese cambio cultural, más que cualquier estadística, apunta a que la presión social para mejorar los recursos públicos de salud mental seguirá creciendo.`,
   },
 
   {

@@ -110,7 +110,7 @@ export const TOPICS: Place[] = [
     intro:
       "Partidas en curso, noticias del sector, builds imposibles y ese compañero que desaparece en el momento más crítico: todo tiene cabida en la sala de videojuegos.",
     about:
-      "La sala de videojuegos reúne a jugadores de PC, consola y móvil sin guerras de plataforma: lo que importa es la partida, no el soporte. Se habla de builds imposibles de Path of Exile, del lore de FromSouls que nadie termina de entender del todo, de los últimos anuncios del Nintendo Direct y del compañero que desaparece justo antes del boss final. También hay quien recluta para su clan, quien busca consejo antes de comprar, y quien quiere saber qué vale la pena en el catálogo de este mes.",
+      "La sala de videojuegos reúne a jugadores de PC, consola y móvil sin guerras de plataforma: lo que importa es la partida, no el soporte. Se habla de builds imposibles de Path of Exile, del lore de los Soulslike de FromSoftware que nadie termina de entender del todo, de los últimos anuncios del Nintendo Direct y del compañero que desaparece justo antes del boss final. También hay quien recluta para su clan, quien busca consejo antes de comprar, y quien quiere saber qué vale la pena en el catálogo de este mes.",
   },
   {
     slug: "filosofia",

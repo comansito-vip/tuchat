@@ -70,7 +70,7 @@ export const CITIES: Place[] = [
     intro:
       "Aquí se habla con el calor del Sur: desde los que salen de madrugada por Triana hasta los que debaten si la Feria se ha comercializado demasiado.",
     about:
-      "El chat de Sevilla reúne a gente de Triana, el Alfalfa, los Remedios y el Polígono. Se habla de la Semana Santa con las costaleras y el olor a incienso en la madrugada, de la Feria de Abril hasta el amanecer, del Betis y del Sevilla con la intensidad que se merece el derbi. La ciudad más caliente de España tiene conversaciones igual de intensas: copas en el Arenal, tapas en el Mercado de la Encarnación y el río Guadalquivir como telón de fondo.",
+      "El chat de Sevilla reúne a gente de Triana, el Alfalfa, los Remedios y el Polígono. Se habla de la Semana Santa con las costaleras y el olor a incienso en la madrugada, de la Feria de Abril hasta el amanecer, del Betis y del Sevilla con la intensidad que se merece el derbi. Una de las ciudades más calurosas de España tiene conversaciones igual de intensas: copas en el Arenal, tapas en el Mercado de la Encarnación y el río Guadalquivir como telón de fondo.",
   },
   {
     slug: "bilbao",
@@ -139,7 +139,7 @@ export const CITIES: Place[] = [
     intro:
       "Puerto, conserveras, Celta y lluvia fina: Vigo tiene mucho carácter y gente con ganas de conversación, especialmente después del partido del domingo.",
     about:
-      "El chat de Vigo junta a vigués del casco vello, Bouzas, Teis y los barrios del Puerto. Se habla del Celta con pasión y sufrimiento a partes iguales, de las empanadas de berberechos de toda la vida, de la lluvia que no cesa entre octubre y mayo y del orgullo de ser la ciudad más poblada de Galicia sin ser la capital. Hay quienes llevan décadas en Vigoa y quienes llegaron por la universidad o por los astilleros. Una sala con acento gallego marcado y conversaciones que no tienen prisa.",
+      "El chat de Vigo junta a vigués del casco vello, Bouzas, Teis y los barrios del Puerto. Se habla del Celta con pasión y sufrimiento a partes iguales, de las empanadas de berberechos de toda la vida, de la lluvia que no cesa entre octubre y mayo y del orgullo de ser la ciudad más poblada de Galicia sin ser la capital. Hay quienes llevan décadas en Vigo y quienes llegaron por la universidad o por los astilleros. Una sala con acento gallego marcado y conversaciones que no tienen prisa.",
   },
   {
     slug: "zaragoza",
@@ -298,7 +298,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Murcia para hablar con gente de la huerta, quedar para unas marineras en Santa Catalina o comentar las Fiestas de Primavera.",
     about:
-      "El chat de Murcia junta a peña de la capital y de toda la huerta: del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Aquí se habla en panocho cuando apetece, se discute si el zarangollo lleva patata o no, se debate el pastél de carne del Pasaje Lodares y se queda para el Bando de la Huerta, la Batalla de las Flores y para tomar un café con hielo cuando aprieta el calor extremeño. Una sala campechana, con guasa murciana, poco postureo y ese orgullo de estar entre el mar y la montaña en uno de los huertos más productivos de Europa.",
+      "El chat de Murcia junta a peña de la capital y de toda la huerta: del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Aquí se habla en panocho cuando apetece, se discute si el zarangollo lleva patata o no, se debate el pastel de carne del Pasaje Lodares y se queda para el Bando de la Huerta, la Batalla de las Flores y para tomar un café con hielo cuando aprieta el calor murciano. Una sala campechana, con guasa murciana, poco postureo y ese orgullo de estar entre el mar y la montaña en uno de los huertos más productivos de Europa.",
   },
   {
     slug: "valladolid",
@@ -486,7 +486,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Cádiz para conocer gente, reírte con el cachondeo gaditano y quedar a comer pescaíto frito en La Viña antes de que empiece el Carnaval.",
     about:
-      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias que no encontrarás en ningún otro sitio. Se habla de las chirigotas y comparsas del Carnaval —el mejor de España para quien lo sabe— de bañarse en La Caleta al caer la tarde con la puesta de sol de fondo, del pescaíto frito en cucurucho y los erizos en el Faro, y de esa luz blanca y plana que tiene la ciudad más vieja de Occidente. Aquí no falta la guasa ni el cariño gaditano. Una sala alegre que se ríe hasta de su propia sombra y te contagia.",
+      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias que no encontrarás en ningún otro sitio. Se habla de las chirigotas y comparsas del Carnaval —el mejor de España para quien lo sabe— de bañarse en La Caleta al caer la tarde con la puesta de sol de fondo, del pescaíto frito en cucurucho y los erizos en el Faro, y de esa luz blanca y plana que tiene una de las ciudades habitadas más antiguas de Occidente. Aquí no falta la guasa ni el cariño gaditano. Una sala alegre que se ríe hasta de su propia sombra y te contagia.",
   },
   {
     slug: "almeria",
@@ -503,7 +503,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Almería para conocer gente, quedar a tomar tapas gratis por las Cuatro Calles o escaparte a las calas vírgenes del Cabo de Gata.",
     about:
-      "El chat de Almería reúne a gente del Centro, Nova Almería y La Chanca con los que vienen del poniente agrícola y los visitantes del Parque Natural de Cabo de Gata. Se habla de las tapas gratuitas que la gente de fuera no se cree, del sol que supera los 3.000 horas al año, de los platós de spaghetti westerns en Tabernas y del orgullo de tener las playas más vírgenes de Andalucía cuando todo el litoral está masificado.",
+      "El chat de Almería reúne a gente del Centro, Nova Almería y La Chanca con los que vienen del poniente agrícola y los visitantes del Parque Natural de Cabo de Gata. Se habla de las tapas gratuitas que la gente de fuera no se cree, del sol que supera las 3.000 horas al año, de los platós de spaghetti westerns en Tabernas y del orgullo de tener las playas más vírgenes de Andalucía cuando todo el litoral está masificado.",
   },
   {
     slug: "tenerife",
@@ -1177,7 +1177,7 @@ export const CITIES: Place[] = [
     intro:
       "Entre el bullicio del Conde y el merengue que sale de los colmadones, la sala más prendida del Caribe: aquí se habla claro y se baila más claro todavía.",
     about:
-      "La capital más antigua de América mezcla la piedra colonial de la Zona Colonial con el reguetón del Malecón un domingo cualquiera. Aquí la gente saluda con un '¿qué lo que?', se toma la Presidente bien fría y resuelve la vida a punta de bachata. En esta sala vas a encontrar capitaleños sueltos, gente de los barrios de Villa Mella o Los Mina, y más de un romance que arranca con un simple 'dime a ver'.",
+      "La primera ciudad europea de América mezcla la piedra colonial de la Zona Colonial con el reguetón del Malecón un domingo cualquiera. Aquí la gente saluda con un '¿qué lo que?', se toma la Presidente bien fría y resuelve la vida a punta de bachata. En esta sala vas a encontrar capitaleños sueltos, gente de los barrios de Villa Mella o Los Mina, y más de un romance que arranca con un simple 'dime a ver'.",
   },
   {
     slug: "santiago-de-los-caballeros",

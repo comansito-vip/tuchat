@@ -261,7 +261,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Donde dos océanos casi se tocan y los barcos hacen cola para cruzar el canal. Un skyline de cristal frente al Casco Viejo y siempre un típico de fondo.",
     about:
-      "El chat de Panamá tiene el pulso de Ciudad de Panamá, donde los rascacielos del banking district se ven desde las callejuelas coloniales del Casco Antiguo. Panameños de la capital, choriceros del interior y descendientes de la ex Zona del Canal comparten una sala tan diversa como el propio país. Se habla del canal que parte el continente en dos y da trabajo a miles de familias, de la cinta costera de noche, del tamborito en las fiestas patrias y de si el béisbol o el fútbol manda esta temporada.",
+      "El chat de Panamá tiene el pulso de Ciudad de Panamá, donde los rascacielos del distrito financiero se ven desde las callejuelas coloniales del Casco Antiguo. Panameños de la capital, choriceros del interior y descendientes de la ex Zona del Canal comparten una sala tan diversa como el propio país. Se habla del canal que parte el continente en dos y da trabajo a miles de familias, de la cinta costera de noche, del tamborito en las fiestas patrias y de si el béisbol o el fútbol manda esta temporada.",
   },
   {
     slug: "el-salvador",
@@ -306,7 +306,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Tierra de lagos con volcanes en medio y de poetas que recitan a Rubén Darío de memoria. Aquí se dice dale pues a todo y el gallo pinto arranca cualquier mañana.",
     about:
-      "El chat de Nicaragua tiene la voz del poeta —Darío todavía se recita de memoria en las escuelas— y la calidez del pueblo que lo parió. Manancianos, granadinos de la ciudad colonial más antigua de Centroamérica, matagalpinos y costeños del Caribe conectan con nicas en San José, Miami y Madrid. Se habla del lago Cocibolca como orgullo geográfico inmenso, del gallo pinto que no puede faltar en ninguna mañana, y de la pipa de agua de coco como solución al calor. Dale pues: la sala tiene gente activa.",
+      "El chat de Nicaragua tiene la voz del poeta —Darío todavía se recita de memoria en las escuelas— y la calidez del pueblo que lo parió. Managüenses, granadinos de una de las ciudades coloniales más antiguas de Centroamérica, matagalpinos y costeños del Caribe conectan con nicas en San José, Miami y Madrid. Se habla del lago Cocibolca como orgullo geográfico inmenso, del gallo pinto que no puede faltar en ninguna mañana, y de la pipa de agua de coco como solución al calor. Dale pues: la sala tiene gente activa.",
   },
   {
     slug: "estados-unidos",

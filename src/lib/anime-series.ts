@@ -10,7 +10,7 @@ export const ANIME_SERIES: AnimeSerie[] = [
   {
     name: "Naruto",
     emoji: "🍥",
-    blurb: "La historia del ninja que nunca rinde. Naruto Uzumaki y su camino hacia convertirse en Hokage con la potencia del Kyubi y el espíritu de nunca abandonar a sus compañeros.",
+    blurb: "La historia del ninja que nunca rinde. Naruto Uzumaki y su camino hacia convertirse en Hokage con el poder del Zorro de las Nueve Colas (Kurama) y el espíritu de nunca abandonar a sus compañeros.",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
   },
   {
@@ -28,7 +28,7 @@ export const ANIME_SERIES: AnimeSerie[] = [
   {
     name: "Demon Slayer",
     emoji: "⚔️",
-    blurb: "Tanjiro Kamado, la hermana demonio y la Guardia Masacra Demonios. Animación de ufotable que redefinió los estándares visuales del anime contemporáneo.",
+    blurb: "Tanjiro Kamado, la hermana demonio y el Cuerpo de Cazadores de Demonios. Animación de ufotable que redefinió los estándares visuales del anime contemporáneo.",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9e/Kimetsu_no_Yaiba_manga_volume_1.png",
   },
   {
