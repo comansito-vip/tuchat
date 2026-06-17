@@ -80,10 +80,20 @@ export default async function PaisPage({
         <JsonLd data={faqJsonLd(faq)} />
         <JsonLd data={itemListJsonLd(allRooms.map((r) => ({ url: `/chat/${r.slug}`, name: `Chat ${r.name}` })))} />
         <Breadcrumbs crumbs={crumbs} />
-        <h1 className="mt-4 text-3xl font-extrabold text-ink">Chat de {nombre}</h1>
-        <p className="mt-2 max-w-2xl text-muted">{place.about ?? place.intro}</p>
-        <div className="mt-4 max-w-sm">
-          <NickInput canal={pais} placeholder={`Tu nick para entrar a ${nombre}...`} />
+        {/* Hero de país con bandera prominente */}
+        <div className="mt-4 rounded-2xl bg-gradient-to-br from-brand/10 to-blue/5 p-6">
+          <div className="flex items-center gap-4">
+            <span className="text-7xl leading-none" aria-hidden="true">{place.icon}</span>
+            <div>
+              <h1 className="text-3xl font-extrabold leading-tight text-ink">
+                Chat de {nombre}
+              </h1>
+              <p className="mt-1 max-w-xl text-muted">{place.about ?? place.intro}</p>
+            </div>
+          </div>
+          <div className="mt-5 max-w-sm">
+            <NickInput canal={pais} placeholder={`Tu nick para entrar a ${nombre}...`} />
+          </div>
         </div>
 
         <section className="mt-8">
