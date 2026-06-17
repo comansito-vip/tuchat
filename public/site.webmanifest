@@ -1,0 +1,16 @@
+{
+  "name": "TuChat — Chat gratis en español",
+  "short_name": "TuChat",
+  "description": "Salas de chat gratis sin registro en español por países, ciudades y temáticas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
