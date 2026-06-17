@@ -1,9 +1,19 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { NickInput } from "@/components/ui/NickInput";
 import { RoomCard } from "./RoomCard";
 import { getCountries, getCities, getRooms } from "@/data";
 
+const QUICK_LINKS = [
+  { label: "España", slug: "espana" },
+  { label: "México", slug: "mexico" },
+  { label: "Argentina", slug: "argentina" },
+  { label: "Madrid", slug: "madrid" },
+  { label: "Barcelona", slug: "barcelona" },
+  { label: "Gay", slug: "gay" },
+  { label: "Anime", slug: "anime" },
+];
 
 export function HeroSearch() {
   const countries = getCountries();
@@ -31,12 +41,27 @@ export function HeroSearch() {
           Conoce gente nueva, haz amigos o liga con miles de usuarios de habla hispana.
         </p>
 
-        <div className="mt-5">
-          <SearchInput size="lg" />
+        {/* NickInput primero */}
+        <div className="mt-5" data-testid="nick-input">
+          <NickInput canal="espana" placeholder="Tu nick para entrar al chat..." />
         </div>
 
-        <div className="mt-4">
-          <NickInput canal="espana" placeholder="Tu nick para entrar al chat..." />
+        {/* Quick-links chips */}
+        <nav aria-label="Salas populares" className="mt-3 flex flex-wrap gap-2">
+          {QUICK_LINKS.map((ql) => (
+            <Link
+              key={ql.slug}
+              href={`/chat/${ql.slug}`}
+              className="rounded-full border border-line bg-card px-3 py-1 text-sm font-medium text-ink hover:border-blue hover:text-blue transition-colors"
+            >
+              {ql.label}
+            </Link>
+          ))}
+        </nav>
+
+        {/* SearchInput después */}
+        <div className="mt-4" data-testid="search-input">
+          <SearchInput size="lg" />
         </div>
 
         <div className="mt-3">
@@ -55,7 +80,7 @@ export function HeroSearch() {
         </dl>
       </div>
 
-      {/* RIGHT column — top 3 rooms, visible only on lg+ */}
+      {/* RIGHT column */}
       <div className="hidden flex-col gap-3 lg:flex">
         {rooms.slice(0, 3).map((place) => (
           <RoomCard key={place.slug} place={place} />

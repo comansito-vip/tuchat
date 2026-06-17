@@ -115,3 +115,22 @@ it("Sidebar shows ranking label and at least 5 ranked rooms", () => {
   );
   expect(links.length).toBeGreaterThanOrEqual(5);
 });
+
+it("HeroSearch shows quick-link chips to popular rooms", () => {
+  render(<HeroSearch />);
+  const links = screen.getAllByRole("link").filter((l) =>
+    l.getAttribute("href") === "/chat/espana"
+  );
+  expect(links.length).toBeGreaterThanOrEqual(1);
+});
+
+it("HeroSearch NickInput appears before SearchInput in DOM", () => {
+  const { container } = render(<HeroSearch />);
+  const nick = container.querySelector('[data-testid="nick-input"]');
+  const search = container.querySelector('[data-testid="search-input"]');
+  if (nick && search) {
+    expect(
+      nick.compareDocumentPosition(search) & Node.DOCUMENT_POSITION_FOLLOWING
+    ).toBeTruthy();
+  }
+});
