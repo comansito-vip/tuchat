@@ -36,7 +36,7 @@ export function WeatherWidget({
   }
 
   return (
-    <div className="mt-6 rounded-2xl border border-line bg-card p-6">
+    <div className="mt-6 rounded-2xl border border-line bg-card p-4 sm:p-6">
       {/* Current conditions */}
       <div className="flex items-center gap-4">
         <span className="text-6xl" aria-hidden="true">{data.icon}</span>
@@ -66,7 +66,7 @@ export function WeatherWidget({
           <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted">
             Previsión 5 días
           </p>
-          <div className="grid grid-cols-5 gap-2 text-center text-sm">
+          <div className="grid grid-cols-5 gap-1 text-center text-sm sm:gap-2">
             {data.forecast.map((day) => {
               const label = new Date(day.date).toLocaleDateString("es-ES", {
                 weekday: "short",

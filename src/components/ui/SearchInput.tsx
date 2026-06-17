@@ -19,7 +19,7 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
         onChange={(e) => setQ(e.target.value)}
         placeholder="Buscar ciudad, país o temática"
         aria-label="Buscar"
-        className={`w-full bg-transparent px-3 text-ink outline-none placeholder:text-slate-400 ${
+        className={`w-full bg-transparent px-3 text-ink outline-none placeholder:text-muted ${
           size === "lg" ? "py-2.5 text-base" : "py-1.5 text-sm"
         }`}
       />

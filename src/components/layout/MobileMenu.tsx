@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = [
@@ -36,6 +36,16 @@ const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = 
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+
+  // Bloquea el scroll del body mientras el menú está abierto (evita scroll-bleed).
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
 
   return (
     <>

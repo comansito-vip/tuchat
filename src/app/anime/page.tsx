@@ -48,6 +48,9 @@ function AnimeSeriesCard({ serie }: { serie: (typeof ANIME_SERIES)[number] }) {
         <img
           src={serie.thumbnail}
           alt={`Portada de ${serie.name}`}
+          width={80}
+          height={112}
+          loading="lazy"
           className="h-full w-full object-cover opacity-90"
         />
       </div>
@@ -80,14 +83,14 @@ export default function AnimePage() {
       <div className="relative mt-4 overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-900 via-fuchsia-900 to-purple-900 p-8 text-white">
         {/* Caracteres japoneses decorativos (CSS puro) */}
         <span
-          className="pointer-events-none absolute right-8 top-1/2 -translate-y-1/2 select-none text-[7rem] font-bold leading-none tracking-widest opacity-10"
+          className="pointer-events-none absolute right-8 top-1/2 hidden -translate-y-1/2 select-none text-[7rem] font-bold leading-none tracking-widest opacity-10 sm:block"
           aria-hidden="true"
           style={{ fontFamily: "serif" }}
         >
           アニメ
         </span>
         <p className="text-sm font-semibold uppercase tracking-widest opacity-75">TuChat · Mundo Otaku</p>
-        <h1 className="mt-2 text-4xl font-extrabold leading-tight">
+        <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">
           Chat de anime y manga
         </h1>
         <p className="mt-2 max-w-lg opacity-90">
@@ -120,7 +123,7 @@ export default function AnimePage() {
       </section>
 
       {/* Editorial "Esta temporada" */}
-      <section className="mt-10 rounded-2xl bg-gradient-to-br from-indigo-50 to-fuchsia-50 dark:from-indigo-950/20 dark:to-fuchsia-950/20 p-6">
+      <section className="mt-10 rounded-2xl bg-gradient-to-br from-indigo-50 to-fuchsia-50 p-6">
         <h2 className="text-xl font-extrabold text-ink">Esta temporada en el chat de anime</h2>
         <div className="mt-4 space-y-4 text-muted">
           <p>

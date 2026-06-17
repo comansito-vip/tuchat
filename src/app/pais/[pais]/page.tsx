@@ -83,9 +83,9 @@ export default async function PaisPage({
         {/* Hero de país con bandera prominente */}
         <div className="mt-4 rounded-2xl bg-gradient-to-br from-brand/10 to-blue/5 p-6">
           <div className="flex items-center gap-4">
-            <span className="text-7xl leading-none" aria-hidden="true">{place.icon}</span>
-            <div>
-              <h1 className="text-3xl font-extrabold leading-tight text-ink">
+            <span className="text-6xl leading-none sm:text-7xl" aria-hidden="true">{place.icon}</span>
+            <div className="min-w-0">
+              <h1 className="text-2xl font-extrabold leading-tight text-ink sm:text-3xl">
                 Chat de {nombre}
               </h1>
               <p className="mt-1 max-w-xl text-muted">{place.about ?? place.intro}</p>

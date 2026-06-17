@@ -65,7 +65,7 @@ export default function DeportesPage() {
       {/* Hero deportes */}
       <div className="relative mt-4 overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-900 p-8 text-white">
         <span
-          className="pointer-events-none absolute right-6 top-1/2 -translate-y-1/2 text-[8rem] opacity-10 select-none"
+          className="pointer-events-none absolute right-6 top-1/2 hidden -translate-y-1/2 select-none text-[8rem] opacity-10 sm:block"
           aria-hidden="true"
         >
           ⚽

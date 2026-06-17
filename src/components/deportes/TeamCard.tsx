@@ -8,7 +8,10 @@ export function TeamCard({ team }: { team: Team }) {
       <img
         src={team.badge}
         alt={`Escudo de ${team.name}`}
-        className="h-10 w-10 object-contain"
+        width={40}
+        height={40}
+        loading="lazy"
+        className="h-10 w-10 shrink-0 object-contain"
       />
       <span className="text-sm font-semibold text-ink leading-tight">{team.name}</span>
     </div>
