@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
 export default async function CiudadPage({
   params,
@@ -6,5 +6,5 @@ export default async function CiudadPage({
   params: Promise<{ ciudad: string }>;
 }) {
   const { ciudad } = await params;
-  redirect(`/chat/${ciudad}`);
+  permanentRedirect(`/chat/${ciudad}`);
 }

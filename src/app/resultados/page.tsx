@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
 export default function ResultadosPage() {
-  redirect("/resultados/laliga");
+  permanentRedirect("/resultados/laliga");
 }

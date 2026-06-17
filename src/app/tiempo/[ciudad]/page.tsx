@@ -10,6 +10,7 @@ import { fetchWeather } from "@/lib/weather";
 import { WeatherWidget } from "@/components/tiempo/WeatherWidget";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return [...getCities(), ...getCountries()].map((c) => ({ ciudad: c.slug }));

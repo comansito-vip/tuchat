@@ -48,6 +48,7 @@ export function articleJsonLd(a: {
   category: string;
   slug: string;
   body?: string;
+  image?: string;
 }) {
   const wordCount = a.body ? a.body.split(/\s+/).length : undefined;
   return {
@@ -60,7 +61,7 @@ export function articleJsonLd(a: {
     articleSection: a.category,
     inLanguage: "es",
     ...(wordCount !== undefined && { wordCount }),
-    image: [`${SITE}/opengraph-image`],
+    image: [a.image ?? `${SITE}/opengraph-image`],
     mainEntityOfPage: `${SITE}/noticias/articulo/${a.slug}`,
     author: { "@type": "Organization", name: "TuChat", url: SITE },
     publisher: {

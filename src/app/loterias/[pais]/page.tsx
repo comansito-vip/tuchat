@@ -7,6 +7,8 @@ import { cap } from "@/lib/slug";
 import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
 }

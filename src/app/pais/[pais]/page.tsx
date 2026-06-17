@@ -10,6 +10,8 @@ import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { cap } from "@/lib/slug";
 import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
 }

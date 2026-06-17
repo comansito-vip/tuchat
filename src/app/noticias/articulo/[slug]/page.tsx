@@ -30,11 +30,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const a = getArticle(slug);
   if (!a) return {};
+  const image = a.image ?? getNewsImage(a.category, a.slug);
   return {
     title: a.title,
     description: a.excerpt,
     alternates: { canonical: `/noticias/articulo/${a.slug}` },
-    openGraph: { type: "article", url: `/noticias/articulo/${a.slug}`, publishedTime: `${a.date}T00:00:00Z` },
+    openGraph: {
+      type: "article",
+      url: `/noticias/articulo/${a.slug}`,
+      publishedTime: `${a.date}T00:00:00Z`,
+      images: [image],
+    },
+    twitter: { card: "summary_large_image", images: [image] },
   };
 }
 
@@ -82,6 +89,7 @@ export default async function ArticuloPage({
           category: a.category,
           slug: a.slug,
           body: a.body,
+          image: a.image ?? getNewsImage(a.category, a.slug),
         })}
       />
 
