@@ -28,7 +28,7 @@ export const ANIME_SERIES: AnimeSerie[] = [
   {
     name: "Demon Slayer",
     emoji: "⚔️",
-    blurb: "Tanjiro Kamado, la hermana demonio y la Guardia Masacra Demonios. Animación de WufaTable que redefinió los estándares visuales del anime contemporáneo.",
+    blurb: "Tanjiro Kamado, la hermana demonio y la Guardia Masacra Demonios. Animación de ufotable que redefinió los estándares visuales del anime contemporáneo.",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9e/Kimetsu_no_Yaiba_manga_volume_1.png",
   },
   {
