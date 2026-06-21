@@ -60,7 +60,8 @@ Mapa por categoría:
 | Fans | `["fans","anime","ocio"]` |
 | Amistad | `["amor","amistad"]` |
 | Amor (general) | `["amor","amistad"]` |
-| Amor (flirt, chatligar, citas) | `["ligar","ligame"]` |
+| Amor (flirt, chatligar) | `["ligar","ligame"]` |
+| Citas | `["amor","general"]` |
 | Apps de citas (tinder, meetic) | `["amor","general"]` |
 | Mayores 40 | `["mas_de_40","mas_de_50"]` |
 | Mayores 50 | `["mas_de_50","mas_de_40"]` |
