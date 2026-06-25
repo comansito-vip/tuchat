@@ -10,8 +10,8 @@ export const TOPICS_INTERESES: Place[] = [
     users: 280, votes: 520, tag: "Tendencia", activity: "Alta",
     channels: ["internacional", "ocio"],
     related: ["ingles", "intercambioidiomas", "spanish", "viajes", "tecnologia"],
-    intro: "Practica idiomas y conoce gente de medio mundo: inglés, francés, italiano, alemán. Intercambios, dudas y conversación real. Gratis y sin registro.",
-    about: "El punto de encuentro para los que aprenden o enseñan idiomas sin salir de casa. Aquí se mezclan estudiantes de inglés que quieren perder el miedo a hablar, franceses practicando su español, italianos curiosos y gente que prepara un examen oficial como el B2 o el DELE. Se resuelven dudas de gramática, se recomiendan series, pódcasts y apps, y se montan intercambios donde cada uno ayuda con su lengua materna. No importa el nivel: aquí nadie se ríe de un acento ni de un error, porque equivocarse es justo la forma de avanzar. Trae ganas de practicar y un tema del que hablar.",
+    intro: "Practica idiomas y conoce gente de medio mundo: inglés, francés, italiano, alemán. Intercambios, dudas y conversación real. Entra y suelta tu primer hola.",
+    about: "¿Aprendes o enseñas un idioma y te falta con quién practicarlo? Este es tu sitio, sin salir de casa. Se mezclan estudiantes de inglés que quieren perder el miedo a hablar, franceses practicando su español, italianos curiosos y gente que prepara un examen oficial como el B2 o el DELE. Se resuelven dudas de gramática, se recomiendan series, pódcasts y apps, y se montan intercambios donde cada uno ayuda con su lengua materna. No importa el nivel: aquí nadie se ríe de un acento ni de un error, porque equivocarse es justo la forma de avanzar. Trae ganas de practicar y un tema del que hablar.",
   },
   {
     slug: "ingles", name: "Inglés", kind: "tematica", icon: "🇬🇧",
@@ -20,7 +20,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["internacional", "ocio"],
     related: ["idiomas", "intercambioidiomas", "spanish", "viajes", "tecnologia"],
     intro: "Practica inglés con nativos y estudiantes: gramática, phrasal verbs y ese acento que se te resiste. Series y trucos para el examen. Sin registro.",
-    about: "La sala para soltarse con el inglés de verdad: hablando. Aquí conviven nativos que echan una mano, profesores que explican por qué make y do no son lo mismo, y estudiantes que pierden el miedo a equivocarse. Se resuelven dudas de gramática, se practican los dichosos phrasal verbs, se comparten series, pódcasts y canciones para afinar el oído, y se debate si el británico o el americano suena mejor. También funciona como intercambio: tú ayudas con tu español y alguien te corrige el inglés. Trae preguntas, paciencia y ganas de meter la pata, que es la única forma de aprender de verdad.",
+    about: "El inglés se aprende soltándose, hablando, metiendo la pata. Aquí conviven nativos que echan una mano, profesores que explican por qué make y do no son lo mismo, y estudiantes que pierden el miedo a equivocarse. Se resuelven dudas de gramática, se practican los dichosos phrasal verbs, se comparten series, pódcasts y canciones para afinar el oído, y se debate si el británico o el americano suena mejor. También funciona como intercambio: tú ayudas con tu español y alguien te corrige el inglés. Trae preguntas, paciencia y ganas de meter la pata, que es la única forma de aprender de verdad.",
   },
   {
     slug: "frances", name: "Francés", kind: "tematica", icon: "🇫🇷",
@@ -28,8 +28,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "idiomas", parentName: "Idiomas",
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "intercambioidiomas", "viajes", "cultura"],
-    intro: "Bonjour: practica francés con nativos. Pronunciación, la dichosa liaison, cine y planes para viajar a París. Gratis y sin registro.",
-    about: "La sala para los que se pelean con el francés y no quieren rendirse. Aquí se practica la pronunciación imposible de la erre, se aclara cuándo usar el passé composé o el imparfait y se descubre por qué la liaison cambia según la palabra. Vienen nativos de Francia, Bélgica y Quebec dispuestos a corregir con paciencia, y estudiantes que preparan el DELF o sueñan con estudiar en París. Se recomiendan películas de la Nouvelle Vague, chansons para afinar el oído y libros fáciles para empezar a leer. Un espacio relajado donde meter la pata en francés es parte del plan y nadie se ríe de tu acento.",
+    intro: "Bonjour: practica francés con nativos. Pronunciación, la dichosa liaison, cine y planes para viajar a París. Entra y dinos bonjour.",
+    about: "Si te peleas con el francés y no piensas rendirte, este es tu rincón. Se practica la pronunciación imposible de la erre, se aclara cuándo usar el passé composé o el imparfait y se descubre por qué la liaison cambia según la palabra. Vienen nativos de Francia, Bélgica y Quebec dispuestos a corregir con paciencia, y estudiantes que preparan el DELF o sueñan con estudiar en París. Se recomiendan películas de la Nouvelle Vague, chansons para afinar el oído y libros fáciles para empezar a leer. Un espacio relajado donde meter la pata en francés es parte del plan y nadie se ríe de tu acento.",
   },
   {
     slug: "italiano", name: "Italiano", kind: "tematica", icon: "🇮🇹",
@@ -38,7 +38,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "intercambioidiomas", "cocina", "viajes"],
     intro: "Ciao: practica italiano charlando de cocina, viajes y cine. Gramática, gestos y ese acento cantarín. Nativos y estudiantes, sin registro.",
-    about: "Chi va piano va sano: la sala del italiano para los que aman la lengua del Bel Paese. Se practica la conjugación, se aclaran los falsos amigos que tantos líos causan con el español y se aprende a pedir un café como un romano de verdad. Vienen italianos de Milán, Nápoles y Sicilia con sus acentos y modismos, además de estudiantes enganchados a la cocina, al cine de Sorrentino o a un próximo viaje a la Toscana. Se recomiendan canciones, recetas auténticas y series para acostumbrar el oído. Aquí se charla con gestos incluidos, mucho buen humor y la pasión que solo pone quien adora Italia.",
+    about: "Chi va piano va sano, dicen los italianos, y aquí lo aplicamos: el sitio para los que aman la lengua del Bel Paese. Se practica la conjugación, se aclaran los falsos amigos que tantos líos causan con el español y se aprende a pedir un café como un romano de verdad. Vienen italianos de Milán, Nápoles y Sicilia con sus acentos y modismos, además de estudiantes enganchados a la cocina, al cine de Sorrentino o a un próximo viaje a la Toscana. Se recomiendan canciones, recetas auténticas y series para acostumbrar el oído. Aquí se charla con gestos incluidos, mucho buen humor y la pasión que solo pone quien adora Italia.",
   },
   {
     slug: "aleman", name: "Alemán", kind: "tematica", icon: "🇩🇪",
@@ -46,8 +46,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "idiomas", parentName: "Idiomas",
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "intercambioidiomas", "tecnologia", "viajes"],
-    intro: "Hallo: practica alemán sin agobios. Casos, declinaciones, palabras kilométricas y trucos para el examen. Nativos y estudiantes, sin registro.",
-    about: "La sala para los valientes que se enfrentan al alemán y a sus famosos casos. Aquí se desentraña el dativo y el acusativo, se aprende a no asustarse con esas palabras compuestas de veinte letras y se practica la pronunciación de la ü y la ch. Vienen alemanes, austriacos y suizos con ganas de ayudar, junto a estudiantes que preparan el Goethe-Zertifikat o que se mudan a Berlín o Múnich por trabajo. Se comparten recursos, pódcasts, series y trucos de memoria para los artículos der, die y das. Un ambiente paciente donde el idioma más temido se vuelve, poco a poco, mucho más amable de lo que parecía.",
+    intro: "Hallo: practica alemán sin agobios. Casos, declinaciones, palabras kilométricas y trucos para el examen. Te esperamos dentro.",
+    about: "Hace falta valor para enfrentarse al alemán y a sus famosos casos, y aquí lo tenemos de sobra. Se desentraña el dativo y el acusativo, se aprende a no asustarse con esas palabras compuestas de veinte letras y se practica la pronunciación de la ü y la ch. Vienen alemanes, austriacos y suizos con ganas de ayudar, junto a estudiantes que preparan el Goethe-Zertifikat o que se mudan a Berlín o Múnich por trabajo. Se comparten recursos, pódcasts, series y trucos de memoria para los artículos der, die y das. Un ambiente paciente donde el idioma más temido se vuelve, poco a poco, mucho más amable de lo que parecía.",
   },
   {
     slug: "portugues", name: "Portugués", kind: "tematica", icon: "🇵🇹",
@@ -55,8 +55,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "idiomas", parentName: "Idiomas",
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "intercambioidiomas", "musica", "viajes"],
-    intro: "Olá: practica portugués de Portugal y Brasil. Acentos, fado, samba y dudas de gramática. Nativos y estudiantes, gratis y sin registro.",
-    about: "Bem-vindo a la sala del portugués, donde conviven el de Lisboa y el de Río sin pelearse. Se aclaran las diferencias entre el portugués europeo y el brasileño, esos falsos amigos peligrosísimos con el español y la pronunciación nasal que tanto cuesta al principio. Vienen lusos y brasileños con ganas de charlar, además de estudiantes que viajan a Oporto, se mudan a São Paulo o simplemente se enamoraron del fado y la bossa nova. Se recomienda música, telenovelas y libros para practicar leyendo. Aquí se aprende con saudade, buen humor y mucha calidez de ambos lados del Atlántico.",
+    intro: "Olá: practica portugués de Portugal y Brasil. Acentos, fado, samba y dudas de gramática. Nativos y estudiantes, elige nick y dentro.",
+    about: "Bem-vindo: aquí conviven el portugués de Lisboa y el de Río sin pelearse. Se aclaran las diferencias entre el portugués europeo y el brasileño, esos falsos amigos peligrosísimos con el español y la pronunciación nasal que tanto cuesta al principio. Vienen lusos y brasileños con ganas de charlar, además de estudiantes que viajan a Oporto, se mudan a São Paulo o simplemente se enamoraron del fado y la bossa nova. Se recomienda música, telenovelas y libros para practicar leyendo. Aquí se aprende con saudade, buen humor y mucha calidez de ambos lados del Atlántico.",
   },
   {
     slug: "intercambioidiomas", name: "Intercambio de Idiomas", kind: "tematica", icon: "🔄",
@@ -64,8 +64,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "idiomas", parentName: "Idiomas",
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "frances", "spanish", "viajes"],
-    intro: "Tú enseñas tu idioma, yo el mío: tándem uno a uno. Encuentra compañero y practica de verdad conversando. Gratis y sin registro.",
-    about: "El tablón de los intercambios de idiomas, el famoso tándem que de verdad funciona. La idea es sencilla: tú ayudas a alguien con tu lengua materna y esa persona te corrige la suya. Se cruzan españoles que quieren inglés, franceses buscando español, alemanes interesados en italiano y mil combinaciones más. Se acuerdan ratos para hablar mitad en un idioma y mitad en otro, se corrigen mensajes y se comparten recursos útiles. Es la forma más natural y barata de soltarse: conversación real con una persona real, no ejercicios de libro. Preséntate diciendo qué idioma ofreces y cuál buscas, y empieza a practicar hoy mismo.",
+    intro: "Tú enseñas tu idioma, yo el mío: tándem uno a uno. Encuentra compañero y practica de verdad conversando. Entra y preséntate.",
+    about: "La idea del tándem es de las pocas que funcionan de verdad: tú ayudas a alguien con tu lengua materna y esa persona te corrige la suya. Se cruzan españoles que quieren inglés, franceses buscando español, alemanes interesados en italiano y mil combinaciones más. Se acuerdan ratos para hablar mitad en un idioma y mitad en otro, se corrigen mensajes y se comparten recursos útiles. Es la forma más natural y barata de soltarse: conversación real con una persona real, no ejercicios de libro. Preséntate diciendo qué idioma ofreces y cuál buscas, y empieza a practicar hoy mismo.",
   },
 
   // ───────────────────────── Africanos ─────────────────────────
@@ -75,7 +75,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["arabe", "marruecos", "ocio"],
     related: ["marruecos", "argelia", "egipto", "tanger", "amistad"],
     intro: "Chat para la comunidad africana y árabe en español: Marruecos, Argelia, Egipto y más. Cultura, idioma y amistad sin fronteras. Sin registro.",
-    about: "Punto de encuentro para la comunidad africana y del mundo árabe que habla o aprende español. Aquí coinciden marroquíes, argelinos, egipcios, tunecinos y gente de toda la diáspora repartida por España y Europa. Se charla en árabe, francés y español mezclados, se habla de la familia que quedó al otro lado del Estrecho, de las fiestas como el Ramadán y el Eid, de la cocina, la música rai y el fútbol que une a todo el continente. También es un espacio para quienes quieren conocer otras culturas con respeto y curiosidad. Un rincón cálido y hospitalario donde el té con hierbabuena nunca falta y siempre hay sitio para uno más.",
+    about: "Marroquíes, argelinos, egipcios, tunecinos y gente de toda la diáspora repartida por España y Europa coinciden aquí, con el español como lengua puente. Se charla en árabe, francés y español mezclados, se habla de la familia que quedó al otro lado del Estrecho, de las fiestas como el Ramadán y el Eid, de la cocina, la música rai y el fútbol que une a todo el continente. También es un espacio para quienes quieren conocer otras culturas con respeto y curiosidad. Un rincón cálido y hospitalario donde el té con hierbabuena nunca falta y siempre hay sitio para uno más.",
   },
   {
     slug: "argelia", name: "Argelia", kind: "tematica", icon: "🇩🇿",
@@ -83,8 +83,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "africa", parentName: "África",
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "marruecos", "egipto", "tanger", "amistad"],
-    intro: "Marhaba: chat para argelinos dentro y fuera del país. Orán, Argel, el rai, el fútbol y la diáspora en Europa. Gratis y sin registro.",
-    about: "Sala para la gente de Argelia y los argelinos repartidos por Francia, España y media Europa. Se habla de Argel y Orán, del cuscús de los viernes, de la música rai que nació en estas tierras y de los Fennecs cada vez que juega la selección. Conviven el árabe argelino, el bereber y el francés, con esa mezcla de identidades que define al país. Se charla de la vida en la emigración, de la familia que espera al otro lado del Mediterráneo, de las tradiciones y de la actualidad. Un espacio para reencontrarse con paisanos, hacer amistades y compartir el orgullo de unas raíces tan ricas como diversas.",
+    intro: "Marhaba: chat para argelinos dentro y fuera del país. Orán, Argel, el rai, el fútbol y la diáspora en Europa. Entra y saluda.",
+    about: "Para la gente de Argelia y los argelinos repartidos por Francia, España y media Europa. Se habla de Argel y Orán, del cuscús de los viernes, de la música rai que nació en estas tierras y de los Fennecs cada vez que juega la selección. Conviven el árabe argelino, el bereber y el francés, con esa mezcla de identidades que define al país. Se charla de la vida en la emigración, de la familia que espera al otro lado del Mediterráneo, de las tradiciones y de la actualidad. Un espacio para reencontrarse con paisanos, hacer amistades y compartir el orgullo de unas raíces tan ricas como diversas.",
   },
   {
     slug: "egipto", name: "Egipto", kind: "tematica", icon: "🇪🇬",
@@ -93,7 +93,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "argelia", "marruecos", "historia", "amistad"],
     intro: "Ahlan: chat para egipcios y amantes de Egipto. El Cairo, el Nilo, las pirámides, el árabe egipcio y mucho más. Cultura y charla, sin registro.",
-    about: "El rincón de la tierra de los faraones, para egipcios y para quienes aman su cultura milenaria. Se habla de El Cairo bullicioso, del Nilo, de las pirámides que siguen quitando el hipo y del árabe egipcio, el dialecto más conocido del mundo árabe gracias al cine y la música. Vienen egipcios dentro y fuera del país con ganas de charlar de fútbol, de cocina como el koshari y el ful, de series y de la vida cotidiana entre la tradición y lo moderno. También entran curiosos fascinados por la historia antigua. Un espacio acogedor donde el pasado glorioso y el presente vibrante conviven en cada conversación.",
+    about: "La tierra de los faraones reúne aquí a egipcios y a quienes aman su cultura milenaria. Se habla de El Cairo bullicioso, del Nilo, de las pirámides que siguen quitando el hipo y del árabe egipcio, el dialecto más conocido del mundo árabe gracias al cine y la música. Vienen egipcios dentro y fuera del país con ganas de charlar de fútbol, de cocina como el koshari y el ful, de series y de la vida cotidiana entre la tradición y lo moderno. También entran curiosos fascinados por la historia antigua. Un espacio acogedor donde el pasado glorioso y el presente vibrante conviven en cada conversación.",
   },
   {
     slug: "tetuan", name: "Tetuán", kind: "tematica", icon: "🕌",
@@ -101,8 +101,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "africa", parentName: "África",
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "marruecos", "tanger", "nador", "amistad"],
-    intro: "Chat de Tetuán: la paloma blanca del norte de Marruecos. Su medina, el español de sus calles y su gente. Gratis y sin registro.",
-    about: "Sala dedicada a Tetuán, la ciudad blanca del norte de Marruecos donde el español todavía resuena por su pasado como capital del Protectorado. Se habla de su medina, patrimonio de la humanidad, del Rif que la abraza, de la cercanía con Ceuta y de esa mezcla única de cultura andalusí, marroquí y española. Vienen tetuaníes de la ciudad y de la emigración, además de gente del norte que comparte raíces y costumbres. Se charla de la familia, de la comida, de los recuerdos de quienes crecieron entre dos orillas. Un rincón cálido para reencontrarse con la tierra y con paisanos que entienden esa identidad de frontera.",
+    intro: "Chat de Tetuán: la paloma blanca del norte de Marruecos. Su medina, el español de sus calles y su gente. Te esperamos dentro.",
+    about: "En Tetuán, la ciudad blanca del norte de Marruecos, el español todavía resuena en las calles por su pasado como capital del Protectorado. Se habla de su medina, patrimonio de la humanidad, del Rif que la abraza, de la cercanía con Ceuta y de esa mezcla única de cultura andalusí, marroquí y española. Vienen tetuaníes de la ciudad y de la emigración, además de gente del norte que comparte raíces y costumbres. Se charla de la familia, de la comida, de los recuerdos de quienes crecieron entre dos orillas. Un rincón cálido para reencontrarse con la tierra y con paisanos que entienden esa identidad de frontera.",
   },
   {
     slug: "nador", name: "Nador", kind: "tematica", icon: "🏞️",
@@ -110,8 +110,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "africa", parentName: "África",
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "marruecos", "tetuan", "tanger", "amistad"],
-    intro: "Chat de Nador: el Rif, la laguna de Mar Chica y la cercanía con Melilla. Para nadorís dentro y fuera. Cultura rifeña, gratis y sin registro.",
-    about: "El espacio para la gente de Nador, la ciudad rifeña a orillas de Mar Chica y pegada a Melilla. Aquí se habla en rifeño, árabe y español, con esa identidad amazigh tan marcada del norte de Marruecos. Se charla de la vida entre dos países, de la enorme comunidad nadorí emigrada a España, Bélgica y Países Bajos, de la familia, las bodas y las vueltas al pueblo en verano. Se comparten recuerdos del zoco, de la costa y de las montañas del Rif. Un punto de encuentro para reconectar con las raíces, hacer amistades con paisanos y mantener vivas las tradiciones de una tierra orgullosa de lo que es.",
+    intro: "Chat de Nador: el Rif, la laguna de Mar Chica y la cercanía con Melilla. Para nadorís dentro y fuera. Cultura rifeña, entra y saluda.",
+    about: "A orillas de Mar Chica y pegada a Melilla, Nador reúne aquí a su gente. Se habla en rifeño, árabe y español, con esa identidad amazigh tan marcada del norte de Marruecos. Se charla de la vida entre dos países, de la enorme comunidad nadorí emigrada a España, Bélgica y Países Bajos, de la familia, las bodas y las vueltas al pueblo en verano. Se comparten recuerdos del zoco, de la costa y de las montañas del Rif. Un punto de encuentro para reconectar con las raíces, hacer amistades con paisanos y mantener vivas las tradiciones de una tierra orgullosa de lo que es.",
   },
   {
     slug: "tanger", name: "Tánger", kind: "tematica", icon: "⛴️",
@@ -119,8 +119,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "africa", parentName: "África",
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "marruecos", "tetuan", "casablanca", "amistad"],
-    intro: "Chat de Tánger: la ciudad del Estrecho, puerta entre dos continentes. Su luz, su mezcla cosmopolita y su gente. Gratis y sin registro.",
-    about: "Sala para Tánger, la ciudad mítica donde el Mediterráneo y el Atlántico se dan la mano y África mira a Europa. Se habla de su puerto, de la kasbah, de los cafés con vistas al Estrecho y de ese aire cosmopolita que enamoró a escritores y artistas de medio mundo. Vienen tangerinos de la ciudad y de la diáspora, además de españoles que cruzan en ferry y sienten Tánger casi como propia. Se charla en árabe, francés y español, de la familia, de la comida, de la música y del trasiego diario entre las dos orillas. Un rincón vibrante y abierto, igual que la ciudad que le da nombre.",
+    intro: "Chat de Tánger: la ciudad del Estrecho, puerta entre dos continentes. Su luz, su mezcla cosmopolita y su gente. Sin registro.",
+    about: "Tánger, la ciudad mítica donde el Mediterráneo y el Atlántico se dan la mano y África mira a Europa, tiene aquí su rincón. Se habla de su puerto, de la kasbah, de los cafés con vistas al Estrecho y de ese aire cosmopolita que enamoró a escritores y artistas de medio mundo. Vienen tangerinos de la ciudad y de la diáspora, además de españoles que cruzan en ferry y sienten Tánger casi como propia. Se charla en árabe, francés y español, de la familia, de la comida, de la música y del trasiego diario entre las dos orillas. Un rincón vibrante y abierto, igual que la ciudad que le da nombre.",
   },
   {
     slug: "casablanca", name: "Casablanca", kind: "tematica", icon: "🌃",
@@ -129,7 +129,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["arabe", "marruecos", "ocio"],
     related: ["africa", "marruecos", "tanger", "futbol", "amistad"],
     intro: "Chat de Casablanca: la gran ciudad de Marruecos, su ritmo, la Mezquita Hassan II y su vida moderna. Para casablanqueses y curiosos. Sin registro.",
-    about: "El rincón de Casablanca, la capital económica de Marruecos y la ciudad que nunca para. Se habla de su ritmo trepidante, de la imponente Mezquita Hassan II asomada al océano, de la corniche, los cafés y la mezcla de tradición y modernidad que define a la metrópoli. Vienen casablanqueses de todos los barrios y marroquíes de la diáspora que llevan la ciudad en el corazón, además de curiosos que recuerdan la película de culto. Se charla en árabe darija, francés y español de trabajo, fútbol con el Raja y el Wydad, comida callejera y vida urbana. Un espacio dinámico para conectar con la cara más moderna y bulliciosa de Marruecos.",
+    about: "Capital económica de Marruecos y ciudad que nunca para: Casablanca tiene aquí su punto de reunión. Se habla de su ritmo trepidante, de la imponente Mezquita Hassan II asomada al océano, de la corniche, los cafés y la mezcla de tradición y modernidad que define a la metrópoli. Vienen casablanqueses de todos los barrios y marroquíes de la diáspora que llevan la ciudad en el corazón, además de curiosos que recuerdan la película de culto. Se charla en árabe darija, francés y español de trabajo, fútbol con el Raja y el Wydad, comida callejera y vida urbana. Un espacio dinámico para conectar con la cara más moderna y bulliciosa de Marruecos.",
   },
 
   // ───────────────────────── Religión ─────────────────────────
@@ -139,7 +139,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["religion", "cristianos", "cristiano"],
     related: ["cristianos", "catolicos", "fe", "debatereligioso", "filosofia"],
     intro: "Chat de religión y fe: cristianos, católicos, evangélicos y creyentes de todo tipo para hablar de Dios y espiritualidad con respeto. Sin registro.",
-    about: "Un espacio de encuentro para personas creyentes y para quienes buscan respuestas sobre la fe. Aquí conviven católicos, evangélicos, ortodoxos y cristianos de distintas congregaciones que comparten oración, dudas y experiencias de vida espiritual. Se habla de Dios, de la Biblia, de cómo sostener la fe en los momentos difíciles y de cómo vivir los valores cada día. El tono es de respeto: no se viene a imponer ni a discutir doctrina hasta el cansancio, sino a edificar y acompañar. También hay sitio para los que tienen preguntas honestas y buscan con sinceridad. Un rincón sereno para alimentar el alma y sentirse en comunidad.",
+    about: "¿Crees, dudas o buscas respuestas sobre la fe? Aquí tienes con quién hablarlo. Conviven católicos, evangélicos, ortodoxos y cristianos de distintas congregaciones que comparten oración, dudas y experiencias de vida espiritual. Se habla de Dios, de la Biblia, de cómo sostener la fe en los momentos difíciles y de cómo vivir los valores cada día. El tono es de respeto: no se viene a imponer ni a discutir doctrina hasta el cansancio, sino a edificar y acompañar. También hay sitio para los que tienen preguntas honestas y buscan con sinceridad. Un rincón sereno para alimentar el alma y sentirse en comunidad.",
   },
   {
     slug: "cristianos", name: "Cristianos", kind: "tematica", icon: "✝️",
@@ -147,8 +147,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "chatcristiano", "oracion", "biblia", "cristiano-evangelico"],
-    intro: "Comunidad cristiana para compartir la fe, orar juntos y animarse en el camino. Hermanos de España y Latinoamérica. Gratis y sin registro.",
-    about: "La sala de los hermanos en Cristo, un lugar para vivir la fe en comunidad sin importar la distancia. Aquí se comparten testimonios de lo que Dios hace en cada vida, se piden y se elevan oraciones por la familia, la salud y el trabajo, y se anima a quien atraviesa una prueba con una palabra de aliento. Se comentan pasajes, predicaciones y reflexiones del día a día, siempre desde el amor y el respeto entre congregaciones. Vienen creyentes de España, México, Colombia y toda Latinoamérica con el mismo deseo de crecer espiritualmente. Un espacio cálido para alabar, reflexionar y sostenerse unos a otros como una verdadera familia de fe.",
+    intro: "Comunidad cristiana para compartir la fe, orar juntos y animarse en el camino. Hermanos de España y Latinoamérica. Entra y saluda.",
+    about: "Hermanos en Cristo de todas partes vienen aquí a vivir la fe en comunidad, sin importar la distancia. Se comparten testimonios de lo que Dios hace en cada vida, se piden y se elevan oraciones por la familia, la salud y el trabajo, y se anima a quien atraviesa una prueba con una palabra de aliento. Se comentan pasajes, predicaciones y reflexiones del día a día, siempre desde el amor y el respeto entre congregaciones. Vienen creyentes de España, México, Colombia y toda Latinoamérica con el mismo deseo de crecer espiritualmente. Un espacio cálido para alabar, reflexionar y sostenerse unos a otros como una verdadera familia de fe.",
   },
   {
     slug: "chatcristiano", name: "Chat Cristiano", kind: "tematica", icon: "🕊️",
@@ -156,8 +156,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "cristianos", "jovenescristianos", "oracion", "fe"],
-    intro: "Chat cristiano para charlar de fe y vida cotidiana sin solemnidades: dudas, ánimo y buena conversación entre creyentes. Gratis y sin registro.",
-    about: "Un chat cristiano cercano, pensado para hablar de la fe sin solemnidades ni sermones interminables. Aquí se mezcla lo espiritual con lo cotidiano: el trabajo, los estudios, las relaciones, las dudas que surgen y cómo encajarlas con lo que uno cree. Se comparten versículos que animan, canciones de adoración, recomendaciones de libros y pódcasts, y mucho apoyo mutuo cuando alguien lo necesita. El ambiente es relajado y acogedor, ideal para quien quiere conocer gente que comparte sus valores y hacer amistades sanas. No hace falta saberse la Biblia de memoria: basta con ganas de conversar y un corazón abierto. Pasa, saluda y únete a la charla.",
+    intro: "Chat cristiano para charlar de fe y vida cotidiana sin solemnidades: dudas, ánimo y buena conversación entre creyentes. Pasa y saluda.",
+    about: "Hablar de la fe sin solemnidades ni sermones interminables: esa es la idea de este chat cristiano cercano. Se mezcla lo espiritual con lo cotidiano: el trabajo, los estudios, las relaciones, las dudas que surgen y cómo encajarlas con lo que uno cree. Se comparten versículos que animan, canciones de adoración, recomendaciones de libros y pódcasts, y mucho apoyo mutuo cuando alguien lo necesita. El ambiente es relajado y acogedor, ideal para quien quiere conocer gente que comparte sus valores y hacer amistades sanas. No hace falta saberse la Biblia de memoria: basta con ganas de conversar y un corazón abierto. Pasa, saluda y únete a la charla.",
   },
   {
     slug: "oracion", name: "Oración", kind: "tematica", icon: "📿",
@@ -166,7 +166,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "cristianos", "biblia", "fe", "catolicos"],
     intro: "Sala de oración: comparte tu petición y reza por los demás. Un rincón de paz para llevar a Dios lo que pesa en el corazón. Sin registro.",
-    about: "Un rincón de recogimiento donde la oración es la protagonista. Aquí cada uno puede dejar su petición —por la salud de un ser querido, por un trabajo, por una situación que angustia— y encontrar a hermanos dispuestos a interceder por él. También se dan gracias por las oraciones respondidas, esos pequeños y grandes milagros cotidianos que renuevan la fe. Se comparten salmos, oraciones tradicionales y momentos de silencio compartido a través de la pantalla. No importa la hora: siempre hay alguien que reza contigo. Un espacio íntimo y respetuoso para llevar a Dios lo que pesa en el corazón y sentir el consuelo de no estar solo en la batalla.",
+    about: "Aquí la oración es la protagonista y el recogimiento manda. Cada uno puede dejar su petición —por la salud de un ser querido, por un trabajo, por una situación que angustia— y encontrar a hermanos dispuestos a interceder por él. También se dan gracias por las oraciones respondidas, esos pequeños y grandes milagros cotidianos que renuevan la fe. Se comparten salmos, oraciones tradicionales y momentos de silencio compartido a través de la pantalla. No importa la hora: siempre hay alguien que reza contigo. Un espacio íntimo y respetuoso para llevar a Dios lo que pesa en el corazón y sentir el consuelo de no estar solo en la batalla.",
   },
   {
     slug: "biblia", name: "Biblia", kind: "tematica", icon: "📖",
@@ -174,8 +174,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "cristianos", "oracion", "debatereligioso", "historia"],
-    intro: "Estudio bíblico para leer, entender y debatir las Escrituras: del Génesis al Apocalipsis, versículo a versículo. Gratis y sin registro.",
-    about: "La sala para los que quieren profundizar en la Palabra y no quedarse en la superficie. Aquí se estudian las Escrituras versículo a versículo, se comentan los Evangelios, las epístolas de Pablo, los salmos y los pasajes del Antiguo Testamento que más cuesta entender. Se resuelven dudas sobre el contexto histórico, se comparten distintas interpretaciones con respeto y se aprende unos de otros. Conviven quienes llevan años en grupos de estudio y quienes abren la Biblia por primera vez con curiosidad sincera. No se trata de ganar discusiones, sino de iluminar el texto y aplicarlo a la vida. Trae tu pasaje favorito o esa pregunta que siempre quisiste hacer.",
+    intro: "Estudio bíblico para leer, entender y debatir las Escrituras: del Génesis al Apocalipsis, versículo a versículo. Trae tu pasaje favorito.",
+    about: "¿Quieres profundizar en la Palabra y no quedarte en la superficie? Aquí se estudian las Escrituras versículo a versículo, se comentan los Evangelios, las epístolas de Pablo, los salmos y los pasajes del Antiguo Testamento que más cuesta entender. Se resuelven dudas sobre el contexto histórico, se comparten distintas interpretaciones con respeto y se aprende unos de otros. Conviven quienes llevan años en grupos de estudio y quienes abren la Biblia por primera vez con curiosidad sincera. No se trata de ganar discusiones, sino de iluminar el texto y aplicarlo a la vida. Trae tu pasaje favorito o esa pregunta que siempre quisiste hacer.",
   },
   {
     slug: "jovenescristianos", name: "Jóvenes Cristianos", kind: "tematica", icon: "🎸",
@@ -183,8 +183,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "chatcristiano", "cristianos", "fe", "amistad"],
-    intro: "Jóvenes cristianos para compartir fe, planes y la vida de cada día. Vivir lo que crees sin sentirte raro. Amistad sana, gratis y sin registro.",
-    about: "El espacio para jóvenes que quieren vivir su fe sin sentirse bichos raros. Aquí se habla de cómo mantener los valores en la universidad, en el trabajo o entre amigos que no creen, de relaciones y noviazgo desde una mirada cristiana, y de esas dudas tan normales a cierta edad. Se comparten campamentos, conciertos de música cristiana, retiros y planes para conocerse en la vida real. El ambiente es alegre y cercano, lejos de tópicos aburridos: aquí la fe se vive con energía y buen rollo. Es ideal para hacer amistades sanas con gente que comparte tu forma de ver la vida y para animarse mutuamente en el día a día. Únete y suma tu voz.",
+    intro: "Jóvenes cristianos para compartir fe, planes y la vida de cada día. Vivir lo que crees sin sentirte raro. Amistad sana, entra y suma.",
+    about: "Vivir la fe a cierta edad sin sentirse un bicho raro tiene aquí su sitio. Se habla de cómo mantener los valores en la universidad, en el trabajo o entre amigos que no creen, de relaciones y noviazgo desde una mirada cristiana, y de esas dudas tan normales a cierta edad. Se comparten campamentos, conciertos de música cristiana, retiros y planes para conocerse en la vida real. El ambiente es alegre y cercano, lejos de tópicos aburridos: aquí la fe se vive con energía y buen rollo. Es ideal para hacer amistades sanas con gente que comparte tu forma de ver la vida y para animarse mutuamente en el día a día. Únete y suma tu voz.",
   },
   {
     slug: "fe", name: "Fe", kind: "tematica", icon: "🌟",
@@ -193,7 +193,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "espiritualidad", "oracion", "cristianos", "filosofia"],
     intro: "Un espacio para hablar de fe, esperanza y sentido de la vida. Creyentes, dudosos y buscadores, todos bienvenidos con respeto. Sin registro.",
-    about: "Una sala para conversar sobre la fe en su sentido más amplio: la confianza en Dios, la esperanza que sostiene en los días grises y la búsqueda de sentido que todos llevamos dentro. Aquí caben los creyentes firmes, los que dudan, los que se alejaron y vuelven, y los que simplemente se hacen preguntas grandes. Se habla de cómo la fe ayuda a atravesar el duelo, la enfermedad o la incertidumbre, y de cómo se vive en lo cotidiano más allá del templo. El tono es de escucha y respeto, sin juicios ni etiquetas. Un rincón sereno para compartir lo que uno cree, lo que le cuesta creer y lo que espera, acompañado de gente que también busca.",
+    about: "Hablemos de fe en su sentido más amplio: la confianza en Dios, la esperanza que sostiene en los días grises y la búsqueda de sentido que todos llevamos dentro. Aquí caben los creyentes firmes, los que dudan, los que se alejaron y vuelven, y los que simplemente se hacen preguntas grandes. Se habla de cómo la fe ayuda a atravesar el duelo, la enfermedad o la incertidumbre, y de cómo se vive en lo cotidiano más allá del templo. El tono es de escucha y respeto, sin juicios ni etiquetas. Un rincón sereno para compartir lo que uno cree, lo que le cuesta creer y lo que espera, acompañado de gente que también busca.",
   },
   {
     slug: "espiritualidad", name: "Espiritualidad", kind: "tematica", icon: "🧘",
@@ -201,8 +201,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "fe", "filosofia", "esoterismo", "psicologia"],
-    intro: "Espiritualidad sin dogmas: meditación, paz interior, propósito y conexión con algo más grande. Para creyentes y buscadores. Sin registro.",
-    about: "Un espacio para explorar la dimensión espiritual de la vida más allá de una religión concreta. Aquí se habla de meditación, de gratitud, de la búsqueda de paz interior y de esa sensación de estar conectado con algo más grande que uno mismo. Conviven personas de distintas creencias, gente en proceso de búsqueda y quienes practican mindfulness o tradiciones contemplativas. Se comparten lecturas que inspiran, hábitos para cuidar el alma y reflexiones sobre el propósito y el sentido. No se impone ningún camino: cada uno aporta el suyo y escucha el de los demás con respeto. Un rincón tranquilo para frenar el ruido del día a día y reconectar con lo esencial.",
+    intro: "Espiritualidad sin dogmas: meditación, paz interior, propósito y conexión con algo más grande. Para creyentes y buscadores. Entra y respira.",
+    about: "Más allá de cualquier religión concreta, aquí se explora la dimensión espiritual de la vida. Se habla de meditación, de gratitud, de la búsqueda de paz interior y de esa sensación de estar conectado con algo más grande que uno mismo. Conviven personas de distintas creencias, gente en proceso de búsqueda y quienes practican mindfulness o tradiciones contemplativas. Se comparten lecturas que inspiran, hábitos para cuidar el alma y reflexiones sobre el propósito y el sentido. No se impone ningún camino: cada uno aporta el suyo y escucha el de los demás con respeto. Un rincón tranquilo para frenar el ruido del día a día y reconectar con lo esencial.",
   },
   {
     slug: "catolicos", name: "Católicos", kind: "tematica", icon: "⛪",
@@ -210,8 +210,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "cristianos", "oracion", "biblia", "fe"],
-    intro: "Comunidad católica: misa, sacramentos, santos, el rosario y la vida de fe. Para compartir y crecer como Iglesia. Gratis y sin registro.",
-    about: "La sala de los católicos, un lugar para vivir la fe en comunión con la Iglesia. Aquí se habla de la misa dominical, de los sacramentos, de la devoción a la Virgen y a los santos, del rosario y de los tiempos litúrgicos como el Adviento y la Cuaresma. Se comentan las lecturas del día, las palabras del Papa y cómo llevar el Evangelio a la vida concreta. Conviven practicantes de toda la vida, quienes regresan tras un tiempo alejados y jóvenes que redescubren la tradición. El tono es respetuoso y fraterno, fiel a la doctrina pero abierto a las dudas sinceras. Un espacio para crecer en la fe, rezar juntos y sentirse parte de una Iglesia universal.",
+    intro: "Comunidad católica: misa, sacramentos, santos, el rosario y la vida de fe. Para compartir y crecer como Iglesia. Te esperamos dentro.",
+    about: "Vivir la fe en comunión con la Iglesia: a eso vienen aquí los católicos. Se habla de la misa dominical, de los sacramentos, de la devoción a la Virgen y a los santos, del rosario y de los tiempos litúrgicos como el Adviento y la Cuaresma. Se comentan las lecturas del día, las palabras del Papa y cómo llevar el Evangelio a la vida concreta. Conviven practicantes de toda la vida, quienes regresan tras un tiempo alejados y jóvenes que redescubren la tradición. El tono es respetuoso y fraterno, fiel a la doctrina pero abierto a las dudas sinceras. Un espacio para crecer en la fe, rezar juntos y sentirse parte de una Iglesia universal.",
   },
   {
     slug: "debatereligioso", name: "Debate Religioso", kind: "tematica", icon: "⚖️",
@@ -220,7 +220,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "biblia", "filosofia", "debate", "fe"],
     intro: "Debate religioso con respeto: fe y razón, ciencia y creencia, distintas religiones y el ateísmo. Argumentos, no insultos. Sin registro.",
-    about: "El foro para debatir sobre religión con la cabeza fría y el respeto por delante. Aquí se cruzan creyentes de distintas confesiones, agnósticos y ateos dispuestos a confrontar ideas: la existencia de Dios, la relación entre fe y ciencia, el problema del mal, las diferencias entre religiones y el papel de la religión en la sociedad. La norma es clara: se discute con argumentos, no con descalificaciones, y se viene a entender al otro tanto como a defender lo propio. Hay gente muy leída y gente que solo quiere preguntar y aprender. De esa mezcla salen conversaciones largas que obligan a pensar y, a veces, a matizar lo que uno daba por seguro. Entra con ideas y mente abierta.",
+    about: "Debatir sobre religión con la cabeza fría y el respeto por delante: ese es el trato. Se cruzan creyentes de distintas confesiones, agnósticos y ateos dispuestos a confrontar ideas: la existencia de Dios, la relación entre fe y ciencia, el problema del mal, las diferencias entre religiones y el papel de la religión en la sociedad. La norma es clara: se discute con argumentos, no con descalificaciones, y se viene a entender al otro tanto como a defender lo propio. Hay gente muy leída y gente que solo quiere preguntar y aprender. De esa mezcla salen conversaciones largas que obligan a pensar y, a veces, a matizar lo que uno daba por seguro. Entra con ideas y mente abierta.",
   },
 
   // ───────────────────────── Hobbies ─────────────────────────
@@ -230,7 +230,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["hobbies", "ocio"],
     related: ["manualidades", "fotografia", "naturaleza", "coleccionismo", "amistad"],
     intro: "Chat de hobbies y tiempo libre: manualidades, fotografía, naturaleza, coleccionismo y mil aficiones. Comparte la tuya y descubre otras. Sin registro.",
-    about: "El punto de encuentro para gente con aficiones, esa clase de personas que siempre tiene algo entre manos. Aquí se habla de manualidades y DIY, de fotografía, de rutas por la naturaleza, de plantas, de colecciones imposibles y de cualquier hobby que llene las horas libres. Se comparten proyectos a medio terminar, se piden consejos para empezar de cero y se descubren pasatiempos que ni sabías que existían. Da igual si llevas años en lo tuyo o si buscas en qué engancharte: aquí encuentras gente con tu misma curiosidad y muchas ganas de contar lo que les apasiona. Un rincón para inspirarse y dejar de mirar el móvil sin más.",
+    about: "Hay quien siempre tiene algo entre manos: si eres de esos, este es tu sitio. Se habla de manualidades y DIY, de fotografía, de rutas por la naturaleza, de plantas, de colecciones imposibles y de cualquier hobby que llene las horas libres. Se comparten proyectos a medio terminar, se piden consejos para empezar de cero y se descubren pasatiempos que ni sabías que existían. Da igual si llevas años en lo tuyo o si buscas en qué engancharte: aquí encuentras gente con tu misma curiosidad y muchas ganas de contar lo que les apasiona. Un rincón para inspirarse y dejar de mirar el móvil sin más.",
   },
   {
     slug: "naturaleza", name: "Naturaleza", kind: "tematica", icon: "🌿",
@@ -238,8 +238,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "senderismo", "montana", "ecologia", "viajes"],
-    intro: "Chat de naturaleza: rutas, fauna, flora y rincones al aire libre. Para los que recargan pilas lejos del asfalto. Gratis y sin registro.",
-    about: "La sala de los que necesitan el verde para respirar. Aquí se comparten rutas poco transitadas, miradores que merecen la caminata, avistamientos de aves y esa fauna que sorprende cuando menos lo esperas. Se habla de parques nacionales, de bosques, de ríos para un baño en verano y de cómo disfrutar del campo sin dejar rastro. Conviven montañeros, fotógrafos de paisaje, observadores de pájaros y gente que simplemente busca desconectar un domingo. Se recomiendan equipos, épocas del año y consejos para ir con niños o con perro. Un espacio para los que entienden que el mejor plan no siempre tiene wifi.",
+    intro: "Chat de naturaleza: rutas, fauna, flora y rincones al aire libre. Para los que recargan pilas lejos del asfalto. Entra y respira hondo.",
+    about: "Hay quien necesita el verde para respirar, y aquí se junta. Se comparten rutas poco transitadas, miradores que merecen la caminata, avistamientos de aves y esa fauna que sorprende cuando menos lo esperas. Se habla de parques nacionales, de bosques, de ríos para un baño en verano y de cómo disfrutar del campo sin dejar rastro. Conviven montañeros, fotógrafos de paisaje, observadores de pájaros y gente que simplemente busca desconectar un domingo. Se recomiendan equipos, épocas del año y consejos para ir con niños o con perro. Un espacio para los que entienden que el mejor plan no siempre tiene wifi.",
   },
   {
     slug: "senderismo", name: "Senderismo", kind: "tematica", icon: "🥾",
@@ -247,8 +247,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "naturaleza", "montana", "viajes", "deportes"],
-    intro: "Chat de senderismo: rutas, GR, material y compañeros para caminar. Comparte tus cumbres y prepara la próxima salida. Gratis y sin registro.",
-    about: "El campamento base de los que caminan por gusto. Aquí se intercambian rutas de todo tipo, desde paseos fáciles de media mañana hasta los grandes GR de varios días, con sus desniveles, su agua y sus refugios. Se habla de botas, bastones, mochilas y de qué llevar para no cargar de más, y se buscan compañeros para no salir solo a la montaña. Se comparten fotos de cumbres, consejos para leer un mapa o el tiempo, y advertencias sobre tramos complicados. Conviven veteranos del monte y principiantes que estrenan botas. Un sitio para planear la próxima salida y volver a casa con las piernas cansadas y la cabeza despejada.",
+    intro: "Chat de senderismo: rutas, GR, material y compañeros para caminar. Comparte tus cumbres y prepara la próxima salida. Sin registro.",
+    about: "Bienvenido al campamento base de los que caminan por gusto. Se intercambian rutas de todo tipo, desde paseos fáciles de media mañana hasta los grandes GR de varios días, con sus desniveles, su agua y sus refugios. Se habla de botas, bastones, mochilas y de qué llevar para no cargar de más, y se buscan compañeros para no salir solo a la montaña. Se comparten fotos de cumbres, consejos para leer un mapa o el tiempo, y advertencias sobre tramos complicados. Conviven veteranos del monte y principiantes que estrenan botas. Un sitio para planear la próxima salida y volver a casa con las piernas cansadas y la cabeza despejada.",
   },
   {
     slug: "montana", name: "Montaña", kind: "tematica", icon: "🏔️",
@@ -256,8 +256,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "senderismo", "naturaleza", "deportes", "viajes"],
-    intro: "Chat de montaña: alpinismo, escalada, vías ferratas y cumbres. Para los que miran hacia arriba. Material y compañeros, gratis y sin registro.",
-    about: "La sala de los que sienten la llamada de la altura. Aquí se habla de alpinismo, escalada en roca, vías ferratas y travesías de alta montaña, de los Pirineos a los Andes pasando por cualquier pico que merezca la pena. Se comentan condiciones de nieve, partes meteorológicos, material técnico —crampones, piolet, arnés— y la seguridad que nunca está de más. Se buscan cordadas y compañeros con experiencia para proyectos serios. Conviven escaladores curtidos y montañeros que dan sus primeros pasos en terreno vertical. El respeto por la montaña manda en cada conversación. Un punto de encuentro para los que saben que la cima es solo la mitad del camino.",
+    intro: "Chat de montaña: alpinismo, escalada, vías ferratas y cumbres. Para los que miran hacia arriba. Material y compañeros, entra y planea.",
+    about: "¿Sientes la llamada de la altura? Aquí estás entre los tuyos. Se habla de alpinismo, escalada en roca, vías ferratas y travesías de alta montaña, de los Pirineos a los Andes pasando por cualquier pico que merezca la pena. Se comentan condiciones de nieve, partes meteorológicos, material técnico —crampones, piolet, arnés— y la seguridad que nunca está de más. Se buscan cordadas y compañeros con experiencia para proyectos serios. Conviven escaladores curtidos y montañeros que dan sus primeros pasos en terreno vertical. El respeto por la montaña manda en cada conversación. Un punto de encuentro para los que saben que la cima es solo la mitad del camino.",
   },
   {
     slug: "playas", name: "Playas", kind: "tematica", icon: "🏖️",
@@ -265,8 +265,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "naturaleza", "viajes", "senderismo", "amistad"],
-    intro: "Chat de playas: calas escondidas, mejores costas, baño y planes de verano. Para los amantes del mar y la arena. Gratis y sin registro.",
-    about: "El rincón de los que viven esperando el verano. Aquí se comparten calas escondidas a las que no llega el turismo de masas, playas para ir con niños, rincones para hacer snorkel y costas donde ver el mejor atardecer. Se habla del Mediterráneo y del Cantábrico, de las playas del Caribe y del Pacífico, de cuáles tienen bandera azul y cuáles merecen la caminata para llegar. Se dan consejos sobre mareas, aparcamiento, chiringuitos y cuándo ir para encontrarlas tranquilas. Conviven surfistas, buceadores y gente que solo quiere tumbarse al sol. Un espacio para soñar con el próximo chapuzón y planear la escapada al mar.",
+    intro: "Chat de playas: calas escondidas, mejores costas, baño y planes de verano. Para los amantes del mar y la arena. Sin registro.",
+    about: "Hay gente que vive esperando el verano, y aquí se reúne. Se comparten calas escondidas a las que no llega el turismo de masas, playas para ir con niños, rincones para hacer snorkel y costas donde ver el mejor atardecer. Se habla del Mediterráneo y del Cantábrico, de las playas del Caribe y del Pacífico, de cuáles tienen bandera azul y cuáles merecen la caminata para llegar. Se dan consejos sobre mareas, aparcamiento, chiringuitos y cuándo ir para encontrarlas tranquilas. Conviven surfistas, buceadores y gente que solo quiere tumbarse al sol. Un espacio para soñar con el próximo chapuzón y planear la escapada al mar.",
   },
   {
     slug: "ecologia", name: "Ecología", kind: "tematica", icon: "♻️",
@@ -275,7 +275,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "naturaleza", "jardineria", "salud", "cultura"],
     intro: "Chat de ecología y medio ambiente: reciclaje, cambio climático, consumo responsable y vida sostenible. Cuidar el planeta, sin registro.",
-    about: "La sala para quienes se toman en serio cuidar el planeta sin caer en el dramatismo. Aquí se habla de reciclaje de verdad, de reducir residuos, de consumo responsable y de pequeños cambios de hábitos que suman cuando los hace mucha gente. Se debate sobre cambio climático, energías renovables, movilidad sostenible y greenwashing de las marcas. Se comparten trucos para una vida más ecológica, recetas con menos plástico y noticias del medio ambiente que no siempre llegan a los titulares. Conviven activistas, científicos aficionados y gente que solo quiere hacer su parte. Un espacio para informarse, motivarse y demostrar que cuidar la tierra empieza en casa.",
+    about: "Cuidar el planeta en serio, pero sin dramatismo: esa es la idea. Se habla de reciclaje de verdad, de reducir residuos, de consumo responsable y de pequeños cambios de hábitos que suman cuando los hace mucha gente. Se debate sobre cambio climático, energías renovables, movilidad sostenible y greenwashing de las marcas. Se comparten trucos para una vida más ecológica, recetas con menos plástico y noticias del medio ambiente que no siempre llegan a los titulares. Conviven activistas, científicos aficionados y gente que solo quiere hacer su parte. Un espacio para informarse, motivarse y demostrar que cuidar la tierra empieza en casa.",
   },
   {
     slug: "manualidades", name: "Manualidades", kind: "tematica", icon: "✂️",
@@ -283,8 +283,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "fotografia", "coleccionismo", "jardineria", "amistad"],
-    intro: "Chat de manualidades y DIY: punto, ganchillo, scrapbooking, velas y mil proyectos hechos a mano. Comparte el tuyo. Gratis y sin registro.",
-    about: "El taller virtual de los que disfrutan creando con sus manos. Aquí se comparten proyectos de punto y ganchillo, scrapbooking, velas artesanales, bisutería, costura y todo lo que entre en el cajón del DIY. Se piden consejos cuando un patrón se atasca, se recomiendan materiales y tiendas, y se enseñan los resultados con orgullo, salgan perfectos o con su encanto imperfecto. Conviven manitas con años de experiencia y principiantes que acaban de descubrir lo que relaja hacer algo a mano. Se proponen ideas para regalar, para decorar la casa o para reaprovechar lo que ya no se usa. Un rincón creativo donde la paciencia y la ilusión siempre tienen premio.",
+    intro: "Chat de manualidades y DIY: punto, ganchillo, scrapbooking, velas y mil proyectos hechos a mano. Comparte el tuyo. Entra y enséñalo.",
+    about: "Bienvenido al taller virtual de los que disfrutan creando con sus manos. Se comparten proyectos de punto y ganchillo, scrapbooking, velas artesanales, bisutería, costura y todo lo que entre en el cajón del DIY. Se piden consejos cuando un patrón se atasca, se recomiendan materiales y tiendas, y se enseñan los resultados con orgullo, salgan perfectos o con su encanto imperfecto. Conviven manitas con años de experiencia y principiantes que acaban de descubrir lo que relaja hacer algo a mano. Se proponen ideas para regalar, para decorar la casa o para reaprovechar lo que ya no se usa. Un rincón creativo donde la paciencia y la ilusión siempre tienen premio.",
   },
   {
     slug: "fotografia", name: "Fotografía", kind: "tematica", icon: "📷",
@@ -293,7 +293,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "naturaleza", "viajes", "arte", "tecnologia"],
     intro: "Chat de fotografía: técnica, composición, edición y equipo. Comparte tus fotos y aprende a mirar mejor. Para aficionados y pros. Sin registro.",
-    about: "La sala para los que ven el mundo a través de un visor. Aquí se habla de técnica —apertura, ISO, velocidad— sin pedantería, de composición, de luz y de cómo pasar del modo automático al manual sin agobios. Se comentan cámaras y objetivos, edición en Lightroom o con el móvil, y se comparten fotos para recibir crítica sincera y constructiva. Conviven fotógrafos de paisaje, de calle, de retrato y de naturaleza, además de aficionados que acaban de comprar su primera réflex. Se proponen retos temáticos, salidas para disparar y recomendaciones de exposiciones. Un espacio para mejorar el ojo, no solo el equipo, y aprender a contar historias con una imagen.",
+    about: "Si ves el mundo a través de un visor, esta es tu gente. Se habla de técnica —apertura, ISO, velocidad— sin pedantería, de composición, de luz y de cómo pasar del modo automático al manual sin agobios. Se comentan cámaras y objetivos, edición en Lightroom o con el móvil, y se comparten fotos para recibir crítica sincera y constructiva. Conviven fotógrafos de paisaje, de calle, de retrato y de naturaleza, además de aficionados que acaban de comprar su primera réflex. Se proponen retos temáticos, salidas para disparar y recomendaciones de exposiciones. Un espacio para mejorar el ojo, no solo el equipo, y aprender a contar historias con una imagen.",
   },
   {
     slug: "coleccionismo", name: "Coleccionismo", kind: "tematica", icon: "🏷️",
@@ -301,8 +301,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "hobbies", parentName: "Hobbies",
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "manualidades", "videojuegos", "musica", "historia"],
-    intro: "Chat de coleccionismo: sellos, monedas, cromos, vinilos, figuras y rarezas. Intercambia, valora y presume de tu colección. Gratis y sin registro.",
-    about: "El rincón de los que nunca tienen suficiente. Aquí se reúnen coleccionistas de sellos, monedas, cromos, vinilos, cómics, figuras, relojes y objetos que para otros son trastos y para ellos son tesoros. Se intercambian piezas, se ayuda a valorar una rareza heredada, se avisa de ferias y mercadillos y se comparten las cazas más afortunadas. Se habla de catalogar, conservar y dónde encontrar esa pieza que falta para completar la serie. Conviven coleccionistas serios con décadas de afición y novatos que acaban de empezar con algo que les hace ilusión. Un espacio donde se entiende perfectamente esa emoción de encontrar, por fin, lo que llevabas años buscando.",
+    intro: "Chat de coleccionismo: sellos, monedas, cromos, vinilos, figuras y rarezas. Intercambia, valora y presume de tu colección. Entra y presume.",
+    about: "Los que nunca tienen suficiente se reúnen aquí: coleccionistas de sellos, monedas, cromos, vinilos, cómics, figuras, relojes y objetos que para otros son trastos y para ellos son tesoros. Se intercambian piezas, se ayuda a valorar una rareza heredada, se avisa de ferias y mercadillos y se comparten las cazas más afortunadas. Se habla de catalogar, conservar y dónde encontrar esa pieza que falta para completar la serie. Conviven coleccionistas serios con décadas de afición y novatos que acaban de empezar con algo que les hace ilusión. Un espacio donde se entiende perfectamente esa emoción de encontrar, por fin, lo que llevabas años buscando.",
   },
   {
     slug: "jardineria", name: "Jardinería", kind: "tematica", icon: "🪴",
@@ -311,7 +311,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["hobbies", "ocio"],
     related: ["hobbies", "naturaleza", "ecologia", "cocina", "salud"],
     intro: "Chat de jardinería y plantas: huerto, suculentas, riego, plagas y trucos verdes. Para los que tienen las manos en la tierra. Sin registro.",
-    about: "La sala para los que hablan con sus plantas y no se avergüenzan. Aquí se resuelven dudas de riego, luz y trasplantes, se identifican plagas con sus remedios y se comparte la alegría de la primera cosecha del huerto urbano. Se habla de suculentas y cactus para los más olvidadizos, de aromáticas en la ventana, de bonsáis con paciencia infinita y de cómo tener verde hasta en un balcón pequeño. Conviven jardineros expertos, hortelanos de fin de semana y gente que acaba de matar su primer potos y quiere redimirse. Se intercambian esquejes, semillas y consejos de temporada. Un rincón donde la tierra bajo las uñas es señal de tiempo bien invertido.",
+    about: "¿Le hablas a tus plantas y no te da vergüenza? Aquí somos así. Se resuelven dudas de riego, luz y trasplantes, se identifican plagas con sus remedios y se comparte la alegría de la primera cosecha del huerto urbano. Se habla de suculentas y cactus para los más olvidadizos, de aromáticas en la ventana, de bonsáis con paciencia infinita y de cómo tener verde hasta en un balcón pequeño. Conviven jardineros expertos, hortelanos de fin de semana y gente que acaba de matar su primer potos y quiere redimirse. Se intercambian esquejes, semillas y consejos de temporada. Un rincón donde la tierra bajo las uñas es señal de tiempo bien invertido.",
   },
 
   // ───────────────────────── Cultura ─────────────────────────
@@ -322,7 +322,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cultura", "ocio"],
     related: ["cultura", "teatro", "literatura", "fotografia", "historia"],
     intro: "Chat de arte: pintura, escultura, museos y movimientos. Del Renacimiento al arte urbano. Para curiosos y amantes del arte. Sin registro.",
-    about: "La sala para los que se quedan mirando un cuadro más de la cuenta. Aquí se habla de pintura, escultura, fotografía artística y arte contemporáneo, del Renacimiento a Banksy pasando por las vanguardias. Se recomiendan exposiciones que merecen el viaje, se comentan museos como el Prado, el Reina Sofía o el MoMA, y se debate qué es arte y qué no con pasión y sin esnobismo. Conviven historiadores del arte, artistas que enseñan su obra y curiosos que solo quieren entender por qué cierto cuadro vale millones. Se comparten técnicas, materiales y la emoción de descubrir a un artista nuevo. Un espacio para mirar el mundo con otros ojos y apreciar lo que hay detrás de cada obra.",
+    about: "Hay quien se queda mirando un cuadro más de la cuenta: bienvenido. Se habla de pintura, escultura, fotografía artística y arte contemporáneo, del Renacimiento a Banksy pasando por las vanguardias. Se recomiendan exposiciones que merecen el viaje, se comentan museos como el Prado, el Reina Sofía o el MoMA, y se debate qué es arte y qué no con pasión y sin esnobismo. Conviven historiadores del arte, artistas que enseñan su obra y curiosos que solo quieren entender por qué cierto cuadro vale millones. Se comparten técnicas, materiales y la emoción de descubrir a un artista nuevo. Un espacio para mirar el mundo con otros ojos y apreciar lo que hay detrás de cada obra.",
   },
   {
     slug: "teatro", name: "Teatro", kind: "tematica", icon: "🎭",
@@ -330,8 +330,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "cultura", parentName: "Cultura",
     channels: ["cultura", "ocio"],
     related: ["cultura", "arte", "literatura", "cine", "musica"],
-    intro: "Chat de teatro: obras, montajes, clásicos y cartelera. Para actores, aficionados y amantes de las tablas. Comparte tu butaca. Sin registro.",
-    about: "El patio de butacas de los que viven el teatro como nadie. Aquí se comentan estrenos y cartelera, se recomiendan montajes imprescindibles y se debaten los clásicos de Lorca, Shakespeare o Valle-Inclán frente a la dramaturgia más actual. Se habla del teatro de texto y del físico, del musical y del off, de las giras y de los festivales como el de Almagro. Conviven actores y actrices que pisan las tablas, gente que hace teatro amateur y espectadores fieles que no se pierden un estreno. Se comparten experiencias sobre cómo es estar entre bambalinas y la magia única del directo, donde cada función es irrepetible. Un espacio para los que saben que el teatro no se ve, se vive.",
+    intro: "Chat de teatro: obras, montajes, clásicos y cartelera. Para actores, aficionados y amantes de las tablas. Comparte tu butaca. Entra al patio.",
+    about: "Bienvenido al patio de butacas de los que viven el teatro como nadie. Se comentan estrenos y cartelera, se recomiendan montajes imprescindibles y se debaten los clásicos de Lorca, Shakespeare o Valle-Inclán frente a la dramaturgia más actual. Se habla del teatro de texto y del físico, del musical y del off, de las giras y de los festivales como el de Almagro. Conviven actores y actrices que pisan las tablas, gente que hace teatro amateur y espectadores fieles que no se pierden un estreno. Se comparten experiencias sobre cómo es estar entre bambalinas y la magia única del directo, donde cada función es irrepetible. Un espacio para los que saben que el teatro no se ve, se vive.",
   },
 
   // ───────────────────────── Historia ─────────────────────────
@@ -342,7 +342,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["historia", "cultura", "ocio"],
     related: ["historia", "historiaantigua", "curiosidadeshistoricas", "cultura", "politica"],
     intro: "Chat de historia de España: de Roma y Al-Ándalus a la Transición. Reyes, guerras, mitos y debates. Para apasionados del pasado. Sin registro.",
-    about: "La sala para los que se saben las fechas y para los que solo quieren entender de dónde venimos. Aquí se recorre la historia de España desde la Hispania romana y Al-Ándalus hasta los Reyes Católicos, el Imperio, las guerras carlistas, la Segunda República, la Guerra Civil y la Transición. Se debaten mitos muy arraigados, se recomiendan libros y documentales, y se discute cómo se enseña y se cuenta la historia según quién la escriba. Conviven licenciados, divulgadores aficionados y curiosos que llegaron por una serie o una novela histórica. Se habla de personajes, batallas y de esos detalles cotidianos que hacían distinta la vida hace siglos. Un espacio para discrepar con respeto y aprender en cada conversación.",
+    about: "Tanto si te sabes las fechas como si solo quieres entender de dónde venimos, aquí tienes con quién hablarlo. Se recorre la historia de España desde la Hispania romana y Al-Ándalus hasta los Reyes Católicos, el Imperio, las guerras carlistas, la Segunda República, la Guerra Civil y la Transición. Se debaten mitos muy arraigados, se recomiendan libros y documentales, y se discute cómo se enseña y se cuenta la historia según quién la escriba. Conviven licenciados, divulgadores aficionados y curiosos que llegaron por una serie o una novela histórica. Se habla de personajes, batallas y de esos detalles cotidianos que hacían distinta la vida hace siglos. Un espacio para discrepar con respeto y aprender en cada conversación.",
   },
   {
     slug: "historiaantigua", name: "Historia Antigua", kind: "tematica", icon: "🏺",
@@ -350,8 +350,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "historia", parentName: "Historia",
     channels: ["historia", "cultura", "ocio"],
     related: ["historia", "historiaespana", "curiosidadeshistoricas", "filosofia", "egipto"],
-    intro: "Chat de historia antigua: Egipto, Grecia, Roma y las grandes civilizaciones. Mitología, batallas y vida del mundo clásico. Sin registro.",
-    about: "El rincón de los enamorados del mundo antiguo. Aquí se viaja a Egipto y sus faraones, a la Grecia de la filosofía y la democracia, a la Roma de las legiones y los emperadores, a Mesopotamia y a las civilizaciones que pusieron los cimientos de todo. Se habla de mitología, de grandes batallas como las Termópilas o Cannas, de la vida cotidiana de un ciudadano romano y de los enigmas que la arqueología sigue desenterrando. Se recomiendan libros, documentales y hasta videojuegos ambientados en la Antigüedad. Conviven estudiantes de historia, divulgadores y curiosos fascinados por las ruinas. Un espacio para descubrir que el mundo clásico está mucho más cerca de nosotros de lo que parece.",
+    intro: "Chat de historia antigua: Egipto, Grecia, Roma y las grandes civilizaciones. Mitología, batallas y vida del mundo clásico. Entra y viaja al pasado.",
+    about: "¿Te enamora el mundo antiguo? Aquí se viaja a Egipto y sus faraones, a la Grecia de la filosofía y la democracia, a la Roma de las legiones y los emperadores, a Mesopotamia y a las civilizaciones que pusieron los cimientos de todo. Se habla de mitología, de grandes batallas como las Termópilas o Cannas, de la vida cotidiana de un ciudadano romano y de los enigmas que la arqueología sigue desenterrando. Se recomiendan libros, documentales y hasta videojuegos ambientados en la Antigüedad. Conviven estudiantes de historia, divulgadores y curiosos fascinados por las ruinas. Un espacio para descubrir que el mundo clásico está mucho más cerca de nosotros de lo que parece.",
   },
   {
     slug: "segundaguerra", name: "Segunda Guerra Mundial", kind: "tematica", icon: "🎖️",
@@ -360,7 +360,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["historia", "cultura", "ocio"],
     related: ["historia", "historiaespana", "curiosidadeshistoricas", "politica", "debate"],
     intro: "Chat de la Segunda Guerra Mundial: frentes, batallas, estrategia y consecuencias. Para apasionados de la historia del siglo XX. Sin registro.",
-    about: "La sala para los que han visto todos los documentales del conflicto que cambió el mundo. Aquí se analizan los frentes de la Segunda Guerra Mundial: la blitzkrieg, el frente oriental, el Pacífico, el desembarco de Normandía y la caída de Berlín. Se habla de estrategia, de armamento, de los líderes y de las decisiones que cambiaron el curso de la historia, pero también del horror del Holocausto y del sufrimiento de los civiles, con el respeto que merece. Se recomiendan libros, películas y series sobre la época. Conviven aficionados a la historia militar, divulgadores y curiosos que quieren entender cómo se llegó hasta allí. Un espacio para no olvidar y aprender de la mayor tragedia del siglo XX.",
+    about: "Si has visto todos los documentales del conflicto que cambió el mundo, este es tu sitio. Se analizan los frentes de la Segunda Guerra Mundial: la blitzkrieg, el frente oriental, el Pacífico, el desembarco de Normandía y la caída de Berlín. Se habla de estrategia, de armamento, de los líderes y de las decisiones que cambiaron el curso de la historia, pero también del horror del Holocausto y del sufrimiento de los civiles, con el respeto que merece. Se recomiendan libros, películas y series sobre la época. Conviven aficionados a la historia militar, divulgadores y curiosos que quieren entender cómo se llegó hasta allí. Un espacio para no olvidar y aprender de la mayor tragedia del siglo XX.",
   },
   {
     slug: "curiosidadeshistoricas", name: "Curiosidades Históricas", kind: "tematica", icon: "📜",
@@ -368,8 +368,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "historia", parentName: "Historia",
     channels: ["historia", "cultura", "ocio"],
     related: ["historia", "historiaespana", "historiaantigua", "cultura", "debate"],
-    intro: "Chat de curiosidades históricas: anécdotas, datos increíbles y rarezas del pasado que no salen en los libros. Para sorprenderse, sin registro.",
-    about: "El rincón de los datos que dejan con la boca abierta. Aquí se comparten esas anécdotas históricas que no salen en los libros de texto: la guerra más corta del mundo, por qué Napoleón no era tan bajo como dicen, costumbres absurdas de otras épocas y casualidades que cambiaron la historia. Se desmontan mitos muy repetidos, se cuentan historias de personajes secundarios olvidados y se descubren inventos y modas que parecen mentira. Conviven divulgadores, lectores voraces y curiosos que coleccionan datos para presumir en la próxima cena. El tono es ameno y desenfadado: aquí la historia se cuenta como una buena conversación de bar. Un espacio para aprender riéndose y salir con tres datos nuevos cada día.",
+    intro: "Chat de curiosidades históricas: anécdotas, datos increíbles y rarezas del pasado que no salen en los libros. Entra y sorpréndete.",
+    about: "¿Sabías que la guerra más corta del mundo duró menos de una hora? De datos así va esto. Se comparten esas anécdotas históricas que no salen en los libros de texto: la guerra más corta del mundo, por qué Napoleón no era tan bajo como dicen, costumbres absurdas de otras épocas y casualidades que cambiaron la historia. Se desmontan mitos muy repetidos, se cuentan historias de personajes secundarios olvidados y se descubren inventos y modas que parecen mentira. Conviven divulgadores, lectores voraces y curiosos que coleccionan datos para presumir en la próxima cena. El tono es ameno y desenfadado: aquí la historia se cuenta como una buena conversación de bar. Un espacio para aprender riéndose y salir con tres datos nuevos cada día.",
   },
 
   // ───────────────────────── Mascotas ─────────────────────────
@@ -380,7 +380,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mascotas", "ocio"],
     related: ["animalear", "gatos", "adopciones", "veterinaria", "amistad"],
     intro: "Chat de perros: razas, adiestramiento, salud y anécdotas peludas. Para amantes del mejor amigo del hombre. Presume del tuyo, sin registro.",
-    about: "La sala de los que tienen el móvil lleno de fotos de su perro. Aquí se habla de adiestramiento y de cómo enseñar a un cachorro sin volverse loco, de razas y de por qué los mestizos son los mejores, de alimentación, paseos y esos problemas de comportamiento que desesperan. Se piden consejos sobre el veterinario, las vacunas y cómo cuidar a un perro mayor con cariño. Se comparten anécdotas de travesuras, rescates y esa lealtad que solo entiende quien ha tenido uno. Conviven dueños primerizos, adiestradores y gente con jauría propia. Se difunden adopciones y casas de acogida. Un rincón cálido donde el perro siempre es el protagonista y se le quiere como a un miembro más de la familia.",
+    about: "¿Tienes el móvil lleno de fotos de tu perro? Aquí no eres el único. Se habla de adiestramiento y de cómo enseñar a un cachorro sin volverse loco, de razas y de por qué los mestizos son los mejores, de alimentación, paseos y esos problemas de comportamiento que desesperan. Se piden consejos sobre el veterinario, las vacunas y cómo cuidar a un perro mayor con cariño. Se comparten anécdotas de travesuras, rescates y esa lealtad que solo entiende quien ha tenido uno. Conviven dueños primerizos, adiestradores y gente con jauría propia. Se difunden adopciones y casas de acogida. Un rincón cálido donde el perro siempre es el protagonista y se le quiere como a un miembro más de la familia.",
   },
   {
     slug: "gatos", name: "Gatos", kind: "tematica", icon: "🐱",
@@ -388,8 +388,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "animalear", parentName: "Mascotas",
     channels: ["mascotas", "ocio"],
     related: ["animalear", "perros", "adopciones", "veterinaria", "amistad"],
-    intro: "Chat de gatos: comportamiento, razas, salud y mil monerías felinas. Para los que sirven a un gato. Comparte fotos y dudas, sin registro.",
-    about: "El territorio de los que saben quién manda de verdad en casa. Aquí se habla del comportamiento felino, ese misterio de por qué arañan el sofá o te ignoran cuando los llamas, de razas, de alimentación y de cómo hacer feliz a un gato de interior. Se resuelven dudas sobre el arenero, las bolas de pelo, las visitas al veterinario y la convivencia entre varios mininos. Se comparten fotos de posturas imposibles, cajas conquistadas y esa mirada de indiferencia tan suya. Conviven dueños veteranos, gente con colonias que alimenta y novatos que acaban de adoptar. Se difunden gatos en adopción que buscan hogar. Un rincón para los que entienden que un gato no se tiene: se convive con él.",
+    intro: "Chat de gatos: comportamiento, razas, salud y mil monerías felinas. Para los que sirven a un gato. Comparte fotos y dudas, entra ya.",
+    about: "Aquí todos sabemos quién manda de verdad en casa. Se habla del comportamiento felino, ese misterio de por qué arañan el sofá o te ignoran cuando los llamas, de razas, de alimentación y de cómo hacer feliz a un gato de interior. Se resuelven dudas sobre el arenero, las bolas de pelo, las visitas al veterinario y la convivencia entre varios mininos. Se comparten fotos de posturas imposibles, cajas conquistadas y esa mirada de indiferencia tan suya. Conviven dueños veteranos, gente con colonias que alimenta y novatos que acaban de adoptar. Se difunden gatos en adopción que buscan hogar. Un rincón para los que entienden que un gato no se tiene: se convive con él.",
   },
   {
     slug: "adopciones", name: "Adopciones", kind: "tematica", icon: "🏠",
@@ -398,7 +398,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mascotas", "ocio"],
     related: ["animalear", "perros", "gatos", "veterinaria", "amistad"],
     intro: "Chat de adopciones: difunde animales que buscan hogar, casas de acogida y rescates. Adopta, no compres. Salva una vida, sin registro.",
-    about: "La sala con corazón, dedicada a los animales que esperan una segunda oportunidad. Aquí se difunden perros, gatos y otros animales en adopción de protectoras y particulares, se buscan casas de acogida urgentes y se coordinan rescates de la calle. Se da visibilidad a los más difíciles de colocar: los mayores, los enfermos, los que llevan años en una jaula. Se explica cómo es el proceso de adopción responsable, qué implica acoger y cómo ayudar aunque no puedas adoptar. Conviven voluntarios de protectoras, adoptantes y gente que solo quiere echar una mano compartiendo. El lema es claro: adopta, no compres. Un espacio donde cada difusión puede cambiar, literalmente, una vida.",
+    about: "Cada animal que ves aquí espera una segunda oportunidad, y tu difusión puede dársela. Se difunden perros, gatos y otros animales en adopción de protectoras y particulares, se buscan casas de acogida urgentes y se coordinan rescates de la calle. Se da visibilidad a los más difíciles de colocar: los mayores, los enfermos, los que llevan años en una jaula. Se explica cómo es el proceso de adopción responsable, qué implica acoger y cómo ayudar aunque no puedas adoptar. Conviven voluntarios de protectoras, adoptantes y gente que solo quiere echar una mano compartiendo. El lema es claro: adopta, no compres. Un espacio donde cada difusión puede cambiar, literalmente, una vida.",
   },
   {
     slug: "veterinaria", name: "Veterinaria", kind: "tematica", icon: "🩺",
@@ -407,7 +407,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mascotas", "ocio"],
     related: ["animalear", "perros", "gatos", "adopciones", "salud"],
     intro: "Chat de veterinaria: salud animal, síntomas, vacunas y cuidados. Orientación entre dueños y profesionales (no sustituye al veterinario). Sin registro.",
-    about: "Un espacio para hablar de la salud de nuestros animales con cabeza. Aquí se comentan síntomas que preocupan, calendarios de vacunación, desparasitaciones, alimentación según la edad y cuidados de animales mayores o con enfermedades crónicas. Conviven dueños con dudas, estudiantes de veterinaria y profesionales que echan una mano orientando, siempre dejando claro lo más importante: nada de esto sustituye una consulta presencial con el veterinario, que es quien diagnostica y trata. Se comparten experiencias sobre operaciones, recuperaciones y cómo afrontar las decisiones difíciles. Se habla también de prevención y de cómo detectar a tiempo lo que no va bien. Un rincón para cuidar mejor a quienes dependen de nosotros.",
+    about: "Hablemos de la salud de nuestros animales con cabeza. Se comentan síntomas que preocupan, calendarios de vacunación, desparasitaciones, alimentación según la edad y cuidados de animales mayores o con enfermedades crónicas. Conviven dueños con dudas, estudiantes de veterinaria y profesionales que echan una mano orientando, siempre dejando claro lo más importante: nada de esto sustituye una consulta presencial con el veterinario, que es quien diagnostica y trata. Se comparten experiencias sobre operaciones, recuperaciones y cómo afrontar las decisiones difíciles. Se habla también de prevención y de cómo detectar a tiempo lo que no va bien. Un rincón para cuidar mejor a quienes dependen de nosotros.",
   },
 
   // ───────────────────────── Empleo y trabajo ─────────────────────────
@@ -416,8 +416,8 @@ export const TOPICS_INTERESES: Place[] = [
     users: 245, votes: 430, tag: "Popular", activity: "Alta",
     channels: ["empleo", "ocio"],
     related: ["trabajo", "ofertasempleo", "freelance", "oposiciones", "tecnologia"],
-    intro: "Chat de empleo y trabajo: ofertas, búsqueda, entrevistas y dudas laborales. Comparte experiencias y echa una mano. Gratis y sin registro.",
-    about: "El punto de encuentro para quienes buscan trabajo, cambian de empleo o quieren prosperar en el suyo. Aquí se comparten ofertas, se piden consejos para el currículum y la carta de presentación, y se ensayan respuestas para esa entrevista que pone nervioso a cualquiera. Se habla de derechos laborales, de nóminas, de jefes imposibles y de cómo negociar un sueldo sin morir en el intento. Conviven recién titulados que dan sus primeros pasos, veteranos con tablas y gente harta que busca un cambio de aires. Se intercambian sectores, ciudades y experiencias reales del mercado laboral. Un espacio para no sentirse solo en la búsqueda y aprender de quien ya pasó por ahí.",
+    intro: "Chat de empleo y trabajo: ofertas, búsqueda, entrevistas y dudas laborales. Comparte experiencias y echa una mano. Entra y participa.",
+    about: "¿Buscas trabajo, cambias de empleo o quieres prosperar en el tuyo? Aquí encajas. Se comparten ofertas, se piden consejos para el currículum y la carta de presentación, y se ensayan respuestas para esa entrevista que pone nervioso a cualquiera. Se habla de derechos laborales, de nóminas, de jefes imposibles y de cómo negociar un sueldo sin morir en el intento. Conviven recién titulados que dan sus primeros pasos, veteranos con tablas y gente harta que busca un cambio de aires. Se intercambian sectores, ciudades y experiencias reales del mercado laboral. Un espacio para no sentirse solo en la búsqueda y aprender de quien ya pasó por ahí.",
   },
   {
     slug: "trabajo", name: "Trabajo", kind: "tematica", icon: "🧑‍💼",
@@ -425,8 +425,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["empleo", "ofertasempleo", "teletrabajo", "freelance", "politica"],
-    intro: "Chat sobre trabajo: jornada, sueldos, ambiente laboral, derechos y desahogo. Lo bueno y lo malo de currar. Gratis y sin registro.",
-    about: "La sala para hablar de eso a lo que dedicamos media vida. Aquí se desahoga el que tiene un jefe insoportable, se celebra un ascenso, se comparan sueldos por sector y se debate sobre la conciliación, las horas extra que nadie paga y el derecho a desconectar. Se cuentan experiencias de distintos oficios, de la obra a la oficina, del campo a la sanidad, y se aprende cómo funciona de verdad cada mundillo. Conviven asalariados, autónomos y gente entre dos trabajos. Se dan consejos sobre convenios, bajas y finiquitos con sentido común. Un espacio para quejarse con razón, reírse de las miserias del curro y sentirse comprendido por quien vive lo mismo cada día.",
+    intro: "Chat sobre trabajo: jornada, sueldos, ambiente laboral, derechos y desahogo. Lo bueno y lo malo de currar. Sin registro.",
+    about: "Hablemos de eso a lo que dedicamos media vida. Se desahoga el que tiene un jefe insoportable, se celebra un ascenso, se comparan sueldos por sector y se debate sobre la conciliación, las horas extra que nadie paga y el derecho a desconectar. Se cuentan experiencias de distintos oficios, de la obra a la oficina, del campo a la sanidad, y se aprende cómo funciona de verdad cada mundillo. Conviven asalariados, autónomos y gente entre dos trabajos. Se dan consejos sobre convenios, bajas y finiquitos con sentido común. Un espacio para quejarse con razón, reírse de las miserias del curro y sentirse comprendido por quien vive lo mismo cada día.",
   },
   {
     slug: "ofertasempleo", name: "Ofertas de Empleo", kind: "tematica", icon: "📋",
@@ -434,8 +434,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["empleo", "trabajo", "freelance", "practicas", "tecnologia"],
-    intro: "Chat de ofertas de empleo: vacantes por sector y ciudad, dónde buscar y cómo destacar. Comparte y encuentra trabajo. Gratis y sin registro.",
-    about: "El tablón de anuncios laboral del chat. Aquí se comparten vacantes reales por sectores y ciudades, se avisa de procesos de selección abiertos y se cuenta dónde buscar más allá de los portales de siempre. Se explican trucos para que tu currículum no acabe en la papelera, cómo usar LinkedIn sin agobiar y la importancia del boca a boca, que sigue colocando a mucha gente. Conviven personas en plena búsqueda, reclutadores que difunden puestos y trabajadores que recomiendan en su empresa. Se habla de salarios orientativos y de cómo detectar ofertas engañosas. Un espacio práctico para mover la búsqueda de trabajo y, con suerte, encontrar esa oportunidad que estabas esperando.",
+    intro: "Chat de ofertas de empleo: vacantes por sector y ciudad, dónde buscar y cómo destacar. Comparte y encuentra trabajo. Entra y echa un ojo.",
+    about: "Bienvenido al tablón de anuncios laboral del chat. Se comparten vacantes reales por sectores y ciudades, se avisa de procesos de selección abiertos y se cuenta dónde buscar más allá de los portales de siempre. Se explican trucos para que tu currículum no acabe en la papelera, cómo usar LinkedIn sin agobiar y la importancia del boca a boca, que sigue colocando a mucha gente. Conviven personas en plena búsqueda, reclutadores que difunden puestos y trabajadores que recomiendan en su empresa. Se habla de salarios orientativos y de cómo detectar ofertas engañosas. Un espacio práctico para mover la búsqueda de trabajo y, con suerte, encontrar esa oportunidad que estabas esperando.",
   },
   {
     slug: "freelance", name: "Freelance", kind: "tematica", icon: "🧑‍💻",
@@ -444,7 +444,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["empleo", "ocio"],
     related: ["empleo", "trabajo", "teletrabajo", "tecnologia", "bolsa"],
     intro: "Chat para freelance y autónomos: clientes, tarifas, facturas y la vida por cuenta propia. Comparte trucos y desahógate. Sin registro.",
-    about: "El rincón de los que se buscan la vida por su cuenta. Aquí se habla de cómo conseguir clientes, fijar tarifas sin malvenderse y lidiar con los que pagan tarde o regatean. Se comparten herramientas, plantillas de presupuesto y trucos para la dichosa cuota de autónomos y las facturas trimestrales. Conviven diseñadores, programadores, redactores, traductores y todo tipo de profesionales independientes que conocen bien la soledad y la libertad de trabajar solos. Se debate sobre la inestabilidad, los meses flojos y cómo organizarse sin un jefe que marque el ritmo. Un espacio para compartir lo difícil y lo bueno de ser tu propio jefe y aprender de quien lleva más tiempo en esto.",
+    about: "Los que se buscan la vida por su cuenta tienen aquí su rincón. Se habla de cómo conseguir clientes, fijar tarifas sin malvenderse y lidiar con los que pagan tarde o regatean. Se comparten herramientas, plantillas de presupuesto y trucos para la dichosa cuota de autónomos y las facturas trimestrales. Conviven diseñadores, programadores, redactores, traductores y todo tipo de profesionales independientes que conocen bien la soledad y la libertad de trabajar solos. Se debate sobre la inestabilidad, los meses flojos y cómo organizarse sin un jefe que marque el ritmo. Un espacio para compartir lo difícil y lo bueno de ser tu propio jefe y aprender de quien lleva más tiempo en esto.",
   },
   {
     slug: "teletrabajo", name: "Teletrabajo", kind: "tematica", icon: "🏡",
@@ -452,8 +452,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["empleo", "trabajo", "freelance", "tecnologia", "bienestar"],
-    intro: "Chat de teletrabajo: trabajar en remoto, productividad, herramientas y conciliación. Lo mejor y lo peor de currar en casa. Sin registro.",
-    about: "La sala para los que trabajan desde casa y saben que no todo es ir en pijama. Aquí se habla de productividad sin que se desdibuje el día, de montar un buen rincón de trabajo, de las herramientas para reuniones y equipos en remoto, y de cómo separar el curro de la vida cuando comparten cuatro paredes. Se debate sobre el modelo híbrido, los nómadas digitales y las empresas que quieren obligar a volver a la oficina. Conviven empleados en remoto, autónomos y gente que busca su primer trabajo a distancia. Se comparten consejos contra el aislamiento y trucos para no acabar trabajando más horas que nunca. Un espacio para sacar lo mejor de currar desde casa.",
+    intro: "Chat de teletrabajo: trabajar en remoto, productividad, herramientas y conciliación. Lo mejor y lo peor de currar en casa. Entra y cuéntalo.",
+    about: "Trabajar desde casa no es solo ir en pijama, y aquí lo sabemos bien. Se habla de productividad sin que se desdibuje el día, de montar un buen rincón de trabajo, de las herramientas para reuniones y equipos en remoto, y de cómo separar el curro de la vida cuando comparten cuatro paredes. Se debate sobre el modelo híbrido, los nómadas digitales y las empresas que quieren obligar a volver a la oficina. Conviven empleados en remoto, autónomos y gente que busca su primer trabajo a distancia. Se comparten consejos contra el aislamiento y trucos para no acabar trabajando más horas que nunca. Un espacio para sacar lo mejor de currar desde casa.",
   },
   {
     slug: "oposiciones", name: "Oposiciones", kind: "tematica", icon: "📚",
@@ -462,7 +462,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["empleo", "ocio"],
     related: ["empleo", "estudiar", "estudiantes", "trabajo", "salud"],
     intro: "Chat de oposiciones: temarios, convocatorias, técnicas de estudio y ánimo en el camino. Para opositores de cualquier rama. Sin registro.",
-    about: "El grupo de estudio virtual de los que persiguen una plaza. Aquí se comparten convocatorias, se comentan temarios y se intercambian técnicas para memorizar sin quemarse: esquemas, repasos espaciados, simulacros y gestión de los nervios del examen. Conviven opositores a administrativo, educación, sanidad, justicia, fuerzas de seguridad y mil ramas más, todos con esa mezcla de disciplina y sacrificio que solo entiende quien opone. Se habla de academias, de la soledad del estudio, de las veces que hay que presentarse y de cómo no rendirse cuando se hace cuesta arriba. Un espacio para motivarse, resolver dudas y recordar que cada hora de estudio acerca un poco más a la plaza.",
+    about: "Bienvenido al grupo de estudio virtual de los que persiguen una plaza. Se comparten convocatorias, se comentan temarios y se intercambian técnicas para memorizar sin quemarse: esquemas, repasos espaciados, simulacros y gestión de los nervios del examen. Conviven opositores a administrativo, educación, sanidad, justicia, fuerzas de seguridad y mil ramas más, todos con esa mezcla de disciplina y sacrificio que solo entiende quien opone. Se habla de academias, de la soledad del estudio, de las veces que hay que presentarse y de cómo no rendirse cuando se hace cuesta arriba. Un espacio para motivarse, resolver dudas y recordar que cada hora de estudio acerca un poco más a la plaza.",
   },
   {
     slug: "estudiantes", name: "Estudiantes", kind: "tematica", icon: "🎒",
@@ -470,8 +470,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["universidad", "estudiar", "oposiciones", "empleo", "amistad"],
-    intro: "Chat de estudiantes: apuntes, exámenes, agobios y vida estudiantil. Para sobrellevar el curso con compañía. Gratis y sin registro.",
-    about: "La sala para los que están en plena etapa de estudios, del instituto a la universidad. Aquí se comparten apuntes, se piden ayuda con esa asignatura imposible y se sobrevive juntos a la época de exámenes a base de café y memes. Se habla de técnicas de estudio, de la presión por las notas, de elegir carrera o ciclo y de compaginar estudios con trabajo o vida social. Conviven estudiantes de bachillerato, de FP y universitarios de todas las ramas. Se desahoga el que va agobiado, se celebra un aprobado difícil y se hacen amistades con gente que vive lo mismo. Un espacio para no llevar el curso en soledad y recordar que después del agobio siempre llegan las vacaciones.",
+    intro: "Chat de estudiantes: apuntes, exámenes, agobios y vida estudiantil. Para sobrellevar el curso con compañía. Entra y desahógate.",
+    about: "Si estás en plena etapa de estudios, del instituto a la universidad, aquí no llevas el curso en soledad. Se comparten apuntes, se piden ayuda con esa asignatura imposible y se sobrevive juntos a la época de exámenes a base de café y memes. Se habla de técnicas de estudio, de la presión por las notas, de elegir carrera o ciclo y de compaginar estudios con trabajo o vida social. Conviven estudiantes de bachillerato, de FP y universitarios de todas las ramas. Se desahoga el que va agobiado, se celebra un aprobado difícil y se hacen amistades con gente que vive lo mismo. Un espacio para no llevar el curso en soledad y recordar que después del agobio siempre llegan las vacaciones.",
   },
   {
     slug: "universidad", name: "Universidad", kind: "tematica", icon: "🎓",
@@ -480,7 +480,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["empleo", "ocio"],
     related: ["estudiantes", "estudiar", "practicas", "empleo", "amistad"],
     intro: "Chat de universidad: carreras, profes, exámenes, TFG y vida de campus. Para universitarios de toda España y Latinoamérica. Sin registro.",
-    about: "El campus virtual donde se junta la peña de la uni. Aquí se habla de carreras y de cuál tiene más salida, de profesores que aprueban a la primera y de los que tienen fama de hueso, de la pesadilla del TFG y de las prácticas que abren puertas. Se comparte la experiencia del Erasmus, las residencias y pisos compartidos, las fiestas y esa vida de campus que se recuerda toda la vida. Conviven estudiantes de grado, de máster y veteranos que ya están con el doctorado. Se resuelven dudas sobre matrículas, becas y convalidaciones. Un espacio para conocer gente de tu facultad o de otras, compartir agobios y sacar el máximo partido a los mejores años de estudio.",
+    about: "Bienvenido al campus virtual donde se junta la peña de la uni. Se habla de carreras y de cuál tiene más salida, de profesores que aprueban a la primera y de los que tienen fama de hueso, de la pesadilla del TFG y de las prácticas que abren puertas. Se comparte la experiencia del Erasmus, las residencias y pisos compartidos, las fiestas y esa vida de campus que se recuerda toda la vida. Conviven estudiantes de grado, de máster y veteranos que ya están con el doctorado. Se resuelven dudas sobre matrículas, becas y convalidaciones. Un espacio para conocer gente de tu facultad o de otras, compartir agobios y sacar el máximo partido a los mejores años de estudio.",
   },
   {
     slug: "estudiar", name: "Estudiar", kind: "tematica", icon: "✏️",
@@ -488,8 +488,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["estudiantes", "universidad", "oposiciones", "empleo", "psicologia"],
-    intro: "Chat para estudiar: técnicas, concentración, planificación y motivación. Aprende a rendir más sin quemarte. Gratis y sin registro.",
-    about: "La sala para los que quieren estudiar mejor, no solo más horas. Aquí se comparten técnicas que de verdad funcionan: la técnica Pomodoro, los mapas mentales, el repaso espaciado y cómo tomar apuntes que luego sirvan para algo. Se habla de concentración en un mundo lleno de distracciones, de cómo planificar la semana sin agobiarse y de combatir la procrastinación que a todos nos puede. Conviven estudiantes, opositores y gente que se forma por su cuenta a cualquier edad. Se debate sobre estudiar en silencio o con música, en casa o en la biblioteca, y se motiva a quien anda sin fuerzas. Un espacio para coger buenos hábitos y demostrarse que rendir es cuestión de método, no solo de esfuerzo.",
+    intro: "Chat para estudiar: técnicas, concentración, planificación y motivación. Aprende a rendir más sin quemarte. Entra y coge método.",
+    about: "Estudiar mejor, no solo más horas: de eso va esto. Se comparten técnicas que de verdad funcionan: la técnica Pomodoro, los mapas mentales, el repaso espaciado y cómo tomar apuntes que luego sirvan para algo. Se habla de concentración en un mundo lleno de distracciones, de cómo planificar la semana sin agobiarse y de combatir la procrastinación que a todos nos puede. Conviven estudiantes, opositores y gente que se forma por su cuenta a cualquier edad. Se debate sobre estudiar en silencio o con música, en casa o en la biblioteca, y se motiva a quien anda sin fuerzas. Un espacio para coger buenos hábitos y demostrarse que rendir es cuestión de método, no solo de esfuerzo.",
   },
   {
     slug: "practicas", name: "Prácticas", kind: "tematica", icon: "🧰",
@@ -497,8 +497,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "empleo", parentName: "Empleo",
     channels: ["empleo", "ocio"],
     related: ["empleo", "universidad", "estudiantes", "ofertasempleo", "trabajo"],
-    intro: "Chat de prácticas y primer empleo: FCT, becas, prácticas en empresa y cómo dar el salto al mercado laboral. Gratis y sin registro.",
-    about: "El rincón de los que están dando sus primeros pasos en el mundo laboral. Aquí se habla de las prácticas de FP y universidad, de cómo encontrar una buena empresa, de los convenios y de esas prácticas que enseñan mucho frente a las que solo sirven para hacer fotocopias. Se comparten experiencias sobre becas, prácticas remuneradas y el difícil salto de estudiante a trabajador. Conviven quienes buscan sus primeras prácticas, quienes ya están en ellas y gente que las terminó y cuenta cómo le fue. Se dan consejos para causar buena impresión, aprender todo lo posible y conseguir que esas prácticas acaben en contrato. Un espacio para empezar la vida laboral con buen pie y las ideas claras.",
+    intro: "Chat de prácticas y primer empleo: FCT, becas, prácticas en empresa y cómo dar el salto al mercado laboral. Empieza con buen pie, sin registro.",
+    about: "Dar los primeros pasos en el mundo laboral asusta menos en compañía. Se habla de las prácticas de FP y universidad, de cómo encontrar una buena empresa, de los convenios y de esas prácticas que enseñan mucho frente a las que solo sirven para hacer fotocopias. Se comparten experiencias sobre becas, prácticas remuneradas y el difícil salto de estudiante a trabajador. Conviven quienes buscan sus primeras prácticas, quienes ya están en ellas y gente que las terminó y cuenta cómo le fue. Se dan consejos para causar buena impresión, aprender todo lo posible y conseguir que esas prácticas acaben en contrato. Un espacio para empezar la vida laboral con buen pie y las ideas claras.",
   },
 
   // ───────────────────────── Salud y bienestar ─────────────────────────
@@ -508,8 +508,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "salud", parentName: "Salud",
     channels: ["salud", "ocio"],
     related: ["salud", "vidasana", "saludmental", "psicologia", "fitness"],
-    intro: "Chat de bienestar: equilibrio, descanso, hábitos sanos y cuidarse por dentro y por fuera. Sin gurús ni dogmas. Gratis y sin registro.",
-    about: "La sala para quienes quieren cuidarse de forma realista, sin gurús ni fórmulas mágicas. Aquí se habla de equilibrio entre trabajo y descanso, de dormir mejor, de gestionar el estrés del día a día y de pequeños hábitos que mejoran cómo nos sentimos. Se comparten rutinas sencillas, técnicas de relajación y experiencias sobre lo que de verdad funciona para cada uno. Conviven gente que practica mindfulness, otros que apuestan por el deporte suave y quienes simplemente buscan parar el ritmo y respirar. No hay dogmas ni cuerpos de catálogo: aquí el bienestar es sentirse bien con uno mismo. Un espacio amable para coger ideas y recordar que cuidarse no es un lujo, sino una necesidad.",
+    intro: "Chat de bienestar: equilibrio, descanso, hábitos sanos y cuidarse por dentro y por fuera. Sin gurús ni dogmas. Entra y cuídate.",
+    about: "Cuidarse de forma realista, sin gurús ni fórmulas mágicas: ese es el plan. Se habla de equilibrio entre trabajo y descanso, de dormir mejor, de gestionar el estrés del día a día y de pequeños hábitos que mejoran cómo nos sentimos. Se comparten rutinas sencillas, técnicas de relajación y experiencias sobre lo que de verdad funciona para cada uno. Conviven gente que practica mindfulness, otros que apuestan por el deporte suave y quienes simplemente buscan parar el ritmo y respirar. No hay dogmas ni cuerpos de catálogo: aquí el bienestar es sentirse bien con uno mismo. Un espacio amable para coger ideas y recordar que cuidarse no es un lujo, sino una necesidad.",
   },
   {
     slug: "ansiedad", name: "Ansiedad", kind: "tematica", icon: "😮‍💨",
@@ -518,7 +518,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "psicologia", "ocio"],
     related: ["salud", "saludmental", "apoyo", "psicologia", "bienestar"],
     intro: "Chat de ansiedad: comparte lo que sientes, encuentra apoyo y técnicas para sobrellevarla. Sin diagnósticos, con mucha escucha. Sin registro.",
-    about: "Un espacio de apoyo para quienes conviven con la ansiedad y necesitan hablarlo sin sentirse raros. Aquí se comparten esas sensaciones difíciles de explicar a quien no las vive: los ataques de pánico, la presión en el pecho, los pensamientos que no paran y el agotamiento que dejan. Se intercambian técnicas que ayudan —respiración, exposición gradual, rutinas— y se acompaña a quien está pasando un mal momento. No hay psicólogos dando diagnósticos, pero sí mucha gente que entiende porque ha pasado por lo mismo. Se anima a buscar ayuda profesional cuando hace falta, sin tabúes. Un rincón de escucha sin juicios donde lo primero es saber que no estás solo en esto.",
+    about: "¿Convives con la ansiedad y necesitas hablarlo sin sentirte raro? Aquí te entendemos. Se comparten esas sensaciones difíciles de explicar a quien no las vive: los ataques de pánico, la presión en el pecho, los pensamientos que no paran y el agotamiento que dejan. Se intercambian técnicas que ayudan —respiración, exposición gradual, rutinas— y se acompaña a quien está pasando un mal momento. No hay psicólogos dando diagnósticos, pero sí mucha gente que entiende porque ha pasado por lo mismo. Se anima a buscar ayuda profesional cuando hace falta, sin tabúes. Un rincón de escucha sin juicios donde lo primero es saber que no estás solo en esto.",
   },
   {
     slug: "apoyo", name: "Apoyo", kind: "tematica", icon: "🤲",
@@ -526,8 +526,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "salud", parentName: "Salud",
     channels: ["salud", "psicologia", "ocio"],
     related: ["salud", "ansiedad", "saludmental", "psicologia", "amistad"],
-    intro: "Chat de apoyo emocional: un lugar para desahogarte y que te escuchen cuando lo necesitas. Acompañamiento sin juicios. Sin registro.",
-    about: "La sala para esos momentos en que solo necesitas que alguien te escuche. Aquí se acompaña a quien atraviesa una mala racha: un duelo, una ruptura, soledad o problemas que no caben en la cabeza. No es terapia ni se dan lecciones; es gente que tiende la mano, ofrece una palabra amable y recuerda que lo que sientes es válido. Se comparten experiencias de superación, recursos de ayuda y la certeza de que casi todo se sobrelleva mejor acompañado. Conviven personas que vienen a desahogarse y otras que vienen a apoyar porque ellas también lo recibieron en su día. Se anima a pedir ayuda profesional cuando es necesario. Un espacio cálido y seguro donde nadie tiene que fingir que está bien.",
+    intro: "Chat de apoyo emocional: un lugar para desahogarte y que te escuchen cuando lo necesitas. Acompañamiento sin juicios. Entra y habla.",
+    about: "A veces solo necesitas que alguien te escuche, y aquí lo hay. Se acompaña a quien atraviesa una mala racha: un duelo, una ruptura, soledad o problemas que no caben en la cabeza. No es terapia ni se dan lecciones; es gente que tiende la mano, ofrece una palabra amable y recuerda que lo que sientes es válido. Se comparten experiencias de superación, recursos de ayuda y la certeza de que casi todo se sobrelleva mejor acompañado. Conviven personas que vienen a desahogarse y otras que vienen a apoyar porque ellas también lo recibieron en su día. Se anima a pedir ayuda profesional cuando es necesario. Un espacio cálido y seguro donde nadie tiene que fingir que está bien.",
   },
   {
     slug: "vidasana", name: "Vida Sana", kind: "tematica", icon: "🥗",
@@ -536,7 +536,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "ocio"],
     related: ["salud", "bienestar", "nutricion", "comidasana", "fitness"],
     intro: "Chat de vida sana: alimentación, ejercicio, descanso y hábitos para sentirte mejor cada día. Sin extremos ni modas. Sin registro.",
-    about: "El rincón de los que quieren llevar una vida más sana sin volverse locos. Aquí se habla de comer mejor sin dietas imposibles, de moverse más en el día a día, de dormir bien y de dejar poco a poco los vicios que pasan factura. Se comparten recetas equilibradas, rutinas asequibles y trucos para mantener la constancia, que es lo más difícil. Conviven gente que ya cuida sus hábitos y otros que acaban de empezar y necesitan motivación. Se huye de los extremos y las modas milagro: aquí prima el sentido común y los cambios sostenibles. Un espacio para inspirarse, resolver dudas y recordar que la salud se construye con pequeños gestos repetidos cada día.",
+    about: "Llevar una vida más sana sin volverse loco es posible, y aquí te ayudamos. Se habla de comer mejor sin dietas imposibles, de moverse más en el día a día, de dormir bien y de dejar poco a poco los vicios que pasan factura. Se comparten recetas equilibradas, rutinas asequibles y trucos para mantener la constancia, que es lo más difícil. Conviven gente que ya cuida sus hábitos y otros que acaban de empezar y necesitan motivación. Se huye de los extremos y las modas milagro: aquí prima el sentido común y los cambios sostenibles. Un espacio para inspirarse, resolver dudas y recordar que la salud se construye con pequeños gestos repetidos cada día.",
   },
   {
     slug: "saludmental", name: "Salud Mental", kind: "tematica", icon: "🧠",
@@ -545,7 +545,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "psicologia", "ocio"],
     related: ["salud", "ansiedad", "apoyo", "psicologia", "bienestar"],
     intro: "Chat de salud mental: hablar sin tabúes de lo que pesa por dentro. Terapia, autocuidado y apoyo entre quienes lo entienden. Sin registro.",
-    about: "Un espacio para hablar de salud mental con la naturalidad que merece. Aquí se trata la depresión, la ansiedad, el estrés, la autoestima y todos esos temas que durante años dieron vergüenza y hoy, por fin, se pueden compartir. Se habla de terapia —de cómo encontrar un buen profesional y de las distintas corrientes—, de medicación sin tabúes y de autocuidado realista. Conviven personas en tratamiento, otras en plena recuperación y quienes acompañan a un ser querido. No se dan diagnósticos, pero sí mucha comprensión de quien sabe lo que es. Se anima siempre a pedir ayuda profesional. Un rincón seguro para sentirse escuchado y entender que pedir ayuda es de valientes, no de débiles.",
+    about: "Hablemos de salud mental con la naturalidad que merece. Se trata la depresión, la ansiedad, el estrés, la autoestima y todos esos temas que durante años dieron vergüenza y hoy, por fin, se pueden compartir. Se habla de terapia —de cómo encontrar un buen profesional y de las distintas corrientes—, de medicación sin tabúes y de autocuidado realista. Conviven personas en tratamiento, otras en plena recuperación y quienes acompañan a un ser querido. No se dan diagnósticos, pero sí mucha comprensión de quien sabe lo que es. Se anima siempre a pedir ayuda profesional. Un rincón seguro para sentirse escuchado y entender que pedir ayuda es de valientes, no de débiles.",
   },
   {
     slug: "fitness", name: "Fitness", kind: "tematica", icon: "🏋️",
@@ -553,8 +553,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "salud", parentName: "Salud",
     channels: ["salud", "ocio"],
     related: ["salud", "gym", "entrenamiento", "nutricion", "vidasana"],
-    intro: "Chat de fitness: rutinas, hipertrofia, cardio y progreso real. Para los que entrenan y quieren mejorar. Comparte tu rutina, sin registro.",
-    about: "La sala de los que viven el entreno como parte de su vida. Aquí se habla de rutinas de fuerza e hipertrofia, de cardio, de cómo planificar la semana de gimnasio y de la importancia del descanso para crecer. Se comparten progresos, marcas personales y esas mesetas que desesperan a cualquiera. Se debate sobre técnica, volumen, suplementación con cabeza y los mitos que circulan por las redes. Conviven veteranos del hierro, corredores, gente del crossfit y principiantes que acaban de apuntarse y no saben por dónde empezar. Se motiva, se resuelven dudas y se pican sanamente para no faltar al entreno. Un espacio para mejorar físicamente y rodearse de gente con la misma constancia.",
+    intro: "Chat de fitness: rutinas, hipertrofia, cardio y progreso real. Para los que entrenan y quieren mejorar. Comparte tu rutina, entra ya.",
+    about: "Para quienes viven el entreno como parte de su vida, este es el sitio. Se habla de rutinas de fuerza e hipertrofia, de cardio, de cómo planificar la semana de gimnasio y de la importancia del descanso para crecer. Se comparten progresos, marcas personales y esas mesetas que desesperan a cualquiera. Se debate sobre técnica, volumen, suplementación con cabeza y los mitos que circulan por las redes. Conviven veteranos del hierro, corredores, gente del crossfit y principiantes que acaban de apuntarse y no saben por dónde empezar. Se motiva, se resuelven dudas y se pican sanamente para no faltar al entreno. Un espacio para mejorar físicamente y rodearse de gente con la misma constancia.",
   },
   {
     slug: "gym", name: "Gimnasio", kind: "tematica", icon: "💪",
@@ -563,7 +563,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "ocio"],
     related: ["salud", "fitness", "entrenamiento", "adelgazar", "nutricion"],
     intro: "Chat de gimnasio: máquinas, ejercicios, ambiente y dudas de novato. Para los que viven entre pesas. Comparte tu entreno, sin registro.",
-    about: "El vestuario virtual de los que no faltan al gimnasio. Aquí se habla de ejercicios para cada grupo muscular, de cómo usar bien las máquinas, de la diferencia entre peso libre y guiado y de esos novatos perdidos a los que todos ayudamos alguna vez. Se comenta el ambiente del gym, los que acaparan máquinas, los que no recogen las mancuernas y la motivación de cada lunes. Se resuelven dudas sobre series, repeticiones, calentamiento y cómo evitar lesiones. Conviven culturistas, gente que va a mantenerse en forma y principiantes con dudas básicas que aquí nadie juzga. Se comparten progresos y se anima a no rendirse en las primeras semanas. Un espacio para aprovechar mejor cada sesión y coger el hábito de verdad.",
+    about: "Bienvenido al vestuario virtual de los que no faltan al gimnasio. Se habla de ejercicios para cada grupo muscular, de cómo usar bien las máquinas, de la diferencia entre peso libre y guiado y de esos novatos perdidos a los que todos ayudamos alguna vez. Se comenta el ambiente del gym, los que acaparan máquinas, los que no recogen las mancuernas y la motivación de cada lunes. Se resuelven dudas sobre series, repeticiones, calentamiento y cómo evitar lesiones. Conviven culturistas, gente que va a mantenerse en forma y principiantes con dudas básicas que aquí nadie juzga. Se comparten progresos y se anima a no rendirse en las primeras semanas. Un espacio para aprovechar mejor cada sesión y coger el hábito de verdad.",
   },
   {
     slug: "adelgazar", name: "Adelgazar", kind: "tematica", icon: "⚖️",
@@ -571,8 +571,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "salud", parentName: "Salud",
     channels: ["salud", "ocio"],
     related: ["salud", "nutricion", "vidasana", "comidasana", "gym"],
-    intro: "Chat para adelgazar: dietas con cabeza, hábitos, motivación y apoyo. Perder peso sin milagros ni obsesiones. Gratis y sin registro.",
-    about: "La sala para quienes quieren perder peso de forma sana y duradera. Aquí se habla de alimentación equilibrada, de déficit calórico sin pasar hambre, de combinar comida y ejercicio y, sobre todo, de la cabeza, que es donde se gana o se pierde la batalla. Se comparten progresos, recetas ligeras y trucos para no caer en los típicos atracones de fin de semana. Se huye de las dietas milagro, los productos caros y las obsesiones que tanto daño hacen. Conviven gente que ha perdido muchos kilos, otros que empiezan de cero y quienes solo quieren quitarse esos últimos que se resisten. Se apoya, se motiva y se celebra cada avance. Un espacio realista para conseguirlo sin dramas y sin volver a recuperarlo.",
+    intro: "Chat para adelgazar: dietas con cabeza, hábitos, motivación y apoyo. Perder peso sin milagros ni obsesiones. Entra y empieza.",
+    about: "Perder peso de forma sana y duradera se lleva mejor acompañado. Se habla de alimentación equilibrada, de déficit calórico sin pasar hambre, de combinar comida y ejercicio y, sobre todo, de la cabeza, que es donde se gana o se pierde la batalla. Se comparten progresos, recetas ligeras y trucos para no caer en los típicos atracones de fin de semana. Se huye de las dietas milagro, los productos caros y las obsesiones que tanto daño hacen. Conviven gente que ha perdido muchos kilos, otros que empiezan de cero y quienes solo quieren quitarse esos últimos que se resisten. Se apoya, se motiva y se celebra cada avance. Un espacio realista para conseguirlo sin dramas y sin volver a recuperarlo.",
   },
   {
     slug: "nutricion", name: "Nutrición", kind: "tematica", icon: "🍎",
@@ -581,7 +581,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "ocio"],
     related: ["salud", "vidasana", "comidasana", "adelgazar", "fitness"],
     intro: "Chat de nutrición: alimentación, macros, etiquetas y comer mejor con criterio. Para resolver dudas sin mitos. Gratis y sin registro.",
-    about: "El rincón para entender de verdad lo que comemos. Aquí se habla de nutrición con criterio: macros y micros, cómo leer las etiquetas del súper, qué alimentos merecen la pena y cuáles son humo de marketing. Se debate sobre dietas de moda, intolerancias, alimentación vegetariana y vegana, y cómo adaptar la comida a cada objetivo, sea ganar masa, perder grasa o simplemente comer mejor. Conviven estudiantes de nutrición, deportistas y gente harta de tanta información contradictoria. Se desmontan mitos muy repetidos y se da información con sentido común, recordando que para casos concretos lo mejor es un dietista-nutricionista. Un espacio para comer con cabeza y dejar de creerse cualquier cosa que se lee por ahí.",
+    about: "¿Sabes de verdad lo que comes? Aquí se habla de nutrición con criterio: macros y micros, cómo leer las etiquetas del súper, qué alimentos merecen la pena y cuáles son humo de marketing. Se debate sobre dietas de moda, intolerancias, alimentación vegetariana y vegana, y cómo adaptar la comida a cada objetivo, sea ganar masa, perder grasa o simplemente comer mejor. Conviven estudiantes de nutrición, deportistas y gente harta de tanta información contradictoria. Se desmontan mitos muy repetidos y se da información con sentido común, recordando que para casos concretos lo mejor es un dietista-nutricionista. Un espacio para comer con cabeza y dejar de creerse cualquier cosa que se lee por ahí.",
   },
   {
     slug: "running", name: "Running", kind: "tematica", icon: "🏃‍♂️",
@@ -589,8 +589,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "salud", parentName: "Salud",
     channels: ["salud", "deportes", "ocio"],
     related: ["salud", "fitness", "entrenamiento", "deportes", "gym"],
-    intro: "Chat de running: entrenos, carreras, maratones y material. Para corredores de 5K a maratón. Comparte tus tiempos, sin registro.",
-    about: "La sala de los que salen a correr llueva o haga sol. Aquí se habla de planes de entrenamiento para 5K, 10K, media maratón y el maratón soñado, de series, ritmos y tiradas largas del domingo. Se comparten zapatillas, relojes GPS y trucos contra las rozaduras y los flatos. Se comentan carreras populares, dorsales y esa emoción de cruzar la meta con un nuevo mejor tiempo. Conviven corredores experimentados, gente que empieza con el método de andar y correr, y quienes corren solo para despejarse. Se motiva, se resuelven dudas sobre lesiones típicas como la fascitis y se queda para entrenar juntos. Un espacio para mejorar como corredor y disfrutar de un deporte que engancha de por vida.",
+    intro: "Chat de running: entrenos, carreras, maratones y material. Para corredores de 5K a maratón. Comparte tus tiempos, entra ya.",
+    about: "Salir a correr llueva o haga sol tiene aquí su tribu. Se habla de planes de entrenamiento para 5K, 10K, media maratón y el maratón soñado, de series, ritmos y tiradas largas del domingo. Se comparten zapatillas, relojes GPS y trucos contra las rozaduras y los flatos. Se comentan carreras populares, dorsales y esa emoción de cruzar la meta con un nuevo mejor tiempo. Conviven corredores experimentados, gente que empieza con el método de andar y correr, y quienes corren solo para despejarse. Se motiva, se resuelven dudas sobre lesiones típicas como la fascitis y se queda para entrenar juntos. Un espacio para mejorar como corredor y disfrutar de un deporte que engancha de por vida.",
   },
   {
     slug: "entrenamiento", name: "Entrenamiento", kind: "tematica", icon: "🤸",
@@ -599,7 +599,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["salud", "ocio"],
     related: ["salud", "fitness", "gym", "running", "deportes"],
     intro: "Chat de entrenamiento: planificación, fuerza, resistencia y progreso para cualquier deporte. Entrena con cabeza. Gratis y sin registro.",
-    about: "El rincón para los que se toman en serio entrenar, sea cual sea su disciplina. Aquí se habla de planificación, de periodización, de combinar fuerza y resistencia y de cómo progresar sin estancarse ni lesionarse. Se comparten rutinas, se analizan objetivos y se debate sobre descanso, recuperación y la importancia de la constancia frente a la motivación pasajera. Conviven gente del gimnasio, corredores, ciclistas, nadadores y deportistas de equipo que buscan rendir más. Se resuelven dudas sobre técnica, calentamiento y prevención de lesiones con sentido común. Un espacio para entrenar con cabeza, aprender de quien sabe y sacar el máximo partido a cada sesión sin dejarse la salud por el camino.",
+    about: "Si te tomas en serio entrenar, sea cual sea tu disciplina, aquí estás en casa. Se habla de planificación, de periodización, de combinar fuerza y resistencia y de cómo progresar sin estancarse ni lesionarse. Se comparten rutinas, se analizan objetivos y se debate sobre descanso, recuperación y la importancia de la constancia frente a la motivación pasajera. Conviven gente del gimnasio, corredores, ciclistas, nadadores y deportistas de equipo que buscan rendir más. Se resuelven dudas sobre técnica, calentamiento y prevención de lesiones con sentido común. Un espacio para entrenar con cabeza, aprender de quien sabe y sacar el máximo partido a cada sesión sin dejarse la salud por el camino.",
   },
 
   // ───────────────────────── Viajes ─────────────────────────
@@ -610,7 +610,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["viajes", "ocio"],
     related: ["viajes", "viajarbarato", "viajeros", "turismo", "amistad"],
     intro: "Chat de mochileros: viajar barato, rutas largas, albergues y aventura con mochila al hombro. Comparte tu próximo destino. Sin registro.",
-    about: "La sala de los que viajan con lo puesto y mil historias que contar. Aquí se habla de rutas largas por el Sudeste Asiático, Sudamérica o Europa con poco presupuesto, de albergues, autostop, trenes nocturnos y de cómo estirar cada euro al máximo. Se comparten consejos sobre qué meter en la mochila, seguros de viaje, visados y cómo moverse sin reservas cerradas. Conviven viajeros veteranos que han recorrido continentes y novatos que preparan su primera gran aventura. Se cuentan anécdotas de fronteras, de gente conocida por el camino y de planes improvisados que salieron mejor que los previstos. Un espacio para inspirarse, resolver dudas y echar a volar la imaginación hacia el próximo destino con la mochila lista.",
+    about: "Viajar con lo puesto y volver con mil historias: de eso van los que se juntan aquí. Se habla de rutas largas por el Sudeste Asiático, Sudamérica o Europa con poco presupuesto, de albergues, autostop, trenes nocturnos y de cómo estirar cada euro al máximo. Se comparten consejos sobre qué meter en la mochila, seguros de viaje, visados y cómo moverse sin reservas cerradas. Conviven viajeros veteranos que han recorrido continentes y novatos que preparan su primera gran aventura. Se cuentan anécdotas de fronteras, de gente conocida por el camino y de planes improvisados que salieron mejor que los previstos. Un espacio para inspirarse, resolver dudas y echar a volar la imaginación hacia el próximo destino con la mochila lista.",
   },
   {
     slug: "turismo", name: "Turismo", kind: "tematica", icon: "🗺️",
@@ -618,8 +618,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "viajes", parentName: "Viajes",
     channels: ["viajes", "ocio"],
     related: ["viajes", "escapadas", "mochileros", "viajeros", "playas"],
-    intro: "Chat de turismo: qué ver, dónde dormir y planes en cada destino. Recomendaciones reales de viajeros, no folletos. Gratis y sin registro.",
-    about: "El rincón para planear escapadas y viajes con información de primera mano. Aquí se pregunta qué ver en una ciudad, dónde alojarse sin que te roben y qué visitas merecen la pena de verdad frente a las trampas para turistas. Se comparten itinerarios, restaurantes auténticos y rincones que no salen en los primeros resultados de Google. Conviven gente que viaja a menudo, locales que cuentan su ciudad desde dentro y viajeros preparando las vacaciones. Se habla de monumentos, museos, gastronomía y de cómo organizar un fin de semana para aprovecharlo al máximo. Un espacio para resolver dudas concretas de cada destino y descubrir esos sitios que solo recomienda quien ha estado allí de verdad.",
+    intro: "Chat de turismo: qué ver, dónde dormir y planes en cada destino. Recomendaciones reales de viajeros, no folletos. Entra y pregunta.",
+    about: "Planear escapadas y viajes con información de primera mano, no de folleto: a eso se viene. Se pregunta qué ver en una ciudad, dónde alojarse sin que te roben y qué visitas merecen la pena de verdad frente a las trampas para turistas. Se comparten itinerarios, restaurantes auténticos y rincones que no salen en los primeros resultados de Google. Conviven gente que viaja a menudo, locales que cuentan su ciudad desde dentro y viajeros preparando las vacaciones. Se habla de monumentos, museos, gastronomía y de cómo organizar un fin de semana para aprovecharlo al máximo. Un espacio para resolver dudas concretas de cada destino y descubrir esos sitios que solo recomienda quien ha estado allí de verdad.",
   },
   {
     slug: "viajarbarato", name: "Viajar Barato", kind: "tematica", icon: "💸",
@@ -627,8 +627,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "viajes", parentName: "Viajes",
     channels: ["viajes", "ocio"],
     related: ["viajes", "mochileros", "escapadas", "turismo", "viajeros"],
-    intro: "Chat para viajar barato: vuelos baratos, ofertas, chollos y trucos para gastar menos. Viaja más por menos. Gratis y sin registro.",
-    about: "La sala de los cazadores de chollos viajeros. Aquí se comparten vuelos baratos, errores de tarifa, ofertas de hoteles y trucos para viajar gastando lo mínimo sin renunciar a disfrutar. Se habla de cuándo reservar, de viajar en temporada baja, de buscadores y alertas de precios, y de destinos económicos que dan mucho por poco dinero. Conviven viajeros expertos en exprimir el presupuesto y gente que cree que viajar es caro y descubre que no tiene por qué. Se dan consejos sobre equipaje de mano para no pagar maletas, transporte local barato y comida sin arruinarse. Un espacio para demostrar que con maña se puede viajar más a menudo y por mucho menos de lo que parece.",
+    intro: "Chat para viajar barato: vuelos baratos, ofertas, chollos y trucos para gastar menos. Viaja más por menos. Sin registro.",
+    about: "Bienvenido al cuartel de los cazadores de chollos viajeros. Se comparten vuelos baratos, errores de tarifa, ofertas de hoteles y trucos para viajar gastando lo mínimo sin renunciar a disfrutar. Se habla de cuándo reservar, de viajar en temporada baja, de buscadores y alertas de precios, y de destinos económicos que dan mucho por poco dinero. Conviven viajeros expertos en exprimir el presupuesto y gente que cree que viajar es caro y descubre que no tiene por qué. Se dan consejos sobre equipaje de mano para no pagar maletas, transporte local barato y comida sin arruinarse. Un espacio para demostrar que con maña se puede viajar más a menudo y por mucho menos de lo que parece.",
   },
   {
     slug: "escapadas", name: "Escapadas", kind: "tematica", icon: "🧳",
@@ -636,8 +636,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "viajes", parentName: "Viajes",
     channels: ["viajes", "ocio"],
     related: ["viajes", "turismo", "viajarbarato", "playas", "viajeros"],
-    intro: "Chat de escapadas: planes de fin de semana, pueblos con encanto y destinos cerca. Desconecta sin irte lejos. Gratis y sin registro.",
-    about: "El rincón de los que aprovechan cualquier puente para desconectar. Aquí se comparten escapadas de fin de semana, pueblos con encanto, casas rurales, balnearios y destinos a pocas horas de casa que no requieren grandes vacaciones. Se habla de rutas en coche, de qué hacer con niños, de escapadas románticas y de planes para grupos de amigos. Conviven gente que se escapa cada vez que puede y quienes buscan ideas para romper la rutina sin gastar demasiado. Se recomiendan alojamientos con encanto, restaurantes para una buena comida y rincones bonitos para fotos. Un espacio para llenar la agenda de planes cortos y recordar que no hace falta cruzar el mundo para cargar las pilas.",
+    intro: "Chat de escapadas: planes de fin de semana, pueblos con encanto y destinos cerca. Desconecta sin irte lejos. Entra y coge ideas.",
+    about: "¿Aprovechas cualquier puente para desconectar? Aquí encuentras tu próximo plan. Se comparten escapadas de fin de semana, pueblos con encanto, casas rurales, balnearios y destinos a pocas horas de casa que no requieren grandes vacaciones. Se habla de rutas en coche, de qué hacer con niños, de escapadas románticas y de planes para grupos de amigos. Conviven gente que se escapa cada vez que puede y quienes buscan ideas para romper la rutina sin gastar demasiado. Se recomiendan alojamientos con encanto, restaurantes para una buena comida y rincones bonitos para fotos. Un espacio para llenar la agenda de planes cortos y recordar que no hace falta cruzar el mundo para cargar las pilas.",
   },
   {
     slug: "viajeros", name: "Viajeros", kind: "tematica", icon: "🌏",
@@ -646,7 +646,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["viajes", "ocio"],
     related: ["viajes", "mochileros", "turismo", "viajarbarato", "escapadas"],
     intro: "Chat de viajeros: comparte experiencias, busca compañero de viaje y resuelve dudas de cualquier destino. La comunidad viajera, sin registro.",
-    about: "La comunidad de los que tienen el gusanillo de viajar siempre activo. Aquí se comparten experiencias de todos los rincones del mundo, se buscan compañeros para no viajar solo y se resuelven dudas concretas de cualquier destino. Se habla de seguros, vacunas, mejores épocas para ir, choque cultural y esas pequeñas cosas que solo aprendes viajando. Conviven trotamundos veteranos, viajeros ocasionales y soñadores que preparan el viaje de su vida. Se cuentan historias buenas y malas, porque de los imprevistos también se aprende, y se tiende la mano a quien viaja por primera vez. Un espacio para inspirarse, organizarse y conectar con gente que entiende que viajar engancha y cambia la forma de ver el mundo.",
+    about: "¿Tienes el gusanillo de viajar siempre activo? Aquí está tu gente. Se comparten experiencias de todos los rincones del mundo, se buscan compañeros para no viajar solo y se resuelven dudas concretas de cualquier destino. Se habla de seguros, vacunas, mejores épocas para ir, choque cultural y esas pequeñas cosas que solo aprendes viajando. Conviven trotamundos veteranos, viajeros ocasionales y soñadores que preparan el viaje de su vida. Se cuentan historias buenas y malas, porque de los imprevistos también se aprende, y se tiende la mano a quien viaja por primera vez. Un espacio para inspirarse, organizarse y conectar con gente que entiende que viajar engancha y cambia la forma de ver el mundo.",
   },
 
   // ───────────────────────── Cocina y gastronomía ─────────────────────────
@@ -656,8 +656,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "cocina", parentName: "Cocina",
     channels: ["cocina", "ocio"],
     related: ["cocina", "cocinacasera", "postres", "comidasana", "gastronomia"],
-    intro: "Chat de recetas: comparte las tuyas, pide ideas y resuelve dudas de cocina. De lo fácil a lo elaborado. Gratis y sin registro.",
-    about: "El recetario colectivo del chat. Aquí se comparten recetas de todo tipo: las rápidas para entre semana, las de fin de semana con más mimo y esas de la abuela que nadie había anotado. Se piden ideas para aprovechar lo que queda en la nevera, se resuelven dudas de cantidades y tiempos y se rescata el plato perfecto para cada ocasión. Conviven cocinillas con años de fogón y principiantes que acaban de independizarse y no saben ni cocer un huevo. Se habla de sustituir ingredientes, de trucos que salvan un plato y de recetas para sorprender en una cena. Un espacio para inspirarse cada día, resolver el típico qué hago hoy de comer y llenar la cocina de ideas nuevas.",
+    intro: "Chat de recetas: comparte las tuyas, pide ideas y resuelve dudas de cocina. De lo fácil a lo elaborado. Entra y aporta la tuya.",
+    about: "Bienvenido al recetario colectivo del chat. Se comparten recetas de todo tipo: las rápidas para entre semana, las de fin de semana con más mimo y esas de la abuela que nadie había anotado. Se piden ideas para aprovechar lo que queda en la nevera, se resuelven dudas de cantidades y tiempos y se rescata el plato perfecto para cada ocasión. Conviven cocinillas con años de fogón y principiantes que acaban de independizarse y no saben ni cocer un huevo. Se habla de sustituir ingredientes, de trucos que salvan un plato y de recetas para sorprender en una cena. Un espacio para inspirarse cada día, resolver el típico qué hago hoy de comer y llenar la cocina de ideas nuevas.",
   },
   {
     slug: "gastronomia", name: "Gastronomía", kind: "tematica", icon: "🍽️",
@@ -666,7 +666,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cocina", "ocio"],
     related: ["cocina", "recetas", "comidasana", "cocinacasera", "viajes"],
     intro: "Chat de gastronomía: cocina del mundo, productos, restaurantes y cultura culinaria. Para foodies y curiosos del buen comer. Sin registro.",
-    about: "La sala para los que disfrutan comiendo y hablando de comida. Aquí se habla de gastronomía con mayúsculas: cocinas del mundo, productos de temporada, denominaciones de origen, maridajes y esa cultura culinaria que va mucho más allá de la receta. Se recomiendan restaurantes que merecen la pena, desde el bar de tapas de toda la vida hasta el estrella Michelin, y se debate sobre tendencias, fusión y modas. Conviven foodies, cocineros aficionados y curiosos que viajan por el mundo a través del paladar. Se comentan técnicas, historia de los platos y rarezas gastronómicas de cada país. Un espacio para los que entienden que comer bien es uno de los grandes placeres de la vida y les encanta compartirlo.",
+    about: "Hay quien disfruta tanto comiendo como hablando de comida: bienvenido a casa. Se habla de gastronomía con mayúsculas: cocinas del mundo, productos de temporada, denominaciones de origen, maridajes y esa cultura culinaria que va mucho más allá de la receta. Se recomiendan restaurantes que merecen la pena, desde el bar de tapas de toda la vida hasta el estrella Michelin, y se debate sobre tendencias, fusión y modas. Conviven foodies, cocineros aficionados y curiosos que viajan por el mundo a través del paladar. Se comentan técnicas, historia de los platos y rarezas gastronómicas de cada país. Un espacio para los que entienden que comer bien es uno de los grandes placeres de la vida y les encanta compartirlo.",
   },
   {
     slug: "comidasana", name: "Comida Sana", kind: "tematica", icon: "🥦",
@@ -674,8 +674,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "cocina", parentName: "Cocina",
     channels: ["cocina", "ocio"],
     related: ["cocina", "recetas", "vidasana", "nutricion", "adelgazar"],
-    intro: "Chat de comida sana: recetas ligeras, batch cooking y comer bien sin complicarse. Sabroso y saludable. Gratis y sin registro.",
-    about: "El rincón de los que quieren comer sano sin que sea un castigo. Aquí se comparten recetas ligeras y sabrosas, ideas de batch cooking para tener la semana resuelta y trucos para que la verdura deje de dar pereza. Se habla de tuppers para el trabajo, de meriendas saludables y de cómo cocinar rico sin tanta grasa, azúcar ni ultraprocesados. Conviven gente que cuida su alimentación, deportistas y quienes quieren cambiar de hábitos sin renunciar al sabor. Se desmonta la idea de que comer sano es aburrido o caro, con platos coloridos y apetecibles. Un espacio para coger ideas, organizar el menú semanal y demostrar que lo saludable también puede estar buenísimo y entrar por los ojos.",
+    intro: "Chat de comida sana: recetas ligeras, batch cooking y comer bien sin complicarse. Sabroso y saludable. Entra y coge ideas.",
+    about: "Comer sano sin que sea un castigo es más fácil de lo que crees. Se comparten recetas ligeras y sabrosas, ideas de batch cooking para tener la semana resuelta y trucos para que la verdura deje de dar pereza. Se habla de tuppers para el trabajo, de meriendas saludables y de cómo cocinar rico sin tanta grasa, azúcar ni ultraprocesados. Conviven gente que cuida su alimentación, deportistas y quienes quieren cambiar de hábitos sin renunciar al sabor. Se desmonta la idea de que comer sano es aburrido o caro, con platos coloridos y apetecibles. Un espacio para coger ideas, organizar el menú semanal y demostrar que lo saludable también puede estar buenísimo y entrar por los ojos.",
   },
   {
     slug: "postres", name: "Postres", kind: "tematica", icon: "🍰",
@@ -684,7 +684,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cocina", "ocio"],
     related: ["cocina", "recetas", "cocinacasera", "gastronomia", "manualidades"],
     intro: "Chat de postres y repostería: tartas, bizcochos, galletas y dulces caseros. Para golosos y reposteros. Comparte tus recetas, sin registro.",
-    about: "La sala más dulce del chat. Aquí se habla de tartas, bizcochos, galletas, mousses y todo lo que alegra una sobremesa. Se comparten recetas de repostería casera, se resuelven los dramas típicos —el bizcocho que no sube, la nata que no monta, el caramelo quemado— y se enseñan los resultados con orgullo, salgan de pastelería o un poco torcidos. Conviven reposteros con manos de seda, aficionados que solo hornean los findes y golosos sin remedio que vienen a babear con las fotos. Se habla de fondant, de chocolate, de masas y de cómo decorar para impresionar. Un espacio para endulzarse el día, coger ideas para un cumpleaños y compartir la pasión por hornear, que relaja tanto como llena la casa de buen olor.",
+    about: "Bienvenido a la sala más dulce del chat: tartas, bizcochos, galletas, mousses y todo lo que alegra una sobremesa. Se comparten recetas de repostería casera, se resuelven los dramas típicos —el bizcocho que no sube, la nata que no monta, el caramelo quemado— y se enseñan los resultados con orgullo, salgan de pastelería o un poco torcidos. Conviven reposteros con manos de seda, aficionados que solo hornean los findes y golosos sin remedio que vienen a babear con las fotos. Se habla de fondant, de chocolate, de masas y de cómo decorar para impresionar. Un espacio para endulzarse el día, coger ideas para un cumpleaños y compartir la pasión por hornear, que relaja tanto como llena la casa de buen olor.",
   },
   {
     slug: "cocinacasera", name: "Cocina Casera", kind: "tematica", icon: "🍲",
@@ -692,8 +692,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "cocina", parentName: "Cocina",
     channels: ["cocina", "ocio"],
     related: ["cocina", "recetas", "gastronomia", "postres", "comidasana"],
-    intro: "Chat de cocina casera: guisos, pucheros y platos de siempre como los de casa. La cocina tradicional, sin postureo y sin registro.",
-    about: "El rincón de la comida de verdad, la de toda la vida. Aquí se habla de guisos, pucheros, potajes y platos de cuchara que reconfortan el alma, esos que sabían hacer las madres y las abuelas y que ahora rescatamos. Se comparten recetas tradicionales de cada región, trucos para que el sofrito quede en su punto y secretos de esos que no vienen en ningún libro. Conviven gente que cocina a diario para la familia, nostálgicos del sabor de casa y jóvenes que quieren aprender los platos de siempre antes de que se pierdan. Se huye del postureo y la cocina de revista: aquí prima el sabor y el cariño. Un espacio para recuperar recetas de siempre y llenar la mesa con la comida que sabe a hogar.",
+    intro: "Chat de cocina casera: guisos, pucheros y platos de siempre como los de casa. La cocina tradicional, sin postureo. Entra y comparte.",
+    about: "Aquí mandan los guisos, los pucheros, los potajes y la comida de toda la vida, la de verdad. y platos de cuchara que reconfortan el alma, esos que sabían hacer las madres y las abuelas y que ahora rescatamos. Se comparten recetas tradicionales de cada región, trucos para que el sofrito quede en su punto y secretos de esos que no vienen en ningún libro. Conviven gente que cocina a diario para la familia, nostálgicos del sabor de casa y jóvenes que quieren aprender los platos de siempre antes de que se pierdan. Se huye del postureo y la cocina de revista: aquí prima el sabor y el cariño. Un espacio para recuperar recetas de siempre y llenar la mesa con la comida que sabe a hogar.",
   },
 
   // ───────────────────────── Tecnología ─────────────────────────
@@ -703,8 +703,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "tecnologia", parentName: "Tecnología",
     channels: ["tecnologia", "inteligencia_artificial", "ocio"],
     related: ["tecnologia", "chatgpt", "programacion", "gadgets", "ciberseguridad"],
-    intro: "Chat de inteligencia artificial: IA generativa, modelos, usos y debate sobre su impacto. Para curiosos y profesionales. Gratis y sin registro.",
-    about: "La sala donde se habla del tema que lo está cambiando todo. Aquí se charla de inteligencia artificial sin humo: modelos de lenguaje, generación de imágenes, asistentes, automatización y cómo usar estas herramientas en el trabajo y el día a día. Se debate sobre el impacto en el empleo, los dilemas éticos, los sesgos y hasta dónde puede llegar todo esto. Conviven desarrolladores, profesionales que ya integran la IA en su trabajo y curiosos que quieren entender de qué va tanto revuelo. Se comparten trucos, prompts que funcionan y novedades del sector, que cambia cada semana. Un espacio para estar al día, perder el miedo a la tecnología y debatir con cabeza sobre la revolución que ya está aquí.",
+    intro: "Chat de inteligencia artificial: IA generativa, modelos, usos y debate sobre su impacto. Para curiosos y profesionales. Entra al debate.",
+    about: "Pocas cosas están cambiando el mundo tan rápido como esto, y aquí se charla de ello sin humo: modelos de lenguaje, generación de imágenes, asistentes, automatización y cómo usar estas herramientas en el trabajo y el día a día. Se debate sobre el impacto en el empleo, los dilemas éticos, los sesgos y hasta dónde puede llegar todo esto. Conviven desarrolladores, profesionales que ya integran la IA en su trabajo y curiosos que quieren entender de qué va tanto revuelo. Se comparten trucos, prompts que funcionan y novedades del sector, que cambia cada semana. Un espacio para estar al día, perder el miedo a la tecnología y debatir con cabeza sobre la revolución que ya está aquí.",
   },
   {
     slug: "chatgpt", name: "Asistentes de IA", kind: "tematica", icon: "💬",
@@ -712,8 +712,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "tecnologia", parentName: "Tecnología",
     channels: ["tecnologia", "inteligencia_artificial", "ocio"],
     related: ["tecnologia", "ia", "programacion", "estudiar", "gadgets"],
-    intro: "Chat sobre asistentes de IA conversacional: trucos, prompts y usos prácticos para sacarles partido en el día a día. Gratis y sin registro.",
-    about: "El rincón para aprovechar al máximo los asistentes de inteligencia artificial conversacional. Aquí se comparten prompts que funcionan, trucos para obtener mejores respuestas y usos prácticos para estudiar, trabajar, redactar, programar o resolver dudas del día a día. Se comentan las distintas herramientas del mercado, sus diferencias y para qué sirve mejor cada una. Se debate sobre sus límites, cuándo conviene fiarse y cuándo no, y cómo evitar errores comunes al usarlas. Conviven gente que las usa a diario, curiosos que empiezan y profesionales que las integran en su flujo de trabajo. Un espacio para descubrir todo lo que se puede hacer con estas herramientas y dejar de usarlas solo para lo más básico.",
+    intro: "Chat sobre asistentes de IA conversacional: trucos, prompts y usos prácticos para sacarles partido en el día a día. Entra y aprende trucos.",
+    about: "¿Usas los asistentes de IA conversacional solo para lo más básico? Aquí se les saca mucho más jugo. Se comparten prompts que funcionan, trucos para obtener mejores respuestas y usos prácticos para estudiar, trabajar, redactar, programar o resolver dudas del día a día. Se comentan las distintas herramientas del mercado, sus diferencias y para qué sirve mejor cada una. Se debate sobre sus límites, cuándo conviene fiarse y cuándo no, y cómo evitar errores comunes al usarlas. Conviven gente que las usa a diario, curiosos que empiezan y profesionales que las integran en su flujo de trabajo. Un espacio para descubrir todo lo que se puede hacer con estas herramientas y dejar de usarlas solo para lo más básico.",
   },
   {
     slug: "programacion", name: "Programación", kind: "tematica", icon: "⌨️",
@@ -722,7 +722,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["tecnologia", "ocio"],
     related: ["tecnologia", "ia", "chatgpt", "ciberseguridad", "videojuegos"],
     intro: "Chat de programación: lenguajes, dudas de código, proyectos y consejos para aprender a programar. De novato a senior. Sin registro.",
-    about: "La sala para los que hablan en código. Aquí se debate sobre lenguajes —Python, JavaScript, Java, Rust y los que vengan—, se resuelven dudas de código atascado y se comparten proyectos personales para recibir feedback. Se habla de cómo aprender a programar desde cero, de bootcamps frente a la carrera, de la entrevista técnica y de cómo conseguir el primer trabajo en el sector. Conviven desarrolladores senior, estudiantes y autodidactas que aprenden a base de tutoriales y prueba y error. Se comentan frameworks, buenas prácticas, control de versiones con Git y el eterno debate sobre el mejor editor. Un espacio para crecer como programador, desatascarse cuando algo no compila y rodearse de gente que entiende por qué funciona en local pero no en producción.",
+    about: "¿Funciona en local pero no en producción? Aquí entenderán tu dolor. Se debate sobre lenguajes —Python, JavaScript, Java, Rust y los que vengan—, se resuelven dudas de código atascado y se comparten proyectos personales para recibir feedback. Se habla de cómo aprender a programar desde cero, de bootcamps frente a la carrera, de la entrevista técnica y de cómo conseguir el primer trabajo en el sector. Conviven desarrolladores senior, estudiantes y autodidactas que aprenden a base de tutoriales y prueba y error. Se comentan frameworks, buenas prácticas, control de versiones con Git y el eterno debate sobre el mejor editor. Un espacio para crecer como programador, desatascarse cuando algo no compila y rodearse de gente que entiende por qué funciona en local pero no en producción.",
   },
   {
     slug: "moviles", name: "Móviles", kind: "tematica", icon: "📱",
@@ -730,8 +730,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "tecnologia", parentName: "Tecnología",
     channels: ["tecnologia", "ocio"],
     related: ["tecnologia", "gadgets", "videojuegos", "ia", "ciberseguridad"],
-    intro: "Chat de móviles: Android, iPhone, comparativas, novedades y dudas. Para elegir, exprimir o reparar tu smartphone. Gratis y sin registro.",
-    about: "El rincón de los que siempre quieren saber qué móvil comprar. Aquí se comparan modelos de Android e iPhone, se debate el eterno pique entre ambos bandos y se ayuda a elegir según presupuesto y necesidades. Se habla de cámaras, batería, procesadores, actualizaciones y de si merece la pena cambiar de móvil cada año. Se resuelven dudas técnicas, problemas de configuración y trucos para exprimir el smartphone al máximo. Conviven tecnófilos que lo prueban todo, gente práctica que solo quiere algo que funcione y quienes buscan reparar el suyo antes de tirarlo. Se comentan novedades, lanzamientos y ofertas. Un espacio para acertar con la compra, sacar más partido a tu teléfono y no dejarse engañar por el marketing de turno.",
+    intro: "Chat de móviles: Android, iPhone, comparativas, novedades y dudas. Para elegir, exprimir o reparar tu smartphone. Entra y pregunta.",
+    about: "¿Buscas qué móvil comprar y no te aclaras? Aquí se comparan modelos de Android e iPhone, se debate el eterno pique entre ambos bandos y se ayuda a elegir según presupuesto y necesidades. Se habla de cámaras, batería, procesadores, actualizaciones y de si merece la pena cambiar de móvil cada año. Se resuelven dudas técnicas, problemas de configuración y trucos para exprimir el smartphone al máximo. Conviven tecnófilos que lo prueban todo, gente práctica que solo quiere algo que funcione y quienes buscan reparar el suyo antes de tirarlo. Se comentan novedades, lanzamientos y ofertas. Un espacio para acertar con la compra, sacar más partido a tu teléfono y no dejarse engañar por el marketing de turno.",
   },
   {
     slug: "gadgets", name: "Gadgets", kind: "tematica", icon: "🎛️",
@@ -739,8 +739,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "tecnologia", parentName: "Tecnología",
     channels: ["tecnologia", "ocio"],
     related: ["tecnologia", "moviles", "ia", "videojuegos", "coleccionismo"],
-    intro: "Chat de gadgets y tecnología: wearables, domótica, drones y cacharros nuevos. Para los enamorados de la tecnología. Gratis y sin registro.",
-    about: "La sala de los que se emocionan con cada cacharro nuevo. Aquí se habla de gadgets de todo tipo: relojes y pulseras inteligentes, auriculares, domótica para el hogar, drones, consolas portátiles y todo invento que prometa hacernos la vida más fácil o más divertida. Se comentan novedades, se comparten opiniones tras probarlos y se avisa de ofertas y chollos tecnológicos. Se debate sobre cuáles valen de verdad y cuáles son humo caro. Conviven early adopters que lo compran todo, manitas que trastean con la domótica y curiosos que quieren montarse una casa inteligente sin arruinarse. Un espacio para descubrir cacharros, resolver dudas antes de comprar y compartir la pasión por la tecnología que no para de sorprender.",
+    intro: "Chat de gadgets y tecnología: wearables, domótica, drones y cacharros nuevos. Para los enamorados de la tecnología. Sin registro.",
+    about: "¿Te emocionas con cada cacharro nuevo que sale? Aquí no eres raro. Se habla de gadgets de todo tipo: relojes y pulseras inteligentes, auriculares, domótica para el hogar, drones, consolas portátiles y todo invento que prometa hacernos la vida más fácil o más divertida. Se comentan novedades, se comparten opiniones tras probarlos y se avisa de ofertas y chollos tecnológicos. Se debate sobre cuáles valen de verdad y cuáles son humo caro. Conviven early adopters que lo compran todo, manitas que trastean con la domótica y curiosos que quieren montarse una casa inteligente sin arruinarse. Un espacio para descubrir cacharros, resolver dudas antes de comprar y compartir la pasión por la tecnología que no para de sorprender.",
   },
   {
     slug: "ciberseguridad", name: "Ciberseguridad", kind: "tematica", icon: "🔐",
@@ -749,7 +749,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["tecnologia", "ocio"],
     related: ["tecnologia", "programacion", "ia", "moviles", "gadgets"],
     intro: "Chat de ciberseguridad: privacidad, hacking ético, estafas online y cómo protegerte en internet. Para curiosos y profesionales. Sin registro.",
-    about: "El rincón de los que se toman en serio la seguridad en internet. Aquí se habla de proteger contraseñas, de la verificación en dos pasos, de VPN, de privacidad de datos y de cómo no caer en las estafas de phishing que cada vez son más sofisticadas. Se comenta el hacking ético, las noticias de filtraciones y brechas, y cómo defenderse del malware y el ransomware. Conviven profesionales del sector, estudiantes de informática y usuarios normales que solo quieren navegar más seguros. Se desmontan mitos, se dan consejos prácticos para el día a día y se avisa de las últimas amenazas y timos que circulan. Un espacio para tomar conciencia, proteger tu vida digital y entender que la mejor defensa siempre empieza por uno mismo.",
+    about: "Tomarse en serio la seguridad en internet empieza por uno mismo, y aquí se aprende cómo. Se habla de proteger contraseñas, de la verificación en dos pasos, de VPN, de privacidad de datos y de cómo no caer en las estafas de phishing que cada vez son más sofisticadas. Se comenta el hacking ético, las noticias de filtraciones y brechas, y cómo defenderse del malware y el ransomware. Conviven profesionales del sector, estudiantes de informática y usuarios normales que solo quieren navegar más seguros. Se desmontan mitos, se dan consejos prácticos para el día a día y se avisa de las últimas amenazas y timos que circulan. Un espacio para tomar conciencia, proteger tu vida digital y entender que la mejor defensa siempre empieza por uno mismo.",
   },
 
   // ───────────────────────── Deportes ─────────────────────────
@@ -759,8 +759,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "futbol", parentName: "Fútbol",
     channels: ["laliga", "futbol", "ocio"],
     related: ["futbol", "deportes", "real-madrid", "fc-barcelona", "champions"],
-    intro: "Chat de LaLiga: jornada a jornada, clasificación, fichajes y polémicas arbitrales. El fútbol español a debate. Gratis y sin registro.",
-    about: "La sala para los que no se pierden una jornada de LaLiga. Aquí se analiza cada partido, se discute la clasificación, se sufre con el VAR y se debaten los fichajes que mueven el mercado. Real Madrid, Barça, Atlético, pero también Athletic, Betis, Sevilla, Villarreal y los equipos que pelean por no bajar: aquí todos tienen su hinchada. Se habla de canteranos que apuntan maneras, entrenadores en la cuerda floja y esos goles que se recuerdan toda la temporada. Conviven aficionados de todos los equipos dispuestos a picarse con respeto y mucho conocimiento. Un espacio para vivir la liga española con la pasión de quien la sigue de verdad cada fin de semana.",
+    intro: "Chat de LaLiga: jornada a jornada, clasificación, fichajes y polémicas arbitrales. El fútbol español a debate. Entra y pícate.",
+    about: "¿No te pierdes una jornada de LaLiga? Aquí se analiza cada partido, se discute la clasificación, se sufre con el VAR y se debaten los fichajes que mueven el mercado. Real Madrid, Barça, Atlético, pero también Athletic, Betis, Sevilla, Villarreal y los equipos que pelean por no bajar: aquí todos tienen su hinchada. Se habla de canteranos que apuntan maneras, entrenadores en la cuerda floja y esos goles que se recuerdan toda la temporada. Conviven aficionados de todos los equipos dispuestos a picarse con respeto y mucho conocimiento. Un espacio para vivir la liga española con la pasión de quien la sigue de verdad cada fin de semana.",
   },
   {
     slug: "champions", name: "Champions League", kind: "tematica", icon: "⭐",
@@ -768,8 +768,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "futbol", parentName: "Fútbol",
     channels: ["champions", "futbol", "ocio"],
     related: ["futbol", "deportes", "laliga", "real-madrid", "fc-barcelona"],
-    intro: "Chat de Champions League: noches europeas, octavos, semis y la gran final. La élite del fútbol a debate. Gratis y sin registro.",
-    about: "El templo de las noches mágicas de Champions. Aquí se viven los partidos de Liga de Campeones como auténticas finales: las remontadas imposibles, los penaltis que paran el corazón y los himnos que ponen la piel de gallina. Se analizan los cruces, se hacen quinielas de quién levantará la Orejona y se debate qué equipo llega mejor a la fase decisiva. Madrid, City, Bayern, PSG, Inter y las sorpresas de turno reparten emoción cada semana. Conviven aficionados de toda Europa y Latinoamérica que siguen la máxima competición de clubes. Un espacio para disfrutar del mejor fútbol del continente y picarse con la sana rivalidad de quien sueña con la final.",
+    intro: "Chat de Champions League: noches europeas, octavos, semis y la gran final. La élite del fútbol a debate. Sin registro.",
+    about: "Bienvenido al templo de las noches mágicas de Champions, donde cada partido se vive como una final: las remontadas imposibles, los penaltis que paran el corazón y los himnos que ponen la piel de gallina. Se analizan los cruces, se hacen quinielas de quién levantará la Orejona y se debate qué equipo llega mejor a la fase decisiva. Madrid, City, Bayern, PSG, Inter y las sorpresas de turno reparten emoción cada semana. Conviven aficionados de toda Europa y Latinoamérica que siguen la máxima competición de clubes. Un espacio para disfrutar del mejor fútbol del continente y picarse con la sana rivalidad de quien sueña con la final.",
   },
   {
     slug: "mundial2026", name: "Mundial 2026", kind: "tematica", icon: "🌎",
@@ -777,8 +777,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "futbol", parentName: "Fútbol",
     channels: ["mundial2026", "futbol", "ocio"],
     related: ["futbol", "deportes", "seleccionargentina", "seleccionespanola", "champions"],
-    intro: "Chat del Mundial 2026: el torneo de EE. UU., México y Canadá. Selecciones, grupos, favoritas y la ilusión mundialista. Sin registro.",
-    about: "La sala para vivir la cuenta atrás hacia el Mundial 2026, el primero con cuarenta y ocho selecciones y sede compartida entre Estados Unidos, México y Canadá. Aquí se habla de las clasificaciones, de las favoritas, de las jóvenes promesas que llegarán consagradas y de las viejas glorias que buscan su última oportunidad. Se debaten grupos, calendarios y esas sorpresas que todo Mundial regala. Conviven hinchas de todas las selecciones, los que sueñan con la gloria y los que ya preparan la peña para ver los partidos. Se recuerdan mundiales pasados y se fantasea con el próximo campeón. Un espacio para encender la ilusión mundialista mucho antes de que ruede el balón.",
+    intro: "Chat del Mundial 2026: el torneo de EE. UU., México y Canadá. Selecciones, grupos, favoritas y la ilusión mundialista. Entra y enciende la ilusión.",
+    about: "Empieza la cuenta atrás hacia el Mundial 2026, el primero con cuarenta y ocho selecciones y sede compartida entre Estados Unidos, México y Canadá. Se habla de las clasificaciones, de las favoritas, de las jóvenes promesas que llegarán consagradas y de las viejas glorias que buscan su última oportunidad. Se debaten grupos, calendarios y esas sorpresas que todo Mundial regala. Conviven hinchas de todas las selecciones, los que sueñan con la gloria y los que ya preparan la peña para ver los partidos. Se recuerdan mundiales pasados y se fantasea con el próximo campeón. Un espacio para encender la ilusión mundialista mucho antes de que ruede el balón.",
   },
   {
     slug: "seleccionargentina", name: "Selección Argentina", kind: "tematica", icon: "🇦🇷",
@@ -786,8 +786,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "futbol", parentName: "Fútbol",
     channels: ["seleccionargentina", "futbol", "ocio"],
     related: ["futbol", "deportes", "boca-juniors", "river-plate", "mundial2026"],
-    intro: "Chat de la Selección Argentina: la Scaloneta, Messi, la Copa América y el aguante albiceleste. Vamos Argentina, sin registro.",
-    about: "El búnker de la hinchada albiceleste. Aquí se revive la gloria de Qatar 2022, se canta el muchachos como si fuera ayer y se banca a la Scaloneta partido a partido. Se habla de Messi y su legado eterno, de Dibu Martínez bajo los palos, de los pibes que se suman al recambio y de cada Copa América y eliminatoria sudamericana. Se discute la lista, las tácticas de Scaloni y los rivales de turno con esa pasión que solo tiene el hincha argentino. Conviven fanáticos de todas las provincias y argentinos por el mundo que sienten la celeste y blanca a flor de piel. Un espacio para gritar cada gol y vivir la selección con el aguante que nunca se negocia.",
+    intro: "Chat de la Selección Argentina: la Scaloneta, Messi, la Copa América y el aguante albiceleste. Vamos Argentina, entrá y gritá.",
+    about: "Bienvenido al búnker de la hinchada albiceleste, donde se revive la gloria de Qatar 2022, se canta el muchachos como si fuera ayer y se banca a la Scaloneta partido a partido. Se habla de Messi y su legado eterno, de Dibu Martínez bajo los palos, de los pibes que se suman al recambio y de cada Copa América y eliminatoria sudamericana. Se discute la lista, las tácticas de Scaloni y los rivales de turno con esa pasión que solo tiene el hincha argentino. Conviven fanáticos de todas las provincias y argentinos por el mundo que sienten la celeste y blanca a flor de piel. Un espacio para gritar cada gol y vivir la selección con el aguante que nunca se negocia.",
   },
   {
     slug: "seleccionespanola", name: "Selección Española", kind: "tematica", icon: "🇪🇸",
@@ -795,8 +795,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "futbol", parentName: "Fútbol",
     channels: ["seleccionespanola", "futbol", "ocio"],
     related: ["futbol", "deportes", "laliga", "real-madrid", "mundial2026"],
-    intro: "Chat de la Selección Española: La Roja, la Eurocopa, la Nations League y el nuevo talento. Vamos España, gratis y sin registro.",
-    about: "La sala de los que sienten a La Roja. Aquí se vive cada convocatoria, se debate la lista, se analizan los partidos de la Eurocopa, la Nations League y la clasificación mundialista. Se habla del tiki-taka renovado, de la generación de Lamine Yamal, Pedri y Nico Williams que ilusiona como pocas, y se recuerdan las gestas de 2010 y 2012. Se discute al seleccionador, las alineaciones y los rivales con conocimiento y pasión. Conviven aficionados de toda España, dejando a un lado los colores de club para apoyar a la selección. Un espacio para vivir los grandes torneos en comunidad, sufrir los penaltis juntos y celebrar cada victoria de La Roja como se merece.",
+    intro: "Chat de la Selección Española: La Roja, la Eurocopa, la Nations League y el nuevo talento. Vamos España, entra y anima.",
+    about: "Si sientes a La Roja, aquí se vive cada convocatoria, se debate la lista, se analizan los partidos de la Eurocopa, la Nations League y la clasificación mundialista. Se habla del tiki-taka renovado, de la generación de Lamine Yamal, Pedri y Nico Williams que ilusiona como pocas, y se recuerdan las gestas de 2010 y 2012. Se discute al seleccionador, las alineaciones y los rivales con conocimiento y pasión. Conviven aficionados de toda España, dejando a un lado los colores de club para apoyar a la selección. Un espacio para vivir los grandes torneos en comunidad, sufrir los penaltis juntos y celebrar cada victoria de La Roja como se merece.",
   },
   {
     slug: "nba", name: "NBA", kind: "tematica", icon: "🏀",
@@ -804,8 +804,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "deportes", parentName: "Deportes",
     channels: ["nba", "deportes", "ocio"],
     related: ["deportes", "tenis", "formula-1", "futbol", "ufc"],
-    intro: "Chat de la NBA: playoffs, traspasos, MVP y la mejor liga de baloncesto del mundo. Para fans del basket. Gratis y sin registro.",
-    about: "La cancha virtual de los amantes de la NBA. Aquí se trasnocha siguiendo los partidos, se analizan los playoffs y las Finales, y se debate quién merece el MVP esta temporada. Se habla de traspasos, del draft, de las dinastías y de los duelos de estrellas que marcan época. LeBron, Curry, Jokic, Luka y las jóvenes promesas reparten highlights cada noche. Se discuten estadísticas, sistemas de juego y el eterno debate de quién es el GOAT, con Jordan y LeBron siempre de por medio. Conviven seguidores de todas las franquicias, fanáticos del fantasy y gente que descubrió el basket hace poco. Un espacio para vivir la mejor liga del mundo y picarse sobre el mejor baloncesto del planeta.",
+    intro: "Chat de la NBA: playoffs, traspasos, MVP y la mejor liga de baloncesto del mundo. Para fans del basket. Sin registro.",
+    about: "Bienvenido a la cancha virtual de los amantes de la NBA, donde se trasnocha siguiendo los partidos, se analizan los playoffs y las Finales, y se debate quién merece el MVP esta temporada. Se habla de traspasos, del draft, de las dinastías y de los duelos de estrellas que marcan época. LeBron, Curry, Jokic, Luka y las jóvenes promesas reparten highlights cada noche. Se discuten estadísticas, sistemas de juego y el eterno debate de quién es el GOAT, con Jordan y LeBron siempre de por medio. Conviven seguidores de todas las franquicias, fanáticos del fantasy y gente que descubrió el basket hace poco. Un espacio para vivir la mejor liga del mundo y picarse sobre el mejor baloncesto del planeta.",
   },
   {
     slug: "tenis", name: "Tenis", kind: "tematica", icon: "🎾",
@@ -813,8 +813,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "deportes", parentName: "Deportes",
     channels: ["tenis", "deportes", "ocio"],
     related: ["deportes", "nba", "formula-1", "futbol", "boxeo"],
-    intro: "Chat de tenis: Grand Slams, ranking ATP y WTA, Alcaraz, Sinner y los clásicos. Para amantes de la raqueta. Sin registro.",
-    about: "La pista central de los aficionados al tenis. Aquí se siguen los cuatro Grand Slams —Australia, Roland Garros, Wimbledon y el US Open—, se comenta el ranking ATP y WTA y se vibra con cada final a cinco sets. Se habla de la nueva era de Alcaraz y Sinner, del legado de los tres grandes y de las jóvenes raquetas que pisan fuerte. Se debate sobre superficies, estilos de juego y esas remontadas que quitan el aliento. Conviven seguidores del tenis masculino y femenino, jugadores aficionados y gente que solo se engancha en los grandes torneos. Se analizan saques, derechas y la guerra mental que define los partidos. Un espacio para disfrutar de un deporte de élite golpe a golpe.",
+    intro: "Chat de tenis: Grand Slams, ranking ATP y WTA, Alcaraz, Sinner y los clásicos. Para amantes de la raqueta. Entra a la pista.",
+    about: "Bienvenido a la pista central de los aficionados al tenis, donde se siguen los cuatro Grand Slams —Australia, Roland Garros, Wimbledon y el US Open—, se comenta el ranking ATP y WTA y se vibra con cada final a cinco sets. Se habla de la nueva era de Alcaraz y Sinner, del legado de los tres grandes y de las jóvenes raquetas que pisan fuerte. Se debate sobre superficies, estilos de juego y esas remontadas que quitan el aliento. Conviven seguidores del tenis masculino y femenino, jugadores aficionados y gente que solo se engancha en los grandes torneos. Se analizan saques, derechas y la guerra mental que define los partidos. Un espacio para disfrutar de un deporte de élite golpe a golpe.",
   },
   {
     slug: "boxeo", name: "Boxeo", kind: "tematica", icon: "🥊",
@@ -822,8 +822,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "deportes", parentName: "Deportes",
     channels: ["boxeo", "deportes", "ocio"],
     related: ["deportes", "ufc", "nba", "tenis", "futbol"],
-    intro: "Chat de boxeo: combates, pesos, títulos y la nobleza del ring. Del jab al KO, el boxeo a debate. Gratis y sin registro.",
-    about: "El rincón de los que aman la nobleza del ring. Aquí se comentan los grandes combates, los títulos mundiales, las distintas categorías de peso y esas veladas que se hacen esperar durante meses. Se habla de técnica —el jab, el juego de piernas, la defensa— y de la épica de los KO que pasan a la historia. Se recuerdan las leyendas, de Alí a Tyson, y se sigue a los púgiles actuales que mantienen vivo el deporte. Se debate sobre el negocio, las polémicas de las decisiones y el auge del boxeo de influencers. Conviven aficionados de toda la vida, practicantes y curiosos que se enganchan a las grandes peleas. Un espacio para disfrutar del deporte más exigente y respetar a quien se sube al cuadrilátero.",
+    intro: "Chat de boxeo: combates, pesos, títulos y la nobleza del ring. Del jab al KO, el boxeo a debate. Sin registro.",
+    about: "Si amas la nobleza del ring, aquí se comentan los grandes combates, los títulos mundiales, las distintas categorías de peso y esas veladas que se hacen esperar durante meses. Se habla de técnica —el jab, el juego de piernas, la defensa— y de la épica de los KO que pasan a la historia. Se recuerdan las leyendas, de Alí a Tyson, y se sigue a los púgiles actuales que mantienen vivo el deporte. Se debate sobre el negocio, las polémicas de las decisiones y el auge del boxeo de influencers. Conviven aficionados de toda la vida, practicantes y curiosos que se enganchan a las grandes peleas. Un espacio para disfrutar del deporte más exigente y respetar a quien se sube al cuadrilátero.",
   },
   {
     slug: "ufc", name: "UFC y MMA", kind: "tematica", icon: "🥋",
@@ -831,8 +831,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "deportes", parentName: "Deportes",
     channels: ["ufc", "deportes", "ocio"],
     related: ["deportes", "boxeo", "nba", "tenis", "futbol"],
-    intro: "Chat de UFC y MMA: carteleras, octágono, sumisiones y KO. Las artes marciales mixtas a debate. Para fans del MMA, sin registro.",
-    about: "El octágono virtual de los fanáticos de las artes marciales mixtas. Aquí se analizan las carteleras de UFC, los main events y esos combates que tienen a todos pegados a la pantalla de madrugada. Se habla de las distintas disciplinas que se mezclan —jiu-jitsu, muay thai, lucha, boxeo—, de las sumisiones espectaculares y de los KO que se vuelven virales. Se debate sobre los campeones de cada categoría, los rankings y las rivalidades que venden cada evento. Conviven seguidores veteranos, practicantes de grappling y striking y curiosos enganchados a las peleas. Se recuerdan los combates históricos y se discute quién es el mejor libra por libra. Un espacio para vivir el MMA con la intensidad que merece el deporte de moda.",
+    intro: "Chat de UFC y MMA: carteleras, octágono, sumisiones y KO. Las artes marciales mixtas a debate. Para fans del MMA, entra ya.",
+    about: "Bienvenido al octágono virtual de los fanáticos de las artes marciales mixtas, donde se analizan las carteleras de UFC, los main events y esos combates que tienen a todos pegados a la pantalla de madrugada. Se habla de las distintas disciplinas que se mezclan —jiu-jitsu, muay thai, lucha, boxeo—, de las sumisiones espectaculares y de los KO que se vuelven virales. Se debate sobre los campeones de cada categoría, los rankings y las rivalidades que venden cada evento. Conviven seguidores veteranos, practicantes de grappling y striking y curiosos enganchados a las peleas. Se recuerdan los combates históricos y se discute quién es el mejor libra por libra. Un espacio para vivir el MMA con la intensidad que merece el deporte de moda.",
   },
 
   // ───────────────────────── Política ─────────────────────────
@@ -843,7 +843,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["politica", "ocio"],
     related: ["politica", "debate", "debatepolitico", "actualidad", "noticias"],
     intro: "Chat de política española: gobierno, oposición, elecciones y actualidad. Debate con argumentos sobre lo que pasa en España. Sin registro.",
-    about: "La sala para debatir la actualidad política de España con más argumentos y menos ruido que en las redes. Aquí se habla del gobierno y la oposición, de las leyes que se aprueban, de la economía, la vivienda, la sanidad y todos los temas que afectan al día a día. Se comentan las elecciones, las encuestas y los movimientos de cada partido, de la izquierda a la derecha, sin censurar ninguna postura. La norma es discrepar sin insultar, aunque la sangre a veces hierva. Conviven votantes de todos los colores, indecisos y gente harta de la clase política. Un espacio para confrontar ideas sobre el rumbo del país, informarse desde varios ángulos y entender posturas distintas a la propia.",
+    about: "Más argumentos y menos ruido que en las redes: así se debate aquí la actualidad política de España. Se habla del gobierno y la oposición, de las leyes que se aprueban, de la economía, la vivienda, la sanidad y todos los temas que afectan al día a día. Se comentan las elecciones, las encuestas y los movimientos de cada partido, de la izquierda a la derecha, sin censurar ninguna postura. La norma es discrepar sin insultar, aunque la sangre a veces hierva. Conviven votantes de todos los colores, indecisos y gente harta de la clase política. Un espacio para confrontar ideas sobre el rumbo del país, informarse desde varios ángulos y entender posturas distintas a la propia.",
   },
   {
     slug: "politicalatam", name: "Política Latinoamérica", kind: "tematica", icon: "🌎",
@@ -851,8 +851,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "politica", parentName: "Política",
     channels: ["politica", "ocio"],
     related: ["politica", "debate", "debatepolitico", "actualidad", "latinoamerica"],
-    intro: "Chat de política latinoamericana: gobiernos, elecciones y actualidad de toda la región. Debate continental con respeto. Sin registro.",
-    about: "El foro para hablar de la actualidad política de Latinoamérica con mirada de continente. Aquí se debaten los gobiernos y las elecciones de México, Argentina, Colombia, Chile, Venezuela, Perú y toda la región, con la perspectiva de quien los vive de cerca. Se habla de economía, migración, corrupción, seguridad y de los giros entre izquierda y derecha que sacuden cada país. Se comparten visiones que los medios locales no siempre dan y se aprende cómo se ve la política a un par de fronteras de distancia. Conviven gente de todos los países y de todas las ideologías dispuesta a confrontar ideas con respeto. Un espacio para entender la región en su conjunto y debatir su presente y su futuro sin descalificaciones.",
+    intro: "Chat de política latinoamericana: gobiernos, elecciones y actualidad de toda la región. Debate continental con respeto. Entra y debate.",
+    about: "Aquí la actualidad política de Latinoamérica se mira con perspectiva de continente. Se debaten los gobiernos y las elecciones de México, Argentina, Colombia, Chile, Venezuela, Perú y toda la región, con la perspectiva de quien los vive de cerca. Se habla de economía, migración, corrupción, seguridad y de los giros entre izquierda y derecha que sacuden cada país. Se comparten visiones que los medios locales no siempre dan y se aprende cómo se ve la política a un par de fronteras de distancia. Conviven gente de todos los países y de todas las ideologías dispuesta a confrontar ideas con respeto. Un espacio para entender la región en su conjunto y debatir su presente y su futuro sin descalificaciones.",
   },
   {
     slug: "debatepolitico", name: "Debate Político", kind: "tematica", icon: "🗣️",
@@ -861,7 +861,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["politica", "ocio"],
     related: ["politica", "debate", "politicaespana", "politicalatam", "opinion"],
     intro: "Chat de debate político: ideologías, modelos económicos y grandes temas enfrentados con argumentos. Discrepar sin insultar. Sin registro.",
-    about: "El sitio para los que disfrutan poniendo la política sobre la mesa y defendiéndola con argumentos. Aquí se debaten ideologías —liberalismo, socialismo, conservadurismo, anarquismo—, modelos económicos, el papel del Estado y los grandes temas que dividen a la sociedad. No se trata de la actualidad de un solo país, sino de las ideas de fondo que la sustentan. La norma es clara: se discute con datos y razones, no con descalificaciones, y se viene a entender al de enfrente tanto como a defender lo propio. Conviven gente muy formada y quienes solo quieren aprender escuchando. De esa mezcla salen conversaciones largas que obligan a matizar lo que uno daba por seguro. Entra con ideas, mente abierta y ganas de pensar.",
+    about: "¿Disfrutas poniendo la política sobre la mesa y defendiéndola con argumentos? Este es tu sitio. Se debaten ideologías —liberalismo, socialismo, conservadurismo, anarquismo—, modelos económicos, el papel del Estado y los grandes temas que dividen a la sociedad. No se trata de la actualidad de un solo país, sino de las ideas de fondo que la sustentan. La norma es clara: se discute con datos y razones, no con descalificaciones, y se viene a entender al de enfrente tanto como a defender lo propio. Conviven gente muy formada y quienes solo quieren aprender escuchando. De esa mezcla salen conversaciones largas que obligan a matizar lo que uno daba por seguro. Entra con ideas, mente abierta y ganas de pensar.",
   },
   {
     slug: "actualidad", name: "Actualidad", kind: "tematica", icon: "📰",
@@ -869,8 +869,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "politica", parentName: "Política",
     channels: ["politica", "ocio"],
     related: ["politica", "noticias", "opinion", "debate", "tertulia"],
-    intro: "Chat de actualidad: lo que pasa hoy en el mundo, noticias del momento y temas que dan que hablar. Comenta la jornada, sin registro.",
-    about: "La sala para comentar lo que pasa hoy mismo, en caliente. Aquí se habla de las noticias del momento: política, economía, sucesos, ciencia, cultura y esos temas virales que de repente están en boca de todos. Se contrastan fuentes, se separa la información del bulo y se debate sobre lo que de verdad importa frente al ruido mediático. Conviven gente muy informada, curiosos que quieren entender el porqué de las cosas y otros que solo vienen a comentar el titular del día. El tono es de debate sano, sin caer en la bronca constante. Un espacio para estar al día, entender el mundo desde varios puntos de vista y tener con quién comentar esa noticia que no te puedes creer.",
+    intro: "Chat de actualidad: lo que pasa hoy en el mundo, noticias del momento y temas que dan que hablar. Comenta la jornada, entra ya.",
+    about: "Comentar lo que pasa hoy mismo, en caliente: a eso se viene aquí. Se habla de las noticias del momento: política, economía, sucesos, ciencia, cultura y esos temas virales que de repente están en boca de todos. Se contrastan fuentes, se separa la información del bulo y se debate sobre lo que de verdad importa frente al ruido mediático. Conviven gente muy informada, curiosos que quieren entender el porqué de las cosas y otros que solo vienen a comentar el titular del día. El tono es de debate sano, sin caer en la bronca constante. Un espacio para estar al día, entender el mundo desde varios puntos de vista y tener con quién comentar esa noticia que no te puedes creer.",
   },
   {
     slug: "noticias", name: "Noticias", kind: "tematica", icon: "🗞️",
@@ -878,8 +878,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "politica", parentName: "Política",
     channels: ["politica", "ocio"],
     related: ["politica", "actualidad", "opinion", "tertulia", "debate"],
-    intro: "Chat de noticias: titulares, última hora y análisis de lo que ocurre en España y el mundo. Mantente informado, gratis y sin registro.",
-    about: "El rincón de los enganchados a la información. Aquí se comparten titulares de última hora, se comentan los grandes temas del día y se analiza lo que hay detrás de cada noticia, más allá del clickbait. Se habla de lo nacional y lo internacional, de economía, conflictos, ciencia y sociedad, contrastando medios y desmontando bulos que circulan por las redes. Conviven lectores de prensa de toda la vida, seguidores de la información digital y gente que quiere entender el mundo sin tragarse cualquier cosa. Se debate con respeto sobre cómo se cuentan las cosas según quién las cuente. Un espacio para mantenerse informado, compartir lo que ocurre y comentarlo con gente que también está al tanto de la actualidad.",
+    intro: "Chat de noticias: titulares, última hora y análisis de lo que ocurre en España y el mundo. Mantente informado, entra ya.",
+    about: "Para los enganchados a la información: aquí se comparten titulares de última hora, se comentan los grandes temas del día y se analiza lo que hay detrás de cada noticia, más allá del clickbait. Se habla de lo nacional y lo internacional, de economía, conflictos, ciencia y sociedad, contrastando medios y desmontando bulos que circulan por las redes. Conviven lectores de prensa de toda la vida, seguidores de la información digital y gente que quiere entender el mundo sin tragarse cualquier cosa. Se debate con respeto sobre cómo se cuentan las cosas según quién las cuente. Un espacio para mantenerse informado, compartir lo que ocurre y comentarlo con gente que también está al tanto de la actualidad.",
   },
   {
     slug: "opinion", name: "Opinión", kind: "tematica", icon: "💭",
@@ -887,8 +887,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "politica", parentName: "Política",
     channels: ["politica", "ocio"],
     related: ["politica", "debate", "actualidad", "tertulia", "debatepolitico"],
-    intro: "Chat de opinión: argumenta, escucha y debate los temas que importan. Tu punto de vista cuenta, con respeto. Gratis y sin registro.",
-    about: "La sala para los que tienen algo que decir y ganas de escuchar. Aquí se comparten opiniones sobre los temas que mueven a la sociedad: política, valores, polémicas del momento, dilemas que admiten más de una postura. No se trata de tener razón a toda costa, sino de exponer tu punto de vista, contrastarlo y, si hace falta, cambiarlo. Se debate sobre actualidad, ética y esas cuestiones donde cada uno mira desde su experiencia. Conviven gente de ideas muy distintas dispuesta a confrontar con respeto y argumentos. Un espacio para ordenar lo que piensas al ponerlo en palabras, descubrir enfoques que no habías considerado y comprobar que escuchar al que opina distinto también enriquece. Entra y suelta tu opinión.",
+    intro: "Chat de opinión: argumenta, escucha y debate los temas que importan. Tu punto de vista cuenta, con respeto. Suelta tu opinión.",
+    about: "¿Tienes algo que decir y ganas de escuchar? Aquí se comparten opiniones sobre los temas que mueven a la sociedad: política, valores, polémicas del momento, dilemas que admiten más de una postura. No se trata de tener razón a toda costa, sino de exponer tu punto de vista, contrastarlo y, si hace falta, cambiarlo. Se debate sobre actualidad, ética y esas cuestiones donde cada uno mira desde su experiencia. Conviven gente de ideas muy distintas dispuesta a confrontar con respeto y argumentos. Un espacio para ordenar lo que piensas al ponerlo en palabras, descubrir enfoques que no habías considerado y comprobar que escuchar al que opina distinto también enriquece. Entra y suelta tu opinión.",
   },
   {
     slug: "tertulia", name: "Tertulia", kind: "tematica", icon: "☕",
@@ -897,7 +897,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["politica", "ocio"],
     related: ["politica", "actualidad", "noticias", "opinion", "debate"],
     intro: "Chat de tertulia: charla distendida sobre actualidad, sociedad y todo lo que surja. Como la radio de toda la vida. Sin registro.",
-    about: "El café de media tarde hecho chat. Aquí se monta la tertulia de toda la vida: se charla de actualidad, de sociedad, de esas cosas que dan para rato sin necesidad de ponerse serios. El tono es distendido, como las tertulias de la radio o la sobremesa con los de siempre, donde se salta de un tema a otro con naturalidad. Se comentan noticias, se cuentan anécdotas, se opina sin acaloramientos y se respeta al que piensa distinto. Conviven habituales que vuelven cada día y caras nuevas que se suman a la conversación. No hace falta ser experto en nada: basta con ganas de charlar y aportar. Un espacio cálido para sentirse parte de una conversación que nunca se acaba del todo.",
+    about: "Imagina el café de media tarde hecho chat: aquí se monta la tertulia de toda la vida, se charla de actualidad, de sociedad, de esas cosas que dan para rato sin necesidad de ponerse serios. El tono es distendido, como las tertulias de la radio o la sobremesa con los de siempre, donde se salta de un tema a otro con naturalidad. Se comentan noticias, se cuentan anécdotas, se opina sin acaloramientos y se respeta al que piensa distinto. Conviven habituales que vuelven cada día y caras nuevas que se suman a la conversación. No hace falta ser experto en nada: basta con ganas de charlar y aportar. Un espacio cálido para sentirse parte de una conversación que nunca se acaba del todo.",
   },
 
   // ───────────────────────── Música ─────────────────────────
@@ -907,8 +907,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "musica", parentName: "Música",
     channels: ["musica", "ocio"],
     related: ["musica", "pop", "kpop", "latinos", "electronica"],
-    intro: "Chat de reggaetón: perreo, lo último de Bad Bunny, los clásicos y la movida urbana. Sube el volumen, gratis y sin registro.",
-    about: "La sala donde no para de sonar el perreo. Aquí se habla del reggaetón de ayer y de hoy: de los clásicos de Daddy Yankee y Wisin & Yandel a lo último de Bad Bunny, Karol G, Feid y la nueva ola urbana. Se comparten lanzamientos, se debaten los temazos del verano y se discute si el género antiguo era mejor o el actual lo ha superado. Se habla de conciertos, de colaboraciones inesperadas y de las letras que medio mundo se sabe de memoria. Conviven fans de la vieja escuela, seguidores del trap y gente que solo quiere bailar. Se recomiendan playlists para la fiesta y se pican sobre cuál es el mejor artista del momento. Un espacio para los que llevan el ritmo latino en el cuerpo.",
+    intro: "Chat de reggaetón: perreo, lo último de Bad Bunny, los clásicos y la movida urbana. Sube el volumen y entra.",
+    about: "Aquí no para de sonar el perreo, del de ayer al de hoy: de los clásicos de Daddy Yankee y Wisin & Yandel a lo último de Bad Bunny, Karol G, Feid y la nueva ola urbana. Se comparten lanzamientos, se debaten los temazos del verano y se discute si el género antiguo era mejor o el actual lo ha superado. Se habla de conciertos, de colaboraciones inesperadas y de las letras que medio mundo se sabe de memoria. Conviven fans de la vieja escuela, seguidores del trap y gente que solo quiere bailar. Se recomiendan playlists para la fiesta y se pican sobre cuál es el mejor artista del momento. Un espacio para los que llevan el ritmo latino en el cuerpo.",
   },
   {
     slug: "pop", name: "Pop", kind: "tematica", icon: "🎤",
@@ -917,7 +917,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["musica", "ocio"],
     related: ["musica", "reggaeton", "kpop", "rock", "electronica"],
     intro: "Chat de pop: las divas, los hits del momento, conciertos y nostalgia ochentera. Para los que cantan a todo pulmón. Sin registro.",
-    about: "El rincón de los que se saben todos los estribillos. Aquí se habla de pop en todas sus formas: las grandes divas internacionales, los hits que suenan sin parar, el pop español y la nostalgia de los ochenta y noventa que nunca pasa de moda. Se comentan lanzamientos, giras mundiales, esos discos que marcan una era y las rivalidades de fandoms que dan tanto que hablar. Se comparten playlists, se recuerdan vídeos míticos y se debate quién reina ahora mismo en las listas. Conviven seguidores de las estrellas del momento, nostálgicos de otras décadas y gente que simplemente disfruta de una buena canción pegadiza. Un espacio para cantar a todo pulmón, descubrir música nueva y compartir la pasión por los himnos pop.",
+    about: "¿Te sabes todos los estribillos? Aquí se habla de pop en todas sus formas: las grandes divas internacionales, los hits que suenan sin parar, el pop español y la nostalgia de los ochenta y noventa que nunca pasa de moda. Se comentan lanzamientos, giras mundiales, esos discos que marcan una era y las rivalidades de fandoms que dan tanto que hablar. Se comparten playlists, se recuerdan vídeos míticos y se debate quién reina ahora mismo en las listas. Conviven seguidores de las estrellas del momento, nostálgicos de otras décadas y gente que simplemente disfruta de una buena canción pegadiza. Un espacio para cantar a todo pulmón, descubrir música nueva y compartir la pasión por los himnos pop.",
   },
   {
     slug: "rock", name: "Rock", kind: "tematica", icon: "🎸",
@@ -925,8 +925,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "musica", parentName: "Música",
     channels: ["musica", "ocio"],
     related: ["musica", "pop", "electronica", "flamenco", "coleccionismo"],
-    intro: "Chat de rock: del clásico al metal, riffs, conciertos y bandas eternas. Para los que llevan el rock en las venas. Sin registro.",
-    about: "El templo de los que llevan el rock en las venas. Aquí se habla de todo el espectro: del rock clásico de los Stones, Zeppelin y Queen al punk, el grunge, el metal y el rock español de Extremoduro a Marea. Se debaten los mejores riffs, los discos que cambiaron la historia y esos conciertos que se recuerdan toda la vida. Se comparten descubrimientos de bandas que no salen en la radio, vinilos y festivales imprescindibles. Conviven melómanos veteranos que lo han vivido todo, metaleros, fans del indie y jóvenes que descubren a los clásicos. Se pican sobre cuál es la mejor banda de la historia, debate que nunca tiene ganador. Un espacio para subir el volumen y compartir la pasión por la música con guitarras.",
+    intro: "Chat de rock: del clásico al metal, riffs, conciertos y bandas eternas. Para los que llevan el rock en las venas. Sube el volumen.",
+    about: "Si llevas el rock en las venas, bienvenido al templo: aquí se habla de todo el espectro, del rock clásico de los Stones, Zeppelin y Queen al punk, el grunge, el metal y el rock español de Extremoduro a Marea. Se debaten los mejores riffs, los discos que cambiaron la historia y esos conciertos que se recuerdan toda la vida. Se comparten descubrimientos de bandas que no salen en la radio, vinilos y festivales imprescindibles. Conviven melómanos veteranos que lo han vivido todo, metaleros, fans del indie y jóvenes que descubren a los clásicos. Se pican sobre cuál es la mejor banda de la historia, debate que nunca tiene ganador. Un espacio para subir el volumen y compartir la pasión por la música con guitarras.",
   },
   {
     slug: "electronica", name: "Electrónica", kind: "tematica", icon: "🎧",
@@ -934,8 +934,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "musica", parentName: "Música",
     channels: ["musica", "ocio"],
     related: ["musica", "pop", "rock", "reggaeton", "tecnologia"],
-    intro: "Chat de música electrónica: techno, house, festivales y DJs. Para los que viven la pista de baile. Gratis y sin registro.",
-    about: "La sala que nunca apaga la música. Aquí se habla de electrónica en todos sus estilos: techno, house, trance, drum and bass y todo lo que mueve la pista. Se comentan los DJs y productores del momento, los grandes festivales como Tomorrowland o Sónar, y esos sets que se escuchan en bucle. Se comparten novedades, sellos discográficos y la cultura de club que va mucho más allá de la fiesta. Se debate sobre el directo, el vinilo frente a lo digital y la escena underground frente a lo comercial. Conviven ravers veteranos, productores caseros y gente que descubrió el género hace poco. Un espacio para los que entienden la electrónica como una forma de vida y viven esperando el próximo drop en la pista de baile.",
+    intro: "Chat de música electrónica: techno, house, festivales y DJs. Para los que viven la pista de baile. Entra a la pista.",
+    about: "Aquí nunca se apaga la música: se habla de electrónica en todos sus estilos, techno, house, trance, drum and bass y todo lo que mueve la pista. Se comentan los DJs y productores del momento, los grandes festivales como Tomorrowland o Sónar, y esos sets que se escuchan en bucle. Se comparten novedades, sellos discográficos y la cultura de club que va mucho más allá de la fiesta. Se debate sobre el directo, el vinilo frente a lo digital y la escena underground frente a lo comercial. Conviven ravers veteranos, productores caseros y gente que descubrió el género hace poco. Un espacio para los que entienden la electrónica como una forma de vida y viven esperando el próximo drop en la pista de baile.",
   },
   {
     slug: "flamenco", name: "Flamenco", kind: "tematica", icon: "💃",
@@ -944,7 +944,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["musica", "ocio"],
     related: ["musica", "rock", "pop", "cultura", "espana"],
     intro: "Chat de flamenco: cante, toque, baile y duende. De los clásicos al flamenco fusión. Para amantes del arte jondo. Sin registro.",
-    about: "El rincón del arte jondo y el duende. Aquí se habla de flamenco con respeto y pasión: del cante de Camarón y la Niña de los Peines al toque de Paco de Lucía y Tomatito, pasando por el baile y los distintos palos, de la soleá a las bulerías. Se comentan los tablaos, las peñas, los festivales y el flamenco fusión que tantos seguidores nuevos atrae. Se debate sobre la pureza frente a la evolución, sobre Rosalía y el alcance global del género. Conviven aficionados de toda la vida, artistas, bailaores y curiosos que se acaban de enamorar del compás. Se comparten actuaciones que ponen la piel de gallina y se explica para el que pregunta. Un espacio para celebrar uno de los grandes patrimonios culturales del mundo.",
+    about: "Arte jondo y duende: aquí se habla de flamenco con respeto y pasión, del cante de Camarón y la Niña de los Peines al toque de Paco de Lucía y Tomatito, pasando por el baile y los distintos palos, de la soleá a las bulerías. Se comentan los tablaos, las peñas, los festivales y el flamenco fusión que tantos seguidores nuevos atrae. Se debate sobre la pureza frente a la evolución, sobre Rosalía y el alcance global del género. Conviven aficionados de toda la vida, artistas, bailaores y curiosos que se acaban de enamorar del compás. Se comparten actuaciones que ponen la piel de gallina y se explica para el que pregunta. Un espacio para celebrar uno de los grandes patrimonios culturales del mundo.",
   },
   {
     slug: "kpop", name: "K-pop", kind: "tematica", icon: "🪅",
@@ -952,8 +952,8 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "musica", parentName: "Música",
     channels: ["musica", "ocio"],
     related: ["musica", "pop", "kpopfans", "reggaeton", "anime"],
-    intro: "Chat de K-pop: grupos, comebacks, bailes y fandoms. Del BTS a la última generación. Para los que viven el K-pop. Sin registro.",
-    about: "La sala donde el K-pop manda. Aquí se habla de los grandes grupos y solistas del pop coreano, de los comebacks que paralizan a los fandoms, de las coreografías imposibles y de los conceptos visuales que cuidan hasta el último detalle. Se comparten lanzamientos, se debaten las generaciones de idols y se vibra con los premios y las giras mundiales. Se habla del idioma, de la cultura coreana que arrastra a tanta gente y del trabajo brutal que hay detrás de cada grupo. Conviven fans veteranos de la primera ola, seguidores de la nueva generación y curiosos que cayeron rendidos hace poco. Se organizan votaciones y se defiende al bias con uñas y dientes. Un espacio para vivir la fiebre del K-pop en comunidad.",
+    intro: "Chat de K-pop: grupos, comebacks, bailes y fandoms. Del BTS a la última generación. Para los que viven el K-pop. Entra y vibra.",
+    about: "Aquí el K-pop manda: se habla de los grandes grupos y solistas del pop coreano, de los comebacks que paralizan a los fandoms, de las coreografías imposibles y de los conceptos visuales que cuidan hasta el último detalle. Se comparten lanzamientos, se debaten las generaciones de idols y se vibra con los premios y las giras mundiales. Se habla del idioma, de la cultura coreana que arrastra a tanta gente y del trabajo brutal que hay detrás de cada grupo. Conviven fans veteranos de la primera ola, seguidores de la nueva generación y curiosos que cayeron rendidos hace poco. Se organizan votaciones y se defiende al bias con uñas y dientes. Un espacio para vivir la fiebre del K-pop en comunidad.",
   },
 
   // ───────────────────────── Series y películas ─────────────────────────
@@ -964,7 +964,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cine", "series", "ocio"],
     related: ["cine", "series", "netflix", "marvel", "terror"],
     intro: "Chat de películas: estrenos, clásicos, recomendaciones y debates de cine. Trae palomitas y criterio. Gratis y sin registro.",
-    about: "El cinefórum permanente del chat. Aquí se habla de películas de todo tipo: los estrenos de la cartelera, los clásicos que no envejecen, el cine de autor y los taquillazos que arrasan. Se recomiendan joyas que pasaron sin pena ni gloria, se debaten finales que dividieron a la sala y se discute si el cine de antes era mejor. Se comentan directores, bandas sonoras y esas escenas que se quedan grabadas para siempre. Conviven cinéfilos de criterio, devoradores de blockbusters y gente que solo quiere saber qué ver el sábado. Los spoilers se avisan o se ignoran según el ánimo. Un espacio para descubrir tu próxima peli favorita, defender la tuya con argumentos y compartir la pasión por la gran pantalla.",
+    about: "Bienvenido al cinefórum permanente del chat, donde se habla de películas de todo tipo: los estrenos de la cartelera, los clásicos que no envejecen, el cine de autor y los taquillazos que arrasan. Se recomiendan joyas que pasaron sin pena ni gloria, se debaten finales que dividieron a la sala y se discute si el cine de antes era mejor. Se comentan directores, bandas sonoras y esas escenas que se quedan grabadas para siempre. Conviven cinéfilos de criterio, devoradores de blockbusters y gente que solo quiere saber qué ver el sábado. Los spoilers se avisan o se ignoran según el ánimo. Un espacio para descubrir tu próxima peli favorita, defender la tuya con argumentos y compartir la pasión por la gran pantalla.",
   },
   {
     slug: "netflix", name: "Netflix", kind: "tematica", icon: "📺",
@@ -973,7 +973,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cine", "series", "ocio"],
     related: ["series", "cine", "peliculas", "primevideo", "terror"],
     intro: "Chat de Netflix: estrenos, series que enganchan, documentales y qué ver hoy. Recomendaciones de la plataforma, sin registro.",
-    about: "La sala para los que tienen el dedo siempre encima del mando de Netflix. Aquí se comentan los estrenos de la plataforma, esas series que se ven en una sentada, los documentales que dejan pensando y las películas originales que sorprenden. Se recomienda qué ver según el estado de ánimo, se avisa de las joyas escondidas en el catálogo y se debate por qué cancelan las mejores series demasiado pronto. Se comparten teorías de las que están en boca de todos y se queda para comentarlas al día siguiente. Conviven seriéfilos empedernidos, gente que solo busca algo de fondo y quienes pasan más tiempo eligiendo que viendo. Un espacio para resolver el eterno qué pongo hoy y no perderse lo que todos comentan.",
+    about: "¿Pasas más tiempo eligiendo en Netflix que viendo algo? Aquí se comentan los estrenos de la plataforma, esas series que se ven en una sentada, los documentales que dejan pensando y las películas originales que sorprenden. Se recomienda qué ver según el estado de ánimo, se avisa de las joyas escondidas en el catálogo y se debate por qué cancelan las mejores series demasiado pronto. Se comparten teorías de las que están en boca de todos y se queda para comentarlas al día siguiente. Conviven seriéfilos empedernidos, gente que solo busca algo de fondo y quienes pasan más tiempo eligiendo que viendo. Un espacio para resolver el eterno qué pongo hoy y no perderse lo que todos comentan.",
   },
   {
     slug: "primevideo", name: "Prime Video", kind: "tematica", icon: "🎬",
@@ -982,7 +982,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cine", "series", "ocio"],
     related: ["series", "cine", "netflix", "peliculas", "marvel"],
     intro: "Chat de Prime Video: series, películas y estrenos de la plataforma. Qué merece la pena ver. Recomendaciones, gratis y sin registro.",
-    about: "El rincón de los que exprimen el catálogo de Prime Video. Aquí se comentan sus series originales, los estrenos que dan que hablar, las películas que merecen la pena y esas producciones que pasan desapercibidas entre tanta oferta. Se recomienda qué ver, se avisa de las novedades del mes y se debate cómo se compara con el resto de plataformas. Se habla de las grandes apuestas de la casa, de los documentales y de las joyas que hay que rebuscar para encontrar. Conviven suscriptores que lo ven todo, gente que alterna plataformas y quienes buscan algo concreto que ver esta noche. Un espacio para sacar partido a la suscripción, descubrir títulos que no salen en las portadas y compartir recomendaciones con quien también busca buen contenido.",
+    about: "Para los que exprimen el catálogo de Prime Video: aquí se comentan sus series originales, los estrenos que dan que hablar, las películas que merecen la pena y esas producciones que pasan desapercibidas entre tanta oferta. Se recomienda qué ver, se avisa de las novedades del mes y se debate cómo se compara con el resto de plataformas. Se habla de las grandes apuestas de la casa, de los documentales y de las joyas que hay que rebuscar para encontrar. Conviven suscriptores que lo ven todo, gente que alterna plataformas y quienes buscan algo concreto que ver esta noche. Un espacio para sacar partido a la suscripción, descubrir títulos que no salen en las portadas y compartir recomendaciones con quien también busca buen contenido.",
   },
   {
     slug: "marvel", name: "Marvel", kind: "tematica", icon: "🦸",
@@ -991,7 +991,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cine", "series", "ocio"],
     related: ["cine", "series", "peliculas", "fandoms", "starwars"],
     intro: "Chat de Marvel: el UCM, cómics, estrenos, teorías y multiverso. Para fans de los superhéroes. Excelsior, gratis y sin registro.",
-    about: "El cuartel general de los fans de Marvel. Aquí se habla del Universo Cinematográfico, de las películas y series de Disney+, de los cómics que lo empezaron todo y del lío maravilloso del multiverso. Se debaten las fases, se teoriza sobre lo que viene, se recuerdan los grandes momentos de Vengadores y se discute si Marvel sigue en forma o ha perdido fuelle. Se comparten escenas post-créditos, easter eggs y conexiones que solo pillan los más fans. Conviven lectores de cómics de toda la vida, seguidores del cine de superhéroes y curiosos que llegaron con Iron Man. Se pican sanamente con los fans de la competencia. Un espacio para vivir el universo Marvel a fondo y no perderse ni una referencia.",
+    about: "Bienvenido al cuartel general de los fans de Marvel, donde se habla del Universo Cinematográfico, de las películas y series de Disney+, de los cómics que lo empezaron todo y del lío maravilloso del multiverso. Se debaten las fases, se teoriza sobre lo que viene, se recuerdan los grandes momentos de Vengadores y se discute si Marvel sigue en forma o ha perdido fuelle. Se comparten escenas post-créditos, easter eggs y conexiones que solo pillan los más fans. Conviven lectores de cómics de toda la vida, seguidores del cine de superhéroes y curiosos que llegaron con Iron Man. Se pican sanamente con los fans de la competencia. Un espacio para vivir el universo Marvel a fondo y no perderse ni una referencia.",
   },
   {
     slug: "terror", name: "Terror", kind: "tematica", icon: "👻",
@@ -1000,7 +1000,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["cine", "series", "ocio"],
     related: ["cine", "series", "peliculas", "netflix", "marvel"],
     intro: "Chat de terror: cine de miedo, clásicos, slashers y novedades que quitan el sueño. Para valientes. Apaga la luz, sin registro.",
-    about: "La sala para los que disfrutan pasando miedo. Aquí se habla de cine de terror en todas sus formas: los clásicos que crearon escuela, los slashers ochenteros, el terror psicológico, las casas encantadas y el gore más bestia. Se recomiendan estrenos que de verdad asustan, se debaten los sustos baratos frente al miedo bien construido y se rescatan joyas de serie B que son puro culto. Se habla de directores del género, de sagas eternas y de esas escenas que no dejan dormir. Conviven fans incondicionales que lo han visto todo, valientes que buscan la próxima pesadilla y curiosos que se atreven poco a poco. Un espacio para compartir sustos, recomendar lo más perturbador y demostrar que el miedo, en buena compañía, engancha.",
+    about: "¿Disfrutas pasando miedo? Aquí se habla de cine de terror en todas sus formas: los clásicos que crearon escuela, los slashers ochenteros, el terror psicológico, las casas encantadas y el gore más bestia. Se recomiendan estrenos que de verdad asustan, se debaten los sustos baratos frente al miedo bien construido y se rescatan joyas de serie B que son puro culto. Se habla de directores del género, de sagas eternas y de esas escenas que no dejan dormir. Conviven fans incondicionales que lo han visto todo, valientes que buscan la próxima pesadilla y curiosos que se atreven poco a poco. Un espacio para compartir sustos, recomendar lo más perturbador y demostrar que el miedo, en buena compañía, engancha.",
   },
 
   // ───────────────────────── Gaming ─────────────────────────
@@ -1011,7 +1011,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "valorant", "gta", "minecraft"],
     intro: "Chat de Fortnite: battle royale, skins, temporadas y partidas. Construye, dispara y gana. Busca squad, gratis y sin registro.",
-    about: "La sala de los que aterrizan en la isla cada temporada. Aquí se habla de Fortnite a fondo: las nuevas temporadas, los cambios del mapa, las skins más buscadas y el meta del momento. Se comparten trucos de construcción, estrategias para el círculo final y esos clips de victorias épicas y derrotas humillantes. Se busca squad para no caer solo, se comentan los eventos en directo y las colaboraciones imposibles que se marca el juego. Conviven jugadores competitivos que sueñan con las arenas, casuals que juegan por diversión y veteranos que llevan desde el capítulo uno. Se debate si el juego está mejor o peor que antes. Un espacio para encontrar compañeros, mejorar tu juego y vivir la fiebre del battle royale más famoso.",
+    about: "¿Aterrizas en la isla cada temporada? Aquí se habla de Fortnite a fondo: las nuevas temporadas, los cambios del mapa, las skins más buscadas y el meta del momento. Se comparten trucos de construcción, estrategias para el círculo final y esos clips de victorias épicas y derrotas humillantes. Se busca squad para no caer solo, se comentan los eventos en directo y las colaboraciones imposibles que se marca el juego. Conviven jugadores competitivos que sueñan con las arenas, casuals que juegan por diversión y veteranos que llevan desde el capítulo uno. Se debate si el juego está mejor o peor que antes. Un espacio para encontrar compañeros, mejorar tu juego y vivir la fiebre del battle royale más famoso.",
   },
   {
     slug: "minecraft", name: "Minecraft", kind: "tematica", icon: "⛏️",
@@ -1020,7 +1020,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "roblox", "fortnite", "gta"],
     intro: "Chat de Minecraft: survival, creativo, redstone y construcciones épicas. Pica, craftea y crea. Comparte tu mundo, sin registro.",
-    about: "El rincón de los que ven el mundo en bloques. Aquí se habla de Minecraft en todas sus vertientes: el survival con sus noches de creepers, el modo creativo sin límites, la magia de la redstone y esas construcciones colosales que llevan meses de trabajo. Se comparten semillas, mods, texturas y servidores donde jugar acompañado. Se piden ideas para granjas automáticas, se enseñan proyectos en marcha y se resuelven dudas de los que acaban de empezar. Conviven builders perfeccionistas, exploradores de cuevas, técnicos de la redstone y padres que juegan con sus hijos. El juego no tiene edad ni meta final: cada uno se marca la suya. Un espacio para compartir creaciones, encontrar con quien construir y celebrar la creatividad sin fronteras.",
+    about: "Para los que ven el mundo en bloques: aquí se habla de Minecraft en todas sus vertientes, el survival con sus noches de creepers, el modo creativo sin límites, la magia de la redstone y esas construcciones colosales que llevan meses de trabajo. Se comparten semillas, mods, texturas y servidores donde jugar acompañado. Se piden ideas para granjas automáticas, se enseñan proyectos en marcha y se resuelven dudas de los que acaban de empezar. Conviven builders perfeccionistas, exploradores de cuevas, técnicos de la redstone y padres que juegan con sus hijos. El juego no tiene edad ni meta final: cada uno se marca la suya. Un espacio para compartir creaciones, encontrar con quien construir y celebrar la creatividad sin fronteras.",
   },
   {
     slug: "lol", name: "League of Legends", kind: "tematica", icon: "🧙",
@@ -1029,7 +1029,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "valorant", "fortnite", "tecnologia"],
     intro: "Chat de League of Legends: grieta, campeones, ranked y esports. Sube de elo y comenta la meta. Busca dúo, gratis y sin registro.",
-    about: "La grieta del invocador hecha chat. Aquí se habla de League of Legends sin parar: la meta del parche, los campeones rotos, las builds y runas óptimas y el eterno camino para subir de elo. Se busca dúo para la ranked, se comenta el lore cada vez más profundo y se vibra con los esports, los Worlds y las grandes ligas. Se desahoga el que cayó por culpa del equipo, se piden consejos para mejorar de carril y se debate sobre los reworks y los nuevos campeones. Conviven jugadores competitivos que aspiran a challenger, casuals del ARAM y seguidores que solo ven la competición. Se pican con buen rollo sobre quién es el mejor de cada rol. Un espacio para mejorar, encontrar equipo y vivir el MOBA más grande del mundo.",
+    about: "Imagina la grieta del invocador hecha chat: aquí se habla de League of Legends sin parar, la meta del parche, los campeones rotos, las builds y runas óptimas y el eterno camino para subir de elo. Se busca dúo para la ranked, se comenta el lore cada vez más profundo y se vibra con los esports, los Worlds y las grandes ligas. Se desahoga el que cayó por culpa del equipo, se piden consejos para mejorar de carril y se debate sobre los reworks y los nuevos campeones. Conviven jugadores competitivos que aspiran a challenger, casuals del ARAM y seguidores que solo ven la competición. Se pican con buen rollo sobre quién es el mejor de cada rol. Un espacio para mejorar, encontrar equipo y vivir el MOBA más grande del mundo.",
   },
   {
     slug: "valorant", name: "Valorant", kind: "tematica", icon: "🎯",
@@ -1038,7 +1038,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "lol", "fortnite", "tecnologia"],
     intro: "Chat de Valorant: agentes, mapas, ranked y táctica. Apunta, plantea y clava el spike. Busca equipo, gratis y sin registro.",
-    about: "El sitio de los que viven por clavar el spike. Aquí se habla de Valorant a tope: los agentes y sus habilidades, los mapas y sus ángulos, las composiciones que funcionan y el meta competitivo. Se busca equipo para la ranked, se comparten trucos de puntería, líneas de humos y estrategias para atacar y defender. Se comenta la escena de esports, los grandes torneos y los jugadores profesionales que marcan tendencia. Se desahoga el que tuvo una mala racha y se piden consejos para subir de rango. Conviven tiradores experimentados venidos de otros shooters, novatos que aprenden los fundamentos y seguidores de la competición. Un espacio para mejorar la táctica, encontrar compañeros de confianza y dominar el shooter táctico del momento.",
+    about: "¿Vives por clavar el spike? Aquí se habla de Valorant a tope: los agentes y sus habilidades, los mapas y sus ángulos, las composiciones que funcionan y el meta competitivo. Se busca equipo para la ranked, se comparten trucos de puntería, líneas de humos y estrategias para atacar y defender. Se comenta la escena de esports, los grandes torneos y los jugadores profesionales que marcan tendencia. Se desahoga el que tuvo una mala racha y se piden consejos para subir de rango. Conviven tiradores experimentados venidos de otros shooters, novatos que aprenden los fundamentos y seguidores de la competición. Un espacio para mejorar la táctica, encontrar compañeros de confianza y dominar el shooter táctico del momento.",
   },
   {
     slug: "roblox", name: "Roblox", kind: "tematica", icon: "🟥",
@@ -1047,7 +1047,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "minecraft", "fortnite", "tecnologia"],
     intro: "Chat de Roblox: experiencias, obbys, creación de juegos y comunidad. Juega y crea sin límites. Comparte tu mundo, sin registro.",
-    about: "La sala de la plataforma con infinitos juegos dentro. Aquí se habla de Roblox y de todo lo que cabe en él: las experiencias más populares, los obbys imposibles, los juegos de rol y simuladores que enganchan y la propia creación de juegos con Roblox Studio. Se comparten códigos, trucos y recomendaciones de experiencias que merece la pena probar. Se habla de cómo empezar a programar tus propios juegos, de Robux y de la enorme comunidad creativa que mueve la plataforma. Conviven jugadores jóvenes, creadores que desarrollan sus mundos y curiosos que quieren entender el fenómeno. Un espacio para descubrir juegos nuevos, aprender a crear y compartir la pasión por una plataforma que no para de crecer.",
+    about: "Una sola plataforma con infinitos juegos dentro: aquí se habla de Roblox y de todo lo que cabe en él, las experiencias más populares, los obbys imposibles, los juegos de rol y simuladores que enganchan y la propia creación de juegos con Roblox Studio. Se comparten códigos, trucos y recomendaciones de experiencias que merece la pena probar. Se habla de cómo empezar a programar tus propios juegos, de Robux y de la enorme comunidad creativa que mueve la plataforma. Conviven jugadores jóvenes, creadores que desarrollan sus mundos y curiosos que quieren entender el fenómeno. Un espacio para descubrir juegos nuevos, aprender a crear y compartir la pasión por una plataforma que no para de crecer.",
   },
   {
     slug: "gta", name: "GTA", kind: "tematica", icon: "🚗",
@@ -1056,7 +1056,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["juegos", "ocio"],
     related: ["juegos", "videojuegos", "fortnite", "minecraft", "lol"],
     intro: "Chat de GTA: Los Santos, online, atracos y la espera del nuevo GTA. Caos y diversión en el sandbox. Busca crew, sin registro.",
-    about: "El rincón de los que se sienten como en casa en Los Santos. Aquí se habla de la saga Grand Theft Auto: las andanzas en el modo historia, el caos de GTA Online, los atracos, los negocios y los coches tuneados. Se busca crew para los golpes, se comparten trucos para hacer dinero y se comentan las locuras que solo pasan en este sandbox. Y, cómo no, se especula sin descanso sobre el próximo GTA, sus filtraciones y todo lo que promete. Se recuerdan los clásicos de la saga, del San Andreas al Vice City, con mucha nostalgia. Conviven jugadores del online, fans del modo historia y quienes esperan la nueva entrega con ansia. Un espacio para compartir caos, encontrar compañeros y vivir el mundo abierto más famoso de los videojuegos.",
+    about: "¿Te sientes como en casa en Los Santos? Aquí se habla de la saga Grand Theft Auto: las andanzas en el modo historia, el caos de GTA Online, los atracos, los negocios y los coches tuneados. Se busca crew para los golpes, se comparten trucos para hacer dinero y se comentan las locuras que solo pasan en este sandbox. Y, cómo no, se especula sin descanso sobre el próximo GTA, sus filtraciones y todo lo que promete. Se recuerdan los clásicos de la saga, del San Andreas al Vice City, con mucha nostalgia. Conviven jugadores del online, fans del modo historia y quienes esperan la nueva entrega con ansia. Un espacio para compartir caos, encontrar compañeros y vivir el mundo abierto más famoso de los videojuegos.",
   },
   {
     slug: "quiz", name: "Quiz", kind: "tematica", icon: "❓",
@@ -1065,7 +1065,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["trivial", "trivias"],
     related: ["trivial", "juegos", "preguntados", "culturageneral", "retos"],
     intro: "Chat de quiz: preguntas, retos de conocimiento y piques de cultura general. Demuestra lo que sabes. Gratis y sin registro.",
-    about: "La sala para los que disfrutan poniendo a prueba lo que saben. Aquí se lanzan preguntas de todo tipo, se montan quizzes de cultura general y se pican unos a otros por ver quién acierta más. Se mezclan categorías —historia, ciencia, geografía, cine, deporte, música— y siempre hay alguien que domina un tema y naufraga en otro. Se comparten preguntas tramposas, datos curiosos y esos retos imposibles que dejan a todos pensando. Conviven cracks de los concursos de la tele, aficionados a los juegos de preguntas y curiosos que solo quieren aprender mientras juegan. El ambiente es de competición sana y muchas risas. Un espacio para demostrar tu cultura general, descubrir cuánto te queda por aprender y picarte con gente igual de respondona que tú.",
+    about: "¿Te gusta poner a prueba lo que sabes? Aquí se lanzan preguntas de todo tipo, se montan quizzes de cultura general y se pican unos a otros por ver quién acierta más. Se mezclan categorías —historia, ciencia, geografía, cine, deporte, música— y siempre hay alguien que domina un tema y naufraga en otro. Se comparten preguntas tramposas, datos curiosos y esos retos imposibles que dejan a todos pensando. Conviven cracks de los concursos de la tele, aficionados a los juegos de preguntas y curiosos que solo quieren aprender mientras juegan. El ambiente es de competición sana y muchas risas. Un espacio para demostrar tu cultura general, descubrir cuánto te queda por aprender y picarte con gente igual de respondona que tú.",
   },
   {
     slug: "preguntados", name: "Preguntados", kind: "tematica", icon: "🧩",
@@ -1074,7 +1074,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["trivial", "trivias"],
     related: ["trivial", "juegos", "quiz", "culturageneral", "retos"],
     intro: "Chat de Preguntados: trivia, quesitos y duelos de saber. Reta a otros y completa tu colección. Gratis y sin registro.",
-    about: "El rincón de los enganchados a los duelos de preguntas. Aquí se habla del famoso juego de trivia y de todos sus parecidos: los duelos por completar los quesitos de cada categoría, las preguntas que se repiten y las que no aciertas ni de casualidad. Se retan unos a otros, se comparten las preguntas más difíciles y se discute si la geografía o el entretenimiento es la categoría maldita de cada uno. Se cuentan rachas de victorias, derrotas humillantes en la última pregunta y esa adicción de jugar una partida más. Conviven competitivos que quieren ganar siempre, gente que juega por aprender y curiosos de la cultura general. Un espacio para picarse en el trivia, demostrar conocimientos y descubrir cuánto sabes de cada tema.",
+    about: "Para los enganchados a los duelos de preguntas: aquí se habla del famoso juego de trivia y de todos sus parecidos: los duelos por completar los quesitos de cada categoría, las preguntas que se repiten y las que no aciertas ni de casualidad. Se retan unos a otros, se comparten las preguntas más difíciles y se discute si la geografía o el entretenimiento es la categoría maldita de cada uno. Se cuentan rachas de victorias, derrotas humillantes en la última pregunta y esa adicción de jugar una partida más. Conviven competitivos que quieren ganar siempre, gente que juega por aprender y curiosos de la cultura general. Un espacio para picarse en el trivia, demostrar conocimientos y descubrir cuánto sabes de cada tema.",
   },
   {
     slug: "retos", name: "Retos", kind: "tematica", icon: "🎲",
@@ -1083,7 +1083,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["trivial", "trivias"],
     related: ["juegos", "trivial", "quiz", "preguntados", "interactivo"],
     intro: "Chat de retos: pruebas, desafíos, verdad o atrevimiento y dinámicas para romper el hielo. Diviértete jugando, sin registro.",
-    about: "La sala donde la diversión se gana a base de atreverse. Aquí se proponen retos y desafíos de todo tipo: verdad o atrevimiento, preguntas comprometidas, pruebas rápidas y dinámicas de grupo que ponen a todos a participar. Es la excusa perfecta para romper el hielo, conocer gente y echar unas risas sin las vergüenzas de siempre. Se lanzan retos suaves para empezar y otros más picantes según el ambiente, siempre respetando lo que cada uno quiere hacer. Conviven los lanzados que se atreven con todo, los tímidos que se sueltan poco a poco y quienes vienen solo a reírse del resto. El ritmo es ágil y nunca aburre. Un espacio para jugar en compañía, perder la timidez y conocer gente entre reto y reto.",
+    about: "Aquí la diversión se gana a base de atreverse: se proponen retos y desafíos de todo tipo, verdad o atrevimiento, preguntas comprometidas, pruebas rápidas y dinámicas de grupo que ponen a todos a participar. Es la excusa perfecta para romper el hielo, conocer gente y echar unas risas sin las vergüenzas de siempre. Se lanzan retos suaves para empezar y otros más picantes según el ambiente, siempre respetando lo que cada uno quiere hacer. Conviven los lanzados que se atreven con todo, los tímidos que se sueltan poco a poco y quienes vienen solo a reírse del resto. El ritmo es ágil y nunca aburre. Un espacio para jugar en compañía, perder la timidez y conocer gente entre reto y reto.",
   },
   {
     slug: "culturageneral", name: "Cultura General", kind: "tematica", icon: "🧠",
@@ -1092,7 +1092,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["trivial", "trivias"],
     related: ["trivial", "juegos", "quiz", "preguntados", "curiosidadeshistoricas"],
     intro: "Chat de cultura general: datos, curiosidades y preguntas para los que lo quieren saber todo. Aprende jugando, sin registro.",
-    about: "El rincón de los que coleccionan datos y curiosidades. Aquí se comparte conocimiento de todo un poco: ese dato histórico que sorprende, la curiosidad científica que nadie conoce, el porqué de las cosas cotidianas y las preguntas que ponen a prueba lo que uno cree saber. Se lanzan retos de cultura general, se resuelven dudas de las que dan vueltas en la cabeza y se aprende casi sin darse cuenta entre conversación y conversación. Conviven sabelotodos de buen rollo, curiosos insaciables y gente que disfruta descubriendo cosas nuevas cada día. El tono es ameno y divulgativo, lejos del aula aburrida. Un espacio para alimentar la curiosidad, presumir de saber datos inútiles pero fascinantes y salir cada día sabiendo un poco más.",
+    about: "¿Coleccionas datos y curiosidades? Aquí se comparte conocimiento de todo un poco: ese dato histórico que sorprende, la curiosidad científica que nadie conoce, el porqué de las cosas cotidianas y las preguntas que ponen a prueba lo que uno cree saber. Se lanzan retos de cultura general, se resuelven dudas de las que dan vueltas en la cabeza y se aprende casi sin darse cuenta entre conversación y conversación. Conviven sabelotodos de buen rollo, curiosos insaciables y gente que disfruta descubriendo cosas nuevas cada día. El tono es ameno y divulgativo, lejos del aula aburrida. Un espacio para alimentar la curiosidad, presumir de saber datos inútiles pero fascinantes y salir cada día sabiendo un poco más.",
   },
 
   // ───────────────────────── Anime ─────────────────────────
@@ -1103,7 +1103,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["anime", "ocio"],
     related: ["anime", "manga", "animefans", "naruto", "videojuegos"],
     intro: "Chat otaku: anime, manga, figuras, cosplay y cultura japonesa. Para los que viven la afición a tope. Gratis y sin registro.",
-    about: "La sala para los que llevan el orgullo otaku por bandera. Aquí se habla de anime y manga de todas las épocas, pero también de todo lo que rodea la afición: las figuras y el merchandising que vacían la cartera, el cosplay, las convenciones, los videojuegos japoneses y la cultura nipona en general. Se recomiendan series de cada temporada, se debaten los clásicos imprescindibles y se comparten joyas de nicho que pocos conocen. Se habla de Japón, su idioma, su comida y ese sueño de visitar Akihabara algún día. Conviven veteranos que llevan décadas en esto, recién llegados al mundillo y cosplayers que enseñan sus trabajos. Un espacio para vivir la pasión otaku sin complejos y rodearse de gente que comparte tus mismas referencias.",
+    about: "¿Llevas el orgullo otaku por bandera? Aquí se habla de anime y manga de todas las épocas, pero también de todo lo que rodea la afición: las figuras y el merchandising que vacían la cartera, el cosplay, las convenciones, los videojuegos japoneses y la cultura nipona en general. Se recomiendan series de cada temporada, se debaten los clásicos imprescindibles y se comparten joyas de nicho que pocos conocen. Se habla de Japón, su idioma, su comida y ese sueño de visitar Akihabara algún día. Conviven veteranos que llevan décadas en esto, recién llegados al mundillo y cosplayers que enseñan sus trabajos. Un espacio para vivir la pasión otaku sin complejos y rodearse de gente que comparte tus mismas referencias.",
   },
 
   // ───────────────────────── Fans ─────────────────────────
@@ -1113,7 +1113,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["fans", "anime", "ocio"],
     related: ["harrypotter", "starwars", "marvel", "animefans", "kpopfans"],
     intro: "Chat de fandoms: sagas, universos, teorías y todo lo que une a los fans. Encuentra a los tuyos. Gratis y sin registro.",
-    about: "El punto de encuentro de todos los fandoms. Aquí se reúnen los fans de las grandes sagas y universos: cine, series, libros, cómics, videojuegos y todo lo que genera una comunidad apasionada. Se comparten teorías, se debaten finales, se celebran estrenos y se vive esa emoción de formar parte de algo con otros que sienten lo mismo. Se habla de Harry Potter, Star Wars, Marvel, El Señor de los Anillos y de cualquier universo que tenga seguidores entregados. Conviven fans de toda la vida, recién llegados y gente que salta de un fandom a otro sin parar. Se respeta cada pasión por friki que parezca. Un espacio para encontrar a los tuyos, frikear sin vergüenza y compartir el amor por esas historias que se vuelven parte de tu vida.",
+    about: "Todos los fandoms caben aquí: se reúnen los fans de las grandes sagas y universos, cine, series, libros, cómics, videojuegos y todo lo que genera una comunidad apasionada. Se comparten teorías, se debaten finales, se celebran estrenos y se vive esa emoción de formar parte de algo con otros que sienten lo mismo. Se habla de Harry Potter, Star Wars, Marvel, El Señor de los Anillos y de cualquier universo que tenga seguidores entregados. Conviven fans de toda la vida, recién llegados y gente que salta de un fandom a otro sin parar. Se respeta cada pasión por friki que parezca. Un espacio para encontrar a los tuyos, frikear sin vergüenza y compartir el amor por esas historias que se vuelven parte de tu vida.",
   },
   {
     slug: "harrypotter", name: "Harry Potter", kind: "tematica", icon: "⚡",
@@ -1122,7 +1122,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["fans", "anime", "ocio"],
     related: ["fandoms", "starwars", "marvel", "literatura", "cine"],
     intro: "Chat de Harry Potter: Hogwarts, casas, magia y el universo mágico. ¿De qué casa eres? Lumos, gratis y sin registro.",
-    about: "El Gran Comedor virtual para magos y brujas. Aquí se habla de todo el universo de Harry Potter: los libros y las películas, las casas de Hogwarts y el eterno debate de a cuál perteneces de verdad, los personajes que amamos y odiamos y los detalles que solo pillan los más fans. Se debaten teorías, se comentan las incoherencias del canon y se rememoran las escenas que marcaron la infancia de toda una generación. Se habla de las varitas, los hechizos, las casas de Ilvermorny y las polémicas en torno a la saga. Conviven lectores que se saben los libros de memoria, fans de las películas y curiosos que se reenganchan de adultos. Un espacio para volver a Hogwarts cuando quieras y compartir la magia con quien la siente igual.",
+    about: "Bienvenido al Gran Comedor virtual para magos y brujas, donde se habla de todo el universo de Harry Potter: los libros y las películas, las casas de Hogwarts y el eterno debate de a cuál perteneces de verdad, los personajes que amamos y odiamos y los detalles que solo pillan los más fans. Se debaten teorías, se comentan las incoherencias del canon y se rememoran las escenas que marcaron la infancia de toda una generación. Se habla de las varitas, los hechizos, las casas de Ilvermorny y las polémicas en torno a la saga. Conviven lectores que se saben los libros de memoria, fans de las películas y curiosos que se reenganchan de adultos. Un espacio para volver a Hogwarts cuando quieras y compartir la magia con quien la siente igual.",
   },
   {
     slug: "starwars", name: "Star Wars", kind: "tematica", icon: "🌌",
@@ -1131,7 +1131,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["fans", "anime", "ocio"],
     related: ["fandoms", "harrypotter", "marvel", "cine", "series"],
     intro: "Chat de Star Wars: la Fuerza, sagas, series y el lado oscuro. Para fans de una galaxia muy, muy lejana. Sin registro.",
-    about: "La sala de los que sienten la Fuerza. Aquí se habla de todo Star Wars: la trilogía original que lo empezó todo, las precuelas tan discutidas, las secuelas que dividieron al fandom y las series que han devuelto la ilusión. Se debaten los Jedi y los Sith, el canon y el legends, las teorías sobre lo que vendrá y esas escenas que ponen los pelos de punta. Se habla de naves, sables de luz, el universo expandido y los videojuegos de la galaxia. Conviven fans de la vieja guardia que lo vieron en el cine, seguidores de las nuevas series y curiosos que se acaban de enganchar. Se pican sobre cuál es la mejor entrega, debate eterno sin tregua. Un espacio para vivir una galaxia muy, muy lejana en compañía de quien la ama igual.",
+    about: "¿Sientes la Fuerza? Aquí se habla de todo Star Wars: la trilogía original que lo empezó todo, las precuelas tan discutidas, las secuelas que dividieron al fandom y las series que han devuelto la ilusión. Se debaten los Jedi y los Sith, el canon y el legends, las teorías sobre lo que vendrá y esas escenas que ponen los pelos de punta. Se habla de naves, sables de luz, el universo expandido y los videojuegos de la galaxia. Conviven fans de la vieja guardia que lo vieron en el cine, seguidores de las nuevas series y curiosos que se acaban de enganchar. Se pican sobre cuál es la mejor entrega, debate eterno sin tregua. Un espacio para vivir una galaxia muy, muy lejana en compañía de quien la ama igual.",
   },
   {
     slug: "kpopfans", name: "K-pop Fans", kind: "tematica", icon: "💗",
@@ -1140,7 +1140,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["fans", "anime", "ocio"],
     related: ["fandoms", "kpop", "animefans", "musica", "pop"],
     intro: "Chat de fans del K-pop: bias, comebacks, fandoms y votaciones. Apoya a tu grupo con los tuyos. Gratis y sin registro.",
-    about: "El cuartel general de los fandoms del K-pop. Aquí los fans se organizan para apoyar a sus grupos: votaciones para los premios, streaming de los comebacks, tendencias en redes y todo el cariño volcado en el bias. Se comparten fotos, fancams, datos de los idols y se vive cada lanzamiento como un acontecimiento. Se habla de la cultura de fandom coreana, de los lightsticks, los álbumes de colección y los conciertos soñados. Se debate con pasión, se defiende al grupo y se hacen amistades fuertes entre quienes comparten el mismo fervor. Conviven fans veteranos, seguidores de la nueva generación y curiosos que quieren entender tanta devoción. Un espacio para vivir la pasión por el K-pop en comunidad y sentirse parte de algo más grande.",
+    about: "Bienvenido al cuartel general de los fandoms del K-pop, donde los fans se organizan para apoyar a sus grupos: votaciones para los premios, streaming de los comebacks, tendencias en redes y todo el cariño volcado en el bias. Se comparten fotos, fancams, datos de los idols y se vive cada lanzamiento como un acontecimiento. Se habla de la cultura de fandom coreana, de los lightsticks, los álbumes de colección y los conciertos soñados. Se debate con pasión, se defiende al grupo y se hacen amistades fuertes entre quienes comparten el mismo fervor. Conviven fans veteranos, seguidores de la nueva generación y curiosos que quieren entender tanta devoción. Un espacio para vivir la pasión por el K-pop en comunidad y sentirse parte de algo más grande.",
   },
   {
     slug: "animefans", name: "Anime Fans", kind: "tematica", icon: "🌸",
@@ -1149,7 +1149,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["fans", "anime", "ocio"],
     related: ["fandoms", "anime", "otaku", "manga", "kpopfans"],
     intro: "Chat de fans del anime: temporadas, waifus, debates y recomendaciones. Para los que no se pierden un estreno. Sin registro.",
-    about: "La sala de los que organizan su semana en torno a los estrenos de anime. Aquí se comenta cada temporada al detalle: los simulcasts, los openings que se ponen en bucle, las animaciones que dejan sin palabras y los giros que revientan internet. Se debaten waifus y husbandos, se recomiendan joyas que pasan desapercibidas y se discute si la adaptación hace justicia al manga. Se habla de estudios de animación, de géneros del shonen al slice of life y de los clásicos que todo fan debería ver. Conviven seguidores que lo ven todo en emisión, nostálgicos de los animes de su infancia y recién llegados pidiendo por dónde empezar. Un espacio para compartir la pasión por el anime, descubrir series nuevas y debatir con quien lo vive igual de intensamente.",
+    about: "¿Organizas tu semana en torno a los estrenos de anime? Aquí se comenta cada temporada al detalle: los simulcasts, los openings que se ponen en bucle, las animaciones que dejan sin palabras y los giros que revientan internet. Se debaten waifus y husbandos, se recomiendan joyas que pasan desapercibidas y se discute si la adaptación hace justicia al manga. Se habla de estudios de animación, de géneros del shonen al slice of life y de los clásicos que todo fan debería ver. Conviven seguidores que lo ven todo en emisión, nostálgicos de los animes de su infancia y recién llegados pidiendo por dónde empezar. Un espacio para compartir la pasión por el anime, descubrir series nuevas y debatir con quien lo vive igual de intensamente.",
   },
 
   // ───────────────────────── Amistad ─────────────────────────
@@ -1160,7 +1160,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amistad", "amigos", "conocergente", "amistadgratis", "amor"],
     intro: "Chat para hacer amigos: conoce gente nueva, amplía tu círculo y encuentra con quién compartir planes. Amistad de verdad, sin registro.",
-    about: "La sala para los que buscan ampliar su círculo y hacer amistades de verdad. Aquí se viene a conocer gente nueva sin más pretensión que charlar, compartir aficiones y, con suerte, encontrar a esas personas con las que conectas de inmediato. Se proponen planes, se habla del día a día y se rompe el hielo con naturalidad, sin la presión de las redes ni de ligar. Conviven gente que acaba de mudarse a una ciudad nueva, quienes han perdido el contacto con su grupo de siempre y personas que simplemente quieren sumar caras a su vida. El ambiente es abierto y acogedor, ideal para los tímidos. Un espacio donde muchas amistades empiezan con un simple hola y acaban durando años.",
+    about: "¿Quieres ampliar tu círculo y hacer amistades de verdad? Aquí se viene a conocer gente nueva sin más pretensión que charlar, compartir aficiones y, con suerte, encontrar a esas personas con las que conectas de inmediato. Se proponen planes, se habla del día a día y se rompe el hielo con naturalidad, sin la presión de las redes ni de ligar. Conviven gente que acaba de mudarse a una ciudad nueva, quienes han perdido el contacto con su grupo de siempre y personas que simplemente quieren sumar caras a su vida. El ambiente es abierto y acogedor, ideal para los tímidos. Un espacio donde muchas amistades empiezan con un simple hola y acaban durando años.",
   },
   {
     slug: "amigos", name: "Amigos", kind: "tematica", icon: "👯",
@@ -1169,7 +1169,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amistad", "haceramigos", "conocergente", "amistadgratis", "colegas"],
     intro: "Chat de amigos: charla, risas y buen rollo con gente afín. La pandilla que se hace tecleando. Conoce gente, gratis y sin registro.",
-    about: "El rincón del buen rollo y las conversaciones que enganchan. Aquí la gente se junta para charlar de lo que sea, echarse unas risas y formar esa pandilla virtual que muchas veces acaba quedando en persona. Se habla de la vida, del finde, de series, de música y de cualquier tontería que dé pie a una buena conversación. No hay temas obligatorios ni postureo: solo gente con ganas de pasar el rato y conocer a otros con su mismo rollo. Conviven habituales que vuelven cada día, recién llegados y grupos que se forman alrededor de aficiones comunes. Un espacio cálido y desenfadado donde sentirse parte del grupo es lo más fácil del mundo. Entra, saluda y haz amigos.",
+    about: "Aquí mandan el buen rollo y las conversaciones que enganchan: la gente se junta para charlar de lo que sea, echarse unas risas y formar esa pandilla virtual que muchas veces acaba quedando en persona. Se habla de la vida, del finde, de series, de música y de cualquier tontería que dé pie a una buena conversación. No hay temas obligatorios ni postureo: solo gente con ganas de pasar el rato y conocer a otros con su mismo rollo. Conviven habituales que vuelven cada día, recién llegados y grupos que se forman alrededor de aficiones comunes. Un espacio cálido y desenfadado donde sentirse parte del grupo es lo más fácil del mundo. Entra, saluda y haz amigos.",
   },
   {
     slug: "amistadgratis", name: "Amistad Gratis", kind: "tematica", icon: "🆓",
@@ -1187,7 +1187,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amistad", "haceramigos", "amigos", "amistadgratis", "chatear"],
     intro: "Chat para conocer gente nueva: rompe la rutina, amplía tu mundo y charla con personas afines de toda España y Latinoamérica. Sin registro.",
-    about: "La sala para los que quieren abrir su mundo y conocer gente más allá de su círculo de siempre. Aquí coinciden personas de toda España y Latinoamérica con ganas de charlar, compartir puntos de vista y descubrir vidas distintas a la propia. Se habla de todo: aficiones, viajes, trabajo, planes y esas conversaciones que enriquecen porque vienen de alguien con otra historia detrás. No hay un objetivo único: hay quien busca amistad, quien quiere practicar la charla y quien solo rompe la rutina un rato. Conviven extrovertidos que arrancan conversaciones y tímidos que se animan poco a poco. Un espacio diverso y abierto donde conocer gente nueva es tan sencillo como entrar y decir hola.",
+    about: "¿Quieres abrir tu mundo y conocer gente más allá de tu círculo de siempre? Aquí coinciden personas de toda España y Latinoamérica con ganas de charlar, compartir puntos de vista y descubrir vidas distintas a la propia. Se habla de todo: aficiones, viajes, trabajo, planes y esas conversaciones que enriquecen porque vienen de alguien con otra historia detrás. No hay un objetivo único: hay quien busca amistad, quien quiere practicar la charla y quien solo rompe la rutina un rato. Conviven extrovertidos que arrancan conversaciones y tímidos que se animan poco a poco. Un espacio diverso y abierto donde conocer gente nueva es tan sencillo como entrar y decir hola.",
   },
 
   // ───────────────────────── Amor ─────────────────────────
@@ -1198,7 +1198,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amor", "encontraramor", "citas", "ligar", "romance"],
     intro: "Chat para buscar pareja: conoce gente con ganas de algo serio, sin apps de pago ni postureo. Encuentra el amor, gratis y sin registro.",
-    about: "La sala para quienes buscan algo más que un rato de charla: una relación de verdad. Aquí se viene con la intención clara de conocer a alguien con quien construir algo serio, sin las prisas ni el postureo de las apps de citas. Se habla de lo que cada uno busca, de valores, de planes de vida y de esa química que no se fabrica pero se nota. Conviven personas de distintas edades cansadas de relaciones que no llegan a nada y con ganas de encontrar a la persona adecuada. No hay algoritmos ni suscripciones: solo conversación honesta entre gente que busca lo mismo. Un espacio para conocerse sin filtros, dar el primer paso y, quizá, empezar la historia que llevabas tiempo esperando.",
+    about: "¿Buscas algo más que un rato de charla, una relación de verdad? Aquí se viene con la intención clara de conocer a alguien con quien construir algo serio, sin las prisas ni el postureo de las apps de citas. Se habla de lo que cada uno busca, de valores, de planes de vida y de esa química que no se fabrica pero se nota. Conviven personas de distintas edades cansadas de relaciones que no llegan a nada y con ganas de encontrar a la persona adecuada. No hay algoritmos ni suscripciones: solo conversación honesta entre gente que busca lo mismo. Un espacio para conocerse sin filtros, dar el primer paso y, quizá, empezar la historia que llevabas tiempo esperando.",
   },
   {
     slug: "encontraramor", name: "Encontrar el Amor", kind: "tematica", icon: "💖",
@@ -1207,7 +1207,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amor", "buscarpareja", "corazon", "romance", "citas"],
     intro: "Chat para encontrar el amor: conversaciones sinceras, conexión real y ganas de querer y ser querido. El amor empieza hablando. Sin registro.",
-    about: "Un rincón para los que creen que el amor todavía puede empezar con una buena conversación. Aquí se habla con sinceridad de lo que se busca, de ilusiones, de heridas pasadas que ya cicatrizaron y de las ganas de volver a querer y ser querido. La conversación tiende a ser más pausada y honesta, porque la mayoría llega con el corazón abierto y no con ganas de jugar. Se comparten gustos, sueños y esa visión del amor que cada uno tiene. Conviven románticos empedernidos, gente que sale de una ruptura y quienes nunca dejaron de creer en el amor. No hay reglas ni prisas: cada historia va a su ritmo. Un espacio cálido para dejar que surja la conexión y, con suerte, encontrar a esa persona especial.",
+    about: "¿Y si el amor todavía puede empezar con una buena conversación? Aquí se habla con sinceridad de lo que se busca, de ilusiones, de heridas pasadas que ya cicatrizaron y de las ganas de volver a querer y ser querido. La conversación tiende a ser más pausada y honesta, porque la mayoría llega con el corazón abierto y no con ganas de jugar. Se comparten gustos, sueños y esa visión del amor que cada uno tiene. Conviven románticos empedernidos, gente que sale de una ruptura y quienes nunca dejaron de creer en el amor. No hay reglas ni prisas: cada historia va a su ritmo. Un espacio cálido para dejar que surja la conexión y, con suerte, encontrar a esa persona especial.",
   },
   {
     slug: "corazon", name: "Corazón", kind: "tematica", icon: "💗",
@@ -1216,7 +1216,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amor", "encontraramor", "buscarpareja", "romance", "psicologia"],
     intro: "Chat del corazón: habla de amor, desamor, relaciones y sentimientos. Desahógate y comparte lo que sientes. Gratis y sin registro.",
-    about: "La sala donde mandan los sentimientos. Aquí se habla de amor y desamor sin vergüenza: de las mariposas del principio, de las dudas de una relación, de las rupturas que cuesta superar y de las segundas oportunidades. Es el sitio para desahogarse cuando el corazón pesa, pedir consejo sobre esa persona que trae de cabeza o simplemente compartir lo que se siente con quien sabe escuchar. Conviven enamorados, corazones rotos, románticos y gente que solo quiere entender un poco mejor sus emociones. El tono es cercano y comprensivo, sin juicios ni recetas mágicas. Un espacio para hablar de lo que de verdad importa, sentirse acompañado en los altibajos del amor y recordar que casi todo el mundo ha pasado por lo mismo alguna vez.",
+    about: "Aquí mandan los sentimientos: se habla de amor y desamor sin vergüenza, de las mariposas del principio, de las dudas de una relación, de las rupturas que cuesta superar y de las segundas oportunidades. Es el sitio para desahogarse cuando el corazón pesa, pedir consejo sobre esa persona que trae de cabeza o simplemente compartir lo que se siente con quien sabe escuchar. Conviven enamorados, corazones rotos, románticos y gente que solo quiere entender un poco mejor sus emociones. El tono es cercano y comprensivo, sin juicios ni recetas mágicas. Un espacio para hablar de lo que de verdad importa, sentirse acompañado en los altibajos del amor y recordar que casi todo el mundo ha pasado por lo mismo alguna vez.",
   },
   {
     slug: "flirt", name: "Flirt", kind: "tematica", icon: "😘",
@@ -1225,7 +1225,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["ligar", "ligame"],
     related: ["ligar", "ligame", "chatligar", "amor", "ligue"],
     intro: "Chat para flirtear: tonteo, piropos y química desde el primer mensaje. Lánzate a coquetear sin rodeos. Gratis y sin registro.",
-    about: "El rincón del tonteo en estado puro. Aquí se viene a flirtear sin complejos: piropos bien puestos, indirectas que de indirectas tienen poco y esa química que salta cuando dos personas se siguen el juego. El ambiente es pícaro y divertido, pensado para quien quiere coquetear sin marear la perdiz ni montarse películas. Se lanza el primer mensaje con descaro, se responde con ingenio y se deja que la conversación suba de temperatura a su ritmo. Conviven los lanzados que van directos, los que prefieren un tonteo más sutil y gente que solo quiere sentirse deseada un rato. Nadie se ofende por un cumplido a tiempo y el respeto siempre manda. Un espacio para soltarse, seducir con palabras y ver hasta dónde lleva el coqueteo.",
+    about: "Tonteo en estado puro: aquí se viene a flirtear sin complejos, piropos bien puestos, indirectas que de indirectas tienen poco y esa química que salta cuando dos personas se siguen el juego. El ambiente es pícaro y divertido, pensado para quien quiere coquetear sin marear la perdiz ni montarse películas. Se lanza el primer mensaje con descaro, se responde con ingenio y se deja que la conversación suba de temperatura a su ritmo. Conviven los lanzados que van directos, los que prefieren un tonteo más sutil y gente que solo quiere sentirse deseada un rato. Nadie se ofende por un cumplido a tiempo y el respeto siempre manda. Un espacio para soltarse, seducir con palabras y ver hasta dónde lleva el coqueteo.",
   },
   {
     slug: "citas", name: "Citas", kind: "tematica", icon: "🌹",
@@ -1234,7 +1234,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "general"],
     related: ["amor", "buscarpareja", "encontraramor", "ligar", "romance"],
     intro: "Chat de citas: organiza esa primera cita, comparte experiencias y consejos para quedar. Del chat a la realidad. Gratis y sin registro.",
-    about: "La sala para los que quieren que la conversación acabe en una cita de verdad. Aquí se habla de cómo dar el paso del chat al mundo real: proponer la primera quedada, elegir plan, los nervios previos y esos consejos que tanto se agradecen. Se comparten experiencias de citas que salieron genial y de otras que fueron un desastre digno de contar, todo con humor y sin dramas. Conviven personas que buscan pareja, gente que quiere conocer a alguien sin etiquetas y quienes solo necesitan un empujón para atreverse a quedar. Se habla de qué funciona, de banderas rojas y de cómo causar buena impresión sin fingir. Un espacio para perder el miedo a las citas, organizarlas con cabeza y convertir una buena charla en algo real.",
+    about: "¿Quieres que la conversación acabe en una cita de verdad? Aquí se habla de cómo dar el paso del chat al mundo real: proponer la primera quedada, elegir plan, los nervios previos y esos consejos que tanto se agradecen. Se comparten experiencias de citas que salieron genial y de otras que fueron un desastre digno de contar, todo con humor y sin dramas. Conviven personas que buscan pareja, gente que quiere conocer a alguien sin etiquetas y quienes solo necesitan un empujón para atreverse a quedar. Se habla de qué funciona, de banderas rojas y de cómo causar buena impresión sin fingir. Un espacio para perder el miedo a las citas, organizarlas con cabeza y convertir una buena charla en algo real.",
   },
   {
     slug: "chatligar", name: "Chat Ligar", kind: "tematica", icon: "💞",
@@ -1243,7 +1243,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["ligar", "ligame"],
     related: ["ligar", "ligame", "flirt", "ligue", "amor"],
     intro: "Chat para ligar: conoce gente con ganas de tontear y quizá algo más. Ambiente desenfadado para flirtear. Gratis y sin registro.",
-    about: "La sala desenfadada de los que vienen a ligar sin rodeos. Aquí se mezcla el tonteo, las ganas de conocer gente y esa chispa que puede acabar en amistad, en cita o en lo que surja. El plan está abierto: cada uno marca hasta dónde quiere llegar y lo dice sin tapujos. Se coquetea con naturalidad, se rompe el hielo con humor y se respeta lo que cada cual busca. Conviven gente con ganas de algo informal, quienes no descartan que la cosa vaya a más y curiosos que solo quieren pasar un buen rato. No hay perfiles que rellenar ni cuotas que pagar: funciona con lo de siempre, hablar con alguien que también tiene ganas de hablar. Un espacio para flirtear sin presión y ver qué da de sí la noche.",
+    about: "Desenfadada y directa, esta es la sala de los que vienen a ligar sin rodeos: se mezcla el tonteo, las ganas de conocer gente y esa chispa que puede acabar en amistad, en cita o en lo que surja. El plan está abierto: cada uno marca hasta dónde quiere llegar y lo dice sin tapujos. Se coquetea con naturalidad, se rompe el hielo con humor y se respeta lo que cada cual busca. Conviven gente con ganas de algo informal, quienes no descartan que la cosa vaya a más y curiosos que solo quieren pasar un buen rato. No hay perfiles que rellenar ni cuotas que pagar: funciona con lo de siempre, hablar con alguien que también tiene ganas de hablar. Un espacio para flirtear sin presión y ver qué da de sí la noche.",
   },
 
   // ───────────────────────── Apps de citas (opiniones, NO oficial) ─────────────────────────
@@ -1274,7 +1274,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_40", "mas_de_50"],
     related: ["mas-de-40", "solteros40", "amistad40", "ligar40", "amistad"],
     intro: "Chat para mayores de 40: charla, amistad y buen ambiente con gente de tu edad. La vida sigue a los 40. Gratis y sin registro.",
-    about: "La sala para los que rondan o superan los cuarenta y quieren charlar con gente de su misma etapa vital. Aquí se habla de todo lo que importa a esta edad: el trabajo, los hijos si los hay, la salud, los cambios y esa madurez que da otra perspectiva de la vida. Se viene a hacer amistades, a conocer gente nueva y a demostrar que a los cuarenta la vida social no se acaba, al contrario. Conviven personas casadas, solteras, divorciadas y de toda condición, unidas por las ganas de conversar sin las prisas ni el ruido de la gente más joven. El ambiente es relajado, maduro y cercano. Un espacio para sentirse comprendido por quienes están en el mismo momento y disfrutar de la mejor compañía a partir de los cuarenta.",
+    about: "¿Rondas o superas los cuarenta y te apetece charlar con gente de tu misma etapa? Aquí se habla de todo lo que importa a esta edad: el trabajo, los hijos si los hay, la salud, los cambios y esa madurez que da otra perspectiva de la vida. Se viene a hacer amistades, a conocer gente nueva y a demostrar que a los cuarenta la vida social no se acaba, al contrario. Conviven personas casadas, solteras, divorciadas y de toda condición, unidas por las ganas de conversar sin las prisas ni el ruido de la gente más joven. El ambiente es relajado, maduro y cercano. Un espacio para sentirse comprendido por quienes están en el mismo momento y disfrutar de la mejor compañía a partir de los cuarenta.",
   },
   {
     slug: "solteros40", name: "Solteros 40", kind: "tematica", icon: "💔",
@@ -1283,7 +1283,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_40", "mas_de_50"],
     related: ["mas-de-40", "mayores40", "ligar40", "singles", "amor"],
     intro: "Chat de solteros mayores de 40: conoce a gente sin pareja de tu edad para amistad o algo más. Empezar de nuevo a los 40. Sin registro.",
-    about: "El punto de encuentro de los solteros y solteras que pasan de los cuarenta y tienen ganas de conocer gente en su misma situación. Aquí se viene a charlar sin presión, hacer amistades y, por qué no, encontrar a alguien especial para empezar de nuevo. Se habla de lo que supone estar soltero a esta edad: las segundas oportunidades, las experiencias acumuladas y las ganas de compartir la vida con alguien afín. Conviven personas que enviudaron, que se divorciaron o que simplemente no encontraron antes a la persona adecuada, todas con la madurez de saber lo que quieren. El ambiente es cálido y sin juegos adolescentes. Un espacio para conocer gente sin pareja de tu edad y demostrar que a los cuarenta se está en el mejor momento para volver a ilusionarse.",
+    about: "¿Soltero o soltera pasados los cuarenta y con ganas de conocer gente en tu misma situación? Aquí se viene a charlar sin presión, hacer amistades y, por qué no, encontrar a alguien especial para empezar de nuevo. Se habla de lo que supone estar soltero a esta edad: las segundas oportunidades, las experiencias acumuladas y las ganas de compartir la vida con alguien afín. Conviven personas que enviudaron, que se divorciaron o que simplemente no encontraron antes a la persona adecuada, todas con la madurez de saber lo que quieren. El ambiente es cálido y sin juegos adolescentes. Un espacio para conocer gente sin pareja de tu edad y demostrar que a los cuarenta se está en el mejor momento para volver a ilusionarse.",
   },
   {
     slug: "amistad40", name: "Amistad 40", kind: "tematica", icon: "🤝",
@@ -1292,7 +1292,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_40", "mas_de_50"],
     related: ["mas-de-40", "mayores40", "amistad", "haceramigos", "solteros40"],
     intro: "Chat de amistad para mayores de 40: amplía tu círculo y haz amigos de tu edad sin buscar nada más. Solo buena compañía. Sin registro.",
-    about: "La sala para hacer amistades pasados los cuarenta, sin que nadie busque ligar ni nada más que buena compañía. A esta edad cuesta más ampliar el círculo, y aquí se viene precisamente a eso: conocer gente afín con quien tomar algo, compartir aficiones, desahogarse o planear una escapada. Se habla de la vida adulta con sus alegrías y sus complicaciones, de lo que toca cuando los hijos crecen o cuando uno quiere recuperar tiempo para sí mismo. Conviven personas de toda condición unidas por las ganas de tejer amistades sinceras y duraderas. El ambiente es maduro, respetuoso y acogedor. Un espacio para demostrar que nunca es tarde para hacer buenos amigos y llenar la agenda de planes con gente de tu edad.",
+    about: "Hacer amistades pasados los cuarenta, sin que nadie busque ligar ni nada más que buena compañía: a eso se viene. A esta edad cuesta más ampliar el círculo, y aquí se viene precisamente a eso: conocer gente afín con quien tomar algo, compartir aficiones, desahogarse o planear una escapada. Se habla de la vida adulta con sus alegrías y sus complicaciones, de lo que toca cuando los hijos crecen o cuando uno quiere recuperar tiempo para sí mismo. Conviven personas de toda condición unidas por las ganas de tejer amistades sinceras y duraderas. El ambiente es maduro, respetuoso y acogedor. Un espacio para demostrar que nunca es tarde para hacer buenos amigos y llenar la agenda de planes con gente de tu edad.",
   },
   {
     slug: "ligar40", name: "Ligar 40", kind: "tematica", icon: "😉",
@@ -1301,7 +1301,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_40", "mas_de_50"],
     related: ["mas-de-40", "mayores40", "solteros40", "ligar", "flirt"],
     intro: "Chat para ligar mayores de 40: tonteo y citas entre gente madura de tu edad. Ligar a los 40 con descaro y experiencia. Sin registro.",
-    about: "La sala para los que rondan los cuarenta y vienen a ligar con la confianza que dan los años. Aquí el tonteo es entre gente madura que sabe lo que quiere y no tiene tiempo que perder en jueguecitos. Se coquetea con descaro y experiencia, se proponen citas y se busca esa química que a cualquier edad sigue dando mariposas. Se habla sin tapujos de lo que cada uno busca, sea algo informal o el principio de una relación. Conviven solteros, divorciados y gente que ha vuelto al mercado con más seguridad que a los veinte. El ambiente es desenfadado pero adulto, lejos de las prisas y las modas de la gente joven. Un espacio para flirtear sin complejos y demostrar que a los cuarenta se liga mejor que nunca.",
+    about: "A los cuarenta se liga con la confianza que dan los años, y aquí se nota. El tonteo es entre gente madura que sabe lo que quiere y no tiene tiempo que perder en jueguecitos. Se coquetea con descaro y experiencia, se proponen citas y se busca esa química que a cualquier edad sigue dando mariposas. Se habla sin tapujos de lo que cada uno busca, sea algo informal o el principio de una relación. Conviven solteros, divorciados y gente que ha vuelto al mercado con más seguridad que a los veinte. El ambiente es desenfadado pero adulto, lejos de las prisas y las modas de la gente joven. Un espacio para flirtear sin complejos y demostrar que a los cuarenta se liga mejor que nunca.",
   },
   {
     slug: "mayores50", name: "Mayores de 50", kind: "tematica", icon: "🎉",
@@ -1310,7 +1310,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_50", "mas_de_40"],
     related: ["mas-de-50", "solteros50", "amistad50", "ligar50", "amistad"],
     intro: "Chat para mayores de 50: conversación, amistad y buen ambiente con gente de tu generación. La vida a los 50 sigue. Sin registro.",
-    about: "El rincón para los que pasan de los cincuenta y quieren charlar con gente de su misma generación. Aquí se habla de lo que de verdad importa a esta edad: la familia, los nietos para algunos, la jubilación que se acerca o ya llegó, la salud y esas ganas de disfrutar del tiempo con calma. Se viene a hacer amistades, a conocer gente nueva y a compartir esa sabiduría que dan los años vividos. Conviven personas activas, jubiladas, solteras y emparejadas, unidas por las ganas de buena conversación sin prisas. El ambiente es sereno, maduro y muy cercano, ideal para quien busca compañía de su edad. Un espacio para demostrar que a los cincuenta y más se vive con plenitud y nunca faltan ganas de conocer gente y charlar.",
+    about: "¿Pasas de los cincuenta y quieres charlar con gente de tu generación? Aquí se habla de lo que de verdad importa a esta edad: la familia, los nietos para algunos, la jubilación que se acerca o ya llegó, la salud y esas ganas de disfrutar del tiempo con calma. Se viene a hacer amistades, a conocer gente nueva y a compartir esa sabiduría que dan los años vividos. Conviven personas activas, jubiladas, solteras y emparejadas, unidas por las ganas de buena conversación sin prisas. El ambiente es sereno, maduro y muy cercano, ideal para quien busca compañía de su edad. Un espacio para demostrar que a los cincuenta y más se vive con plenitud y nunca faltan ganas de conocer gente y charlar.",
   },
   {
     slug: "solteros50", name: "Solteros 50", kind: "tematica", icon: "🕊️",
@@ -1319,7 +1319,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_50", "mas_de_40"],
     related: ["mas-de-50", "mayores50", "ligar50", "singles", "amor"],
     intro: "Chat de solteros mayores de 50: conoce a gente sin pareja de tu generación para amistad o compañía. Nunca es tarde. Sin registro.",
-    about: "El punto de encuentro de los solteros y solteras que superan los cincuenta y no se resignan a la soledad. Aquí se viene a conocer gente en la misma situación, hacer amistades y, si surge, encontrar compañía para esta etapa de la vida. Se habla con la calma y la honestidad que dan los años: de las pérdidas, de las nuevas oportunidades y de las ganas de compartir el día a día con alguien afín. Conviven personas viudas, divorciadas y quienes siempre fueron independientes, todas con la madurez de saber valorar la buena compañía. El ambiente es tranquilo, respetuoso y nada superficial. Un espacio para demostrar que el amor y la amistad no tienen edad y que a los cincuenta y más se puede volver a empezar con ilusión.",
+    about: "Superar los cincuenta no es resignarse a la soledad, y aquí se demuestra. Se viene a conocer gente en la misma situación, hacer amistades y, si surge, encontrar compañía para esta etapa de la vida. Se habla con la calma y la honestidad que dan los años: de las pérdidas, de las nuevas oportunidades y de las ganas de compartir el día a día con alguien afín. Conviven personas viudas, divorciadas y quienes siempre fueron independientes, todas con la madurez de saber valorar la buena compañía. El ambiente es tranquilo, respetuoso y nada superficial. Un espacio para demostrar que el amor y la amistad no tienen edad y que a los cincuenta y más se puede volver a empezar con ilusión.",
   },
   {
     slug: "amistad50", name: "Amistad 50", kind: "tematica", icon: "👵",
@@ -1328,7 +1328,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_50", "mas_de_40"],
     related: ["mas-de-50", "mayores50", "amistad", "solteros50", "solos"],
     intro: "Chat de amistad para mayores de 50: haz amigos de tu generación y comparte buenos ratos sin más. Compañía de calidad, sin registro.",
-    about: "La sala para tejer amistades pasados los cincuenta, sin más pretensión que la buena compañía. A esta edad las amistades de toda la vida a veces se dispersan, y aquí se viene a sumar caras nuevas con quien compartir aficiones, recuerdos y planes. Se habla de viajes para los que ahora hay más tiempo, de hobbies, de la familia y de todo lo que da gusto comentar con alguien de tu generación. Conviven jubilados, personas todavía en activo y quienes buscan llenar de compañía esta etapa. El ambiente es cálido, pausado y respetuoso, ideal para conversaciones de las que reconfortan. Un espacio para demostrar que las mejores amistades pueden nacer a cualquier edad y que a los cincuenta y más hay mucha vida social por delante.",
+    about: "Tejer amistades pasados los cincuenta, sin más pretensión que la buena compañía: eso se busca aquí. A esta edad las amistades de toda la vida a veces se dispersan, y aquí se viene a sumar caras nuevas con quien compartir aficiones, recuerdos y planes. Se habla de viajes para los que ahora hay más tiempo, de hobbies, de la familia y de todo lo que da gusto comentar con alguien de tu generación. Conviven jubilados, personas todavía en activo y quienes buscan llenar de compañía esta etapa. El ambiente es cálido, pausado y respetuoso, ideal para conversaciones de las que reconfortan. Un espacio para demostrar que las mejores amistades pueden nacer a cualquier edad y que a los cincuenta y más hay mucha vida social por delante.",
   },
   {
     slug: "ligar50", name: "Ligar 50", kind: "tematica", icon: "🌷",
@@ -1337,7 +1337,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["mas_de_50", "mas_de_40"],
     related: ["mas-de-50", "mayores50", "solteros50", "ligar", "flirt"],
     intro: "Chat para ligar mayores de 50: tonteo, citas y compañía entre gente de tu edad. Ligar a los 50 con calma y seguridad. Sin registro.",
-    about: "La sala para los que pasan de los cincuenta y todavía sienten ganas de coquetear y conocer a alguien especial. Aquí se liga con la calma y la seguridad que dan los años: sin prisas, sin postureo y sabiendo perfectamente lo que se busca. Se tontea con elegancia, se proponen citas y se busca esa compañía que llena, sea para una relación o para disfrutar del momento. Se habla con honestidad de lo que cada uno quiere a esta altura de la vida. Conviven viudos, divorciados y gente independiente con muchas ganas de volver a ilusionarse. El ambiente es maduro, respetuoso y sin las tonterías de la gente joven. Un espacio para demostrar que el flirteo no entiende de edades y que a los cincuenta y más se liga con muchísimo encanto.",
+    about: "¿Pasas de los cincuenta y todavía sientes ganas de coquetear y conocer a alguien especial? Aquí se liga con la calma y la seguridad que dan los años: sin prisas, sin postureo y sabiendo perfectamente lo que se busca. Se tontea con elegancia, se proponen citas y se busca esa compañía que llena, sea para una relación o para disfrutar del momento. Se habla con honestidad de lo que cada uno quiere a esta altura de la vida. Conviven viudos, divorciados y gente independiente con muchas ganas de volver a ilusionarse. El ambiente es maduro, respetuoso y sin las tonterías de la gente joven. Un espacio para demostrar que el flirteo no entiende de edades y que a los cincuenta y más se liga con muchísimo encanto.",
   },
 
   // ───────────────────────── Singles ─────────────────────────
@@ -1347,7 +1347,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["amor", "ligar", "divorciados", "separados", "buscarpareja"],
     intro: "Chat de singles: conoce a otras personas solteras para amistad, citas o lo que surja. La vida soltera en compañía. Gratis y sin registro.",
-    about: "El punto de encuentro de los solteros y solteras que quieren disfrutar de su estado civil en buena compañía. Aquí se viene a conocer a otras personas sin pareja, hacer amistades, quedar y, si surge la chispa, dejar de estar soltero. Se habla de la vida single con sus ventajas y sus momentos de bajón, de citas, de planes para no quedarse en casa y de esa libertad que muchos no quieren cambiar por cualquier cosa. Conviven solteros de vocación, recién separados y gente que busca activamente pareja, todos con ganas de socializar. El ambiente es abierto, divertido y sin presiones. Un espacio para vivir la soltería acompañado, ampliar el círculo y descubrir que estar single puede ser una etapa estupenda llena de posibilidades.",
+    about: "Disfrutar de la soltería en buena compañía: de eso van los que se juntan aquí. Se viene a conocer a otras personas sin pareja, hacer amistades, quedar y, si surge la chispa, dejar de estar soltero. Se habla de la vida single con sus ventajas y sus momentos de bajón, de citas, de planes para no quedarse en casa y de esa libertad que muchos no quieren cambiar por cualquier cosa. Conviven solteros de vocación, recién separados y gente que busca activamente pareja, todos con ganas de socializar. El ambiente es abierto, divertido y sin presiones. Un espacio para vivir la soltería acompañado, ampliar el círculo y descubrir que estar single puede ser una etapa estupenda llena de posibilidades.",
   },
   {
     slug: "divorciados", name: "Divorciados", kind: "tematica", icon: "🔄",
@@ -1356,7 +1356,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["singles", "separados", "amor", "solteros40", "apoyo"],
     intro: "Chat de divorciados: comparte la experiencia, haz amistades y vuelve a empezar con gente que te entiende. Pasar página, sin registro.",
-    about: "La sala para quienes han pasado por un divorcio o una separación y quieren rehacer su vida social rodeados de gente que entiende lo que han vivido. Aquí se habla con honestidad de lo difícil que es pasar página, de la custodia y los hijos, de recuperar la independencia y de las ganas, poco a poco, de volver a confiar. Se viene a hacer amistades, a desahogarse y, cuando uno está listo, a conocer gente nueva sin prisas. Conviven personas en pleno proceso, otras que ya lo superaron y quienes buscan empezar un capítulo distinto. El ambiente es comprensivo, maduro y libre de juicios. Un espacio para sentirse acompañado en una etapa complicada y comprobar que después de un divorcio también hay una vida por delante llena de oportunidades.",
+    about: "¿Has pasado por un divorcio y quieres rehacer tu vida social rodeado de gente que entiende lo que viviste? Aquí se habla con honestidad de lo difícil que es pasar página, de la custodia y los hijos, de recuperar la independencia y de las ganas, poco a poco, de volver a confiar. Se viene a hacer amistades, a desahogarse y, cuando uno está listo, a conocer gente nueva sin prisas. Conviven personas en pleno proceso, otras que ya lo superaron y quienes buscan empezar un capítulo distinto. El ambiente es comprensivo, maduro y libre de juicios. Un espacio para sentirse acompañado en una etapa complicada y comprobar que después de un divorcio también hay una vida por delante llena de oportunidades.",
   },
   {
     slug: "separados", name: "Separados", kind: "tematica", icon: "🌅",
@@ -1376,7 +1376,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["gay", "chueca", "de_ambiente"],
     related: ["gay", "gays", "gaysespana", "gayslatinos", "lgtbi", "chueca"],
     intro: "Chat gay general para conocer chicos, ligar o charlar del día a día. Ambiente abierto y sin postureo, gratis y sin registro.",
-    about: "Chat Gay es la puerta de entrada para chicos que quieren conectar sin rodeos: aquí se liga, se hacen amigos y se habla de todo lo que da el día, desde el curro y las series hasta los planes del fin de semana. Conviven veteranos del ambiente y quienes acaban de animarse a entrar por primera vez, con un tono relajado y cero presión por encasillarte en una etiqueta. Se comentan los sitios de salida de cada ciudad, se piden consejos sobre citas que pintan regular y se monta conversación a cualquier hora del día o de la madrugada. No hace falta foto ni registro: eliges un nick y ya estás dentro. Un punto de encuentro cómodo, respetuoso y con movimiento constante donde cada uno marca su propio ritmo sin que nadie le meta prisa.",
+    about: "¿Buscas conectar con otros chicos sin rodeos? Esta es tu puerta de entrada: aquí se liga, se hacen amigos y se habla de todo lo que da el día, desde el curro y las series hasta los planes del fin de semana. Conviven veteranos del ambiente y quienes acaban de animarse a entrar por primera vez, con un tono relajado y cero presión por encasillarte en una etiqueta. Se comentan los sitios de salida de cada ciudad, se piden consejos sobre citas que pintan regular y se monta conversación a cualquier hora del día o de la madrugada. No hace falta foto ni registro: eliges un nick y ya estás dentro. Un punto de encuentro cómodo, respetuoso y con movimiento constante donde cada uno marca su propio ritmo sin que nadie le meta prisa.",
   },
   {
     slug: "gaysespana", name: "Gays España", kind: "tematica", icon: "🇪🇸",
@@ -1385,7 +1385,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["gay", "chueca", "de_ambiente"],
     related: ["gay", "gays", "chatgay", "chueca", "lgtbi", "gayslatinos"],
     intro: "El ambiente gay de toda España: Chueca, el Orgullo y planes de Madrid a Barcelona. Chat gratis sin registro para quedar.",
-    about: "Gays España reúne a chicos de Madrid, Barcelona, Valencia, Sevilla y de cualquier pueblo donde el ambiente se vive más de tapadillo. Aquí se habla del Chueca de siempre, del Orgullo y sus manifestaciones, de los locales que abren y cierran cada temporada y de cómo cambia la cosa según la ciudad en la que te toque vivir. Coinciden quienes salen cada finde y quienes prefieren un café tranquilo, los de capital y los de provincias que vienen a desahogarse. Se montan quedadas, se comparten recomendaciones de bares y se debate de actualidad y derechos sin perder el buen rollo. Chat gratis y sin registro: escoge tu nick y súmate a la comunidad gay más activa del país, esté donde esté cada uno.",
+    about: "De Madrid a Barcelona, de Valencia a Sevilla y hasta los pueblos donde el ambiente se vive más de tapadillo: aquí se juntan chicos de toda España. Aquí se habla del Chueca de siempre, del Orgullo y sus manifestaciones, de los locales que abren y cierran cada temporada y de cómo cambia la cosa según la ciudad en la que te toque vivir. Coinciden quienes salen cada finde y quienes prefieren un café tranquilo, los de capital y los de provincias que vienen a desahogarse. Se montan quedadas, se comparten recomendaciones de bares y se debate de actualidad y derechos sin perder el buen rollo. Chat gratis y sin registro: escoge tu nick y súmate a la comunidad gay más activa del país, esté donde esté cada uno.",
   },
   {
     slug: "gayslatinos", name: "Gays Latinos", kind: "tematica", icon: "🌎",
@@ -1394,7 +1394,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["gay", "chueca", "de_ambiente"],
     related: ["gay", "gays", "chatgay", "gaysespana", "latinos", "mexico"],
     intro: "Chicos gais de toda Latinoamérica: México, Colombia, Argentina y más, juntos en un mismo chat. Gratis y sin registro.",
-    about: "Gays Latinos es el punto de cruce de los chicos de habla hispana que viven el ambiente a su manera, con acentos y costumbres de todo el continente. Mexicanos, colombianos, argentinos, peruanos, chilenos y venezolanos comparten aquí conversaciones que saltan de un país a otro con total naturalidad. Se habla de la fiesta y los antros de cada ciudad, de lo que cuesta salir del clóset según el entorno, de la familia, de la música y de los planes para conocerse en persona. El tono es cálido, parchado y sin poses, con espacio tanto para ligar como para hacer amistades de verdad. Chat gratis y sin registro: elige tu nick y siéntete en casa entre latinos que entienden de dónde vienes y hacia dónde quieres ir.",
+    about: "Acentos y costumbres de todo el continente se cruzan aquí: chicos de habla hispana que viven el ambiente cada uno a su manera. Mexicanos, colombianos, argentinos, peruanos, chilenos y venezolanos comparten aquí conversaciones que saltan de un país a otro con total naturalidad. Se habla de la fiesta y los antros de cada ciudad, de lo que cuesta salir del clóset según el entorno, de la familia, de la música y de los planes para conocerse en persona. El tono es cálido, parchado y sin poses, con espacio tanto para ligar como para hacer amistades de verdad. Chat gratis y sin registro: elige tu nick y siéntete en casa entre latinos que entienden de dónde vienes y hacia dónde quieres ir.",
   },
 
   // ── L6 · Contactos lesbianas ── parent: lesbianas · channels: lesbianas/lescontactos
@@ -1405,7 +1405,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["lesbianas", "lescontactos"],
     related: ["lesbianas", "les", "mujereslesbianas", "lesbico", "lgtblesbianas", "lgtbi"],
     intro: "Chat de chicas lesbianas y bi para ligar, hacer amigas y charlar sin hombres de por medio. Gratis y sin registro.",
-    about: "Chat Lesbianas es el espacio de las chicas que buscan conocerse entre ellas sin filtros incómodos ni miradas ajenas. Aquí se viene a ligar, a hacer amigas con quienes compartir el día a día y a hablar de relaciones, citas, series con representación y todo lo que une a la comunidad. Conviven chicas que llevan tiempo en el ambiente y otras que apenas empiezan a aclararse, con un tono cercano donde cada una puede ser ella misma sin dar explicaciones. Se comentan los locales de ambiente, se piden consejos sobre primeras citas y se montan planes para quedar de verdad. Chat gratis y sin registro: eliges un nick y entras a un rincón pensado para vosotras, donde la conversación fluye con complicidad y sin que nadie sobre.",
+    about: "Conocerse entre chicas sin filtros incómodos ni miradas ajenas: a eso se viene aquí, a ligar, a hacer amigas con quienes compartir el día a día y a hablar de relaciones, citas, series con representación y todo lo que une a la comunidad. Conviven chicas que llevan tiempo en el ambiente y otras que apenas empiezan a aclararse, con un tono cercano donde cada una puede ser ella misma sin dar explicaciones. Se comentan los locales de ambiente, se piden consejos sobre primeras citas y se montan planes para quedar de verdad. Chat gratis y sin registro: eliges un nick y entras a un rincón pensado para vosotras, donde la conversación fluye con complicidad y sin que nadie sobre.",
   },
   {
     slug: "mujereslesbianas", name: "Mujeres Lesbianas", kind: "tematica", icon: "🌸",
@@ -1414,7 +1414,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["lesbianas", "lescontactos"],
     related: ["lesbianas", "les", "chatlesbianas", "lesbico", "lgtblesbianas", "amistad"],
     intro: "Mujeres lesbianas adultas para amistad sincera y relaciones que duren. Conversación tranquila, gratis y sin registro.",
-    about: "Mujeres Lesbianas es la sala para chicas adultas que prefieren las conversaciones con poso a las prisas del flirteo rápido. Aquí se viene a tejer amistades sinceras, a buscar una relación seria y a hablar con calma de la vida que toca a cierta edad: el trabajo, la convivencia, los proyectos a largo plazo y las experiencias de quien ya sabe lo que quiere. Conviven mujeres que llevan años en pareja, otras que vuelven a estar solas y quienes han vivido su orientación en silencio durante mucho tiempo. El ambiente es maduro, respetuoso y libre de juegos, ideal para quienes valoran la conexión por encima del postureo. Chat gratis y sin registro: escoge tu nick y encuentra a mujeres que buscan exactamente lo mismo que tú, sin medias tintas.",
+    about: "Para chicas adultas que prefieren las conversaciones con poso a las prisas del flirteo rápido, este es su sitio. Aquí se viene a tejer amistades sinceras, a buscar una relación seria y a hablar con calma de la vida que toca a cierta edad: el trabajo, la convivencia, los proyectos a largo plazo y las experiencias de quien ya sabe lo que quiere. Conviven mujeres que llevan años en pareja, otras que vuelven a estar solas y quienes han vivido su orientación en silencio durante mucho tiempo. El ambiente es maduro, respetuoso y libre de juegos, ideal para quienes valoran la conexión por encima del postureo. Chat gratis y sin registro: escoge tu nick y encuentra a mujeres que buscan exactamente lo mismo que tú, sin medias tintas.",
   },
   {
     slug: "lesbico", name: "Ambiente Lésbico", kind: "tematica", icon: "🦋",
@@ -1423,7 +1423,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["lesbianas", "lescontactos"],
     related: ["lesbianas", "les", "chatlesbianas", "mujereslesbianas", "lgtblesbianas", "chueca"],
     intro: "Todo el ambiente lésbico: locales, fiestas, cultura y referentes. Un chat para vivir la escena. Gratis y sin registro.",
-    about: "Ambiente Lésbico es el rincón para las que viven la escena con ganas: las fiestas, los locales de cada ciudad, los festivales, las series y películas con personajes que por fin se parecen a una, y las referentes que abrieron camino. Aquí se comentan estrenos, se recomiendan canciones y libros, se debate de visibilidad y se comparte dónde se mueve la cosa cada fin de semana. Conviven chicas muy metidas en la cultura LGTB y curiosas que llegan a descubrirla, todas con sitio para opinar. Más allá de ligar, esta sala va de sentirse parte de algo y de no perderse lo que pasa en la escena. Chat gratis y sin registro: elige tu nick, súmate a la conversación y entérate de todo lo que mueve el ambiente.",
+    about: "¿Vives la escena con ganas? Aquí caben las fiestas, los locales de cada ciudad, los festivales, las series y películas con personajes que por fin se parecen a una, y las referentes que abrieron camino. Aquí se comentan estrenos, se recomiendan canciones y libros, se debate de visibilidad y se comparte dónde se mueve la cosa cada fin de semana. Conviven chicas muy metidas en la cultura LGTB y curiosas que llegan a descubrirla, todas con sitio para opinar. Más allá de ligar, esta sala va de sentirse parte de algo y de no perderse lo que pasa en la escena. Chat gratis y sin registro: elige tu nick, súmate a la conversación y entérate de todo lo que mueve el ambiente.",
   },
   {
     slug: "lgtblesbianas", name: "LGTB Lesbianas", kind: "tematica", icon: "🏳️‍🌈",
@@ -1432,7 +1432,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["lesbianas", "lescontactos"],
     related: ["lesbianas", "les", "lgtbi", "chatlesbianas", "lesbico", "comunidad-lgbt"],
     intro: "Lesbianas dentro del colectivo LGTB: derechos, activismo y comunidad. Sumar voces y hacer red. Gratis y sin registro.",
-    about: "LGTB Lesbianas pone el foco en la parte del colectivo donde las chicas a veces quedan en segundo plano. Aquí se habla de derechos, de activismo, de leyes que avanzan o retroceden, de la salud y de la representación que todavía falta, sin dejar de lado la vida cotidiana de cada una. Conviven activistas curtidas, chicas que se están informando por primera vez y aliadas que quieren entender mejor. Se comparten convocatorias, charlas, lecturas y experiencias de discriminación o de logros conseguidos a pulso. Es un espacio para hacer red, sentirse respaldada y darle voz a lo lésbico dentro de las siglas. Chat gratis y sin registro: elige tu nick y participa en una conversación comprometida, plural y siempre desde el respeto.",
+    about: "En el colectivo, las chicas a veces quedan en segundo plano: aquí se les pone el foco. Se habla de derechos, de activismo, de leyes que avanzan o retroceden, de la salud y de la representación que todavía falta, sin dejar de lado la vida cotidiana de cada una. Conviven activistas curtidas, chicas que se están informando por primera vez y aliadas que quieren entender mejor. Se comparten convocatorias, charlas, lecturas y experiencias de discriminación o de logros conseguidos a pulso. Es un espacio para hacer red, sentirse respaldada y darle voz a lo lésbico dentro de las siglas. Chat gratis y sin registro: elige tu nick y participa en una conversación comprometida, plural y siempre desde el respeto.",
   },
 
   // ── L6 · Contactos adultos (+18) ── parent: adultos · channels: parejas/cornudos
@@ -1443,7 +1443,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["parejas", "cornudos"],
     related: ["adultos", "chatadultos", "adultos30", "adultos40", "amor", "ligar"],
     intro: "Sala solo para mayores de 18: charla adulta, contactos y conversación sin filtros para gente hecha. Gratis y sin registro.",
-    about: "Mayores 18 es una sala estrictamente para adultos donde la conversación va sin los filtros de los espacios para todos los públicos. Aquí se habla con franqueza de relaciones, deseo, experiencias y de lo que cada uno busca, siempre entre personas que ya tienen la mayoría de edad y saben lo que hacen. Conviven solteros, gente con ganas de conocer afinidades y curiosos que prefieren un tono más desinhibido. La norma es clara: respeto, consentimiento y nada de menores. Se viene a charlar abiertamente, a hacer contactos y a coincidir con quien comparte tu mismo nivel de confianza. Chat gratis y sin registro: confirma que eres mayor de edad, elige un nick y entra a un espacio adulto donde se habla claro y sin tabúes.",
+    about: "Estrictamente para adultos: aquí la conversación va sin los filtros de los espacios para todos los públicos. Se habla con franqueza de relaciones, deseo, experiencias y de lo que cada uno busca, siempre entre personas que ya tienen la mayoría de edad y saben lo que hacen. Conviven solteros, gente con ganas de conocer afinidades y curiosos que prefieren un tono más desinhibido. La norma es clara: respeto, consentimiento y nada de menores. Se viene a charlar abiertamente, a hacer contactos y a coincidir con quien comparte tu mismo nivel de confianza. Chat gratis y sin registro: confirma que eres mayor de edad, elige un nick y entra a un espacio adulto donde se habla claro y sin tabúes.",
   },
   {
     slug: "chatadultos", name: "Chat Adultos", kind: "tematica", icon: "🌶️",
@@ -1452,7 +1452,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["parejas", "cornudos"],
     related: ["adultos", "mayores18", "adultos30", "adultos40", "ligar", "amor"],
     intro: "Chat para adultos que quieren conversación picante y contactos sin rodeos. Mente abierta y respeto. Gratis y sin registro.",
-    about: "Chat Adultos es el punto de encuentro para gente mayor de edad con la mente abierta y ganas de una conversación más subida de tono que la habitual. Aquí se habla de gustos, de fantasías y de lo que cada uno busca, desde quien solo quiere coquetear a quien pretende conocer afinidades para algo más. Conviven solteros, personas con experiencia y curiosos que llegan sin etiquetas, todos bajo una regla innegociable: respeto y consentimiento por encima de todo. Se viene a soltarse, a flirtear y a hacer contactos con quien está en la misma onda, sin postureos ni dobles intenciones ocultas. Chat gratis y sin registro: confirma que eres adulto, escoge tu nick y entra a charlar con la libertad de hablar de lo que en otros sitios no se dice.",
+    about: "¿Mayor de edad, mente abierta y ganas de una conversación más subida de tono que la habitual? Aquí se habla de gustos, de fantasías y de lo que cada uno busca, desde quien solo quiere coquetear a quien pretende conocer afinidades para algo más. Conviven solteros, personas con experiencia y curiosos que llegan sin etiquetas, todos bajo una regla innegociable: respeto y consentimiento por encima de todo. Se viene a soltarse, a flirtear y a hacer contactos con quien está en la misma onda, sin postureos ni dobles intenciones ocultas. Chat gratis y sin registro: confirma que eres adulto, escoge tu nick y entra a charlar con la libertad de hablar de lo que en otros sitios no se dice.",
   },
   {
     slug: "adultos30", name: "Adultos 30", kind: "tematica", icon: "🍸",
@@ -1461,7 +1461,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["parejas", "cornudos"],
     related: ["adultos", "adultos40", "chatadultos", "mayores18", "singles", "ligar"],
     intro: "Adultos en la treintena: contactos, citas y charla para quien ya sabe lo que quiere. Sin postureo, gratis y sin registro.",
-    about: "Adultos 30 es la sala de los que rondan la treintena y buscan conocer gente de su misma etapa vital, esa en la que ya se tiene claro lo que se quiere y lo que no. Aquí coinciden solteros con la carrera lanzada, recién salidos de una relación larga y quienes compaginan trabajo, amigos y ganas de ligar sin dramas adolescentes. Se habla de citas, de relaciones que van en serio o que solo buscan diversión, de planes de adulto y de esa sensación de que el reloj corre distinto a los veinte. El ambiente es maduro pero divertido, sin las prisas de la juventud ni la rigidez de otras edades. Chat gratis y sin registro: elige tu nick y conecta con treintañeros que están justo en tu mismo momento y entienden tus prioridades.",
+    about: "En la treintena ya se tiene claro lo que se quiere y lo que no, y aquí se conoce a gente justo en esa etapa. Coinciden solteros con la carrera lanzada, recién salidos de una relación larga y quienes compaginan trabajo, amigos y ganas de ligar sin dramas adolescentes. Se habla de citas, de relaciones que van en serio o que solo buscan diversión, de planes de adulto y de esa sensación de que el reloj corre distinto a los veinte. El ambiente es maduro pero divertido, sin las prisas de la juventud ni la rigidez de otras edades. Chat gratis y sin registro: elige tu nick y conecta con treintañeros que están justo en tu mismo momento y entienden tus prioridades.",
   },
   {
     slug: "adultos40", name: "Adultos 40", kind: "tematica", icon: "🥃",
@@ -1470,7 +1470,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["parejas", "cornudos"],
     related: ["adultos", "adultos30", "chatadultos", "mayores18", "solteros40", "amor"],
     intro: "Adultos a partir de los 40: contactos, citas maduras y charla con experiencia. Sin tonterías, gratis y sin registro.",
-    about: "Adultos 40 reúne a personas que ya han cumplido los cuarenta y buscan contactos y conversación con gente de su misma madurez. Aquí no hay sitio para los juegos de la juventud: se viene con las ideas claras, ya sea a buscar pareja, a tener citas sin compromiso o simplemente a charlar con quien comparte vivencias parecidas. Se habla con naturalidad de segundas oportunidades, de hijos ya mayores, de la libertad que da cierta edad y de redescubrir el deseo después de los cuarenta. Conviven divorciados, solteros de toda la vida y quienes empiezan etapa nueva, todos con experiencia a las espaldas y ganas de pasarlo bien. Chat gratis y sin registro: elige tu nick y conoce a adultos de tu edad que saben lo que valen y lo que buscan.",
+    about: "Pasados los cuarenta, los contactos y la conversación se buscan con gente de la misma madurez. Aquí no hay sitio para los juegos de la juventud: se viene con las ideas claras, ya sea a buscar pareja, a tener citas sin compromiso o simplemente a charlar con quien comparte vivencias parecidas. Se habla con naturalidad de segundas oportunidades, de hijos ya mayores, de la libertad que da cierta edad y de redescubrir el deseo después de los cuarenta. Conviven divorciados, solteros de toda la vida y quienes empiezan etapa nueva, todos con experiencia a las espaldas y ganas de pasarlo bien. Chat gratis y sin registro: elige tu nick y conoce a adultos de tu edad que saben lo que valen y lo que buscan.",
   },
 
   // ── L6 · Contactos genéricos ── hub nuevo: contactos · channels: amor/ligar
@@ -1480,7 +1480,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["contactosgratis", "conocerpersonas", "solteros", "solteras", "amor", "ligar"],
     intro: "El chat de contactos de toda la vida: conoce gente, liga o haz amigos sin complicarte. Gratis, abierto y sin registro.",
-    about: "Contactos es la sala generalista para quien quiere conocer gente nueva sin etiquetas ni filtros que compliquen las cosas. Aquí cabe todo: ligar, buscar pareja, hacer amistades o simplemente charlar para que el día se haga menos largo. Conviven solteros de todas las edades, personas que vuelven al mundo de las citas y curiosos que entran a ver qué se cuece, con un ambiente abierto y muy fácil de seguir. Funciona como punto de partida desde el que saltar a salas más concretas si lo necesitas, pero también vale por sí solo para soltar conversación a cualquier hora. Sin foto obligatoria ni largos formularios: el contacto fluye desde el primer mensaje. Chat gratis y sin registro: elige tu nick y empieza a hacer contactos en segundos, sin barreras de por medio.",
+    about: "Conocer gente nueva sin etiquetas ni filtros que compliquen las cosas: esa es la idea. Aquí cabe todo: ligar, buscar pareja, hacer amistades o simplemente charlar para que el día se haga menos largo. Conviven solteros de todas las edades, personas que vuelven al mundo de las citas y curiosos que entran a ver qué se cuece, con un ambiente abierto y muy fácil de seguir. Funciona como punto de partida desde el que saltar a salas más concretas si lo necesitas, pero también vale por sí solo para soltar conversación a cualquier hora. Sin foto obligatoria ni largos formularios: el contacto fluye desde el primer mensaje. Chat gratis y sin registro: elige tu nick y empieza a hacer contactos en segundos, sin barreras de por medio.",
   },
   {
     slug: "contactosgratis", name: "Contactos Gratis", kind: "tematica", icon: "🆓",
@@ -1489,7 +1489,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["contactos", "conocerpersonas", "solteros", "solteras", "ligar", "amistad"],
     intro: "Contactos 100% gratis: nada de muros de pago ni trucos. Conoce gente sin gastar un euro. Sin registro y al momento.",
-    about: "Contactos Gratis es la respuesta a las apps que te enseñan a alguien y luego te piden la tarjeta para escribirle. Aquí no hay muros de pago, ni mensajes bloqueados, ni funciones premium escondidas: conocer gente es gratis de principio a fin y siempre lo será. Se viene a ligar, a hacer amistades o a buscar pareja con la tranquilidad de que nadie te va a pedir una suscripción a mitad de conversación. Conviven personas hartas de pagar por hablar y otras que descubren por primera vez que se puede chatear sin coste. El ambiente es directo y sin letra pequeña. Chat gratis de verdad y sin registro: eliges un nick y empiezas a escribir, sin tarjetas, sin pruebas gratuitas que caducan y sin sorpresas en la cuenta a final de mes.",
+    about: "¿Harto de las apps que te enseñan a alguien y luego te piden la tarjeta para escribirle? Esta es la respuesta. Aquí no hay muros de pago, ni mensajes bloqueados, ni funciones premium escondidas: conocer gente es gratis de principio a fin y siempre lo será. Se viene a ligar, a hacer amistades o a buscar pareja con la tranquilidad de que nadie te va a pedir una suscripción a mitad de conversación. Conviven personas hartas de pagar por hablar y otras que descubren por primera vez que se puede chatear sin coste. El ambiente es directo y sin letra pequeña. Chat gratis de verdad y sin registro: eliges un nick y empiezas a escribir, sin tarjetas, sin pruebas gratuitas que caducan y sin sorpresas en la cuenta a final de mes.",
   },
   {
     slug: "conocerpersonas", name: "Conocer Personas", kind: "tematica", icon: "🤝",
@@ -1498,7 +1498,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["contactos", "contactosgratis", "solteros", "solteras", "amistad", "haceramigos"],
     intro: "Conoce personas nuevas sin presión: amistad, charla o lo que surja. Para ampliar tu círculo. Gratis y sin registro.",
-    about: "Conocer Personas es la sala para quien quiere ensanchar su mundo y sumar caras nuevas a su vida, sin que todo gire forzosamente en torno a ligar. Aquí se viene a charlar con desconocidos que pueden acabar siendo amigos, a compartir aficiones, a pedir y dar consejo y a romper esa rutina en la que uno habla siempre con la misma gente. Conviven personas tímidas que dan el paso poco a poco, recién llegados a una ciudad y quienes simplemente sienten que su círculo se ha quedado pequeño. El ambiente es amable y sin exigencias: cada conversación va a donde quiera ir. Chat gratis y sin registro: elige tu nick y empieza a conocer personas con las que, quizá, no habrías coincidido nunca de otra forma.",
+    about: "Ensanchar el mundo y sumar caras nuevas, sin que todo gire forzosamente en torno a ligar: a eso se viene. Se charla con desconocidos que pueden acabar siendo amigos, a compartir aficiones, a pedir y dar consejo y a romper esa rutina en la que uno habla siempre con la misma gente. Conviven personas tímidas que dan el paso poco a poco, recién llegados a una ciudad y quienes simplemente sienten que su círculo se ha quedado pequeño. El ambiente es amable y sin exigencias: cada conversación va a donde quiera ir. Chat gratis y sin registro: elige tu nick y empieza a conocer personas con las que, quizá, no habrías coincidido nunca de otra forma.",
   },
   {
     slug: "solteros", name: "Solteros", kind: "tematica", icon: "🙋‍♂️",
@@ -1507,7 +1507,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["contactos", "solteras", "singles", "buscarpareja", "ligar", "amor"],
     intro: "Chat de solteros con ganas de conocer chicas, ligar o encontrar pareja. La soltería en buena compañía. Gratis y sin registro.",
-    about: "Solteros es la sala de los chicos que están sin pareja y no piensan quedarse en casa esperando a que pase algo. Aquí se viene a conocer chicas, a ligar con soltura y a buscar esa relación que no termina de aparecer en el día a día. Conviven solteros de vocación, recién salidos de una historia y quienes llevan tiempo intentándolo sin suerte, todos con ganas de pasarlo bien y de aprender a desenvolverse en la conversación. Se habla de citas, de qué funciona y qué no a la hora de acercarse a alguien, y de los altibajos de la vida sin pareja. El ambiente es animado, directo y sin complejos. Chat gratis y sin registro: elige tu nick y lánzate a conocer gente, porque la soltería se lleva mucho mejor cuando hay con quien compartirla.",
+    about: "Estar sin pareja no es quedarse en casa esperando a que pase algo, y aquí se demuestra. Se viene a conocer chicas, a ligar con soltura y a buscar esa relación que no termina de aparecer en el día a día. Conviven solteros de vocación, recién salidos de una historia y quienes llevan tiempo intentándolo sin suerte, todos con ganas de pasarlo bien y de aprender a desenvolverse en la conversación. Se habla de citas, de qué funciona y qué no a la hora de acercarse a alguien, y de los altibajos de la vida sin pareja. El ambiente es animado, directo y sin complejos. Chat gratis y sin registro: elige tu nick y lánzate a conocer gente, porque la soltería se lleva mucho mejor cuando hay con quien compartirla.",
   },
   {
     slug: "solteras", name: "Solteras", kind: "tematica", icon: "🙋‍♀️",
@@ -1516,7 +1516,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "ligar"],
     related: ["contactos", "solteros", "singles", "encontraramor", "amor", "amistad"],
     intro: "Chat de solteras para conocer gente, ligar o buscar pareja a su ritmo y sin agobios. Gratis y sin registro.",
-    about: "Solteras es el espacio de las chicas sin pareja que quieren conocer gente nueva sin que nadie las meta prisa ni les diga lo que deben buscar. Aquí se viene a ligar si apetece, a hacer amistades y a encontrar una relación que merezca la pena, todo a un ritmo propio y sin agobios. Conviven mujeres que disfrutan de su soltería, otras que empiezan de cero tras una ruptura y quienes buscan algo serio con calma y criterio. Se habla de citas con sus aciertos y sus desastres, de lo que una espera de una pareja y de cómo distinguir quién vale la pena. El ambiente es cómplice, seguro y libre de presiones. Chat gratis y sin registro: elige tu nick y conoce gente sabiendo que aquí las riendas las llevas tú.",
+    about: "Conocer gente nueva sin que nadie te meta prisa ni te diga lo que debes buscar: aquí las chicas sin pareja llevan las riendas. Se liga si apetece, a hacer amistades y a encontrar una relación que merezca la pena, todo a un ritmo propio y sin agobios. Conviven mujeres que disfrutan de su soltería, otras que empiezan de cero tras una ruptura y quienes buscan algo serio con calma y criterio. Se habla de citas con sus aciertos y sus desastres, de lo que una espera de una pareja y de cómo distinguir quién vale la pena. El ambiente es cómplice, seguro y libre de presiones. Chat gratis y sin registro: elige tu nick y conoce gente sabiendo que aquí las riendas las llevas tú.",
   },
 
   // ── L6 · Hispanos en el exterior ── parent: hispanos · channels: usa/latinos
@@ -1527,7 +1527,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "latinosusa", "texas", "usa", "latinos", "mexico"],
     intro: "Hispanos viviendo en Estados Unidos: comunidad, papeleos, trabajo y nostalgia compartida. Gratis y sin registro.",
-    about: "Hispanos en USA es el punto de encuentro de los que han hecho las maletas y han empezado una vida nueva al otro lado, con el español como lengua común. Aquí se habla de lo que de verdad importa cuando emigras: el trabajo, los papeleos interminables, encontrar piso, el sistema de salud y esa nostalgia de la comida y la gente de casa. Conviven recién llegados pidiendo consejo, veteranos que ya conocen los trucos y familias enteras instaladas desde hace años. Se comparten experiencias de cada estado, contactos para echar una mano y también ratos de charla para sentirse menos lejos. El ambiente es solidario y muy familiar. Chat gratis y sin registro: elige tu nick y conecta con paisanos que entienden de primera mano lo que supone empezar de cero en otro país.",
+    about: "Hacer las maletas y empezar una vida nueva al otro lado, con el español como lengua común: eso une a los que coinciden aquí. Se habla de lo que de verdad importa cuando emigras: el trabajo, los papeleos interminables, encontrar piso, el sistema de salud y esa nostalgia de la comida y la gente de casa. Conviven recién llegados pidiendo consejo, veteranos que ya conocen los trucos y familias enteras instaladas desde hace años. Se comparten experiencias de cada estado, contactos para echar una mano y también ratos de charla para sentirse menos lejos. El ambiente es solidario y muy familiar. Chat gratis y sin registro: elige tu nick y conecta con paisanos que entienden de primera mano lo que supone empezar de cero en otro país.",
   },
   {
     slug: "latinosusa", name: "Latinos en USA", kind: "tematica", icon: "🌮",
@@ -1536,7 +1536,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "hispanosenusa", "texas", "latinos", "usa", "colombia"],
     intro: "Latinos en Estados Unidos: cultura, música, fiestas y comunidad de todos los países. Gratis y sin registro.",
-    about: "Latinos en USA celebra la fuerza de la comunidad latina que cada año pinta de más color a Estados Unidos. Aquí se juntan mexicanos, colombianos, salvadoreños, dominicanos, venezolanos y de todas partes para hablar de lo que los une: la música, las fiestas, la comida, el fútbol y el orgullo de las raíces que no se pierden por mucho que cambie el país. Se comentan los eventos latinos de cada ciudad, los sitios donde encontrar productos de casa y las series y artistas del momento. Conviven nacidos allí de padres migrantes y recién llegados que buscan su sitio. El ambiente es alegre, ruidoso y muy de barrio. Chat gratis y sin registro: elige tu nick y súmate a la comunidad latina más viva, esa que mantiene vivas las costumbres a miles de kilómetros de su tierra.",
+    about: "Cada año la comunidad latina pinta de más color a Estados Unidos, y aquí se celebra esa fuerza. Se juntan mexicanos, colombianos, salvadoreños, dominicanos, venezolanos y de todas partes para hablar de lo que los une: la música, las fiestas, la comida, el fútbol y el orgullo de las raíces que no se pierden por mucho que cambie el país. Se comentan los eventos latinos de cada ciudad, los sitios donde encontrar productos de casa y las series y artistas del momento. Conviven nacidos allí de padres migrantes y recién llegados que buscan su sitio. El ambiente es alegre, ruidoso y muy de barrio. Chat gratis y sin registro: elige tu nick y súmate a la comunidad latina más viva, esa que mantiene vivas las costumbres a miles de kilómetros de su tierra.",
   },
   {
     slug: "texas", name: "Texas", kind: "tematica", icon: "🤠",
@@ -1545,7 +1545,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "hispanosenusa", "latinosusa", "mexico", "usa", "latinos"],
     intro: "Hispanos en Texas: de Houston a Dallas, frontera, trabajo y vida tex-mex. Comunidad de paisanos. Gratis y sin registro.",
-    about: "Texas es la sala de los hispanos que viven en el estado de la estrella solitaria, donde la cultura mexicana y la americana llevan generaciones mezcladas. Aquí se habla de Houston, San Antonio, Dallas, Austin y El Paso, de la vida en la frontera, del trabajo en la construcción o el campo y de criar a los hijos entre dos idiomas. Conviven mexicanos de toda la vida, centroamericanos recién llegados y tejanos de raíces hispanas que se sienten de aquí y de allá a la vez. Se comparten consejos sobre permisos, los mejores sitios para comer tex-mex de verdad y los planes para las fiestas y los partidos. El ambiente es cálido y muy de paisanos. Chat gratis y sin registro: elige tu nick y conecta con la enorme comunidad hispana que hace de Texas su casa.",
+    about: "En el estado de la estrella solitaria, la cultura mexicana y la americana llevan generaciones mezcladas. Aquí se habla de Houston, San Antonio, Dallas, Austin y El Paso, de la vida en la frontera, del trabajo en la construcción o el campo y de criar a los hijos entre dos idiomas. Conviven mexicanos de toda la vida, centroamericanos recién llegados y tejanos de raíces hispanas que se sienten de aquí y de allá a la vez. Se comparten consejos sobre permisos, los mejores sitios para comer tex-mex de verdad y los planes para las fiestas y los partidos. El ambiente es cálido y muy de paisanos. Chat gratis y sin registro: elige tu nick y conecta con la enorme comunidad hispana que hace de Texas su casa.",
   },
   {
     slug: "argentinosenelexterior", name: "Argentinos en el Exterior", kind: "tematica", icon: "🧉",
@@ -1554,7 +1554,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "argentina", "latinosusa", "hispanosenusa", "latinos", "usa"],
     intro: "Argentinos repartidos por el mundo: mate, nostalgia, trámites y contactos para los que se fueron. Gratis y sin registro.",
-    about: "Argentinos en el Exterior es la peña de los che que armaron las valijas y se fueron a probar suerte por el mundo, sea a Estados Unidos, Europa o donde el destino los haya llevado. Acá se habla de lo que extraña todo argentino lejos de casa: el mate que no es lo mismo afuera, el asado del domingo, el fútbol a deshora y la familia que quedó del otro lado. Se comparten datos sobre trámites, visas, laburo y cómo conseguir yerba o dulce de leche en cada ciudad. Conviven recién emigrados con bronca y nostalgia y veteranos ya acomodados que tiran consejos. El clima es de paisanos que se entienden con una sola palabra. Chat gratis y sin registro: elegí tu nick y conectá con compatriotas que saben lo que es empezar de nuevo lejos del país.",
+    about: "Los che que armaron las valijas y se fueron a probar suerte por el mundo —a Estados Unidos, Europa o donde el destino los haya llevado— se juntan acá. Se habla de lo que extraña todo argentino lejos de casa: el mate que no es lo mismo afuera, el asado del domingo, el fútbol a deshora y la familia que quedó del otro lado. Se comparten datos sobre trámites, visas, laburo y cómo conseguir yerba o dulce de leche en cada ciudad. Conviven recién emigrados con bronca y nostalgia y veteranos ya acomodados que tiran consejos. El clima es de paisanos que se entienden con una sola palabra. Chat gratis y sin registro: elegí tu nick y conectá con compatriotas que saben lo que es empezar de nuevo lejos del país.",
   },
   {
     slug: "venezolanosenusa", name: "Venezolanos en USA", kind: "tematica", icon: "🇻🇪",
@@ -1563,7 +1563,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "venezuela", "hispanosenusa", "latinosusa", "latinos", "usa"],
     intro: "Venezolanos en Estados Unidos: TPS, asilo, trabajo y la comunidad que crece. Apoyo entre paisanos. Gratis y sin registro.",
-    about: "Venezolanos en USA es el refugio de los que dejaron el país buscando un futuro y hoy levantan una vida nueva en Estados Unidos. Aquí se habla sin rodeos de lo que pesa de verdad: el TPS, los procesos de asilo, revalidar títulos, encontrar el primer trabajo y mandar lo que se pueda a la familia que quedó allá. Conviven recién llegados desorientados, profesionales que empiezan desde abajo y quienes ya tienen sus papeles y echan una mano a los demás. También hay sitio para la arepa, el béisbol, la música y la nostalgia de una Venezuela que duele y se quiere a partes iguales. El ambiente es de hermandad pura. Chat gratis y sin registro: elige tu nick y únete a una comunidad que se sostiene entre sí lejos de casa.",
+    about: "Dejar el país buscando un futuro y levantar una vida nueva en Estados Unidos: eso une a los que se refugian aquí. Se habla sin rodeos de lo que pesa de verdad: el TPS, los procesos de asilo, revalidar títulos, encontrar el primer trabajo y mandar lo que se pueda a la familia que quedó allá. Conviven recién llegados desorientados, profesionales que empiezan desde abajo y quienes ya tienen sus papeles y echan una mano a los demás. También hay sitio para la arepa, el béisbol, la música y la nostalgia de una Venezuela que duele y se quiere a partes iguales. El ambiente es de hermandad pura. Chat gratis y sin registro: elige tu nick y únete a una comunidad que se sostiene entre sí lejos de casa.",
   },
   {
     slug: "colombianosenusa", name: "Colombianos en USA", kind: "tematica", icon: "🇨🇴",
@@ -1572,7 +1572,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["usa", "latinos"],
     related: ["hispanos", "colombia", "hispanosenusa", "latinosusa", "latinos", "usa"],
     intro: "Colombianos en Estados Unidos: parche, trabajo, papeles y rumba paisa lejos de casa. Comunidad activa. Gratis y sin registro.",
-    about: "Colombianos en USA reúne a los paisanos que cambiaron el café de la finca por el madrugón americano y montaron parche al otro lado. Aquí se habla de lo que vive todo colombiano emigrado: conseguir trabajo, sacar los papeles, mandar remesas y aguantar el frío extrañando el calor de la gente de casa. Se comparten datos de dónde comer una buena bandeja paisa, dónde suena vallenato y reguetón el finde y cómo se mueve la comunidad en cada ciudad. Conviven recién llegados pidiendo el dato, veteranos bien instalados y quienes nacieron allá pero llevan Colombia en la sangre. El ambiente es echado pa'lante y muy parchado. Chat gratis y sin registro: elige tu nick y conecta con compatriotas que le ponen sabor a la vida lejos de la tierrita.",
+    about: "Cambiar el café de la finca por el madrugón americano y montar parche al otro lado: eso une a los paisanos de aquí. Se habla de lo que vive todo colombiano emigrado: conseguir trabajo, sacar los papeles, mandar remesas y aguantar el frío extrañando el calor de la gente de casa. Se comparten datos de dónde comer una buena bandeja paisa, dónde suena vallenato y reguetón el finde y cómo se mueve la comunidad en cada ciudad. Conviven recién llegados pidiendo el dato, veteranos bien instalados y quienes nacieron allá pero llevan Colombia en la sangre. El ambiente es echado pa'lante y muy parchado. Chat gratis y sin registro: elige tu nick y conecta con compatriotas que le ponen sabor a la vida lejos de la tierrita.",
   },
 
   // ── L6 · Jóvenes ── hub nuevo: jovenes · channels: adolescentes/ocio
@@ -1582,7 +1582,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["adolescentes", "ocio"],
     related: ["universitarios", "amistadjoven", "chatjoven", "amistad", "estudiantes"],
     intro: "El chat de los jóvenes: música, redes, planes y todo lo que mueve a la peña de ahora. Sin rollos, gratis y sin registro.",
-    about: "Jóvenes es la sala donde la peña de ahora habla de lo suyo sin que nadie venga a dar lecciones. Aquí se comenta la música del momento, los virales de las redes, las series que todos están viendo, los videojuegos, los memes y los planes para el finde que se montan sobre la marcha. Conviven estudiantes, primerizos en el mundo laboral y quienes simplemente quieren hacer amigos de su edad para no aburrirse. Se habla de relaciones, de agobios con los estudios, de modas y de esas movidas que solo entiende quien las está viviendo ahora mismo. El ambiente es desenfadado, rápido y con mucho humor. Chat gratis y sin registro: elige tu nick y entra a un sitio donde por fin se habla tu idioma y nadie te dice eso de que en sus tiempos era distinto.",
+    about: "Aquí la peña de ahora habla de lo suyo sin que nadie venga a dar lecciones: se comenta la música del momento, los virales de las redes, las series que todos están viendo, los videojuegos, los memes y los planes para el finde que se montan sobre la marcha. Conviven estudiantes, primerizos en el mundo laboral y quienes simplemente quieren hacer amigos de su edad para no aburrirse. Se habla de relaciones, de agobios con los estudios, de modas y de esas movidas que solo entiende quien las está viviendo ahora mismo. El ambiente es desenfadado, rápido y con mucho humor. Chat gratis y sin registro: elige tu nick y entra a un sitio donde por fin se habla tu idioma y nadie te dice eso de que en sus tiempos era distinto.",
   },
   {
     slug: "universitarios", name: "Universitarios", kind: "tematica", icon: "🎓",
@@ -1591,7 +1591,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["adolescentes", "ocio"],
     related: ["jovenes", "amistadjoven", "chatjoven", "universidad", "estudiantes", "estudiar"],
     intro: "Chat universitario: apuntes, exámenes, fiestas de facultad y vida de campus. Conoce gente de tu carrera. Gratis y sin registro.",
-    about: "Universitarios es la sala de los que están en plena etapa de carrera, con todo lo que eso significa: los apuntes que nunca llegan, los exámenes que se juntan, las prácticas, los TFG eternos y las fiestas de facultad que compensan el sufrimiento. Aquí se piden y comparten consejos sobre asignaturas y profesores, se buscan compañeros de estudio o de piso y se montan planes para salir entre semana. Conviven estudiantes de primero perdidísimos, veteranos a punto de graduarse y quienes hacen un Erasmus lejos de casa. Se habla de salidas profesionales, de la presión por aprobar y de cómo sobrevivir con poco dinero. El ambiente es joven, espabilado y muy de campus. Chat gratis y sin registro: elige tu nick y conecta con universitarios que viven justo lo mismo que tú.",
+    about: "Estar en plena carrera significa muchas cosas, y aquí se viven todas: los apuntes que nunca llegan, los exámenes que se juntan, las prácticas, los TFG eternos y las fiestas de facultad que compensan el sufrimiento. Aquí se piden y comparten consejos sobre asignaturas y profesores, se buscan compañeros de estudio o de piso y se montan planes para salir entre semana. Conviven estudiantes de primero perdidísimos, veteranos a punto de graduarse y quienes hacen un Erasmus lejos de casa. Se habla de salidas profesionales, de la presión por aprobar y de cómo sobrevivir con poco dinero. El ambiente es joven, espabilado y muy de campus. Chat gratis y sin registro: elige tu nick y conecta con universitarios que viven justo lo mismo que tú.",
   },
   {
     slug: "amistadjoven", name: "Amistad Joven", kind: "tematica", icon: "🤙",
@@ -1600,7 +1600,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["adolescentes", "ocio"],
     related: ["jovenes", "universitarios", "chatjoven", "amistad", "haceramigos", "amigos"],
     intro: "Haz amigos de tu edad sin que todo sea ligar: planes, gustos y buen rollo. Amistad joven de verdad. Gratis y sin registro.",
-    about: "Amistad Joven es para los que buscan justo eso, amigos de su edad, y no quieren que cada conversación acabe derivando en ligoteo. Aquí se viene a encontrar gente con quien compartir gustos, montar planes, hablar de música, series o videojuegos y, sobre todo, no sentirse solo en una etapa en la que el grupo de siempre a veces se dispersa. Conviven jóvenes que se han mudado de ciudad, tímidos a los que les cuesta dar el paso y quienes simplemente quieren ampliar su pandilla. Se habla de aficiones, de agobios cotidianos y de planes reales para quedar. El ambiente es sano, cercano y sin la presión de tener que gustar a nadie. Chat gratis y sin registro: elige tu nick y empieza a tejer amistades de las que duran, sin segundas intenciones.",
+    about: "¿Buscas amigos de tu edad y no quieres que cada conversación acabe en ligoteo? Aquí se viene a encontrar gente con quien compartir gustos, montar planes, hablar de música, series o videojuegos y, sobre todo, no sentirse solo en una etapa en la que el grupo de siempre a veces se dispersa. Conviven jóvenes que se han mudado de ciudad, tímidos a los que les cuesta dar el paso y quienes simplemente quieren ampliar su pandilla. Se habla de aficiones, de agobios cotidianos y de planes reales para quedar. El ambiente es sano, cercano y sin la presión de tener que gustar a nadie. Chat gratis y sin registro: elige tu nick y empieza a tejer amistades de las que duran, sin segundas intenciones.",
   },
   {
     slug: "chatjoven", name: "Chat Joven", kind: "tematica", icon: "💬",
@@ -1609,7 +1609,54 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["adolescentes", "ocio"],
     related: ["jovenes", "universitarios", "amistadjoven", "amistad", "estudiantes"],
     intro: "Chat joven general para charlar de todo a cualquier hora con gente de tu edad. Entra, saluda y suéltate. Gratis y sin registro.",
-    about: "Chat Joven es la sala general para la gente joven que quiere charlar de lo que sea, a la hora que sea, con otros de su misma onda. Aquí no hay un tema fijo: se salta de la música a los estudios, de los líos de pareja a los planes del finde, de un meme a una conversación que se pone seria sin avisar. Conviven habituales que entran cada día y caras nuevas que llegan a probar, con un ritmo ágil donde siempre hay alguien conectado dispuesto a responder. Es el sitio ideal para matar el aburrimiento, desahogarse después de un mal día o conocer gente sin más pretensión que pasarlo bien. El ambiente es animado, abierto y muy llevadero. Chat gratis y sin registro: elige tu nick, saluda y déjate llevar por la conversación.",
+    about: "Charlar de lo que sea, a la hora que sea, con otros de tu misma onda: para eso está esto. No hay un tema fijo: se salta de la música a los estudios, de los líos de pareja a los planes del finde, de un meme a una conversación que se pone seria sin avisar. Conviven habituales que entran cada día y caras nuevas que llegan a probar, con un ritmo ágil donde siempre hay alguien conectado dispuesto a responder. Es el sitio ideal para matar el aburrimiento, desahogarse después de un mal día o conocer gente sin más pretensión que pasarlo bien. El ambiente es animado, abierto y muy llevadero. Chat gratis y sin registro: elige tu nick, saluda y déjate llevar por la conversación.",
+  },
+
+  // ── L7 · Argentinos y amistad ── parent: argentina · channels: argentina/buenos_aires/latinos
+  {
+    slug: "arg", name: "Arg", kind: "tematica", icon: "🧉",
+    users: 252, votes: 448, tag: "Popular", activity: "Alta",
+    parentSlug: "argentina", parentName: "Argentina",
+    channels: ["latinoamerica", "buenos_aires", "argentina", "chatzona", "amistad"],
+    related: ["argentina", "argentinos", "buenos-aires", "latinos", "amistad", "amor"],
+    intro: "Chat Arg de toda la vida: porteños, del interior y la diáspora charlando de fútbol, mate y joda. Elegí tu nick y entrá, sin registro.",
+    about: "El clásico salón Arg donde se cruzan porteños, cordobeses, rosarinos y gente de cada provincia con esa tonada que se reconoce a la primera. Acá se habla de fútbol hasta cansar, de la inflación que no afloja, del asado del domingo, del último capítulo de la serie que todos están viendo y de la joda del finde que se arma sobre la marcha. Conviven los que entran todos los días y se conocen de memoria con los recién llegados que tiran el primer hola medio tímidos. Hay debate, cargada de la buena y también charla seria cuando alguien necesita un oído. No es solo para argentinos: también caen uruguayos, chilenos y compatriotas desperdigados por el mundo que extrañan el acento. Chat gratis y sin registro: elegí tu nick y metete en la conversación más argenta de la red, esa que no para ni de madrugada.",
+  },
+  {
+    slug: "chaturro", name: "Chaturro", kind: "tematica", icon: "🇦🇷",
+    users: 238, votes: 421, tag: "Tendencia", activity: "Alta",
+    parentSlug: "argentina", parentName: "Argentina",
+    channels: ["latinos", "argentina", "chatzona", "amistad"],
+    related: ["argentina", "arg", "argentinos", "latinos", "amistad", "amigos"],
+    intro: "Chaturro: el chat argento canchero para tirar onda, hacer amigos y charlar de todo un poco. Buena vibra siempre, sin registro.",
+    about: "Chaturro es de esos lugares donde la charla fluye sola y nadie se hace problema por nada. Se viene a tirar onda, a sumar amigos, a coquetear un poco si pinta y a comentar de todo: el partido, la música del momento, la serie nueva, los memes y las cosas raras del día a día. Conviven habitués que ya son parte del mobiliario con caras nuevas que llegan a probar suerte, en un ambiente relajado y con mucho humor argentino. Acá se cargan entre todos con cariño, se arman charlas que se estiran hasta cualquier hora y de vez en cuando salta una amistad o algo más. No hace falta foto ni dar mil vueltas: ponés un nick y ya estás adentro. Chat gratis y sin registro: sumate a Chaturro y comprobá por qué los que entran una vez terminan quedándose.",
+  },
+  {
+    slug: "buenchat", name: "Buenchat", kind: "tematica", icon: "😊",
+    users: 229, votes: 408, activity: "Alta",
+    parentSlug: "argentina", parentName: "Argentina",
+    channels: ["latinos", "argentina", "chatzona", "amistad"],
+    related: ["argentina", "arg", "chaturro", "amistad", "amigos", "amor"],
+    intro: "Buenchat: buena onda garantizada para charlar, hacer amigos y conocer gente sin dramas. Ambiente sano y argento, sin registro.",
+    about: "Buenchat hace honor al nombre: la consigna es la buena onda y acá se cumple a rajatabla. Se entra a charlar tranquilo, a hacer amigos de verdad y a conocer gente sin malos rollos ni vueltas raras. Se habla de la vida, del laburo, de música, de planes para el finde y de cualquier tema que enganche una buena conversación, siempre con respeto y mucho humor. Conviven habitués que cuidan el clima del lugar, recién llegados que enseguida se sienten cómodos y gente que venía cansada de otros chats más pesados. Acá no hay lugar para el bardo: el que viene a hacer lío dura poco. Es ideal para los tímidos y para quien busca un espacio sano donde soltarse de a poco. Chat gratis y sin registro: elegí tu nick y descubrí por qué Buenchat es sinónimo de buena gente y mejores charlas.",
+  },
+  {
+    slug: "desconocidos", name: "Desconocidos", kind: "tematica", icon: "🎭",
+    users: 241, votes: 426, tag: "Nueva", activity: "Alta",
+    parentSlug: "amistad", parentName: "Amistad",
+    channels: ["latinos", "general", "chatzona", "amistad"],
+    related: ["amistad", "conocergente", "conocerpersonas", "latinos", "amigos", "haceramigos"],
+    intro: "Chat de desconocidos: habla con gente nueva al azar, sin prejuicios ni postureo. Lo bueno de no conocerse. Gratis y sin registro.",
+    about: "Lo lindo de hablar con un desconocido es que arrancás de cero, sin etiquetas ni ideas previas, y a veces esa charla con alguien que no te conoce de nada termina siendo la más sincera del día. Acá se viene justo a eso: a cruzar palabras con gente nueva al azar, contar lo que en otro lado no te animás y escuchar historias de personas que jamás habrías conocido de otra forma. Conviven curiosos que disfrutan de lo inesperado, gente que necesita desahogarse con alguien neutral y quienes simplemente quieren matar el aburrimiento charlando. No hay que dar explicaciones ni mantener una imagen: cada conversación es una página en blanco. El ambiente es abierto, sin prejuicios y lleno de sorpresas. Chat gratis y sin registro: elige tu nick y descubre lo bueno de empezar una charla con un perfecto desconocido.",
+  },
+  {
+    slug: "argentinos40", name: "Argentinos +40", kind: "tematica", icon: "🎂",
+    users: 207, votes: 372, activity: "Media",
+    parentSlug: "mas-de-40", parentName: "Más de 40",
+    channels: ["argentina", "buenos_aires", "mas_de_40", "amistad"],
+    related: ["argentina", "argentinos", "buenos-aires", "mayores40", "mas-de-40", "amistad"],
+    intro: "Chat de argentinos mayores de 40: charla con experiencia, amistad y citas para gente hecha. Buenos Aires y todo el país. Sin registro.",
+    about: "Pasados los cuarenta, las charlas se buscan con gente de la misma edad y los mismos kilómetros recorridos, y acá se encuentran. Es el lugar de los argentinos grandes que quieren conversar sin las prisas ni las pavadas de la juventud: se habla de los hijos que ya están grandes, del laburo de toda la vida, de la salud, de empezar de nuevo después de una separación y de redescubrir las ganas a esta altura. Conviven separados, viudos, solteros de siempre y gente en pareja que solo quiere buena conversación, todos de Buenos Aires y de cada provincia. Hay lugar para la amistad, para las citas tranquilas y para la cargada entre contemporáneos que se entienden. El clima es maduro, cálido y sin dramas adolescentes. Chat gratis y sin registro: elegí tu nick y conectá con argentinos de tu edad que saben muy bien lo que quieren.",
   },
 ];
 
