@@ -16,6 +16,10 @@ import { faqJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { getMergedAll } from "@/data/merged";
 
+// ISR: la home es estática y se revalida cada hora; los overrides del panel admin
+// se reflejan al revalidar (revalidatePath tras cada escritura).
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: { url: "/" },
@@ -35,7 +39,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 200 salas: por países (España, México, Argentina y más de 25 países), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de 115 ciudades), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
+    a: "TuChat tiene más de 500 salas: por países (España, México, Argentina y 29 países en total), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de 115 ciudades), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
   },
   {
     q: "¿Es seguro chatear en TuChat?",

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { getNews } from "@/data";
 import { getNewsImage } from "@/lib/news-images";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, articleListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, articleListJsonLd, JsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Noticias en español — Actualidad y últimas noticias",
@@ -66,7 +67,6 @@ export default function NoticiasPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Noticias", "/noticias")} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={articleListJsonLd(allNews)} />
@@ -98,11 +98,13 @@ export default function NoticiasPage() {
           <Link href={`/noticias/articulo/${featured.slug}`} className="block group">
             <Card className="overflow-hidden hover:border-blue transition-colors">
               <div className="relative aspect-[21/6] overflow-hidden bg-gradient-to-br from-blue/10 to-brand/5">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={featured.image ?? getNewsImage(featured.category, featured.slug)}
                   alt={featured.title}
-                  className="h-full w-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-300"
                 />
                 <span className="absolute bottom-4 left-4 rounded-full bg-blue px-3 py-1 text-xs font-bold uppercase text-white">
                   {featured.category}
@@ -127,12 +129,13 @@ export default function NoticiasPage() {
         {rest.map((item) => (
           <Link key={item.slug} href={`/noticias/articulo/${item.slug}`} className="block group">
             <Card className="h-full hover:border-blue transition-colors overflow-hidden">
-              <div className="aspect-[16/7] overflow-hidden bg-gradient-to-br from-blue/5 to-brand/5">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+              <div className="relative aspect-[16/7] overflow-hidden bg-gradient-to-br from-blue/5 to-brand/5">
+                <Image
                   src={item.image ?? getNewsImage(item.category, item.slug)}
                   alt={item.title}
-                  className="h-full w-full object-cover opacity-75 group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover opacity-75 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-5">

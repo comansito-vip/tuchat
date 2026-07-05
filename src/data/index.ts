@@ -13,8 +13,12 @@ const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
 const ALL_TOPICS: Place[] = [...TOPICS, ...TOPICS_EXTRA, ...TOPICS_EDAD, ...TOPICS_LEGACY, ...TOPICS_INTERESES];
 const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 
+// Índice por slug: getPlace se llama una vez por sala al prerenderizar 460+
+// páginas, así que un Map evita el escaneo lineal repetido sobre todo el catálogo.
+const BY_SLUG: Map<string, Place> = new Map(ALL.map((p) => [p.slug, p]));
+
 export function getPlace(slug: string): Place | undefined {
-  return ALL.find((p) => p.slug === slug);
+  return BY_SLUG.get(slug);
 }
 export function getCities() { return ALL_CITIES; }
 export function getCountries() { return COUNTRIES; }

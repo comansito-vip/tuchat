@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
-import { articleJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/seo";
+import { articleJsonLd, JsonLd } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import { getNewsImage } from "@/lib/news-images";
 
@@ -79,7 +80,6 @@ export default async function ArticuloPage({
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs crumbs={crumbs} />
       <JsonLd
         data={articleJsonLd({
@@ -94,12 +94,14 @@ export default async function ArticuloPage({
       />
 
       {/* Hero image */}
-      <div className="mt-4 overflow-hidden rounded-2xl aspect-[21/7] bg-gradient-to-br from-blue/10 to-brand/5">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+      <div className="relative mt-4 overflow-hidden rounded-2xl aspect-[21/7] bg-gradient-to-br from-blue/10 to-brand/5">
+        <Image
           src={a.image ?? getNewsImage(a.category, a.slug)}
           alt={a.title}
-          className="h-full w-full object-cover"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, 768px"
+          className="object-cover"
         />
       </div>
 

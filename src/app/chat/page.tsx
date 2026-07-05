@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
+import { getPrimaryTopics } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
-import { SearchInput } from "@/components/ui/SearchInput";
+import { ChatSearch } from "@/components/chat/ChatSearch";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
-import { normalize } from "@/lib/slug";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+
+// Página estática: la búsqueda vive en el cliente (ChatSearch), por lo que no se
+// lee searchParams en el servidor y /chat se prerenderiza como SSG.
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "Salas de chat gratis sin registro en español",
   description:
-    "Más de 200 salas de chat gratis sin registro en español: por países, ciudades y temáticas. Chatea, conoce gente y liga en tiempo real. Acceso instantáneo.",
+    "Cientos de salas de chat gratis sin registro en español: por países, ciudades y temáticas. Chatea, conoce gente y liga en tiempo real. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
   openGraph: { url: "/chat" },
 };
@@ -28,7 +34,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 200 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: "TuChat tiene más de 500 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
   },
   {
     q: "¿El chat funciona en el móvil?",
@@ -40,13 +46,7 @@ const FAQ = [
   },
 ];
 
-export default async function ChatIndexPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
-  const { q } = await searchParams;
-
+export default async function ChatIndexPage() {
   const [countries, cities, topics] = await Promise.all([
     getMergedCountries(),
     getMergedCities(),
@@ -55,99 +55,122 @@ export default async function ChatIndexPage({
 
   const all = [...countries, ...cities, ...topics];
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
+  // Lista ligera para la búsqueda en cliente (sin intro/about: no inflar el bundle).
+  const searchRooms = all.map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    icon: p.icon,
+    users: p.users,
+  }));
 
-  // Búsqueda: mostrar resultados planos
-  if (q) {
-    const filtered = all.filter((p) => normalize(p.name).includes(normalize(q)));
-    return (
-      <main className="mx-auto max-w-6xl px-4 py-6">
-        <JsonLd data={breadcrumbJsonLd(crumbs)} />
-        <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
-        <JsonLd data={itemListJsonLd(topRooms.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
-        <Breadcrumbs crumbs={crumbs} />
-        <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
-        <div className="mt-5 max-w-lg">
-          <SearchInput size="md" />
-        </div>
-        <p className="mt-4 text-sm text-muted">
-          Resultados para: <span className="font-semibold text-ink">«{q}»</span>
-        </p>
-        {filtered.length === 0 ? (
-          <p className="mt-8 text-muted">
-            No encontramos salas para{" "}
-            <span className="font-semibold text-ink">«{q}»</span>. Prueba con otro término.
-          </p>
-        ) : (
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {filtered.map((p) => (
-              <RoomCard key={p.slug} place={p} />
-            ))}
-          </div>
-        )}
-      </main>
-    );
-  }
+  // Temáticas: destacar las principales como tarjetas y el resto como chips.
+  const primarySet = new Set(getPrimaryTopics().map((t) => t.slug));
+  const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
+  const restTopics = topics.filter((t) => !primarySet.has(t.slug));
 
-  // Vista jerárquica (sin búsqueda)
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Salas de chat", "/chat")} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={itemListJsonLd(topRooms.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Salas de chat gratis sin registro</h1>
       <p className="mt-2 max-w-2xl text-muted">
-        Más de 200 salas de chat online para chatear con gente, hacer amigos y ligar en español.
+        Cientos de salas de chat online para chatear con gente, hacer amigos y ligar en español.
         Acceso gratis, sin registro y sin descargas.
       </p>
-      <div className="mt-5 max-w-lg">
-        <SearchInput size="md" />
+      <div className="mt-5">
+        <Suspense fallback={null}>
+          <ChatSearch rooms={searchRooms} />
+        </Suspense>
       </div>
 
-      {/* Países */}
+      {/* Países y ciudades — visibles sin clics */}
       <section className="mt-10">
-        <SectionTitle>Países</SectionTitle>
-        <div className="mt-4 space-y-3">
+        <SectionTitle>Países y ciudades</SectionTitle>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {countries.map((country) => {
             const citiesOfCountry = cities.filter((c) => c.parentSlug === country.slug);
+            const preview = citiesOfCountry.slice(0, 8);
+            const rest = citiesOfCountry.length - preview.length;
             return (
-              <details key={country.slug} className="group rounded-xl border border-line bg-card">
-                <summary className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:text-blue">
-                  <span className="text-xl">{country.icon}</span>
-                  <span className="font-semibold text-ink group-hover:text-blue">
+              <div key={country.slug} className="rounded-xl border border-line bg-card p-4">
+                <div className="flex items-center gap-2">
+                  <span className="text-xl" aria-hidden="true">{country.icon}</span>
+                  <Link
+                    href={`/chat/${country.slug}`}
+                    className="font-semibold text-ink hover:text-blue"
+                  >
                     {country.name}
-                  </span>
+                  </Link>
                   {citiesOfCountry.length > 0 && (
-                    <span className="ml-1 text-xs text-muted">
-                      ({citiesOfCountry.length} salas)
-                    </span>
+                    <span className="text-xs text-muted">· {citiesOfCountry.length} ciudades</span>
                   )}
-                  <span className="ml-auto text-muted group-open:rotate-180 transition-transform">
-                    ▼
+                  <span className="ml-auto shrink-0 text-xs text-muted">
+                    {country.users.toLocaleString("es")} online
                   </span>
-                </summary>
-                <div className="grid grid-cols-2 gap-3 px-4 pb-4 pt-2 sm:grid-cols-3 lg:grid-cols-4">
-                  <RoomCard place={country} />
-                  {citiesOfCountry.map((c) => (
-                    <RoomCard key={c.slug} place={c} />
-                  ))}
                 </div>
-              </details>
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {preview.map((c) => (
+                    <Link
+                      key={c.slug}
+                      href={`/chat/${c.slug}`}
+                      className="rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                    >
+                      {c.name}
+                    </Link>
+                  ))}
+                  {rest > 0 && (
+                    <Link
+                      href={`/chat/${country.slug}`}
+                      className="rounded-full bg-blue/10 px-2.5 py-1 text-xs font-semibold text-blue transition-colors hover:bg-blue/20"
+                    >
+                      Ver todas (+{rest}) →
+                    </Link>
+                  )}
+                  {citiesOfCountry.length === 0 && (
+                    <Link
+                      href={`/chat/${country.slug}`}
+                      className="rounded-full bg-blue/10 px-2.5 py-1 text-xs font-semibold text-blue transition-colors hover:bg-blue/20"
+                    >
+                      Entrar al chat →
+                    </Link>
+                  )}
+                </div>
+              </div>
             );
           })}
         </div>
       </section>
 
-      {/* Temáticas */}
+      {/* Temáticas populares (tarjetas) */}
       <section className="mt-10">
-        <SectionTitle>Temáticas</SectionTitle>
+        <SectionTitle>Temáticas populares</SectionTitle>
         <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {topics.map((p) => (
+          {primaryTopics.map((p) => (
             <RoomCard key={p.slug} place={p} />
           ))}
         </div>
       </section>
+
+      {/* Todas las temáticas (chips) */}
+      {restTopics.length > 0 && (
+        <section className="mt-10">
+          <SectionTitle>Más salas temáticas</SectionTitle>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {restTopics.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/chat/${p.slug}`}
+                className="inline-flex items-center gap-1 rounded-full border border-line bg-card px-3 py-1.5 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+              >
+                <span aria-hidden="true">{p.icon}</span>
+                {p.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="mt-12">
         <FAQBlock items={FAQ} />
