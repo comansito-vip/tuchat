@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
-import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
 import Link from "next/link";
 
 export const dynamicParams = false;
@@ -165,25 +165,24 @@ export default async function LoteriasPage({
   const faq = [
     {
       q: `¿Cuáles son las loterías más populares de ${nombre}?`,
-      a: `Las principales loterías de ${nombre} son: ${loterias.join(", ")}. Cada una tiene sus propias reglas, frecuencia de sorteos y premios máximos.`,
+      a: `En ${nombre} se juegan ${loterias.length} loterías principales: ${loterias.join(", ")}. Cada una tiene sus propias reglas, frecuencia de sorteos y premios máximos.`,
+    },
+    {
+      q: `¿Cuál es la lotería más conocida de ${nombre}?`,
+      a: `La lotería de referencia en ${nombre} es ${loterias[0]}${loterias.length > 1 ? `, seguida de opciones populares como ${loterias.slice(1, 3).join(" y ")}` : ""}. Son las que concentran la mayor parte de jugadores y los botes más altos.`,
     },
     {
       q: `¿Cómo puedo comprobar si mi número ha sido premiado en ${nombre}?`,
-      a: `Para comprobar los resultados de las loterías de ${nombre}, puedes consultar el sitio web oficial de cada lotería, los principales periódicos del país o plataformas especializadas en resultados de sorteos.`,
+      a: `Para comprobar los resultados de ${loterias[0]} y demás sorteos de ${nombre}, consulta siempre el sitio web oficial de cada lotería o canales autorizados. En el chat de ${nombre} también puedes comentar los resultados con otros jugadores en tiempo real.`,
     },
     {
-      q: `¿Con qué frecuencia se realizan los sorteos de lotería en ${nombre}?`,
-      a: `La frecuencia varía según la lotería: algunas realizan sorteos diarios, otras semanales y otras en fechas especiales. Las loterías de ${nombre} incluyen sorteos con diferente periodicidad para adaptarse a distintos jugadores.`,
-    },
-    {
-      q: `¿Se puede jugar a las loterías de ${nombre} online?`,
-      a: `Muchas loterías de ${nombre} ofrecen la posibilidad de jugar online a través de su sitio web oficial o aplicaciones móviles autorizadas. Es importante jugar siempre a través de canales oficiales para garantizar la validez del billete.`,
+      q: `¿Necesito registrarme para chatear sobre loterías de ${nombre}?`,
+      a: `No. El chat de ${nombre} es gratuito y sin registro: eliges un nick y entras al instante para compartir números, participaciones y comentar los sorteos con la comunidad.`,
     },
   ];
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(faq)} />
       <JsonLd data={collectionJsonLd(`Loterías de ${nombre}`, `/loterias/${pais}`)} />
       <Breadcrumbs crumbs={crumbs} />
@@ -215,11 +214,15 @@ export default async function LoteriasPage({
         </ul>
       </div>
 
-      {/* About the country */}
+      {/* Contexto de loterías (sin reciclar el 'about' del chat) */}
       {place && (
         <div className="mt-6 rounded-xl border border-line bg-card p-5">
-          <h2 className="font-bold text-ink">Sobre {nombre}</h2>
-          <p className="mt-2 text-sm text-muted">{place.about ?? place.intro}</p>
+          <h2 className="font-bold text-ink">Jugar a la lotería en {nombre}</h2>
+          <p className="mt-2 text-sm text-muted">
+            {nombre} cuenta con {loterias.length} sorteos principales, encabezados por{" "}
+            {loterias[0]}{loterias.length > 1 ? ` y ${loterias[1]}` : ""}. Comparte tus números,
+            participaciones y la suerte de cada sorteo con otros jugadores en el chat de {nombre}.
+          </p>
           <Link
             href={`/chat/${pais}`}
             className="mt-3 inline-block text-sm font-semibold text-blue hover:underline"

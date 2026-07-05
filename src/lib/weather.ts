@@ -118,6 +118,35 @@ export function wmoIcon(code: number): string {
   return "❓";
 }
 
+const WMO_TEXT: Array<[number[], string]> = [
+  [[0], "cielo despejado"],
+  [[1, 2, 3], "intervalos nubosos"],
+  [[45, 48], "niebla"],
+  [[51, 53, 55, 56, 57], "llovizna"],
+  [[61, 63, 65, 66, 67], "lluvia"],
+  [[71, 73, 75, 77], "nieve"],
+  [[80, 81, 82], "chubascos"],
+  [[85, 86], "chubascos de nieve"],
+  [[95, 96, 99], "tormenta"],
+];
+
+export function wmoText(code: number): string {
+  for (const [codes, text] of WMO_TEXT) {
+    if (codes.includes(code)) return text;
+  }
+  return "condiciones variables";
+}
+
+// Códigos WMO que implican precipitación (llovizna, lluvia, chubascos, nieve, tormenta).
+const RAIN_CODES = new Set([
+  51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 71, 73, 75, 77, 80, 81, 82, 85, 86, 95, 96, 99,
+]);
+
+// Cuenta los días con lluvia en la previsión, para respuestas FAQ con datos reales.
+export function rainyDays(data: WeatherData): number {
+  return data.forecast.filter((d) => RAIN_CODES.has(d.weatherCode)).length;
+}
+
 export async function fetchWeather(slug: string): Promise<WeatherData | null> {
   const coord = CITY_COORDS[slug];
   if (!coord) return null;

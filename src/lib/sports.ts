@@ -156,6 +156,35 @@ export const LEAGUES: League[] = [
       ["São Paulo", 59],
     ]),
   },
+  {
+    slug: "mls",
+    name: "MLS",
+    apiFootball: 253,
+    theSportsDB: 4346,
+    fallback: fb([
+      ["Inter Miami CF", 74],
+      ["Columbus Crew", 65],
+      ["FC Cincinnati", 64],
+      ["Los Angeles FC", 63],
+      ["Seattle Sounders", 60],
+      ["Philadelphia Union", 57],
+      ["LA Galaxy", 54],
+    ]),
+  },
+  {
+    slug: "saudi",
+    name: "Saudi Pro League",
+    apiFootball: 307,
+    theSportsDB: 4955,
+    fallback: fb([
+      ["Al-Hilal", 84],
+      ["Al-Nassr", 78],
+      ["Al-Ahli", 69],
+      ["Al-Ittihad", 65],
+      ["Al-Shabab", 55],
+      ["Al-Ettifaq", 48],
+    ]),
+  },
 ];
 
 export function getLeague(slug: string): League | undefined {
@@ -325,10 +354,82 @@ export async function getFixtures(slug: string): Promise<Fixture[]> {
 
 /** Equipos (slug de sala) → liga cuya clasificación les corresponde. */
 export const TEAM_LEAGUE: Record<string, string> = {
+  // LaLiga
   "real-madrid": "laliga",
   "fc-barcelona": "laliga",
   "atletico-madrid": "laliga",
+  "athletic-club": "laliga",
+  "real-sociedad": "laliga",
+  "real-betis": "laliga",
+  "villarreal-cf": "laliga",
+  "valencia-cf": "laliga",
+  "sevilla-fc": "laliga",
+  "girona-fc": "laliga",
+  "rayo-vallecano": "laliga",
+  osasuna: "laliga",
+  "celta-vigo": "laliga",
+  "rcd-mallorca": "laliga",
+  "getafe-cf": "laliga",
+  "rcd-espanyol": "laliga",
+  "deportivo-alaves": "laliga",
+  "levante-ud": "laliga",
+  "elche-cf": "laliga",
+  "real-oviedo": "laliga",
+  // Premier League
+  "manchester-city": "premier",
+  "manchester-united": "premier",
+  "liverpool-fc": "premier",
+  "arsenal-fc": "premier",
+  "chelsea-fc": "premier",
+  // Serie A
+  juventus: "seriea",
+  "inter-milan": "seriea",
+  "ac-milan": "seriea",
+  napoli: "seriea",
+  "as-roma": "seriea",
+  // Bundesliga
+  "bayern-munich": "bundesliga",
+  "borussia-dortmund": "bundesliga",
+  "bayer-leverkusen": "bundesliga",
+  "rb-leipzig": "bundesliga",
+  "eintracht-frankfurt": "bundesliga",
+  // Ligue 1
+  psg: "ligue1",
+  "olympique-marsella": "ligue1",
+  "olympique-lyon": "ligue1",
+  "as-monaco": "ligue1",
+  "lille-osc": "ligue1",
+  // Liga MX
   "america-mexico": "ligamx",
+  "chivas-guadalajara": "ligamx",
+  "cruz-azul": "ligamx",
+  "pumas-unam": "ligamx",
+  "tigres-uanl": "ligamx",
+  "club-monterrey": "ligamx",
+  // Liga Profesional Argentina
   "boca-juniors": "argentina",
   "river-plate": "argentina",
+  "racing-club": "argentina",
+  independiente: "argentina",
+  "san-lorenzo": "argentina",
+  "velez-sarsfield": "argentina",
+  "estudiantes-lp": "argentina",
+  // Brasileirão
+  flamengo: "brasileirao",
+  palmeiras: "brasileirao",
+  corinthians: "brasileirao",
+  "sao-paulo": "brasileirao",
+  "santos-fc": "brasileirao",
+  // MLS
+  "inter-miami": "mls",
+  "la-galaxy": "mls",
+  lafc: "mls",
+  "atlanta-united": "mls",
+  "seattle-sounders": "mls",
+  // Saudi Pro League
+  "al-nassr": "saudi",
+  "al-hilal": "saudi",
+  "al-ittihad": "saudi",
+  "al-ahli-saudi": "saudi",
+  "al-ettifaq": "saudi",
 };

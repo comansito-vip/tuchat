@@ -1,9 +1,11 @@
 /**
- * Generador de noticias multi-LLM (Fase 2/3 del brief).
+ * Generador de columnas de divulgación multi-LLM (Fase 2/3 del brief).
  *
- * Genera contenidos editoriales diarios por categoría con estilo humano, anti-IA,
- * y los escribe en src/data/news.ts. Usa varios proveedores con fallback: si el
- * primario (Claude) falla o no hay clave, prueba el siguiente (OpenAI).
+ * Genera piezas de OPINIÓN y TENDENCIA atemporales (evergreen) por categoría, con
+ * estilo humano y anti-IA, y las escribe en src/data/news.ts. NO genera noticias de
+ * actualidad ni hechos/cifras/citas fabricadas (riesgo de desinformación y E-E-A-T).
+ * Usa varios proveedores con fallback: si el primario (Claude) falla o no hay clave,
+ * prueba el siguiente (OpenAI).
  *
  * Uso:
  *   ANTHROPIC_API_KEY=sk-ant-...  [OPENAI_API_KEY=sk-...]  npx tsx scripts/generate-news.ts
@@ -54,18 +56,26 @@ interface NewsItem {
 // ───────────────────────── Prompt (anti-IA) ─────────────────────────
 
 const SYSTEM_PROMPT =
-  "Eres redactor jefe de un portal de chat en español. Escribes titulares y entradillas " +
-  "de noticias con estilo editorial humano, natural y variado. Reglas estrictas: nada de " +
-  "frases típicas de IA ('en un mundo cada vez más', 'sumérgete', 'descubre', 'no esperes más'), " +
-  "nada de relleno genérico, contexto real y concreto, titulares como los de un medio de verdad. " +
+  "Eres columnista de divulgación de un portal de chat en español. Escribes piezas de " +
+  "OPINIÓN, TENDENCIA y DIVULGACIÓN atemporal (evergreen): reflexión cultural, guías, " +
+  "claves para entender un tema, debate de fondo. Estilo editorial humano, natural y variado. " +
+  "REGLAS ESTRICTAS DE VERACIDAD (no negociables): NO inventes noticias ni hechos de actualidad; " +
+  "NO atribuyas cifras, estadísticas, declaraciones ni citas a personas, empresas o instituciones " +
+  "reales; NO inventes resultados, fechas de eventos concretos ni 'fuentes'; NO cites a usuarios " +
+  "ficticios del chat ni cierres con una fórmula tipo 'las salas de TuChat acogieron el debate'. " +
+  "Escribe en términos generales y atemporales ('suele', 'tiende a', 'muchos jugadores'), no como " +
+  "una crónica de un suceso fechado. Prohibidas las muletillas de IA ('en un mundo cada vez más', " +
+  "'sumérgete', 'descubre', 'no esperes más') y el relleno genérico. " +
   "Español de España y Latinoamérica. Responde SOLO con JSON válido, sin markdown ni explicaciones.";
 
-function userPrompt(category: string, date: string): string {
+function userPrompt(category: string): string {
   return (
-    `Genera ${ITEMS_PER_CATEGORY} noticias plausibles y actuales de la categoría "${category}" ` +
-    `para la fecha ${date}. Cada una con: un titular periodístico (sin comillas internas), una ` +
-    `entradilla de 2-3 frases con datos concretos, y un cuerpo de 2-3 párrafos (separa los ` +
-    `párrafos con \\n\\n) con estilo editorial humano. Devuelve un array JSON con este formato exacto:\n` +
+    `Genera ${ITEMS_PER_CATEGORY} piezas de OPINIÓN o TENDENCIA atemporales de la categoría ` +
+    `"${category}". NO son noticias de actualidad: son columnas de divulgación que seguirán siendo ` +
+    `válidas dentro de un año. Cada una con: un titular de columna (sin comillas internas, sin fecha), ` +
+    `una entradilla de 2-3 frases que plantee el tema o la tendencia (sin cifras ni citas inventadas), ` +
+    `y un cuerpo de 2-3 párrafos (separa los párrafos con \\n\\n) con estilo editorial humano y un cierre ` +
+    `variado (nunca el mismo molde). Devuelve un array JSON con este formato exacto:\n` +
     `[{"title": "...", "excerpt": "...", "body": "..."}]`
   );
 }
@@ -91,7 +101,7 @@ function parseJsonArray(text: string): GeneratedItem[] {
 }
 
 /** Claude (Anthropic Messages API). Sin temperature/budget_tokens (rechazados en Opus 4.8). */
-async function callClaude(category: string, date: string): Promise<GeneratedItem[]> {
+async function callClaude(category: string): Promise<GeneratedItem[]> {
   const key = process.env.ANTHROPIC_API_KEY;
   if (!key) throw new Error("ANTHROPIC_API_KEY no definida");
 
@@ -106,7 +116,7 @@ async function callClaude(category: string, date: string): Promise<GeneratedItem
       model: ANTHROPIC_MODEL,
       max_tokens: 1500,
       system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: userPrompt(category, date) }],
+      messages: [{ role: "user", content: userPrompt(category) }],
     }),
   });
 
@@ -120,7 +130,7 @@ async function callClaude(category: string, date: string): Promise<GeneratedItem
 }
 
 /** OpenAI (Chat Completions) como fallback de resiliencia. */
-async function callOpenAI(category: string, date: string): Promise<GeneratedItem[]> {
+async function callOpenAI(category: string): Promise<GeneratedItem[]> {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error("OPENAI_API_KEY no definida");
 
@@ -131,7 +141,7 @@ async function callOpenAI(category: string, date: string): Promise<GeneratedItem
       model: OPENAI_MODEL,
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
-        { role: "user", content: userPrompt(category, date) },
+        { role: "user", content: userPrompt(category) },
       ],
     }),
   });
@@ -142,16 +152,16 @@ async function callOpenAI(category: string, date: string): Promise<GeneratedItem
 }
 
 /** Cadena de proveedores con fallback: el primero que responda válido gana. */
-const PROVIDERS: { name: string; call: (c: string, d: string) => Promise<GeneratedItem[]> }[] = [
+const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
   { name: "Claude", call: callClaude },
   { name: "OpenAI", call: callOpenAI },
 ];
 
-async function generateCategory(category: string, date: string): Promise<GeneratedItem[]> {
+async function generateCategory(category: string): Promise<GeneratedItem[]> {
   const errors: string[] = [];
   for (const provider of PROVIDERS) {
     try {
-      const items = await provider.call(category, date);
+      const items = await provider.call(category);
       if (items.length > 0) {
         console.log(`  ✓ ${category}: ${items.length} vía ${provider.name}`);
         return items;
@@ -235,7 +245,7 @@ async function main() {
 
   const all: NewsItem[] = [];
   for (const category of CATEGORIES) {
-    const items = await generateCategory(category, date);
+    const items = await generateCategory(category);
     items.forEach((it, idx) => {
       const slug = slugify(it.title) || `${slugify(category)}-${idx}`;
       all.push({

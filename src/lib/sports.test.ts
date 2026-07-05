@@ -2,10 +2,10 @@ import { describe, it, expect, vi } from "vitest";
 import { LEAGUES, TEAM_LEAGUE, getLeague, getStandings } from "@/lib/sports";
 
 describe("sports data", () => {
-  it("has exactly 8 leagues with unique slugs", () => {
-    expect(LEAGUES).toHaveLength(8);
+  it("has exactly 10 leagues with unique slugs", () => {
+    expect(LEAGUES).toHaveLength(10);
     const slugs = LEAGUES.map((l) => l.slug);
-    expect(new Set(slugs).size).toBe(8);
+    expect(new Set(slugs).size).toBe(10);
   });
 
   it("all leagues have a name, fallback rows and a theSportsDB id", () => {

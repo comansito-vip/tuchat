@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 import { getChildren, getPlace } from "@/data";
 import { ANIME_SERIES } from "@/lib/anime-series";
 
@@ -41,27 +42,42 @@ const FAQ = [
 ];
 
 function AnimeSeriesCard({ serie }: { serie: (typeof ANIME_SERIES)[number] }) {
-  return (
-    <div className="flex gap-4 rounded-xl border border-line bg-card overflow-hidden hover:border-blue transition-colors">
-      <div className="w-20 shrink-0 overflow-hidden bg-gradient-to-b from-fuchsia-900 to-indigo-900">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={serie.thumbnail}
-          alt={`Portada de ${serie.name}`}
-          width={80}
-          height={112}
-          loading="lazy"
-          className="h-full w-full object-cover opacity-90"
-        />
+  const inner = (
+    <article className="group flex min-h-32 overflow-hidden rounded-xl border border-line bg-card transition-colors hover:border-blue">
+      {/* Póster temático generado con CSS (sin imágenes externas) */}
+      <div
+        className="relative w-24 shrink-0 overflow-hidden sm:w-28"
+        style={{ background: `linear-gradient(155deg, ${serie.c1}, ${serie.c2})` }}
+      >
+        {/* Título japonés vertical: firma gráfica del póster */}
+        <span
+          className="pointer-events-none absolute -right-1 -top-1 select-none text-5xl font-extrabold leading-none tracking-tighter text-white/20"
+          style={{ writingMode: "vertical-rl", fontFamily: "serif" }}
+          aria-hidden="true"
+        >
+          {serie.jp}
+        </span>
+        {/* Emoji protagonista */}
+        <span
+          className="absolute inset-0 grid place-items-center text-4xl drop-shadow-md transition-transform duration-300 group-hover:scale-110 sm:text-5xl"
+          aria-hidden="true"
+        >
+          {serie.emoji}
+        </span>
       </div>
-      <div className="flex flex-col justify-center p-3">
-        <p className="font-bold text-ink leading-tight">
-          <span className="mr-1" aria-hidden="true">{serie.emoji}</span>
-          {serie.name}
-        </p>
+      <div className="flex flex-col justify-center p-3 sm:p-4">
+        <p className="font-bold leading-tight text-ink group-hover:text-blue">{serie.name}</p>
         <p className="mt-1 text-sm text-muted line-clamp-3">{serie.blurb}</p>
       </div>
-    </div>
+    </article>
+  );
+
+  return serie.slug ? (
+    <Link href={`/chat/${serie.slug}`} aria-label={`Entrar al chat de ${serie.name}`}>
+      {inner}
+    </Link>
+  ) : (
+    inner
   );
 }
 
@@ -73,7 +89,6 @@ export default function AnimePage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={collectionJsonLd("Chat de anime y manga", "/anime")} />
       <JsonLd data={itemListJsonLd(ranking.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />
