@@ -8,7 +8,7 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 // Página estática: la búsqueda vive en el cliente (ChatSearch), por lo que no se
 // lee searchParams en el servidor y /chat se prerenderiza como SSG.
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Cientos de salas de chat gratis sin registro en español: por países, ciudades y temáticas. Chatea, conoce gente y liga en tiempo real. Acceso instantáneo.",
   alternates: { canonical: "/chat" },
-  openGraph: { url: "/chat" },
+  openGraph: { ...OG_BASE, url: "/chat" },
 };
 
 const crumbs = [

@@ -5,7 +5,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
   Fuego: "bg-red-500",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Horóscopo de los 12 signos del zodiaco: amor, trabajo, salud, personalidad y compatibilidad de Aries a Piscis. Consulta tu signo en TuChat.",
   alternates: { canonical: "/horoscopo" },
-  openGraph: { url: "/horoscopo" },
+  openGraph: { ...OG_BASE, url: "/horoscopo" },
 };
 
 const FAQ = [

@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 const ELEMENT_STYLE: Record<Element, string> = {
   Fuego: "from-orange-50 to-red-50 text-red-700",
@@ -32,7 +32,7 @@ export async function generateMetadata({
     title: `Horóscopo ${sign.name}: amor, trabajo y salud`,
     description: `Horóscopo de ${sign.name} (${sign.dates}). Predicciones de amor, trabajo y salud, personalidad, compatibilidad y rasgos del signo.`,
     alternates: { canonical: `/horoscopo/${sign.slug}` },
-    openGraph: { url: `/horoscopo/${sign.slug}` },
+    openGraph: { ...OG_BASE, url: `/horoscopo/${sign.slug}` },
   };
 }
 

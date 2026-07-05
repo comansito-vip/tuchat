@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Vive el fútbol en el chat de deportes: salas del Real Madrid, FC Barcelona, Boca, River, Club América y más. Entra gratis y debate con otros aficionados.",
   alternates: { canonical: "/deportes" },
-  openGraph: { url: "/deportes" },
+  openGraph: { ...OG_BASE, url: "/deportes" },
 };
 
 const crumbs = [

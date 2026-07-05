@@ -5,7 +5,7 @@ import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { slugify, cap } from "@/lib/slug";
-import { breadcrumbJsonLd, collectionJsonLd, articleListJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, collectionJsonLd, articleListJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 const CATEGORY_NAME: Record<string, string> = {
   ia: "IA",
@@ -102,7 +102,7 @@ export async function generateMetadata({
     title,
     description: CATEGORY_DESC[categoria] ?? `Las últimas noticias de ${nombre} en español. Comenta la actualidad con la comunidad de TuChat.`,
     alternates: { canonical: `/noticias/${categoria}` },
-    openGraph: { url: `/noticias/${categoria}` },
+    openGraph: { ...OG_BASE, url: `/noticias/${categoria}` },
   };
 }
 

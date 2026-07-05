@@ -5,7 +5,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import { getChildren, getPlace } from "@/data";
 import { ANIME_SERIES } from "@/lib/anime-series";
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "El punto de encuentro otaku en español: salas de Naruto, Dragon Ball, One Piece y más. Debate sagas, personajes y estrenos y entra gratis al chat de anime.",
   alternates: { canonical: "/anime" },
-  openGraph: { url: "/anime" },
+  openGraph: { ...OG_BASE, url: "/anime" },
 };
 
 const crumbs = [

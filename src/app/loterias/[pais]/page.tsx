@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
-import { faqJsonLd, collectionJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import Link from "next/link";
 
 export const dynamicParams = false;
@@ -25,7 +25,7 @@ export async function generateMetadata({
     title: `Loterías de ${nombre} — resultados`,
     description: `Resultados de las loterías y sorteos más populares de ${nombre}: números premiados, fechas de próximos sorteos y premios actualizados en TuChat.`,
     alternates: { canonical: `/loterias/${pais}` },
-    openGraph: { url: `/loterias/${pais}` },
+    openGraph: { ...OG_BASE, url: `/loterias/${pais}` },
   };
 }
 

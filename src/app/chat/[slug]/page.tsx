@@ -21,7 +21,7 @@ import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
-import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 // ISR: el contenido base es estático; las redirecciones/overrides del panel se
 // reflejan al revalidar (revalidatePath tras cada escritura del admin).
@@ -56,7 +56,7 @@ export async function generateMetadata({
     title: ROOM_TITLES[slug] ?? `Chat ${place.name} gratis`,
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
-    openGraph: { url: `/chat/${place.slug}` },
+    openGraph: { ...OG_BASE, url: `/chat/${place.slug}` },
     ...((await isNoindex(slug)) ? { robots: { index: false, follow: false } } : {}),
   };
 }

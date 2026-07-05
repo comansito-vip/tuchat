@@ -5,7 +5,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 // Refleja los votos de la comunidad; se regenera cada 5 min (prerenderizable
 // e indexable en el sitemap, a diferencia de force-dynamic).
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Las salas de chat más votadas y activas de TuChat: ranking general, por país, por ciudad y temática. Descubre cuáles tienen más gente conectada ahora mismo.",
   alternates: { canonical: "/ranking" },
-  openGraph: { url: "/ranking" },
+  openGraph: { ...OG_BASE, url: "/ranking" },
 };
 
 const crumbs = [

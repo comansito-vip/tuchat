@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { NickInput } from "@/components/ui/NickInput";
 import { LEAGUES, getLeague, getStandings, getFixtures } from "@/lib/sports";
-import { collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import { FAQBlock } from "@/components/room/FAQBlock";
 
 export const dynamic = "force-dynamic";
@@ -23,7 +23,7 @@ export async function generateMetadata({
     title: `${league.name} — clasificación y tabla`,
     description: `Clasificación actualizada de ${league.name}. Sigue la jornada en directo y comenta los resultados en el chat de deportes de TuChat.`,
     alternates: { canonical: `/resultados/${liga}` },
-    openGraph: { url: `/resultados/${liga}` },
+    openGraph: { ...OG_BASE, url: `/resultados/${liga}` },
   };
 }
 

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { OG_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Política de cookies",
   description: "Política de cookies de TuChat: almacenamiento local del navegador para guardar el nick y los votos. Sin cookies de seguimiento ni publicidad personalizada.",
   alternates: { canonical: "/legal/cookies" },
-  openGraph: { url: "/legal/cookies" },
+  openGraph: { ...OG_BASE, url: "/legal/cookies" },
 };
 
 const crumbs = [

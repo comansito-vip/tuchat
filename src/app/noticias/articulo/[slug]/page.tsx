@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
-import { articleJsonLd, JsonLd } from "@/lib/seo";
+import { articleJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import { getNewsImage } from "@/lib/news-images";
 
@@ -33,10 +33,13 @@ export async function generateMetadata({
   if (!a) return {};
   const image = a.image ?? getNewsImage(a.category, a.slug);
   return {
-    title: a.title,
+    // Absoluto: los titulares ya rondan los 90-110 caracteres, el sufijo
+    // "· TuChat" solo empeora el recorte en los resultados de Google.
+    title: { absolute: a.title },
     description: a.excerpt,
     alternates: { canonical: `/noticias/articulo/${a.slug}` },
     openGraph: {
+      ...OG_BASE,
       type: "article",
       url: `/noticias/articulo/${a.slug}`,
       publishedTime: `${a.date}T00:00:00Z`,

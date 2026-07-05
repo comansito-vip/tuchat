@@ -4,7 +4,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import { ARCANOS_MAYORES, cartaDelDia } from "@/data/tarot";
 import { getRelated } from "@/data";
 
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Consulta la carta del tarot de hoy y el significado de los 22 Arcanos Mayores. Entra gratis al chat de tarot y comparte tus tiradas con otros aficionados.",
   alternates: { canonical: "/tarot" },
-  openGraph: { url: "/tarot" },
+  openGraph: { ...OG_BASE, url: "/tarot" },
 };
 
 const crumbs = [

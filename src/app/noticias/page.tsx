@@ -6,14 +6,14 @@ import { getNewsImage } from "@/lib/news-images";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { collectionJsonLd, faqJsonLd, articleListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, articleListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Noticias en español — Actualidad y últimas noticias",
   description:
     "Las últimas noticias en español: actualidad, deportes, tecnología, cultura, viajes, salud y economía. Seleccionadas por la comunidad de TuChat.",
   alternates: { canonical: "/noticias" },
-  openGraph: { url: "/noticias" },
+  openGraph: { ...OG_BASE, url: "/noticias" },
 };
 
 const crumbs = [

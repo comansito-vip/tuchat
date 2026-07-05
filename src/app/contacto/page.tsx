@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { OG_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contacto",
   description: "Contacta con TuChat para sugerencias, incidencias técnicas o reportar un abuso en el chat. Respondemos a todas las consultas por correo electrónico.",
   alternates: { canonical: "/contacto" },
-  openGraph: { url: "/contacto" },
+  openGraph: { ...OG_BASE, url: "/contacto" },
 };
 
 const crumbs = [

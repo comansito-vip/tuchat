@@ -4,6 +4,19 @@ const SITE = "https://tuchat.org";
 // logo propio, no la opengraph-image (1200×630 con texto).
 const LOGO = { "@type": "ImageObject", url: `${SITE}/icon-512.png`, width: 512, height: 512 } as const;
 
+// Base de openGraph para las páginas: Next.js REEMPLAZA (no fusiona) el objeto
+// openGraph del layout cuando una página define el suyo, así que siteName,
+// locale e imagen se perderían en toda página con `openGraph: { url }` si no
+// se extiende esta base con spread.
+export const OG_BASE = {
+  type: "website" as const,
+  siteName: "TuChat",
+  locale: "es_ES",
+  images: [
+    { url: "/opengraph-image", width: 1200, height: 630, alt: "TuChat — Chat gratis en español" },
+  ],
+};
+
 export interface Crumb { name: string; url: string; }
 
 export function breadcrumbJsonLd(crumbs: Crumb[]) {

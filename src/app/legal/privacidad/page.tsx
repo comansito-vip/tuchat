@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { OG_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Política de privacidad",
   description: "Política de privacidad de TuChat: sin registro ni email para chatear. Tus derechos RGPD explicados y cómo protegemos tus datos personales.",
   alternates: { canonical: "/legal/privacidad" },
-  openGraph: { url: "/legal/privacidad" },
+  openGraph: { ...OG_BASE, url: "/legal/privacidad" },
 };
 
 const crumbs = [

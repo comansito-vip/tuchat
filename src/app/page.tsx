@@ -12,7 +12,7 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Card } from "@/components/ui/Card";
 import { FireIcon, SparkIcon } from "@/components/ui/icons";
-import { faqJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import Link from "next/link";
 import { getMergedAll } from "@/data/merged";
 
@@ -22,7 +22,7 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  openGraph: { url: "/" },
+  openGraph: { ...OG_BASE, url: "/" },
 };
 
 const HUBS = [
