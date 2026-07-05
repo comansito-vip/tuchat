@@ -35,7 +35,7 @@ export function NickInput({
         placeholder={placeholder}
         maxLength={20}
         className={clsx(
-          "min-w-0 flex-1 rounded-xl border px-4 py-2.5 text-sm focus:outline-none focus:ring-2",
+          "min-h-[44px] min-w-0 flex-1 rounded-xl border px-4 py-2.5 text-sm focus:outline-none focus:ring-2",
           variant === "onColor"
             ? "border-white/30 bg-white/15 text-white placeholder:text-white/60 backdrop-blur-sm focus:ring-white/40"
             : "border-line bg-card text-ink placeholder:text-muted focus:ring-blue/40",
@@ -44,9 +44,10 @@ export function NickInput({
       <button
         type="button"
         onClick={enter}
-        className="shrink-0 rounded-xl bg-cta px-4 py-2.5 text-sm font-bold text-white shadow-sm transition-all hover:bg-cta-dark active:scale-[.98]"
+        className="inline-flex min-h-[44px] shrink-0 items-center justify-center gap-1.5 rounded-xl bg-cta px-4 text-sm font-bold text-white shadow-sm transition-all hover:bg-cta-dark active:scale-[.98]"
       >
-        💬 Entrar
+        <span aria-hidden="true">💬</span>
+        Entrar
       </button>
     </div>
   );

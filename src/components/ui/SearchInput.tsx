@@ -18,14 +18,14 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
         value={q}
         onChange={(e) => setQ(e.target.value)}
         placeholder="Buscar ciudad, país o temática"
-        aria-label="Buscar"
-        className={`w-full bg-transparent px-3 text-ink outline-none placeholder:text-muted ${
+        aria-label="Buscar salas por ciudad, país o temática"
+        className={`min-h-[44px] w-full bg-transparent px-3 text-ink outline-none placeholder:text-muted ${
           size === "lg" ? "py-2.5 text-base" : "py-1.5 text-sm"
         }`}
       />
       <button
         type="submit"
-        className="shrink-0 rounded-lg bg-cta px-4 py-2.5 text-sm font-semibold text-white hover:bg-cta-dark transition-colors"
+        className="inline-flex min-h-[44px] shrink-0 items-center rounded-lg bg-cta px-4 text-sm font-semibold text-white hover:bg-cta-dark transition-colors"
       >
         Buscar
       </button>

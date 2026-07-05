@@ -38,8 +38,8 @@ const NAV_ITEMS = [
   },
   {
     label: "Países",
-    href: "/pais/espana",
-    activeOn: "/pais" as const,
+    href: "/chat/espana",
+    activeOn: "/chat/espana" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <circle cx="10" cy="10" r="7.5" stroke="currentColor" strokeWidth="1.5" />
@@ -68,15 +68,24 @@ const NAV_ITEMS = [
     ),
   },
   {
-    label: "Más",
+    label: "Ranking",
     href: "/ranking",
     activeOn: "exact" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-        <rect x="2.5" y="2.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5" />
-        <rect x="11.5" y="2.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5" />
-        <rect x="2.5" y="11.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5" />
-        <rect x="11.5" y="11.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5" />
+        <path
+          d="M5 3h10v3a5 5 0 01-10 0V3z"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M5 4H3v1.5A2.5 2.5 0 005 8M15 4h2v1.5A2.5 2.5 0 0115 8M8 11.5h4M7.5 17h5M10 11.5V14"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
       </svg>
     ),
   },
@@ -92,9 +101,12 @@ export function MobileBottomNav() {
   const pathname = usePathname();
   const isHome = pathname === "/";
 
+  // En el webchat (pantalla completa) la barra taparía el cuadro de mensajes.
+  if (pathname.startsWith("/webchat")) return null;
+
   return (
     <nav
-      className="fixed bottom-0 inset-x-0 z-40 border-t border-line bg-card lg:hidden"
+      className="fixed bottom-0 inset-x-0 z-40 border-t border-line bg-card lg:hidden pb-[env(safe-area-inset-bottom)]"
       aria-label="Navegación inferior"
     >
       <div className="flex justify-around">
@@ -108,10 +120,9 @@ export function MobileBottomNav() {
               key={item.href}
               href={item.href}
               className={clsx(
-                "flex flex-col items-center gap-0.5 py-2 text-[11px] min-w-0 flex-1 transition-colors",
-                active ? "text-blue font-semibold" : "text-muted hover:text-ink",
+                "flex flex-col items-center justify-center gap-0.5 py-2.5 min-h-[44px] text-[11px] min-w-0 flex-1 transition-colors",
+                active ? "text-blue font-semibold" : "text-ink/70 hover:text-ink",
               )}
-              aria-label={item.label}
               aria-current={active ? "page" : undefined}
             >
               {item.icon}

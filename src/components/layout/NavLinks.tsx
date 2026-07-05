@@ -6,7 +6,7 @@ import { clsx } from "clsx";
 
 const NAV_ITEMS = [
   { label: "Chat", href: "/chat", activeOn: "/chat" },
-  { label: "Países", href: "/pais/espana", activeOn: "/pais" },
+  { label: "Países", href: "/chat/espana", activeOn: "/chat/espana" },
   { label: "Deportes", href: "/deportes", activeOn: "/deportes" },
   { label: "Tarot", href: "/tarot", activeOn: "/tarot" },
   { label: "Anime", href: "/anime", activeOn: "/anime" },

@@ -61,19 +61,19 @@ it("TrendingBlock has a heading", () => {
   render(<TrendingBlock />);
   expect(screen.getByRole("heading", { name: /Tendencias/i })).toBeInTheDocument();
 });
-it("CountryGrid renders country links with /pais/ paths", () => {
+it("CountryGrid renders country links with /chat/ paths", () => {
   render(<CountryGrid />);
   const links = screen.getAllByRole("link").filter((l) =>
-    l.getAttribute("href")?.startsWith("/pais/")
+    l.getAttribute("href")?.startsWith("/chat/")
   );
   expect(links.length).toBeGreaterThanOrEqual(10);
 });
 it("CountryGrid includes España and México", () => {
   render(<CountryGrid />);
   const espana = screen.getAllByRole("link", { name: /España/i });
-  expect(espana[0]).toHaveAttribute("href", "/pais/espana");
+  expect(espana[0]).toHaveAttribute("href", "/chat/espana");
   const mexico = screen.getAllByRole("link", { name: /México/i });
-  expect(mexico[0]).toHaveAttribute("href", "/pais/mexico");
+  expect(mexico[0]).toHaveAttribute("href", "/chat/mexico");
 });
 it("CategoryCard links to /chat/<slug>", () => {
   const place = getPlace("deportes")!;

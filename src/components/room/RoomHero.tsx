@@ -2,6 +2,7 @@ import type { Place } from "@/data";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { NickInput } from "@/components/ui/NickInput";
+import { getAnimeBySlug } from "@/lib/anime-series";
 
 const GRADIENT_KIND: Record<Place["kind"], string> = {
   pais: "from-blue-600 to-blue-900",
@@ -37,20 +38,39 @@ const KIND_LABEL: Record<Place["kind"], string> = {
 };
 
 export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
+  // Las salas de series de anime heredan la identidad cromática de su póster.
+  const anime = getAnimeBySlug(place.slug);
   const gradient = GRADIENT_SLUG[place.slug] ?? GRADIENT_KIND[place.kind];
   return (
     <section
-      className={`relative mt-4 overflow-hidden rounded-2xl bg-gradient-to-br ${gradient} px-5 py-7 text-white shadow-lg shadow-blue/20 sm:px-8 sm:py-9`}
+      className={`relative mt-4 overflow-hidden rounded-2xl px-5 py-7 text-white shadow-lg shadow-blue/20 sm:px-8 sm:py-9${
+        anime ? "" : ` bg-gradient-to-br ${gradient}`
+      }`}
+      style={anime ? { background: `linear-gradient(135deg, ${anime.c1}, ${anime.c2})` } : undefined}
     >
+      {/* Capa oscurecedora: los colores de anime son dinámicos (c1/c2) y pueden
+          ser claros, así que garantizamos el contraste AA del texto blanco. */}
+      {anime && <div className="pointer-events-none absolute inset-0 bg-black/25" aria-hidden="true" />}
       {/* Adornos de fondo */}
       <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-white/10 blur-2xl" />
       <div className="pointer-events-none absolute -bottom-20 right-24 h-44 w-44 rounded-full bg-white/5 blur-2xl" />
-      <div
-        className="pointer-events-none absolute right-3 top-3 text-[7rem] leading-none opacity-15 select-none sm:text-[10rem]"
-        aria-hidden="true"
-      >
-        {place.icon}
-      </div>
+      {anime ? (
+        /* Título japonés como gran marca de agua del póster */
+        <span
+          className="pointer-events-none absolute -right-2 top-1/2 -translate-y-1/2 select-none text-[5rem] font-extrabold leading-none tracking-tighter opacity-15 sm:text-[8rem]"
+          style={{ writingMode: "vertical-rl", fontFamily: "serif" }}
+          aria-hidden="true"
+        >
+          {anime.jp}
+        </span>
+      ) : (
+        <div
+          className="pointer-events-none absolute right-3 top-3 text-[7rem] leading-none opacity-15 select-none sm:text-[10rem]"
+          aria-hidden="true"
+        >
+          {place.icon}
+        </div>
+      )}
 
       <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
         {/* Icono grande */}

@@ -37,7 +37,7 @@ describe("layout", () => {
       <ScaffoldPage
         title="Ciudades de España"
         intro="Elige tu ciudad."
-        crumbs={[{ name: "Inicio", url: "/" }, { name: "España", url: "/pais/espana" }]}
+        crumbs={[{ name: "Inicio", url: "/" }, { name: "España", url: "/chat/espana" }]}
       />
     );
     expect(screen.getByRole("heading", { level: 1, name: "Ciudades de España" })).toBeInTheDocument();

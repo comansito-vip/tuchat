@@ -15,7 +15,7 @@ export function CountryGrid() {
               return (
                 <Link
                   key={place.slug}
-                  href={`/pais/${place.slug}`}
+                  href={`/chat/${place.slug}`}
                   className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-muted transition-colors hover:bg-brand/6 hover:text-ink"
                 >
                   <Flag emoji={icon} name={place.name} size={17} />

@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
+import { LayoutShell } from "@/components/layout/LayoutShell";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd, websiteJsonLd, organizationJsonLd } from "@/lib/seo";
 
@@ -36,7 +37,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "48x48" },
+      // SVG escalable para navegadores modernos; favicon.ico (src/app) cubre los
+      // antiguos vía convención de Next. Todo deriva del mismo logo "TC".
+      { url: "/icon.svg", type: "image/svg+xml" },
       { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
       { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
     ],
@@ -52,11 +55,26 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${jakarta.variable} ${bricolage.variable}`}>
+      <head>
+        {/* Las banderas se sirven desde flagcdn.com en muchos listados: abrir la
+            conexión por adelantado reduce la latencia de las primeras imágenes. */}
+        <link rel="preconnect" href="https://flagcdn.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://flagcdn.com" />
+        {/* Las imágenes de noticias se sirven desde Unsplash. */}
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body className="font-sans">
+        <a
+          href="#contenido"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-blue focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+        >
+          Saltar al contenido
+        </a>
         <JsonLd data={websiteJsonLd()} />
         <JsonLd data={organizationJsonLd()} />
         <Header />
-        <div className="min-h-screen pb-16 lg:pb-0">{children}</div>
+        <LayoutShell>{children}</LayoutShell>
         <Footer />
         <MobileBottomNav />
       </body>

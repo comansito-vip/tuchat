@@ -5,7 +5,9 @@
   --color-bg: #faf9f7;
   --color-card: #ffffff;
   --color-ink: #16181d;
-  --color-muted: #5b636e;
+  /* Oscurecido desde #5b636e (~5.8:1) a ~7:1 sobre --color-bg: deja margen WCAG AA
+     para el texto pequeño (text-xs) que hereda este color. Mismo matiz, más oscuro. */
+  --color-muted: #4d545e;
   --color-line: #ece9e4;
 
   /* Marca: índigo estructural. Alias `blue` para compatibilidad con código existente. */
@@ -62,6 +64,29 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Foco visible accesible y consistente en toda la navegación por teclado.
+   Tailwind/Preflight resetea el outline por defecto, así que lo reponemos. */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Respeta a quienes prefieren menos movimiento (accesibilidad vestibular). */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 body {

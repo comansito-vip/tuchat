@@ -43,6 +43,9 @@ export function HeroSearch() {
 
         {/* NickInput primero */}
         <div className="mt-5" data-testid="nick-input">
+          <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted">
+            Entra ya — elige tu nick
+          </p>
           <NickInput canal="espana" placeholder="Tu nick para entrar al chat..." />
         </div>
 
@@ -61,6 +64,9 @@ export function HeroSearch() {
 
         {/* SearchInput después */}
         <div className="mt-4" data-testid="search-input">
+          <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted">
+            ¿Buscas una sala concreta?
+          </p>
           <SearchInput size="lg" />
         </div>
 
