@@ -1,10 +1,15 @@
 /** @type {import('next-sitemap').IConfig} */
 const LEAGUE_SLUGS = [
   "laliga", "premier", "seriea", "ligamx", "bundesliga", "ligue1", "argentina", "brasileirao",
+  "mls", "saudi",
 ];
 
 function transformEntry(config, path) {
-  const base = { loc: path, lastmod: new Date().toISOString() };
+  // Sin `lastmod`: un timestamp de build idéntico en las 700+ URLs le dice a
+  // Google que todo cambió a la vez en cada deploy, así que aprende a ignorarlo.
+  // La frescura de los artículos se expresa con datePublished/dateModified en su
+  // JSON-LD (NewsArticle), señal más fiable que un lastmod falso.
+  const base = { loc: path };
 
   // Home + major hub pages
   if (path === "/" || path === "/chat" || path === "/noticias" || path === "/deportes") {
@@ -63,9 +68,25 @@ function transformEntry(config, path) {
 module.exports = {
   siteUrl: "https://tuchat.org",
   generateRobotsTxt: true,
-  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image"],
+  // /pais/* se canonicaliza a /chat/* → fuera del sitemap para no enviar duplicados.
+  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image", "/pais/*"],
   robotsTxtOptions: {
-    policies: [{ userAgent: "*", allow: "/", disallow: ["/webchat", "/admin", "/api"] }],
+    // /webchat NO se bloquea: necesita ser rastreable para que su meta noindex
+    // surta efecto (Google no lee el noindex de una URL bloqueada por robots).
+    // Los bots de IA (GPTBot, ClaudeBot, PerplexityBot…) se declaran explícitamente
+    // con Allow para blindar el acceso ante futuros cambios de la regla genérica y
+    // señalar intención de ser citado por motores de respuesta.
+    policies: [
+      { userAgent: "*", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "GPTBot", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "OAI-SearchBot", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "ChatGPT-User", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "ClaudeBot", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "Claude-Web", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "PerplexityBot", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "Google-Extended", allow: "/", disallow: ["/admin", "/api"] },
+      { userAgent: "CCBot", allow: "/", disallow: ["/admin", "/api"] },
+    ],
   },
   transform: transformEntry,
   // /chat recibe searchParams (no estática) y next-sitemap no la recoge del build:

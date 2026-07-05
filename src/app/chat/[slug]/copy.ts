@@ -1,15 +1,13 @@
 import type { Place } from "@/data";
-import { getPlace, getRelated } from "@/data";
+import { getRelated } from "@/data";
 import type { Crumb } from "@/lib/seo";
 
 export function buildRoomCrumbs(place: Place): Crumb[] {
   const crumbs: Crumb[] = [{ name: "Inicio", url: "/" }];
   if (place.parentName && place.parentSlug) {
-    // El padre de una ciudad es un país (/pais); el de una sub-temática es
-    // otra temática (/chat). Resolvemos por el tipo del lugar padre.
-    const parent = getPlace(place.parentSlug);
-    const url = parent?.kind === "pais" ? `/pais/${place.parentSlug}` : `/chat/${place.parentSlug}`;
-    crumbs.push({ name: place.parentName, url });
+    // Tanto países como temáticas padre viven bajo /chat/{slug} (los antiguos
+    // /pais/* se consolidaron en /chat/* con 301).
+    crumbs.push({ name: place.parentName, url: `/chat/${place.parentSlug}` });
   }
   crumbs.push({ name: place.name, url: `/chat/${place.slug}` });
   return crumbs;

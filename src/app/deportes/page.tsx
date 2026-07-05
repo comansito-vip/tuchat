@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
@@ -56,7 +56,6 @@ export default function DeportesPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={collectionJsonLd("Deportes", "/deportes")} />
       <JsonLd data={itemListJsonLd(ranking.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />

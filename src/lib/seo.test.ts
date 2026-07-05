@@ -16,7 +16,7 @@ describe("seo json-ld", () => {
   it("builds a BreadcrumbList with positions", () => {
     const ld = breadcrumbJsonLd([
       { name: "Inicio", url: "/" },
-      { name: "España", url: "/pais/espana" },
+      { name: "España", url: "/chat/espana" },
       { name: "Madrid", url: "/chat/madrid" },
     ]);
     expect(ld["@type"]).toBe("BreadcrumbList");

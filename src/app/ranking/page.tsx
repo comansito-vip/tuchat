@@ -5,7 +5,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 // Refleja los votos de la comunidad; se regenera cada 5 min (prerenderizable
 // e indexable en el sitemap, a diferencia de force-dynamic).
@@ -52,7 +52,6 @@ export default async function RankingPage() {
   ]);
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Ranking de salas", "/ranking")} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={itemListJsonLd(general.map((r) => ({ url: `/chat/${r.slug}`, name: `Chat ${r.name}` })))} />

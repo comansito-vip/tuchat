@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_STYLE: Record<Element, string> = {
   Fuego: "from-orange-50 to-red-50 text-red-700",
@@ -76,7 +76,6 @@ export default async function HoroscopoSignoPage({
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(`Horóscopo de ${sign.name}`, `/horoscopo/${sign.slug}`)} />
       <JsonLd data={faqJsonLd(faq)} />
       <Breadcrumbs crumbs={crumbs} />

@@ -21,7 +21,7 @@ import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 // ISR: el contenido base es estático; las redirecciones/overrides del panel se
 // reflejan al revalidar (revalidatePath tras cada escritura del admin).
@@ -86,7 +86,6 @@ export default async function ChatRoomPage({
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(`Chat de ${place.name}`, `/chat/${place.slug}`)} />
       <JsonLd data={faqJsonLd(faq)} />
       {children.length > 0 && (

@@ -4,7 +4,10 @@ import { getPlace } from "@/data";
 import { resolveChannels } from "@/lib/channels";
 import { LiveDot } from "@/components/ui/icons";
 
-export const metadata: Metadata = { title: "Webchat", robots: { index: false } };
+export const metadata: Metadata = {
+  title: "Webchat",
+  robots: { index: false, follow: true },
+};
 
 export default async function WebchatPage({
   searchParams,

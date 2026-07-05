@@ -75,7 +75,7 @@ export default function AdminPage() {
                   const cities = getChildren(p.slug).length;
                   return (
                     <li key={p.slug} className="flex justify-between gap-2">
-                      <Link href={`/pais/${p.slug}`} className="text-blue-dark hover:underline">
+                      <Link href={`/chat/${p.slug}`} className="text-blue-dark hover:underline">
                         {p.name}
                       </Link>
                       <span className="text-muted">{cities} ciudades</span>

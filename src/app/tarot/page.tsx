@@ -4,7 +4,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 import { ARCANOS_MAYORES, cartaDelDia } from "@/data/tarot";
 import { getRelated } from "@/data";
 
@@ -51,7 +51,6 @@ export default function TarotPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={collectionJsonLd("Tarot online gratis", "/tarot")} />
       <JsonLd data={itemListJsonLd(salas.map((p) => ({ url: `/chat/${p.slug}`, name: `Chat ${p.name}` })))} />

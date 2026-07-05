@@ -1,5 +1,9 @@
 const SITE = "https://tuchat.org";
 
+// Logo cuadrado real (PWA icon) para Organization/publisher: Google espera un
+// logo propio, no la opengraph-image (1200×630 con texto).
+const LOGO = { "@type": "ImageObject", url: `${SITE}/icon-512.png`, width: 512, height: 512 } as const;
+
 export interface Crumb { name: string; url: string; }
 
 export function breadcrumbJsonLd(crumbs: Crumb[]) {
@@ -68,7 +72,7 @@ export function articleJsonLd(a: {
       "@type": "Organization",
       name: "TuChat",
       url: SITE,
-      logo: { "@type": "ImageObject", url: `${SITE}/opengraph-image` },
+      logo: LOGO,
     },
   };
 }
@@ -79,7 +83,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: "TuChat",
     url: SITE,
-    logo: { "@type": "ImageObject", url: `${SITE}/opengraph-image` },
+    logo: LOGO,
     description:
       "Portal de chat global en español con salas por países, ciudades y temáticas.",
     contactPoint: {

@@ -5,7 +5,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { breadcrumbJsonLd, collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
+import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
   Fuego: "bg-red-500",
@@ -50,7 +50,6 @@ export default function HoroscopoIndexPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd("Horóscopo", "/horoscopo")} />
       <JsonLd data={faqJsonLd(FAQ)} />
       <JsonLd data={itemListJsonLd(signs.map((s) => ({ url: `/horoscopo/${s.slug}`, name: `Horóscopo de ${s.name}` })))} />
