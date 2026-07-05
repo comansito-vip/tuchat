@@ -15,7 +15,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "La sala más activa de la red: madrileños que salen del trabajo, valencianos que ya han cenado y canarios con una hora de ventaja. España entera en un chat.",
     about:
-      "El chat de España es el más grande de la red en español: madrileños que salen del trabajo, valencianos que ya han cenado y canarios que llevan una hora de ventaja se mezclan con españoles en el extranjero que vuelven cada noche a esta sala para hablar sin acento fingido. Se discute de fútbol —Real Madrid, Barça, Atleti— con la misma intensidad que de política, el precio del alquiler o la receta definitiva de la tortilla. Una sala tan diversa como diecisiete comunidades autónomas, con el castellano como único denominador y más de mil usuarios conectados en horas pico.",
+      "Diecisiete comunidades autónomas caben en esta sala, la más grande de la red en español: madrileños que salen del trabajo, valencianos que ya han cenado y canarios con una hora de ventaja se cruzan con españoles emigrados que vuelven cada noche para hablar sin acento fingido. Se discute de fútbol —Real Madrid, Barça, Atleti— con la misma intensidad que de política, del precio del alquiler o de la receta definitiva de la tortilla, con o sin cebolla. El castellano es el único denominador común, y en horas punta se juntan más de mil personas a la vez.",
   },
   {
     slug: "mexico",
@@ -31,7 +31,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "De Tijuana a Mérida hay miles de kilómetros y cientos de acentos: la sala de México los reúne a todos. Rancheras, reggaeton y debates que no terminan nunca.",
     about:
-      "El chat de México reúne a chilangos de la Ciudad de México, regiomontanos de Monterrey, tapatíos de Guadalajara y yucatecos de Mérida en un mismo espacio donde el güey, el carnal y el chido se mezclan con el acento que cada región lleva en la boca. Se habla del Tri en los mundiales con una fe que no aprende de la experiencia, de los tacos al pastor de madrugada, de la CDMX que nunca duerme y de los temblores que cada año recuerdan dónde se está. La sala más activa de México: más de ochocientos usuarios conectados en horas pico.",
+      "Aquí el güey, el carnal y el chido se mezclan con el acento que cada región lleva en la boca: chilangos de la Ciudad de México, regiomontanos de Monterrey, tapatíos de Guadalajara y yucatecos de Mérida comparten un mismo espacio. Se habla del Tri en los mundiales con una fe que no aprende de la experiencia, de los tacos al pastor de madrugada, de la CDMX que nunca duerme y de los temblores que cada año recuerdan dónde se está parado. Es la sala más activa del país, con más de ochocientas personas conectadas en horas punta.",
   },
   {
     slug: "argentina",
@@ -47,7 +47,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Donde el voseo reina, el asado es religión y el fútbol divide familias. Los argentinos arrancan conversación y la dejan ir hasta las cuatro de la madrugada.",
     about:
-      "El chat de Argentina es de los más activos de la red latinoamericana: porteños de Palermo y San Telmo, cordobeses que pronuncian diferente y mendocinos que defienden su malbec sobre cualquier otro vino del mundo se encuentran en una sala donde el voseo es la norma y el lunfardo entra solo. Se debaten el fútbol —Boca versus River, siempre Boca versus River— y la economía con la misma intensidad, porque en Argentina ambos temas tienen la misma volatilidad. La conversación arranca con el mate y puede durar hasta las cuatro de la mañana.",
+      "Acá el voseo es la norma y el lunfardo entra solo: porteños de Palermo y San Telmo, cordobeses que tonadean distinto y mendocinos que defienden su malbec por encima de cualquier vino del mundo se encuentran en una de las salas más activas de la red latinoamericana. Se debaten el fútbol —Boca contra River, siempre Boca contra River— y la economía con idéntica intensidad, porque en Argentina ambos temas tienen la misma volatilidad. La charla arranca con el mate de la tarde y puede estirarse hasta las cuatro de la madrugada.",
   },
   {
     slug: "colombia",
@@ -62,7 +62,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Colombia: amabilidad en el trato y pasión en la discusión. Aquí se habla de fútbol, vallenato, economía y planes del fin de semana. Chévere que hayas llegado.",
     about:
-      "El chat de Colombia tiene la calidez que el país exporta sin esfuerzo: bogotanos de La Candelaria, paisas de Medellín que ponen un -ito a todo, costeños de Barranquilla que no viven sin vallenato y caleños que convierten la salsa en un idioma paralelo al español se encuentran en una sala siempre activa. Se habla del Clásico capitalino, de las arepas y las empanadas como si fueran equipos rivales, y de lo que está pasando en el país con una honestidad que no siempre se encuentra en los medios. El parcero siempre tiene algo que decir.",
+      "Bogotanos de La Candelaria, paisas de Medellín que le ponen un -ito a todo, costeños de Barranquilla que no viven sin vallenato y caleños que convierten la salsa en un idioma paralelo al español: la calidez que el país exporta sin esfuerzo se nota desde el primer mensaje de esta sala siempre activa. Se habla del Clásico capitalino, de las arepas y las empanadas como si fueran equipos rivales, y de lo que pasa en el país con una honestidad que no siempre cabe en los medios. El parcero siempre tiene algo que decir, chévere que hayas llegado.",
   },
   {
     slug: "chile",
@@ -78,7 +78,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Un país tan largo que el norte es desierto y el sur, Patagonia. Aquí se habla rápido, todo termina en po y el pisco no se negocia con los vecinos.",
     about:
-      "El chat de Chile va desde Arica hasta Punta Arenas con la misma facilidad con que el país atraviesa todo el continente: nortinos del desierto de Atacama, santiaguinos del barrio Italia, sureños de Temuco y chilotes de la isla conectan en una sala donde el po aparece en cada mensaje. Se habla del Superclásico Colo-Colo versus Universidad de Chile con devoción de tribuna, del pisco sour como patrimonio que no se comparte, y de los precios del mercado que suben como la cordillera del fondo. El acento rápido de Chile es inconfundible incluso en el chat.",
+      "De Arica a Punta Arenas, un país tan largo que apenas cabe en el mapa: nortinos del desierto de Atacama, santiaguinos del barrio Italia, sureños de Temuco y chilotes de la isla conectan en una sala donde el po aparece al final de cada mensaje. Se habla del Superclásico Colo-Colo contra Universidad de Chile con devoción de tribuna, del pisco sour como patrimonio que no se comparte con nadie, y de los precios que suben como la cordillera del fondo. El acento rápido y cantadito es inconfundible incluso por escrito.",
   },
   {
     slug: "peru",
@@ -93,7 +93,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Donde el ceviche se discute con la misma pasión que el fútbol. Entre limeños, cusqueños y arequipeños siempre hay tema y siempre hay sazón.",
     about:
-      "El chat de Perú tiene el aroma de un ceviche recién preparado y la intensidad de un debate entre limeños, cusqueños y arequipeños que nunca resuelven cuál ciudad merece la capital sin pelear. Se habla de gastronomía como si fuera deporte nacional —porque casi lo es—, del Alianza Lima versus la Universitaria de Deportes con pasión de generaciones, y de Machu Picchu con un orgullo que no se agota. La sala peruana es una de las más diversas de la red: limeños de costa, serranos y amazónicos comparten un español que lleva quechua prestado.",
+      "Huele a ceviche recién preparado y suena a debate entre limeños, cusqueños y arequipeños que nunca se ponen de acuerdo sobre cuál ciudad pesa más sin terminar picados. Se habla de gastronomía como si fuera deporte nacional —porque casi lo es—, del Alianza Lima contra la Universitaria de Deportes con pasión de generaciones, y de Machu Picchu con un orgullo que no se gasta. Es una de las salas más diversas de la red: gente de la costa, de la sierra y de la Amazonía comparte un español que lleva quechua prestado.",
   },
   {
     slug: "uruguay",
@@ -108,7 +108,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Termo bajo el brazo, mate en la mano y la rambla esperando. Los charrúas se toman su tiempo para todo menos para defender que el primer Mundial fue suyo.",
     about:
-      "El chat de Uruguay es más pausado que el Río de la Plata pero igual de profundo: montevideanos de la rambla, gente del interior que no cambia el mate caliente por nada y uruguayos en Buenos Aires o Madrid que siguen fieles a la Celeste conectan en una sala sin prisa. Se habla del Carnaval de Montevideo —el más largo del mundo— con el mismo cariño que del fútbol, y la discusión sobre si el mate va con bombilla nueva o vieja nunca termina. País pequeño con sala intensa.",
+      "Termo bajo el brazo y la rambla de fondo: montevideanos sin apuro, gente del interior que no cambia el mate caliente por nada y uruguayos en Buenos Aires o Madrid que siguen fieles a la Celeste conectan en una sala más pausada que el Río de la Plata pero igual de honda. Se habla del Carnaval de Montevideo —el más largo del mundo— con el mismo cariño que del fútbol, y la discusión sobre si el mate va con bombilla nueva o vieja no la resuelve nadie. País chico, sala intensa, charla sin reloj.",
   },
   {
     slug: "venezuela",
@@ -124,7 +124,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Mitad escribe desde Maracaibo; la otra mitad desde Madrid, Bogotá o Santiago. Todos hablan de arepas, gaitas en diciembre y de cuándo se volverán a ver.",
     about:
-      "El chat de Venezuela es el punto de encuentro de quienes están en Caracas o Maracaibo con los más de seis millones que salieron y aterrizaron en Lima, Bogotá, Madrid, Santiago o Miami. Se habla de las arepas, de las gaitas en diciembre aunque sea verano en el hemisferio norte, del béisbol de las Grandes Ligas con el orgullo de quien sabe que Venezuela pone allí sus mejores jugadores, y de cuándo se vuelve o si se vuelve. La distancia no puede con un acento tan musical ni con la nostalgia compartida.",
+      "Una mitad escribe desde Caracas o Maracaibo; la otra, desde los más de seis millones que salieron y aterrizaron en Lima, Bogotá, Madrid, Santiago o Miami. Se habla de las arepas, de las gaitas que suenan en diciembre aunque afuera sea invierno, del béisbol de las Grandes Ligas con el orgullo de quien sabe que el país pone allí a sus mejores peloteros, y de cuándo se vuelve o si se vuelve. La distancia no puede contra un acento tan musical ni contra la nostalgia que todos comparten en esta sala.",
   },
   {
     slug: "ecuador",
@@ -139,7 +139,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Sierra, costa y Amazonía cruzables en un día. El chévere se cuela en cada frase y el debate Quito contra Guayaquil nunca se cierra del todo.",
     about:
-      "El chat de Ecuador reúne a quiteños que defienden la altitud de su capital, guayaquileños que no cambian su río Guayas por nada, y cuencanos que dicen vivir en la ciudad más bonita de las tres: el debate entre las tres urbes es tan constante como el clima variable de la sierra. Se habla de Barcelona SC versus Emelec con intensidad de clásico eterno, de la comida que va del seco de pollo al ceviche del Pacífico, y del chévere que entra solo en cada frase. Una sala activa a cualquier hora del día.",
+      "Quiteños que defienden la altitud de su capital, guayaquileños que no cambian el río Guayas por nada y cuencanos convencidos de vivir en la más bonita de las tres: el pique entre las ciudades es tan constante como el clima cambiante de la sierra. Se habla del Barcelona SC contra Emelec con intensidad de clásico eterno, de una comida que va del seco de pollo al ceviche del Pacífico, y del chévere que se cuela solo en cada frase. Sierra, costa y Amazonía caben en un día de viaje y en una sala activa a cualquier hora.",
   },
   {
     slug: "bolivia",
@@ -154,7 +154,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "A 3.600 metros respiras distinto y el salar de Uyuni parece otro planeta. Entre español, quechua y aymara, la conversación tiene capas como las polleras.",
     about:
-      "El chat de Bolivia mezcla paceños que suben escaleras sin perder el aliento, cambas de Santa Cruz que viven en el llano con otro ritmo, y cochabambinos que reivindican su trono gastronómico. Se habla del Salar de Uyuni —paisaje que no cabe en una foto— de la selección que juega a 3.600 metros para desesperar a los rivales, y de la chicha que no es para paladares tibios. El español lleva quechua y aymara mezclados sin pedir permiso, lo que convierte esta sala en una de las más ricas lingüísticamente de la red.",
+      "A 3.600 metros se respira distinto, y aquí el español lleva quechua y aymara mezclados sin pedir permiso: paceños que suben escaleras sin perder el aliento, cambas de Santa Cruz con el ritmo del llano y cochabambinos que reivindican su trono gastronómico comparten una de las salas más ricas lingüísticamente de la red. Se habla del Salar de Uyuni —paisaje que no cabe en una foto—, de la selección que juega en la altura para desesperar a cualquier rival, y de la chicha, que no es para paladares tibios. La conversación tiene capas, como las polleras.",
   },
   {
     slug: "paraguay",
@@ -169,7 +169,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El único sitio donde te saludan en guaraní y siguen en español, con el tereré bien frío. País bilingüe de corazón, callado por fuera y cálido por dentro.",
     about:
-      "El chat de Paraguay habla en dos idiomas sin pestañear: el español y el guaraní se alternan en la misma frase con la naturalidad de quien lleva siglos con ambos. Asuncenos, norteños y campesinos del interior conectan con paraguayos de la diáspora en Argentina, España y Brasil que no quieren perder el guaraní que llevan dentro. Se habla del tereré bien frío para aguantar el calor, del partido que siempre es tema perenne, y del fútbol con la pasión que un país bilingüe de corazón callado sabe reservar para lo que importa.",
+      "Te saludan en guaraní y siguen en español sin pestañear: ambos idiomas se alternan en la misma frase con la naturalidad de quien lleva siglos con los dos. Asuncenos, norteños y campesinos del interior conectan con la diáspora en Argentina, España y Brasil que no quiere perder el guaraní que lleva dentro. Se habla del tereré bien frío para aguantar el calor, del partido que nunca deja de ser tema, y del fútbol con la pasión que un país bilingüe, callado por fuera y cálido por dentro, sabe reservar para lo que de verdad importa.",
   },
   {
     slug: "republica-dominicana",
@@ -185,7 +185,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Aquí el merengue y la bachata son el idioma. Se habla a mil por hora, se come mangú por la mañana y cualquier excusa sirve para sacar a alguien a bailar.",
     about:
-      "El chat de la República Dominicana suena a merengue de Juan Luis Guerra y a bachata de Romeo Santos desde la primera línea: capitalinos del Distrito Nacional, santiagueros y cibaeños, gente de San Pedro y dominicanos en Nueva York, Boston y Madrid comparten una sala donde el acento acelerado no necesita subtítulos. Se habla del béisbol como filosofía de vida —la RD exporta más jugadores de Grandes Ligas por habitante que ningún otro país—, del sancocho del domingo, y de la temperatura que nunca baja tanto como para ponerse abrigo de verdad.",
+      "Suena a merengue de Juan Luis Guerra y a bachata de Romeo Santos desde la primera línea, y se escribe a mil por hora: capitalinos del Distrito Nacional, santiagueros y cibaeños, gente de San Pedro y dominicanos en Nueva York, Boston y Madrid comparten una sala donde el acento acelerado no necesita subtítulos. Se habla del béisbol como filosofía de vida —el país exporta más peloteros de Grandes Ligas por habitante que ningún otro—, del mangú de la mañana y el sancocho del domingo, y de una temperatura que nunca baja tanto como para sacar un abrigo de verdad.",
   },
   {
     slug: "cuba",
@@ -201,7 +201,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "La isla del son y los almendrones por el Malecón. Entre los de allá y los de Miami, la sala mantiene viva una conversación que el estrecho no corta.",
     about:
-      "El chat de Cuba mantiene viva una conversación que el Estrecho de Florida no ha podido cortar: habaneros del Vedado y de La Habana Vieja, orientales de Santiago, camagüeyanos y cubanos en Miami, Nueva York y Madrid comparten esta sala con la hospitalidad de quien comparte lo poco que tiene. Se habla de la pelota cubana con orgullo de potencia mundial, del Malecón de noche, del tabaco que se fuma despacio, y de los planes creativos que se hacen a diario con lo disponible. El son sigue siendo el idioma paralelo.",
+      "Almendrones rodando por el Malecón y el son sonando de fondo: la isla mantiene viva una conversación que el Estrecho de Florida no ha logrado cortar. Habaneros del Vedado y de La Habana Vieja, orientales de Santiago, camagüeyanos y cubanos en Miami, Nueva York y Madrid comparten esta sala con la hospitalidad de quien reparte lo poco que tiene. Se habla de la pelota con orgullo de potencia mundial, del Malecón de noche, del tabaco que se fuma despacio, y de los inventos creativos que se hacen a diario con lo que hay a mano.",
   },
   {
     slug: "puerto-rico",
@@ -216,7 +216,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "La isla del encanto que mezcla español e inglés sin permiso y exporta reggaeton al mundo. Aquí se dice wepa por todo y el orgullo boricua es infinito.",
     about:
-      "El chat de Puerto Rico es naturalmente bilingüe: el español y el inglés se mezclan en cada mensaje sin pedir permiso ni disculpas, como corresponde a una isla que exporta reggaetón al mundo y recibe turistas que siempre vuelven. Boricuas de Santurce, Bayamón, Ponce y Caguas y la diáspora de Orlando, Nueva York y Hartford comparten el mismo orgullo de isla que ningún huracán ha podido apagar. Se habla del mofongo como plato sagrado, de Roberto Clemente como leyenda eterna, y del wepa que sirve para todo.",
+      "Aquí se dice wepa por todo y el español y el inglés se mezclan en cada mensaje sin pedir permiso ni disculpas, como corresponde a la isla del encanto que exporta reggaetón al mundo y recibe turistas que siempre vuelven. Boricuas de Santurce, Bayamón, Ponce y Caguas y la diáspora de Orlando, Nueva York y Hartford comparten un orgullo que ningún huracán ha podido apagar. Se habla del mofongo como plato sagrado, de Roberto Clemente como leyenda eterna y del béisbol que la isla lleva en la sangre desde siempre.",
   },
   {
     slug: "guatemala",
@@ -231,7 +231,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Tierra de volcanes y de un maya vivo en los mercados de Chichicastenango. Aquí todo es bien chilero y el desayuno sin frijoles negros no se entiende.",
     about:
-      "El chat de Guatemala tiene la riqueza de un mercado de Chichicastenango: capitalinos de la Zona 1, xelajuenses de la ciudad fría, cobaneros y personas de comunidades mayas que conservan sus idiomas conectan en una sala donde el español comparte historia con el K'iche', Kaqchikel y Mam. Se habla del café guatemalteco —uno de los mejores del mundo— con el orgullo discreto de quien conoce su valor, del Clásico entre Comunicaciones y Municipal, y de los volcanes que humean de fondo de Antigua. El bien chilero sirve para lo bueno, lo bonito y lo que no tiene otra palabra.",
+      "Tierra de volcanes y de un maya bien vivo en los mercados de Chichicastenango: capitalinos de la Zona 1, xelajuenses de la ciudad fría, cobaneros y gente de comunidades mayas que conservan sus idiomas conectan en una sala donde el español comparte historia con el K'iche', el Kaqchikel y el Mam. Se habla del café guatemalteco —uno de los mejores del mundo— con el orgullo discreto de quien conoce su valor, del Clásico entre Comunicaciones y Municipal, y del desayuno que sin frijoles negros no se entiende. El bien chilero sirve para lo bueno, lo bonito y lo que no tiene otra palabra.",
   },
   {
     slug: "costa-rica",
@@ -246,7 +246,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Pura vida no es un eslogan: es cómo saludan y resuelven media vida los ticos. Sin ejército desde el 48, con perezosos en los árboles y la calma en el ADN.",
     about:
-      "El chat de Costa Rica tiene el ritmo del pura vida: no es un eslogan turístico sino la forma real en que los ticos saludan, resuelven problemas y se despiden. Josefinos de San José, heredianos, guanacastecos de la zona seca y limónenses de la costa atlántica comparten una sala donde el mae y el diay aparecen en cada mensaje. Se habla de la biodiversidad que cabe en un país más pequeño que Andalucía, de la selección nacional que siempre sorprende cuando nadie la espera, y de vivir sin ejército desde 1948 como algo completamente normal.",
+      "Pura vida no es un eslogan turístico: es la forma real en que los ticos saludan, resuelven medio problema y se despiden. Josefinos de San José, heredianos, guanacastecos de la zona seca y limonenses de la costa atlántica comparten una sala donde el mae y el diay aparecen en cada mensaje. Se habla de una biodiversidad que cabe en un país más pequeño que Andalucía, de los perezosos colgados en los árboles, de la selección que siempre sorprende cuando nadie la espera, y de vivir sin ejército desde 1948 como si fuera lo más normal del mundo.",
   },
   {
     slug: "panama",
@@ -261,7 +261,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Donde dos océanos casi se tocan y los barcos hacen cola para cruzar el canal. Un skyline de cristal frente al Casco Viejo y siempre un típico de fondo.",
     about:
-      "El chat de Panamá tiene el pulso de Ciudad de Panamá, donde los rascacielos del distrito financiero se ven desde las callejuelas coloniales del Casco Antiguo. Panameños de la capital, choriceros del interior y descendientes de la ex Zona del Canal comparten una sala tan diversa como el propio país. Se habla del canal que parte el continente en dos y da trabajo a miles de familias, de la cinta costera de noche, del tamborito en las fiestas patrias y de si el béisbol o el fútbol manda esta temporada.",
+      "Dos océanos casi se tocan y los barcos hacen cola para cruzar el canal: este chat tiene el pulso de Ciudad de Panamá, donde los rascacielos de cristal del distrito financiero se ven desde las callejuelas coloniales del Casco Viejo. Panameños de la capital, gente del interior y descendientes de la antigua Zona del Canal comparten una sala tan diversa como el propio país. Se habla del canal que parte el continente en dos y da trabajo a miles de familias, de la cinta costera de noche, del tamborito en las fiestas patrias y de si esta temporada manda el béisbol o el fútbol.",
   },
   {
     slug: "el-salvador",
@@ -276,7 +276,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El pulgarcito de América: surf de talla mundial y pupusas que valen un viaje. Se dice cheros a los amigos y la diáspora en EE.UU. nunca pierde el hilo.",
     about:
-      "El chat de El Salvador une a salvadoreños en el país con la enorme diáspora en Los Ángeles, Virginia, Houston y Maryland que no pierde el acento ni las ganas de comer pupusas de chicharrón con curtido. Se habla del Clásico entre el Alianza y el FAS con fervor de estadio, de las playas de La Libertad donde surfean algunos de los mejores del mundo, y del café salvadoreño que exporta calidad aunque no siempre se le reconozca fuera. Los cheros se saludan igual desde los dos lados del mundo: la distancia no cambia el lenguaje.",
+      "Los cheros se saludan igual desde los dos lados del mundo: el pulgarcito de América junta a los salvadoreños del país con la enorme diáspora en Los Ángeles, Virginia, Houston y Maryland, que no pierde el acento ni las ganas de pupusas de chicharrón con curtido. Se habla del Clásico entre Alianza y FAS con fervor de estadio, de las playas de La Libertad donde surfean algunos de los mejores del mundo, y del café salvadoreño que exporta calidad aunque no siempre se le reconozca fuera. Aquí la distancia no cambia el lenguaje ni el hilo de la conversación.",
   },
   {
     slug: "honduras",
@@ -291,7 +291,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible. Los catrachos se pintan la cara cuando juega la H y el café no falta.",
     about:
-      "El chat de Honduras junta a tegucigalpenses y sampedrancos —que tienen su punto de vista propio sobre casi todo— con catrachos en New Orleans, Houston y Miami que mantienen el vínculo. Se habla de la Selección H con fervor nacional, de las baleadas que solucionan cualquier hora del día, de Copán que tiene más historia de la que cabe en un mensaje, y de Roatán que todo el que visita quiere quedarse. El café hondureño de altura es exportación de primera y orgullo de montaña.",
+      "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible: tegucigalpenses y sampedranos —que tienen opinión propia sobre casi todo— se juntan con catrachos en Nueva Orleans, Houston y Miami que mantienen el vínculo intacto. Se habla de la Selección H con fervor nacional y la cara pintada, de las baleadas que arreglan cualquier hora del día, de Copán y su historia milenaria, y de Roatán, que todo el que visita quiere no marcharse. El café hondureño de altura es exportación de primera y orgullo de montaña.",
   },
   {
     slug: "nicaragua",
@@ -306,7 +306,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Tierra de lagos con volcanes en medio y de poetas que recitan a Rubén Darío de memoria. Aquí se dice dale pues a todo y el gallo pinto arranca cualquier mañana.",
     about:
-      "El chat de Nicaragua tiene la voz del poeta —Darío todavía se recita de memoria en las escuelas— y la calidez del pueblo que lo parió. Managüenses, granadinos de una de las ciudades coloniales más antiguas de Centroamérica, matagalpinos y costeños del Caribe conectan con nicas en San José, Miami y Madrid. Se habla del lago Cocibolca como orgullo geográfico inmenso, del gallo pinto que no puede faltar en ninguna mañana, y de la pipa de agua de coco como solución al calor. Dale pues: la sala tiene gente activa.",
+      "Tierra de lagos con volcanes en medio y de poetas que recitan a Rubén Darío de memoria: managüenses, granadinos de una de las ciudades coloniales más antiguas de Centroamérica, matagalpinos y costeños del Caribe conectan con nicas en San José, Miami y Madrid. Se habla del lago Cocibolca como orgullo geográfico inmenso, del gallo pinto que no falta en ninguna mañana, y de la pipa de agua de coco como remedio contra el calor. El dale pues sirve para casi todo, y a cualquier hora hay gente activa en la sala.",
   },
   {
     slug: "estados-unidos",
@@ -322,7 +322,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Sesenta millones de hispanos entre el spanglish de Miami, los tacos de Los Ángeles y la bachata del Bronx. Aquí se viene a no perder el español ni la sazón.",
     about:
-      "El chat de Estados Unidos es el punto de encuentro de más de sesenta millones de hispanos que no quieren que el inglés les borre el español. Cubanos de Miami, mexicanos de East Los Ángeles, dominicanos del Bronx, salvadoreños de Northern Virginia y colombianos de Queens comparten una sala donde el spanglish es bienvenido pero el español sigue siendo el idioma principal. Se habla del sueño americano con sus claroscuros, de las remesas que van a casa cada mes, de los hijos que crecen entre dos culturas, y de dónde encontrar el restaurante que más se parece a la cocina de mamá.",
+      "Más de sesenta millones de hispanos que no dejan que el inglés les borre el español se dan cita aquí. Cubanos de Miami, mexicanos del este de Los Ángeles, dominicanos del Bronx, salvadoreños del norte de Virginia y colombianos de Queens comparten una sala donde el spanglish es bienvenido pero el español sigue mandando. Se habla del sueño americano con todos sus claroscuros, de las remesas que viajan a casa cada mes, de los hijos que crecen entre dos culturas, y de dónde encontrar el restaurante que más se acerca a la cocina de mamá. Aquí se viene a no perder ni el idioma ni la sazón.",
   },
   {
     slug: "canada",
@@ -337,7 +337,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Latinos que cambiaron el sol por −20° y aún hacen asado bajo la nieve. La sala es el rincón donde el frío no llega y el acento vuelve a casa.",
     about:
-      "El chat de Canadá reúne a latinos que eligieron Toronto, Montreal, Vancouver o Calgary sabiendo que el invierno sería largo pero apostando por la calidad de vida. Mexicanos en Brampton, colombianos en Mississauga, venezolanos en Calgary y españoles en Montreal comparten la experiencia de aprender inglés o francés mientras intentan no perder el español que llevan dentro. Se habla del frío que nunca decepciona, de los trámites de inmigración que no acaban, del hockey sobre hielo con más curiosidad que pasión, y de dónde encontrar los ingredientes para cocinar de casa un domingo de nieve.",
+      "Latinos que cambiaron el sol por veinte grados bajo cero y aún así hacen asado sobre la nieve: eligieron Toronto, Montreal, Vancouver o Calgary sabiendo que el invierno sería largo, pero apostando por la calidad de vida. Mexicanos en Brampton, colombianos en Mississauga, venezolanos en Calgary y españoles en Montreal comparten la experiencia de aprender inglés o francés sin perder el español que llevan dentro. Se habla del frío que nunca decepciona, de los trámites de inmigración que no terminan nunca, del hockey con más curiosidad que pasión, y de dónde conseguir los ingredientes para cocinar como en casa un domingo de nevada.",
   },
   {
     slug: "francia",
@@ -352,7 +352,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Españoles y latinos que trabajan en París o se mudaron por amor, buscando con quién quejarse en español de que cenan a las siete. La baguette no lo compensa.",
     about:
-      "El chat de Francia es el de quienes viven entre dos mundos: españoles en París que van al mercado en español y trabajan en francés, latinoamericanos en Lyon, Marsella o Burdeos que eligieron Europa con escala aquí. Se habla del metro parisino que no tiene precio comparado con ningún otro, de los museos que cansan pero merecen cada minuto, de lo complicado que es el francés para un hispanohablante, y de la añoranza de una buena barra de bar abierta a las once de la noche. Una sala donde la baguette está muy buena pero no cura la nostalgia.",
+      "Gente que vive entre dos mundos: españoles en París que hacen la compra en español y trabajan en francés, latinoamericanos en Lyon, Marsella o Burdeos que eligieron Europa con escala aquí. Se habla del metro parisino que no se parece a ningún otro, de los museos que cansan pero merecen cada minuto, de lo peleado que es el francés para un hispanohablante, y de la añoranza de una buena barra de bar abierta a las once de la noche. La baguette está buenísima, pero no cura el cenar a las siete ni la nostalgia de los de casa.",
   },
   {
     slug: "italia",
@@ -367,7 +367,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Hispanos en un país que gesticula como en casa: argentinos rastreando bisabuelos, españoles de Erasmus y latinos que descubren que el italiano casi se entiende.",
     about:
-      "El chat de Italia tiene mucho de argentinos que rastrean los apellidos del bisabuelo en algún pueblo de Calabria o el Véneto, y de españoles erasmus que alargaron la estancia porque la vita è bella de verdad. Se habla de la Serie A —el Calcio se sigue casi con la misma intensidad que LaLiga—, de la pizza napolitana versus la romana como debate sin solución, y de lo fácil que es perderse en Roma aunque se haya estado antes. El italiano y el español se parecen tanto que engañan: hasta que no engañan.",
+      "Aquí gesticulan como en casa: hay mucho argentino rastreando los apellidos del bisabuelo en algún pueblo de Calabria o el Véneto, y muchos españoles de Erasmus que alargaron la estancia porque la vita è bella de verdad. Se habla de la Serie A —el Calcio se sigue casi con la misma intensidad que LaLiga—, de la pizza napolitana contra la romana como debate sin solución, y de lo fácil que es perderse en Roma por mucho que se haya estado antes. El italiano y el español se parecen tanto que casi se entienden: casi, hasta que dejan de entenderse.",
   },
   {
     slug: "portugal",
@@ -382,7 +382,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El vecino al que se cruza la frontera por un fin de semana de bacalhau y fado. Españoles en Lisboa y latinos compartiendo un idioma tan parecido que engaña.",
     about:
-      "El chat de Portugal tiene la melancolía del fado y la hospitalidad genuina de quien recibe bien. Españoles que cruzaron la frontera por el fin de semana y se quedaron, latinoamericanos que eligieron Lisboa por el clima y los precios, y portugueses hispanohablantes del norte que entienden el castellano de memoria comparten una sala tranquila pero activa. Se habla de Ronaldo y de Eusébio en la misma frase, del pastel de nata como solución universal para cualquier mañana, y de cómo dos idiomas tan parecidos han construido orillas tan distintas del mismo océano.",
+      "El vecino al que se le cruza la frontera por un fin de semana de bacalhau y fado: hay españoles que vinieron a pasar dos días y se quedaron, latinoamericanos que eligieron Lisboa por el clima y los precios, y portugueses del norte que entienden el castellano de memoria. Comparten una sala tranquila pero activa, con la melancolía del fado y la hospitalidad genuina de quien recibe bien. Se habla de Ronaldo y de Eusébio en la misma frase, del pastel de nata como solución universal para cualquier mañana, y de cómo dos idiomas tan parecidos construyeron orillas tan distintas del mismo océano.",
   },
   {
     slug: "alemania",
@@ -397,7 +397,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Ingenieros, sanitarios y estudiantes que pelean con der, die, das mientras echan de menos el sol. La sala es el bar de tapas que Berlín no tiene del todo.",
     about:
-      "El chat de Alemania es el rincón en español de quienes trabajan en fábricas de Baviera, hospitales de Berlín, laboratorios de Múnich o despachos de Fráncfort. Españoles que llegaron en los ochenta y noventa, latinos de primera generación y estudiantes recién llegados comparten en esta sala lo que no siempre pueden decir en el trabajo: que el Döner está muy bien pero no es lo mismo que una tortilla de mamá. Se habla de los trámites del Ausländerbehörde, del frío que no avisa y de si el alemán merece la pena aprenderlo más allá del B1.",
+      "Ingenieros, sanitarios y estudiantes que pelean con der, die, das mientras echan de menos el sol: este es su rincón en español, el de quienes trabajan en fábricas de Baviera, hospitales de Berlín, laboratorios de Múnich o despachos de Fráncfort. Españoles que llegaron en los ochenta y noventa, latinos de primera generación y recién aterrizados comparten lo que no siempre se dice en el trabajo: que el Döner está muy bien, pero no es lo mismo que una tortilla de mamá. Se habla de los trámites del Ausländerbehörde, del frío que no avisa y de si el alemán merece la pena más allá del B1.",
   },
   {
     slug: "reino-unido",
@@ -413,7 +413,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés. Aquí se viene a hablar sin acento fingido.",
     about:
-      "El chat del Reino Unido reúne a la comunidad hispana de Londres —una de las más grandes de Europa occidental—, con españoles en Manchester, colombianos en Leeds, venezolanos en Edimburgo y ecuatorianos en Essex. Se habla de Elephant and Castle como barrio de referencia histórica de los hispanohablantes en la ciudad, de los pubs que cierran a las once y decepcionan a quien viene del sur, de los sueldos que en libras parecen buenos hasta que pagas el alquiler, y de cómo el Brexit complicó las cosas para los que llegaron antes.",
+      "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés: aquí late una de las comunidades hispanas más grandes de Europa occidental, junto con españoles en Manchester, colombianos en Leeds, venezolanos en Edimburgo y ecuatorianos en Essex. Se habla de Elephant and Castle como barrio histórico de referencia, de los pubs que cierran a las once y decepcionan a quien viene del sur, de los sueldos en libras que parecen buenos hasta que pagas el alquiler, y de cómo el Brexit complicó las cosas a los que llegaron antes. Aquí se habla sin acento fingido.",
   },
   {
     slug: "marruecos",
@@ -428,7 +428,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "A catorce kilómetros de España, con un norte donde se habla español y LaLiga es local. Entre el té con menta y los zocos de Tánger, las orillas se entienden.",
     about:
-      "El chat de Marruecos es el puente entre dos culturas que se ven cada día desde ambas orillas del Estrecho de Gibraltar. Marroquíes hispanohablantes del norte —Tetuán, Alhucemas, Nador— que llevan el español como segunda lengua de toda la vida, y españoles o latinoamericanos en Marruecos por trabajo o estudio, comparten una sala con doble perspectiva. Se habla de LaLiga con la pasión de un aficionado local, del ramadán y la fiesta del Eid, del mercado de especias de Tánger, y de ese cruce inevitable de culturas que la geografía hace permanente.",
+      "A catorce kilómetros de España, donde el norte habla español y LaLiga se vive como local: marroquíes hispanohablantes de Tetuán, Alhucemas y Nador, que llevan el castellano como segunda lengua de toda la vida, y españoles o latinoamericanos instalados aquí por trabajo o estudio comparten una sala con doble mirada. Se habla de LaLiga con la pasión de un aficionado de barrio, del ramadán y la fiesta del Eid, del té con menta y de los zocos de Tánger. Es el puente entre dos orillas que se ven cada día y, aun así, siempre tienen algo nuevo que contarse.",
   },
   {
     slug: "guinea-ecuatorial",
@@ -444,7 +444,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El único país de África con español como lengua oficial. Castellano con sabor a trópico, entre malanga, makara y un orgullo que une Malabo y Bata con Madrid.",
     about:
-      "El chat de Guinea Ecuatorial es único en toda la red: el único espacio de chat en español para el único país de África subsahariana con el castellano como lengua oficial. Ecuatoguineanos de Malabo, Bata y Ebebiyín, junto con los de la diáspora en España —especialmente en Madrid y Barcelona— comparten una sala donde el español convive con el fang, el bubi y el ndowé en el mismo mensaje. Se habla del petróleo que transformó el país, del makara y la malanga, del fútbol africano, y de la relación particular con España que la historia teje con hilos dobles.",
+      "El único país de África subsahariana con el castellano como lengua oficial tiene aquí su único espacio de chat en español. Ecuatoguineanos de Malabo, Bata y Ebebiyín se juntan con la diáspora en España —sobre todo en Madrid y Barcelona— en una sala donde el español convive con el fang, el bubi y el ndowé dentro del mismo mensaje. Se habla del petróleo que transformó el país, del makara y la malanga, del fútbol africano, y de esa relación particular con España que la historia teje con hilos dobles. Castellano con sabor a trópico, único en toda la red.",
   },
 ];
 

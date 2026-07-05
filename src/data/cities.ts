@@ -17,7 +17,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
     about:
-      "El chat de Madrid reúne a gente de los barrios de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza. Se habla de planes de fin de semana, del Metro a las tantas, de dónde tomar algo sin gastarse el sueldo y de los locales que abren cuando los demás cierran. Madrileños de toda la vida y gente que lleva aquí dos años conviven en la misma sala. Una sala con ritmo de capital, especialmente animada los jueves, los viernes y los fines de semana. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
+      "Aquí se habla de planes de fin de semana, del Metro a las tantas, de dónde tomar algo sin gastarse el sueldo y de los locales que abren cuando los demás cierran. Por la sala pasa gente de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza, madrileños de toda la vida revueltos con quien lleva aquí dos años. Tiene ritmo de capital y se nota: se anima sobre todo los jueves, los viernes y los fines de semana, cuando cuesta seguir todas las conversaciones a la vez. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
   },
   {
     slug: "barcelona",
@@ -35,7 +35,7 @@ export const CITIES: Place[] = [
     intro:
       "La sala de Barcelona es punto de encuentro para gente del Eixample, Gràcia y los barrios del litoral que quiere charlar, quedar o simplemente matar el rato.",
     about:
-      "El chat de Barcelona junta a gente del Eixample, Gràcia, Poblenou, Sarrià y el Barrio Gótico. Se habla del Barça y del Espanyol, de los pisos imposibles y los alquileres que no paran de subir, de dónde desayunar sin hacer cola de turistas y de la vida en los barrios que quedan fuera del circuito. Barceloneses de toda la vida y gente que llegó por la universidad o el trabajo conviven con naturalidad. Una sala activa con acento catalán y castellano a partes iguales, donde la conversación no para de lunes a domingo.",
+      "Barça o Espanyol, pisos imposibles y alquileres que no paran de subir, dónde desayunar sin hacer cola de turistas: por aquí pasan los temas que de verdad importan en la ciudad. Entran del Eixample, de Gràcia, de Poblenou, de Sarrià y del Barrio Gótico, barceloneses de toda la vida mezclados con quienes llegaron por la universidad o el trabajo y se quedaron. El catalán y el castellano conviven a partes iguales sin que nadie se lo plantee, y la conversación no descansa de lunes a domingo. Si vives la Barcelona que queda fuera del circuito turístico, este es tu sitio.",
   },
   {
     slug: "valencia",
@@ -53,7 +53,7 @@ export const CITIES: Place[] = [
     intro:
       "La paella, la huerta y el olor a azahar en marzo: Valencia tiene su propio carácter, y su sala de chat también. Únete y habla con gente del cap i casal.",
     about:
-      "El chat de Valencia junta a gente del Cabanyal, el Carmen, Ruzafa y los barrios de la huerta. Se habla de las Fallas de marzo y si te quedaste sin dormir o sin voz, de la Albufera al atardecer, del Mestalla y del Valencia CF, y de si la paella lleva judías verdes o no. Entran valencianos de pura cepa y adoptivos que vinieron por la luz y se quedaron por la vida. Una sala con carácter mediterráneo y mucho orgullo de cap i casal.",
+      "Si la paella lleva judías verdes o no, ahí empieza el debate que no se acaba nunca. Después caen las Fallas de marzo —y el repaso de si acabaste sin dormir o sin voz—, la Albufera al atardecer y el Mestalla con su Valencia CF. Por la sala se cruzan vecinos del Cabanyal, del Carmen, de Ruzafa y de los pueblos de la huerta, valencianos de pura cepa con adoptivos que vinieron por la luz y se quedaron por la vida. Carácter mediterráneo, mucho orgullo de cap i casal y conversación para rato.",
   },
   {
     slug: "sevilla",
@@ -70,7 +70,7 @@ export const CITIES: Place[] = [
     intro:
       "Aquí se habla con el calor del Sur: desde los que salen de madrugada por Triana hasta los que debaten si la Feria se ha comercializado demasiado.",
     about:
-      "El chat de Sevilla reúne a gente de Triana, el Alfalfa, los Remedios y el Polígono. Se habla de la Semana Santa con las costaleras y el olor a incienso en la madrugada, de la Feria de Abril hasta el amanecer, del Betis y del Sevilla con la intensidad que se merece el derbi. Una de las ciudades más calurosas de España tiene conversaciones igual de intensas: copas en el Arenal, tapas en el Mercado de la Encarnación y el río Guadalquivir como telón de fondo.",
+      "El olor a incienso en la madrugada, las costaleras de la Semana Santa y la Feria de Abril que no se apaga hasta el amanecer: en Sevilla se habla con el calor del Sur dentro. Betis o Sevilla, el derbi se vive con la intensidad que merece, y entre medias caen copas en el Arenal, tapas en el Mercado de la Encarnación y paseos junto al Guadalquivir. Por la sala asoman vecinos de Triana, del Alfalfa, de los Remedios y del Polígono. Una de las ciudades más calurosas de España, con conversaciones igual de calientes.",
   },
   {
     slug: "bilbao",
@@ -87,7 +87,7 @@ export const CITIES: Place[] = [
     intro:
       "La ría, el Guggenheim y el pintxo de tortilla: Bilbao ha cambiado mucho en treinta años y su gente tiene mucho que contar. Súmate a la conversación.",
     about:
-      "El chat de Bilbao reúne a gente del Casco Viejo, Indautxu, Begoña y la margen izquierda. Se habla del txikiteo de siete en siete por el Siete Calles, del Athletic Club y su política de canteras, del Guggenheim y la transformación de la ría que todavía sorprende a quien la vivió. Se mezcla el euskera y el castellano sin problema, y siempre hay alguien recordando la Aste Nagusia con sus conciertos y sus noches sin dormir en La Palanca.",
+      "Txikiteo de siete en siete por el Siete Calles, el Athletic y su fe en la cantera, el Guggenheim y una ría transformada que todavía sorprende a quien la vivió fea: de eso va la conversación en Bilbao. Entran del Casco Viejo, de Indautxu, de Begoña y de la margen izquierda, mezclando euskera y castellano sin que a nadie le chirríe. Y siempre hay quien saca la Aste Nagusia, sus conciertos y aquellas noches sin dormir en La Palanca. Bilbao ha cambiado mucho en treinta años, y su gente tiene ganas de contarlo.",
   },
   {
     slug: "malaga",
@@ -105,7 +105,7 @@ export const CITIES: Place[] = [
     intro:
       "Málaga ya no es solo playa y Picasso: el Soho, el boom tecnológico y miles de nuevos residentes han creado una mezcla que vale la pena explorar en el chat.",
     about:
-      "El chat de Málaga junta a malagueños de siempre con los miles de nuevos vecinos que llegaron del norte de Europa y de otras provincias. Se habla del Soho con sus murales y sus bares de moda, del Centro Pompidou junto al puerto, de los boquerones en vinagre y la fritura del Palo, y de aguantar agosto en la Malagueta. Una sala donde el ritmo de vida mediterráneo convive con el inglés que se escucha en cada esquina y el boom tecnológico que ha cambiado el precio del alquiler.",
+      "Málaga ya no es solo playa y Picasso, y aquí se nota: el Soho con sus murales y sus bares de moda, el Centro Pompidou junto al puerto, los boquerones en vinagre del Palo y el reto de aguantar agosto en la Malagueta. En la sala conviven malagueños de siempre con los miles de vecinos llegados del norte de Europa y de otras provincias, así que el inglés se cuela en cada esquina y el alquiler es queja recurrente desde el boom tecnológico. Ritmo de vida mediterráneo y una ciudad que cambia más rápido de lo que muchos quisieran.",
   },
   {
     slug: "a-coruna",
@@ -122,7 +122,7 @@ export const CITIES: Place[] = [
     intro:
       "Desde la Torre de Hércules hasta el Paseo Marítimo: los coruñeses tienen fama de hablar claro y no andar con rodeos. Entra y compruébalo tú mismo.",
     about:
-      "El chat de A Coruña reúne a gente de Monte Alto, la Pescadería, el barrio de la Torre y la Ciudad Vieja. Se habla de la lluvia que cae sin avisar y se para igual de rápido, del marisco de La Palloza —los percebes y las ostras son religión—, del Deportivo con pasión de toda la vida y de los domingos paseando por el Paseo Marítimo más largo de Europa. Los coruñeses son directos, muy gallegos pero sin el hermetismo del interior, y capaces de debatir horas sobre si viven en la mejor ciudad de Galicia. Spoiler: creen que sí.",
+      "En La Palloza el marisco es religión: aquí los percebes y las ostras se defienden con uñas y dientes. También se habla de la lluvia que cae sin avisar y se para igual de rápido, del Deportivo con pasión de toda la vida y de los domingos paseando por el Paseo Marítimo más largo de Europa. Asoman vecinos de Monte Alto, de la Pescadería, del barrio de la Torre y de la Ciudad Vieja. Los coruñeses son directos, muy gallegos pero sin el hermetismo del interior, y capaces de debatir horas sobre si viven en la mejor ciudad de Galicia. Spoiler: creen que sí.",
   },
   {
     slug: "vigo",
@@ -139,7 +139,7 @@ export const CITIES: Place[] = [
     intro:
       "Puerto, conserveras, Celta y lluvia fina: Vigo tiene mucho carácter y gente con ganas de conversación, especialmente después del partido del domingo.",
     about:
-      "El chat de Vigo junta a vigués del casco vello, Bouzas, Teis y los barrios del Puerto. Se habla del Celta con pasión y sufrimiento a partes iguales, de las empanadas de berberechos de toda la vida, de la lluvia que no cesa entre octubre y mayo y del orgullo de ser la ciudad más poblada de Galicia sin ser la capital. Hay quienes llevan décadas en Vigo y quienes llegaron por la universidad o por los astilleros. Una sala con acento gallego marcado y conversaciones que no tienen prisa.",
+      "El Celta se sigue aquí con pasión y sufrimiento a partes iguales, y de ahí salta la conversación a las empanadas de berberechos de toda la vida, a la lluvia que no cesa entre octubre y mayo y al orgullo de ser la ciudad más poblada de Galicia sin ser la capital. Por la sala se mezclan vigueses del casco vello, de Bouzas, de Teis y de los barrios del Puerto: gente que lleva décadas aquí junto a quienes llegaron por la universidad o por los astilleros. Acento gallego marcado y conversaciones que no tienen prisa ninguna.",
   },
   {
     slug: "zaragoza",
@@ -156,7 +156,7 @@ export const CITIES: Place[] = [
     intro:
       "A medio camino entre Madrid y Barcelona, Zaragoza lleva décadas quejándose de eso, pero los maños tienen orgullo de sobra. Ven a chatear y descúbrelo.",
     about:
-      "El chat de Zaragoza reúne a gente del Casco Histórico, Delicias, Las Fuentes y el Ensanche. Se habla de las Fiestas del Pilar en octubre con sus jotas y gigantones, del Real Zaragoza y la promesa eterna de volver a Primera, del bocadillo de ternasco y los vinos del Somontano. Los maños tienen su propio humor y su propio carácter: directos, sin rodeos y con mucho orgullo de ser de una ciudad que no necesita compararse con ninguna.",
+      "Cada octubre llegan las Fiestas del Pilar con sus jotas y sus gigantones, y de ahí en adelante hay tema: el Real Zaragoza y la promesa eterna de volver a Primera, el bocadillo de ternasco, los vinos del Somontano. Entran vecinos del Casco Histórico, de Delicias, de Las Fuentes y del Ensanche, maños con humor y carácter propios: directos, sin rodeos y con mucho orgullo de ser de una ciudad que no necesita compararse con ninguna, aunque lleve décadas oyendo eso de que está a medio camino entre Madrid y Barcelona.",
   },
   {
     slug: "alicante",
@@ -174,7 +174,7 @@ export const CITIES: Place[] = [
     intro:
       "Las hogueras de junio, el Castillo de Santa Bárbara al atardecer y una costa que no para en todo el verano: Alicante tiene mucho de qué hablar.",
     about:
-      "El chat de Alicante reúne a gente del Casco Antiguo, el Puerto, el Barrio de Santa Cruz y los alrededores del cap de l'Horta. Se habla de bajar a la playa del Postiguet antes de que se llene, de la Hoguera del Barrio de San Blas en junio y la noche de las mascletàs, de los arroces de la huerta alicantina y de aguantar julio y agosto en el Turia del sur. Entran alicantinos de toda la vida y forasteros que llegaron atraídos por el clima y se quedaron por el precio y la calidad de vida.",
+      "Bajar al Postiguet antes de que se llene, la Hoguera de San Blas en junio y la noche de las mascletàs, los arroces de la huerta y el arte de sobrevivir a julio y agosto: así suena la conversación en Alicante. Asoman vecinos del Casco Antiguo, del Puerto, del Barrio de Santa Cruz y de los alrededores del cap de l'Horta, alicantinos de toda la vida revueltos con forasteros que llegaron por el clima y se quedaron por el precio y la calidad de vida. El Castillo de Santa Bárbara al atardecer y una costa que no para en todo el verano dan de sobra para charlar.",
   },
   {
     slug: "buenos-aires",
@@ -228,7 +228,7 @@ export const CITIES: Place[] = [
     intro:
       "La Candelaria, el frío de los 2600 metros y el ajiaco de los domingos: los bogotanos son conversadores natos y esta sala lo demuestra a cualquier hora del día.",
     about:
-      "El chat de Bogotá junta a rolos de Chapinero, Usaquén, Kennedy y Suba. Se habla del trancón del Portal de la 80, del clima que cambia en media hora, del ajiaco que calienta los domingos fríos y de si los Millonarios o el Santa Fe ganaron el último clásico capitalino. Entran estudiantes de Los Andes y la Nacional, trabajadores de Teleport y viajeros de paso que descubrieron que esta ciudad no se parece a lo que imaginaban desde fuera. Una sala de altura que nunca baja el nivel de la conversación.",
+      "El clima cambia en media hora y el trancón del Portal de la 80 no perdona: con eso ya hay tema para rato en Bogotá. Después caen el ajiaco que calienta los domingos fríos y la pregunta de siempre, si los Millonarios o el Santa Fe ganaron el último clásico capitalino. Por la sala pasan rolos de Chapinero, Usaquén, Kennedy y Suba, estudiantes de Los Andes y la Nacional, trabajadores de Teleport y viajeros de paso que descubrieron que esta ciudad no se parece a lo que imaginaban desde fuera. A 2.600 metros, una sala de altura que nunca baja el nivel.",
   },
   {
     slug: "lima",
@@ -245,7 +245,7 @@ export const CITIES: Place[] = [
     intro:
       "Capital de la mejor cocina del continente según quienes la conocen: los limeños hablan de ceviche, de la garúa invernal y de por qué todo pasa en Miraflores.",
     about:
-      "El chat de Lima junta a limeños de Miraflores, San Isidro, Barranco y los Conos. Se habla del ceviche y el lomo saltado como religión, de la garúa que cubre la ciudad entre mayo y octubre y de por qué todos los planes terminan en Barranco. Entran jóvenes de las universidades privadas del centro con gente del Callao y San Juan de Lurigancho, y la conversación mezcla jerga limeña, polémica deportiva sobre la Blanquirroja y recomendaciones de huariques donde se come bien y barato.",
+      "Aquí el ceviche y el lomo saltado se discuten con la seriedad que merecen, y de ahí salta la charla a la garúa que cubre la ciudad entre mayo y octubre y a por qué todos los planes terminan en Barranco. Por la sala se cruzan limeños de Miraflores y San Isidro, jóvenes de las universidades privadas del centro y gente del Callao y San Juan de Lurigancho. La conversación mezcla jerga limeña, polémica deportiva sobre la Blanquirroja y recomendaciones de huariques donde se come bien y barato. Capital de la mejor cocina del continente, según quienes la conocen.",
   },
   {
     slug: "santiago-de-chile",
@@ -262,7 +262,7 @@ export const CITIES: Place[] = [
     intro:
       "Los Andes al fondo, el smog en los días sin viento y la obsesión con el pisco sour: Santiago es más cosmopolita de lo que parece y su chat lo refleja.",
     about:
-      "El chat de Santiago reúne a santiaguinos de Providencia, Las Condes, Ñuñoa y La Florida. Se habla de la vista de los Andes cuando el cielo se despeja, del taco en la Alameda en hora punta, del mejor pisco sour de Bellavista y de si el metro tiene solución. Entran estudiantes de la Chile y la Católica junto a trabajadores y jóvenes del Gran Santiago. Una sala donde el acento chileno suena fuerte, las bromas cortan fino y siempre hay alguien dispuesto a recomendar un panorama para el fin de semana.",
+      "Cuando el cielo se despeja y aparecen los Andes al fondo, la ciudad parece otra; cuando se llena de smog, también hay tema. En Santiago se habla del taco en la Alameda en hora punta, del mejor pisco sour de Bellavista y de si el metro tiene solución. Asoman santiaguinos de Providencia, Las Condes, Ñuñoa y La Florida, estudiantes de la Chile y la Católica junto a trabajadores y jóvenes del Gran Santiago. El acento chileno suena fuerte, las bromas cortan fino y siempre hay alguien dispuesto a recomendar un panorama para el fin de semana. Más cosmopolita de lo que parece.",
   },
   {
     slug: "montevideo",
@@ -280,7 +280,7 @@ export const CITIES: Place[] = [
     intro:
       "El mate, la rambla y un ritmo de vida que los montevideanos defienden con orgullo frente al frenesí porteño: una sala tranquila pero con mucha chicha.",
     about:
-      "El chat de Montevideo junta a gente del Centro, Pocitos, Punta Carretas y el Cerro. Se habla de la rambla al atardecer con el mate en la mano, del asado del domingo como ritual sagrado, del Peñarol y el Nacional y la rivalidad que lo es todo en Uruguay. Entran uruguayos de Montevideo y del interior que buscan a alguien de su tierra, y argentinos que cruzan el charco con curiosidad. Una sala pausada, con gusto por la música, el humor negro y las charlas largas que no tienen prisa en terminar.",
+      "La rambla al atardecer con el mate en la mano y el asado del domingo como ritual sagrado marcan el tono de la sala. Después llega lo que lo es todo en Uruguay: Peñarol contra Nacional y una rivalidad que no descansa. Entran montevideanos del Centro, Pocitos, Punta Carretas y el Cerro, uruguayos del interior que buscan a alguien de su tierra y argentinos que cruzan el charco con curiosidad. Conversación pausada, gusto por la música y el humor negro, y charlas largas que no tienen ninguna prisa en terminar. El ritmo de vida que aquí se defiende con orgullo frente al frenesí porteño.",
   },
   {
     slug: "murcia",
@@ -298,7 +298,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Murcia para hablar con gente de la huerta, quedar para unas marineras en Santa Catalina o comentar las Fiestas de Primavera.",
     about:
-      "El chat de Murcia junta a peña de la capital y de toda la huerta: del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Aquí se habla en panocho cuando apetece, se discute si el zarangollo lleva patata o no, se debate el pastel de carne del Pasaje Lodares y se queda para el Bando de la Huerta, la Batalla de las Flores y para tomar un café con hielo cuando aprieta el calor murciano. Una sala campechana, con guasa murciana, poco postureo y ese orgullo de estar entre el mar y la montaña en uno de los huertos más productivos de Europa.",
+      "Que si el zarangollo lleva patata o no, que si el mejor pastel de carne es el del Pasaje Lodares: en Murcia se discute en panocho cuando apetece y sin postureo ninguno. Se queda para el Bando de la Huerta, para la Batalla de las Flores y para tomar un café con hielo cuando aprieta el calor. Por la sala anda peña de la capital y de toda la huerta, del Carmen a Vistalegre, de la plaza de las Flores al Malecón. Gente campechana, con guasa murciana y ese orgullo de vivir entre el mar y la montaña, en uno de los huertos más productivos de Europa.",
   },
   {
     slug: "valladolid",
@@ -315,7 +315,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Valladolid para charlar con pucelanos, organizar un tardeo de vinos por la Antigua o comentar la Semana Santa más sobria de Castilla.",
     about:
-      "El chat de Valladolid junta gente del Campo Grande con sus pavos reales, de Las Delicias, Parquesol y los barrios universitarios de la zona del Pisuerga. Se habla del tardeo de vinos y pinchos por la zona de la Antigua y la calle Platerías, de la Semana Santa con sus procesiones a oscuras y sin música que es declarada de Interés Turístico Internacional, del Pucela cuando sube de categoría y de ese orgullo pucelano mezcla de castellanía y ciudad moderna con buen tapeo. Tranquila el resto del año pero con vida nocturna sorprendente.",
+      "El tardeo de vinos y pinchos por la Antigua y la calle Platerías es plan fijo, y de ahí la charla se va a la Semana Santa pucelana —procesiones a oscuras, sin música, declaradas de Interés Turístico Internacional— y al Pucela cuando sube de categoría. Por la sala asoma gente del Campo Grande con sus pavos reales, de Las Delicias, de Parquesol y de los barrios universitarios junto al Pisuerga. Hay ese orgullo pucelano que mezcla castellanía y ciudad moderna con buen tapeo: tranquila el resto del año pero con una vida nocturna que sorprende a quien la prejuzga.",
   },
   {
     slug: "cordoba",
@@ -332,7 +332,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Córdoba: conoce gente entre patios floridos, habla de la Mezquita o queda a tomar salmorejo cuando el calor de agosto no deja pensar.",
     about:
-      "El chat de Córdoba reúne a gente de la Judería, San Basilio, el Brillante y Levante. Se habla de los patios floridos en mayo que ganan concursos, de la Feria de Nuestra Señora de la Salud y las cruces de mayo, de bajar al río por la Calahorra y sentarse frente a la Mezquita-Catedral que mezcla milenios en una sola columna, y de aguantar los 45 grados del verano como buenamente se puede con cerveza fresquita. Charlas con esa sorna andaluza muy cordobesa, mucho orgullo por el patrimonio y conversación para rato.",
+      "En mayo todo gira en torno a los patios floridos que ganan concursos, las cruces y la Feria de Nuestra Señora de la Salud; en agosto, en cambio, el tema es aguantar los 45 grados como buenamente se pueda con la cerveza bien fresquita. Se baja al río por la Calahorra para sentarse frente a la Mezquita-Catedral, que mezcla milenios en una sola columna. Por la sala andan vecinos de la Judería, San Basilio, el Brillante y Levante, con esa sorna andaluza muy cordobesa, mucho orgullo por el patrimonio y conversación para rato.",
   },
   {
     slug: "granada",
@@ -350,7 +350,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Granada para conocer gente, hablar de tapas gratis y quedar a ver el atardecer en el Mirador de San Nicolás con la Alhambra de fondo.",
     about:
-      "El chat de Granada mezcla a estudiantes de Erasmus, gente del Albaicín, del Realejo y del Zaidín. Se habla de las tapas que caen solas con cada cerveza y de que en Granada no se paga la comida si pides un cañero, de subir a Sierra Nevada a esquiar por la mañana y bañarse en la costa por la tarde, de teterías en la Calderería, del Mirador de San Nicolás al atardecer y de las fiestas del Corpus con la ciudad desbordada. Una sala joven, ruidosa y muy de echar la tarde sin prisa viendo cómo oscurece la Alhambra.",
+      "Aquí las tapas caen solas con cada cerveza, y eso es media conversación: en Granada no se paga la comida si pides un cañero. Lo demás es subir a Sierra Nevada a esquiar por la mañana y bajar a la costa por la tarde, teterías en la Calderería, el Mirador de San Nicolás al atardecer y las fiestas del Corpus con la ciudad desbordada. Por la sala se mezclan estudiantes de Erasmus con gente del Albaicín, del Realejo y del Zaidín. Joven, ruidosa y muy de echar la tarde sin prisa viendo cómo oscurece la Alhambra.",
   },
   {
     slug: "gijon",
@@ -384,7 +384,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Oviedo para charlar con carbayones, quedar de pinchos por el Antiguo o comentar lo limpia que está mientras llueve, como casi siempre.",
     about:
-      "El chat de Oviedo junta a la gente del Antiguo, el Bulevar y La Corredoria con toda la burocracia y el ambiente universitario que define a la capital astur. Se habla de tapear por las calles que parten de El Fontán, de cruzarse con la Regenta en bronce, del Real Oviedo con su historia de altas y bajas, y de esa lluvia fina que siempre llega cuando menos la necesitas. La ciudad más ordenada de Asturias, con esa elegancia contenida muy suya.",
+      "Tapear por las calles que salen de El Fontán, cruzarse con la Regenta en bronce y seguir al Real Oviedo en su historia de altas y bajas: así pasa la tarde en la sala. Y siempre, infaltable, esa lluvia fina que llega cuando menos la necesitas. Entra gente del Antiguo, del Bulevar y de La Corredoria, con la burocracia y el ambiente universitario que definen a la capital astur. La ciudad más ordenada de Asturias y, dicen los carbayones, también la más limpia, con esa elegancia contenida muy suya.",
   },
   {
     slug: "palma",
@@ -401,7 +401,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Palma para conocer gente de la isla, quedar en un chiringuito de Portixol o tomar algo en Santa Catalina cuando se vacía de turistas.",
     about:
-      "El chat de Palma junta a mallorquines de toda la vida —que distinguen perfectamente cuándo están ante un turista y cuándo ante un resident— y a quienes vinieron y se quedaron. Se habla en mallorquín y en castellano, de bañarse en Cala Major o Portixol después de currar, de las fiestas de Sant Sebastià en enero con los foguerons y la música en la calle, de pillarse una ensaimada de L\'Artesà el domingo y de huir del centro en julio cuando los cruceristas lo copan todo. Sala de isla: tranquila, mezclada y con mucho criterio.",
+      "Bañarse en Cala Major o Portixol al salir de currar, pillar una ensaimada de L'Artesà el domingo y aprender a huir del centro en julio cuando los cruceristas lo copan todo: así se vive Palma desde dentro. En enero llegan las fiestas de Sant Sebastià con sus foguerons y la música en la calle. Se habla en mallorquín y en castellano, y por la sala andan mallorquines de toda la vida —que distinguen perfectamente al turista del resident— y quienes vinieron y se quedaron. Sala de isla: tranquila, mezclada y con mucho criterio.",
   },
   {
     slug: "las-palmas",
@@ -452,7 +452,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de San Sebastián para conocer gente, ir de pintxos por la Parte Vieja o quedar a ver las olas romper en el Paseo Nuevo cuando hay galerna.",
     about:
-      "El chat de Donostia reúne a gente del Antiguo, Gros, Egia y el Centro. Se habla de bajar a la Concha aunque haga frío y ponerse a contar olas, de los pintxos de la Parte Vieja con la cuadrilla de siempre, de la tamborrada del 20 de enero que congrega a miles de donostiarras a las doce de la noche, y del Festival Internacional de Cine de septiembre que convierte la ciudad en alfombra roja. Aquí se mezcla el euskera y el castellano sin problema y se presume, con razón y evidencia, de tener la bahía más bonita del mundo.",
+      "Bajar a la Concha aunque haga frío y ponerse a contar olas, ir de pintxos por la Parte Vieja con la cuadrilla de siempre: hay planes que en Donostia no caducan. El 20 de enero la tamborrada junta a miles de donostiarras a las doce de la noche, y en septiembre el Festival de Cine convierte la ciudad en alfombra roja. Por la sala asoma gente del Antiguo, de Gros, de Egia y del Centro, mezclando euskera y castellano sin problema. Y siempre se presume, con razón y evidencia, de tener la bahía más bonita del mundo.",
   },
   {
     slug: "santander",
@@ -469,7 +469,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de Santander para conocer gente, quedar a darse un baño en el Sardinero o pasear hasta el Faro de la Magdalena cuando el día sale despejado.",
     about:
-      "El chat de Santander junta gente del Sardinero, Cuatro Caminos y el centro con los que bajan de los pueblos cántabros en finde. Se habla de las playas del Sardinero que se llenan en agosto y se vacían en octubre, de los sobaos de Torrelavega, los orujos de Liébana y las anchoas del Cantábrico que son las mejores del mundo. Sale el Racing y sus altibajos, el Palacio de la Magdalena y el Festival Internacional de Santander en verano. Ciudad tranquila el resto del año, con ese carácter cántabro reservado pero muy acogedor cuando te gana la confianza.",
+      "Las playas del Sardinero se llenan en agosto y se vacían en octubre, y por ahí arranca la conversación: sobaos de Torrelavega, orujos de Liébana y las anchoas del Cantábrico, que son las mejores del mundo y no se discute. Sale también el Racing con sus altibajos, el Palacio de la Magdalena y el Festival Internacional de verano. En la sala se juntan vecinos del Sardinero, Cuatro Caminos y el centro con los que bajan de los pueblos cántabros el finde. Ciudad tranquila el resto del año, con ese carácter cántabro reservado pero muy acogedor cuando te gana la confianza.",
   },
   {
     slug: "cadiz",
@@ -503,7 +503,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Almería para conocer gente, quedar a tomar tapas gratis por las Cuatro Calles o escaparte a las calas vírgenes del Cabo de Gata.",
     about:
-      "El chat de Almería reúne a gente del Centro, Nova Almería y La Chanca con los que vienen del poniente agrícola y los visitantes del Parque Natural de Cabo de Gata. Se habla de las tapas gratuitas que la gente de fuera no se cree, del sol que supera las 3.000 horas al año, de los platós de spaghetti westerns en Tabernas y del orgullo de tener las playas más vírgenes de Andalucía cuando todo el litoral está masificado.",
+      "Las tapas gratis que la gente de fuera no se cree son la primera sorpresa; la segunda, un sol que supera las 3.000 horas al año. Aquí se habla de los platós de spaghetti westerns en Tabernas, de escaparse a las calas vírgenes del Cabo de Gata y del orgullo de tener las playas más limpias de Andalucía cuando todo el litoral está masificado. Por la sala andan vecinos del Centro, Nova Almería y La Chanca, gente del poniente agrícola y visitantes del Parque Natural. El desierto y el mar a un paso, y esa calma de provincia que tan poco se vende fuera.",
   },
   {
     slug: "tenerife",
@@ -555,7 +555,7 @@ export const CITIES: Place[] = [
     intro:
       "Métete en el chat de León para conocer gente, ir de tapas por el Barrio Húmedo o quedar a ver las vidrieras de la Catedral cuando entra el sol de la tarde.",
     about:
-      "El chat de León une a gente del Barrio Húmedo, el Crucero, Eras de Renueva y los barrios del sur. Se habla del tapeo que es cultura local —cada vino viene con su tapa y aquí eso no está en discusión—, de la Catedral con sus cien vidrieras de luz cambiante, del Camino de Santiago que pasa por el casco histórico y del frío de enero que te cala hasta los huesos. Leoneses de un orgullo sutil pero inquebrantable.",
+      "En León cada vino viene con su tapa, y eso no está en discusión: el tapeo por el Barrio Húmedo es cultura local. De ahí la charla se va a la Catedral con sus cien vidrieras de luz cambiante, al Camino de Santiago que cruza el casco histórico y al frío de enero que cala hasta los huesos. Por la sala asoman vecinos del Crucero, de Eras de Renueva y de los barrios del sur, leoneses de un orgullo sutil pero inquebrantable, de los que no presumen pero tampoco transigen.",
   },
   {
     slug: "burgos",
@@ -572,7 +572,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Burgos para conocer gente, quedar a tomar morcilla y un buen lechazo o pasear junto a la Catedral abrigado, que aquí el frío no perdona.",
     about:
-      "El chat de Burgos junta a gente del Gamonal, el centro histórico y el Barrio de San Pedro. Se habla del frío que llega antes que en ningún otro sitio de España, de la morcilla y el lechazo que aquí son religión, de la Catedral gótica que se eleva sobre la ciudad y del Camino de Santiago que sale de la puerta del hospital del Rey. Burgaleses serios a la primera, pero generosos en cuanto te conocen.",
+      "Aquí el frío llega antes que en ningún otro sitio de España, así que abrígate, que el invierno no perdona. La morcilla y el lechazo se defienden con la boca llena, la Catedral gótica se eleva sobre la ciudad y el Camino de Santiago sale por la puerta del hospital del Rey. En la sala entran vecinos del Gamonal, del centro histórico y del Barrio de San Pedro: burgaleses serios a la primera, pero generosos en cuanto te ganas su confianza. Una ciudad de las que entran despacio y se quedan.",
   },
   {
     slug: "tarragona",
