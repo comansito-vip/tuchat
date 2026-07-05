@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "TuChat",
     locale: "es_ES",
+    // Fallback para páginas sin openGraph propio (webchat, admin…). Las demás
+    // extienden OG_BASE porque Next reemplaza este objeto, no lo fusiona.
+    images: [
+      { url: "/opengraph-image", width: 1200, height: 630, alt: "TuChat — Chat gratis en español" },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -50,6 +55,9 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#4f46e5",
+  // Sin viewport-fit=cover, env(safe-area-inset-*) vale 0 en iPhone con notch
+  // y el padding de la nav inferior/LayoutShell no protege del home indicator.
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

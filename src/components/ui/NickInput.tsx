@@ -35,7 +35,9 @@ export function NickInput({
         placeholder={placeholder}
         maxLength={20}
         className={clsx(
-          "min-h-[44px] min-w-0 flex-1 rounded-xl border px-4 py-2.5 text-sm focus:outline-none focus:ring-2",
+          // text-base en móvil: iOS Safari hace zoom (y no lo deshace) al
+          // enfocar inputs con fuente menor de 16px.
+          "min-h-[44px] min-w-0 flex-1 rounded-xl border px-4 py-2.5 text-base sm:text-sm focus:outline-none focus:ring-2",
           variant === "onColor"
             ? "border-white/30 bg-white/15 text-white placeholder:text-white/60 backdrop-blur-sm focus:ring-white/40"
             : "border-line bg-card text-ink placeholder:text-muted focus:ring-blue/40",

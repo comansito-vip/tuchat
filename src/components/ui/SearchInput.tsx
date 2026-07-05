@@ -20,7 +20,7 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
         placeholder="Buscar ciudad, país o temática"
         aria-label="Buscar salas por ciudad, país o temática"
         className={`min-h-[44px] w-full bg-transparent px-3 text-ink outline-none placeholder:text-muted ${
-          size === "lg" ? "py-2.5 text-base" : "py-1.5 text-sm"
+          size === "lg" ? "py-2.5 text-base" : "py-1.5 text-base sm:text-sm"
         }`}
       />
       <button

@@ -45,7 +45,7 @@ export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
           onChange={(e) => update(e.target.value)}
           placeholder="Buscar ciudad, país o temática"
           aria-label="Buscar sala"
-          className="w-full bg-transparent px-3 py-1.5 text-sm text-ink outline-none placeholder:text-muted"
+          className="w-full bg-transparent px-3 py-1.5 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
         />
       </form>
 

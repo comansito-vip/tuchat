@@ -102,10 +102,18 @@ body {
       transparent 55%
     ),
     var(--color-bg);
-  background-attachment: fixed;
   color: var(--color-muted);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+/* Solo escritorio: en iOS/Android `background-attachment: fixed` fuerza
+   repintados del gradiente completo en cada scroll (jank) y Safari móvil
+   además lo dibuja mal con gradientes de gran tamaño. */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    background-attachment: fixed;
+  }
 }
 
 /* Sombra cálida reutilizable para tarjetas */
