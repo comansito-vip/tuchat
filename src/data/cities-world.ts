@@ -1010,7 +1010,7 @@ export const CITIES_WORLD: Place[] = [
     slug: "santa-ana",
     name: "Santa Ana",
     kind: "ciudad",
-    icon: "🌋",
+    icon: "🏵️",
     users: 200,
     votes: 295,
     activity: "Media",
@@ -1547,6 +1547,58 @@ export const CITIES_WORLD: Place[] = [
       "Andina, cafetalera y con un fresquito de montaña que ni Caracas ni Maracaibo conocen: la ciudad más grande del estado Trujillo casi nunca sale en el mapa.",
     about:
       "Valera es la ciudad más poblada del estado Trujillo, aunque la capital administrativa lleve el nombre del estado y le robe el protagonismo en los mapas. La rodean montañas andinas cubiertas de cafetales y caña de azúcar, y de ahí sale buena parte del papelón artesanal que se consume en el occidente del país. El clima es fresco, de neblina que baja por las tardes, muy distinto al calor pegajoso de Maracaibo o la humedad de Caracas. Es una ciudad comercial y agrícola, de gente trabajadora que rara vez aparece en las noticias nacionales y que por eso mismo agradece que alguien se acuerde de que existe. En el chat entran trujillanos de Valera y de pueblos cercanos como La Puerta o Betijoque, venezolanos de otras regiones que buscan compañía, y quien tenga ganas de hablar de café, de montaña y de la Venezuela que no sale en cámara.",
+  },
+  {
+    slug: "cartago",
+    name: "Cartago",
+    kind: "ciudad",
+    icon: "🕯️",
+    users: 150,
+    votes: 215,
+    activity: "Media",
+    parentName: "Costa Rica",
+    parentSlug: "costa-rica",
+    channels: ["cartago", "costa-rica", "amistad", "chatzona"],
+    related: ["costa-rica", "san-jose", "alajuela", "viajes", "religion", "amistad"],
+    intro:
+      "El Irazú humeando de fondo, la Basílica de los Ángeles llenándose de peregrinos cada agosto y el aire fresco de la antigua capital: Cartago entra al chat.",
+    about:
+      "Cartago fue la capital de Costa Rica hasta 1823, y aunque perdió el título después de una revuelta armada contra San José, conserva ese aire señorial de ciudad fundadora. Cada 2 de agosto medio país camina hasta la Basílica de Nuestra Señora de los Ángeles para visitar a la Negrita, patrona nacional, en una romería que llena carreteras enteras de peregrinos. El volcán Irazú vigila desde arriba y en días despejados se ve el humo de su cráter activo, mientras que las Ruinas de la Parroquia, derrumbadas por terremotos y nunca reconstruidas, se volvieron jardín y símbolo de la ciudad. El Valle del Guarco que la rodea vive de la papa, la zanahoria y la leche, y ese aire fresco de montaña —más frío que en la capital— se nota apenas se llega. En esta sala se juntan cartagineses orgullosos de su historia, peregrinos que bajan del volcán y gente del valle que sube al Irazú los fines de semana. Trato pausado, devoto a su manera, con ese orgullo tranquilo de quien fue capital y ya no necesita presumirlo.",
+  },
+  {
+    slug: "colon",
+    name: "Colón",
+    kind: "ciudad",
+    icon: "🚢",
+    users: 140,
+    votes: 200,
+    activity: "Media",
+    parentName: "Panamá",
+    parentSlug: "panama",
+    channels: ["colon", "panama", "amistad", "chatzona"],
+    related: ["panama", "ciudad-de-panama", "david-panama", "viajes", "musica", "amistad"],
+    intro:
+      "Las esclusas de Gatún abriéndose para los barcos, la Zona Libre más grande de América y el tambor congo sonando en cada esquina: Colón entra con su gente.",
+    about:
+      "Colón mira al Caribe desde el otro extremo del Canal, justo donde entran los barcos que cruzan por las esclusas de Gatún, una de las postales más vistas del país. Aquí funciona la Zona Libre de Colón, la segunda zona franca más grande del mundo después de Hong Kong, aunque la riqueza del comercio rara vez se queda en los barrios de la ciudad. La cultura congo, herencia de los esclavos cimarrones que se rebelaron contra España, se guarda con orgullo en el Festival de Diablos y Congos, declarado Patrimonio Inmaterial de la Humanidad, con máscaras, tambores y un lenguaje propio cargado de doble sentido. A un paso queda Portobelo, con sus fortalezas coloniales y el Cristo Negro que cada octubre reúne a miles de peregrinos. En esta sala se cruzan colonenses que defienden su ciudad pese al abandono, congos que no sueltan el tambor y panameños del interior que cruzan el istmo para conocer el Atlántico. Acento caribeño, ritmo propio, orgullo que no se negocia.",
+  },
+  {
+    slug: "san-miguel",
+    name: "San Miguel",
+    kind: "ciudad",
+    icon: "🎪",
+    users: 175,
+    votes: 250,
+    tag: "Tendencia",
+    activity: "Alta",
+    parentName: "El Salvador",
+    parentSlug: "el-salvador",
+    channels: ["san-miguel", "el-salvador", "amistad", "chatzona"],
+    related: ["el-salvador", "san-salvador", "santa-ana", "musica", "viajes", "amistad"],
+    intro:
+      "El Carnaval más grande de Centroamérica cierra noviembre entero, el volcán Chaparrastique vigila de fondo y el calor no perdona: San Miguel entra con ritmo.",
+    about:
+      "San Miguel se prepara todo el año para su Carnaval, que cada noviembre llena las calles con carrozas, comparsas y música hasta la madrugada en una de las fiestas más grandes de Centroamérica. La ciudad late en el oriente del país, con un calor que casi nunca baja y una economía que mezcla ganadería, comercio fronterizo con Honduras y las remesas de la enorme diáspora migueleña en Estados Unidos, que se sienten en cada negocio y cada casa nueva del centro. El volcán Chaparrastique domina el paisaje y en 2013 recordó que sigue activo con una erupción que sacó ceniza sobre la ciudad. La Basílica de Nuestra Señora de la Paz reúne a miles cada noviembre para la fiesta patronal, que se mezcla sin pausa con el carnaval. En esta sala se juntan migueleños de pura cepa, familias que tienen medio clan en Los Ángeles o Washington y gente del oriente salvadoreño que no cambia su tierra por nada. Calor, fiesta y ese orgullo oriental que no se anda con rodeos.",
   },
 
 ];
