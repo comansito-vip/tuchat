@@ -691,6 +691,7 @@
 <url><loc>https://tuchat.org/chat/xalapa</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://tuchat.org/chat/yagua</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://tuchat.org/chat/yopal</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://tuchat.org/chat/zacatecas</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://tuchat.org/chat/zamora</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://tuchat.org/chat/zaragoza</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://tuchat.org/contacto</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
@@ -1100,6 +1101,7 @@
 <url><loc>https://tuchat.org/tiempo/vitoria</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://tuchat.org/tiempo/xalapa</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://tuchat.org/tiempo/yopal</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://tuchat.org/tiempo/zacatecas</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://tuchat.org/tiempo/zamora</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://tuchat.org/tiempo/zaragoza</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://tuchat.org/resultados/laliga</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
