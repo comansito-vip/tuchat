@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/Button";
-import { ChatIcon } from "@/components/ui/icons";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 import { NavLinks } from "@/components/layout/NavLinks";
+import { HeaderCTA } from "@/components/layout/HeaderCTA";
 
 export function Header() {
   return (
@@ -39,14 +38,7 @@ export function Header() {
 
         {/* CTA */}
         <div className="ml-auto shrink-0">
-          <Button
-            href="/webchat?canal=espana"
-            variant="cta"
-            icon={<ChatIcon className="hidden sm:block" />}
-            className="px-3 text-xs lg:px-4 lg:text-sm"
-          >
-            Entrar al chat
-          </Button>
+          <HeaderCTA />
         </div>
       </div>
     </header>

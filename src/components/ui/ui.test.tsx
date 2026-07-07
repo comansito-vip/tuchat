@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { Button } from "./Button";
 import { Badge } from "./Badge";
@@ -18,6 +18,10 @@ vi.mock("next/image", () => ({
 }));
 
 describe("ui primitives", () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
   it("renders a primary button with its label", () => {
     render(<Button>Entrar al chat</Button>);
     expect(screen.getByText("Entrar al chat")).toBeInTheDocument();

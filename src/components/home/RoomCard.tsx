@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
+import { buttonClasses } from "@/components/ui/Button";
+import { EnterButton } from "@/components/ui/EnterButton";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import type { Place } from "@/data";
@@ -20,43 +21,42 @@ export function RoomCard({ place }: { place: Place }) {
 
   return (
     <Card className="flex h-full flex-col gap-3 p-4 transition-all hover:border-blue hover:shadow-md hover:shadow-blue/10">
-      {/* Top row: icon tile + name + optional badge */}
+      {/* Top row: icon tile + name (siempre a ancho completo, nunca se trunca a 0) */}
       <div className="flex items-center gap-2.5">
         <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ${tileBg}`}>
-          <Flag emoji={place.icon} name={place.name} size={24} />
+          <Flag emoji={place.icon} size={24} />
         </span>
         <Link
           href={`/chat/${place.slug}`}
-          className="min-w-0 truncate font-semibold text-ink transition-colors hover:text-blue"
+          className="min-w-0 flex-1 truncate font-semibold text-ink transition-colors hover:text-blue"
         >
           {place.name}
         </Link>
+      </div>
+
+      {/* Activity line + badge (aquí compiten por espacio, no con el nombre) */}
+      <div className="flex items-center gap-1.5 text-sm text-muted">
+        <span className="text-active">
+          <LiveDot />
+        </span>
+        <span className="min-w-0 flex-1 truncate">
+          {place.users.toLocaleString("es")} hablando ahora
+        </span>
         {place.tag && (
-          <span className="ml-auto shrink-0">
+          <span className="shrink-0">
             <Badge tag={place.tag} />
           </span>
         )}
       </div>
 
-      {/* Activity line */}
-      <div className="flex items-center gap-1.5 text-sm text-muted">
-        <span className="text-active">
-          <LiveDot />
-        </span>
-        <span className="truncate">
-          {place.users.toLocaleString("es")} hablando ahora
-        </span>
-      </div>
-
       {/* Enter button */}
-      <Button
-        href={`/webchat?canal=${place.slug}`}
-        variant="cta"
+      <EnterButton
+        canal={place.slug}
         icon={<ChatIcon />}
-        className="mt-auto w-full"
+        className={buttonClasses("cta", "md", "mt-auto w-full")}
       >
         Entrar
-      </Button>
+      </EnterButton>
     </Card>
   );
 }

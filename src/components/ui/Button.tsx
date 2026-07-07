@@ -28,6 +28,17 @@ type Props = {
   className?: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
+// Extraído para que otros componentes (p. ej. EnterButton) puedan producir
+// el mismo aspecto visual sin duplicar los mapas de estilos.
+export function buttonClasses(variant: Variant = "primary", size: Size = "md", className?: string) {
+  return clsx(
+    "inline-flex items-center justify-center gap-2 font-semibold transition-all",
+    sizes[size],
+    styles[variant],
+    className,
+  );
+}
+
 export function Button({
   children,
   variant = "primary",
@@ -37,12 +48,7 @@ export function Button({
   className,
   ...rest
 }: Props) {
-  const cls = clsx(
-    "inline-flex items-center justify-center gap-2 font-semibold transition-all",
-    sizes[size],
-    styles[variant],
-    className,
-  );
+  const cls = buttonClasses(variant, size, className);
   const content = (
     <>
       {icon}
