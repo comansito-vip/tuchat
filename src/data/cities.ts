@@ -5,7 +5,7 @@ export const CITIES: Place[] = [
     slug: "madrid",
     name: "Madrid",
     kind: "ciudad",
-    icon: "🏙️",
+    icon: "🐻",
     users: 842,
     votes: 1320,
     tag: "Popular",
@@ -17,13 +17,13 @@ export const CITIES: Place[] = [
     intro:
       "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
     about:
-      "Aquí se habla de planes de fin de semana, del Metro a las tantas, de dónde tomar algo sin gastarse el sueldo y de los locales que abren cuando los demás cierran. Por la sala pasa gente de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza, madrileños de toda la vida revueltos con quien lleva aquí dos años. Tiene ritmo de capital y se nota: se anima sobre todo los jueves, los viernes y los fines de semana, cuando cuesta seguir todas las conversaciones a la vez. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
+      "La conversación gira en torno a planes de fin de semana, al Metro a las tantas, a dónde tomar algo sin gastarse el sueldo y a los locales que abren cuando los demás cierran. Por la sala pasa gente de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza, madrileños de toda la vida revueltos con quien lleva aquí dos años. Tiene ritmo de capital y se nota: se anima sobre todo los jueves, los viernes y los fines de semana, cuando cuesta seguir todas las conversaciones a la vez. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
   },
   {
     slug: "barcelona",
     name: "Barcelona",
     kind: "ciudad",
-    icon: "🏙️",
+    icon: "🏛️",
     users: 710,
     votes: 1085,
     tag: "Popular",
@@ -190,7 +190,7 @@ export const CITIES: Place[] = [
     channels: ["buenos-aires", "argentina", "amistad", "chatzona"],
     related: ["argentina", "montevideo", "bogota", "lima", "amistad", "amor", "musica"],
     intro:
-      "Desde Palermo hasta la Boca, los porteños tienen el don de la conversación a cualquier hora. Entra y comprueba si el acento te contagia.",
+      "Desde Palermo hasta la Boca, los porteños tienen el don de la conversación a cualquier hora. Entrá y comprobá si el acento te contagia.",
     about:
       "La sala de Buenos Aires mezcla laburantes del Microcentro, estudiantes de Caballito, noctámbulos de San Telmo y vecinos de Villa Urquiza. Se debate de política y del rumbo del peso, de asados en la terraza, del dólar blue y de si Gardel nació en Francia o en Tacuarembó. Hay hinchas de Boca y de River que se respetan fuera del estadio, milongueros que recuerdan los piringundines de los cincuenta y pibes que ven todo por streaming. Una sala porteña que no duerme y que tiene opinión sobre todo.",
   },
@@ -503,7 +503,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Almería para conocer gente, quedar a tomar tapas gratis por las Cuatro Calles o escaparte a las calas vírgenes del Cabo de Gata.",
     about:
-      "Las tapas gratis que la gente de fuera no se cree son la primera sorpresa; la segunda, un sol que supera las 3.000 horas al año. Aquí se habla de los platós de spaghetti westerns en Tabernas, de escaparse a las calas vírgenes del Cabo de Gata y del orgullo de tener las playas más limpias de Andalucía cuando todo el litoral está masificado. Por la sala andan vecinos del Centro, Nova Almería y La Chanca, gente del poniente agrícola y visitantes del Parque Natural. El desierto y el mar a un paso, y esa calma de provincia que tan poco se vende fuera.",
+      "Las tapas gratis que la gente de fuera no se cree son la primera sorpresa; la segunda, un sol que supera las 3.000 horas al año. La charla gira en torno a los platós de spaghetti westerns en Tabernas, a escaparse a las calas vírgenes del Cabo de Gata y al orgullo de tener las playas más limpias de Andalucía cuando todo el litoral está masificado. Por la sala andan vecinos del Centro, Nova Almería y La Chanca, gente del poniente agrícola y visitantes del Parque Natural. El desierto y el mar a un paso, y esa calma de provincia que tan poco se vende fuera.",
   },
   {
     slug: "tenerife",
@@ -974,7 +974,7 @@ export const CITIES: Place[] = [
     slug: "caracas",
     name: "Caracas",
     kind: "ciudad",
-    icon: "🏙️",
+    icon: "⛰️",
     users: 320,
     votes: 480,
     tag: "Popular",
@@ -986,7 +986,7 @@ export const CITIES: Place[] = [
     intro:
       "Entre el Ávila siempre verde y el tráfico de la Francisco Fajardo, los caraqueños llegan al chat con la chispa de quien sobrevive la cola con un chiste.",
     about:
-      "Caracas es ruido, cerro y resolvedera permanente. Aquí se habla del Ávila como de un familiar que siempre está ahí —verde en invierno, nublado en lluvia—, se discute si la mejor arepa con queso de mano es la de Las Mercedes o la del kiosco de la esquina del barrio, y nadie se queda callado ni un minuto. El chat caraqueño mezcla a los que se quedaron con paciencia, a los que volvieron después de probar Miami, y a los que escriben desde Madrid, Bogotá o Santiago extrañando la Cota Mil al amanecer. Caña, chalequeo porteño y nostalgia en partes exactamente iguales.",
+      "Caracas es ruido, cerro y resolvedera permanente. Del Ávila se habla como de un familiar que siempre está ahí —verde en invierno, nublado en lluvia—, se discute si la mejor arepa con queso de mano es la de Las Mercedes o la del kiosco de la esquina del barrio, y nadie se queda callado ni un minuto. El chat caraqueño mezcla a los que se quedaron con paciencia, a los que volvieron después de probar Miami, y a los que escriben desde Madrid, Bogotá o Santiago extrañando la Cota Mil al amanecer. Caña, chalequeo porteño y nostalgia en partes exactamente iguales.",
   },
   {
     slug: "maracaibo",
@@ -1521,7 +1521,7 @@ export const CITIES: Place[] = [
     intro:
       "Charlá con gente de Bariloche y la Patagonia: lagos, cerro Catedral y chocolate. Chat gratis sin registro del sur.",
     about:
-      "El chat de Bariloche reúne a la gente de la Patagonia andina, esa que vive entre lagos, bosques y el reflejo del Nahuel Huapi. Se habla de la temporada de esquí en el cerro Catedral, de las chocolaterías de la calle Mitre, del frío que pela en invierno y de las caminatas por el Circuito Chico cuando afloja. Hay charla de la nieve, del Llao Llao, de la cerveza artesanal del sur y de la vida tranquila lejos del ritmo porteño. Conviven barilochenses de toda la vida, gente que llegó buscando la montaña y quienes sueñan con mudarse. Una sala con aire fresco de cordillera donde se hacen amistades y planes para recorrer el sur.",
+      "El chat de Bariloche reúne a la gente de la Patagonia andina, esa que vive entre lagos, bosques y el reflejo del Nahuel Huapi. Se habla de la temporada de esquí en el cerro Catedral, de las chocolaterías de la calle Mitre, del frío que pela en invierno y de las caminatas por el Circuito Chico cuando afloja. Hay charla de la nieve, del Llao Llao, de la cerveza artesanal del sur y de la vida tranquila lejos del ritmo porteño, con barilochenses de toda la vida, gente que llegó buscando la montaña y quienes sueñan con mudarse compartiendo charla. Una sala con aire fresco de cordillera donde se hacen amistades y planes para recorrer el sur.",
   },
   {
     slug: "chaco-corrientes",

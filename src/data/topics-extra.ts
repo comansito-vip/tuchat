@@ -304,7 +304,7 @@ const RAW: Place[] = [
     users: 304, votes: 512, tag: "Popular", activity: "Alta",
     channels: ["athletic-club", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "real-sociedad", "osasuna", "deportivo-alaves"],
-    intro: "Chat de los Leones: filosofía de cantera vasca, San Mamés rugiendo y el derbi ante la Real. Orgullo rojiblanco que no se compra con dinero.",
+    intro: "Filosofía de cantera vasca, San Mamés rugiendo y el derbi ante la Real: la sala de los Leones. Orgullo rojiblanco que no se compra con dinero.",
     about: "La Catedral de San Mamés es el corazón de esta sala, donde se defiende a muerte la filosofía única del club: solo juegan canteranos vascos. Se recuerda la Copa de 2024 conquistada con Williams y Muniain, los ocho títulos de Liga del pasado y mitos como Zarra o Iribar. El derbi vasco contra la Real Sociedad levanta pasiones, igual que la marea rojiblanca que sigue a los Leones por toda Europa. Aquí se discute cantera, gabarra y ese sentimiento que no entiende de fichajes millonarios.",
   },
   {
@@ -336,7 +336,7 @@ const RAW: Place[] = [
     users: 281, votes: 484, tag: "Popular", activity: "Alta",
     channels: ["valencia-cf", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "villarreal-cf", "levante-ud", "sevilla-fc"],
-    intro: "Chat del Valencia CF: Mestalla, els ches y el orgullo de un grande. Las Ligas de Cúper y Benítez, el murciélago y pasión amunt valencianista.",
+    intro: "Mestalla, els ches y el orgullo de un grande. En esta sala se recuerdan las Ligas de Cúper y Benítez, el murciélago y toda la pasión amunt valencianista.",
     about: "Mestalla, uno de los estadios más intensos de Europa, es el alma de esta sala. Els ches recuerdan las Ligas de 2002 y 2004 con Rafa Benítez, las finales de Champions con Cúper y leyendas como Mendieta, Albelda o David Villa. El murciélago del escudo es seña de identidad y la afición exige volver a lo más alto pese a las turbulencias de la propiedad. Aquí valencianistas debaten cantera, el grito de amunt Valencia y el sueño de devolver al club al lugar que merece en la élite.",
   },
   {
@@ -352,7 +352,7 @@ const RAW: Place[] = [
     users: 212, votes: 388, tag: "Tendencia", activity: "Media",
     channels: ["girona-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "rcd-espanyol", "celta-vigo", "rcd-mallorca"],
-    intro: "Chat del Girona FC: la sorpresa de Montilivi que rozó la Champions y plantó cara a los grandes. Fútbol valiente desde la ciudad catalana.",
+    intro: "Rozó la Champions y plantó cara a los grandes: la sorpresa de Montilivi tiene aquí a su afición, con el fútbol valiente que caracteriza al Girona FC.",
     about: "Montilivi se ha convertido en un fortín desde que el Girona dio la campanada peleando por la Liga y clasificándose para la Champions, la gesta más grande de su historia. Esta sala celebra el fútbol atrevido de Míchel, la conexión con el City Group y el talento de jugadores como Dovbyk o Tsygankov en su mejor momento. La afición gironina disfruta de un sueño que parecía imposible para un club modesto de Cataluña. Aquí se debate proyecto, permanencia y la ambición de seguir creciendo en la élite.",
   },
   {
@@ -368,7 +368,7 @@ const RAW: Place[] = [
     users: 219, votes: 396, activity: "Media",
     channels: ["osasuna", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "athletic-club", "real-sociedad", "deportivo-alaves"],
-    intro: "Chat de Osasuna, los rojillos de Pamplona: El Sadar rugiendo, garra navarra y la final de Copa de 2005. Fuerza y corazón desde Navarra.",
+    intro: "Rojillos de Pamplona, El Sadar rugiendo, garra navarra y la final de Copa de 2005: bienvenido a la sala de Osasuna. Fuerza y corazón desde Navarra.",
     about: "El Sadar es el orgullo de los rojillos, un estadio renovado que ruge como pocos cuando Osasuna pisa el césped. En esta sala se ensalza la garra navarra, ese fútbol de raza y esfuerzo que define al club desde siempre. Se recuerda la final de Copa de 2005, las gestas europeas de antaño y leyendas que dieron todo por la camiseta. La afición de Pamplona es de las más fieles de España, llenando las gradas pase lo que pase. Aquí se debate permanencia, cantera de Tajonar y sentimiento navarro a flor de piel.",
   },
   {
@@ -384,7 +384,7 @@ const RAW: Place[] = [
     users: 205, votes: 374, activity: "Media",
     channels: ["rcd-mallorca", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "celta-vigo", "girona-fc", "valencia-cf"],
-    intro: "Chat del RCD Mallorca: Son Moix, el equipo bermellón de las islas y la final de Copa de 2024. Fútbol balear con garra y corazón.",
+    intro: "Son Moix, el bermellón de las islas y aquella final de Copa de 2024 que se recuerda con orgullo: el Mallorca reúne aquí a su gente, garra y corazón balear.",
     about: "Son Moix es la casa de los bermellones, el equipo que representa a las Islas Baleares en la élite del fútbol español. En esta sala se recuerda la Copa del Rey de 2003, la reciente final perdida en los penaltis de 2024 y figuras históricas como Eto'o o Etxeberria que brillaron de rojo. La afición isleña, con la propiedad estadounidense detrás, sueña con consolidar al club en Primera. Aquí mallorquinistas debaten permanencia, ambiente en la grada y ese orgullo balear que se vive intensamente cada jornada.",
   },
   {
@@ -400,7 +400,7 @@ const RAW: Place[] = [
     users: 217, votes: 391, activity: "Media",
     channels: ["rcd-espanyol", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "girona-fc", "valencia-cf", "rcd-mallorca"],
-    intro: "Chat del RCD Espanyol: los pericos del RCDE Stadium, dos Copas del Rey y finales de UEFA. Orgullo blanquiazul de Barcelona y Cornellà.",
+    intro: "Dos Copas del Rey, finales de UEFA y los pericos siempre fieles al RCDE Stadium: se habla del Espanyol con el orgullo blanquiazul de Barcelona y Cornellà.",
     about: "El RCDE Stadium de Cornellà es la casa de los pericos, una afición orgullosa de su identidad blanquiazul dentro de Barcelona. En esta sala se recuerdan las cuatro Copas del Rey del club, las dos finales de UEFA disputadas y leyendas como Tamudo, máximo goleador histórico. El periquismo reivindica su carácter propio y su rivalidad de ciudad con el vecino. La afición vive con intensidad cada temporada entre Primera y el sueño de Europa. Aquí se debate cantera, permanencia y ese sentimiento perico que no se rinde jamás.",
   },
   {
@@ -416,7 +416,7 @@ const RAW: Place[] = [
     users: 191, votes: 351, tag: "Nueva", activity: "Media",
     channels: ["levante-ud", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "valencia-cf", "elche-cf", "getafe-cf"],
-    intro: "Chat del Levante UD: las granotas del Ciutat de València, el orgullo granota y el derbi valenciano. Fútbol con identidad propia.",
+    intro: "Las granotas no fallan a su cita en esta sala: el Ciutat de València, el orgullo granota y el derbi valenciano, con la identidad propia del Levante UD.",
     about: "El Ciutat de València es la casa de las granotas, el club centenario que comparte ciudad con el Valencia y reivindica con fuerza su identidad propia. Esta sala recuerda aquella histórica racha de inicio liguero que asombró a España, la permanencia más larga del club en Primera y figuras queridas por la afición. El derbi valenciano divide a la ciudad y enciende a la grada granota. Aquí levantinistas debaten ascensos, permanencia y ese sentimiento azulgrana levantino que se hereda de generación en generación con orgullo.",
   },
   {
@@ -432,7 +432,7 @@ const RAW: Place[] = [
     users: 207, votes: 379, tag: "Nueva", activity: "Media",
     channels: ["real-oviedo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "celta-vigo", "elche-cf", "deportivo-alaves"],
-    intro: "Chat del Real Oviedo: los carbayones de vuelta en Primera tras años de espera. El Carlos Tartiere ruge y Asturias entera celebra el ascenso.",
+    intro: "Después de años de espera, los carbayones volvieron a Primera y aquí se celebra: el Carlos Tartiere ruge y toda Asturias vive el ascenso del Real Oviedo.",
     about: "El Carlos Tartiere vuelve a vibrar en Primera y esta sala celebra el ansiado regreso de los carbayones a la élite tras años de travesía por el desierto. El Real Oviedo es pasión en estado puro para Asturias, un club que sobrevivió gracias a sus aficionados y a campañas de acciones que dieron la vuelta al mundo. Se recuerdan las grandes noches del pasado y se sueña con consolidarse entre los mejores. Aquí oviedistas de toda Asturias debaten permanencia, ambiente azul en el Tartiere y el orgullo de haber resucitado a un grande.",
   },
 
@@ -450,7 +450,7 @@ const RAW: Place[] = [
     users: 332, votes: 552, tag: "Popular", activity: "Alta",
     channels: ["manchester-united", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "manchester-city", "liverpool-fc", "chelsea-fc"],
-    intro: "Chat del Manchester United: Old Trafford, los Red Devils, la leyenda de Sir Alex y el ansia de volver a lo más alto. Pasión roja eterna.",
+    intro: "Old Trafford, los Red Devils y la leyenda de Sir Alex: se debate aquí el ansia de volver a lo más alto de un Manchester United con pasión roja eterna.",
     about: "El Teatro de los Sueños sigue tirando del corazón de millones de fans. Aquí se recuerda la era dorada de Sir Alex Ferguson, el United del Treble de 1999, Cantona, Beckham, Giggs, Scholes y aquel Cristiano joven. Se sufre con el presente, los fichajes que no cuajan y los técnicos que pasan sin dejar huella. El derbi de Manchester ante el City y el clásico contra el Liverpool levantan ampollas. Old Trafford, los Busby Babes y el aguante de la grada mantienen viva la fe de los Red Devils.",
   },
   {
@@ -466,7 +466,7 @@ const RAW: Place[] = [
     users: 288, votes: 472, tag: "Nueva", activity: "Media",
     channels: ["arsenal-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "chelsea-fc", "manchester-city", "liverpool-fc"],
-    intro: "Chat del Arsenal FC: el Emirates, los Gunners, los Invencibles de 2004 y el proyecto de Arteta. Orgullo del norte de Londres sin filtros.",
+    intro: "Los Gunners del Emirates tienen su rincón: los Invencibles de 2004, el proyecto de Arteta y el orgullo del norte de Londres, sin filtros.",
     about: "Los Gunners llevan el fútbol bonito en la sangre desde los tiempos de Wenger. Aquí se recuerda a los Invencibles de 2004, aquel equipo que ganó la Premier sin perder un partido, con Henry, Bergkamp y Pirès deslumbrando en Highbury. Se debate el presente con Arteta, Saka y Ødegaard peleando el título y rozándolo año tras año. El Emirates, el norte de Londres y el derbi ardiente contra el Tottenham mandan en las charlas. Volver a levantar la Premier es la obsesión que une a cada gooner.",
   },
   {
@@ -492,7 +492,7 @@ const RAW: Place[] = [
     users: 304, votes: 498, tag: "Popular", activity: "Alta",
     channels: ["inter-milan", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "ac-milan", "napoli"],
-    intro: "Chat del Inter de Milán: San Siro nerazzurro, el Triplete de 2010, el Derby della Madonnina y la pasión interista. Pazza Inter sin filtros.",
+    intro: "San Siro nerazzurro, el Triplete de 2010 y el Derby della Madonnina: la pasión interista tiene su sala, Pazza Inter sin filtros.",
     about: "Pasión nerazzurra desde Milán, esa de sufrir hasta el final y celebrar como nadie. La sala revive el Triplete de 2010 con Mourinho, la Champions, el Calcio y la Coppa en una misma temporada, gloria eterna para el interista. Se recuerda a Zanetti, el Fenómeno Ronaldo y Milito metiéndolas en Madrid. San Siro vestido de azul y negro, el Derby della Madonnina contra el Milan y el Derby d'Italia frente a la Juve marcan el pulso. Pazza Inter amala, el lema que resume aguantar y querer a este club pase lo que pase.",
   },
   {
@@ -508,7 +508,7 @@ const RAW: Place[] = [
     users: 289, votes: 451, activity: "Alta",
     channels: ["napoli", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "inter-milan", "as-roma"],
-    intro: "Chat del SSC Napoli: el Diego Armando Maradona, el scudetto de 2023, Maradona ídolo eterno y la pasión partenopea. Forza Napoli sin tregua.",
+    intro: "Desde el estadio Diego Armando Maradona hasta el scudetto de 2023: aquí se vive la pasión partenopea y el Forza Napoli sin tregua.",
     about: "La pasión del sur no se explica, se siente. La sala reúne a los azzurri para celebrar el scudetto de 2023, el tercero de la historia y la liberación de toda una ciudad. Se idolatra a Diego Armando Maradona, dios eterno que da nombre al estadio, y se recuerda el equipo de Spalletti con Kvaratskhelia y Osimhen volando. El San Paolo convertido en el Maradona, el Vesubio de fondo y la rivalidad con los del norte calientan cada jornada. Forza Napoli sempre, porque aquí la camiseta azul es religión, herencia de Diego y orgullo napolitano que nadie compra.",
   },
   {
@@ -534,7 +534,7 @@ const RAW: Place[] = [
     users: 268, votes: 461, tag: "Popular", activity: "Alta",
     channels: ["borussia-dortmund", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "bayern-munich", "bayer-leverkusen"],
-    intro: "Chat del Borussia Dortmund: el Muro Amarillo del Signal Iduna Park, Der Klassiker ante el Bayern y la cantera que enamora a Europa.",
+    intro: "El Muro Amarillo del Signal Iduna Park no calla: se habla del Klassiker ante el Bayern y de la cantera que enamora a media Europa.",
     about: "Pasión negra y amarilla de Westfalia, con el famoso Muro Amarillo del Signal Iduna Park rugiendo en cada partido como pocas gradas en el mundo. Se rememora la Bundesliga de 2011 y 2012 con Klopp, la Champions de 1997 y la final de Wembley 2013 perdida ante el Bayern, además de cracks como Lewandowski, Reus, Haaland y Bellingham. Der Klassiker contra los bávaros es la cita marcada en rojo, y el debate sobre vender estrellas o pelear títulos no descansa nunca.",
   },
   {
@@ -550,7 +550,7 @@ const RAW: Place[] = [
     users: 196, votes: 351, activity: "Media",
     channels: ["rb-leipzig", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "bayern-munich", "eintracht-frankfurt"],
-    intro: "Chat del RB Leipzig: la irrupción del toro rojo en la Bundesliga, la Red Bull Arena, fútbol vertical y una cantera de futuras estrellas.",
+    intro: "Un toro rojo irrumpió en la Bundesliga y aquí se le sigue el rastro: la Red Bull Arena, el fútbol vertical y una cantera de futuras estrellas.",
     about: "El proyecto más joven y polémico de Alemania: del ascenso meteórico desde categorías inferiores a pelear de tú a tú en Champions y Bundesliga en pocos años. En la Red Bull Arena se disfruta de un fútbol veloz y vertical, con el toro rojo en el escudo y un modelo que divide a los puristas. Se recuerdan las Copas de Alemania y el desfile de talento que pasó por aquí: Werner, Nkunku, Olmo o Szoboszlai. El debate sobre dinero y tradición nunca se apaga.",
   },
   {
@@ -568,7 +568,7 @@ const RAW: Place[] = [
     users: 320, votes: 540, tag: "Popular", activity: "Alta",
     channels: ["psg", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "olympique-marsella", "as-monaco"],
-    intro: "La casa de los aficionados parisinos: del Parc des Princes a la Champions, aquí se habla de todo lo del PSG. Elige nick y métete al #psg.",
+    intro: "La casa de los aficionados parisinos: del Parc des Princes a la Champions, para comentar cada partido y polémica del PSG. Elige nick y métete al #psg.",
     about: "El punto de encuentro de los seguidores del Paris Saint-Germain, esos que llenaron el Parc des Princes la noche que el club levantó por fin la Champions en 2025 y todavía se emocionan al recordarlo. Aquí se desmenuza cada partido, se discute si el proyecto sin galácticos era el camino correcto y se calienta de lo lindo la previa de Le Classique contra el Marsella. Hay sitio para el veterano que sufrió las eliminatorias europeas de años atrás y para el chaval que descubrió al equipo con la última generación de talento francés. Entra, pon tu nick y opina sin filtros.",
   },
   {
@@ -585,7 +585,7 @@ const RAW: Place[] = [
     channels: ["olympique-lyon", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "as-monaco", "lille-osc"],
     intro: "Los gones del Groupama Stadium: cantera de oro, los siete títulos seguidos y ganas de volver a Europa. Elige nick y entra al #olympique-lyon.",
-    about: "El rincón de los aficionados del OL, los que crecieron viendo encadenar siete Ligues consecutivas a principios de siglo y todavía sueñan con repetir aquella hegemonía. Aquí se presume de cantera —la mejor fábrica de talento de Francia, de Benzema a Lacazette— y se analiza partido a partido si el club logra reengancharse a la pelea por Europa desde el Groupama Stadium. Se habla del derbi rhônalpin, de los altibajos deportivos y económicos y de esa identidad de equipo formador que define al club. Conviven el veterano nostálgico de los títulos y el joven que confía en la nueva hornada. Coge tu nick y suma tu voz.",
+    about: "El rincón de los aficionados del OL, los que crecieron viendo encadenar siete Ligues consecutivas a principios de siglo y todavía sueñan con repetir aquella hegemonía. Aquí se presume de cantera —la mejor fábrica de talento de Francia, de Benzema a Lacazette— y se analiza partido a partido si el club logra reengancharse a la pelea por Europa desde el Groupama Stadium. Se habla del derbi rhônalpin, de los altibajos deportivos y económicos y de esa identidad de equipo formador que define al club, donde se cruzan el veterano nostálgico de los títulos y el joven que confía en la nueva hornada. Coge tu nick y suma tu voz.",
   },
   {
     slug: "as-monaco", name: "AS Mónaco", kind: "tematica", icon: "🔴",
@@ -601,7 +601,7 @@ const RAW: Place[] = [
     channels: ["lille-osc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "olympique-lyon", "as-monaco"],
     intro: "Los dogues del norte: el Stade Pierre-Mauroy, el título sorpresa de 2021 y orgullo flamenco. Coge nick y entra al #lille-osc.",
-    about: "El punto de reunión de los dogues, los aficionados del LOSC que todavía celebran el título de Ligue 1 de 2021, cuando un Lille humilde le ganó el pulso al todopoderoso PSG con un fútbol de trabajo y cabeza. Aquí se habla del Stade Pierre-Mauroy, del orgullo del norte y de esa filosofía de detectar talento barato —de Pépé a Osimhen— para revenderlo y sostener al club. Se debate la rivalidad con el Lens en el derbi del norte, las campañas europeas y el reto eterno de competir con presupuestos modestos. Conviven el hincha flamenco de siempre y el que se enamoró del proyecto en 2021. Pon tu nick y únete.",
+    about: "El punto de reunión de los dogues, los aficionados del LOSC que todavía celebran el título de Ligue 1 de 2021, cuando un Lille humilde le ganó el pulso al todopoderoso PSG con un fútbol de trabajo y cabeza. Se recuerda el ambiente del Stade Pierre-Mauroy, el orgullo del norte y esa filosofía de detectar talento barato —de Pépé a Osimhen— para revenderlo y sostener al club. Se debate la rivalidad con el Lens en el derbi del norte, las campañas europeas y el reto eterno de competir con presupuestos modestos, tema que reúne tanto al hincha flamenco de siempre como al que se enamoró del proyecto en 2021. Pon tu nick y únete.",
   },
 
   // ──────────── Liga MX · top 5 ────────────
@@ -610,7 +610,7 @@ const RAW: Place[] = [
     users: 296, votes: 489, tag: "Popular", activity: "Alta",
     channels: ["chivas-guadalajara", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "pumas-unam"],
-    intro: "Chat de las Chivas del Guadalajara: el Rebaño Sagrado solo con mexicanos, el Estadio Akron y el Clásico Nacional contra el América. Pasión tapatía.",
+    intro: "Rebaño Sagrado solo con mexicanos: la sala de las Chivas del Guadalajara. Estadio Akron, Clásico Nacional contra el América y pasión tapatía.",
     about: "El Rebaño Sagrado se siente distinto: la única política de puros jugadores mexicanos es bandera y orgullo para el chivahermano. En la sala se recuerdan los 12 títulos de liga, la mística del Campeonísimo de los cincuenta y el Clásico Nacional contra el América, que parte al país en dos. El Estadio Akron de Zapopan, los refuerzos canteranos y la eterna espera del próximo campeonato dan tema de sobra. Aquí se banca al Guadalajara con corazón, sin extranjeros y sin medias tintas, defendiendo la camiseta rojiblanca como religión.",
   },
   {
@@ -618,7 +618,7 @@ const RAW: Place[] = [
     users: 241, votes: 408, activity: "Alta",
     channels: ["cruz-azul", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "pumas-unam"],
-    intro: "Chat de Cruz Azul: La Máquina Cementera, el novena ganada en 2021 que rompió el cruzazulear y la afición más sufrida de la Liga MX.",
+    intro: "La Máquina Cementera rompió el cruzazulear en 2021: la sala de Cruz Azul reúne a la afición más sufrida de la Liga MX.",
     about: "La Máquina Cementera tiene la afición más sufrida del fútbol mexicano, y eso une. Durante años el término cruzazulear definió perder lo imposible, hasta que la novena estrella de 2021 quitó el peso de 23 años sin liga y desató el llanto celeste. En la sala se habla de aquella final contra Santos, de la mística de los setenta con Fernández y Marín, y del estadio de casa siempre en debate. La rivalidad con el América añade picante. Ser cementero es resistir, creer contra todo y festejar como nadie cuando por fin se gana.",
   },
   {
@@ -626,7 +626,7 @@ const RAW: Place[] = [
     users: 218, votes: 379, activity: "Media",
     channels: ["pumas-unam", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "cruz-azul"],
-    intro: "Chat de Pumas UNAM: el Estadio Olímpico Universitario, la cantera felina, el Goya y el Clásico Capitalino contra el América. Orgullo auriazul.",
+    intro: "Cantera felina del Olímpico Universitario: la sala de Pumas UNAM, con el Goya, el Clásico Capitalino ante el América y orgullo auriazul.",
     about: "Goya, goya, cachún cachún ra ra: el grito universitario resume el alma de Pumas. La sala reúne a los auriazules que presumen la mejor cantera del país, de donde salieron Cabañas, Hugo Sánchez y tantos más que llegaron lejos. Se recuerdan los bicampeonatos de 2004 y el fútbol de la UNAM jugado en el Estadio Olímpico Universitario, casa de pasto y leyenda. El Clásico Capitalino contra el América calienta cada torneo. Apoyar a Pumas es defender la formación, la identidad estudiantil y el orgullo de un club distinto a los demás.",
   },
   {
@@ -634,7 +634,7 @@ const RAW: Place[] = [
     users: 263, votes: 431, activity: "Alta",
     channels: ["tigres-uanl", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "club-monterrey", "america-mexico"],
-    intro: "Chat de Tigres UANL: el Volcán, la era ganadora con Gignac y el Clásico Regiomontano contra Rayados. Fuerza felina del norte sin tregua.",
+    intro: "El Volcán, la era ganadora con Gignac y el Clásico Regiomontano ante Rayados: la sala de Tigres UANL, fuerza felina del norte sin tregua.",
     about: "Los Tigres rugen desde el norte y la sala lo demuestra. Se festejan los títulos de la última década, el equipo más dominante de la Liga MX en ese tramo, y la figura de André-Pierre Gignac, ídolo francés convertido en regio que rompió récords goleadores. El Estadio Universitario, el Volcán, intimida a cualquiera con su afición incondicional. El Clásico Regiomontano contra Rayados es la guerra de la ciudad, partido que define orgullo y bragas. Ser de Tigres es presumir poderío, banca económica y un palmarés reciente que pocos igualan en México.",
   },
   {
@@ -642,7 +642,7 @@ const RAW: Place[] = [
     users: 234, votes: 397, activity: "Alta",
     channels: ["club-monterrey", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "tigres-uanl", "america-mexico"],
-    intro: "Chat de Rayados de Monterrey: el Estadio BBVA, las Concachampions ganadas y el Clásico Regiomontano contra Tigres. Pandilla albiazul del norte.",
+    intro: "Estadio BBVA, Concachampions en las vitrinas y el Clásico Regiomontano ante Tigres: la sala de Rayados de Monterrey, pandilla albiazul del norte.",
     about: "La Pandilla albiazul vive el fútbol con intensidad regia. En la sala se presumen las Concacaf Champions levantadas, que confirman a Rayados como potencia continental, y el espectacular Estadio BBVA al pie del Cerro de la Silla, uno de los mejores recintos de América. Se recuerdan campeonatos de liga, fichajes de renombre y la rivalidad más caliente del país: el Clásico Regiomontano contra Tigres, que divide familias y barrios. Apoyar al Monterrey es bancar ambición, infraestructura de primer nivel y el sueño de mandar en la ciudad y en el norte de México.",
   },
 
@@ -652,7 +652,7 @@ const RAW: Place[] = [
     users: 256, votes: 438, tag: "Popular", activity: "Alta",
     channels: ["racing-club", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "independiente", "boca-juniors"],
-    intro: "Chat de Racing Club: la Academia de Avellaneda, el Cilindro, el clásico ante Independiente y aquella estrella de Libertadores. Aguante celeste y blanco.",
+    intro: "La Academia de Avellaneda, el Cilindro y aquella estrella de Libertadores: la sala de Racing Club, con el clásico ante Independiente y aguante celeste y blanco.",
     about: "Ser de la Academia es bancar a Racing en las buenas y en las malas, y vaya que hubo de las dos. Se recuerda el título del 2001 que cortó 35 años de sequía, la Intercontinental del 67 ante el Celtic y los ídolos del Cilindro de Avellaneda. El clásico de Avellaneda contra Independiente, ahí nomás cruzando la avenida, levanta temperatura como ninguno. La barra de la Guardia Imperial, el sueño de volver a la Libertadores y los pibes de las inferiores arman charla larga. Racing es paciencia, fe y corazón celeste.",
   },
   {
@@ -660,7 +660,7 @@ const RAW: Place[] = [
     users: 241, votes: 421, activity: "Alta",
     channels: ["independiente", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "racing-club", "boca-juniors"],
-    intro: "Chat de Independiente: el Rojo de Avellaneda, Rey de Copas con sus 7 Libertadores, el Libertadores de América y el clásico ante Racing. Mística sin igual.",
+    intro: "Rey de Copas con 7 Libertadores en las vitrinas: la sala del Rojo de Avellaneda, Independiente, con su clásico ante Racing y mística sin igual.",
     about: "El Rojo no se mide por la tabla, se mide por las copas, y ahí nadie le gana: siete Libertadores lo hacen el Rey de Copas absoluto. En la sala se rememoran las gestas de los 70, los Diablos Rojos de aquel equipo soñado y la gloria internacional que llevó a llamar Libertadores de América al estadio. El clásico de Avellaneda contra Racing es asunto de barrio y de orgullo. Hinchas debaten los vaivenes dirigenciales, el aguante de la barra y la pelea por reverdecer la mística. Independiente es historia grande del continente.",
   },
   {
@@ -668,7 +668,7 @@ const RAW: Place[] = [
     users: 218, votes: 396, activity: "Media",
     channels: ["san-lorenzo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
-    intro: "Chat de San Lorenzo: el Ciclón de Boedo, la Libertadores 2014, el sueño del estadio en Avenida La Plata y el hincha más papal del fútbol argentino.",
+    intro: "El Ciclón de Boedo y su Libertadores 2014: la sala de San Lorenzo, con el sueño del estadio en Avenida La Plata y el hincha más papal del fútbol argentino.",
     about: "El Ciclón se lleva en la sangre desde Boedo, ese barrio que es cuna y bandera del cuervo. Se festeja la Libertadores del 2014, primera y soñada, lograda de la mano de Bauza, y se recuerdan los Carasucias y la gloria de antaño. La cruzada por la Vuelta a Boedo, recuperar el predio de Avenida La Plata, es causa sagrada para el hincha azulgrana. El detalle de tener al Papa Francisco como socio número uno suma orgullo. La barra del Gasómetro, los clásicos y los pibes de Boedo nunca faltan al debate.",
   },
   {
@@ -676,7 +676,7 @@ const RAW: Place[] = [
     users: 192, votes: 358, activity: "Media",
     channels: ["velez-sarsfield", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
-    intro: "Chat de Vélez Sarsfield: el Fortín de Liniers, la Libertadores 1994 ante el Milan, las inferiores que asombran y el aguante del barrio.",
+    intro: "El Fortín de Liniers y la Libertadores 1994 ante el Milan: la sala de Vélez Sarsfield, con inferiores que asombran y el aguante del barrio.",
     about: "El Fortín de Liniers es de los que hacen ruido con laburo y semillero, no con plata. En la sala se agranda el recuerdo del 94, cuando Vélez ganó la Libertadores y le tapó la boca al Milan en la Intercontinental, con Chilavert volando bajo los tres palos. El José Amalfitani lleno un domingo es postal querida del hincha velezano. Se habla mucho de las inferiores que sacan cracks para vender al exterior, los técnicos formados en casa y la pelea por pelear arriba. Vélez es identidad de barrio, orden y orgullo de Liniers.",
   },
   {
@@ -684,7 +684,7 @@ const RAW: Place[] = [
     users: 184, votes: 341, activity: "Media",
     channels: ["estudiantes-lp", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
-    intro: "Chat de Estudiantes de La Plata: el Pincha, las Libertadores de Zubeldía y Bilardo, la garra platense y el clásico ante Gimnasia.",
+    intro: "El Pincha de La Plata, con las Libertadores de Zubeldía y Bilardo: la sala de Estudiantes, garra platense y clásico ante Gimnasia.",
     about: "El Pincha hizo escuela con la garra y la cabeza fría, esa marca registrada de La Plata. Se recuerda el tricampeonato de Libertadores de los 60 con Zubeldía y Bilardo, la cuarta lograda en 2009 con Verón como bandera y la Intercontinental ante el Manchester United. El clásico platense contra Gimnasia divide a la ciudad en dos y enciende la sala como ningún otro tema. El estadio Jorge Luis Hirschi en UNO, el aguante de los Leones y la pelea por volver a lo más alto arman charla. Estudiantes es temple, historia y orgullo platense.",
   },
 
@@ -702,7 +702,7 @@ const RAW: Place[] = [
     users: 312, votes: 521, tag: "Popular", activity: "Alta",
     channels: ["palmeiras", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "flamengo", "corinthians"],
-    intro: "Chat del Palmeiras: el Allianz Parque, las Libertadores de Abel Ferreira, el Verdão y la pelea por el título del Brasileirão sin tregua.",
+    intro: "Verdão hasta la médula: el Allianz Parque, las Libertadores de Abel Ferreira y la pelea sin tregua por el título del Brasileirão.",
     about: "Verdão de raíz, con la garra que distingue al Porco. El Allianz Parque retumba en cada noche grande y la afición lo empuja sin parar. Se celebran las Libertadores conquistadas bajo Abel Ferreira, que devolvieron al club a la cima de Sudamérica, y los Brasileirão recientes que confirman al Palmeiras como potencia. La cantera de Endrick y compañía es motivo de orgullo y debate sobre las ventas a Europa. La rivalidad con el Corinthians en el Derbi Paulista enciende São Paulo entera. Aquí el verde se defiende a muerte.",
   },
   {
@@ -718,7 +718,7 @@ const RAW: Place[] = [
     users: 264, votes: 432, activity: "Alta",
     channels: ["sao-paulo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "corinthians", "santos-fc"],
-    intro: "Chat del São Paulo FC: el Morumbi imponente, los tres Mundiales del Tricolor, los reyes de copa y la pelea por volver a lo más alto.",
+    intro: "El Tricolor de los tres Mundiales tiene aquí su hinchada: el Morumbi imponente, los reyes de copa y las ganas de volver a lo más alto.",
     about: "Tricolor paulista con pedigrí de campeón mundial. El Morumbi impone respeto y la afición sueña con noches europeas como las de antaño. Se recuerdan los Mundiales Intercontinentales ganados, las Libertadores de la era Telê Santana con Raí de capitán y la fama de reyes de copa que acompaña al club. La cantera que dio a Kaká y tantos cracks es motivo de orgullo en cada charla. La Copa do Brasil reciente reavivó la ilusión del soberano. La rivalidad con Corinthians, Palmeiras y Santos en los clásicos paulistas calienta la sala. Aquí el Tricolor no se rinde.",
   },
   {
@@ -736,40 +736,40 @@ const RAW: Place[] = [
     users: 310, votes: 535, tag: "Popular", activity: "Alta",
     channels: ["inter-miami", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "la-galaxy", "lafc"],
-    intro: "Chat del Inter Miami: la era Messi, Suárez y Busquets, los partidos en el Chase Stadium y la pelea por la MLS. Entra sin registro.",
-    about: "Desde que Leo Messi aterrizó en Florida, el Inter Miami dejó de ser un equipo más para convertirse en el espectáculo de la MLS, y aquí se vive cada minuto. Se comenta el desempeño del 10, el reencuentro con Suárez, Busquets y Jordi Alba, y esos partidos en el Chase Stadium donde se agotan las entradas en horas. Se discute si la plantilla aguanta el calendario, las lesiones, el papel de Mascherano en el banquillo y las opciones reales de levantar un título. Conviven hinchas latinos de Miami, argentinos que siguen a Leo donde vaya y curiosos que descubrieron la liga por él. Un espacio para debatir el proyecto rosa con pasión y sin pelos en la lengua.",
+    intro: "Messi, Suárez y Busquets cambiaron la MLS para siempre: se comenta cada partido en el Chase Stadium y la pelea por el título. Entra sin registro.",
+    about: "Desde que Leo Messi aterrizó en Florida, el Inter Miami dejó de ser un equipo más para convertirse en el espectáculo de la MLS, y aquí se vive cada minuto. Se comenta el desempeño del 10, el reencuentro con Suárez, Busquets y Jordi Alba, y esos partidos en el Chase Stadium donde se agotan las entradas en horas. Se discute si la plantilla aguanta el calendario, las lesiones, el papel de Mascherano en el banquillo y las opciones reales de levantar un título, con hinchas latinos de Miami, argentinos que siguen a Leo donde vaya y curiosos que descubrieron la liga por él debatiendo codo con codo. El proyecto rosa se comenta aquí con pasión y sin pelos en la lengua.",
   },
   {
     slug: "la-galaxy", name: "LA Galaxy", kind: "tematica", icon: "🔵",
     users: 250, votes: 460, tag: "Popular", activity: "Media",
     channels: ["la-galaxy", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "lafc", "inter-miami"],
-    intro: "Chat del LA Galaxy: el club más laureado de la MLS, la herencia de Beckham y Donovan y el derbi eterno contra LAFC. Sin registro.",
-    about: "El LA Galaxy es historia viva de la MLS: cinco MLS Cup, la llegada de David Beckham que cambió la liga para siempre y leyendas como Landon Donovan o Robbie Keane que marcaron una época. Aquí se recuerda aquel proyecto galáctico y se debate el presente, con un equipo que busca recuperar el sitio que merece su escudo. Se habla del Dignity Health Sports Park, de la cantera, de los fichajes y de cómo plantar cara al rival joven de la ciudad. Conviven aficionados veteranos que vivieron los títulos y nuevas generaciones que se enganchan al derbi angelino. Un espacio para reivindicar el club más ganador del fútbol estadounidense y soñar con volver a lo más alto.",
+    intro: "El club más laureado de la MLS no se anda con rodeos: la herencia de Beckham y Donovan, y el derbi eterno contra LAFC. Sin registro.",
+    about: "El LA Galaxy es historia viva de la MLS: cinco MLS Cup, la llegada de David Beckham que cambió la liga para siempre y leyendas como Landon Donovan o Robbie Keane que marcaron una época. Aquí se recuerda aquel proyecto galáctico y se debate el presente, con un equipo que busca recuperar el sitio que merece su escudo. Se habla del Dignity Health Sports Park, de la cantera, de los fichajes y de cómo plantar cara al rival joven de la ciudad, con aficionados veteranos que vivieron los títulos y nuevas generaciones que se enganchan al derbi angelino compartiendo charla. Reivindicar aquí al club más ganador del fútbol estadounidense y soñar con volver a lo más alto es casi un ritual.",
   },
   {
     slug: "lafc", name: "Los Angeles FC", kind: "tematica", icon: "⚫",
     users: 230, votes: 430, tag: "Tendencia", activity: "Media",
     channels: ["lafc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "la-galaxy", "atlanta-united"],
-    intro: "Chat del LAFC: el equipo de moda de Los Ángeles, el ambientazo del BMO Stadium y El Tráfico contra el Galaxy. Entra y debate.",
-    about: "El LAFC llegó tarde a la MLS pero pegando fuerte: en pocos años ya levantó la MLS Cup, conquistó la Supporters' Shield y se metió en la final de la Concacaf. Aquí se habla del fútbol vistoso del equipo negro y oro, de figuras como Olivier Giroud y Denis Bouanga, y del ambiente eléctrico del BMO Stadium con la grada de la 3252 sin parar de cantar. El plato fuerte es El Tráfico, el derbi contra el Galaxy que paraliza la ciudad. Conviven aficionados que adoptaron al club desde su fundación y latinos de Los Ángeles que encontraron su equipo. Un espacio para vivir el proyecto más ambicioso del oeste y picarse con el vecino.",
+    intro: "El equipo de moda de Los Ángeles llena el BMO Stadium: aquí se vive El Tráfico contra el Galaxy con el mismo ambientazo. Entra y debate.",
+    about: "El LAFC llegó tarde a la MLS pero pegando fuerte: en pocos años ya levantó la MLS Cup, conquistó la Supporters' Shield y se metió en la final de la Concacaf. Se comenta el fútbol vistoso del equipo negro y oro, con figuras como Olivier Giroud y Denis Bouanga, y se revive el ambiente eléctrico del BMO Stadium con la grada de la 3252 sin parar de cantar. El plato fuerte es El Tráfico, el derbi contra el Galaxy que paraliza la ciudad, donde coinciden los aficionados que adoptaron al club desde su fundación y los latinos de Los Ángeles que encontraron su equipo. Vivir el proyecto más ambicioso del oeste y picarse con el vecino: de eso va todo esto.",
   },
   {
     slug: "atlanta-united", name: "Atlanta United", kind: "tematica", icon: "🔴",
     users: 210, votes: 395, activity: "Media",
     channels: ["atlanta-united", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "lafc", "seattle-sounders"],
-    intro: "Chat del Atlanta United: récords de afición en el Mercedes-Benz, la MLS Cup de 2018 y la fiebre del cinco rayas. Sin registro.",
-    about: "Pocos clubes han revolucionado la MLS como el Atlanta United, que desde su debut llenó el Mercedes-Benz Stadium con cifras de afición que avergüenzan a media liga europea. Aquí se recuerda la MLS Cup de 2018 con Josef Martínez y Miguel Almirón brillando, el fútbol valiente del Tata Martino y esa marea roja y negra que convirtió la ciudad en plaza fuerte del fútbol. Se debate el presente del equipo, los fichajes desde Sudamérica, la cantera y cómo recuperar aquel nivel que enamoró. Conviven aficionados locales orgullosos de su ambiente y latinos que llenan la grada cada partido. Un espacio para celebrar el fenómeno cinco rayas y todo lo que mueve en el sur.",
+    intro: "Récords de afición que nadie supera en el Mercedes-Benz: la MLS Cup de 2018 y la fiebre del cinco rayas, todo se comenta aquí. Sin registro.",
+    about: "Pocos clubes han revolucionado la MLS como el Atlanta United, que desde su debut llenó el Mercedes-Benz Stadium con cifras de afición que avergüenzan a media liga europea. Aquí se recuerda la MLS Cup de 2018 con Josef Martínez y Miguel Almirón brillando, el fútbol valiente del Tata Martino y esa marea roja y negra que convirtió la ciudad en plaza fuerte del fútbol. Se debate el presente del equipo, los fichajes desde Sudamérica, la cantera y cómo recuperar aquel nivel que enamoró. Aficionados locales orgullosos de su ambiente y latinos que llenan la grada cada partido se dan cita por igual, celebrando el fenómeno cinco rayas y todo lo que mueve en el sur.",
   },
   {
     slug: "seattle-sounders", name: "Seattle Sounders", kind: "tematica", icon: "💚",
     users: 195, votes: 370, activity: "Media",
     channels: ["seattle-sounders", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "atlanta-united", "la-galaxy"],
-    intro: "Chat del Seattle Sounders: la fiebre verde del Lumen Field, dos MLS Cup y el primer título Concacaf de un equipo MLS. Entra ya.",
-    about: "El Seattle Sounders es sinónimo de afición entregada: el Lumen Field se tiñe de verde rave con miles de hinchas que cantan de principio a fin y convierten cada partido en una fiesta. Aquí se celebra un palmarés de envidia con dos MLS Cup y el histórico título de la Concacaf Champions League en 2022, el primero para un club de la liga. Se habla de Raúl Ruidíaz, de la solidez del proyecto, de la rivalidad con Portland en el Cascadia y de cómo el club ha sido modelo de gestión y constancia. Conviven aficionados del noroeste fieles desde el primer día y seguidores latinos enganchados al equipo esmeralda. Un espacio para vivir la pasión verde y presumir de uno de los clubes más ganadores de la MLS.",
+    intro: "Dos MLS Cup y el primer título Concacaf de un equipo de la liga: la fiebre verde del Lumen Field tiene su sala. Entra ya.",
+    about: "El Seattle Sounders es sinónimo de afición entregada: el Lumen Field se tiñe de verde rave con miles de hinchas que cantan de principio a fin y convierten cada partido en una fiesta. Aquí se celebra un palmarés de envidia con dos MLS Cup y el histórico título de la Concacaf Champions League en 2022, el primero para un club de la liga. Se habla de Raúl Ruidíaz, de la solidez del proyecto, de la rivalidad con Portland en el Cascadia y de cómo el club ha sido modelo de gestión y constancia. ¿Quién anda por aquí? Aficionados del noroeste fieles desde el primer día y seguidores latinos enganchados al equipo esmeralda, todos viviendo la pasión verde y presumiendo de uno de los clubes más ganadores de la MLS.",
   },
 
   // ──────────── Saudi Pro League · top 5 ────────────
@@ -786,7 +786,7 @@ const RAW: Place[] = [
     users: 296, votes: 514, tag: "Popular", activity: "Alta",
     channels: ["al-hilal", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-nassr", "al-ittihad"],
-    intro: "Chat del Al-Hilal: el gigante de Riad, el más laureado de Asia, con Neymar, Mitrovic y Rúben Neves. Récords, finales y dominio continental sin pausa.",
+    intro: "Neymar, Mitrovic y Rúben Neves visten de azul al gigante de Riad: récords, finales y dominio continental del club más laureado de Asia.",
     about: "Ningún club asiático presume de un palmarés como el del Al-Hilal, máximo ganador de la Champions de Asia y dueño de incontables Ligas saudíes. En esta sala se recuerda la racha histórica de victorias sin perder, se analiza el plantel estelar con Neymar, Aleksandar Mitrovic, Rúben Neves y Malcom, y se debate cada movimiento del mercado millonario. Los azules de Riad cargan con la etiqueta de favoritos y aquí la afición lo asume sin complejos, exigiendo títulos continentales y el dominio absoluto del fútbol saudí.",
   },
   {
@@ -802,7 +802,7 @@ const RAW: Place[] = [
     users: 212, votes: 388, activity: "Media",
     channels: ["al-ahli-saudi", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-ittihad", "al-ettifaq"],
-    intro: "Chat del Al-Ahli: el regreso a la élite de Yeda con Mahrez, Firmino e Ibañez. Verde y blanco, ambición de copa y duelos por el oeste saudí.",
+    intro: "Mahrez, Firmino e Ibañez lideran el regreso a la élite de Yeda: verde y blanco, ambición de copa y duelos por el oeste saudí.",
     about: "Tras su paso por la segunda división, el Al-Ahli volvió por la puerta grande reforzado con figuras como Riyad Mahrez, Roberto Firmino, Édouard Mendy y Gabri Veiga. La afición verdiblanca de Yeda recuperó la sonrisa y en esta sala se debate el ambicioso proyecto, los duelos costeros contra el Al-Ittihad y el asalto a los títulos saudíes. Se analiza el desempeño de Mahrez por la banda y los goles de Firmino. Un club histórico que vuelve a soñar a lo grande con su clásico uniforme blanco y verde.",
   },
   {
@@ -859,7 +859,7 @@ const RAW: Place[] = [
     intro:
       "Sala de videncia y intuición: tiradas de cartas, interpretación de sueños y consultas de amor o trabajo. Creyentes, curiosos y escépticos bienvenidos.",
     about:
-      "Aquí se habla de intuición, corazonadas y esas sensaciones difíciles de explicar que muchos han tenido alguna vez. La gente comparte tiradas de cartas, interpretaciones de sueños y consultas sobre el amor o el trabajo, siempre como apoyo para reflexionar, no como verdad cerrada. Conviven creyentes convencidos, curiosos y escépticos que disfrutan del tema sin tomárselo todo al pie de la letra. Es un espacio para charlar con calma, contrastar puntos de vista y desahogarse cuando uno anda buscando respuestas.",
+      "La conversación gira en torno a la intuición, las corazonadas y esas sensaciones difíciles de explicar que muchos han sentido alguna vez. La gente comparte tiradas de cartas, interpretaciones de sueños y consultas sobre el amor o el trabajo, siempre como apoyo para reflexionar, no como verdad cerrada. Ahí se mezclan creyentes convencidos, curiosos y escépticos que disfrutan del tema sin tomárselo todo al pie de la letra. Es un espacio para charlar con calma, contrastar puntos de vista y desahogarse cuando uno anda buscando respuestas.",
   },
   {
     slug: "astrologia",
@@ -921,7 +921,7 @@ const RAW: Place[] = [
     intro:
       "Chat de literatura: lecturas compartidas, autores favoritos y recomendaciones. De novela negra a clásicos, siempre hay algo por descubrir. Sin registro.",
     about:
-      "Sala para lectores de todo tipo, desde quien devora novela negra hasta quien prefiere poesía o ensayo. Se comentan lecturas recientes, clásicos que siguen vigentes y esos libros que a uno le cambiaron algo por dentro. Hay recomendaciones constantes, debates sobre finales que dividieron a media sala y consejos para salir de un bache lector. Conviven aficionados a la fantasía, fans de los premios literarios y gente que escribe sus propias cosas. El ambiente es tranquilo, ideal para descubrir tu próxima lectura sin spoilers gratuitos.",
+      "Sala para lectores de todo tipo, desde quien devora novela negra hasta quien prefiere poesía o ensayo. Se comentan lecturas recientes, clásicos que siguen vigentes y esos libros que a uno le cambiaron algo por dentro. Hay recomendaciones constantes, debates sobre finales que dividieron a media sala y consejos para salir de un bache lector, terreno común para aficionados a la fantasía, fans de los premios literarios y gente que escribe sus propias cosas. El ambiente es tranquilo, ideal para descubrir tu próxima lectura sin spoilers gratuitos.",
   },
   {
     slug: "debate",
@@ -951,7 +951,7 @@ const RAW: Place[] = [
     intro:
       "Chat de historia en español: curiosidades, batallas y personajes del mundo antiguo al siglo XX. Para aficionados, estudiantes y curiosos de todas las eras.",
     about:
-      "Rincón para apasionados del pasado, desde la Antigua Roma hasta la Guerra Fría. Se comparten curiosidades poco conocidas, recomendaciones de libros y documentales, y debates sobre cómo se cuenta la historia según quién la escriba. Conviven licenciados, divulgadores aficionados y curiosos que llegaron por una serie o un videojuego ambientado en otra época. Se habla de personajes, mitos que conviene desmontar y esos pequeños detalles cotidianos que hacían distinta la vida hace siglos. Ideal para resolver dudas y descubrir épocas que apenas te sonaban.",
+      "Rincón para apasionados del pasado, desde la Antigua Roma hasta la Guerra Fría. Se comparten curiosidades poco conocidas, recomendaciones de libros y documentales, y debates sobre cómo se cuenta la historia según quién la escriba. Aquí comparten charla licenciados, divulgadores aficionados y curiosos que llegaron por una serie o un videojuego ambientado en otra época. Se habla de personajes, mitos que conviene desmontar y esos pequeños detalles cotidianos que hacían distinta la vida hace siglos. Ideal para resolver dudas y descubrir épocas que apenas te sonaban.",
   },
 
   // ──────────────────── Chueca · Gay · LGTBI ────────────────────
@@ -969,7 +969,7 @@ const RAW: Place[] = [
     intro:
       "El barrio gay de Madrid hecho chat: Orgullo, terrazas de Chueca, planes LGTBI y gente con ganas de quedar, hablar y conocerse sin postureo.",
     about:
-      "Chueca es el punto de encuentro online inspirado en el barrio más visible del Madrid LGTBI. Aquí se habla de fiestas, terrazas de la plaza, planes de fin de semana, locales de ambiente y, sobre todo, de gente. Entran chicos y chicas de toda España buscando charla relajada, hacer amistades o ligar sin postureo. Un espacio abierto y respetuoso donde el Orgullo dura todo el año y siempre hay alguien con quien compartir un café o una noche larga.",
+      "Chueca es el punto de encuentro online inspirado en el barrio más visible del Madrid LGTBI. Se comentan fiestas, terrazas de la plaza, planes de fin de semana, locales de ambiente y, sobre todo, se habla de gente. Entran chicos y chicas de toda España buscando charla relajada, hacer amistades o ligar sin postureo, en un ambiente abierto y respetuoso donde el Orgullo dura todo el año y siempre hay alguien con quien compartir un café o una noche larga.",
   },
   {
     slug: "gay",
@@ -1001,7 +1001,7 @@ const RAW: Place[] = [
     intro:
       "Chat bisexual sin etiquetas: espacio para personas bi y curiosas donde nadie te pide que elijas. Conversación abierta, amistad y gente afín sin prejuicios.",
     about:
-      "Un chat para personas bisexuales y curiosas donde nadie te pide que elijas ni te cuestiona. Se charla con libertad sobre relaciones, descubrimiento personal, parejas abiertas y la vida cotidiana, además de planes para conocer gente afín. Conviven hombres y mujeres de distintas edades y ciudades que comparten dudas, vivencias y buen humor. Un ambiente comprensivo y abierto donde la bisexualidad se vive con orgullo y sin estereotipos, ideal para hacer amistades o encontrar algo más.",
+      "Un chat para personas bisexuales y curiosas donde nadie te pide que elijas ni te cuestiona. Se charla con libertad sobre relaciones, descubrimiento personal, parejas abiertas y la vida cotidiana, además de planes para conocer gente afín, y por aquí pasan hombres y mujeres de distintas edades y ciudades que comparten dudas, vivencias y buen humor. Un ambiente comprensivo y abierto donde la bisexualidad se vive con orgullo y sin estereotipos, ideal para hacer amistades o encontrar algo más.",
   },
   {
     slug: "trans",
@@ -1032,7 +1032,7 @@ const RAW: Place[] = [
     intro:
       "Chat gay de Madrid: el ambiente LGTBI de la capital en una sala. Planes en Chueca, locales, quedadas y gente de Madrid con ganas de conocerse.",
     about:
-      "Punto de encuentro para chicos gais de Madrid y alrededores que quieren quedar, hacer amigos o ligar cerca de casa. Se habla de Chueca, terrazas, fiestas, gimnasios y los mejores planes de la capital, además de coordinar quedadas reales entre semana y fin de semana. Conviven veinteañeros, treintañeros y gente más madura, todos con ganas de conocer a alguien de su zona. Un chat local, vivo y cercano donde Madrid se siente mucho más pequeño y acogedor.",
+      "Punto de encuentro para chicos gais de Madrid y alrededores que quieren quedar, hacer amigos o ligar cerca de casa. Se habla de Chueca, terrazas, fiestas, gimnasios y los mejores planes de la capital, además de coordinar quedadas reales entre semana y fin de semana entre veinteañeros, treintañeros y gente más madura, todos con ganas de conocer a alguien de su zona. Un chat local, vivo y cercano donde Madrid se siente mucho más pequeño y acogedor.",
   },
   {
     slug: "gay-barcelona",

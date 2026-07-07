@@ -60,7 +60,7 @@ export const COUNTRIES: Place[] = [
     channels: ["colombia", "internacional", "amistad", "chatzona"],
     related: ["bogota", "mexico", "argentina", "lima", "amistad", "amor", "musica"],
     intro:
-      "Colombia: amabilidad en el trato y pasión en la discusión. Aquí se habla de fútbol, vallenato, economía y planes del fin de semana. Chévere que hayas llegado.",
+      "Colombia: amabilidad en el trato y pasión en la discusión. Fútbol, vallenato, economía y planes de finde llenan la charla. Chévere que hayas llegado.",
     about:
       "Bogotanos de La Candelaria, paisas de Medellín que le ponen un -ito a todo, costeños de Barranquilla que no viven sin vallenato y caleños que convierten la salsa en un idioma paralelo al español: la calidez que el país exporta sin esfuerzo se nota desde el primer mensaje de esta sala siempre activa. Se habla del Clásico capitalino, de las arepas y las empanadas como si fueran equipos rivales, y de lo que pasa en el país con una honestidad que no siempre cabe en los medios. El parcero siempre tiene algo que decir, chévere que hayas llegado.",
   },

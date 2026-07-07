@@ -13,7 +13,7 @@ export const TOPICS: Place[] = [
     channels: ["amor", "amistad", "citas"],
     related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona", "mas-de-40"],
     intro:
-      "Chat para buscar pareja y conocer gente gratis sin registro. Aquí se habla de primeras citas, rupturas y a veces surge algo especial con alguien del chat.",
+      "Chat para buscar pareja y conocer gente gratis sin registro. Primeras citas, rupturas y, a veces, algo especial que nace con alguien del chat.",
     about:
       "Pocas salas se llenan tan rápido al caer la tarde. Aquí se busca pareja, se habla de primeras citas que fueron bien y de segundas que nunca llegaron, de relaciones a distancia que se alimentan en estas conversaciones y de rupturas que necesitan un oído exterior. No hace falta tener el corazón roto para entrar: muchos vienen a conocer a alguien, con sinceridad y sin las poses de las redes sociales. El chat de amor funciona: hay parejas que se conocieron aquí y siguen hablando.",
   },
@@ -47,7 +47,7 @@ export const TOPICS: Place[] = [
     intro:
       "Un espacio de conversación abierto y respetuoso para la comunidad LGTBI y sus aliados: desde el orgullo y la visibilidad hasta el día a día.",
     about:
-      "Un espacio propio para la comunidad, sin necesidad de contextualizarse, explicar quién se es ni tolerar comentarios fuera de lugar. Se habla del Orgullo de Madrid o Buenos Aires, de series y referentes culturales, de relaciones, de coming out y de vivir la identidad de formas muy distintas según el país. También es un punto de encuentro para aliados que quieren escuchar. Un chat abierto, respetuoso y con actividad constante a cualquier hora del día.",
+      "Aquí la comunidad no necesita contextualizarse, explicar quién es ni tolerar comentarios fuera de lugar. Se habla del Orgullo de Madrid o Buenos Aires, de series y referentes culturales, de relaciones, de coming out y de vivir la identidad de formas muy distintas según el país. También es un punto de encuentro para aliados que quieren escuchar. Un chat abierto, respetuoso y con actividad constante a cualquier hora del día.",
   },
   {
     slug: "deportes",
@@ -202,7 +202,7 @@ export const TOPICS: Place[] = [
     intro:
       "Hábitos, entrenamiento, salud mental y nutrición sin dogmatismos: experiencias reales, no posts de Instagram con cuerpos de catálogo.",
     about:
-      "Aquí se habla de lo que importa sin filtros de Instagram de por medio: hábitos reales, entrenamientos que funcionan para personas normales, nutrición sin dogmatismos de moda, y salud mental en un momento en que el tema ya no da vergüenza. Se comparten experiencias con la ansiedad, el estrés laboral y los terapeutas que ayudaron o no. No hay diagnósticos ni consejos médicos, pero hay escucha genuina y más información útil que en muchos blogs de bienestar.",
+      "Sin filtros de Instagram de por medio, la conversación va de lo que de verdad importa: hábitos que se sostienen en el tiempo, entrenamientos pensados para cuerpos normales y una nutrición que no cae en dogmatismos de moda, con la salud mental cada vez más presente ahora que hablar del tema ya no da vergüenza. Se comparten experiencias con la ansiedad, el estrés laboral y los terapeutas que ayudaron o no. No hay diagnósticos ni consejos médicos, pero hay escucha genuina y más información útil que en muchos blogs de bienestar.",
   },
   {
     slug: "tarot",
@@ -263,7 +263,7 @@ export const TOPICS: Place[] = [
     channels: ["series", "amistad", "chatzona"],
     related: ["cine", "musica", "videojuegos", "amor", "madrid", "barcelona"],
     intro:
-      "Gran Hermano, Netflix, HBO, Telecinco — la plataforma da igual: aquí se habla de series con spoilers avisados y debates que duran hasta el siguiente episodio.",
+      "Gran Hermano, Netflix, HBO, Telecinco — la plataforma da igual: se comentan series con spoilers avisados y debates que se estiran hasta el siguiente episodio.",
     about:
       "Se comenta en tiempo real lo que se está viendo esa misma noche: el último capítulo de House of the Dragon, el estreno de Netflix del viernes, la telenovela latinoamericana que todos dicen no ver pero todos ven. Los spoilers se avisan o se ignoran según el estado de ánimo, y siempre hay alguien que ya ha terminado la temporada y tiene muchísima contención. Se recomiendan series que los algoritmos no suelen proponer y se descubren títulos que llevan años esperando en el catálogo.",
   },
@@ -327,7 +327,7 @@ export const TOPICS: Place[] = [
     intro:
       "Ansiedad, relaciones, autoconocimiento y debate terapia vs. medicación: una sala sin diagnósticos, pero con mucha escucha y bastante introspección compartida.",
     about:
-      "Aquí se habla de lo que cuesta soltar en otros sitios: ansiedad, relaciones tóxicas, autoestima, procrastinación, el duelo que no termina de cerrar. No hay psicólogos licenciados dando diagnósticos, pero hay personas que han pasado por lo mismo o algo parecido y tienen algo que decir. También se debate sobre terapia —cognitivo-conductual, sistémica, online— y sobre medicación con una honestidad que no siempre se encuentra. Una sala de escucha sin juicios.",
+      "Es el sitio para soltar lo que cuesta contar en otros lados: ansiedad que no se va, relaciones tóxicas de las que cuesta salir, autoestima por los suelos, procrastinación crónica, un duelo que se resiste a cerrar. No hay psicólogos licenciados dando diagnósticos, pero hay personas que han pasado por lo mismo o algo parecido y tienen algo que decir. También se debate sobre terapia —cognitivo-conductual, sistémica, online— y sobre medicación con una honestidad que no siempre se encuentra. Una sala de escucha sin juicios.",
   },
   {
     slug: "adultos",
@@ -338,7 +338,7 @@ export const TOPICS: Place[] = [
     votes: 750,
     tag: "Popular",
     activity: "Alta",
-    channels: ["adultos", "adultos-latinos", "maduritos", "mas-de-30", "mas-de-40", "chatzona"],
+    channels: ["adultos", "adultos-latinos", "maduritos", "mas_de_30", "mas_de_40", "chatzona"],
     related: ["erotico", "infieles", "encuentros", "ligar", "lgtbi", "lesbianas"],
     intro:
       "Espacio para mayores de edad sin filtros: conversaciones de adultos, contactos y todo lo que no cabe en las salas generales. Sólo para mayores de 18.",
@@ -391,7 +391,7 @@ export const TOPICS: Place[] = [
     intro:
       "Una de las salas más activas del chat: casados que buscan algo fuera, aventuras discretas y confesiones que nunca llegarían a la pareja. Sin juicios.",
     about:
-      "Casados que buscan algo fuera, aventuras discretas que no quieren drama, confesiones que alivian y contactos que entienden la situación sin necesidad de explicarla. No hay juicios sobre lo que cada uno decide, solo personas que comparten algo parecido. Una sala con ritmo constante de actividad y discreción entendida. Aquí se habla de lo que no se puede contar en casa: la necesidad de algo diferente, el aburrimiento que lleva a buscar fuera o simplemente el deseo de conectar con alguien nuevo sin consecuencias.",
+      "Casados que buscan algo fuera, aventuras discretas que no quieren drama, confesiones que alivian y contactos que entienden la situación sin necesidad de explicarla. No hay juicios sobre lo que cada uno decide, solo personas que comparten algo parecido. Una sala con ritmo constante de actividad y discreción entendida. Se cuenta aquí lo que no cabe en casa: la necesidad de algo diferente, el aburrimiento que empuja a buscar fuera o simplemente las ganas de conectar con alguien nuevo sin consecuencias.",
   },
   {
     slug: "encuentros",
@@ -422,6 +422,6 @@ export const TOPICS: Place[] = [
     intro:
       "Espacio propio para mujeres que buscan mujeres: amistad, contactos, relaciones y conversación entre lesbianas y bisexuales sin necesidad de explicar nada.",
     about:
-      "Un espacio propio de mujeres que buscan mujeres: amistad, contactos, relaciones estables o algo sin etiqueta, conversación entre lesbianas y bisexuales sin necesidad de explicar nada. No hace falta presentación ni contexto: quien entra sabe dónde está. También hay espacio para hablar de visibilidad lésbica, de referentes culturales y de todo lo que comparte una comunidad que tiene sus propias conversaciones.",
+      "Aquí se cruzan mujeres que buscan mujeres: amistad, contactos, relaciones estables o algo sin etiqueta, conversación entre lesbianas y bisexuales sin necesidad de explicar nada. No hace falta presentación ni contexto: quien entra sabe dónde está. También hay espacio para hablar de visibilidad lésbica, de referentes culturales y de todo lo que comparte una comunidad que tiene sus propias conversaciones.",
   },
 ];
