@@ -207,7 +207,7 @@ const RAW: Place[] = [
     votes: 561,
     tag: "Popular",
     activity: "Alta",
-    channels: ["real-madrid", "futbol", "ocio", "chatzona"],
+    channels: ["real-madrid", "real-madrid-c-f", "real_madrid_c_f", "futbol", "ocio", "chatzona"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "fc-barcelona", "atletico-madrid", "madrid", "espana"],
     intro:
@@ -964,7 +964,7 @@ const RAW: Place[] = [
     votes: 451,
     tag: "Popular",
     activity: "Alta",
-    channels: ["chueca", "gay", "lgtbi", "chatzona"],
+    channels: ["chueca", "chueca_madrid", "chueca_barcelona", "gay", "lgtbi", "chatzona"],
     related: ["lgtbi", "gay", "gay-madrid", "amistad", "amor", "madrid"],
     intro:
       "El barrio gay de Madrid hecho chat: Orgullo, terrazas de Chueca, planes LGTBI y gente con ganas de quedar, hablar y conocerse sin postureo.",

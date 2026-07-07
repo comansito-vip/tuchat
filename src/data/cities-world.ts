@@ -341,7 +341,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["merida-mexico", "mexico", "amistad", "chatzona"],
+    channels: ["merida-mexico", "yucatan", "mexico", "amistad", "chatzona"],
     related: ["cancun", "ciudad-de-mexico", "mexico", "cocina", "amistad", "amor"],
     intro:
       "La Ciudad Blanca, el calorón yucateco y la cochinita pibil de los domingos: los meridanos te reciben con un mare y la calma del sureste.",
@@ -722,7 +722,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["veracruz", "mexico", "amistad", "chatzona"],
+    channels: ["veracruz", "veracruzvip", "mexico", "amistad", "chatzona"],
     related: ["merida-mexico", "cancun", "ciudad-de-mexico", "mexico", "amistad", "musica"],
     intro:
       "Entre el vaho del café lechero y la marimba del malecón, Veracruz platica con el calor pegajoso del Golfo metido hasta en las palabras.",
@@ -773,7 +773,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["culiacan", "mexico", "amistad", "chatzona"],
+    channels: ["culiacan", "sinaloa", "sinaloa_vip", "mexico", "amistad", "chatzona"],
     related: ["hermosillo", "guadalajara", "monterrey", "mexico", "amistad", "musica"],
     intro:
       "Entre tambora de fondo y aguachile bien picoso, Culiacán platica del Parque Las Riberas, de banda sinaloense y de un orgullo local sin rodeos.",
@@ -790,7 +790,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["hermosillo", "mexico", "amistad", "chatzona"],
+    channels: ["hermosillo", "sonora", "sonora_vip", "mexico", "amistad", "chatzona"],
     related: ["chihuahua", "culiacan", "tijuana", "mexico", "amistad", "deportes"],
     intro:
       "El calor de 45 grados no detiene a Hermosillo: aquí se arma parrillada de carne asada, se sigue a los Naranjeros y se cruza a Arizona sin pensarlo.",
@@ -1208,7 +1208,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["saltillo", "mexico", "amistad", "chatzona"],
+    channels: ["saltillo", "coahuila", "mexico", "amistad", "chatzona"],
     related: ["monterrey", "torreon", "chihuahua", "mexico", "amistad", "viajes"],
     intro:
       "Serapes de colores, plantas armadoras de autos y un frío de sierra que Monterrey nunca conoce: Saltillo se presume distinta al resto del norte.",
@@ -1815,7 +1815,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["tuxtla-gutierrez", "mexico", "amistad", "chatzona"],
+    channels: ["tuxtla-gutierrez", "chiapas", "mexico", "amistad", "chatzona"],
     related: ["oaxaca", "veracruz", "mexico", "viajes", "amistad", "musica"],
     intro:
       "Con el Cañón del Sumidero a las puertas y el zoológico Miguel Álvarez del Toro adentro, Tuxtla respira selva incluso siendo capital.",
@@ -1866,7 +1866,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["chilpancingo", "mexico", "amistad", "chatzona"],
+    channels: ["chilpancingo", "guerrero", "mexico", "amistad", "chatzona"],
     related: ["acapulco", "oaxaca", "mexico", "viajes", "amistad", "cocina"],
     intro:
       "Aquí se firmó en 1813 el primer documento que soñó con una nación libre: Chilpancingo es la cuna legal de la independencia.",
@@ -1969,7 +1969,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["villahermosa", "mexico", "amistad", "chatzona"],
+    channels: ["villahermosa", "tabasco", "mexico", "amistad", "chatzona"],
     related: ["veracruz", "oaxaca", "mexico", "viajes", "cocina", "amistad"],
     intro:
       "Rodeada de ríos y con las cabezas olmecas del parque La Venta mirando fijo, Villahermosa suda calor tropical todo el año.",
@@ -3223,5 +3223,22 @@ export const CITIES_WORLD: Place[] = [
       "La frontera sin muros con Santana do Livramento: Rivera chatea en portuñol propio, el 'riverense', sin fijarse de qué lado está.",
     about:
       "Rivera comparte con la brasileña Santana do Livramento una frontera que se volvió símbolo: no hay muro, ni río, ni control físico que separe a las dos ciudades, solo una avenida que cualquiera cruza caminando decenas de veces al día. De ahí viene el sobrenombre de 'frontera de la paz', aunque acá lo cotidiano es más simple: comprar del lado brasileño, trabajar del uruguayo, y mezclar los dos idiomas hasta formar el 'riverense', un portuñol propio que no se habla igual en ningún otro punto de la frontera. El paisaje también rompe con la imagen de Uruguay llano: Rivera tiene cerros y ondulaciones que la distinguen del resto del país. El riverense vive la doble nacionalidad cultural con naturalidad absoluta, sin darle demasiada importancia a una línea que para el resto del mundo separa dos países distintos.",
+  },
+  {
+    slug: "zacatecas",
+    name: "Zacatecas",
+    kind: "ciudad",
+    icon: "🚡",
+    users: 145,
+    votes: 210,
+    activity: "Media",
+    parentName: "México",
+    parentSlug: "mexico",
+    channels: ["zacatecas", "mexico", "amistad", "chatzona"],
+    related: ["mexico", "aguascalientes", "durango", "guanajuato", "viajes", "musica"],
+    intro:
+      "Cantera rosa que se enciende al atardecer, un teleférico sobre los tejados y minas de plata que hicieron rico medio virreinato: Zacatecas entra al chat.",
+    about:
+      "Zacatecas se construyó literalmente sobre plata: sus minas alimentaron durante siglos la Corona española, y hoy la Mina El Edén, ya sin actividad, se visita como museo subterráneo con un tramo de teleférico que sale desde el Cerro de la Bufa hasta el cerro del Grillo, cruzando la ciudad entera por el aire. El centro histórico, Patrimonio de la Humanidad, se ve rosado al atardecer por la cantera con la que está construida cada fachada, desde la Catedral Basílica hasta el Palacio de Gobierno. Cada agosto la Morisma recrea batallas entre moros y cristianos con miles de participantes disfrazados por las calles, y casi cualquier noche del año salen las callejoneadas: tunas con mezcal que arrastran turistas y vecinos por igual cantando entre callejones angostos. En esta sala se cruzan zacatecanos de la capital, mineros jubilados con historias que contar y gente que baja de Fresnillo o Jerez a hacer vida en el centro. Trato cordial, ritmo tranquilo de ciudad de provincia y ese orgullo minero que no se negocia.",
   },
 ];

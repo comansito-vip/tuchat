@@ -370,7 +370,7 @@ export const TOPICS: Place[] = [
     votes: 615,
     tag: "Popular",
     activity: "Alta",
-    channels: ["erotico", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "chatzona"],
+    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "chatzona"],
     related: ["adultos", "infieles", "encuentros", "amor", "ligar", "lesbianas"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
@@ -417,7 +417,7 @@ export const TOPICS: Place[] = [
     users: 220,
     votes: 345,
     activity: "Media",
-    channels: ["lesbianas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis", "lescontactos", "chatzona"],
+    channels: ["lesbianas", "lesbianas_spain", "lesbianas_mexicanas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis", "lescontactos", "chatzona"],
     related: ["lgtbi", "adultos", "erotico", "encuentros", "amor", "madrid"],
     intro:
       "Espacio propio para mujeres que buscan mujeres: amistad, contactos, relaciones y conversación entre lesbianas y bisexuales sin necesidad de explicar nada.",

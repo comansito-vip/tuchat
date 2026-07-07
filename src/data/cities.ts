@@ -187,7 +187,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Argentina",
     parentSlug: "argentina",
-    channels: ["buenos-aires", "argentina", "amistad", "chatzona"],
+    channels: ["buenos-aires", "buenos_aires", "argentina", "amistad", "chatzona"],
     related: ["argentina", "montevideo", "bogota", "lima", "amistad", "amor", "musica"],
     intro:
       "Desde Palermo hasta la Boca, los porteños tienen el don de la conversación a cualquier hora. Entrá y comprobá si el acento te contagia.",
@@ -413,7 +413,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["las-palmas", "espana", "amistad", "chatzona"],
+    channels: ["las-palmas", "las_palmas", "espana", "amistad", "chatzona"],
     related: ["tenerife", "espana", "amistad", "amor", "viajes"],
     intro:
       "Pásate por el chat de Las Palmas para conocer gente, quedar a surfear o pasear por Las Canteras al atardecer y comentar el carnaval más esperado del año.",
@@ -636,7 +636,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["guadalajara", "mexico", "amistad", "chatzona"],
+    channels: ["guadalajara", "jalisco", "mexico", "amistad", "chatzona"],
     related: ["ciudad-de-mexico", "monterrey", "puebla", "mexico", "amistad", "musica"],
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",
@@ -653,7 +653,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["monterrey", "mexico", "amistad", "chatzona"],
+    channels: ["monterrey", "nuevo_leon", "mexico", "amistad", "chatzona"],
     related: ["guadalajara", "ciudad-de-mexico", "tijuana", "mexico", "amistad", "deportes"],
     intro:
       "Bajo el Cerro de la Silla, los regios entran directo al grano y con el carbón ya prendido. Aquí se habla recio, se trabaja duro y la carne asada no se discute.",
@@ -808,7 +808,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Colombia",
     parentSlug: "colombia",
-    channels: ["barranquilla", "colombia", "amistad", "chatzona"],
+    channels: ["barranquilla", "barranquilla_vip", "colombia", "amistad", "chatzona"],
     related: ["cartagena", "medellin", "colombia", "amistad", "musica", "futbol"],
     intro:
       "Quien lo vive es quien lo goza: La Arenosa se prepara todo el año para su Carnaval, y mientras tanto se aguanta el calorón con un raspao y mucha labia costeña.",
@@ -998,7 +998,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Venezuela",
     parentSlug: "venezuela",
-    channels: ["maracaibo", "venezuela", "amistad", "chatzona"],
+    channels: ["maracaibo", "zulia", "venezuela", "amistad", "chatzona"],
     related: ["caracas", "valencia-venezuela", "venezuela", "amistad", "amor", "musica"],
     intro:
       "Calor que no perdona, el puente sobre el lago y ese 'verga, vale' que delata al marabino apenas escribe: aquí se chatea con el ventilador a todo lo que da.",
@@ -1015,7 +1015,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Venezuela",
     parentSlug: "venezuela",
-    channels: ["valencia-venezuela", "venezuela", "amistad", "chatzona"],
+    channels: ["valencia-venezuela", "carabobo", "venezuela", "amistad", "chatzona"],
     related: ["caracas", "maracaibo", "venezuela", "amistad", "amor", "ligar"],
     intro:
       "La cuna industrial del país, las ferias de la Virgen del Socorro y la cercanía a Puerto Cabello: el valenciano chatea sin las prisas de la capital.",
@@ -1050,7 +1050,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Ecuador",
     parentSlug: "ecuador",
-    channels: ["guayaquil", "ecuador", "amistad", "chatzona"],
+    channels: ["guayaquil", "guayaquil-ecuador", "ecuador", "amistad", "chatzona"],
     related: ["quito", "cuenca", "ecuador", "amistad", "amor", "futbol"],
     intro:
       "Calor pegajoso, el Malecón 2000 al borde del Guayas y el orgullo de ser del puerto: el guayaco entra al chat con la franqueza costeña y sin pelos en la lengua.",

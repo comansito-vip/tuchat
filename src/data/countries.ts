@@ -180,7 +180,7 @@ export const COUNTRIES: Place[] = [
     votes: 820,
     tag: "Popular",
     activity: "Alta",
-    channels: ["republica-dominicana", "internacional", "amistad", "chatzona"],
+    channels: ["republica-dominicana", "republica_dominicana", "internacional", "amistad", "chatzona"],
     related: ["santo-domingo", "cuba", "puerto-rico", "venezuela", "amistad", "musica", "amor"],
     intro:
       "Aquí el merengue y la bachata son el idioma. Se habla a mil por hora, se come mangú por la mañana y cualquier excusa sirve para sacar a alguien a bailar.",
@@ -211,7 +211,7 @@ export const COUNTRIES: Place[] = [
     users: 410,
     votes: 630,
     activity: "Media",
-    channels: ["puerto-rico", "internacional", "amistad", "chatzona"],
+    channels: ["puerto-rico", "puerto_rico", "internacional", "amistad", "chatzona"],
     related: ["san-juan", "republica-dominicana", "cuba", "estados-unidos", "amistad", "musica", "amor"],
     intro:
       "La isla del encanto que mezcla español e inglés sin permiso y exporta reggaeton al mundo. Aquí se dice wepa por todo y el orgullo boricua es infinito.",
@@ -241,7 +241,7 @@ export const COUNTRIES: Place[] = [
     users: 340,
     votes: 510,
     activity: "Media",
-    channels: ["costa-rica", "internacional", "amistad", "chatzona"],
+    channels: ["costa-rica", "costa_rica", "internacional", "amistad", "chatzona"],
     related: ["san-jose", "panama", "nicaragua", "amistad", "viajes", "amor"],
     intro:
       "Pura vida no es un eslogan: es cómo saludan y resuelven media vida los ticos. Sin ejército desde el 48, con perezosos en los árboles y la calma en el ADN.",
@@ -271,7 +271,7 @@ export const COUNTRIES: Place[] = [
     users: 330,
     votes: 490,
     activity: "Media",
-    channels: ["el-salvador", "internacional", "amistad", "chatzona"],
+    channels: ["el-salvador", "el_salvador", "internacional", "amistad", "chatzona"],
     related: ["san-salvador", "guatemala", "honduras", "estados-unidos", "amistad", "cocina"],
     intro:
       "El pulgarcito de América: surf de talla mundial y pupusas que valen un viaje. Se dice cheros a los amigos y la diáspora en EE.UU. nunca pierde el hilo.",
