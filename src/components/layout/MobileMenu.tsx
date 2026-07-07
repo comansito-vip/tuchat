@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { MenuIcon, CloseIcon } from "@/components/ui/icons";
 
@@ -105,49 +106,51 @@ export function MobileMenu() {
         <MenuIcon size={20} />
       </button>
 
-      {open && (
-        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menú principal">
-          <button
-            type="button"
-            aria-label="Cerrar menú"
-            className="absolute inset-0 bg-black/40"
-            onClick={() => setOpen(false)}
-          />
-          <div ref={panelRef} className="absolute inset-y-0 left-0 w-72 max-w-[80%] overflow-y-auto bg-card p-5 shadow-xl">
-            <div className="mb-4 flex items-center justify-between">
-              <span className="text-blue-dark font-extrabold text-lg">
-                Tu<span className="text-blue">Chat</span>
-              </span>
-              <button
-                type="button"
-                aria-label="Cerrar menú"
-                className="grid h-11 w-11 place-items-center -mr-2 text-muted hover:text-ink"
-                onClick={() => setOpen(false)}
-              >
-                <CloseIcon size={20} />
-              </button>
-            </div>
-            {GROUPS.map((g) => (
-              <div key={g.heading} className="mb-5">
-                <h2 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">{g.heading}</h2>
-                <ul className="space-y-1">
-                  {g.links.map((l) => (
-                    <li key={l.href}>
-                      <Link
-                        href={l.href}
-                        className="block rounded-md px-2 py-2.5 text-sm text-ink hover:bg-bg"
-                        onClick={() => setOpen(false)}
-                      >
-                        {l.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+      {open &&
+        createPortal(
+          <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menú principal">
+            <button
+              type="button"
+              aria-label="Cerrar menú"
+              className="absolute inset-0 bg-black/40"
+              onClick={() => setOpen(false)}
+            />
+            <div ref={panelRef} className="absolute inset-y-0 left-0 w-72 max-w-[80%] overflow-y-auto bg-card p-5 shadow-xl">
+              <div className="mb-4 flex items-center justify-between">
+                <span className="text-blue-dark font-extrabold text-lg">
+                  Tu<span className="text-blue">Chat</span>
+                </span>
+                <button
+                  type="button"
+                  aria-label="Cerrar menú"
+                  className="grid h-11 w-11 place-items-center -mr-2 text-muted hover:text-ink"
+                  onClick={() => setOpen(false)}
+                >
+                  <CloseIcon size={20} />
+                </button>
               </div>
-            ))}
-          </div>
-        </div>
-      )}
+              {GROUPS.map((g) => (
+                <div key={g.heading} className="mb-5">
+                  <h2 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">{g.heading}</h2>
+                  <ul className="space-y-1">
+                    {g.links.map((l) => (
+                      <li key={l.href}>
+                        <Link
+                          href={l.href}
+                          className="block rounded-md px-2 py-2.5 text-sm text-ink hover:bg-bg"
+                          onClick={() => setOpen(false)}
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>,
+          document.body,
+        )}
     </>
   );
 }
