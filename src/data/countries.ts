@@ -31,7 +31,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "De Tijuana a Mérida hay miles de kilómetros y cientos de acentos: la sala de México los reúne a todos. Rancheras, reggaeton y debates que no terminan nunca.",
     about:
-      "Aquí el güey, el carnal y el chido se mezclan con el acento que cada región lleva en la boca: chilangos de la Ciudad de México, regiomontanos de Monterrey, tapatíos de Guadalajara y yucatecos de Mérida comparten un mismo espacio. Se habla del Tri en los mundiales con una fe que no aprende de la experiencia, de los tacos al pastor de madrugada, de la CDMX que nunca duerme y de los temblores que cada año recuerdan dónde se está parado. Es la sala más activa del país, con más de ochocientas personas conectadas en horas punta.",
+      "Aquí el güey, el carnal y el chido se mezclan con el acento que cada región lleva en la boca: chilangos de la Ciudad de México, regiomontanos de Monterrey, tapatíos de Guadalajara y yucatecos de Mérida comparten un mismo espacio. El Tri en los mundiales, con una fe que no aprende de la experiencia, es tema fijo, igual que los tacos al pastor de madrugada, la CDMX que nunca duerme y los temblores que cada año recuerdan dónde se está parado. Es la sala más activa del país, con más de ochocientas personas conectadas en horas punta.",
   },
   {
     slug: "argentina",
@@ -62,7 +62,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Colombia: amabilidad en el trato y pasión en la discusión. Fútbol, vallenato, economía y planes de finde llenan la charla. Chévere que hayas llegado.",
     about:
-      "Bogotanos de La Candelaria, paisas de Medellín que le ponen un -ito a todo, costeños de Barranquilla que no viven sin vallenato y caleños que convierten la salsa en un idioma paralelo al español: la calidez que el país exporta sin esfuerzo se nota desde el primer mensaje de esta sala siempre activa. Se habla del Clásico capitalino, de las arepas y las empanadas como si fueran equipos rivales, y de lo que pasa en el país con una honestidad que no siempre cabe en los medios. El parcero siempre tiene algo que decir, chévere que hayas llegado.",
+      "Bogotanos de La Candelaria, paisas de Medellín que le ponen un -ito a todo, costeños de Barranquilla que no viven sin vallenato y caleños que convierten la salsa en un idioma paralelo al español: la calidez que el país exporta sin esfuerzo se nota desde el primer mensaje de esta sala siempre activa. El Clásico capitalino no falta como tema, tampoco el eterno debate entre arepas y empanadas como si fueran equipos rivales, y lo que pasa en el país se comenta con una honestidad que no siempre cabe en los medios. El parcero siempre tiene algo que decir, chévere que hayas llegado.",
   },
   {
     slug: "chile",
@@ -93,7 +93,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Donde el ceviche se discute con la misma pasión que el fútbol. Entre limeños, cusqueños y arequipeños siempre hay tema y siempre hay sazón.",
     about:
-      "Huele a ceviche recién preparado y suena a debate entre limeños, cusqueños y arequipeños que nunca se ponen de acuerdo sobre cuál ciudad pesa más sin terminar picados. Se habla de gastronomía como si fuera deporte nacional —porque casi lo es—, del Alianza Lima contra la Universitaria de Deportes con pasión de generaciones, y de Machu Picchu con un orgullo que no se gasta. Es una de las salas más diversas de la red: gente de la costa, de la sierra y de la Amazonía comparte un español que lleva quechua prestado.",
+      "Huele a ceviche recién preparado y suena a debate entre limeños, cusqueños y arequipeños que nunca se ponen de acuerdo sobre cuál ciudad pesa más sin terminar picados. La gastronomía se debate como si fuera deporte nacional —porque casi lo es—, el Alianza Lima contra la Universitaria de Deportes enciende pasiones de generaciones, y Machu Picchu se menciona con un orgullo que no se gasta. Es una de las salas más diversas de la red: gente de la costa, de la sierra y de la Amazonía comparte un español que lleva quechua prestado.",
   },
   {
     slug: "uruguay",
@@ -108,7 +108,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Termo bajo el brazo, mate en la mano y la rambla esperando. Los charrúas se toman su tiempo para todo menos para defender que el primer Mundial fue suyo.",
     about:
-      "Termo bajo el brazo y la rambla de fondo: montevideanos sin apuro, gente del interior que no cambia el mate caliente por nada y uruguayos en Buenos Aires o Madrid que siguen fieles a la Celeste conectan en una sala más pausada que el Río de la Plata pero igual de honda. Se habla del Carnaval de Montevideo —el más largo del mundo— con el mismo cariño que del fútbol, y la discusión sobre si el mate va con bombilla nueva o vieja no la resuelve nadie. País chico, sala intensa, charla sin reloj.",
+      "Termo bajo el brazo y la rambla de fondo: montevideanos sin apuro, gente del interior que no cambia el mate caliente por nada y uruguayos en Buenos Aires o Madrid que siguen fieles a la Celeste conectan en una sala más pausada que el Río de la Plata pero igual de honda. El Carnaval de Montevideo —el más largo del mundo— se comenta con el mismo cariño que el fútbol, y la discusión sobre si el mate va con bombilla nueva o vieja no la resuelve nadie. País chico, sala intensa, charla sin reloj.",
   },
   {
     slug: "venezuela",
@@ -139,7 +139,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Sierra, costa y Amazonía cruzables en un día. El chévere se cuela en cada frase y el debate Quito contra Guayaquil nunca se cierra del todo.",
     about:
-      "Quiteños que defienden la altitud de su capital, guayaquileños que no cambian el río Guayas por nada y cuencanos convencidos de vivir en la más bonita de las tres: el pique entre las ciudades es tan constante como el clima cambiante de la sierra. Se habla del Barcelona SC contra Emelec con intensidad de clásico eterno, de una comida que va del seco de pollo al ceviche del Pacífico, y del chévere que se cuela solo en cada frase. Sierra, costa y Amazonía caben en un día de viaje y en una sala activa a cualquier hora.",
+      "Quiteños que defienden la altitud de su capital, guayaquileños que no cambian el río Guayas por nada y cuencanos convencidos de vivir en la más bonita de las tres: el pique entre las ciudades es tan constante como el clima cambiante de la sierra. El Barcelona SC contra Emelec protagoniza la charla con intensidad de clásico eterno, junto con una comida que va del seco de pollo al ceviche del Pacífico y el chévere que se cuela solo en cada frase. Sierra, costa y Amazonía caben en un día de viaje y en una sala activa a cualquier hora.",
   },
   {
     slug: "bolivia",
@@ -154,7 +154,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "A 3.600 metros respiras distinto y el salar de Uyuni parece otro planeta. Entre español, quechua y aymara, la conversación tiene capas como las polleras.",
     about:
-      "A 3.600 metros se respira distinto, y aquí el español lleva quechua y aymara mezclados sin pedir permiso: paceños que suben escaleras sin perder el aliento, cambas de Santa Cruz con el ritmo del llano y cochabambinos que reivindican su trono gastronómico comparten una de las salas más ricas lingüísticamente de la red. Se habla del Salar de Uyuni —paisaje que no cabe en una foto—, de la selección que juega en la altura para desesperar a cualquier rival, y de la chicha, que no es para paladares tibios. La conversación tiene capas, como las polleras.",
+      "A 3.600 metros se respira distinto, y aquí el español lleva quechua y aymara mezclados sin pedir permiso: paceños que suben escaleras sin perder el aliento, cambas de Santa Cruz con el ritmo del llano y cochabambinos que reivindican su trono gastronómico comparten una de las salas más ricas lingüísticamente de la red. El Salar de Uyuni —paisaje que no cabe en una foto— es tema recurrente, igual que la selección que juega en la altura para desesperar a cualquier rival y la chicha, que no es para paladares tibios. La conversación tiene capas, como las polleras.",
   },
   {
     slug: "paraguay",
@@ -185,7 +185,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Aquí el merengue y la bachata son el idioma. Se habla a mil por hora, se come mangú por la mañana y cualquier excusa sirve para sacar a alguien a bailar.",
     about:
-      "Suena a merengue de Juan Luis Guerra y a bachata de Romeo Santos desde la primera línea, y se escribe a mil por hora: capitalinos del Distrito Nacional, santiagueros y cibaeños, gente de San Pedro y dominicanos en Nueva York, Boston y Madrid comparten una sala donde el acento acelerado no necesita subtítulos. Se habla del béisbol como filosofía de vida —el país exporta más peloteros de Grandes Ligas por habitante que ningún otro—, del mangú de la mañana y el sancocho del domingo, y de una temperatura que nunca baja tanto como para sacar un abrigo de verdad.",
+      "Suena a merengue de Juan Luis Guerra y a bachata de Romeo Santos desde la primera línea, y se escribe a mil por hora: capitalinos del Distrito Nacional, santiagueros y cibaeños, gente de San Pedro y dominicanos en Nueva York, Boston y Madrid comparten una sala donde el acento acelerado no necesita subtítulos. El béisbol se vive como filosofía de vida —el país exporta más peloteros de Grandes Ligas por habitante que ningún otro—, el mangú de la mañana y el sancocho del domingo son tema fijo, y la temperatura nunca baja tanto como para sacar un abrigo de verdad.",
   },
   {
     slug: "cuba",
@@ -201,7 +201,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "La isla del son y los almendrones por el Malecón. Entre los de allá y los de Miami, la sala mantiene viva una conversación que el estrecho no corta.",
     about:
-      "Almendrones rodando por el Malecón y el son sonando de fondo: la isla mantiene viva una conversación que el Estrecho de Florida no ha logrado cortar. Habaneros del Vedado y de La Habana Vieja, orientales de Santiago, camagüeyanos y cubanos en Miami, Nueva York y Madrid comparten esta sala con la hospitalidad de quien reparte lo poco que tiene. Se habla de la pelota con orgullo de potencia mundial, del Malecón de noche, del tabaco que se fuma despacio, y de los inventos creativos que se hacen a diario con lo que hay a mano.",
+      "Almendrones rodando por el Malecón y el son sonando de fondo: la isla mantiene viva una conversación que el Estrecho de Florida no ha logrado cortar. Habaneros del Vedado y de La Habana Vieja, orientales de Santiago, camagüeyanos y cubanos en Miami, Nueva York y Madrid comparten esta sala con la hospitalidad de quien reparte lo poco que tiene. La pelota se comenta con orgullo de potencia mundial, no falta quien saque el tema del Malecón de noche o del tabaco que se fuma despacio, y los inventos creativos que se hacen a diario con lo que hay a mano siempre dan para rato.",
   },
   {
     slug: "puerto-rico",
@@ -231,7 +231,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Tierra de volcanes y de un maya vivo en los mercados de Chichicastenango. Aquí todo es bien chilero y el desayuno sin frijoles negros no se entiende.",
     about:
-      "Tierra de volcanes y de un maya bien vivo en los mercados de Chichicastenango: capitalinos de la Zona 1, xelajuenses de la ciudad fría, cobaneros y gente de comunidades mayas que conservan sus idiomas conectan en una sala donde el español comparte historia con el K'iche', el Kaqchikel y el Mam. Se habla del café guatemalteco —uno de los mejores del mundo— con el orgullo discreto de quien conoce su valor, del Clásico entre Comunicaciones y Municipal, y del desayuno que sin frijoles negros no se entiende. El bien chilero sirve para lo bueno, lo bonito y lo que no tiene otra palabra.",
+      "Tierra de volcanes y de un maya bien vivo en los mercados de Chichicastenango: capitalinos de la Zona 1, xelajuenses de la ciudad fría, cobaneros y gente de comunidades mayas que conservan sus idiomas conectan en una sala donde el español comparte historia con el K'iche', el Kaqchikel y el Mam. El café guatemalteco —uno de los mejores del mundo— se comenta con el orgullo discreto de quien conoce su valor, el Clásico entre Comunicaciones y Municipal nunca falta, y el desayuno sin frijoles negros no se entiende. El bien chilero sirve para lo bueno, lo bonito y lo que no tiene otra palabra.",
   },
   {
     slug: "costa-rica",
@@ -246,7 +246,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Pura vida no es un eslogan: es cómo saludan y resuelven media vida los ticos. Sin ejército desde el 48, con perezosos en los árboles y la calma en el ADN.",
     about:
-      "Pura vida no es un eslogan turístico: es la forma real en que los ticos saludan, resuelven medio problema y se despiden. Josefinos de San José, heredianos, guanacastecos de la zona seca y limonenses de la costa atlántica comparten una sala donde el mae y el diay aparecen en cada mensaje. Se habla de una biodiversidad que cabe en un país más pequeño que Andalucía, de los perezosos colgados en los árboles, de la selección que siempre sorprende cuando nadie la espera, y de vivir sin ejército desde 1948 como si fuera lo más normal del mundo.",
+      "Pura vida no es un eslogan turístico: es la forma real en que los ticos saludan, resuelven medio problema y se despiden. Josefinos de San José, heredianos, guanacastecos de la zona seca y limonenses de la costa atlántica comparten una sala donde el mae y el diay aparecen en cada mensaje. Una biodiversidad que cabe en un país más pequeño que Andalucía da para horas de charla, igual que los perezosos colgados en los árboles, la selección que siempre sorprende cuando nadie la espera, y vivir sin ejército desde 1948 como si fuera lo más normal del mundo.",
   },
   {
     slug: "panama",
@@ -276,7 +276,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El pulgarcito de América: surf de talla mundial y pupusas que valen un viaje. Se dice cheros a los amigos y la diáspora en EE.UU. nunca pierde el hilo.",
     about:
-      "Los cheros se saludan igual desde los dos lados del mundo: el pulgarcito de América junta a los salvadoreños del país con la enorme diáspora en Los Ángeles, Virginia, Houston y Maryland, que no pierde el acento ni las ganas de pupusas de chicharrón con curtido. Se habla del Clásico entre Alianza y FAS con fervor de estadio, de las playas de La Libertad donde surfean algunos de los mejores del mundo, y del café salvadoreño que exporta calidad aunque no siempre se le reconozca fuera. Aquí la distancia no cambia el lenguaje ni el hilo de la conversación.",
+      "Los cheros se saludan igual desde los dos lados del mundo: el pulgarcito de América junta a los salvadoreños del país con la enorme diáspora en Los Ángeles, Virginia, Houston y Maryland, que no pierde el acento ni las ganas de pupusas de chicharrón con curtido. El Clásico entre Alianza y FAS se debate con fervor de estadio, las playas de La Libertad donde surfean algunos de los mejores del mundo son motivo de orgullo, y el café salvadoreño exporta calidad aunque no siempre se le reconozca fuera. Aquí la distancia no cambia el lenguaje ni el hilo de la conversación.",
   },
   {
     slug: "honduras",
@@ -291,7 +291,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible. Los catrachos se pintan la cara cuando juega la H y el café no falta.",
     about:
-      "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible: tegucigalpenses y sampedranos —que tienen opinión propia sobre casi todo— se juntan con catrachos en Nueva Orleans, Houston y Miami que mantienen el vínculo intacto. Se habla de la Selección H con fervor nacional y la cara pintada, de las baleadas que arreglan cualquier hora del día, de Copán y su historia milenaria, y de Roatán, que todo el que visita quiere no marcharse. El café hondureño de altura es exportación de primera y orgullo de montaña.",
+      "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible: tegucigalpenses y sampedranos —que tienen opinión propia sobre casi todo— se juntan con catrachos en Nueva Orleans, Houston y Miami que mantienen el vínculo intacto. La Selección H se sigue con fervor nacional y la cara pintada, las baleadas arreglan cualquier hora del día, y no falta quien saque el tema de Copán y su historia milenaria o de Roatán, que todo el que visita quiere no marcharse. El café hondureño de altura es exportación de primera y orgullo de montaña.",
   },
   {
     slug: "nicaragua",
@@ -322,7 +322,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Sesenta millones de hispanos entre el spanglish de Miami, los tacos de Los Ángeles y la bachata del Bronx. Aquí se viene a no perder el español ni la sazón.",
     about:
-      "Más de sesenta millones de hispanos que no dejan que el inglés les borre el español se dan cita aquí. Cubanos de Miami, mexicanos del este de Los Ángeles, dominicanos del Bronx, salvadoreños del norte de Virginia y colombianos de Queens comparten una sala donde el spanglish es bienvenido pero el español sigue mandando. Se habla del sueño americano con todos sus claroscuros, de las remesas que viajan a casa cada mes, de los hijos que crecen entre dos culturas, y de dónde encontrar el restaurante que más se acerca a la cocina de mamá. Aquí se viene a no perder ni el idioma ni la sazón.",
+      "Más de sesenta millones de hispanos que no dejan que el inglés les borre el español se dan cita aquí. Cubanos de Miami, mexicanos del este de Los Ángeles, dominicanos del Bronx, salvadoreños del norte de Virginia y colombianos de Queens comparten una sala donde el spanglish es bienvenido pero el español sigue mandando. El sueño americano con todos sus claroscuros es tema constante, las remesas que viajan a casa cada mes también, igual que los hijos que crecen entre dos culturas y la búsqueda del restaurante que más se acerca a la cocina de mamá. Aquí se viene a no perder ni el idioma ni la sazón.",
   },
   {
     slug: "canada",
@@ -352,7 +352,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Españoles y latinos que trabajan en París o se mudaron por amor, buscando con quién quejarse en español de que cenan a las siete. La baguette no lo compensa.",
     about:
-      "Gente que vive entre dos mundos: españoles en París que hacen la compra en español y trabajan en francés, latinoamericanos en Lyon, Marsella o Burdeos que eligieron Europa con escala aquí. Se habla del metro parisino que no se parece a ningún otro, de los museos que cansan pero merecen cada minuto, de lo peleado que es el francés para un hispanohablante, y de la añoranza de una buena barra de bar abierta a las once de la noche. La baguette está buenísima, pero no cura el cenar a las siete ni la nostalgia de los de casa.",
+      "Gente que vive entre dos mundos: españoles en París que hacen la compra en español y trabajan en francés, latinoamericanos en Lyon, Marsella o Burdeos que eligieron Europa con escala aquí. El metro parisino, que no se parece a ningún otro, da para charla, igual que los museos que cansan pero merecen cada minuto, lo peleado que es el francés para un hispanohablante, y la añoranza de una buena barra de bar abierta a las once de la noche. La baguette está buenísima, pero no cura el cenar a las siete ni la nostalgia de los de casa.",
   },
   {
     slug: "italia",
@@ -382,7 +382,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El vecino al que se cruza la frontera por un fin de semana de bacalhau y fado. Españoles en Lisboa y latinos compartiendo un idioma tan parecido que engaña.",
     about:
-      "El vecino al que se le cruza la frontera por un fin de semana de bacalhau y fado: hay españoles que vinieron a pasar dos días y se quedaron, latinoamericanos que eligieron Lisboa por el clima y los precios, y portugueses del norte que entienden el castellano de memoria. Comparten una sala tranquila pero activa, con la melancolía del fado y la hospitalidad genuina de quien recibe bien. Se habla de Ronaldo y de Eusébio en la misma frase, del pastel de nata como solución universal para cualquier mañana, y de cómo dos idiomas tan parecidos construyeron orillas tan distintas del mismo océano.",
+      "El vecino al que se le cruza la frontera por un fin de semana de bacalhau y fado: hay españoles que vinieron a pasar dos días y se quedaron, latinoamericanos que eligieron Lisboa por el clima y los precios, y portugueses del norte que entienden el castellano de memoria. Comparten una sala tranquila pero activa, con la melancolía del fado y la hospitalidad genuina de quien recibe bien. Ronaldo y Eusébio se cuelan en la misma frase, el pastel de nata funciona como solución universal para cualquier mañana, y no falta quien se pregunte cómo dos idiomas tan parecidos construyeron orillas tan distintas del mismo océano.",
   },
   {
     slug: "alemania",
@@ -413,7 +413,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés. Aquí se viene a hablar sin acento fingido.",
     about:
-      "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés: aquí late una de las comunidades hispanas más grandes de Europa occidental, junto con españoles en Manchester, colombianos en Leeds, venezolanos en Edimburgo y ecuatorianos en Essex. Se habla de Elephant and Castle como barrio histórico de referencia, de los pubs que cierran a las once y decepcionan a quien viene del sur, de los sueldos en libras que parecen buenos hasta que pagas el alquiler, y de cómo el Brexit complicó las cosas a los que llegaron antes. Aquí se habla sin acento fingido.",
+      "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés: aquí late una de las comunidades hispanas más grandes de Europa occidental, junto con españoles en Manchester, colombianos en Leeds, venezolanos en Edimburgo y ecuatorianos en Essex. Elephant and Castle se comenta como barrio histórico de referencia, los pubs que cierran a las once decepcionan a quien viene del sur, los sueldos en libras parecen buenos hasta que pagas el alquiler, y el Brexit complicó las cosas a los que llegaron antes. Aquí se habla sin acento fingido.",
   },
   {
     slug: "marruecos",
@@ -444,7 +444,7 @@ export const COUNTRIES: Place[] = [
     intro:
       "El único país de África con español como lengua oficial. Castellano con sabor a trópico, entre malanga, makara y un orgullo que une Malabo y Bata con Madrid.",
     about:
-      "El único país de África subsahariana con el castellano como lengua oficial tiene aquí su único espacio de chat en español. Ecuatoguineanos de Malabo, Bata y Ebebiyín se juntan con la diáspora en España —sobre todo en Madrid y Barcelona— en una sala donde el español convive con el fang, el bubi y el ndowé dentro del mismo mensaje. Se habla del petróleo que transformó el país, del makara y la malanga, del fútbol africano, y de esa relación particular con España que la historia teje con hilos dobles. Castellano con sabor a trópico, único en toda la red.",
+      "El único país de África subsahariana con el castellano como lengua oficial tiene aquí su único espacio de chat en español. Ecuatoguineanos de Malabo, Bata y Ebebiyín se juntan con la diáspora en España —sobre todo en Madrid y Barcelona— en una sala donde el español convive con el fang, el bubi y el ndowé dentro del mismo mensaje. El petróleo que transformó el país es tema obligado, igual que el makara y la malanga, el fútbol africano, y esa relación particular con España que la historia teje con hilos dobles. Castellano con sabor a trópico, único en toda la red.",
   },
 ];
 

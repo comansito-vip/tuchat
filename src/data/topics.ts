@@ -47,7 +47,7 @@ export const TOPICS: Place[] = [
     intro:
       "Un espacio de conversación abierto y respetuoso para la comunidad LGTBI y sus aliados: desde el orgullo y la visibilidad hasta el día a día.",
     about:
-      "Aquí la comunidad no necesita contextualizarse, explicar quién es ni tolerar comentarios fuera de lugar. Se habla del Orgullo de Madrid o Buenos Aires, de series y referentes culturales, de relaciones, de coming out y de vivir la identidad de formas muy distintas según el país. También es un punto de encuentro para aliados que quieren escuchar. Un chat abierto, respetuoso y con actividad constante a cualquier hora del día.",
+      "Aquí la comunidad no necesita contextualizarse, explicar quién es ni tolerar comentarios fuera de lugar. El Orgullo de Madrid o Buenos Aires, las series y referentes culturales, las relaciones, el coming out y las mil formas de vivir la identidad según el país ocupan la conversación. También es un punto de encuentro para aliados que quieren escuchar. Un chat abierto, respetuoso y con actividad constante a cualquier hora del día.",
   },
   {
     slug: "deportes",
@@ -63,7 +63,7 @@ export const TOPICS: Place[] = [
     intro:
       "Fútbol, baloncesto, tenis, MMA: se debate con pasión y algo de parcialidad. Si no aguantas que te rebatan, mejor busca otra sala.",
     about:
-      "Noche de partido y el contador no para de subir. Cuando juega la selección o hay Champions, el contador de usuarios se dispara y los mensajes no paran. Se habla de fútbol, baloncesto —la NBA y la Liga Endesa—, tenis, Fórmula 1, MMA y cualquier deporte que tenga aficionados apasionados. Las discusiones son directas, la parcialidad es bienvenida y el que no tiene opinión propia aprende rápido que aquí hay que tenerla.",
+      "Noche de partido y el contador no para de subir. Cuando juega la selección o hay Champions, el contador de usuarios se dispara y los mensajes no paran. Fútbol, baloncesto —la NBA y la Liga Endesa—, tenis, Fórmula 1, MMA: cualquier deporte con aficionados apasionados encuentra sitio aquí. Las discusiones son directas, la parcialidad es bienvenida y el que no tiene opinión propia aprende rápido que aquí hay que tenerla.",
   },
   {
     slug: "musica",
@@ -110,7 +110,7 @@ export const TOPICS: Place[] = [
     intro:
       "Partidas en curso, noticias del sector, builds imposibles y ese compañero que desaparece en el momento más crítico: todo tiene cabida en la sala de videojuegos.",
     about:
-      "PC, consola o móvil: aquí no hay guerras de plataforma porque lo que importa es la partida, no el soporte. Se habla de builds imposibles de Path of Exile, del lore de los Soulslike de FromSoftware que nadie termina de entender del todo, de los últimos anuncios del Nintendo Direct y del compañero que desaparece justo antes del boss final. También hay quien recluta para su clan, quien busca consejo antes de comprar, y quien quiere saber qué vale la pena en el catálogo de este mes.",
+      "PC, consola o móvil: aquí no hay guerras de plataforma porque lo que importa es la partida, no el soporte. Circulan builds imposibles de Path of Exile, teorías sobre el lore de los Soulslike de FromSoftware que nadie termina de entender del todo, los últimos anuncios del Nintendo Direct y la broma recurrente del compañero que desaparece justo antes del boss final. También hay quien recluta para su clan, quien busca consejo antes de comprar, y quien quiere saber qué vale la pena en el catálogo de este mes.",
   },
   {
     slug: "filosofia",
@@ -140,7 +140,7 @@ export const TOPICS: Place[] = [
     intro:
       "IA, startups, ciberseguridad y el eterno debate Linux vs Windows: si tienes criterio propio sobre el sector, aquí no te vas a aburrir.",
     about:
-      "Aquí se cruzan desarrolladores que debaten arquitectura de software, emprendedores que preguntan por herramientas de productividad, y curiosos que quieren entender qué está pasando con la inteligencia artificial. Se habla de Linux versus Windows sin que nadie gane del todo, de los últimos modelos de lenguaje y si van a quitar empleos, de startups que arrancan y de ciberseguridad que cada día importa más. Si tienes criterio propio sobre el sector tecnológico, aquí hay interlocutores que van a hacerte pensar.",
+      "Aquí se cruzan desarrolladores que debaten arquitectura de software, emprendedores que preguntan por herramientas de productividad, y curiosos que quieren entender qué está pasando con la inteligencia artificial. Linux versus Windows sin que nadie gane del todo, los últimos modelos de lenguaje y si van a quitar empleos, las startups que arrancan y la ciberseguridad que cada día importa más son los temas que no faltan. Si tienes criterio propio sobre el sector tecnológico, aquí hay interlocutores que van a hacerte pensar.",
   },
   {
     slug: "bolsa",
@@ -249,7 +249,7 @@ export const TOPICS: Place[] = [
     intro:
       "De la Shōnen Jump a los últimos estrenos de la temporada: se habla de sagas, se debaten finales y siempre hay alguien que lleva el manga un arco por delante.",
     about:
-      "Todos los niveles caben aquí: quienes acaban de ver su primer shonen y quienes llevan veinte años siguiendo la Shōnen Jump. Se debaten finales de temporada —con spoilers libremente avisados—, se comparan adaptaciones con el manga original, y siempre hay alguien que lleva el arco por delante y tiene mucho autocontrol para no contarlo. Se habla de Attack on Titan, One Piece, Chainsaw Man, Jujutsu Kaisen y de los clásicos de Studio Ghibli que no envejecen. Sala con actividad constante en temporada.",
+      "Todos los niveles caben aquí: quienes acaban de ver su primer shonen y quienes llevan veinte años siguiendo la Shōnen Jump. Se debaten finales de temporada —con spoilers libremente avisados—, se comparan adaptaciones con el manga original, y siempre hay alguien que lleva el arco por delante y tiene mucho autocontrol para no contarlo. Attack on Titan, One Piece, Chainsaw Man, Jujutsu Kaisen y los clásicos de Studio Ghibli que no envejecen protagonizan la charla casi a diario. Sala con actividad constante en temporada.",
   },
   {
     slug: "series",
@@ -296,7 +296,7 @@ export const TOPICS: Place[] = [
     intro:
       "Debates sobre actualidad, partidos, elecciones y todo lo que pasa en España y Latinoamérica. Se puede discrepar sin insultar, aunque no siempre se logra.",
     about:
-      "Se debate la actualidad de España y Latinoamérica con más argumentos y menos insultos de lo que se ve en redes. Se habla de elecciones, de economía, de migración, de los gobiernos de turno en cada país y de lo que pasa en el continente con una perspectiva que los medios locales no siempre tienen. Las discusiones son directas —a veces demasiado— y la sala no es apta para quien no tolera que le rebatan, pero tampoco para quien no tiene nada que decir. Entra con argumentos.",
+      "Se debate la actualidad de España y Latinoamérica con más argumentos y menos insultos de lo que se ve en redes. Elecciones, economía, migración, los gobiernos de turno en cada país y lo que pasa en el continente se comentan con una perspectiva que los medios locales no siempre tienen. Las discusiones son directas —a veces demasiado— y la sala no es apta para quien no tolera que le rebatan, pero tampoco para quien no tiene nada que decir. Entra con argumentos.",
   },
   {
     slug: "ligar",
@@ -375,7 +375,7 @@ export const TOPICS: Place[] = [
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
     about:
-      "El rincón más directo de todo el chat: fantasías, conversaciones hot, rol erótico y todo lo que la imaginación permite entre adultos. Sin tabúes, sin juzgar lo que se busca, con cientos de usuarios activos a cualquier hora. Una de las salas con mayor actividad constante de toda la red en español: más de trescientos usuarios conectados de media durante el día. Se habla de rol, de fetiches, de encuentros imaginarios y de experiencias reales que se comparten con quien sepa escuchar. La libertad de expresión que no encuentras en otras redes o chats más restrictivos.",
+      "El rincón más directo de todo el chat: fantasías, conversaciones hot, rol erótico y todo lo que la imaginación permite entre adultos. Sin tabúes, sin juzgar lo que se busca, con cientos de usuarios activos a cualquier hora. Una de las salas con mayor actividad constante de toda la red en español: más de trescientos usuarios conectados de media durante el día. Rol, fetiches, encuentros imaginarios y experiencias reales se comparten aquí con quien sepa escuchar, sin prejuicios de por medio. La libertad de expresión que no encuentras en otras redes o chats más restrictivos.",
   },
   {
     slug: "infieles",

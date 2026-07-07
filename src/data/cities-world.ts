@@ -21,7 +21,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El chat de Cancún junta a gente de la Zona Hotelera y del centro, entre locales chambeadores y quienes llegaron del sureste a buscar chamba.",
     about:
-      "Más allá de los all inclusive y las pulseras de plástico, Cancún tiene su lado real: las Regiones numeradas donde vive la gente que trabaja en hoteles y restaurants, los cenotes de la Riviera Maya a media hora, la combi al centro y el mercado 28. Aquí se junta gente venida de Chiapas, Tabasco, Yucatán y toda la república, así que se oye desde el maya hasta el uay yucateco. Se habla de turnos en la Zona Hotelera, del calor húmedo que aprieta de junio a octubre y de escaparse a Holbox o Bacalar cuando hay chance. Sala con mucho flujo y energía de recién llegados.",
+      "Más allá de los all inclusive y las pulseras de plástico, Cancún tiene su lado real: las Regiones numeradas donde vive la gente que trabaja en hoteles y restaurants, los cenotes de la Riviera Maya a media hora, la combi al centro y el mercado 28. Aquí se junta gente venida de Chiapas, Tabasco, Yucatán y toda la república, así que se oye desde el maya hasta el uay yucateco. Los turnos en la Zona Hotelera son tema diario, igual que el calor húmedo que aprieta de junio a octubre y las ganas de escaparse a Holbox o Bacalar cuando hay chance. Sala con mucho flujo y energía de recién llegados.",
   },
   {
     slug: "san-jose-costa-rica",
@@ -56,7 +56,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Feliz, los alfajores Havanna y el olor a mar de la peatonal San Martín. En verano se llena, pero el chat no para en todo el año.",
     about:
-      "El chat de Mar del Plata mezcla a los marplatenses de toda la vida —que no aguantan a los turistas de enero— con los porteños que bajan a la Bristol y a la rambla del Casino. Se habla de churros con dulce de leche, de los lobos marinos del Puerto tomando sol en los muelles, de pescar en la escollera norte con frío y de bancarse el viento que nunca para. Sale también el Aldosivi, los alfajores Havanna como souvenir obligado y ese frío seco de julio cuando La Feliz se queda vacía y vuelve a ser de los locales que la prefieren así.",
+      "El chat de Mar del Plata mezcla a los marplatenses de toda la vida —que no aguantan a los turistas de enero— con los porteños que bajan a la Bristol y a la rambla del Casino. Los churros con dulce de leche no faltan como tema, tampoco los lobos marinos del Puerto tomando sol en los muelles, pescar en la escollera norte con frío y bancarse el viento que nunca para. Sale también el Aldosivi, los alfajores Havanna como souvenir obligado y ese frío seco de julio cuando La Feliz se queda vacía y vuelve a ser de los locales que la prefieren así.",
   },
   {
     slug: "santa-cruz-bolivia",
@@ -73,7 +73,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "El motor económico de Bolivia, el calor del oriente y los anillos que organizan la ciudad. Los cambas son alegres, abiertos y muy fiesteros.",
     about:
-      "El chat de Santa Cruz de la Sierra tiene sabor camba: gente del centro, de los anillos y de Equipetrol, con ese acento cantadito del oriente boliviano. Se habla del majadito, del cuñapé, de la sonso y del zonzo, de la feria de septiembre y del calor tropical que invita a la cerveza bien fría. Ambiente festivo, hablar relajado y un carácter abierto que contrasta con el del altiplano. Tierra de la chicha y el carnaval cruceño.",
+      "El chat de Santa Cruz de la Sierra tiene sabor camba: gente del centro, de los anillos y de Equipetrol, con ese acento cantadito del oriente boliviano. El majadito, el cuñapé, la sonso y el zonzo protagonizan la charla junto con la feria de septiembre y el calor tropical que invita a la cerveza bien fría. Ambiente festivo, hablar relajado y un carácter abierto que contrasta con el del altiplano. Tierra de la chicha y el carnaval cruceño.",
   },
 
   {
@@ -91,7 +91,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Albacete para conocer gente de la llanura manchega, hablar en directo y quedar por el Paseo de la Cuba.",
     about:
-      "El chat de Albacete reúne a quienes presumen de las navajas artesanas —la cuchillería albacetense es fama mundial— y de la Feria de septiembre con su Recinto Ferial circular único en España y la Cabalgata del Vítor con los gigantes y cabezudos. Se habla del calor seco del verano manchego, del frío que baja de la meseta en enero, de los miguelitos de La Roda con su hojaldre y crema, del gazpacho manchego con conejo y del ruidoso monolito. Gente llana, directa y sin postureo, de tapeo por la calle Ancha y paseo hasta el Parque Abelardo Sánchez.",
+      "El chat de Albacete reúne a quienes presumen de las navajas artesanas —la cuchillería albacetense es fama mundial— y de la Feria de septiembre con su Recinto Ferial circular único en España y la Cabalgata del Vítor con los gigantes y cabezudos. El calor seco del verano manchego se comenta tanto como el frío que baja de la meseta en enero, los miguelitos de La Roda con su hojaldre y crema, el gazpacho manchego con conejo y el ruidoso monolito. Gente llana, directa y sin postureo, de tapeo por la calle Ancha y paseo hasta el Parque Abelardo Sánchez.",
   },
   {
     slug: "badajoz",
@@ -159,7 +159,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Ciudad Real para conocer manchegos: tierra de Don Quijote, queso manchego y vino de Valdepeñas a un paso.",
     about:
-      "El chat de Ciudad Real respira tierra de Don Quijote, con la Puerta de Toledo medievalen pie y el AVE que la dejó a 50 minutos de Madrid y transformó la ciudad. Se habla de la Pandorga en agosto cuando se celebra a la Virgen del Prado con queso, pan y vino manchego para todos, del pisto que aquí se come con todo, de los Pozos de Calatrava y del vino de Valdepeñas que se cria a un paso. Manchegos de carácter franco y directo, acostumbrados al calor extremo del verano con 40 grados y a las llanuras de viñas y molinos de viento que Cervantes inmortalizó.",
+      "El chat de Ciudad Real respira tierra de Don Quijote, con la Puerta de Toledo medievalen pie y el AVE que la dejó a 50 minutos de Madrid y transformó la ciudad. La Pandorga en agosto, cuando se celebra a la Virgen del Prado con queso, pan y vino manchego para todos, es tema fijo, igual que el pisto que aquí se come con todo, los Pozos de Calatrava y el vino de Valdepeñas que se cría a un paso. Manchegos de carácter franco y directo, acostumbrados al calor extremo del verano con 40 grados y a las llanuras de viñas y molinos de viento que Cervantes inmortalizó.",
   },
   {
     slug: "huelva",
@@ -312,7 +312,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Entra en el chat de Segovia: el Acueducto romano sin argamasa, el Alcázar de cuento, el cochinillo de horno y Madrid a media hora.",
     about:
-      "En el chat de Segovia mandan el Acueducto romano del siglo I sin una gota de argamasa —que aguanta 2000 años aguantando el peso de la piedra— y el Alcázar que se dice inspiró el castillo de Disney. Se habla del cochinillo asado en horno de leña que aquí se come con el canto del plato para demostrar que está tierno, de los judiones de La Granja con sus chorizos, y del ponche segoviano como postre. El frío de la sierra baja con fuerza en invierno pero los segovianos son de meseta: orgullosos de su piedra, sus cuestas empinadas y de tener Madrid a 28 minutos en Alvia.",
+      "En el chat de Segovia mandan el Acueducto romano del siglo I sin una gota de argamasa —que aguanta 2000 años aguantando el peso de la piedra— y el Alcázar que se dice inspiró el castillo de Disney. El cochinillo asado en horno de leña, que aquí se come con el canto del plato para demostrar que está tierno, no falta en la charla, tampoco los judiones de La Granja con sus chorizos ni el ponche segoviano como postre. El frío de la sierra baja con fuerza en invierno pero los segovianos son de meseta: orgullosos de su piedra, sus cuestas empinadas y de tener Madrid a 28 minutos en Alvia.",
   },
   {
     slug: "vitoria",
@@ -364,7 +364,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La ciudad más fría de México, la del chorizo verde y los Diablos Rojos: los toluqueños aguantan el clima del Nevado y calientan el chat con buena plática.",
     about:
-      "En la sala de Toluca se juntan los que cruzan diario a la CDMX por la autopista México-Toluca y los que defienden quedarse en el valle. Se habla del chorizo verde que no existe en ningún otro lado, de las tortas de Metepec, del Portales y de los Diablos Rojos cuando llegan a la liguilla. La gente del Edomex es directa, sarcástica y muy del taco de canasta tempranero antes de agarrar el trabajo. El friito del Nevado de Toluca obliga a traer chamarra en pleno verano y eso los hace únicos.",
+      "En la sala de Toluca se juntan los que cruzan diario a la CDMX por la autopista México-Toluca y los que defienden quedarse en el valle. El chorizo verde que no existe en ningún otro lado es tema recurrente, junto con las tortas de Metepec, el Portales y los Diablos Rojos cuando llegan a la liguilla. La gente del Edomex es directa, sarcástica y muy del taco de canasta tempranero antes de agarrar el trabajo. El friito del Nevado de Toluca obliga a traer chamarra en pleno verano y eso los hace únicos.",
   },
   {
     slug: "merida-mexico",
@@ -417,7 +417,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "Salta la Linda, las peñas hasta el amanecer y las empanadas salteñas que arman pelea con las tucumanas: una sala con folklore y hospitalidad norteña.",
     about:
-      "El chat de Salta se arma entre los del casco colonial Patrimonio Nacional, los amantes de las peñas de la calle Balcarce con zambas y coplas, y los que viajan al Tren a las Nubes o a Cafayate a comprar torrontés. Se habla de las empanadas salteñas jugosas con papa y aceituna —que son otro deporte—, del vino torrontés que se bebe fresquito, de las iglesias coloniales de San Francisco y del Cerro San Bernardo con su teleférico. Gente de tonada cantora, muy hospitalaria y orgullosa de vivir en la ciudad más bella del norte.",
+      "El chat de Salta se arma entre los del casco colonial Patrimonio Nacional, los amantes de las peñas de la calle Balcarce con zambas y coplas, y los que viajan al Tren a las Nubes o a Cafayate a comprar torrontés. Las empanadas salteñas jugosas con papa y aceituna —que son otro deporte— dan para rato, igual que el vino torrontés que se bebe fresquito, las iglesias coloniales de San Francisco y el Cerro San Bernardo con su teleférico. Gente de tonada cantora, muy hospitalaria y orgullosa de vivir en la ciudad más bella del norte.",
   },
   {
     slug: "bucaramanga",
@@ -469,7 +469,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Ciudad de la Amistad, el arroz con pato y el King Kong de manjar blanco: los chiclayanos del norte llegan al chat con sazón y buena onda.",
     about:
-      "El chat de Chiclayo junta a los del Mercado Modelo con su bullicio mañanero, los que veranean en Pimentel o Santa Rosa, y los orgullosos del Señor de Sipán que desafía a Tutankamón. Se habla del arroz con pato a la chiclayana con culantro auténtico, del ceviche norteño bien picante con ají limo, del King Kong de manjar blanco que llevan a toda Lima, y de la chicha de jora que se consigue en las picanterías. Calor costeño todo el año, gente que hace honor a su apodo de Ciudad de la Amistad, y un acento norteño cantadito que se reconoce al toque.",
+      "El chat de Chiclayo junta a los del Mercado Modelo con su bullicio mañanero, los que veranean en Pimentel o Santa Rosa, y los orgullosos del Señor de Sipán que desafía a Tutankamón. El arroz con pato a la chiclayana con culantro auténtico se comenta con orgullo, igual que el ceviche norteño bien picante con ají limo, el King Kong de manjar blanco que llevan a toda Lima, y la chicha de jora que se consigue en las picanterías. Calor costeño todo el año, gente que hace honor a su apodo de Ciudad de la Amistad, y un acento norteño cantadito que se reconoce al toque.",
   },
   {
     slug: "piura",
@@ -503,7 +503,7 @@ export const CITIES_WORLD: Place[] = [
     intro:
       "La Perla del Norte, el desierto más árido del mundo pegado al mar y la minería que mueve todo: los antofagastinos arman un chat con harto carácter nortino.",
     about:
-      "La sala de Antofagasta junta a los mineros del cobre de Escondida y Chuquicamata, los que pasean por La Chimba o el barrio histórico, y los que viven entre el desierto de Atacama y el Pacífico sin ver una gota de lluvia en años. Se habla de La Portada como postal nortina obligada, del calor seco de día y el frío que pega de noche, del sueldo minero que mueve la economía y de los completos italianos a la salida del turno. Modismos nortinos a full —la wea, el bacán— y ese orgullo nortino de sostener a Chile que no se discute con nadie.",
+      "La sala de Antofagasta junta a los mineros del cobre de Escondida y Chuquicamata, los que pasean por La Chimba o el barrio histórico, y los que viven entre el desierto de Atacama y el Pacífico sin ver una gota de lluvia en años. La Portada aparece como postal nortina obligada, se comenta el calor seco de día y el frío que pega de noche, el sueldo minero que mueve la economía y los completos italianos a la salida del turno. Modismos nortinos a full —la wea, el bacán— y ese orgullo nortino de sostener a Chile que no se discute con nadie.",
   },
   {
     slug: "temuco",

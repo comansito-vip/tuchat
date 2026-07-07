@@ -210,7 +210,7 @@ export const CITIES: Place[] = [
     intro:
       "Chilangos de Tepito, Coyoacán, la Condesa y el Estado de México conviven en esta sala con el ritmo frenético de la ciudad más grande de habla hispana.",
     about:
-      "El CDMX chat no duerme: a las 3 de la mañana hay gente de Tepito, Coyoacán, la Condesa e Iztapalapa discutiendo de tacos de canasta, del tráfico infernal en el Periférico y del último temblor. Chilangos de la metrópoli y defeños de corazón que ya no viven aquí se mezclan con gente de Guadalajara o Monterrey que se mudaron por el trabajo. Se habla de la UNAM, del Metro lleno, del tianguis del barrio y de las loncherías que cierran a las 2. Una sala tan densa y diversa como la ciudad misma.",
+      "El CDMX chat no duerme: a las 3 de la mañana hay gente de Tepito, Coyoacán, la Condesa e Iztapalapa discutiendo de tacos de canasta, del tráfico infernal en el Periférico y del último temblor. Chilangos de la metrópoli y defeños de corazón que ya no viven aquí se mezclan con gente de Guadalajara o Monterrey que se mudaron por el trabajo. La UNAM, el Metro lleno, el tianguis del barrio y las loncherías que cierran a las 2 son tema fijo de conversación. Una sala tan densa y diversa como la ciudad misma.",
   },
   {
     slug: "bogota",
@@ -418,7 +418,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Las Palmas para conocer gente, quedar a surfear o pasear por Las Canteras al atardecer y comentar el carnaval más esperado del año.",
     about:
-      "El chat de Las Palmas de Gran Canaria mezcla a gente de Vegueta, Triana y La Isleta con los barrios de Mesa y López y Tamaraceite. Se habla de la playa de Las Canteras a cualquier hora del año —que aquí el año tiene 365 días de playa—, del Carnaval que para muchos supera al de Santa Cruz, del UD Las Palmas y de ese carácter canario entre guanche y mestizo que ni es del todo peninsular ni del todo africano. Isla en el Atlántico con personalidad propia.",
+      "El chat de Las Palmas de Gran Canaria mezcla a gente de Vegueta, Triana y La Isleta con los barrios de Mesa y López y Tamaraceite. La playa de Las Canteras a cualquier hora del año —que aquí el año tiene 365 días de playa—, el Carnaval que para muchos supera al de Santa Cruz, el UD Las Palmas y ese carácter canario entre guanche y mestizo que ni es del todo peninsular ni del todo africano protagonizan la charla. Isla en el Atlántico con personalidad propia.",
   },
   {
     slug: "pamplona",
@@ -435,7 +435,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Pamplona para conocer gente, hablar de los Sanfermines y el encierro o quedar a hacer el poteo por el Casco Viejo cualquier día del año.",
     about:
-      "El chat de Pamplona une a gente del Casco Viejo, la Rochapea y el Ensanche con los estudiantes de la Universidad de Navarra y la Pública. Se habla de los Sanfermines y el encierro del 7 de julio con una mezcla de orgullo y resignación ante los turistas, del poteo por la Estafeta, del Osasuna de toda la vida y del carácter navarro: ni vasco ni castellano, sino muy suyo. Muy fiestera en julio, muy tranquila el resto del año.",
+      "El chat de Pamplona une a gente del Casco Viejo, la Rochapea y el Ensanche con los estudiantes de la Universidad de Navarra y la Pública. No falta quien saque los Sanfermines y el encierro del 7 de julio, con una mezcla de orgullo y resignación ante los turistas, el poteo por la Estafeta, el Osasuna de toda la vida y ese carácter navarro: ni vasco ni castellano, sino muy suyo. Muy fiestera en julio, muy tranquila el resto del año.",
   },
   {
     slug: "san-sebastian",
@@ -486,7 +486,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Cádiz para conocer gente, reírte con el cachondeo gaditano y quedar a comer pescaíto frito en La Viña antes de que empiece el Carnaval.",
     about:
-      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias que no encontrarás en ningún otro sitio. Se habla de las chirigotas y comparsas del Carnaval —el mejor de España para quien lo sabe— de bañarse en La Caleta al caer la tarde con la puesta de sol de fondo, del pescaíto frito en cucurucho y los erizos en el Faro, y de esa luz blanca y plana que tiene una de las ciudades habitadas más antiguas de Occidente. Aquí no falta la guasa ni el cariño gaditano. Una sala alegre que se ríe hasta de su propia sombra y te contagia.",
+      "El chat de Cádiz tiene el salero de la Tacita de Plata: gente de La Viña, Santa María y el Pópulo soltando ocurrencias que no encontrarás en ningún otro sitio. Se comenta de las chirigotas y comparsas del Carnaval —el mejor de España para quien lo sabe—, de bañarse en La Caleta al caer la tarde con la puesta de sol de fondo, del pescaíto frito en cucurucho y los erizos en el Faro, y de esa luz blanca y plana que tiene una de las ciudades habitadas más antiguas de Occidente. Aquí no falta la guasa ni el cariño gaditano. Una sala alegre que se ríe hasta de su propia sombra y te contagia.",
   },
   {
     slug: "almeria",
@@ -521,7 +521,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Tenerife para conocer gente, quedar a ver el Teide nevado o vivir el Carnaval de Santa Cruz, el más grande después del de Río.",
     about:
-      "El chat de Tenerife conecta a gente de Santa Cruz, La Laguna, Los Cristianos y el Puerto de la Cruz: cuatro mundos distintos dentro de la misma isla. Se habla del Teide que aparece entre nubes, del Carnaval de Santa Cruz que paraliza la vida durante semanas, de ir al norte a buscar el verde cuando en el sur sólo hay sol y guiris. Los tinerfeños tienen su propio dialecto, su propia identidad y una mezcla cultural entre canario, americano e hispano que no se parece a nada peninsular.",
+      "El chat de Tenerife conecta a gente de Santa Cruz, La Laguna, Los Cristianos y el Puerto de la Cruz: cuatro mundos distintos dentro de la misma isla. El Teide que aparece entre nubes, el Carnaval de Santa Cruz que paraliza la vida durante semanas y las escapadas al norte a buscar el verde cuando en el sur sólo hay sol y guiris llenan la conversación. Los tinerfeños tienen su propio dialecto, su propia identidad y una mezcla cultural entre canario, americano e hispano que no se parece a nada peninsular.",
   },
   {
     slug: "salamanca",
@@ -589,7 +589,7 @@ export const CITIES: Place[] = [
     intro:
       "Pásate por el chat de Tarragona para conocer gente, bajar al Anfiteatro romano junto al mar o vibrar con los castells en la plaza durante Santa Tecla.",
     about:
-      "El chat de Tarragona conecta a gente del Serrallo, la Part Alta y los barrios nuevos del Camp de Mart. Se habla de los restos romanos que aparecen en cualquier esquina, de los castells de Santa Tecla que son espectáculo y deporte a la vez, de las playas del Miracle y la Arrabassada al salir de currar, y de ese equilibrio entre ser la Roma española y vivir a la sombra de Barcelona. Tarraconenses con identidad propia y mucha historia bajo los pies.",
+      "El chat de Tarragona conecta a gente del Serrallo, la Part Alta y los barrios nuevos del Camp de Mart. Se debate de los restos romanos que aparecen en cualquier esquina, de los castells de Santa Tecla que son espectáculo y deporte a la vez, de las playas del Miracle y la Arrabassada al salir de currar, y de ese equilibrio entre ser la Roma española y vivir a la sombra de Barcelona. Tarraconenses con identidad propia y mucha historia bajo los pies.",
   },
   {
     slug: "girona",
@@ -606,7 +606,7 @@ export const CITIES: Place[] = [
     intro:
       "Entra en el chat de Girona para conocer gente, pasear por las casas de colores del Onyar o quedar en el Temps de Flors cuando la ciudad se llena de flores.",
     about:
-      "El chat de Girona reúne a gente del Barri Vell, Sant Narcís y Salt, con esa mezcla de lo medieval y lo contemporáneo que hace a la ciudad tan fotogénica y tan vivible a la vez. Se habla de las casas colgadas sobre el río Onyar, del Temps de Flors en mayo, del Barça que se ve mucho aquí, de los restaurantes que salen en las listas mundiales y de ser una ciudad pequeña que tiene más historia que capitales diez veces más grandes.",
+      "El chat de Girona reúne a gente del Barri Vell, Sant Narcís y Salt, con esa mezcla de lo medieval y lo contemporáneo que hace a la ciudad tan fotogénica y tan vivible a la vez. Las casas colgadas sobre el río Onyar, el Temps de Flors en mayo, el Barça que se ve mucho aquí y los restaurantes que salen en las listas mundiales dan para horas de charla, igual que ser una ciudad pequeña que tiene más historia que capitales diez veces más grandes.",
   },
   {
     slug: "toledo",
@@ -641,7 +641,7 @@ export const CITIES: Place[] = [
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",
     about:
-      "El chat de Guadalajara junta chavos de Chapultepec, oficinistas de Andares, gente de Zapopan y los que viven cerquita de la Minerva en la Perla de Occidente. Se habla de las Chivas hasta enronquecer —son las de abajo, las de corazón—, de las tardes en Tlaquepaque viendo artesanías y de a quién le tocó la mejor birria de barbacoa del barrio. Hay debate de bandas que salieron de aquí, planes para el FIL de Guadalajara en noviembre, el mariachi en la Plaza de los Mariachis y un sentido del humor seco muy tapatío que no se traga nada ni a nadie.",
+      "El chat de Guadalajara junta chavos de Chapultepec, oficinistas de Andares, gente de Zapopan y los que viven cerquita de la Minerva en la Perla de Occidente. Las Chivas dan para hablar hasta enronquecer —son las de abajo, las de corazón—, igual que las tardes en Tlaquepaque viendo artesanías y la eterna disputa de a quién le tocó la mejor birria de barbacoa del barrio. Hay debate de bandas que salieron de aquí, planes para el FIL de Guadalajara en noviembre, el mariachi en la Plaza de los Mariachis y un sentido del humor seco muy tapatío que no se traga nada ni a nadie.",
   },
   {
     slug: "monterrey",
@@ -710,7 +710,7 @@ export const CITIES: Place[] = [
     intro:
       "Con esa tonada que se reconoce a un kilómetro, los cordobeses te reciben con humor y un fernet. Entrá y comprobá por qué acá nadie se toma las cosas en serio.",
     about:
-      "La sala de Córdoba mezcla estudiantes de la Universidad Nacional, gente de Nueva Córdoba y serranos de Carlos Paz. Se habla de cuarteto a los gritos, de las previas con fernet con coca y de los findes en las sierras. El humor cordobés es marca registrada: todo termina en chiste. Se discute de Belgrano y Talleres como si fuera religión y se canta a la Mona Jiménez sin pedir permiso. Pura joda con fundamento.",
+      "La sala de Córdoba mezcla estudiantes de la Universidad Nacional, gente de Nueva Córdoba y serranos de Carlos Paz. El cuarteto a los gritos, las previas con fernet con coca y los findes en las sierras protagonizan la charla. El humor cordobés es marca registrada: todo termina en chiste. Se discute de Belgrano y Talleres como si fuera religión y se canta a la Mona Jiménez sin pedir permiso. Pura joda con fundamento.",
   },
   {
     slug: "rosario",
@@ -727,7 +727,7 @@ export const CITIES: Place[] = [
     intro:
       "A orillas del Paraná y bajo el Monumento a la Bandera, los rosarinos charlan con orgullo futbolero. Acá nacieron Messi y el Che, y no te dejan olvidarlo.",
     about:
-      "El chat de Rosario junta gente del centro, estudiantes que toman mate en la costanera y fanáticos que se matan por Newell's o Central. Se habla del Paraná al atardecer, de las pizzas a la parrilla y de esa cuna de cracks que dio la ciudad. Hay charla tranquila, acento cantadito y mucha referencia al fútbol. La rivalidad leprosa-canalla calienta cualquier conversación, pero siempre termina en abrazo.",
+      "El chat de Rosario junta gente del centro, estudiantes que toman mate en la costanera y fanáticos que se matan por Newell's o Central. El Paraná al atardecer, las pizzas a la parrilla y esa cuna de cracks que dio la ciudad no faltan en la conversación. Hay charla tranquila, acento cantadito y mucha referencia al fútbol. La rivalidad leprosa-canalla calienta cualquier conversación, pero siempre termina en abrazo.",
   },
   {
     slug: "mendoza",
@@ -744,7 +744,7 @@ export const CITIES: Place[] = [
     intro:
       "Al pie de la cordillera y entre viñedos, los mendocinos conversan con calma de montaña. Entrá a brindar con un malbec aunque sea virtual.",
     about:
-      "La sala de Mendoza reúne gente de las bodegas de Maipú y Luján de Cuyo, ciclistas del Parque General San Martín y aventureros que salen al Aconcagua o bajan a Potrerillos en kayak. Se habla de la Fiesta de la Vendimia en marzo cuando toda la provincia celebra la uva, de asados largos con malbec de bodega familiar y de escapadas al Valle de Uco con sus viñedos a 1200 metros. El ritmo es más calmo que en Buenos Aires y se nota: nadie tiene apuro, nadie te apremia. Hay debate sobre cuál bodega manda este año y planes para cruzar a Chile por Uspallata.",
+      "La sala de Mendoza reúne gente de las bodegas de Maipú y Luján de Cuyo, ciclistas del Parque General San Martín y aventureros que salen al Aconcagua o bajan a Potrerillos en kayak. La Fiesta de la Vendimia en marzo, cuando toda la provincia celebra la uva, los asados largos con malbec de bodega familiar y las escapadas al Valle de Uco con sus viñedos a 1200 metros son tema de sobra. El ritmo es más calmo que en Buenos Aires y se nota: nadie tiene apuro, nadie te apremia. Hay debate sobre cuál bodega manda este año y planes para cruzar a Chile por Uspallata.",
   },
   {
     slug: "la-plata",
@@ -917,7 +917,7 @@ export const CITIES: Place[] = [
     intro:
       "La cuna del rock chileno y de la garra penquista, donde llueve a baldazos pero igual se sale a carretear por Barrio Universitario sin chistar.",
     about:
-      "El chat de Concepción llega con garra penquista: Universidad de Concepción, escenas de rock chileno que nacieron aquí, y un Barrio Universitario que no para aunque llueva. La gente del Gran Concepción —Chiguayante, San Pedro, Hualqui— entra con su acento del sur y sus bromas sobre el temporal. Se habla del Huachipato y el Campanil, de carretearse sin parar pese al frío y de ese orgullo de ser la segunda ciudad pero la primera en cultura. Penquistas de fierro.",
+      "El chat de Concepción llega con garra penquista: Universidad de Concepción, escenas de rock chileno que nacieron aquí, y un Barrio Universitario que no para aunque llueva. La gente del Gran Concepción —Chiguayante, San Pedro, Hualqui— entra con su acento del sur y sus bromas sobre el temporal. El Huachipato y el Campanil, carretearse sin parar pese al frío y ese orgullo de ser la segunda ciudad pero la primera en cultura llenan la charla. Penquistas de fierro.",
   },
   {
     slug: "vina-del-mar",
@@ -934,7 +934,7 @@ export const CITIES: Place[] = [
     intro:
       "La Ciudad Jardín del reloj de flores y las playas de Reñaca, donde cada febrero el Festival pone a todo Chile pendiente del 'monstruo' de la Quinta Vergara.",
     about:
-      "El chat de Viña del Mar junta a viñamarinos del Plan, Miramar, Reñaca y los cerros. Se habla del Festival de la Canción de febrero, de las playas que llenan en enero con turistas del resto del país, del casino y la vida nocturna junto al mar. Los viñamarinos se definen por contraste con sus vecinos de Valparaíso: más ordenada, más turística, pero con su propia identidad. Entran estudiantes de la UVM y la CFT, trabajadores de temporada y gente del Gran Valparaíso buscando conversación junto al océano Pacífico.",
+      "El chat de Viña del Mar junta a viñamarinos del Plan, Miramar, Reñaca y los cerros. El Festival de la Canción de febrero, las playas que llenan en enero con turistas del resto del país y el casino con su vida nocturna junto al mar copan la conversación. Los viñamarinos se definen por contraste con sus vecinos de Valparaíso: más ordenada, más turística, pero con su propia identidad. Entran estudiantes de la UVM y la CFT, trabajadores de temporada y gente del Gran Valparaíso buscando conversación junto al océano Pacífico.",
   },
   {
     slug: "salto",
@@ -1124,7 +1124,7 @@ export const CITIES: Place[] = [
     intro:
       "El Cristo de la Concordia y la fama de comer mejor que nadie: el cochabambino chatea entre un pique macho y otro, con la cordillera de fondo y sin apuro.",
     about:
-      "Cochabamba presume de tener el mejor clima de Bolivia y la mejor comida del país, y los cochabambinos no dejan pasar ni una sin recordártelo. En el chat entran gente de la Cancha, Sacaba y el barrio del Prado, con ese acento valluno cantado tan reconocible. Se habla del pique macho que se come en el Mercado Calatayud, de los anticuchos de la Coronilla al anochecer, de la Feria de la Concordia y de vivir entre el calor del valle y la sombra del Tunari. Abiertos, bromistas y muy orgullosos de su mesa.",
+      "Cochabamba presume de tener el mejor clima de Bolivia y la mejor comida del país, y los cochabambinos no dejan pasar ni una sin recordártelo. En el chat entran gente de la Cancha, Sacaba y el barrio del Prado, con ese acento valluno cantado tan reconocible. El pique macho que se come en el Mercado Calatayud, los anticuchos de la Coronilla al anochecer, la Feria de la Concordia y vivir entre el calor del valle y la sombra del Tunari son tema constante. Abiertos, bromistas y muy orgullosos de su mesa.",
   },
   {
     slug: "asuncion",
@@ -1142,7 +1142,7 @@ export const CITIES: Place[] = [
     intro:
       "El tereré bajo el calor, la costanera sobre el río Paraguay y el guaraní colándose en cada frase: el asunceno chatea con el jarrito al lado.",
     about:
-      "Asunción es tranquila y calurosa, con su mezcla constante de español y guaraní que hace que todo suene más cercano —el 'na' y el 'ko' aparecen sin avisar. Aquí el tereré no es bebida, es ritual social: se comparte en la plaza, en la oficina y, por supuesto, mientras se chatea. Se habla de la chipa de la abuela, del Olimpia y el Cerro, y de los atardeceres en la Costanera. El paraguayo es cálido, bromista y orgulloso de su idioma propio. Jajatopáta.",
+      "Asunción es tranquila y calurosa, con su mezcla constante de español y guaraní que hace que todo suene más cercano —el 'na' y el 'ko' aparecen sin avisar. Aquí el tereré no es bebida, es ritual social: se comparte en la plaza, en la oficina y, por supuesto, mientras se chatea. La chipa de la abuela, el Olimpia y el Cerro, y los atardeceres en la Costanera protagonizan la charla. El paraguayo es cálido, bromista y orgulloso de su idioma propio. Jajatopáta.",
   },
   {
     slug: "ciudad-del-este",
@@ -1159,7 +1159,7 @@ export const CITIES: Place[] = [
     intro:
       "La triple frontera, el bullicio comercial del microcentro y la represa de Itaipú a un paso: en Ciudad del Este el chat tiene sabor a tres países a la vez.",
     about:
-      "Ciudad del Este es el mercado más caótico y vital del Cono Sur: electrónica, perfumes, telas y de todo lo que se pueda imaginar, en ese microcentro donde el español, el guaraní, el portugués y el chino conviven sin pedir explicaciones. La gente del barrio Santa Ana o de Los Altos entra al chat con la energía de quien vive de la frontera y no le asusta nada. Se habla de cruzar el Puente de la Amistad a Foz, de los precios que siempre son negociables y de la represa de Itaipú como monumento del que cualquier esteño se enorgullece.",
+      "Ciudad del Este es el mercado más caótico y vital del Cono Sur: electrónica, perfumes, telas y de todo lo que se pueda imaginar, en ese microcentro donde el español, el guaraní, el portugués y el chino conviven sin pedir explicaciones. La gente del barrio Santa Ana o de Los Altos entra al chat con la energía de quien vive de la frontera y no le asusta nada. Cruzar el Puente de la Amistad a Foz, los precios que siempre son negociables y la represa de Itaipú como monumento del que cualquier esteño se enorgullece dan tema de sobra.",
   },
   {
     slug: "santo-domingo",
@@ -1194,7 +1194,7 @@ export const CITIES: Place[] = [
     intro:
       "La capital del Cibao, cuna del merengue típico y del mejor tabaco del mundo: en el Monumento se cuadra todo Santiago y aquí también nos cuadramos a conversar.",
     about:
-      "Santiago de los Caballeros es la ciudad que se siente a sí misma como la más dominicana de verdad, sin el cosmopolitismo de la capital. En el chat entran santiagueros de Villa González, Las Colinas y el Ensanche Bermúdez, con un acento cibaeño que convierte la erre en ele y tiene música propia. Se habla del merengue típico que aquí es sagrado, del tabaco de la Vega que sale al mundo desde Santiago, del Licey y las Águilas, y de esa rivalidad cordial y fratricida con Santo Domingo que nunca se resuelve.",
+      "Santiago de los Caballeros es la ciudad que se siente a sí misma como la más dominicana de verdad, sin el cosmopolitismo de la capital. En el chat entran santiagueros de Villa González, Las Colinas y el Ensanche Bermúdez, con un acento cibaeño que convierte la erre en ele y tiene música propia. El merengue típico que aquí es sagrado, el tabaco de la Vega que sale al mundo desde Santiago, el Licey y las Águilas, y esa rivalidad cordial y fratricida con Santo Domingo que nunca se resuelve son la comidilla de siempre.",
   },
   {
     slug: "la-habana",
@@ -1229,7 +1229,7 @@ export const CITIES: Place[] = [
     intro:
       "Tierra caliente del son y la trova, cuna del carnaval más candente de la isla: los santiagueros llegan con el tambor por dentro y el verbo encendido.",
     about:
-      "Santiago de Cuba arde todo el año. La cuna del son cubano y la trova tradicional, con el cuartel Moncada de testigo histórico y el Carnaval de julio que supera en calor y ritmo al de La Habana según los propios santiagueros. El chat de la segunda ciudad de Cuba tiene otro sabor: más caribeño, más africano, más directo. Se habla de la Casa de la Trova de la Heredia, del Cobre que viene desde el santuario de la Virgen, y de ese orgullo oriental que no se deja opacar por la capital.",
+      "Santiago de Cuba arde todo el año. La cuna del son cubano y la trova tradicional, con el cuartel Moncada de testigo histórico y el Carnaval de julio que supera en calor y ritmo al de La Habana según los propios santiagueros. El chat de la segunda ciudad de Cuba tiene otro sabor: más caribeño, más africano, más directo. La Casa de la Trova de la Heredia, el Cobre que viene desde el santuario de la Virgen y ese orgullo oriental que no se deja opacar por la capital son protagonistas de la charla.",
   },
   {
     slug: "san-juan",
@@ -1297,7 +1297,7 @@ export const CITIES: Place[] = [
     intro:
       "Xela para los de confianza: frío de montaña, marimba en el Parque Central y esa calidez quetzalteca que se siente más con un atol caliente en la mano.",
     about:
-      "Quetzaltenango, Xela para quien ya la conoce, es la capital del occidente guatemalteco y la ciudad más andina de Centroamérica: fría, serrana, con un mercado donde se mezclan el español y el k'iche' y con una orgullosa vocación de diferenciarse de la capital. En el chat entran estudiantes del Altiplano y gente de la Zona 1, la Democracia y Santa Fe. Se habla del frío que no perdona después de las seis, del Xelajú MC que tiene historia larga, de la marimba que suena en las fiestas y del atol de elote que calienta la tarde.",
+      "Quetzaltenango, Xela para quien ya la conoce, es la capital del occidente guatemalteco y la ciudad más andina de Centroamérica: fría, serrana, con un mercado donde se mezclan el español y el k'iche' y con una orgullosa vocación de diferenciarse de la capital. En el chat entran estudiantes del Altiplano y gente de la Zona 1, la Democracia y Santa Fe. El frío que no perdona después de las seis, el Xelajú MC que tiene historia larga, la marimba que suena en las fiestas y el atol de elote que calienta la tarde son tema fijo.",
   },
   {
     slug: "san-jose",
@@ -1365,7 +1365,7 @@ export const CITIES: Place[] = [
     intro:
       "Tegus encaramada en sus cerros, con el Cristo del Picacho cuidando la ciudad y las baleadas a la vuelta de cada esquina: los catrachos llegan con buena onda.",
     about:
-      "Tegucigalpa sube y baja por sus cerros sin pedir permiso: la gente del Barrio La Leona, el Hatillo y los cuadros del Centro llega al chat con ese carácter catracho que mezcla buena onda con resiliencia. Se habla de las baleadas del desayuno —con frijoles, crema y queso como manda la tradición—, del Cristo del Picacho que vigila desde lo alto, del Motagua y el Olimpia como si fueran religión, y de echarle ganas a la vida en una ciudad que exige creatividad para todo. Tegucigalpa: complicada, querida y muy propia.",
+      "Tegucigalpa sube y baja por sus cerros sin pedir permiso: la gente del Barrio La Leona, el Hatillo y los cuadros del Centro llega al chat con ese carácter catracho que mezcla buena onda con resiliencia. No falta quien saque las baleadas del desayuno —con frijoles, crema y queso como manda la tradición—, el Cristo del Picacho que vigila desde lo alto, el Motagua y el Olimpia como si fueran religión, y echarle ganas a la vida en una ciudad que exige creatividad para todo. Tegucigalpa: complicada, querida y muy propia.",
   },
   {
     slug: "san-pedro-sula",
@@ -1382,7 +1382,7 @@ export const CITIES: Place[] = [
     intro:
       "La capital industrial del norte, calurosa y trabajadora, con la pasión por el Marathón y el Real España: en la Sula se conversa al ritmo del valle.",
     about:
-      "San Pedro Sula es el motor económico de Honduras y sus habitantes lo saben: aquí se trabaja en las maquilas, el comercio y la agroindustria con una energía que la capital no siempre iguala. La gente de la Rivera Hernández, el Barrio Guamilito y las Colonias del sur entra al chat con calor y sin protocolos. Se habla del Marathón y el Real España como si el clásico del norte fuera lo más importante del universo, de las pupusas y los tacos de canasta, y de aguantar los 35 grados del Valle de Sula con ventilador y buen humor.",
+      "San Pedro Sula es el motor económico de Honduras y sus habitantes lo saben: aquí se trabaja en las maquilas, el comercio y la agroindustria con una energía que la capital no siempre iguala. La gente de la Rivera Hernández, el Barrio Guamilito y las Colonias del sur entra al chat con calor y sin protocolos. El Marathón y el Real España acaparan la charla, como si el clásico del norte fuera lo más importante del universo, junto con las pupusas, los tacos de canasta y la hazaña diaria de aguantar los 35 grados del Valle de Sula con ventilador y buen humor.",
   },
   {
     slug: "managua",
@@ -1417,7 +1417,7 @@ export const CITIES: Place[] = [
     intro:
       "En Miami el español no es segundo idioma: es el que suena en la cola del cafecito de Little Havana y en la radio del carro camino a la playa.",
     about:
-      "El chat de Miami late con acento cubano, pero también venezolano, colombiano y boricua. Aquí se mezclan los viejos exiliados de la Calle Ocho con los recién llegados de Doral y Hialeah, donde el español manda en cada negocio. Se habla de croquetas y pastelitos, del calor que no perdona, de la salsa en Wynwood y de buscar trabajo o pareja sin soltar el idioma de casa. Una sala caribeña a la que nunca le falta tema.",
+      "El chat de Miami late con acento cubano, pero también venezolano, colombiano y boricua. Aquí se mezclan los viejos exiliados de la Calle Ocho con los recién llegados de Doral y Hialeah, donde el español manda en cada negocio. Las croquetas y pastelitos, el calor que no perdona, la salsa en Wynwood y la búsqueda de trabajo o pareja sin soltar el idioma de casa llenan la conversación. Una sala caribeña a la que nunca le falta tema.",
   },
   {
     slug: "nueva-york",
@@ -1469,7 +1469,7 @@ export const CITIES: Place[] = [
     intro:
       "Hay un pequeño Madrid escondido en París: estudiantes Erasmus, españoles emigrados y latinos que se buscan para no perder el idioma entre tanto francés.",
     about:
-      "El chat de París junta a la comunidad hispanohablante que se mueve por la ciudad: españoles que emigraron por trabajo, argentinos y colombianos asentados en Belleville, y la marea de estudiantes que pasan por la Cité Universitaire. Se habla de lo caro que está todo, de los trámites eternos, de dónde encontrar unas tapas decentes y de quedar para hablar en castellano un rato. Una sala con nostalgia y ganas de hacer piña lejos de casa.",
+      "El chat de París junta a la comunidad hispanohablante que se mueve por la ciudad: españoles que emigraron por trabajo, argentinos y colombianos asentados en Belleville, y la marea de estudiantes que pasan por la Cité Universitaire. Lo caro que está todo, los trámites eternos, dónde encontrar unas tapas decentes y las ganas de quedar para hablar en castellano un rato son la comidilla habitual. Una sala con nostalgia y ganas de hacer piña lejos de casa.",
   },
   {
     slug: "berlin",
@@ -1521,7 +1521,7 @@ export const CITIES: Place[] = [
     intro:
       "Charlá con gente de Bariloche y la Patagonia: lagos, cerro Catedral y chocolate. Chat gratis sin registro del sur.",
     about:
-      "El chat de Bariloche reúne a la gente de la Patagonia andina, esa que vive entre lagos, bosques y el reflejo del Nahuel Huapi. Se habla de la temporada de esquí en el cerro Catedral, de las chocolaterías de la calle Mitre, del frío que pela en invierno y de las caminatas por el Circuito Chico cuando afloja. Hay charla de la nieve, del Llao Llao, de la cerveza artesanal del sur y de la vida tranquila lejos del ritmo porteño, con barilochenses de toda la vida, gente que llegó buscando la montaña y quienes sueñan con mudarse compartiendo charla. Una sala con aire fresco de cordillera donde se hacen amistades y planes para recorrer el sur.",
+      "El chat de Bariloche reúne a la gente de la Patagonia andina, esa que vive entre lagos, bosques y el reflejo del Nahuel Huapi. La temporada de esquí en el cerro Catedral, las chocolaterías de la calle Mitre, el frío que pela en invierno y las caminatas por el Circuito Chico cuando afloja llenan la charla. Hay charla de la nieve, del Llao Llao, de la cerveza artesanal del sur y de la vida tranquila lejos del ritmo porteño, con barilochenses de toda la vida, gente que llegó buscando la montaña y quienes sueñan con mudarse compartiendo charla. Una sala con aire fresco de cordillera donde se hacen amistades y planes para recorrer el sur.",
   },
   {
     slug: "chaco-corrientes",

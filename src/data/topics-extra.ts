@@ -585,7 +585,7 @@ const RAW: Place[] = [
     channels: ["olympique-lyon", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "as-monaco", "lille-osc"],
     intro: "Los gones del Groupama Stadium: cantera de oro, los siete títulos seguidos y ganas de volver a Europa. Elige nick y entra al #olympique-lyon.",
-    about: "El rincón de los aficionados del OL, los que crecieron viendo encadenar siete Ligues consecutivas a principios de siglo y todavía sueñan con repetir aquella hegemonía. Aquí se presume de cantera —la mejor fábrica de talento de Francia, de Benzema a Lacazette— y se analiza partido a partido si el club logra reengancharse a la pelea por Europa desde el Groupama Stadium. Se habla del derbi rhônalpin, de los altibajos deportivos y económicos y de esa identidad de equipo formador que define al club, donde se cruzan el veterano nostálgico de los títulos y el joven que confía en la nueva hornada. Coge tu nick y suma tu voz.",
+    about: "El rincón de los aficionados del OL, los que crecieron viendo encadenar siete Ligues consecutivas a principios de siglo y todavía sueñan con repetir aquella hegemonía. Aquí se presume de cantera —la mejor fábrica de talento de Francia, de Benzema a Lacazette— y se analiza partido a partido si el club logra reengancharse a la pelea por Europa desde el Groupama Stadium. El derbi rhônalpin, los altibajos deportivos y económicos y esa identidad de equipo formador que define al club no faltan en la charla, donde se cruzan el veterano nostálgico de los títulos y el joven que confía en la nueva hornada. Coge tu nick y suma tu voz.",
   },
   {
     slug: "as-monaco", name: "AS Mónaco", kind: "tematica", icon: "🔴",
@@ -745,7 +745,7 @@ const RAW: Place[] = [
     channels: ["la-galaxy", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "lafc", "inter-miami"],
     intro: "El club más laureado de la MLS no se anda con rodeos: la herencia de Beckham y Donovan, y el derbi eterno contra LAFC. Sin registro.",
-    about: "El LA Galaxy es historia viva de la MLS: cinco MLS Cup, la llegada de David Beckham que cambió la liga para siempre y leyendas como Landon Donovan o Robbie Keane que marcaron una época. Aquí se recuerda aquel proyecto galáctico y se debate el presente, con un equipo que busca recuperar el sitio que merece su escudo. Se habla del Dignity Health Sports Park, de la cantera, de los fichajes y de cómo plantar cara al rival joven de la ciudad, con aficionados veteranos que vivieron los títulos y nuevas generaciones que se enganchan al derbi angelino compartiendo charla. Reivindicar aquí al club más ganador del fútbol estadounidense y soñar con volver a lo más alto es casi un ritual.",
+    about: "El LA Galaxy es historia viva de la MLS: cinco MLS Cup, la llegada de David Beckham que cambió la liga para siempre y leyendas como Landon Donovan o Robbie Keane que marcaron una época. Aquí se recuerda aquel proyecto galáctico y se debate el presente, con un equipo que busca recuperar el sitio que merece su escudo. El Dignity Health Sports Park, la cantera, los fichajes y cómo plantar cara al rival joven de la ciudad centran la conversación, con aficionados veteranos que vivieron los títulos y nuevas generaciones que se enganchan al derbi angelino compartiendo charla. Reivindicar aquí al club más ganador del fútbol estadounidense y soñar con volver a lo más alto es casi un ritual.",
   },
   {
     slug: "lafc", name: "Los Angeles FC", kind: "tematica", icon: "⚫",
@@ -769,7 +769,7 @@ const RAW: Place[] = [
     channels: ["seattle-sounders", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
     related: ["futbol", "deportes", "atlanta-united", "la-galaxy"],
     intro: "Dos MLS Cup y el primer título Concacaf de un equipo de la liga: la fiebre verde del Lumen Field tiene su sala. Entra ya.",
-    about: "El Seattle Sounders es sinónimo de afición entregada: el Lumen Field se tiñe de verde rave con miles de hinchas que cantan de principio a fin y convierten cada partido en una fiesta. Aquí se celebra un palmarés de envidia con dos MLS Cup y el histórico título de la Concacaf Champions League en 2022, el primero para un club de la liga. Se habla de Raúl Ruidíaz, de la solidez del proyecto, de la rivalidad con Portland en el Cascadia y de cómo el club ha sido modelo de gestión y constancia. ¿Quién anda por aquí? Aficionados del noroeste fieles desde el primer día y seguidores latinos enganchados al equipo esmeralda, todos viviendo la pasión verde y presumiendo de uno de los clubes más ganadores de la MLS.",
+    about: "El Seattle Sounders es sinónimo de afición entregada: el Lumen Field se tiñe de verde rave con miles de hinchas que cantan de principio a fin y convierten cada partido en una fiesta. Aquí se celebra un palmarés de envidia con dos MLS Cup y el histórico título de la Concacaf Champions League en 2022, el primero para un club de la liga. Raúl Ruidíaz, la solidez del proyecto, la rivalidad con Portland en el Cascadia y cómo el club ha sido modelo de gestión y constancia son tema fijo de conversación. ¿Quién anda por aquí? Aficionados del noroeste fieles desde el primer día y seguidores latinos enganchados al equipo esmeralda, todos viviendo la pasión verde y presumiendo de uno de los clubes más ganadores de la MLS.",
   },
 
   // ──────────── Saudi Pro League · top 5 ────────────
@@ -1032,7 +1032,7 @@ const RAW: Place[] = [
     intro:
       "Chat gay de Madrid: el ambiente LGTBI de la capital en una sala. Planes en Chueca, locales, quedadas y gente de Madrid con ganas de conocerse.",
     about:
-      "Punto de encuentro para chicos gais de Madrid y alrededores que quieren quedar, hacer amigos o ligar cerca de casa. Se habla de Chueca, terrazas, fiestas, gimnasios y los mejores planes de la capital, además de coordinar quedadas reales entre semana y fin de semana entre veinteañeros, treintañeros y gente más madura, todos con ganas de conocer a alguien de su zona. Un chat local, vivo y cercano donde Madrid se siente mucho más pequeño y acogedor.",
+      "Punto de encuentro para chicos gais de Madrid y alrededores que quieren quedar, hacer amigos o ligar cerca de casa. Chueca, terrazas, fiestas, gimnasios y los mejores planes de la capital protagonizan la charla, además de coordinar quedadas reales entre semana y fin de semana entre veinteañeros, treintañeros y gente más madura, todos con ganas de conocer a alguien de su zona. Un chat local, vivo y cercano donde Madrid se siente mucho más pequeño y acogedor.",
   },
   {
     slug: "gay-barcelona",
@@ -1066,7 +1066,7 @@ const RAW: Place[] = [
     intro:
       "Chat latino gratis: música, acentos y gente de México, Colombia, Argentina, Perú y todo el continente en una sola sala. El sabor latino sin fronteras.",
     about:
-      "El clásico chat latino donde se juntan personas de México, Colombia, Argentina, Perú, Venezuela y todo el continente, además de quienes viven fuera y echan de menos su tierra. Se habla de música, fútbol, comida, novelas y, sobre todo, se hacen amistades que cruzan fronteras. Hay flirteo, risas y largas charlas nocturnas con acentos de aquí y de allá. Un ambiente alegre y abierto, ideal para reconectar con tu cultura y conocer gente cálida de habla hispana.",
+      "El clásico chat latino donde se juntan personas de México, Colombia, Argentina, Perú, Venezuela y todo el continente, además de quienes viven fuera y echan de menos su tierra. La música, el fútbol, la comida y las novelas de cada país abren charla, pero sobre todo se hacen amistades que cruzan fronteras. Hay flirteo, risas y largas charlas nocturnas con acentos de aquí y de allá. Un ambiente alegre y abierto, ideal para reconectar con tu cultura y conocer gente cálida de habla hispana.",
   },
   {
     slug: "latinas",
@@ -1112,7 +1112,7 @@ const RAW: Place[] = [
     intro:
       "Chat hispano gratis: el español como casa común para gente hispana de ambos lados del Atlántico, tanto en España como en Estados Unidos y Latinoamérica.",
     about:
-      "Chat que une a la comunidad hispana de todo el mundo, especialmente a quienes viven en Estados Unidos, España y Latinoamérica y comparten el idioma como hogar. Se habla de la vida lejos del país de origen, oportunidades, cultura, música y los pequeños detalles que nos identifican como hispanohablantes. Es un lugar para hacer amistades, sentirse acompañado y mantener vivas las raíces estés donde estés. Ambiente cercano, plural y respetuoso, donde el español nos junta por encima de cualquier frontera.",
+      "Chat que une a la comunidad hispana de todo el mundo, especialmente a quienes viven en Estados Unidos, España y Latinoamérica y comparten el idioma como hogar. La vida lejos del país de origen, las oportunidades, la cultura, la música y esos pequeños detalles que nos identifican como hispanohablantes no faltan en la conversación. Es un lugar para hacer amistades, sentirse acompañado y mantener vivas las raíces estés donde estés. Ambiente cercano, plural y respetuoso, donde el español nos junta por encima de cualquier frontera.",
   },
 ];
 
