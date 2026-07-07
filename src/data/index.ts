@@ -6,11 +6,19 @@ import { TOPICS_EXTRA } from "./topics-extra";
 import { TOPICS_EDAD } from "./topics-edad";
 import { TOPICS_LEGACY } from "./topics-legacy";
 import { TOPICS_INTERESES } from "./topics-intereses";
+import { TOPICS_REGIONES } from "./topics-regiones";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 
 const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
-const ALL_TOPICS: Place[] = [...TOPICS, ...TOPICS_EXTRA, ...TOPICS_EDAD, ...TOPICS_LEGACY, ...TOPICS_INTERESES];
+const ALL_TOPICS: Place[] = [
+  ...TOPICS,
+  ...TOPICS_EXTRA,
+  ...TOPICS_EDAD,
+  ...TOPICS_LEGACY,
+  ...TOPICS_INTERESES,
+  ...TOPICS_REGIONES,
+];
 const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 
 // Índice por slug: getPlace se llama una vez por sala al prerenderizar 460+
