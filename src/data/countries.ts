@@ -242,7 +242,7 @@ export const COUNTRIES: Place[] = [
     votes: 510,
     activity: "Media",
     channels: ["costa-rica", "internacional", "amistad", "chatzona"],
-    related: ["san-jose-costa-rica", "panama", "nicaragua", "amistad", "viajes", "amor"],
+    related: ["san-jose", "panama", "nicaragua", "amistad", "viajes", "amor"],
     intro:
       "Pura vida no es un eslogan: es cómo saludan y resuelven media vida los ticos. Sin ejército desde el 48, con perezosos en los árboles y la calma en el ADN.",
     about:

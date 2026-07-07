@@ -24,24 +24,6 @@ export const CITIES_WORLD: Place[] = [
       "Más allá de los all inclusive y las pulseras de plástico, Cancún tiene su lado real: las Regiones numeradas donde vive la gente que trabaja en hoteles y restaurants, los cenotes de la Riviera Maya a media hora, la combi al centro y el mercado 28. Aquí se junta gente venida de Chiapas, Tabasco, Yucatán y toda la república, así que se oye desde el maya hasta el uay yucateco. Los turnos en la Zona Hotelera son tema diario, igual que el calor húmedo que aprieta de junio a octubre y las ganas de escaparse a Holbox o Bacalar cuando hay chance. Sala con mucho flujo y energía de recién llegados.",
   },
   {
-    slug: "san-jose-costa-rica",
-    name: "San José",
-    kind: "ciudad",
-    icon: "🌴",
-    users: 210,
-    votes: 340,
-    activity: "Media",
-    parentName: "Costa Rica",
-    parentSlug: "costa-rica",
-    channels: ["san-jose-costa-rica", "costa-rica", "amistad", "chatzona"],
-    related: ["ciudad-de-panama", "managua", "costa-rica", "panama", "viajes", "amistad", "amor"],
-    intro:
-      "El chat de San José reúne a ticos del área metropolitana: del centro chepe a Escazú y Heredia, para charlar y conocer gente.",
-    about:
-      "Los josefinos le dicen Chepe a su ciudad y se mueven entre el Mercado Central con sus tiendas de todo, el Teatro Nacional neoclásico y las presas eternas de la General Cañas para llegar a Escazú o Heredia. Se habla del gallo pinto del desayuno con Lizano, del cafecito a las tres de la tarde, de irse al Pacífico o al Caribe el finde y del pura vida que sirve para todo. Gente pacífica, muy educada, con su mae en cada frase, y esa calma tica que no entiende las prisas. Sala tranquila, sin drama y fiel a su carácter.",
-  },
-
-  {
     slug: "mar-del-plata",
     name: "Mar del Plata",
     kind: "ciudad",
@@ -58,24 +40,6 @@ export const CITIES_WORLD: Place[] = [
     about:
       "El chat de Mar del Plata mezcla a los marplatenses de toda la vida —que no aguantan a los turistas de enero— con los porteños que bajan a la Bristol y a la rambla del Casino. Los churros con dulce de leche no faltan como tema, tampoco los lobos marinos del Puerto tomando sol en los muelles, pescar en la escollera norte con frío y bancarse el viento que nunca para. Sale también el Aldosivi, los alfajores Havanna como souvenir obligado y ese frío seco de julio cuando La Feliz se queda vacía y vuelve a ser de los locales que la prefieren así.",
   },
-  {
-    slug: "santa-cruz-bolivia",
-    name: "Santa Cruz de la Sierra",
-    kind: "ciudad",
-    icon: "🎉",
-    users: 240,
-    votes: 435,
-    activity: "Media",
-    parentName: "Bolivia",
-    parentSlug: "bolivia",
-    channels: ["santa-cruz-bolivia", "bolivia", "amistad", "chatzona"],
-    related: ["la-paz", "asuncion", "bolivia", "paraguay", "amistad", "musica", "amor"],
-    intro:
-      "El motor económico de Bolivia, el calor del oriente y los anillos que organizan la ciudad. Los cambas son alegres, abiertos y muy fiesteros.",
-    about:
-      "El chat de Santa Cruz de la Sierra tiene sabor camba: gente del centro, de los anillos y de Equipetrol, con ese acento cantadito del oriente boliviano. El majadito, el cuñapé, la sonso y el zonzo protagonizan la charla junto con la feria de septiembre y el calor tropical que invita a la cerveza bien fría. Ambiente festivo, hablar relajado y un carácter abierto que contrasta con el del altiplano. Tierra de la chicha y el carnaval cruceño.",
-  },
-
   {
     slug: "albacete",
     name: "Albacete",
