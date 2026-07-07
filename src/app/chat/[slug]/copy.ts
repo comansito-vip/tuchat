@@ -6,7 +6,7 @@ export function buildRoomCrumbs(place: Place): Crumb[] {
   const crumbs: Crumb[] = [{ name: "Inicio", url: "/" }];
   if (place.parentName && place.parentSlug) {
     // Tanto países como temáticas padre viven bajo /chat/{slug} (los antiguos
-    // /pais/* se consolidaron en /chat/* con 301).
+    // /pais/* se consolidaron en /chat/* con 308).
     crumbs.push({ name: place.parentName, url: `/chat/${place.parentSlug}` });
   }
   crumbs.push({ name: place.name, url: `/chat/${place.slug}` });

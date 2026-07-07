@@ -44,6 +44,12 @@ const ROOM_TITLES: Record<string, string> = {
   encuentros: "Chat de encuentros gratis sin registro",
 };
 
+// Salas heredadas ya se llaman "Chat Terra", "Chat estilo Badoo"...: anteponer
+// "Chat" de nuevo duplicaría el prefijo ("Chat Chat Terra gratis").
+function withChatPrefix(name: string): string {
+  return /^chat\b/i.test(name) ? `${name} gratis` : `Chat ${name} gratis`;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -53,7 +59,7 @@ export async function generateMetadata({
   const place = await getMergedPlace(slug);
   if (!place) return {};
   return {
-    title: ROOM_TITLES[slug] ?? `Chat ${place.name} gratis`,
+    title: ROOM_TITLES[slug] ?? withChatPrefix(place.name),
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
     openGraph: { ...OG_BASE, url: `/chat/${place.slug}` },
@@ -86,7 +92,12 @@ export default async function ChatRoomPage({
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
-      <JsonLd data={collectionJsonLd(`Chat de ${place.name}`, `/chat/${place.slug}`)} />
+      <JsonLd
+        data={collectionJsonLd(
+          /^chat\b/i.test(place.name) ? place.name : `Chat de ${place.name}`,
+          `/chat/${place.slug}`,
+        )}
+      />
       <JsonLd data={faqJsonLd(faq)} />
       {children.length > 0 && (
         <JsonLd data={itemListJsonLd(children.map((c) => ({ url: `/chat/${c.slug}`, name: `Chat ${c.name}` })))} />

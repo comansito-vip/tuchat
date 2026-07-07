@@ -5,7 +5,7 @@ import { ScaffoldPage } from "@/components/layout/ScaffoldPage";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { slugify, cap } from "@/lib/slug";
-import { breadcrumbJsonLd, collectionJsonLd, articleListJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
+import { collectionJsonLd, articleListJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 const CATEGORY_NAME: Record<string, string> = {
   ia: "IA",
@@ -139,7 +139,6 @@ export default async function CategoriaPage({
       intro={`Todas las noticias de ${nombre} en español. Aquí encontrarás los artículos más recientes seleccionados por la comunidad de TuChat.`}
       placeholder={false}
     >
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <JsonLd data={collectionJsonLd(`Noticias de ${nombre}`, `/noticias/${categoria}`)} />
       <JsonLd data={faqJsonLd(faq)} />
       {matched.length > 0 && <JsonLd data={articleListJsonLd(matched)} />}

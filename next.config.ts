@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
     ],
   },
   // /pais/{slug} era contenido casi idéntico a /chat/{slug} (mismo H1, FAQ,
-  // ciudades y servicios). Se consolida toda la señal SEO en /chat con un 301
+  // ciudades y servicios). Se consolida toda la señal SEO en /chat con un 308
   // permanente para eliminar la duplicación a escala.
   async redirects() {
     return [

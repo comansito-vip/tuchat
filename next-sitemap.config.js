@@ -31,11 +31,6 @@ function transformEntry(config, path) {
     return { ...base, changefreq: "weekly", priority: 0.8 };
   }
 
-  // Country hubs
-  if (path.startsWith("/pais/")) {
-    return { ...base, changefreq: "weekly", priority: 0.7 };
-  }
-
   // Weather + lotteries (service pages)
   if (path.startsWith("/tiempo/") || path.startsWith("/loterias/")) {
     return { ...base, changefreq: "weekly", priority: 0.5 };
@@ -68,8 +63,7 @@ function transformEntry(config, path) {
 module.exports = {
   siteUrl: "https://tuchat.org",
   generateRobotsTxt: true,
-  // /pais/* se canonicaliza a /chat/* → fuera del sitemap para no enviar duplicados.
-  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image", "/pais/*"],
+  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image"],
   robotsTxtOptions: {
     // /webchat NO se bloquea: necesita ser rastreable para que su meta noindex
     // surta efecto (Google no lee el noindex de una URL bloqueada por robots).
