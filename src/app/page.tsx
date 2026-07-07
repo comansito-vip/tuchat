@@ -39,7 +39,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 500 salas: por países (España, México, Argentina y 29 países en total), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de 115 ciudades), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
+    a: "TuChat tiene más de 650 salas: por países (España, México, Argentina y 29 países en total), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de 270 ciudades), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
   },
   {
     q: "¿Es seguro chatear en TuChat?",
