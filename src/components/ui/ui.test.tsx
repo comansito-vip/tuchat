@@ -3,10 +3,12 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { Button } from "./Button";
 import { Badge } from "./Badge";
 import { NickInput } from "./NickInput";
+import { EnterButton } from "./EnterButton";
 import { Flag, emojiToCountryCode } from "./Flag";
 import { Card } from "./Card";
 import { SectionTitle } from "./SectionTitle";
 import { SearchInput } from "./SearchInput";
+import { saveNick } from "@/lib/nick-storage";
 
 const mockPush = vi.fn();
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: mockPush }) }));
@@ -80,6 +82,36 @@ describe("ui primitives", () => {
     fireEvent.change(screen.getByRole("textbox"), { target: { value: "MiNick" } });
     fireEvent.keyDown(screen.getByRole("textbox"), { key: "Enter" });
     expect(mockPush).toHaveBeenCalledWith("/webchat?canal=amor&nick=MiNick");
+  });
+});
+
+describe("EnterButton", () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
+  it("links to /webchat without a nick param when none is saved", () => {
+    render(<EnterButton canal="madrid">Entrar</EnterButton>);
+    expect(screen.getByRole("link", { name: "Entrar" })).toHaveAttribute(
+      "href",
+      "/webchat?canal=madrid",
+    );
+  });
+  it("appends the nick saved from any NickInput on the page", () => {
+    saveNick("Pepito");
+    render(<EnterButton canal="madrid">Entrar</EnterButton>);
+    expect(screen.getByRole("link", { name: "Entrar" })).toHaveAttribute(
+      "href",
+      "/webchat?canal=madrid&nick=Pepito",
+    );
+  });
+  it("ignores a saved nick that is only whitespace", () => {
+    saveNick("   ");
+    render(<EnterButton canal="madrid">Entrar</EnterButton>);
+    expect(screen.getByRole("link", { name: "Entrar" })).toHaveAttribute(
+      "href",
+      "/webchat?canal=madrid",
+    );
   });
 });
 

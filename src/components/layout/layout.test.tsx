@@ -1,6 +1,7 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { Header } from "./Header";
+import { HeaderCTA } from "./HeaderCTA";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { Footer } from "./Footer";
 import { ScaffoldPage } from "./ScaffoldPage";
@@ -8,6 +9,7 @@ import { MobileBottomNav } from "./MobileBottomNav";
 import { MobileMenu } from "./MobileMenu";
 import { NavLinks } from "./NavLinks";
 import { JsonLd } from "@/lib/seo";
+import { saveNick } from "@/lib/nick-storage";
 
 const mockPathname = vi.fn(() => "/");
 vi.mock("next/navigation", () => ({
@@ -16,6 +18,11 @@ vi.mock("next/navigation", () => ({
 }));
 
 describe("layout", () => {
+  beforeEach(() => {
+    localStorage.clear();
+    mockPathname.mockReturnValue("/");
+  });
+
   it("header shows the brand and the Entrar CTA", () => {
     render(<Header />);
     expect(screen.getByText("Entrar al chat")).toBeInTheDocument();
@@ -105,6 +112,46 @@ describe("layout", () => {
     const closeButtons = screen.getAllByRole("button", { name: /Cerrar menú/i });
     fireEvent.click(closeButtons[closeButtons.length - 1]); // inner close button
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
+});
+
+describe("HeaderCTA", () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
+  it("enters the room slug from a /chat/{slug} page", () => {
+    mockPathname.mockReturnValue("/chat/madrid");
+    render(<HeaderCTA />);
+    expect(screen.getByRole("link", { name: /Entrar al chat/i })).toHaveAttribute(
+      "href",
+      "/webchat?canal=madrid",
+    );
+  });
+  it("enters the section's own room on a vertical page (e.g. /anime)", () => {
+    mockPathname.mockReturnValue("/anime");
+    render(<HeaderCTA />);
+    expect(screen.getByRole("link", { name: /Entrar al chat/i })).toHaveAttribute(
+      "href",
+      "/webchat?canal=anime",
+    );
+  });
+  it("falls back to espana on pages with no associated room (e.g. home)", () => {
+    mockPathname.mockReturnValue("/");
+    render(<HeaderCTA />);
+    expect(screen.getByRole("link", { name: /Entrar al chat/i })).toHaveAttribute(
+      "href",
+      "/webchat?canal=espana",
+    );
+  });
+  it("carries the saved nick regardless of the current page", () => {
+    saveNick("Marta");
+    mockPathname.mockReturnValue("/chat/barcelona");
+    render(<HeaderCTA />);
+    expect(screen.getByRole("link", { name: /Entrar al chat/i })).toHaveAttribute(
+      "href",
+      "/webchat?canal=barcelona&nick=Marta",
+    );
   });
 });
 
