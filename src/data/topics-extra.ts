@@ -1034,23 +1034,6 @@ const RAW: Place[] = [
     about:
       "Punto de encuentro para chicos gais de Madrid y alrededores que quieren quedar, hacer amigos o ligar cerca de casa. Chueca, terrazas, fiestas, gimnasios y los mejores planes de la capital protagonizan la charla, además de coordinar quedadas reales entre semana y fin de semana entre veinteañeros, treintañeros y gente más madura, todos con ganas de conocer a alguien de su zona. Un chat local, vivo y cercano donde Madrid se siente mucho más pequeño y acogedor.",
   },
-  {
-    slug: "gay-barcelona",
-    name: "Gay Barcelona",
-    kind: "tematica",
-    icon: "🌊",
-    users: 211,
-    votes: 339,
-    tag: "Tendencia",
-    activity: "Alta",
-    channels: ["gay", "barcelona", "lgtbi", "chatzona"],
-    related: ["gay", "lgtbi", "chueca", "barcelona", "amistad", "ligar"],
-    intro:
-      "Chat gay de Barcelona: ambiente LGTBI en el Gaixample, la playa y el Eixample. Conoce gente gay de Barcelona, coordina planes y chatea sin registro.",
-    about:
-      "Sala para la comunidad gay de Barcelona y su área metropolitana. Aquí se comparten planes por el Eixample, tardes de playa en la Barceloneta, fiestas, conciertos y rincones con encanto para una primera cita. Entran chicos de la ciudad y visitantes que buscan amistad, compañía o ligar mientras descubren el ambiente catalán. El tono es abierto, mediterráneo y relajado, perfecto para coordinar quedadas reales o simplemente charlar con alguien que conoce y vive Barcelona.",
-  },
-
   // ──────────────────── LatinChat ────────────────────
   {
     slug: "latinos",
@@ -1156,7 +1139,6 @@ const PARENT: Record<string, { slug: string; name: string }> = {
   bisexuales: { slug: "lgtbi", name: "LGTBI" },
   trans: { slug: "lgtbi", name: "LGTBI" },
   "gay-madrid": { slug: "lgtbi", name: "LGTBI" },
-  "gay-barcelona": { slug: "lgtbi", name: "LGTBI" },
   // LatinChat → hijos de Latinos (latinos queda como vertical raíz)
   latinas: { slug: "latinos", name: "Latinos" },
   latinoamerica: { slug: "latinos", name: "Latinos" },

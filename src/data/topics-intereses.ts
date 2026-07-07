@@ -1268,7 +1268,7 @@ export const TOPICS_INTERESES: Place[] = [
 
   // ───────────────────────── Mayores ─────────────────────────
   {
-    slug: "mayores40", name: "Mayores de 40", kind: "tematica", icon: "🎂",
+    slug: "mayores40", name: "Charla +40", kind: "tematica", icon: "🎂",
     users: 255, votes: 460, tag: "Popular", activity: "Alta",
     parentSlug: "mas-de-40", parentName: "Más de 40",
     channels: ["mas_de_40", "mas_de_50"],
@@ -1304,7 +1304,7 @@ export const TOPICS_INTERESES: Place[] = [
     about: "A los cuarenta se liga con la confianza que dan los años, y aquí se nota. El tonteo es entre gente madura que sabe lo que quiere y no tiene tiempo que perder en jueguecitos. Se coquetea con descaro y experiencia, se proponen citas y se busca esa química que a cualquier edad sigue dando mariposas. Se habla sin tapujos de lo que cada uno busca, sea algo informal o el principio de una relación. Se juntan solteros, divorciados y gente que ha vuelto al mercado con más seguridad que a los veinte, en un ambiente desenfadado pero adulto, lejos de las prisas y las modas de la gente joven. Flirtea sin complejos: a los cuarenta se liga mejor que nunca.",
   },
   {
-    slug: "mayores50", name: "Mayores de 50", kind: "tematica", icon: "🎉",
+    slug: "mayores50", name: "Charla +50", kind: "tematica", icon: "🎉",
     users: 220, votes: 395, tag: "Popular", activity: "Alta",
     parentSlug: "mas-de-50", parentName: "Más de 50",
     channels: ["mas_de_50", "mas_de_40"],
