@@ -37,6 +37,11 @@ const KIND_LABEL: Record<Place["kind"], string> = {
   tematica: "Sala temática",
 };
 
+// Fallback CJK explícito: sin él, los sistemas sin fuente japonesa por defecto
+// (Linux sin paquetes CJK, algunos navegadores) muestran "tofu" (glifos vacíos).
+const CJK_FONT_STACK =
+  '"Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif';
+
 export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
   // Las salas de series de anime heredan la identidad cromática de su póster.
   const anime = getAnimeBySlug(place.slug);
@@ -58,24 +63,26 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
         /* Título japonés como gran marca de agua del póster */
         <span
           className="pointer-events-none absolute -right-2 top-1/2 -translate-y-1/2 select-none text-[5rem] font-extrabold leading-none tracking-tighter opacity-15 sm:text-[8rem]"
-          style={{ writingMode: "vertical-rl", fontFamily: "serif" }}
+          style={{ writingMode: "vertical-rl", fontFamily: CJK_FONT_STACK }}
           aria-hidden="true"
         >
           {anime.jp}
         </span>
       ) : (
         <div
-          className="pointer-events-none absolute right-3 top-3 text-[7rem] leading-none opacity-15 select-none sm:text-[10rem]"
+          className="pointer-events-none absolute right-3 top-3 opacity-15 select-none"
           aria-hidden="true"
         >
-          {place.icon}
+          {/* Misma representación que el icono pequeño de abajo (Flag): evita
+              mostrar dos estilos gráficos distintos de la misma bandera. */}
+          <Flag emoji={place.icon} size={130} />
         </div>
       )}
 
       <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
         {/* Icono grande */}
         <div className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/15 backdrop-blur-sm sm:h-20 sm:w-20">
-          <Flag emoji={place.icon} name={place.name} size={44} className="sm:!w-[56px]" />
+          <Flag emoji={place.icon} name={place.name} size={56} priority />
         </div>
 
         <div className="min-w-0">

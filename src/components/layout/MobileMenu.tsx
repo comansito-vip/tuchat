@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { MenuIcon, CloseIcon } from "@/components/ui/icons";
 
 const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = [
   {
@@ -101,9 +102,7 @@ export function MobileMenu() {
         aria-expanded={open}
         onClick={() => setOpen(true)}
       >
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-        </svg>
+        <MenuIcon size={20} />
       </button>
 
       {open && (
@@ -125,9 +124,7 @@ export function MobileMenu() {
                 className="grid h-11 w-11 place-items-center -mr-2 text-muted hover:text-ink"
                 onClick={() => setOpen(false)}
               >
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                  <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-                </svg>
+                <CloseIcon size={20} />
               </button>
             </div>
             {GROUPS.map((g) => (

@@ -1,20 +1,18 @@
 import Link from "next/link";
+import { clsx } from "clsx";
 import { getRooms, getRanking } from "@/data";
 import { LiveDot, TrophyIcon, WeatherIcon, StarIcon, ChevronIcon } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
+import { Card } from "@/components/ui/Card";
 
 function Widget({
   children,
-  className = "",
+  className,
 }: {
   children: React.ReactNode;
   className?: string;
 }) {
-  return (
-    <div className={`rounded-2xl border border-line bg-card p-4 shadow-card ${className}`}>
-      {children}
-    </div>
-  );
+  return <Card className={clsx("p-4", className)}>{children}</Card>;
 }
 
 function WidgetLabel({ children }: { children: React.ReactNode }) {
@@ -63,7 +61,7 @@ export function Sidebar() {
                 <span className="w-4 shrink-0 text-center text-xs font-bold text-muted">
                   {i + 1}
                 </span>
-                <Flag emoji={room.icon} name={room.name} size={18} />
+                <Flag emoji={room.icon} size={18} />
                 <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">
                   {room.name}
                 </span>

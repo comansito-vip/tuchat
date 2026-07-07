@@ -68,7 +68,9 @@ const COLUMNS = [
 
 export function Footer() {
   return (
-    <footer className="bg-card border-t border-line mt-12">
+    // pb extra + safe-area: la nav inferior fija en móvil (MobileBottomNav)
+    // taparía si no, las últimas filas de enlaces y el copyright.
+    <footer className="bg-card border-t border-line mt-12 pb-[calc(4rem+env(safe-area-inset-bottom))] lg:pb-0">
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
           {COLUMNS.map((col) => (

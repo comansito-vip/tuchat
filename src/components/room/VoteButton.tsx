@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { StarIcon } from "@/components/ui/icons";
 
 const STORAGE_KEY = "tuchat_votes";
 
@@ -89,7 +90,7 @@ export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
           : "border-line bg-card text-blue-dark hover:border-blue")
       }
     >
-      <span aria-hidden="true">{voted ? "★" : "☆"}</span>
+      <StarIcon size={14} className={voted ? "opacity-100" : "opacity-40"} />
       <span className="tabular-nums">{count.toLocaleString("es-ES")}</span>
       <span className="sr-only">votos</span>
     </button>

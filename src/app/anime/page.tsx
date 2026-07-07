@@ -41,6 +41,11 @@ const FAQ = [
   },
 ];
 
+// Fallback CJK explícito: sin él, los sistemas sin fuente japonesa por defecto
+// (Linux sin paquetes CJK, algunos navegadores) muestran "tofu" (glifos vacíos).
+const CJK_FONT_STACK =
+  '"Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif';
+
 function AnimeSeriesCard({ serie }: { serie: (typeof ANIME_SERIES)[number] }) {
   const inner = (
     <article className="group flex min-h-32 overflow-hidden rounded-xl border border-line bg-card transition-colors hover:border-blue">
@@ -52,7 +57,7 @@ function AnimeSeriesCard({ serie }: { serie: (typeof ANIME_SERIES)[number] }) {
         {/* Título japonés vertical: firma gráfica del póster */}
         <span
           className="pointer-events-none absolute -right-1 -top-1 select-none text-5xl font-extrabold leading-none tracking-tighter text-white/20"
-          style={{ writingMode: "vertical-rl", fontFamily: "serif" }}
+          style={{ writingMode: "vertical-rl", fontFamily: CJK_FONT_STACK }}
           aria-hidden="true"
         >
           {serie.jp}
@@ -100,7 +105,7 @@ export default function AnimePage() {
         <span
           className="pointer-events-none absolute right-8 top-1/2 hidden -translate-y-1/2 select-none text-[7rem] font-bold leading-none tracking-widest opacity-10 sm:block"
           aria-hidden="true"
-          style={{ fontFamily: "serif" }}
+          style={{ fontFamily: CJK_FONT_STACK }}
         >
           アニメ
         </span>

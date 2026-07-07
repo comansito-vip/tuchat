@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Flag } from "@/components/ui/Flag";
 import { getRelated } from "@/data";
 
 export function RelatedRooms({ slugs }: { slugs: string[] }) {
@@ -10,9 +11,9 @@ export function RelatedRooms({ slugs }: { slugs: string[] }) {
         <Link
           key={place.slug}
           href={`/chat/${place.slug}`}
-          className="rounded-full border border-line bg-card px-3 py-1.5 text-sm text-blue-dark hover:border-blue"
+          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-card px-3 py-1.5 text-sm text-blue-dark hover:border-blue"
         >
-          {place.icon} {place.name}
+          <Flag emoji={place.icon} size={16} /> {place.name}
         </Link>
       ))}
     </div>
