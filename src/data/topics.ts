@@ -371,7 +371,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["erotico", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "chatzona"],
-    related: ["adultos", "infieles", "encuentros", "erotico", "ligar", "lesbianas"],
+    related: ["adultos", "infieles", "encuentros", "amor", "ligar", "lesbianas"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
     about:
