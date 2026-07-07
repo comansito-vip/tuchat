@@ -1406,4 +1406,147 @@ export const CITIES_WORLD: Place[] = [
       "Lisboa se llenó de españoles y latinoamericanos que escaparon del costo de vida de Madrid y Barcelona, y hoy en barrios como Anjos o Arroios se escucha tanto español como portugués en la cola del café. El tranvía 28 sigue subiendo por Alfama entre azulejos descascarados y ropa tendida de balcón a balcón, mientras en las tabernas del barrio suena un fado que hace callar hasta al turista más distraído. La comunidad brasileña, ya histórica en la ciudad, se mezcla con la ola reciente de nómades españoles que trabajan remoto desde algún café de Príncipe Real y comparan precios de alquiler con los de casa, casi siempre ganando la comparación. Se come bacalao de mil maneras y algún pastel de Belém de paso, se discute si el português de Lisboa se entiende o no, y entre semana circula la lista de trámites para sacar el NIF y quedarse a vivir en serio.",
   },
 
+
+  // ── Tercera expansión: últimos huecos delgados (8 ciudades) ──
+  {
+    slug: "colonia-del-sacramento",
+    name: "Colonia del Sacramento",
+    kind: "ciudad",
+    icon: "⚓",
+    users: 150,
+    votes: 210,
+    tag: "Tendencia",
+    activity: "Media",
+    parentName: "Uruguay",
+    parentSlug: "uruguay",
+    channels: ["colonia-del-sacramento", "uruguay", "amistad", "chatzona"],
+    related: ["uruguay", "montevideo", "punta-del-este", "viajes", "amistad", "amor"],
+    intro:
+      "Portuguesa de origen, uruguaya de corazón: el empedrado del Barrio Histórico y el sol cayendo sobre el Río de la Plata marcan el ritmo de esta sala chica.",
+    about:
+      "Colonia nació portuguesa en 1680 y todavía se nota: calles empedradas irregulares, portones desgastados y un Barrio Histórico declarado Patrimonio de la Humanidad que cada verano se llena de porteños que cruzan en el Buquebus para pasar el día. Pero debajo del folleto turístico hay una ciudad chica de verdad, con vecinos que se conocen todos, el Real de San Carlos abandonado como curiosidad local y el fútbol de barrio los domingos. En el chat se cruzan colonienses que defienden su calma frente al ajetreo de la capital, uruguayos del resto del país y argentinos que ya la adoptaron como escapada de fin de semana. La Calle de los Suspiros al atardecer, con la luz cayendo sobre el Río de la Plata y las luces de Buenos Aires titilando del otro lado, es la postal que todos mencionan tarde o temprano.",
+  },
+  {
+    slug: "barquisimeto",
+    name: "Barquisimeto",
+    kind: "ciudad",
+    icon: "🎼",
+    users: 260,
+    votes: 370,
+    activity: "Alta",
+    parentName: "Venezuela",
+    parentSlug: "venezuela",
+    channels: ["barquisimeto", "venezuela", "amistad", "chatzona"],
+    related: ["venezuela", "caracas", "maracaibo", "valera", "musica", "amistad"],
+    intro:
+      "Larense hasta la médula, con coros y orquestas que suenan en cada esquina y el pan de trigo recién horneado como saludo de bienvenida a la sala.",
+    about:
+      "Barquisimeto se ganó el título de Ciudad Musical de Venezuela a pulso: de aquí salieron coros y orquestas que después alimentaron el semillero de El Sistema, y el tamunangue —esa mezcla de baile, tambor y devoción a San Antonio— se sigue bailando en los velorios de cruz como hace siglos. Cada 14 de enero medio estado de Lara sale a la calle detrás de la Divina Pastora, la procesión religiosa más multitudinaria del país. La ciudad también se conoce como la Ciudad Crepuscular por esos atardeceres larguísimos sobre los llanos que la rodean, tierra agrícola de caña, sorgo y ganado. En el chat entran larenses que defienden su pan de trigo casero como el mejor del país, venezolanos de paso y quien busque compañía sin tanto ruido. Conversación pausada, con acento llanero suave y un orgullo regional que no necesita gritar para hacerse notar.",
+  },
+  {
+    slug: "manta",
+    name: "Manta",
+    kind: "ciudad",
+    icon: "🎣",
+    users: 230,
+    votes: 330,
+    tag: "Popular",
+    activity: "Alta",
+    parentName: "Ecuador",
+    parentSlug: "ecuador",
+    channels: ["manta", "ecuador", "amistad", "chatzona"],
+    related: ["ecuador", "quito", "guayaquil", "cuenca", "viajes", "amistad"],
+    intro:
+      "Atunera, calurosa y tejedora del verdadero sombrero de paja toquilla, aunque el mundo entero insista en llamarlo panamá: Manta tiene su propio salitre.",
+    about:
+      "Manta vive del mar de otra manera que el resto de la costa ecuatoriana: su puerto alberga la flota atunera más grande del país y las conserveras marcan el olor y el ritmo de la ciudad. A pocos minutos, en Montecristi, se sigue tejiendo a mano el verdadero sombrero de paja toquilla, el que el mundo entero conoce mal como panama hat sin saber que nació en esta costa. El clima manabita es distinto al del resto del litoral: seco, caliente casi todo el año, sin la humedad pegajosa de Esmeraldas ni la neblina de la sierra. En el chat se habla del ceviche de pescado con chifles, de la playa Murciélago al atardecer y del malecón lleno los fines de semana. Entran manabitas orgullosos de su acento cantadito, pescadores, tejedoras y algún guayaquileño que baja a pasar el fin de semana en la costa.",
+  },
+  {
+    slug: "sucre",
+    name: "Sucre",
+    kind: "ciudad",
+    icon: "🏛️",
+    users: 170,
+    votes: 240,
+    activity: "Media",
+    parentName: "Bolivia",
+    parentSlug: "bolivia",
+    channels: ["sucre", "bolivia", "amistad", "chatzona"],
+    related: ["bolivia", "la-paz", "cochabamba", "santa-cruz-de-la-sierra", "amistad"],
+    intro:
+      "La capital constitucional que Bolivia no debería olvidar, según insisten sus vecinos: blanca, colonial y con un clima templado que La Paz nunca tuvo.",
+    about:
+      "En la Casa de la Libertad se firmó el acta de independencia de Bolivia en 1825, y los chuquisaqueños no dejan que nadie lo olvide: Sucre es la capital constitucional del país, aunque el gobierno funcione desde La Paz, y esa discusión sigue viva en cualquier sobremesa. La ciudad se ganó el apodo de Ciudad Blanca por sus fachadas coloniales encaladas que se mantienen así por ordenanza municipal, y el clima de valle —templado, sin el frío altiplánico ni el calor del oriente— la vuelve una de las más agradables del país. Alberga la Corte Suprema de Justicia y una de las universidades más antiguas de América, la San Francisco Xavier, lo que le da un aire estudiantil constante. En el chat se cruzan sucrenses que defienden su capitalidad con uñas y dientes, estudiantes de otras ciudades y curiosos que quieren entender por qué Bolivia tiene dos capitales.",
+  },
+  {
+    slug: "encarnacion",
+    name: "Encarnación",
+    kind: "ciudad",
+    icon: "🎭",
+    users: 200,
+    votes: 280,
+    tag: "Tendencia",
+    activity: "Alta",
+    parentName: "Paraguay",
+    parentSlug: "paraguay",
+    channels: ["encarnacion", "paraguay", "amistad", "chatzona"],
+    related: ["paraguay", "asuncion", "ciudad-del-este", "viajes", "amistad", "amor"],
+    intro:
+      "La Perla del Sur se prepara todo el año para su Carnaval, el que le compite al de Río en esta parte del continente, con el Paraná siempre de fondo.",
+    about:
+      "Encarnación se conoce como la Perla del Sur y con el Carnaval Encarnaceno se lo toma en serio: varios fines de semana seguidos de comparsas, plumas y candombe que la gente de la zona compara sin complejos con el de Río. La costanera, reconstruida después de que la represa de Yacyretá subiera el nivel del río, se llenó de arena y ahora funciona casi como playa urbana, con el Paraná de fondo y Posadas, del lado argentino, a tiro de vista. A pocos kilómetros quedan las ruinas jesuíticas de Trinidad y Jesús, Patrimonio de la Humanidad, testigo de las reducciones guaraníes de la zona. En el chat entran encarnacenos orgullosos de su acento y su guaraní mezclado con el español, argentinos de Posadas que cruzan todo el tiempo y gente de Asunción que baja al sur a conocer. Charla cálida, con jopara de fondo y ganas de carnaval todo el año.",
+  },
+  {
+    slug: "alajuela",
+    name: "Alajuela",
+    kind: "ciudad",
+    icon: "🥭",
+    users: 160,
+    votes: 225,
+    activity: "Media",
+    parentName: "Costa Rica",
+    parentSlug: "costa-rica",
+    channels: ["alajuela", "costa-rica", "amistad", "chatzona"],
+    related: ["costa-rica", "san-jose", "viajes", "amistad", "amor"],
+    intro:
+      "Los mangos del parque central caen casi sobre las bancas y nadie se sorprende: así es Alajuela, cuna de Juan Santamaría y vecina tranquila del aeropuerto.",
+    about:
+      "En el parque central de Alajuela los mangos maduran y caen sin que a nadie le importe pisarlos: son tan parte del paisaje que a los alajuelenses les dicen los mangos de cariño. La ciudad es cuna de Juan Santamaría, el tamborilero que en 1856 le prendió fuego al mesón donde se refugiaban los filibusteros de William Walker y que hoy le da nombre al aeropuerto internacional, el más importante del país. A diferencia del bullicio de San José, Alajuela mantiene ese aire de ciudad agrícola del Valle Central, rodeada de cafetales y potreros, con el volcán Poás asomando a apenas media hora. En el chat se cruzan alajuelenses que defienden su ciudad frente al centralismo josefino, viajeros que hacen escala antes de un vuelo y gente de cantones vecinos como Grecia o Atenas. Ambiente relajado, con humor tico y ganas de charlar sin apuro.",
+  },
+  {
+    slug: "malabo",
+    name: "Malabo",
+    kind: "ciudad",
+    icon: "🛢️",
+    users: 110,
+    votes: 155,
+    activity: "Baja",
+    parentName: "Guinea Ecuatorial",
+    parentSlug: "guinea-ecuatorial",
+    channels: ["malabo", "guinea-ecuatorial", "amistad", "chatzona"],
+    related: ["guinea-ecuatorial", "espana", "amistad", "amor", "viajes"],
+    intro:
+      "La única capital hispanohablante de África subsahariana: colonial por fuera, africana por dentro y con poca gente conectada, así que si entrás, se nota.",
+    about:
+      "Malabo queda en la isla de Bioko, frente al golfo de Guinea, y es la única capital del mundo donde el español es lengua oficial en pleno África subsahariana. Se llamó Santa Isabel hasta 1973 y todavía se ven fachadas coloniales españolas mezcladas con mercados, música bubi y el calor húmedo tropical de la isla. Desde los años 90 el petróleo cambió la economía del país, pero la vida de barrio sigue con su ritmo propio, bastante ajena a las torres nuevas del centro. Esta es una sala chica, de las que tienen menos gente conectada que las grandes capitales latinoamericanas, pero justamente por eso las charlas suelen ser más cercanas: ecuatoguineanos en la diáspora que extrañan su acento, hispanohablantes curiosos por un país que casi nadie conoce bien y algún cooperante o viajero de paso. Poca gente, pero con ganas real de conversar.",
+  },
+  {
+    slug: "valera",
+    name: "Valera",
+    kind: "ciudad",
+    icon: "🫘",
+    users: 130,
+    votes: 185,
+    tag: "Nueva",
+    activity: "Baja",
+    parentName: "Venezuela",
+    parentSlug: "venezuela",
+    channels: ["valera", "venezuela", "amistad", "chatzona"],
+    related: ["venezuela", "caracas", "maracaibo", "barquisimeto", "musica", "amistad"],
+    intro:
+      "Andina, cafetalera y con un fresquito de montaña que ni Caracas ni Maracaibo conocen: la ciudad más grande del estado Trujillo casi nunca sale en el mapa.",
+    about:
+      "Valera es la ciudad más poblada del estado Trujillo, aunque la capital administrativa lleve el nombre del estado y le robe el protagonismo en los mapas. La rodean montañas andinas cubiertas de cafetales y caña de azúcar, y de ahí sale buena parte del papelón artesanal que se consume en el occidente del país. El clima es fresco, de neblina que baja por las tardes, muy distinto al calor pegajoso de Maracaibo o la humedad de Caracas. Es una ciudad comercial y agrícola, de gente trabajadora que rara vez aparece en las noticias nacionales y que por eso mismo agradece que alguien se acuerde de que existe. En el chat entran trujillanos de Valera y de pueblos cercanos como La Puerta o Betijoque, venezolanos de otras regiones que buscan compañía, y quien tenga ganas de hablar de café, de montaña y de la Venezuela que no sale en cámara.",
+  },
+
 ];

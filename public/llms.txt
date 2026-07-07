@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (584 salas propias · ~900 páginas indexadas), con
+> temáticas (592 salas propias · ~915 páginas indexadas), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.
@@ -12,7 +12,7 @@
 
 ## Salas de chat (`/chat/{slug}`)
 - Por país: [España](/chat/espana), [México](/chat/mexico), [Argentina](/chat/argentina), [Colombia](/chat/colombia), [Venezuela](/chat/venezuela), y 24 países más (índice completo en [/chat](/chat)).
-- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (170 ciudades: capitales de provincia españolas, grandes urbes latinoamericanas y ciudades del mundo hispano, incluida la diáspora en EE.UU. y Canadá).
+- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (178 ciudades: capitales de provincia españolas, grandes urbes latinoamericanas y ciudades del mundo hispano, incluida la diáspora en EE.UU. y Canadá).
 - Por temática: [Amor](/chat/amor), [Amistad](/chat/amistad), [Ligar](/chat/ligar), [LGTBI](/chat/lgtbi), [Música](/chat/musica), [Videojuegos](/chat/videojuegos)…
 
 ## Verticales temáticos
