@@ -20,6 +20,11 @@ export function emojiToCountryCode(emoji: string): string | null {
 type FlagProps = {
   /** Emoji bandera tal como viene en la data (ej. "🇪🇸"). */
   emoji: string;
+  /**
+   * Ruta a una bandera real local (ej. comunidades autónomas, que no tienen
+   * emoji-bandera propio). Si se indica, tiene prioridad sobre el emoji.
+   */
+  flagSrc?: string;
   /** Nombre del país/ciudad para el alt. */
   name?: string;
   /** Ancho en px (la altura sigue ratio 4:3). */
@@ -30,12 +35,27 @@ type FlagProps = {
 };
 
 /**
- * Bandera SVG real (flagcdn) a partir del emoji de la data. Si el emoji no es una
- * bandera (p. ej. un icono temático), cae al propio emoji para no perder nada.
+ * Bandera real a partir de la data. Prioridad:
+ *  1. flagSrc — bandera local (regiones/comunidades sin emoji-bandera).
+ *  2. emoji de país → PNG de flagcdn.
+ *  3. cualquier otro emoji (icono temático) → se muestra tal cual.
  */
-export function Flag({ emoji, name, size = 22, className, priority }: FlagProps) {
+export function Flag({ emoji, flagSrc, name, size = 22, className, priority }: FlagProps) {
   const code = emojiToCountryCode(emoji);
   const height = Math.round((size * 3) / 4);
+
+  if (flagSrc) {
+    return (
+      <Image
+        src={flagSrc}
+        alt={name ? `Bandera de ${name}` : ""}
+        width={size}
+        height={height}
+        priority={priority}
+        className={`inline-block shrink-0 rounded-[3px] object-cover ring-1 ring-black/10 ${className ?? ""}`}
+      />
+    );
+  }
 
   if (!code) {
     return (

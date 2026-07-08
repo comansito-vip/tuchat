@@ -6,6 +6,7 @@ export interface Place {
   name: string;          // "Madrid"
   kind: RoomKind;
   icon: string;          // emoji flag/icon
+  flagSrc?: string;      // ruta a bandera real local (regiones sin emoji-bandera, ej. "/flags/regiones/andalucia.png")
   users: number;         // approx connected
   votes: number;
   tag?: RoomTag;

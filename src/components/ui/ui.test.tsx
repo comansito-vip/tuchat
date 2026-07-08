@@ -137,6 +137,12 @@ describe("Flag", () => {
     expect(container.querySelector("span")).toBeInTheDocument();
     expect(container.querySelector("img")).not.toBeInTheDocument();
   });
+  it("Flag prefers flagSrc over the emoji for regional flags", () => {
+    render(<Flag emoji="🪭" flagSrc="/flags/regiones/andalucia.png" name="Andalucía" />);
+    const img = screen.getByRole("img");
+    expect(img).toHaveAttribute("src", expect.stringContaining("andalucia.png"));
+    expect(img).toHaveAttribute("alt", "Bandera de Andalucía");
+  });
 });
 
 describe("Card and SectionTitle", () => {

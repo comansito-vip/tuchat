@@ -24,7 +24,7 @@ export function RoomCard({ place }: { place: Place }) {
       {/* Top row: icon tile + name (siempre a ancho completo, nunca se trunca a 0) */}
       <div className="flex items-center gap-2.5">
         <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ${tileBg}`}>
-          <Flag emoji={place.icon} size={24} />
+          <Flag emoji={place.icon} flagSrc={place.flagSrc} size={24} />
         </span>
         <Link
           href={`/chat/${place.slug}`}

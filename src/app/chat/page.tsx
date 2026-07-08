@@ -60,6 +60,7 @@ export default async function ChatIndexPage() {
     slug: p.slug,
     name: p.name,
     icon: p.icon,
+    flagSrc: p.flagSrc,
     users: p.users,
   }));
 
