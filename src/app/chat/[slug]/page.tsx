@@ -170,7 +170,9 @@ export default async function ChatRoomPage({
           )}
 
           {/* News, weather and services teasers */}
-          <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <section className="mt-8">
+            <SectionTitle>Más sobre {place.name}</SectionTitle>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
               <div className="text-2xl" aria-hidden="true">📰</div>
               <h3 className="mt-1 font-semibold text-ink">Noticias de {place.name}</h3>
@@ -214,6 +216,7 @@ export default async function ChatRoomPage({
                 </Link>
               </div>
             )}
+            </div>
           </section>
         </div>
 
