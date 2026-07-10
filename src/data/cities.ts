@@ -13,7 +13,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["madrid", "espana", "amistad", "chatzona"],
-    related: ["barcelona", "valencia", "sevilla", "bilbao", "malaga", "espana", "amistad", "amor"],
+    related: ["pozuelo-de-alarcon", "las-rozas", "alcorcon", "getafe", "alcobendas", "torrejon-de-ardoz", "espana", "amistad", "amor"],
     intro:
       "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
     about:
@@ -31,7 +31,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["barcelona", "espana", "amistad", "chatzona"],
-    related: ["madrid", "valencia", "zaragoza", "malaga", "espana", "amistad", "viajes"],
+    related: ["badalona", "lhospitalet", "cornella", "sant-cugat", "el-prat-de-llobregat", "sabadell", "espana", "amistad", "viajes"],
     intro:
       "La sala de Barcelona es punto de encuentro para gente del Eixample, Gràcia y los barrios del litoral que quiere charlar, quedar o simplemente matar el rato.",
     about:
@@ -49,7 +49,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["valencia", "espana", "amistad", "chatzona"],
-    related: ["madrid", "barcelona", "alicante", "sevilla", "espana", "amistad", "amor"],
+    related: ["paterna", "torrent", "mislata", "burjassot", "sagunto", "gandia", "espana", "amistad", "amor"],
     intro:
       "La paella, la huerta y el olor a azahar en marzo: Valencia tiene su propio carácter, y su sala de chat también. Únete y habla con gente del cap i casal.",
     about:
@@ -66,7 +66,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["sevilla", "espana", "amistad", "chatzona"],
-    related: ["madrid", "malaga", "valencia", "bilbao", "espana", "amistad", "musica"],
+    related: ["dos-hermanas", "alcala-de-guadaira", "utrera", "ecija", "espana", "amistad", "musica"],
     intro:
       "Aquí se habla con el calor del Sur: desde los que salen de madrugada por Triana hasta los que debaten si la Feria se ha comercializado demasiado.",
     about:
@@ -101,7 +101,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["malaga", "espana", "amistad", "chatzona"],
-    related: ["sevilla", "madrid", "barcelona", "valencia", "espana", "viajes", "amor"],
+    related: ["marbella", "fuengirola", "mijas", "torremolinos", "benalmadena", "estepona", "espana", "viajes", "amor"],
     intro:
       "Málaga ya no es solo playa y Picasso: el Soho, el boom tecnológico y miles de nuevos residentes han creado una mezcla que vale la pena explorar en el chat.",
     about:
@@ -170,7 +170,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["alicante", "espana", "amistad", "chatzona"],
-    related: ["valencia", "malaga", "madrid", "barcelona", "espana", "viajes", "amor"],
+    related: ["elche", "san-vicente-del-raspeig", "torrevieja", "elda", "petrer", "orihuela", "espana", "viajes", "amor"],
     intro:
       "Las hogueras de junio, el Castillo de Santa Bárbara al atardecer y una costa que no para en todo el verano: Alicante tiene mucho de qué hablar.",
     about:

@@ -309,6 +309,21 @@ export const COUNTRIES: Place[] = [
       "Tierra de lagos con volcanes en medio y de poetas que recitan a Rubén Darío de memoria: managüenses, granadinos de una de las ciudades coloniales más antiguas de Centroamérica, matagalpinos y costeños del Caribe conectan con nicas en San José, Miami y Madrid. Se habla del lago Cocibolca como orgullo geográfico inmenso, del gallo pinto que no falta en ninguna mañana, y de la pipa de agua de coco como remedio contra el calor. El dale pues sirve para casi todo, y a cualquier hora hay gente activa en la sala.",
   },
   {
+    slug: "belice",
+    name: "Belice",
+    kind: "pais",
+    icon: "🇧🇿",
+    users: 120,
+    votes: 175,
+    activity: "Baja",
+    channels: ["belice", "internacional", "amistad", "chatzona"],
+    related: ["belize-city", "guatemala", "mexico", "amistad", "viajes", "musica"],
+    intro:
+      "El único país centroamericano con el inglés de lengua oficial, pero con el español ganando terreno. Arrecife, punta garífuna y un acento caribeño único.",
+    about:
+      "Belice desconcierta a quien llega esperando otra Centroamérica: el criollo beliceño y el inglés son lengua oficial, pero el español se oye cada vez más fuerte en Corozal, Orange Walk y el distrito de Cayo, donde muchas familias vienen de México y Guatemala. Beliceños de la costa, garífunas de Dangriga, menonitas del interior y descendientes mayas comparten un país pequeño con la segunda barrera de coral más grande del planeta frente a sus cayos. Se habla del buceo en el Blue Hole, del rice and beans de cada mediodía, del punta que suena en las fiestas y de una identidad que mira más al Caribe que al istmo. Sala tranquila, pero con sabor propio.",
+  },
+  {
     slug: "estados-unidos",
     name: "Estados Unidos",
     kind: "pais",
@@ -477,6 +492,7 @@ export const CONTINENTS: { title: string; places: { name: string; slug: string }
     title: "Centroamérica",
     places: [
       { name: "Guatemala", slug: "guatemala" },
+      { name: "Belice", slug: "belice" },
       { name: "El Salvador", slug: "el-salvador" },
       { name: "Honduras", slug: "honduras" },
       { name: "Nicaragua", slug: "nicaragua" },

@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
-import { getPrimaryTopics } from "@/data";
+import { cityFlag, getPrimaryTopics } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { FAQBlock } from "@/components/room/FAQBlock";
+import { Flag } from "@/components/ui/Flag";
 import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 // Página estática: la búsqueda vive en el cliente (ChatSearch), por lo que no se
@@ -34,7 +35,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 890 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: "TuChat tiene más de 1.200 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires…) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
   },
   {
     q: "¿El chat funciona en el móvil?",
@@ -56,13 +57,16 @@ export default async function ChatIndexPage() {
   const all = [...countries, ...cities, ...topics];
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
   // Lista ligera para la búsqueda en cliente (sin intro/about: no inflar el bundle).
-  const searchRooms = all.map((p) => ({
-    slug: p.slug,
-    name: p.name,
-    icon: p.icon,
-    flagSrc: p.flagSrc,
-    users: p.users,
-  }));
+  const searchRooms = all.map((p) => {
+    const flag = cityFlag(p);
+    return {
+      slug: p.slug,
+      name: p.name,
+      icon: flag.icon,
+      flagSrc: flag.flagSrc,
+      users: p.users,
+    };
+  });
 
   // Temáticas: destacar las principales como tarjetas y el resto como chips.
   const primarySet = new Set(getPrimaryTopics().map((t) => t.slug));
@@ -112,15 +116,19 @@ export default async function ChatIndexPage() {
                   </span>
                 </div>
                 <div className="mt-3 flex flex-wrap gap-1.5">
-                  {preview.map((c) => (
-                    <Link
-                      key={c.slug}
-                      href={`/chat/${c.slug}`}
-                      className="rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
-                    >
-                      {c.name}
-                    </Link>
-                  ))}
+                  {preview.map((c) => {
+                    const flag = cityFlag(c);
+                    return (
+                      <Link
+                        key={c.slug}
+                        href={`/chat/${c.slug}`}
+                        className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                      >
+                        <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={13} />
+                        {c.name}
+                      </Link>
+                    );
+                  })}
                   {rest > 0 && (
                     <Link
                       href={`/chat/${country.slug}`}

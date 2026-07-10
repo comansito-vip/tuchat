@@ -5,7 +5,7 @@ import { buttonClasses } from "@/components/ui/Button";
 import { EnterButton } from "@/components/ui/EnterButton";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
-import type { Place } from "@/data";
+import { cityFlag, type Place } from "@/data";
 
 const TILE_BG: Record<string, string> = {
   amor: "bg-amor/12", amistad: "bg-amistad/12", lgtbi: "bg-amor/12",
@@ -18,13 +18,14 @@ const TILE_BG: Record<string, string> = {
 
 export function RoomCard({ place }: { place: Place }) {
   const tileBg = TILE_BG[place.slug] ?? "bg-blue/8";
+  const flag = cityFlag(place);
 
   return (
     <Card className="flex h-full flex-col gap-3 p-4 transition-all hover:border-blue hover:shadow-md hover:shadow-blue/10">
       {/* Top row: icon tile + name (siempre a ancho completo, nunca se trunca a 0) */}
       <div className="flex items-center gap-2.5">
         <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ${tileBg}`}>
-          <Flag emoji={place.icon} flagSrc={place.flagSrc} size={24} />
+          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={24} />
         </span>
         <Link
           href={`/chat/${place.slug}`}

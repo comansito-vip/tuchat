@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { clsx } from "clsx";
-import { getRooms, getRanking } from "@/data";
+import { cityFlag, getRooms, getRanking } from "@/data";
 import { LiveDot, TrophyIcon, WeatherIcon, StarIcon, ChevronIcon } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { Card } from "@/components/ui/Card";
@@ -52,25 +52,28 @@ export function Sidebar() {
           </span>
         </WidgetLabel>
         <ol className="space-y-2.5">
-          {ranking.map((room, i) => (
-            <li key={room.slug}>
-              <Link
-                href={`/chat/${room.slug}`}
-                className="flex items-center gap-2.5 rounded-lg px-1 py-0.5 transition-colors hover:bg-brand/5"
-              >
-                <span className="w-4 shrink-0 text-center text-xs font-bold text-muted">
-                  {i + 1}
-                </span>
-                <Flag emoji={room.icon} flagSrc={room.flagSrc} size={18} />
-                <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">
-                  {room.name}
-                </span>
-                <span className="shrink-0 text-xs text-muted">
-                  {room.users.toLocaleString("es")}
-                </span>
-              </Link>
-            </li>
-          ))}
+          {ranking.map((room, i) => {
+            const flag = cityFlag(room);
+            return (
+              <li key={room.slug}>
+                <Link
+                  href={`/chat/${room.slug}`}
+                  className="flex items-center gap-2.5 rounded-lg px-1 py-0.5 transition-colors hover:bg-brand/5"
+                >
+                  <span className="w-4 shrink-0 text-center text-xs font-bold text-muted">
+                    {i + 1}
+                  </span>
+                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={18} />
+                  <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">
+                    {room.name}
+                  </span>
+                  <span className="shrink-0 text-xs text-muted">
+                    {room.users.toLocaleString("es")}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ol>
         <Link
           href="/ranking"

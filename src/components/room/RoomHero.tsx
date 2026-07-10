@@ -1,4 +1,4 @@
-import type { Place } from "@/data";
+import { cityFlag, type Place } from "@/data";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { NickInput } from "@/components/ui/NickInput";
@@ -46,6 +46,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
   // Las salas de series de anime heredan la identidad cromática de su póster.
   const anime = getAnimeBySlug(place.slug);
   const gradient = GRADIENT_SLUG[place.slug] ?? GRADIENT_KIND[place.kind];
+  const flag = cityFlag(place);
   return (
     <section
       className={`relative mt-4 overflow-hidden rounded-2xl px-5 py-7 text-white shadow-lg shadow-blue/20 sm:px-8 sm:py-9${
@@ -75,14 +76,14 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
         >
           {/* Misma representación que el icono pequeño de abajo (Flag): evita
               mostrar dos estilos gráficos distintos de la misma bandera. */}
-          <Flag emoji={place.icon} flagSrc={place.flagSrc} size={130} />
+          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={130} />
         </div>
       )}
 
       <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
         {/* Icono grande */}
         <div className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/15 backdrop-blur-sm sm:h-20 sm:w-20">
-          <Flag emoji={place.icon} flagSrc={place.flagSrc} name={place.name} size={56} priority />
+          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={place.name} size={56} priority />
         </div>
 
         <div className="min-w-0">

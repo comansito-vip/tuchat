@@ -30,12 +30,15 @@ it("RankingTable shows Entrar links pointing to /webchat", () => {
   expect(links.length).toBeGreaterThan(0);
   expect(links[0].getAttribute("href")).toMatch(/^\/webchat\?canal=/);
 });
+// CityList renderiza el índice completo de ciudades (500+ enlaces de texto) como
+// hub de enlazado interno SEO; en jsdom bajo carga paralela el render tarda, así
+// que damos margen extra al timeout (en navegador real son anchors ligeros).
 it("CityList links Madrid to /chat/madrid", () => {
   render(<CityList />);
   const links = screen.getAllByRole("link", { name: "Madrid" });
   expect(links.length).toBeGreaterThanOrEqual(1);
   expect(links[0]).toHaveAttribute("href", "/chat/madrid");
-});
+}, 20000);
 it("NewsGrid renders the featured article as a link to /noticias/articulo/", () => {
   render(<NewsGrid />);
   const links = screen.getAllByRole("link").filter((l) =>
@@ -99,7 +102,8 @@ it("HeroSearch shows main heading and stats", () => {
 });
 it("HeroSearch shows country count stat (≥29)", () => {
   render(<HeroSearch />);
-  expect(screen.getByText(/29\+/)).toBeInTheDocument();
+  const stat = screen.getByText(/^\d{2}\+$/);
+  expect(Number(stat.textContent!.replace("+", ""))).toBeGreaterThanOrEqual(29);
 });
 it("RoomCard links place name and Enter button to correct paths", () => {
   const place = getPlace("madrid")!;

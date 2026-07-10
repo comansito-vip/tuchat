@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Flag } from "@/components/ui/Flag";
 import { EnterButton } from "@/components/ui/EnterButton";
-import { getRanking, type Place } from "@/data";
+import { cityFlag, getRanking, type Place } from "@/data";
 
 const kindLabel: Record<string, string> = {
   pais: "País",
@@ -37,7 +37,9 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
           </tr>
         </thead>
         <tbody>
-          {rows.map((place, i) => (
+          {rows.map((place, i) => {
+            const flag = cityFlag(place);
+            return (
             <tr key={place.slug} className="border-t border-line">
               <td className="px-2 py-3 text-center sm:px-4">
                 <PositionBadge pos={i + 1} />
@@ -47,7 +49,7 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
                   href={`/chat/${place.slug}`}
                   className="inline-flex items-center gap-2 font-semibold text-ink hover:text-blue transition-colors"
                 >
-                  <Flag emoji={place.icon} flagSrc={place.flagSrc} size={18} />
+                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={18} />
                   {place.name}
                 </Link>
               </td>
@@ -71,7 +73,8 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
                 </EnterButton>
               </td>
             </tr>
-          ))}
+            );
+          })}
         </tbody>
       </table>
     </Card>

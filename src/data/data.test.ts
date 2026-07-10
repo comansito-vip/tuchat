@@ -7,7 +7,7 @@ describe("data getters", () => {
     expect(madrid?.name).toBe("Madrid");
     expect(madrid?.kind).toBe("ciudad");
     expect(madrid?.channels).toEqual(["madrid", "espana", "amistad", "chatzona"]);
-    expect(madrid?.related).toContain("barcelona");
+    expect(madrid?.related).toContain("getafe");
     expect(madrid?.intro.length).toBeGreaterThan(40);
   });
   it("lists active rooms, cities, topics and news", () => {

@@ -28,6 +28,16 @@ const BY_SLUG: Map<string, Place> = new Map(ALL.map((p) => [p.slug, p]));
 export function getPlace(slug: string): Place | undefined {
   return BY_SLUG.get(slug);
 }
+// Las salas de ciudad muestran la bandera de su país (no un icono temático):
+// con 660+ ciudades, la bandera permite identificar la procedencia geográfica
+// de un vistazo en listados; países y temáticas conservan su icono propio.
+export function cityFlag(place: Place): { icon: string; flagSrc?: string } {
+  if (place.kind === "ciudad" && place.parentSlug) {
+    const parent = BY_SLUG.get(place.parentSlug);
+    if (parent) return { icon: parent.icon, flagSrc: parent.flagSrc };
+  }
+  return { icon: place.icon, flagSrc: place.flagSrc };
+}
 export function getCities() { return ALL_CITIES; }
 export function getCountries() { return COUNTRIES; }
 export function getTopics() { return ALL_TOPICS; }
