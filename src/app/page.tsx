@@ -112,7 +112,9 @@ export default async function HomePage() {
 
           {/* Ciudades */}
           <section>
-            <SectionTitle>Ciudades populares</SectionTitle>
+            <SectionTitle href="/chat" cta="Ver todas">
+              Ciudades populares
+            </SectionTitle>
             <CityList />
           </section>
 
