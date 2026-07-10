@@ -64,6 +64,7 @@ export default async function ChatIndexPage() {
       name: p.name,
       icon: flag.icon,
       flagSrc: flag.flagSrc,
+      flagName: flag.name,
       users: p.users,
     };
   });

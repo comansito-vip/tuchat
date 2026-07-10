@@ -31,12 +31,12 @@ export function getPlace(slug: string): Place | undefined {
 // Las salas de ciudad muestran la bandera de su país (no un icono temático):
 // con 660+ ciudades, la bandera permite identificar la procedencia geográfica
 // de un vistazo en listados; países y temáticas conservan su icono propio.
-export function cityFlag(place: Place): { icon: string; flagSrc?: string } {
+export function cityFlag(place: Place): { icon: string; flagSrc?: string; name: string } {
   if (place.kind === "ciudad" && place.parentSlug) {
     const parent = BY_SLUG.get(place.parentSlug);
-    if (parent) return { icon: parent.icon, flagSrc: parent.flagSrc };
+    if (parent) return { icon: parent.icon, flagSrc: parent.flagSrc, name: parent.name };
   }
-  return { icon: place.icon, flagSrc: place.flagSrc };
+  return { icon: place.icon, flagSrc: place.flagSrc, name: place.name };
 }
 export function getCities() { return ALL_CITIES; }
 export function getCountries() { return COUNTRIES; }

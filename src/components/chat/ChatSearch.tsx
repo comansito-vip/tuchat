@@ -11,6 +11,7 @@ export interface SearchRoom {
   name: string;
   icon: string;
   flagSrc?: string;
+  flagName: string;
   users: number;
 }
 
@@ -67,7 +68,7 @@ export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
                     href={`/chat/${r.slug}`}
                     className="flex items-center gap-2.5 rounded-xl border border-line bg-card px-3 py-2 transition-colors hover:border-blue"
                   >
-                    <Flag emoji={r.icon} flagSrc={r.flagSrc} name={r.name} size={20} />
+                    <Flag emoji={r.icon} flagSrc={r.flagSrc} name={r.flagName} size={20} />
                     <span className="min-w-0 flex-1 truncate font-medium text-ink">{r.name}</span>
                     <span className="shrink-0 text-xs text-muted">
                       {r.users.toLocaleString("es")} online

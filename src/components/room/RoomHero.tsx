@@ -83,7 +83,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
       <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
         {/* Icono grande */}
         <div className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/15 backdrop-blur-sm sm:h-20 sm:w-20">
-          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={place.name} size={56} priority />
+          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={56} priority />
         </div>
 
         <div className="min-w-0">
