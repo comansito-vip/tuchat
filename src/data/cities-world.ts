@@ -8111,7 +8111,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["linares", "espana", "amistad", "chatzona"],
+    channels: ["linares-jaen", "espana", "amistad", "chatzona"],
     related: ["jaen", "ubeda", "cordoba", "granada", "espana", "amistad"],
     intro:
       "Ciudad minera del plomo y cuna de Raphael. En su plaza de toros cayó Manolete, y ese eco taurino sigue pesando en el orgullo linarense.",
@@ -10358,7 +10358,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Baja",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["loja", "espana", "amistad", "chatzona"],
+    channels: ["loja-granada", "espana", "amistad", "chatzona"],
     related: ["granada", "antequera", "almunecar", "armilla", "espana", "amistad"],
     intro:
       "Loja es la ciudad del agua: los Infiernos, la trucha de Riofrío y la alcazaba. Conoce gente entre Granada y Antequera.",
@@ -11616,7 +11616,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["durango", "espana", "amistad", "chatzona"],
+    channels: ["durango-bizkaia", "espana", "amistad", "chatzona"],
     related: ["bilbao", "galdakao", "eibar", "arrasate", "basauri", "espana"],
     intro:
       "La Azoka del libro vasco cada diciembre, el Anboto vigilando y un casco histórico al pie de la montaña: Durango.",
