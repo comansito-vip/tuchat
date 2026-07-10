@@ -53,7 +53,7 @@ Disallow: /admin
 Disallow: /api
 
 # Host
-Host: https://tuchat.org
+Host: https://www.tuchat.org
 
 # Sitemaps
-Sitemap: https://tuchat.org/sitemap.xml
+Sitemap: https://www.tuchat.org/sitemap.xml

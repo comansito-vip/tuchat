@@ -35,5 +35,5 @@
 - [Aviso legal](/legal/aviso-legal) · [Privacidad](/legal/privacidad) · [Cookies](/legal/cookies)
 
 ## Recursos
-- Sitemap: https://tuchat.org/sitemap.xml
+- Sitemap: https://www.tuchat.org/sitemap.xml
 - Última actualización: 2026-07

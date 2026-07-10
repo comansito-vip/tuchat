@@ -61,7 +61,7 @@ function transformEntry(config, path) {
 }
 
 module.exports = {
-  siteUrl: "https://tuchat.org",
+  siteUrl: "https://www.tuchat.org",
   generateRobotsTxt: true,
   exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image"],
   robotsTxtOptions: {

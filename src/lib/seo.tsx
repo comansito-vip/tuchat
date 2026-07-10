@@ -1,4 +1,4 @@
-const SITE = "https://tuchat.org";
+const SITE = "https://www.tuchat.org";
 
 // Logo cuadrado real (PWA icon) para Organization/publisher: Google espera un
 // logo propio, no la opengraph-image (1200×630 con texto).

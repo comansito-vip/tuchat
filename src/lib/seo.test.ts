@@ -10,7 +10,7 @@ import {
   organizationJsonLd,
 } from "@/lib/seo";
 
-const SITE = "https://tuchat.org";
+const SITE = "https://www.tuchat.org";
 
 describe("seo json-ld", () => {
   it("builds a BreadcrumbList with positions", () => {

@@ -22,7 +22,7 @@ const DESCRIPTION =
   "Chat gratis en español sin registro. Salas de chat online por países, ciudades y temáticas para chatear con gente, hacer amigos y ligar en tiempo real.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tuchat.org"),
+  metadataBase: new URL("https://www.tuchat.org"),
   title: { default: "TuChat — Chat gratis en español", template: "%s · TuChat" },
   description: DESCRIPTION,
   // Sin title/description aquí: Next los deriva del title/description de cada
