@@ -20,7 +20,7 @@ export function CityList() {
               className="flex items-center gap-1.5 py-1 text-sm text-muted transition-colors hover:text-blue"
             >
               <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
-              <span className="truncate">{city.name}</span>
+              <span className="min-w-0 flex-1 truncate">{city.name}</span>
             </Link>
           );
         })}
@@ -37,7 +37,7 @@ export function CityList() {
               className="flex items-center gap-1.5 break-inside-avoid py-1 text-sm text-muted transition-colors hover:text-blue"
             >
               <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
-              <span className="truncate">{city.name}</span>
+              <span className="min-w-0 flex-1 truncate">{city.name}</span>
             </Link>
           );
         })}
