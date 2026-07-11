@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Bricolage_Grotesque } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
@@ -85,6 +86,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LayoutShell>{children}</LayoutShell>
         <Footer />
         <MobileBottomNav />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HGL7W7NRDJ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HGL7W7NRDJ');`}
+        </Script>
       </body>
     </html>
   );
