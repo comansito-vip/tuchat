@@ -76,7 +76,7 @@ function AddForm({
           onChange={(e) => setSlug(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && void submit()}
           placeholder={placeholder}
-          className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-sm"
+          className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-base sm:text-sm"
         />
       </label>
       <button

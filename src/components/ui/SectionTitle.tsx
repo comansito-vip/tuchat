@@ -38,7 +38,7 @@ export function SectionTitle({
       {href && (
         <Link
           href={href}
-          className="group inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-blue hover:text-blue-dark"
+          className="group inline-flex shrink-0 items-center gap-1 py-3 -my-3 text-sm font-semibold text-blue hover:text-blue-dark"
         >
           {cta ?? "Ver todo"}
           <ArrowRightIcon

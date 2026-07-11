@@ -35,7 +35,7 @@ function Field({
 }
 
 const inputCls =
-  "mt-1 w-full rounded-lg border border-line bg-card px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-blue";
+  "mt-1 w-full rounded-lg border border-line bg-card px-3 py-1.5 text-base sm:text-sm focus:outline-none focus:ring-1 focus:ring-blue";
 
 // ── Override editor ───────────────────────────────────────────────────────────
 
@@ -110,7 +110,7 @@ function RoomOverrideEditor({ overrides }: { overrides: Record<string, Partial<P
             onChange={(e) => { setSlug(e.target.value); setLoaded(false); }}
             onKeyDown={(e) => e.key === "Enter" && load()}
             placeholder="madrid"
-            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-sm"
+            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-base sm:text-sm"
           />
         </Field>
         <button

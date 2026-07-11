@@ -70,7 +70,7 @@ export function RedirectsManager() {
             value={from}
             onChange={(e) => setFrom(e.target.value)}
             placeholder="mexicanos"
-            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-sm"
+            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-base sm:text-sm"
           />
         </label>
         <span aria-hidden="true" className="pb-2 text-muted">→</span>
@@ -80,7 +80,7 @@ export function RedirectsManager() {
             value={to}
             onChange={(e) => setTo(e.target.value)}
             placeholder="mexico"
-            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-sm"
+            className="mt-1 w-44 rounded-lg border border-line bg-card px-3 py-1.5 text-base sm:text-sm"
           />
         </label>
         <button
