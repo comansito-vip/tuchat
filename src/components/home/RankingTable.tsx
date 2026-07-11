@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Flag } from "@/components/ui/Flag";
-import { EnterButton } from "@/components/ui/EnterButton";
 import { cityFlag, getRanking, type Place } from "@/data";
 
 const kindLabel: Record<string, string> = {
@@ -65,12 +64,12 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
                 </span>
               </td>
               <td className="px-2 py-3 text-right sm:px-4 sm:text-left">
-                <EnterButton
-                  canal={place.slug}
+                <Link
+                  href={`/chat/${place.slug}`}
                   className="font-semibold text-blue hover:underline"
                 >
                   Entrar
-                </EnterButton>
+                </Link>
               </td>
             </tr>
             );

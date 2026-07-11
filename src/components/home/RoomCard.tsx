@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { buttonClasses } from "@/components/ui/Button";
-import { EnterButton } from "@/components/ui/EnterButton";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { cityFlag, type Place } from "@/data";
@@ -50,14 +49,15 @@ export function RoomCard({ place }: { place: Place }) {
         )}
       </div>
 
-      {/* Enter button */}
-      <EnterButton
-        canal={place.slug}
-        icon={<ChatIcon />}
+      {/* Va a la página de la sala (no directo al webchat): ahí el visitante
+          ve info/FAQ y decide entrar desde el CTA de esa página. */}
+      <Link
+        href={`/chat/${place.slug}`}
         className={buttonClasses("cta", "md", "mt-auto w-full")}
       >
+        <ChatIcon />
         Entrar
-      </EnterButton>
+      </Link>
     </Card>
   );
 }

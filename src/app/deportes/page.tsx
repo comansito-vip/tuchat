@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { faqJsonLd, collectionJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
-import { RoomCard } from "@/components/home/RoomCard";
+import { RoomGrid } from "@/components/ui/RoomGrid";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { getChildren, getPlace } from "@/data";
 import { getLeagues } from "@/lib/teams";
@@ -85,11 +85,7 @@ export default function DeportesPage() {
       {/* Salas de chat deportivas */}
       <section className="mt-10">
         <SectionTitle>Salas por equipo y categoría</SectionTitle>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {ranking.map((p) => (
-            <RoomCard key={p.slug} place={p} />
-          ))}
-        </div>
+        <RoomGrid places={ranking} />
       </section>
 
       {/* Equipos por liga */}

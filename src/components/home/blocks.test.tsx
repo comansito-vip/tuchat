@@ -24,11 +24,11 @@ it("RankingTable lists rows", () => {
   render(<RankingTable />);
   expect(screen.getAllByRole("row").length).toBeGreaterThan(1);
 });
-it("RankingTable shows Entrar links pointing to /webchat", () => {
+it("RankingTable shows Entrar links pointing to the room page", () => {
   render(<RankingTable />);
   const links = screen.getAllByRole("link", { name: /Entrar/i });
   expect(links.length).toBeGreaterThan(0);
-  expect(links[0].getAttribute("href")).toMatch(/^\/webchat\?canal=/);
+  expect(links[0].getAttribute("href")).toMatch(/^\/chat\//);
 });
 it("CityList links Madrid to /chat/madrid", () => {
   render(<CityList />);
@@ -115,7 +115,7 @@ it("RoomCard links place name and Enter button to correct paths", () => {
   const place = getPlace("madrid")!;
   render(<RoomCard place={place} />);
   expect(screen.getByRole("link", { name: /Madrid/ })).toHaveAttribute("href", "/chat/madrid");
-  expect(screen.getByRole("link", { name: /Entrar/i })).toHaveAttribute("href", expect.stringContaining("/webchat?canal=madrid"));
+  expect(screen.getByRole("link", { name: /Entrar/i })).toHaveAttribute("href", "/chat/madrid");
 });
 it("Sidebar shows ranking label and at least 5 ranked rooms", () => {
   render(<Sidebar />);

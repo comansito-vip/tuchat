@@ -14,6 +14,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
+import { RoomGrid } from "@/components/ui/RoomGrid";
 import { RoomHero } from "@/components/room/RoomHero";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
@@ -236,11 +237,7 @@ export default async function ChatRoomPage({
       {children.length > 0 && (
         <section className="mt-10">
           <SectionTitle>{childrenTitle}</SectionTitle>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {children.map((c) => (
-              <RoomCard key={c.slug} place={c} />
-            ))}
-          </div>
+          <RoomGrid places={children} />
         </section>
       )}
 
