@@ -5,8 +5,8 @@ import { getPlace, getCountries, getCities, getTopics } from "./index";
 const ALL = [...getCountries(), ...getCities(), ...getTopics()];
 
 describe("salas de paridad con el viejo tuchat", () => {
-  it("añade 76 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
-    expect(TOPICS_LEGACY).toHaveLength(76);
+  it("añade 77 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
+    expect(TOPICS_LEGACY).toHaveLength(77);
     expect(TOPICS_LEGACY.every((p) => p.kind === "tematica")).toBe(true);
   });
 
@@ -40,8 +40,13 @@ describe("salas de paridad con el viejo tuchat", () => {
         expect(getPlace(r), `related roto: ${r} en ${p.slug}`).toBeDefined();
   });
 
-  it("channels: 3 canales, el primero es el slug propio", () => {
+  it("channels: 3 canales, el primero es el slug propio (salvo excepciones documentadas)", () => {
+    // "badoo" es la única excepción: el cliente pidió explícitamente que ese
+    // canal real (con tráfico propio) entre también a #amor/#amigos/#general,
+    // no solo a su propio canal — adición deliberada, no una relajación general.
+    const EXCEPCIONES = new Set(["badoo"]);
     for (const p of TOPICS_LEGACY) {
+      if (EXCEPCIONES.has(p.slug)) continue;
       expect(p.channels.length, `${p.slug} channels`).toBe(3);
       expect(p.channels[0], `${p.slug} primer canal`).toBe(p.slug);
     }

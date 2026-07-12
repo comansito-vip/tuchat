@@ -136,7 +136,7 @@ export const TOPICS_INTERESES: Place[] = [
   {
     slug: "religion", name: "Religión", kind: "tematica", icon: "🙏",
     users: 240, votes: 430, tag: "Popular", activity: "Alta",
-    channels: ["religion", "cristianos", "cristiano"],
+    channels: ["religion", "cristianos", "cristiano", "iglesia", "ocio"],
     related: ["cristianos", "catolicos", "fe", "debatereligioso", "filosofia"],
     intro: "Cristianos, católicos, evangélicos y creyentes de todo tipo se juntan aquí para hablar de Dios y espiritualidad con respeto.",
     about: "Católicos, evangélicos, ortodoxos y cristianos de distintas congregaciones se cruzan aquí para compartir oración, dudas y experiencias de vida espiritual, sea cual sea el punto de la fe en el que cada uno esté. Dios, la Biblia, cómo sostener la fe en los momentos difíciles y cómo vivir los valores cada día son los temas que nunca faltan. El tono es de respeto: no se viene a imponer ni a discutir doctrina hasta el cansancio, sino a edificar y acompañar. También hay sitio para los que tienen preguntas honestas y buscan con sinceridad. Un rincón sereno para alimentar el alma y sentirse en comunidad.",
@@ -1166,7 +1166,7 @@ export const TOPICS_INTERESES: Place[] = [
     slug: "amigos", name: "Amigos", kind: "tematica", icon: "👯",
     users: 250, votes: 450, tag: "Popular", activity: "Alta",
     parentSlug: "amistad", parentName: "Amistad",
-    channels: ["amor", "amistad"],
+    channels: ["amor", "amistad", "amigos", "general", "bandoleros", "babel"],
     related: ["amistad", "haceramigos", "conocergente", "amistadgratis", "colegas"],
     intro: "Charla, risas y buen rollo con gente afín: la pandilla que se hace tecleando. Conoce gente, gratis y sin registro.",
     about: "Aquí mandan el buen rollo y las conversaciones que enganchan: la gente se junta para charlar de lo que sea, echarse unas risas y formar esa pandilla virtual que muchas veces acaba quedando en persona. Se habla de la vida, del finde, de series, de música y de cualquier tontería que dé pie a una buena conversación. No hay temas obligatorios ni postureo: solo gente con ganas de pasar el rato y conocer a otros con su mismo rollo. Se juntan habituales que vuelven cada día, recién llegados y grupos que se forman alrededor de aficiones comunes. Sentirse parte del grupo aquí es lo más fácil del mundo: cálido, desenfadado y sin poses. Entra, saluda y haz amigos.",
@@ -1231,7 +1231,7 @@ export const TOPICS_INTERESES: Place[] = [
     slug: "citas", name: "Citas", kind: "tematica", icon: "🌹",
     users: 250, votes: 450, tag: "Popular", activity: "Alta",
     parentSlug: "amor", parentName: "Amor",
-    channels: ["amor", "general"],
+    channels: ["amor", "general", "icq", "ozu", "lycos", "azar", "avenue", "anonimo"],
     related: ["amor", "buscarpareja", "encontraramor", "ligar", "romance"],
     intro: "Organiza esa primera cita, comparte experiencias y consejos para quedar: del chat a la realidad, sin registro.",
     about: "Del chat a la cita de verdad: ese es el salto que aquí se aprende a dar. Se comparte cómo proponer la primera quedada, elegir plan, los nervios previos y esos consejos que tanto se agradecen. Se comparten experiencias de citas que salieron genial y de otras que fueron un desastre digno de contar, todo con humor y sin dramas. Coinciden personas que buscan pareja, gente que quiere conocer a alguien sin etiquetas y quienes solo necesitan un empujón para atreverse a quedar. Qué funciona, las banderas rojas y cómo causar buena impresión sin fingir son los temas que más se repiten. Pierde el miedo a las citas, organízalas con cabeza y convierte una buena charla en algo real.",
@@ -1929,6 +1929,17 @@ export const TOPICS_INTERESES: Place[] = [
     related: ["argentina", "buenos-aires", "arg", "mar-del-plata", "latinos"],
     intro: "¿Sos de Bahía Blanca o del sur bonaerense? El viento, el puerto, la UNS y la interna Olimpo–Villa Mitre se comentan acá.",
     about: "El viento es el primer tema y el que nunca se agota: en Bahía Blanca la vida se mide por cuánto sopla, y el que creció ahí distingue una ráfaga cualquiera de una que te vuela la chapa del galpón. En esta sala se juntan bahienses de la ciudad, gente de Punta Alta, de Coronel Suárez y de todo el sur bonaerense, estudiantes que llegaron por la UNS y se quedaron, y bahienses emigrados a Buenos Aires que siguen mirando de reojo cómo le va al equipo. Se comenta el movimiento del puerto y de Ingeniero White, el olor del polo cuando el viento gira, los precios, las mesas del centro un viernes a la noche y, por encima de todo, la interna eterna entre Olimpo y Villa Mitre, que en esta ciudad divide familias enteras y no se resuelve nunca. Después está la charla tranquila, la que termina en amistad sin que uno se dé cuenta. Ser del sur tiene lo suyo: contalo con quienes lo entienden sin que haya que explicar nada.",
+  },
+
+  // ───────────────────────── Identidad regional: Baja California Sur ─────────────────────────
+  {
+    slug: "sudcalifornianos", name: "Sudcalifornianos", kind: "tematica", icon: "🐋",
+    users: 78, votes: 130, activity: "Media",
+    parentSlug: "mexico", parentName: "México",
+    channels: ["tijuana", "mexico_vip"],
+    related: ["mexico", "tijuana", "guadalajara", "latinoamerica", "amistad"],
+    intro: "Sala de sudcalifornianos: La Paz, Los Cabos, Ciudad Constitución. La otra Baja, la del ferry y el Mar de Cortés.",
+    about: "Aquí se aclara lo primero que confunde a cualquiera de fuera: sudcaliforniano no es lo mismo que bajacaliforniano, y en la península eso se nota. Para llegar al resto del país hace falta ferry o avión, nunca carretera, y esa distancia moldea el carácter de quien creció entre La Paz, Los Cabos, Ciudad Constitución o Loreto. Se habla del Mar de Cortés y sus ballenas grises entre diciembre y abril, del calor seco que nada tiene que ver con el de Tijuana, de vivir a mil kilómetros del pariente más cercano en Mexicali y de un ritmo de vida que el turismo de Cabo San Lucas apenas roza. Coinciden paceños de nacimiento, sudcalifornianos que se fueron a estudiar al norte y vuelven cada verano, y quien simplemente quiere entender por qué a esta tierra se le dice la otra Baja.",
   },
 ];
 

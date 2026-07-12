@@ -322,7 +322,7 @@ export const TOPICS: Place[] = [
     users: 160,
     votes: 255,
     activity: "Media",
-    channels: ["psicologia", "amistad", "chatzona"],
+    channels: ["psicologia", "amistad", "psicologos", "desahogarse", "ocio", "chatzona"],
     related: ["filosofia", "salud", "amor", "tarot", "madrid", "barcelona"],
     intro:
       "Ansiedad, relaciones, autoconocimiento y debate terapia vs. medicación: una sala sin diagnósticos, pero con mucha escucha y bastante introspección compartida.",

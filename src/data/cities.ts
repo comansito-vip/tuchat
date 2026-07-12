@@ -636,7 +636,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["guadalajara", "jalisco", "mexico", "amistad", "mexico_vip", "chatzona"],
+    channels: ["guadalajara", "jalisco", "mexico", "amistad", "mexico_vip", "tapatios", "chatzona"],
     related: ["ciudad-de-mexico", "monterrey", "puebla", "mexico", "amistad", "musica"],
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",

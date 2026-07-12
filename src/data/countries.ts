@@ -438,7 +438,7 @@ export const COUNTRIES: Place[] = [
     users: 240,
     votes: 360,
     activity: "Media",
-    channels: ["marruecos", "internacional", "amistad", "arabe", "ocio", "chatzona"],
+    channels: ["marruecos", "internacional", "amistad", "arabe", "ocio", "maroc", "arab", "chatzona"],
     related: ["espana", "francia", "guinea-ecuatorial", "amistad", "viajes", "amor"],
     intro:
       "A catorce kilómetros de España, con un norte donde se habla español y LaLiga es local. Entre el té con menta y los zocos de Tánger, las orillas se entienden.",
