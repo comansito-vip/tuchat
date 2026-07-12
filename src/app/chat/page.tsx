@@ -69,10 +69,22 @@ export default async function ChatIndexPage() {
     };
   });
 
-  // Temáticas: destacar las principales como tarjetas y el resto como chips.
+  // Temáticas: destacar las principales como tarjetas y agrupar el resto por
+  // su categoría padre (fútbol, salud, hobbies...) en vez de una única nube
+  // de 423 chips sin clasificar, donde era imposible encontrar nada.
   const primarySet = new Set(getPrimaryTopics().map((t) => t.slug));
   const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
   const restTopics = topics.filter((t) => !primarySet.has(t.slug));
+  const grouped = new Map<string, { name: string; slug?: string; items: typeof restTopics }>();
+  const huerfanas: typeof restTopics = [];
+  for (const t of restTopics) {
+    if (!t.parentSlug) { huerfanas.push(t); continue; }
+    const key = t.parentSlug;
+    if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
+    grouped.get(key)!.items.push(t);
+  }
+  if (huerfanas.length) grouped.set("otras", { name: "Otras temáticas", items: huerfanas });
+  const topicGroups = [...grouped.values()].sort((a, b) => b.items.length - a.items.length);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -163,20 +175,39 @@ export default async function ChatIndexPage() {
         </div>
       </section>
 
-      {/* Todas las temáticas (chips) */}
-      {restTopics.length > 0 && (
+      {/* Más salas temáticas, agrupadas por categoría (fútbol, salud, hobbies...) */}
+      {topicGroups.length > 0 && (
         <section className="mt-10">
           <SectionTitle>Más salas temáticas</SectionTitle>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {restTopics.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/chat/${p.slug}`}
-                className="inline-flex items-center gap-1 rounded-full border border-line bg-card px-3 py-1.5 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
-              >
-                <span aria-hidden="true">{p.icon}</span>
-                {p.name}
-              </Link>
+          <div className="mt-4 space-y-3">
+            {topicGroups.map((g) => (
+              <details key={g.slug ?? g.name} className="group rounded-xl border border-line bg-card">
+                <summary className="flex cursor-pointer items-center justify-between px-5 py-3 font-semibold text-ink hover:text-blue">
+                  <span>
+                    {g.slug ? (
+                      <Link href={`/chat/${g.slug}`} className="hover:underline">
+                        {g.name}
+                      </Link>
+                    ) : (
+                      g.name
+                    )}
+                    <span className="ml-2 font-normal text-muted">· {g.items.length}</span>
+                  </span>
+                  <span className="text-muted transition-transform group-open:rotate-180" aria-hidden="true">▼</span>
+                </summary>
+                <div className="flex flex-wrap gap-2 px-4 pb-4 pt-2">
+                  {g.items.map((p) => (
+                    <Link
+                      key={p.slug}
+                      href={`/chat/${p.slug}`}
+                      className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-3 py-1.5 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+                    >
+                      <span aria-hidden="true">{p.icon}</span>
+                      {p.name}
+                    </Link>
+                  ))}
+                </div>
+              </details>
             ))}
           </div>
         </section>
