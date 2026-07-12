@@ -70,11 +70,15 @@ describe("ui primitives", () => {
     fireEvent.click(screen.getByRole("button", { name: /Entrar/i }));
     expect(mockPush).toHaveBeenCalledWith("/webchat?canal=madrid&nick=Pepito");
   });
-  it("NickInput falls back to Invitado when nick is empty", () => {
+  it("NickInput falls back to a unique Invitado-NNNN when nick is empty", () => {
     mockPush.mockClear();
     render(<NickInput canal="barcelona" />);
     fireEvent.click(screen.getByRole("button", { name: /Entrar/i }));
-    expect(mockPush).toHaveBeenCalledWith("/webchat?canal=barcelona&nick=Invitado");
+    // Nick único, no "Invitado" a secas: ese ya está cogido en el IRC y el
+    // widget rebota al formulario de login.
+    expect(mockPush).toHaveBeenCalledWith(
+      expect.stringMatching(/^\/webchat\?canal=barcelona&nick=Invitado-\d{4}$/),
+    );
   });
   it("NickInput navigates on Enter key press", () => {
     mockPush.mockClear();

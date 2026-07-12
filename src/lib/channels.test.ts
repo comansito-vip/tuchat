@@ -6,7 +6,22 @@ describe("resolveChannels", () => {
     expect(resolveChannels("madrid")).toEqual(["madrid", "espana", "amistad", "chatzona"]);
   });
   it("uses México's channels", () => {
-    expect(resolveChannels("mexico")).toEqual(["mexico", "internacional", "amistad", "chatzona"]);
+    expect(resolveChannels("mexico")).toEqual(["mexico", "amistad", "chatzona"]);
+  });
+  it("no mete a los países hispanohablantes en #internacional", () => {
+    for (const slug of ["espana", "mexico", "argentina", "colombia", "cuba", "guinea-ecuatorial"]) {
+      expect(resolveChannels(slug)).not.toContain("internacional");
+    }
+  });
+  it("mantiene #internacional en los países no hispanohablantes", () => {
+    expect(resolveChannels("francia")).toContain("internacional");
+  });
+  it("todas las salas de Estados Unidos entran al canal real #usa", () => {
+    for (const slug of ["estados-unidos", "miami", "nueva-york", "los-angeles", "houston"]) {
+      expect(resolveChannels(slug)).toContain("usa");
+    }
+    // Miami además tiene su propio canal real.
+    expect(resolveChannels("miami")).toContain("miami");
   });
   it("falls back for an unknown slug to itself + amistad + chatzona", () => {
     expect(resolveChannels("xyz")).toEqual(["xyz", "amistad", "chatzona"]);

@@ -20,7 +20,9 @@ export default async function WebchatPage({
   const channels = resolveChannels(canal).filter((c) => c !== "chatzona");
 
   return (
-    <div className="flex flex-col overflow-hidden" style={{ height: "calc(100dvh - 3.5rem)" }}>
+    // 3.5rem del header + 1px de su borde inferior: sin restar el borde, la
+    // página desborda 1px y aparece scroll en una vista que no debe tenerlo.
+    <div className="flex flex-col overflow-hidden" style={{ height: "calc(100dvh - 3.5rem - 1px)" }}>
       {/* Barra de canal */}
       <div className="flex shrink-0 items-center gap-3 bg-slate-900 px-4 py-2.5">
         <span className="text-green-400">

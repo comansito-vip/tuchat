@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import { clsx } from "clsx";
 import { saveNick, useSavedNick } from "@/lib/nick-storage";
+import { generateNick } from "@/lib/nick";
 import { ChatIcon } from "@/components/ui/icons";
 
 type Variant = "default" | "onColor";
@@ -23,7 +24,9 @@ export function NickInput({
   const router = useRouter();
 
   const enter = () => {
-    const n = nick.trim() || "Invitado";
+    // "Invitado" a secas suele estar ya cogido en el IRC: el widget rechaza el
+    // nick y cae al formulario de login. Un Invitado-1234 único entra directo.
+    const n = nick.trim() || generateNick();
     router.push(`/webchat?canal=${canal}&nick=${encodeURIComponent(n)}`);
   };
 
