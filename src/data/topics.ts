@@ -370,7 +370,7 @@ export const TOPICS: Place[] = [
     votes: 615,
     tag: "Popular",
     activity: "Alta",
-    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "nudismo", "sexo_casadas", "sexomadrid", "cornudos", "chatzona"],
+    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "mazmorra_hispano", "nudismo", "sexo_casadas", "sexomadrid", "cornudos", "chatzona"],
     related: ["adultos", "infieles", "encuentros", "amor", "ligar", "lesbianas"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
