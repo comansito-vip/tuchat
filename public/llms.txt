@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (1818 salas propias · ~3300 páginas indexadas), con
+> temáticas (2027 salas propias · ~3500 páginas indexadas), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.

@@ -7,7 +7,7 @@ it("builds an iframe src with nick, channels and show_password_box=false", () =>
   const iframe = container.querySelector("iframe")!;
   const src = iframe.getAttribute("src")!;
   expect(src).toContain("clientId=testclient");
-  expect(src).toContain("channel=#madrid,#espana,#amistad,#chatzona");
+  expect(src).toContain("channel=#madrid,#españa,#amistad,#chatzona");
   expect(src).toMatch(/nick=Invitado-\d{4}/);
   expect(src).toContain("show_password_box=false");
 });

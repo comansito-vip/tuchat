@@ -12,7 +12,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["madrid", "espana", "amistad", "chatzona"],
+    channels: ["madrid", "españa", "amistad", "chatzona"],
     related: ["pozuelo-de-alarcon", "las-rozas", "alcorcon", "getafe", "alcobendas", "torrejon-de-ardoz", "espana", "amistad", "amor"],
     intro:
       "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
@@ -30,7 +30,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["barcelona", "espana", "amistad", "chatzona"],
+    channels: ["barcelona", "españa", "amistad", "chatzona"],
     related: ["badalona", "lhospitalet", "cornella", "sant-cugat", "el-prat-de-llobregat", "sabadell", "espana", "amistad", "viajes"],
     intro:
       "La sala de Barcelona es punto de encuentro para gente del Eixample, Gràcia y los barrios del litoral que quiere charlar, quedar o simplemente matar el rato.",
@@ -48,7 +48,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["valencia", "espana", "amistad", "chatzona"],
+    channels: ["valencia", "españa", "amistad", "chatzona"],
     related: ["paterna", "torrent", "mislata", "burjassot", "sagunto", "gandia", "espana", "amistad", "amor"],
     intro:
       "La paella, la huerta y el olor a azahar en marzo: Valencia tiene su propio carácter, y su sala de chat también. Únete y habla con gente del cap i casal.",
@@ -65,7 +65,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["sevilla", "espana", "amistad", "chatzona"],
+    channels: ["sevilla", "españa", "amistad", "chatzona"],
     related: ["dos-hermanas", "alcala-de-guadaira", "utrera", "ecija", "espana", "amistad", "musica"],
     intro:
       "Aquí se habla con el calor del Sur: desde los que salen de madrugada por Triana hasta los que debaten si la Feria se ha comercializado demasiado.",
@@ -82,7 +82,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["bilbao", "espana", "amistad", "chatzona"],
+    channels: ["bilbao", "españa", "amistad", "chatzona"],
     related: ["madrid", "barcelona", "zaragoza", "sevilla", "espana", "amistad", "deportes"],
     intro:
       "La ría, el Guggenheim y el pintxo de tortilla: Bilbao ha cambiado mucho en treinta años y su gente tiene mucho que contar. Súmate a la conversación.",
@@ -100,7 +100,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["malaga", "espana", "amistad", "chatzona"],
+    channels: ["malaga", "españa", "amistad", "chatzona"],
     related: ["marbella", "fuengirola", "mijas", "torremolinos", "benalmadena", "estepona", "espana", "viajes", "amor"],
     intro:
       "Málaga ya no es solo playa y Picasso: el Soho, el boom tecnológico y miles de nuevos residentes han creado una mezcla que vale la pena explorar en el chat.",
@@ -117,7 +117,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["a-coruna", "espana", "amistad", "chatzona"],
+    channels: ["coruña", "españa", "amistad", "chatzona"],
     related: ["vigo", "madrid", "barcelona", "espana", "amistad", "viajes"],
     intro:
       "Desde la Torre de Hércules hasta el Paseo Marítimo: los coruñeses tienen fama de hablar claro y no andar con rodeos. Entra y compruébalo tú mismo.",
@@ -134,7 +134,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["vigo", "espana", "amistad", "galicia", "chatzona"],
+    channels: ["vigo", "españa", "amistad", "galicia", "chatzona"],
     related: ["a-coruna", "madrid", "barcelona", "espana", "amistad", "deportes"],
     intro:
       "Puerto, conserveras, Celta y lluvia fina: Vigo tiene mucho carácter y gente con ganas de conversación, especialmente después del partido del domingo.",
@@ -151,7 +151,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["zaragoza", "espana", "amistad", "chatzona"],
+    channels: ["zaragoza", "españa", "amistad", "chatzona"],
     related: ["barcelona", "madrid", "bilbao", "valencia", "espana", "amistad", "amor"],
     intro:
       "A medio camino entre Madrid y Barcelona, Zaragoza lleva décadas quejándose de eso, pero los maños tienen orgullo de sobra. Ven a chatear y descúbrelo.",
@@ -169,7 +169,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["alicante", "espana", "amistad", "chatzona"],
+    channels: ["alicante", "españa", "amistad", "chatzona"],
     related: ["elche", "san-vicente-del-raspeig", "torrevieja", "elda", "petrer", "orihuela", "espana", "viajes", "amor"],
     intro:
       "Las hogueras de junio, el Castillo de Santa Bárbara al atardecer y una costa que no para en todo el verano: Alicante tiene mucho de qué hablar.",
@@ -293,7 +293,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["murcia", "espana", "amistad", "chatzona"],
+    channels: ["murcia", "españa", "amistad", "chatzona"],
     related: ["almeria", "alicante", "cartagena-espana", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de Murcia para hablar con gente de la huerta, quedar para unas marineras en Santa Catalina o comentar las Fiestas de Primavera.",
@@ -310,7 +310,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["valladolid", "espana", "amistad", "chatzona"],
+    channels: ["valladolid", "españa", "amistad", "chatzona"],
     related: ["salamanca", "leon", "burgos", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Valladolid para charlar con pucelanos, organizar un tardeo de vinos por la Antigua o comentar la Semana Santa más sobria de Castilla.",
@@ -327,7 +327,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["cordoba", "espana", "amistad", "chatzona"],
+    channels: ["cordoba", "españa", "amistad", "chatzona"],
     related: ["sevilla", "granada", "malaga", "espana", "amistad", "amor"],
     intro:
       "Pásate por el chat de Córdoba: conoce gente entre patios floridos, habla de la Mezquita o queda a tomar salmorejo cuando el calor de agosto no deja pensar.",
@@ -345,7 +345,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["granada", "espana", "amistad", "chatzona"],
+    channels: ["granada", "españa", "amistad", "chatzona"],
     related: ["malaga", "cordoba", "almeria", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Granada para conocer gente, hablar de tapas gratis y quedar a ver el atardecer en el Mirador de San Nicolás con la Alhambra de fondo.",
@@ -362,7 +362,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["gijon", "espana", "amistad", "chatzona"],
+    channels: ["gijon", "españa", "amistad", "chatzona"],
     related: ["oviedo", "santander", "a-coruna", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Gijón para conocer gente de Cimavilla, echar unos culines de sidra en la Ruta o quedar a pasear por San Lorenzo con la marea baja.",
@@ -379,7 +379,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["oviedo", "espana", "amistad", "chatzona"],
+    channels: ["oviedo", "españa", "amistad", "chatzona"],
     related: ["gijon", "santander", "leon", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de Oviedo para charlar con carbayones, quedar de pinchos por el Antiguo o comentar lo limpia que está mientras llueve, como casi siempre.",
@@ -396,7 +396,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["palma", "espana", "amistad", "mallorca", "chatzona"],
+    channels: ["palma", "españa", "amistad", "mallorca", "chatzona"],
     related: ["valencia", "barcelona", "alicante", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Palma para conocer gente de la isla, quedar en un chiringuito de Portixol o tomar algo en Santa Catalina cuando se vacía de turistas.",
@@ -413,7 +413,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["las-palmas", "las_palmas", "espana", "amistad", "canarias", "chatzona"],
+    channels: ["las-palmas", "las_palmas", "españa", "amistad", "canarias", "chatzona"],
     related: ["tenerife", "espana", "amistad", "amor", "viajes"],
     intro:
       "Pásate por el chat de Las Palmas para conocer gente, quedar a surfear o pasear por Las Canteras al atardecer y comentar el carnaval más esperado del año.",
@@ -430,7 +430,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["pamplona", "espana", "amistad", "chatzona"],
+    channels: ["pamplona", "españa", "amistad", "chatzona"],
     related: ["san-sebastian", "bilbao", "zaragoza", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Pamplona para conocer gente, hablar de los Sanfermines y el encierro o quedar a hacer el poteo por el Casco Viejo cualquier día del año.",
@@ -447,7 +447,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["san-sebastian", "espana", "amistad", "chatzona"],
+    channels: ["san-sebastian", "españa", "amistad", "chatzona"],
     related: ["bilbao", "pamplona", "santander", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de San Sebastián para conocer gente, ir de pintxos por la Parte Vieja o quedar a ver las olas romper en el Paseo Nuevo cuando hay galerna.",
@@ -464,7 +464,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["santander", "espana", "amistad", "chatzona"],
+    channels: ["santander", "españa", "amistad", "chatzona"],
     related: ["bilbao", "gijon", "oviedo", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de Santander para conocer gente, quedar a darse un baño en el Sardinero o pasear hasta el Faro de la Magdalena cuando el día sale despejado.",
@@ -481,7 +481,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["cadiz", "espana", "amistad", "chatzona"],
+    channels: ["cadiz", "españa", "amistad", "chatzona"],
     related: ["sevilla", "malaga", "cordoba", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Cádiz para conocer gente, reírte con el cachondeo gaditano y quedar a comer pescaíto frito en La Viña antes de que empiece el Carnaval.",
@@ -498,7 +498,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["almeria", "espana", "amistad", "chatzona"],
+    channels: ["almeria", "españa", "amistad", "chatzona"],
     related: ["granada", "murcia", "malaga", "espana", "amistad", "amor"],
     intro:
       "Pásate por el chat de Almería para conocer gente, quedar a tomar tapas gratis por las Cuatro Calles o escaparte a las calas vírgenes del Cabo de Gata.",
@@ -516,7 +516,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["tenerife", "espana", "amistad", "chatzona"],
+    channels: ["tenerife", "españa", "amistad", "chatzona"],
     related: ["las-palmas", "espana", "amistad", "amor", "viajes"],
     intro:
       "Entra en el chat de Tenerife para conocer gente, quedar a ver el Teide nevado o vivir el Carnaval de Santa Cruz, el más grande después del de Río.",
@@ -533,7 +533,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["salamanca", "espana", "amistad", "chatzona"],
+    channels: ["salamanca", "españa", "amistad", "chatzona"],
     related: ["valladolid", "leon", "madrid", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Salamanca para conocer gente, buscar la rana de la Universidad o salir de marcha por Van Dyck como mandan los cánones estudiantiles.",
@@ -550,7 +550,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["leon", "espana", "amistad", "chatzona"],
+    channels: ["leon", "españa", "amistad", "chatzona"],
     related: ["oviedo", "valladolid", "burgos", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de León para conocer gente, ir de tapas por el Barrio Húmedo o quedar a ver las vidrieras de la Catedral cuando entra el sol de la tarde.",
@@ -567,7 +567,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["burgos", "espana", "amistad", "chatzona"],
+    channels: ["burgos", "españa", "amistad", "chatzona"],
     related: ["valladolid", "leon", "santander", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Burgos para conocer gente, quedar a tomar morcilla y un buen lechazo o pasear junto a la Catedral abrigado, que aquí el frío no perdona.",
@@ -584,7 +584,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["tarragona", "espana", "amistad", "cataluña", "barcelona", "chatzona"],
+    channels: ["tarragona", "españa", "amistad", "cataluña", "barcelona", "chatzona"],
     related: ["barcelona", "girona", "valencia", "espana", "amistad", "amor"],
     intro:
       "Pásate por el chat de Tarragona para conocer gente, bajar al Anfiteatro romano junto al mar o vibrar con los castells en la plaza durante Santa Tecla.",
@@ -601,7 +601,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["girona", "espana", "amistad", "chatzona"],
+    channels: ["girona", "españa", "amistad", "chatzona"],
     related: ["barcelona", "tarragona", "espana", "amistad", "amor", "viajes"],
     intro:
       "Entra en el chat de Girona para conocer gente, pasear por las casas de colores del Onyar o quedar en el Temps de Flors cuando la ciudad se llena de flores.",
@@ -618,7 +618,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["toledo", "espana", "amistad", "chatzona"],
+    channels: ["toledo", "españa", "amistad", "chatzona"],
     related: ["madrid", "cordoba", "espana", "amistad", "amor", "viajes"],
     intro:
       "Métete en el chat de Toledo para conocer gente, perderte por las callejuelas de la judería o comer mazapán y carcamusas con vistas al Tajo desde el mirador.",

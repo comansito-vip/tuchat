@@ -10,7 +10,7 @@ export const COUNTRIES: Place[] = [
     votes: 1980,
     tag: "Popular",
     activity: "Alta",
-    channels: ["espana", "amistad", "chatzona"],
+    channels: ["españa", "amistad", "chatzona"],
     related: ["madrid", "barcelona", "valencia", "sevilla", "bilbao", "malaga", "amistad", "amor"],
     intro:
       "La sala más activa de la red: madrileños que salen del trabajo, valencianos que ya han cenado y canarios con una hora de ventaja. España entera en un chat.",

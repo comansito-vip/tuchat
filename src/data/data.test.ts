@@ -6,7 +6,7 @@ describe("data getters", () => {
     const madrid = getPlace("madrid");
     expect(madrid?.name).toBe("Madrid");
     expect(madrid?.kind).toBe("ciudad");
-    expect(madrid?.channels).toEqual(["madrid", "espana", "amistad", "chatzona"]);
+    expect(madrid?.channels).toEqual(["madrid", "españa", "amistad", "chatzona"]);
     expect(madrid?.related).toContain("getafe");
     expect(madrid?.intro.length).toBeGreaterThan(40);
   });

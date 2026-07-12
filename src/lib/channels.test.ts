@@ -1,9 +1,11 @@
 import { describe, it, expect } from "vitest";
 import { resolveChannels, channelString } from "@/lib/channels";
+import { getCities } from "@/data";
 
 describe("resolveChannels", () => {
   it("uses the place's defined channels for Madrid", () => {
-    expect(resolveChannels("madrid")).toEqual(["madrid", "espana", "amistad", "chatzona"]);
+    // El canal real del IRC lleva tilde (#españa, no #espana) aunque el slug/URL no la lleve.
+    expect(resolveChannels("madrid")).toEqual(["madrid", "españa", "amistad", "chatzona"]);
   });
   it("uses México's channels", () => {
     expect(resolveChannels("mexico")).toEqual(["mexico", "amistad", "chatzona"]);
@@ -22,6 +24,22 @@ describe("resolveChannels", () => {
     }
     // Miami además tiene su propio canal real.
     expect(resolveChannels("miami")).toContain("miami");
+  });
+  it("el canal real de España lleva tilde en TODAS las salas españolas", () => {
+    // Bug real 2026-07-13: el slug ("espana", para la URL) se había colado tal
+    // cual dentro del array de channels también, así que el iframe pedía
+    // #espana en vez de #españa (el canal real del IRC) — casi 900 salas
+    // españolas conectaban al canal equivocado. Recorre las 893 ciudades
+    // reales vía getCities(), no una lista fija, para que no vuelva a colarse.
+    const esp = getCities().filter((c) => c.parentSlug === "espana");
+    expect(esp.length).toBeGreaterThan(800);
+    for (const c of esp) {
+      expect(c.channels, c.slug).toContain("españa");
+      expect(c.channels, c.slug).not.toContain("espana");
+    }
+  });
+  it("A Coruña entra al canal real #coruña, no #a-coruna ni #coruna", () => {
+    expect(resolveChannels("a-coruna")).toContain("coruña");
   });
   it("falls back for an unknown slug to itself + amistad + chatzona", () => {
     expect(resolveChannels("xyz")).toEqual(["xyz", "amistad", "chatzona"]);
