@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, CONTINENTS } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, CONTINENTS } from "@/data";
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {
@@ -44,6 +44,28 @@ describe("data getters", () => {
     const children = getChildren("espana");
     expect(children.length).toBeGreaterThan(0);
     expect(children.every((c) => c.parentSlug === "espana")).toBe(true);
+  });
+  it("getRegions returns the 16 comunidades autónomas con bandera real", () => {
+    const regions = getRegions();
+    expect(regions.length).toBeGreaterThanOrEqual(16);
+    for (const r of regions) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
+  });
+  it("toda ciudad española tiene provincia y comunidad (regionSlug) asignadas, salvo Ceuta/Melilla", () => {
+    const esp = getCities().filter((c) => c.parentSlug === "espana");
+    const sinProvincia = esp.filter((c) => !c.provincia).map((c) => c.slug);
+    const sinRegion = esp
+      .filter((c) => !c.regionSlug && c.slug !== "ceuta" && c.slug !== "melilla")
+      .map((c) => c.slug);
+    expect(sinProvincia).toEqual([]);
+    expect(sinRegion).toEqual([]);
+  });
+  it("getCitiesByRegion devuelve solo ciudades de esa comunidad, y cada regionSlug resuelve a una sala real", () => {
+    const regions = getRegions();
+    for (const r of regions) {
+      const cities = getCitiesByRegion(r.slug);
+      expect(cities.length, r.slug).toBeGreaterThan(0);
+      expect(cities.every((c) => c.regionSlug === r.slug), r.slug).toBe(true);
+    }
   });
   it("getRelated maps slugs to Place objects", () => {
     const related = getRelated(["madrid", "barcelona", "nonexistent"]);

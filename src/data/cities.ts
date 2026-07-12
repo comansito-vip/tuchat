@@ -12,6 +12,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Madrid",
+    regionSlug: "madrid-comunidad",
     channels: ["madrid", "españa", "amistad", "chatzona"],
     related: ["pozuelo-de-alarcon", "las-rozas", "alcorcon", "getafe", "alcobendas", "torrejon-de-ardoz", "espana", "amistad", "amor"],
     intro:
@@ -30,6 +32,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Barcelona",
+    regionSlug: "cataluna",
     channels: ["barcelona", "españa", "amistad", "chatzona"],
     related: ["badalona", "lhospitalet", "cornella", "sant-cugat", "el-prat-de-llobregat", "sabadell", "espana", "amistad", "viajes"],
     intro:
@@ -48,6 +52,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Valencia/València",
+    regionSlug: "comunidad-valenciana",
     channels: ["valencia", "españa", "amistad", "chatzona"],
     related: ["paterna", "torrent", "mislata", "burjassot", "sagunto", "gandia", "espana", "amistad", "amor"],
     intro:
@@ -65,6 +71,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Sevilla",
+    regionSlug: "andalucia",
     channels: ["sevilla", "españa", "amistad", "chatzona"],
     related: ["dos-hermanas", "alcala-de-guadaira", "utrera", "ecija", "espana", "amistad", "musica"],
     intro:
@@ -82,6 +90,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Vizcaya",
+    regionSlug: "euskadi",
     channels: ["bilbao", "españa", "amistad", "chatzona"],
     related: ["madrid", "barcelona", "zaragoza", "sevilla", "espana", "amistad", "deportes"],
     intro:
@@ -100,6 +110,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Málaga",
+    regionSlug: "andalucia",
     channels: ["malaga", "españa", "amistad", "chatzona"],
     related: ["marbella", "fuengirola", "mijas", "torremolinos", "benalmadena", "estepona", "espana", "viajes", "amor"],
     intro:
@@ -117,6 +129,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "A Coruña",
+    regionSlug: "galicia",
     channels: ["coruña", "españa", "amistad", "chatzona"],
     related: ["vigo", "madrid", "barcelona", "espana", "amistad", "viajes"],
     intro:
@@ -134,6 +148,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Pontevedra",
+    regionSlug: "galicia",
     channels: ["vigo", "españa", "amistad", "galicia", "chatzona"],
     related: ["a-coruna", "madrid", "barcelona", "espana", "amistad", "deportes"],
     intro:
@@ -151,6 +167,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Zaragoza",
+    regionSlug: "aragon",
     channels: ["zaragoza", "españa", "amistad", "chatzona"],
     related: ["barcelona", "madrid", "bilbao", "valencia", "espana", "amistad", "amor"],
     intro:
@@ -169,6 +187,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Alicante",
+    regionSlug: "comunidad-valenciana",
     channels: ["alicante", "españa", "amistad", "chatzona"],
     related: ["elche", "san-vicente-del-raspeig", "torrevieja", "elda", "petrer", "orihuela", "espana", "viajes", "amor"],
     intro:
@@ -293,6 +313,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Murcia",
+    regionSlug: "murcia-region",
     channels: ["murcia", "españa", "amistad", "chatzona"],
     related: ["almeria", "alicante", "cartagena-espana", "espana", "amistad", "amor"],
     intro:
@@ -310,6 +332,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Valladolid",
+    regionSlug: "castilla",
     channels: ["valladolid", "españa", "amistad", "chatzona"],
     related: ["salamanca", "leon", "burgos", "espana", "amistad", "amor"],
     intro:
@@ -327,6 +351,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Córdoba",
+    regionSlug: "andalucia",
     channels: ["cordoba", "españa", "amistad", "chatzona"],
     related: ["sevilla", "granada", "malaga", "espana", "amistad", "amor"],
     intro:
@@ -345,6 +371,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Granada",
+    regionSlug: "andalucia",
     channels: ["granada", "españa", "amistad", "chatzona"],
     related: ["malaga", "cordoba", "almeria", "espana", "amistad", "amor"],
     intro:
@@ -362,6 +390,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Asturias",
+    regionSlug: "asturias",
     channels: ["gijon", "españa", "amistad", "chatzona"],
     related: ["oviedo", "santander", "a-coruna", "espana", "amistad", "amor"],
     intro:
@@ -379,6 +409,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Asturias",
+    regionSlug: "asturias",
     channels: ["oviedo", "españa", "amistad", "chatzona"],
     related: ["gijon", "santander", "leon", "espana", "amistad", "amor"],
     intro:
@@ -396,6 +428,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Illes Balears",
+    regionSlug: "baleares",
     channels: ["palma", "españa", "amistad", "mallorca", "chatzona"],
     related: ["valencia", "barcelona", "alicante", "espana", "amistad", "amor"],
     intro:
@@ -413,6 +447,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Las Palmas",
+    regionSlug: "canarias",
     channels: ["las-palmas", "las_palmas", "españa", "amistad", "canarias", "chatzona"],
     related: ["tenerife", "espana", "amistad", "amor", "viajes"],
     intro:
@@ -430,6 +466,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Navarra",
+    regionSlug: "navarra",
     channels: ["pamplona", "españa", "amistad", "chatzona"],
     related: ["san-sebastian", "bilbao", "zaragoza", "espana", "amistad", "amor"],
     intro:
@@ -447,6 +485,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Guipúzcoa",
+    regionSlug: "euskadi",
     channels: ["san-sebastian", "españa", "amistad", "chatzona"],
     related: ["bilbao", "pamplona", "santander", "espana", "amistad", "amor"],
     intro:
@@ -464,6 +504,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Cantabria",
+    regionSlug: "cantabria",
     channels: ["santander", "españa", "amistad", "chatzona"],
     related: ["bilbao", "gijon", "oviedo", "espana", "amistad", "amor"],
     intro:
@@ -481,6 +523,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Cádiz",
+    regionSlug: "andalucia",
     channels: ["cadiz", "españa", "amistad", "chatzona"],
     related: ["sevilla", "malaga", "cordoba", "espana", "amistad", "amor"],
     intro:
@@ -498,6 +542,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Almería",
+    regionSlug: "andalucia",
     channels: ["almeria", "españa", "amistad", "chatzona"],
     related: ["granada", "murcia", "malaga", "espana", "amistad", "amor"],
     intro:
@@ -516,6 +562,8 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Santa Cruz de Tenerife",
+    regionSlug: "canarias",
     channels: ["tenerife", "españa", "amistad", "chatzona"],
     related: ["las-palmas", "espana", "amistad", "amor", "viajes"],
     intro:
@@ -533,6 +581,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Salamanca",
+    regionSlug: "castilla",
     channels: ["salamanca", "españa", "amistad", "chatzona"],
     related: ["valladolid", "leon", "madrid", "espana", "amistad", "amor"],
     intro:
@@ -550,6 +600,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "León",
+    regionSlug: "castilla",
     channels: ["leon", "españa", "amistad", "chatzona"],
     related: ["oviedo", "valladolid", "burgos", "espana", "amistad", "amor"],
     intro:
@@ -567,6 +619,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Burgos",
+    regionSlug: "castilla",
     channels: ["burgos", "españa", "amistad", "chatzona"],
     related: ["valladolid", "leon", "santander", "espana", "amistad", "amor"],
     intro:
@@ -584,6 +638,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Tarragona",
+    regionSlug: "cataluna",
     channels: ["tarragona", "españa", "amistad", "cataluña", "barcelona", "chatzona"],
     related: ["barcelona", "girona", "valencia", "espana", "amistad", "amor"],
     intro:
@@ -601,6 +657,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Girona",
+    regionSlug: "cataluna",
     channels: ["girona", "españa", "amistad", "chatzona"],
     related: ["barcelona", "tarragona", "espana", "amistad", "amor", "viajes"],
     intro:
@@ -618,6 +676,8 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
+    provincia: "Toledo",
+    regionSlug: "castilla",
     channels: ["toledo", "españa", "amistad", "chatzona"],
     related: ["madrid", "cordoba", "espana", "amistad", "amor", "viajes"],
     intro:

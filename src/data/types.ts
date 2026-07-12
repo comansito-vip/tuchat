@@ -13,6 +13,8 @@ export interface Place {
   activity: "Alta" | "Media" | "Baja";
   parentName?: string;   // "España" (for cities)
   parentSlug?: string;   // "espana"
+  provincia?: string;    // "Madrid" — división administrativa real (solo ciudades españolas por ahora)
+  regionSlug?: string;   // "madrid-comunidad" — slug de la sala de comunidad autónoma (topics-regiones.ts), para agrupar
   channels: string[];    // ["madrid","espana","amistad","chatzona"]
   related: string[];     // related slugs
   intro: string;         // human, location-specific paragraph

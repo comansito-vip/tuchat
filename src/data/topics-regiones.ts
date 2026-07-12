@@ -198,4 +198,70 @@ export const TOPICS_REGIONES: Place[] = [
     about:
       "Cantabria cabe entera en un mapa pequeño pero mete dentro playa, montaña y ciudad sin que nadie tenga que viajar mucho para encontrar las tres cosas el mismo día. Santander concentra a media región entre El Sardinero y la bahía, pero los pueblos del interior como Santillana del Mar o Potes, ya casi pegado a los Picos de Europa, guardan un ritmo de vida completamente distinto al de la capital. La sobaos, el cocido montañés y el queso picón de Tresviso se defienden con el mismo cariño con el que se presume el mar Cantábrico, más frío y menos fotogénico que el Mediterráneo pero con un carácter que sus habitantes no cambiarían por nada. La lluvia frecuente y el verde constante son marca de la casa, no motivo de queja, y el acento cántabro —cercano al asturiano en algunas zonas— se distingue enseguida de un castellano de meseta. En esta sala se cruzan santanderinos, gente de los valles del interior y cántabros que emigraron pero siguen defendiendo su tierra como la mejor combinación de mar y montaña de España. Trato tranquilo, hospitalidad discreta y ese orgullo norteño que no hace falta subrayar.",
   },
+  {
+    slug: "madrid-comunidad",
+    name: "Comunidad de Madrid",
+    kind: "tematica",
+    icon: "🐻",
+    flagSrc: "/flags/regiones/madrid.png",
+    users: 260,
+    votes: 380,
+    tag: "Popular",
+    activity: "Alta",
+    channels: ["madrid", "amistad", "chatzona"],
+    related: ["madrid", "alcala-de-henares", "getafe", "mostoles", "amor", "ligar"],
+    intro:
+      "La capital y su corona: de Alcalá a Móstoles, de Getafe a la sierra de Guadarrama, toda la Comunidad de Madrid en una sola sala.",
+    about:
+      "Aquí no solo escribe quien vive dentro de la M-30: la Comunidad de Madrid es capital y corona metropolitana a la vez, y en esta sala se cruzan tanto el que vive a dos paradas de Sol como el que hace cuarenta minutos de Cercanías cada mañana desde Alcalá de Henares, Getafe, Móstoles o Alcorcón. Se discute de fútbol —Real Madrid y Atleti dividen la sala en dos bandos que no se ponen de acuerdo en nada más— y del precio del alquiler con la misma intensidad, porque en Madrid ambos temas queman igual. La sierra de Guadarrama queda a una hora para quien busca aire fresco en agosto, y los pueblos del norte como Manzanares el Real presumen de un ritmo que la capital ya no tiene. Conviven madrileños de toda la vida, gente que llegó de otras comunidades y del resto del mundo y ya no se va, y quien vive en la periferia pero se sigue sintiendo tan madrileño como el que más. Ritmo rápido, acento sin complejos y esa costumbre tan de aquí de hablar alto sin darse cuenta.",
+  },
+  {
+    slug: "comunidad-valenciana",
+    name: "Comunitat Valenciana",
+    kind: "tematica",
+    icon: "🎇",
+    flagSrc: "/flags/regiones/valencia.png",
+    users: 210,
+    votes: 310,
+    tag: "Tendencia",
+    activity: "Alta",
+    channels: ["valencia", "amistad", "chatzona"],
+    related: ["valencia", "alicante", "castellon", "elche", "amor", "musica"],
+    intro:
+      "Tres provincias, un Mediterráneo y una fiesta que no cabe en un calendario: la Comunitat Valenciana entra al chat entre fallas, hogueras y paella de verdad.",
+    about:
+      "Valencia, Alicante y Castellón forman una comunidad que se reconoce en la costa pero que discute sin descanso sobre quién tiene razón: si la paella lleva marisco o no (no lleva, dicen los de aquí, y lo defienden con vehemencia), si las Fallas de marzo ganan a las Hogueras de San Juan de junio, y si el mejor arroz sale en la Albufera o más al sur. El valenciano se mezcla con el castellano según el pueblo y según quien escriba, sin que eso sea nunca un problema. Se cruzan valencianos de la huerta, alicantinos de la Costa Blanca y castellonenses de El Maestrat, más los que se fueron a Madrid o Barcelona y vuelven cada fiesta mayor sin falta. El calor de julio y agosto es tema fijo, la traca final de cualquier celebración también, y nadie se libra de defender su pueblo frente al de al lado. Fiesta, ruido de petardos y un mar que nunca queda lejos.",
+  },
+  {
+    slug: "murcia-region",
+    name: "Región de Murcia",
+    kind: "tematica",
+    icon: "🍑",
+    flagSrc: "/flags/regiones/murcia.png",
+    users: 95,
+    votes: 145,
+    activity: "Media",
+    channels: ["murcia", "amistad", "chatzona"],
+    related: ["cartagena-espana", "lorca", "molina-de-segura", "amor", "amistad"],
+    intro:
+      "Huerta, Mar Menor y un sol que no da tregua: la Región de Murcia entra al chat con acento propio y verdura de exportación.",
+    about:
+      "Murcia es uniprovincial, así que aquí no hace falta discutir capitalidad: todo el que escribe es de la Región, sea de la huerta murciana, de Cartagena y su puerto militar, de Lorca o de los pueblos del Altiplano. El Mar Menor es tema recurrente, entre el orgullo de tenerlo cerca y la preocupación real por su estado, y la huerta se defiende como la que alimenta media España en verduras aunque poca gente fuera lo sepa. El pan y aceite de media mañana, el caldero de arroz marinero y el zaraich no se explican, se dan por sabidos. El acento murciano, con su ecolalia particular y su ritmo rápido, se reconoce al segundo mensaje, y hay quien lo suaviza fuera de casa y lo recupera entero en cuanto entra aquí. Calor de verdad desde mayo hasta octubre, gente cercana y un sentido del humor que no se anda con rodeos.",
+  },
+  {
+    slug: "la-rioja-comunidad",
+    name: "La Rioja",
+    kind: "tematica",
+    icon: "🍇",
+    flagSrc: "/flags/regiones/rioja.png",
+    users: 62,
+    votes: 95,
+    activity: "Baja",
+    channels: ["rioja", "amistad", "chatzona"],
+    related: ["logrono", "amor", "amistad", "espana"],
+    intro:
+      "La comunidad más pequeña de España y una de las más conocidas fuera: La Rioja entra al chat entre viñedos y el Ebro de fondo.",
+    about:
+      "Ser de La Rioja significa explicar fuera, tarde o temprano, que la comunidad y el vino comparten nombre pero que aquí se vive de mucho más que de las bodegas, aunque las bodegas manden en la economía y en el paisaje. Logroño concentra a buena parte de la comunidad, pero pueblos como Haro, con su famosa Batalla del Vino cada junio, o Nájera, antigua capital del Reino de Navarra, tienen una identidad que no se disuelve en la capital. El Ebro cruza la región de punta a punta, los viñedos ocupan el paisaje hasta donde alcanza la vista, y el pincho de tortilla de patata en cualquier bar del casco viejo de Logroño se defiende como institución. Es una de las comunidades más pequeñas de España, y eso aquí no es un problema sino una gracia: todo el mundo conoce a alguien en común, para bien y para mal. Calma, cercanía y ese orgullo tranquilo de venir de un sitio pequeño que el resto del mundo reconoce por su vino.",
+  },
 ];

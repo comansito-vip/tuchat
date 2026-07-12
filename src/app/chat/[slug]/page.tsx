@@ -15,6 +15,9 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { RoomCard } from "@/components/home/RoomCard";
 import { RoomGrid } from "@/components/ui/RoomGrid";
+import { RegionGroupedGrid } from "@/components/ui/RegionGroupedGrid";
+import { ProvinciaGroupedGrid } from "@/components/ui/ProvinciaGroupedGrid";
+import { getRegions, getCitiesByRegion } from "@/data";
 import { RoomHero } from "@/components/room/RoomHero";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
@@ -90,6 +93,15 @@ export default async function ChatRoomPage({
   ]);
   const childrenTitle =
     place.kind === "pais" ? `Ciudades de ${place.name}` : `Más salas de ${place.name}`;
+  // España: 893 ciudades reales, agrupadas por comunidad autónoma (con su
+  // bandera) en vez de una lista plana. El resto de países ya tienen pocas
+  // ciudades y no lo necesitan.
+  const groupByRegion = place.slug === "espana" && children.some((c) => c.regionSlug);
+  // Página de una comunidad autónoma (topics-regiones.ts): sus ciudades no
+  // cuelgan de ella por parentSlug (todas cuelgan de "espana"), así que se
+  // buscan aparte y se agrupan por provincia.
+  const isRegion = getRegions().some((r) => r.slug === place.slug);
+  const regionCities = isRegion ? getCitiesByRegion(place.slug) : [];
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -237,7 +249,19 @@ export default async function ChatRoomPage({
       {children.length > 0 && (
         <section className="mt-10">
           <SectionTitle>{childrenTitle}</SectionTitle>
-          <RoomGrid places={children} />
+          {groupByRegion ? (
+            <RegionGroupedGrid cities={children} />
+          ) : (
+            <RoomGrid places={children} />
+          )}
+        </section>
+      )}
+
+      {/* Ciudades de esta comunidad autónoma, agrupadas por provincia */}
+      {isRegion && regionCities.length > 0 && (
+        <section className="mt-10">
+          <SectionTitle>Ciudades de {place.name}</SectionTitle>
+          <ProvinciaGroupedGrid cities={regionCities} />
         </section>
       )}
 

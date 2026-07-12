@@ -74,5 +74,15 @@ export function getStats() {
 export function getChildren(slug: string): Place[] {
   return ALL.filter((p) => p.parentSlug === slug);
 }
+// Comunidades autónomas españolas (topics-regiones.ts): para agrupar el listado
+// de ciudades de /chat/espana y para las cabeceras de /chat/{comunidad}.
+export function getRegions(): Place[] {
+  return TOPICS_REGIONES;
+}
+// Ciudades de una comunidad autónoma española (no usan parentSlug para esto,
+// las ciudades cuelgan de "espana"; regionSlug es el vínculo real).
+export function getCitiesByRegion(regionSlug: string): Place[] {
+  return ALL_CITIES.filter((c) => c.regionSlug === regionSlug);
+}
 export * from "./types";
 export { CONTINENTS } from "./countries";
