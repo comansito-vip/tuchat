@@ -174,17 +174,29 @@ describe("SearchInput", () => {
   });
   it("input has aria-label Buscar", () => {
     render(<SearchInput />);
-    expect(screen.getByRole("textbox", { name: /Buscar/i })).toBeInTheDocument();
+    // role="combobox" (no "textbox"): permite anunciar las sugerencias en vivo.
+    expect(screen.getByRole("combobox", { name: /Buscar/i })).toBeInTheDocument();
   });
   it("form has role=search landmark", () => {
     render(<SearchInput />);
     expect(screen.getByRole("search")).toBeInTheDocument();
   });
-  it("submitting navigates to /chat?q=<query>", () => {
+  it("submitting with no matching room falls back to /chat?q=<query>", () => {
     mockPush.mockClear();
     render(<SearchInput />);
-    fireEvent.change(screen.getByRole("textbox"), { target: { value: "Madrid" } });
+    fireEvent.change(screen.getByRole("combobox"), { target: { value: "Madrid" } });
     fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
     expect(mockPush).toHaveBeenCalledWith("/chat?q=Madrid");
+  });
+  it("shows live suggestions while typing and submitting goes straight to the top match", () => {
+    mockPush.mockClear();
+    render(<SearchInput rooms={[
+      { slug: "madrid", name: "Madrid", icon: "🇪🇸", flagName: "España", users: 842 },
+      { slug: "barcelona", name: "Barcelona", icon: "🇪🇸", flagName: "España", users: 710 },
+    ]} />);
+    fireEvent.change(screen.getByRole("combobox"), { target: { value: "Madrid" } });
+    expect(screen.getByRole("link", { name: /Madrid/i })).toHaveAttribute("href", "/chat/madrid");
+    fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
+    expect(mockPush).toHaveBeenCalledWith("/chat/madrid");
   });
 });

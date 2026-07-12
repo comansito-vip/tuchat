@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { normalize } from "@/lib/slug";
 import { Flag } from "@/components/ui/Flag";
@@ -20,7 +20,6 @@ export interface SearchRoom {
 // soportar enlaces compartibles desde el buscador de la home, y se sincroniza de
 // vuelta con replace() para que la URL siga reflejando la búsqueda activa.
 export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
-  const router = useRouter();
   const params = useSearchParams();
   const [q, setQ] = useState(params.get("q") ?? "");
 
@@ -28,12 +27,6 @@ export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
   const results = query
     ? rooms.filter((r) => normalize(r.name).includes(normalize(query))).slice(0, 60)
     : [];
-
-  function update(value: string) {
-    setQ(value);
-    const next = value.trim();
-    router.replace(next ? `/chat?q=${encodeURIComponent(next)}` : "/chat", { scroll: false });
-  }
 
   return (
     <div className="max-w-lg">
@@ -44,7 +37,7 @@ export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
       >
         <input
           value={q}
-          onChange={(e) => update(e.target.value)}
+          onChange={(e) => setQ(e.target.value)}
           placeholder="Buscar ciudad, país o temática"
           aria-label="Buscar sala"
           className="w-full bg-transparent px-3 py-1.5 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
