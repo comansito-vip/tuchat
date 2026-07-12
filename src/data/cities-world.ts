@@ -499,7 +499,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["houston", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["houston", "usa", "amistad", "chatzona"],
     related: ["dallas", "san-antonio", "chicago", "estados-unidos", "latinos", "musica", "amor"],
     intro:
       "H-Town late a ritmo mexicano y centroamericano: aquí la mitad de la ciudad tiene familia en Guadalajara, San Pedro Sula o Culiacán.",
@@ -516,7 +516,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["chicago", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["chicago", "usa", "amistad", "chatzona"],
     related: ["houston", "san-antonio", "nueva-york", "estados-unidos", "latinos", "musica", "amistad"],
     intro:
       "Entre Pilsen y Humboldt Park, Chicago mezcla el español mexicano con el orgullo boricua, todo bajo un frío que no perdona ni en abril.",
@@ -533,7 +533,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["san-antonio", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["san-antonio", "usa", "amistad", "chatzona"],
     related: ["houston", "dallas", "phoenix", "estados-unidos", "latinos", "musica"],
     intro:
       "San Antonio no importó lo mexicano: lo lleva desde antes de ser Texas, con el conjunto tejano sonando tan fuerte como ganan los Spurs.",
@@ -550,7 +550,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["phoenix", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["phoenix", "usa", "amistad", "chatzona"],
     related: ["houston", "dallas", "los-angeles", "estados-unidos", "latinos", "amor"],
     intro:
       "En Phoenix el termómetro pasa de los 45 grados en julio, y la comunidad sonorense hace que el español suene tan fuerte como el aire acondicionado.",
@@ -567,7 +567,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["dallas", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["dallas", "usa", "amistad", "chatzona"],
     related: ["houston", "san-antonio", "chicago", "estados-unidos", "latinos", "amor"],
     intro:
       "Dallas ya no es solo vaqueros y petróleo: en Oak Cliff y Pleasant Grove el español mexicano y centroamericano se ha vuelto el idioma de barrio.",
@@ -585,7 +585,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["orlando", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["orlando", "usa", "amistad", "chatzona"],
     related: ["miami", "houston", "estados-unidos", "latinos", "musica", "amor"],
     intro:
       "Después del huracán María, medio Puerto Rico se mudó a Orlando: hoy el español boricua suena más fuerte que en cualquier parque temático.",
@@ -4845,7 +4845,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["filadelfia", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["filadelfia", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "nueva-york", "orlando", "musica", "historia", "amistad"],
     intro:
       "Cuna de la independencia, cheesesteak a medianoche y el corazón boricua latiendo en El Centro de Oro.",
@@ -4862,7 +4862,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["san-diego", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["san-diego", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "los-angeles", "phoenix", "playas", "amistad", "musica"],
     intro:
       "A un paso de Tijuana: tacos de verdad, olas en Pacific Beach y ese sol que nunca falla.",
@@ -4879,7 +4879,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["san-jose-california", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["san-jose-california", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "los-angeles", "san-antonio", "cultura", "amistad", "musica"],
     intro:
       "En pleno Silicon Valley, pero con taquería en cada cuadra y raíces mexicanas bien hondas.",
@@ -4896,7 +4896,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["austin", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["austin", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "houston", "dallas", "san-antonio", "musica", "amistad"],
     intro:
       "Capital de Texas y del directo: guitarras en la Sixth Street, tacos breakfast y lema de raros a mucha honra.",
@@ -4913,7 +4913,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["jacksonville", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["jacksonville", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "orlando", "miami", "playas", "amistad", "naturaleza"],
     intro:
       "La ciudad más extensa de EE.UU. continental: playas del Atlántico, el río St. Johns y calma norteña de Florida.",
@@ -4930,7 +4930,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["fort-worth", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["fort-worth", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "dallas", "houston", "san-antonio", "cultura", "amistad"],
     intro:
       "Donde el Oeste empieza de verdad: arreo de ganado en los Stockyards, botas y sabor tex-mex, pegadita a Dallas.",
@@ -4947,7 +4947,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["columbus", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["columbus", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "chicago", "nueva-york", "deportes", "amistad", "cultura"],
     intro:
       "Capital de Ohio y ciudad universitaria: los sábados todo se pinta de escarlata por los Buckeyes.",
@@ -4964,7 +4964,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["indianapolis", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["indianapolis", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "chicago", "columbus", "deportes", "amistad", "musica"],
     intro:
       "Capital de Indiana y templo de la velocidad: cada mayo rugen las 500 millas en el óvalo más famoso.",
@@ -4981,7 +4981,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["charlotte", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["charlotte", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "miami", "orlando", "amistad", "deportes", "musica"],
     intro:
       "La capital bancaria del sur y uno de los destinos latinos que más rápido crece en todo el país.",
@@ -4998,7 +4998,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["san-francisco", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["san-francisco", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "los-angeles", "san-antonio", "cultura", "amistad", "historia"],
     intro:
       "Golden Gate entre la niebla, tranvías cuesta arriba y murales en cada esquina del Mission latino.",
@@ -5015,7 +5015,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["seattle", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["seattle", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "san-francisco", "los-angeles", "musica", "naturaleza", "amistad"],
     intro:
       "Lluvia fina, café en cada esquina y la cuna del grunge bajo la aguja del Space Needle.",
@@ -5032,7 +5032,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["denver", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["denver", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "phoenix", "houston", "naturaleza", "amistad", "deportes"],
     intro:
       "A una milla exacta de altura, con las Rocosas al fondo y raíces mexicanas de más de un siglo.",
@@ -5049,7 +5049,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["washington", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["washington", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "nueva-york", "miami", "historia", "cultura", "amistad"],
     intro:
       "La capital de los monumentos y del Mall, con la mayor comunidad salvadoreña del país en sus calles.",
@@ -5066,7 +5066,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["nashville", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["nashville", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "atlanta", "dallas", "musica", "amistad", "cultura"],
     intro:
       "Music City: guitarras y sombreros en Broadway, el country en el alma y birria abriéndose paso.",
@@ -5083,7 +5083,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["el-paso", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["el-paso", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "san-antonio", "houston", "phoenix", "cultura", "amistad"],
     intro:
       "Pegada a Ciudad Juárez y mayoría hispana: aquí el español manda y el tex-mex es religión.",
@@ -5100,7 +5100,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["boston", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["boston", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "nueva-york", "filadelfia", "historia", "amistad", "deportes"],
     intro:
       "Historia colonial, universidades de renombre y la comunidad dominicana marcando el ritmo de la ciudad.",
@@ -5117,7 +5117,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["las-vegas", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["las-vegas", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "phoenix", "los-angeles", "musica", "amistad", "deportes"],
     intro:
       "Luces del Strip que nunca duermen, espectáculos de otro mundo y desierto de Mojave a la vuelta.",
@@ -5134,7 +5134,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["atlanta", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["atlanta", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "miami", "charlotte", "musica", "amistad", "cultura"],
     intro:
       "Capital del hip-hop y del nuevo Sur, con Buford Highway convertida en corredor latino imparable.",
@@ -5151,7 +5151,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["albuquerque", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["albuquerque", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "phoenix", "el-paso", "cultura", "naturaleza", "amistad"],
     intro:
       "Herencia hispana e indígena junto a la Ruta 66, y cada octubre el cielo lleno de globos.",
@@ -5168,7 +5168,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["sacramento", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["sacramento", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "san-francisco", "los-angeles", "cocina", "amistad", "cultura"],
     intro:
       "Capital de California y \"farm-to-fork\": huertas del valle, historia de la fiebre del oro y mucha diversidad.",
@@ -5185,7 +5185,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["fresno", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["fresno", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "los-angeles", "sacramento", "cocina", "naturaleza", "amistad"],
     intro:
       "Corazón agrícola del valle central: aquí se cosecha media California y el español suena en cada surco.",
@@ -5202,7 +5202,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["tucson", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["tucson", "usa", "amistad", "chatzona"],
     related: ["estados-unidos", "phoenix", "el-paso", "cocina", "naturaleza", "amistad"],
     intro:
       "Desierto de Sonora, herencia mexicana profunda y la primera ciudad gastronómica del país por la UNESCO.",

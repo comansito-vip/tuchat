@@ -1412,7 +1412,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["miami", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["miami", "usa", "amistad", "chatzona"],
     related: ["nueva-york", "la-habana", "cuba", "estados-unidos", "amor", "amistad", "musica"],
     intro:
       "En Miami el español no es segundo idioma: es el que suena en la cola del cafecito de Little Havana y en la radio del carro camino a la playa.",
@@ -1430,7 +1430,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["nueva-york", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["nueva-york", "usa", "amistad", "chatzona"],
     related: ["miami", "los-angeles", "san-juan", "estados-unidos", "amistad", "musica", "ligar"],
     intro:
       "Del español dominicano de Washington Heights al puertorriqueño del Bronx, Nueva York habla nuestro idioma en cada vagón del subway.",
@@ -1447,7 +1447,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["los-angeles", "estados-unidos", "usa", "amistad", "chatzona"],
+    channels: ["los-angeles", "usa", "amistad", "chatzona"],
     related: ["miami", "nueva-york", "ciudad-de-mexico", "mexico", "estados-unidos", "amistad", "amor"],
     intro:
       "En Los Ángeles el español tiene sabor chilango y norteño: se escucha en los taco trucks de Boyle Heights y en los murales de East LA.",

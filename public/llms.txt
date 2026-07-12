@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (1236 salas propias · ~2100 páginas indexadas), con
+> temáticas (1281 salas propias · ~2150 páginas indexadas), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.
@@ -14,12 +14,17 @@
 - Por país: [España](/chat/espana), [México](/chat/mexico), [Argentina](/chat/argentina), [Colombia](/chat/colombia), [Venezuela](/chat/venezuela), y 25 países más (índice completo en [/chat](/chat)).
 - Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (807 ciudades: cobertura de prácticamente todos los municipios españoles de más de 20.000 habitantes —las 17 comunidades autónomas, con todas las áreas metropolitanas—, capitales de provincia/estado en toda Hispanoamérica, grandes urbes latinoamericanas y ciudades del mundo hispano, el conurbano y el interior del Cono Sur, el Caribe hispano y una amplia diáspora en EE.UU. y Canadá).
 - Por temática: [Amor](/chat/amor), [Amistad](/chat/amistad), [Ligar](/chat/ligar), [LGTBI](/chat/lgtbi), [Música](/chat/musica), [Videojuegos](/chat/videojuegos)…
+- Por franja de edad: escalera abierta ([Mayores de 20](/chat/mas-de-20), [+25](/chat/mas-de-25), [+30](/chat/mas-de-30), [+40](/chat/mas-de-40), [+50](/chat/mas-de-50), [+60](/chat/mas-de-60)) y franjas cerradas ([De 18 a 25](/chat/de-18-a-25), [30-40](/chat/de-30-a-40), [40-50](/chat/de-40-a-50), [50-60](/chat/de-50-a-60), [60-70](/chat/de-60-a-70)).
 
 ## Verticales temáticos
 - Esoterismo: [Tarot](/tarot) (carta del día y significado de los arcanos), y salas de [esoterismo](/chat/esoterismo), [videncia](/chat/videncia), [astrología](/chat/astrologia).
 - Anime: [hub de anime](/anime) y salas por serie ([Naruto](/chat/naruto), [Dragon Ball](/chat/dragon-ball), [One Piece](/chat/one-piece)…).
 - Deportes: [hub de deportes](/deportes), [resultados y clasificaciones](/resultados/laliga) (LaLiga, Premier, Serie A, Liga MX y más) y salas por equipo ([Real Madrid](/chat/real-madrid), [FC Barcelona](/chat/fc-barcelona), [Boca Juniors](/chat/boca-juniors)…).
-- LGTBI: [Chueca](/chat/chueca), [Gay](/chat/gay), [Trans](/chat/trans), [Gay Madrid](/chat/gay-madrid).
+- LGTBI: [Chueca](/chat/chueca), [Gay](/chat/gay), [Trans](/chat/trans), [Queer](/chat/queer), [Gay Madrid](/chat/gay-madrid).
+- Motor: [hub de motor](/chat/motor), [coches](/chat/coches), [motos](/chat/motos), [vehículos eléctricos](/chat/vehiculos-electricos), [Tesla](/chat/tesla), [mecánica](/chat/mecanica).
+- Ocio y humor: [hub de ocio](/chat/ocio), [humor](/chat/humor), [memes](/chat/memes), [chistes](/chat/chistes), [encuestas](/chat/encuestas), [adivinanzas](/chat/adivinanzas).
+- Salud y bienestar: [salud](/chat/salud), [yoga](/chat/yoga), [meditación](/chat/meditacion), [nutrición](/chat/nutricion), [dietas](/chat/dietas), [psicología](/chat/psicologia), [medicina](/chat/medicina).
+- Lifestyle: [moda](/chat/moda), [belleza](/chat/belleza), [decoración](/chat/decoracion), [bricolaje](/chat/bricolaje), [compras](/chat/compras).
 - Comunidad latina: [Latinos](/chat/latinos), [Latinoamérica](/chat/latinoamerica), [Hispanos](/chat/hispanos).
 
 ## Otras secciones
