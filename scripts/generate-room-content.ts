@@ -226,6 +226,11 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
     call: (key, room) => callOpenAICompatible("https://api.mistral.ai/v1", "mistral-large-latest", key, room),
   },
   {
+    name: "Cerebras",
+    envVar: "CEREBRAS_API_KEYS",
+    call: (key, room) => callOpenAICompatible("https://api.cerebras.ai/v1", "llama-3.3-70b", key, room),
+  },
+  {
     name: "NVIDIA",
     envVar: "NVIDIA_API_KEYS",
     call: (key, room) =>
