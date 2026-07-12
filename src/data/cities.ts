@@ -134,7 +134,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["vigo", "espana", "amistad", "chatzona"],
+    channels: ["vigo", "espana", "amistad", "galicia", "chatzona"],
     related: ["a-coruna", "madrid", "barcelona", "espana", "amistad", "deportes"],
     intro:
       "Puerto, conserveras, Celta y lluvia fina: Vigo tiene mucho carácter y gente con ganas de conversación, especialmente después del partido del domingo.",
@@ -396,7 +396,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["palma", "espana", "amistad", "chatzona"],
+    channels: ["palma", "espana", "amistad", "mallorca", "chatzona"],
     related: ["valencia", "barcelona", "alicante", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Palma para conocer gente de la isla, quedar en un chiringuito de Portixol o tomar algo en Santa Catalina cuando se vacía de turistas.",
@@ -413,7 +413,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["las-palmas", "las_palmas", "espana", "amistad", "chatzona"],
+    channels: ["las-palmas", "las_palmas", "espana", "amistad", "canarias", "chatzona"],
     related: ["tenerife", "espana", "amistad", "amor", "viajes"],
     intro:
       "Pásate por el chat de Las Palmas para conocer gente, quedar a surfear o pasear por Las Canteras al atardecer y comentar el carnaval más esperado del año.",
@@ -584,7 +584,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["tarragona", "espana", "amistad", "chatzona"],
+    channels: ["tarragona", "espana", "amistad", "cataluña", "barcelona", "chatzona"],
     related: ["barcelona", "girona", "valencia", "espana", "amistad", "amor"],
     intro:
       "Pásate por el chat de Tarragona para conocer gente, bajar al Anfiteatro romano junto al mar o vibrar con los castells en la plaza durante Santa Tecla.",
@@ -636,7 +636,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["guadalajara", "jalisco", "mexico", "amistad", "chatzona"],
+    channels: ["guadalajara", "jalisco", "mexico", "amistad", "mexico_vip", "chatzona"],
     related: ["ciudad-de-mexico", "monterrey", "puebla", "mexico", "amistad", "musica"],
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",
@@ -653,7 +653,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["monterrey", "nuevo_leon", "mexico", "amistad", "chatzona"],
+    channels: ["monterrey", "nuevo_leon", "mexico", "amistad", "mexico_vip", "chatzona"],
     related: ["guadalajara", "ciudad-de-mexico", "tijuana", "mexico", "amistad", "deportes"],
     intro:
       "Bajo el Cerro de la Silla, los regios entran directo al grano y con el carbón ya prendido. Aquí se habla recio, se trabaja duro y la carne asada no se discute.",
@@ -670,7 +670,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["puebla", "mexico", "amistad", "chatzona"],
+    channels: ["puebla", "mexico", "amistad", "mexico_vip", "chatzona"],
     related: ["ciudad-de-mexico", "guadalajara", "monterrey", "mexico", "amistad", "cocina"],
     intro:
       "Ciudad de talavera, iglesias barrocas y mole que tarda un día entero en cocinarse. En Puebla se conversa con educación angelopolitana y mucha sazón.",

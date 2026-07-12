@@ -338,7 +338,7 @@ export const TOPICS: Place[] = [
     votes: 750,
     tag: "Popular",
     activity: "Alta",
-    channels: ["adultos", "adultos-latinos", "maduritos", "mas_de_30", "mas_de_40", "chatzona"],
+    channels: ["adultos", "adultos-latinos", "maduritos", "mas_de_30", "mas_de_40", "parejas", "cornudos", "chatzona"],
     related: ["erotico", "infieles", "encuentros", "ligar", "lgtbi", "lesbianas"],
     intro:
       "Espacio para mayores de edad sin filtros: conversaciones de adultos, contactos y todo lo que no cabe en las salas generales. Sólo para mayores de 18.",
@@ -370,7 +370,7 @@ export const TOPICS: Place[] = [
     votes: 615,
     tag: "Popular",
     activity: "Alta",
-    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "chatzona"],
+    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "nudismo", "sexo_casadas", "sexomadrid", "cornudos", "chatzona"],
     related: ["adultos", "infieles", "encuentros", "amor", "ligar", "lesbianas"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
@@ -417,7 +417,7 @@ export const TOPICS: Place[] = [
     users: 220,
     votes: 345,
     activity: "Media",
-    channels: ["lesbianas", "lesbianas_spain", "lesbianas_mexicanas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis", "lescontactos", "chatzona"],
+    channels: ["lesbianas", "lesbianas_spain", "lesbianas_mexicanas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis", "lescontactos", "el_rincon_les", "chatzona"],
     related: ["lgtbi", "adultos", "erotico", "encuentros", "amor", "madrid"],
     intro:
       "Espacio propio para mujeres que buscan mujeres: amistad, contactos, relaciones y conversación entre lesbianas y bisexuales sin necesidad de explicar nada.",

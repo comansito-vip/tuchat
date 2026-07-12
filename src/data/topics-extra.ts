@@ -980,7 +980,7 @@ const RAW: Place[] = [
     votes: 472,
     tag: "Popular",
     activity: "Alta",
-    channels: ["gay", "lgtbi", "chatzona"],
+    channels: ["gay", "lgtbi", "chueca", "de_ambiente", "chatzona"],
     related: ["lgtbi", "chueca", "bisexuales", "gay-madrid", "amistad", "ligar"],
     intro:
       "Chat gay sin etiquetas para hombres que buscan conversación abierta, amistad y conocer gente. Ambiente cercano, sin registro y activo a cualquier hora.",
@@ -1011,7 +1011,7 @@ const RAW: Place[] = [
     users: 162,
     votes: 241,
     activity: "Media",
-    channels: ["trans", "lgtbi", "chatzona"],
+    channels: ["trans", "lgtbi", "travestis", "de_ambiente", "chatzona"],
     related: ["lgtbi", "gay", "bisexuales", "amistad", "amor", "ligar"],
     intro:
       "Chat trans y no binario: comunidad segura para personas trans y aliadas donde hablar, acompañarse y conocer gente con respeto. Acceso gratis sin registro.",
@@ -1044,7 +1044,7 @@ const RAW: Place[] = [
     votes: 478,
     tag: "Popular",
     activity: "Alta",
-    channels: ["latinos", "latinchat", "amistad", "chatzona"],
+    channels: ["latinos", "latinchat", "amistad", "latinoamerica", "chatzona"],
     related: ["latinas", "latinoamerica", "hispanos", "amistad", "amor", "musica"],
     intro:
       "Chat latino gratis: música, acentos y gente de México, Colombia, Argentina, Perú y todo el continente en una sola sala. El sabor latino sin fronteras.",

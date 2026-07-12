@@ -2,11 +2,16 @@ import { describe, it, expect } from "vitest";
 import { TOPICS_EDAD } from "./topics-edad";
 import { getPlace } from "./index";
 
-const SLUGS = ["mas-de-20", "mas-de-30", "mas-de-40", "mas-de-50", "mas-de-60"];
+// Dos familias: la escalera abierta ("a partir de N") y las franjas cerradas
+// ("de X a Y"). Se listan por separado porque solo la primera tiene la regla de
+// users/votes decrecientes — la segunda es una partición distinta del público.
+const ESCALERA = ["mas-de-20", "mas-de-25", "mas-de-30", "mas-de-40", "mas-de-50", "mas-de-60"];
+const FRANJAS = ["de-18-a-25", "de-30-a-40", "de-40-a-50", "de-50-a-60", "de-60-a-70"];
+const SLUGS = [...ESCALERA, ...FRANJAS];
 
 describe("salas por edad", () => {
-  it("exporta exactamente las 5 franjas como temáticas", () => {
-    expect(TOPICS_EDAD.map((p) => p.slug)).toEqual(SLUGS);
+  it("exporta las dos familias de franjas como temáticas", () => {
+    expect(new Set(TOPICS_EDAD.map((p) => p.slug))).toEqual(new Set(SLUGS));
     expect(TOPICS_EDAD.every((p) => p.kind === "tematica")).toBe(true);
   });
 
@@ -43,7 +48,21 @@ describe("salas por edad", () => {
     expect(byChannels["mas-de-30"]).toEqual(["mas_de_30", "mas_de_40"]);
     expect(byChannels["mas-de-40"]).toEqual(["mas_de_40", "mas_de_30"]);
     expect(byChannels["mas-de-50"]).toEqual(["mas_de_40", "mas_de_50"]);
-    expect(byChannels["mas-de-60"]).toEqual(["mas_de_50", "mas_de_60"]);
+    expect(byChannels["mas-de-60"]).toEqual(["mas_de_50", "mas_de_60", "mas_de_70"]);
+    expect(byChannels["de-18-a-25"]).toEqual(["de_18_a_26", "adolescentes", "mas_de_30"]);
+    expect(byChannels["mas-de-25"]).toEqual(["mas_de_30", "adolescentes"]);
+    expect(byChannels["de-30-a-40"]).toEqual(["mas_de_30", "mas_de_40"]);
+    expect(byChannels["de-40-a-50"]).toEqual(["mas_de_40", "mas_de_50", "cuatro_decadas"]);
+    expect(byChannels["de-50-a-60"]).toEqual(["mas_de_50", "mas_de_60"]);
+    expect(byChannels["de-60-a-70"]).toEqual(["mas_de_60", "mas_de_70", "amigos_mayores"]);
+  });
+
+  it("ninguna sala de edad enruta a un canal IRC inventado", () => {
+    // Los canales de edad reales del IRC llevan guion bajo; un "mas-de-40" con
+    // guion sería un canal muerto al que no llegaría ningún usuario.
+    for (const p of TOPICS_EDAD)
+      for (const c of p.channels)
+        expect(c, `${p.slug} enruta a un canal con guion: ${c}`).not.toMatch(/^mas-de-/);
   });
 
   it("cumple las constraints SEO (intro ≤160, about ≥400)", () => {
@@ -53,12 +72,15 @@ describe("salas por edad", () => {
     }
   });
 
-  it("users y votes decrecen con la edad", () => {
-    const users = TOPICS_EDAD.map((p) => p.users);
-    const votes = TOPICS_EDAD.map((p) => p.votes);
-    for (let i = 1; i < users.length; i++) {
-      expect(users[i]).toBeLessThan(users[i - 1]);
-      expect(votes[i]).toBeLessThan(votes[i - 1]);
+  it("users y votes decrecen con la edad dentro de cada familia", () => {
+    for (const familia of [ESCALERA, FRANJAS]) {
+      const rooms = familia.map((s) => TOPICS_EDAD.find((p) => p.slug === s)!);
+      for (let i = 1; i < rooms.length; i++) {
+        expect(rooms[i].users, `${rooms[i].slug} vs ${rooms[i - 1].slug}`).toBeLessThan(
+          rooms[i - 1].users,
+        );
+        expect(rooms[i].votes).toBeLessThan(rooms[i - 1].votes);
+      }
     }
   });
 

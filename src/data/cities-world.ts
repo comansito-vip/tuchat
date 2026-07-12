@@ -203,7 +203,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    channels: ["logrono", "espana", "amistad", "chatzona"],
+    channels: ["logrono", "espana", "amistad", "la_rioja", "chatzona"],
     related: ["pamplona", "burgos", "zaragoza", "bilbao", "espana", "amistad"],
     intro:
       "Entra en el chat de Logroño para conocer riojanos: la calle Laurel con sus pinchos, el Rioja en cada copa y la Ruta del Vino de San Mateo.",
@@ -756,7 +756,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["chihuahua", "mexico", "amistad", "chatzona"],
+    channels: ["chihuahua", "mexico", "amistad", "mexico_vip", "chatzona"],
     related: ["ciudad-juarez", "monterrey", "hermosillo", "mexico", "amistad", "viajes"],
     intro:
       "El estado más grande de México cabe en este chat: desierto abierto, ranchos ganaderos, huertos de manzana y la sombra de Pancho Villa por todos lados.",
@@ -3252,7 +3252,7 @@ export const CITIES_WORLD: Place[] = [
     activity: "Alta",
     parentName: "Guatemala",
     parentSlug: "guatemala",
-    channels: ["antigua-guatemala", "guatemala", "amistad", "chatzona"],
+    channels: ["antigua-guatemala", "guatemala", "amistad", "antigua_guatemala", "chatzona"],
     related: [
       "guatemala",
       "ciudad-de-guatemala",

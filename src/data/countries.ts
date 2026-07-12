@@ -164,7 +164,7 @@ export const COUNTRIES: Place[] = [
     users: 290,
     votes: 430,
     activity: "Media",
-    channels: ["paraguay", "amistad", "chatzona"],
+    channels: ["paraguay", "amistad", "latinoamerica", "chatzona"],
     related: ["asuncion", "argentina", "bolivia", "uruguay", "amistad", "amor"],
     intro:
       "El único sitio donde te saludan en guaraní y siguen en español, con el tereré bien frío. País bilingüe de corazón, callado por fuera y cálido por dentro.",
@@ -438,7 +438,7 @@ export const COUNTRIES: Place[] = [
     users: 240,
     votes: 360,
     activity: "Media",
-    channels: ["marruecos", "internacional", "amistad", "chatzona"],
+    channels: ["marruecos", "internacional", "amistad", "arabe", "ocio", "chatzona"],
     related: ["espana", "francia", "guinea-ecuatorial", "amistad", "viajes", "amor"],
     intro:
       "A catorce kilómetros de España, con un norte donde se habla español y LaLiga es local. Entre el té con menta y los zocos de Tánger, las orillas se entienden.",
