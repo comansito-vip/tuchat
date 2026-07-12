@@ -131,6 +131,28 @@ describe("SEO constraints", () => {
     expect(dupes).toEqual([]);
   });
 
+  it("ninguna ciudad enlaza a la homónima extranjera teniendo una en su país", () => {
+    // Bug real al añadir los municipios españoles: los pueblos de Granada
+    // enlazaban a la Santa Fe de Argentina y los de Cáceres al Trujillo de
+    // Perú, porque el nombre coincide y el slug "limpio" ya estaba ocupado.
+    // Enlazar a una ciudad extranjera NO es un fallo por sí mismo (Buenos Aires
+    // enlaza a Montevideo a propósito); lo es solo cuando existe otra ciudad
+    // con ESE MISMO NOMBRE en el país de la sala: entonces se quiso la de casa.
+    const cities = ALL_PLACES.filter((p) => p.kind === "ciudad");
+    const violations = cities.flatMap((c) =>
+      c.related
+        .map((r) => cities.find((p) => p.slug === r))
+        .filter(
+          (p) =>
+            p &&
+            p.parentSlug !== c.parentSlug &&
+            cities.some((local) => local.parentSlug === c.parentSlug && local.name === p.name),
+        )
+        .map((p) => `${c.slug} (${c.parentSlug}) → ${p!.slug} (${p!.parentSlug})`),
+    );
+    expect(violations).toEqual([]);
+  });
+
   it("all news articles have body, excerpt, and valid date format", () => {
     const articles = getNews();
     const violations = articles

@@ -294,7 +294,7 @@ export const CITIES: Place[] = [
     parentName: "España",
     parentSlug: "espana",
     channels: ["murcia", "espana", "amistad", "chatzona"],
-    related: ["almeria", "alicante", "cartagena", "espana", "amistad", "amor"],
+    related: ["almeria", "alicante", "cartagena-espana", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de Murcia para hablar con gente de la huerta, quedar para unas marineras en Santa Catalina o comentar las Fiestas de Primavera.",
     about:
