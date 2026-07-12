@@ -4,6 +4,7 @@ import { Header } from "./Header";
 import { HeaderCTA } from "./HeaderCTA";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { Footer } from "./Footer";
+import { FooterSlot } from "./FooterSlot";
 import { ScaffoldPage } from "./ScaffoldPage";
 import { MobileBottomNav } from "./MobileBottomNav";
 import { MobileMenu } from "./MobileMenu";
@@ -95,6 +96,24 @@ describe("layout", () => {
     mockPathname.mockReturnValue("/noticias/articulo/algo");
     render(<NavLinks />);
     expect(screen.getByRole("link", { name: "Noticias" })).toHaveAttribute("aria-current", "page");
+  });
+  it("FooterSlot hides the footer on /webchat (pantalla completa)", () => {
+    mockPathname.mockReturnValue("/webchat");
+    const { container } = render(
+      <FooterSlot>
+        <Footer />
+      </FooterSlot>,
+    );
+    expect(container).toBeEmptyDOMElement();
+  });
+  it("FooterSlot renders the footer on the rest of the site", () => {
+    mockPathname.mockReturnValue("/chat/madrid");
+    render(
+      <FooterSlot>
+        <Footer />
+      </FooterSlot>,
+    );
+    expect(screen.getByRole("contentinfo")).toBeInTheDocument();
   });
   it("MobileMenu opens dialog on button click", () => {
     render(<MobileMenu />);

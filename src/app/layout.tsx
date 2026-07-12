@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { LayoutShell } from "@/components/layout/LayoutShell";
 import { Footer } from "@/components/layout/Footer";
+import { FooterSlot } from "@/components/layout/FooterSlot";
 import { JsonLd, websiteJsonLd, organizationJsonLd } from "@/lib/seo";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -84,7 +85,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={organizationJsonLd()} />
         <Header />
         <LayoutShell>{children}</LayoutShell>
-        <Footer />
+        <FooterSlot>
+          <Footer />
+        </FooterSlot>
         <MobileBottomNav />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HGL7W7NRDJ"
