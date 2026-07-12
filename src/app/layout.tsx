@@ -20,12 +20,19 @@ const bricolage = Bricolage_Grotesque({
   display: "swap",
 });
 
+// Meta description original de la home, pedida explícitamente por el cliente
+// para mantener continuidad con lo que ya tenía indexado Google (no tocar
+// sin que lo pida él: es una decisión de negocio, no un descuido de copy).
 const DESCRIPTION =
-  "Chat gratis en español sin registro. Salas de chat online por países, ciudades y temáticas para chatear con gente, hacer amigos y ligar en tiempo real.";
+  "Chat gratis en español en la comunidad de tuchat, busca hacer amigos online, ligar y chatear con gente pudiendo registrar tu nick y tus salas de chat.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.tuchat.org"),
-  title: { default: "TuChat — Chat gratis en español", template: "%s · TuChat" },
+  // El "default" es el <title> real de la home (no usa el sufijo "· TuChat":
+  // el texto pedido por el cliente para mantener el indexado ya existente en
+  // Google es literal). El "template" sigue aplicando al resto de páginas,
+  // que ya ponen su propio title.
+  title: { default: "Chat gratis de amigos, chatear en España y Latinchat", template: "%s · TuChat" },
   description: DESCRIPTION,
   // Sin title/description aquí: Next los deriva del title/description de cada
   // página, dando og:title y og:description propios por landing.

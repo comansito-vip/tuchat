@@ -228,7 +228,7 @@ export const TOPICS: Place[] = [
     users: 210,
     votes: 330,
     activity: "Media",
-    channels: ["horoscopo", "amistad", "chatzona"],
+    channels: ["tarot", "esoterismo", "chatzona"],
     related: ["tarot", "amor", "amistad", "lgtbi", "madrid", "barcelona"],
     intro:
       "Escorpio que no encaja con Géminis, ascendente en Virgo que lo explica todo y el Mercurio retrógrado de turno: se habla con rigor y con humor en igual medida.",

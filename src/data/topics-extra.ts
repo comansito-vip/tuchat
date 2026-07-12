@@ -869,7 +869,7 @@ const RAW: Place[] = [
     users: 190,
     votes: 295,
     activity: "Alta",
-    channels: ["astrologia", "horoscopo", "esoterismo", "chatzona"],
+    channels: ["astrologia", "tarot", "esoterismo", "chatzona"],
     related: ["horoscopo", "tarot", "esoterismo", "videncia", "amor", "psicologia"],
     intro:
       "Chat de astrología: cartas natales, tránsitos, retrógrados y compatibilidades. Para quienes van más allá del horóscopo diario y quieren conversar sin prisa.",

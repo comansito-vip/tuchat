@@ -25,6 +25,14 @@ describe("resolveChannels", () => {
     // Miami además tiene su propio canal real.
     expect(resolveChannels("miami")).toContain("miami");
   });
+  it("horóscopo y astrología entran a #tarot/#esoterismo, no a #horoscopo (no existe)", () => {
+    for (const slug of ["horoscopo", "astrologia"]) {
+      const ch = resolveChannels(slug);
+      expect(ch, slug).not.toContain("horoscopo");
+      expect(ch, slug).toContain("tarot");
+      expect(ch, slug).toContain("esoterismo");
+    }
+  });
   it("el canal real de España lleva tilde en TODAS las salas españolas", () => {
     // Bug real 2026-07-13: el slug ("espana", para la URL) se había colado tal
     // cual dentro del array de channels también, así que el iframe pedía
