@@ -44,9 +44,12 @@ export default async function TiempoCiudadPage({
 
   const weatherData = await fetchWeather(ciudad);
 
+  // Sin migaja intermedia "El tiempo": no existe un índice /tiempo real (solo
+  // /tiempo/{ciudad}), así que un crumb fijo a /tiempo/madrid duplicaba la URL
+  // de esta misma página en /tiempo/madrid y era simplemente incorrecto en
+  // cualquier otra ciudad.
   const crumbs = [
     { name: "Inicio", url: "/" },
-    { name: "El tiempo", url: "/tiempo/madrid" },
     { name: nombre, url: `/tiempo/${ciudad}` },
   ];
 

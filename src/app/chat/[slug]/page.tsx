@@ -133,8 +133,11 @@ export default async function ChatRoomPage({
 
       {/* Two-column body */}
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
-        {/* LEFT column */}
-        <div>
+        {/* LEFT column. min-w-0: sin esto, un grid item hereda min-width:auto
+            (su max-content), así que una fila flex sin wrap dentro (ej. el
+            input+botón de NickInput en el aside) puede ensanchar toda la
+            columna más allá del viewport en móvil. */}
+        <div className="min-w-0">
           {/* Block 1: Sobre el chat */}
           <SEOTextBlock title={`Sobre el chat de ${place.name}`}>
             <p>{aboutText}</p>
@@ -244,7 +247,7 @@ export default async function ChatRoomPage({
         </div>
 
         {/* RIGHT column — info panel (sticky on lg) */}
-        <aside className="self-start lg:sticky lg:top-20 space-y-4">
+        <aside className="min-w-0 self-start lg:sticky lg:top-20 space-y-4">
           <RoomInfoPanel place={place} />
           {TEAM_LEAGUE[place.slug] && (
             <LeagueStandings

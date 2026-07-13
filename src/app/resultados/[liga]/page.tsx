@@ -52,7 +52,7 @@ export default async function ResultadosLigaPage({
   const crumbs = [
     { name: "Inicio", url: "/" },
     { name: "Deportes", url: "/deportes" },
-    { name: "Resultados", url: "/resultados/laliga" },
+    { name: "Resultados", url: "/resultados" },
     { name: league.name, url: `/resultados/${liga}` },
   ];
 
