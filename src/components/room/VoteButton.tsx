@@ -65,9 +65,11 @@ export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ slug }),
       });
-      if (res.ok) {
+      // 200 (voto nuevo) o 409 (esta IP ya había votado, otro navegador/incógnito):
+      // en ambos casos el cuerpo trae el conteo autoritativo del servidor.
+      if (res.ok || res.status === 409) {
         const data = await res.json();
-        setCount(data.votes); // conteo autoritativo del servidor
+        setCount(data.votes);
       }
     } catch {
       /* el voto queda al menos reflejado de forma optimista */

@@ -17,6 +17,8 @@ export type VoteCounts = Record<string, number>;
 interface VotesStore {
   increment(slug: string): Promise<number>;
   getAll(): Promise<VoteCounts>;
+  hasVoted(ip: string, slug: string): Promise<boolean>;
+  markVoted(ip: string, slug: string): Promise<void>;
 }
 
 // ───────────────────────── Upstash Redis (REST) ─────────────────────────
@@ -53,30 +55,58 @@ const redisStore: VotesStore = {
     }
     return counts;
   },
+  async hasVoted(ip, slug) {
+    return Boolean(await upstashCommand(["SISMEMBER", "tuchat:voters", `${ip}:${slug}`]));
+  },
+  async markVoted(ip, slug) {
+    await upstashCommand(["SADD", "tuchat:voters", `${ip}:${slug}`]);
+  },
 };
 
 // ───────────────────────── Fichero local ─────────────────────────
 
 const FILE = join(process.cwd(), ".data", "votes.json");
 
-async function readFileCounts(): Promise<VoteCounts> {
+interface FileData {
+  counts: VoteCounts;
+  voters: Record<string, true>;
+}
+
+async function readFileData(): Promise<FileData> {
   try {
-    return JSON.parse(await fs.readFile(FILE, "utf8")) as VoteCounts;
+    const raw = JSON.parse(await fs.readFile(FILE, "utf8"));
+    // Formato anterior a 2026-07-13: fichero era el objeto de conteos a secas.
+    if (raw && typeof raw === "object" && !("counts" in raw)) {
+      return { counts: raw as VoteCounts, voters: {} };
+    }
+    return { counts: raw.counts ?? {}, voters: raw.voters ?? {} };
   } catch {
-    return {};
+    return { counts: {}, voters: {} };
   }
+}
+
+async function writeFileData(data: FileData): Promise<void> {
+  await fs.mkdir(join(process.cwd(), ".data"), { recursive: true });
+  await fs.writeFile(FILE, JSON.stringify(data));
 }
 
 const fileStore: VotesStore = {
   async increment(slug) {
-    const counts = await readFileCounts();
-    counts[slug] = (counts[slug] ?? 0) + 1;
-    await fs.mkdir(join(process.cwd(), ".data"), { recursive: true });
-    await fs.writeFile(FILE, JSON.stringify(counts));
-    return counts[slug];
+    const data = await readFileData();
+    data.counts[slug] = (data.counts[slug] ?? 0) + 1;
+    await writeFileData(data);
+    return data.counts[slug];
   },
   async getAll() {
-    return readFileCounts();
+    return (await readFileData()).counts;
+  },
+  async hasVoted(ip, slug) {
+    return Boolean((await readFileData()).voters[`${ip}:${slug}`]);
+  },
+  async markVoted(ip, slug) {
+    const data = await readFileData();
+    data.voters[`${ip}:${slug}`] = true;
+    await writeFileData(data);
   },
 };
 
@@ -94,4 +124,14 @@ export function incrementVote(slug: string): Promise<number> {
 /** Devuelve los incrementos de voto por slug. */
 export function getVoteCounts(): Promise<VoteCounts> {
   return store().getAll();
+}
+
+/** ¿Esta IP ya votó esta sala? */
+export function hasVoted(ip: string, slug: string): Promise<boolean> {
+  return store().hasVoted(ip, slug);
+}
+
+/** Registra que esta IP ya votó esta sala (llamar tras incrementVote). */
+export function markVoted(ip: string, slug: string): Promise<void> {
+  return store().markVoted(ip, slug);
 }

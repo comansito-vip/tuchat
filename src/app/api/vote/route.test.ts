@@ -8,11 +8,13 @@ vi.mock("@/data", () => ({
 vi.mock("@/lib/votes-store", () => ({
   getVoteCounts: vi.fn().mockResolvedValue({}),
   incrementVote: vi.fn().mockResolvedValue(1),
+  hasVoted: vi.fn().mockResolvedValue(false),
+  markVoted: vi.fn().mockResolvedValue(undefined),
 }));
 
 import { GET, POST } from "./route";
 import { getPlace } from "@/data";
-import { getVoteCounts, incrementVote } from "@/lib/votes-store";
+import { getVoteCounts, hasVoted, incrementVote, markVoted } from "@/lib/votes-store";
 
 const MADRID = {
   slug: "madrid",
@@ -31,7 +33,9 @@ const MADRID = {
 beforeEach(() => {
   vi.mocked(getPlace).mockReset();
   vi.mocked(getVoteCounts).mockResolvedValue({});
-  vi.mocked(incrementVote).mockResolvedValue(1);
+  vi.mocked(incrementVote).mockReset().mockResolvedValue(1);
+  vi.mocked(hasVoted).mockReset().mockResolvedValue(false);
+  vi.mocked(markVoted).mockReset().mockResolvedValue(undefined);
 });
 
 describe("GET /api/vote", () => {
@@ -96,5 +100,55 @@ describe("POST /api/vote", () => {
     });
     const res = await POST(req);
     expect(res.status).toBe(400);
+  });
+
+  it("returns 409 and does not increment when this IP already voted this room", async () => {
+    vi.mocked(getPlace).mockReturnValue(MADRID);
+    vi.mocked(hasVoted).mockResolvedValue(true);
+    vi.mocked(getVoteCounts).mockResolvedValue({ madrid: 7 });
+    const req = new Request("http://localhost/api/vote", {
+      method: "POST",
+      body: JSON.stringify({ slug: "madrid" }),
+      headers: { "Content-Type": "application/json", "cf-connecting-ip": "1.2.3.4" },
+    });
+    const res = await POST(req);
+    expect(res.status).toBe(409);
+    const body = await res.json();
+    expect(body.votes).toBe(107); // 100 base + 7 stored, sin incrementar
+    expect(body.alreadyVoted).toBe(true);
+    expect(incrementVote).not.toHaveBeenCalled();
+    expect(markVoted).not.toHaveBeenCalled();
+  });
+
+  it("marks the IP as voted after a successful vote", async () => {
+    vi.mocked(getPlace).mockReturnValue(MADRID);
+    const req = new Request("http://localhost/api/vote", {
+      method: "POST",
+      body: JSON.stringify({ slug: "madrid" }),
+      headers: { "Content-Type": "application/json", "cf-connecting-ip": "5.6.7.8" },
+    });
+    const res = await POST(req);
+    expect(res.status).toBe(200);
+    expect(hasVoted).toHaveBeenCalledWith("5.6.7.8", "madrid");
+    expect(markVoted).toHaveBeenCalledWith("5.6.7.8", "madrid");
+  });
+
+  it("falls back to x-forwarded-for, then to a shared 'unknown' bucket", async () => {
+    vi.mocked(getPlace).mockReturnValue(MADRID);
+    const reqFwd = new Request("http://localhost/api/vote", {
+      method: "POST",
+      body: JSON.stringify({ slug: "madrid" }),
+      headers: { "Content-Type": "application/json", "x-forwarded-for": "9.9.9.9, 10.0.0.1" },
+    });
+    await POST(reqFwd);
+    expect(hasVoted).toHaveBeenCalledWith("9.9.9.9", "madrid");
+
+    const reqNone = new Request("http://localhost/api/vote", {
+      method: "POST",
+      body: JSON.stringify({ slug: "madrid" }),
+      headers: { "Content-Type": "application/json" },
+    });
+    await POST(reqNone);
+    expect(hasVoted).toHaveBeenCalledWith("unknown", "madrid");
   });
 });
