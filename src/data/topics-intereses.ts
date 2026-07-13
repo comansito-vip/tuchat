@@ -1390,9 +1390,9 @@ export const TOPICS_INTERESES: Place[] = [
   {
     slug: "gayslatinos", name: "Gays Latinos", kind: "tematica", icon: "🌎",
     users: 247, votes: 431, tag: "Tendencia", activity: "Alta",
-    parentSlug: "gay", parentName: "Gay",
+    parentSlug: "gaylatino", parentName: "Gay Latino",
     channels: ["gay", "chueca", "de_ambiente"],
-    related: ["gay", "gays", "chatgay", "gaysespana", "latinos", "mexico"],
+    related: ["gaylatino", "gay", "gaybogota", "gaychilenos", "latinos", "mexico"],
     intro: "Chicos gais de toda Latinoamérica: México, Colombia, Argentina y más, juntos en un mismo chat. Gratis y sin registro.",
     about: "Acentos y costumbres de todo el continente se cruzan aquí: chicos de habla hispana que viven el ambiente cada uno a su manera. Mexicanos, colombianos, argentinos, peruanos, chilenos y venezolanos comparten aquí conversaciones que saltan de un país a otro con total naturalidad. La fiesta y los antros de cada ciudad, lo que cuesta salir del clóset según el entorno, la familia, la música y los planes para conocerse en persona son conversación de cada día. El tono es cálido, parchado y sin poses, con espacio tanto para ligar como para hacer amistades de verdad. No pedimos datos ni perfiles: escribe un nick y siéntete en casa entre latinos que entienden de dónde vienes y hacia dónde quieres ir.",
   },

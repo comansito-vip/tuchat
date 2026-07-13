@@ -5,10 +5,12 @@ import { getPlace, getCountries, getCities, getTopics } from "./index";
 const ALL = [...getCountries(), ...getCities(), ...getTopics()];
 
 describe("salas de paridad con el viejo tuchat", () => {
-  it("añade 78 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
+  it("añade 93 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
     // 77 de la paridad original + canalchat (canal real con 606 usuarios,
-    // portal CanalChat.org sobre la red de ChatZona — adición deliberada 2026-07-13).
-    expect(TOPICS_LEGACY).toHaveLength(78);
+    // portal CanalChat.org sobre la red de ChatZona — adición deliberada 2026-07-13)
+    // + 15 salas gay/LGTBI (ciudades España, países LATAM, perfiles/intereses)
+    // para completar la reorg. al estilo chatzona.com/chueca — 2026-07-13 noche.
+    expect(TOPICS_LEGACY).toHaveLength(93);
     expect(TOPICS_LEGACY.every((p) => p.kind === "tematica")).toBe(true);
   });
 
