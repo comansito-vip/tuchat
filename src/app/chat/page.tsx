@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
-import { cityFlag, getPrimaryTopics } from "@/data";
+import { cityFlag, getPrimaryTopics, getRegions } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
@@ -109,6 +109,9 @@ export default async function ChatIndexPage() {
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {countries.map((country) => {
             const citiesOfCountry = cities.filter((c) => c.parentSlug === country.slug);
+            // España se navega por comunidades autónomas (con su bandera), no
+            // por una muestra de 8 ciudades entre 893: es su organización real.
+            const regionsOfCountry = country.slug === "espana" ? getRegions() : [];
             const preview = citiesOfCountry.slice(0, 8);
             const rest = citiesOfCountry.length - preview.length;
             return (
@@ -129,19 +132,30 @@ export default async function ChatIndexPage() {
                   </span>
                 </div>
                 <div className="mt-3 flex flex-wrap gap-1.5">
-                  {preview.map((c) => {
-                    const flag = cityFlag(c);
-                    return (
-                      <Link
-                        key={c.slug}
-                        href={`/chat/${c.slug}`}
-                        className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
-                      >
-                        <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={13} />
-                        {c.name}
-                      </Link>
-                    );
-                  })}
+                  {regionsOfCountry.length > 0
+                    ? regionsOfCountry.map((r) => (
+                        <Link
+                          key={r.slug}
+                          href={`/chat/${r.slug}`}
+                          className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                        >
+                          <Flag emoji={r.icon} flagSrc={r.flagSrc} size={13} />
+                          {r.name}
+                        </Link>
+                      ))
+                    : preview.map((c) => {
+                        const flag = cityFlag(c);
+                        return (
+                          <Link
+                            key={c.slug}
+                            href={`/chat/${c.slug}`}
+                            className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                          >
+                            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={13} />
+                            {c.name}
+                          </Link>
+                        );
+                      })}
                   {rest > 0 && (
                     <Link
                       href={`/chat/${country.slug}`}
