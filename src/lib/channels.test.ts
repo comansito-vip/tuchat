@@ -8,6 +8,17 @@ describe("resolveChannels", () => {
   // canal que la red no tiene. El canal inventado se crea vacío al entrar, así
   // que el usuario aterriza solo en vez de caer donde ya hay gente. Recorre las
   // 2.027 salas reales, no una lista fija (scripts/fix-irc-channels.ts).
+  it("los canales vetados por el cliente no se pueden asignar a ninguna sala", () => {
+    // Existen en la red, pero no se usan: explícitos residuales, bots/radios y
+    // —sobre todo— #de_13_a_18, que es una sala de menores.
+    for (const c of [
+      "putitas", "putitasx", "tetonaslesbis", "morena_sexy", "sexoconsergi",
+      "de_13_a_18", "eggdrop", "scripting", "bot_cita", "admin_explosion", "closed",
+    ]) {
+      expect(REAL_CHANNELS.has(c), c).toBe(false);
+    }
+  });
+
   it("ninguna sala de país o ciudad entra a un canal que no existe en la red", () => {
     const geo = [...getCountries(), ...getCities()];
     expect(geo.length).toBeGreaterThan(2000);

@@ -11,8 +11,14 @@
  * hay gente (#usa, #cataluña, #costa_rica). Lo verifica channels.test.ts sobre
  * las 2.027 salas geográficas.
  *
- * Fuera de esta lista quedan a propósito los canales de bots, radios, salas
- * privadas y los de contenido explícito marginal: no se asignan a ninguna sala.
+ * NO ENTRAN AQUÍ (decisión del cliente, no reañadir aunque existan en la red):
+ *   - Explícitos de bajo valor y residual: #putitas, #putitasx, #tetonaslesbis,
+ *     #morena_sexy, #sexoconsergi y similares.
+ *   - #de_13_a_18: sala de menores. Fuera, sin excepción.
+ *   - Bots, scripts y salas de gestión: #eggdrop, #scripting, #bot_cita,
+ *     #admin_explosion, #closed.
+ *   - Radios y sus canales de DJ: #dj-*, #*_djs, #radio_*. (#radio, el temático
+ *     genérico de música, sí se queda.)
  */
 
 /** España: comunidades, provincias y ciudades. */
