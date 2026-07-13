@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
+import { getGlobalRanking, getRankingByKind, getRankingByCountry, getCountryRankPosition } from "@/lib/ranking";
+import { getCountries } from "@/data";
 
 vi.mock("@/lib/votes-store", () => ({
   getVoteCounts: vi.fn().mockResolvedValue({}),
@@ -54,5 +55,36 @@ describe("ranking", () => {
   it("getRankingByKind respects custom limit", async () => {
     const results = await getRankingByKind("ciudad", 3);
     expect(results.length).toBeLessThanOrEqual(3);
+  });
+
+  it("getRankingByCountry returns only cities of that country, sorted by votes", async () => {
+    const results = await getRankingByCountry("argentina", 50);
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.every((c) => c.parentSlug === "argentina")).toBe(true);
+    for (let i = 1; i < results.length; i++) {
+      expect(results[i].votes).toBeLessThanOrEqual(results[i - 1].votes);
+    }
+  });
+
+  it("getRankingByCountry applies stored increments", async () => {
+    vi.mocked(getVoteCounts).mockResolvedValue({ tandil: 99999 });
+    const results = await getRankingByCountry("argentina", 1);
+    expect(results[0].slug).toBe("tandil");
+  });
+
+  it("getRankingByCountry returns an empty array for an unknown country slug", async () => {
+    const results = await getRankingByCountry("nonexistent-country-slug", 10);
+    expect(results).toEqual([]);
+  });
+
+  it("getCountryRankPosition returns a 1-based position within total country count", async () => {
+    const pos = await getCountryRankPosition("espana");
+    expect(pos).toBeGreaterThanOrEqual(1);
+    expect(pos).toBeLessThanOrEqual(getCountries().length);
+  });
+
+  it("getCountryRankPosition returns the last position for an unknown country", async () => {
+    const pos = await getCountryRankPosition("nonexistent-country-slug");
+    expect(pos).toBe(getCountries().length);
   });
 });

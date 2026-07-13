@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RankingTable } from "@/components/home/RankingTable";
 import { NickInput } from "@/components/ui/NickInput";
@@ -76,6 +77,17 @@ export default async function RankingPage() {
       <section className="mt-10">
         <SectionTitle>Por país</SectionTitle>
         <RankingTable ranking={paises} />
+        <div className="mt-3 flex flex-wrap gap-2">
+          {paises.map((p) => (
+            <Link
+              key={p.slug}
+              href={`/ranking/${p.slug}`}
+              className="rounded-full border border-line bg-card px-3 py-1 text-xs font-medium text-blue transition-colors hover:border-blue"
+            >
+              Ranking de {p.name} →
+            </Link>
+          ))}
+        </div>
       </section>
       <section className="mt-10">
         <SectionTitle>Por ciudad</SectionTitle>

@@ -19,3 +19,18 @@ export async function getRankingByKind(kind: Place["kind"], limit = 10): Promise
     kind === "pais" ? getCountries() : kind === "ciudad" ? getCities() : getTopics();
   return rank(source, counts, limit);
 }
+
+/** Ranking de las ciudades de un país concreto (para /ranking/{pais}). */
+export async function getRankingByCountry(countrySlug: string, limit = 20): Promise<Place[]> {
+  const counts = await getVoteCounts();
+  const cities = getCities().filter((c) => c.parentSlug === countrySlug);
+  return rank(cities, counts, limit);
+}
+
+/** Puesto (1-based) de un país dentro del ranking global de países. */
+export async function getCountryRankPosition(countrySlug: string): Promise<number> {
+  const counts = await getVoteCounts();
+  const ranked = rank(getCountries(), counts, getCountries().length);
+  const idx = ranked.findIndex((p) => p.slug === countrySlug);
+  return idx === -1 ? ranked.length : idx + 1;
+}
