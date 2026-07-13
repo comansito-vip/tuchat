@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (2027 salas propias · ~3500 páginas indexadas), con
+> temáticas (2496 salas propias · ~4640 páginas indexadas), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.
@@ -12,7 +12,7 @@
 
 ## Salas de chat (`/chat/{slug}`)
 - Por país: [España](/chat/espana), [México](/chat/mexico), [Argentina](/chat/argentina), [Colombia](/chat/colombia), [Venezuela](/chat/venezuela), y 25 países más (índice completo en [/chat](/chat)).
-- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (1344 ciudades: en España, los 893 municipios de más de 8.000 habitantes —cobertura completa del padrón, las 17 comunidades autónomas y sus áreas metropolitanas—; en América, capitales de provincia/estado de toda Hispanoamérica, grandes urbes, el conurbano y el interior del Cono Sur, el Caribe hispano y una amplia diáspora en EE.UU. y Canadá). Cada sala de municipio tiene contenido propio verificado (fiestas, patrimonio, geografía, industria local), no una plantilla con el nombre cambiado.
+- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (1997 ciudades: en España, los 893 municipios de más de 8.000 habitantes —cobertura completa del padrón, las 17 comunidades autónomas y sus áreas metropolitanas—; en Argentina y Colombia, cobertura casi completa de localidades de más de 15.000 habitantes agrupadas por provincia/departamento; en el resto de Hispanoamérica, capitales de provincia/estado, grandes urbes, el conurbano y el interior del Cono Sur, el Caribe hispano y una amplia diáspora en EE.UU. y Canadá). Cada sala de municipio tiene contenido propio verificado (fiestas, patrimonio, geografía, industria local), no una plantilla con el nombre cambiado.
 - Por temática: [Amor](/chat/amor), [Amistad](/chat/amistad), [Ligar](/chat/ligar), [LGTBI](/chat/lgtbi), [Música](/chat/musica), [Videojuegos](/chat/videojuegos)…
 - Por franja de edad: escalera abierta ([Mayores de 20](/chat/mas-de-20), [+25](/chat/mas-de-25), [+30](/chat/mas-de-30), [+40](/chat/mas-de-40), [+50](/chat/mas-de-50), [+60](/chat/mas-de-60)) y franjas cerradas ([De 18 a 25](/chat/de-18-a-25), [30-40](/chat/de-30-a-40), [40-50](/chat/de-40-a-50), [50-60](/chat/de-50-a-60), [60-70](/chat/de-60-a-70)).
 
