@@ -18,6 +18,7 @@
 
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 
 // Carga .env.local a mano (sin dep de dotenv): útil en local; en CI las
 // variables ya vienen del entorno (GitHub Actions secrets) y esto no hace nada.
@@ -32,17 +33,18 @@ loadEnvLocal();
 
 // ───────────────────────── Configuración ─────────────────────────
 
+// Debe coincidir exactamente con el VALID set de data.test.ts (categorías
+// reales del sitio, con sus propias rutas/FAQ en /noticias/[categoria]).
 const CATEGORIES = [
-  "Tecnología",
-  "Deportes",
-  "Cultura",
   "Actualidad",
-  "Economía",
-  "Salud",
+  "Deportes",
+  "Tecnología",
+  "IA",
+  "Cultura",
   "Viajes",
-  "Anime",
-  "Esoterismo",
-  "Psicología",
+  "Salud",
+  "Economía",
+  "Entretenimiento",
 ] as const;
 
 const ITEMS_PER_CATEGORY = 2;
@@ -86,9 +88,12 @@ function userPrompt(category: string): string {
     `Genera ${ITEMS_PER_CATEGORY} piezas de OPINIÓN o TENDENCIA atemporales de la categoría ` +
     `"${category}". NO son noticias de actualidad: son columnas de divulgación que seguirán siendo ` +
     `válidas dentro de un año. Cada una con: un titular de columna (sin comillas internas, sin fecha), ` +
-    `una entradilla de 2-3 frases que plantee el tema o la tendencia (sin cifras ni citas inventadas), ` +
-    `y un cuerpo de 2-3 párrafos (separa los párrafos con \\n\\n) con estilo editorial humano y un cierre ` +
-    `variado (nunca el mismo molde). Devuelve un array JSON con este formato exacto:\n` +
+    `una entradilla de EXACTAMENTE entre 120 y 155 caracteres (ni más corta ni más larga; se usa tal cual ` +
+    `como meta description, así que cuenta los caracteres antes de responder) que plantee el tema o la ` +
+    `tendencia sin cifras ni citas inventadas, y un cuerpo de 4-5 párrafos (separa los párrafos con \\n\\n) ` +
+    `de AL MENOS 450 palabras en total (cuenta las palabras; si te quedas corto, añade otro párrafo de ` +
+    `desarrollo o de ejemplos concretos antes de responder) con estilo editorial humano y un cierre variado ` +
+    `(nunca el mismo molde). Devuelve un array JSON con este formato exacto:\n` +
     `[{"title": "...", "excerpt": "...", "body": "..."}]`
   );
 }
@@ -166,35 +171,39 @@ async function callOpenAI(category: string): Promise<GeneratedItem[]> {
 
 /** Cliente genérico para APIs compatibles con el formato Chat Completions de OpenAI
  *  (Groq, Cerebras, Mistral, NVIDIA NIM, OpenRouter...). Soporta rotar entre varias
- *  claves separadas por comas en la misma variable de entorno. */
+ *  claves separadas por comas en la misma variable de entorno y entre varios modelos
+ *  (los gratuitos de OpenRouter se saturan upstream por separado: si uno da 429,
+ *  otro suele responder). */
 function makeOpenAICompatibleCaller(
   name: string,
   envVar: string,
   baseURL: string,
-  model: string,
+  models: string[],
 ): (category: string) => Promise<GeneratedItem[]> {
   return async (category: string) => {
     const keys = (process.env[envVar] ?? "").split(",").map((k) => k.trim()).filter(Boolean);
     if (keys.length === 0) throw new Error(`${envVar} no definida`);
     let lastErr: Error | null = null;
-    for (const key of keys) {
-      try {
-        const res = await fetch(`${baseURL}/chat/completions`, {
-          method: "POST",
-          headers: { Authorization: `Bearer ${key}`, "content-type": "application/json" },
-          body: JSON.stringify({
-            model,
-            messages: [
-              { role: "system", content: SYSTEM_PROMPT },
-              { role: "user", content: userPrompt(category) },
-            ],
-          }),
-        });
-        if (!res.ok) throw new Error(`${name} ${res.status}: ${(await res.text()).slice(0, 200)}`);
-        const data = await res.json();
-        return parseJsonArray(data.choices?.[0]?.message?.content ?? "");
-      } catch (err) {
-        lastErr = err as Error;
+    for (const model of models) {
+      for (const key of keys) {
+        try {
+          const res = await fetch(`${baseURL}/chat/completions`, {
+            method: "POST",
+            headers: { Authorization: `Bearer ${key}`, "content-type": "application/json" },
+            body: JSON.stringify({
+              model,
+              messages: [
+                { role: "system", content: SYSTEM_PROMPT },
+                { role: "user", content: userPrompt(category) },
+              ],
+            }),
+          });
+          if (!res.ok) throw new Error(`${name} ${res.status}: ${(await res.text()).slice(0, 200)}`);
+          const data = await res.json();
+          return parseJsonArray(data.choices?.[0]?.message?.content ?? "");
+        } catch (err) {
+          lastErr = err as Error;
+        }
       }
     }
     throw lastErr ?? new Error(`${name}: todas las claves fallaron`);
@@ -208,22 +217,43 @@ function makeOpenAICompatibleCaller(
 const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
   { name: "Claude", call: callClaude },
   { name: "OpenAI", call: callOpenAI },
-  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", "llama-3.3-70b-versatile") },
-  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", "llama-3.3-70b") },
-  { name: "Mistral", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", "mistral-large-latest") },
-  { name: "OpenRouter", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", "meta-llama/llama-3.3-70b-instruct:free") },
+  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile"]) },
+  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["llama-3.3-70b"]) },
+  { name: "Mistral", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", ["mistral-large-latest"]) },
+  // Modelos :free vigentes verificados contra /models el 2026-07-13; si uno
+  // está saturado upstream (429) se prueba el siguiente.
+  { name: "OpenRouter", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", [
+    "openai/gpt-oss-120b:free",
+    "qwen/qwen3-next-80b-a3b-instruct:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+  ]) },
 ];
+
+// Mismos límites que exige data.test.ts (excerpt ≤160, body ≥400 palabras):
+// un modelo gratuito que ignore el prompt no debe colar contenido que rompe
+// las reglas del sitio — se descarta la pieza en vez de escribirla.
+function passesQualityBar(item: GeneratedItem): boolean {
+  const words = item.body.trim().split(/\s+/).filter(Boolean).length;
+  return item.excerpt.length <= 160 && words >= 400;
+}
 
 async function generateCategory(category: string): Promise<GeneratedItem[]> {
   const errors: string[] = [];
   for (const provider of PROVIDERS) {
     try {
       const items = await provider.call(category);
-      if (items.length > 0) {
-        console.log(`  ✓ ${category}: ${items.length} vía ${provider.name}`);
-        return items;
+      const valid = items.filter(passesQualityBar);
+      if (valid.length > 0) {
+        const dropped = items.length - valid.length;
+        console.log(
+          `  ✓ ${category}: ${valid.length} vía ${provider.name}` +
+            (dropped > 0 ? ` (${dropped} descartadas por longitud)` : ""),
+        );
+        return valid;
       }
-      errors.push(`${provider.name}: 0 items`);
+      errors.push(`${provider.name}: 0 items válidos de ${items.length}`);
     } catch (err) {
       errors.push(`${provider.name}: ${(err as Error).message}`);
     }
@@ -300,32 +330,42 @@ async function main() {
   const date = process.env.NEWS_DATE ?? new Date().toISOString().slice(0, 10);
   console.log(`Generando noticias para ${date}…`);
 
-  const all: NewsItem[] = [];
+  const out = join(process.cwd(), "src", "data", "news.ts");
+  // Piezas evergreen: se AÑADEN al catálogo existente, nunca lo reemplazan.
+  // (Bug real hasta 2026-07-13: writeFileSync pisaba el fichero entero con solo
+  // las del día — habría borrado los 45 artículos curados en el primer cron OK.)
+  const { NEWS: existing } = (await import(pathToFileURL(out).href)) as { NEWS: NewsItem[] };
+  const existingSlugs = new Set(existing.map((n) => n.slug));
+
+  const fresh: NewsItem[] = [];
   for (const category of CATEGORIES) {
     const items = await generateCategory(category);
     items.forEach((it, idx) => {
-      const slug = slugify(it.title) || `${slugify(category)}-${idx}`;
-      all.push({
+      let slug = slugify(it.title) || `${slugify(category)}-${idx}`;
+      if (existingSlugs.has(slug) || fresh.some((f) => f.slug === slug)) slug = `${slug}-${date}`;
+      fresh.push({
         slug,
         title: it.title,
         category,
         excerpt: it.excerpt,
         date,
-        featured: all.length === 0 && idx === 0,
         body: it.body || undefined,
         image: getScriptNewsImage(category, slug),
       });
     });
   }
 
-  if (all.length === 0) {
+  if (fresh.length === 0) {
     console.error("No se generó ninguna noticia. Revisa las claves de API. Abortando sin escribir.");
     process.exit(1);
   }
 
-  const out = join(process.cwd(), "src", "data", "news.ts");
-  writeFileSync(out, renderFile(all));
-  console.log(`Escritas ${all.length} noticias en ${out}`);
+  // Un solo featured en todo el catálogo: se lo queda el primero de hoy.
+  const merged = [...existing.map((n) => ({ ...n, featured: undefined })), ...fresh];
+  merged[existing.length].featured = true;
+
+  writeFileSync(out, renderFile(merged));
+  console.log(`Añadidas ${fresh.length} noticias nuevas (${merged.length} en total) en ${out}`);
 }
 
 main().catch((err) => {
