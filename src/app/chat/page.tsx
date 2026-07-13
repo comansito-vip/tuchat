@@ -35,7 +35,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 1.800 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires… y los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: "TuChat tiene más de 2.400 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires… y casi 2.000 ciudades en total, incluidos los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
   },
   {
     q: "¿El chat funciona en el móvil?",

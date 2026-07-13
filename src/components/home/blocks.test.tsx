@@ -84,6 +84,12 @@ it("CountryGrid includes España and México", () => {
   const mexico = screen.getAllByRole("link", { name: /México/i });
   expect(mexico[0]).toHaveAttribute("href", "/chat/mexico");
 });
+it("CountryGrid shows a top city next to each country, not just the country alone", () => {
+  render(<CountryGrid />);
+  const madrid = screen.getAllByRole("link", { name: /Madrid/i });
+  expect(madrid.length).toBeGreaterThan(0);
+  expect(madrid[0]).toHaveAttribute("href", "/chat/madrid");
+});
 it("CategoryCard links to /chat/<slug>", () => {
   const place = getPlace("deportes")!;
   render(<CategoryCard place={place} />);
