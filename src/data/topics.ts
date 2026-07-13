@@ -355,7 +355,7 @@ export const TOPICS: Place[] = [
     tag: "Tendencia",
     activity: "Alta",
     channels: ["argentina", "cibersexo"],
-    related: ["adultos", "erotico", "argentina", "cybersexo", "ligar"],
+    related: ["adultos", "erotico", "argentina", "cibersexo", "ligar"],
     intro:
       "Chat caliente argentino solo para mayores de 18: charla hot, sexting y contactos con acento porteño. Entrá sin registro y prendé la noche.",
     about:
@@ -371,7 +371,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "mazmorra_hispano", "nudismo", "sexo_casadas", "sexomadrid", "cornudos", "chatzona"],
-    related: ["adultos", "infieles", "encuentros", "amor", "ligar", "lesbianas"],
+    related: ["sexo", "hot", "cibersexo", "bdsm", "adultos", "infieles"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
     about:
