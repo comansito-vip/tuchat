@@ -100,6 +100,13 @@ export default async function ChatRoomPage({
   // bandera) en vez de una lista plana. El resto de países ya tienen pocas
   // ciudades y no lo necesitan.
   const groupByRegion = place.slug === "espana" && children.some((c) => c.regionSlug);
+  // Países grandes sin comunidades (Argentina, Colombia...): si sus ciudades
+  // traen provincia/departamento y son demasiadas para una lista plana, se
+  // agrupan por provincia igual que las comunidades españolas.
+  const groupByProvincia =
+    !groupByRegion &&
+    children.length > 30 &&
+    children.filter((c) => c.provincia).length >= children.length / 2;
   // Página de una comunidad autónoma (topics-regiones.ts): sus ciudades no
   // cuelgan de ella por parentSlug (todas cuelgan de "espana"), así que se
   // buscan aparte y se agrupan por provincia.
@@ -254,6 +261,8 @@ export default async function ChatRoomPage({
           <SectionTitle>{childrenTitle}</SectionTitle>
           {groupByRegion ? (
             <RegionGroupedGrid cities={children} />
+          ) : groupByProvincia ? (
+            <ProvinciaGroupedGrid cities={children} />
           ) : (
             <RoomGrid places={children} />
           )}

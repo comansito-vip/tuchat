@@ -9,6 +9,7 @@ import { TOPICS_INTERESES } from "./topics-intereses";
 import { TOPICS_REGIONES } from "./topics-regiones";
 import { TOPICS_MOTOR } from "./topics-motor";
 import { TOPICS_OCIO } from "./topics-ocio";
+import { TOPICS_ADULTOS } from "./topics-adultos";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 
@@ -22,6 +23,7 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_REGIONES,
   ...TOPICS_MOTOR,
   ...TOPICS_OCIO,
+  ...TOPICS_ADULTOS,
 ];
 const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 

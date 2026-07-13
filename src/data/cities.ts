@@ -207,6 +207,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Ciudad de Buenos Aires",
     channels: ["buenos-aires", "buenos_aires", "argentina", "amistad", "chatzona"],
     related: ["argentina", "montevideo", "bogota", "lima", "amistad", "amor", "musica"],
     intro:
@@ -243,6 +244,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Colombia",
     parentSlug: "colombia",
+    provincia: "Distrito Capital",
     channels: ["bogota", "colombia", "amistad", "chatzona"],
     related: ["colombia", "lima", "buenos-aires", "ciudad-de-mexico", "amistad", "amor", "viajes"],
     intro:
@@ -765,6 +767,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Córdoba",
     channels: ["cordoba-argentina", "argentina", "amistad", "chatzona"],
     related: ["buenos-aires", "rosario", "mendoza", "argentina", "amistad", "musica"],
     intro:
@@ -782,6 +785,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Santa Fe",
     channels: ["rosario", "argentina", "amistad", "chatzona"],
     related: ["buenos-aires", "cordoba-argentina", "la-plata", "argentina", "amistad", "futbol"],
     intro:
@@ -799,6 +803,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Mendoza",
     channels: ["mendoza", "argentina", "amistad", "chatzona"],
     related: ["buenos-aires", "cordoba-argentina", "santiago-de-chile", "argentina", "amistad", "viajes"],
     intro:
@@ -816,6 +821,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Buenos Aires",
     channels: ["la-plata", "argentina", "amistad", "chatzona"],
     related: ["buenos-aires", "rosario", "cordoba-argentina", "argentina", "amistad", "politica"],
     intro:
@@ -834,6 +840,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Colombia",
     parentSlug: "colombia",
+    provincia: "Antioquia",
     channels: ["medellin", "colombia", "amistad", "chatzona"],
     related: ["bogota", "cali", "colombia", "amistad", "amor", "musica"],
     intro:
@@ -851,6 +858,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Colombia",
     parentSlug: "colombia",
+    provincia: "Valle del Cauca",
     channels: ["cali", "colombia", "amistad", "chatzona"],
     related: ["medellin", "bogota", "colombia", "amistad", "musica", "amor"],
     intro:
@@ -868,6 +876,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Colombia",
     parentSlug: "colombia",
+    provincia: "Atlántico",
     channels: ["barranquilla", "barranquilla_vip", "colombia", "amistad", "chatzona"],
     related: ["cartagena", "medellin", "colombia", "amistad", "musica", "futbol"],
     intro:
@@ -886,6 +895,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Colombia",
     parentSlug: "colombia",
+    provincia: "Bolívar",
     channels: ["cartagena", "colombia", "amistad", "chatzona"],
     related: ["barranquilla", "medellin", "colombia", "amistad", "viajes", "amor"],
     intro:
@@ -1576,6 +1586,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Argentina",
     parentSlug: "argentina",
+    provincia: "Río Negro",
     channels: ["bariloche", "argentina", "amistad", "chatzona"],
     related: ["argentina", "buenos-aires", "viajes", "amistad", "amor"],
     intro:
