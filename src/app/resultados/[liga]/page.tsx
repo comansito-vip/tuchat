@@ -137,7 +137,7 @@ export default async function ResultadosLigaPage({
         </Card>
         <p className="mt-2 text-xs text-muted">
           {source === "reserva"
-            ? "Mostrando datos de reserva. Configura una API deportiva para datos en vivo."
+            ? "Clasificación de referencia de la última jornada disputada; en cuanto el proveedor de datos responde se actualiza sola."
             : `Datos en vivo vía ${source}.`}
         </p>
       </section>

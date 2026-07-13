@@ -19,85 +19,19 @@ export interface WeatherData {
   forecast: WeatherDay[];
 }
 
-interface CityCoord { lat: number; lon: number; tz: string; }
+// 1.966 localidades geocodificadas contra Open-Meteo (ver scripts/geocode-cities.ts).
+// Antes esto era un diccionario de 59 ciudades escrito a mano, pero /tiempo genera
+// página para TODAS las salas de ciudad: 1.970 de ellas servían un "Sin datos
+// meteorológicos disponibles" bajo un título que prometía la previsión.
+import { CITY_COORDS } from "@/data/coords";
 
-const CITY_COORDS: Record<string, CityCoord> = {
-  // España
-  espana:          { lat: 40.4168, lon: -3.7038, tz: "Europe/Madrid" },
-  madrid:          { lat: 40.4168, lon: -3.7038, tz: "Europe/Madrid" },
-  barcelona:       { lat: 41.3874, lon:  2.1686, tz: "Europe/Madrid" },
-  valencia:        { lat: 39.4699, lon: -0.3763, tz: "Europe/Madrid" },
-  sevilla:         { lat: 37.3891, lon: -5.9845, tz: "Europe/Madrid" },
-  bilbao:          { lat: 43.2627, lon: -2.9253, tz: "Europe/Madrid" },
-  malaga:          { lat: 36.7213, lon: -4.4214, tz: "Europe/Madrid" },
-  zaragoza:        { lat: 41.6561, lon: -0.8773, tz: "Europe/Madrid" },
-  murcia:          { lat: 37.9922, lon: -1.1307, tz: "Europe/Madrid" },
-  palma:           { lat: 39.5696, lon:  2.6502, tz: "Europe/Madrid" },
-  "las-palmas":    { lat: 28.1235, lon:-15.4366, tz: "Atlantic/Canary" },
-  tenerife:        { lat: 28.2916, lon:-16.6291, tz: "Atlantic/Canary" },
-  alicante:        { lat: 38.3452, lon: -0.4810, tz: "Europe/Madrid" },
-  cordoba:         { lat: 37.8882, lon: -4.7794, tz: "Europe/Madrid" },
-  valladolid:      { lat: 41.6523, lon: -4.7245, tz: "Europe/Madrid" },
-  granada:         { lat: 37.1773, lon: -3.5986, tz: "Europe/Madrid" },
-  oviedo:          { lat: 43.3614, lon: -5.8593, tz: "Europe/Madrid" },
-  santander:       { lat: 43.4623, lon: -3.8099, tz: "Europe/Madrid" },
-  toledo:          { lat: 39.8628, lon: -4.0273, tz: "Europe/Madrid" },
-  vigo:            { lat: 42.2406, lon: -8.7207, tz: "Europe/Madrid" },
-  pamplona:        { lat: 42.8188, lon: -1.6444, tz: "Europe/Madrid" },
-  salamanca:       { lat: 40.9701, lon: -5.6635, tz: "Europe/Madrid" },
-  badajoz:         { lat: 38.8794, lon: -6.9706, tz: "Europe/Madrid" },
-  donostia:        { lat: 43.3183, lon: -1.9812, tz: "Europe/Madrid" },
-  // México
-  mexico:          { lat: 19.4326, lon:-99.1332, tz: "America/Mexico_City" },
-  "ciudad-de-mexico": { lat: 19.4326, lon:-99.1332, tz: "America/Mexico_City" },
-  guadalajara:     { lat: 20.6597, lon:-103.3496, tz: "America/Mexico_City" },
-  monterrey:       { lat: 25.6866, lon:-100.3161, tz: "America/Monterrey" },
-  cancun:          { lat: 21.1619, lon: -86.8515, tz: "America/Cancun" },
-  tijuana:         { lat: 32.5149, lon:-117.0382, tz: "America/Tijuana" },
-  puebla:          { lat: 19.0414, lon: -98.2063, tz: "America/Mexico_City" },
-  // Colombia
-  colombia:        { lat:  4.7110, lon: -74.0721, tz: "America/Bogota" },
-  bogota:          { lat:  4.7110, lon: -74.0721, tz: "America/Bogota" },
-  medellin:        { lat:  6.2442, lon: -75.5812, tz: "America/Bogota" },
-  cali:            { lat:  3.4516, lon: -76.5320, tz: "America/Bogota" },
-  // Argentina
-  argentina:       { lat:-34.6037, lon: -58.3816, tz: "America/Argentina/Buenos_Aires" },
-  "buenos-aires":  { lat:-34.6037, lon: -58.3816, tz: "America/Argentina/Buenos_Aires" },
-  rosario:         { lat:-32.9587, lon: -60.6930, tz: "America/Argentina/Buenos_Aires" },
-  // Chile
-  chile:           { lat:-33.4489, lon: -70.6693, tz: "America/Santiago" },
-  santiago:        { lat:-33.4489, lon: -70.6693, tz: "America/Santiago" },
-  // Perú
-  peru:            { lat:-12.0464, lon: -77.0428, tz: "America/Lima" },
-  lima:            { lat:-12.0464, lon: -77.0428, tz: "America/Lima" },
-  // Venezuela
-  venezuela:       { lat: 10.4806, lon: -66.9036, tz: "America/Caracas" },
-  caracas:         { lat: 10.4806, lon: -66.9036, tz: "America/Caracas" },
-  // Ecuador
-  ecuador:         { lat: -0.2295, lon: -78.5243, tz: "America/Guayaquil" },
-  quito:           { lat: -0.2295, lon: -78.5243, tz: "America/Guayaquil" },
-  // Bolivia
-  bolivia:         { lat:-16.5000, lon: -68.1500, tz: "America/La_Paz" },
-  // Uruguay
-  uruguay:         { lat:-34.9011, lon: -56.1645, tz: "America/Montevideo" },
-  montevideo:      { lat:-34.9011, lon: -56.1645, tz: "America/Montevideo" },
-  // Paraguay
-  paraguay:        { lat:-25.2637, lon: -57.5759, tz: "America/Asuncion" },
-  // Guatemala
-  guatemala:       { lat: 14.6349, lon: -90.5069, tz: "America/Guatemala" },
-  // Cuba
-  cuba:            { lat: 23.1136, lon: -82.3666, tz: "America/Havana" },
-  // Dominican Republic
-  "republica-dominicana": { lat: 18.4861, lon: -69.9312, tz: "America/Santo_Domingo" },
-  // Puerto Rico
-  "puerto-rico":   { lat: 18.2208, lon: -66.5901, tz: "America/Puerto_Rico" },
-  // Central America
-  honduras:        { lat: 14.0818, lon: -87.2068, tz: "America/Tegucigalpa" },
-  "el-salvador":   { lat: 13.6929, lon: -89.2182, tz: "America/El_Salvador" },
-  nicaragua:       { lat: 12.1328, lon: -86.2926, tz: "America/Managua" },
-  "costa-rica":    { lat:  9.9281, lon: -84.0907, tz: "America/Costa_Rica" },
-  panama:          { lat:  8.9936, lon: -79.5197, tz: "America/Panama" },
-};
+// Las localidades que Open-Meteo no supo resolver (~60: agregados tipo
+// "Necochea-Quequén", que no son un municipio único) siguen sin coordenadas.
+// hasWeather() permite excluirlas de la generación de páginas en vez de
+// publicarlas vacías.
+export function hasWeather(slug: string): boolean {
+  return slug in CITY_COORDS;
+}
 
 const WMO_ICONS: Array<[number[], string]> = [
   [[0], "☀️"],

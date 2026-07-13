@@ -4,26 +4,21 @@ import { useState, useRef, useEffect, useId } from "react";
 import Link from "next/link";
 import { normalize } from "@/lib/slug";
 import { Flag } from "@/components/ui/Flag";
-import type { SearchRoom } from "@/components/chat/ChatSearch";
+import { useSearchIndex } from "@/lib/useSearchIndex";
 
-export function SearchInput({
-  size = "lg",
-  rooms = [],
-}: {
-  size?: "lg" | "md";
-  /** Salas para sugerir en vivo mientras se escribe. Sin esto, cae al submit clásico a /chat?q=. */
-  rooms?: SearchRoom[];
-}) {
+export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const listId = useId();
   const router = useRouter();
   const boxRef = useRef<HTMLDivElement>(null);
+  const { rooms, load } = useSearchIndex();
 
   const query = q.trim();
-  const results = query
-    ? rooms.filter((r) => normalize(r.name).includes(normalize(query))).slice(0, 8)
-    : [];
+  const results =
+    query && rooms
+      ? rooms.filter((r) => normalize(r.n).includes(normalize(query))).slice(0, 8)
+      : [];
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -40,7 +35,7 @@ export function SearchInput({
         onSubmit={(e) => {
           e.preventDefault();
           if (results.length > 0) {
-            router.push(`/chat/${results[0].slug}`);
+            router.push(`/chat/${results[0].s}`);
           } else if (query) {
             router.push(`/chat?q=${encodeURIComponent(query)}`);
           }
@@ -50,7 +45,7 @@ export function SearchInput({
         <input
           value={q}
           onChange={(e) => { setQ(e.target.value); setOpen(true); }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => { load(); setOpen(true); }}
           placeholder="Buscar ciudad, país o temática"
           aria-label="Buscar salas por ciudad, país o temática"
           role="combobox"
@@ -73,21 +68,21 @@ export function SearchInput({
       {open && query && results.length > 0 && (
         <ul id={listId} className="absolute z-20 mt-1.5 w-full overflow-hidden rounded-xl border border-line bg-card shadow-lg">
           {results.map((r) => (
-            <li key={r.slug}>
+            <li key={r.s}>
               <Link
-                href={`/chat/${r.slug}`}
+                href={`/chat/${r.s}`}
                 onClick={() => setOpen(false)}
                 className="flex items-center gap-2.5 px-4 py-2.5 transition-colors hover:bg-bg"
               >
-                <Flag emoji={r.icon} flagSrc={r.flagSrc} name={r.flagName} size={18} />
-                <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">{r.name}</span>
-                <span className="shrink-0 text-xs text-muted">{r.users.toLocaleString("es")} online</span>
+                <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={18} />
+                <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">{r.n}</span>
+                <span className="shrink-0 text-xs text-muted">{r.u.toLocaleString("es")} online</span>
               </Link>
             </li>
           ))}
         </ul>
       )}
-      {open && query && results.length === 0 && (
+      {open && query && rooms && results.length === 0 && (
         <div className="absolute z-20 mt-1.5 w-full rounded-xl border border-line bg-card px-4 py-3 text-sm text-muted shadow-lg">
           Sin resultados para «{query}»
         </div>

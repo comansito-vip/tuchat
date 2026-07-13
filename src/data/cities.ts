@@ -34,7 +34,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Barcelona",
     regionSlug: "cataluna",
-    channels: ["barcelona", "cataluna", "cataluña", "españa", "chatzona"],
+    channels: ["barcelona", "cataluña", "españa", "chatzona"],
     related: ["badalona", "lhospitalet", "cornella", "sant-cugat", "el-prat-de-llobregat", "sabadell", "espana", "amistad", "viajes"],
     intro:
       "La sala de Barcelona es punto de encuentro para gente del Eixample, Gràcia y los barrios del litoral que quiere charlar, quedar o simplemente matar el rato.",
@@ -208,7 +208,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Ciudad de Buenos Aires",
-    channels: ["buenos-aires", "buenos_aires", "argentina", "amistad", "chatzona"],
+    channels: ["buenos_aires", "argentina", "latinoamerica", "chatzona"],
     related: ["argentina", "montevideo", "bogota", "lima", "amistad", "amor", "musica"],
     intro:
       "Desde Palermo hasta la Boca, los porteños tienen el don de la conversación a cualquier hora. Entrá y comprobá si el acento te contagia.",
@@ -226,7 +226,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["ciudad-de-mexico", "mexico", "amistad", "chatzona"],
+    channels: ["mexico", "latinoamerica", "chatzona"],
     related: ["mexico", "bogota", "lima", "buenos-aires", "amistad", "amor", "musica"],
     intro:
       "Chilangos de Tepito, Coyoacán, la Condesa y el Estado de México conviven en esta sala con el ritmo frenético de la ciudad más grande de habla hispana.",
@@ -245,7 +245,7 @@ export const CITIES: Place[] = [
     parentName: "Colombia",
     parentSlug: "colombia",
     provincia: "Distrito Capital",
-    channels: ["bogota", "colombia", "amistad", "chatzona"],
+    channels: ["bogota", "colombia", "latinoamerica", "chatzona"],
     related: ["colombia", "lima", "buenos-aires", "ciudad-de-mexico", "amistad", "amor", "viajes"],
     intro:
       "La Candelaria, el frío de los 2600 metros y el ajiaco de los domingos: los bogotanos son conversadores natos y esta sala lo demuestra a cualquier hora del día.",
@@ -262,7 +262,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Perú",
     parentSlug: "peru",
-    channels: ["lima", "peru", "amistad", "chatzona"],
+    channels: ["lima", "peru", "latinoamerica", "chatzona"],
     related: ["bogota", "argentina", "ciudad-de-mexico", "buenos-aires", "amistad", "amor", "cocina"],
     intro:
       "Capital de la mejor cocina del continente según quienes la conocen: los limeños hablan de ceviche, de la garúa invernal y de por qué todo pasa en Miraflores.",
@@ -279,7 +279,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Chile",
     parentSlug: "chile",
-    channels: ["santiago-de-chile", "chile", "amistad", "chatzona"],
+    channels: ["chile", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "lima", "bogota", "argentina", "amistad", "amor", "viajes"],
     intro:
       "Los Andes al fondo, el smog en los días sin viento y la obsesión con el pisco sour: Santiago es más cosmopolita de lo que parece y su chat lo refleja.",
@@ -297,7 +297,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Uruguay",
     parentSlug: "uruguay",
-    channels: ["montevideo", "uruguay", "amistad", "chatzona"],
+    channels: ["montevideo", "uruguay", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "argentina", "lima", "bogota", "amistad", "amor", "deportes"],
     intro:
       "El mate, la rambla y un ritmo de vida que los montevideanos defienden con orgullo frente al frenesí porteño: una sala tranquila pero con mucha chicha.",
@@ -413,7 +413,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Asturias",
     regionSlug: "asturias",
-    channels: ["asturias", "españa", "chatzona"],
+    channels: ["oviedo", "asturias", "españa", "chatzona"],
     related: ["gijon", "santander", "leon", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de Oviedo para charlar con carbayones, quedar de pinchos por el Antiguo o comentar lo limpia que está mientras llueve, como casi siempre.",
@@ -585,7 +585,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Salamanca",
     regionSlug: "castilla",
-    channels: ["castilla", "españa", "chatzona"],
+    channels: ["salamanca", "castilla", "españa", "chatzona"],
     related: ["valladolid", "leon", "madrid", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Salamanca para conocer gente, buscar la rana de la Universidad o salir de marcha por Van Dyck como mandan los cánones estudiantiles.",
@@ -604,7 +604,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "León",
     regionSlug: "castilla",
-    channels: ["castilla", "españa", "chatzona"],
+    channels: ["leon", "castilla", "españa", "chatzona"],
     related: ["oviedo", "valladolid", "burgos", "espana", "amistad", "amor"],
     intro:
       "Métete en el chat de León para conocer gente, ir de tapas por el Barrio Húmedo o quedar a ver las vidrieras de la Catedral cuando entra el sol de la tarde.",
@@ -623,7 +623,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Burgos",
     regionSlug: "castilla",
-    channels: ["castilla", "españa", "chatzona"],
+    channels: ["burgos", "castilla", "españa", "chatzona"],
     related: ["valladolid", "leon", "santander", "espana", "amistad", "amor"],
     intro:
       "Entra en el chat de Burgos para conocer gente, quedar a tomar morcilla y un buen lechazo o pasear junto a la Catedral abrigado, que aquí el frío no perdona.",
@@ -642,7 +642,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Tarragona",
     regionSlug: "cataluna",
-    channels: ["tarragona", "cataluna", "cataluña", "españa", "chatzona"],
+    channels: ["tarragona", "cataluña", "españa", "chatzona"],
     related: ["barcelona", "girona", "valencia", "espana", "amistad", "amor"],
     intro:
       "Pásate por el chat de Tarragona para conocer gente, bajar al Anfiteatro romano junto al mar o vibrar con los castells en la plaza durante Santa Tecla.",
@@ -661,7 +661,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Girona",
     regionSlug: "cataluna",
-    channels: ["cataluna", "cataluña", "españa", "chatzona"],
+    channels: ["girona", "cataluña", "españa", "chatzona"],
     related: ["barcelona", "tarragona", "espana", "amistad", "amor", "viajes"],
     intro:
       "Entra en el chat de Girona para conocer gente, pasear por las casas de colores del Onyar o quedar en el Temps de Flors cuando la ciudad se llena de flores.",
@@ -680,7 +680,7 @@ export const CITIES: Place[] = [
     parentSlug: "espana",
     provincia: "Toledo",
     regionSlug: "castilla",
-    channels: ["castilla", "españa", "chatzona"],
+    channels: ["toledo", "castilla", "españa", "chatzona"],
     related: ["madrid", "cordoba", "espana", "amistad", "amor", "viajes"],
     intro:
       "Métete en el chat de Toledo para conocer gente, perderte por las callejuelas de la judería o comer mazapán y carcamusas con vistas al Tajo desde el mirador.",
@@ -698,7 +698,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["guadalajara", "jalisco", "mexico", "amistad", "mexico_vip", "tapatios", "chatzona"],
+    channels: ["guadalajara", "jalisco", "mexico", "latinoamerica", "chatzona"],
     related: ["ciudad-de-mexico", "monterrey", "puebla", "mexico", "amistad", "musica"],
     intro:
       "Cuna del mariachi y del tequila: en Guadalajara se platica con calma tapatía y se presume torta ahogada. Deja que te adopten como si fueras de la colonia.",
@@ -715,7 +715,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["monterrey", "nuevo_leon", "mexico", "amistad", "mexico_vip", "chatzona"],
+    channels: ["monterrey", "nuevo_leon", "mexico", "latinoamerica", "chatzona"],
     related: ["guadalajara", "ciudad-de-mexico", "tijuana", "mexico", "amistad", "deportes"],
     intro:
       "Bajo el Cerro de la Silla, los regios entran directo al grano y con el carbón ya prendido. Aquí se habla recio, se trabaja duro y la carne asada no se discute.",
@@ -732,7 +732,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["puebla", "mexico", "amistad", "mexico_vip", "chatzona"],
+    channels: ["puebla", "mexico", "latinoamerica", "chatzona"],
     related: ["ciudad-de-mexico", "guadalajara", "monterrey", "mexico", "amistad", "cocina"],
     intro:
       "Ciudad de talavera, iglesias barrocas y mole que tarda un día entero en cocinarse. En Puebla se conversa con educación angelopolitana y mucha sazón.",
@@ -750,7 +750,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["tijuana", "mexico", "amistad", "chatzona"],
+    channels: ["tijuana", "mexico", "latinoamerica", "chatzona"],
     related: ["monterrey", "guadalajara", "ciudad-de-mexico", "mexico", "amistad", "musica"],
     intro:
       "Pegada a la línea, Tijuana nunca duerme y mezcla dos idiomas en la misma frase. Entra y agarra el ritmo de la frontera más movida de México.",
@@ -768,7 +768,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Córdoba",
-    channels: ["cordoba-argentina", "argentina", "amistad", "chatzona"],
+    channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "rosario", "mendoza", "argentina", "amistad", "musica"],
     intro:
       "Con esa tonada que se reconoce a un kilómetro, los cordobeses te reciben con humor y un fernet. Entrá y comprobá por qué acá nadie se toma las cosas en serio.",
@@ -786,7 +786,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Santa Fe",
-    channels: ["rosario", "argentina", "amistad", "chatzona"],
+    channels: ["rosario", "argentina", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "cordoba-argentina", "la-plata", "argentina", "amistad", "futbol"],
     intro:
       "A orillas del Paraná y bajo el Monumento a la Bandera, los rosarinos charlan con orgullo futbolero. Acá nacieron Messi y el Che, y no te dejan olvidarlo.",
@@ -804,7 +804,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Mendoza",
-    channels: ["mendoza", "argentina", "amistad", "chatzona"],
+    channels: ["mendoza", "argentina", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "cordoba-argentina", "santiago-de-chile", "argentina", "amistad", "viajes"],
     intro:
       "Al pie de la cordillera y entre viñedos, los mendocinos conversan con calma de montaña. Entrá a brindar con un malbec aunque sea virtual.",
@@ -822,7 +822,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Buenos Aires",
-    channels: ["la-plata", "argentina", "amistad", "chatzona"],
+    channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "rosario", "cordoba-argentina", "argentina", "amistad", "politica"],
     intro:
       "La ciudad de las diagonales, pensada con regla y compás, vive a puro estudiante y debate eterno. Entrá y descubrí por qué acá todo el mundo opina de todo.",
@@ -841,7 +841,7 @@ export const CITIES: Place[] = [
     parentName: "Colombia",
     parentSlug: "colombia",
     provincia: "Antioquia",
-    channels: ["medellin", "colombia", "amistad", "chatzona"],
+    channels: ["medellin", "colombia", "latinoamerica", "chatzona"],
     related: ["bogota", "cali", "colombia", "amistad", "amor", "musica"],
     intro:
       "La ciudad de la eterna primavera, donde el paisa saluda con un '¿bien o qué?' y todo el mundo presume del metro como si fuera de la familia.",
@@ -859,7 +859,7 @@ export const CITIES: Place[] = [
     parentName: "Colombia",
     parentSlug: "colombia",
     provincia: "Valle del Cauca",
-    channels: ["cali", "colombia", "amistad", "chatzona"],
+    channels: ["cali", "colombia", "latinoamerica", "chatzona"],
     related: ["medellin", "bogota", "colombia", "amistad", "musica", "amor"],
     intro:
       "La capital mundial de la salsa: en Cali se aprende a bailar antes que a caminar, y el calor de las seis de la tarde se aguanta con un cholado bien cargado.",
@@ -877,7 +877,7 @@ export const CITIES: Place[] = [
     parentName: "Colombia",
     parentSlug: "colombia",
     provincia: "Atlántico",
-    channels: ["barranquilla", "barranquilla_vip", "colombia", "amistad", "chatzona"],
+    channels: ["barranquilla", "colombia", "latinoamerica", "chatzona"],
     related: ["cartagena", "medellin", "colombia", "amistad", "musica", "futbol"],
     intro:
       "Quien lo vive es quien lo goza: La Arenosa se prepara todo el año para su Carnaval, y mientras tanto se aguanta el calorón con un raspao y mucha labia costeña.",
@@ -896,7 +896,7 @@ export const CITIES: Place[] = [
     parentName: "Colombia",
     parentSlug: "colombia",
     provincia: "Bolívar",
-    channels: ["cartagena", "colombia", "amistad", "chatzona"],
+    channels: ["cartagena", "colombia", "latinoamerica", "chatzona"],
     related: ["barranquilla", "medellin", "colombia", "amistad", "viajes", "amor"],
     intro:
       "La Heroica enamora con sus murallas y sus balcones llenos de buganvilias, donde el atardecer sobre el Caribe vale cada gota de sudor que cuesta caminarla.",
@@ -913,7 +913,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Perú",
     parentSlug: "peru",
-    channels: ["arequipa", "peru", "amistad", "chatzona"],
+    channels: ["arequipa", "peru", "latinoamerica", "chatzona"],
     related: ["lima", "cusco", "peru", "amistad", "cocina", "amor"],
     intro:
       "La Ciudad Blanca al pie del Misti, donde los arequipeños bromean con que tienen pasaporte propio y defienden su rocoto relleno como patrimonio nacional.",
@@ -930,7 +930,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Perú",
     parentSlug: "peru",
-    channels: ["trujillo", "peru", "amistad", "chatzona"],
+    channels: ["trujillo", "peru", "latinoamerica", "chatzona"],
     related: ["lima", "arequipa", "peru", "amistad", "musica", "amor"],
     intro:
       "La Ciudad de la Eterna Primavera del norte peruano, cuna de la marinera y del cebiche de Huanchaco, donde aún se pescan olas sobre caballitos de totora.",
@@ -948,7 +948,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Perú",
     parentSlug: "peru",
-    channels: ["cusco", "peru", "amistad", "chatzona"],
+    channels: ["peru", "latinoamerica", "chatzona"],
     related: ["lima", "arequipa", "peru", "amistad", "viajes", "amor"],
     intro:
       "El ombligo del mundo inca, donde se camina por callejones empedrados como los de Hatun Rumiyoc y se sube San Blas con el soroche pisándole los talones.",
@@ -965,7 +965,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Chile",
     parentSlug: "chile",
-    channels: ["valparaiso", "chile", "amistad", "chatzona"],
+    channels: ["chile", "latinoamerica", "chatzona"],
     related: ["santiago-de-chile", "vina-del-mar", "chile", "amistad", "musica", "amor"],
     intro:
       "El puerto bohemio de los cerros y ascensores, donde los porteños toman 'la once' viendo el mar y juran que Valpo tiene más alma que toda la capital junta.",
@@ -982,7 +982,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Chile",
     parentSlug: "chile",
-    channels: ["concepcion", "chile", "amistad", "chatzona"],
+    channels: ["concepcion", "chile", "latinoamerica", "chatzona"],
     related: ["santiago-de-chile", "valparaiso", "chile", "amistad", "musica", "amor"],
     intro:
       "La cuna del rock chileno y de la garra penquista, donde llueve a baldazos pero igual se sale a carretear por Barrio Universitario sin chistar.",
@@ -999,7 +999,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Chile",
     parentSlug: "chile",
-    channels: ["vina-del-mar", "chile", "amistad", "chatzona"],
+    channels: ["chile", "latinoamerica", "chatzona"],
     related: ["valparaiso", "santiago-de-chile", "chile", "amistad", "viajes", "amor"],
     intro:
       "La Ciudad Jardín del reloj de flores y las playas de Reñaca, donde cada febrero el Festival pone a todo Chile pendiente del 'monstruo' de la Quinta Vergara.",
@@ -1016,7 +1016,7 @@ export const CITIES: Place[] = [
     activity: "Baja",
     parentName: "Uruguay",
     parentSlug: "uruguay",
-    channels: ["salto", "uruguay", "amistad", "chatzona"],
+    channels: ["uruguay", "latinoamerica", "chatzona"],
     related: ["montevideo", "punta-del-este", "uruguay", "amistad", "futbol", "amor"],
     intro:
       "La capital del norte uruguayo, tierra de termas y de naranjas, donde se mateaba en la costanera del río mucho antes de que naciera Suárez, su hijo más ilustre.",
@@ -1033,7 +1033,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Uruguay",
     parentSlug: "uruguay",
-    channels: ["punta-del-este", "uruguay", "amistad", "chatzona"],
+    channels: ["uruguay", "latinoamerica", "chatzona"],
     related: ["montevideo", "salto", "uruguay", "amistad", "viajes", "amor"],
     intro:
       "El balneario de Los Dedos asomando de la arena y los yates en el puerto, donde en enero se cruza medio Río de la Plata y en invierno queda todo en calma.",
@@ -1051,7 +1051,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Venezuela",
     parentSlug: "venezuela",
-    channels: ["caracas", "venezuela", "amistad", "chatzona"],
+    channels: ["caracas", "venezuela", "latinoamerica", "chatzona"],
     related: ["maracaibo", "valencia-venezuela", "venezuela", "amistad", "amor", "musica"],
     intro:
       "Entre el Ávila siempre verde y el tráfico de la Francisco Fajardo, los caraqueños llegan al chat con la chispa de quien sobrevive la cola con un chiste.",
@@ -1068,7 +1068,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Venezuela",
     parentSlug: "venezuela",
-    channels: ["maracaibo", "zulia", "venezuela", "amistad", "chatzona"],
+    channels: ["maracaibo", "zulia", "venezuela", "latinoamerica", "chatzona"],
     related: ["caracas", "valencia-venezuela", "venezuela", "amistad", "amor", "musica"],
     intro:
       "Calor que no perdona, el puente sobre el lago y ese 'verga, vale' que delata al marabino apenas escribe: aquí se chatea con el ventilador a todo lo que da.",
@@ -1085,7 +1085,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Venezuela",
     parentSlug: "venezuela",
-    channels: ["valencia-venezuela", "carabobo", "venezuela", "amistad", "chatzona"],
+    channels: ["carabobo", "venezuela", "latinoamerica", "chatzona"],
     related: ["caracas", "maracaibo", "venezuela", "amistad", "amor", "ligar"],
     intro:
       "La cuna industrial del país, las ferias de la Virgen del Socorro y la cercanía a Puerto Cabello: el valenciano chatea sin las prisas de la capital.",
@@ -1103,7 +1103,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Ecuador",
     parentSlug: "ecuador",
-    channels: ["quito", "ecuador", "amistad", "chatzona"],
+    channels: ["quito", "ecuador", "latinoamerica", "chatzona"],
     related: ["guayaquil", "cuenca", "ecuador", "amistad", "amor", "viajes"],
     intro:
       "A 2.850 metros, con el Pichincha vigilando y la mitad del mundo a un paso, los quiteños llegan al chat hablando bajito y con su 'ñaño' por delante.",
@@ -1120,7 +1120,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Ecuador",
     parentSlug: "ecuador",
-    channels: ["guayaquil", "guayaquil-ecuador", "ecuador", "amistad", "chatzona"],
+    channels: ["guayaquil", "ecuador", "latinoamerica", "chatzona"],
     related: ["quito", "cuenca", "ecuador", "amistad", "amor", "futbol"],
     intro:
       "Calor pegajoso, el Malecón 2000 al borde del Guayas y el orgullo de ser del puerto: el guayaco entra al chat con la franqueza costeña y sin pelos en la lengua.",
@@ -1138,7 +1138,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Ecuador",
     parentSlug: "ecuador",
-    channels: ["cuenca", "ecuador", "amistad", "chatzona"],
+    channels: ["ecuador", "latinoamerica", "chatzona"],
     related: ["quito", "guayaquil", "ecuador", "amistad", "amor", "cocina"],
     intro:
       "Las cúpulas celestes de la Catedral Nueva y el río Tomebamba: en Cuenca se chatea con calma de ciudad patrimonio de la humanidad.",
@@ -1155,7 +1155,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Bolivia",
     parentSlug: "bolivia",
-    channels: ["la-paz", "bolivia", "amistad", "chatzona"],
+    channels: ["bolivia", "latinoamerica", "chatzona"],
     related: ["santa-cruz-de-la-sierra", "cochabamba", "bolivia", "amistad", "amor", "viajes"],
     intro:
       "La sede de gobierno más alta del mundo, con el Illimani de telón: el paceño llega al chat con la garganta acostumbrada a la altura.",
@@ -1172,7 +1172,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Bolivia",
     parentSlug: "bolivia",
-    channels: ["santa-cruz-de-la-sierra", "bolivia", "amistad", "chatzona"],
+    channels: ["bolivia", "latinoamerica", "chatzona"],
     related: ["la-paz", "cochabamba", "bolivia", "amistad", "amor", "musica"],
     intro:
       "Calor de llano, los anillos que ordenan la ciudad y el motorista que no afloja: el camba entra al chat con su 'pues' cantadito y ganas de carnaval todo el año.",
@@ -1189,7 +1189,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Bolivia",
     parentSlug: "bolivia",
-    channels: ["cochabamba", "bolivia", "amistad", "chatzona"],
+    channels: ["cochabamba", "bolivia", "latinoamerica", "chatzona"],
     related: ["la-paz", "santa-cruz-de-la-sierra", "bolivia", "amistad", "amor", "cocina"],
     intro:
       "El Cristo de la Concordia y la fama de comer mejor que nadie: el cochabambino chatea entre un pique macho y otro, con la cordillera de fondo y sin apuro.",
@@ -1207,7 +1207,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Paraguay",
     parentSlug: "paraguay",
-    channels: ["asuncion", "paraguay", "amistad", "chatzona"],
+    channels: ["asuncion", "paraguay", "latinoamerica", "chatzona"],
     related: ["ciudad-del-este", "paraguay", "amistad", "amor", "musica", "futbol"],
     intro:
       "El tereré bajo el calor, la costanera sobre el río Paraguay y el guaraní colándose en cada frase: el asunceno chatea con el jarrito al lado.",
@@ -1224,7 +1224,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Paraguay",
     parentSlug: "paraguay",
-    channels: ["ciudad-del-este", "paraguay", "amistad", "chatzona"],
+    channels: ["paraguay", "latinoamerica", "chatzona"],
     related: ["asuncion", "paraguay", "amistad", "amor", "viajes", "ligar"],
     intro:
       "La triple frontera, el bullicio comercial del microcentro y la represa de Itaipú a un paso: en Ciudad del Este el chat tiene sabor a tres países a la vez.",
@@ -1242,7 +1242,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "República Dominicana",
     parentSlug: "republica-dominicana",
-    channels: ["santo-domingo", "republica-dominicana", "amistad", "chatzona"],
+    channels: ["santodomingo", "republica_dominicana", "latinoamerica", "chatzona"],
     related: ["santiago-de-los-caballeros", "republica-dominicana", "amistad", "amor", "musica", "ligar"],
     intro:
       "Entre el bullicio del Conde y el merengue que sale de los colmadones, la sala más prendida del Caribe: aquí se habla claro y se baila más claro todavía.",
@@ -1259,7 +1259,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "República Dominicana",
     parentSlug: "republica-dominicana",
-    channels: ["santiago-de-los-caballeros", "republica-dominicana", "amistad", "chatzona"],
+    channels: ["republica_dominicana", "latinoamerica", "chatzona"],
     related: ["santo-domingo", "republica-dominicana", "amistad", "musica", "amor"],
     intro:
       "La capital del Cibao, cuna del merengue típico y del mejor tabaco del mundo: en el Monumento se cuadra todo Santiago y aquí también nos cuadramos a conversar.",
@@ -1277,7 +1277,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Cuba",
     parentSlug: "cuba",
-    channels: ["la-habana", "cuba", "amistad", "chatzona"],
+    channels: ["cuba", "latinoamerica", "chatzona"],
     related: ["santiago-de-cuba", "cuba", "amistad", "amor", "musica", "ligar"],
     intro:
       "El Malecón al atardecer, un almendrón que pasa a todo lo que da y una conversación que no se acaba: La Habana se mete en la sala con su sabrosura de siempre.",
@@ -1294,7 +1294,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Cuba",
     parentSlug: "cuba",
-    channels: ["santiago-de-cuba", "cuba", "amistad", "chatzona"],
+    channels: ["cuba", "latinoamerica", "chatzona"],
     related: ["la-habana", "cuba", "amistad", "musica", "amor"],
     intro:
       "Tierra caliente del son y la trova, cuna del carnaval más candente de la isla: los santiagueros llegan con el tambor por dentro y el verbo encendido.",
@@ -1311,7 +1311,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Puerto Rico",
     parentSlug: "puerto-rico",
-    channels: ["san-juan", "puerto-rico", "amistad", "chatzona"],
+    channels: ["puerto_rico", "latinoamerica", "chatzona"],
     related: ["ponce", "puerto-rico", "amistad", "amor", "musica", "ligar"],
     intro:
       "Del adoquín azul del Viejo San Juan a la movida de Santurce, la capital boricua llega bien arrebatá: aquí se brega duro pero se janguea más.",
@@ -1328,7 +1328,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Puerto Rico",
     parentSlug: "puerto-rico",
-    channels: ["ponce", "puerto-rico", "amistad", "chatzona"],
+    channels: ["puerto_rico", "latinoamerica", "chatzona"],
     related: ["san-juan", "puerto-rico", "amistad", "musica", "amor"],
     intro:
       "Ponce es Ponce: el Parque de Bombas rojo y negro, la danza y un orgullo sureño que no cabe en la plaza Las Delicias. Los ponceños lo dicen con el pecho hinchao.",
@@ -1345,7 +1345,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Guatemala",
     parentSlug: "guatemala",
-    channels: ["ciudad-de-guatemala", "guatemala", "amistad", "chatzona"],
+    channels: ["guatemala", "latinoamerica", "chatzona"],
     related: ["quetzaltenango", "guatemala", "amistad", "amor", "cocina", "ligar"],
     intro:
       "Con los volcanes vigilando el horizonte y el bullicio de la Sexta Avenida en la Zona 1, la capi chapina abre sala: aquí se platica suave y con confianza, vos.",
@@ -1362,7 +1362,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Guatemala",
     parentSlug: "guatemala",
-    channels: ["quetzaltenango", "guatemala", "amistad", "chatzona"],
+    channels: ["guatemala", "latinoamerica", "chatzona"],
     related: ["ciudad-de-guatemala", "guatemala", "amistad", "amor", "cocina"],
     intro:
       "Xela para los de confianza: frío de montaña, marimba en el Parque Central y esa calidez quetzalteca que se siente más con un atol caliente en la mano.",
@@ -1379,7 +1379,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Costa Rica",
     parentSlug: "costa-rica",
-    channels: ["san-jose", "costa-rica", "amistad", "chatzona"],
+    channels: ["costa_rica", "latinoamerica", "chatzona"],
     related: ["ciudad-de-panama", "managua", "costa-rica", "amistad", "amor", "ligar"],
     intro:
       "Del Mercado Central al Barrio Escalante con sus cafeterías, la capital tica fluye pura vida: aquí se conversa con calma y siempre con un mae bien puesto.",
@@ -1396,7 +1396,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Panamá",
     parentSlug: "panama",
-    channels: ["ciudad-de-panama", "panama", "amistad", "chatzona"],
+    channels: ["panama", "latinoamerica", "chatzona"],
     related: ["san-jose", "panama", "amistad", "amor", "musica", "ligar"],
     intro:
       "Rascacielos frente al Pacífico y el Casco Antiguo con su sabor de antaño: la capital panameña late entre el Canal y la cumbia, y aquí se conversa con flow.",
@@ -1413,7 +1413,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "El Salvador",
     parentSlug: "el-salvador",
-    channels: ["san-salvador", "el-salvador", "amistad", "chatzona"],
+    channels: ["el_salvador", "latinoamerica", "chatzona"],
     related: ["tegucigalpa", "managua", "el-salvador", "amistad", "amor", "cocina"],
     intro:
       "Bajo la mirada del volcán, entre pupusas calientes y el bullicio del Centro, la capital cuscatleca abre la puerta: pasá, que aquí se platica con cariño.",
@@ -1430,7 +1430,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Honduras",
     parentSlug: "honduras",
-    channels: ["tegucigalpa", "honduras", "amistad", "chatzona"],
+    channels: ["honduras", "latinoamerica", "chatzona"],
     related: ["san-pedro-sula", "san-salvador", "honduras", "amistad", "amor"],
     intro:
       "Tegus encaramada en sus cerros, con el Cristo del Picacho cuidando la ciudad y las baleadas a la vuelta de cada esquina: los catrachos llegan con buena onda.",
@@ -1447,7 +1447,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Honduras",
     parentSlug: "honduras",
-    channels: ["san-pedro-sula", "honduras", "amistad", "chatzona"],
+    channels: ["honduras", "latinoamerica", "chatzona"],
     related: ["tegucigalpa", "honduras", "amistad", "musica", "amor"],
     intro:
       "La capital industrial del norte, calurosa y trabajadora, con la pasión por el Marathón y el Real España: en la Sula se conversa al ritmo del valle.",
@@ -1464,7 +1464,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Nicaragua",
     parentSlug: "nicaragua",
-    channels: ["managua", "nicaragua", "amistad", "chatzona"],
+    channels: ["nicaragua", "latinoamerica", "chatzona"],
     related: ["san-jose", "san-salvador", "nicaragua", "amistad", "amor", "ligar"],
     intro:
       "A orillas del lago Xolotlán, sin direcciones de calle pero con señas 'de donde fue el árbol de tamarindo', la capital pinolera te recibe con un nacatamal.",
@@ -1482,7 +1482,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["miami", "usa", "amistad", "chatzona"],
+    channels: ["miami", "usa", "internacional", "chatzona"],
     related: ["nueva-york", "la-habana", "cuba", "estados-unidos", "amor", "amistad", "musica"],
     intro:
       "En Miami el español no es segundo idioma: es el que suena en la cola del cafecito de Little Havana y en la radio del carro camino a la playa.",
@@ -1500,7 +1500,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["nueva-york", "usa", "amistad", "chatzona"],
+    channels: ["usa", "internacional", "chatzona"],
     related: ["miami", "los-angeles", "san-juan", "estados-unidos", "amistad", "musica", "ligar"],
     intro:
       "Del español dominicano de Washington Heights al puertorriqueño del Bronx, Nueva York habla nuestro idioma en cada vagón del subway.",
@@ -1517,7 +1517,7 @@ export const CITIES: Place[] = [
     activity: "Alta",
     parentName: "Estados Unidos",
     parentSlug: "estados-unidos",
-    channels: ["los-angeles", "usa", "amistad", "chatzona"],
+    channels: ["usa", "internacional", "chatzona"],
     related: ["miami", "nueva-york", "ciudad-de-mexico", "mexico", "estados-unidos", "amistad", "amor"],
     intro:
       "En Los Ángeles el español tiene sabor chilango y norteño: se escucha en los taco trucks de Boyle Heights y en los murales de East LA.",
@@ -1534,7 +1534,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Francia",
     parentSlug: "francia",
-    channels: ["paris", "francia", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["londres", "berlin", "madrid", "espana", "francia", "viajes", "amistad"],
     intro:
       "Hay un pequeño Madrid escondido en París: estudiantes Erasmus, españoles emigrados y latinos que se buscan para no perder el idioma entre tanto francés.",
@@ -1552,7 +1552,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Alemania",
     parentSlug: "alemania",
-    channels: ["berlin", "alemania", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["paris", "londres", "barcelona", "espana", "alemania", "musica", "amistad"],
     intro:
       "Berlín se ha llenado de españoles y latinos que llegaron buscando curro y se quedaron por el ambiente: aquí el castellano suena fuerte en Neukölln.",
@@ -1569,7 +1569,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Reino Unido",
     parentSlug: "reino-unido",
-    channels: ["londres", "reino-unido", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["paris", "berlin", "madrid", "espana", "reino-unido", "viajes", "ligar"],
     intro:
       "Entre la City y los mercados de Elephant & Castle, Londres esconde una de las comunidades latinas más grandes de Europa hablando español a diario.",
@@ -1587,7 +1587,7 @@ export const CITIES: Place[] = [
     parentName: "Argentina",
     parentSlug: "argentina",
     provincia: "Río Negro",
-    channels: ["bariloche", "argentina", "amistad", "chatzona"],
+    channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["argentina", "buenos-aires", "viajes", "amistad", "amor"],
     intro:
       "Charlá con gente de Bariloche y la Patagonia: lagos, cerro Catedral y chocolate. Chat gratis sin registro del sur.",
@@ -1604,7 +1604,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "Argentina",
     parentSlug: "argentina",
-    channels: ["chaco-corrientes", "argentina", "amistad", "chatzona"],
+    channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["argentina", "paraguay", "amistad", "musica", "latinos"],
     intro:
       "Gente del litoral: chamamé, calor y mate amargo. Chaco y Corrientes de la mano. Chat gratis sin registro.",

@@ -35,7 +35,7 @@ const FAQ = [
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 2.400 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires… y casi 2.000 ciudades en total, incluidos los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: "TuChat tiene más de 2.500 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires… y casi 2.000 ciudades en total, incluidos los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
   },
   {
     q: "¿El chat funciona en el móvil?",
@@ -56,18 +56,9 @@ export default async function ChatIndexPage() {
 
   const all = [...countries, ...cities, ...topics];
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
-  // Lista ligera para la búsqueda en cliente (sin intro/about: no inflar el bundle).
-  const searchRooms = all.map((p) => {
-    const flag = cityFlag(p);
-    return {
-      slug: p.slug,
-      name: p.name,
-      icon: flag.icon,
-      flagSrc: flag.flagSrc,
-      flagName: flag.name,
-      users: p.users,
-    };
-  });
+  // El catálogo para el buscador ya NO viaja en el HTML: ChatSearch lo pide a
+  // /api/search-index al enfocar el input. Serializarlo aquí metía ~858 KB de
+  // payload en cada visita a /chat, se usara el buscador o no.
 
   // Temáticas: destacar las principales como tarjetas y agrupar el resto por
   // su categoría padre (fútbol, salud, hobbies...) en vez de una única nube
@@ -77,13 +68,23 @@ export default async function ChatIndexPage() {
   // "Países y ciudades": repetirlas aquí como temáticas solo añade ruido.
   const regionSet = new Set(getRegions().map((r) => r.slug));
   const ageSet = new Set(getAgeTopics().map((t) => t.slug));
+  // Las salas cuyo padre es un PAÍS (argentinos→argentina, rebelión→chile…) no
+  // son una categoría temática: su grupo duplicaba en "Más salas temáticas" un
+  // país que ya encabeza su propia tarjeta arriba. Se cuelgan de esa tarjeta.
+  const countrySet = new Set(countries.map((c) => c.slug));
   const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
   const restTopics = topics.filter((t) => !primarySet.has(t.slug) && !regionSet.has(t.slug));
   const grouped = new Map<string, { name: string; slug?: string; items: typeof restTopics }>();
+  const topicsByCountry = new Map<string, typeof restTopics>();
   const conPadre = restTopics.filter((t) => t.parentSlug);
   const sinPadre = restTopics.filter((t) => !t.parentSlug);
   for (const t of conPadre) {
     const key = t.parentSlug!;
+    if (countrySet.has(key)) {
+      if (!topicsByCountry.has(key)) topicsByCountry.set(key, []);
+      topicsByCountry.get(key)!.push(t);
+      continue;
+    }
     if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
     grouped.get(key)!.items.push(t);
   }
@@ -96,7 +97,12 @@ export default async function ChatIndexPage() {
     else if (!grouped.has(t.slug)) huerfanas.push(t);
   }
   if (edad.length) grouped.set("edades", { name: "Por edades", items: edad });
-  const topicGroups = [...grouped.values()].sort((a, b) => b.items.length - a.items.length);
+  // Por gente conectada, no por número de salas: ordenar por cardinalidad subía
+  // Fútbol (73 equipos) y Erótico y hundía Amor, Ligar o Amistad, que son la
+  // intención dominante de quien llega aquí.
+  const usersOf = (g: { items: typeof restTopics }) =>
+    g.items.reduce((sum, t) => sum + t.users, 0);
+  const topicGroups = [...grouped.values()].sort((a, b) => usersOf(b) - usersOf(a));
   if (huerfanas.length) topicGroups.push({ name: "Otras temáticas", items: huerfanas });
 
   return (
@@ -112,7 +118,7 @@ export default async function ChatIndexPage() {
       </p>
       <div className="mt-5">
         <Suspense fallback={null}>
-          <ChatSearch rooms={searchRooms} />
+          <ChatSearch />
         </Suspense>
       </div>
 
@@ -130,7 +136,9 @@ export default async function ChatIndexPage() {
             return (
               <div key={country.slug} className="rounded-xl border border-line bg-card p-4">
                 <div className="flex items-center gap-2">
-                  <span className="text-xl" aria-hidden="true">{country.icon}</span>
+                  {/* Flag y no el emoji crudo: en Windows los emoji-bandera no se
+                      renderizan y salían las letras del país ("ES"). */}
+                  <Flag emoji={country.icon} flagSrc={country.flagSrc} name={country.name} size={22} />
                   <Link
                     href={`/chat/${country.slug}`}
                     className="font-semibold text-ink hover:text-blue"
@@ -144,15 +152,18 @@ export default async function ChatIndexPage() {
                     {country.users.toLocaleString("es")} online
                   </span>
                 </div>
-                <div className="mt-3 flex flex-wrap gap-1.5">
+                {/* min-h-[40px]: los chips eran de 26px de alto, muy por debajo de
+                    los 44px que pide la guía táctil de Apple, y son la vía de
+                    entrada a las 893 ciudades españolas. */}
+                <div className="mt-3 flex flex-wrap gap-2">
                   {regionsOfCountry.length > 0
                     ? regionsOfCountry.map((r) => (
                         <Link
                           key={r.slug}
                           href={`/chat/${r.slug}`}
-                          className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                          className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
                         >
-                          <Flag emoji={r.icon} flagSrc={r.flagSrc} size={13} />
+                          <Flag emoji={r.icon} flagSrc={r.flagSrc} size={14} />
                           {r.name}
                         </Link>
                       ))
@@ -162,17 +173,29 @@ export default async function ChatIndexPage() {
                           <Link
                             key={c.slug}
                             href={`/chat/${c.slug}`}
-                            className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-2.5 py-1 text-xs text-ink transition-colors hover:border-blue hover:text-blue"
+                            className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
                           >
-                            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={13} />
+                            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
                             {c.name}
                           </Link>
                         );
                       })}
+                  {/* Salas propias del país (argentinos, rebelión…): antes formaban
+                      un grupo suelto en "Más salas temáticas" que duplicaba al país. */}
+                  {(topicsByCountry.get(country.slug) ?? []).map((t) => (
+                    <Link
+                      key={t.slug}
+                      href={`/chat/${t.slug}`}
+                      className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+                    >
+                      <span aria-hidden="true">{t.icon}</span>
+                      {t.name}
+                    </Link>
+                  ))}
                   {rest > 0 && (
                     <Link
                       href={`/chat/${country.slug}`}
-                      className="rounded-full bg-blue/10 px-2.5 py-1 text-xs font-semibold text-blue transition-colors hover:bg-blue/20"
+                      className="inline-flex min-h-[40px] items-center rounded-full bg-blue/10 px-3 py-2 text-sm font-semibold text-blue transition-colors hover:bg-blue/20"
                     >
                       Ver todas (+{rest}) →
                     </Link>
@@ -180,7 +203,7 @@ export default async function ChatIndexPage() {
                   {citiesOfCountry.length === 0 && (
                     <Link
                       href={`/chat/${country.slug}`}
-                      className="rounded-full bg-blue/10 px-2.5 py-1 text-xs font-semibold text-blue transition-colors hover:bg-blue/20"
+                      className="inline-flex min-h-[40px] items-center rounded-full bg-blue/10 px-3 py-2 text-sm font-semibold text-blue transition-colors hover:bg-blue/20"
                     >
                       Entrar al chat →
                     </Link>
@@ -207,27 +230,38 @@ export default async function ChatIndexPage() {
         <section className="mt-10">
           <SectionTitle>Más salas temáticas</SectionTitle>
           <div className="mt-4 space-y-3">
-            {topicGroups.map((g) => (
-              <details key={g.slug ?? g.name} className="group rounded-xl border border-line bg-card">
-                <summary className="flex cursor-pointer items-center justify-between px-5 py-3 font-semibold text-ink hover:text-blue">
-                  <span>
-                    {g.slug ? (
-                      <Link href={`/chat/${g.slug}`} className="hover:underline">
-                        {g.name}
-                      </Link>
-                    ) : (
-                      g.name
-                    )}
+            {topicGroups.map((g, i) => (
+              <details
+                key={g.slug ?? g.name}
+                // Los 4 primeros (los de más gente conectada) abiertos: con los 50
+                // grupos colapsados, llegar a una sala costaba un clic de más y en
+                // móvil obligaba a re-scrollear tras cada despliegue.
+                open={i < 4}
+                className="group rounded-xl border border-line bg-card"
+              >
+                <summary className="flex min-h-[48px] cursor-pointer items-center justify-between gap-3 px-5 py-3 font-semibold text-ink hover:text-blue">
+                  <h3 className="text-base font-semibold">
+                    {g.name}
                     <span className="ml-2 font-normal text-muted">· {g.items.length}</span>
-                  </span>
+                  </h3>
                   <span className="text-muted transition-transform group-open:rotate-180" aria-hidden="true">▼</span>
                 </summary>
                 <div className="flex flex-wrap gap-2 px-4 pb-4 pt-2">
+                  {/* El enlace al hub sale del <summary>: dentro, tocar el nombre
+                      navegaba y tocar 3px al lado desplegaba — ambiguo en táctil. */}
+                  {g.slug && (
+                    <Link
+                      href={`/chat/${g.slug}`}
+                      className="inline-flex min-h-[40px] items-center rounded-full bg-blue/10 px-3 py-2 text-sm font-semibold text-blue transition-colors hover:bg-blue/20"
+                    >
+                      Ver {g.name} →
+                    </Link>
+                  )}
                   {g.items.map((p) => (
                     <Link
                       key={p.slug}
                       href={`/chat/${p.slug}`}
-                      className="inline-flex items-center gap-1 rounded-full border border-line bg-bg px-3 py-1.5 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+                      className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
                     >
                       <span aria-hidden="true">{p.icon}</span>
                       {p.name}

@@ -6,14 +6,20 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
 import { collectionJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import Link from "next/link";
-import { fetchWeather, wmoText, rainyDays } from "@/lib/weather";
+import { fetchWeather, wmoText, rainyDays, hasWeather } from "@/lib/weather";
 import { WeatherWidget } from "@/components/tiempo/WeatherWidget";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
 
+// Solo se publica la página de las localidades para las que hay previsión real.
+// Publicar una landing titulada "Previsión del tiempo en X" que por dentro dice
+// "sin datos disponibles" es contenido fino: promete un servicio que no presta,
+// y en volumen (eran 1.970 páginas) arrastra la calidad de todo el dominio.
 export function generateStaticParams() {
-  return [...getCities(), ...getCountries()].map((c) => ({ ciudad: c.slug }));
+  return [...getCities(), ...getCountries()]
+    .filter((c) => hasWeather(c.slug))
+    .map((c) => ({ ciudad: c.slug }));
 }
 
 export async function generateMetadata({

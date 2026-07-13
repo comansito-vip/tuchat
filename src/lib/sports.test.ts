@@ -8,9 +8,17 @@ describe("sports data", () => {
     expect(new Set(slugs).size).toBe(10);
   });
 
-  it("all leagues have a name, fallback rows and a theSportsDB id", () => {
+  // Lo que importa es que toda liga sepa resolver su clasificación: nombre,
+  // tabla de reserva y al menos un proveedor. NO se exige theSportsDB: la liga
+  // saudí se quedó sin id a propósito (el que había, 4955, era la Linafoot de RD
+  // Congo y servía equipos congoleños bajo el titular "Saudi Pro League"), y
+  // volver a exigirlo empujaría a inventarse otro id sin verificar.
+  it("all leagues have a name, fallback rows and at least one provider id", () => {
     const violations = LEAGUES.filter(
-      (l) => !l.name || !l.theSportsDB || l.fallback.length === 0
+      (l) =>
+        !l.name ||
+        l.fallback.length === 0 ||
+        !(l.theSportsDB || l.apiFootball || l.footballData),
     ).map((l) => l.slug);
     expect(violations).toEqual([]);
   });

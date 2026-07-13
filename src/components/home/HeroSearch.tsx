@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/Button";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { NickInput } from "@/components/ui/NickInput";
 import { RoomCard } from "./RoomCard";
-import { getCountries, getCities, getRooms, getTopics, cityFlag } from "@/data";
+import { getCountries, getCities, getRooms } from "@/data";
 
 const QUICK_LINKS = [
   { label: "España", slug: "espana" },
@@ -19,12 +19,6 @@ export function HeroSearch() {
   const countries = getCountries();
   const cities = getCities();
   const rooms = getRooms();
-  // Lista ligera para las sugerencias en vivo del buscador (sin intro/about).
-  const searchRooms = [...countries, ...cities, ...getTopics()].map((p) => {
-    const flag = cityFlag(p);
-    return { slug: p.slug, name: p.name, icon: flag.icon, flagSrc: flag.flagSrc, flagName: flag.name, users: p.users };
-  });
-
   const totalUsers = rooms.reduce((sum, r) => sum + r.users, 0);
 
   const stats = [
@@ -72,7 +66,7 @@ export function HeroSearch() {
           <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted">
             ¿Buscas una sala concreta?
           </p>
-          <SearchInput size="lg" rooms={searchRooms} />
+          <SearchInput size="lg" />
         </div>
 
         <div className="mt-3">

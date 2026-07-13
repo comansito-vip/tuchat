@@ -8,11 +8,13 @@ export function WebchatFrame({
   clientId,
   nick,
   className,
+  ref,
 }: {
   canal: string;
   clientId: string;
   nick?: string;
   className?: string;
+  ref?: React.Ref<HTMLIFrameElement>;
 }) {
   const src = useMemo(() => {
     const resolvedNick = nick ?? generateNick();
@@ -23,6 +25,7 @@ export function WebchatFrame({
 
   return (
     <iframe
+      ref={ref}
       src={src}
       title={`Chat de ${canal}`}
       className={className ?? "h-[78vh] w-full rounded-lg border border-line bg-card lg:h-[600px]"}

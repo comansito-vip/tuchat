@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { WebchatFrame } from "@/components/webchat/WebchatFrame";
+import { WebchatShell } from "@/components/webchat/WebchatShell";
 import { CleanWebchatUrl } from "@/components/webchat/CleanWebchatUrl";
 import { resolveChannels } from "@/lib/channels";
 
@@ -16,32 +15,19 @@ export default async function WebchatPage({
 }) {
   const { canal = "espana", nick } = await searchParams;
   const clientId = process.env.NEXT_PUBLIC_WEBCHAT_CLIENT_ID ?? "af9476269cf237c0196b";
-  const channels = resolveChannels(canal).filter((c) => c !== "chatzona");
+  // #chatzona va en el iframe (red global) pero no en la etiqueta de la barra:
+  // al usuario le importa la sala a la que ha entrado, no el canal de red.
+  const label = resolveChannels(canal)
+    .filter((c) => c !== "chatzona")
+    .map((c) => `#${c}`)
+    .join(" · ");
 
   return (
-    // Sin header global (ver HeaderSlot): esta barra es lo único por encima
-    // del iframe, igual que trivialchat.org/webchat — solo logo y canal.
-    <div className="flex h-dvh flex-col overflow-hidden">
-      <div className="flex h-14 shrink-0 items-center gap-3 border-b border-line bg-slate-900 px-4">
-        <Link href="/" className="shrink-0 text-sm font-extrabold text-white" aria-label="TuChat — Inicio">
-          Tu<span className="text-blue">Chat</span>
-        </Link>
-        <span className="truncate text-sm font-bold text-white">
-          {channels.map((c) => `#${c}`).join(" · ")}
-        </span>
-        <Link href="/" className="ml-auto shrink-0 text-xs text-slate-400 hover:text-white">
-          ✕ Salir
-        </Link>
-      </div>
-      <div className="min-h-0 flex-1">
-        <WebchatFrame
-          canal={canal}
-          clientId={clientId}
-          nick={nick}
-          className="h-full w-full border-0"
-        />
-      </div>
+    // Sin header, footer ni nav global (ver HeaderSlot/FooterSlot/LayoutShell):
+    // la barra del propio shell es lo único por encima del iframe.
+    <>
+      <WebchatShell canal={canal} clientId={clientId} nick={nick} label={label} />
       <CleanWebchatUrl />
-    </div>
+    </>
   );
 }

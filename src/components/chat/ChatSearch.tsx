@@ -1,32 +1,32 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { normalize } from "@/lib/slug";
 import { Flag } from "@/components/ui/Flag";
-
-export interface SearchRoom {
-  slug: string;
-  name: string;
-  icon: string;
-  flagSrc?: string;
-  flagName: string;
-  users: number;
-}
+import { useSearchIndex } from "@/lib/useSearchIndex";
 
 // Búsqueda en cliente: permite que /chat sea una página estática (no lee
-// searchParams en el servidor). El término inicial se toma de la URL (?q=) para
-// soportar enlaces compartibles desde el buscador de la home, y se sincroniza de
-// vuelta con replace() para que la URL siga reflejando la búsqueda activa.
-export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
+// searchParams en el servidor).
+export function ChatSearch() {
   const params = useSearchParams();
   const [q, setQ] = useState(params.get("q") ?? "");
+  const { rooms, load } = useSearchIndex();
+
+  // Con ?q= en la URL (enlace compartido desde la home) hay que buscar sin que
+  // el usuario llegue a tocar el input.
+  useEffect(() => {
+    if (params.get("q")) load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [params]);
 
   const query = q.trim();
-  const results = query
-    ? rooms.filter((r) => normalize(r.name).includes(normalize(query))).slice(0, 60)
-    : [];
+  const results =
+    query && rooms
+      ? rooms.filter((r) => normalize(r.n).includes(normalize(query))).slice(0, 60)
+      : [];
+  const pending = query && !rooms;
 
   return (
     <div className="max-w-lg">
@@ -37,34 +37,41 @@ export function ChatSearch({ rooms }: { rooms: SearchRoom[] }) {
       >
         <input
           value={q}
+          onFocus={load}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Buscar ciudad, país o temática"
           aria-label="Buscar sala"
-          className="w-full bg-transparent px-3 py-1.5 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
+          className="w-full bg-transparent px-3 py-2 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
         />
       </form>
 
       {query && (
         <div aria-live="polite" className="mt-4">
           <p className="text-sm text-muted">
-            {results.length === 0
-              ? "Sin resultados para "
-              : `${results.length} ${results.length === 1 ? "resultado" : "resultados"} para `}
-            <span className="font-semibold text-ink">«{query}»</span>
-            {results.length === 0 && ". Prueba con otro término."}
+            {pending ? (
+              "Buscando…"
+            ) : (
+              <>
+                {results.length === 0
+                  ? "Sin resultados para "
+                  : `${results.length} ${results.length === 1 ? "resultado" : "resultados"} para `}
+                <span className="font-semibold text-ink">«{query}»</span>
+                {results.length === 0 && ". Prueba con otro término."}
+              </>
+            )}
           </p>
           {results.length > 0 && (
             <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
               {results.map((r) => (
-                <li key={r.slug}>
+                <li key={r.s}>
                   <Link
-                    href={`/chat/${r.slug}`}
-                    className="flex items-center gap-2.5 rounded-xl border border-line bg-card px-3 py-2 transition-colors hover:border-blue"
+                    href={`/chat/${r.s}`}
+                    className="flex min-h-[44px] items-center gap-2.5 rounded-xl border border-line bg-card px-3 py-2 transition-colors hover:border-blue"
                   >
-                    <Flag emoji={r.icon} flagSrc={r.flagSrc} name={r.flagName} size={20} />
-                    <span className="min-w-0 flex-1 truncate font-medium text-ink">{r.name}</span>
+                    <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={20} />
+                    <span className="min-w-0 flex-1 truncate font-medium text-ink">{r.n}</span>
                     <span className="shrink-0 text-xs text-muted">
-                      {r.users.toLocaleString("es")} online
+                      {r.u.toLocaleString("es")} online
                     </span>
                   </Link>
                 </li>

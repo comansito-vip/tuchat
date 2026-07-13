@@ -19,8 +19,14 @@ export const dynamicParams = false;
 // export"). Debe coincidir con LOTTERY_REVALIDATE_SECONDS en src/lib/lottery.ts.
 export const revalidate = 21600;
 
+// Solo los países cuyo listado de sorteos está verificado en LOTERIA_INFO. Antes
+// se generaba para los 30 y los que faltaban (Belice) caían en un fallback
+// genérico —"Lotería Nacional, Quiniela, Raspadita"— que la FAQ y el JSON-LD
+// afirmaban como hecho. Inventar sorteos de un país es peor que no tener página.
 export function generateStaticParams() {
-  return getCountries().map((c) => ({ pais: c.slug }));
+  return getCountries()
+    .filter((c) => c.slug in LOTERIA_INFO)
+    .map((c) => ({ pais: c.slug }));
 }
 
 export async function generateMetadata({

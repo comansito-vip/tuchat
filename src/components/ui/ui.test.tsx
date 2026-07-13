@@ -188,15 +188,26 @@ describe("SearchInput", () => {
     fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
     expect(mockPush).toHaveBeenCalledWith("/chat?q=Madrid");
   });
-  it("shows live suggestions while typing and submitting goes straight to the top match", () => {
+  it("shows live suggestions from the search index and submitting goes to the top match", async () => {
     mockPush.mockClear();
-    render(<SearchInput rooms={[
-      { slug: "madrid", name: "Madrid", icon: "🇪🇸", flagName: "España", users: 842 },
-      { slug: "barcelona", name: "Barcelona", icon: "🇪🇸", flagName: "España", users: 710 },
-    ]} />);
+    // El catálogo no viaja por prop: se descarga de /api/search-index al enfocar.
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async () => ({
+        json: async () => [
+          { s: "madrid", n: "Madrid", i: "🇪🇸", fn: "España", u: 842 },
+          { s: "barcelona", n: "Barcelona", i: "🇪🇸", fn: "España", u: 710 },
+        ],
+      })),
+    );
+    render(<SearchInput />);
+    fireEvent.focus(screen.getByRole("combobox"));
     fireEvent.change(screen.getByRole("combobox"), { target: { value: "Madrid" } });
-    expect(screen.getByRole("link", { name: /Madrid/i })).toHaveAttribute("href", "/chat/madrid");
+
+    const link = await screen.findByRole("link", { name: /Madrid/i });
+    expect(link).toHaveAttribute("href", "/chat/madrid");
     fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
     expect(mockPush).toHaveBeenCalledWith("/chat/madrid");
+    vi.unstubAllGlobals();
   });
 });

@@ -31,12 +31,20 @@ interface League {
   name: string;
   footballData?: string; // código de competición
   apiFootball?: number; // id de liga
-  theSportsDB: number; // id de liga
+  theSportsDB?: number; // id de liga (omitido si no hay uno verificado)
   fallback: Standing[];
 }
 
-const SEASON_YEAR = "2025"; // configurable: temporada 2025-2026
-const SEASON_SDB = "2025-2026";
+// La temporada europea arranca en agosto: hasta julio seguimos en la que empezó
+// el año anterior. Estaba hardcodeada a "2025"/"2025-2026", de modo que en julio
+// de 2026 la página seguía sirviendo la clasificación FINAL de una temporada ya
+// terminada bajo el titular "Sigue la clasificación al día".
+function seasonStartYear(now = new Date()): number {
+  return now.getMonth() >= 7 ? now.getFullYear() : now.getFullYear() - 1;
+}
+
+const SEASON_YEAR = String(seasonStartYear());
+const SEASON_SDB = `${seasonStartYear()}-${seasonStartYear() + 1}`;
 
 function fb(rows: [string, number][]): Standing[] {
   // Tabla de reserva mínima: posición + equipo + puntos (resto a 0, se rellena
@@ -173,9 +181,14 @@ export const LEAGUES: League[] = [
   },
   {
     slug: "saudi",
+    // OJO: el id 4955 de TheSportsDB que había aquí NO es la liga saudí, es la
+    // Linafoot de RD Congo — la página servía TP Mazembe y Les Aigles du Congo
+    // bajo el titular "Saudi Pro League". Sin theSportsDB, esta liga usa
+    // api-football (si hay clave) o su tabla de reserva, que sí es correcta.
+    // Para reactivar el proveedor gratuito hace falta VERIFICAR el id real
+    // contra la API antes de ponerlo, no copiarlo de memoria.
     name: "Saudi Pro League",
     apiFootball: 307,
-    theSportsDB: 4955,
     fallback: fb([
       ["Al-Hilal", 84],
       ["Al-Nassr", 78],
@@ -236,6 +249,7 @@ async function fromApiFootball(l: League): Promise<Standing[]> {
 }
 
 async function fromTheSportsDB(l: League): Promise<Standing[]> {
+  if (!l.theSportsDB) throw new Error("thesportsdb: liga sin id verificado");
   const key = process.env.THESPORTSDB_KEY || "3"; // clave de prueba gratuita
   const res = await fetch(
     `https://www.thesportsdb.com/api/v1/json/${key}/lookuptable.php?l=${l.theSportsDB}&s=${SEASON_SDB}`,
@@ -319,6 +333,7 @@ async function fixturesApiFootball(l: League): Promise<Fixture[]> {
 }
 
 async function fixturesTheSportsDB(l: League): Promise<Fixture[]> {
+  if (!l.theSportsDB) throw new Error("thesportsdb: liga sin id verificado");
   const key = process.env.THESPORTSDB_KEY || "3";
   const res = await fetch(
     `https://www.thesportsdb.com/api/v1/json/${key}/eventsnextleague.php?id=${l.theSportsDB}`,

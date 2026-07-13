@@ -10,7 +10,7 @@ export const COUNTRIES: Place[] = [
     votes: 1980,
     tag: "Popular",
     activity: "Alta",
-    channels: ["españa", "amistad", "chatzona"],
+    channels: ["españa", "chatzona"],
     related: ["madrid", "barcelona", "valencia", "sevilla", "bilbao", "malaga", "amistad", "amor"],
     intro:
       "La sala más activa de la red: madrileños que salen del trabajo, valencianos que ya han cenado y canarios con una hora de ventaja. España entera en un chat.",
@@ -26,7 +26,7 @@ export const COUNTRIES: Place[] = [
     votes: 1340,
     tag: "Popular",
     activity: "Alta",
-    channels: ["mexico", "amistad", "chatzona"],
+    channels: ["mexico", "latinoamerica", "chatzona"],
     related: ["ciudad-de-mexico", "colombia", "argentina", "lima", "amistad", "amor", "musica"],
     intro:
       "De Tijuana a Mérida hay miles de kilómetros y cientos de acentos: la sala de México los reúne a todos. Rancheras, reggaeton y debates que no terminan nunca.",
@@ -42,7 +42,7 @@ export const COUNTRIES: Place[] = [
     votes: 1095,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["argentina", "amistad", "chatzona"],
+    channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["buenos-aires", "montevideo", "santiago-de-chile", "colombia", "amistad", "amor", "deportes"],
     intro:
       "Donde el voseo reina, el asado es religión y el fútbol divide familias. Los argentinos arrancan conversación y la dejan ir hasta las cuatro de la madrugada.",
@@ -57,7 +57,7 @@ export const COUNTRIES: Place[] = [
     users: 610,
     votes: 925,
     activity: "Alta",
-    channels: ["colombia", "amistad", "chatzona"],
+    channels: ["colombia", "latinoamerica", "chatzona"],
     related: ["bogota", "mexico", "argentina", "lima", "amistad", "amor", "musica"],
     intro:
       "Colombia: amabilidad en el trato y pasión en la discusión. Fútbol, vallenato, economía y planes de finde llenan la charla. Chévere que hayas llegado.",
@@ -73,7 +73,7 @@ export const COUNTRIES: Place[] = [
     votes: 1080,
     tag: "Popular",
     activity: "Alta",
-    channels: ["chile", "amistad", "chatzona"],
+    channels: ["chile", "latinoamerica", "chatzona"],
     related: ["santiago-de-chile", "argentina", "peru", "bolivia", "amistad", "amor", "musica"],
     intro:
       "Un país tan largo que el norte es desierto y el sur, Patagonia. Aquí se habla rápido, todo termina en po y el pisco no se negocia con los vecinos.",
@@ -88,7 +88,7 @@ export const COUNTRIES: Place[] = [
     users: 680,
     votes: 1010,
     activity: "Alta",
-    channels: ["peru", "amistad", "chatzona"],
+    channels: ["peru", "latinoamerica", "chatzona"],
     related: ["lima", "chile", "ecuador", "bolivia", "amistad", "cocina", "viajes"],
     intro:
       "Donde el ceviche se discute con la misma pasión que el fútbol. Entre limeños, cusqueños y arequipeños siempre hay tema y siempre hay sazón.",
@@ -103,7 +103,7 @@ export const COUNTRIES: Place[] = [
     users: 320,
     votes: 480,
     activity: "Media",
-    channels: ["uruguay", "amistad", "chatzona"],
+    channels: ["uruguay", "latinoamerica", "chatzona"],
     related: ["montevideo", "argentina", "espana", "amistad", "amor", "futbol"],
     intro:
       "Termo bajo el brazo, mate en la mano y la rambla esperando. Los charrúas se toman su tiempo para todo menos para defender que el primer Mundial fue suyo.",
@@ -119,7 +119,7 @@ export const COUNTRIES: Place[] = [
     votes: 950,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["venezuela", "amistad", "chatzona"],
+    channels: ["venezuela", "latinoamerica", "chatzona"],
     related: ["caracas", "colombia", "estados-unidos", "espana", "amistad", "musica", "amor"],
     intro:
       "Mitad escribe desde Maracaibo; la otra mitad desde Madrid, Bogotá o Santiago. Todos hablan de arepas, gaitas en diciembre y de cuándo se volverán a ver.",
@@ -134,7 +134,7 @@ export const COUNTRIES: Place[] = [
     users: 470,
     votes: 700,
     activity: "Media",
-    channels: ["ecuador", "amistad", "chatzona"],
+    channels: ["ecuador", "latinoamerica", "chatzona"],
     related: ["quito", "peru", "colombia", "amistad", "amor", "viajes"],
     intro:
       "Sierra, costa y Amazonía cruzables en un día. El chévere se cuela en cada frase y el debate Quito contra Guayaquil nunca se cierra del todo.",
@@ -149,7 +149,7 @@ export const COUNTRIES: Place[] = [
     users: 380,
     votes: 560,
     activity: "Media",
-    channels: ["bolivia", "amistad", "chatzona"],
+    channels: ["bolivia", "latinoamerica", "chatzona"],
     related: ["la-paz", "peru", "chile", "paraguay", "amistad", "musica"],
     intro:
       "A 3.600 metros respiras distinto y el salar de Uyuni parece otro planeta. Entre español, quechua y aymara, la conversación tiene capas como las polleras.",
@@ -164,7 +164,7 @@ export const COUNTRIES: Place[] = [
     users: 290,
     votes: 430,
     activity: "Media",
-    channels: ["paraguay", "amistad", "latinoamerica", "chatzona"],
+    channels: ["paraguay", "latinoamerica", "chatzona"],
     related: ["asuncion", "argentina", "bolivia", "uruguay", "amistad", "amor"],
     intro:
       "El único sitio donde te saludan en guaraní y siguen en español, con el tereré bien frío. País bilingüe de corazón, callado por fuera y cálido por dentro.",
@@ -180,7 +180,7 @@ export const COUNTRIES: Place[] = [
     votes: 820,
     tag: "Popular",
     activity: "Alta",
-    channels: ["republica-dominicana", "republica_dominicana", "amistad", "chatzona"],
+    channels: ["republica_dominicana", "latinoamerica", "chatzona"],
     related: ["santo-domingo", "cuba", "puerto-rico", "venezuela", "amistad", "musica", "amor"],
     intro:
       "Aquí el merengue y la bachata son el idioma. Se habla a mil por hora, se come mangú por la mañana y cualquier excusa sirve para sacar a alguien a bailar.",
@@ -196,7 +196,7 @@ export const COUNTRIES: Place[] = [
     votes: 670,
     tag: "Tendencia",
     activity: "Media",
-    channels: ["cuba", "amistad", "chatzona"],
+    channels: ["cuba", "latinoamerica", "chatzona"],
     related: ["la-habana", "republica-dominicana", "puerto-rico", "espana", "amistad", "musica", "amor"],
     intro:
       "La isla del son y los almendrones por el Malecón. Entre los de allá y los de Miami, la sala mantiene viva una conversación que el estrecho no corta.",
@@ -211,7 +211,7 @@ export const COUNTRIES: Place[] = [
     users: 410,
     votes: 630,
     activity: "Media",
-    channels: ["puerto-rico", "puerto_rico", "amistad", "chatzona"],
+    channels: ["puerto_rico", "latinoamerica", "chatzona"],
     related: ["san-juan", "republica-dominicana", "cuba", "estados-unidos", "amistad", "musica", "amor"],
     intro:
       "La isla del encanto que mezcla español e inglés sin permiso y exporta reggaeton al mundo. Aquí se dice wepa por todo y el orgullo boricua es infinito.",
@@ -226,7 +226,7 @@ export const COUNTRIES: Place[] = [
     users: 360,
     votes: 540,
     activity: "Media",
-    channels: ["guatemala", "amistad", "chatzona"],
+    channels: ["guatemala", "latinoamerica", "chatzona"],
     related: ["ciudad-de-guatemala", "el-salvador", "honduras", "mexico", "amistad", "amor", "viajes"],
     intro:
       "Tierra de volcanes y de un maya vivo en los mercados de Chichicastenango. Aquí todo es bien chilero y el desayuno sin frijoles negros no se entiende.",
@@ -241,7 +241,7 @@ export const COUNTRIES: Place[] = [
     users: 340,
     votes: 510,
     activity: "Media",
-    channels: ["costa-rica", "costa_rica", "amistad", "chatzona"],
+    channels: ["costa_rica", "latinoamerica", "chatzona"],
     related: ["san-jose", "panama", "nicaragua", "amistad", "viajes", "amor"],
     intro:
       "Pura vida no es un eslogan: es cómo saludan y resuelven media vida los ticos. Sin ejército desde el 48, con perezosos en los árboles y la calma en el ADN.",
@@ -256,7 +256,7 @@ export const COUNTRIES: Place[] = [
     users: 350,
     votes: 520,
     activity: "Media",
-    channels: ["panama", "amistad", "chatzona"],
+    channels: ["panama", "latinoamerica", "chatzona"],
     related: ["ciudad-de-panama", "costa-rica", "colombia", "amistad", "musica", "amor"],
     intro:
       "Donde dos océanos casi se tocan y los barcos hacen cola para cruzar el canal. Un skyline de cristal frente al Casco Viejo y siempre un típico de fondo.",
@@ -271,7 +271,7 @@ export const COUNTRIES: Place[] = [
     users: 330,
     votes: 490,
     activity: "Media",
-    channels: ["el-salvador", "el_salvador", "amistad", "chatzona"],
+    channels: ["el_salvador", "latinoamerica", "chatzona"],
     related: ["san-salvador", "guatemala", "honduras", "estados-unidos", "amistad", "cocina"],
     intro:
       "El pulgarcito de América: surf de talla mundial y pupusas que valen un viaje. Se dice cheros a los amigos y la diáspora en EE.UU. nunca pierde el hilo.",
@@ -286,7 +286,7 @@ export const COUNTRIES: Place[] = [
     users: 320,
     votes: 480,
     activity: "Media",
-    channels: ["honduras", "amistad", "chatzona"],
+    channels: ["honduras", "latinoamerica", "chatzona"],
     related: ["tegucigalpa", "guatemala", "el-salvador", "nicaragua", "amistad", "futbol"],
     intro:
       "De las ruinas de Copán a los arrecifes de Roatán, con la baleada como bandera comestible. Los catrachos se pintan la cara cuando juega la H y el café no falta.",
@@ -301,7 +301,7 @@ export const COUNTRIES: Place[] = [
     users: 300,
     votes: 450,
     activity: "Media",
-    channels: ["nicaragua", "amistad", "chatzona"],
+    channels: ["nicaragua", "latinoamerica", "chatzona"],
     related: ["managua", "costa-rica", "honduras", "amistad", "amor", "musica"],
     intro:
       "Tierra de lagos con volcanes en medio y de poetas que recitan a Rubén Darío de memoria. Aquí se dice dale pues a todo y el gallo pinto arranca cualquier mañana.",
@@ -316,7 +316,7 @@ export const COUNTRIES: Place[] = [
     users: 120,
     votes: 175,
     activity: "Baja",
-    channels: ["belice", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["belize-city", "guatemala", "mexico", "amistad", "viajes", "musica"],
     intro:
       "El único país centroamericano con el inglés de lengua oficial, pero con el español ganando terreno. Arrecife, punta garífuna y un acento caribeño único.",
@@ -332,7 +332,7 @@ export const COUNTRIES: Place[] = [
     votes: 1180,
     tag: "Popular",
     activity: "Alta",
-    channels: ["estados-unidos", "usa", "internacional", "amistad", "chatzona"],
+    channels: ["usa", "internacional", "chatzona"],
     related: ["miami", "mexico", "puerto-rico", "venezuela", "amistad", "amor", "musica"],
     intro:
       "Sesenta millones de hispanos entre el spanglish de Miami, los tacos de Los Ángeles y la bachata del Bronx. Aquí se viene a no perder el español ni la sazón.",
@@ -347,7 +347,7 @@ export const COUNTRIES: Place[] = [
     users: 280,
     votes: 420,
     activity: "Media",
-    channels: ["canada", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["estados-unidos", "mexico", "colombia", "amistad", "viajes", "amor"],
     intro:
       "Latinos que cambiaron el sol por −20° y aún hacen asado bajo la nieve. La sala es el rincón donde el frío no llega y el acento vuelve a casa.",
@@ -362,7 +362,7 @@ export const COUNTRIES: Place[] = [
     users: 290,
     votes: 430,
     activity: "Media",
-    channels: ["francia", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["paris", "espana", "italia", "marruecos", "amistad", "viajes", "amor"],
     intro:
       "Españoles y latinos que trabajan en París o se mudaron por amor, buscando con quién quejarse en español de que cenan a las siete. La baguette no lo compensa.",
@@ -377,7 +377,7 @@ export const COUNTRIES: Place[] = [
     users: 300,
     votes: 450,
     activity: "Media",
-    channels: ["italia", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["espana", "francia", "argentina", "amistad", "cocina", "amor"],
     intro:
       "Hispanos en un país que gesticula como en casa: argentinos rastreando bisabuelos, españoles de Erasmus y latinos que descubren que el italiano casi se entiende.",
@@ -392,7 +392,7 @@ export const COUNTRIES: Place[] = [
     users: 270,
     votes: 400,
     activity: "Media",
-    channels: ["portugal", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["espana", "francia", "reino-unido", "amistad", "viajes", "amor"],
     intro:
       "El vecino al que se cruza la frontera por un fin de semana de bacalhau y fado. Españoles en Lisboa y latinos compartiendo un idioma tan parecido que engaña.",
@@ -407,7 +407,7 @@ export const COUNTRIES: Place[] = [
     users: 310,
     votes: 470,
     activity: "Media",
-    channels: ["alemania", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["berlin", "espana", "reino-unido", "francia", "amistad", "amor", "musica"],
     intro:
       "Ingenieros, sanitarios y estudiantes que pelean con der, die, das mientras echan de menos el sol. La sala es el bar de tapas que Berlín no tiene del todo.",
@@ -423,7 +423,7 @@ export const COUNTRIES: Place[] = [
     votes: 500,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["reino-unido", "internacional", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["londres", "espana", "francia", "colombia", "amistad", "amor", "musica"],
     intro:
       "Latinos de Elephant and Castle, españoles camareando en Londres y estudiantes peleando con el clima y el inglés. Aquí se viene a hablar sin acento fingido.",
@@ -438,7 +438,7 @@ export const COUNTRIES: Place[] = [
     users: 240,
     votes: 360,
     activity: "Media",
-    channels: ["marruecos", "internacional", "amistad", "arabe", "ocio", "maroc", "arab", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["espana", "francia", "guinea-ecuatorial", "amistad", "viajes", "amor"],
     intro:
       "A catorce kilómetros de España, con un norte donde se habla español y LaLiga es local. Entre el té con menta y los zocos de Tánger, las orillas se entienden.",
@@ -454,7 +454,7 @@ export const COUNTRIES: Place[] = [
     votes: 280,
     tag: "Nueva",
     activity: "Baja",
-    channels: ["guinea-ecuatorial", "amistad", "chatzona"],
+    channels: ["internacional", "ocio", "chatzona"],
     related: ["espana", "marruecos", "amistad", "amor", "musica", "futbol"],
     intro:
       "El único país de África con español como lengua oficial. Castellano con sabor a trópico, entre malanga, makara y un orgullo que une Malabo y Bata con Madrid.",
