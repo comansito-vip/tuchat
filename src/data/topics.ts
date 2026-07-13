@@ -370,7 +370,12 @@ export const TOPICS: Place[] = [
     votes: 615,
     tag: "Popular",
     activity: "Alta",
-    channels: ["erotico", "sexo", "sex", "porno", "canalsexo", "relatos-eroticos", "sumisas", "bdsm", "trio", "travestis", "cibersexo", "cuarto-oscuro", "hot", "intimos", "mazmorra", "mazmorra_hispano", "nudismo", "sexo_casadas", "sexomadrid", "cornudos", "chatzona"],
+    // Antes entraba a los 20 canales de golpe (todas las sub-salas de
+    // topics-adultos.ts a la vez). En la red real, "erotico" solo se mapea
+    // a #erotico,#cibersexo (confirmado contra chatzonacom, que sí tiene
+    // acceso al servidor IRC en producción) — el resto son canales propios
+    // con su tráfico y su gente, no alias de erotico.
+    channels: ["erotico", "cibersexo", "chatzona"],
     related: ["sexo", "hot", "cibersexo", "bdsm", "adultos", "infieles"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
