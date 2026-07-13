@@ -26,6 +26,11 @@ function transformEntry(config, path) {
     return { ...base, changefreq: "daily", priority: 0.7 };
   }
 
+  // Ranking por país: hereda relevancia de /ranking, no el 0.6 por defecto
+  if (path.startsWith("/ranking/")) {
+    return { ...base, changefreq: "daily", priority: 0.7 };
+  }
+
   // Chat rooms
   if (path.startsWith("/chat/")) {
     return { ...base, changefreq: "weekly", priority: 0.8 };

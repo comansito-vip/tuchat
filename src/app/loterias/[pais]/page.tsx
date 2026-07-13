@@ -5,9 +5,15 @@ import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
 import { faqJsonLd, collectionJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
+import { getSpainLotteryResults, LOTTERY_REVALIDATE_SECONDS } from "@/lib/lottery";
+import { LotteryBall } from "@/components/ui/LotteryBall";
 import Link from "next/link";
 
 export const dynamicParams = false;
+// Solo España trae resultados reales (getSpainLotteryResults); el resto de
+// países no hace fetch y esto no les afecta, pero next exige un único valor
+// de revalidate por segmento de ruta.
+export const revalidate = LOTTERY_REVALIDATE_SECONDS;
 
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
@@ -32,7 +38,15 @@ export async function generateMetadata({
 const LOTERIA_INFO: Record<string, { nombre: string; loterías: string[] }> = {
   espana: {
     nombre: "España",
-    loterías: ["Lotería Nacional", "Primitiva", "Bonoloto", "El Gordo de la Primitiva", "Euromillones", "ONCE"],
+    loterías: [
+      "Lotería Nacional",
+      "Primitiva",
+      "Bonoloto",
+      "El Gordo de la Primitiva",
+      "Euromillones",
+      "EuroDreams",
+      "ONCE",
+    ],
   },
   mexico: {
     nombre: "México",
@@ -155,10 +169,15 @@ export default async function LoteriasPage({
   const nombre = place?.name ?? cap(pais);
   const info = LOTERIA_INFO[pais];
   const loterias = info?.loterías ?? ["Lotería Nacional", "Quiniela", "Raspadita"];
+  const draws = pais === "espana" ? await getSpainLotteryResults() : [];
+  const drawByName = new Map(draws.map((d) => [d.name, d]));
 
+  // Sin migaja intermedia "Loterías": no existe un índice /loterias real
+  // (solo /loterias/{pais}), así que un crumb fijo a /loterias/espana
+  // duplicaba la URL de esta misma página en /loterias/espana y era
+  // simplemente incorrecto en cualquier otro país.
   const crumbs = [
     { name: "Inicio", url: "/" },
-    { name: "Loterías", url: "/loterias/espana" },
     { name: nombre, url: `/loterias/${pais}` },
   ];
 
@@ -199,18 +218,44 @@ export default async function LoteriasPage({
       <div className="mt-6 rounded-2xl border border-line bg-card p-6">
         <h2 className="font-bold text-ink">Loterías de {nombre}</h2>
         <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-          {loterias.map((l) => (
-            <li
-              key={l}
-              className="flex items-center gap-3 rounded-xl border border-line bg-bg p-3"
-            >
-              <span className="text-2xl" aria-hidden="true">🎰</span>
-              <div>
-                <p className="font-semibold text-ink text-sm">{l}</p>
-                <p className="text-xs text-muted">Resultados y premios</p>
-              </div>
-            </li>
-          ))}
+          {loterias.map((l) => {
+            const draw = drawByName.get(l);
+            return (
+              <li
+                key={l}
+                className="flex items-center gap-3 rounded-xl border border-line bg-bg p-3"
+              >
+                <span className="text-2xl" aria-hidden="true">🎰</span>
+                <div>
+                  <p className="font-semibold text-ink text-sm">{l}</p>
+                  {draw ? (
+                    <>
+                      <div className="mt-1.5 flex flex-wrap items-center gap-1">
+                        {draw.numbers.map((n, i) => (
+                          <LotteryBall key={i} n={n} />
+                        ))}
+                        {draw.stars?.map((n, i) => (
+                          <LotteryBall key={`star-${i}`} n={n} variant="star" />
+                        ))}
+                        {draw.complementary !== undefined && (
+                          <LotteryBall n={draw.complementary} variant="complementary" />
+                        )}
+                        {draw.reintegro !== undefined && (
+                          <LotteryBall n={draw.reintegro} variant="reintegro" />
+                        )}
+                      </div>
+                      <p className="mt-1.5 text-xs text-muted">
+                        Sorteo del {new Date(draw.date).toLocaleDateString("es-ES")}
+                        {draw.jackpot && ` · Bote: ${draw.jackpot}`}
+                      </p>
+                    </>
+                  ) : (
+                    <p className="text-xs text-muted">Resultados y premios</p>
+                  )}
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
 
