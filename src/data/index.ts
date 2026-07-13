@@ -74,6 +74,10 @@ export function getStats() {
 export function getChildren(slug: string): Place[] {
   return ALL.filter((p) => p.parentSlug === slug);
 }
+// Salas por franja de edad (topics-edad.ts): /chat las agrupa bajo "Por edades".
+export function getAgeTopics(): Place[] {
+  return TOPICS_EDAD;
+}
 // Comunidades autónomas españolas (topics-regiones.ts): para agrupar el listado
 // de ciudades de /chat/espana y para las cabeceras de /chat/{comunidad}.
 export function getRegions(): Place[] {

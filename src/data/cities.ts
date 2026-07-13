@@ -187,7 +187,7 @@ export const CITIES: Place[] = [
     activity: "Media",
     parentName: "España",
     parentSlug: "espana",
-    provincia: "Alicante",
+    provincia: "Alicante/Alacant",
     regionSlug: "comunidad-valenciana",
     channels: ["alicante", "españa", "amistad", "chatzona"],
     related: ["elche", "san-vicente-del-raspeig", "torrevieja", "elda", "petrer", "orihuela", "espana", "viajes", "amor"],

@@ -59,6 +59,26 @@ describe("data getters", () => {
     expect(sinProvincia).toEqual([]);
     expect(sinRegion).toEqual([]);
   });
+  it("las provincias españolas usan solo nombres canónicos (sin variantes que partan el grupo en dos)", () => {
+    // Las páginas /chat/{comunidad} agrupan por el string exacto de `provincia`:
+    // "Alicante" y "Alicante/Alacant" crearían DOS grupos con anclas distintas.
+    const CANONICAS = new Set([
+      "Álava", "Albacete", "Alicante/Alacant", "Almería", "Asturias", "Ávila",
+      "Badajoz", "Barcelona", "Burgos", "Cáceres", "Cádiz", "Cantabria",
+      "Castellón/Castelló", "Ciudad Real", "Córdoba", "A Coruña", "Cuenca",
+      "Girona", "Granada", "Guadalajara", "Guipúzcoa", "Huelva", "Huesca",
+      "Jaén", "León", "Lleida", "Lugo", "Madrid", "Málaga", "Murcia",
+      "Navarra", "Ourense", "Palencia", "Las Palmas", "Pontevedra",
+      "La Rioja", "Salamanca", "Santa Cruz de Tenerife", "Segovia", "Sevilla",
+      "Soria", "Tarragona", "Teruel", "Toledo", "Valencia/València",
+      "Valladolid", "Vizcaya", "Zamora", "Zaragoza", "Illes Balears",
+      "Ceuta", "Melilla",
+    ]);
+    const fuera = getCities()
+      .filter((c) => c.parentSlug === "espana" && c.provincia && !CANONICAS.has(c.provincia))
+      .map((c) => `${c.slug}: ${c.provincia}`);
+    expect(fuera).toEqual([]);
+  });
   it("getCitiesByRegion devuelve solo ciudades de esa comunidad, y cada regionSlug resuelve a una sala real", () => {
     const regions = getRegions();
     for (const r of regions) {

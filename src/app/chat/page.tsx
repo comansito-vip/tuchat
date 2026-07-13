@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
-import { cityFlag, getPrimaryTopics, getRegions } from "@/data";
+import { cityFlag, getAgeTopics, getPrimaryTopics, getRegions } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
@@ -73,18 +73,31 @@ export default async function ChatIndexPage() {
   // su categoría padre (fútbol, salud, hobbies...) en vez de una única nube
   // de 423 chips sin clasificar, donde era imposible encontrar nada.
   const primarySet = new Set(getPrimaryTopics().map((t) => t.slug));
+  // Las comunidades autónomas ya se navegan desde la tarjeta de España en
+  // "Países y ciudades": repetirlas aquí como temáticas solo añade ruido.
+  const regionSet = new Set(getRegions().map((r) => r.slug));
+  const ageSet = new Set(getAgeTopics().map((t) => t.slug));
   const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
-  const restTopics = topics.filter((t) => !primarySet.has(t.slug));
+  const restTopics = topics.filter((t) => !primarySet.has(t.slug) && !regionSet.has(t.slug));
   const grouped = new Map<string, { name: string; slug?: string; items: typeof restTopics }>();
-  const huerfanas: typeof restTopics = [];
-  for (const t of restTopics) {
-    if (!t.parentSlug) { huerfanas.push(t); continue; }
-    const key = t.parentSlug;
+  const conPadre = restTopics.filter((t) => t.parentSlug);
+  const sinPadre = restTopics.filter((t) => !t.parentSlug);
+  for (const t of conPadre) {
+    const key = t.parentSlug!;
     if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
     grouped.get(key)!.items.push(t);
   }
-  if (huerfanas.length) grouped.set("otras", { name: "Otras temáticas", items: huerfanas });
+  // Huérfanas: las salas de edad forman su propio grupo; los hubs de categoría
+  // (religión, hobbies...) ya encabezan su grupo con enlace, no van a "Otras".
+  const edad: typeof restTopics = [];
+  const huerfanas: typeof restTopics = [];
+  for (const t of sinPadre) {
+    if (ageSet.has(t.slug)) edad.push(t);
+    else if (!grouped.has(t.slug)) huerfanas.push(t);
+  }
+  if (edad.length) grouped.set("edades", { name: "Por edades", items: edad });
   const topicGroups = [...grouped.values()].sort((a, b) => b.items.length - a.items.length);
+  if (huerfanas.length) topicGroups.push({ name: "Otras temáticas", items: huerfanas });
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">

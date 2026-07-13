@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useId } from "react";
 import Link from "next/link";
 import { normalize } from "@/lib/slug";
 import { Flag } from "@/components/ui/Flag";
@@ -16,6 +16,7 @@ export function SearchInput({
 }) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
+  const listId = useId();
   const router = useRouter();
   const boxRef = useRef<HTMLDivElement>(null);
 
@@ -54,6 +55,7 @@ export function SearchInput({
           aria-label="Buscar salas por ciudad, país o temática"
           role="combobox"
           aria-expanded={open && results.length > 0}
+          aria-controls={listId}
           aria-autocomplete="list"
           autoComplete="off"
           className={`min-h-[44px] w-full bg-transparent px-3 text-ink outline-none placeholder:text-muted ${
@@ -69,7 +71,7 @@ export function SearchInput({
       </form>
 
       {open && query && results.length > 0 && (
-        <ul className="absolute z-20 mt-1.5 w-full overflow-hidden rounded-xl border border-line bg-card shadow-lg">
+        <ul id={listId} className="absolute z-20 mt-1.5 w-full overflow-hidden rounded-xl border border-line bg-card shadow-lg">
           {results.map((r) => (
             <li key={r.slug}>
               <Link
