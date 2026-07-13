@@ -1,7 +1,9 @@
 name: Generar noticias
 
 # Ejecuta el pipeline multi-LLM de noticias a diario y commitea el resultado.
-# Requiere el secret ANTHROPIC_API_KEY (y opcionalmente OPENAI_API_KEY como fallback).
+# Preferentemente ANTHROPIC_API_KEY/OPENAI_API_KEY (mejor calidad); si no están, cae
+# en la cadena de proveedores gratuitos (Groq/Cerebras/Mistral/OpenRouter) para que
+# el cron nunca se quede sin generar nada por falta de una clave de pago.
 on:
   schedule:
     - cron: "0 5 * * *" # 05:00 UTC cada día
@@ -27,6 +29,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+          CEREBRAS_API_KEYS: ${{ secrets.CEREBRAS_API_KEYS }}
+          MISTRAL_API_KEYS: ${{ secrets.MISTRAL_API_KEYS }}
+          OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
         run: npm run generate:news
 
       - name: Commitear cambios

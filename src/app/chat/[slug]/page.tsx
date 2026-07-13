@@ -63,7 +63,10 @@ export async function generateMetadata({
   const place = await getMergedPlace(slug);
   if (!place) return {};
   return {
-    title: ROOM_TITLES[slug] ?? withChatPrefix(place.name),
+    // Título absoluto (sin el sufijo "· TuChat" del template): con ~2.000
+    // salas, repetir la marca en cada title era redundante — pedido del
+    // cliente 2026-07-13. Mismo patrón que los artículos de noticias.
+    title: { absolute: ROOM_TITLES[slug] ?? withChatPrefix(place.name) },
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
     openGraph: { ...OG_BASE, url: `/chat/${place.slug}` },

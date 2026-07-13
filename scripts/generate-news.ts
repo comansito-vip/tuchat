@@ -9,13 +9,26 @@
  *
  * Uso:
  *   ANTHROPIC_API_KEY=sk-ant-...  [OPENAI_API_KEY=sk-...]  npx tsx scripts/generate-news.ts
+ * O en local, con .env.local (GROQ_API_KEYS, CEREBRAS_API_KEYS, MISTRAL_API_KEYS,
+ * OPENROUTER_API_KEYS — claves separadas por comas para rotar) sin pasar nada a mano.
  *
  * Requiere Node 18+ (fetch global). No añade dependencias de SDK: llama a las APIs
  * por HTTP para poder encadenar proveedores distintos como pide el brief.
  */
 
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+
+// Carga .env.local a mano (sin dep de dotenv): útil en local; en CI las
+// variables ya vienen del entorno (GitHub Actions secrets) y esto no hace nada.
+function loadEnvLocal() {
+  if (!existsSync(".env.local")) return;
+  for (const line of readFileSync(".env.local", "utf-8").split("\n")) {
+    const m = line.match(/^([A-Z_][A-Z0-9_]*)=(.*)$/);
+    if (m && !(m[1] in process.env)) process.env[m[1]] = m[2];
+  }
+}
+loadEnvLocal();
 
 // ───────────────────────── Configuración ─────────────────────────
 
@@ -151,10 +164,54 @@ async function callOpenAI(category: string): Promise<GeneratedItem[]> {
   return parseJsonArray(data.choices?.[0]?.message?.content ?? "");
 }
 
-/** Cadena de proveedores con fallback: el primero que responda válido gana. */
+/** Cliente genérico para APIs compatibles con el formato Chat Completions de OpenAI
+ *  (Groq, Cerebras, Mistral, NVIDIA NIM, OpenRouter...). Soporta rotar entre varias
+ *  claves separadas por comas en la misma variable de entorno. */
+function makeOpenAICompatibleCaller(
+  name: string,
+  envVar: string,
+  baseURL: string,
+  model: string,
+): (category: string) => Promise<GeneratedItem[]> {
+  return async (category: string) => {
+    const keys = (process.env[envVar] ?? "").split(",").map((k) => k.trim()).filter(Boolean);
+    if (keys.length === 0) throw new Error(`${envVar} no definida`);
+    let lastErr: Error | null = null;
+    for (const key of keys) {
+      try {
+        const res = await fetch(`${baseURL}/chat/completions`, {
+          method: "POST",
+          headers: { Authorization: `Bearer ${key}`, "content-type": "application/json" },
+          body: JSON.stringify({
+            model,
+            messages: [
+              { role: "system", content: SYSTEM_PROMPT },
+              { role: "user", content: userPrompt(category) },
+            ],
+          }),
+        });
+        if (!res.ok) throw new Error(`${name} ${res.status}: ${(await res.text()).slice(0, 200)}`);
+        const data = await res.json();
+        return parseJsonArray(data.choices?.[0]?.message?.content ?? "");
+      } catch (err) {
+        lastErr = err as Error;
+      }
+    }
+    throw lastErr ?? new Error(`${name}: todas las claves fallaron`);
+  };
+}
+
+/** Cadena de proveedores con fallback: el primero que responda válido gana.
+ *  Claude/OpenAI primero (mejor calidad, si hay clave configurada); los
+ *  gratuitos/rápidos de terceros como red de seguridad para que el cron
+ *  nunca se quede sin generar nada por falta de una clave de pago. */
 const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
   { name: "Claude", call: callClaude },
   { name: "OpenAI", call: callOpenAI },
+  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", "llama-3.3-70b-versatile") },
+  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", "llama-3.3-70b") },
+  { name: "Mistral", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", "mistral-large-latest") },
+  { name: "OpenRouter", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", "meta-llama/llama-3.3-70b-instruct:free") },
 ];
 
 async function generateCategory(category: string): Promise<GeneratedItem[]> {

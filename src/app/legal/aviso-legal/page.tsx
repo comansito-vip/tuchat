@@ -22,8 +22,9 @@ export default function AvisoLegalPage() {
       <div className="prose mt-4 space-y-4 text-muted">
         <h2 className="text-lg font-bold text-ink">Titular del sitio</h2>
         <p>
-          Este sitio web (tuchat.org) es un portal de salas de chat en español. Los datos
-          identificativos del titular se indicarán aquí conforme a la normativa aplicable.
+          Este sitio web (tuchat.org) es un portal de salas de chat en español, titularidad de
+          J.C.G., con domicilio en A Coruña (España), C.P. 15006. Para cualquier consulta, puedes
+          escribir a <a href="mailto:info@chatzona.org" className="text-blue hover:underline">info@chatzona.org</a>.
         </p>
         <h2 className="text-lg font-bold text-ink">Condiciones de uso</h2>
         <p>
