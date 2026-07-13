@@ -5,7 +5,7 @@ import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
 import { faqJsonLd, collectionJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
-import { getSpainLotteryResults, LOTTERY_REVALIDATE_SECONDS } from "@/lib/lottery";
+import { getSpainLotteryResults } from "@/lib/lottery";
 import { LotteryBall } from "@/components/ui/LotteryBall";
 import Link from "next/link";
 
@@ -13,7 +13,11 @@ export const dynamicParams = false;
 // Solo España trae resultados reales (getSpainLotteryResults); el resto de
 // países no hace fetch y esto no les afecta, pero next exige un único valor
 // de revalidate por segmento de ruta.
-export const revalidate = LOTTERY_REVALIDATE_SECONDS;
+// OJO: este export de configuración de ruta lo analiza Next.js de forma
+// estática en build — tiene que ser un literal, no una referencia a una
+// constante importada (rompe el build con "Invalid segment configuration
+// export"). Debe coincidir con LOTTERY_REVALIDATE_SECONDS en src/lib/lottery.ts.
+export const revalidate = 21600;
 
 export function generateStaticParams() {
   return getCountries().map((c) => ({ pais: c.slug }));
