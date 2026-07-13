@@ -120,8 +120,12 @@ it("HeroSearch shows country count stat (≥29)", () => {
 it("RoomCard links place name and Enter button to correct paths", () => {
   const place = getPlace("madrid")!;
   render(<RoomCard place={place} />);
-  expect(screen.getByRole("link", { name: /Madrid/ })).toHaveAttribute("href", "/chat/madrid");
-  expect(screen.getByRole("link", { name: /Entrar/i })).toHaveAttribute("href", "/chat/madrid");
+  // El CTA nombra la sala: un enlace llamado solo "Entrar", repetido en cada
+  // tarjeta, es indistinguible en el rotor de enlaces de VoiceOver.
+  expect(screen.getByRole("link", { name: "Madrid" })).toHaveAttribute("href", "/chat/madrid");
+  expect(
+    screen.getByRole("link", { name: "Entrar al chat de Madrid" }),
+  ).toHaveAttribute("href", "/chat/madrid");
 });
 it("Sidebar shows ranking label and at least 5 ranked rooms", () => {
   render(<Sidebar />);

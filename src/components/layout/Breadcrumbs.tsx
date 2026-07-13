@@ -10,7 +10,7 @@ export function Breadcrumbs({ crumbs }: { crumbs: Crumb[] }) {
           {i > 0 && <span className="mx-1.5 text-slate-300">›</span>}
           {i < crumbs.length - 1
             ? <Link href={c.url} className="hover:text-blue">{c.name}</Link>
-            : <span className="text-ink">{c.name}</span>}
+            : <span aria-current="page" className="text-ink">{c.name}</span>}
         </span>
       ))}
     </nav>

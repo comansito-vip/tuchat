@@ -45,8 +45,12 @@ export function NickInput({
           // enfocar inputs con fuente menor de 16px. Sin ring propio: usa el
           // :focus-visible global (globals.css) como el resto del sitio.
           "min-h-[44px] min-w-0 flex-1 rounded-xl border px-4 py-2.5 text-base sm:text-sm",
+          // Campo OSCURO sobre el gradiente, no claro: bg-white/15 aclaraba el
+          // fondo y dejaba el placeholder en 2.3:1 (ilegible a plena luz en el
+          // móvil, y es la única pista de para qué sirve el campo). Con
+          // bg-black/25 el mismo texto queda entre 5.6:1 y 6.8:1.
           variant === "onColor"
-            ? "border-white/30 bg-white/15 text-white placeholder:text-white/60 backdrop-blur-sm"
+            ? "border-white/40 bg-black/25 text-white placeholder:text-white/85 backdrop-blur-sm"
             : "border-line bg-card text-ink placeholder:text-muted",
         )}
       />

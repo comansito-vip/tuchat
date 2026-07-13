@@ -27,7 +27,10 @@ export function RegionGroupedGrid({ cities, initialPerRegion = 8 }: { cities: Pl
         provincias.sort((a, b) => list.filter((c) => c.provincia === b).length - list.filter((c) => c.provincia === a).length);
         return (
           <section key={regionSlug}>
-            <div className="mb-3 flex items-baseline gap-2">
+            {/* h3 de verdad, no un enlace con pinta de título: son los únicos
+                puntos de aterrizaje del rotor de encabezados en una página con
+                893 ciudades (ProvinciaGroupedGrid ya lo hacía así). */}
+            <h3 className="mb-3 flex items-baseline gap-2">
               {region ? (
                 <Link
                   href={`/chat/${region.slug}`}
@@ -39,8 +42,8 @@ export function RegionGroupedGrid({ cities, initialPerRegion = 8 }: { cities: Pl
               ) : (
                 <span className="font-display text-lg font-bold text-ink">Otras ciudades</span>
               )}
-              <span className="text-sm text-muted">· {list.length} {list.length === 1 ? "ciudad" : "ciudades"}</span>
-            </div>
+              <span className="text-sm font-normal text-muted">· {list.length} {list.length === 1 ? "ciudad" : "ciudades"}</span>
+            </h3>
             {region && provincias.length > 1 && (
               <div className="mb-3 flex flex-wrap gap-1.5">
                 {provincias.map((p) => (

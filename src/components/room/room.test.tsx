@@ -99,12 +99,12 @@ it("RoomHero renders h1 with room name and a NickInput", () => {
 it("RoomHero uses slug-specific gradient for amor", () => {
   const { container } = render(<RoomHero place={getPlace("amor")!} />);
   const section = container.querySelector("section")!;
-  expect(section.className).toContain("from-rose-500");
+  expect(section.className).toContain("from-rose-600");
 });
 it("RoomHero uses kind-based gradient for ciudad when no slug override", () => {
   const { container } = render(<RoomHero place={getPlace("madrid")!} />);
   const section = container.querySelector("section")!;
-  expect(section.className).toContain("from-sky-500");
+  expect(section.className).toContain("from-sky-700");
 });
 it("RoomHero accepts custom h1 prop", () => {
   render(<RoomHero place={getPlace("espana")!} h1="Bienvenidos a España" />);

@@ -1,6 +1,6 @@
 const VARIANTS = {
   normal: "bg-blue text-white",
-  complementary: "bg-amber-600 text-white",
+  complementary: "bg-amber-700 text-white",
   reintegro: "bg-purple-600 text-white",
   star: "bg-amber-400 text-ink",
 } as const;

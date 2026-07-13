@@ -4,31 +4,34 @@ import { Flag } from "@/components/ui/Flag";
 import { NickInput } from "@/components/ui/NickInput";
 import { getAnimeBySlug } from "@/lib/anime-series";
 
+// Los tonos de arranque son 600/700, no 500: con un 500 ni el texto blanco puro
+// llega a 3:1 en el borde claro del gradiente (sky-500 daba 2.77:1, amber-500
+// 2.15:1), así que la intro de la sala no se leía al sol. Medido, no a ojo.
 const GRADIENT_KIND: Record<Place["kind"], string> = {
   pais: "from-blue-600 to-blue-900",
-  ciudad: "from-sky-500 to-blue-800",
-  tematica: "from-indigo-500 to-blue-800",
+  ciudad: "from-sky-700 to-blue-900",
+  tematica: "from-indigo-600 to-blue-900",
 };
 
 // Degradados por temática — aportan identidad cromática a cada categoría.
 const GRADIENT_SLUG: Record<string, string> = {
-  amor: "from-rose-500 to-pink-800",
-  amistad: "from-sky-500 to-blue-800",
-  lgtbi: "from-pink-500 to-purple-800",
-  deportes: "from-emerald-500 to-green-900",
-  musica: "from-violet-500 to-purple-900",
-  videojuegos: "from-amber-500 to-orange-800",
-  anime: "from-fuchsia-500 to-purple-900",
+  amor: "from-rose-600 to-pink-900",
+  amistad: "from-sky-700 to-blue-900",
+  lgtbi: "from-pink-600 to-purple-900",
+  deportes: "from-emerald-700 to-green-900",
+  musica: "from-violet-600 to-purple-900",
+  videojuegos: "from-amber-700 to-orange-900",
+  anime: "from-fuchsia-700 to-purple-900",
   tarot: "from-indigo-600 to-purple-900",
-  horoscopo: "from-indigo-500 to-violet-800",
+  horoscopo: "from-indigo-600 to-violet-900",
   esoterismo: "from-purple-600 to-indigo-900",
-  videncia: "from-violet-500 to-purple-900",
-  astrologia: "from-indigo-500 to-blue-900",
+  videncia: "from-violet-600 to-purple-900",
+  astrologia: "from-indigo-600 to-blue-900",
   magia: "from-purple-700 to-indigo-900",
   cine: "from-slate-600 to-gray-900",
-  tecnologia: "from-cyan-500 to-blue-900",
-  viajes: "from-teal-500 to-cyan-900",
-  cocina: "from-orange-500 to-amber-800",
+  tecnologia: "from-cyan-700 to-blue-900",
+  viajes: "from-teal-700 to-cyan-900",
+  cocina: "from-orange-700 to-amber-900",
 };
 
 const KIND_LABEL: Record<Place["kind"], string> = {
@@ -102,7 +105,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
           <h1 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">
             {h1 ?? `Chat ${place.name} gratis`}
           </h1>
-          <p className="mt-2 max-w-2xl text-sm text-white/85 sm:text-base">{place.intro}</p>
+          <p className="mt-2 max-w-2xl text-sm text-white sm:text-base">{place.intro}</p>
 
           <div className="mt-5 flex flex-col gap-3">
             <NickInput
@@ -112,7 +115,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
             />
             <a
               href="#relacionadas"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-white/75 transition-colors hover:text-white"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-white/90 underline-offset-4 transition-colors hover:underline"
             >
               <ChatIcon />
               Ver salas relacionadas ↓

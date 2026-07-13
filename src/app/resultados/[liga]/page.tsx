@@ -93,8 +93,11 @@ export default async function ResultadosLigaPage({
           <Link
             key={l.slug}
             href={`/resultados/${l.slug}`}
+            // Sin esto, la liga activa solo se distingue por el color de fondo:
+            // un lector de pantalla no tiene forma de saber en cuál estás.
+            aria-current={l.slug === liga ? "page" : undefined}
             className={
-              "rounded-full border px-3 py-1.5 text-sm font-medium " +
+              "inline-flex min-h-[44px] items-center rounded-full border px-3.5 text-sm font-medium " +
               (l.slug === liga
                 ? "border-blue bg-blue text-white"
                 : "border-line bg-card text-blue-dark hover:border-blue")
@@ -107,39 +110,69 @@ export default async function ResultadosLigaPage({
 
       <section className="mt-6">
         <SectionTitle>{league.name}</SectionTitle>
-        <Card className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs font-semibold uppercase text-muted">
-                <th className="px-4 py-3">#</th>
-                <th className="px-4 py-3">Equipo</th>
-                <th className="px-4 py-3 text-center">PJ</th>
-                <th className="px-4 py-3 text-center">G</th>
-                <th className="px-4 py-3 text-center">E</th>
-                <th className="px-4 py-3 text-center">P</th>
-                <th className="px-4 py-3 text-center font-bold">Pts</th>
-              </tr>
-            </thead>
-            <tbody>
+        {source === "reserva" ? (
+          // La tabla de reserva son unos pocos equipos con puntos escritos a mano
+          // y PJ/G/E/P a cero: pintarla como clasificación es mentirle al usuario
+          // (y a Google, que la indexa como dato). Cuando no hay proveedor en vivo
+          // se dice, y se enseña solo lo que sí es cierto: qué equipos juegan.
+          <Card className="p-4">
+            <p role="status" className="text-sm font-semibold text-ink">
+              Ahora mismo no podemos mostrar la clasificación de {league.name}.
+            </p>
+            <p className="mt-1 text-sm text-muted">
+              El proveedor de datos deportivos no responde. Se actualiza sola en cuanto
+              vuelva; mientras tanto, estos son algunos equipos de la liga.
+            </p>
+            <ul className="mt-3 flex flex-wrap gap-2">
               {rows.map((r) => (
-                <tr key={`${r.rank}-${r.team}`} className="border-t border-line">
-                  <td className="px-4 py-3 text-center text-muted">{r.rank}</td>
-                  <td className="px-4 py-3 font-medium text-ink">{r.team}</td>
-                  <td className="px-4 py-3 text-center text-muted">{r.played}</td>
-                  <td className="px-4 py-3 text-center text-muted">{r.won}</td>
-                  <td className="px-4 py-3 text-center text-muted">{r.drawn}</td>
-                  <td className="px-4 py-3 text-center text-muted">{r.lost}</td>
-                  <td className="px-4 py-3 text-center font-bold text-ink">{r.points}</td>
-                </tr>
+                <li
+                  key={r.team}
+                  className="rounded-full border border-line bg-bg px-3 py-1.5 text-sm text-ink"
+                >
+                  {r.team}
+                </li>
               ))}
-            </tbody>
-          </table>
-        </Card>
-        <p className="mt-2 text-xs text-muted">
-          {source === "reserva"
-            ? "Clasificación de referencia de la última jornada disputada; en cuanto el proveedor de datos responde se actualiza sola."
-            : `Datos en vivo vía ${source}.`}
-        </p>
+            </ul>
+          </Card>
+        ) : (
+          <>
+            <Card className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <caption className="sr-only">
+                  Clasificación de {league.name}: posición, equipo, partidos jugados,
+                  ganados, empatados, perdidos y puntos.
+                </caption>
+                <thead>
+                  <tr className="text-left text-xs font-semibold uppercase text-muted">
+                    <th scope="col" className="px-4 py-3">#</th>
+                    <th scope="col" className="px-4 py-3">Equipo</th>
+                    <th scope="col" className="px-4 py-3 text-center">PJ</th>
+                    <th scope="col" className="px-4 py-3 text-center">G</th>
+                    <th scope="col" className="px-4 py-3 text-center">E</th>
+                    <th scope="col" className="px-4 py-3 text-center">P</th>
+                    <th scope="col" className="px-4 py-3 text-center font-bold">Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((r) => (
+                    <tr key={`${r.rank}-${r.team}`} className="border-t border-line">
+                      <td className="px-4 py-3 text-center text-muted">{r.rank}</td>
+                      <th scope="row" className="px-4 py-3 text-left font-medium text-ink">
+                        {r.team}
+                      </th>
+                      <td className="px-4 py-3 text-center text-muted">{r.played}</td>
+                      <td className="px-4 py-3 text-center text-muted">{r.won}</td>
+                      <td className="px-4 py-3 text-center text-muted">{r.drawn}</td>
+                      <td className="px-4 py-3 text-center text-muted">{r.lost}</td>
+                      <td className="px-4 py-3 text-center font-bold text-ink">{r.points}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </Card>
+            <p className="mt-2 text-xs text-muted">Datos en vivo vía {source}.</p>
+          </>
+        )}
       </section>
 
       {fixtures.length > 0 && (
@@ -163,10 +196,10 @@ export default async function ResultadosLigaPage({
         </section>
       )}
 
-      <section className="mt-8 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-900 p-6 text-white">
-        <p className="text-sm font-semibold opacity-80">Debate en directo</p>
+      <section className="mt-8 rounded-2xl bg-gradient-to-br from-emerald-700 to-green-900 p-6 text-white">
+        <p className="text-sm font-semibold text-white/90">Debate en directo</p>
         <h2 className="mt-1 text-xl font-extrabold">¿Cómo va el partido?</h2>
-        <p className="mt-1 text-sm opacity-80">
+        <p className="mt-1 text-sm text-white/90">
           Comenta la jornada de {league.name} con otros aficionados en tiempo real.
         </p>
         <div className="mt-4 max-w-sm">

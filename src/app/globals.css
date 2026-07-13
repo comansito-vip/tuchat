@@ -16,14 +16,23 @@
   --color-blue: #4f46e5;
   --color-blue-dark: #3730a3;
 
-  /* Energía "en vivo": rosa-coral para online/HOT */
-  --color-live: #f43f5e;
+  /* Energía "en vivo": rosa-coral para online/HOT.
+     Los tres colores de abajo se eligieron por contraste medido, no a ojo:
+     - live (#e11d48) da 4.70:1 con texto blanco encima (badge HOT). El #f43f5e
+       anterior se quedaba en 3.67:1 y ese badge es texto de 11px.
+     - live-ink es para TEXTO rosa sobre live-soft ("EN VIVO"): 5.72:1. Usar
+       --color-live ahí daba 3.34:1.
+     - active oscurecido de #16a34a (3.13:1 sobre el fondo) a #15803d (4.77:1). */
+  --color-live: #e11d48;
   --color-live-soft: #fff1f3;
-  --color-active: #16a34a;
+  --color-live-ink: #be123c;
+  --color-active: #15803d;
 
-  /* CTA de acción: rojo fuerte para botones "Entrar al chat" */
-  --color-cta: #ef4444;
-  --color-cta-dark: #dc2626;
+  /* CTA de acción: rojo fuerte para botones "Entrar al chat".
+     #ef4444 daba 3.76:1 con texto blanco — por debajo del 4.5:1 que pide un
+     botón de 14px, y es el botón más importante del sitio. #dc2626 da 4.83:1. */
+  --color-cta: #dc2626;
+  --color-cta-dark: #b91c1c;
 
   /* Acentos por categoría (color-coding de temáticas) */
   --color-amor: #ec4899;

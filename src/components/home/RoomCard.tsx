@@ -51,12 +51,16 @@ export function RoomCard({ place }: { place: Place }) {
 
       {/* Va a la página de la sala (no directo al webchat): ahí el visitante
           ve info/FAQ y decide entrar desde el CTA de esa página. */}
+      {/* El nombre de la sala va en el enlace, no solo en el texto visible: si
+          no, el rotor de VoiceOver lista cientos de enlaces "Entrar" idénticos
+          e indistinguibles (en /chat/espana son 893). */}
       <Link
         href={`/chat/${place.slug}`}
+        aria-label={`Entrar al chat de ${place.name}`}
         className={buttonClasses("cta", "md", "mt-auto w-full")}
       >
         <ChatIcon />
-        Entrar
+        <span aria-hidden="true">Entrar</span>
       </Link>
     </Card>
   );

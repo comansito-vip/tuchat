@@ -33,7 +33,7 @@ export function CountryGrid() {
                   {city && (
                     <Link
                       href={`/chat/${city.slug}`}
-                      className="inline-flex items-center gap-1 rounded-lg px-2 py-1.5 text-xs text-muted/70 transition-colors hover:bg-brand/6 hover:text-ink"
+                      className="inline-flex items-center gap-1 rounded-lg px-2 py-1.5 text-xs text-muted transition-colors hover:bg-brand/6 hover:text-ink"
                     >
                       <Flag emoji={cityFlag(city).icon} flagSrc={cityFlag(city).flagSrc} size={13} />
                       {city.name}

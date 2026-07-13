@@ -96,9 +96,9 @@ export function WebchatShell({
         </span>
         <Link
           href="/"
-          className="shrink-0 rounded-full bg-black/25 px-3 py-1.5 text-xs font-bold text-white hover:bg-black/40"
+          className="inline-flex min-h-[44px] shrink-0 items-center rounded-full bg-black/25 px-3.5 text-xs font-bold text-white hover:bg-black/40"
         >
-          ✕ Salir
+          <span aria-hidden="true" className="mr-1">✕</span> Salir del chat
         </Link>
       </header>
       <WebchatFrame

@@ -288,10 +288,10 @@ export default async function LoteriasPage({
       )}
 
       {/* Chat CTA */}
-      <section className="mt-8 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-800 p-6 text-white">
-        <p className="text-sm font-semibold opacity-80">Comunidad de {nombre}</p>
+      <section className="mt-8 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-900 p-6 text-white">
+        <p className="text-sm font-semibold text-white/90">Comunidad de {nombre}</p>
         <h2 className="mt-1 text-xl font-extrabold">¿Tienes el número premiado?</h2>
-        <p className="mt-1 text-sm opacity-80">
+        <p className="mt-1 text-sm text-white/90">
           Comparte tu suerte con la comunidad en el chat de {nombre}.
         </p>
         <div className="mt-4">
