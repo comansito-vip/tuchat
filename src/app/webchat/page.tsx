@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { WebchatFrame } from "@/components/webchat/WebchatFrame";
-import { getPlace } from "@/data";
+import { CleanWebchatUrl } from "@/components/webchat/CleanWebchatUrl";
 import { resolveChannels } from "@/lib/channels";
-import { LiveDot } from "@/components/ui/icons";
 
 export const metadata: Metadata = {
   title: "Webchat",
@@ -15,30 +15,24 @@ export default async function WebchatPage({
   searchParams: Promise<{ canal?: string; nick?: string }>;
 }) {
   const { canal = "espana", nick } = await searchParams;
-  const place = getPlace(canal);
   const clientId = process.env.NEXT_PUBLIC_WEBCHAT_CLIENT_ID ?? "af9476269cf237c0196b";
   const channels = resolveChannels(canal).filter((c) => c !== "chatzona");
 
   return (
-    // 3.5rem del header + 1px de su borde inferior: sin restar el borde, la
-    // página desborda 1px y aparece scroll en una vista que no debe tenerlo.
-    <div className="flex flex-col overflow-hidden" style={{ height: "calc(100dvh - 3.5rem - 1px)" }}>
-      {/* Barra de canal */}
-      <div className="flex shrink-0 items-center gap-3 bg-slate-900 px-4 py-2.5">
-        <span className="text-green-400">
-          <LiveDot />
-        </span>
-        <span className="text-sm text-slate-400">Estás en</span>
+    // Sin header global (ver HeaderSlot): esta barra es lo único por encima
+    // del iframe, igual que trivialchat.org/webchat — solo logo y canal.
+    <div className="flex h-dvh flex-col overflow-hidden">
+      <div className="flex h-14 shrink-0 items-center gap-3 border-b border-line bg-slate-900 px-4">
+        <Link href="/" className="shrink-0 text-sm font-extrabold text-white" aria-label="TuChat — Inicio">
+          Tu<span className="text-blue">Chat</span>
+        </Link>
         <span className="truncate text-sm font-bold text-white">
           {channels.map((c) => `#${c}`).join(" · ")}
         </span>
-        {place && (
-          <span className="ml-auto shrink-0 text-xs text-slate-500">
-            {place.name} · {place.users.toLocaleString("es")} online
-          </span>
-        )}
+        <Link href="/" className="ml-auto shrink-0 text-xs text-slate-400 hover:text-white">
+          ✕ Salir
+        </Link>
       </div>
-      {/* Iframe del chat */}
       <div className="min-h-0 flex-1">
         <WebchatFrame
           canal={canal}
@@ -47,6 +41,7 @@ export default async function WebchatPage({
           className="h-full w-full border-0"
         />
       </div>
+      <CleanWebchatUrl />
     </div>
   );
 }

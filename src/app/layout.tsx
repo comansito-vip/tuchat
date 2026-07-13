@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Bricolage_Grotesque } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
+import { HeaderSlot } from "@/components/layout/HeaderSlot";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { LayoutShell } from "@/components/layout/LayoutShell";
 import { Footer } from "@/components/layout/Footer";
@@ -90,7 +91,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <JsonLd data={websiteJsonLd()} />
         <JsonLd data={organizationJsonLd()} />
-        <Header />
+        <HeaderSlot>
+          <Header />
+        </HeaderSlot>
         <LayoutShell>{children}</LayoutShell>
         <FooterSlot>
           <Footer />
