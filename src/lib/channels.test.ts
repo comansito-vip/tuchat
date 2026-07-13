@@ -5,7 +5,9 @@ import { getCities } from "@/data";
 describe("resolveChannels", () => {
   it("uses the place's defined channels for Madrid", () => {
     // El canal real del IRC lleva tilde (#españa, no #espana) aunque el slug/URL no la lleve.
-    expect(resolveChannels("madrid")).toEqual(["madrid", "españa", "amistad", "chatzona"]);
+    // "amistad" (868 usuarios reales) es popular pero temático, no geográfico:
+    // las salas de ciudad ya no lo arrastran de más (2026-07-13 noche).
+    expect(resolveChannels("madrid")).toEqual(["madrid", "españa", "chatzona"]);
   });
   it("uses México's channels", () => {
     expect(resolveChannels("mexico")).toEqual(["mexico", "amistad", "chatzona"]);
