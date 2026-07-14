@@ -79,7 +79,7 @@ export const TOPICS_REGIONES: Place[] = [
     users: 80,
     votes: 118,
     activity: "Media",
-    channels: ["cataluna", "cataluña", "amistad", "chatzona"],
+    channels: ["cataluña", "amistad", "chatzona"],
     related: ["barcelona", "girona", "tarragona", "lleida", "cultura", "musica"],
     intro:
       "Barcelona, Girona, Tarragona y Lleida en una sola sala: Cataluña entra al chat con modernisme, castellers y bilingüismo de nacimiento.",
@@ -175,7 +175,7 @@ export const TOPICS_REGIONES: Place[] = [
     users: 45,
     votes: 66,
     activity: "Media",
-    channels: ["euskadi", "vizcaya", "guipuzcoa", "euskaraz", "amistad", "chatzona"],
+    channels: ["euskadi", "vizcaya", "guipuzcoa", "amistad", "chatzona", "euskaraz"],
     related: ["bilbao", "san-sebastian", "vitoria", "cocina", "musica"],
     intro:
       "Pintxos de barra, euskera que resiste generación tras generación y tres provincias que se pican entre sí: el País Vasco entra al chat.",
@@ -257,7 +257,7 @@ export const TOPICS_REGIONES: Place[] = [
     users: 62,
     votes: 95,
     activity: "Baja",
-    channels: ["rioja", "amistad", "chatzona"],
+    channels: ["la_rioja", "amistad", "chatzona"],
     related: ["logrono", "amor", "amistad", "espana"],
     intro:
       "La comunidad más pequeña de España y una de las más conocidas fuera: La Rioja entra al chat entre viñedos y el Ebro de fondo.",

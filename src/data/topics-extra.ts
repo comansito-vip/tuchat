@@ -15,7 +15,7 @@ const RAW: Place[] = [
     votes: 320,
     tag: "Popular",
     activity: "Alta",
-    channels: ["rebelion", "chile", "chatzona"],
+    channels: ["chile", "chatzona", "rebelion"],
     related: ["chile", "santiago-de-chile", "bar-del-zorro", "planeta-mix", "amistad", "amor"],
     intro:
       "El canal chileno de toda la vida: conversación sin filtro, hartas tallas y gente conectada a cualquier hora. Elige nick y métete al #rebelion po.",
@@ -30,7 +30,7 @@ const RAW: Place[] = [
     users: 165,
     votes: 280,
     activity: "Alta",
-    channels: ["bar_del_zorro", "chile", "chatzona"],
+    channels: ["chile", "chatzona", "bar_del_zorro"],
     related: ["chile", "rebelion", "planeta-mix", "santiago-de-chile", "amistad", "ligar"],
     intro:
       "La barra chilena donde nunca cierran: copete virtual, buena onda y conversación hasta tarde. Pasa al #bar_del_zorro y pide la primera ronda.",
@@ -46,7 +46,7 @@ const RAW: Place[] = [
     votes: 240,
     tag: "Nueva",
     activity: "Media",
-    channels: ["planeta_mix", "chile", "chatzona"],
+    channels: ["chile", "chatzona", "planeta_mix"],
     related: ["chile", "rebelion", "bar-del-zorro", "musica", "amistad", "ligar"],
     intro:
       "Música, fiesta y mezcla total: el canal chileno donde se habla de cumbia, reguetón y los carretes del finde. Conéctate al #planeta_mix.",
@@ -61,7 +61,7 @@ const RAW: Place[] = [
     users: 120,
     votes: 175,
     activity: "Media",
-    channels: ["norte_chile", "chile", "chatzona"],
+    channels: ["chile", "chatzona", "norte_chile"],
     related: ["chile", "sur-chile", "rebelion", "santiago-de-chile", "amistad", "amor"],
     intro:
       "Del desierto de Atacama al altiplano: el canal de los nortinos. Arica, Iquique, Antofagasta y La Serena conectados al #norte_chile.",
@@ -76,7 +76,7 @@ const RAW: Place[] = [
     users: 130,
     votes: 190,
     activity: "Media",
-    channels: ["sur_chile", "chile", "chatzona"],
+    channels: ["chile", "chatzona", "sur_chile"],
     related: ["chile", "norte-chile", "rebelion", "santiago-de-chile", "amistad", "amor"],
     intro:
       "Lluvia, bosques y mate: el canal de los sureños. Concepción, Temuco, Valdivia, Puerto Montt y Chiloé conectados al #sur_chile.",
@@ -93,7 +93,7 @@ const RAW: Place[] = [
     votes: 380,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["naruto", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "dragon-ball", "one-piece", "manga", "videojuegos", "madrid"],
     intro:
       "Del Valle del Fin a la guerra contra Madara: el equipo 7, el arco de Pain y el debate eterno Naruto vs. Sasuke. Entra y elige bando.",
@@ -109,7 +109,7 @@ const RAW: Place[] = [
     votes: 410,
     tag: "Popular",
     activity: "Alta",
-    channels: ["dragon-ball", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "naruto", "one-piece", "manga", "videojuegos", "barcelona"],
     intro:
       "Desde la búsqueda de las esferas hasta el Ultra Instinto: la saga que nos enganchó a todos sigue dando guerra. ¿Z o Super? Elige y defiéndelo.",
@@ -125,7 +125,7 @@ const RAW: Place[] = [
     votes: 430,
     tag: "Popular",
     activity: "Alta",
-    channels: ["one-piece", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "naruto", "dragon-ball", "manga", "series", "madrid"],
     intro:
       "Más de mil capítulos buscando el One Piece: el Siglo Vacío, el Gear 5 y la teoría del Gorosei. Wano, Marineford y la voluntad de la D a debate.",
@@ -141,7 +141,7 @@ const RAW: Place[] = [
     votes: 360,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["kimetsu-no-yaiba", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "jujutsu-kaisen", "one-piece", "manga", "cine", "barcelona"],
     intro:
       "La animación de Ufotable con Kimetsu no Yaiba dejó el listón altísimo: el tren infinito, los Hashira y cada respiración de Tanjiro, a debate.",
@@ -157,7 +157,7 @@ const RAW: Place[] = [
     votes: 375,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["jujutsu-kaisen", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "kimetsu-no-yaiba", "naruto", "manga", "videojuegos", "madrid"],
     intro:
       "Chat de Jujutsu Kaisen: Gojo, el infinito y el arco de Shibuya a fondo. Teorías, debates sobre Sukuna y la técnica de las maldiciones sin spoilers sin avisar.",
@@ -173,7 +173,7 @@ const RAW: Place[] = [
     votes: 395,
     tag: "Popular",
     activity: "Alta",
-    channels: ["pokemon", "anime", "manga", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "dragon-ball", "naruto", "manga", "videojuegos", "barcelona"],
     intro:
       "De Kanto a Paldea: la mejor generación, los starters favoritos, shinies y el debate sin fin de si el viaje de Ash tuvo el final que merecía.",
@@ -189,7 +189,7 @@ const RAW: Place[] = [
     votes: 340,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["manga", "anime", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["anime", "naruto", "one-piece", "jujutsu-kaisen", "series", "madrid"],
     intro:
       "Chat de manga en español: para los que van un arco por delante del anime. Recomendaciones de seinen, shonen y joyas de nicho que merecen más atención.",
@@ -207,7 +207,7 @@ const RAW: Place[] = [
     votes: 561,
     tag: "Popular",
     activity: "Alta",
-    channels: ["real-madrid", "real-madrid-c-f", "real_madrid_c_f", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "real-madrid-c-f", "ocio", "chatzona", "real-madrid"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "fc-barcelona", "atletico-madrid", "madrid", "espana"],
     intro:
@@ -224,7 +224,7 @@ const RAW: Place[] = [
     votes: 529,
     tag: "Popular",
     activity: "Alta",
-    channels: ["fc-barcelona", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "fc-barcelona"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "real-madrid", "atletico-madrid", "barcelona", "espana"],
     intro:
@@ -240,7 +240,7 @@ const RAW: Place[] = [
     users: 296,
     votes: 458,
     activity: "Alta",
-    channels: ["atletico-madrid", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "atletico-madrid"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "real-madrid", "fc-barcelona", "madrid", "espana"],
     intro:
@@ -257,7 +257,7 @@ const RAW: Place[] = [
     votes: 502,
     tag: "Popular",
     activity: "Alta",
-    channels: ["boca-juniors", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "boca-juniors"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "river-plate", "america-mexico", "argentina", "espana"],
     intro:
@@ -273,7 +273,7 @@ const RAW: Place[] = [
     users: 301,
     votes: 471,
     activity: "Alta",
-    channels: ["river-plate", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "river-plate"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "america-mexico", "argentina", "espana"],
     intro:
@@ -289,7 +289,7 @@ const RAW: Place[] = [
     users: 287,
     votes: 444,
     activity: "Alta",
-    channels: ["america-mexico", "futbol", "ocio", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "america-mexico"],
     parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate", "mexico", "espana"],
     intro:
@@ -302,7 +302,7 @@ const RAW: Place[] = [
   {
     slug: "athletic-club", name: "Athletic Club", kind: "tematica", icon: "🦁",
     users: 304, votes: 512, tag: "Popular", activity: "Alta",
-    channels: ["athletic-club", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "athletic-club"], parentSlug: "futbol",
     related: ["futbol", "deportes", "real-sociedad", "osasuna", "deportivo-alaves"],
     intro: "Filosofía de cantera vasca, San Mamés rugiendo y el derbi ante la Real: la sala de los Leones. Orgullo rojiblanco que no se compra con dinero.",
     about: "La Catedral de San Mamés es el corazón de esta sala, donde se defiende a muerte la filosofía única del club: solo juegan canteranos vascos. Se recuerda la Copa de 2024 conquistada con Williams y Muniain, los ocho títulos de Liga del pasado y mitos como Zarra o Iribar. El derbi vasco contra la Real Sociedad levanta pasiones, igual que la marea rojiblanca que sigue a los Leones por toda Europa. Aquí se discute cantera, gabarra y ese sentimiento que no entiende de fichajes millonarios.",
@@ -310,7 +310,7 @@ const RAW: Place[] = [
   {
     slug: "real-sociedad", name: "Real Sociedad", kind: "tematica", icon: "🔵",
     users: 268, votes: 471, tag: "Tendencia", activity: "Alta",
-    channels: ["real-sociedad", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "real-sociedad"], parentSlug: "futbol",
     related: ["futbol", "deportes", "athletic-club", "osasuna", "celta-vigo"],
     intro: "Sala txuri-urdin de la Real Sociedad: Reale Arena, fútbol de Zubieta y el derbi vasco contra el Athletic. Donostia entera en blanquiazul.",
     about: "El espíritu txuri-urdin manda en este chat donde la cantera de Zubieta es la joya de la corona. Se reviven las Ligas de los años ochenta con Arconada bajo palos, la Copa de 2020 levantada en La Cartuja y el talento reciente de Oyarzabal y los hermanos del filial. La Reale Arena, antiguo Anoeta, vibra cada jornada y el derbi contra el Athletic divide a Euskadi. Donostiarras y simpatizantes debaten aquí estilo, formación propia y noches europeas con sabor a Champions.",
@@ -318,7 +318,7 @@ const RAW: Place[] = [
   {
     slug: "real-betis", name: "Real Betis", kind: "tematica", icon: "💚",
     users: 292, votes: 498, tag: "Popular", activity: "Alta",
-    channels: ["real-betis", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "real-betis"], parentSlug: "futbol",
     related: ["futbol", "deportes", "sevilla-fc", "valencia-cf", "real-sociedad"],
     intro: "Chat bético del Benito Villamarín: ¡Viva er Betis manque pierda! Derbi sevillano, Copa de 2022 y la magia verdiblanca de Sevilla.",
     about: "Aquí late el corazón verdiblanco bajo el lema eterno: ¡Viva er Betis manque pierda! El Benito Villamarín se convierte en una caldera cada noche y se recuerda la Copa del Rey de 2022 ganada en Sevilla, los goles de Joaquín y la era Pellegrini con Isco y Fekir tirando del equipo. El derbi sevillano contra el eterno rival enciende toda la ciudad. La afición más fiel y sufridora del sur comparte aquí pasión, cánticos de la Curva y ese amor incondicional que define al beticismo.",
@@ -326,7 +326,7 @@ const RAW: Place[] = [
   {
     slug: "villarreal-cf", name: "Villarreal CF", kind: "tematica", icon: "🟡",
     users: 234, votes: 421, activity: "Media",
-    channels: ["villarreal-cf", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "villarreal-cf"], parentSlug: "futbol",
     related: ["futbol", "deportes", "valencia-cf", "real-betis", "celta-vigo"],
     intro: "Sala del Submarino Amarillo: el Villarreal de la Cerámica, la Europa League de 2021 y un pueblo entero que conquistó Europa desde Castellón.",
     about: "El Submarino Amarillo emerge en este chat donde se celebra la mayor gesta del club: la Europa League de 2021 ganada en penaltis al Manchester United. El Estadio de la Cerámica es la fortaleza de un pueblo de Castellón que mira de tú a tú a los grandes. Se recuerdan las semifinales de Champions, el talento de Riquelme en su día y el proyecto de Fernando Roig. Aquí groguets de toda España debaten cantera, noches europeas y ese fútbol valiente que ha hecho historia.",
@@ -334,7 +334,7 @@ const RAW: Place[] = [
   {
     slug: "valencia-cf", name: "Valencia CF", kind: "tematica", icon: "🦇",
     users: 281, votes: 484, tag: "Popular", activity: "Alta",
-    channels: ["valencia-cf", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "valencia-cf"], parentSlug: "futbol",
     related: ["futbol", "deportes", "villarreal-cf", "levante-ud", "sevilla-fc"],
     intro: "Mestalla, els ches y el orgullo de un grande. En esta sala se recuerdan las Ligas de Cúper y Benítez, el murciélago y toda la pasión amunt valencianista.",
     about: "Mestalla, uno de los estadios más intensos de Europa, es el alma de esta sala. Els ches recuerdan las Ligas de 2002 y 2004 con Rafa Benítez, las finales de Champions con Cúper y leyendas como Mendieta, Albelda o David Villa. El murciélago del escudo es seña de identidad y la afición exige volver a lo más alto pese a las turbulencias de la propiedad. Aquí valencianistas debaten cantera, el grito de amunt Valencia y el sueño de devolver al club al lugar que merece en la élite.",
@@ -342,7 +342,7 @@ const RAW: Place[] = [
   {
     slug: "sevilla-fc", name: "Sevilla FC", kind: "tematica", icon: "🔴",
     users: 287, votes: 489, tag: "Popular", activity: "Alta",
-    channels: ["sevilla-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "sevilla-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "real-betis", "valencia-cf", "getafe-cf"],
     intro: "Sala del Sevilla FC, rey de la Europa League: siete títulos, el Sánchez-Pizjuán como caldera y el derbi ante el Betis. Nervión sin descanso.",
     about: "Ningún club domina la Europa League como el Sevilla, y aquí se presume de sus siete entorchados continentales, récord absoluto. El Ramón Sánchez-Pizjuán es una de las calderas más temidas del continente y se recuerdan las noches mágicas de Monchi, los goles de Kanouté y Reyes y aquellas finales inolvidables. El derbi sevillano contra el Betis paraliza la ciudad entera. Sevillistas de Nervión y del mundo comparten en esta sala pasión, historia europea y orgullo de un grande de España.",
@@ -350,7 +350,7 @@ const RAW: Place[] = [
   {
     slug: "girona-fc", name: "Girona FC", kind: "tematica", icon: "🔴",
     users: 212, votes: 388, tag: "Tendencia", activity: "Media",
-    channels: ["girona-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "girona-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "rcd-espanyol", "celta-vigo", "rcd-mallorca"],
     intro: "Rozó la Champions y plantó cara a los grandes: la sorpresa de Montilivi tiene aquí a su afición, con el fútbol valiente que caracteriza al Girona FC.",
     about: "Montilivi se ha convertido en un fortín desde que el Girona dio la campanada peleando por la Liga y clasificándose para la Champions, la gesta más grande de su historia. Esta sala celebra el fútbol atrevido de Míchel, la conexión con el City Group y el talento de jugadores como Dovbyk o Tsygankov en su mejor momento. La afición gironina disfruta de un sueño que parecía imposible para un club modesto de Cataluña. Aquí se debate proyecto, permanencia y la ambición de seguir creciendo en la élite.",
@@ -358,7 +358,7 @@ const RAW: Place[] = [
   {
     slug: "rayo-vallecano", name: "Rayo Vallecano", kind: "tematica", icon: "⚡",
     users: 226, votes: 402, activity: "Media",
-    channels: ["rayo-vallecano", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "rayo-vallecano"], parentSlug: "futbol",
     related: ["futbol", "deportes", "getafe-cf", "levante-ud", "osasuna"],
     intro: "Sala del Rayo Vallecano: el equipo de Vallecas, barrio obrero y afición de bandera. Fútbol con alma, la franja roja y el Bukaneros al fondo.",
     about: "El Rayo es mucho más que fútbol: es el orgullo de Vallecas, un barrio obrero de Madrid que se vuelca con su equipo. En esta sala se reivindica la identidad del club, la franja roja sobre la camiseta blanca y el ambiente único del campo de Vallecas, uno de los más calientes de España. La afición, comprometida y reivindicativa con el fondo Bukaneros, hace de cada partido una fiesta popular. Aquí rayistas debaten permanencia, valores de barrio y ese fútbol humilde pero peleón que enamora.",
@@ -366,7 +366,7 @@ const RAW: Place[] = [
   {
     slug: "osasuna", name: "CA Osasuna", kind: "tematica", icon: "🔴",
     users: 219, votes: 396, activity: "Media",
-    channels: ["osasuna", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "osasuna"], parentSlug: "futbol",
     related: ["futbol", "deportes", "athletic-club", "real-sociedad", "deportivo-alaves"],
     intro: "Rojillos de Pamplona, El Sadar rugiendo, garra navarra y la final de Copa de 2005: bienvenido a la sala de Osasuna. Fuerza y corazón desde Navarra.",
     about: "El Sadar es el orgullo de los rojillos, un estadio renovado que ruge como pocos cuando Osasuna pisa el césped. En esta sala se ensalza la garra navarra, ese fútbol de raza y esfuerzo que define al club desde siempre. Se recuerda la final de Copa de 2005, las gestas europeas de antaño y leyendas que dieron todo por la camiseta. La afición de Pamplona es de las más fieles de España, llenando las gradas pase lo que pase. Aquí se debate permanencia, cantera de Tajonar y sentimiento navarro a flor de piel.",
@@ -374,7 +374,7 @@ const RAW: Place[] = [
   {
     slug: "celta-vigo", name: "RC Celta", kind: "tematica", icon: "🔵",
     users: 231, votes: 408, activity: "Media",
-    channels: ["celta-vigo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "celta-vigo"], parentSlug: "futbol",
     related: ["futbol", "deportes", "real-sociedad", "villarreal-cf", "rcd-mallorca"],
     intro: "Sala del RC Celta de Vigo: Balaídos, los célticos y el fútbol gallego con sello propio. EuroCelta, Aspas eterno y orgullo de Galicia.",
     about: "Balaídos es el templo de los célticos, una afición gallega entregada que sueña a lo grande junto a la ría de Vigo. Esta sala celebra el talento eterno de Iago Aspas, ídolo y bandera del club, además de recordar las aventuras europeas del EuroCelta y aquel equipo brillante de Mostovoi y Karpin. El fútbol vistoso es marca de la casa y la cantera de A Madroa nutre al primer equipo. Aquí celtistas debaten estilo, derbis gallegos y ese sentimiento celeste que une a Vigo con su equipo de toda la vida.",
@@ -382,7 +382,7 @@ const RAW: Place[] = [
   {
     slug: "rcd-mallorca", name: "RCD Mallorca", kind: "tematica", icon: "🔴",
     users: 205, votes: 374, activity: "Media",
-    channels: ["rcd-mallorca", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "rcd-mallorca"], parentSlug: "futbol",
     related: ["futbol", "deportes", "celta-vigo", "girona-fc", "valencia-cf"],
     intro: "Son Moix, el bermellón de las islas y aquella final de Copa de 2024 que se recuerda con orgullo: el Mallorca reúne aquí a su gente, garra y corazón balear.",
     about: "Son Moix es la casa de los bermellones, el equipo que representa a las Islas Baleares en la élite del fútbol español. En esta sala se recuerda la Copa del Rey de 2003, la reciente final perdida en los penaltis de 2024 y figuras históricas como Eto'o o Etxeberria que brillaron de rojo. La afición isleña, con la propiedad estadounidense detrás, sueña con consolidar al club en Primera. Aquí mallorquinistas debaten permanencia, ambiente en la grada y ese orgullo balear que se vive intensamente cada jornada.",
@@ -390,7 +390,7 @@ const RAW: Place[] = [
   {
     slug: "getafe-cf", name: "Getafe CF", kind: "tematica", icon: "🔵",
     users: 196, votes: 358, activity: "Media",
-    channels: ["getafe-cf", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "getafe-cf"], parentSlug: "futbol",
     related: ["futbol", "deportes", "rayo-vallecano", "elche-cf", "sevilla-fc"],
     intro: "Sala del Getafe CF: el Coliseum, el equipo azulón del sur de Madrid y el fútbol intenso de Bordalás. Garra y orden por bandera.",
     about: "El Coliseum es el feudo del Getafe, el club azulón del sur de Madrid que se ha hecho un hueco en la élite a base de esfuerzo y carácter. Esta sala reivindica el fútbol intenso y aguerrido marca Bordalás, las clasificaciones europeas que sorprendieron a todos y la capacidad de incomodar a cualquier grande. La afición getafense disfruta de un proyecto humilde pero competitivo. Aquí se debate permanencia, partidos trabados y ese estilo de equipo incómodo que hace de cada visita al Coliseum un dolor de cabeza para los rivales.",
@@ -398,7 +398,7 @@ const RAW: Place[] = [
   {
     slug: "rcd-espanyol", name: "RCD Espanyol", kind: "tematica", icon: "🔵",
     users: 217, votes: 391, activity: "Media",
-    channels: ["rcd-espanyol", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "rcd-espanyol"], parentSlug: "futbol",
     related: ["futbol", "deportes", "girona-fc", "valencia-cf", "rcd-mallorca"],
     intro: "Dos Copas del Rey, finales de UEFA y los pericos siempre fieles al RCDE Stadium: se habla del Espanyol con el orgullo blanquiazul de Barcelona y Cornellà.",
     about: "El RCDE Stadium de Cornellà es la casa de los pericos, una afición orgullosa de su identidad blanquiazul dentro de Barcelona. En esta sala se recuerdan las cuatro Copas del Rey del club, las dos finales de UEFA disputadas y leyendas como Tamudo, máximo goleador histórico. El periquismo reivindica su carácter propio y su rivalidad de ciudad con el vecino. La afición vive con intensidad cada temporada entre Primera y el sueño de Europa. Aquí se debate cantera, permanencia y ese sentimiento perico que no se rinde jamás.",
@@ -406,7 +406,7 @@ const RAW: Place[] = [
   {
     slug: "deportivo-alaves", name: "Deportivo Alavés", kind: "tematica", icon: "🔵",
     users: 188, votes: 342, activity: "Media",
-    channels: ["deportivo-alaves", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "deportivo-alaves"], parentSlug: "futbol",
     related: ["futbol", "deportes", "osasuna", "athletic-club", "real-sociedad"],
     intro: "Sala del Deportivo Alavés: Mendizorroza, los babazorros de Vitoria y aquella final de UEFA de 2001. Fútbol vasco con orgullo albiazul.",
     about: "Mendizorroza es el hogar de los babazorros, la afición albiazul de Vitoria que aún recuerda con emoción la final de la UEFA de 2001 perdida ante el Liverpool en un partido épico de nueve goles. Esta sala reivindica el sentimiento alavesista, la garra de un club humilde de Álava que pelea cada año por su sitio en la élite. La grada de Mendizorroza empuja en cada partido y la cantera aporta savia nueva. Aquí se debate permanencia, derbis vascos y ese orgullo de Vitoria que se vive a flor de piel cada jornada.",
@@ -414,7 +414,7 @@ const RAW: Place[] = [
   {
     slug: "levante-ud", name: "Levante UD", kind: "tematica", icon: "🔵",
     users: 191, votes: 351, tag: "Nueva", activity: "Media",
-    channels: ["levante-ud", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "levante-ud"], parentSlug: "futbol",
     related: ["futbol", "deportes", "valencia-cf", "elche-cf", "getafe-cf"],
     intro: "Las granotas no fallan a su cita en esta sala: el Ciutat de València, el orgullo granota y el derbi valenciano, con la identidad propia del Levante UD.",
     about: "El Ciutat de València es la casa de las granotas, el club centenario que comparte ciudad con el Valencia y reivindica con fuerza su identidad propia. Esta sala recuerda aquella histórica racha de inicio liguero que asombró a España, la permanencia más larga del club en Primera y figuras queridas por la afición. El derbi valenciano divide a la ciudad y enciende a la grada granota. Aquí levantinistas debaten ascensos, permanencia y ese sentimiento azulgrana levantino que se hereda de generación en generación con orgullo.",
@@ -422,7 +422,7 @@ const RAW: Place[] = [
   {
     slug: "elche-cf", name: "Elche CF", kind: "tematica", icon: "🟢",
     users: 184, votes: 338, tag: "Nueva", activity: "Media",
-    channels: ["elche-cf", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "elche-cf"], parentSlug: "futbol",
     related: ["futbol", "deportes", "levante-ud", "getafe-cf", "real-oviedo"],
     intro: "Sala del Elche CF: los franjiverdes del Martínez Valero, la ciudad de las palmeras y el fútbol ilicitano. Orgullo verde del Baix Vinalopó.",
     about: "El Martínez Valero es el estadio de los franjiverdes, símbolo de la ciudad de las palmeras y del fútbol ilicitano. En esta sala se reivindica la franja verde sobre el blanco, seña de identidad del club, y se recuerdan las temporadas de Elche en la élite junto a las luchas por el ascenso. La afición de Elche es fiel y paciente, acompañando al equipo en las buenas y en las malas por todo el Baix Vinalopó. Aquí se debate permanencia, cantera y ese sentimiento verde que une a una ciudad entera con su Elche de toda la vida.",
@@ -430,7 +430,7 @@ const RAW: Place[] = [
   {
     slug: "real-oviedo", name: "Real Oviedo", kind: "tematica", icon: "🔵",
     users: 207, votes: 379, tag: "Nueva", activity: "Media",
-    channels: ["real-oviedo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "real-oviedo"], parentSlug: "futbol",
     related: ["futbol", "deportes", "celta-vigo", "elche-cf", "deportivo-alaves"],
     intro: "Después de años de espera, los carbayones volvieron a Primera y aquí se celebra: el Carlos Tartiere ruge y toda Asturias vive el ascenso del Real Oviedo.",
     about: "El Carlos Tartiere vuelve a vibrar en Primera y esta sala celebra el ansiado regreso de los carbayones a la élite tras años de travesía por el desierto. El Real Oviedo es pasión en estado puro para Asturias, un club que sobrevivió gracias a sus aficionados y a campañas de acciones que dieron la vuelta al mundo. Se recuerdan las grandes noches del pasado y se sueña con consolidarse entre los mejores. Aquí oviedistas de toda Asturias debaten permanencia, ambiente azul en el Tartiere y el orgullo de haber resucitado a un grande.",
@@ -440,7 +440,7 @@ const RAW: Place[] = [
   {
     slug: "manchester-city", name: "Manchester City", kind: "tematica", icon: "🩵",
     users: 318, votes: 538, tag: "Popular", activity: "Alta",
-    channels: ["manchester-city", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "manchester-city"], parentSlug: "futbol",
     related: ["futbol", "deportes", "manchester-united", "liverpool-fc", "arsenal-fc"],
     intro: "Sala del Manchester City: el Etihad, la era Guardiola, el Treble de 2023 y el derbi ante el United. Citizens celestes a tope, sin frenos.",
     about: "Aquí se vive el fútbol de Pep Guardiola, ese de toque infinito y presión asfixiante que ha dominado la Premier. Se repasa el Treble de 2023 con la Champions por fin levantada, los goles de Haaland, la zurda de De Bruyne y la elegancia de Foden y Rodri. El Etihad de fondo, el origen celeste del barrio obrero y el derbi de Manchester contra el United encienden cada charla. También se debate el dinero, las acusaciones financieras y si este City es ya el mejor equipo de la historia inglesa.",
@@ -448,7 +448,7 @@ const RAW: Place[] = [
   {
     slug: "manchester-united", name: "Manchester United", kind: "tematica", icon: "🔴",
     users: 332, votes: 552, tag: "Popular", activity: "Alta",
-    channels: ["manchester-united", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "manchester-united"], parentSlug: "futbol",
     related: ["futbol", "deportes", "manchester-city", "liverpool-fc", "chelsea-fc"],
     intro: "Old Trafford, los Red Devils y la leyenda de Sir Alex: se debate aquí el ansia de volver a lo más alto de un Manchester United con pasión roja eterna.",
     about: "El Teatro de los Sueños sigue tirando del corazón de millones de fans. Aquí se recuerda la era dorada de Sir Alex Ferguson, el United del Treble de 1999, Cantona, Beckham, Giggs, Scholes y aquel Cristiano joven. Se sufre con el presente, los fichajes que no cuajan y los técnicos que pasan sin dejar huella. El derbi de Manchester ante el City y el clásico contra el Liverpool levantan ampollas. Old Trafford, los Busby Babes y el aguante de la grada mantienen viva la fe de los Red Devils.",
@@ -456,7 +456,7 @@ const RAW: Place[] = [
   {
     slug: "liverpool-fc", name: "Liverpool FC", kind: "tematica", icon: "❤️",
     users: 326, votes: 544, tag: "Tendencia", activity: "Alta",
-    channels: ["liverpool-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "liverpool-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "manchester-united", "manchester-city", "chelsea-fc"],
     intro: "Sala del Liverpool FC: Anfield, el You'll Never Walk Alone, The Kop y la remontada de Estambul. Pasión red del Mersey sin descanso.",
     about: "Anfield es una catedral y aquí se reza en rojo. Se canta el You'll Never Walk Alone desde The Kop, se revive la milagrosa remontada de Estambul 2005 y la sexta Champions de Madrid 2019, y se recuerda a Dalglish, Gerrard, Salah y aquel gegenpressing de Klopp. La Premier por fin conquistada tras treinta años de espera todavía emociona. El derbi de Merseyside contra el Everton y la guerra eterna con el United de Manchester marcan el calendario de cualquier red que se precie.",
@@ -464,7 +464,7 @@ const RAW: Place[] = [
   {
     slug: "arsenal-fc", name: "Arsenal FC", kind: "tematica", icon: "🔴",
     users: 288, votes: 472, tag: "Nueva", activity: "Media",
-    channels: ["arsenal-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "arsenal-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "chelsea-fc", "manchester-city", "liverpool-fc"],
     intro: "Los Gunners del Emirates tienen su rincón: los Invencibles de 2004, el proyecto de Arteta y el orgullo del norte de Londres, sin filtros.",
     about: "Los Gunners llevan el fútbol bonito en la sangre desde los tiempos de Wenger. Aquí se recuerda a los Invencibles de 2004, aquel equipo que ganó la Premier sin perder un partido, con Henry, Bergkamp y Pirès deslumbrando en Highbury. Se debate el presente con Arteta, Saka y Ødegaard peleando el título y rozándolo año tras año. El Emirates, el norte de Londres y el derbi ardiente contra el Tottenham mandan en las charlas. Volver a levantar la Premier es la obsesión que une a cada gooner.",
@@ -472,7 +472,7 @@ const RAW: Place[] = [
   {
     slug: "chelsea-fc", name: "Chelsea FC", kind: "tematica", icon: "🔵",
     users: 274, votes: 448, activity: "Media",
-    channels: ["chelsea-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "chelsea-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "arsenal-fc", "manchester-united", "liverpool-fc"],
     intro: "Sala del Chelsea FC: Stamford Bridge, los Blues, las dos Champions y la era millonaria de Londres. Sentimiento azul del oeste, sin tregua.",
     about: "Stamford Bridge late en azul y aquí no se calla nadie. Se celebran las dos Champions, la de Múnich 2012 a lo loco y la de Oporto 2021, además del Mundial de Clubes y los títulos de la era Abramóvich. Lampard, Drogba, Terry y Čech son leyenda y tema recurrente. Se discute el mercado millonario de la nueva propiedad, los fichajes jóvenes a contratos eternos y los vaivenes de banquillo. Los derbis londinenses contra Arsenal y Tottenham y la pelea por volver a Europa mantienen calientes a los Blues.",
@@ -482,7 +482,7 @@ const RAW: Place[] = [
   {
     slug: "juventus", name: "Juventus", kind: "tematica", icon: "⚪",
     users: 318, votes: 524, tag: "Popular", activity: "Alta",
-    channels: ["juventus", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "juventus"], parentSlug: "futbol",
     related: ["futbol", "deportes", "inter-milan", "ac-milan", "napoli"],
     intro: "Sala de la Juventus: el Allianz Stadium, la Vecchia Signora, los 36 scudetti y el orgullo bianconero. Fino alla fine, sin tregua en Turín.",
     about: "Aquí manda el estilo bianconero, ese de ganar feo si hace falta y no soltar nunca el liderato. Se repasan los 36 scudetti, los años de los nueve títulos seguidos, leyendas como Del Piero, Buffon y Nedved, y la espina clavada de las finales de Champions perdidas. El Allianz Stadium lleno un sábado, la garra de la Vecchia Signora y los pinchazos del mercado dan para horas de debate. La rivalidad con el Inter en el Derby d'Italia y el pique con todo el sur enciende la sala. Fino alla fine, sin medias tintas.",
@@ -490,7 +490,7 @@ const RAW: Place[] = [
   {
     slug: "inter-milan", name: "Inter de Milán", kind: "tematica", icon: "🔵",
     users: 304, votes: 498, tag: "Popular", activity: "Alta",
-    channels: ["inter-milan", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "inter-milan"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "ac-milan", "napoli"],
     intro: "San Siro nerazzurro, el Triplete de 2010 y el Derby della Madonnina: la pasión interista tiene su sala, Pazza Inter sin filtros.",
     about: "Pasión nerazzurra desde Milán, esa de sufrir hasta el final y celebrar como nadie. La sala revive el Triplete de 2010 con Mourinho, la Champions, el Calcio y la Coppa en una misma temporada, gloria eterna para el interista. Se recuerda a Zanetti, el Fenómeno Ronaldo y Milito metiéndolas en Madrid. San Siro vestido de azul y negro, el Derby della Madonnina contra el Milan y el Derby d'Italia frente a la Juve marcan el pulso. Pazza Inter amala, el lema que resume aguantar y querer a este club pase lo que pase.",
@@ -498,7 +498,7 @@ const RAW: Place[] = [
   {
     slug: "ac-milan", name: "AC Milan", kind: "tematica", icon: "🔴",
     users: 296, votes: 472, activity: "Alta",
-    channels: ["ac-milan", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "ac-milan"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "inter-milan", "napoli"],
     intro: "Sala del AC Milan: San Siro rossonero, las 7 Champions, el Derby della Madonnina y la mística del Diavolo. Orgullo milanista sin escala.",
     about: "Sentimiento rossonero del bueno, ese que presume de Europa por encima de todo. Se rememoran las 7 Champions del Diavolo, el Milan de Sacchi y Capello, los holandeses Gullit, Van Basten y Rijkaard, y la magia de Maldini, Kaká y Pirlo. La remontada y la caída de Estambul ante el Liverpool siguen escociendo en cada debate. San Siro vestido de rojo y negro, el Derby della Madonnina contra el Inter y la pelea por volver a lo más alto llenan la sala. Ser del Milan es bancar historia y elegancia, sin negociar la camiseta.",
@@ -506,7 +506,7 @@ const RAW: Place[] = [
   {
     slug: "napoli", name: "SSC Napoli", kind: "tematica", icon: "💙",
     users: 289, votes: 451, activity: "Alta",
-    channels: ["napoli", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "napoli"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "inter-milan", "as-roma"],
     intro: "Desde el estadio Diego Armando Maradona hasta el scudetto de 2023: aquí se vive la pasión partenopea y el Forza Napoli sin tregua.",
     about: "La pasión del sur no se explica, se siente. La sala reúne a los azzurri para celebrar el scudetto de 2023, el tercero de la historia y la liberación de toda una ciudad. Se idolatra a Diego Armando Maradona, dios eterno que da nombre al estadio, y se recuerda el equipo de Spalletti con Kvaratskhelia y Osimhen volando. El San Paolo convertido en el Maradona, el Vesubio de fondo y la rivalidad con los del norte calientan cada jornada. Forza Napoli sempre, porque aquí la camiseta azul es religión, herencia de Diego y orgullo napolitano que nadie compra.",
@@ -514,7 +514,7 @@ const RAW: Place[] = [
   {
     slug: "as-roma", name: "AS Roma", kind: "tematica", icon: "🐺",
     users: 268, votes: 428, activity: "Alta",
-    channels: ["as-roma", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "as-roma"], parentSlug: "futbol",
     related: ["futbol", "deportes", "juventus", "inter-milan", "napoli"],
     intro: "Sala de la AS Roma: el Olímpico giallorosso, la leyenda de Totti, el Derby della Capitale y la mística de la loba. Daje Roma sin filtros.",
     about: "Orgullo giallorosso desde la capital, ese que se hereda de padres a hijos sin remedio. La sala vive por Francesco Totti, el rey de Roma que jamás cambió de camiseta, y recuerda a De Rossi, Batistuta y el scudetto de 2001 que volvió loca a la ciudad. El Stadio Olímpico cantando, la loba como símbolo y el sueño europeo de la Conference League dan para horas de debate. El Derby della Capitale contra la Lazio paraliza Roma y enciende la sala como nada. Daje Roma, porque aquí el amor por la loba no se negocia con nadie jamás.",
@@ -524,7 +524,7 @@ const RAW: Place[] = [
   {
     slug: "bayern-munich", name: "Bayern de Múnich", kind: "tematica", icon: "🔴",
     users: 312, votes: 524, tag: "Popular", activity: "Alta",
-    channels: ["bayern-munich", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "bayern-munich"], parentSlug: "futbol",
     related: ["futbol", "deportes", "borussia-dortmund", "rb-leipzig"],
     intro: "Sala del Bayern de Múnich: la Bundesliga año tras año, el Allianz Arena, Der Klassiker contra el Dortmund y las noches grandes de Champions.",
     about: "Aquí mandan los gigantes de Baviera y su costumbre de ganar la Bundesliga casi de oficio. Se recuerdan las seis Champions, el sextete de 2020, ídolos como Müller, Lahm, Robben, Ribéry y el inolvidable Beckenbauer, y las tardes de fiesta en el Allianz Arena con el muro rojo cantando. Der Klassiker contra el Borussia Dortmund enciende los debates, igual que los fichajes millonarios y el eterno pulso por la corona alemana. Mentalidad ganadora del Mia san mia que no se discute jamás con nadie.",
@@ -532,7 +532,7 @@ const RAW: Place[] = [
   {
     slug: "borussia-dortmund", name: "Borussia Dortmund", kind: "tematica", icon: "🟡",
     users: 268, votes: 461, tag: "Popular", activity: "Alta",
-    channels: ["borussia-dortmund", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "borussia-dortmund"], parentSlug: "futbol",
     related: ["futbol", "deportes", "bayern-munich", "bayer-leverkusen"],
     intro: "El Muro Amarillo del Signal Iduna Park no calla: se habla del Klassiker ante el Bayern y de la cantera que enamora a media Europa.",
     about: "Pasión negra y amarilla de Westfalia, con el famoso Muro Amarillo del Signal Iduna Park rugiendo en cada partido como pocas gradas en el mundo. Se rememora la Bundesliga de 2011 y 2012 con Klopp, la Champions de 1997 y la final de Wembley 2013 perdida ante el Bayern, además de cracks como Lewandowski, Reus, Haaland y Bellingham. Der Klassiker contra los bávaros es la cita marcada en rojo, y el debate sobre vender estrellas o pelear títulos no descansa nunca.",
@@ -540,7 +540,7 @@ const RAW: Place[] = [
   {
     slug: "bayer-leverkusen", name: "Bayer Leverkusen", kind: "tematica", icon: "🔴",
     users: 224, votes: 398, activity: "Media",
-    channels: ["bayer-leverkusen", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "bayer-leverkusen"], parentSlug: "futbol",
     related: ["futbol", "deportes", "borussia-dortmund", "rb-leipzig"],
     intro: "Sala del Bayer Leverkusen: el histórico invicto de 2024, la BayArena, el fútbol de Xabi Alonso y el orgullo de dejar atrás el apodo Neverkusen.",
     about: "El club de la aspirina por fin tocó el cielo: la temporada 2024 invicta en la Bundesliga, con Xabi Alonso firmando un equipo brillante que enterró el apodo Neverkusen. En la BayArena se celebra el primer título liguero de su historia y la Copa de Alemania del doblete. Se recuerda también la dolorosa final de Champions de 2002 y a leyendas como Ballack, mientras Wirtz y Grimaldo alimentan el presente. ¿Hazaña irrepetible o el inicio de algo más grande?",
@@ -548,7 +548,7 @@ const RAW: Place[] = [
   {
     slug: "rb-leipzig", name: "RB Leipzig", kind: "tematica", icon: "🐂",
     users: 196, votes: 351, activity: "Media",
-    channels: ["rb-leipzig", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "rb-leipzig"], parentSlug: "futbol",
     related: ["futbol", "deportes", "bayern-munich", "eintracht-frankfurt"],
     intro: "Un toro rojo irrumpió en la Bundesliga y aquí se le sigue el rastro: la Red Bull Arena, el fútbol vertical y una cantera de futuras estrellas.",
     about: "El proyecto más joven y polémico de Alemania: del ascenso meteórico desde categorías inferiores a pelear de tú a tú en Champions y Bundesliga en pocos años. En la Red Bull Arena se disfruta de un fútbol veloz y vertical, con el toro rojo en el escudo y un modelo que divide a los puristas. Se recuerdan las Copas de Alemania y el desfile de talento que pasó por aquí: Werner, Nkunku, Olmo o Szoboszlai. El debate sobre dinero y tradición nunca se apaga.",
@@ -556,7 +556,7 @@ const RAW: Place[] = [
   {
     slug: "eintracht-frankfurt", name: "Eintracht Frankfurt", kind: "tematica", icon: "🦅",
     users: 184, votes: 338, activity: "Media",
-    channels: ["eintracht-frankfurt", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "eintracht-frankfurt"], parentSlug: "futbol",
     related: ["futbol", "deportes", "rb-leipzig", "bayer-leverkusen"],
     intro: "Sala del Eintracht Frankfurt: el águila, el ambientazo del Deutsche Bank Park y la inolvidable Europa League de 2022 en Sevilla.",
     about: "El águila de Frankfurt y su afición, de las más calientes de Europa, capaz de tomar una ciudad entera en noches grandes. Se revive la épica Europa League de 2022, conquistada en Sevilla tras remontar al Barça y ganar la final de penaltis al Rangers, que metió al club en la Champions. En el Deutsche Bank Park se canta sin parar, y se recuerdan la Copa de Alemania de 2018 y goleadores como Kostic o Kolo Muani. Aquí cada torneo se juega como si fuera el último.",
@@ -566,7 +566,7 @@ const RAW: Place[] = [
   {
     slug: "psg", name: "PSG", kind: "tematica", icon: "🔵",
     users: 320, votes: 540, tag: "Popular", activity: "Alta",
-    channels: ["psg", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "psg"], parentSlug: "futbol",
     related: ["futbol", "deportes", "olympique-marsella", "as-monaco"],
     intro: "La casa de los aficionados parisinos: del Parc des Princes a la Champions, para comentar cada partido y polémica del PSG. Elige nick y métete al #psg.",
     about: "El punto de encuentro de los seguidores del Paris Saint-Germain, esos que llenaron el Parc des Princes la noche que el club levantó por fin la Champions en 2025 y todavía se emocionan al recordarlo. Aquí se desmenuza cada partido, se discute si el proyecto sin galácticos era el camino correcto y se calienta de lo lindo la previa de Le Classique contra el Marsella. Hay sitio para el veterano que sufrió las eliminatorias europeas de años atrás y para el chaval que descubrió al equipo con la última generación de talento francés. Entra, pon tu nick y opina sin filtros.",
@@ -574,7 +574,7 @@ const RAW: Place[] = [
   {
     slug: "olympique-marsella", name: "Olympique de Marsella", kind: "tematica", icon: "⚪",
     users: 270, votes: 470, tag: "Popular", activity: "Alta",
-    channels: ["olympique-marsella", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "olympique-marsella"], parentSlug: "futbol",
     related: ["futbol", "deportes", "psg", "olympique-lyon"],
     intro: "El alma del fútbol del sur: pasión del Vélodrome, historia europea y el odio eterno al PSG. Coge nick y salta al #olympique-marsella.",
     about: "La sala de los hinchas más ruidosos de Francia, los que convierten el Orange Vélodrome en una caldera y presumen de ser el único club francés que ganó la Champions allá por 1993. Aquí se vive Le Classique contra el PSG como una guerra de cada temporada y se recuerda a ídolos como Drogba, Papin o el carisma de la grada del Virage Sud. Se debate el eterno proyecto de volver a Europa, los líos de directiva y por qué el OM siempre juega con el corazón por delante. Veteranos de los 90 y nuevos olympiens comparten barra y discusión. Pasa, elige nick y reivindica el sur.",
@@ -582,7 +582,7 @@ const RAW: Place[] = [
   {
     slug: "olympique-lyon", name: "Olympique de Lyon", kind: "tematica", icon: "🦁",
     users: 220, votes: 400, activity: "Media",
-    channels: ["olympique-lyon", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "olympique-lyon"], parentSlug: "futbol",
     related: ["futbol", "deportes", "as-monaco", "lille-osc"],
     intro: "Los gones del Groupama Stadium: cantera de oro, los siete títulos seguidos y ganas de volver a Europa. Elige nick y entra al #olympique-lyon.",
     about: "El rincón de los aficionados del OL, los que crecieron viendo encadenar siete Ligues consecutivas a principios de siglo y todavía sueñan con repetir aquella hegemonía. Aquí se presume de cantera —la mejor fábrica de talento de Francia, de Benzema a Lacazette— y se analiza partido a partido si el club logra reengancharse a la pelea por Europa desde el Groupama Stadium. El derbi rhônalpin, los altibajos deportivos y económicos y esa identidad de equipo formador que define al club no faltan en la charla, donde se cruzan el veterano nostálgico de los títulos y el joven que confía en la nueva hornada. Coge tu nick y suma tu voz.",
@@ -590,7 +590,7 @@ const RAW: Place[] = [
   {
     slug: "as-monaco", name: "AS Mónaco", kind: "tematica", icon: "🔴",
     users: 195, votes: 360, activity: "Media",
-    channels: ["as-monaco", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "as-monaco"], parentSlug: "futbol",
     related: ["futbol", "deportes", "psg", "olympique-lyon"],
     intro: "El club del Principado: rojo y blanco en el Louis II, trampolín de cracks y final de Champions. Pon tu nick y entra al #as-monaco.",
     about: "La sala de los seguidores del AS Mónaco, ese club atípico que juega en el Principado, llena de leyenda el Stade Louis II y suele pelear de tú a tú con el PSG por incomodar al gigante parisino. Aquí se recuerda la final de la Champions de 2004 y la generación de Mbappé que conquistó la Ligue 1 en 2017 antes de salir volando a precio de oro. Se debate la política de fichar jóvenes promesas para revenderlas, los altibajos en Europa y la rivalidad con los grandes del país. Hay hinchas locales, franceses de toda la vida y curiosos del proyecto monegasco. Elige nick y métete en la conversación.",
@@ -598,7 +598,7 @@ const RAW: Place[] = [
   {
     slug: "lille-osc", name: "LOSC Lille", kind: "tematica", icon: "🐕",
     users: 175, votes: 330, activity: "Media",
-    channels: ["lille-osc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "lille-osc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "olympique-lyon", "as-monaco"],
     intro: "Los dogues del norte: el Stade Pierre-Mauroy, el título sorpresa de 2021 y orgullo flamenco. Coge nick y entra al #lille-osc.",
     about: "El punto de reunión de los dogues, los aficionados del LOSC que todavía celebran el título de Ligue 1 de 2021, cuando un Lille humilde le ganó el pulso al todopoderoso PSG con un fútbol de trabajo y cabeza. Se recuerda el ambiente del Stade Pierre-Mauroy, el orgullo del norte y esa filosofía de detectar talento barato —de Pépé a Osimhen— para revenderlo y sostener al club. Se debate la rivalidad con el Lens en el derbi del norte, las campañas europeas y el reto eterno de competir con presupuestos modestos, tema que reúne tanto al hincha flamenco de siempre como al que se enamoró del proyecto en 2021. Pon tu nick y únete.",
@@ -608,7 +608,7 @@ const RAW: Place[] = [
   {
     slug: "chivas-guadalajara", name: "Chivas de Guadalajara", kind: "tematica", icon: "🐐",
     users: 296, votes: 489, tag: "Popular", activity: "Alta",
-    channels: ["chivas-guadalajara", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "chivas-guadalajara"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "pumas-unam"],
     intro: "Rebaño Sagrado solo con mexicanos: la sala de las Chivas del Guadalajara. Estadio Akron, Clásico Nacional contra el América y pasión tapatía.",
     about: "El Rebaño Sagrado se siente distinto: la única política de puros jugadores mexicanos es bandera y orgullo para el chivahermano. En la sala se recuerdan los 12 títulos de liga, la mística del Campeonísimo de los cincuenta y el Clásico Nacional contra el América, que parte al país en dos. El Estadio Akron de Zapopan, los refuerzos canteranos y la eterna espera del próximo campeonato dan tema de sobra. Aquí se banca al Guadalajara con corazón, sin extranjeros y sin medias tintas, defendiendo la camiseta rojiblanca como religión.",
@@ -616,7 +616,7 @@ const RAW: Place[] = [
   {
     slug: "cruz-azul", name: "Cruz Azul", kind: "tematica", icon: "🔵",
     users: 241, votes: 408, activity: "Alta",
-    channels: ["cruz-azul", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "cruz-azul"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "pumas-unam"],
     intro: "La Máquina Cementera rompió el cruzazulear en 2021: la sala de Cruz Azul reúne a la afición más sufrida de la Liga MX.",
     about: "La Máquina Cementera tiene la afición más sufrida del fútbol mexicano, y eso une. Durante años el término cruzazulear definió perder lo imposible, hasta que la novena estrella de 2021 quitó el peso de 23 años sin liga y desató el llanto celeste. En la sala se habla de aquella final contra Santos, de la mística de los setenta con Fernández y Marín, y del estadio de casa siempre en debate. La rivalidad con el América añade picante. Ser cementero es resistir, creer contra todo y festejar como nadie cuando por fin se gana.",
@@ -624,7 +624,7 @@ const RAW: Place[] = [
   {
     slug: "pumas-unam", name: "Pumas UNAM", kind: "tematica", icon: "🐾",
     users: 218, votes: 379, activity: "Media",
-    channels: ["pumas-unam", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "pumas-unam"], parentSlug: "futbol",
     related: ["futbol", "deportes", "america-mexico", "cruz-azul"],
     intro: "Cantera felina del Olímpico Universitario: la sala de Pumas UNAM, con el Goya, el Clásico Capitalino ante el América y orgullo auriazul.",
     about: "Goya, goya, cachún cachún ra ra: el grito universitario resume el alma de Pumas. La sala reúne a los auriazules que presumen la mejor cantera del país, de donde salieron Cabañas, Hugo Sánchez y tantos más que llegaron lejos. Se recuerdan los bicampeonatos de 2004 y el fútbol de la UNAM jugado en el Estadio Olímpico Universitario, casa de pasto y leyenda. El Clásico Capitalino contra el América calienta cada torneo. Apoyar a Pumas es defender la formación, la identidad estudiantil y el orgullo de un club distinto a los demás.",
@@ -632,7 +632,7 @@ const RAW: Place[] = [
   {
     slug: "tigres-uanl", name: "Tigres UANL", kind: "tematica", icon: "🐯",
     users: 263, votes: 431, activity: "Alta",
-    channels: ["tigres-uanl", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "tigres-uanl"], parentSlug: "futbol",
     related: ["futbol", "deportes", "club-monterrey", "america-mexico"],
     intro: "El Volcán, la era ganadora con Gignac y el Clásico Regiomontano ante Rayados: la sala de Tigres UANL, fuerza felina del norte sin tregua.",
     about: "Los Tigres rugen desde el norte y la sala lo demuestra. Se festejan los títulos de la última década, el equipo más dominante de la Liga MX en ese tramo, y la figura de André-Pierre Gignac, ídolo francés convertido en regio que rompió récords goleadores. El Estadio Universitario, el Volcán, intimida a cualquiera con su afición incondicional. El Clásico Regiomontano contra Rayados es la guerra de la ciudad, partido que define orgullo y bragas. Ser de Tigres es presumir poderío, banca económica y un palmarés reciente que pocos igualan en México.",
@@ -640,7 +640,7 @@ const RAW: Place[] = [
   {
     slug: "club-monterrey", name: "CF Monterrey", kind: "tematica", icon: "🔵",
     users: 234, votes: 397, activity: "Alta",
-    channels: ["club-monterrey", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "club-monterrey"], parentSlug: "futbol",
     related: ["futbol", "deportes", "tigres-uanl", "america-mexico"],
     intro: "Estadio BBVA, Concachampions en las vitrinas y el Clásico Regiomontano ante Tigres: la sala de Rayados de Monterrey, pandilla albiazul del norte.",
     about: "La Pandilla albiazul vive el fútbol con intensidad regia. En la sala se presumen las Concacaf Champions levantadas, que confirman a Rayados como potencia continental, y el espectacular Estadio BBVA al pie del Cerro de la Silla, uno de los mejores recintos de América. Se recuerdan campeonatos de liga, fichajes de renombre y la rivalidad más caliente del país: el Clásico Regiomontano contra Tigres, que divide familias y barrios. Apoyar al Monterrey es bancar ambición, infraestructura de primer nivel y el sueño de mandar en la ciudad y en el norte de México.",
@@ -650,7 +650,7 @@ const RAW: Place[] = [
   {
     slug: "racing-club", name: "Racing Club", kind: "tematica", icon: "🔵",
     users: 256, votes: 438, tag: "Popular", activity: "Alta",
-    channels: ["racing-club", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "racing-club"], parentSlug: "futbol",
     related: ["futbol", "deportes", "independiente", "boca-juniors"],
     intro: "La Academia de Avellaneda, el Cilindro y aquella estrella de Libertadores: la sala de Racing Club, con el clásico ante Independiente y aguante celeste y blanco.",
     about: "Ser de la Academia es bancar a Racing en las buenas y en las malas, y vaya que hubo de las dos. Se recuerda el título del 2001 que cortó 35 años de sequía, la Intercontinental del 67 ante el Celtic y los ídolos del Cilindro de Avellaneda. El clásico de Avellaneda contra Independiente, ahí nomás cruzando la avenida, levanta temperatura como ninguno. La barra de la Guardia Imperial, el sueño de volver a la Libertadores y los pibes de las inferiores arman charla larga. Racing es paciencia, fe y corazón celeste.",
@@ -658,7 +658,7 @@ const RAW: Place[] = [
   {
     slug: "independiente", name: "CA Independiente", kind: "tematica", icon: "🔴",
     users: 241, votes: 421, activity: "Alta",
-    channels: ["independiente", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "independiente"], parentSlug: "futbol",
     related: ["futbol", "deportes", "racing-club", "boca-juniors"],
     intro: "Rey de Copas con 7 Libertadores en las vitrinas: la sala del Rojo de Avellaneda, Independiente, con su clásico ante Racing y mística sin igual.",
     about: "El Rojo no se mide por la tabla, se mide por las copas, y ahí nadie le gana: siete Libertadores lo hacen el Rey de Copas absoluto. En la sala se rememoran las gestas de los 70, los Diablos Rojos de aquel equipo soñado y la gloria internacional que llevó a llamar Libertadores de América al estadio. El clásico de Avellaneda contra Racing es asunto de barrio y de orgullo. Hinchas debaten los vaivenes dirigenciales, el aguante de la barra y la pelea por reverdecer la mística. Independiente es historia grande del continente.",
@@ -666,7 +666,7 @@ const RAW: Place[] = [
   {
     slug: "san-lorenzo", name: "San Lorenzo", kind: "tematica", icon: "🔵",
     users: 218, votes: 396, activity: "Media",
-    channels: ["san-lorenzo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "san-lorenzo"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
     intro: "El Ciclón de Boedo y su Libertadores 2014: la sala de San Lorenzo, con el sueño del estadio en Avenida La Plata y el hincha más papal del fútbol argentino.",
     about: "El Ciclón se lleva en la sangre desde Boedo, ese barrio que es cuna y bandera del cuervo. Se festeja la Libertadores del 2014, primera y soñada, lograda de la mano de Bauza, y se recuerdan los Carasucias y la gloria de antaño. La cruzada por la Vuelta a Boedo, recuperar el predio de Avenida La Plata, es causa sagrada para el hincha azulgrana. El detalle de tener al Papa Francisco como socio número uno suma orgullo. La barra del Gasómetro, los clásicos y los pibes de Boedo nunca faltan al debate.",
@@ -674,7 +674,7 @@ const RAW: Place[] = [
   {
     slug: "velez-sarsfield", name: "Vélez Sarsfield", kind: "tematica", icon: "⚪",
     users: 192, votes: 358, activity: "Media",
-    channels: ["velez-sarsfield", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "velez-sarsfield"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
     intro: "El Fortín de Liniers y la Libertadores 1994 ante el Milan: la sala de Vélez Sarsfield, con inferiores que asombran y el aguante del barrio.",
     about: "El Fortín de Liniers es de los que hacen ruido con laburo y semillero, no con plata. En la sala se agranda el recuerdo del 94, cuando Vélez ganó la Libertadores y le tapó la boca al Milan en la Intercontinental, con Chilavert volando bajo los tres palos. El José Amalfitani lleno un domingo es postal querida del hincha velezano. Se habla mucho de las inferiores que sacan cracks para vender al exterior, los técnicos formados en casa y la pelea por pelear arriba. Vélez es identidad de barrio, orden y orgullo de Liniers.",
@@ -682,7 +682,7 @@ const RAW: Place[] = [
   {
     slug: "estudiantes-lp", name: "Estudiantes de La Plata", kind: "tematica", icon: "🔴",
     users: 184, votes: 341, activity: "Media",
-    channels: ["estudiantes-lp", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "estudiantes-lp"], parentSlug: "futbol",
     related: ["futbol", "deportes", "boca-juniors", "river-plate"],
     intro: "El Pincha de La Plata, con las Libertadores de Zubeldía y Bilardo: la sala de Estudiantes, garra platense y clásico ante Gimnasia.",
     about: "El Pincha hizo escuela con la garra y la cabeza fría, esa marca registrada de La Plata. Se recuerda el tricampeonato de Libertadores de los 60 con Zubeldía y Bilardo, la cuarta lograda en 2009 con Verón como bandera y la Intercontinental ante el Manchester United. El clásico platense contra Gimnasia divide a la ciudad en dos y enciende la sala como ningún otro tema. El estadio Jorge Luis Hirschi en UNO, el aguante de los Leones y la pelea por volver a lo más alto arman charla. Estudiantes es temple, historia y orgullo platense.",
@@ -692,7 +692,7 @@ const RAW: Place[] = [
   {
     slug: "flamengo", name: "CR Flamengo", kind: "tematica", icon: "🔴",
     users: 328, votes: 548, tag: "Popular", activity: "Alta",
-    channels: ["flamengo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "flamengo"], parentSlug: "futbol",
     related: ["futbol", "deportes", "palmeiras", "sao-paulo"],
     intro: "Sala del Flamengo: el Maracaná lleno, la Nação rubro-negra, la Libertadores y el debate eterno sobre el equipo más popular de Brasil.",
     about: "Mengão de corazón, sin medias tintas. La Nação rubro-negra es la afición más numerosa de Brasil y aquí se nota: cada partido en el Maracaná se vive como una final. Se recuerda la Libertadores de 2019 remontada en Lima, el Mundial de 1981 con Zico de bandera y los títulos del Brasileirão que reafirman la grandeza. Gabigol, Arrascaeta y los fichajes que llegan dan tema de sobra. La rivalidad con Fluminense en el Fla-Flu y el orgullo carioca mandan en cada conversación. Aquí ser del Fla es religión.",
@@ -700,7 +700,7 @@ const RAW: Place[] = [
   {
     slug: "palmeiras", name: "SE Palmeiras", kind: "tematica", icon: "🟢",
     users: 312, votes: 521, tag: "Popular", activity: "Alta",
-    channels: ["palmeiras", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "palmeiras"], parentSlug: "futbol",
     related: ["futbol", "deportes", "flamengo", "corinthians"],
     intro: "Verdão hasta la médula: el Allianz Parque, las Libertadores de Abel Ferreira y la pelea sin tregua por el título del Brasileirão.",
     about: "Verdão de raíz, con la garra que distingue al Porco. El Allianz Parque retumba en cada noche grande y la afición lo empuja sin parar. Se celebran las Libertadores conquistadas bajo Abel Ferreira, que devolvieron al club a la cima de Sudamérica, y los Brasileirão recientes que confirman al Palmeiras como potencia. La cantera de Endrick y compañía es motivo de orgullo y debate sobre las ventas a Europa. La rivalidad con el Corinthians en el Derbi Paulista enciende São Paulo entera. Aquí el verde se defiende a muerte.",
@@ -708,7 +708,7 @@ const RAW: Place[] = [
   {
     slug: "corinthians", name: "SC Corinthians", kind: "tematica", icon: "⚫",
     users: 298, votes: 489, activity: "Alta",
-    channels: ["corinthians", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "corinthians"], parentSlug: "futbol",
     related: ["futbol", "deportes", "palmeiras", "santos-fc"],
     intro: "Sala del Corinthians: la Fiel siempre presente, el Mundial de 2012, la Democracia Corinthiana y el Derbi Paulista contra el Palmeiras.",
     about: "Timão del pueblo, bancado por la Fiel hasta donde haga falta. Esta afición sigue al equipo a cualquier rincón y aquí se respira ese aguante. Se recuerda el Mundial de Clubes de 2012 ganado al Chelsea, la Libertadores de ese mismo año y la histórica Democracia Corinthiana de Sócrates como bandera de identidad. Los títulos del Brasileirão y la Copa do Brasil alimentan el orgullo paulista. El Derbi contra el Palmeiras paraliza la ciudad y define el humor del hincha. Ser del Corinthians es resistir y no soltar jamás la camiseta.",
@@ -716,7 +716,7 @@ const RAW: Place[] = [
   {
     slug: "sao-paulo", name: "São Paulo FC", kind: "tematica", icon: "🔴",
     users: 264, votes: 432, activity: "Alta",
-    channels: ["sao-paulo", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "sao-paulo"], parentSlug: "futbol",
     related: ["futbol", "deportes", "corinthians", "santos-fc"],
     intro: "El Tricolor de los tres Mundiales tiene aquí su hinchada: el Morumbi imponente, los reyes de copa y las ganas de volver a lo más alto.",
     about: "Tricolor paulista con pedigrí de campeón mundial. El Morumbi impone respeto y la afición sueña con noches europeas como las de antaño. Se recuerdan los Mundiales Intercontinentales ganados, las Libertadores de la era Telê Santana con Raí de capitán y la fama de reyes de copa que acompaña al club. La cantera que dio a Kaká y tantos cracks es motivo de orgullo en cada charla. La Copa do Brasil reciente reavivó la ilusión del soberano. La rivalidad con Corinthians, Palmeiras y Santos en los clásicos paulistas calienta la sala. Aquí el Tricolor no se rinde.",
@@ -724,7 +724,7 @@ const RAW: Place[] = [
   {
     slug: "santos-fc", name: "Santos FC", kind: "tematica", icon: "⚪",
     users: 221, votes: 388, activity: "Media",
-    channels: ["santos-fc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "santos-fc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "sao-paulo", "flamengo"],
     intro: "Sala del Santos FC: la Vila Belmiro, el recuerdo eterno de Pelé, la cantera de Neymar y el Peixe que siempre apuesta por el fútbol bonito.",
     about: "Peixe de la Baixada Santista, cuna del fútbol más bonito de Brasil. La Vila Belmiro guarda la memoria de Pelé, el Rey que hizo eterno al club con sus títulos y sus goles imposibles. Aquí se recuerda aquel Santos de los Santásticos, las Libertadores e Intercontinentales conquistados y la era moderna con Neymar saliendo de la cantera rumbo a Europa. La fábrica de talentos sigue siendo seña de identidad y motivo de orgullo. Los clásicos paulistas y la pelea por sostener la categoría dan debate constante. Ser del Santos es heredar la mística del Rey.",
@@ -734,7 +734,7 @@ const RAW: Place[] = [
   {
     slug: "inter-miami", name: "Inter Miami CF", kind: "tematica", icon: "🩷",
     users: 310, votes: 535, tag: "Popular", activity: "Alta",
-    channels: ["inter-miami", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "inter-miami"], parentSlug: "futbol",
     related: ["futbol", "deportes", "la-galaxy", "lafc"],
     intro: "Messi, Suárez y Busquets cambiaron la MLS para siempre: se comenta cada partido en el Chase Stadium y la pelea por el título. Entra sin registro.",
     about: "Desde que Leo Messi aterrizó en Florida, el Inter Miami dejó de ser un equipo más para convertirse en el espectáculo de la MLS, y aquí se vive cada minuto. Se comenta el desempeño del 10, el reencuentro con Suárez, Busquets y Jordi Alba, y esos partidos en el Chase Stadium donde se agotan las entradas en horas. Se discute si la plantilla aguanta el calendario, las lesiones, el papel de Mascherano en el banquillo y las opciones reales de levantar un título, con hinchas latinos de Miami, argentinos que siguen a Leo donde vaya y curiosos que descubrieron la liga por él debatiendo codo con codo. El proyecto rosa se comenta aquí con pasión y sin pelos en la lengua.",
@@ -742,7 +742,7 @@ const RAW: Place[] = [
   {
     slug: "la-galaxy", name: "LA Galaxy", kind: "tematica", icon: "🔵",
     users: 250, votes: 460, tag: "Popular", activity: "Media",
-    channels: ["la-galaxy", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "la-galaxy"], parentSlug: "futbol",
     related: ["futbol", "deportes", "lafc", "inter-miami"],
     intro: "El club más laureado de la MLS no se anda con rodeos: la herencia de Beckham y Donovan, y el derbi eterno contra LAFC. Sin registro.",
     about: "El LA Galaxy es historia viva de la MLS: cinco MLS Cup, la llegada de David Beckham que cambió la liga para siempre y leyendas como Landon Donovan o Robbie Keane que marcaron una época. Aquí se recuerda aquel proyecto galáctico y se debate el presente, con un equipo que busca recuperar el sitio que merece su escudo. El Dignity Health Sports Park, la cantera, los fichajes y cómo plantar cara al rival joven de la ciudad centran la conversación, con aficionados veteranos que vivieron los títulos y nuevas generaciones que se enganchan al derbi angelino compartiendo charla. Reivindicar aquí al club más ganador del fútbol estadounidense y soñar con volver a lo más alto es casi un ritual.",
@@ -750,7 +750,7 @@ const RAW: Place[] = [
   {
     slug: "lafc", name: "Los Angeles FC", kind: "tematica", icon: "⚫",
     users: 230, votes: 430, tag: "Tendencia", activity: "Media",
-    channels: ["lafc", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "lafc"], parentSlug: "futbol",
     related: ["futbol", "deportes", "la-galaxy", "atlanta-united"],
     intro: "El equipo de moda de Los Ángeles llena el BMO Stadium: aquí se vive El Tráfico contra el Galaxy con el mismo ambientazo. Entra y debate.",
     about: "El LAFC llegó tarde a la MLS pero pegando fuerte: en pocos años ya levantó la MLS Cup, conquistó la Supporters' Shield y se metió en la final de la Concacaf. Se comenta el fútbol vistoso del equipo negro y oro, con figuras como Olivier Giroud y Denis Bouanga, y se revive el ambiente eléctrico del BMO Stadium con la grada de la 3252 sin parar de cantar. El plato fuerte es El Tráfico, el derbi contra el Galaxy que paraliza la ciudad, donde coinciden los aficionados que adoptaron al club desde su fundación y los latinos de Los Ángeles que encontraron su equipo. Vivir el proyecto más ambicioso del oeste y picarse con el vecino: de eso va todo esto.",
@@ -758,7 +758,7 @@ const RAW: Place[] = [
   {
     slug: "atlanta-united", name: "Atlanta United", kind: "tematica", icon: "🔴",
     users: 210, votes: 395, activity: "Media",
-    channels: ["atlanta-united", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "atlanta-united"], parentSlug: "futbol",
     related: ["futbol", "deportes", "lafc", "seattle-sounders"],
     intro: "Récords de afición que nadie supera en el Mercedes-Benz: la MLS Cup de 2018 y la fiebre del cinco rayas, todo se comenta aquí. Sin registro.",
     about: "Pocos clubes han revolucionado la MLS como el Atlanta United, que desde su debut llenó el Mercedes-Benz Stadium con cifras de afición que avergüenzan a media liga europea. Aquí se recuerda la MLS Cup de 2018 con Josef Martínez y Miguel Almirón brillando, el fútbol valiente del Tata Martino y esa marea roja y negra que convirtió la ciudad en plaza fuerte del fútbol. Se debate el presente del equipo, los fichajes desde Sudamérica, la cantera y cómo recuperar aquel nivel que enamoró. Aficionados locales orgullosos de su ambiente y latinos que llenan la grada cada partido se dan cita por igual, celebrando el fenómeno cinco rayas y todo lo que mueve en el sur.",
@@ -766,7 +766,7 @@ const RAW: Place[] = [
   {
     slug: "seattle-sounders", name: "Seattle Sounders", kind: "tematica", icon: "💚",
     users: 195, votes: 370, activity: "Media",
-    channels: ["seattle-sounders", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "seattle-sounders"], parentSlug: "futbol",
     related: ["futbol", "deportes", "atlanta-united", "la-galaxy"],
     intro: "Dos MLS Cup y el primer título Concacaf de un equipo de la liga: la fiebre verde del Lumen Field tiene su sala. Entra ya.",
     about: "El Seattle Sounders es sinónimo de afición entregada: el Lumen Field se tiñe de verde rave con miles de hinchas que cantan de principio a fin y convierten cada partido en una fiesta. Aquí se celebra un palmarés de envidia con dos MLS Cup y el histórico título de la Concacaf Champions League en 2022, el primero para un club de la liga. Raúl Ruidíaz, la solidez del proyecto, la rivalidad con Portland en el Cascadia y cómo el club ha sido modelo de gestión y constancia son tema fijo de conversación. ¿Quién anda por aquí? Aficionados del noroeste fieles desde el primer día y seguidores latinos enganchados al equipo esmeralda, todos viviendo la pasión verde y presumiendo de uno de los clubes más ganadores de la MLS.",
@@ -776,7 +776,7 @@ const RAW: Place[] = [
   {
     slug: "al-nassr", name: "Al-Nassr", kind: "tematica", icon: "💛",
     users: 284, votes: 498, tag: "Popular", activity: "Alta",
-    channels: ["al-nassr", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "al-nassr"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-hilal", "al-ittihad"],
     intro: "Sala del Al-Nassr: la era Cristiano Ronaldo en Riad, goles del bicho, duelos contra el Al-Hilal y el sueño de conquistar la Champions de Asia.",
     about: "El club amarillo de Riad vive su momento más mediático desde que Cristiano Ronaldo aterrizó en 2023 para liderar el proyecto. Aquí se celebran sus goles, se debate el acompañamiento de Sadio Mané y Otávio, y se sufre con el pulso eterno frente al Al-Hilal por el trono de la capital. La afición repasa los títulos de Liga saudí, las eliminatorias de la Champions asiática y el banquillo, siempre bajo presión. Ambiente de hinchas exigentes que no se conforman con menos que ganarlo todo cada temporada.",
@@ -784,7 +784,7 @@ const RAW: Place[] = [
   {
     slug: "al-hilal", name: "Al-Hilal", kind: "tematica", icon: "🔵",
     users: 296, votes: 514, tag: "Popular", activity: "Alta",
-    channels: ["al-hilal", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "al-hilal"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-nassr", "al-ittihad"],
     intro: "Neymar, Mitrovic y Rúben Neves visten de azul al gigante de Riad: récords, finales y dominio continental del club más laureado de Asia.",
     about: "Ningún club asiático presume de un palmarés como el del Al-Hilal, máximo ganador de la Champions de Asia y dueño de incontables Ligas saudíes. En esta sala se recuerda la racha histórica de victorias sin perder, se analiza el plantel estelar con Neymar, Aleksandar Mitrovic, Rúben Neves y Malcom, y se debate cada movimiento del mercado millonario. Los azules de Riad cargan con la etiqueta de favoritos y aquí la afición lo asume sin complejos, exigiendo títulos continentales y el dominio absoluto del fútbol saudí.",
@@ -792,7 +792,7 @@ const RAW: Place[] = [
   {
     slug: "al-ittihad", name: "Al-Ittihad", kind: "tematica", icon: "🐯",
     users: 248, votes: 442, activity: "Alta",
-    channels: ["al-ittihad", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "al-ittihad"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-hilal", "al-nassr"],
     intro: "Sala del Al-Ittihad: los Tigres de Yeda con Karim Benzema y Kanté, el club histórico del oeste saudí que pelea cada Liga con orgullo costero.",
     about: "Desde Yeda, a orillas del mar Rojo, el Al-Ittihad presume de ser uno de los clubes más antiguos y queridos de Arabia Saudí. La llegada de Karim Benzema y N'Golo Kanté disparó la ilusión de una afición acostumbrada a pelear títulos. En esta sala se repasan las Ligas conquistadas, la rivalidad con el Al-Hilal y el Al-Nassr, y el rendimiento del Balón de Oro francés liderando el ataque. Los Tigres amarillinegros despiertan pasión en el oeste del país, con un fervor costero que se nota en cada jornada del campeonato.",
@@ -800,7 +800,7 @@ const RAW: Place[] = [
   {
     slug: "al-ahli-saudi", name: "Al-Ahli", kind: "tematica", icon: "💚",
     users: 212, votes: 388, activity: "Media",
-    channels: ["al-ahli-saudi", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "al-ahli-saudi"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-ittihad", "al-ettifaq"],
     intro: "Mahrez, Firmino e Ibañez lideran el regreso a la élite de Yeda: verde y blanco, ambición de copa y duelos por el oeste saudí.",
     about: "Tras su paso por la segunda división, el Al-Ahli volvió por la puerta grande reforzado con figuras como Riyad Mahrez, Roberto Firmino, Édouard Mendy y Gabri Veiga. La afición verdiblanca de Yeda recuperó la sonrisa y en esta sala se debate el ambicioso proyecto, los duelos costeros contra el Al-Ittihad y el asalto a los títulos saudíes. Se analiza el desempeño de Mahrez por la banda y los goles de Firmino. Un club histórico que vuelve a soñar a lo grande con su clásico uniforme blanco y verde.",
@@ -808,7 +808,7 @@ const RAW: Place[] = [
   {
     slug: "al-ettifaq", name: "Al-Ettifaq", kind: "tematica", icon: "🔴",
     users: 178, votes: 332, activity: "Media",
-    channels: ["al-ettifaq", "futbol", "ocio", "chatzona"], parentSlug: "futbol",
+    channels: ["futbol", "ocio", "chatzona", "al-ettifaq"], parentSlug: "futbol",
     related: ["futbol", "deportes", "al-hilal", "al-ahli-saudi"],
     intro: "Sala del Al-Ettifaq: Jordan Henderson y Steven Gerrard pusieron a Dammam en el mapa. El club rojo del este saudí que busca dar la sorpresa.",
     about: "El Al-Ettifaq, con base en Dammam, saltó a los titulares cuando Steven Gerrard tomó el banquillo y Jordan Henderson fichó procedente del Liverpool. En esta sala se sigue la evolución del club rojo del este saudí, lejos del presupuesto de los gigantes pero con ganas de incomodar a los grandes. Se debate la apuesta inglesa en el proyecto y los partidos ante el Al-Hilal y el Al-Nassr. Una afición fiel que sueña con que su equipo modesto dé el campanazo en el fútbol saudí.",
@@ -822,7 +822,7 @@ const RAW: Place[] = [
     votes: 518,
     tag: "Popular",
     activity: "Alta",
-    channels: ["formula1", "deportes", "chatzona"],
+    channels: ["ocio", "futbol", "chatzona", "formula1", "deportes"],
     related: ["deportes", "tecnologia", "real-madrid", "espana", "mexico", "argentina"],
     intro:
       "Chat de Fórmula 1 en español: análisis de Gran Premio, estrategias, parrilla, Verstappen, Hamilton y Alonso. La F1 debatida vuelta a vuelta por aficionados.",
@@ -854,7 +854,7 @@ const RAW: Place[] = [
     users: 160,
     votes: 250,
     activity: "Media",
-    channels: ["videncia", "tarot", "esoterismo", "chatzona"],
+    channels: ["tarot", "esoterismo", "chatzona", "videncia"],
     related: ["tarot", "esoterismo", "horoscopo", "astrologia", "amor", "madrid"],
     intro:
       "Sala de videncia y intuición: tiradas de cartas, interpretación de sueños y consultas de amor o trabajo. Creyentes, curiosos y escépticos bienvenidos.",
@@ -869,7 +869,7 @@ const RAW: Place[] = [
     users: 190,
     votes: 295,
     activity: "Alta",
-    channels: ["astrologia", "tarot", "esoterismo", "chatzona"],
+    channels: ["tarot", "esoterismo", "chatzona", "astrologia"],
     related: ["horoscopo", "tarot", "esoterismo", "videncia", "amor", "psicologia"],
     intro:
       "Chat de astrología: cartas natales, tránsitos, retrógrados y compatibilidades. Para quienes van más allá del horóscopo diario y quieren conversar sin prisa.",
@@ -916,7 +916,7 @@ const RAW: Place[] = [
     users: 170,
     votes: 265,
     activity: "Media",
-    channels: ["literatura", "cultura", "chatzona"],
+    channels: ["biblioteca", "cultura", "chatzona", "literatura"],
     related: ["cultura", "filosofia", "historia", "cine", "debate", "psicologia"],
     intro:
       "Chat de literatura: lecturas compartidas, autores favoritos y recomendaciones. De novela negra a clásicos, siempre hay algo por descubrir. Sin registro.",
@@ -931,7 +931,7 @@ const RAW: Place[] = [
     users: 185,
     votes: 285,
     activity: "Alta",
-    channels: ["debate", "cultura", "chatzona"],
+    channels: ["debates", "cultura", "chatzona", "debate"],
     related: ["cultura", "filosofia", "politica", "historia", "psicologia", "tecnologia"],
     intro:
       "Chat de debate en español: argumentos, ideas enfrentadas y respeto mutuo. Se discute para pensar, no para ganar. Actualidad, ética, ciencia y sociedad a fondo.",
@@ -946,7 +946,7 @@ const RAW: Place[] = [
     users: 165,
     votes: 255,
     activity: "Media",
-    channels: ["historia", "cultura", "chatzona"],
+    channels: ["cultura", "chatzona", "historia"],
     related: ["cultura", "filosofia", "literatura", "debate", "politica", "espana"],
     intro:
       "Chat de historia en español: curiosidades, batallas y personajes del mundo antiguo al siglo XX. Para aficionados, estudiantes y curiosos de todas las eras.",
@@ -964,7 +964,7 @@ const RAW: Place[] = [
     votes: 451,
     tag: "Popular",
     activity: "Alta",
-    channels: ["chueca", "chueca_madrid", "chueca_barcelona", "gay", "lgtbi", "chatzona"],
+    channels: ["chueca", "chueca_madrid", "chueca_barcelona", "gay", "de_ambiente", "chatzona", "lgtbi"],
     related: ["lgtbi", "gay", "gay-madrid", "amistad", "amor", "madrid"],
     intro:
       "El barrio gay de Madrid hecho chat: Orgullo, terrazas de Chueca, planes LGTBI y gente con ganas de quedar, hablar y conocerse sin postureo.",
@@ -980,7 +980,7 @@ const RAW: Place[] = [
     votes: 472,
     tag: "Popular",
     activity: "Alta",
-    channels: ["gay", "lgtbi", "chueca", "de_ambiente", "chatzona"],
+    channels: ["gay", "de_ambiente", "chueca", "chatzona", "lgtbi"],
     related: ["lgtbi", "chueca", "bisexuales", "gay-madrid", "amistad", "ligar"],
     intro:
       "Chat gay sin etiquetas para hombres que buscan conversación abierta, amistad y conocer gente. Ambiente cercano, sin registro y activo a cualquier hora.",
@@ -996,7 +996,7 @@ const RAW: Place[] = [
     votes: 263,
     tag: "Tendencia",
     activity: "Media",
-    channels: ["bisex", "lgtbi", "chatzona"],
+    channels: ["de_ambiente", "chatzona", "bisex", "lgtbi"],
     related: ["lgtbi", "gay", "lesbianas", "amor", "amistad", "ligar"],
     intro:
       "Chat bisexual sin etiquetas: espacio para personas bi y curiosas donde nadie te pide que elijas. Conversación abierta, amistad y gente afín sin prejuicios.",
@@ -1011,7 +1011,7 @@ const RAW: Place[] = [
     users: 162,
     votes: 241,
     activity: "Media",
-    channels: ["trans", "lgtbi", "travestis", "de_ambiente", "chatzona"],
+    channels: ["personas_trans", "de_ambiente", "travestis", "chatzona", "trans", "lgtbi"],
     related: ["lgtbi", "gay", "bisexuales", "amistad", "amor", "ligar"],
     intro:
       "Chat trans y no binario: comunidad segura para personas trans y aliadas donde hablar, acompañarse y conocer gente con respeto. Acceso gratis sin registro.",
@@ -1060,7 +1060,7 @@ const RAW: Place[] = [
     votes: 412,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["latinas", "latinos", "amistad", "chatzona"],
+    channels: ["latinos", "amistad", "chatzona", "latinas"],
     related: ["latinos", "latinoamerica", "hispanos", "amistad", "amor", "musica"],
     intro:
       "Chat de mujeres latinas: conversación con carácter, calidez y buena vibra. Mujeres de toda Latinoamérica y latinas en España, sin registro y gratis.",
@@ -1090,7 +1090,7 @@ const RAW: Place[] = [
     users: 207,
     votes: 321,
     activity: "Media",
-    channels: ["hispanos", "latinos", "amistad", "chatzona"],
+    channels: ["latinos", "amistad", "chatzona", "hispanos"],
     related: ["latinos", "latinoamerica", "espana", "estados-unidos", "amistad", "musica"],
     intro:
       "Chat hispano gratis: el español como casa común para gente hispana de ambos lados del Atlántico, tanto en España como en Estados Unidos y Latinoamérica.",

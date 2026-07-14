@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { TOPICS_LEGACY } from "./topics-legacy";
 import { getPlace, getCountries, getCities, getTopics } from "./index";
+import { REAL_CHANNELS } from "./irc-real-channels";
 
 const ALL = [...getCountries(), ...getCities(), ...getTopics()];
 
@@ -44,15 +45,14 @@ describe("salas de paridad con el viejo tuchat", () => {
         expect(getPlace(r), `related roto: ${r} en ${p.slug}`).toBeDefined();
   });
 
-  it("channels: 3 canales, el primero es el slug propio (salvo excepciones documentadas)", () => {
-    // "badoo" es la única excepción: el cliente pidió explícitamente que ese
-    // canal real (con tráfico propio) entre también a #amor/#amigos/#general,
-    // no solo a su propio canal — adición deliberada, no una relajación general.
-    const EXCEPCIONES = new Set(["badoo"]);
+  it("channels: entra primero a un canal real y el suyo va detrás", () => {
+    // Antes el primer canal era el slug de la sala (#colegas, #gays, #laguna2000).
+    // Ninguno existe en la red: entrar el primero los creaba vacíos y el usuario
+    // se quedaba solo. Ahora la sala pasa antes por el canal real de su vertical
+    // (#amigos, #gay, #ocio…) y el suyo queda al final, para que se vaya llenando.
     for (const p of TOPICS_LEGACY) {
-      if (EXCEPCIONES.has(p.slug)) continue;
-      expect(p.channels.length, `${p.slug} channels`).toBe(3);
-      expect(p.channels[0], `${p.slug} primer canal`).toBe(p.slug);
+      expect(REAL_CHANNELS.has(p.channels[0]), `${p.slug} primer canal: #${p.channels[0]}`).toBe(true);
+      expect(p.channels, `${p.slug}`).toContain("chatzona");
     }
   });
 

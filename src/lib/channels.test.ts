@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { resolveChannels, channelString } from "@/lib/channels";
-import { getCities, getCountries } from "@/data";
+import { getCities, getCountries, getTopics } from "@/data";
 import { REAL_CHANNELS } from "@/data/irc-real-channels";
 
 describe("resolveChannels", () => {
@@ -26,6 +26,58 @@ describe("resolveChannels", () => {
       p.channels.filter((c) => !REAL_CHANNELS.has(c)).map((c) => `${p.slug}: #${c}`),
     );
     expect(ghosts).toEqual([]);
+  });
+
+  it("ninguna sala aterriza sola: el primer canal siempre existe en la red", () => {
+    // Los canales propios de cada sala (#cine, #salud, #real-madrid, #marruecos…)
+    // no se borran: irán cogiendo gente poco a poco. Pero van DETRÁS del canal
+    // real de su vertical, nunca delante. Si la sala entrase primero al suyo, la
+    // red lo crearía vacío y el usuario se quedaría solo en una sala muerta.
+    const salas = [...getTopics(), ...getCities(), ...getCountries()];
+    expect(salas.length).toBeGreaterThan(2400);
+    const huerfanas = salas
+      .filter((p) => !REAL_CHANNELS.has(p.channels[0]))
+      .map((p) => `${p.slug}: #${p.channels[0]}`);
+    expect(huerfanas).toEqual([]);
+  });
+
+  it("ningún canal propio se cuela por delante de uno real", () => {
+    const salas = [...getTopics(), ...getCities(), ...getCountries()];
+    const desordenadas = salas
+      .filter((p) => {
+        const fantasma = p.channels.findIndex((c) => !REAL_CHANNELS.has(c));
+        const real = p.channels.findIndex((c) => REAL_CHANNELS.has(c));
+        return fantasma !== -1 && real !== -1 && fantasma < real;
+      })
+      .map((p) => `${p.slug}: ${p.channels.join(",")}`);
+    expect(desordenadas).toEqual([]);
+  });
+
+  it("las variantes mal escritas de un canal real no sobreviven en ninguna sala", () => {
+    // Mantener #cataluna junto a #cataluña, o #cybersexo junto a #cibersexo,
+    // parte a la gente entre dos canales gemelos: justo lo contrario del arreglo.
+    // #adolescentes va en la lista por lo mismo que #de_13_a_18: es de menores.
+    const variantes = [
+      "cataluna", "cybersexo", "real_madrid_c_f", "buenos-aires", "de_18_a_26",
+      "mas_de_60", "rioja", "mexico_vip", "adolescentes", "onda_latina", "radio_corazon",
+    ];
+    const salas = [...getTopics(), ...getCities(), ...getCountries()];
+    const sucias = salas
+      .flatMap((p) => p.channels.filter((c) => variantes.includes(c)).map((c) => `${p.slug}: #${c}`));
+    expect(sucias).toEqual([]);
+  });
+
+  it("todas las salas de /anime entran solo a #anime y #ocio", () => {
+    // Las series (#naruto, #one-piece, #pokemon…) y #manga no existen en la red:
+    // mandaba a cada fan a un canal vacío distinto en vez de juntarlos donde hay
+    // gente. Decisión del cliente: por ahora la sección entera comparte #anime,
+    // que es el canal real, más el genérico #ocio. Si algún día se abre un canal
+    // por serie, entra DESPUÉS de #anime y antes de #ocio, nunca en lugar de él.
+    const anime = getTopics().filter((p) => p.slug === "anime" || p.parentSlug === "anime");
+    expect(anime.length).toBeGreaterThanOrEqual(8);
+    for (const p of anime) {
+      expect(p.channels, p.slug).toEqual(["anime", "ocio"]);
+    }
   });
 
   it("uses the place's defined channels for Madrid", () => {

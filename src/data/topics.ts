@@ -42,7 +42,7 @@ export const TOPICS: Place[] = [
     votes: 510,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["lgtbi", "amistad", "chatzona"],
+    channels: ["de_ambiente", "gay", "amistad", "chatzona", "lgtbi"],
     related: ["amor", "amistad", "madrid", "barcelona", "musica", "viajes"],
     intro:
       "Un espacio de conversación abierto y respetuoso para la comunidad LGTBI y sus aliados: desde el orgullo y la visibilidad hasta el día a día.",
@@ -58,7 +58,7 @@ export const TOPICS: Place[] = [
     votes: 755,
     tag: "Popular",
     activity: "Alta",
-    channels: ["deportes", "amistad", "chatzona"],
+    channels: ["futbol", "amistad", "chatzona", "deportes"],
     related: ["musica", "videojuegos", "madrid", "barcelona", "espana", "argentina"],
     intro:
       "Fútbol, baloncesto, tenis, MMA: se debate con pasión y algo de parcialidad. Si no aguantas que te rebatan, mejor busca otra sala.",
@@ -89,7 +89,7 @@ export const TOPICS: Place[] = [
     users: 295,
     votes: 455,
     activity: "Media",
-    channels: ["cine", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "cine"],
     related: ["musica", "videojuegos", "tecnologia", "filosofia", "madrid", "barcelona"],
     intro:
       "Últimas recomendaciones, discusiones sobre finales de temporada y debates que terminan siempre en si Kubrick o Tarkovski. Trae palomitas.",
@@ -105,7 +105,7 @@ export const TOPICS: Place[] = [
     votes: 590,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["videojuegos", "amistad", "chatzona"],
+    channels: ["juegos", "amistad", "chatzona", "videojuegos"],
     related: ["tecnologia", "cine", "musica", "deportes", "madrid", "barcelona"],
     intro:
       "Partidas en curso, noticias del sector, builds imposibles y ese compañero que desaparece en el momento más crítico: todo tiene cabida en la sala de videojuegos.",
@@ -135,7 +135,7 @@ export const TOPICS: Place[] = [
     users: 340,
     votes: 530,
     activity: "Media",
-    channels: ["tecnologia", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "tecnologia"],
     related: ["videojuegos", "bolsa", "filosofia", "cine", "madrid", "barcelona"],
     intro:
       "IA, startups, ciberseguridad y el eterno debate Linux vs Windows: si tienes criterio propio sobre el sector, aquí no te vas a aburrir.",
@@ -151,7 +151,7 @@ export const TOPICS: Place[] = [
     votes: 340,
     tag: "Nueva",
     activity: "Media",
-    channels: ["bolsa", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "bolsa"],
     related: ["tecnologia", "viajes", "salud", "espana", "mexico", "argentina"],
     intro:
       "Análisis técnico, noticias macroeconómicas y el clásico que compró en el pico y ahora espera: una sala sin consejos de inversión pero con mucha opinión.",
@@ -167,7 +167,7 @@ export const TOPICS: Place[] = [
     votes: 595,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["viajes", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "viajes"],
     related: ["cocina", "amistad", "amor", "madrid", "barcelona", "malaga"],
     intro:
       "Rutas que nadie cuenta en los influencers, alojamientos donde no te roban y el eterno dilema de viajar solo o en grupo. Comparte tu próximo destino.",
@@ -182,7 +182,7 @@ export const TOPICS: Place[] = [
     users: 260,
     votes: 405,
     activity: "Media",
-    channels: ["cocina", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "cocina"],
     related: ["viajes", "salud", "amor", "espana", "mexico", "lima"],
     intro:
       "Recetas de la abuela, experimentos fallidos y la guerra entre los que sofríen el ajo primero y los que lo echan al final. La cocina de España y Latinoamérica.",
@@ -197,7 +197,7 @@ export const TOPICS: Place[] = [
     users: 195,
     votes: 305,
     activity: "Media",
-    channels: ["salud", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "salud"],
     related: ["cocina", "deportes", "viajes", "filosofia", "amor", "espana"],
     intro:
       "Hábitos, entrenamiento, salud mental y nutrición sin dogmatismos: experiencias reales, no posts de Instagram con cuerpos de catálogo.",
@@ -244,7 +244,7 @@ export const TOPICS: Place[] = [
     votes: 490,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["anime", "amistad", "chatzona"],
+    channels: ["anime", "ocio"],
     related: ["videojuegos", "cine", "musica", "tecnologia", "madrid", "barcelona"],
     intro:
       "De la Shōnen Jump a los últimos estrenos de la temporada: se habla de sagas, se debaten finales y siempre hay alguien que lleva el manga un arco por delante.",
@@ -260,7 +260,7 @@ export const TOPICS: Place[] = [
     votes: 670,
     tag: "Popular",
     activity: "Alta",
-    channels: ["series", "amistad", "chatzona"],
+    channels: ["ocio", "amistad", "chatzona", "series"],
     related: ["cine", "musica", "videojuegos", "amor", "madrid", "barcelona"],
     intro:
       "Gran Hermano, Netflix, HBO, Telecinco — la plataforma da igual: se comentan series con spoilers avisados y debates que se estiran hasta el siguiente episodio.",
@@ -276,7 +276,7 @@ export const TOPICS: Place[] = [
     votes: 810,
     tag: "Popular",
     activity: "Alta",
-    channels: ["futbol", "deportes", "chatzona"],
+    channels: ["futbol", "ocio", "chatzona", "deportes"],
     related: ["deportes", "musica", "madrid", "barcelona", "espana", "argentina"],
     intro:
       "Liga, Champions, mundiales y ese gol que el árbitro no debería haber anulado: la sala más acalorada del chat. Si eres del Madrid o del Barça, trae argumentos.",
@@ -291,7 +291,7 @@ export const TOPICS: Place[] = [
     users: 280,
     votes: 445,
     activity: "Media",
-    channels: ["politica", "amistad", "chatzona"],
+    channels: ["debates", "amistad", "chatzona", "politica"],
     related: ["filosofia", "tecnologia", "espana", "mexico", "argentina", "colombia"],
     intro:
       "Debates sobre actualidad, partidos, elecciones y todo lo que pasa en España y Latinoamérica. Se puede discrepar sin insultar, aunque no siempre se logra.",
@@ -322,7 +322,7 @@ export const TOPICS: Place[] = [
     users: 160,
     votes: 255,
     activity: "Media",
-    channels: ["psicologia", "amistad", "psicologos", "desahogarse", "ocio", "chatzona"],
+    channels: ["psicologia", "amistad", "ocio", "chatzona", "psicologos", "desahogarse"],
     related: ["filosofia", "salud", "amor", "tarot", "madrid", "barcelona"],
     intro:
       "Ansiedad, relaciones, autoconocimiento y debate terapia vs. medicación: una sala sin diagnósticos, pero con mucha escucha y bastante introspección compartida.",
@@ -338,7 +338,7 @@ export const TOPICS: Place[] = [
     votes: 750,
     tag: "Popular",
     activity: "Alta",
-    channels: ["adultos", "adultos-latinos", "maduritos", "mas_de_30", "mas_de_40", "parejas", "cornudos", "chatzona"],
+    channels: ["sexo", "maduritos", "mas_de_30", "mas_de_40", "parejas", "cornudos", "chatzona", "adultos", "adultos-latinos"],
     related: ["erotico", "infieles", "encuentros", "ligar", "lgtbi", "lesbianas"],
     intro:
       "Espacio para mayores de edad sin filtros: conversaciones de adultos, contactos y todo lo que no cabe en las salas generales. Sólo para mayores de 18.",
@@ -375,7 +375,7 @@ export const TOPICS: Place[] = [
     // a #erotico,#cibersexo (confirmado contra chatzonacom, que sí tiene
     // acceso al servidor IRC en producción) — el resto son canales propios
     // con su tráfico y su gente, no alias de erotico.
-    channels: ["erotico", "cibersexo", "chatzona"],
+    channels: ["sexo", "cibersexo", "chatzona", "erotico"],
     related: ["sexo", "hot", "cibersexo", "bdsm", "adultos", "infieles"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
@@ -391,7 +391,7 @@ export const TOPICS: Place[] = [
     votes: 560,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["infieles", "casadas", "casados", "casados-infieles", "cornudas", "cornudos", "chatzona"],
+    channels: ["sexo_casadas", "cornudos", "casados", "chatzona", "infieles", "casadas", "casados-infieles", "cornudas"],
     related: ["adultos", "erotico", "encuentros", "amor", "ligar", "madrid"],
     intro:
       "Una de las salas más activas del chat: casados que buscan algo fuera, aventuras discretas y confesiones que nunca llegarían a la pareja. Sin juicios.",
@@ -407,7 +407,7 @@ export const TOPICS: Place[] = [
     votes: 650,
     tag: "Popular",
     activity: "Alta",
-    channels: ["encuentros", "citas", "encuentros-latinos", "ligar-con-chicas", "ligoteo", "amantes", "chatzona"],
+    channels: ["ligar", "citas", "chatzona", "encuentros", "encuentros-latinos", "ligar-con-chicas", "ligoteo", "amantes"],
     related: ["adultos", "erotico", "infieles", "ligar", "amor", "madrid"],
     intro:
       "Para los que buscan algo más que chatear: citas, encuentros puntuales y contactos sin complicaciones. La sala donde el chat acaba en quedada.",
@@ -422,7 +422,7 @@ export const TOPICS: Place[] = [
     users: 220,
     votes: 345,
     activity: "Media",
-    channels: ["lesbianas", "lesbianas_spain", "lesbianas_mexicanas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis", "lescontactos", "el_rincon_les", "chatzona"],
+    channels: ["lesbianas", "el_rincon_les", "lescontactos", "chatzona", "lesbianas_spain", "lesbianas_mexicanas", "de-lesbianas", "el-rincon-lesbico", "lesbico", "lesbis"],
     related: ["lgtbi", "adultos", "erotico", "encuentros", "amor", "madrid"],
     intro:
       "Espacio propio para mujeres que buscan mujeres: amistad, contactos, relaciones y conversación entre lesbianas y bisexuales sin necesidad de explicar nada.",

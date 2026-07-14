@@ -44,17 +44,19 @@ describe("salas por edad", () => {
     const byChannels = Object.fromEntries(
       TOPICS_EDAD.map((p) => [p.slug, p.channels])
     );
-    expect(byChannels["mas-de-20"]).toEqual(["adolescentes", "mas_de_30"]);
+    // #adolescentes no existe en la red y, por nombre, es de menores: fuera por
+    // lo mismo que #de_13_a_18. La franja 18-30 va a #milenials, que sí existe.
+    expect(byChannels["mas-de-20"]).toEqual(["milenials", "mas_de_30"]);
     expect(byChannels["mas-de-30"]).toEqual(["mas_de_30", "mas_de_40"]);
     expect(byChannels["mas-de-40"]).toEqual(["mas_de_40", "mas_de_30"]);
     expect(byChannels["mas-de-50"]).toEqual(["mas_de_40", "mas_de_50"]);
-    expect(byChannels["mas-de-60"]).toEqual(["mas_de_50", "mas_de_60", "mas_de_70"]);
-    expect(byChannels["de-18-a-25"]).toEqual(["de_18_a_26", "adolescentes", "mas_de_30"]);
-    expect(byChannels["mas-de-25"]).toEqual(["mas_de_30", "adolescentes"]);
+    expect(byChannels["mas-de-60"]).toEqual(["mas_de_50", "mas__de60", "mas_de_70"]);
+    expect(byChannels["de-18-a-25"]).toEqual(["milenials", "mas_de_30"]);
+    expect(byChannels["mas-de-25"]).toEqual(["mas_de_30", "milenials"]);
     expect(byChannels["de-30-a-40"]).toEqual(["mas_de_30", "mas_de_40"]);
     expect(byChannels["de-40-a-50"]).toEqual(["mas_de_40", "mas_de_50", "cuatro_decadas"]);
-    expect(byChannels["de-50-a-60"]).toEqual(["mas_de_50", "mas_de_60"]);
-    expect(byChannels["de-60-a-70"]).toEqual(["mas_de_60", "mas_de_70", "amigos_mayores"]);
+    expect(byChannels["de-50-a-60"]).toEqual(["mas_de_50", "mas__de60"]);
+    expect(byChannels["de-60-a-70"]).toEqual(["mas__de60", "mas_de_70", "amigos_mayores"]);
   });
 
   it("ninguna sala de edad enruta a un canal IRC inventado", () => {

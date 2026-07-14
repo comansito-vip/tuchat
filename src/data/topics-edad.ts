@@ -13,7 +13,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 760,
     tag: "Popular",
     activity: "Alta",
-    channels: ["adolescentes", "mas_de_30"],
+    channels: ["milenials", "mas_de_30"],
     related: ["mas-de-30", "amistad", "amor", "madrid", "barcelona"],
     intro:
       "Chat para veinteañeros gratis y sin registro: gente de tu edad para hacer amigos, ligar o desahogarse de la carrera, el primer curro y el piso compartido.",
@@ -76,7 +76,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 240,
     tag: "Nueva",
     activity: "Baja",
-    channels: ["mas_de_50", "mas_de_60", "mas_de_70"],
+    channels: ["mas_de_50", "mas__de60", "mas_de_70"],
     related: ["mas-de-50", "amistad", "amor", "salud"],
     intro:
       "Chat para mayores de 60 sin registro: compañía, charla y amistad para quien tiene tiempo y ganas de conversar sin complicaciones.",
@@ -97,7 +97,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 880,
     tag: "Popular",
     activity: "Alta",
-    channels: ["de_18_a_26", "adolescentes", "mas_de_30"],
+    channels: ["milenials", "mas_de_30"],
     related: ["mas-de-20", "mas-de-25", "amistad", "amor", "ligar"],
     intro:
       "Chat de 18 a 25 años gratis y sin registro: la franja más movida del sitio, con gente recién estrenada en eso de vivir por su cuenta.",
@@ -113,7 +113,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 720,
     tag: "Tendencia",
     activity: "Alta",
-    channels: ["mas_de_30", "adolescentes"],
+    channels: ["mas_de_30", "milenials"],
     related: ["mas-de-20", "de-18-a-25", "de-30-a-40", "amistad", "amor"],
     intro:
       "Chat para mayores de 25 sin registro: ya no eres el más joven de la oficina, pero tampoco tienes ganas de sentar la cabeza todavía.",
@@ -159,7 +159,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 350,
     tag: "Nueva",
     activity: "Media",
-    channels: ["mas_de_50", "mas_de_60"],
+    channels: ["mas_de_50", "mas__de60"],
     related: ["mas-de-50", "de-40-a-50", "de-60-a-70", "amistad", "salud"],
     intro:
       "Chat de 50 a 60 años gratis y sin registro: conversación reposada entre gente de la misma quinta, con tiempo y ganas de hablar.",
@@ -175,7 +175,7 @@ export const TOPICS_EDAD: Place[] = [
     votes: 215,
     tag: "Nueva",
     activity: "Baja",
-    channels: ["mas_de_60", "mas_de_70", "amigos_mayores"],
+    channels: ["mas__de60", "mas_de_70", "amigos_mayores"],
     related: ["mas-de-60", "de-50-a-60", "amistad", "salud"],
     intro:
       "Chat de 60 a 70 años sin registro: compañía y charla para quien ya no tiene jefe, ni prisa, ni ganas de complicarse.",
