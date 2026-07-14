@@ -28,7 +28,10 @@ export async function generateMetadata({
   const place = getPlace(pais);
   if (!place || place.kind !== "pais") return {};
   return {
-    title: `Ranking de chat de ${place.name} · Mejores salas`,
+    // Sin el "· Mejores salas" del final: sumado al sufijo "· TuChat" de la
+    // plantilla, los países de nombre largo (República Dominicana, Guinea
+    // Ecuatorial) se pasaban de los 60 caracteres que muestra Google.
+    title: `Ranking: mejores chats de ${place.name}`,
     description: `Las salas de chat más votadas de ${place.name}: ciudades con más gente conectada y más votos de la comunidad, actualizado en tiempo real.`,
     alternates: { canonical: `/ranking/${pais}` },
     openGraph: { ...OG_BASE, url: `/ranking/${pais}` },

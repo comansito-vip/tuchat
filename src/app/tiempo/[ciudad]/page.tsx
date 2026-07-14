@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getPlace, getCities, getCountries } from "@/data";
+import { getPlace, getCities, getCountries, roomName } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
@@ -30,9 +30,15 @@ export async function generateMetadata({
   const { ciudad } = await params;
   const place = getPlace(ciudad);
   const nombre = place?.name ?? cap(ciudad);
+  // Hay 63 nombres de ciudad repetidos en el catálogo (Madrid de España y el de
+  // Cundinamarca, tres Méridas...): sin cualificar, sus páginas de tiempo
+  // emitían el mismo <title> y competían entre sí, igual que pasaba en /chat.
+  const nombreSEO = place ? roomName(place) : nombre;
   return {
-    title: `Previsión del tiempo en ${nombre}`,
-    description: `Previsión del tiempo en ${nombre}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
+    // "Tiempo en X" y no "Previsión del tiempo en X": con el cualificador
+    // detrás, el título largo se pasaba de los 60 caracteres que muestra Google.
+    title: `Tiempo en ${nombreSEO}`,
+    description: `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
     alternates: { canonical: `/tiempo/${ciudad}` },
     openGraph: { ...OG_BASE, url: `/tiempo/${ciudad}` },
   };
@@ -46,6 +52,9 @@ export default async function TiempoCiudadPage({
   const { ciudad } = await params;
   const place = getPlace(ciudad);
   const nombre = place?.name ?? cap(ciudad);
+  // Cualificado solo donde identifica la página (H1, migas, JSON-LD): repetir
+  // "Madrid (Cundinamarca)" en cada frase de las FAQ se leería fatal.
+  const nombreSEO = place ? roomName(place) : nombre;
   const parentName = place?.parentName;
 
   const weatherData = await fetchWeather(ciudad);
@@ -56,7 +65,7 @@ export default async function TiempoCiudadPage({
   // cualquier otra ciudad.
   const crumbs = [
     { name: "Inicio", url: "/" },
-    { name: nombre, url: `/tiempo/${ciudad}` },
+    { name: nombreSEO, url: `/tiempo/${ciudad}` },
   ];
 
   // FAQ con datos meteorológicos reales por ciudad (cuando hay forecast) en lugar
@@ -98,11 +107,11 @@ export default async function TiempoCiudadPage({
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-6">
-      <JsonLd data={collectionJsonLd(`El tiempo en ${nombre}`, `/tiempo/${ciudad}`)} />
+      <JsonLd data={collectionJsonLd(`El tiempo en ${nombreSEO}`, `/tiempo/${ciudad}`)} />
       <JsonLd data={faqJsonLd(faq)} />
       <Breadcrumbs crumbs={crumbs} />
 
-      <h1 className="mt-4 text-3xl font-extrabold text-ink">El tiempo en {nombre}</h1>
+      <h1 className="mt-4 text-3xl font-extrabold text-ink">El tiempo en {nombreSEO}</h1>
       <p className="mt-2 max-w-2xl text-muted">
         Previsión meteorológica para {nombre}: temperaturas, lluvia, viento y condiciones para los
         próximos días.

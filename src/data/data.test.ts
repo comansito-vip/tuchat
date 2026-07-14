@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomTitle, CONTINENTS } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomName, roomTitle, CONTINENTS } from "@/data";
 
 describe("títulos de sala", () => {
   const ALL = [...getCountries(), ...getCities(), ...getTopics()];
@@ -22,6 +22,20 @@ describe("títulos de sala", () => {
   it("los títulos siguen cabiendo en la SERP (≤60 caracteres)", () => {
     const largos = ALL.map((p) => roomTitle(p)).filter((t) => t.length > 60);
     expect(largos).toEqual([]);
+  });
+
+  it("las páginas de /tiempo y /ranking tampoco repiten título ni se pasan de la SERP", () => {
+    // Mismas ciudades homónimas, mismo problema: /tiempo/madrid y
+    // /tiempo/madrid-cundinamarca emitían "Previsión del tiempo en Madrid" los
+    // dos. La plantilla del layout añade " · TuChat" (9 chars) a estas rutas.
+    const SUFIJO = " · TuChat".length;
+    const tiempo = getCities().map((c) => `Tiempo en ${roomName(c)}`);
+    const ranking = getCountries().map((c) => `Ranking: mejores chats de ${c.name}`);
+    for (const grupo of [tiempo, ranking]) {
+      const dupes = grupo.filter((t, i) => grupo.indexOf(t) !== i);
+      expect(dupes).toEqual([]);
+      expect(grupo.filter((t) => t.length + SUFIJO > 60)).toEqual([]);
+    }
   });
 
   it("la sala canónica conserva el título limpio y la homónima se cualifica", () => {
