@@ -217,8 +217,15 @@ function makeOpenAICompatibleCaller(
 const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
   { name: "Claude", call: callClaude },
   { name: "OpenAI", call: callOpenAI },
-  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile"]) },
-  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["llama-3.3-70b"]) },
+  // Groq agota 100.000 tokens/día en el tier gratuito: con 8 categorías se queda
+  // corto él solo, de ahí que detrás vayan varios proveedores más y no uno.
+  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]) },
+  // Cerebras retiró los llama: sus modelos vigentes (verificado contra /models el
+  // 2026-07-14) son gpt-oss-120b, zai-glm-4.7 y gemma-4-31b.
+  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["gpt-oss-120b", "zai-glm-4.7"]) },
+  { name: "NVIDIA", call: makeOpenAICompatibleCaller("NVIDIA", "NVIDIA_API_KEYS", "https://integrate.api.nvidia.com/v1", ["meta/llama-3.3-70b-instruct"]) },
+  { name: "Cohere", call: makeOpenAICompatibleCaller("Cohere", "COHERE_API_KEYS", "https://api.cohere.ai/compatibility/v1", ["command-a-03-2025"]) },
+  { name: "Gemini", call: makeOpenAICompatibleCaller("Gemini", "GEMINI_API_KEYS", "https://generativelanguage.googleapis.com/v1beta/openai", ["gemini-2.0-flash", "gemini-2.0-flash-lite"]) },
   { name: "Mistral", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", ["mistral-large-latest"]) },
   // Modelos :free vigentes verificados contra /models el 2026-07-13; si uno
   // está saturado upstream (429) se prueba el siguiente.
