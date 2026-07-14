@@ -27,6 +27,10 @@
   --color-live-soft: #fff1f3;
   --color-live-ink: #be123c;
   --color-active: #15803d;
+  /* Tinta para texto verde sobre fondo verde claro (badge "Nueva"): el propio
+     --color-active sobre active/12 se queda en 4.27:1 y el badge es texto
+     pequeño en negrita, que exige 4.5:1. Este llega a 6.08:1. */
+  --color-active-ink: #166534;
 
   /* CTA de acción: rojo fuerte para botones "Entrar al chat".
      #ef4444 daba 3.76:1 con texto blanco — por debajo del 4.5:1 que pide un

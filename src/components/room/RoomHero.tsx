@@ -91,13 +91,17 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
 
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-1 text-xs font-semibold backdrop-blur-sm">
+            {/* Fondo oscuro, no blanco translúcido: sobre el gradiente el blanco
+                aclara justo donde va el texto y el contraste caía a 3.6-4.4:1.
+                Con bg-black/20 el texto queda por encima de 6.6:1 en todos los
+                gradientes de KIND_GRADIENT. */}
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-black/20 px-2.5 py-1 text-xs font-semibold backdrop-blur-sm">
               <span className="text-emerald-300">
                 <LiveDot />
               </span>
               {place.users.toLocaleString("es")} hablando ahora
             </span>
-            <span className="rounded-full bg-white/10 px-2.5 py-1 text-xs font-medium text-white/90">
+            <span className="rounded-full bg-black/20 px-2.5 py-1 text-xs font-medium text-white">
               {KIND_LABEL[place.kind]}
             </span>
           </div>

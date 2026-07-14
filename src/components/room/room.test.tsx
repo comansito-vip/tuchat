@@ -74,20 +74,28 @@ it("VoteButton button is not disabled initially", () => {
   const btn = screen.getByRole("button");
   expect(btn).not.toBeDisabled();
 });
-it("VoteButton carries aria-label describing its action", () => {
+it("VoteButton anuncia el recuento en su nombre accesible", () => {
+  // Un aria-label ("Votar esta sala") SUSTITUYE al contenido del botón, así que
+  // el número de votos —que es el dato— no llegaba nunca al lector de pantalla,
+  // y el nombre accesible no contenía el texto visible (WCAG 2.5.3).
   render(<VoteButton slug="test-room" votes={5} />);
   const btn = screen.getByRole("button");
-  expect(btn).toHaveAttribute("aria-label", "Votar esta sala");
+  expect(btn).not.toHaveAttribute("aria-label");
+  expect(btn).toHaveAccessibleName(/5\s*votos/i);
+  expect(btn).toHaveAccessibleName(/votar/i);
 });
-it("VoteButton increments count and disables after click", async () => {
+it("VoteButton suma el voto y queda aria-disabled, sin perder el foco", async () => {
   render(<VoteButton slug="test-sala" votes={10} />);
   const btn = screen.getByRole("button");
+  btn.focus();
   fireEvent.click(btn);
   await waitFor(() => {
-    expect(btn).toBeDisabled();
+    // aria-disabled y no disabled: un botón que se deshabilita en el mismo tick
+    // del clic sale del orden de foco y quien vota con teclado acaba en el body.
+    expect(btn).toHaveAttribute("aria-disabled", "true");
     expect(btn).toHaveAttribute("aria-pressed", "true");
   });
-  // Count shows 11 (optimistic +1)
+  expect(btn).toHaveFocus();
   expect(screen.getByText("11")).toBeInTheDocument();
 });
 it("RoomHero renders h1 with room name and a NickInput", () => {

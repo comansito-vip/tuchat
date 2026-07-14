@@ -7,7 +7,10 @@ export function Breadcrumbs({ crumbs }: { crumbs: Crumb[] }) {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       {crumbs.map((c, i) => (
         <span key={c.url}>
-          {i > 0 && <span className="mx-1.5 text-slate-300">›</span>}
+          {/* aria-hidden: es un adorno visual. Sin esto el lector lee "comilla
+              angular" entre cada miga. El color sube de slate-300 (1.4:1) a
+              slate-400, que ya se ve. */}
+          {i > 0 && <span aria-hidden="true" className="mx-1.5 text-slate-400">›</span>}
           {i < crumbs.length - 1
             ? <Link href={c.url} className="hover:text-blue">{c.name}</Link>
             : <span aria-current="page" className="text-ink">{c.name}</span>}

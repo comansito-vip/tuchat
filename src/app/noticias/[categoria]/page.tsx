@@ -165,10 +165,10 @@ export default async function CategoriaPage({
         <p className="mt-6 text-muted">No hay artículos disponibles en esta categoría todavía.</p>
       )}
 
-      <section className="mt-8 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-800 p-6 text-white">
-        <p className="text-sm font-semibold opacity-80">Debate en el chat</p>
+      <section className="mt-8 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-800 p-6 text-white">
+        <p className="text-sm font-semibold text-white/90">Debate en el chat</p>
         <h2 className="mt-1 text-xl font-extrabold">¿Qué opinas sobre estas noticias?</h2>
-        <p className="mt-1 text-sm opacity-80">Comenta con otros lectores en tiempo real.</p>
+        <p className="mt-1 text-sm text-white/90">Comenta con otros lectores en tiempo real.</p>
         <div className="mt-4">
           <NickInput canal={canal} variant="onColor" placeholder="Tu nick para entrar..." />
         </div>

@@ -204,8 +204,16 @@ describe("SearchInput", () => {
     fireEvent.focus(screen.getByRole("combobox"));
     fireEvent.change(screen.getByRole("combobox"), { target: { value: "Madrid" } });
 
-    const link = await screen.findByRole("link", { name: /Madrid/i });
-    expect(link).toHaveAttribute("href", "/chat/madrid");
+    // La sugerencia es un role="option", no un <a>: un option con un elemento
+    // interactivo dentro rompe el contrato del patrón combobox. Se navega con
+    // router.push, igual por teclado que por ratón.
+    const option = await screen.findByRole("option", { name: /Madrid/i });
+    expect(option.querySelector("a")).toBeNull();
+
+    fireEvent.click(option);
+    expect(mockPush).toHaveBeenCalledWith("/chat/madrid");
+
+    mockPush.mockClear();
     fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
     expect(mockPush).toHaveBeenCalledWith("/chat/madrid");
     vi.unstubAllGlobals();

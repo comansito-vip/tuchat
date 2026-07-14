@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { MenuIcon, CloseIcon } from "@/components/ui/icons";
@@ -38,6 +38,7 @@ const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = 
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const panelId = useId();
   const triggerRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -99,8 +100,9 @@ export function MobileMenu() {
         ref={triggerRef}
         type="button"
         className="lg:hidden grid h-11 w-11 place-items-center -mr-2 text-muted hover:text-ink"
-        aria-label="Abrir menú"
+        aria-label={open ? "Cerrar menú" : "Abrir menú"}
         aria-expanded={open}
+        aria-controls={panelId}
         onClick={() => setOpen(true)}
       >
         <MenuIcon size={20} />
@@ -109,13 +111,17 @@ export function MobileMenu() {
       {open &&
         createPortal(
           <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menú principal">
-            <button
-              type="button"
-              aria-label="Cerrar menú"
+            {/* Decorativo: cerrar tocando fuera es un atajo de ratón. Como botón
+                real duplicaba el "Cerrar menú" del panel y además quedaba fuera
+                del ciclo de Tab (la trampa de foco solo mira panelRef), o sea un
+                control anunciado que el teclado no podía alcanzar. Escape y la X
+                siguen cerrando. */}
+            <div
+              aria-hidden="true"
               className="absolute inset-0 bg-black/40"
               onClick={() => setOpen(false)}
             />
-            <div ref={panelRef} className="absolute inset-y-0 left-0 w-72 max-w-[80%] overflow-y-auto bg-card p-5 shadow-xl">
+            <div id={panelId} ref={panelRef} className="absolute inset-y-0 left-0 w-72 max-w-[80%] overflow-y-auto bg-card p-5 shadow-xl">
               <div className="mb-4 flex items-center justify-between">
                 <span className="text-blue-dark font-extrabold text-lg">
                   Tu<span className="text-blue">Chat</span>

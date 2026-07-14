@@ -138,7 +138,9 @@ export default async function ChatIndexPage() {
                 <div className="flex items-center gap-2">
                   {/* Flag y no el emoji crudo: en Windows los emoji-bandera no se
                       renderizan y salían las letras del país ("ES"). */}
-                  <Flag emoji={country.icon} flagSrc={country.flagSrc} name={country.name} size={22} />
+                  {/* Sin name: el nombre del país va en el enlace de al lado y el
+                      lector lo repetía ("Bandera de España. España"). */}
+                  <Flag emoji={country.icon} flagSrc={country.flagSrc} size={22} />
                   <Link
                     href={`/chat/${country.slug}`}
                     className="font-semibold text-ink hover:text-blue"

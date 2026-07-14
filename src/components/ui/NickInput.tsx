@@ -49,8 +49,13 @@ export function NickInput({
           // fondo y dejaba el placeholder en 2.3:1 (ilegible a plena luz en el
           // móvil, y es la única pista de para qué sirve el campo). Con
           // bg-black/25 el mismo texto queda entre 5.6:1 y 6.8:1.
+          // El relleno apenas contrasta con el gradiente (1.5:1), así que el borde
+          // es lo único que delimita el campo. Con white/40 se quedaba en 2.4:1
+          // sobre los gradientes rosados (amor, lgtbi), por debajo del 3:1 que
+          // exige 1.4.11. white/80 es el primer escalón que pasa en el peor caso
+          // (pink-600: 3.39:1); white/60 y white/70 todavía no llegan.
           variant === "onColor"
-            ? "border-white/40 bg-black/25 text-white placeholder:text-white/85 backdrop-blur-sm"
+            ? "border-white/80 bg-black/25 text-white placeholder:text-white/85 backdrop-blur-sm"
             : "border-line bg-card text-ink placeholder:text-muted",
         )}
       />

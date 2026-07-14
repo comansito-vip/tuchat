@@ -43,6 +43,9 @@ export function LeagueStandings({ liga, leagueName }: { liga: string; leagueName
           Ver tabla →
         </Link>
       </div>
+      {/* La clasificación llega por fetch: sin aria-live el lector anuncia
+          "Cargando…" y ya no vuelve a decir nada cuando aparece la tabla. */}
+      <div aria-live="polite" aria-busy={rows === null}>
       {rows === null ? (
         <p className="text-sm text-muted">Cargando clasificación…</p>
       ) : (
@@ -57,6 +60,7 @@ export function LeagueStandings({ liga, leagueName }: { liga: string; leagueName
           ))}
         </ol>
       )}
+      </div>
     </div>
   );
 }

@@ -7,7 +7,8 @@ export function TeamCard({ team }: { team: Team }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={team.badge}
-        alt={`Escudo de ${team.name}`}
+        // Decorativo: el nombre del equipo va justo al lado. Con alt lo anunciaba dos veces.
+        alt=""
         width={40}
         height={40}
         loading="lazy"

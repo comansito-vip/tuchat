@@ -82,9 +82,12 @@ export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
     <button
       type="button"
       onClick={vote}
-      disabled={voted || busy}
+      // aria-disabled y no disabled: al deshabilitarse en el mismo tick que el
+      // clic, el navegador saca el botón del orden de foco y quien vota con
+      // teclado acaba en el <body>, perdiendo su sitio. vote() ya corta solo
+      // (early return de la línea 50).
+      aria-disabled={voted || busy}
       aria-pressed={voted}
-      aria-label={voted ? "Ya has votado esta sala" : "Votar esta sala"}
       className={
         "flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
         (voted
@@ -93,8 +96,10 @@ export function VoteButton({ slug, votes }: { slug: string; votes: number }) {
       }
     >
       <StarIcon size={14} className={voted ? "opacity-100" : "opacity-40"} />
+      {/* Sin aria-label: el nombre accesible sustituiría al contenido y el
+          recuento no llegaría a anunciarse nunca (y rompería 2.5.3). */}
       <span className="tabular-nums">{count.toLocaleString("es-ES")}</span>
-      <span className="sr-only">votos</span>
+      <span className="sr-only"> votos. {voted ? "Ya has votado." : "Pulsa para votar esta sala."}</span>
     </button>
   );
 }

@@ -26,6 +26,7 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
   return (
     <Card className="overflow-x-auto">
       <table className="w-full text-sm">
+        <caption className="sr-only">Ranking de salas de chat más activas</caption>
         <thead>
           <tr className="text-left text-xs font-semibold uppercase text-muted">
             <th scope="col" className="px-2 py-3 sm:px-4">Posición</th>

@@ -85,7 +85,9 @@ export function WebchatShell({
           className="shrink-0 text-sm font-extrabold text-white"
           aria-label="TuChat — Inicio"
         >
-          Tu<span className="text-blue">Chat</span>
+          {/* text-blue sobre slate-900 se queda en 2.8:1: el logotipo está exento
+              de 1.4.3, pero aquí simplemente no se leía. */}
+          Tu<span className="text-indigo-300">Chat</span>
         </Link>
         <span className="mr-auto flex min-w-0 items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-1 text-xs font-semibold text-white">
           <span
@@ -101,13 +103,18 @@ export function WebchatShell({
           <span aria-hidden="true" className="mr-1">✕</span> Salir del chat
         </Link>
       </header>
-      <WebchatFrame
-        ref={frameRef}
-        canal={canal}
-        clientId={clientId}
-        nick={nick}
-        className="fixed left-0 top-[calc(3rem+env(safe-area-inset-top))] block h-[calc(100dvh-3rem-env(safe-area-inset-top))] w-full border-0"
-      />
+      {/* El iframe es el 100% del contenido de la página y esta ruta no monta el
+          <main> global (HeaderSlot/FooterSlot lo suprimen): sin este landmark
+          queda huérfano y no hay a dónde saltar. */}
+      <main>
+        <WebchatFrame
+          ref={frameRef}
+          canal={canal}
+          clientId={clientId}
+          nick={nick}
+          className="fixed left-0 top-[calc(3rem+env(safe-area-inset-top))] block h-[calc(100dvh-3rem-env(safe-area-inset-top))] w-full border-0"
+        />
+      </main>
     </>
   );
 }

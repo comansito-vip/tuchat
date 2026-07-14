@@ -11,10 +11,11 @@ export type BadgeTone =
 
 const map: Record<BadgeTone, string> = {
   Popular: "bg-blue/10 text-blue",
-  Nueva: "bg-active/12 text-active",
+  // Mismo caso que "EN VIVO": verde sobre verde claro necesita el tono de tinta.
+  Nueva: "bg-active/12 text-active-ink",
   Tendencia: "bg-amber-100 text-amber-700",
   HOT: "bg-live text-white shadow-sm shadow-live/30",
-  NUEVO: "bg-active/12 text-active",
+  NUEVO: "bg-active/12 text-active-ink",
   // Texto rosa sobre fondo rosa claro: necesita el tono de tinta, no el de fondo.
   "EN VIVO": "bg-live-soft text-live-ink",
 };

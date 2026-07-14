@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useState, useRef, useEffect, useId } from "react";
-import Link from "next/link";
 import { normalize } from "@/lib/slug";
 import { Flag } from "@/components/ui/Flag";
 import { useSearchIndex } from "@/lib/useSearchIndex";
@@ -108,21 +107,28 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
         hidden={!expanded}
         className="absolute z-20 mt-1.5 w-full overflow-hidden rounded-xl border border-line bg-card shadow-lg"
       >
+        {/* La opción no lleva dentro un <a>: un role="option" con un elemento
+            interactivo dentro rompe el contrato del patrón combobox (el enlace y
+            la opción compiten en el árbol de accesibilidad). Se navega con
+            go(i), igual que ya hacía el teclado. */}
         {results.map((r, i) => (
-          <li key={r.s} id={optionId(i)} role="option" aria-selected={i === active}>
-            <Link
-              href={`/chat/${r.s}`}
-              onClick={() => setOpen(false)}
-              onMouseEnter={() => setActive(i)}
-              tabIndex={-1}
-              className={`flex items-center gap-2.5 px-4 py-2.5 transition-colors ${
-                i === active ? "bg-bg" : "hover:bg-bg"
-              }`}
-            >
-              <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={18} />
-              <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">{r.n}</span>
-              <span className="shrink-0 text-xs text-muted">{r.u.toLocaleString("es")} online</span>
-            </Link>
+          <li
+            key={r.s}
+            id={optionId(i)}
+            role="option"
+            aria-selected={i === active}
+            onClick={() => {
+              setOpen(false);
+              go(i);
+            }}
+            onMouseEnter={() => setActive(i)}
+            className={`flex cursor-pointer items-center gap-2.5 px-4 py-2.5 transition-colors ${
+              i === active ? "bg-bg" : "hover:bg-bg"
+            }`}
+          >
+            <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={18} />
+            <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">{r.n}</span>
+            <span className="shrink-0 text-xs text-muted">{r.u.toLocaleString("es")} online</span>
           </li>
         ))}
       </ul>
