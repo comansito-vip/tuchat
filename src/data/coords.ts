@@ -607,7 +607,6 @@ export const CITY_COORDS: Record<string, CityCoord> = {
   "el-reten": { lat: 10.6113, lon: -74.2682, tz: "America/Bogota" },
   "el-rosal": { lat: 4.8531, lon: -74.26, tz: "America/Bogota" },
   "el-salto-jalisco": { lat: 23.7785, lon: -105.3604, tz: "America/Monterrey" },
-  "el-salto-jalisco-2": { lat: 23.7785, lon: -105.3604, tz: "America/Monterrey" },
   "el-salvador": { lat: 13.6893, lon: -89.1872, tz: "America/El_Salvador" },
   "el-santuario": { lat: 4.4874, lon: -74.7305, tz: "America/Bogota" },
   "el-sauzal": { lat: 28.4667, lon: -16.4167, tz: "Atlantic/Canary" },
