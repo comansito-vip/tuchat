@@ -1,14 +1,29 @@
 /** @type {import('next-sitemap').IConfig} */
+const fs = require("fs");
+const path_ = require("path");
+
 const LEAGUE_SLUGS = [
   "laliga", "premier", "seriea", "ligamx", "bundesliga", "ligue1", "argentina", "brasileirao",
   "mls", "saudi",
 ];
 
+// Fecha real de publicación de cada artículo, leída de news.ts. Es la única
+// parte del sitio con una fecha de verdad que ofrecer: el resto de páginas no
+// tiene un "cuándo cambió" honesto que dar (ver la nota de `lastmod` abajo).
+const NEWS_DATES = (() => {
+  const src = fs.readFileSync(path_.join(__dirname, "src/data/news.ts"), "utf8");
+  const fechas = {};
+  for (const m of src.matchAll(/slug:\s*"([^"]+)"[\s\S]*?date:\s*"([\d-]+)"/g)) {
+    fechas[m[1]] = m[2];
+  }
+  return fechas;
+})();
+
 function transformEntry(config, path) {
-  // Sin `lastmod`: un timestamp de build idéntico en las 700+ URLs le dice a
-  // Google que todo cambió a la vez en cada deploy, así que aprende a ignorarlo.
-  // La frescura de los artículos se expresa con datePublished/dateModified en su
-  // JSON-LD (NewsArticle), señal más fiable que un lastmod falso.
+  // Sin `lastmod` con el timestamp del build: idéntico en las 4.600 URLs, le
+  // dice a Google que todo cambió a la vez en cada deploy y acaba ignorándolo.
+  // Los artículos son la excepción: tienen fecha de publicación real, así que
+  // ahí el lastmod es cierto y sirve.
   const base = { loc: path };
 
   // Home + major hub pages
@@ -53,7 +68,13 @@ function transformEntry(config, path) {
 
   // News articles
   if (path.startsWith("/noticias/articulo/")) {
-    return { ...base, changefreq: "monthly", priority: 0.5 };
+    const fecha = NEWS_DATES[path.replace("/noticias/articulo/", "")];
+    return {
+      ...base,
+      changefreq: "monthly",
+      priority: 0.5,
+      ...(fecha ? { lastmod: new Date(`${fecha}T00:00:00Z`).toISOString() } : {}),
+    };
   }
 
   // Legal + static pages
