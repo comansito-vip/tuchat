@@ -36,6 +36,9 @@ const nextConfig: NextConfig = {
       "concepcion-arcadia-alto-verde": "concepcion-tucuman",
       "aguilares-los-sarmiento-barrio-santa-emilia": "aguilares",
       "el-salto-jalisco-2": "el-salto-jalisco",
+      // La sala de Latinchat pasa a ser el hub de sus 23 salas por país y ciudad,
+      // y se queda el slug que la gente teclea.
+      "latinchat-amigos": "latinchat",
     };
     return [
       { source: "/pais/:slug", destination: "/chat/:slug", permanent: true },

@@ -47,7 +47,7 @@ export const LATAM_CHANNELS = [
   "aguascalientes", "chiapas", "chihuahua", "coahuila", "colima", "durango",
   "guanajuato", "guerrero", "jalisco", "nuevo_leon", "oaxaca", "puebla",
   "queretaro", "sinaloa", "sonora", "tabasco", "veracruz", "yucatan",
-  "zacatecas", "acapulco", "cancun", "cuernavaca", "guadalajara", "mazatlan",
+  "zacatecas", "mexico_vip", "acapulco", "cancun", "cuernavaca", "guadalajara", "mazatlan",
   "mochis", "monterrey", "morelia", "naucalpan", "tijuana", "toluca",
   // Sudamérica y Caribe: ciudades
   "arequipa", "asuncion", "barinas", "barquisimeto", "barranquilla", "bogota",

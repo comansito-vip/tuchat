@@ -10,6 +10,7 @@ import { TOPICS_REGIONES } from "./topics-regiones";
 import { TOPICS_MOTOR } from "./topics-motor";
 import { TOPICS_OCIO } from "./topics-ocio";
 import { TOPICS_ADULTOS } from "./topics-adultos";
+import { TOPICS_LATINCHAT } from "./topics-latinchat";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 import { normalize } from "@/lib/slug";
@@ -25,6 +26,7 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_MOTOR,
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
+  ...TOPICS_LATINCHAT,
 ];
 const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 

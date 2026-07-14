@@ -6,13 +6,14 @@ import { REAL_CHANNELS } from "./irc-real-channels";
 const ALL = [...getCountries(), ...getCities(), ...getTopics()];
 
 describe("salas de paridad con el viejo tuchat", () => {
-  it("añade 108 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
+  it("añade 107 salas temáticas nuevas (las 2 ciudades viven en cities.ts)", () => {
     // 77 de la paridad original + canalchat (canal real con 606 usuarios,
     // portal CanalChat.org sobre la red de ChatZona — adición deliberada 2026-07-13)
     // + 15 salas gay/LGTBI (ciudades España, países LATAM, perfiles/intereses)
     // para completar la reorg. al estilo chatzona.com/chueca — 2026-07-13 noche.
-    // + 15 portales y redes de chat clásicos bajo el hub Argentina — 2026-07-14.
-    expect(TOPICS_LEGACY).toHaveLength(108);
+    // + 14 portales y redes de chat clásicos bajo el hub Argentina — 2026-07-14.
+    // (Latinchat Argentina se mudó a topics-latinchat.ts con sus 22 hermanas.)
+    expect(TOPICS_LEGACY).toHaveLength(107);
     expect(TOPICS_LEGACY.every((p) => p.kind === "tematica")).toBe(true);
   });
 

@@ -57,9 +57,12 @@ describe("resolveChannels", () => {
     // Mantener #cataluna junto a #cataluña, o #cybersexo junto a #cibersexo,
     // parte a la gente entre dos canales gemelos: justo lo contrario del arreglo.
     // #adolescentes va en la lista por lo mismo que #de_13_a_18: es de menores.
+    // #mexico_vip NO está en esta lista: se dio por variante de #mexico en su
+    // día, pero el cliente confirmó (2026-07-14) que es un canal real y propio,
+    // y lo asignó a Latinchat México.
     const variantes = [
       "cataluna", "cybersexo", "real_madrid_c_f", "buenos-aires", "de_18_a_26",
-      "mas_de_60", "rioja", "mexico_vip", "adolescentes", "onda_latina", "radio_corazon",
+      "mas_de_60", "rioja", "adolescentes", "onda_latina", "radio_corazon",
     ];
     const salas = [...getTopics(), ...getCities(), ...getCountries()];
     const sucias = salas
