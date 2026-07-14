@@ -1,5 +1,36 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, CONTINENTS } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomTitle, CONTINENTS } from "@/data";
+
+describe("títulos de sala", () => {
+  const ALL = [...getCountries(), ...getCities(), ...getTopics()];
+
+  it("cada sala emite un <title> distinto (dos salas homónimas no pueden competir por la misma búsqueda)", () => {
+    // Sin desambiguar, el Madrid de España y el de Cundinamarca emitían ambos
+    // "Chat Madrid gratis". roomTitle() cualifica al no canónico con su
+    // provincia o su país: "Chat Madrid (Cundinamarca) gratis".
+    const seen = new Map<string, string>();
+    const colisiones: string[] = [];
+    for (const p of ALL) {
+      const title = roomTitle(p);
+      const previo = seen.get(title);
+      if (previo) colisiones.push(`"${title}" -> ${previo} + ${p.slug}`);
+      else seen.set(title, p.slug);
+    }
+    expect(colisiones).toEqual([]);
+  });
+
+  it("los títulos siguen cabiendo en la SERP (≤60 caracteres)", () => {
+    const largos = ALL.map((p) => roomTitle(p)).filter((t) => t.length > 60);
+    expect(largos).toEqual([]);
+  });
+
+  it("la sala canónica conserva el título limpio y la homónima se cualifica", () => {
+    expect(roomTitle(getPlace("madrid")!)).toBe("Chat Madrid gratis");
+    expect(roomTitle(getPlace("madrid-cundinamarca")!)).toBe("Chat Madrid (Cundinamarca) gratis");
+    // Las salas heredadas ya empiezan por "Chat": no se duplica el prefijo.
+    expect(roomTitle(getPlace("terra")!)).toBe("Chat Terra gratis");
+  });
+});
 
 describe("data getters", () => {
   it("returns the Madrid model room with channels and related", () => {

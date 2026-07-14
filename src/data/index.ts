@@ -12,6 +12,7 @@ import { TOPICS_OCIO } from "./topics-ocio";
 import { TOPICS_ADULTOS } from "./topics-adultos";
 import { NEWS } from "./news";
 import type { Place } from "./types";
+import { normalize } from "@/lib/slug";
 
 const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
 const ALL_TOPICS: Place[] = [
@@ -44,6 +45,69 @@ export function cityFlag(place: Place): { icon: string; flagSrc?: string; name: 
   }
   return { icon: place.icon, flagSrc: place.flagSrc, name: place.name };
 }
+// 63 nombres se repiten en el catálogo: el Madrid de España y el de
+// Cundinamarca, tres Méridas, cuatro Villanuevas... Todos emitían el mismo
+// <title> ("Chat Madrid gratis"), así que 141 páginas competían entre sí por la
+// misma búsqueda en vez de sumar. La sala cuyo slug es el nombre a secas
+// conserva el título limpio —es la que debe ganar la búsqueda genérica— y las
+// demás se cualifican con su provincia real, o con su país si no la tienen.
+// La Rioja española es una comunidad autónoma, no una ciudad: no tiene provincia
+// ni país padre de los que tirar para distinguirla de La Rioja argentina.
+const QUALIFIER_OVERRIDE: Record<string, string> = {
+  "la-rioja-comunidad": "comunidad autónoma",
+};
+
+const HOMONYM_QUALIFIER: Map<string, string> = (() => {
+  const byName = new Map<string, Place[]>();
+  for (const p of ALL) {
+    const key = normalize(p.name);
+    byName.set(key, [...(byName.get(key) ?? []), p]);
+  }
+  const out = new Map<string, string>();
+  for (const [key, places] of byName) {
+    if (places.length < 2) continue;
+    for (const p of places) {
+      if (p.slug === key.replace(/\s+/g, "-")) continue; // el canónico se queda el título limpio
+      // Córdoba es la capital de la provincia de Córdoba: ahí la provincia no
+      // distingue nada y hay que subir al país.
+      const qualifier =
+        QUALIFIER_OVERRIDE[p.slug] ??
+        (p.provincia && normalize(p.provincia) !== key ? p.provincia : p.parentName);
+      if (qualifier && normalize(qualifier) !== key) out.set(p.slug, qualifier);
+    }
+  }
+  return out;
+})();
+
+// Los hubs cuya landing hermana se llama igual ("Gay" y "Chat Gay"): sin un
+// título propio de cola larga, las dos páginas pelean por la misma búsqueda.
+const ROOM_TITLES: Record<string, string> = {
+  amor: "Chat para buscar pareja y conocer gente gratis",
+  amistad: "Chat para hacer amigos gratis sin registro",
+  ligar: "Chat para ligar gratis en español sin registro",
+  adultos: "Chat de adultos gratis sin registro",
+  encuentros: "Chat de encuentros gratis sin registro",
+  gay: "Chat gay gratis para conocer chicos sin registro",
+  lesbianas: "Chat de lesbianas gratis para conocer chicas",
+};
+
+/** Nombre de la sala, cualificado si comparte nombre con otra ("Madrid (Cundinamarca)"). */
+export function roomName(place: Place): string {
+  const qualifier = HOMONYM_QUALIFIER.get(place.slug);
+  return qualifier ? `${place.name} (${qualifier})` : place.name;
+}
+
+/**
+ * El <title> y el H1 de una sala. Las salas heredadas ya se llaman "Chat Terra"
+ * o "Chat estilo Badoo": anteponer "Chat" otra vez daría "Chat Chat Terra".
+ */
+export function roomTitle(place: Place): string {
+  const custom = ROOM_TITLES[place.slug];
+  if (custom) return custom;
+  const name = roomName(place);
+  return /^chat\b/i.test(name) ? `${name} gratis` : `Chat ${name} gratis`;
+}
+
 export function getCities() { return ALL_CITIES; }
 export function getCountries() { return COUNTRIES; }
 export function getTopics() { return ALL_TOPICS; }

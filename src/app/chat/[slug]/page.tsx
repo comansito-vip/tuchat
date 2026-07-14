@@ -17,7 +17,7 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { RoomGrid } from "@/components/ui/RoomGrid";
 import { RegionGroupedGrid } from "@/components/ui/RegionGroupedGrid";
 import { ProvinciaGroupedGrid } from "@/components/ui/ProvinciaGroupedGrid";
-import { getRegions, getCitiesByRegion } from "@/data";
+import { getRegions, getCitiesByRegion, roomName, roomTitle } from "@/data";
 import { RoomHero } from "@/components/room/RoomHero";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
@@ -40,19 +40,7 @@ export async function generateStaticParams() {
   return [...countries, ...cities, ...topics].map((p) => ({ slug: p.slug }));
 }
 
-const ROOM_TITLES: Record<string, string> = {
-  amor: "Chat para buscar pareja y conocer gente gratis",
-  amistad: "Chat para hacer amigos gratis sin registro",
-  ligar: "Chat para ligar gratis en español sin registro",
-  adultos: "Chat de adultos gratis sin registro",
-  encuentros: "Chat de encuentros gratis sin registro",
-};
 
-// Salas heredadas ya se llaman "Chat Terra", "Chat estilo Badoo"...: anteponer
-// "Chat" de nuevo duplicaría el prefijo ("Chat Chat Terra gratis").
-function withChatPrefix(name: string): string {
-  return /^chat\b/i.test(name) ? `${name} gratis` : `Chat ${name} gratis`;
-}
 
 export async function generateMetadata({
   params,
@@ -66,7 +54,7 @@ export async function generateMetadata({
     // Título absoluto (sin el sufijo "· TuChat" del template): con ~2.000
     // salas, repetir la marca en cada title era redundante — pedido del
     // cliente 2026-07-13. Mismo patrón que los artículos de noticias.
-    title: { absolute: ROOM_TITLES[slug] ?? withChatPrefix(place.name) },
+    title: { absolute: roomTitle(place) },
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
     openGraph: { ...OG_BASE, url: `/chat/${place.slug}` },
@@ -117,7 +105,7 @@ export default async function ChatRoomPage({
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd
         data={collectionJsonLd(
-          /^chat\b/i.test(place.name) ? place.name : `Chat de ${place.name}`,
+          /^chat\b/i.test(place.name) ? roomName(place) : `Chat de ${roomName(place)}`,
           `/chat/${place.slug}`,
         )}
       />
@@ -129,7 +117,7 @@ export default async function ChatRoomPage({
       <Breadcrumbs crumbs={crumbs} />
 
       {/* Hero destacado con CTA principal */}
-      <RoomHero place={place} h1={ROOM_TITLES[slug]} />
+      <RoomHero place={place} h1={roomTitle(place)} />
 
       {/* Two-column body */}
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
