@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "generate:news": "npx tsx scripts/generate-news.ts",
-    "generate:rooms": "npx tsx scripts/generate-room-content.ts"
+    "generate:rooms": "npx tsx scripts/generate-room-content.ts",
+    "indexnow": "node scripts/indexnow-submit.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
