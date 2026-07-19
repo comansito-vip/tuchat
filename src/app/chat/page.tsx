@@ -88,6 +88,14 @@ export default async function ChatIndexPage() {
     if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
     grouped.get(key)!.items.push(t);
   }
+  // Dedupe: una temática que ya encabeza su propio grupo (Latinchat con sus 23
+  // salas, Gay Latino con las suyas…) no debe repetirse como chip suelto dentro
+  // de su grupo padre —salía dos veces en la misma sección, una como chip y
+  // otra como cabecera de grupo justo debajo—. Se queda solo como grupo.
+  const groupKeys = new Set(grouped.keys());
+  for (const g of grouped.values()) {
+    g.items = g.items.filter((t) => !groupKeys.has(t.slug));
+  }
   // Huérfanas: las salas de edad forman su propio grupo; los hubs de categoría
   // (religión, hobbies...) ya encabezan su grupo con enlace, no van a "Otras".
   const edad: typeof restTopics = [];
