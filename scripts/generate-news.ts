@@ -367,12 +367,30 @@ async function main() {
     process.exit(1);
   }
 
-  // Un solo featured en todo el catálogo: se lo queda el primero de hoy.
-  const merged = [...existing.map((n) => ({ ...n, featured: undefined })), ...fresh];
-  merged[existing.length].featured = true;
+  // Dedup de contenido (no solo de slug): data.test.ts rechaza dos piezas que
+  // compartan excerpt o la misma apertura de cuerpo (100 primeros caracteres).
+  // Distintos modelos/días convergen a veces en el mismo tema y la misma frase
+  // inicial (p.ej. varias columnas de "economía circular"): se descarta la nueva.
+  const opening = (n: NewsItem) => (n.body ? n.body.trim().slice(0, 100) : "");
+  const seenExcerpts = new Set(existing.map((n) => n.excerpt));
+  const seenOpenings = new Set(existing.map(opening).filter(Boolean));
+  const deduped = fresh.filter((n) => {
+    const op = opening(n);
+    if (seenExcerpts.has(n.excerpt) || (op && seenOpenings.has(op))) return false;
+    seenExcerpts.add(n.excerpt);
+    if (op) seenOpenings.add(op);
+    return true;
+  });
+  const droppedDup = fresh.length - deduped.length;
+  if (droppedDup > 0) console.log(`  ⓘ ${droppedDup} descartadas por duplicar excerpt/apertura`);
+
+  // Un solo featured en todo el catálogo: se lo queda la primera de hoy (o, si
+  // hoy no quedó ninguna nueva tras el dedup, la primera del catálogo).
+  const merged = [...existing.map((n) => ({ ...n, featured: undefined })), ...deduped];
+  if (merged.length > 0) merged[deduped.length > 0 ? existing.length : 0].featured = true;
 
   writeFileSync(out, renderFile(merged));
-  console.log(`Añadidas ${fresh.length} noticias nuevas (${merged.length} en total) en ${out}`);
+  console.log(`Añadidas ${deduped.length} noticias nuevas (${merged.length} en total) en ${out}`);
 }
 
 main().catch((err) => {
