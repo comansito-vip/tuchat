@@ -1,4 +1,5 @@
-import type { Place } from "@/data";
+import Link from "next/link";
+import { getPlace, type Place } from "@/data";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { VoteButton } from "@/components/room/VoteButton";
@@ -18,6 +19,10 @@ function countryValue(place: Place): string | null {
 export function RoomInfoPanel({ place }: { place: Place }) {
   const otherChannels = place.channels.filter((ch) => ch !== place.slug);
   const country = countryValue(place);
+  // Comunidad autónoma de la ciudad: da un enlace interno ciudad → comunidad
+  // (antes solo se enlazaba al país por las migas) y refuerza la bandera.
+  const region =
+    place.kind === "ciudad" && place.regionSlug ? getPlace(place.regionSlug) : null;
 
   return (
     <Card className="p-5">
@@ -42,6 +47,17 @@ export function RoomInfoPanel({ place }: { place: Place }) {
           <div className="flex justify-between gap-2">
             <dt className="text-muted">País</dt>
             <dd className="font-medium text-ink">{country}</dd>
+          </div>
+        )}
+
+        {region && (
+          <div className="flex justify-between gap-2">
+            <dt className="text-muted">Comunidad</dt>
+            <dd className="font-medium">
+              <Link href={`/chat/${region.slug}`} className="text-blue hover:underline">
+                {region.name}
+              </Link>
+            </dd>
           </div>
         )}
 

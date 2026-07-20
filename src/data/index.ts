@@ -37,13 +37,28 @@ const BY_SLUG: Map<string, Place> = new Map(ALL.map((p) => [p.slug, p]));
 export function getPlace(slug: string): Place | undefined {
   return BY_SLUG.get(slug);
 }
-// Las salas de ciudad muestran la bandera de su país (no un icono temático):
-// con 660+ ciudades, la bandera permite identificar la procedencia geográfica
-// de un vistazo en listados; países y temáticas conservan su icono propio.
+// Las salas de ciudad muestran una bandera (no un icono temático): con 660+
+// ciudades, la bandera permite identificar la procedencia geográfica de un
+// vistazo en listados; países y temáticas conservan su icono propio.
+// Prioridad para una ciudad:
+//  1. Bandera de su comunidad autónoma (regionSlug → Galicia, Andalucía…), más
+//     específica y propia del territorio que la del país.
+//  2. Su propia bandera, si la trae (Ceuta y Melilla son ciudades autónomas:
+//     no cuelgan de ninguna comunidad, pero tienen bandera propia, más suya
+//     que la de España).
+//  3. Bandera de su país padre (Vigo → 🇪🇸, Bogotá → 🇨🇴).
+//  4. Su propio icono/bandera.
 export function cityFlag(place: Place): { icon: string; flagSrc?: string; name: string } {
-  if (place.kind === "ciudad" && place.parentSlug) {
-    const parent = BY_SLUG.get(place.parentSlug);
-    if (parent) return { icon: parent.icon, flagSrc: parent.flagSrc, name: parent.name };
+  if (place.kind === "ciudad") {
+    if (place.regionSlug) {
+      const region = BY_SLUG.get(place.regionSlug);
+      if (region?.flagSrc) return { icon: region.icon, flagSrc: region.flagSrc, name: region.name };
+    }
+    if (place.flagSrc) return { icon: place.icon, flagSrc: place.flagSrc, name: place.name };
+    if (place.parentSlug) {
+      const parent = BY_SLUG.get(place.parentSlug);
+      if (parent) return { icon: parent.icon, flagSrc: parent.flagSrc, name: parent.name };
+    }
   }
   return { icon: place.icon, flagSrc: place.flagSrc, name: place.name };
 }

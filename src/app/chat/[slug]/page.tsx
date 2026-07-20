@@ -113,6 +113,12 @@ export default async function ChatRoomPage({
       {children.length > 0 && (
         <JsonLd data={itemListJsonLd(children.map((c) => ({ url: `/chat/${c.slug}`, name: `Chat ${c.name}` })))} />
       )}
+      {/* Página de comunidad autónoma: las ciudades no cuelgan de ella por
+          parentSlug (cuelgan de "espana"), así que su listado —el contenido
+          principal de la página— se quedaba sin ItemList. */}
+      {isRegion && regionCities.length > 0 && (
+        <JsonLd data={itemListJsonLd(regionCities.map((c) => ({ url: `/chat/${c.slug}`, name: `Chat ${c.name}` })))} />
+      )}
       {/* Breadcrumbs */}
       <Breadcrumbs crumbs={crumbs} />
 
