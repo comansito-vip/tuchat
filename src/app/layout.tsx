@@ -8,6 +8,7 @@ import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { LayoutShell } from "@/components/layout/LayoutShell";
 import { Footer } from "@/components/layout/Footer";
 import { FooterSlot } from "@/components/layout/FooterSlot";
+import { CookieBanner } from "@/components/layout/CookieBanner";
 import { JsonLd, websiteJsonLd, organizationJsonLd } from "@/lib/seo";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -74,6 +75,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className={`${jakarta.variable} ${bricolage.variable}`}>
       <head>
+        {/* Consent Mode v2: se define ANTES de cargar Google Analytics para que
+            arranque en 'denied' (sin cookies de analítica hasta consentir, como
+            exige la AEPD). El CookieBanner hará gtag('consent','update',...) al
+            aceptar; aquí solo restauramos la elección previa guardada en
+            localStorage para no re-mostrar el banner ni perder consentimiento. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}" +
+              "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});" +
+              "try{if(localStorage.getItem('cookie-consent')==='granted')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}",
+          }}
+        />
         {/* Las banderas se sirven desde flagcdn.com en muchos listados: abrir la
             conexión por adelantado reduce la latencia de las primeras imágenes. */}
         <link rel="preconnect" href="https://flagcdn.com" crossOrigin="" />
@@ -99,6 +113,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </FooterSlot>
         <MobileBottomNav />
+        <CookieBanner />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HGL7W7NRDJ"
           strategy="afterInteractive"
