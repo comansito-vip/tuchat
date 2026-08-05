@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "rm -f public/sitemap-*.xml && next-sitemap",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
