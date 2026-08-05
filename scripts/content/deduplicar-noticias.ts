@@ -93,47 +93,61 @@ const items = NEWS.map((n) => ({
   vocabTitulo: vocabulario(n.title),
 }));
 
-// Union-find sencillo para agrupar por transitividad: si A repite a B y B a C,
-// las tres son el mismo grupo aunque A y C no se parezcan directamente.
-const padre = items.map((_, i) => i);
-const raiz = (i: number): number => (padre[i] === i ? i : (padre[i] = raiz(padre[i])));
-const unir = (a: number, b: number) => {
-  const [ra, rb] = [raiz(a), raiz(b)];
-  if (ra !== rb) padre[rb] = ra;
-};
-
 /** Pares que rozan el umbral: no se tocan, se informan. */
 const dudosos: [number, number, number][] = [];
 
-for (let i = 0; i < items.length; i++) {
-  for (let j = i + 1; j < items.length; j++) {
-    const mismaApertura = !!items[i].apertura && items[i].apertura === items[j].apertura;
-    const s = solape(items[i].vocab, items[j].vocab);
-    const sTitulo = solape(items[i].vocabTitulo, items[j].vocabTitulo);
-    if (mismaApertura || s >= UMBRAL_SOLAPE || sTitulo >= UMBRAL_TITULO) {
-      unir(i, j);
-    } else if (s >= UMBRAL_AVISO) {
-      dudosos.push([i, j, s]);
-    }
+/** ¿Es `b` la misma pieza que `a`? */
+function esDuplicado(a: number, b: number): boolean {
+  if (items[a].apertura && items[a].apertura === items[b].apertura) return true;
+  if (solape(items[a].vocab, items[b].vocab) >= UMBRAL_SOLAPE) return true;
+  return solape(items[a].vocabTitulo, items[b].vocabTitulo) >= UMBRAL_TITULO;
+}
+
+/**
+ * Agrupación por representante, NO por transitividad.
+ *
+ * La primera versión usaba union-find y arrastraba falsos positivos en cadena:
+ * si A se parece a B y B a C, las tres acababan en el mismo grupo aunque A y C
+ * no tuvieran nada que ver. Así entró "El renacer del juego cooperativo en la
+ * era digital" en el grupo de "El resurgir de la narrativa oral" —comparten el
+ * molde del título, no el tema— y se habría retirado un artículo legítimo.
+ *
+ * Ahora cada pieza se compara contra las que YA se han decidido conservar, así
+ * que toda retirada tiene un duplicado directo y demostrable detrás. Se recorre
+ * de mejor a peor (más desarrollada primero, y a igualdad la más antigua, que
+ * es la que puede tener enlaces externos) para que el representante de cada
+ * grupo sea siempre la mejor pieza.
+ */
+const orden = items
+  .map((_, i) => i)
+  .sort((a, b) => items[b].palabras - items[a].palabras || items[a].date.localeCompare(items[b].date));
+
+const representantes: number[] = [];
+const retiradasPor = new Map<number, number[]>();
+
+for (const i of orden) {
+  const rep = representantes.find((r) => esDuplicado(r, i));
+  if (rep === undefined) {
+    representantes.push(i);
+  } else {
+    (retiradasPor.get(rep) ?? retiradasPor.set(rep, []).get(rep)!).push(i);
   }
 }
 
-const grupos = new Map<number, number[]>();
-items.forEach((_, i) => {
-  const r = raiz(i);
-  (grupos.get(r) ?? grupos.set(r, []).get(r)!).push(i);
-});
+// Segunda pasada, solo para el informe: parecidos que no llegan al umbral.
+for (const r of representantes) {
+  for (const i of orden) {
+    if (i === r || retiradasPor.get(r)?.includes(i)) continue;
+    const s = solape(items[r].vocab, items[i].vocab);
+    if (s >= UMBRAL_AVISO && s < UMBRAL_SOLAPE) dudosos.push([r, i, s]);
+  }
+}
 
 const aRetirar: string[] = [];
-for (const indices of grupos.values()) {
-  if (indices.length < 2) continue;
-  const orden = [...indices].sort(
-    (a, b) => items[b].palabras - items[a].palabras || items[a].date.localeCompare(items[b].date),
-  );
-  const conservada = orden[0];
-  console.log(`\nGrupo de ${indices.length} piezas equivalentes:`);
-  console.log(`   ✓ se conserva  ${items[conservada].slug} (${items[conservada].palabras}p, ${items[conservada].date})`);
-  for (const i of orden.slice(1)) {
+for (const [rep, duplicadas] of retiradasPor) {
+  console.log(`\nGrupo de ${duplicadas.length + 1} piezas equivalentes:`);
+  console.log(`   ✓ se conserva  ${items[rep].slug} (${items[rep].palabras}p, ${items[rep].date})`);
+  for (const i of duplicadas) {
     console.log(`   ✗ se retira    ${items[i].slug} (${items[i].palabras}p, ${items[i].date})`);
     aRetirar.push(items[i].slug);
   }

@@ -59,17 +59,17 @@ const REGLAS: Regla[] = [
     // El `\s*` tras el salto no es decorativo: varias piezas traían
     // "\n\n En conclusión, …" con un espacio de más y se escapaban del patrón.
     nombre: "conector «en definitiva» al abrir frase",
-    buscar: /(\\n\\n|\. |")\s*En definitiva, ([a-záéíóúñü])/g,
+    buscar: /((?:\\n)+|\. |")\s*En definitiva, ([a-záéíóúñü])/g,
     sustituir: (pre, letra) => `${pre}${letra.toUpperCase()}`,
   },
   {
     nombre: "conector «en resumen» al abrir frase",
-    buscar: /(\\n\\n|\. |")\s*En resumen, ([a-záéíóúñü])/g,
+    buscar: /((?:\\n)+|\. |")\s*En resumen, ([a-záéíóúñü])/g,
     sustituir: (pre, letra) => `${pre}${letra.toUpperCase()}`,
   },
   {
     nombre: "conector «en conclusión» al abrir frase",
-    buscar: /(\\n\\n|\. |")\s*En conclusión, ([a-záéíóúñü])/g,
+    buscar: /((?:\\n)+|\. |")\s*En conclusión, ([a-záéíóúñü])/g,
     sustituir: (pre, letra) => `${pre}${letra.toUpperCase()}`,
   },
   {
@@ -89,7 +89,7 @@ const REGLAS: Regla[] = [
     // tecnológicas…". Abriendo párrafo es puro preámbulo: el artículo entero ya
     // va de eso, y era el arranque de seis piezas distintas.
     nombre: "preámbulo «En la era digital,» al abrir frase",
-    buscar: /(\\n\\n|\. |")\s*En la era digital, ([a-záéíóúñü])/g,
+    buscar: /((?:\\n)+|\. |")\s*En la era digital, ([a-záéíóúñü])/g,
     sustituir: (pre, letra) => `${pre}${letra.toUpperCase()}`,
   },
   {

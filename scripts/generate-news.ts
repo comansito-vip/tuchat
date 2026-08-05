@@ -250,6 +250,12 @@ const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }
 function passesQualityBar(item: GeneratedItem): boolean {
   const words = item.body.trim().split(/\s+/).filter(Boolean).length;
   if (item.excerpt.length > 160 || words < 400) return false;
+  // El límite de título también lo exige data.test.ts, y no estaba aquí: se
+  // coló uno de 135 caracteres ("Alimentación consciente: más allá de la moda;
+  // escuchar al cuerpo, valorar la procedencia y promover una salud integral
+  // son sus pilares") que era la entradilla disfrazada de titular y que Google
+  // habría cortado a la mitad en el resultado.
+  if (item.title.length > 110) return false;
   return detectarMuletillas(`${item.title} ${item.excerpt} ${item.body}`).length === 0;
 }
 
