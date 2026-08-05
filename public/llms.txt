@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (2547 salas propias · ~4690 páginas indexadas), con
+> temáticas (2547 salas propias · ~4900 páginas en el sitemap), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.
@@ -29,7 +29,7 @@
 
 ## Otras secciones
 - [Ranking de salas](/ranking): más votadas, con desglose por temática, país y ciudad.
-- [Noticias](/noticias): actualidad, deportes, tecnología, IA, cultura, viajes, salud, economía y entretenimiento, por categoría.
+- [Noticias](/noticias): 337 columnas de divulgación y tendencia en nueve categorías (actualidad, deportes, tecnología, IA, cultura, viajes, salud, economía y entretenimiento). La portada muestra las 48 más recientes; el archivo completo se recorre por categoría en `/noticias/{categoria}`.
 - [Horóscopo](/horoscopo): predicción por signo (Aries, Tauro, Géminis…); landing propia por signo en `/horoscopo/{signo}`.
 - [El tiempo](/tiempo/madrid): previsión meteorológica por ciudad o país; landing en `/tiempo/{ciudad}`.
 - [Loterías](/loterias/espana): resultados y sorteos por país (España, México, Argentina…); landing en `/loterias/{pais}`.

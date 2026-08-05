@@ -68,6 +68,41 @@ function comunidadDe(place: Place): Place | null {
   return place.kind === "ciudad" && place.regionSlug ? getPlace(place.regionSlug) ?? null : null;
 }
 
+/**
+ * Canales reales de la sala: el principal y los demás.
+ *
+ * La fuente de verdad es `place.channels`, NO el slug. `resolveChannels()`
+ * devuelve ese array tal cual y el webchat entra a todos sus canales, pero el
+ * slug no tiene por qué ser uno de ellos: en 2.395 de las 2.547 salas no lo es.
+ * `espana` entra a #españa (con eñe), `estados-unidos` a #usa, `belice` a
+ * #internacional y `mas-de-30` a #mas_de_30 (con guion bajo). Dar por hecho que
+ * el canal se llama como el slug hacía anunciar canales que no existen — y en
+ * este proyecto hay canales deliberadamente vetados, así que inventar nombres
+ * no es un detalle cosmético.
+ */
+function canalesDe(place: Place): { principal: string | null; otros: string[]; propio: boolean } {
+  const [principal = null, ...otros] = place.channels;
+  return { principal, otros, propio: principal !== null && mismoNombre(principal, place.slug) };
+}
+
+/**
+ * ¿Canal y slug son el mismo nombre escrito de otra forma?
+ *
+ * El slug va sin tildes y con guiones; el canal del servidor conserva la eñe y
+ * usa guion bajo. `espana`/`españa`, `republica-dominicana`/`republica_dominicana`
+ * y `mas-de-30`/`mas_de_30` son el mismo sitio, y compararlos en crudo hacía
+ * decir a la sala de España que "no tiene un canal solo para ella".
+ */
+function mismoNombre(canal: string, slug: string): boolean {
+  const n = (s: string) =>
+    s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .replace(/[_-]/g, "");
+  return n(canal) === n(slug);
+}
+
 // ───────────────────── Párrafo de contexto ─────────────────────
 
 /**
@@ -145,12 +180,16 @@ function leadCiudad(place: Place): string | null {
       .slice(0, 3)
       .map((r) => r.name);
     if (ciudadesCerca.length >= 2) {
+      // Solo lo comprobable: que están enlazadas y que el nick vale para todas.
+      // Antes había dos variantes ("las salas con las que más gente comparte",
+      // "las más transitadas por quienes entran a esta") que afirmaban un
+      // comportamiento de usuarios del que no existe ninguna medición.
       partes.push(
         variante(
           [
             `Desde aquí se pasa a las salas de ${enumerar(ciudadesCerca)} sin volver a elegir nick.`,
-            `Las salas con las que más gente comparte son ${enumerar(ciudadesCerca)}.`,
-            `${enumerar(ciudadesCerca)} son las salas más transitadas por quienes entran a esta.`,
+            `Está enlazada con las salas de ${enumerar(ciudadesCerca)}.`,
+            `Sus salas vecinas en el catálogo son ${enumerar(ciudadesCerca)}.`,
           ],
           place.slug,
           2,
@@ -165,10 +204,13 @@ function leadCiudad(place: Place): string | null {
 function leadPais(place: Place): string | null {
   const ciudades = getChildren(place.slug).filter((c) => c.kind === "ciudad");
   if (!ciudades.length) return null;
-  // Se citan ciudades reales del catálogo, rotadas por hash para que dos países
-  // no abran con la misma terna.
-  const inicio = hashSlug(place.slug) % ciudades.length;
-  const muestra = [...ciudades.slice(inicio), ...ciudades.slice(0, inicio)]
+  // Las ciudades citadas son las de mayor actividad del país, no una ventana
+  // rotada por hash: con la rotación, España —que tiene 893— abría nombrando
+  // Capdepera, Andratx, Santa Margalida y Campos, cuatro pueblos de Mallorca
+  // seguidos en el array. Son salas reales, pero como muestra de un país entero
+  // no dicen nada y transmiten justo lo contrario de lo que se pretende.
+  const muestra = [...ciudades]
+    .sort((a, b) => b.users - a.users)
     .slice(0, 4)
     .map((c) => c.name);
   const provincias = new Set(ciudades.map((c) => c.provincia).filter(Boolean));
@@ -188,23 +230,26 @@ function leadPais(place: Place): string | null {
 }
 
 function leadTematica(place: Place): string | null {
-  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const { principal, otros } = canalesDe(place);
   const relacionadas = getRelated(place.related)
     .filter((r) => r.kind === "tematica")
     .slice(0, 3)
     .map((r) => r.name);
   const partes: string[] = [];
 
-  // Los canales son los reales del servidor (src/data/irc-real-channels.ts):
-  // decir a cuál entra cada sala es información útil y distinta por sala.
-  if (canales.length) {
-    const conAlmohadilla = canales.map((c) => `#${c}`);
+  // Solo se afirma lo que consta en el catálogo: a qué canales conecta la sala.
+  // Las versiones anteriores decían cosas como "donde suele haber gente a
+  // cualquier hora" o "no es un canal vacío esperando al primero que llegue":
+  // suenan bien y no las sostiene ningún dato — no hay analítica de ocupación
+  // por canal. Un dato inventado en 500 páginas es peor que una frase menos.
+  if (principal) {
+    const todos = [principal, ...otros].map((c) => `#${c}`);
     partes.push(
       variante(
         [
-          `Al entrar, la sala conecta con ${enumerar(conAlmohadilla)} del servidor, así que la conversación viene ya empezada.`,
-          `Detrás de ${place.name} están los canales ${enumerar(conAlmohadilla)}, donde suele haber gente a cualquier hora.`,
-          `La sala vuelca sobre ${enumerar(conAlmohadilla)}: no es un canal vacío esperando al primero que llegue.`,
+          `Al entrar, la sala abre ${enumerar(todos)} en el servidor.`,
+          `Detrás de ${place.name} están los canales ${enumerar(todos)}.`,
+          `La sala vuelca sobre ${enumerar(todos)}, todos con el mismo nick.`,
         ],
         place.slug,
       ),
@@ -215,9 +260,9 @@ function leadTematica(place: Place): string | null {
     partes.push(
       variante(
         [
-          `Quien entra aquí suele pasarse también por ${enumerar(relacionadas)}.`,
+          `Desde aquí se enlaza con ${enumerar(relacionadas)}.`,
           `Las salas más cercanas en temática son ${enumerar(relacionadas)}.`,
-          `Comparte público con ${enumerar(relacionadas)}.`,
+          `Está emparejada en el catálogo con ${enumerar(relacionadas)}.`,
         ],
         place.slug,
         1,
@@ -238,15 +283,30 @@ function leadTematica(place: Place): string | null {
  */
 export function roomBullets(place: Place): string[] {
   const bullets: string[] = [];
-  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const { principal, otros, propio } = canalesDe(place);
   const comunidad = comunidadDe(place);
   const hermanas = hermanasProvincia(place);
 
-  bullets.push(
-    canales.length
-      ? `Entras al canal #${place.slug} y, desde él, a ${enumerar(canales.map((c) => `#${c}`))}`
-      : `Entras directamente al canal #${place.slug} del servidor`,
-  );
+  if (principal) {
+    // Se distingue si la sala tiene canal propio o entra al de su zona. La
+    // mayoría de municipios pequeños no tienen canal: comparten el de su
+    // provincia o comunidad, y así está decidido a propósito para no partir a
+    // cuatro personas en cuatro canales vacíos. Decir "entras al canal
+    // #extremadura" sin más hacía pensar que la sala de Miajadas se había
+    // equivocado de sitio; explicarlo es más honesto y menos confuso.
+    const resto = otros.length ? `, y desde él a ${enumerar(otros.map((c) => `#${c}`))}` : "";
+    // "las salas de la zona" solo tiene sentido en geografía: la sala de Naruto
+    // entra a #anime, y eso no es una zona sino su categoría.
+    const compartido =
+      place.kind === "tematica"
+        ? `el canal que comparten las salas de su categoría`
+        : `el canal que comparten las salas de la zona`;
+    bullets.push(
+      propio
+        ? `Entras al canal propio de la sala, #${principal}${resto}`
+        : `Entras a #${principal}, ${compartido}${resto}`,
+    );
+  }
 
   if (place.kind === "ciudad") {
     if (place.provincia && hermanas.length) {
@@ -301,7 +361,7 @@ export function roomBullets(place: Place): string[] {
  */
 export function buildFaq(place: Place): { q: string; a: string }[] {
   const faq: { q: string; a: string }[] = [];
-  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const { principal, otros, propio } = canalesDe(place);
   const hermanas = hermanasProvincia(place);
   const comunidad = comunidadDe(place);
   const relacionadas = getRelated(place.related).slice(0, 4);
@@ -315,12 +375,20 @@ export function buildFaq(place: Place): { q: string; a: string }[] {
 
   // 2. A qué canal se entra: distinto en cada sala, y es lo que más pregunta
   //    quien viene de otro portal de chat.
-  faq.push({
-    q: `¿A qué canal entro desde la sala de ${place.name}?`,
-    a: canales.length
-      ? `Al canal #${place.slug}. La sala conecta además con ${enumerar(canales.map((c) => `#${c}`))}, así que puedes moverte entre ellos con el mismo nick sin volver a entrar.`
-      : `Al canal #${place.slug} del servidor. Eliges un nick de invitado en el recuadro de arriba y entras directamente, sin registro ni instalación.`,
-  });
+  if (principal) {
+    const extra = otros.length
+      ? ` La sala conecta además con ${enumerar(otros.map((c) => `#${c}`))}, así que puedes moverte entre ellos con el mismo nick sin volver a entrar.`
+      : ` Eliges un nick de invitado en el recuadro de arriba y entras directamente, sin registro ni instalación.`;
+    faq.push({
+      q: `¿A qué canal entro desde la sala de ${place.name}?`,
+      a:
+        (propio
+          ? `Al canal #${principal}, que es el propio de esta sala.`
+          : `A #${principal}. ${place.name} no tiene un canal solo para ella: comparte el ${
+              place.kind === "tematica" ? "de su categoría" : "de su zona"
+            }, que es donde está la conversación.`) + extra,
+    });
+  }
 
   // 3. Vecindario: respuesta con nombres reales del catálogo.
   if (place.kind === "ciudad" && hermanas.length) {
@@ -338,7 +406,11 @@ export function buildFaq(place: Place): { q: string; a: string }[] {
     if (ciudades.length)
       faq.push({
         q: `¿Qué ciudades de ${place.name} tienen sala propia?`,
-        a: `${ciudades.length} en total. Las tienes listadas más abajo en esta misma página, agrupadas para poder buscar la tuya; entre ellas ${enumerar(ciudades.slice(0, 5).map((c) => c.name))}.`,
+        // Mismas que cita el párrafo de contexto: las de mayor actividad, no
+        // las cinco primeras del array (que dependen del orden de carga).
+        a: `${ciudades.length} en total. Las tienes listadas más abajo en esta misma página, agrupadas para poder buscar la tuya; entre ellas ${enumerar(
+          [...ciudades].sort((a, b) => b.users - a.users).slice(0, 5).map((c) => c.name),
+        )}.`,
       });
   } else if (relacionadas.length >= 2) {
     faq.push({

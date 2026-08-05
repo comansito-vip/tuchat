@@ -5,7 +5,12 @@ import { resolveChannels } from "@/lib/channels";
 
 export const metadata: Metadata = {
   title: "Webchat",
+  // `noindex, follow`: la página no entra al índice pero sus enlaces sí se
+  // siguen. El canonical se declara igualmente porque la URL real siempre
+  // llega con `?canal=…&nick=…`, y sin él cada combinación de parámetros es
+  // una URL distinta que Google puede rastrear por separado.
   robots: { index: false, follow: true },
+  alternates: { canonical: "/webchat" },
 };
 
 export default async function WebchatPage({

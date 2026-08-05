@@ -76,7 +76,11 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
           {COLUMNS.map((col) => (
             <div key={col.heading}>
-              <h3 className="text-sm font-bold text-ink mb-3">{col.heading}</h3>
+              {/* h2, no h3: el footer va detrás del contenido de la página, y en
+                  las que solo tienen un h1 (contacto, la 404) un h3 producía un
+                  salto h1→h3. Las columnas son secciones hermanas de las del
+                  cuerpo, así que h2 es además el nivel semánticamente correcto. */}
+              <h2 className="text-sm font-bold text-ink mb-3">{col.heading}</h2>
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={`${col.heading}-${link.label}`}>

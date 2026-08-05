@@ -18,7 +18,9 @@ import { getStats } from "@/data";
  */
 
 export const metadata: Metadata = {
-  title: "Cómo funciona el chat: entrar sin registro y chatear seguro",
+  // El template del layout añade " · TuChat": con el título largo se pasaba de
+  // los 60 caracteres que se respetan en todo el sitio.
+  title: "Cómo funciona el chat: entrar y chatear seguro",
   description:
     "Cómo entrar a las salas de TuChat sin registrarse, qué es el nick de invitado, cómo moverse entre canales y qué precauciones tomar al hablar con desconocidos.",
   alternates: { canonical: "/como-funciona" },

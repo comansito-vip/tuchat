@@ -1,6 +1,6 @@
 import { it, expect, describe } from "vitest";
 import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "@/app/chat/[slug]/copy";
-import { getPlace, getNews } from "@/data";
+import { getPlace, getNews, getCountries, getCities, getTopics } from "@/data";
 
 describe("chat room copy", () => {
   it("builds breadcrumbs Inicio > España > Madrid for a city", () => {
@@ -78,6 +78,48 @@ describe("chat room copy", () => {
     expect(madrid[0]).toContain("#madrid");
     expect(roomBullets(getPlace("espana")!).length).toBeGreaterThanOrEqual(3);
     expect(roomBullets(getPlace("amor")!).length).toBeGreaterThanOrEqual(2);
+  });
+});
+
+/**
+ * El copy nombra canales reales del servidor, no el slug de la sala.
+ *
+ * En 2.395 de las 2.547 salas `channels[0]` NO coincide con el slug: `espana`
+ * entra a #españa, `estados-unidos` a #usa, `belice` a #internacional y
+ * `mas-de-30` a #mas_de_30. Una primera versión daba por hecho que el canal se
+ * llamaba como el slug y anunciaba canales inexistentes en el 94% del catálogo.
+ */
+describe("el copy nombra los canales que existen de verdad", () => {
+  it("usa channels[0], no el slug", () => {
+    // belice entra a #internacional; su slug no es ningún canal.
+    const belice = getPlace("belice")!;
+    const texto = [...roomBullets(belice), ...buildFaq(belice).map((f) => f.a)].join(" ");
+    expect(texto).toContain(`#${belice.channels[0]}`);
+    expect(texto).not.toContain("#belice");
+  });
+
+  it("no anuncia canal propio cuando la sala comparte el de su zona", () => {
+    const belice = getPlace("belice")!;
+    expect(roomBullets(belice)[0]).toContain("comparten las salas");
+  });
+
+  it("reconoce el canal propio aunque cambien tildes o guiones", () => {
+    // El slug es `espana` y el canal `españa`: es el mismo sitio, y decir que
+    // España "no tiene canal propio" era falso.
+    expect(roomBullets(getPlace("espana")!)[0]).toContain("canal propio");
+    expect(roomBullets(getPlace("mas-de-30")!)[0]).toContain("canal propio");
+  });
+
+  it("no describe la categoría de una temática como una zona geográfica", () => {
+    const naruto = getPlace("naruto")!;
+    expect(naruto.channels[0]).toBe("anime");
+    expect(roomBullets(naruto)[0]).toContain("su categoría");
+  });
+
+  it("ninguna sala repite un canal en su lista", () => {
+    for (const p of [...getCountries(), ...getCities(), ...getTopics()]) {
+      expect(new Set(p.channels).size, p.slug).toBe(p.channels.length);
+    }
   });
 });
 
