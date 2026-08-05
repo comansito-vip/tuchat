@@ -11,7 +11,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["amor", "amistad", "citas"],
-    related: ["amistad", "lgtbi", "horoscopo", "tarot", "madrid", "barcelona", "mas-de-40"],
+    related: ["amistad", "lgtbi", "horoscopo", "con-camara", "tarot", "madrid", "barcelona", "mas-de-40"],
     intro:
       "Chat para buscar pareja y conocer gente gratis sin registro. Primeras citas, rupturas y, a veces, algo especial que nace con alguien del chat.",
     about:
@@ -27,7 +27,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["amistad", "amigos", "ocio"],
-    related: ["amor", "lgtbi", "viajes", "madrid", "barcelona", "espana", "mas-de-30"],
+    related: ["amor", "lgtbi", "viajes", "whisper", "camioneros", "madrid", "barcelona", "espana", "mas-de-30"],
     intro:
       "Chat para hacer amigos gratis sin registro. Busca amigos para chatear, conoce gente nueva y forma grupos de habla hispana. Entra y empieza a hablar ahora mismo.",
     about:
@@ -106,7 +106,7 @@ export const TOPICS: Place[] = [
     tag: "Tendencia",
     activity: "Alta",
     channels: ["juegos", "amistad", "chatzona", "videojuegos"],
-    related: ["tecnologia", "cine", "musica", "deportes", "madrid", "barcelona"],
+    related: ["tecnologia", "cine", "musica", "frikinternet", "deportes", "madrid", "barcelona"],
     intro:
       "Partidas en curso, noticias del sector, builds imposibles y ese compañero que desaparece en el momento más crítico: todo tiene cabida en la sala de videojuegos.",
     about:
@@ -183,7 +183,7 @@ export const TOPICS: Place[] = [
     votes: 405,
     activity: "Media",
     channels: ["ocio", "amistad", "chatzona", "cocina"],
-    related: ["viajes", "salud", "amor", "espana", "mexico", "lima"],
+    related: ["viajes", "salud", "amor", "amas", "espana", "mexico", "lima"],
     intro:
       "Recetas de la abuela, experimentos fallidos y la guerra entre los que sofríen el ajo primero y los que lo echan al final. La cocina de España y Latinoamérica.",
     about:
@@ -245,7 +245,7 @@ export const TOPICS: Place[] = [
     tag: "Tendencia",
     activity: "Alta",
     channels: ["anime", "ocio"],
-    related: ["videojuegos", "cine", "musica", "tecnologia", "madrid", "barcelona"],
+    related: ["videojuegos", "cine", "musica", "frikinternet", "tecnologia", "madrid", "barcelona"],
     intro:
       "De la Shōnen Jump a los últimos estrenos de la temporada: se habla de sagas, se debaten finales y siempre hay alguien que lleva el manga un arco por delante.",
     about:
@@ -292,7 +292,7 @@ export const TOPICS: Place[] = [
     votes: 445,
     activity: "Media",
     channels: ["debates", "amistad", "chatzona", "politica"],
-    related: ["filosofia", "tecnologia", "espana", "mexico", "argentina", "colombia"],
+    related: ["filosofia", "tecnologia", "espana", "sendero-del-peje", "mexico", "argentina", "colombia"],
     intro:
       "Debates sobre actualidad, partidos, elecciones y todo lo que pasa en España y Latinoamérica. Se puede discrepar sin insultar, aunque no siempre se logra.",
     about:
@@ -308,7 +308,7 @@ export const TOPICS: Place[] = [
     tag: "Popular",
     activity: "Alta",
     channels: ["ligar", "amor", "citas"],
-    related: ["amor", "amistad", "lgtbi", "madrid", "barcelona", "espana"],
+    related: ["amor", "amistad", "lgtbi", "sapio", "camara", "foto", "madrid", "barcelona", "espana"],
     intro:
       "Chat para ligar gratis sin registro: la sala más activa para conocer gente y buscar pareja online. Presentaciones y más de 500 usuarios conectados ahora mismo.",
     about:
@@ -376,7 +376,7 @@ export const TOPICS: Place[] = [
     // acceso al servidor IRC en producción) — el resto son canales propios
     // con su tráfico y su gente, no alias de erotico.
     channels: ["sexo", "cibersexo", "chatzona", "erotico"],
-    related: ["sexo", "hot", "cibersexo", "bdsm", "adultos", "infieles"],
+    related: ["sexo", "hot", "cibersexo", "calentarg", "bdsm", "adultos", "infieles"],
     intro:
       "La sala más directa del sitio. Fantasías, conversaciones hot y todo lo que la imaginación permite: sin tabúes y entre mayores de edad.",
     about:

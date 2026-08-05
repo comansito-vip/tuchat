@@ -9503,7 +9503,7 @@ export const CITIES_WORLD: Place[] = [
     channels: ["tarragona", "cataluña", "españa", "chatzona"],
     related: ["cambrils", "tarragona", "reus", "vilanova-i-la-geltru", "barcelona", "espana"],
     intro:
-      "PortAventura, playa y el punto donde Jaume I embarcó hacia Mallorca.",
+      "PortAventura, la Platja de Llevant y el punto de la Costa Daurada desde el que Jaume I embarcó hacia Mallorca. Chat de Salou sin registro.",
     about:
       "Capital de las vacaciones de la Costa Daurada, Salou vive del mar y de PortAventura, el gran parque temático que atrae a millones de visitantes a sus puertas. La Platja de Llevant, el paseo Jaume I con su fuente luminosa y el Cap de Salou con sus calas dibujan la villa. Fue desde esta costa donde el rey Jaume I embarcó rumbo a la conquista de Mallorca en 1229, gesta que la villa recuerda con un monumento. Los salouencs conviven con una población que se dispara en verano, viven del turismo y mantienen, bajo los hoteles, retazos de pasado pesquero y una festa major muy veraniega frente al Mediterráneo.",
   },
@@ -25066,7 +25066,7 @@ export const CITIES_WORLD: Place[] = [
     parentName: "México",
     channels: ["mexico", "latinoamerica", "chatzona"],
     related: ["tepeaca", "los-reyes-de-juarez", "acajete", "mexico", "amistad"],
-    intro: "Chat de Acatzingo, con los portales más grandes del estado de Puebla.",
+    intro: "Chat de Acatzingo: los portales más extensos del estado de Puebla, junto al exconvento franciscano de San Juan Evangelista.",
     about: "Entre los volcanes Citlaltépetl y La Malinche, a unos 50 kilómetros de la capital poblana, Acatzingo de Hidalgo presume los portales más extensos de todo el estado, construidos junto al exconvento y parroquia de San Juan Evangelista, de arquitectura franciscana del siglo XVI. La fiesta de San Juan Evangelista se celebra el 27 de diciembre, pero la más vistosa es la de la Virgen de los Dolores, que entre el 5 y el 14 de septiembre llena casi ocho kilómetros de calles con alfombras de aserrín para la procesión final. El municipio tiene catorce barrios, cada uno con templo propio de entre los siglos XVI y XIX, y una población que es católica en más del 95 por ciento, algo que se nota en cada fecha del calendario.",
   },
   {
@@ -25321,7 +25321,7 @@ export const CITIES_WORLD: Place[] = [
     parentName: "México",
     channels: ["mexico", "latinoamerica", "chatzona"],
     related: ["ajalpan", "altepexi", "izucar-de-matamoros", "mexico", "amor"],
-    intro: "Chat de Zinacatepec, en la Reserva de la Biosfera Tehuacán-Cuicatlán.",
+    intro: "Chat de Zinacatepec, en la Reserva de la Biosfera Tehuacán-Cuicatlán, tierra de cactáceas y manantiales semitermales.",
     about: "El municipio de Zinacatepec forma parte de la Reserva de la Biosfera Tehuacán-Cuicatlán, uno de los territorios semiáridos con mayor diversidad de cactáceas del continente, y en su territorio hay manantiales semitermales como La Ciénaga, donde conviven mojarras, carpas, tortugas e iguanas. La fiesta patronal de San Sebastián mártir se celebra el 20 de enero, con dulces regionales, danzas y juegos mecánicos que llenan la cabecera, San Sebastián Zinacatepec. A 1,130 metros de altitud, en el sureste del valle de Tehuacán, la economía combina agricultura de maíz, jitomate y calabaza con la cría de cerdos y aves, y la cueva de El Coyotzin, con su canal de riego natural, sigue siendo lugar de día de campo para las familias del municipio.",
   },
   {
@@ -27896,7 +27896,7 @@ export const CITIES_WORLD: Place[] = [
     provincia: "Neuquén",
     channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["san-martin-de-los-andes", "bariloche", "neuquen", "argentina", "naturaleza", "viajes"],
-    intro: "Capital nacional de la trucha, sobre el río Chimehuín y la Ruta 40.",
+    intro: "Capital nacional de la trucha, sobre el río Chimehuín y la Ruta 40: el chat de Junín de los Andes, en Neuquén.",
     about: "Junín de los Andes se levanta en la margen derecha del río Chimehuín, uno de los ríos con más fama entre los pescadores de mosca de toda la Patagonia, lo que le ganó a la ciudad el título de capital nacional de la trucha. El pueblo nació como puesto militar en 1883, durante la Campaña a los Andes, y tomó forma definitiva con la llegada del padre salesiano Domingo Milanesio en 1895, que instaló ahí una casa con colegios para la población mapuche de la zona. Con el tiempo la ganadería se afianzó tanto que la Sociedad Rural organiza una exposición todos los años desde 1933. Entre pescadores de mosca, changarines de estancia y la tradición ganadera que se exhibe cada año, Junín conserva ese aire de pueblo de frontera cordillerana.",
   },
   {
@@ -27944,7 +27944,7 @@ export const CITIES_WORLD: Place[] = [
     provincia: "Río Negro",
     channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["general-roca", "neuquen", "cinco-saltos", "argentina", "deportes", "viajes"],
-    intro: "Donde el Limay y el Neuquén se juntan para formar el río Negro.",
+    intro: "Donde el Limay y el Neuquén se juntan para formar el río Negro: la Cipo entra al chat, con todo el Alto Valle.",
     about: "Cipolletti, la Cipo para los que son de acá, está clavada justo donde el río Limay y el río Neuquén confluyen y dan nacimiento al río Negro. Es el municipio más extenso de toda la Patagonia, con más de 5200 km² de ejido, y junto a Neuquén capital y Plottier forma la primera zona metropolitana patagónica, que después se extendió hasta General Fernández Oro y Centenario. El paisaje de meseta árida y monte de jarillas rodea una ciudad que vive del comercio, los servicios y la fruticultura del Alto Valle. Entre el tránsito constante hacia Neuquén capital y la vida de barrio de siempre, Cipolletti tiene ese pulso doble de ciudad grande y pueblo del valle.",
   },
   {
@@ -28024,7 +28024,7 @@ export const CITIES_WORLD: Place[] = [
     provincia: "Río Negro",
     channels: ["argentina", "latinoamerica", "chatzona"],
     related: ["bariloche", "san-martin-de-los-andes", "argentina", "naturaleza", "viajes"],
-    intro: "Al pie del cerro Piltriquitrón, en la comarca andina del paralelo 42.",
+    intro: "Al pie del Piltriquitrón, entre el río Azul y el Quemquemtreu: el chat de El Bolsón y la comarca andina del paralelo 42.",
     about: "El Bolsón está metido en un valle de origen glaciar al pie del cerro Piltriquitrón, que en mapudungun significa colgado de las nubes, con los ríos Azul y Quemquemtreu cruzando el fondo del valle a apenas 315 metros sobre el nivel del mar. Es la ciudad más importante de la comarca andina del paralelo 42, una microrregión de montañas, bosques y lagos que se extiende también hacia Chubut. El clima acá es mediterráneo fresco, con inviernos de heladas frecuentes y veranos templados y soleados que explican por qué tanta gente elige mudarse a vivir a este valle rodeado de cordillera. Entre los que llegaron hace décadas buscando otro ritmo de vida y los que nacieron entre estos cerros, la comarca sigue atrayendo a gente de todo el país.",
   },
   {

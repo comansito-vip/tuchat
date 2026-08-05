@@ -212,14 +212,15 @@ console.log("\n## 4. Plantilla con hueco (lo que ve Google como página puerta)"
 console.log("\n## 5. Cobertura de contenido");
 {
   const sinAbout = rooms.filter((p) => !p.about);
-  const introCorta = rooms.filter((p) => p.intro.split(/\s+/).length < 15);
   const aboutCorto = rooms.filter((p) => p.about && p.about.split(/\s+/).length < 60);
   if (sinAbout.length)
     aviso(`${sinAbout.length} salas sin \`about\` (solo intro): ${sinAbout.slice(0, 8).map((p) => p.slug).join(", ")}${sinAbout.length > 8 ? "…" : ""}`);
   else ok("todas las salas tienen about");
-  if (introCorta.length)
-    aviso(`${introCorta.length} intros de menos de 15 palabras: ${introCorta.slice(0, 8).map((p) => p.slug).join(", ")}`);
-  else ok("ninguna intro por debajo de 15 palabras");
+  // La longitud de la intro NO se mide en palabras: sirve de meta description,
+  // así que lo que cuenta son caracteres y eso se comprueba en el apartado 7.
+  // Contarlas en palabras señalaba 115 intros perfectamente buenas —"Chat de
+  // Cuautlancingo, donde arranca la línea de Volkswagen en Puebla"— por el
+  // delito de ser densas y no verbosas.
   if (aboutCorto.length)
     aviso(`${aboutCorto.length} about de menos de 60 palabras: ${aboutCorto.slice(0, 8).map((p) => p.slug).join(", ")}`);
   else ok("ningún about por debajo de 60 palabras");
@@ -234,17 +235,27 @@ console.log("\n## 6. Enlazado interno");
   if (rotos.length) aviso(`${rotos.length} enlaces \`related\` a slugs inexistentes: ${rotos.slice(0, 10).join(", ")}${rotos.length > 10 ? "…" : ""}`);
   else ok("todos los `related` apuntan a salas existentes");
 
-  // Una sala es alcanzable si otra la enlaza en `related` o si cuelga de un
-  // padre (las ciudades se listan en la página de su país/región).
-  const entrantes = new Set<string>();
+  // Huérfana de verdad no hay ninguna: /chat lista el catálogo completo, así
+  // que toda sala tiene al menos ese enlace. Lo que se mide aquí es otra cosa
+  // y más útil: cuántas salas NO reciben ningún enlace CONTEXTUAL —desde el
+  // `related` de otra sala, desde su padre o desde su comunidad autónoma— y
+  // por tanto solo se alcanzan desde un índice de cientos de enlaces, donde
+  // el reparto de autoridad interna es prácticamente nulo y el rastreo, lento.
+  const contextuales = new Set<string>();
   for (const p of rooms) {
-    for (const r of p.related) entrantes.add(r);
-    if (p.parentSlug) entrantes.add(p.slug);
+    for (const r of p.related) contextuales.add(r);
+    // El hijo aparece listado en la página de su padre.
+    if (p.parentSlug) contextuales.add(p.slug);
+    // RoomInfoPanel enlaza cada ciudad con su comunidad autónoma.
+    if (p.regionSlug) contextuales.add(p.regionSlug);
   }
-  const huerfanas = rooms.filter((p) => !entrantes.has(p.slug));
-  if (huerfanas.length)
-    aviso(`${huerfanas.length} salas huérfanas (sin enlaces entrantes, solo sitemap): ${huerfanas.slice(0, 12).map((p) => p.slug).join(", ")}${huerfanas.length > 12 ? "…" : ""}`);
-  else ok("ninguna sala huérfana");
+  const sinContexto = rooms.filter((p) => !contextuales.has(p.slug));
+  if (sinContexto.length)
+    aviso(
+      `${sinContexto.length} salas sin ningún enlace contextual (solo se llega por el índice de /chat): ` +
+        `${sinContexto.slice(0, 12).map((p) => p.slug).join(", ")}${sinContexto.length > 12 ? "…" : ""}`,
+    );
+  else ok("todas las salas reciben algún enlace contextual");
 }
 
 console.log("\n## 7. Metadatos que llegan al HTML");
