@@ -16,7 +16,8 @@
     "generate:rooms": "npx tsx scripts/generate-room-content.ts",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "auditar:html": "node scripts/content/auditar-html.mjs",
-    "llms:full": "npx tsx scripts/content/generar-llms-full.ts"
+    "llms:full": "npx tsx scripts/content/generar-llms-full.ts",
+    "cf:purge": "node scripts/cloudflare-purge.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
