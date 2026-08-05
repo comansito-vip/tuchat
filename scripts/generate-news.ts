@@ -19,6 +19,7 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
+import { detectarMuletillas, aperturaNormalizada } from "../src/lib/content/muletillas";
 
 // Carga .env.local a mano (sin dep de dotenv): útil en local; en CI las
 // variables ya vienen del entorno (GitHub Actions secrets) y esto no hace nada.
@@ -241,9 +242,15 @@ const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }
 // Mismos límites que exige data.test.ts (excerpt ≤160, body ≥400 palabras):
 // un modelo gratuito que ignore el prompt no debe colar contenido que rompe
 // las reglas del sitio — se descarta la pieza en vez de escribirla.
+//
+// Las muletillas van aquí y no solo en el prompt porque el prompt ya las
+// prohibía y aun así llegaron a publicarse: "en definitiva" en 31 artículos,
+// "en la era digital" en 7. Los proveedores gratuitos de la cadena de respaldo
+// ignoran esa parte de la instrucción, así que la única barrera fiable es esta.
 function passesQualityBar(item: GeneratedItem): boolean {
   const words = item.body.trim().split(/\s+/).filter(Boolean).length;
-  return item.excerpt.length <= 160 && words >= 400;
+  if (item.excerpt.length > 160 || words < 400) return false;
+  return detectarMuletillas(`${item.title} ${item.excerpt} ${item.body}`).length === 0;
 }
 
 async function generateCategory(category: string): Promise<GeneratedItem[]> {
@@ -371,7 +378,11 @@ async function main() {
   // compartan excerpt o la misma apertura de cuerpo (100 primeros caracteres).
   // Distintos modelos/días convergen a veces en el mismo tema y la misma frase
   // inicial (p.ej. varias columnas de "economía circular"): se descarta la nueva.
-  const opening = (n: NewsItem) => (n.body ? n.body.trim().slice(0, 100) : "");
+  // Apertura por palabras normalizadas, no por los 100 primeros caracteres:
+  // "En los últimos años, la IA ha dejado de…" y "…ha pasado de…" difieren
+  // dentro de esos 100 caracteres y son el mismo arranque. Con el criterio
+  // viejo se colaron tres pares de columnas que abrían igual.
+  const opening = (n: NewsItem) => (n.body ? aperturaNormalizada(n.body) : "");
   const seenExcerpts = new Set(existing.map((n) => n.excerpt));
   const seenOpenings = new Set(existing.map(opening).filter(Boolean));
   const deduped = fresh.filter((n) => {

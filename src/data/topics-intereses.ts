@@ -46,7 +46,7 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "idiomas", parentName: "Idiomas",
     channels: ["internacional", "ocio"],
     related: ["idiomas", "ingles", "intercambioidiomas", "tecnologia", "viajes"],
-    intro: "Hallo: practica alemán sin agobios. Casos, declinaciones, palabras kilométricas y trucos para el examen. Te esperamos dentro.",
+    intro: "Hallo: practica alemán sin agobios. Casos, declinaciones, palabras kilométricas y trucos para el examen.",
     about: "Hace falta valor para enfrentarse al alemán y a sus famosos casos, y aquí lo tenemos de sobra. Se desentraña el dativo y el acusativo, se aprende a no asustarse con esas palabras compuestas de veinte letras y se practica la pronunciación de la ü y la ch. Vienen alemanes, austriacos y suizos con ganas de ayudar, junto a estudiantes que preparan el Goethe-Zertifikat o que se mudan a Berlín o Múnich por trabajo. Se comparten recursos, pódcasts, series y trucos de memoria para los artículos der, die y das. Un ambiente paciente donde el idioma más temido se vuelve, poco a poco, mucho más amable de lo que parecía.",
   },
   {
@@ -210,7 +210,7 @@ export const TOPICS_INTERESES: Place[] = [
     parentSlug: "religion", parentName: "Religión",
     channels: ["religion", "cristianos", "cristiano"],
     related: ["religion", "cristianos", "oracion", "biblia", "fe"],
-    intro: "Comunidad católica: misa, sacramentos, santos, el rosario y la vida de fe. Para compartir y crecer como Iglesia. Te esperamos dentro.",
+    intro: "Comunidad católica: misa, sacramentos, santos, el rosario y la vida de fe. Para compartir y crecer como Iglesia.",
     about: "Vivir la fe en comunión con la Iglesia: a eso vienen aquí los católicos. La misa dominical, los sacramentos, la devoción a la Virgen y a los santos, el rosario y los tiempos litúrgicos como el Adviento y la Cuaresma centran la conversación. Se comentan las lecturas del día, las palabras del Papa y cómo llevar el Evangelio a la vida concreta. Coinciden practicantes de toda la vida, quienes regresan tras un tiempo alejados y jóvenes que redescubren la tradición. El tono es respetuoso y fraterno, fiel a la doctrina pero abierto a las dudas sinceras. Crecer en la fe, rezar juntos y sentirse parte de una Iglesia universal: de eso se trata, sin más.",
   },
   {
@@ -1198,7 +1198,7 @@ export const TOPICS_INTERESES: Place[] = [
     channels: ["amor", "amistad"],
     related: ["amor", "encontraramor", "citas", "ligar", "romance"],
     intro: "Chat para buscar pareja: conoce gente con ganas de algo serio, sin apps de pago ni postureo. Encuentra el amor, gratis y sin registro.",
-    about: "Ven con la intención clara de conocer a alguien con quien construir algo serio, sin las prisas ni el postureo de las apps de citas. Lo que cada uno busca, los valores, los planes de vida y esa química que no se fabrica pero se nota son tema central. Se mezclan personas de distintas edades cansadas de relaciones que no llegan a nada y con ganas de encontrar a la persona adecuada. No hay algoritmos ni suscripciones: solo conversación honesta entre gente que busca lo mismo. Conócete sin filtros, da el primer paso y, quizá, empieza la historia que llevabas tiempo esperando.",
+    about: "Ven con la intención clara de conocer a alguien con quien construir algo serio, sin las prisas ni el postureo de las apps de citas. Lo que cada uno busca, los valores, los planes de vida y esa química que no se fabrica pero se nota son tema central. Se mezclan personas de distintas edades cansadas de relaciones que no llegan a nada y con ganas de encontrar a la persona adecuada. No hay algoritmos ni suscripciones: solo conversación honesta entre gente que busca lo mismo. Aquí nadie desliza una foto: se escribe, se responde y se ve en un rato si hay conversación o no la hay.",
   },
   {
     slug: "encontraramor", name: "Encontrar el Amor", kind: "tematica", icon: "💖",

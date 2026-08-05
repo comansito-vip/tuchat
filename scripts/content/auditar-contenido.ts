@@ -27,6 +27,7 @@
 import { getCities, getCountries, getTopics, roomTitle, getNews } from "../../src/data/index";
 import { buildFaq, roomBullets, aboutLead } from "../../src/app/chat/[slug]/copy";
 import type { Place } from "../../src/data/types";
+import { detectarMuletillas, aperturaNormalizada } from "../../src/lib/content/muletillas";
 
 const VERBOSE = process.argv.includes("--verbose");
 const MAX = (() => {
@@ -76,50 +77,11 @@ function listar(grupos: Map<string, unknown[]>, etiqueta: (x: never) => string):
 
 // ─────────────────────────── Muletillas ───────────────────────────
 
-/**
- * Huella dactilar del texto generado por un LLM. La lista es deliberadamente
- * conservadora: solo expresiones que en prosa humana sobre un chat no aparecen
- * casi nunca, para que un positivo signifique algo.
- */
-const MULETILLAS = [
-  "sumergete",
-  "sumergirte",
-  "descubre un mundo",
-  "el lugar perfecto para",
-  "el sitio perfecto para",
-  "ya seas",
-  "no importa si eres",
-  "en el mundo de hoy",
-  "en la era digital",
-  "punto de encuentro ideal",
-  "todo un mundo de",
-  "joya escondida",
-  "no te lo puedes perder",
-  "no dudes en",
-  "que esperas para",
-  "atreverse a dar el paso",
-  "abanico de posibilidades",
-  "sin lugar a dudas",
-  "cabe destacar",
-  "en definitiva",
-  "en resumen",
-  "es importante recordar",
-  "vale la pena mencionar",
-  "una experiencia unica",
-  "experiencia inolvidable",
-  "amplia variedad de",
-  "gran variedad de",
-  "te esperamos",
-  "unete a la conversacion",
-  "da el primer paso",
-];
-
 function buscarMuletillas(textos: { id: string; texto: string }[]): void {
   const hits = new Map<string, string[]>();
   for (const { id, texto } of textos) {
-    const n = norm(texto);
-    for (const m of MULETILLAS) {
-      if (n.includes(m)) (hits.get(m) ?? hits.set(m, []).get(m)!).push(id);
+    for (const m of detectarMuletillas(texto)) {
+      (hits.get(m) ?? hits.set(m, []).get(m)!).push(id);
     }
   }
   if (!hits.size) return ok("sin muletillas de IA");
@@ -310,9 +272,9 @@ console.log("\n## 8. Noticias");
 {
   const dupT = colisiones(news, (n) => norm(n.title));
   const dupE = colisiones(news, (n) => norm(n.excerpt));
-  const dupA = colisiones(news, (n) =>
-    n.body ? norm(n.body).split(" ").slice(0, 10).join(" ") : null,
-  );
+  // Mismo criterio de apertura que usa el dedup del generador, para que lo que
+  // la auditoría señala sea exactamente lo que el cron sabe evitar.
+  const dupA = colisiones(news, (n) => (n.body ? aperturaNormalizada(n.body) : null));
   if (dupT.size) { aviso(`${dupT.size} títulos de noticia repetidos`); listar(dupT, (n: { slug: string }) => n.slug); } else ok("títulos únicos");
   if (dupE.size) { aviso(`${dupE.size} extractos repetidos`); listar(dupE, (n: { slug: string }) => n.slug); } else ok("extractos únicos");
   if (dupA.size) { aviso(`${dupA.size} aperturas de cuerpo repetidas`); listar(dupA, (n: { slug: string }) => n.slug); } else ok("aperturas de cuerpo únicas");
