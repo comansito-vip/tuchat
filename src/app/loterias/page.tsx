@@ -20,7 +20,7 @@ import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/
 export const metadata: Metadata = {
   title: "Loterías y sorteos por país: resultados",
   description:
-    "Resultados de las loterías de España y América Latina: Primitiva, Euromillones, Melate, Quini 6, Baloto, Loto de Chile y los sorteos de cada país, con sus números premiados.",
+    "Resultados de las loterías de España y América Latina: Primitiva, Euromillones, Melate, Quini 6, Baloto y los sorteos de cada país.",
   alternates: { canonical: "/loterias" },
   openGraph: { ...OG_BASE, url: "/loterias" },
 };

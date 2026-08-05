@@ -14,7 +14,8 @@
     "curar": "npx tsx scripts/cron/curacion-contenido.ts --aplicar",
     "auditar": "npx tsx scripts/content/auditar-contenido.ts",
     "generate:rooms": "npx tsx scripts/generate-room-content.ts",
-    "indexnow": "node scripts/indexnow-submit.mjs"
+    "indexnow": "node scripts/indexnow-submit.mjs",
+    "auditar:html": "node scripts/content/auditar-html.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
