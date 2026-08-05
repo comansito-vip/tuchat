@@ -60,16 +60,31 @@ function formatDate(iso: string) {
   });
 }
 
+/**
+ * Cuántos artículos lista la portada.
+ *
+ * El índice mostraba el archivo entero. Con 337 piezas eso son 337 tarjetas con
+ * su imagen, y la página pesaba 1,59 MB: nadie baja hasta la número 300, y para
+ * Google es presupuesto de rastreo gastado en una sola URL. Ninguno queda
+ * descolgado por acotarla — /noticias/{categoria} sigue listando su categoría
+ * completa, sin límite, y las pastillas de categoría están arriba del todo.
+ */
+const EN_PORTADA = 48;
+
 export default function NoticiasPage() {
   const allNews = getNews();
   const featured = allNews.find((n) => n.featured);
-  const rest = allNews.filter((n) => !n.featured);
+  const rest = allNews.filter((n) => !n.featured).slice(0, EN_PORTADA - 1);
+  const enArchivo = allNews.length - rest.length - (featured ? 1 : 0);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
       <JsonLd data={collectionJsonLd("Noticias", "/noticias")} />
       <JsonLd data={faqJsonLd(FAQ)} />
-      <JsonLd data={articleListJsonLd(allNews)} />
+      {/* El ItemList describe lo que hay en ESTA página, no el archivo entero:
+          con las 337 piezas eran ~90 KB de JSON-LD, repetidos además en el
+          payload de React, para anunciar artículos que la página no muestra. */}
+      <JsonLd data={articleListJsonLd([...(featured ? [featured] : []), ...rest])} />
       <Breadcrumbs crumbs={crumbs} />
       <h1 className="mt-4 text-3xl font-extrabold text-ink">Noticias y actualidad</h1>
       <p className="mt-2 max-w-2xl text-muted">
@@ -152,6 +167,24 @@ export default function NoticiasPage() {
           </Link>
         ))}
       </div>
+
+      {enArchivo > 0 && (
+        <p className="mt-8 text-sm text-muted">
+          Hay {enArchivo} artículos más en el archivo. Se llega a ellos por categoría:{" "}
+          {CATEGORIES.map((cat, i) => (
+            <span key={cat.slug}>
+              {i > 0 && " · "}
+              <Link
+                href={`/noticias/${cat.slug}`}
+                className="font-semibold text-blue hover:underline"
+              >
+                {cat.label}
+              </Link>
+            </span>
+          ))}
+          .
+        </p>
+      )}
 
       <div className="mt-12">
         <FAQBlock items={FAQ} />
