@@ -38,14 +38,27 @@ jobs:
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
         run: npm run generate:news
 
+      # Va aquí, encadenada y no en un cron aparte, por dos motivos. Uno: el
+      # momento en que el contenido puede haberse degradado es justo el que
+      # acaba de pasar, así que se cura lo recién escrito. Dos: el checkout del
+      # VPS se sincroniza con `git reset --hard origin/main` en cada deploy y no
+      # tiene credenciales de push, de modo que un cron de curación allí
+      # perdería su commit; aquí el workflow ya tiene permiso de escritura.
+      # `continue-on-error`: la curación sale con 1 cuando la auditoría deja
+      # avisos que necesitan criterio humano. Eso es información, no un fallo
+      # del pipeline, y no debe impedir que se publiquen las noticias del día.
+      - name: Curar contenido (duplicados, muletillas, auditoría)
+        continue-on-error: true
+        run: npm run curar
+
       - name: Commitear cambios
         run: |
-          if [[ -n "$(git status --porcelain src/data/news.ts)" ]]; then
+          if [[ -n "$(git status --porcelain src/data)" ]]; then
             git config user.name "tuchat-bot"
             git config user.email "bot@tuchat.org"
-            git add src/data/news.ts
-            git commit -m "chore: regenerar noticias diarias"
+            git add src/data
+            git commit -m "chore: noticias diarias y curación de contenido"
             git push
           else
-            echo "Sin cambios en news.ts"
+            echo "Sin cambios en src/data"
           fi

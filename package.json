@@ -11,6 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "generate:news": "npx tsx scripts/generate-news.ts",
+    "curar": "npx tsx scripts/cron/curacion-contenido.ts --aplicar",
+    "auditar": "npx tsx scripts/content/auditar-contenido.ts",
     "generate:rooms": "npx tsx scripts/generate-room-content.ts",
     "indexnow": "node scripts/indexnow-submit.mjs"
   },

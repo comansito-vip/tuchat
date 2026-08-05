@@ -28,6 +28,13 @@ import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 
 const APLICAR = process.argv.includes("--aplicar");
+// El commit es opt-in y no va con --aplicar por una razón concreta: el checkout
+// del VPS se sincroniza con `git reset --hard origin/main` en cada deploy y no
+// tiene credenciales de push, así que un commit hecho ahí se perdería sin dejar
+// rastro. El sitio natural para commitear es el workflow de GitHub Actions, que
+// ya tiene permiso de escritura; por eso este script se limita a dejar el árbol
+// reparado y es quien lo invoca el que decide qué hacer con los cambios.
+const COMMIT = process.argv.includes("--commit");
 const RAIZ = join(import.meta.dirname, "../..");
 
 function correr(titulo: string, script: string, args: string[] = []): number {
@@ -68,18 +75,22 @@ if (APLICAR) {
   }).trim();
 
   if (!sucio) {
-    console.log("Sin cambios que commitear: el contenido ya estaba limpio.");
+    console.log("Sin cambios: el contenido ya estaba limpio.");
   } else {
     console.log(sucio);
-    // Se commitea solo src/data: si alguien está trabajando en el repo del VPS
-    // (o el deploy dejó el sitemap regenerado sin commitear), no se arrastra.
-    execFileSync("git", ["add", "src/data"], { cwd: RAIZ });
-    execFileSync(
-      "git",
-      ["commit", "-m", `chore(contenido): curación semanal automática (${sello})`],
-      { cwd: RAIZ, stdio: "inherit" },
-    );
-    console.log("\nCommit hecho. El deploy de las 05:30 lo recogerá y publicará.");
+    if (COMMIT) {
+      // Solo src/data: si el árbol trae además el sitemap regenerado por un
+      // build previo, no se arrastra en el mismo commit.
+      execFileSync("git", ["add", "src/data"], { cwd: RAIZ });
+      execFileSync(
+        "git",
+        ["commit", "-m", `chore(contenido): curación automática (${sello})`],
+        { cwd: RAIZ, stdio: "inherit" },
+      );
+      console.log("\nCommit hecho.");
+    } else {
+      console.log("\n(cambios sin commitear; usa --commit si quieres que los registre)");
+    }
   }
 }
 
