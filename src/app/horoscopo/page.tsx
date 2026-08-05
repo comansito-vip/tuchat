@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getSigns, type Element } from "@/data/horoscopo";
+import { getSigns, type Element, type Quality } from "@/data/horoscopo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { FAQBlock } from "@/components/room/FAQBlock";
+import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 const ELEMENT_DOT: Record<Element, string> = {
@@ -13,6 +14,9 @@ const ELEMENT_DOT: Record<Element, string> = {
   Aire: "bg-sky-500",
   Agua: "bg-blue-500",
 };
+
+const ELEMENTOS: Element[] = ["Fuego", "Tierra", "Aire", "Agua"];
+const CUALIDADES: Quality[] = ["Cardinal", "Fijo", "Mutable"];
 
 export const metadata: Metadata = {
   title: "Horóscopo de hoy: los 12 signos del zodiaco",
@@ -75,13 +79,74 @@ export default function HoroscopoIndexPage() {
                 <p className="text-xs text-muted">{s.dates}</p>
                 <p className="mt-1 flex items-center gap-1.5 text-xs text-muted">
                   <span className={`inline-block h-2 w-2 rounded-full ${ELEMENT_DOT[s.element]}`} aria-hidden />
-                  {s.element}
+                  {s.element} · {s.planet}
                 </p>
               </div>
             </Card>
           </Link>
         ))}
       </div>
+
+      {/* Las dos clasificaciones clásicas del zodiaco. Son datos que el dataset
+          ya tenía (elemento, planeta regente, cualidad) y que la página no
+          usaba: sin ellas era un índice de doce enlaces con una entradilla, la
+          más pobre de las secciones. Además son la forma en que mucha gente
+          busca —"signos de fuego", "signos cardinales"— y no había una sola
+          página del sitio que respondiera a eso. */}
+      <SEOTextBlock title="Los cuatro elementos">
+        <p>
+          Cada signo pertenece a un elemento, y el elemento marca el temperamento de fondo: los de
+          fuego tiran de impulso, los de tierra de constancia, los de aire de ideas y los de agua de
+          intuición. Es la primera división que se aprende y la que más se usa para hablar de
+          afinidades, porque los signos del mismo elemento suelen entenderse sin explicarse.
+        </p>
+        <ul className="space-y-2">
+          {ELEMENTOS.map((el) => (
+            <li key={el}>
+              <span className="inline-flex items-center gap-1.5 font-semibold text-ink">
+                <span className={`inline-block h-2 w-2 rounded-full ${ELEMENT_DOT[el]}`} aria-hidden />
+                {el}:
+              </span>{" "}
+              {signs
+                .filter((s) => s.element === el)
+                .map((s, i, arr) => (
+                  <span key={s.slug}>
+                    <Link href={`/horoscopo/${s.slug}`} className="text-blue hover:underline">
+                      {s.name}
+                    </Link>
+                    {i < arr.length - 1 ? ", " : "."}
+                  </span>
+                ))}
+            </li>
+          ))}
+        </ul>
+      </SEOTextBlock>
+
+      <SEOTextBlock title="Cardinales, fijos y mutables">
+        <p>
+          La otra clasificación agrupa los signos por cómo se comportan ante el cambio. Los
+          cardinales abren cada estación y son los que empiezan las cosas; los fijos la sostienen y
+          aguantan cuando el resto afloja; los mutables la cierran y se adaptan a lo que venga. Cada
+          elemento tiene uno de cada, y de ahí salen las doce combinaciones del zodiaco.
+        </p>
+        <ul className="space-y-2">
+          {CUALIDADES.map((q) => (
+            <li key={q}>
+              <span className="font-semibold text-ink">{q}s:</span>{" "}
+              {signs
+                .filter((s) => s.quality === q)
+                .map((s, i, arr) => (
+                  <span key={s.slug}>
+                    <Link href={`/horoscopo/${s.slug}`} className="text-blue hover:underline">
+                      {s.name}
+                    </Link>
+                    {i < arr.length - 1 ? ", " : "."}
+                  </span>
+                ))}
+            </li>
+          ))}
+        </ul>
+      </SEOTextBlock>
 
       <FAQBlock items={FAQ} />
     </main>
