@@ -53,6 +53,15 @@ const FAQ = [
     q: "¿Puedo chatear con gente de Latinoamérica?",
     a: "Sí. TuChat tiene salas específicas para más de 20 países latinoamericanos y decenas de ciudades como Buenos Aires, Bogotá, Lima, Santiago, Ciudad de México y muchas más. También hay una sala internacional para hablar con hispanohablantes de todo el mundo.",
   },
+  {
+    // "Chat en línea" es como se dice en buena parte de América lo que en
+    // España se llama "chat online". Search Console registra las dos variantes
+    // con impresiones y ninguna aparecía en la web, así que la pregunta cubre
+    // un término real de búsqueda respondiendo algo que la gente pregunta de
+    // verdad, no metiéndolo a presión en un párrafo existente.
+    q: "¿El chat en línea funciona sin descargar nada?",
+    a: "Sí. Es un chat en línea que corre dentro del navegador: no hay programa que instalar ni complemento que activar, y da igual el sistema operativo. Se abre la sala, se escribe el nick y ya se está dentro, tanto desde el ordenador como desde el móvil.",
+  },
 ];
 
 export default async function HomePage() {

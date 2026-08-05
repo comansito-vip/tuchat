@@ -46,3 +46,6 @@ _brief/
 
 # Local votes store
 .data/
+
+# Generado en el postbuild a partir de src/data (2,3 MB): se reconstruye en cada build.
+public/llms-full.txt
