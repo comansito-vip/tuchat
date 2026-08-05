@@ -34,11 +34,31 @@ export async function generateMetadata({
   // Cundinamarca, tres Méridas...): sin cualificar, sus páginas de tiempo
   // emitían el mismo <title> y competían entre sí, igual que pasaba en /chat.
   const nombreSEO = place ? roomName(place) : nombre;
+
+  // La descripción sale de la previsión real, no de una plantilla. Antes las
+  // 1.965 páginas de /tiempo emitían la MISMA frase salvo el nombre, y son el
+  // 40% del sitemap: es exactamente el patrón que tenía /chat y que Google
+  // saldaba dejando las páginas en "Descubierta: actualmente sin indexar".
+  // El fetch no añade coste: `fetchWeather` usa `fetch` con revalidate 3600 y
+  // Next deduplica la misma petición que hace el cuerpo de la página.
+  const w = await fetchWeather(ciudad);
+  // "Madrid (Madrid)" no aporta nada: se omite el cualificador cuando repite el
+  // nombre de la ciudad, que pasa en toda capital de provincia homónima.
+  const candidato = place?.provincia ?? place?.parentName;
+  const ubicacion = candidato && candidato !== place?.name ? candidato : undefined;
+  const description = w
+    ? `${nombreSEO}${ubicacion ? ` (${ubicacion})` : ""}: ${Math.round(w.current.temp)}°C y ${wmoText(
+        w.current.weatherCode,
+      ).toLowerCase()} ahora, máxima de ${w.maxTemp}° y mínima de ${w.minTemp}°. Previsión a ${
+        w.forecast.length
+      } días con lluvia y viento.`
+    : `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`;
+
   return {
     // "Tiempo en X" y no "Previsión del tiempo en X": con el cualificador
     // detrás, el título largo se pasaba de los 60 caracteres que muestra Google.
     title: `Tiempo en ${nombreSEO}`,
-    description: `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
+    description,
     alternates: { canonical: `/tiempo/${ciudad}` },
     openGraph: { ...OG_BASE, url: `/tiempo/${ciudad}` },
   };
@@ -112,9 +132,13 @@ export default async function TiempoCiudadPage({
       <Breadcrumbs crumbs={crumbs} />
 
       <h1 className="mt-4 text-3xl font-extrabold text-ink">El tiempo en {nombreSEO}</h1>
+      {/* Entradilla con la observación real, no la misma frase en 1.965 páginas. */}
       <p className="mt-2 max-w-2xl text-muted">
-        Previsión meteorológica para {nombre}: temperaturas, lluvia, viento y condiciones para los
-        próximos días.
+        {w
+          ? `Ahora mismo ${Math.round(w.current.temp)}°C y ${wmoText(w.current.weatherCode).toLowerCase()} en ${nombre}${
+              parentName ? ` (${parentName})` : ""
+            }. Previsión a ${w.forecast.length} días con temperaturas, lluvia y viento, actualizada cada hora.`
+          : `Previsión meteorológica para ${nombre}: temperaturas, lluvia, viento y condiciones para los próximos días.`}
       </p>
 
       <WeatherWidget data={weatherData} nombre={nombre} />

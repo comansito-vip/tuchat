@@ -17,6 +17,20 @@ export const OG_BASE = {
   ],
 };
 
+/**
+ * Sube a 1200px de ancho la imagen que se declara en el schema del artículo.
+ *
+ * Las fotos se piden a Unsplash con `?w=800`, que es de sobra para la tarjeta y
+ * la cabecera, pero Google exige **al menos 1200px de ancho** en la imagen de un
+ * artículo para que pueda salir en resultados enriquecidos y en Discover. Se
+ * cambia solo el parámetro del JSON-LD: el `<img>` de la página sigue pidiendo
+ * el tamaño que necesita, así que no se descarga ni un byte de más.
+ */
+function imagenParaSchema(url?: string): string | undefined {
+  if (!url) return undefined;
+  return url.includes("w=800") ? url.replace("w=800", "w=1200") : url;
+}
+
 export interface Crumb { name: string; url: string; }
 
 export function breadcrumbJsonLd(crumbs: Crumb[]) {
@@ -78,7 +92,7 @@ export function articleJsonLd(a: {
     articleSection: a.category,
     inLanguage: "es",
     ...(wordCount !== undefined && { wordCount }),
-    image: [a.image ?? `${SITE}/opengraph-image`],
+    image: [imagenParaSchema(a.image) ?? `${SITE}/opengraph-image`],
     mainEntityOfPage: `${SITE}/noticias/articulo/${a.slug}`,
     author: { "@type": "Organization", name: "TuChat", url: SITE },
     publisher: {

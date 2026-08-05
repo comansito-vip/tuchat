@@ -52,8 +52,8 @@ const COLUMNS = [
     links: [
       { label: "Noticias en español", href: "/noticias" },
       { label: "Horóscopo de hoy", href: "/horoscopo" },
-      { label: "El tiempo en España", href: "/tiempo/madrid" },
-      { label: "Loterías y sorteos", href: "/loterias/espana" },
+      { label: "El tiempo por ciudades", href: "/tiempo" },
+      { label: "Loterías y sorteos", href: "/loterias" },
     ],
   },
   {
