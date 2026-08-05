@@ -4,6 +4,21 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 86400,
+    // La escala por defecto de Next llega a 3840px y, combinada con un `sizes`
+    // responsive, emite DIEZ anchos en el srcSet de cada <img>. En /noticias
+    // eso eran 421 imágenes × ~2,1 KB de srcSet = 902 KB, el 70% del HTML de
+    // una página que pesaba 2,24 MB. Nada de eso se usa: las tarjetas se
+    // muestran a 33vw como mucho (~640 px CSS) y las fotos vienen de Unsplash
+    // ya pedidas a `?w=800`, así que las variantes de 2048 y 3840 solo podían
+    // devolver un reescalado hacia arriba de una imagen de 800.
+    //
+    // Con esta escala el filtro de Next deja 6 anchos en lugar de 10. Importa
+    // más de lo que parece para el rastreo: el sitio es nuevo, tiene ~4.700
+    // URLs y Google mantiene casi todas en "Descubierta: actualmente sin
+    // indexar"; servir megabytes de srcSet inútil gasta presupuesto de rastreo
+    // que hace falta en otro sitio.
+    deviceSizes: [640, 828, 1080, 1920],
+    imageSizes: [64, 128, 256, 384],
     remotePatterns: [
       { protocol: "https", hostname: "flagcdn.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
