@@ -135,19 +135,18 @@ export default async function ChatRoomPage({
           {/* Block 1: Sobre el chat */}
           <SEOTextBlock title={`Sobre el chat de ${place.name}`}>
             <p>{aboutText}</p>
-            <p>{extraLead}</p>
+            {/* `aboutLead` devuelve null cuando la sala no tiene datos con los
+                que decir algo cierto: antes que un párrafo de relleno igual en
+                2.000 páginas, ninguno. */}
+            {extraLead && <p>{extraLead}</p>}
           </SEOTextBlock>
 
-          {/* Block 2: Qué puedes encontrar */}
+          {/* Block 2: datos comprobables de la sala (canales reales, salas
+              hermanas de su provincia, comunidad). El párrafo introductorio
+              genérico que había aquí era uno de tres textos fijos repartidos
+              entre las 2.547 salas; se retiró porque no aportaba nada que no
+              dijeran ya los propios datos. */}
           <SEOTextBlock title="Qué puedes encontrar en esta sala">
-            <p>
-              {place.kind === "ciudad" &&
-                `Más que una sala de chat, es el punto de encuentro digital de ${place.name}. Aquí la gente no viene solo a pasar el rato: viene a conectar con alguien cercano.`}
-              {place.kind === "pais" &&
-                `Una sala con la diversidad y el volumen de un país entero. La conversación nunca para porque siempre hay alguien en una franja horaria diferente dispuesto a charlar.`}
-              {place.kind === "tematica" &&
-                `Una sala centrada en lo que importa: el tema. Sin ruido de fondo, sin conversaciones que se van por las ramas, solo gente con el mismo interés que tú.`}
-            </p>
             <ul className="space-y-2">
               {bullets.map((b) => (
                 <li key={b} className="flex items-start gap-2.5">
@@ -163,19 +162,19 @@ export default async function ChatRoomPage({
             </ul>
           </SEOTextBlock>
 
-          {/* Block 3: Consejos de seguridad (same across rooms, genuinely useful) */}
-          <SEOTextBlock title="Consejos para chatear con seguridad">
-            <p>
-              Chatear es sencillo y seguro si sigues unas normas básicas. Usa siempre tu nick de
-              invitado en lugar de tu nombre real, y nunca compartas datos personales como dirección,
-              teléfono o contraseñas con alguien que acabas de conocer.
-            </p>
-            <p>
-              Desconfía de enlaces que lleguen por chat, especialmente si te los envía alguien que
-              no conoces: pueden redirigirte a páginas maliciosas. Si ves comportamientos abusivos o
-              acoso, usa el botón de reporte para que los moderadores puedan actuar.
-            </p>
-          </SEOTextBlock>
+          {/* Los dos párrafos de consejos de seguridad que había aquí eran
+              idénticos en las 2.547 salas —ni siquiera llevaban el nombre— y
+              pesaban tanto como el texto propio de la página. Ahora viven una
+              sola vez en /como-funciona, que además puede posicionar por su
+              cuenta; la sala solo enlaza. */}
+          <p className="mt-8 text-sm text-muted">
+            ¿Primera vez en un chat así? En{" "}
+            <Link href="/como-funciona" className="font-semibold text-blue hover:underline">
+              cómo funciona el chat
+            </Link>{" "}
+            está explicado cómo entrar sin registro, qué es el nick de invitado y qué precauciones
+            conviene tomar al hablar con desconocidos.
+          </p>
 
           {/* Salas relacionadas (encima de noticias) */}
           {related.length > 0 && (

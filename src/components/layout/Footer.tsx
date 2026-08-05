@@ -59,6 +59,7 @@ const COLUMNS = [
   {
     heading: "Legal",
     links: [
+      { label: "Cómo funciona el chat", href: "/como-funciona" },
       { label: "Aviso legal", href: "/legal/aviso-legal" },
       { label: "Privacidad", href: "/legal/privacidad" },
       { label: "Cookies", href: "/legal/cookies" },

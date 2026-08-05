@@ -1,6 +1,22 @@
 import type { Place } from "@/data";
-import { getRelated } from "@/data";
+import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren } from "@/data";
 import type { Crumb } from "@/lib/seo";
+
+/**
+ * Copy de la landing de cada sala.
+ *
+ * REGLA DE ESTE FICHERO: cada frase que sale de aquí o bien se apoya en un dato
+ * real y propio de esa sala (su provincia, su comunidad, sus canales IRC, las
+ * salas hermanas que existen de verdad), o bien NO SE EMITE.
+ *
+ * El motivo no es estético. La versión anterior tenía tres moldes de texto que
+ * solo cambiaban el nombre —1.996 ciudades compartían el mismo párrafo y los
+ * mismos cuatro bullets— y Search Console lo reflejaba con crudeza: las salas
+ * estaban "Descubiertas: actualmente sin indexar", es decir, Google las conocía
+ * y decidía no indexarlas. Eso es la definición de página puerta. Preferimos
+ * menos texto y todo cierto: si a una sala le faltan datos, se le muestran
+ * menos bullets en lugar de rellenarlos con prosa intercambiable.
+ */
 
 export function buildRoomCrumbs(place: Place): Crumb[] {
   const crumbs: Crumb[] = [{ name: "Inicio", url: "/" }];
@@ -13,80 +29,323 @@ export function buildRoomCrumbs(place: Place): Crumb[] {
   return crumbs;
 }
 
-export function buildFaq(place: Place): { q: string; a: string }[] {
-  const relatedNames = getRelated(place.related)
-    .slice(0, 3)
-    .map((p) => p.name)
-    .join(", ");
-  return [
-    {
-      q: `¿El chat de ${place.name} es gratis?`,
-      a: `Sí. Entras sin registro, eliges un nick de invitado y empiezas a chatear al momento. No hay cuotas ni suscripción.`,
-    },
-    {
-      q: `¿Necesito instalar algo para chatear en ${place.name}?`,
-      a: `No. El chat funciona directamente en el navegador, en el móvil y en el ordenador. Sin descargas ni aplicaciones.`,
-    },
-    {
-      q: `¿De qué se habla en la sala de ${place.name}?`,
-      a: place.about ?? place.intro,
-    },
-    {
-      q: `¿Qué otras salas puedo visitar desde aquí?`,
-      a: `Desde la sección "Otras salas que te pueden gustar" puedes acceder a ${relatedNames || "salas relacionadas"} y muchas más. Todas son gratis y sin registro.`,
-    },
-  ];
-}
+// ───────────────────────── Utilidades ─────────────────────────
 
 /**
- * Returns a kind-specific extra sentence for the "Sobre el chat" SEO block.
- * Each branch produces distinct, human copy — not a fill-in-the-blank template.
+ * Hash estable del slug. Reparte las variantes de redacción de forma
+ * determinista: la misma sala escribe siempre igual (importante, porque el HTML
+ * se prerenderiza y no debe bailar entre builds), pero dos salas vecinas no
+ * comparten el molde sintáctico.
  */
-export function aboutLead(place: Place): string {
-  switch (place.kind) {
-    case "ciudad":
-      return (
-        `Si vives en ${place.name} o la visitas, esta sala es el sitio más rápido para encontrar ` +
-        `gente del barrio, preguntar sobre planes y conectar con alguien que conoce la ciudad tan bien como tú.`
-      );
-    case "pais":
-      return (
-        `Lo interesante de la sala de ${place.name} es que reúne acentos y costumbres de todas ` +
-        `sus regiones: cada conversación mezcla perspectivas que no encontrarías en una sola ciudad.`
-      );
-    case "tematica":
-      return (
-        `La sala de ${place.name} funciona porque no importa de dónde seas: lo que une a la gente ` +
-        `es el tema en sí, y eso hace las conversaciones más directas y más honestas.`
-      );
-  }
+function hashSlug(slug: string): number {
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) >>> 0;
+  return h;
 }
 
+function variante<T>(opciones: T[], slug: string, sal = 0): T {
+  return opciones[(hashSlug(slug) + sal) % opciones.length];
+}
+
+/** "A, B y C" — enumeración en español, con la conjunción al final. */
+function enumerar(nombres: string[]): string {
+  if (nombres.length <= 1) return nombres[0] ?? "";
+  return `${nombres.slice(0, -1).join(", ")} y ${nombres[nombres.length - 1]}`;
+}
+
+/** Salas hermanas de provincia, rotadas de forma estable por sala. */
+function hermanasProvincia(place: Place): Place[] {
+  const hermanas = getCitiesByProvincia(place);
+  if (!hermanas.length) return [];
+  // Sin la rotación, las 30 ciudades de una provincia citarían todas a las
+  // mismas tres vecinas (las primeras del array) y volveríamos a tener un
+  // bloque repetido, ahora dentro de cada provincia.
+  const inicio = hashSlug(place.slug) % hermanas.length;
+  return [...hermanas.slice(inicio), ...hermanas.slice(0, inicio)];
+}
+
+function comunidadDe(place: Place): Place | null {
+  return place.kind === "ciudad" && place.regionSlug ? getPlace(place.regionSlug) ?? null : null;
+}
+
+// ───────────────────── Párrafo de contexto ─────────────────────
+
 /**
- * Returns kind-specific bullet points for the "Qué puedes encontrar" SEO block.
+ * Segundo párrafo del bloque "Sobre el chat": sitúa la sala en su lugar real
+ * dentro del catálogo (provincia, comunidad, país, salas vecinas) para que
+ * quien llega desde Google entienda dónde está y por dónde seguir.
+ *
+ * Devuelve null cuando la sala no tiene datos con los que decir nada cierto: en
+ * ese caso la página muestra solo su `about`, que sí es propio.
+ */
+export function aboutLead(place: Place): string | null {
+  if (place.kind === "ciudad") return leadCiudad(place);
+  if (place.kind === "pais") return leadPais(place);
+  return leadTematica(place);
+}
+
+function leadCiudad(place: Place): string | null {
+  const comunidad = comunidadDe(place);
+  const hermanas = hermanasProvincia(place);
+  const vecinas = hermanas.slice(0, 3).map((c) => c.name);
+  const partes: string[] = [];
+
+  // 1. Encaje administrativo: provincia y comunidad son datos verificados del
+  //    dataset (padrón del INE para España), no una suposición del redactor.
+  if (place.provincia && comunidad) {
+    partes.push(
+      variante(
+        [
+          `${place.name} pertenece a la provincia de ${place.provincia}, en ${comunidad.name}.`,
+          `La sala cubre ${place.name} y su entorno, en la provincia de ${place.provincia} (${comunidad.name}).`,
+          `Administrativamente ${place.name} está en ${place.provincia}, dentro de ${comunidad.name}.`,
+        ],
+        place.slug,
+      ),
+    );
+  } else if (place.provincia && place.parentName) {
+    partes.push(
+      variante(
+        [
+          `${place.name} está en ${place.provincia}, ${place.parentName}.`,
+          `La sala corresponde a ${place.name}, en ${place.provincia} (${place.parentName}).`,
+          `${place.name} pertenece a ${place.provincia}, ${place.parentName}.`,
+        ],
+        place.slug,
+      ),
+    );
+  }
+
+  // 2. Vecindario real: cuántas salas hay al lado y cómo se llaman.
+  //    Las 575 ciudades sin provincia en el dataset (buena parte de América)
+  //    no pueden decir nada de su encaje administrativo, así que su vecindario
+  //    sale de `related`, que sí es distinto en 562 de ellas. Antes caían todas
+  //    en un "X es una de las salas de Y del portal" que no informaba de nada.
+  if (vecinas.length >= 2) {
+    const cuantas = hermanas.length;
+    partes.push(
+      variante(
+        [
+          `En la misma provincia hay ${cuantas} salas más —${enumerar(vecinas)}, entre otras— y se salta de una a otra sin volver a elegir nick.`,
+          `Cerca funcionan las salas de ${enumerar(vecinas)}; en total ${cuantas} de la misma provincia, todas con el mismo nick de invitado.`,
+          `Comparte provincia con otras ${cuantas} salas, ${enumerar(vecinas)} entre ellas, y el nick sirve para todas.`,
+        ],
+        place.slug,
+        1,
+      ),
+    );
+  } else if (comunidad) {
+    const enLaComunidad = getCitiesByRegion(comunidad.slug).length;
+    partes.push(
+      `Es una de las ${enLaComunidad} localidades de ${comunidad.name} con sala propia en el portal.`,
+    );
+  } else {
+    const ciudadesCerca = getRelated(place.related)
+      .filter((r) => r.kind === "ciudad")
+      .slice(0, 3)
+      .map((r) => r.name);
+    if (ciudadesCerca.length >= 2) {
+      partes.push(
+        variante(
+          [
+            `Desde aquí se pasa a las salas de ${enumerar(ciudadesCerca)} sin volver a elegir nick.`,
+            `Las salas con las que más gente comparte son ${enumerar(ciudadesCerca)}.`,
+            `${enumerar(ciudadesCerca)} son las salas más transitadas por quienes entran a esta.`,
+          ],
+          place.slug,
+          2,
+        ),
+      );
+    }
+  }
+
+  return partes.length ? partes.join(" ") : null;
+}
+
+function leadPais(place: Place): string | null {
+  const ciudades = getChildren(place.slug).filter((c) => c.kind === "ciudad");
+  if (!ciudades.length) return null;
+  // Se citan ciudades reales del catálogo, rotadas por hash para que dos países
+  // no abran con la misma terna.
+  const inicio = hashSlug(place.slug) % ciudades.length;
+  const muestra = [...ciudades.slice(inicio), ...ciudades.slice(0, inicio)]
+    .slice(0, 4)
+    .map((c) => c.name);
+  const provincias = new Set(ciudades.map((c) => c.provincia).filter(Boolean));
+
+  const encaje = provincias.size
+    ? `${ciudades.length} salas de ciudad repartidas por ${provincias.size} provincias`
+    : `${ciudades.length} salas de ciudad`;
+
+  return variante(
+    [
+      `Por debajo de esta sala cuelgan ${encaje}: ${enumerar(muestra)} y el resto están a un clic en el listado de abajo.`,
+      `${place.name} tiene ${encaje} en el portal —${enumerar(muestra)}, entre otras—, y esta sala es la que las reúne a todas.`,
+      `Esta es la sala general de ${place.name}; de ella dependen ${encaje}, como ${enumerar(muestra)}.`,
+    ],
+    place.slug,
+  );
+}
+
+function leadTematica(place: Place): string | null {
+  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const relacionadas = getRelated(place.related)
+    .filter((r) => r.kind === "tematica")
+    .slice(0, 3)
+    .map((r) => r.name);
+  const partes: string[] = [];
+
+  // Los canales son los reales del servidor (src/data/irc-real-channels.ts):
+  // decir a cuál entra cada sala es información útil y distinta por sala.
+  if (canales.length) {
+    const conAlmohadilla = canales.map((c) => `#${c}`);
+    partes.push(
+      variante(
+        [
+          `Al entrar, la sala conecta con ${enumerar(conAlmohadilla)} del servidor, así que la conversación viene ya empezada.`,
+          `Detrás de ${place.name} están los canales ${enumerar(conAlmohadilla)}, donde suele haber gente a cualquier hora.`,
+          `La sala vuelca sobre ${enumerar(conAlmohadilla)}: no es un canal vacío esperando al primero que llegue.`,
+        ],
+        place.slug,
+      ),
+    );
+  }
+
+  if (relacionadas.length >= 2) {
+    partes.push(
+      variante(
+        [
+          `Quien entra aquí suele pasarse también por ${enumerar(relacionadas)}.`,
+          `Las salas más cercanas en temática son ${enumerar(relacionadas)}.`,
+          `Comparte público con ${enumerar(relacionadas)}.`,
+        ],
+        place.slug,
+        1,
+      ),
+    );
+  }
+
+  return partes.length ? partes.join(" ") : null;
+}
+
+// ─────────────────── Bullets: hechos, no adjetivos ───────────────────
+
+/**
+ * Lista de datos comprobables de la sala. Antes eran cuatro frases de relleno
+ * idénticas en 2.000 páginas ("una comunidad que comparte tu interés sin
+ * juzgar"); ahora cada línea afirma algo que se puede verificar mirando el
+ * catálogo. Si un dato no existe para esa sala, esa línea no aparece.
  */
 export function roomBullets(place: Place): string[] {
-  switch (place.kind) {
-    case "ciudad":
-      return [
-        `Gente de los barrios de ${place.name} dispuesta a quedar o simplemente charlar`,
-        `Planes de fin de semana, recomendaciones de sitios y eventos locales`,
-        `Conversaciones sobre la vida cotidiana en la ciudad`,
-        `Nuevos contactos con quienes compartir el día a día`,
-      ];
-    case "pais":
-      return [
-        `Usuarios de todas las regiones y acentos de ${place.name}`,
-        `Debates sobre actualidad, cultura y costumbres del país`,
-        `Contactos de distintas ciudades con los que ampliar tu red`,
-        `Conversaciones que van desde lo cotidiano hasta lo más profundo`,
-      ];
-    case "tematica":
-      return [
-        `Debates y opiniones sobre ${place.name.toLowerCase()} desde distintos puntos de vista`,
-        `Recomendaciones, recursos y experiencias compartidas`,
-        `Una comunidad que comparte tu interés sin juzgar`,
-        `Conversaciones más abiertas que en cualquier red social`,
-      ];
+  const bullets: string[] = [];
+  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const comunidad = comunidadDe(place);
+  const hermanas = hermanasProvincia(place);
+
+  bullets.push(
+    canales.length
+      ? `Entras al canal #${place.slug} y, desde él, a ${enumerar(canales.map((c) => `#${c}`))}`
+      : `Entras directamente al canal #${place.slug} del servidor`,
+  );
+
+  if (place.kind === "ciudad") {
+    if (place.provincia && hermanas.length) {
+      bullets.push(
+        `Otras ${hermanas.length} salas de ${place.provincia}: ${enumerar(hermanas.slice(0, 4).map((c) => c.name))}…`,
+      );
+    } else {
+      // Sin provincia en el dataset, el vecindario sale de `related`: son
+      // ciudades reales del catálogo y distintas en casi todas las salas.
+      const cerca = getRelated(place.related)
+        .filter((r) => r.kind === "ciudad")
+        .slice(0, 4)
+        .map((r) => r.name);
+      if (cerca.length) bullets.push(`Salas cercanas en el portal: ${enumerar(cerca)}`);
+    }
+    if (comunidad) bullets.push(`Sala hermana de ${comunidad.name}, que agrupa a toda la comunidad`);
+    if (place.parentName) bullets.push(`Cuelga de la sala general de ${place.parentName}, con gente de todo el país`);
   }
+
+  if (place.kind === "pais") {
+    const ciudades = getChildren(place.slug).filter((c) => c.kind === "ciudad");
+    if (ciudades.length) bullets.push(`${ciudades.length} salas de ciudad propias dentro de ${place.name}`);
+    const provincias = new Set(ciudades.map((c) => c.provincia).filter(Boolean));
+    if (provincias.size)
+      bullets.push(`Cobertura de ${provincias.size} provincias o departamentos del país`);
+  }
+
+  if (place.kind === "tematica") {
+    const rel = getRelated(place.related).slice(0, 4).map((r) => r.name);
+    if (rel.length) bullets.push(`Enlazada con las salas de ${enumerar(rel)}`);
+    if (place.parentName) bullets.push(`Forma parte del bloque de ${place.parentName}`);
+  }
+
+  bullets.push(
+    `Sin registro: eliges un nick de invitado y entras; el mismo nick vale para el resto de salas`,
+  );
+
+  return bullets;
+}
+
+// ─────────────────────────── FAQ ───────────────────────────
+
+/**
+ * Preguntas frecuentes de la sala.
+ *
+ * Solo entran preguntas cuya RESPUESTA cambia de una sala a otra. Las genéricas
+ * ("¿es gratis?", "¿hay que instalar algo?") se contestaban antes aquí con un
+ * texto idéntico en las 2.547 páginas: eso son 2.547 copias del mismo párrafo
+ * dentro del schema FAQPage, justo la señal que no queremos emitir. Esa
+ * información sigue en el sitio, pero una sola vez y en su sitio: /como-funciona,
+ * enlazada desde cada sala.
+ */
+export function buildFaq(place: Place): { q: string; a: string }[] {
+  const faq: { q: string; a: string }[] = [];
+  const canales = place.channels.filter((ch) => ch !== place.slug);
+  const hermanas = hermanasProvincia(place);
+  const comunidad = comunidadDe(place);
+  const relacionadas = getRelated(place.related).slice(0, 4);
+
+  // 1. De qué se habla: la respuesta es el `about` de la sala, único por sala
+  //    (redactado a partir de datos verificados de la localidad).
+  faq.push({
+    q: `¿De qué se habla en el chat de ${place.name}?`,
+    a: place.about ?? place.intro,
+  });
+
+  // 2. A qué canal se entra: distinto en cada sala, y es lo que más pregunta
+  //    quien viene de otro portal de chat.
+  faq.push({
+    q: `¿A qué canal entro desde la sala de ${place.name}?`,
+    a: canales.length
+      ? `Al canal #${place.slug}. La sala conecta además con ${enumerar(canales.map((c) => `#${c}`))}, así que puedes moverte entre ellos con el mismo nick sin volver a entrar.`
+      : `Al canal #${place.slug} del servidor. Eliges un nick de invitado en el recuadro de arriba y entras directamente, sin registro ni instalación.`,
+  });
+
+  // 3. Vecindario: respuesta con nombres reales del catálogo.
+  if (place.kind === "ciudad" && hermanas.length) {
+    faq.push({
+      q: `¿Hay salas de otras localidades de ${place.provincia}?`,
+      a:
+        `Sí, ${hermanas.length} más: ${enumerar(hermanas.slice(0, 6).map((c) => c.name))}` +
+        `${hermanas.length > 6 ? " y el resto de la provincia" : ""}. ` +
+        (comunidad
+          ? `También existe la sala de ${comunidad.name}, que reúne a toda la comunidad.`
+          : `Todas funcionan igual y comparten el mismo nick de invitado.`),
+    });
+  } else if (place.kind === "pais") {
+    const ciudades = getChildren(place.slug).filter((c) => c.kind === "ciudad");
+    if (ciudades.length)
+      faq.push({
+        q: `¿Qué ciudades de ${place.name} tienen sala propia?`,
+        a: `${ciudades.length} en total. Las tienes listadas más abajo en esta misma página, agrupadas para poder buscar la tuya; entre ellas ${enumerar(ciudades.slice(0, 5).map((c) => c.name))}.`,
+      });
+  } else if (relacionadas.length >= 2) {
+    faq.push({
+      q: `¿Qué otras salas se parecen a la de ${place.name}?`,
+      a: `Las más cercanas son ${enumerar(relacionadas.map((r) => r.name))}. Las tienes enlazadas al final de la página, en "Otras salas que te pueden gustar".`,
+    });
+  }
+
+  return faq;
 }

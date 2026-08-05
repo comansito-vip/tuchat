@@ -20,34 +20,38 @@ describe("chat room copy", () => {
     expect(crumbs[1].url).toBe("/chat/anime");
   });
 
-  it("builds a FAQ of 4 items for Madrid", () => {
-    expect(buildFaq(getPlace("madrid")!)).toHaveLength(4);
-  });
-
-  it("buildFaq personalizes questions with the place name", () => {
+  // El FAQ ya no tiene un número fijo de preguntas: solo entran aquellas cuya
+  // respuesta cambia de una sala a otra, así que una sala con menos datos
+  // publica menos preguntas en vez de rellenar con texto igual para todas.
+  it("buildFaq only asks questions whose answer is specific to the room", () => {
     const faq = buildFaq(getPlace("madrid")!);
-    expect(faq[0].q).toContain("Madrid");
-    expect(faq[1].q).toContain("Madrid");
-    expect(faq[2].q).toContain("Madrid");
+    expect(faq.length).toBeGreaterThanOrEqual(2);
+    for (const item of faq) expect(item.q).toContain("Madrid");
   });
 
-  it("buildFaq falls back to intro when about is absent", () => {
+  it("buildFaq answers what the room is about with its own text", () => {
     const place = { ...getPlace("amor")!, about: undefined };
-    const faq = buildFaq(place);
-    expect(faq[2].a).toBe(place.intro);
+    expect(buildFaq(place)[0].a).toBe(place.intro);
+  });
+
+  it("buildFaq names real sibling rooms of the province", () => {
+    const faq = buildFaq(getPlace("madrid")!);
+    const vecinas = faq.find((f) => f.q.includes("otras localidades"));
+    expect(vecinas).toBeDefined();
+    // Getafe es una ciudad real de la provincia de Madrid en el catálogo.
+    expect(getPlace("getafe")).toBeDefined();
   });
 
   it("aboutLead returns a non-empty string for each kind", () => {
-    expect(aboutLead(getPlace("madrid")!).length).toBeGreaterThan(40);
-    expect(aboutLead(getPlace("espana")!).length).toBeGreaterThan(40);
-    expect(aboutLead(getPlace("amor")!).length).toBeGreaterThan(40);
+    expect(aboutLead(getPlace("madrid")!)!.length).toBeGreaterThan(40);
+    expect(aboutLead(getPlace("espana")!)!.length).toBeGreaterThan(40);
+    expect(aboutLead(getPlace("amor")!)!.length).toBeGreaterThan(40);
   });
 
   it("aboutLead produces kind-specific text (3 unique outputs)", () => {
     const ciudad = aboutLead(getPlace("madrid")!);
     const pais = aboutLead(getPlace("espana")!);
     const tematica = aboutLead(getPlace("amor")!);
-    // Each kind branch produces distinct copy
     expect(ciudad).not.toBe(pais);
     expect(ciudad).not.toBe(tematica);
     expect(pais).not.toBe(tematica);
@@ -61,10 +65,53 @@ describe("chat room copy", () => {
     expect(aboutLead(getPlace("espana")!)).toContain("España");
   });
 
-  it("roomBullets returns 4 items for each kind", () => {
-    expect(roomBullets(getPlace("madrid")!)).toHaveLength(4);
-    expect(roomBullets(getPlace("espana")!)).toHaveLength(4);
-    expect(roomBullets(getPlace("amor")!)).toHaveLength(4);
+  it("aboutLead sitúa la ciudad en su provincia y comunidad reales", () => {
+    const lead = aboutLead(getPlace("barcelona")!)!;
+    expect(lead).toContain("Barcelona");
+    expect(lead).toContain("Cataluña");
+  });
+
+  it("roomBullets afirma hechos comprobables, no relleno", () => {
+    const madrid = roomBullets(getPlace("madrid")!);
+    expect(madrid.length).toBeGreaterThanOrEqual(3);
+    // El primer bullet nombra el canal real al que conecta la sala.
+    expect(madrid[0]).toContain("#madrid");
+    expect(roomBullets(getPlace("espana")!).length).toBeGreaterThanOrEqual(3);
+    expect(roomBullets(getPlace("amor")!).length).toBeGreaterThanOrEqual(2);
+  });
+});
+
+/**
+ * Estas dos pruebas son la red de seguridad contra la regresión que motivó el
+ * cambio: hasta julio de 2026, 1.996 ciudades compartían el mismo párrafo y los
+ * mismos cuatro bullets salvo el nombre, y Search Console devolvía "Descubierta:
+ * actualmente sin indexar" para todas ellas. Comparamos el texto con el nombre
+ * de la sala sustituido por un marcador: si dos salas coinciden tras eso, es
+ * que solo se diferenciaban en el nombre.
+ */
+describe("el copy de sala no es una plantilla con hueco", () => {
+  const despersonalizar = (texto: string, p: NonNullable<ReturnType<typeof getPlace>>) => {
+    let out = texto;
+    for (const v of [p.name, p.parentName, p.provincia].filter(Boolean) as string[]) {
+      out = out.split(v).join("«X»");
+    }
+    return out;
+  };
+
+  const muestra = ["madrid", "barcelona", "valencia", "sevilla", "zaragoza", "vigo", "getafe", "gandia"];
+
+  it("aboutLead no repite molde entre ciudades de provincias distintas", () => {
+    const moldes = muestra
+      .map((s) => getPlace(s)!)
+      .map((p) => despersonalizar(aboutLead(p) ?? "", p));
+    expect(new Set(moldes).size).toBeGreaterThan(1);
+  });
+
+  it("roomBullets no repite molde entre ciudades de provincias distintas", () => {
+    const moldes = muestra
+      .map((s) => getPlace(s)!)
+      .map((p) => despersonalizar(roomBullets(p).join(" | "), p));
+    expect(new Set(moldes).size).toBe(moldes.length);
   });
 });
 

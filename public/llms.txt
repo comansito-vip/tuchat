@@ -36,6 +36,7 @@
 - [Webchat](/webchat): acceso al chat en directo (no indexado).
 
 ## Información
+- [Cómo funciona el chat](/como-funciona): entrar sin registro, el nick de invitado, moverse entre canales y precauciones al hablar con desconocidos. Es la referencia del portal sobre el funcionamiento; las salas enlazan aquí en vez de repetirlo.
 - [Contacto](/contacto)
 - [Aviso legal](/legal/aviso-legal) · [Privacidad](/legal/privacidad) · [Cookies](/legal/cookies)
 

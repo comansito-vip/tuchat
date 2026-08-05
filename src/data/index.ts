@@ -171,5 +171,27 @@ export function getRegions(): Place[] {
 export function getCitiesByRegion(regionSlug: string): Place[] {
   return ALL_CITIES.filter((c) => c.regionSlug === regionSlug);
 }
+
+// Ciudades hermanas dentro de la misma provincia/departamento. El copy de cada
+// sala las usa para escribir con un dato real ("otras 12 salas de Pontevedra")
+// en vez de una frase de relleno, así que se consulta una vez por cada una de
+// las ~2.500 páginas prerenderizadas: un índice evita 2.500 × 1.996 filtrados.
+const BY_PROVINCIA: Map<string, Place[]> = (() => {
+  const m = new Map<string, Place[]>();
+  for (const c of ALL_CITIES) {
+    if (!c.provincia) continue;
+    // La provincia se agrupa junto al país: hay homónimas entre países
+    // (Córdoba está en España y en Argentina, León en España y en México).
+    const k = `${c.parentSlug ?? ""}|${c.provincia}`;
+    (m.get(k) ?? m.set(k, []).get(k)!).push(c);
+  }
+  return m;
+})();
+
+export function getCitiesByProvincia(place: Place): Place[] {
+  if (!place.provincia) return [];
+  const hermanas = BY_PROVINCIA.get(`${place.parentSlug ?? ""}|${place.provincia}`) ?? [];
+  return hermanas.filter((c) => c.slug !== place.slug);
+}
 export * from "./types";
 export { CONTINENTS } from "./countries";
