@@ -2,8 +2,12 @@ name: Generar noticias
 
 # Ejecuta el pipeline multi-LLM de noticias a diario y commitea el resultado.
 # Preferentemente ANTHROPIC_API_KEY/OPENAI_API_KEY (mejor calidad); si no están, cae
-# en la cadena de proveedores gratuitos (Groq/Cerebras/Mistral/OpenRouter) para que
+# en la cadena de proveedores gratuitos (Groq/Cerebras/Mistral/NVIDIA/Gemini) para que
 # el cron nunca se quede sin generar nada por falta de una clave de pago.
+#
+# Los secrets *_API_KEYS admiten varias claves separadas por comas y se rotan. Se
+# repusieron el 2026-08-06 tras comprobar una a una cuáles seguían respondiendo:
+# `node scripts/check-llm-providers.mjs` repite esa comprobación cuando haga falta.
 on:
   schedule:
     - cron: "0 5 * * *" # 05:00 UTC cada día
@@ -36,6 +40,7 @@ jobs:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           MISTRAL_API_KEYS: ${{ secrets.MISTRAL_API_KEYS }}
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
+          HUGGINGFACE_API_KEYS: ${{ secrets.HUGGINGFACE_API_KEYS }}
         run: npm run generate:news
 
       # Va aquí, encadenada y no en un cron aparte, por dos motivos. Uno: el

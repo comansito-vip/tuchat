@@ -212,32 +212,55 @@ function makeOpenAICompatibleCaller(
 }
 
 /** Cadena de proveedores con fallback: el primero que responda válido gana.
- *  Claude/OpenAI primero (mejor calidad, si hay clave configurada); los
- *  gratuitos/rápidos de terceros como red de seguridad para que el cron
- *  nunca se quede sin generar nada por falta de una clave de pago. */
-const PROVIDERS: { name: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
-  { name: "Claude", call: callClaude },
-  { name: "OpenAI", call: callOpenAI },
+ *
+ *  El orden lo manda la disponibilidad real, no la calidad teórica: auditoría del
+ *  2026-08-06 contra las APIs (una llamada de chat por par proveedor/modelo, no solo
+ *  /models) sobre las claves de toda la red. Los cuatro de arriba respondieron 200
+ *  con todas sus claves; los de abajo están agotados o retirados y solo sirven como
+ *  respaldo por si se recargan:
+ *    · Cohere      429 — trial de 1.000 llamadas/mes consumido en las 2 claves
+ *    · HuggingFace 402 — créditos mensuales de Inference Providers agotados
+ *    · OpenRouter  404/429 — los :free pasaron a pago; el resto exige 10 créditos
+ *    · DeepSeek    402 — saldo insuficiente
+ *    · Claude      401 — las 3 claves de la red son inválidas
+ *    · OpenAI      no hay ninguna clave en ningún proyecto
+ *  Claude y OpenAI se quedan los primeros PORQUE dan mejor calidad y el filtro de
+ *  abajo los descarta solos mientras no haya clave: en cuanto se configure una,
+ *  vuelven a encabezar la cadena sin tocar código. */
+const PROVIDERS: { name: string; envVar?: string; call: (c: string) => Promise<GeneratedItem[]> }[] = [
+  { name: "Claude", envVar: "ANTHROPIC_API_KEY", call: callClaude },
+  { name: "OpenAI", envVar: "OPENAI_API_KEY", call: callOpenAI },
   // Groq agota 100.000 tokens/día en el tier gratuito: con 8 categorías se queda
   // corto él solo, de ahí que detrás vayan varios proveedores más y no uno.
-  { name: "Groq", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]) },
+  { name: "Groq", envVar: "GROQ_API_KEYS", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]) },
   // Cerebras retiró los llama: sus modelos vigentes (verificado contra /models el
-  // 2026-07-14) son gpt-oss-120b, zai-glm-4.7 y gemma-4-31b.
-  { name: "Cerebras", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["gpt-oss-120b", "zai-glm-4.7"]) },
-  { name: "NVIDIA", call: makeOpenAICompatibleCaller("NVIDIA", "NVIDIA_API_KEYS", "https://integrate.api.nvidia.com/v1", ["meta/llama-3.3-70b-instruct"]) },
-  { name: "Cohere", call: makeOpenAICompatibleCaller("Cohere", "COHERE_API_KEYS", "https://api.cohere.ai/compatibility/v1", ["command-a-03-2025"]) },
-  { name: "Gemini", call: makeOpenAICompatibleCaller("Gemini", "GEMINI_API_KEYS", "https://generativelanguage.googleapis.com/v1beta/openai", ["gemini-2.0-flash", "gemini-2.0-flash-lite"]) },
-  { name: "Mistral", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", ["mistral-large-latest"]) },
-  // Modelos :free vigentes verificados contra /models el 2026-07-13; si uno
-  // está saturado upstream (429) se prueba el siguiente.
-  { name: "OpenRouter", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", [
-    "openai/gpt-oss-120b:free",
-    "qwen/qwen3-next-80b-a3b-instruct:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
+  // 2026-08-06) son gpt-oss-120b, zai-glm-4.7 y gemma-4-31b, y ninguno más.
+  { name: "Cerebras", envVar: "CEREBRAS_API_KEYS", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["gpt-oss-120b", "zai-glm-4.7", "gemma-4-31b"]) },
+  { name: "Mistral", envVar: "MISTRAL_API_KEYS", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", ["mistral-large-latest", "mistral-small-latest"]) },
+  // llama-3.3-70b da 503 por saturación a ratos; nemotron aguanta mejor y va primero.
+  { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", call: makeOpenAICompatibleCaller("NVIDIA", "NVIDIA_API_KEYS", "https://integrate.api.nvidia.com/v1", ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.3-70b-instruct"]) },
+  // gemini-2.0-flash devuelve 429 con las 4 claves de la red (el free tier del
+  // modelo viejo ya no existe) y gemini-2.5-flash da 404 "no longer available to
+  // new users": el que responde hoy es gemini-3.5-flash.
+  { name: "Gemini", envVar: "GEMINI_API_KEYS", call: makeOpenAICompatibleCaller("Gemini", "GEMINI_API_KEYS", "https://generativelanguage.googleapis.com/v1beta/openai", ["gemini-3.5-flash", "gemini-flash-latest", "gemini-flash-lite-latest"]) },
+  { name: "Cohere", envVar: "COHERE_API_KEYS", call: makeOpenAICompatibleCaller("Cohere", "COHERE_API_KEYS", "https://api.cohere.ai/compatibility/v1", ["command-a-03-2025"]) },
+  // Slugs :free vigentes verificados contra /models el 2026-08-06. Los que había
+  // aquí antes (gpt-oss-120b:free, qwen3-next-80b:free, llama-3.3-70b:free) ya no
+  // existen como gratuitos y devolvían 404 "use the paid slug instead".
+  { name: "OpenRouter", envVar: "OPENROUTER_API_KEYS", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", [
+    "openai/gpt-oss-20b:free",
     "google/gemma-4-31b-it:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
+    "nvidia/nemotron-3-nano-30b-a3b:free",
   ]) },
 ];
+
+/** Un proveedor sin clave no es un fallo que reportar: es uno que no toca. Filtrarlo
+ *  aquí evita que el log del cron abra cada categoría con dos errores fijos de
+ *  "ANTHROPIC_API_KEY no definida" que tapan los fallos que sí importan. */
+function availableProviders() {
+  return PROVIDERS.filter((p) => !p.envVar || (process.env[p.envVar] ?? "").trim() !== "");
+}
 
 // Mismos límites que exige data.test.ts (excerpt ≤160, body ≥400 palabras):
 // un modelo gratuito que ignore el prompt no debe colar contenido que rompe
@@ -261,7 +284,7 @@ function passesQualityBar(item: GeneratedItem): boolean {
 
 async function generateCategory(category: string): Promise<GeneratedItem[]> {
   const errors: string[] = [];
-  for (const provider of PROVIDERS) {
+  for (const provider of availableProviders()) {
     try {
       const items = await provider.call(category);
       const valid = items.filter(passesQualityBar);

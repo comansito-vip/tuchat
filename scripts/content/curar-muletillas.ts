@@ -48,9 +48,6 @@ interface Regla {
   sustituir: (...grupos: string[]) => string;
 }
 
-/** Pone en mayúscula la primera letra, respetando tildes. */
-const capitalizar = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
 const REGLAS: Regla[] = [
   {
     // "En definitiva, cuidar el sueño no es un lujo" → "Cuidar el sueño no es un lujo".

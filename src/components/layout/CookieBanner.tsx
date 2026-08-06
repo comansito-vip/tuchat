@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 
@@ -8,6 +8,25 @@ import { Button } from "@/components/ui/Button";
 // (antes de cargar GA) para restaurar 'granted' en visitas posteriores sin
 // volver a mostrar el banner.
 const STORAGE_KEY = "cookie-consent";
+
+// localStorage no cambia por su cuenta mientras el banner está en pantalla (solo
+// lo escribe este componente, y al hacerlo ya re-renderiza por su propio estado),
+// así que no hay a qué suscribirse.
+const sinSuscripcion = () => () => {};
+
+function hayEleccionGuardada(): boolean {
+  try {
+    return localStorage.getItem(STORAGE_KEY) !== null;
+  } catch {
+    // Sin acceso a localStorage (modo privado estricto): tratamos la visita como
+    // no decidida y mostramos el banner para recoger el consentimiento de la sesión.
+    return false;
+  }
+}
+
+// En SSR no hay localStorage y el banner no debe formar parte del HTML servido:
+// se decide en el cliente, que es donde vive la elección.
+const enServidor = () => true;
 
 declare global {
   interface Window {
@@ -18,19 +37,14 @@ declare global {
 }
 
 export function CookieBanner() {
-  // Arranca oculto: solo se muestra tras comprobar en el cliente que no hay una
-  // elección previa. Así no parpadea en quien ya decidió ni se renderiza en SSR.
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    try {
-      if (!localStorage.getItem(STORAGE_KEY)) setVisible(true);
-    } catch {
-      // Sin acceso a localStorage (modo privado estricto): mostramos el banner
-      // igualmente para poder recoger el consentimiento de esta sesión.
-      setVisible(true);
-    }
-  }, []);
+  // useSyncExternalStore y no un useEffect que llame a setState: el efecto provoca
+  // un render en cascada (lo marca react-hooks/set-state-in-effect) y aquí no hace
+  // falta, porque solo se está leyendo un valor externo con su equivalente en SSR.
+  const yaDecidido = useSyncExternalStore(sinSuscripcion, hayEleccionGuardada, enServidor);
+  // La decisión tomada en esta misma visita: se fija desde el handler del botón,
+  // así que no necesita pasar por localStorage para ocultar el banner al instante.
+  const [decididoAhora, setDecididoAhora] = useState(false);
+  const visible = !yaDecidido && !decididoAhora;
 
   function choose(granted: boolean) {
     try {
@@ -41,7 +55,7 @@ export function CookieBanner() {
     window.gtag?.("consent", "update", {
       analytics_storage: granted ? "granted" : "denied",
     });
-    setVisible(false);
+    setDecididoAhora(true);
   }
 
   if (!visible) return null;

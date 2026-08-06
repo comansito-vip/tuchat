@@ -174,7 +174,9 @@ async function callOpenAICompatible(
 }
 
 async function callGemini(apiKey: string, room: RoomInput): Promise<Generated> {
-  const model = "gemini-2.5-flash";
+  // gemini-2.5-flash devuelve 404 "no longer available to new users" con las claves
+  // de la red (verificado el 2026-08-06); el vigente es gemini-3.5-flash.
+  const model = "gemini-3.5-flash";
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   const res = await fetch(url, {
     method: "POST",
@@ -196,7 +198,9 @@ async function callCohere(apiKey: string, room: RoomInput): Promise<Generated> {
     method: "POST",
     headers: { Authorization: `Bearer ${apiKey}`, "content-type": "application/json" },
     body: JSON.stringify({
-      model: "command-r-plus-08-2024",
+      // command-a-03-2025 es el buque insignia vigente; command-r-plus-08-2024 sigue
+      // en catálogo pero es la generación anterior.
+      model: "command-a-03-2025",
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: userPrompt(room) },
@@ -213,22 +217,28 @@ async function callCohere(apiKey: string, room: RoomInput): Promise<Generated> {
 
 type ProviderCall = (key: string, room: RoomInput) => Promise<Generated>;
 
+/** Orden por disponibilidad medida el 2026-08-06 (una llamada de chat real por par
+ *  proveedor/modelo con todas las claves de la red), no por calidad teórica. Los
+ *  cuatro primeros respondieron 200; los tres últimos están agotados hoy
+ *  (Cohere 429 trial, HuggingFace 402 sin créditos, OpenRouter 404/429 porque los
+ *  :free pasaron a pago) y se quedan de respaldo por si se recargan. */
 const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
   {
     name: "Groq",
     envVar: "GROQ_API_KEYS",
     call: (key, room) => callOpenAICompatible("https://api.groq.com/openai/v1", "llama-3.3-70b-versatile", key, room),
   },
-  { name: "Gemini", envVar: "GEMINI_API_KEYS", call: callGemini },
+  {
+    // Cerebras retiró todos los llama: llama-3.3-70b devolvía 404 "model does not
+    // exist". Sus únicos modelos vigentes son gpt-oss-120b, zai-glm-4.7 y gemma-4-31b.
+    name: "Cerebras",
+    envVar: "CEREBRAS_API_KEYS",
+    call: (key, room) => callOpenAICompatible("https://api.cerebras.ai/v1", "gpt-oss-120b", key, room),
+  },
   {
     name: "Mistral",
     envVar: "MISTRAL_API_KEYS",
     call: (key, room) => callOpenAICompatible("https://api.mistral.ai/v1", "mistral-large-latest", key, room),
-  },
-  {
-    name: "Cerebras",
-    envVar: "CEREBRAS_API_KEYS",
-    call: (key, room) => callOpenAICompatible("https://api.cerebras.ai/v1", "llama-3.3-70b", key, room),
   },
   {
     name: "NVIDIA",
@@ -236,11 +246,14 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
     call: (key, room) =>
       callOpenAICompatible("https://integrate.api.nvidia.com/v1", "meta/llama-3.1-70b-instruct", key, room),
   },
+  { name: "Gemini", envVar: "GEMINI_API_KEYS", call: callGemini },
   {
+    // Slug :free vigente: el de llama-3.3-70b dejó de existir como gratuito y
+    // devolvía 404 con las cuatro claves.
     name: "OpenRouter",
     envVar: "OPENROUTER_API_KEYS",
     call: (key, room) =>
-      callOpenAICompatible("https://openrouter.ai/api/v1", "meta-llama/llama-3.3-70b-instruct:free", key, room),
+      callOpenAICompatible("https://openrouter.ai/api/v1", "openai/gpt-oss-20b:free", key, room),
   },
   {
     name: "HuggingFace",
@@ -251,7 +264,9 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
   { name: "Cohere", envVar: "COHERE_API_KEYS", call: callCohere },
 ];
 
-async function generateRoom(room: RoomInput): Promise<{ gen: Generated; provider: string } | null> {
+async function generateRoom(
+  room: RoomInput,
+): Promise<{ gen: Generated; provider: string; errors: string[] } | null> {
   const errors: string[] = [];
   for (const provider of PROVIDERS) {
     const keys = keysFor(provider.envVar);
@@ -264,7 +279,7 @@ async function generateRoom(room: RoomInput): Promise<{ gen: Generated; provider
           continue;
         }
         if (gen.about.length >= 400 && gen.intro.length <= 160 && gen.intro.length > 20) {
-          return { gen, provider: provider.name };
+          return { gen, provider: provider.name, errors };
         }
         errors.push(`${provider.name}: constraints fallidas (about=${gen.about.length}, intro=${gen.intro.length})`);
       } catch (err) {
@@ -296,7 +311,13 @@ async function main() {
       fails.push(room.slug);
       continue;
     }
-    console.log(`  ✓ ${room.slug} vía ${result.provider}`);
+    // Los intentos descartados antes del que gana se resumen aquí: sin esto, que un
+    // proveedor lleve semanas devolviendo 404 se ve igual que uno sano, porque el
+    // fallback lo tapa y solo se imprime el que acaba escribiendo.
+    const previos = result.errors.length
+      ? ` (tras ${result.errors.length} intento(s) descartado(s)${process.env.DEBUG_LLM ? `: ${result.errors.join(" | ")}` : ""})`
+      : "";
+    console.log(`  ✓ ${room.slug} vía ${result.provider}${previos}`);
     out.push({ ...room, ...result.gen });
   }
 
