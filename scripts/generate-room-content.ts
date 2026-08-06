@@ -220,8 +220,9 @@ type ProviderCall = (key: string, room: RoomInput) => Promise<Generated>;
 /** Orden por disponibilidad medida el 2026-08-06 (una llamada de chat real por par
  *  proveedor/modelo con todas las claves de la red), no por calidad teórica. Los
  *  cuatro primeros respondieron 200; los tres últimos están agotados hoy
- *  (Cohere 429 trial, HuggingFace 402 sin créditos, OpenRouter 404/429 porque los
- *  :free pasaron a pago) y se quedan de respaldo por si se recargan. */
+ *  (Cohere 429 de trial, OpenRouter 404/429 porque los :free pasaron a pago) y se
+ *  quedan de respaldo por si se recargan. HuggingFace volvió a servir el mismo día
+ *  al añadirse una clave con créditos; sus dos claves viejas siguen dando 402. */
 const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
   {
     name: "Groq",

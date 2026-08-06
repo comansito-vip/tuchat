@@ -219,7 +219,8 @@ function makeOpenAICompatibleCaller(
  *  con todas sus claves; los de abajo están agotados o retirados y solo sirven como
  *  respaldo por si se recargan:
  *    · Cohere      429 — trial de 1.000 llamadas/mes consumido en las 2 claves
- *    · HuggingFace 402 — créditos mensuales de Inference Providers agotados
+ *    · HuggingFace — las 2 claves viejas dan 402 (créditos agotados); la clave
+ *      añadida el 2026-08-06 sí responde, así que el proveedor vuelve a servir
  *    · OpenRouter  404/429 — los :free pasaron a pago; el resto exige 10 créditos
  *    · DeepSeek    402 — saldo insuficiente
  *    · Claude      401 — las 3 claves de la red son inválidas
