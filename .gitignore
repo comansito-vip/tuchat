@@ -49,3 +49,7 @@ _brief/
 
 # Generado en el postbuild a partir de src/data (2,3 MB): se reconstruye en cada build.
 public/llms-full.txt
+
+# Caché del cliente de Search Console: guarda tokens OAuth de las service
+# accounts, así que no puede entrar en el repositorio.
+data/.gsc-cache/

@@ -96,12 +96,15 @@ async function main() {
   informe("AMÉRICA hispana >20.000 hab", am);
 
   // ── Los cuatro países con corte propio en 5.000 ────────────────────────────
-  // El censo más fino que hay descargado baja a 10.002 hab, así que este bloque
-  // mide contra >10.000 y deja dicho que el tramo 5.000-10.000 todavía no tiene
-  // censo con el que compararse. Contarlo como cubierto sería mentirse.
-  const censo10k = leer("latam-10k-crudo.json")?.localidades ?? [];
+  // Censo descargado a propósito con UMBRAL=5000 (fetch-latam-15k.mjs). Aviso
+  // importante: sale de Wikidata, que NO es un padrón. En España devolvía 671
+  // municipios de más de 8.000 cuando el INE da 942, así que estas cifras son un
+  // suelo: para cobertura real hay que contrastar con DANE, INEI, INE-UY e INDEC.
+  const censo5k = leer("latam-5k-4paises-crudo.json")?.localidades
+    ?? leer("latam-10k-crudo.json")?.localidades ?? [];
+  console.log("");
   for (const pais of PAISES_5K) {
-    const delPais = censo10k.filter((x) => x.pais === pais && (x.poblacion ?? 0) >= 5000);
+    const delPais = censo5k.filter((x) => x.pais === pais && (x.poblacion ?? 0) >= 5000);
     if (!delPais.length) continue;
     const r = medir(indice, delPais, (l) => ({
       pais: l.pais,
@@ -111,7 +114,7 @@ async function main() {
       region: l.division,
       coords: l.coords ?? null,
     }));
-    informe(`${pais} >10.000 hab (censo disponible)`, r);
+    informe(`${pais} >5.000 hab`, r);
   }
 
   console.log("\nhuecos por país (América >20.000):");

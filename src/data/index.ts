@@ -1,5 +1,7 @@
 import { CITIES } from "./cities";
 import { CITIES_WORLD } from "./cities-world";
+import { CITIES_GENERADAS } from "./cities-generadas";
+import { CITY_REGIONS } from "./city-regions";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
 import { TOPICS_EXTRA } from "./topics-extra";
@@ -15,7 +17,15 @@ import { NEWS } from "./news";
 import type { Place } from "./types";
 import { normalize } from "@/lib/slug";
 
-const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD];
+// Las ciudades americanas de cities-world.ts se escribieron colgando solo del
+// país: 267 de las 272 mexicanas no sabían en qué estado estaban, así que no
+// tenían página de estado a la que enlazar y una sala de estado habría nacido
+// vacía. `CITY_REGIONS` (generado) les pone su provincia sin tocar los 2,3 MB de
+// datos escritos a mano; lo que ya trae regionSlug se respeta.
+const conRegion = (p: Place): Place =>
+  p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
+
+const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD, ...CITIES_GENERADAS].map(conRegion);
 const ALL_TOPICS: Place[] = [
   ...TOPICS,
   ...TOPICS_EXTRA,
@@ -87,9 +97,16 @@ const HOMONYM_QUALIFIER: Map<string, string> = (() => {
       if (p.slug === key.replace(/\s+/g, "-")) continue; // el canónico se queda el título limpio
       // Córdoba es la capital de la provincia de Córdoba: ahí la provincia no
       // distingue nada y hay que subir al país.
+      const porProvincia = p.provincia && normalize(p.provincia) !== key ? p.provincia : null;
+      const porPais = p.parentName && normalize(p.parentName) !== key ? p.parentName : null;
+      // Entre dos cualificadores que distinguen igual de bien, gana el que cabe
+      // en la SERP: "Tiempo en Santo Domingo (Santo Domingo de los Tsáchilas)"
+      // se pasaba de 60 caracteres, y "(Ecuador)" dice lo mismo en menos sitio.
+      const cabe = (q: string) =>
+        `Tiempo en ${p.name} (${q})`.length + " · TuChat".length <= 60;
       const qualifier =
         QUALIFIER_OVERRIDE[p.slug] ??
-        (p.provincia && normalize(p.provincia) !== key ? p.provincia : p.parentName);
+        (porProvincia && (cabe(porProvincia) || !porPais) ? porProvincia : porPais ?? porProvincia);
       if (qualifier && normalize(qualifier) !== key) out.set(p.slug, qualifier);
     }
   }

@@ -134,7 +134,12 @@ export default async function ChatRoomPage({
         <div className="min-w-0">
           {/* Block 1: Sobre el chat */}
           <SEOTextBlock title={`Sobre el chat de ${place.name}`}>
-            <p>{aboutText}</p>
+            {/* El texto puede venir en varios párrafos separados por una línea
+                en blanco (las salas que redacta el cron los usan). En un solo
+                <p> el salto se colapsa y quedaba un muro de 250 palabras. */}
+            {aboutText.split(/\n{2,}/).map((parrafo, i) => (
+              <p key={i}>{parrafo}</p>
+            ))}
             {/* `aboutLead` devuelve null cuando la sala no tiene datos con los
                 que decir algo cierto: antes que un párrafo de relleno igual en
                 2.000 páginas, ninguno. */}

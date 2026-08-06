@@ -29,71 +29,15 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { REAL_CHANNELS, ES_CHANNELS, LATAM_CHANNELS } from "../src/data/irc-real-channels";
+// La tabla de canales y la canonización viven en src/data/irc-canal.ts, para
+// que este script y el cron de salas (scripts/cron/salas-geo.mjs) usen las
+// mismas reglas. Tenerlas duplicadas ya causó un fallo: el cron publicó doce
+// salas mandando a canales inexistentes.
+import { COUNTRY_CHANNEL, NETWORK_CHANNEL, canon, geoCanon } from "../src/data/irc-canal";
 
 const FILES = ["src/data/countries.ts", "src/data/cities.ts", "src/data/cities-world.ts"];
 
-const NETWORK = "chatzona";
-const LATAM_FALLBACK = "latinoamerica";
-const WORLD_FALLBACK = ["internacional", "ocio"];
-
-// Canal de país tal y como lo escribe la red. La clave es nuestro slug.
-const COUNTRY_CHANNEL: Record<string, string[]> = {
-  espana: ["españa"],
-  mexico: ["mexico", LATAM_FALLBACK],
-  argentina: ["argentina", LATAM_FALLBACK],
-  colombia: ["colombia", LATAM_FALLBACK],
-  chile: ["chile", LATAM_FALLBACK],
-  peru: ["peru", LATAM_FALLBACK],
-  uruguay: ["uruguay", LATAM_FALLBACK],
-  venezuela: ["venezuela", LATAM_FALLBACK],
-  ecuador: ["ecuador", LATAM_FALLBACK],
-  bolivia: ["bolivia", LATAM_FALLBACK],
-  paraguay: ["paraguay", LATAM_FALLBACK],
-  cuba: ["cuba", LATAM_FALLBACK],
-  guatemala: ["guatemala", LATAM_FALLBACK],
-  honduras: ["honduras", LATAM_FALLBACK],
-  nicaragua: ["nicaragua", LATAM_FALLBACK],
-  panama: ["panama", LATAM_FALLBACK],
-  "costa-rica": ["costa_rica", LATAM_FALLBACK],
-  "el-salvador": ["el_salvador", LATAM_FALLBACK],
-  "republica-dominicana": ["republica_dominicana", LATAM_FALLBACK],
-  "puerto-rico": ["puerto_rico", LATAM_FALLBACK],
-  // Hispanos en EE. UU.: la red los tiene en #usa, no en un #estados-unidos
-  // que no existe.
-  "estados-unidos": ["usa", "internacional"],
-  belice: WORLD_FALLBACK,
-  canada: WORLD_FALLBACK,
-  francia: WORLD_FALLBACK,
-  italia: WORLD_FALLBACK,
-  portugal: WORLD_FALLBACK,
-  alemania: WORLD_FALLBACK,
-  "reino-unido": WORLD_FALLBACK,
-  marruecos: WORLD_FALLBACK,
-  "guinea-ecuatorial": WORLD_FALLBACK,
-};
-
-// ── Canales reales ────────────────────────────────────────────────────────────
-const realNames = [...REAL_CHANNELS];
-
-/** Clave de comparación: sin acentos y con guion/guion bajo unificados. */
-const key = (c: string) =>
-  c.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[-_]/g, "");
-
-// key → nombre tal cual lo escribe la red ("cataluna" → "cataluña").
-const CANON = new Map<string, string>();
-for (const n of realNames) if (!CANON.has(key(n))) CANON.set(key(n), n);
-
-/** Nombre real del canal, o null si la red no lo tiene. */
-const canon = (c: string): string | null => CANON.get(key(c)) ?? null;
-
-// Solo se le devuelve a una ciudad su canal propio si es geográfico: así un
-// pueblo llamado "Trivial" o "Amor" no acabaría en el canal temático homónimo.
-const GEO = new Set<string>([...ES_CHANNELS, ...LATAM_CHANNELS]);
-const geoCanon = (c: string): string | null => {
-  const real = canon(c);
-  return real && GEO.has(real) ? real : null;
-};
+const NETWORK = NETWORK_CHANNEL;
 
 // ── Reescritura ───────────────────────────────────────────────────────────────
 const check = process.argv.includes("--check");

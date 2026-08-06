@@ -32,8 +32,12 @@ const UMBRAL_AMERICA = 20000;
 async function salasExistentes() {
   const { CITIES } = await import("../../src/data/cities.ts");
   const { CITIES_WORLD } = await import("../../src/data/cities-world.ts");
+  // Las que va publicando el cron cuentan como existentes: sin esto volvían a la
+  // cola y se habrían generado por segunda vez, que es contenido duplicado
+  // servido desde dos URLs del mismo sitio.
+  const { CITIES_GENERADAS } = await import("../../src/data/cities-generadas.ts");
   const { CITY_COORDS } = await import("../../src/data/coords.ts");
-  return indexar([...CITIES, ...CITIES_WORLD], CITY_COORDS);
+  return indexar([...CITIES, ...CITIES_WORLD, ...CITIES_GENERADAS], CITY_COORDS);
 }
 
 function leer(nombre) {
@@ -114,6 +118,7 @@ async function main() {
     if (yaExiste(yaEstan, { nombre: m.nombre_oficial ?? m.nombre, coords: f.coords })) continue;
     if (yaExiste(yaEstan, { nombre: m.nombre, coords: f.coords })) continue;
     const entrada = {
+      origen: "es8k",
       pais: "España",
       paisSlug: "espana",
       nombre: m.nombre,
@@ -146,6 +151,7 @@ async function main() {
     const fuente = fuenteAm.get(l.qid ?? l.slug) ?? {};
     const f = { ...fuente, ...l };
     const entrada = {
+      origen: "am20k",
       pais: l.pais,
       paisSlug: l.pais_slug,
       nombre: l.nombre,
@@ -168,6 +174,54 @@ async function main() {
       coords: f.coords ?? null,
     };
     (tieneFuente(entrada) ? pendientesAm : sinFuenteAm).push(entrada);
+  }
+
+  // ── Colombia, Perú, Uruguay y Argentina, con corte propio en 5.000 ─────────
+  // Estos cuatro llevan un umbral más bajo por decisión del cliente. El censo se
+  // descargó aparte (UMBRAL=5000) y viene crudo: trae URL de Wikipedia y web del
+  // ayuntamiento, pero NO el extracto. No pasa nada — el cron baja el extracto y
+  // la portada del ayuntamiento por su cuenta antes de escribir, y descarta la
+  // localidad si no consigue ninguna de las dos.
+  //
+  // Aviso que hay que repetir cada vez: esto sale de Wikidata, que no es un
+  // padrón. En España devolvía 671 municipios de más de 8.000 cuando el INE da
+  // 942. Estas cifras son un suelo; para cobertura real hay que contrastar con
+  // DANE, INEI, INE-UY e INDEC.
+  const censo5k = leer("latam-5k-4paises-crudo.json")?.localidades ?? [];
+  const pendientes5k = [];
+  // Los slugs se desambiguan aquí porque el censo crudo no trae ninguno y hay
+  // homónimos a puñados: "San Martín" sale doce veces solo en Argentina.
+  const slugsUsados = new Set([...yaEstan.claves, ...pendientesEs.map((x) => x.slug), ...pendientesAm.map((x) => x.slug)]);
+  for (const l of censo5k) {
+    const nombre = l.nombre ?? l.nombre_wd;
+    if ((l.poblacion ?? 0) < 5000) continue;
+    if (yaExiste(yaEstan, { nombre, coords: l.coords })) continue;
+
+    // Base → con la división → con el país. El primero libre se queda.
+    let slug = norm(nombre);
+    for (const sufijo of ["", `-${norm(l.division ?? "")}`, `-${l.pais_slug}`]) {
+      const intento = norm(nombre) + sufijo;
+      if (!slugsUsados.has(intento)) { slug = intento; break; }
+      slug = intento;   // si todos chocan, se queda el más específico y la criba lo aparta
+    }
+    if (slugsUsados.has(slug)) continue;   // homónimo irresoluble: fuera, no duplicar
+    slugsUsados.add(slug);
+
+    pendientes5k.push({
+      origen: "pais5k",
+      pais: l.pais,
+      paisSlug: l.pais_slug,
+      nombre,
+      slug,
+      poblacion: l.poblacion,
+      region: l.division ?? null,
+      regionSlug: l.division ? norm(l.division) : null,
+      wikipedia: l.wikipedia_url ?? null,
+      extracto: null,
+      webOficial: l.web_oficial ?? null,
+      gentilicio: l.gentilicio ?? null,
+      coords: l.coords ?? null,
+    });
   }
 
   // Segunda oportunidad para las que se quedaron sin fuente: muchas la tienen en
@@ -193,6 +247,7 @@ async function main() {
   const porPoblacion = (a, b) => (b.poblacion ?? 0) - (a.poblacion ?? 0);
   pendientesEs.sort(porPoblacion);
   pendientesAm.sort(porPoblacion);
+  pendientes5k.sort(porPoblacion);
 
   // Última criba: las que tienen una sala a menos de 10 km se apartan para
   // mirarlas a mano. No se descartan (podrían ser municipios vecinos legítimos)
@@ -207,7 +262,10 @@ async function main() {
   });
   // España no pasa por la criba de cercanía: su código INE ya decidió, y apartar
   // por proximidad solo dejaría fuera municipios legítimos del área metropolitana.
-  const cola = [...pendientesEs, ...criba(pendientesAm)];
+  // Las de 5.000 van al final de la cola a propósito: son las más pequeñas y las
+  // que menos se buscan, así que entran cuando ya estén las grandes. El cron las
+  // reordena por demanda medida de todas formas.
+  const cola = [...pendientesEs, ...criba(pendientesAm), ...criba(pendientes5k)];
   writeFileSync(join(DESTINO, "revisar.json"), JSON.stringify(dudosas, null, 1));
   writeFileSync(join(DESTINO, "pendientes.json"), JSON.stringify(cola, null, 1));
   writeFileSync(join(DESTINO, "sin-fuente.json"), JSON.stringify(quedanSinFuente, null, 1));
@@ -215,11 +273,16 @@ async function main() {
   // Se cuentan sobre la cola final: los rescatados cambiaron de lista, así que
   // sumar las de antes del rescate los contaría dos veces.
   const conWeb = cola.filter((x) => x.webOficial).length;
-  const faltanEs = cola.filter((x) => x.paisSlug === "espana").length
-    + quedanSinFuente.filter((x) => x.paisSlug === "espana").length;
-  const faltanAm = cola.length + quedanSinFuente.length - faltanEs;
+  // Se cuenta por `origen`, no por país: sumar "todo lo que no es España" metía
+  // las 1.882 localidades del bloque de 5.000 en el hueco de América y el
+  // resumen pasó a decir "América 1% cubierto" cuando es el 40%.
+  const deOrigen = (o) => cola.filter((x) => x.origen === o).length
+    + quedanSinFuente.filter((x) => x.origen === o).length;
+  const faltanEs = deOrigen("es8k");
+  const faltanAm = deOrigen("am20k");
   console.log(`ESPAÑA   (>8.000 hab)   objetivo ${censoEs.length} · faltan ${faltanEs} · cubierto ${Math.round((censoEs.length - faltanEs) / censoEs.length * 100)}%`);
   console.log(`AMÉRICA  (>${UMBRAL_AMERICA} hab)  objetivo ${censoAm.length} · faltan ${faltanAm} · cubierto ${Math.round((censoAm.length - faltanAm) / censoAm.length * 100)}%`);
+  console.log(`5.000+  (CO/PE/UY/AR)   añadidas a la cola ${pendientes5k.length} de ${censo5k.length} del censo`);
   console.log("");
   console.log(`cola con fuente:  ${cola.length}  (${conWeb} con web del ayuntamiento)`);
   console.log(`fuera por no tener fuente: ${quedanSinFuente.length}`);

@@ -1,0 +1,108 @@
+{
+ "hechas": [
+  "apodaca",
+  "piedras-negras",
+  "los-mochis",
+  "puente-alto",
+  "catia-la-mar",
+  "vitarte",
+  "comas",
+  "villa-el-salvador",
+  "limon-costa-rica",
+  "chorrillos",
+  "general-escobedo",
+  "hidalgo-michoacan"
+ ],
+ "descartadas": [
+  {
+   "slug": "salas",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "ciudad-del-plata",
+   "razon": "rechazada tras corrección: No se menciona en la fuente que Plata es un municipio del departamento de San José, en Uruguay. Aunque se menciona a San José en la fuente, no se menciona a Plata en absoluto.; No se menciona en la fu",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "sinaloa",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "corrientes",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "canelones",
+   "razon": "fraseo calcado de san-rafael-mendoza: \"habitantes es una de las ciudades mas\"",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "palermo-colombia",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "aragua",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "maipu-chile",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "heroica-matamoros",
+   "razon": "fraseo calcado de apodaca: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "simon-bolivar-anzoategui",
+   "razon": "rechazada tras corrección: La ficha afirma que Simón Bolívar es un municipio del estado Anzoátegui, información que no aparece en el material de origen.",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "la-florida",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "santo-domingo-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "morelos",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "rechazada tras corrección: La afirmación \"Su territorio abarca zonas urbanas y áreas rurales\" no aparece en el material de origen.",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "ventanilla",
+   "razon": "rechazada tras corrección: La afirmación de que Ventanilla es \"distrito de la provincia constitucional del Callao\" no aparece en el material de origen.",
+   "fecha": "2026-08-06"
+  },
+  {
+   "slug": "santa-catarina",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-06"
+  }
+ ]
+}

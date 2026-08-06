@@ -3,3 +3,70 @@
 [2026-08-06T20:43:44.879Z]   ✗ ciudad-del-plata: rechazada tras corrección: La fuente no menciona que la localidad se llama 'Ciudad del Plata', solo menciona 'Plata' en la lista de municipios. La fuente no proporciona información sobre la creación del municipio en 2010.
 [2026-08-06T20:45:37.377Z]   ✓ sinaloa (México) — escribió Mistral, verificó NVIDIA
 [2026-08-06T20:45:45.182Z]   ✗ apodaca: fraseo calcado de ocoyoacac: "forma parte de la zona metropolitana de"
+[2026-08-06T20:46:11.553Z]   ✓ corrientes (Argentina) — escribió Mistral, verificó NVIDIA
+[2026-08-06T20:46:34.764Z]   ✗ canelones: rechazada tras corrección: La ficha menciona que Canelones es la ciudad cabecera del departamento homónimo en Uruguay, ubicada en la zona sur del país. La fuente dice que está ubicada en la zona sur de Uruguay, pero no menciona
+[2026-08-06T20:47:16.719Z]   ✓ piedras-negras (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T20:49:06.586Z]   ✗ los-mochis: rechazada tras corrección: La ficha menciona que en agosto de 2026 se instaló un módulo de atención para el programa de Desarme Voluntario, pero la fuente indica que estará disponible del 24 al 28 de agosto, no que ya se instal
+[2026-08-06T20:49:08.666Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-06T20:49:19.371Z]   ✗ aragua: sin fuente utilizable
+[2026-08-06T20:49:34.939Z]   ✗ puente-alto: rechazada tras corrección: La ficha menciona que en el chat se comparte orientación sobre permisos de circulación y patentes comerciales, datos que no aparecen en el material de origen.
+[2026-08-06T20:50:00.050Z]   ✓ catia-la-mar (Venezuela) — escribió Mistral, verificó Cerebras
+[2026-08-06T20:50:00.051Z] publicadas 4 salas · acumuladas 4 · quedan 1425 en cola
+[2026-08-06T20:51:19.667Z] cola: 1429 pendientes · lote de hoy: 5
+[2026-08-06T20:51:20.854Z]   ✗ salas: sin fuente utilizable
+[2026-08-06T20:51:33.890Z]   ✗ ciudad-del-plata: rechazada tras corrección: Mención de "Ciudad del Plata" y "Plata" no aparece en el material de origen.; Afirmación "La Intendencia gestiona aquí el Mercado San José" no está presente literalmente en la fuente.
+[2026-08-06T20:51:43.048Z]   ✗ sinaloa: es una división administrativa, no una localidad
+[2026-08-06T20:51:44.504Z]   ✗ apodaca: es una división administrativa, no una localidad
+[2026-08-06T20:53:41.055Z]   ✗ corrientes: controles de calidad: about de 104 palabras (mínimo 110)
+[2026-08-06T20:53:41.055Z]   ✗ canelones: es una división administrativa, no una localidad
+[2026-08-06T20:53:42.104Z]   ✗ piedras-negras: es una división administrativa, no una localidad
+[2026-08-06T20:53:43.116Z]   ✗ los-mochis: es una división administrativa, no una localidad
+[2026-08-06T20:53:44.780Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-06T20:53:55.350Z]   ✗ aragua: sin fuente utilizable
+[2026-08-06T20:53:58.035Z]   ✗ puente-alto: es una división administrativa, no una localidad
+[2026-08-06T20:54:11.944Z]   ✗ catia-la-mar: rechazada tras corrección: Incluye datos no presentes en la fuente: "territorio costero de la Región Capital" y "municipio con influencia en la zona central venezolana"
+[2026-08-06T20:54:33.702Z]   ✗ vitarte: rechazada tras corrección: La ficha menciona que la localidad fue declarada Patrimonio Cultural de la Nación en 1990, pero el material de origen especifica que la fecha exacta es el 15 de marzo de 1990; La ficha afirma que la F
+[2026-08-06T20:54:35.630Z]   ✗ maipu-chile: sin fuente utilizable
+[2026-08-06T20:54:39.509Z]   ✗ heroica-matamoros: es una división administrativa, no una localidad
+[2026-08-06T20:54:39.510Z] demasiados intentos fallidos, se corta el lote
+[2026-08-06T20:54:39.510Z] lote sin resultados: no se escribe nada
+[2026-08-06T20:55:44.896Z] cola: 1429 pendientes · lote de hoy: 12
+[2026-08-06T20:55:45.982Z]   ✗ salas: sin fuente utilizable
+[2026-08-06T20:56:20.801Z]   ✗ ciudad-del-plata: rechazada tras corrección: La ficha afirma que "Ciudad del Plata es un municipio del departamento de San José, en Uruguay" aunque el material de origen no menciona a Ciudad del Plata ni indica su condición de municipio.; Se ind
+[2026-08-06T20:56:30.982Z]   ✗ sinaloa: es una división administrativa, no una localidad
+[2026-08-06T20:56:49.132Z]   ✓ apodaca (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T20:57:27.130Z]   ✓ corrientes (Argentina) — escribió Mistral, verificó NVIDIA
+[2026-08-06T20:57:33.909Z]   ✗ canelones: fraseo calcado de san-rafael-mendoza: "habitantes es una de las ciudades mas"
+[2026-08-06T20:57:42.271Z]   ✓ piedras-negras (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T20:59:02.363Z] cola: 1429 pendientes · lote de hoy: 12
+[2026-08-06T20:59:03.513Z]   ✗ salas: sin fuente utilizable
+[2026-08-06T20:59:29.278Z]   ✗ ciudad-del-plata: rechazada tras corrección: No se menciona en la fuente que Plata es un municipio del departamento de San José, en Uruguay. Aunque se menciona a San José en la fuente, no se menciona a Plata en absoluto.; No se menciona en la fu
+[2026-08-06T20:59:38.421Z]   ✗ sinaloa: es una división administrativa, no una localidad
+[2026-08-06T20:59:58.448Z]   ✓ apodaca (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T21:00:02.137Z]   ✗ corrientes: sin fuente utilizable
+[2026-08-06T21:02:48.489Z]   ✗ canelones: fraseo calcado de san-rafael-mendoza: "habitantes es una de las ciudades mas"
+[2026-08-06T21:02:59.398Z]   ✓ piedras-negras (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T21:03:13.562Z]   ✓ los-mochis (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T21:03:15.638Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-06T21:03:26.200Z]   ✗ aragua: sin fuente utilizable
+[2026-08-06T21:04:33.969Z]   ✓ puente-alto (Chile) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:04:54.219Z]   ✓ catia-la-mar (Venezuela) — escribió Mistral, verificó Groq
+[2026-08-06T21:05:09.406Z]   ✓ vitarte (Perú) — escribió Mistral, verificó Cerebras
+[2026-08-06T21:05:11.343Z]   ✗ maipu-chile: sin fuente utilizable
+[2026-08-06T21:05:31.056Z]   ✗ heroica-matamoros: fraseo calcado de apodaca: "es la cabecera del municipio homonimo en"
+[2026-08-06T21:05:56.406Z]   ✓ comas (Perú) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:06:24.925Z]   ✗ simon-bolivar-anzoategui: rechazada tras corrección: La ficha afirma que Simón Bolívar es un municipio del estado Anzoátegui, información que no aparece en el material de origen.
+[2026-08-06T21:07:03.152Z]   ✓ villa-el-salvador (Perú) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:07:05.201Z]   ✗ san-bernardo-chile: sin fuente utilizable
+[2026-08-06T21:07:16.141Z]   ✗ la-florida: sin fuente utilizable
+[2026-08-06T21:08:27.148Z]   ✗ santo-domingo-oeste: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-06T21:08:38.534Z]   ✗ puente-piedra: sin fuente utilizable
+[2026-08-06T21:08:38.534Z]   ✗ morelos: es una división administrativa, no una localidad
+[2026-08-06T21:08:52.680Z]   ✓ limon-costa-rica (Costa Rica) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:09:15.858Z]   ✗ carabayllo: rechazada tras corrección: La afirmación "Su territorio abarca zonas urbanas y áreas rurales" no aparece en el material de origen.
+[2026-08-06T21:09:45.591Z]   ✗ ventanilla: rechazada tras corrección: La afirmación de que Ventanilla es "distrito de la provincia constitucional del Callao" no aparece en el material de origen.
+[2026-08-06T21:10:07.712Z]   ✓ chorrillos (Perú) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:10:09.565Z]   ✗ santa-catarina: sin fuente utilizable
+[2026-08-06T21:11:51.950Z]   ✓ general-escobedo (México) — escribió Mistral, verificó NVIDIA
+[2026-08-06T21:12:08.722Z]   ✓ hidalgo-michoacan (México) — escribió Mistral, verificó Cerebras
+[2026-08-06T21:12:08.723Z] publicadas 12 salas · acumuladas 12 · quedan 1417 en cola
