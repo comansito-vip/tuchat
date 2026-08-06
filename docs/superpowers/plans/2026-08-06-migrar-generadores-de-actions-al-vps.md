@@ -10,17 +10,30 @@ sigue corriendo gratis, pero se migra igual por coherencia.
 
 ---
 
-## Qué hay que migrar: 21 crons en 4 proyectos
+## TERMINADO (2026-08-06). Casi todo estaba hecho ya
 
-| Proyecto | Workflows con `schedule:` | Estado hoy |
-|---|---:|---|
-| Portalchat | 12 (noticias ×2, horóscopo ×2, loterías, previas, SEO de salas ×4, deportes, tiempo) | parado |
-| Chatcámara | 5 (noticias, horóscopo, loterías, deportes, curación) | parado |
-| chatamigos | 3 (noticias, horóscopo, loterías) | parado |
-| tuchat | 1 (noticias + curación) | funcionando (repo público) |
+El inventario inicial de este documento decía «21 crons en 4 proyectos por migrar». **Era
+falso.** Al ir a migrarlos resultó que Portalchat, Chatcámara y chatamigos llevaban tiempo
+generando en sus VPS: lo único que seguía en Actions era tuchat.
 
-Los `ci.yml` y `deploy.yml` **no se tocan**: son de integración y despliegue, no generadores,
-y en repo público no cuestan nada.
+El error vino de contar los workflows con `grep schedule:`, que marca como activos los que
+tienen el cron **comentado**. Chatcámara, por ejemplo, ya llevaba escrito
+`# schedule: DESACTIVADO — cron gestionado por crontab del VPS`. La comprobación correcta es
+parsear el YAML y mirar si `schedule` está entre los disparadores de `on:`.
+
+| Proyecto | Generadores | Dónde corre | Qué se hizo hoy |
+|---|---:|---|---|
+| tuchat | 1 | VPS 1, cron 05:00 UTC | **migrado** (ver abajo) |
+| Portalchat | 12 | VPS 2, `/opt/portalchat-es/scripts/` | apagados los 12 workflows fantasma |
+| chatamigos | 3 | VPS 3, `/var/www/chatamigos/gen-*.sh` | apagados los 3 workflows fantasma |
+| Chatcámara | 5 | VPS 2, `/opt/chatcamara/scripts/` | nada: ya estaban desactivados |
+
+Los workflows fantasma no eran inofensivos: seguían disparándose a diario y fallando, porque
+Actions está bloqueado por facturación en los repos privados. Solo producían ruido y correos
+de error que tapaban los fallos de verdad.
+
+**Comprobado: 0 workflows con `schedule` activo en toda la red.** `ci.yml` y `deploy.yml` no
+se tocan — no son generadores.
 
 ## El modelo que ya funciona: estoeschat.com
 
@@ -85,8 +98,16 @@ Comprobado en `/var/www` y `pm2 list`:
 > método de despliegue. Y **dos builds simultáneos corrompen el `.next`** y tumban el sitio:
 > hay que escalonar y lanzarlos detached.
 
-**Sin localizar: `chatamigos.org`** (3 crons). No está en el VPS 1 y la nota de topología del
-VPS 2 no lo menciona. Hay que preguntarlo o buscarlo en el servidor.
+**VPS 3 — `152.228.138.84`** (OVH, usuario `ubuntu`, sudo sin contraseña, Apache como proxy
+inverso). Es donde vive el resto:
+
+- `chatamigos.org` → `/var/www/chatamigos` (systemd `chatamigos.service`, :3002)
+- `tarotgratuito.net` → `/opt/tarotgratuito` (:4324)
+- `chatzona.net` → `/var/www/chatzona.net` (PHP, ~10 crons propios)
+- `trivialchat.org` (:4323), `sexofacil.org` (Docker), `chatlesbianas` → `/opt/chatlesbianas`
+
+Los tres VPS son OVH y se entra con `ubuntu`. El 1 con contraseña; el 2 y el 3 con
+`~/.ssh/id_ed25519`.
 
 ## Estado: tuchat MIGRADO (2026-08-06)
 
@@ -123,13 +144,24 @@ Ninguno se ve leyendo el código; los dos salieron ejecutando de verdad.
 **Es la lección para los 20 crons que faltan:** cualquier generador que commitee en el
 checkout de producción tiene que reconstruir él mismo, y compartir lock con su deploy.
 
-## Orden de trabajo propuesto
+## Lo que queda
 
-1. Localizar el servidor de Portalchat, Chatcámara y chatamigos.
-2. Decidir A o B para tuchat (arriba).
-3. Migrar tuchat primero: es el único con el generador vivo, así que sirve de banco de pruebas
-   sin arriesgar contenido que ya no se está generando.
-4. Portar los 20 crons restantes con el patrón de estoeschat, escalonando las horas: comparten
-   las mismas claves de LLM y la cuota diaria de Groq y Cerebras es común a toda la red.
-5. Registrar en cada repo qué cron quedó instalado y dónde, y borrar el workflow ya migrado
-   para que no quede un generador fantasma.
+Nada de la migración en sí. Dos cosas sueltas que aparecieron por el camino:
+
+1. **`chatcamara-news.log` cierra con `created=0 errors=6`** en su última pasada (2026-08-06
+   18:30). El cron corre, pero ese día no creó ninguna pieza. Merece una mirada: puede ser la
+   cuota de los LLM, compartida por toda la red.
+2. **Actions sigue bloqueado por facturación.** Ya no afecta a los generadores, pero sí a
+   `ci.yml` y `deploy.yml` de los repos privados, que tampoco pueden ejecutarse.
+
+## Lo aprendido, por si aparece otro generador
+
+- Un generador que commitea en el checkout de producción **tiene que reconstruir él mismo**, o
+  compartir con el deploy una marca de «último commit construido». Comparar `HEAD` con
+  `origin/main` no vale: el propio generador ya los ha igualado. chatamigos resuelve esto con
+  un fichero `.last-built`, que es más limpio que reconstruir dentro del generador.
+- Generador y deploy **comparten lock**. Los tres VPS lo hacen ya (`flock` sobre un fichero
+  común), porque el deploy suele empezar con un `reset --hard` que a mitad de una generación
+  se lleva por delante el trabajo.
+- Para saber si un workflow está activo, **parsear el YAML**, no buscar `schedule:` con grep:
+  medio inventario de este documento estaba mal por eso.
