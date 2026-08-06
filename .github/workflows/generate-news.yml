@@ -56,6 +56,15 @@ jobs:
         continue-on-error: true
         run: npm run curar
 
+      # Va entre la curación y el commit porque el 2026-08-06 este workflow publicó
+      # un news.ts sin ninguna noticia destacada: la deduplicación retiró la que lo
+      # era y la home se quedó sin bloque principal. data.test.ts lo detecta ("exactly
+      # one news article is featured"), pero nadie lo estaba ejecutando aquí. Sin
+      # continue-on-error a propósito: si el contenido generado rompe una regla del
+      # sitio, es mejor quedarse sin noticias del día que commitearlas rotas.
+      - name: Verificar el contenido generado
+        run: npm test
+
       - name: Commitear cambios
         run: |
           if [[ -n "$(git status --porcelain src/data)" ]]; then

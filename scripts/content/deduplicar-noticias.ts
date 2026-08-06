@@ -27,6 +27,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { NEWS } from "../../src/data/news";
 import { aperturaNormalizada, normalizarTexto } from "../../src/lib/content/muletillas";
+import { reponerDestacada } from "../../src/lib/content/destacada";
 
 const WRITE = process.argv.includes("--write");
 const RUTA = join(import.meta.dirname, "../../src/data/news.ts");
@@ -192,5 +193,18 @@ for (const slug of aRetirar) {
   }
   src = src.slice(0, inicio) + src.slice(fin + "\n  },\n".length);
 }
+
+// Si la pieza retirada era la destacada, el catálogo se queda sin ninguna: la home
+// pierde su bloque principal y data.test.ts falla por "exactly one news article is
+// featured". Pasó de verdad el 2026-08-06 y llegó a producción porque el workflow
+// commiteaba la curación sin correr los tests.
+const repuesto = reponerDestacada(src);
+if (repuesto === null) {
+  console.warn("   ⚠ se retiró la noticia destacada y no se pudo reponer: marca una a mano.");
+} else {
+  if (repuesto !== src) console.log("   ⓘ la destacada estaba entre las retiradas; pasa a la primera del catálogo.");
+  src = repuesto;
+}
+
 writeFileSync(RUTA, src, "utf-8");
 console.log("news.ts actualizado.");
