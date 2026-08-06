@@ -65,14 +65,29 @@ jobs:
       - name: Verificar el contenido generado
         run: npm test
 
+      # El push va con rebase y reintento porque el 2026-08-05 este paso falló y se
+      # perdió la generación entera de ese día: el job tarda ~15 minutos y basta un
+      # push cualquiera en main durante ese rato para que el remoto avance y el push
+      # del bot sea rechazado. El rebase es seguro aquí — el commit solo toca
+      # src/data y no hay nada más que conservar en un checkout de CI.
       - name: Commitear cambios
         run: |
-          if [[ -n "$(git status --porcelain src/data)" ]]; then
-            git config user.name "tuchat-bot"
-            git config user.email "bot@tuchat.org"
-            git add src/data
-            git commit -m "chore: noticias diarias y curación de contenido"
-            git push
-          else
+          if [[ -z "$(git status --porcelain src/data)" ]]; then
             echo "Sin cambios en src/data"
+            exit 0
           fi
+          git config user.name "tuchat-bot"
+          git config user.email "bot@tuchat.org"
+          git add src/data
+          git commit -m "chore: noticias diarias y curación de contenido"
+
+          for intento in 1 2 3; do
+            if git push; then
+              echo "push OK (intento $intento)"
+              exit 0
+            fi
+            echo "push rechazado; rebase sobre origin/main y reintento"
+            git pull --rebase origin main
+          done
+          echo "::error::el push siguió fallando tras 3 intentos; las noticias del día no se han publicado"
+          exit 1
