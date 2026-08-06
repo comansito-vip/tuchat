@@ -63,15 +63,65 @@ lea en runtime, como hace estoeschat con Postgres.
 **Recomendación: opción A.** El coste es guardar bien una clave; la B obliga a rehacer cómo
 la web consume las noticias, y el beneficio real es menor.
 
-## Además, falta localizar dos servidores
+## Mapa de servidores
 
-El VPS `164.132.107.97` aloja **tuchat.org, chatbarcelona.es, chatligar.net y estoeschat.com**
-(comprobado: `/var/www` y `pm2 list`). Pero **Portalchat, Chatcámara y chatamigos no están
-ahí** — Portalchat despliega a `/var/www/portalchat.es` en un host que el workflow guarda como
-secret `VPS_HOST`, y su IP no se puede resolver por DNS porque todo va tras Cloudflare.
+**VPS 1 — `164.132.107.97`** (OVH, Ubuntu, usuario `ubuntu`, sudo NOPASSWD).
+Comprobado en `/var/www` y `pm2 list`:
 
-Antes de migrar esos tres hay que averiguar en qué servidor viven y si tienen Node y cron
-disponibles.
+- `tuchat.org` (pm2 :3001) — **generador ya migrado**
+- `estoeschat.com` — ~20 crons de generación funcionando; es el modelo
+- `chatbarcelona.es`, `chatligar.net` (Laravel, con su `schedule:run` cada minuto)
+
+**VPS 2 — `164.132.41.192`** (OVH, Ubuntu 24.04, `vps-503956ae`, acceso con
+`~/.ssh/id_ed25519`). Servidor **compartido**, según la nota de topología de Chatcámara:
+
+- `chatzona.com`, `chatargentina`
+- `portalchat.es` → `/opt/portalchat-es` — **12 crons por migrar**
+- `elchatgay.net` → `/opt/elchatgay` (pm2 `elchatgay-web` :3001)
+- `chatcamara.com` → `/opt/chatcamara` (pm2 `chatcamara-web` :3002) — **5 crons por migrar**
+
+> ⚠️ Dos avisos para el VPS 2, ya documentados: **Chatcámara no es un repo git** (se despliega
+> por `rsync` desde local), así que un generador que commitee no encaja ahí sin cambiar el
+> método de despliegue. Y **dos builds simultáneos corrompen el `.next`** y tumban el sitio:
+> hay que escalonar y lanzarlos detached.
+
+**Sin localizar: `chatamigos.org`** (3 crons). No está en el VPS 1 y la nota de topología del
+VPS 2 no lo menciona. Hay que preguntarlo o buscarlo en el servidor.
+
+## Estado: tuchat MIGRADO (2026-08-06)
+
+Se eligió la **opción A**. Instalado y probado de extremo a extremo:
+
+- Deploy key `~/.ssh/tuchat_deploy` con permiso de escritura (alias `github.com-tuchat`),
+  remote del checkout cambiado de HTTPS a SSH.
+- Las 8 variables `*_API_KEYS` copiadas al `.env` del VPS, que no tenía ninguna. Las dos
+  que sí había (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`) quedan comentadas: son inválidas y
+  encabezaban la cadena, gastando dos intentos fallidos por categoría.
+- `/home/ubuntu/generar-noticias-tuchat.sh` + cron a las 05:00 UTC.
+- `generate-news.yml` se queda solo con `workflow_dispatch`.
+- `tsx` declarado en package.json: se descargaba con `npx` en cada ejecución, lo que
+  convertía la red en un punto de fallo diario.
+- Copia versionada de los scripts en `deploy/`, con un README que explica los dos fallos
+  de abajo.
+
+### Dos fallos que solo aparecieron al probar
+
+Ninguno se ve leyendo el código; los dos salieron ejecutando de verdad.
+
+1. **Locks separados.** Generador y deploy usaban cada uno el suyo, con 30 minutos entre
+   ambos crons. Si la generación se pasaba de ese margen, el `git reset --hard` del deploy
+   arrancaba a mitad y se llevaba por delante el `news.ts` recién escrito. Ahora comparten
+   `/tmp/tuchat-pipeline.lock`; el deploy espera hasta 30 minutos en vez de rendirse.
+
+2. **El contenido se commiteaba pero no se publicaba.** El generador commitea en el mismo
+   checkout que sirve el sitio, así que al terminar el VPS ya está en `origin/main` — y
+   `deploy-tuchat.sh` sale por su comprobación `LOCAL = REMOTE` sin construir nada. El
+   `.next` quedó 15 minutos por detrás de `news.ts` y las noticias no llegaron a la web.
+   Con Actions no pasaba porque el commit se hacía en GitHub y el VPS sí quedaba por
+   detrás. Ahora el generador reconstruye y reinicia él mismo tras el push.
+
+**Es la lección para los 20 crons que faltan:** cualquier generador que commitee en el
+checkout de producción tiene que reconstruir él mismo, y compartir lock con su deploy.
 
 ## Orden de trabajo propuesto
 
