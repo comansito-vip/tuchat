@@ -41,7 +41,10 @@ export function ChatSearch() {
           onChange={(e) => setQ(e.target.value)}
           placeholder="Buscar ciudad, país o temática"
           aria-label="Buscar sala"
-          className="w-full bg-transparent px-3 py-2 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
+          // min-h-[44px] como el resto de campos del sitio: es el mínimo táctil de
+          // Apple y este se quedaba en ~40px. text-base en móvil porque por debajo
+          // de 16px iOS hace zoom al enfocar y luego no lo deshace.
+          className="min-h-[44px] w-full bg-transparent px-3 py-2 text-base text-ink outline-none placeholder:text-muted sm:text-sm"
         />
       </form>
 
