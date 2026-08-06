@@ -9,10 +9,16 @@ historial. Si tocas el script en el VPS, actualiza también esta copia.
 
 | Ruta en el VPS | Cuándo | Qué hace |
 |---|---|---|
+| `/home/ubuntu/generar-salas-tuchat.sh` | cron, 03:40 UTC | redacta 12 salas de localidad, pasa los tests, commitea, empuja y **reconstruye** |
 | `/home/ubuntu/generar-noticias-tuchat.sh` | cron, 05:00 UTC | genera noticias, cura, pasa los tests, commitea, empuja y **reconstruye** |
 | `/home/ubuntu/deploy-tuchat.sh` | cron, 05:30 UTC | despliega si `origin/main` trae commits nuevos (los hechos desde fuera del VPS) |
 
-Logs: `generar-noticias-tuchat.log` y `deploy-tuchat.log` en `/home/ubuntu/`.
+Logs: `generar-salas-tuchat.log`, `generar-noticias-tuchat.log` y `deploy-tuchat.log`,
+todos en `/home/ubuntu/`.
+
+Los tres comparten `/tmp/tuchat-pipeline.lock` y van escalonados (03:40 → 05:00 →
+05:30) para no competir entre ellos ni con los ~20 crons de estoeschat, que
+arrancan a las 04:10 y usan las mismas claves de LLM.
 
 ## Por qué el generador reconstruye él mismo
 

@@ -83,7 +83,7 @@ export const AGE_CHANNELS = [
 
 /** LGTBI. */
 export const LGTBI_CHANNELS = [
-  "gay", "lesbianas", "de_ambiente", "travestis", "personas_trans",
+  "gay", "lesbianas", "bisexuales", "de_ambiente", "travestis", "personas_trans",
   "chueca", "chueca_madrid", "chueca_barcelona", "el_rincon_les",
 ] as const;
 

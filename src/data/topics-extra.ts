@@ -996,7 +996,7 @@ const RAW: Place[] = [
     votes: 263,
     tag: "Tendencia",
     activity: "Media",
-    channels: ["de_ambiente", "chatzona", "bisex", "lgtbi"],
+    channels: ["bisexuales", "de_ambiente", "chatzona"],
     related: ["lgtbi", "gay", "lesbianas", "amor", "amistad", "ligar"],
     intro:
       "Chat bisexual sin etiquetas: espacio para personas bi y curiosas donde nadie te pide que elijas. Conversación abierta, amistad y gente afín sin prejuicios.",

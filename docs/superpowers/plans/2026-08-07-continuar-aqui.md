@@ -46,14 +46,25 @@ Repetir el diagnóstico cuando se quiera: `php scripts/diagnostico-indexacion.ph
 
 ## Lo que toca ahora, por orden
 
-1. **Dar de alta el cron en el VPS.** Es lo único que falta para que esto ande
-   solo:
-   ```cron
-   20 4 * * *  cd /home/javier/tuchat && npx tsx scripts/cron/salas-geo.mjs --lote 12 >> data/localidades/cron.log 2>&1
-   ```
-   Ojo: el cron **commitea contenido nuevo**, así que en el VPS hay que
-   asegurarse de que puede hacer push (ya pasó con el cron de noticias, ver
-   `7020abe`).
+1. ~~**Dar de alta el cron en el VPS.**~~ **HECHO el 2026-08-07.**
+   `/home/ubuntu/generar-salas-tuchat.sh`, cron a las **03:40 UTC**, log en
+   `generar-salas-tuchat.log`. Copia versionada en `deploy/`.
+
+   Tres cosas que no estaban en la receta original y hacían falta:
+   - **La ruta del VPS es `/var/www/tuchat.org`**, no `/home/javier/tuchat`.
+   - **El script reconstruye y reinicia al terminar.** Commitea en el mismo
+     checkout que sirve el sitio, así que al acabar el VPS ya está en
+     `origin/main` y `deploy-tuchat.sh` se saltaría el build por su comprobación
+     `LOCAL = REMOTE`: las salas se quedarían en git sin salir publicadas. Pasó
+     con el cron de noticias el 2026-08-06 (`.next` quedó 15 minutos por detrás
+     de `news.ts`).
+   - **Comparte lock con los otros dos crons** (`/tmp/tuchat-pipeline.lock`).
+     El deploy empieza con `git reset --hard`, que a mitad de una generación se
+     lleva por delante lo escrito.
+
+   Horario: 03:40, por delante de las noticias (05:00) y del deploy (05:30), y
+   en el hueco anterior a los crons de estoeschat (04:10). Comparten claves de
+   LLM y la cuota diaria de Groq y Cerebras es común a toda la red.
 
 2. **Salas de estado de México.** Los seis slugs están libres, comprobado:
    `nuevo-leon`, `sonora`, `jalisco`, `yucatan`, `coahuila`, `sinaloa`. Suman
