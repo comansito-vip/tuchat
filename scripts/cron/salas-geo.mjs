@@ -375,6 +375,12 @@ async function main() {
   const publicadas = [...getCountries(), ...getCities(), ...getTopics()];
   const indice = indexar(publicadas, CITY_COORDS);
   const yaSlug = new Set(publicadas.map((p) => p.slug));
+  // Y también por identidad de la localidad, no solo por slug: "palermo" y
+  // "palermo-colombia" son slugs distintos del mismo pueblo de Huila, y las dos
+  // salas se publicaron el 2026-08-06 porque el filtro solo miraba el slug. El
+  // desambiguador no siempre elige la misma forma entre pasadas.
+  const identidad = (r) => `${(r.name ?? r.nombre ?? "").toLowerCase()}|${(r.provincia ?? r.region ?? "").toLowerCase()}|${(r.parentSlug ?? r.paisSlug ?? "").toLowerCase()}`;
+  const yaLocalidad = new Set(publicadas.map(identidad));
   const situadas = [...indice.situadas];
 
   // El índice de fraseo se arranca con lo YA publicado a mano y con lo que haya
@@ -390,7 +396,8 @@ async function main() {
     (demanda?.get(norm(loc.nombre)) ?? 0) * 1000 + (loc.poblacion ?? 0);
 
   const candidatas = cola
-    .filter((l) => l.slug && !hechas.has(l.slug) && !abandonadas.has(l.slug) && !yaSlug.has(l.slug))
+    .filter((l) => l.slug && !hechas.has(l.slug) && !abandonadas.has(l.slug)
+      && !yaSlug.has(l.slug) && !yaLocalidad.has(identidad(l)))
     .sort((a, b) => puntuar(b) - puntuar(a));
 
   log(`cola: ${candidatas.length} pendientes · lote de hoy: ${LOTE}${SECO ? " (SECO)" : ""}`);
@@ -498,6 +505,7 @@ async function main() {
       nuevas.push(registro);
       hechas.add(loc.slug);
       yaSlug.add(loc.slug);
+      yaLocalidad.add(identidad(loc));
       for (const s of shingles(registro.about)) if (!indiceFraseo.has(s)) indiceFraseo.set(s, registro.slug);
       if (loc.coords) situadas.push({ slug: loc.slug, nombre: loc.nombre, ...loc.coords });
       log(`  ✓ ${loc.slug} (${loc.pais}) — escribió ${gen.proveedor}, verificó ${ver.proveedor}`);

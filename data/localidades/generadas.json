@@ -400,36 +400,5 @@
   "intro": "Chat de Palermo, municipio del Huila con 917 km² de territorio y clima de 27 °C, espacio para conversar sobre su vida y entorno.",
   "aboutTitle": "Palermo: 917 km² en el alto del valle del Magdalena",
   "about": "Palermo es un municipio colombiano situado en el noroccidente del departamento del Huila, dentro de la región andina y del SubNorte del departamento. Ocupa 917 km² en el alto del valle del Magdalena, a una altitud de 690 metros sobre el nivel del mar, y su temperatura promedio ronda los 27 °C. La ubicación geográfica le brinda una mezcla de paisajes de montaña y llanura, y su entorno natural forma parte de la cordillera Central.\\n\\nEn la sala de chat de Palermo los habitantes y visitantes intercambian información sobre la cotidianidad del municipio: actividades locales, clima, agricultura, eventos comunitarios y cualquier tema de interés para la gente de la zona. La conversación está abierta a residentes, emigrantes y a quien quiera conocer más sobre este punto del Huila, fomentando un espacio de diálogo cercano y directo."
- },
- {
-  "slug": "palermo",
-  "name": "Palermo",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 153,
-  "votes": 259,
-  "activity": "Alta",
-  "parentName": "Colombia",
-  "parentSlug": "colombia",
-  "provincia": "Huila",
-  "regionSlug": "huila",
-  "channels": [
-   "colombia",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "palermo-colombia",
-   "neiva",
-   "campoalegre",
-   "la-plata-huila",
-   "garzon",
-   "colombia",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Sala de chat de Palermo, municipio del Huila a 690 m s. n. m. en el alto valle del Magdalena. Conecta con quienes viven o visitan esta zona andina de Colombia.",
-  "aboutTitle": "Palermo y su valle en el alto Magdalena",
-  "about": "Palermo es un municipio del departamento del Huila, en la región andina de Colombia. Se sitúa en el alto valle del Magdalena, al oriente de la cordillera Central, con una extensión de 917 km² y una temperatura promedio de 27 °C. Su ubicación en la región SubNorte del Huila le da un carácter estratégico dentro del departamento, marcado por un paisaje de valle y montaña a 690 metros sobre el nivel del mar.\n\nEn el Chat de Palermo entran vecinos, visitantes y quienes tienen algún vínculo con el municipio. Se habla de la vida cotidiana, de los planes para recorrer la zona, de noticias locales y de lo que ocurre en el Huila. También es un espacio para coordinar encuentros o compartir recomendaciones sobre la región, desde rutas hasta eventos que puedan surgir en el calendario del municipio."
  }
 ]
