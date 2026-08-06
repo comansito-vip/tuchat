@@ -341,5 +341,95 @@
   ],
   "intro": "Sala de chat de Hidalgo (Michoacán), municipio que plantó 3 mil arbolitos en El Mirador y reparte apoyos sociales.",
   "about": "Hidalgo es un municipio de Michoacán, México. Su gobierno municipal, encabezado por Jeovana Alcántar, organiza actividades como la reforestación de 3 mil arbolitos en El Mirador (Llano del Ejido) y la entrega de apoyos sociales a través de la Dirección de Desarrollo Social. También ha impulsado eventos como el Primer Congreso Internacional de Tecnologías Emergentes 2025.\n\nEn la sala de chat de Hidalgo se reúnen vecinos y visitantes para hablar de la vida local, desde las obras públicas y los programas municipales hasta las iniciativas de desarrollo urbano. Es un espacio para quienes quieren estar al tanto de las actividades del ayuntamiento o conectar con gente de la zona."
+ },
+ {
+  "slug": "lima-metropolitana",
+  "name": "Lima Metropolitana",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 170,
+  "votes": 276,
+  "activity": "Alta",
+  "parentName": "Perú",
+  "parentSlug": "peru",
+  "provincia": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "channels": [
+   "peru",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "peru",
+   "lima",
+   "callao",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Lima Metropolitana: conecta con usuarios de la zona urbana más grande del Perú, la 32.ª mayor área metropolitana del mundo con 11,3 millones.",
+  "aboutTitle": "Lima-Callao, la 32.ª mayor área metropolitana del mundo",
+  "about": "El área metropolitana de Lima-Callao agrupa los distritos de la provincia de Lima y la provincia constitucional del Callao, constituyendo la zona urbana más extensa y poblada del país. Según el INEI, en 2023 cuenta con una población estimada de 11,3 millones de habitantes, lo que la sitúa como una de las cinco mayores en Latinoamérica y la 32.ª mayor área metropolitana en todo el mundo. Su carácter de megaciudad la convierte en un punto neurálgico para la actividad económica, cultural y social del Perú.\n\nLa sala de chat de Lima Metropolitana reúne a residentes, estudiantes y visitantes que comparten información sobre la vida cotidiana, noticias locales, eventos culturales y temas de interés general. Los participantes discuten la dinámica de la ciudad, sus desafíos y oportunidades, intercambiando opiniones y experiencias que reflejan la diversidad de la gran comunidad limeña."
+ },
+ {
+  "slug": "palermo-colombia",
+  "name": "Palermo",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 153,
+  "votes": 259,
+  "activity": "Alta",
+  "parentName": "Colombia",
+  "parentSlug": "colombia",
+  "provincia": "Huila",
+  "regionSlug": "huila",
+  "channels": [
+   "colombia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "neiva",
+   "campoalegre",
+   "la-plata-huila",
+   "garzon",
+   "chaparral",
+   "colombia",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Palermo, municipio del Huila con 917 km² de territorio y clima de 27 °C, espacio para conversar sobre su vida y entorno.",
+  "aboutTitle": "Palermo: 917 km² en el alto del valle del Magdalena",
+  "about": "Palermo es un municipio colombiano situado en el noroccidente del departamento del Huila, dentro de la región andina y del SubNorte del departamento. Ocupa 917 km² en el alto del valle del Magdalena, a una altitud de 690 metros sobre el nivel del mar, y su temperatura promedio ronda los 27 °C. La ubicación geográfica le brinda una mezcla de paisajes de montaña y llanura, y su entorno natural forma parte de la cordillera Central.\\n\\nEn la sala de chat de Palermo los habitantes y visitantes intercambian información sobre la cotidianidad del municipio: actividades locales, clima, agricultura, eventos comunitarios y cualquier tema de interés para la gente de la zona. La conversación está abierta a residentes, emigrantes y a quien quiera conocer más sobre este punto del Huila, fomentando un espacio de diálogo cercano y directo."
+ },
+ {
+  "slug": "palermo",
+  "name": "Palermo",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 153,
+  "votes": 259,
+  "activity": "Alta",
+  "parentName": "Colombia",
+  "parentSlug": "colombia",
+  "provincia": "Huila",
+  "regionSlug": "huila",
+  "channels": [
+   "colombia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "palermo-colombia",
+   "neiva",
+   "campoalegre",
+   "la-plata-huila",
+   "garzon",
+   "colombia",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Sala de chat de Palermo, municipio del Huila a 690 m s. n. m. en el alto valle del Magdalena. Conecta con quienes viven o visitan esta zona andina de Colombia.",
+  "aboutTitle": "Palermo y su valle en el alto Magdalena",
+  "about": "Palermo es un municipio del departamento del Huila, en la región andina de Colombia. Se sitúa en el alto valle del Magdalena, al oriente de la cordillera Central, con una extensión de 917 km² y una temperatura promedio de 27 °C. Su ubicación en la región SubNorte del Huila le da un carácter estratégico dentro del departamento, marcado por un paisaje de valle y montaña a 690 metros sobre el nivel del mar.\n\nEn el Chat de Palermo entran vecinos, visitantes y quienes tienen algún vínculo con el municipio. Se habla de la vida cotidiana, de los planes para recorrer la zona, de noticias locales y de lo que ocurre en el Huila. También es un espacio para coordinar encuentros o compartir recomendaciones sobre la región, desde rutas hasta eventos que puedan surgir en el calendario del municipio."
  }
 ]

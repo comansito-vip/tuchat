@@ -70,3 +70,9 @@
 [2026-08-06T21:11:51.950Z]   ✓ general-escobedo (México) — escribió Mistral, verificó NVIDIA
 [2026-08-06T21:12:08.722Z]   ✓ hidalgo-michoacan (México) — escribió Mistral, verificó Cerebras
 [2026-08-06T21:12:08.723Z] publicadas 12 salas · acumuladas 12 · quedan 1417 en cola
+[2026-08-06T23:13:28.697Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-06T23:13:28.701Z] cola: 2971 pendientes · lote de hoy: 3
+[2026-08-06T23:13:31.596Z]   ✓ lima-metropolitana (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-06T23:13:35.345Z]   ✓ palermo-colombia (Colombia) — escribió Cerebras, verificó Mistral
+[2026-08-06T23:13:42.853Z]   ✓ palermo (Colombia) — escribió Mistral, verificó Cerebras
+[2026-08-06T23:13:42.854Z] publicadas 3 salas · acumuladas 15 · quedan 2968 en cola
