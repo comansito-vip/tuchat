@@ -1,0 +1,5365 @@
+[
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Iztapalapa",
+  "slug": false,
+  "poblacion": 1835486,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Iztapalapa",
+  "extracto": null,
+  "webOficial": "http://www.iztapalapa.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.358333333,
+   "lon": -99.093055555
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 8.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Juárez",
+  "slug": false,
+  "poblacion": 1321004,
+  "region": "Chihuahua",
+  "regionSlug": "chihuahua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez",
+  "extracto": null,
+  "webOficial": "https://www.juarez.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 31.6685,
+   "lon": -106.42
+  },
+  "posibleDuplicadoDe": "ciudad-juarez",
+  "km": 6.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Gustavo A. Madero",
+  "slug": false,
+  "poblacion": 1173351,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gustavo_A._Madero_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.gamadero.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.48407,
+   "lon": -99.11144
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 6.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Álvaro Obregón",
+  "slug": false,
+  "poblacion": 759137,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/%C3%81lvaro_Obreg%C3%B3n_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.aao.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.356388888,
+   "lon": -99.236111111
+  },
+  "posibleDuplicadoDe": "jesus-del-monte",
+  "km": 6.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Coyoacán",
+  "slug": false,
+  "poblacion": 614447,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coyoac%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://www.coyoacan.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.35,
+   "lon": -99.162222222
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 9.5
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Petare",
+  "slug": false,
+  "poblacion": 448861,
+  "region": "Miranda",
+  "regionSlug": "miranda",
+  "wikipedia": "https://es.wikipedia.org/wiki/Parroquia_Petare",
+  "extracto": null,
+  "webOficial": "http://www.alcaldiamunicipiosucre.gov.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.48333333,
+   "lon": -66.81666667
+  },
+  "posibleDuplicadoDe": "caracas",
+  "km": 6.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Azcapotzalco",
+  "slug": false,
+  "poblacion": 432205,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Azcapotzalco",
+  "extracto": null,
+  "webOficial": "http://www.azcapotzalco.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.48731,
+   "lon": -99.18766
+  },
+  "posibleDuplicadoDe": "naucalpan",
+  "km": 5.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Miguel Hidalgo",
+  "slug": false,
+  "poblacion": 414470,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Miguel_Hidalgo_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.miguelhidalgo.cdmx.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.406666666,
+   "lon": -99.191111111
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 7.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Iztacalco",
+  "slug": false,
+  "poblacion": 404695,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Iztacalco",
+  "extracto": null,
+  "webOficial": "http://www.iztacalco.cdmx.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.39601,
+   "lon": -99.08192
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tláhuac",
+  "slug": false,
+  "poblacion": 392313,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tl%C3%A1huac",
+  "extracto": null,
+  "webOficial": "http://www.tlahuac.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.27436,
+   "lon": -99.00278
+  },
+  "posibleDuplicadoDe": "xico-veracruz",
+  "km": 5.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Malvinas Argentinas",
+  "slug": true,
+  "poblacion": 350674,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Malvinas_Argentinas",
+  "extracto": null,
+  "webOficial": "https://www.malvinasargentinas.gob.ar/web/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.45,
+   "lon": -58.63
+  },
+  "posibleDuplicadoDe": "tigre",
+  "km": 5.3
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Gómez Palacio",
+  "slug": false,
+  "poblacion": 342286,
+  "region": "Durango",
+  "regionSlug": "durango",
+  "wikipedia": "https://es.wikipedia.org/wiki/G%C3%B3mez_Palacio",
+  "extracto": null,
+  "webOficial": "https://www.gomezpalacio.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.5725,
+   "lon": -103.4945
+  },
+  "posibleDuplicadoDe": "torreon",
+  "km": 8.2
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Los Olivos",
+  "slug": false,
+  "poblacion": 325884,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Los_Olivos",
+  "extracto": null,
+  "webOficial": "http://www.munilosolivos.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.97027778,
+   "lon": -77.07388889
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 9.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Guaymallén",
+  "slug": false,
+  "poblacion": 321966,
+  "region": "Provincia de Mendoza",
+  "regionSlug": "provincia-de-mendoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guaymall%C3%A9n",
+  "extracto": "Guaymallén es un componente urbano que incluye los distritos que forman parte integrante del área metropolitana del Gran Mendoza dentro del departamento homónimo, provincia de Mendoza, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -32.9,
+   "lon": -68.783333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mendoza",
+  "km": 5.9
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Las Condes",
+  "slug": false,
+  "poblacion": 294838,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Las_Condes",
+  "extracto": null,
+  "webOficial": "http://www.lascondes.cl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.416666666,
+   "lon": -70.583333333
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 7.5
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Pedro Carchá",
+  "slug": false,
+  "poblacion": 255006,
+  "region": "Departamento de Alta Verapaz",
+  "regionSlug": "departamento-de-alta-verapaz",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pedro_Carch%C3%A1",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanpedrocarcha",
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.476801,
+   "lon": -90.312037
+  },
+  "posibleDuplicadoDe": "coban",
+  "km": 6.7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "La Magdalena Contreras",
+  "slug": false,
+  "poblacion": 247622,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Magdalena_Contreras",
+  "extracto": null,
+  "webOficial": "https://mcontreras.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.333333333,
+   "lon": -99.213888888
+  },
+  "posibleDuplicadoDe": "jesus-del-monte",
+  "km": 9.6
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Baruta",
+  "slug": false,
+  "poblacion": 240755,
+  "region": "Miranda",
+  "regionSlug": "miranda",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Baruta",
+  "extracto": null,
+  "webOficial": "https://comunas.gob.ve/?s=Baruta",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.428888888,
+   "lon": -66.873055555
+  },
+  "posibleDuplicadoDe": "caracas",
+  "km": 6.6
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Independencia",
+  "slug": true,
+  "poblacion": 211360,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Independencia_(Lima)",
+  "extracto": null,
+  "webOficial": "http://www.muniindependencia.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.99166667,
+   "lon": -77.05
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 6.2
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Coquimbo",
+  "slug": false,
+  "poblacion": 204068,
+  "region": "Región de Coquimbo",
+  "regionSlug": "region-de-coquimbo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coquimbo",
+  "extracto": null,
+  "webOficial": "http://www.municoquimbo.cl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -29.9532,
+   "lon": -71.338
+  },
+  "posibleDuplicadoDe": "la-serena",
+  "km": 10
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "El Agustino",
+  "slug": false,
+  "poblacion": 198862,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_El_Agustino",
+  "extracto": null,
+  "webOficial": "http://mdea.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.05,
+   "lon": -77
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 3.2
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Madero",
+  "slug": false,
+  "poblacion": 197216,
+  "region": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Madero",
+  "extracto": null,
+  "webOficial": "http://www.ciudadmadero.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.2475,
+   "lon": -97.8375
+  },
+  "posibleDuplicadoDe": "tampico",
+  "km": 5.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Godoy Cruz",
+  "slug": false,
+  "poblacion": 191299,
+  "region": "Provincia de Mendoza",
+  "regionSlug": "provincia-de-mendoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Godoy_Cruz",
+  "extracto": null,
+  "webOficial": "http://www.godoycruz.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -32.916666666,
+   "lon": -68.833333333
+  },
+  "posibleDuplicadoDe": "mendoza",
+  "km": 3.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Isidro Casanova",
+  "slug": false,
+  "poblacion": 190696,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Isidro_Casanova",
+  "extracto": "Isidro Casanova es una localidad del Partido-Municipio de La Matanza, ubicada en la zona oeste del área metropolitana de Buenos Aires, a unos 9 km de la Ciudad Autónoma de Buenos Aires, Argentina. La fecha fundacional es el 15 de mayo de 1911, determinada a posteriori mediante decreto provincial. Fue declarada ciudad el 29 de agosto de 1974.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7,
+   "lon": -58.583333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "moron",
+  "km": 6.5
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "La Esperanza",
+  "slug": true,
+  "poblacion": 189206,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Esperanza_(Trujillo)",
+  "extracto": null,
+  "webOficial": "http://munilaesperanza.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.08294722,
+   "lon": -79.04099722
+  },
+  "posibleDuplicadoDe": "trujillo",
+  "km": 3.9
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Guatire",
+  "slug": false,
+  "poblacion": 187262,
+  "region": "Miranda",
+  "regionSlug": "miranda",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guatire",
+  "extracto": null,
+  "webOficial": "http://zamora-miranda.gov.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.471666666,
+   "lon": -66.540555555
+  },
+  "posibleDuplicadoDe": "guarenas",
+  "km": 8.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Berazategui",
+  "slug": false,
+  "poblacion": 180523,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Berazategui_(ciudad)",
+  "extracto": null,
+  "webOficial": "https://berazategui.gob.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.767888888,
+   "lon": -58.213277777
+  },
+  "posibleDuplicadoDe": "quilmes",
+  "km": 6.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Caballito",
+  "slug": false,
+  "poblacion": 176076,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Caballito",
+  "extracto": null,
+  "webOficial": "https://buenosaires.gob.ar/laciudad/barrios/caballito",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.616666666,
+   "lon": -58.45
+  },
+  "posibleDuplicadoDe": "buenos-aires",
+  "km": 6.7
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Moreno",
+  "slug": false,
+  "poblacion": 171849,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Moreno_(ciudad)",
+  "extracto": null,
+  "webOficial": "http://www.moreno.gov.ar/principal.aspx",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.657619444,
+   "lon": -58.787241666
+  },
+  "posibleDuplicadoDe": "merlo",
+  "km": 5.5
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Santa Rita",
+  "slug": false,
+  "poblacion": 169158,
+  "region": "Aragua",
+  "regionSlug": "aragua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Rita_(Aragua)",
+  "extracto": null,
+  "webOficial": "http://franciscolinaresalcantara-aragua.gob.ve/portal-alcaldias/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.200277777,
+   "lon": -67.551388888
+  },
+  "posibleDuplicadoDe": "maracay",
+  "km": 7.3
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jiutepec",
+  "slug": false,
+  "poblacion": 162427,
+  "region": "Morelos",
+  "regionSlug": "morelos",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": "http://www.municipiojiutepec.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.881388888,
+   "lon": -99.177777777
+  },
+  "posibleDuplicadoDe": "emiliano-zapata-edomex",
+  "km": 4.6
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Miguel Petapa",
+  "slug": false,
+  "poblacion": 150513,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Miguel_Petapa",
+  "extracto": "San Miguel Petapa es una ciudad del Departamento de Guatemala en la República de Guatemala, integrada al Área Metropolitana de Guatemala y miembro activo de la Mancomunidad Gran Ciudad del Sur, un organismo de coordinación regional que articula planificación urbana y desarrollo entre los principales municipios del sur metropolitano. Según proyecciones del Instituto Nacional de Estadística para 2022, el municipio tiene una población aproximada de 150,513 habitantes, posicionándolo como uno de los núcleos urbanos relevantes dentro del AMG y del país. La ciudad contribuye de manera significativa a la dinámica demográfica, económica y laboral de la región metropolitana y del sur del departamento, actuando como un componente urbano interconectado que influye en los flujos de movilidad, comercio y servicios más allá de sus límites administrativos.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.4962,
+   "lon": -90.5525
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "villa-nueva",
+  "km": 4.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Florencio Varela",
+  "slug": false,
+  "poblacion": 146704,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Florencio_Varela_(ciudad)",
+  "extracto": null,
+  "webOficial": "http://www.varela.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7975,
+   "lon": -58.2759
+  },
+  "posibleDuplicadoDe": "quilmes",
+  "km": 8.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Castilla",
+  "slug": false,
+  "poblacion": 145182,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Castilla_(Piura)",
+  "extracto": null,
+  "webOficial": "http://www.municastilla.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -5.201611111,
+   "lon": -80.622472222
+  },
+  "posibleDuplicadoDe": "piura",
+  "km": 4.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Kanasín",
+  "slug": false,
+  "poblacion": 139753,
+  "region": "Yucatán",
+  "regionSlug": "yucatan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Kanas%C3%ADn",
+  "extracto": null,
+  "webOficial": "http://www.kanasin.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.934444444,
+   "lon": -89.557777777
+  },
+  "posibleDuplicadoDe": "merida-mexico",
+  "km": 7.7
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Paucarpata",
+  "slug": false,
+  "poblacion": 131346,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Paucarpata",
+  "extracto": null,
+  "webOficial": "http://www.munipaucarpata.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.4329075,
+   "lon": -71.5042977
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 5.2
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Los Guayos",
+  "slug": false,
+  "poblacion": 130345,
+  "region": "Carabobo",
+  "regionSlug": "carabobo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Los_Guayos",
+  "extracto": null,
+  "webOficial": "http://losguayos-carabobo.gob.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.183333333,
+   "lon": -67.933333333
+  },
+  "posibleDuplicadoDe": "valencia-venezuela",
+  "km": 7.7
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Guanabacoa",
+  "slug": false,
+  "poblacion": 128666,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guanabacoa",
+  "extracto": "Guanabacoa es un municipio y población de la provincia de La Habana (Cuba). También conocida como «la villa de Pepe Antonio», se ubica en la parte central de la provincia y es su segundo distrito en cuanto a extensión.",
+  "webOficial": null,
+  "gentilicio": "guanabacoense",
+  "coords": {
+   "lat": 23.12518,
+   "lon": -82.30067
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "la-habana",
+  "km": 8.5
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Táriba",
+  "slug": false,
+  "poblacion": 128590,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/T%C3%A1riba",
+  "extracto": "La ciudad de Táriba es la capital del Municipio Cárdenas del Estado Táchira, Venezuela. La ciudad tiene una población de 147 584 habitantes en el 2023 aproximadamente, y forma parte del Área metropolitana de San Cristóbal. Es llamada La Perla del Torbes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.816666666,
+   "lon": -72.216666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-cristobal",
+  "km": 6
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Cerro Navia",
+  "slug": false,
+  "poblacion": 127250,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cerro_Navia",
+  "extracto": null,
+  "webOficial": "http://www.cerronavia.com",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.416666666,
+   "lon": -70.716666666
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 7.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Belgrano",
+  "slug": false,
+  "poblacion": 126831,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Belgrano_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": "https://buenosaires.gob.ar/laciudad/barrios/belgrano",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.5625,
+   "lon": -58.458333333
+  },
+  "posibleDuplicadoDe": "buenos-aires",
+  "km": 9.3
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Chinautla",
+  "slug": false,
+  "poblacion": 124365,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chinautla",
+  "extracto": "Chinautla es un municipio de la región metropolitana del departamento de Guatemala de la República de Guatemala y que alberga a las regiones históricas de Las Vacas, Las Lomas, Las Flores y Jocotales. Actualmente el municipio se ubica dentro de las 20 ciudades más importantes de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.702916666,
+   "lon": -90.500027777
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "ciudad-de-guatemala",
+  "km": 7.1
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Bajos de Haina",
+  "slug": false,
+  "poblacion": 124193,
+  "region": "San Cristóbal",
+  "regionSlug": "san-cristobal",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bajos_de_Haina",
+  "extracto": "Bajos de Haina es un municipio de la República Dominicana, que está situado en la provincia de San Cristóbal.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.42,
+   "lon": -70.03
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-cristobal-rd",
+  "km": 8.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Pedro Garza García",
+  "slug": false,
+  "poblacion": 122659,
+  "region": "Nuevo León",
+  "regionSlug": "nuevo-leon",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pedro_Garza_Garc%C3%ADa",
+  "extracto": null,
+  "webOficial": "http://www.sanpedro.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.6643,
+   "lon": -100.4023
+  },
+  "posibleDuplicadoDe": "monterrey",
+  "km": 8.8
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Providencia",
+  "slug": false,
+  "poblacion": 120874,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Providencia_(Chile)",
+  "extracto": null,
+  "webOficial": "http://www.providencia.cl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.433333333,
+   "lon": -70.616666666
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 3.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Ramos Mejía",
+  "slug": false,
+  "poblacion": 120346,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ramos_Mej%C3%ADa",
+  "extracto": "Ramos Mejía es una localidad del partido de La Matanza, ubicado a 2,1 km de su acceso más cercano a la Ciudad Autónoma de Buenos Aires y a 22 km del centro de la capital argentina. Esta ciudad forma parte del aglomerado urbano del área metropolitana de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.65,
+   "lon": -58.566666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "moron",
+  "km": 5.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tizayuca",
+  "slug": false,
+  "poblacion": 119442,
+  "region": "Hidalgo",
+  "regionSlug": "hidalgo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tizayuca",
+  "extracto": null,
+  "webOficial": "https://www.tizayuca.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -98.966666666
+  },
+  "posibleDuplicadoDe": "reyes-acozac",
+  "km": 8.4
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "La Granja",
+  "slug": false,
+  "poblacion": 116571,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Granja_(Chile)",
+  "extracto": null,
+  "webOficial": "https://www.municipalidadlagranja.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.543055555,
+   "lon": -70.631944444
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 9.7
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Ñemby",
+  "slug": false,
+  "poblacion": 116383,
+  "region": "Departamento Central",
+  "regionSlug": "departamento-central",
+  "wikipedia": "https://es.wikipedia.org/wiki/%C3%91emby",
+  "extracto": "Ñemby es una ciudad paraguaya ubicada en el departamento Central, que forma parte del Gran Asunción, área metropolitana integrada por la capital del país, Asunción, y sus ciudades periféricas. Antiguamente fue conocida como «La Frontera» y sus orígenes se remontan a la época de la colonización española.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.3935,
+   "lon": -57.5443
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "fernando-de-la-mora",
+  "km": 6.5
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Libertador",
+  "slug": true,
+  "poblacion": 114355,
+  "region": "Aragua",
+  "regionSlug": "aragua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Libertador_(Aragua)",
+  "extracto": null,
+  "webOficial": "http://libertador-aragua.gob.ve/portal-alcaldias/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.166388888,
+   "lon": -67.564166666
+  },
+  "posibleDuplicadoDe": "maracay",
+  "km": 9.9
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "San Borja",
+  "slug": true,
+  "poblacion": 113247,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Borja",
+  "extracto": null,
+  "webOficial": "http://www.munisanborja.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.09755,
+   "lon": -76.99521
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Antonio la Isla",
+  "slug": false,
+  "poblacion": 110560,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Antonio_la_Isla",
+  "extracto": "San Antonio la Isla es una localidad del Estado de México, cabecera del Municipio de San Antonio la Isla. En el censo de 2020 estaba poblada por 17 075 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.167694444,
+   "lon": -99.554166666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "tenango-de-arista",
+  "km": 8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Bernal",
+  "slug": false,
+  "poblacion": 109914,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bernal",
+  "extracto": null,
+  "webOficial": "http://www.quilmes.gov.ar",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7,
+   "lon": -58.283333333
+  },
+  "posibleDuplicadoDe": "quilmes",
+  "km": 3.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Monte Grande",
+  "slug": false,
+  "poblacion": 109644,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Monte_Grande",
+  "extracto": null,
+  "webOficial": "http://www.estebanecheverria.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.816666666,
+   "lon": -58.466666666
+  },
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 8.8
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Alto Hospicio",
+  "slug": false,
+  "poblacion": 108375,
+  "region": "Región de Tarapacá",
+  "regionSlug": "region-de-tarapaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Alto_Hospicio",
+  "extracto": null,
+  "webOficial": "http://www.maho.cl/mh09/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -20.25,
+   "lon": -70.116666666
+  },
+  "posibleDuplicadoDe": "iquique",
+  "km": 5.4
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "La Libertad Este",
+  "slug": false,
+  "poblacion": 108097,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Libertad_Este",
+  "extracto": null,
+  "webOficial": "https://www.lalibertadeste.gob.sv",
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.673297222,
+   "lon": -89.241611111
+  },
+  "posibleDuplicadoDe": "santa-tecla",
+  "km": 4.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Temoaya",
+  "slug": false,
+  "poblacion": 105766,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Temoaya",
+  "extracto": null,
+  "webOficial": "http://www.temoaya.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.468611111,
+   "lon": -99.593333333
+  },
+  "posibleDuplicadoDe": "xonacatlan",
+  "km": 9.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Chimbas",
+  "slug": false,
+  "poblacion": 105627,
+  "region": "Provincia de San Juan",
+  "regionSlug": "provincia-de-san-juan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chimbas",
+  "extracto": "Chimbas es la denominación que recibe un continuo urbano del componente Chimbas, constituido por un importante número de barrios que se encuentran al suroeste y centro sur del departamento Chimbas, que está localizado en el sector norte de la aglomeración urbana del Gran San Juan.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -31.48333333,
+   "lon": -68.53333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-juan-argentina",
+  "km": 6
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Yarinacocha",
+  "slug": false,
+  "poblacion": 103941,
+  "region": "Departamento de Ucayali",
+  "regionSlug": "departamento-de-ucayali",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Yarinacocha",
+  "extracto": null,
+  "webOficial": "http://www.muniyarinacocha.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.3538,
+   "lon": -74.5768
+  },
+  "posibleDuplicadoDe": "pucallpa",
+  "km": 3.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Surquillo",
+  "slug": false,
+  "poblacion": 103241,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Surquillo",
+  "extracto": null,
+  "webOficial": "http://www.munisurquillo.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.117222222,
+   "lon": -77.020555555
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 8.3
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Presidente Franco",
+  "slug": false,
+  "poblacion": 101720,
+  "region": "Departamento de Alto Paraná",
+  "regionSlug": "departamento-de-alto-parana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Presidente_Franco",
+  "extracto": null,
+  "webOficial": "http://www.munifrancopy.es.tl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.533333333,
+   "lon": -54.616666666
+  },
+  "posibleDuplicadoDe": "ciudad-del-este",
+  "km": 4.8
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Mariano Roque Alonso",
+  "slug": false,
+  "poblacion": 101715,
+  "region": "Departamento Central",
+  "regionSlug": "departamento-central",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mariano_Roque_Alonso_(Paraguay)",
+  "extracto": null,
+  "webOficial": "http://www.mra.gov.py/home.html",
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.212222222,
+   "lon": -57.533055555
+  },
+  "posibleDuplicadoDe": "luque",
+  "km": 7.4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Miraflores",
+  "slug": true,
+  "poblacion": 99337,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Miraflores_(Lima)",
+  "extracto": null,
+  "webOficial": "http://www.miraflores.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.12091,
+   "lon": -77.02893
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 8.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Burzaco",
+  "slug": false,
+  "poblacion": 98859,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Burzaco",
+  "extracto": "Burzaco es una localidad de Argentina perteneciente al partido de Almirante Brown, provincia de Buenos Aires. Está ubicada en la zona sur del conurbano bonaerense, a 25 km de la ciudad de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.816666666,
+   "lon": -58.366666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 7.4
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Lo Prado",
+  "slug": false,
+  "poblacion": 96249,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Lo_Prado",
+  "extracto": null,
+  "webOficial": "http://www.loprado.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.433333333,
+   "lon": -70.716666666
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 6.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Caseros",
+  "slug": false,
+  "poblacion": 95785,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Caseros",
+  "extracto": null,
+  "webOficial": "https://www.tresdefebrero.gov.ar/",
+  "gentilicio": "tresfebrerense",
+  "coords": {
+   "lat": -34.616666666,
+   "lon": -58.566666666
+  },
+  "posibleDuplicadoDe": "moron",
+  "km": 6.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Trujui",
+  "slug": false,
+  "poblacion": 94608,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Trujui",
+  "extracto": "Trujui es una ciudad de la provincia de Buenos Aires en Argentina. Es la segunda ciudad de importancia del partido de Moreno. A 28 km al oeste de la Ciudad de Buenos Aires formando parte de la Zona Oeste del Gran Buenos Aires. No hay que confundirse con el barrio \"Trujui\", que es un barrio de la localidad de Santa María.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.59,
+   "lon": -58.75
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "merlo",
+  "km": 8.6
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "San Joaquín",
+  "slug": true,
+  "poblacion": 94492,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Joaqu%C3%ADn_(Chile)",
+  "extracto": null,
+  "webOficial": "http://www.sanjoaquin.cl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.5,
+   "lon": -70.616666666
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 5.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Luzuriaga",
+  "slug": false,
+  "poblacion": 94403,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Luzuriaga",
+  "extracto": "Villa Luzuriaga es una ciudad argentina del partido de La Matanza, ubicada en el área del Gran Buenos Aires en la provincia de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.666666666,
+   "lon": -58.583333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "moron",
+  "km": 3.9
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Quinta Normal",
+  "slug": false,
+  "poblacion": 93904,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Quinta_Normal",
+  "extracto": null,
+  "webOficial": "http://www.quintanormal.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.45,
+   "lon": -70.7
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 4.9
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Chiantla",
+  "slug": false,
+  "poblacion": 93780,
+  "region": "Departamento de Huehuetenango",
+  "regionSlug": "departamento-de-huehuetenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chiantla",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/chiantla",
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.3566902,
+   "lon": -91.456761
+  },
+  "posibleDuplicadoDe": "huehuetenango",
+  "km": 4.2
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Santa Cruz Xoxocotlán",
+  "slug": false,
+  "poblacion": 93188,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Cruz_Xoxocotl%C3%A1n",
+  "extracto": "Santa Cruz Xoxocotlán es una ciudad mexicana ubicada en el estado de Oaxaca, cabecera del municipio homónimo, en la región de los Valles Centrales. Es la 4.ª ciudad más poblada del estado y forma parte de la zona metropolitana de Oaxaca.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17,
+   "lon": -96.75
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 7.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Gobernador Gálvez",
+  "slug": false,
+  "poblacion": 93127,
+  "region": "Provincia de Santa Fe",
+  "regionSlug": "provincia-de-santa-fe",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Gobernador_G%C3%A1lvez",
+  "extracto": null,
+  "webOficial": "https://vggmunicipalidad.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.0250796,
+   "lon": -60.633744
+  },
+  "posibleDuplicadoDe": "rosario",
+  "km": 8.7
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "La Reina",
+  "slug": false,
+  "poblacion": 92787,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Reina",
+  "extracto": null,
+  "webOficial": "https://www.lareina.cl/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.45,
+   "lon": -70.55
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 9.2
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Hualpén",
+  "slug": false,
+  "poblacion": 91773,
+  "region": "Región del Biobío",
+  "regionSlug": "region-del-biobio",
+  "wikipedia": "https://es.wikipedia.org/wiki/Hualp%C3%A9n",
+  "extracto": null,
+  "webOficial": "http://www.hualpenciudad.cl/",
+  "gentilicio": "hualpenino",
+  "coords": {
+   "lat": -36.783333333,
+   "lon": -73.083333333
+  },
+  "posibleDuplicadoDe": "concepcion",
+  "km": 5.7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Francisco Tesistán",
+  "slug": false,
+  "poblacion": 91631,
+  "region": "Jalisco",
+  "regionSlug": "jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Francisco_Tesist%C3%A1n",
+  "extracto": "Tesistán o San Francisco Tesistán es un poblado situado en el municipio de Zapopan en el estado de Jalisco. Tiene 91,631 habitantes y está a 1600 metros sobre el nivel del mar, con su actual gobernante Juan José Frangie, presidente municipal de Zapopan",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.798611111,
+   "lon": -103.477222222
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "nuevo-mexico",
+  "km": 5.9
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santa Catarina Pinula",
+  "slug": false,
+  "poblacion": 87362,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Catarina_Pinula",
+  "extracto": null,
+  "webOficial": "http://scp.gob.gt",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.564444444,
+   "lon": -90.488027777
+  },
+  "posibleDuplicadoDe": "ciudad-de-guatemala",
+  "km": 8.9
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Vitacura",
+  "slug": false,
+  "poblacion": 85384,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vitacura",
+  "extracto": null,
+  "webOficial": "http://www.vitacura.cl:80/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.4,
+   "lon": -70.6
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 7.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Breña",
+  "slug": false,
+  "poblacion": 85315,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Bre%C3%B1a",
+  "extracto": null,
+  "webOficial": "http://www.munibrena.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.05916,
+   "lon": -77.05059
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 3
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Monte Chingolo",
+  "slug": false,
+  "poblacion": 85060,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Monte_Chingolo",
+  "extracto": "Monte Chingolo es una localidad del partido de Lanús en la provincia de Buenos Aires, en la zona sur del Gran Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.733333333,
+   "lon": -58.35
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 4.7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Calpan",
+  "slug": false,
+  "poblacion": 85000,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Calpan",
+  "extracto": null,
+  "webOficial": "http://calpan.puebla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1,
+   "lon": -98.45
+  },
+  "posibleDuplicadoDe": "huejotzingo",
+  "km": 7.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Otzolotepec",
+  "slug": false,
+  "poblacion": 84519,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Otzolotepec",
+  "extracto": "El municipio de Otzolotepec es uno de los 125 municipios del Estado de México, México. Su cabecera es la localidad de Villa Cuauhtémoc.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.444138888,
+   "lon": -99.532416666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "xonacatlan",
+  "km": 4.4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Pueblo Libre",
+  "slug": false,
+  "poblacion": 83323,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pueblo_Libre",
+  "extracto": null,
+  "webOficial": "http://www.muniplibre.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.070277777,
+   "lon": -77.0625
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 4.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Satelite",
+  "slug": false,
+  "poblacion": 81829,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Jos%C3%A9_Luis_Bustamante_y_Rivero",
+  "extracto": null,
+  "webOficial": "http://www.munibustamante.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.4277342,
+   "lon": -71.5238124
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 3.5
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Alajuelita",
+  "slug": false,
+  "poblacion": 81012,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_de_Alajuelita",
+  "extracto": null,
+  "webOficial": "https://www.munialajuelita.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.890805555,
+   "lon": -84.111527777
+  },
+  "posibleDuplicadoDe": "san-jose",
+  "km": 5.6
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Cerrillos",
+  "slug": true,
+  "poblacion": 80832,
+  "region": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cerrillos_(comuna)",
+  "extracto": null,
+  "webOficial": "http://www.mcerrillos.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -33.483333333,
+   "lon": -70.7
+  },
+  "posibleDuplicadoDe": "santiago-de-chile",
+  "km": 5.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Celina",
+  "slug": false,
+  "poblacion": 78699,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Celina",
+  "extracto": "Ciudad Celina es una localidad del Partido de La Matanza que limita con la Ciudad Autónoma de Buenos Aires. Está ubicada en la zona oeste de área metropolitana de Buenos Aires. Hasta 2013 formaba parte de la ciudad de Villa Madero según ley provincial Nro. 8668 de noviembre de 1976, ya que en julio de ese mismo año se separó pasando a ser una localidad. Está situada entre las avenidas General Paz y Autopista Pablo Ricchieri, y Ribera del río Matanza-Riachuelo y el Mercado Central de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.700555555,
+   "lon": -58.4825
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 8.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Banda del Río Salí",
+  "slug": false,
+  "poblacion": 77962,
+  "region": "Provincia de Tucumán",
+  "regionSlug": "provincia-de-tucuman",
+  "wikipedia": "https://es.wikipedia.org/wiki/Banda_del_R%C3%ADo_Sal%C3%AD",
+  "extracto": "La Banda del Río Salí es una ciudad ubicada en el Departamento Cruz Alta en la provincia de Tucumán, Argentina. La ciudad, además de ser la cabecera departamental, forma parte del aglomerado del Gran San Miguel de Tucumán.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -26.833333333,
+   "lon": -65.166666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "tucuman",
+  "km": 4.8
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Izalco",
+  "slug": false,
+  "poblacion": 77529,
+  "region": "Departamento de Sonsonate",
+  "regionSlug": "departamento-de-sonsonate",
+  "wikipedia": "https://es.wikipedia.org/wiki/Izalco",
+  "extracto": null,
+  "webOficial": "http://www.sonsonateeste.gob.sv",
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.746183333,
+   "lon": -89.675633333
+  },
+  "posibleDuplicadoDe": "sonsonate",
+  "km": 6
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "El Viejo",
+  "slug": false,
+  "poblacion": 76775,
+  "region": "Departamento de Chinandega",
+  "regionSlug": "departamento-de-chinandega",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Viejo",
+  "extracto": "Nuestra Señora de la Concepción de El Viejo o simplemente El Viejo, que hasta el inicio de la época colonial era una localidad indígena llamada Tezoatega, es un municipio del departamento de Chinandega en la República de Nicaragua.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.6632,
+   "lon": -87.170263888
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "chinandega",
+  "km": 5.6
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Padre Las Casas",
+  "slug": true,
+  "poblacion": 76126,
+  "region": "Región de La Araucanía",
+  "regionSlug": "region-de-la-araucania",
+  "wikipedia": "https://es.wikipedia.org/wiki/Padre_Las_Casas",
+  "extracto": null,
+  "webOficial": "https://www.padrelascasas.cl/newplc/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -38.766666666,
+   "lon": -72.6
+  },
+  "posibleDuplicadoDe": "temuco",
+  "km": 3.4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Catacaos",
+  "slug": false,
+  "poblacion": 75870,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Catacaos",
+  "extracto": "Catacaos es una ciudad peruana, capital del distrito homónimo ubicado en la provincia de Piura\nen el departamento de Piura. Catacaos está a una altitud de 24 m s. n. m. a solo 12 km de Piura, la capital departamental. Para el año 2015 tenía 70 590 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -5.265277777,
+   "lon": -80.675
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "piura",
+  "km": 9.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Olivos",
+  "slug": false,
+  "poblacion": 75527,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Olivos",
+  "extracto": "Olivos es una localidad del Partido-Municipio Vicente López, ubicada en la zona norte del área metropolitana de Buenos Aires, Argentina. \nLimita con las localidades de Vicente López y Florida al sur, Martínez y La Lucila al norte, el Río de la Plata al este y la Autopista Panamericana al oeste. En esta localidad se encuentra la Quinta presidencial de Olivos, residencia oficial del Presidente de la Nación Argentina. Está ubicada a 20 km del centro de la ciudad de Buenos Aires y a 3 km del acceso a esta.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.5,
+   "lon": -58.483333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-isidro",
+  "km": 4.8
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Escazú",
+  "slug": false,
+  "poblacion": 71500,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_de_Escaz%C3%BA",
+  "extracto": null,
+  "webOficial": "http://www.escazu.go.cr",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.91666667,
+   "lon": -84.13333333
+  },
+  "posibleDuplicadoDe": "san-jose",
+  "km": 5.6
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Simón Bolívar",
+  "slug": true,
+  "poblacion": 69676,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": "https://es.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
+  "extracto": "Simón José Antonio de la Santísima Trinidad Bolívar Ponte y Palacios Blanco, conocido como el Libertador, fue un militar, estratega y político venezolano, líder fundamental de la independencia de lo que son hoy Venezuela, Colombia, Ecuador y Panamá. Fue uno de los principales artífices de la independencia de Perú, y aprobó el reconocimiento de Bolivia como república. Es una figura destacada en los procesos de emancipación hispanoamericana frente al Imperio español, y por sus actos, se le otorgó el título de Libertador.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.373793,
+   "lon": -62.726675
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "ciudad-guayana",
+  "km": 9.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Punchana",
+  "slug": false,
+  "poblacion": 69401,
+  "region": "Departamento de Loreto",
+  "regionSlug": "departamento-de-loreto",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Punchana",
+  "extracto": "El distrito de Punchana es uno de los cuatro distritos urbanos de Iquitos, y uno de los 11 distritos de la provincia de Maynas, departamento de Loreto, en el Perú. Es el segundo distrito más importante de Iquitos Metropolitano; Punchana está considerada como un «polígono industrial» encargada prominentemente en la madera, metalurgia y productos comestibles.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -3.71666667,
+   "lon": -73.23333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "iquitos",
+  "km": 4.1
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Tesei",
+  "slug": false,
+  "poblacion": 69165,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Tesei",
+  "extracto": "Ciudad de Villa Tesei es una ciudad argentina ubicada en el partido de Hurlingham dentro de la provincia de Buenos Aires. Forma parte de la Zona Oeste del Gran Buenos Aires. Hasta el año 1994 perteneció al partido de Morón.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.616666666,
+   "lon": -58.633333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "moron",
+  "km": 4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Víctor Larco Herrera",
+  "slug": false,
+  "poblacion": 68506,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_V%C3%ADctor_Larco_Herrera",
+  "extracto": null,
+  "webOficial": "http://www.munivictorlarco.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.14355,
+   "lon": -79.05608
+  },
+  "posibleDuplicadoDe": "trujillo",
+  "km": 4.2
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Areguá",
+  "slug": false,
+  "poblacion": 67487,
+  "region": "Departamento Central",
+  "regionSlug": "departamento-central",
+  "wikipedia": "https://es.wikipedia.org/wiki/Aregu%C3%A1",
+  "extracto": null,
+  "webOficial": "https://www.municipios.gov.py/aregua/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.3,
+   "lon": -57.416944
+  },
+  "posibleDuplicadoDe": "capiata",
+  "km": 6.8
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Pujilí",
+  "slug": false,
+  "poblacion": 66980,
+  "region": "Provincia de Cotopaxi",
+  "regionSlug": "provincia-de-cotopaxi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pujil%C3%AD",
+  "extracto": null,
+  "webOficial": "https://www.municipiopujili.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -0.95,
+   "lon": -78.69
+  },
+  "posibleDuplicadoDe": "latacunga",
+  "km": 8.5
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Toa Alta",
+  "slug": false,
+  "poblacion": 66852,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Toa_Alta",
+  "extracto": "Toa Alta es un municipio del Estado Libre Asociado de Puerto Rico. Está localizada en la región norte, al oeste de Bayamón, sur de Dorado y Toa Baja, norte de Naranjito, y este de Vega Alta y Corozal. Toa Alta esta distribuido en ocho barrios, además del pueblo. Es parte del Área Metropolitana de San Juan-Caguas-Guaynabo.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.388055555,
+   "lon": -66.248055555
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "bayamon",
+  "km": 9.8
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Gaira",
+  "slug": false,
+  "poblacion": 66548,
+  "region": "Magdalena",
+  "regionSlug": "magdalena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gaira",
+  "extracto": "Gaira es una Localidad del distrito de Santa Marta. Está ubicada en la bahía de Gaira sobre el mar Caribe. Es conocido por la playa de El Rodadero, uno de los balnearios más populares de Colombia.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.186583333,
+   "lon": -74.225472222
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "santa-marta",
+  "km": 6.7
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Wilde",
+  "slug": false,
+  "poblacion": 65881,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Wilde_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": "http://www.wildeonline.com.ar",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7,
+   "lon": -58.316666666
+  },
+  "posibleDuplicadoDe": "quilmes",
+  "km": 6.1
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "san Antonio Suchitepéquez",
+  "slug": false,
+  "poblacion": 65501,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Antonio_Suchitep%C3%A9quez",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanantoniosuchi",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.53333333,
+   "lon": -91.41666667
+  },
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 9.3
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tianguistenco",
+  "slug": false,
+  "poblacion": 64356,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tianguistenco",
+  "extracto": null,
+  "webOficial": "http://www.tianguistencoenaccion.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.16138,
+   "lon": -99.46119
+  },
+  "posibleDuplicadoDe": "capulhuac-de-mirafuentes",
+  "km": 3.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Gerli",
+  "slug": false,
+  "poblacion": 64340,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gerli",
+  "extracto": "Gerli es una ciudad repartida entre los partidos de Lanús y Avellaneda de la zona sur del área metropolitana de Buenos Aires. Se encuentra ubicada en lo que antiguamente se conocía como Paraje del Ombú de Preciado, que también aparece citado como Ombú Preciado u Ombú Despreciado.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.683333333,
+   "lon": -58.366666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 3.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Garupá",
+  "slug": false,
+  "poblacion": 63520,
+  "region": "Provincia de Misiones",
+  "regionSlug": "provincia-de-misiones",
+  "wikipedia": "https://es.wikipedia.org/wiki/Garup%C3%A1",
+  "extracto": "Garupá es una localidad y municipio argentino de la provincia de Misiones, ubicado dentro del departamento Capital. Está a unos 16,8 km del centro de la ciudad de Posadas, a la cual se accede a través de la Ruta Nacional 12, ruta provincial 105 y avenida costanera sur.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -27.48333333,
+   "lon": -55.83333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "candelaria-misiones",
+  "km": 9.1
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Elvira",
+  "slug": false,
+  "poblacion": 62480,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Elvira_(Buenos_Aires)",
+  "extracto": "Villa Elvira es una localidad argentina ubicada en el partido de La Plata, en la provincia de Buenos Aires. Fue fundada el 12 de abril de 1908, día en el cual se llevó adelante un loteo, el cual tuvo como principales compradores al matrimonio compuesto por Samuel Ponsati y Elvira Sotés. Con el tiempo, el nuevo loteo llevado a cabo por los Ponsati adquirirá la denominación de Villa Elvira, tomando su nombre de Elvira Sotés.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.9331,
+   "lon": -57.9131
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "la-plata",
+  "km": 4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Domínico",
+  "slug": false,
+  "poblacion": 62315,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Dom%C3%ADnico",
+  "extracto": "Villa Domínico es una localidad argentina situada en el partido de Avellaneda, en la provincia de Buenos Aires. Según el censo de 2022, tiene una población de 61 835 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.691666666,
+   "lon": -58.333333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 5.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Hurlingham",
+  "slug": false,
+  "poblacion": 61988,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Hurlingham",
+  "extracto": null,
+  "webOficial": "https://www.hurlingham.gob.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.6,
+   "lon": -58.633333333
+  },
+  "posibleDuplicadoDe": "moron",
+  "km": 5.8
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "San Salvador Norte",
+  "slug": false,
+  "poblacion": 61864,
+  "region": "Departamento de San Salvador",
+  "regionSlug": "departamento-de-san-salvador",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Salvador_Norte",
+  "extracto": "\n\nSan Salvador Norte es uno de los 44 municipios en los que se encuentra dividido El Salvador y pertenece al Departamento de San Salvador. Es el municipio de mayor extensión territorial y el menos poblado de los cinco que conforman el departamento. Limita al norte con el municipio de Chalatenango Centro, al sur con los municipios de San Salvador Oeste y San Salvador Este, al este con el municipio de Cuscatlán Norte (Suchitoto) y al oeste con el municipio de La Libertad Norte (Quezaltepeque). Fue creado el 13 de junio de 2023y está conformado por los distritos (exmunicipios) de Aguilares, El Paisnal y Guazapa.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.876813888,
+   "lon": -89.171894444
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "apopa",
+  "km": 7.8
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Juan Chamelco",
+  "slug": false,
+  "poblacion": 61634,
+  "region": "Departamento de Alta Verapaz",
+  "regionSlug": "departamento-de-alta-verapaz",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Juan_Chamelco",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanjuanchamelco",
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.425675,
+   "lon": -90.326285
+  },
+  "posibleDuplicadoDe": "coban",
+  "km": 7.2
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "La Perla",
+  "slug": true,
+  "poblacion": 61417,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Perla",
+  "extracto": null,
+  "webOficial": "http://www.munilaperla.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.0659597,
+   "lon": -77.1080612
+  },
+  "posibleDuplicadoDe": "callao",
+  "km": 3.3
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Chacao",
+  "slug": false,
+  "poblacion": 61213,
+  "region": "Miranda",
+  "regionSlug": "miranda",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Chacao",
+  "extracto": null,
+  "webOficial": "https://www.chacao.gob.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.508055555,
+   "lon": -66.851666666
+  },
+  "posibleDuplicadoDe": "caracas",
+  "km": 3.7
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Sarandí",
+  "slug": false,
+  "poblacion": 60752,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Sarand%C3%AD",
+  "extracto": "Sarandí es una ciudad de la zona sur del área metropolitana de Buenos Aires, Argentina. Pertenece al partido de Avellaneda de la provincia de Buenos Aires. Limita al oeste con Gerli, al sur con Villa Domínico, al este con el Río de la Plata, y al norte con Dock Sud y Avellaneda.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.683333333,
+   "lon": -58.333333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 5.9
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Cambyretá",
+  "slug": false,
+  "poblacion": 60722,
+  "region": "Departamento de Itapúa",
+  "regionSlug": "departamento-de-itapua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cambyret%C3%A1",
+  "extracto": "Cambyretá es una ciudad paraguaya ubicada a orillas del río Paraná, en el sur del departamento de Itapúa. Es el segundo municipio más poblado del departamento, después de Encarnación, y junto con esta conforma la tercera área metropolitana del Paraguay.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -27.35,
+   "lon": -55.78
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "encarnacion",
+  "km": 8.8
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Biruaca",
+  "slug": false,
+  "poblacion": 60204,
+  "region": "Apure",
+  "regionSlug": "apure",
+  "wikipedia": "https://es.wikipedia.org/wiki/Biruaca",
+  "extracto": "Biruaca es una de las poblaciones más importantes del Estado Apure de Venezuela, y ésta a su vez es capital del municipio homónimo. Su población, según la estadística de 2024 del INE era de 75 560 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.841666666,
+   "lon": -67.516666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-fernando-de-apure",
+  "km": 7.3
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Mariano Melgar",
+  "slug": false,
+  "poblacion": 59918,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Mariano_Melgar",
+  "extracto": null,
+  "webOficial": "http://www.munimarianomelgar.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.4069564,
+   "lon": -71.5056249
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 3.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Barranqueras",
+  "slug": false,
+  "poblacion": 59846,
+  "region": "Provincia de Chaco",
+  "regionSlug": "provincia-de-chaco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barranqueras",
+  "extracto": "Barranqueras es una ciudad y puerto del sudeste de la provincia del Chaco, Argentina. Se ubica en el departamento San Fernando, sobre la margen derecha del riacho Barranqueras —un brazo del río Paraná—, en una zona en general baja e inundable. La misma forma parte del área metropolitana del Gran Resistencia. Se conecta con la provincia de Corrientes a través del puente General Manuel Belgrano.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -27.483333333,
+   "lon": -58.933333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "resistencia",
+  "km": 5.7
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Socabaya",
+  "slug": false,
+  "poblacion": 59543,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Socabaya",
+  "extracto": null,
+  "webOficial": "http://www.munisocabaya.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.4673784,
+   "lon": -71.528794
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 7.7
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Lambayeque",
+  "slug": false,
+  "poblacion": 58276,
+  "region": "Departamento de Lambayeque",
+  "regionSlug": "departamento-de-lambayeque",
+  "wikipedia": "https://es.wikipedia.org/wiki/Lambayeque",
+  "extracto": "Lambayeque es una ciudad de la costa norte del Perú y capital del distrito y provincia homónimas, en el departamento de Lambayeque. Se ubica a 10.4 km al norte de Chiclayo y 792 km de Lima. Es un importante centro comercial, cultural y educativo de la región ya que alberga algunos de los museos arqueológicos más importantes del país como el Museo Tumbas Reales y el Museo Brüning, aparte que en sus inmediaciones se encuentra el Museo de sitio Chotuna-Chornancap; además en esta se ubica la sede de la Universidad Nacional Pedro Ruiz Gallo, la principal y única universidad pública del departamento. Fue fundada a mediados del siglo XVI bajo el nombre de San Pedro de Lambayeque.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -6.7,
+   "lon": -79.9
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "chiclayo",
+  "km": 9.2
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Tiquipaya",
+  "slug": false,
+  "poblacion": 58223,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tiquipaya",
+  "extracto": "Tiquipaya es una ciudad y municipio de Bolivia, ubicado en la provincia de Quillacollo del departamento de Cochabamba. Forma parte de la Región metropolitana de Kanata de la ciudad de Cochabamba. Es también conocida con el apodo de La Ciudad De Las Flores.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.33805556,
+   "lon": -66.21888889
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "cochabamba",
+  "km": 7.9
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Independencia",
+  "slug": true,
+  "poblacion": 57811,
+  "region": "Yaracuy",
+  "regionSlug": "yaracuy",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Independencia_(Yaracuy)",
+  "extracto": null,
+  "webOficial": "http://alcaldiadeindependencia.gob.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.307777777,
+   "lon": -68.736666666
+  },
+  "posibleDuplicadoDe": "san-felipe",
+  "km": 3.7
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Rafael Calzada",
+  "slug": false,
+  "poblacion": 57351,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Rafael_Calzada",
+  "extracto": "Rafael Calzada es una localidad de Argentina ubicada en el partido de Almirante Brown, provincia de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.783333333,
+   "lon": -58.366666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 4.4
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Pedro Sacatepéquez",
+  "slug": true,
+  "poblacion": 56545,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pedro_Sacatep%C3%A9quez_(Guatemala)",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanpedrosacatepequezsm/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.686194444,
+   "lon": -90.642277777
+  },
+  "posibleDuplicadoDe": "mixco",
+  "km": 7.2
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Andrés Villa Seca",
+  "slug": false,
+  "poblacion": 56060,
+  "region": "Departamento de Retalhuleu",
+  "regionSlug": "departamento-de-retalhuleu",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Andr%C3%A9s_Villa_Seca",
+  "extracto": "San Andrés Villa Seca es un municipio del departamento de Retalhuleu, en la República de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.56666667,
+   "lon": -91.58333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 9.4
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Nahuizalco",
+  "slug": false,
+  "poblacion": 55641,
+  "region": "Departamento de Sonsonate",
+  "regionSlug": "departamento-de-sonsonate",
+  "wikipedia": "https://es.wikipedia.org/wiki/Nahuizalco",
+  "extracto": "Nahuizalco es un distrito y cabecera municipal de Sonsonate Norte, localizado en el departamento de Sonsonate, El Salvador. De acuerdo al Censo de Población y Vivienda de 2024, tiene 55 641 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.779188888,
+   "lon": -89.737297222
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "sonsonate",
+  "km": 7.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Zacapoaxtla",
+  "slug": false,
+  "poblacion": 55299,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zacapoaxtla",
+  "extracto": null,
+  "webOficial": "https://zacapoaxtla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -97.588055555
+  },
+  "posibleDuplicadoDe": "zaragoza-puebla",
+  "km": 9.4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Lince",
+  "slug": false,
+  "poblacion": 54711,
+  "region": "Provincia de Lima",
+  "regionSlug": "provincia-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Lince",
+  "extracto": null,
+  "webOficial": "http://www.munilince.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.08579,
+   "lon": -77.03567
+  },
+  "posibleDuplicadoDe": "lima",
+  "km": 4.8
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Vinto",
+  "slug": false,
+  "poblacion": 51968,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vinto",
+  "extracto": "Vinto es una ciudad y municipio de Bolivia, ubicado en la provincia de Quillacollo del departamento de Cochabamba en la zona central del país. El municipio tiene una superficie de 211 km² y cuenta con una población de 51.968 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.397222222,
+   "lon": -66.313611111
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "quillacollo",
+  "km": 3.8
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Carrizal",
+  "slug": false,
+  "poblacion": 51712,
+  "region": "Miranda",
+  "regionSlug": "miranda",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Carrizal",
+  "extracto": null,
+  "webOficial": "http://www.carrizal-miranda.gob.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.350277777,
+   "lon": -66.998055555
+  },
+  "posibleDuplicadoDe": "los-teques",
+  "km": 4.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Los Hornos",
+  "slug": false,
+  "poblacion": 51265,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Los_Hornos_(La_Plata)",
+  "extracto": "Los Hornos es una localidad argentina perteneciente al partido de La Plata, en la provincia de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.95,
+   "lon": -57.966666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "la-plata",
+  "km": 3.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Quecholac",
+  "slug": false,
+  "poblacion": 50962,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Quecholac",
+  "extracto": "Quecholac es una población del estado mexicano de Puebla, es cabecera del municipio del mismo nombre.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.9554497,
+   "lon": -97.6575237
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "palmarito-tochapan",
+  "km": 6.3
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Jacobo Hunter",
+  "slug": false,
+  "poblacion": 50145,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Jacobo_Hunter",
+  "extracto": null,
+  "webOficial": "https://www.munihunter.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.4410639,
+   "lon": -71.5585823
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 5.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "William C. Morris",
+  "slug": false,
+  "poblacion": 50088,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/William_C._Morris",
+  "extracto": "William Case Morris fue un pedagogo, pastor anglicano del ala evangélica y filántropo inglés, fundador de escuelas e institutos evangélicos en Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.583333333,
+   "lon": -58.658333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "moron",
+  "km": 8.2
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santo Domingo Suchitepéquez",
+  "slug": false,
+  "poblacion": 48825,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santo_Domingo_Suchitep%C3%A9quez",
+  "extracto": "Santo Domingo Suchitepéquez es un municipio en el departamento de Suchitepéquez, en la República de Guatemala. Tiene una extensión territorial de 242 kilómetros cuadrados y una altura de 213 metros sobre el nivel del mar. De acuerdo al censo poblacional de 2018 la población es de 46,814 habitantes para ese mismo año. Es un poblado antiguo que puede considerarse como una importante zona agrícola y ganadera.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.466666666,
+   "lon": -91.483333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 7.8
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Colcapirhua",
+  "slug": false,
+  "poblacion": 48631,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Colcapirhua",
+  "extracto": null,
+  "webOficial": "https://www.colcapirhua.gob.bo/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.390833333,
+   "lon": -66.238611111
+  },
+  "posibleDuplicadoDe": "quillacollo",
+  "km": 4.2
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Guano",
+  "slug": false,
+  "poblacion": 48327,
+  "region": "Chimborazo",
+  "regionSlug": "chimborazo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Guano",
+  "extracto": null,
+  "webOficial": "https://municipiodeguano.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.58333333,
+   "lon": -78.63333333
+  },
+  "posibleDuplicadoDe": "riobamba",
+  "km": 9.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "La Reja",
+  "slug": false,
+  "poblacion": 47839,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Reja",
+  "extracto": "La Reja es una localidad del partido de Moreno, en la provincia de Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.639444444,
+   "lon": -58.828333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "merlo",
+  "km": 9.7
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Barva",
+  "slug": false,
+  "poblacion": 47699,
+  "region": "Provincia de Heredia",
+  "regionSlug": "provincia-de-heredia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_de_Barva",
+  "extracto": null,
+  "webOficial": "https://munibarva.go.cr",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.0763757,
+   "lon": -84.115545
+  },
+  "posibleDuplicadoDe": "heredia",
+  "km": 8.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tlalmanalco",
+  "slug": false,
+  "poblacion": 47390,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlalmanalco",
+  "extracto": null,
+  "webOficial": "http://www.tlalmanalco.com",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.2,
+   "lon": -98.72
+  },
+  "posibleDuplicadoDe": "amecameca",
+  "km": 9.8
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Cantel",
+  "slug": false,
+  "poblacion": 47087,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cantel",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/cantelq",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.81122222,
+   "lon": -91.45551111
+  },
+  "posibleDuplicadoDe": "quetzaltenango",
+  "km": 8.2
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Uruca",
+  "slug": false,
+  "poblacion": 46829,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Trichilia_havanensis",
+  "extracto": "Trichilia havanensis, conocida comúnmente como ciruelillo en México, siguaraya en Cuba o uruca en Costa Rica, es una especie de árbol silvestre perteneciente a la familia de las Meliaceae. Esta planta posee una amplia distribución geográfica en la región neotropical, extendiéndose de manera natural por el Caribe, México, América Central y las porciones septentrionales de América del Sur, abarcando países como Colombia y Venezuela.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9575393,
+   "lon": -84.1326701
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "heredia",
+  "km": 4.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Chiautempan",
+  "slug": false,
+  "poblacion": 46776,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chiautempan",
+  "extracto": null,
+  "webOficial": "http://www.chiautempan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.311403148,
+   "lon": -98.187967147
+  },
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 5.4
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Vacamonte",
+  "slug": false,
+  "poblacion": 46597,
+  "region": "Provincia de Panamá",
+  "regionSlug": "provincia-de-panama",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vacamonte",
+  "extracto": "Vacamonte es un corregimiento del distrito de Arraiján, provincia de Panamá Oeste, Panamá. Fue creado mediante la ley 298 del 28 de abril de 2022, siendo segregado del corregimiento de Vista Alegre. La cabecera es Ciudad Vacamonte. Según datos del XII censo de población realizado en 2023, la población era de 46 597.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.86666667,
+   "lon": -79.66666667
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "arraijan",
+  "km": 8.6
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Baños del Inca",
+  "slug": false,
+  "poblacion": 46149,
+  "region": "Departamento de Cajamarca",
+  "regionSlug": "departamento-de-cajamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ba%C3%B1os_del_Inca_(Cajamarca)",
+  "extracto": "Baños del Inca es una localidad peruana, capital del distrito homónimo ubicado en la provincia de Cajamarca, en el sur del departamento homónimo. Se encuentra a 2665 m.s.n.m en el valle de Cajamarca, siendo la segunda urbe más importante del valle después de Cajamarca. Tenía 3 723 habitantes en 1993.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -7.163748055,
+   "lon": -78.462161944
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "cajamarca",
+  "km": 4.2
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Puñal",
+  "slug": false,
+  "poblacion": 46090,
+  "region": "Provincia de Santiago (República Dominicana)",
+  "regionSlug": "provincia-de-santiago-republica-dominicana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pu%C3%B1al_(municipio)",
+  "extracto": null,
+  "webOficial": "http://elpunal.blogspot.com/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.4,
+   "lon": -70.616666666
+  },
+  "posibleDuplicadoDe": "santiago-de-los-caballeros",
+  "km": 9.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Amatlán de los Reyes",
+  "slug": false,
+  "poblacion": 45430,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Amatl%C3%A1n_de_los_Reyes",
+  "extracto": " Amatlán de los Reyes  es una población del estado mexicano de Veracruz, es cabecera de uno de los 212 municipios del estado que lleva su mismo nombre y tiene su ubicación en la zona centro montañosa.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.866666666,
+   "lon": -96.88
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "cordoba-veracruz",
+  "km": 5.2
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "San Pelayo",
+  "slug": false,
+  "poblacion": 45396,
+  "region": "Córdoba",
+  "regionSlug": "cordoba",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pelayo_(C%C3%B3rdoba)",
+  "extracto": null,
+  "webOficial": "http://www.sanpelayo-cordoba.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.957777777,
+   "lon": -75.8375
+  },
+  "posibleDuplicadoDe": "cerete",
+  "km": 9.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "San José (Almirante Brown)",
+  "slug": false,
+  "poblacion": 44961,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Jos%C3%A9_(Almirante_Brown)",
+  "extracto": "San José es una localidad compartida administrativamente entre los partidos de Lomas de Zamora y Almirante Brown ubicada en la provincia de Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.8,
+   "lon": -58.3333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 7.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jalacingo",
+  "slug": false,
+  "poblacion": 44488,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jalacingo",
+  "extracto": "Jalacingo es una localidad del estado mexicano de Veracruz. Es cabecera del municipio de Jalacingo.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.766666666,
+   "lon": -97.3
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "altotonga",
+  "km": 5.7
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Barrio Don Orione",
+  "slug": false,
+  "poblacion": 43294,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barrio_Don_Orione_(Almirante_Brown)",
+  "extracto": "Don Orione  es un barrio argentino ubicado en la localidad de San Francisco de Asís, partido de Almirante Brown, provincia de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.8164,
+   "lon": -58.345
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 8.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Dock Sud",
+  "slug": false,
+  "poblacion": 43168,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Dock_Sud",
+  "extracto": "Dock Sud es una ciudad del partido de Avellaneda y que forma parte del Área Metropolitana de Buenos Aires, Argentina. Es colindante con la Ciudad Autónoma de Buenos Aires por medio de río Matanza-Riachuelo. Fue nombrada ciudad oficialmente el 16 de octubre de 2014.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.641666666,
+   "lon": -58.347777777
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "buenos-aires",
+  "km": 4.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Fiorito",
+  "slug": false,
+  "poblacion": 42904,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Fiorito",
+  "extracto": null,
+  "webOficial": "http://www.villafiorito.gov.ar",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.707,
+   "lon": -58.443
+  },
+  "posibleDuplicadoDe": "lanus",
+  "km": 4.7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Atenco",
+  "slug": false,
+  "poblacion": 42739,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atenco",
+  "extracto": null,
+  "webOficial": "http://www.atenco.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.55,
+   "lon": -98.95
+  },
+  "posibleDuplicadoDe": "san-salvador-atenco",
+  "km": 3.3
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Machalí",
+  "slug": false,
+  "poblacion": 42572,
+  "region": "Región de O'Higgins",
+  "regionSlug": "region-de-o-higgins",
+  "wikipedia": "https://es.wikipedia.org/wiki/Machal%C3%AD",
+  "extracto": null,
+  "webOficial": "http://www.machali.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.182583333,
+   "lon": -70.651111111
+  },
+  "posibleDuplicadoDe": "rancagua",
+  "km": 8.4
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Canóvanas",
+  "slug": false,
+  "poblacion": 42337,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Can%C3%B3vanas",
+  "extracto": null,
+  "webOficial": "http://www.gobierno.pr/OCAM/DirectorioMunicipios/Canovanas.htm",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.379166666,
+   "lon": -65.901388888
+  },
+  "posibleDuplicadoDe": "carolina",
+  "km": 5.9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Santa María Atzompa",
+  "slug": false,
+  "poblacion": 41921,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Mar%C3%ADa_Atzompa",
+  "extracto": "Santa María Atzompa es una localidad del estado mexicano de Oaxaca. Es la cabecera del municipio de Santa María Atzompa.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.079444444,
+   "lon": -96.786944444
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 6.9
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Cocorote",
+  "slug": false,
+  "poblacion": 41481,
+  "region": "Yaracuy",
+  "regionSlug": "yaracuy",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cocorote",
+  "extracto": "Cocorote es una localidad venezolana capital del Municipio Cocorote en el Estado Yaracuy. Está ubicada en la Región Centroccidental de Venezuela y forma parte de la zona metropolitana de San Felipe, junto al Municipio Independencia. Cocorote cuenta con una población de 70 000 habitantes, según censo del Instituto Nacional de Estadísticas (INE) en 2011.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.278055555,
+   "lon": -68.761111111
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-felipe",
+  "km": 7.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Llavallol",
+  "slug": false,
+  "poblacion": 41463,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Llavallol",
+  "extracto": "Llavallol, llamada vulgarmente Lavallol, es una localidad situada en el sudoeste del partido de Lomas de Zamora, en la zona sur del Gran Buenos Aires, en la provincia de Buenos Aires, República Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.797,
+   "lon": -58.43
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 5.1
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Claypole",
+  "slug": false,
+  "poblacion": 41176,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Claypole",
+  "extracto": null,
+  "webOficial": "http://www.almirantebrown.gov.ar",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.8,
+   "lon": -58.333333333
+  },
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 7.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Valentín Alsina",
+  "slug": false,
+  "poblacion": 41155,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Valent%C3%ADn_Alsina",
+  "extracto": "Valentín Alsina fue un escritor, jurista y político unitario argentino, gobernador del entonces Estado de Buenos Aires en dos oportunidades y padre de Adolfo Alsina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.666666666,
+   "lon": -58.416666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 5.1
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "José Mármol",
+  "slug": false,
+  "poblacion": 41109,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jos%C3%A9_M%C3%A1rmol",
+  "extracto": "José Pedro Crisólogo Mármol fue un poeta, narrador, periodista y político argentino perteneciente al romanticismo. Sus padres fueron Juan Antonio Mármol, natural de Buenos Aires, y María Josefa Zavaleta, natural de Montevideo y fue bautizado el 3 de enero de 1818.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7833,
+   "lon": -58.3667
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 4.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tuxtla Chico",
+  "slug": false,
+  "poblacion": 41024,
+  "region": "Chiapas",
+  "regionSlug": "chiapas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tuxtla_Chico",
+  "extracto": null,
+  "webOficial": "http://www.tuxtlachico.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.883333333,
+   "lon": -92.2
+  },
+  "posibleDuplicadoDe": "tapachula",
+  "km": 6.8
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Vieja",
+  "slug": false,
+  "poblacion": 41010,
+  "region": "Departamento de Sacatepéquez",
+  "regionSlug": "departamento-de-sacatepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vieja",
+  "extracto": "Vieja es un género de peces de agua dulce de la familia Cichlidae. La distribución geográfica del género se limita a América Central, principalmente México, Guatemala y Nicaragua. En general poseen un cuerpo ovalado y miden entre 15-35 cm. El género agrupa a 16 especies.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.523333333,
+   "lon": -90.766666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "antigua-guatemala",
+  "km": 5.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Coronango",
+  "slug": false,
+  "poblacion": 40949,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Mar%C3%ADa_Coronango",
+  "extracto": "Santa María Coronango es una población del estado mexicano de Puebla, cabecera del municipio del mismo nombre.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.133333333,
+   "lon": -98.291666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "cuautlancingo",
+  "km": 5.2
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Gurabo",
+  "slug": false,
+  "poblacion": 40622,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Gurabo_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": "http://www.gurabopr.com/",
+  "gentilicio": "Gurabeños",
+  "coords": {
+   "lat": 18.254166666,
+   "lon": -65.973055555
+  },
+  "posibleDuplicadoDe": "caguas",
+  "km": 8.3
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "San Gregorio de Nigua",
+  "slug": false,
+  "poblacion": 40589,
+  "region": "San Cristóbal",
+  "regionSlug": "san-cristobal",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Gregorio_de_Nigua",
+  "extracto": "San Gregorio de Nigua es un municipio de la República Dominicana, que está situado en la Provincia de San Cristóbal.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.38,
+   "lon": -70.08
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-cristobal-rd",
+  "km": 5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Xiutetelco",
+  "slug": false,
+  "poblacion": 39959,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Xiutetelco",
+  "extracto": "San Juan Xiutetelco es una localidad del estado mexicano de Puebla. Es cabecera del municipio de Xiutetelco.Y es parte de la zona metropolitana de Teziutlán.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.75,
+   "lon": -97.36
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "teziutlan",
+  "km": 7.5
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Parque Barón",
+  "slug": false,
+  "poblacion": 39819,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Parque_Bar%C3%B3n",
+  "extracto": "El parque Barón es un futuro parque urbano que se construirá en el borde costero de la ciudad de Valparaíso, Chile, en un terreno entre las avenidas Argentina y Francia. Este parque tiene su génesis en los proyectos del Legado Bicentenario.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.766833,
+   "lon": -58.436778
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 3.3
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Olintepeque",
+  "slug": false,
+  "poblacion": 39383,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Olintepeque",
+  "extracto": null,
+  "webOficial": "https://olintepeque.com",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.883333333,
+   "lon": -91.516666666
+  },
+  "posibleDuplicadoDe": "quetzaltenango",
+  "km": 4.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa General Eugenio Necochea",
+  "slug": false,
+  "poblacion": 39362,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_General_Eugenio_Necochea",
+  "extracto": "Villa General Eugenio Necochea es una localidad del área de conurbación Gran Buenos Aires, Argentina. Pertenece al partido de San Martín. Hasta 1952 se llamaba Villa Siglo XX.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.512533207,
+   "lon": -58.580147829
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-isidro",
+  "km": 7.2
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Santa Bárbara",
+  "slug": true,
+  "poblacion": 39133,
+  "region": "Provincia de Heredia",
+  "regionSlug": "provincia-de-heredia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_de_Santa_B%C3%A1rbara",
+  "extracto": null,
+  "webOficial": "http://www.santabarbara.go.cr",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.03583333,
+   "lon": -84.16111111
+  },
+  "posibleDuplicadoDe": "alajuela",
+  "km": 6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Temascalapa",
+  "slug": false,
+  "poblacion": 38622,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Temascalapa",
+  "extracto": "Temascalapa es una localidad mexicana y cabecera del municipio de Temascalapa, Estado de México, está ubicada al norte de la Ciudad de México y al oeste del municipio, es una población cercana a la frontera con el Estado de Hidalgo, está conectada con la ciudad de Tizayuca por vía terrestre. Antiguamente esta localidad era conocida como San Francisco Temascalapa.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.808333333,
+   "lon": -98.883333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "santa-maria-ajoloapan",
+  "km": 9.4
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Nindirí",
+  "slug": false,
+  "poblacion": 38355,
+  "region": "Departamento de Masaya",
+  "regionSlug": "departamento-de-masaya",
+  "wikipedia": "https://es.wikipedia.org/wiki/Nindir%C3%AD",
+  "extracto": "Nindirí es un municipio del departamento de Masaya en la República de Nicaragua. Lugar histórico",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.002686111,
+   "lon": -86.119966666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "masaya",
+  "km": 4.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Udaondo",
+  "slug": false,
+  "poblacion": 38314,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Udaondo",
+  "extracto": "Villa Gobernador Udaondo es una localidad conurbana, del partido de Ituzaingó, en la provincia de Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.6201,
+   "lon": -58.6983
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "merlo",
+  "km": 5.7
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Urbaneja",
+  "slug": false,
+  "poblacion": 37829,
+  "region": "Anzoátegui",
+  "regionSlug": "anzoategui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Diego_Bautista_Urbaneja",
+  "extracto": null,
+  "webOficial": "https://lecheria.gov.ve/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.190555555,
+   "lon": -64.680833333
+  },
+  "posibleDuplicadoDe": "barcelona-venezuela",
+  "km": 5.8
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Cuyotenango",
+  "slug": false,
+  "poblacion": 37785,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cuyotenango",
+  "extracto": "Cuyotenango es un municipio del departamento de Suchitepéquez de la región sur-occidente de la República de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.542075,
+   "lon": -91.5723339
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 7.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Mariano Escobedo",
+  "slug": false,
+  "poblacion": 37285,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mariano_Escobedo",
+  "extracto": "Mariano Antonio Guadalupe Escobedo de la Peña fue un destacado militar mexicano que alcanzó el rango de general y luchó durante la Intervención estadounidense en México, la revolución de Ayutla, la guerra de Reforma y la Segunda Intervención Francesa en contra del ejército imperial de Maximiliano. De ideología liberal, fue gobernador de San Luis Potosí y Nuevo León. Fue senador y ministro de Guerra durante el período presidencial de Sebastián Lerdo de Tejada.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.916666666,
+   "lon": -97.166666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "rio-blanco",
+  "km": 9.7
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santiago Sacatepéquez",
+  "slug": false,
+  "poblacion": 36982,
+  "region": "Departamento de Sacatepéquez",
+  "regionSlug": "departamento-de-sacatepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santiago_Sacatep%C3%A9quez",
+  "extracto": "Santiago Sacatepéquez es un municipio del departamento de Sacatepéquez de la región sur-occidente de la República de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.652961,
+   "lon": -90.652402
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mixco",
+  "km": 5.5
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Independencia",
+  "slug": true,
+  "poblacion": 36964,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Independencia_(T%C3%A1chira)",
+  "extracto": null,
+  "webOficial": "http://independencia-tachira.gob.ve/portal-alcaldias/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.814444444,
+   "lon": -72.291111111
+  },
+  "posibleDuplicadoDe": "san-cristobal",
+  "km": 8.1
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Lechería",
+  "slug": false,
+  "poblacion": 36450,
+  "region": "Anzoátegui",
+  "regionSlug": "anzoategui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Lecher%C3%ADa_(Venezuela)",
+  "extracto": null,
+  "webOficial": "http://urbaneja-anzoategui.gov.ve/",
+  "gentilicio": "lecheriense",
+  "coords": {
+   "lat": 10.1889,
+   "lon": -64.6951
+  },
+  "posibleDuplicadoDe": "barcelona-venezuela",
+  "km": 5.7
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Poás",
+  "slug": false,
+  "poblacion": 36207,
+  "region": "Provincia de Alajuela",
+  "regionSlug": "provincia-de-alajuela",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_de_Po%C3%A1s",
+  "extracto": null,
+  "webOficial": "https://poasdigital.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.08333333,
+   "lon": -84.25
+  },
+  "posibleDuplicadoDe": "alajuela",
+  "km": 8.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Munro",
+  "slug": false,
+  "poblacion": 35844,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Munro_(Buenos_Aires)",
+  "extracto": "Munro es una de las localidades en los que se divide el partido de Vicente López, en la provincia de Buenos Aires, Argentina. Se encuentra a 4 km de su acceso más cercano a la Ciudad Autónoma de Buenos Aires y a 19 km de su centro; así como también a 75 km de La Plata, capital provincial. Según la ordenanza n.º 36198 de octubre de 2018, se establece como fecha aniversario del barrio de Munro, el día 30 de abril.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.533333333,
+   "lon": -58.516666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-isidro",
+  "km": 7.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Xalisco",
+  "slug": false,
+  "poblacion": 35702,
+  "region": "Nayarit",
+  "regionSlug": "nayarit",
+  "wikipedia": "https://es.wikipedia.org/wiki/Xalisco_(Nayarit)",
+  "extracto": null,
+  "webOficial": "http://www.xalisco.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.444166666,
+   "lon": -104.901666666
+  },
+  "posibleDuplicadoDe": "tepic",
+  "km": 7.1
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "Barros Blancos",
+  "slug": false,
+  "poblacion": 35660,
+  "region": "Departamento de Canelones",
+  "regionSlug": "departamento-de-canelones",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barros_Blancos",
+  "extracto": null,
+  "webOficial": "http://www.barrosblancos.com.uy/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.752528,
+   "lon": -55.993408
+  },
+  "posibleDuplicadoDe": "ciudad-de-la-costa",
+  "km": 8.4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Adelina",
+  "slug": false,
+  "poblacion": 35307,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Adelina",
+  "extracto": "Villa Adelina es una localidad de la provincia de Buenos Aires, Argentina, que se encuentra repartida entre los partidos de San Isidro y Vicente López, en el Gran Buenos Aires. Está situada a unos 16 km al norte de la Ciudad Autónoma de Buenos Aires.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.5175,
+   "lon": -58.5475
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-isidro",
+  "km": 5.8
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Salinas",
+  "slug": true,
+  "poblacion": 35066,
+  "region": "Santa Elena",
+  "regionSlug": "santa-elena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Salinas_(Ecuador)",
+  "extracto": null,
+  "webOficial": "https://www.salinas.gob.ec/",
+  "gentilicio": "Salinense",
+  "coords": {
+   "lat": -2.208333333,
+   "lon": -80.968055555
+  },
+  "posibleDuplicadoDe": "la-libertad",
+  "km": 7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Nextlalpan",
+  "slug": false,
+  "poblacion": 34374,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Nextlalpan",
+  "extracto": null,
+  "webOficial": "http://www.nextlalpan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.732805555,
+   "lon": -99.067361111
+  },
+  "posibleDuplicadoDe": "alborada-jaltenco",
+  "km": 7.9
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Purral",
+  "slug": false,
+  "poblacion": 34370,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Purral",
+  "extracto": "Purral es el séptimo y último distrito del cantón de Goicoechea, en la provincia de San José, de Costa Rica.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9594423,
+   "lon": -84.0164941
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 8
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Cativá",
+  "slug": false,
+  "poblacion": 34282,
+  "region": "Provincia de Colón",
+  "regionSlug": "provincia-de-colon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cativ%C3%A1",
+  "extracto": "Cativá es un corregimiento del distrito de Colón en la provincia de Colón, República de Panamá. La localidad tiene 37.008 habitantes (2023). Pertenece al área metropolitana de la ciudad panameña de Colón.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.36,
+   "lon": -79.84
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "colon",
+  "km": 6.6
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Quinchía",
+  "slug": false,
+  "poblacion": 34005,
+  "region": "Valle del Cauca",
+  "regionSlug": "valle-del-cauca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Quinch%C3%ADa",
+  "extracto": null,
+  "webOficial": "http://quinchia-risaralda.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 5.339444444,
+   "lon": -75.729444444
+  },
+  "posibleDuplicadoDe": "riosucio",
+  "km": 9.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ángel R. Cabada",
+  "slug": false,
+  "poblacion": 33730,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/%C3%81ngel_R._Cabada",
+  "extracto": "Ángel Rosario Cabada Lili fue un químico mexicano, personaje destacado en la historia veracruzana. Desde 1931, uno de los municipios del estado de Veracruz de Ignacio de la Llave lleva su nombre: Ángel R. Cabada. Fundó uno de los primeros sindicatos en la región, llamado Paz y Progreso; organizó a los campesinos para luchar por un reparto justo, motivo por el cual fue asesinado.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.6,
+   "lon": -95.45
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lerdo-de-tejada",
+  "km": 8
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Corinto",
+  "slug": true,
+  "poblacion": 33489,
+  "region": "Cauca",
+  "regionSlug": "cauca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Corinto_(Cauca)",
+  "extracto": null,
+  "webOficial": "http://www.corinto-cauca.gov.co/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 3.173888888,
+   "lon": -76.259444444
+  },
+  "posibleDuplicadoDe": "miranda",
+  "km": 9.4
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Puebloviejo",
+  "slug": true,
+  "poblacion": 33030,
+  "region": "Magdalena",
+  "regionSlug": "magdalena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Puebloviejo_(Magdalena)",
+  "extracto": null,
+  "webOficial": "http://www.puebloviejo-magdalena.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.994166666,
+   "lon": -74.283333333
+  },
+  "posibleDuplicadoDe": "cienaga",
+  "km": 4.2
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Arenillas",
+  "slug": false,
+  "poblacion": 32366,
+  "region": "Provincia de El Oro",
+  "regionSlug": "provincia-de-el-oro",
+  "wikipedia": "https://es.wikipedia.org/wiki/Arenillas",
+  "extracto": "Arenillas es un municipio y localidad española de la provincia de Soria, en la comunidad autónoma de Castilla y León. El término municipal, ubicado en la comarca de Berlanga, tiene una población de 29 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -3.55,
+   "lon": -80.06
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "duran",
+  "km": 3.8
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Remedios",
+  "slug": false,
+  "poblacion": 32057,
+  "region": "Antioquia",
+  "regionSlug": "antioquia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Remedios_(Antioquia)",
+  "extracto": null,
+  "webOficial": "http://remedios-antioquia.gov.co/sitio.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.0275,
+   "lon": -74.693888888
+  },
+  "posibleDuplicadoDe": "segovia-antioquia",
+  "km": 5.9
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Desamparados",
+  "slug": false,
+  "poblacion": 31783,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Desamparados_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": "http://www.desamparados.go.cr",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8966632,
+   "lon": -84.0706388
+  },
+  "posibleDuplicadoDe": "san-jose",
+  "km": 4.4
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Ipís",
+  "slug": false,
+  "poblacion": 31762,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ip%C3%ADs",
+  "extracto": "Ipís es el quinto distrito del cantón de Goicoechea, en la provincia de San José, de Costa Rica. El distrito de Ipís se caracteriza por su alto desarrollo y crecimiento poblacional y de viviendas, y además por su alta concentración de servicios.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9638786,
+   "lon": -84.019566
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 7.9
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Masatepe",
+  "slug": false,
+  "poblacion": 31583,
+  "region": "Departamento de Masaya",
+  "regionSlug": "departamento-de-masaya",
+  "wikipedia": "https://es.wikipedia.org/wiki/Masatepe",
+  "extracto": "Masatepe, también conocida como la Tierra de Venados es un municipio del departamento de Masaya en la República de Nicaragua. Junto a los municipios de Catarina, Nandasmo, Niquinohomo, San Juan de Oriente, Diriá y Diriomo conforma la Ruta de la Meseta de los Pueblos. Los habitantes Indígenas de Masatepe son los nahuas y chorotegas, y fue la ubicación del señorío nahua precolombino de Masatepek. Masatepek es una combinación de las palabras náhuat Masat (venado), y tepek (cerro), la traducción literal de Masatepek es \"cerro de venados\". Los nahuas de Masatepek habitaron Nindirí, Niquinohomo, Monimbó y Masatepe que lleva el nombre de este señorío, y convivieron con los chorotegas que también habitaban la zona. Los nahuas dominan el cultivo y producción de cacao frijol en el municipio.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.915616666,
+   "lon": -86.143802777
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "masaya",
+  "km": 8.3
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Salvador el Verde",
+  "slug": false,
+  "poblacion": 31355,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Salvador_el_Verde",
+  "extracto": "San Salvador el Verde es una población del estado mexicano de Puebla, localizada en la parte centro oeste del estado, es la cabecera del Municipio de San Salvador el Verde.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.25,
+   "lon": -98.52
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-rafael-tlanalapan",
+  "km": 7.2
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Juanacatlán",
+  "slug": false,
+  "poblacion": 30855,
+  "region": "Jalisco",
+  "regionSlug": "jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juanacatl%C3%A1n",
+  "extracto": null,
+  "webOficial": "https://www.juanacatlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.483333333,
+   "lon": -103.15
+  },
+  "posibleDuplicadoDe": "san-jose-del-castillo",
+  "km": 9.6
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Curridabat",
+  "slug": false,
+  "poblacion": 30574,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Curridabat",
+  "extracto": null,
+  "webOficial": "https://www.curridabat.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9160278,
+   "lon": -84.0347619
+  },
+  "posibleDuplicadoDe": "san-jose",
+  "km": 5.8
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Guácima",
+  "slug": false,
+  "poblacion": 30361,
+  "region": "Provincia de Alajuela",
+  "regionSlug": "provincia-de-alajuela",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guazuma_ulmifolia",
+  "extracto": "Guazuma ulmifolia, llamado comúnmente guasmo, guásimo, guásima, guácima, caulote, mutamba, bay cedar, cuaulote (del náhuatl), tapaculo, majahua o pixoy (maya) es un árbol de mediano porte de la familia de las malváceas, nativo de América tropical.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9612881,
+   "lon": -84.2587522
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "alajuela",
+  "km": 8
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "San Sebastián Salitrillo",
+  "slug": false,
+  "poblacion": 30004,
+  "region": "Departamento de Santa Ana",
+  "regionSlug": "departamento-de-santa-ana",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Sebasti%C3%A1n_Salitrillo",
+  "extracto": "San Sebastián Salitrillo es un distrito del municipio de Santa Ana Oeste del departamento de Santa Ana; ubicado a 78 km de San Salvador, y que tiene una extensión de 42.32 km². Su población es de 30 004 habitantes. La distribución política - administrativa consiste en una cabecera distrital y los cantones: los Amates, San Luis, Santa Rosa y Santa Bárbara; que a su vez se dividen en 36 caseríos.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.966375,
+   "lon": -89.634872222
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "santa-ana",
+  "km": 8.8
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Andrés Xecul",
+  "slug": false,
+  "poblacion": 29849,
+  "region": "Departamento de Totonicapán",
+  "regionSlug": "departamento-de-totonicapan",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Andr%C3%A9s_Xecul",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanandresxecul/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.9,
+   "lon": -91.48333333
+  },
+  "posibleDuplicadoDe": "quetzaltenango",
+  "km": 7.5
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Tabio",
+  "slug": false,
+  "poblacion": 29731,
+  "region": "Cundinamarca",
+  "regionSlug": "cundinamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tabio",
+  "extracto": null,
+  "webOficial": "http://www.tabio-cundinamarca.gov.co/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 4.915833333,
+   "lon": -74.098333333
+  },
+  "posibleDuplicadoDe": "chia",
+  "km": 7.7
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Marcavelica",
+  "slug": false,
+  "poblacion": 29569,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Marcavelica",
+  "extracto": "Marcavelica es una localidad peruana ubicada en la región Piura, provincia de Sullana, distrito de Marcavelica. Es asimismo capital del distrito de nombre homónimo. Se encuentra a una altitud de 55 m s. n. m. Tenía una población de 2774 habitantes en 1993.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -4.8816137,
+   "lon": -80.7033707
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "sullana",
+  "km": 3.2
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Simón Bolívar",
+  "slug": true,
+  "poblacion": 29427,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Sim%C3%B3n_Bol%C3%ADvar",
+  "extracto": null,
+  "webOficial": "https://www.gobiernosimonbolivar.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.15666667,
+   "lon": -79.8875
+  },
+  "posibleDuplicadoDe": "guayaquil",
+  "km": 4.4
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Aserrí",
+  "slug": false,
+  "poblacion": 29112,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Aserr%C3%AD",
+  "extracto": null,
+  "webOficial": "http://www.aserri.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8536736,
+   "lon": -84.1078075
+  },
+  "posibleDuplicadoDe": "san-jose",
+  "km": 9.3
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Lucas Sacatepéquez",
+  "slug": false,
+  "poblacion": 28819,
+  "region": "Departamento de Sacatepéquez",
+  "regionSlug": "departamento-de-sacatepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Lucas_Sacatep%C3%A9quez",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/sanlucassacatepequez/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.6095,
+   "lon": -90.6568
+  },
+  "posibleDuplicadoDe": "mixco",
+  "km": 5.8
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Sunampe",
+  "slug": false,
+  "poblacion": 28520,
+  "region": "Departamento de Ica",
+  "regionSlug": "departamento-de-ica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sunampe",
+  "extracto": null,
+  "webOficial": "http://www.munisunampe.gob.pe/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.42734,
+   "lon": -76.164281
+  },
+  "posibleDuplicadoDe": "chincha-alta",
+  "km": 4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Panotla",
+  "slug": false,
+  "poblacion": 28357,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Panotla",
+  "extracto": null,
+  "webOficial": "http://www.panotla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.35,
+   "lon": -98.28
+  },
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 5.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Atempan",
+  "slug": false,
+  "poblacion": 28306,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Atempan",
+  "extracto": "Atempan es una localidad del estado mexicano de Puebla. Es cabecera del municipio de Atempan.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.805,
+   "lon": -97.4384
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "teziutlan",
+  "km": 8.3
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Adrogué",
+  "slug": false,
+  "poblacion": 28265,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Adrogu%C3%A9",
+  "extracto": null,
+  "webOficial": "https://www.almirantebrown.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.8,
+   "lon": -58.383333333
+  },
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 5.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Atlautla",
+  "slug": false,
+  "poblacion": 27663,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Atlautla_de_Victoria",
+  "extracto": "Atlautla de Victoria es una población mexicana del Estado de México, localizada en su sector oriental, se encuentra a 70 km de la Ciudad de México y es cabecera del municipio del mismo nombre.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.01,
+   "lon": -98.72
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "ozumba-de-alzate",
+  "km": 8.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Contla",
+  "slug": false,
+  "poblacion": 27610,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Contla",
+  "extracto": "Contla, es una ciudad cabecera del municipio de Contla de Juan Cuamatzi, ubicado en el estado mexicano de Tlaxcala, en lengua náhuatl proviene del vocablo: Comitl; significa; Olla o vasija y que, al entrar en composición, cambia la letra m por n; tla de tlantli; dientes, de tal modo que su interpretación es;\n\"lugar de ollas o lugar de vasijas\".",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.32932,
+   "lon": -98.1664
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 7.7
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "El Tejar",
+  "slug": true,
+  "poblacion": 27582,
+  "region": "Provincia de Cartago",
+  "regionSlug": "provincia-de-cartago",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Tejar_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": "https://muniguarco.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8438293,
+   "lon": -83.9513588
+  },
+  "posibleDuplicadoDe": "cartago",
+  "km": 4.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "La Antigua",
+  "slug": false,
+  "poblacion": 27210,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_La_Antigua",
+  "extracto": null,
+  "webOficial": "https://laantigua.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.322222222,
+   "lon": -96.321388888
+  },
+  "posibleDuplicadoDe": "jose-cardel",
+  "km": 7.2
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Subtanjalla",
+  "slug": false,
+  "poblacion": 27133,
+  "region": "Departamento de Ica",
+  "regionSlug": "departamento-de-ica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Subtanjalla",
+  "extracto": "El distrito de Subtanjalla es uno de los catorce que conforman la provincia de Ica, ubicada en el departamento de Ica en la Costa central del Perú.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.01889,
+   "lon": -75.75806
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "ica",
+  "km": 6.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa 20",
+  "slug": false,
+  "poblacion": 27000,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_20",
+  "extracto": "La Villa 20 es un asentamiento informal en proceso de urbanización ubicado en el barrio de Villa Lugano, Buenos Aires, Argentina. En noviembre del año 2016, la Legislatura de la Ciudad Autónoma de Buenos Aires sancionó una ley de urbanización y zonificación con el objetivo de integrar a la villa como un barrio más de la ciudad.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.67474,
+   "lon": -58.46636
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 7.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Piñeyro",
+  "slug": false,
+  "poblacion": 26979,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pi%C3%B1eyro",
+  "extracto": "Piñeiro es una localidad del partido de Avellaneda en la zona sur del Gran Buenos Aires, provincia de Buenos Aires en Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.669722222,
+   "lon": -58.388611111
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 4.2
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Samayac",
+  "slug": false,
+  "poblacion": 26665,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Samayac",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/samayac/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.5821106,
+   "lon": -91.4609912
+  },
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 7
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Querecotillo",
+  "slug": false,
+  "poblacion": 26395,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Querecotillo",
+  "extracto": null,
+  "webOficial": "http://www.muniquerecotillo.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -4.8399696,
+   "lon": -80.6490343
+  },
+  "posibleDuplicadoDe": "sullana",
+  "km": 8.2
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jaltenco",
+  "slug": false,
+  "poblacion": 26359,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jaltenco",
+  "extracto": null,
+  "webOficial": "http://www.jaltenco.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.7,
+   "lon": -99.08
+  },
+  "posibleDuplicadoDe": "san-pablo-de-las-salinas",
+  "km": 4
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Martelli",
+  "slug": false,
+  "poblacion": 26059,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Martelli",
+  "extracto": "Villa Martelli es uno de los nueve barrios que componen el partido de Vicente López, en la zona norte del Gran Buenos Aires, Provincia de Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.55,
+   "lon": -58.508333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-isidro",
+  "km": 9
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Añasco",
+  "slug": false,
+  "poblacion": 25596,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/A%C3%B1asco",
+  "extracto": null,
+  "webOficial": "http://www.anascopr.net/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.282222222,
+   "lon": -67.14
+  },
+  "posibleDuplicadoDe": "mayaguez",
+  "km": 9
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Licey al Medio",
+  "slug": false,
+  "poblacion": 25539,
+  "region": "Provincia de Santiago (República Dominicana)",
+  "regionSlug": "provincia-de-santiago-republica-dominicana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Licey_al_Medio",
+  "extracto": "Licey al Medio es un municipio de la República Dominicana, que está situado en la provincia de Santiago.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.43,
+   "lon": -70.62
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "santiago-de-los-caballeros",
+  "km": 7.8
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Paraíso",
+  "slug": true,
+  "poblacion": 25295,
+  "region": "Provincia de Cartago",
+  "regionSlug": "provincia-de-cartago",
+  "wikipedia": "https://es.wikipedia.org/wiki/Para%C3%ADso_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": "https://muniparaiso.go.cr/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8432319,
+   "lon": -83.8463144
+  },
+  "posibleDuplicadoDe": "cartago",
+  "km": 8.3
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Pomalca",
+  "slug": false,
+  "poblacion": 25267,
+  "region": "Departamento de Lambayeque",
+  "regionSlug": "departamento-de-lambayeque",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pomalca",
+  "extracto": "Pomalca es una localidad peruana, asimismo es capital del distrito de Pomalca ubicado en la provincia de Chiclayo en el departamento de Lambayeque. La localidad perteneció al distrito de Chiclayo hasta 1998, cuando se creó el distrito de Pomalca. Esta ciudad se encuentra a 61 m s. n. m.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -6.76747,
+   "lon": -79.77735
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "chiclayo",
+  "km": 8.6
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Colonia Caroya",
+  "slug": false,
+  "poblacion": 25261,
+  "region": "Provincia de Córdoba",
+  "regionSlug": "provincia-de-cordoba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Colonia_Caroya",
+  "extracto": null,
+  "webOficial": "https://coloniacaroya.gov.ar/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -31.033333333,
+   "lon": -64.093333333
+  },
+  "posibleDuplicadoDe": "jesus-maria-colonia-caroya-sinsacate",
+  "km": 5.8
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Santiago Miahuatlán",
+  "slug": false,
+  "poblacion": 25228,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santiago_Miahuatl%C3%A1n",
+  "extracto": "Santiago Miahuatlán es una localidad mexicana, cabecera municipal de Santiago Miahuatlán, uno de los 217 municipios del estado de Puebla.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.5508,
+   "lon": -97.4168
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "tehuacan",
+  "km": 9.8
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Nordelta",
+  "slug": false,
+  "poblacion": 25000,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Nordelta",
+  "extracto": null,
+  "webOficial": "http://www.nordelta.com/ingles/inicio.htm",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.416666666,
+   "lon": -58.65
+  },
+  "posibleDuplicadoDe": "tigre",
+  "km": 6.5
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "La Esperanza",
+  "slug": true,
+  "poblacion": 24948,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Esperanza_(Quetzaltenango)",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/laesperanza/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.8719,
+   "lon": -91.5619
+  },
+  "posibleDuplicadoDe": "quetzaltenango",
+  "km": 5.1
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ixhuatlancillo",
+  "slug": false,
+  "poblacion": 24896,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ixhuatlancillo",
+  "extracto": "Ixhuatlancillo es una localidad del estado mexicano de Veracruz. Es cabecera del municipio de Ixhuatlancillo.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.89,
+   "lon": -97.16
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "rio-blanco",
+  "km": 6.6
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Francisco Zapotitlán",
+  "slug": false,
+  "poblacion": 24763,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Francisco_Zapotitl%C3%A1n",
+  "extracto": "San Francisco Zapotitlán es un municipio del departamento de Suchitepéquez de la región sur-occidental de la República de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.58333333,
+   "lon": -91.51666667
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 5.7
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "Punta Carretas",
+  "slug": false,
+  "poblacion": 24679,
+  "region": "Departamento de Montevideo",
+  "regionSlug": "departamento-de-montevideo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Punta_Carretas",
+  "extracto": "Punta Carretas es uno de los 62 barrios oficialmente reconocidos de Montevideo, capital de la República Oriental del Uruguay. También conocido como «Punta Brava», su nombre se refiere a la más prominente y peligrosa punta rocosa orientada al sur de la costa de la ciudad.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.921888888,
+   "lon": -56.159444444
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "montevideo",
+  "km": 3.3
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Huaura",
+  "slug": false,
+  "poblacion": 24668,
+  "region": "Departamento de Lima",
+  "regionSlug": "departamento-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Huaura",
+  "extracto": "Huaura es un ciudad peruana capital del distrito homónimo ubicado en la provincia de Huaura en el departamento de Lima. Tenía una población estimada de 24 668 hab. según el censo de 2017. Dejó de ser la capital provincial en 1866 a favor de la ciudad de Huacho y es parte de la conurbación formada alrededor de esta última mediante dos puentes sobre el río Huaura.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.0700929,
+   "lon": -77.5993042
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "huacho",
+  "km": 5.3
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Los Guido",
+  "slug": false,
+  "poblacion": 24662,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Los_Guido",
+  "extracto": "Los Guido es el último distrito número trece del cantón de Desamparados, de la provincia de San José, en Costa Rica, fundado en el año de 2003.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8702661,
+   "lon": -84.0483516
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 8.1
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Calamar",
+  "slug": false,
+  "poblacion": 24573,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": "https://es.wikipedia.org/wiki/Calamar_(Bol%C3%ADvar)",
+  "extracto": null,
+  "webOficial": "http://www.calamar-bolivar.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.25,
+   "lon": -74.915833333
+  },
+  "posibleDuplicadoDe": "santa-lucia-atlantico",
+  "km": 9.6
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Antonio Tecómitl",
+  "slug": false,
+  "poblacion": 24397,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Antonio_Tec%C3%B3mitl",
+  "extracto": "San Antonio Tecómitl es uno de los doce pueblos originarios que conforman la alcaldía de Milpa Alta, Ciudad de México, México, con una cultura milenaria. Fundado en el año 1140 D.C. por un grupo de tribus chichimecas.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.21778,
+   "lon": -98.98806
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-mateo-huitzilzingo",
+  "km": 6.7
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Aguas Buenas",
+  "slug": false,
+  "poblacion": 24223,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Aguas_Buenas",
+  "extracto": null,
+  "webOficial": "http://www.gobierno.pr/OCAM/DirectorioMunicipios/Aguas_Buenas.htm",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.256666666,
+   "lon": -66.103055555
+  },
+  "posibleDuplicadoDe": "caguas",
+  "km": 6.3
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Donmatías",
+  "slug": false,
+  "poblacion": 24201,
+  "region": "Antioquia",
+  "regionSlug": "antioquia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Donmat%C3%ADas",
+  "extracto": null,
+  "webOficial": "http://donmatias-antioquia.gov.co/sitio.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 6.485833333,
+   "lon": -75.395277777
+  },
+  "posibleDuplicadoDe": "barbosa",
+  "km": 8.8
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Cogua",
+  "slug": false,
+  "poblacion": 24092,
+  "region": "Cundinamarca",
+  "regionSlug": "cundinamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cogua",
+  "extracto": null,
+  "webOficial": "http://www.cogua-cundinamarca.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 5.061944444,
+   "lon": -73.979444444
+  },
+  "posibleDuplicadoDe": "zipaquira",
+  "km": 5.2
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Moniquirá",
+  "slug": false,
+  "poblacion": 24035,
+  "region": "Boyacá",
+  "regionSlug": "boyaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Moniquir%C3%A1",
+  "extracto": null,
+  "webOficial": "http://www.moniquira-boyaca.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 5.874444444,
+   "lon": -73.571666666
+  },
+  "posibleDuplicadoDe": "barbosa-santander",
+  "km": 8
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "San Rafael Arriba",
+  "slug": false,
+  "poblacion": 24008,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Rafael_Arriba",
+  "extracto": "San Rafael Arriba es el distrito número cuatro del cantón de Desamparados, de la provincia de San José, en Costa Rica, fundado en el año de 1841.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8778342,
+   "lon": -84.0707711
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 6.4
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Nobol",
+  "slug": false,
+  "poblacion": 23850,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Nobol",
+  "extracto": null,
+  "webOficial": "https://nobol.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.916671,
+   "lon": -80.011539
+  },
+  "posibleDuplicadoDe": "daule",
+  "km": 7.4
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Loíza",
+  "slug": false,
+  "poblacion": 23693,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Lo%C3%ADza",
+  "extracto": null,
+  "webOficial": "http://www.gobierno.pr/OCAM/DirectorioMunicipios/Loiza.htm",
+  "gentilicio": "Loiceños",
+  "coords": {
+   "lat": 18.434166666,
+   "lon": -65.892777777
+  },
+  "posibleDuplicadoDe": "carolina",
+  "km": 9
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Sachaca",
+  "slug": false,
+  "poblacion": 23675,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sachaca",
+  "extracto": null,
+  "webOficial": "http://www.munisachaca.gob.pe",
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.42452,
+   "lon": -71.56659
+  },
+  "posibleDuplicadoDe": "arequipa",
+  "km": 4.2
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Jocotenango",
+  "slug": false,
+  "poblacion": 23492,
+  "region": "Departamento de Sacatepéquez",
+  "regionSlug": "departamento-de-sacatepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jocotenango",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/jocotenango/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.586786,
+   "lon": -90.744403
+  },
+  "posibleDuplicadoDe": "antigua-guatemala",
+  "km": 3.6
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Telica",
+  "slug": false,
+  "poblacion": 23266,
+  "region": "Departamento de León",
+  "regionSlug": "departamento-de-leon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Telica",
+  "extracto": "Telica es un municipio del departamento de León en la República de Nicaragua, en la cordillera de los Maribios o Marrabios. La población se encuentra exactamente a 10 kilómetros de León y a poco más de 100 kilómetros de la capital de Managua. La localidad fue fundada el 11 de mayo de 1871.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.522011111,
+   "lon": -86.859891666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "leon-nicaragua",
+  "km": 9.9
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Cataño",
+  "slug": false,
+  "poblacion": 23155,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Cata%C3%B1o",
+  "extracto": null,
+  "webOficial": "http://www.gobierno.pr/OCAM/DirectorioMunicipios/Cata%C3%B1o.htm",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.441694,
+   "lon": -66.138772
+  },
+  "posibleDuplicadoDe": "san-juan",
+  "km": 4.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Naolinco de Victoria",
+  "slug": false,
+  "poblacion": 22835,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Naolinco_de_Victoria",
+  "extracto": "Naolinco de Victoria es la cabecera del Municipio de Naolinco, parte del estado mexicano de Veracruz, situada en la zona montañosa central del estado.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.655833333,
+   "lon": -96.873611111
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "banderilla",
+  "km": 10
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Pablo Jocopilas",
+  "slug": false,
+  "poblacion": 22490,
+  "region": "Departamento de Suchitepéquez",
+  "regionSlug": "departamento-de-suchitepequez",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pablo_Jocopilas",
+  "extracto": "San Pablo Jocopilas es un municipio del departamento Suchitepéquez, en la República de Guatemala, ubicado a 8 km de la cabecera departamental de Mazatenango.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.58333333,
+   "lon": -91.45
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "mazatenango",
+  "km": 7.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Malvinas Argentinas (Almirante Brown)",
+  "slug": false,
+  "poblacion": 22132,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Malvinas_Argentinas_(Almirante_Brown)",
+  "extracto": "Malvinas Argentinas es una localidad ubicada en el partido de Almirante Brown, provincia de Buenos Aires, Argentina.[cita requerida]",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.82,
+   "lon": -58.425
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lomas-de-zamora",
+  "km": 7.3
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "La Cruz",
+  "slug": true,
+  "poblacion": 22098,
+  "region": "Región de Valparaíso",
+  "regionSlug": "region-de-valparaiso",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Cruz_(Chile)",
+  "extracto": null,
+  "webOficial": "http://www.lacruz.cl",
+  "gentilicio": null,
+  "coords": {
+   "lat": -32.816666666,
+   "lon": -71.233333333
+  },
+  "posibleDuplicadoDe": "quillota",
+  "km": 7.6
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Silvania",
+  "slug": false,
+  "poblacion": 22020,
+  "region": "Cundinamarca",
+  "regionSlug": "cundinamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Silvania",
+  "extracto": null,
+  "webOficial": "http://www.silvania-cundinamarca.gov.co/index.shtml",
+  "gentilicio": "Silvanense",
+  "coords": {
+   "lat": 4.403333333,
+   "lon": -74.388055555
+  },
+  "posibleDuplicadoDe": "fusagasuga",
+  "km": 7.9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Crucecita",
+  "slug": false,
+  "poblacion": 21836,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Crucecita",
+  "extracto": "Crucecita es una localidad del Partido de Avellaneda en la zona sur del Gran Buenos Aires, Argentina.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.666666666,
+   "lon": -58.35
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "lanus",
+  "km": 5.9
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Ginebra",
+  "slug": false,
+  "poblacion": 21815,
+  "region": "Valle del Cauca",
+  "regionSlug": "valle-del-cauca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ginebra_(Colombia)",
+  "extracto": null,
+  "webOficial": "http://www.ginebra-valle.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 3.724444444,
+   "lon": -76.267222222
+  },
+  "posibleDuplicadoDe": "el-cerrito",
+  "km": 6.7
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santa Lucía Utatlán",
+  "slug": false,
+  "poblacion": 21790,
+  "region": "Departamento de Sololá",
+  "regionSlug": "departamento-de-solola",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa_Utatl%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://santacruzlalaguna.muni.gob.gt/portal/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.76666667,
+   "lon": -91.26666667
+  },
+  "posibleDuplicadoDe": "solola",
+  "km": 9
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Cuilápam de Guerrero",
+  "slug": false,
+  "poblacion": 21597,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cuil%C3%A1pam_de_Guerrero",
+  "extracto": "Cuilápam de Guerrero es una población mexicana del estado de Oaxaca, ubicada en la zona sur de los valles centrales de dicha entidad.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 16.997222222,
+   "lon": -96.781666666
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 9.2
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Salcajá",
+  "slug": false,
+  "poblacion": 21577,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Salcaj%C3%A1",
+  "extracto": null,
+  "webOficial": "http://www.inforpressca.com/salcaja/",
+  "gentilicio": "salcajense",
+  "coords": {
+   "lat": 14.88333333,
+   "lon": -91.45
+  },
+  "posibleDuplicadoDe": "quetzaltenango",
+  "km": 9
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Cebil Redondo",
+  "slug": false,
+  "poblacion": 21527,
+  "region": "Provincia de Tucumán",
+  "regionSlug": "provincia-de-tucuman",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cebil_Redondo",
+  "extracto": "Cebil Redondo es una comuna rural de la provincia de Tucumán, Argentina situado al oeste de la ciudad capital de la provincia en el Departamento Yerba Buena. El centro de la comuna se encuentra villa Carmela en la localidad de Cebil Redondo, dicha localidad se encuentra a medio camino de la ruta que une Yerba Buena con Tafí Viejo.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -26.78333333,
+   "lon": -65.28333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "tucuman",
+  "km": 8.1
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "San Rafael Abajo",
+  "slug": false,
+  "poblacion": 21408,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Rafael_Abajo",
+  "extracto": "San Rafael Abajo es el distrito número once del cantón de Desamparados, de la provincia de San José, en Costa Rica.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.894338,
+   "lon": -84.0836529
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 4.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Atzacan",
+  "slug": false,
+  "poblacion": 21360,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Atzacan",
+  "extracto": "Atzacan es una localidad del estado mexicano de Veracruz. Es cabecera del municipio de Atzacan.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.93392,
+   "lon": -97.07644
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "fortin-de-las-flores",
+  "km": 8.5
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Juan C. Bonilla",
+  "slug": false,
+  "poblacion": 21253,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juan_C._Bonilla",
+  "extracto": "El municipio de Juan C. Bonilla es uno de los 217 municipios que conforman al estado mexicano de Puebla, forma parte del Valle de Cholula y de la Zona Metropolitana de Puebla-Tlaxcala, su cabecera es la población de Cuanalá.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1223,
+   "lon": -98.3416
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "cholula",
+  "km": 7.6
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Patalillo",
+  "slug": false,
+  "poblacion": 21161,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Patalillo",
+  "extracto": "Patalillo es un distrito del cantón de Vázquez de Coronado, en la provincia de San José, de Costa Rica.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9758558,
+   "lon": -84.0231606
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-jose",
+  "km": 8.2
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Cojímar",
+  "slug": false,
+  "poblacion": 21102,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coj%C3%ADmar",
+  "extracto": "Cojímar es una localidad de Cuba, situada a unos 7 km de La Habana, que forma parte del municipio de la Habana del Este. Cuenta con 20.390 habitantes.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.16305556,
+   "lon": -82.29388889
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "la-habana",
+  "km": 9.7
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Chocamán",
+  "slug": false,
+  "poblacion": 21102,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chocam%C3%A1n",
+  "extracto": "Chocamán es una localidad del estado mexicano de Veracruz. Es cabecera del municipio de Chocamán.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.99779,
+   "lon": -97.04299
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "coscomatepec-de-bravo",
+  "km": 8.3
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "San Antonio Sacatepéquez",
+  "slug": false,
+  "poblacion": 20994,
+  "region": "Departamento de San Marcos",
+  "regionSlug": "departamento-de-san-marcos",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Antonio_Sacatep%C3%A9quez",
+  "extracto": "San Antonio Sacatepéquez es un municipio del departamento de San Marcos, en la región sur-occidente de Guatemala.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.96666667,
+   "lon": -91.73333333
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "san-marcos-guatemala",
+  "km": 6.6
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Bugalagrande",
+  "slug": false,
+  "poblacion": 20970,
+  "region": "Valle del Cauca",
+  "regionSlug": "valle-del-cauca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bugalagrande",
+  "extracto": null,
+  "webOficial": "http://www.bugalagrande-valle.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 4.2075,
+   "lon": -76.1575
+  },
+  "posibleDuplicadoDe": "andalucia-valle-del-cauca",
+  "km": 4.2
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Don Bosco",
+  "slug": false,
+  "poblacion": 20876,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Don_Bosco_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": "http://www.quilmes.gov.ar",
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7,
+   "lon": -58.283333333
+  },
+  "posibleDuplicadoDe": "quilmes",
+  "km": 3.5
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Parramos",
+  "slug": false,
+  "poblacion": 20632,
+  "region": "Departamento de Chimaltenango",
+  "regionSlug": "departamento-de-chimaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Parramos",
+  "extracto": "Parramos es un municipio del departamento de Chimaltenango, en la República de Guatemala. Tenía un estimado de población de 20.632 habitantes para el año 2022.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.607777777,
+   "lon": -90.803055555
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "antigua-guatemala",
+  "km": 9.4
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Vista Hermosa de Negrete",
+  "slug": false,
+  "poblacion": 20624,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vista_Hermosa_de_Negrete",
+  "extracto": "Vista Hermosa de Negrete es una localidad mexicana situada en el estado de Michoacán, cabecera del municipio de Vista Hermosa.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.273115,
+   "lon": -102.473646111
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "la-barca",
+  "km": 7.4
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Chupaca",
+  "slug": false,
+  "poblacion": 20341,
+  "region": "Departamento de Junín",
+  "regionSlug": "departamento-de-junin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chupaca",
+  "extracto": "Chupaca es una ciudad peruana capital del distrito y de la provincia homónimos en el departamento de Junín. Se halla en pleno valle del Mantaro en la zona central andina del país.",
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.062152,
+   "lon": -75.2887917
+  },
+  "rescatada": true,
+  "posibleDuplicadoDe": "huancayo",
+  "km": 8.6
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Tenjo",
+  "slug": false,
+  "poblacion": 20269,
+  "region": "Cundinamarca",
+  "regionSlug": "cundinamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tenjo",
+  "extracto": null,
+  "webOficial": "http://www.tenjo-cundinamarca.gov.co/index.shtml",
+  "gentilicio": null,
+  "coords": {
+   "lat": 4.869722222,
+   "lon": -74.143888888
+  },
+  "posibleDuplicadoDe": "cota",
+  "km": 8.4
+ }
+]

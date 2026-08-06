@@ -1,0 +1,5340 @@
+[
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Abasto",
+  "slug": false,
+  "poblacion": 719013,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Abasto_(La_Plata)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.9869,
+   "lon": -58.0889
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Gregorio de Laferrere",
+  "slug": false,
+  "poblacion": 248362,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gregorio_de_Laferrere_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.75,
+   "lon": -58.583333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Palermo",
+  "slug": true,
+  "poblacion": 225970,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Palermo_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.588888888,
+   "lon": -58.430555555
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Virrey del Pino",
+  "slug": false,
+  "poblacion": 156132,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Virrey_del_Pino_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.8447,
+   "lon": -58.6517
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Rafael Castillo",
+  "slug": false,
+  "poblacion": 147965,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Rafael_Castillo_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.716666666,
+   "lon": -58.616666666
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Maipú",
+  "slug": true,
+  "poblacion": 106662,
+  "region": "Provincia de Mendoza",
+  "regionSlug": "provincia-de-mendoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Maip%C3%BA_(Mendoza)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "maipucino",
+  "coords": {
+   "lat": -32.966666666,
+   "lon": -68.75
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "La Tablada",
+  "slug": false,
+  "poblacion": 102542,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Tablada_(localidad)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.68333333,
+   "lon": -58.53333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Libertad",
+  "slug": true,
+  "poblacion": 100324,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Libertad_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.692,
+   "lon": -58.686
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "San Francisco Solano",
+  "slug": false,
+  "poblacion": 91322,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Francisco_Solano_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.766666666,
+   "lon": -58.316666666
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Barracas",
+  "slug": false,
+  "poblacion": 89452,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barracas_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.65,
+   "lon": -58.383333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Yerba Buena",
+  "slug": false,
+  "poblacion": 82277,
+  "region": "Provincia de Tucumán",
+  "regionSlug": "provincia-de-tucuman",
+  "wikipedia": "https://es.wikipedia.org/wiki/Yerba_Buena_(Tucum%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -26.816666666,
+   "lon": -65.316666666
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Ezpeleta",
+  "slug": false,
+  "poblacion": 79557,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ezpeleta_(Argentina)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.7517,
+   "lon": -58.2344
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Santa Catalina",
+  "slug": false,
+  "poblacion": 58833,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Catalina_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.744166666,
+   "lon": -58.474444444
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Centenario",
+  "slug": true,
+  "poblacion": 48721,
+  "region": "Provincia de Neuquén",
+  "regionSlug": "provincia-de-neuquen",
+  "wikipedia": "https://es.wikipedia.org/wiki/Centenario_(Neuqu%C3%A9n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -38.816666666,
+   "lon": -68.133333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Boedo",
+  "slug": false,
+  "poblacion": 47306,
+  "region": "Buenos Aires",
+  "regionSlug": "buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Boedo_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.633333333,
+   "lon": -58.416666666
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Lavalle",
+  "slug": false,
+  "poblacion": 47167,
+  "region": "Provincia de Mendoza",
+  "regionSlug": "provincia-de-mendoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Departamento_de_Lavalle_(Mendoza)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -32.716666666,
+   "lon": -68.583333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Fontana",
+  "slug": false,
+  "poblacion": 40660,
+  "region": "Provincia de Chaco",
+  "regionSlug": "provincia-de-chaco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Fontana_(Chaco)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -27.41666667,
+   "lon": -59.03333333
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Albardón",
+  "slug": false,
+  "poblacion": 31284,
+  "region": "Provincia de San Juan",
+  "regionSlug": "provincia-de-san-juan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Departamento_Albard%C3%B3n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -31.41666667,
+   "lon": -68.5
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Sarmiento",
+  "slug": false,
+  "poblacion": 27188,
+  "region": "Provincia de San Juan",
+  "regionSlug": "provincia-de-san-juan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Departamento_Sarmiento_(San_Juan)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -32,
+   "lon": -68.51666667
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Villa Lamadrid",
+  "slug": false,
+  "poblacion": 24328,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Lamadrid_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.726666666,
+   "lon": -58.471666666
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Vicente López",
+  "slug": false,
+  "poblacion": 24078,
+  "region": "Provincia de Buenos Aires",
+  "regionSlug": "provincia-de-buenos-aires",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vicente_L%C3%B3pez_(Buenos_Aires)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.533333333,
+   "lon": -58.475
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "El Manantial",
+  "slug": false,
+  "poblacion": 21201,
+  "region": "Provincia de Tucumán",
+  "regionSlug": "provincia-de-tucuman",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Manantial_(Tucum%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -26.85,
+   "lon": -65.266667
+  }
+ },
+ {
+  "pais": "Argentina",
+  "paisSlug": "argentina",
+  "nombre": "Veinticinco de Mayo",
+  "slug": false,
+  "poblacion": 20824,
+  "region": "Provincia de San Juan",
+  "regionSlug": "provincia-de-san-juan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Departamento_Veinticinco_de_Mayo_(San_Juan)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -31.8167,
+   "lon": -68.2
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "La Guardia",
+  "slug": false,
+  "poblacion": 147726,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Guardia_(Andr%C3%A9s_Ib%C3%A1%C3%B1ez)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -18,
+   "lon": -63.183333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "San Joaquín",
+  "slug": true,
+  "poblacion": 97625,
+  "region": "Departamento del Beni",
+  "regionSlug": "departamento-del-beni",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Joaqu%C3%ADn_(Beni)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.04138889,
+   "lon": -64.66805556
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Yapacani",
+  "slug": false,
+  "poblacion": 57794,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.95,
+   "lon": -64.26666667
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Pailon",
+  "slug": false,
+  "poblacion": 54495,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.716667,
+   "lon": -62.133333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Entre Ríos",
+  "slug": true,
+  "poblacion": 45780,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.33333333,
+   "lon": -64.53333333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "San Julián",
+  "slug": true,
+  "poblacion": 44909,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Juli%C3%A1n_(Bolivia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.83333,
+   "lon": -62.8
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Laja",
+  "slug": false,
+  "poblacion": 38652,
+  "region": "Departamento de La Paz",
+  "regionSlug": "departamento-de-la-paz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.583333,
+   "lon": -68.416667
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Ascención de Guarayos",
+  "slug": false,
+  "poblacion": 34079,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -15.894,
+   "lon": -63.186
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Cabezas",
+  "slug": false,
+  "poblacion": 32961,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cabezas_(Bolivia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -18.78825,
+   "lon": -63.31025
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Bermejo",
+  "slug": false,
+  "poblacion": 28285,
+  "region": "Departamento de Tarija",
+  "regionSlug": "departamento-de-tarija",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bermejo_(Tarija)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -22.732222222,
+   "lon": -64.3425
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Palos Blancos",
+  "slug": false,
+  "poblacion": 27137,
+  "region": "Departamento de La Paz",
+  "regionSlug": "departamento-de-la-paz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Palos_Blancos_(Bolivia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -15.516667,
+   "lon": -67.25
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "San Lucas",
+  "slug": true,
+  "poblacion": 26715,
+  "region": "Departamento de Chuquisaca",
+  "regionSlug": "departamento-de-chuquisaca",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -20.15967,
+   "lon": -64.93116
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "San Borja",
+  "slug": true,
+  "poblacion": 24610,
+  "region": "Departamento del Beni",
+  "regionSlug": "departamento-del-beni",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Borja_(Bolivia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.66667,
+   "lon": -66.83333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Monteagudo",
+  "slug": false,
+  "poblacion": 24546,
+  "region": "Departamento de Chuquisaca",
+  "regionSlug": "departamento-de-chuquisaca",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -20.033333,
+   "lon": -64.083333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Independencia",
+  "slug": true,
+  "poblacion": 23658,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Independencia_(Bolivia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.083888888,
+   "lon": -66.818055555
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Mineros",
+  "slug": false,
+  "poblacion": 23110,
+  "region": "Departamento de Santa Cruz",
+  "regionSlug": "departamento-de-santa-cruz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -17.08333333,
+   "lon": -63.26666667
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Apopaya",
+  "slug": false,
+  "poblacion": 21815,
+  "region": "Departamento de Cochabamba",
+  "regionSlug": "departamento-de-cochabamba",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.75,
+   "lon": -66.916667
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Palca",
+  "slug": false,
+  "poblacion": 21729,
+  "region": "Departamento de La Paz",
+  "regionSlug": "departamento-de-la-paz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.7,
+   "lon": -67.833333
+  }
+ },
+ {
+  "pais": "Bolivia",
+  "paisSlug": "bolivia",
+  "nombre": "Entre Ríos",
+  "slug": true,
+  "poblacion": 20864,
+  "region": "Departamento de Tarija",
+  "regionSlug": "departamento-de-tarija",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -21.5,
+   "lon": -64.08333333
+  }
+ },
+ {
+  "pais": "Chile",
+  "paisSlug": "chile",
+  "nombre": "Alerce",
+  "slug": false,
+  "poblacion": 42267,
+  "region": "Región de Los Lagos",
+  "regionSlug": "region-de-los-lagos",
+  "wikipedia": "https://es.wikipedia.org/wiki/Alerce_(Chile)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -41.3969,
+   "lon": -72.9037
+  }
+ },
+ {
+  "pais": "Colombia",
+  "paisSlug": "colombia",
+  "nombre": "Salgar",
+  "slug": true,
+  "poblacion": 83600,
+  "region": "Atlántico",
+  "regionSlug": "atlantico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Salgar_(Atl%C3%A1ntico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.0180472,
+   "lon": -74.934164
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Pavas",
+  "slug": false,
+  "poblacion": 83573,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pavas_(San_Jos%C3%A9)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9495224,
+   "lon": -84.1391744
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Daniel Flores",
+  "slug": false,
+  "poblacion": 46344,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Daniel_Flores_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.3077701,
+   "lon": -83.6591055
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Ulloa",
+  "slug": false,
+  "poblacion": 36027,
+  "region": "Provincia de Heredia",
+  "regionSlug": "provincia-de-heredia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ulloa_de_Heredia",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9751375,
+   "lon": -84.1359263
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Barranca",
+  "slug": true,
+  "poblacion": 34827,
+  "region": "Provincia de Puntarenas",
+  "regionSlug": "provincia-de-puntarenas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barranca_de_Puntarenas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.0013335,
+   "lon": -84.7121014
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Desamparados",
+  "slug": true,
+  "poblacion": 29782,
+  "region": "Provincia de Alajuela",
+  "regionSlug": "provincia-de-alajuela",
+  "wikipedia": "https://es.wikipedia.org/wiki/Desamparados_de_Alajuela",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.0315027,
+   "lon": -84.1876777
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Rita",
+  "slug": false,
+  "poblacion": 27315,
+  "region": "Provincia de Limón",
+  "regionSlug": "provincia-de-limon",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Rita_(Pococ%C3%AD)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.4337009,
+   "lon": -83.7530067
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "El Roble",
+  "slug": false,
+  "poblacion": 23953,
+  "region": "Provincia de Puntarenas",
+  "regionSlug": "provincia-de-puntarenas",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Roble_de_Puntarenas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.977073,
+   "lon": -84.7442821
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Mata de Plátano",
+  "slug": false,
+  "poblacion": 22461,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mata_de_Pl%C3%A1tano_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9550225,
+   "lon": -83.9990136
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "La Trinidad",
+  "slug": true,
+  "poblacion": 22147,
+  "region": "Provincia de San José",
+  "regionSlug": "provincia-de-san-jose",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Trinidad_de_Moravia",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.9803073,
+   "lon": -84.0365115
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Batán",
+  "slug": false,
+  "poblacion": 21523,
+  "region": "Provincia de Limón",
+  "regionSlug": "provincia-de-limon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bat%C3%A1n_(Costa_Rica)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.1040546,
+   "lon": -83.3529038
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Roxana",
+  "slug": false,
+  "poblacion": 20449,
+  "region": "Provincia de Limón",
+  "regionSlug": "provincia-de-limon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Roxana_(Pococ%C3%AD)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.3586188,
+   "lon": -83.6737701
+  }
+ },
+ {
+  "pais": "Costa Rica",
+  "paisSlug": "costa-rica",
+  "nombre": "Pital",
+  "slug": false,
+  "poblacion": 20259,
+  "region": "Provincia de Alajuela",
+  "regionSlug": "provincia-de-alajuela",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pital_(San_Carlos)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.6024418,
+   "lon": -84.2473646
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Diez de Octubre",
+  "slug": false,
+  "poblacion": 199933,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Diez_de_Octubre_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.088055555,
+   "lon": -82.359722222
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Marianao",
+  "slug": false,
+  "poblacion": 134057,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Marianao_(La_Habana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "marianenses",
+  "coords": {
+   "lat": 23.083333333,
+   "lon": -82.433333333
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "El Cerro",
+  "slug": false,
+  "poblacion": 124994,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cerro_(municipio)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.088055555,
+   "lon": -82.395
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Contramaestre",
+  "slug": false,
+  "poblacion": 106002,
+  "region": "Provincia de Santiago de Cuba",
+  "regionSlug": "provincia-de-santiago-de-cuba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Contramaestre_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.3,
+   "lon": -76.250555555
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Songo",
+  "slug": false,
+  "poblacion": 100287,
+  "region": "Provincia de Santiago de Cuba",
+  "regionSlug": "provincia-de-santiago-de-cuba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Songo-La_Maya_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.173333333,
+   "lon": -75.646388888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Moa",
+  "slug": false,
+  "poblacion": 73053,
+  "region": "Provincia de Holguín",
+  "regionSlug": "provincia-de-holguin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Moa_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.655979291,
+   "lon": -74.943011763
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Jovellanos",
+  "slug": false,
+  "poblacion": 58685,
+  "region": "provincia de Matanzas",
+  "regionSlug": "provincia-de-matanzas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jovellanos_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.810555555,
+   "lon": -81.198055555
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "El Salvador",
+  "slug": true,
+  "poblacion": 45773,
+  "region": "provincia de Guantánamo",
+  "regionSlug": "provincia-de-guantanamo",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Salvador_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.209444444,
+   "lon": -75.223055555
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Regla",
+  "slug": false,
+  "poblacion": 44185,
+  "region": "provincia de La Habana",
+  "regionSlug": "provincia-de-la-habana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Regla_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.131666666,
+   "lon": -82.336388888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Bahía Honda",
+  "slug": false,
+  "poblacion": 43483,
+  "region": "Provincia de Artemisa",
+  "regionSlug": "provincia-de-artemisa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bah%C3%ADa_Honda_(municipio)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.906388888,
+   "lon": -83.163888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Mariel",
+  "slug": false,
+  "poblacion": 42500,
+  "region": "Provincia de Artemisa",
+  "regionSlug": "provincia-de-artemisa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mariel_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.993611111,
+   "lon": -82.753888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Los Palacios",
+  "slug": false,
+  "poblacion": 38731,
+  "region": "Provincia de Pinar del Río",
+  "regionSlug": "provincia-de-pinar-del-rio",
+  "wikipedia": "https://es.wikipedia.org/wiki/Los_Palacios_(Pinar_del_R%C3%ADo)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.582222222,
+   "lon": -83.248888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Sandino",
+  "slug": false,
+  "poblacion": 37293,
+  "region": "Provincia de Pinar del Río",
+  "regionSlug": "provincia-de-pinar-del-rio",
+  "wikipedia": "https://es.wikipedia.org/wiki/Sandino_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.0815041,
+   "lon": -84.2040253
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Caimito",
+  "slug": false,
+  "poblacion": 36813,
+  "region": "Provincia de Artemisa",
+  "regionSlug": "provincia-de-artemisa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Caimito_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.9575,
+   "lon": -82.596388888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Guane",
+  "slug": false,
+  "poblacion": 35718,
+  "region": "Provincia de Pinar del Río",
+  "regionSlug": "provincia-de-pinar-del-rio",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guane_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.200555555,
+   "lon": -84.083888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Baraguá",
+  "slug": false,
+  "poblacion": 32909,
+  "region": "Provincia de Ciego de Ávila",
+  "regionSlug": "provincia-de-ciego-de-avila",
+  "wikipedia": "https://es.wikipedia.org/wiki/Baragu%C3%A1_(Ciego_de_%C3%81vila)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.681944444,
+   "lon": -78.624444444
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Madruga",
+  "slug": false,
+  "poblacion": 30640,
+  "region": "provincia de Mayabeque",
+  "regionSlug": "provincia-de-mayabeque",
+  "wikipedia": "https://es.wikipedia.org/wiki/Madruga_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.916388888,
+   "lon": -81.923888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Tercer Frente",
+  "slug": false,
+  "poblacion": 30457,
+  "region": "Provincia de Santiago de Cuba",
+  "regionSlug": "provincia-de-santiago-de-cuba",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tercer_Frente_(municipio)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.171944444,
+   "lon": -76.3275
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Primero de Enero",
+  "slug": false,
+  "poblacion": 29117,
+  "region": "Provincia de Ciego de Ávila",
+  "regionSlug": "provincia-de-ciego-de-avila",
+  "wikipedia": "https://es.wikipedia.org/wiki/Primero_de_Enero_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.945277777,
+   "lon": -78.418888888
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Limonar",
+  "slug": false,
+  "poblacion": 25421,
+  "region": "provincia de Matanzas",
+  "regionSlug": "provincia-de-matanzas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Limonar_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.956111111,
+   "lon": -81.408611111
+  }
+ },
+ {
+  "pais": "Cuba",
+  "paisSlug": "cuba",
+  "nombre": "Manuel Tames",
+  "slug": false,
+  "poblacion": 21237,
+  "region": "provincia de Guantánamo",
+  "regionSlug": "provincia-de-guantanamo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Manuel_Tames_(Cuba)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.180277777,
+   "lon": -75.051388888
+  }
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Rocafuerte",
+  "slug": false,
+  "poblacion": 42688,
+  "region": "Provincia de Manabí",
+  "regionSlug": "provincia-de-manabi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Rocafuerte",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -0.92,
+   "lon": -80.46
+  }
+ },
+ {
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Santa Isabel",
+  "slug": true,
+  "poblacion": 20753,
+  "region": "Azuay",
+  "regionSlug": "azuay",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Santa_Isabel",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -3.27417,
+   "lon": -79.3156
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "La Libertad Oeste",
+  "slug": false,
+  "poblacion": 182512,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.704736111,
+   "lon": -89.341305555
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "La Paz Oeste",
+  "slug": false,
+  "poblacion": 108708,
+  "region": "Departamento de La Paz",
+  "regionSlug": "departamento-de-la-paz",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.473522222,
+   "lon": -89.088844444
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Cuscatlán Norte",
+  "slug": false,
+  "poblacion": 99591,
+  "region": "Departamento de Cuscatlán",
+  "regionSlug": "departamento-de-cuscatlan",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.936691666,
+   "lon": -89.025936111
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "La Libertad Costa",
+  "slug": false,
+  "poblacion": 85917,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.488805555,
+   "lon": -89.319141666
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Arce",
+  "slug": false,
+  "poblacion": 65550,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Arce",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.840258333,
+   "lon": -89.443763888
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Coatepeque",
+  "slug": true,
+  "poblacion": 36371,
+  "region": "Departamento de Santa Ana",
+  "regionSlug": "departamento-de-santa-ana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coatepeque_(El_Salvador)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.925413888,
+   "lon": -89.504280555
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Tacuba",
+  "slug": false,
+  "poblacion": 31208,
+  "region": "Departamento de Ahuachapán",
+  "regionSlug": "departamento-de-ahuachapan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tacuba_(El_Salvador)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.900252777,
+   "lon": -89.932055555
+  }
+ },
+ {
+  "pais": "El Salvador",
+  "paisSlug": "el-salvador",
+  "nombre": "Chalatenango Norte",
+  "slug": false,
+  "poblacion": 26806,
+  "region": "Departamento de Chalatenango",
+  "regionSlug": "departamento-de-chalatenango",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.317291666,
+   "lon": -89.170480555
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Jalapa",
+  "slug": false,
+  "poblacion": 192676,
+  "region": "Departamento de Jalapa",
+  "regionSlug": "departamento-de-jalapa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jalapa_(Jalapa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.637861111,
+   "lon": -89.990416666
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Amatitlán",
+  "slug": false,
+  "poblacion": 152296,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Amatitl%C3%A1n_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.4741,
+   "lon": -90.6247
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Coatepeque",
+  "slug": false,
+  "poblacion": 120737,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coatepeque_(Quetzaltenango)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.7,
+   "lon": -91.866666666
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "La Tinta",
+  "slug": false,
+  "poblacion": 45742,
+  "region": "Departamento de Alta Verapaz",
+  "regionSlug": "departamento-de-alta-verapaz",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Tinta_(Alta_Verapaz)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.3,
+   "lon": -89.916666666
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santa Bárbara",
+  "slug": true,
+  "poblacion": 44809,
+  "region": "Departamento de Huehuetenango",
+  "regionSlug": "departamento-de-huehuetenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_B%C3%A1rbara_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.3167,
+   "lon": -91.6167
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Tejutla",
+  "slug": false,
+  "poblacion": 44416,
+  "region": "Departamento de San Marcos",
+  "regionSlug": "departamento-de-san-marcos",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tejutla_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.1225,
+   "lon": -91.80527778
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Real (Villa Nueva)",
+  "slug": false,
+  "poblacion": 40000,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Real_(Villa_Nueva)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.5557,
+   "lon": -90.5571
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Las Cruces",
+  "slug": false,
+  "poblacion": 39188,
+  "region": "Departamento de Petén",
+  "regionSlug": "departamento-de-peten",
+  "wikipedia": "https://es.wikipedia.org/wiki/Las_Cruces_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 16.65833333,
+   "lon": -90.295
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Comapa",
+  "slug": true,
+  "poblacion": 37218,
+  "region": "Departamento de Jutiapa",
+  "regionSlug": "departamento-de-jutiapa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Comapa_(Jutiapa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.111388888,
+   "lon": -89.749722222
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Catarina",
+  "slug": false,
+  "poblacion": 35542,
+  "region": "Departamento de San Marcos",
+  "regionSlug": "departamento-de-san-marcos",
+  "wikipedia": "https://es.wikipedia.org/wiki/Catarina_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.85,
+   "lon": -92.0833
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "La Blanca",
+  "slug": false,
+  "poblacion": 34307,
+  "region": "Departamento de San Marcos",
+  "regionSlug": "departamento-de-san-marcos",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Blanca_(San_Marcos)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.579089,
+   "lon": -92.141419
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "El Palmar",
+  "slug": true,
+  "poblacion": 31706,
+  "region": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Palmar_(Quetzaltenango)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.65,
+   "lon": -91.5833
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Quezaltepeque",
+  "slug": true,
+  "poblacion": 30136,
+  "region": "Departamento de Chiquimula",
+  "regionSlug": "departamento-de-chiquimula",
+  "wikipedia": "https://es.wikipedia.org/wiki/Quezaltepeque_(Chiquimula)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.633333333,
+   "lon": -89.45
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Peronia, Villa Nueva, Guatemala",
+  "slug": false,
+  "poblacion": 30000,
+  "region": "Departamento de Guatemala",
+  "regionSlug": "departamento-de-guatemala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Peronia",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.5693,
+   "lon": -90.6043
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Oratorio",
+  "slug": false,
+  "poblacion": 27115,
+  "region": "Departamento de Santa Rosa",
+  "regionSlug": "departamento-de-santa-rosa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Oratorio_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.2281,
+   "lon": -90.1758
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Casillas",
+  "slug": false,
+  "poblacion": 26059,
+  "region": "Departamento de Santa Rosa",
+  "regionSlug": "departamento-de-santa-rosa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Casillas_(Santa_Rosa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.41714,
+   "lon": -90.244179
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Santa Apolonia",
+  "slug": false,
+  "poblacion": 23751,
+  "region": "Departamento de Chimaltenango",
+  "regionSlug": "departamento-de-chimaltenango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Apolonia_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.78333333,
+   "lon": -90.96666667
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "La Reforma",
+  "slug": false,
+  "poblacion": 23717,
+  "region": "Departamento de San Marcos",
+  "regionSlug": "departamento-de-san-marcos",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Reforma_(Guatemala)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.8,
+   "lon": -91.8167
+  }
+ },
+ {
+  "pais": "Guatemala",
+  "paisSlug": "guatemala",
+  "nombre": "Río Hondo",
+  "slug": false,
+  "poblacion": 23384,
+  "region": "Departamento de Zacapa",
+  "regionSlug": "departamento-de-zacapa",
+  "wikipedia": "https://es.wikipedia.org/wiki/R%C3%ADo_Hondo_(Zacapa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.04638889,
+   "lon": -89.58472222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "La Lima",
+  "slug": false,
+  "poblacion": 71910,
+  "region": "Departamento de Cortés",
+  "regionSlug": "departamento-de-cortes",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Lima_(Cort%C3%A9s)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.440241666,
+   "lon": -87.927794444
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Tela",
+  "slug": false,
+  "poblacion": 58523,
+  "region": "Departamento de Atlántida",
+  "regionSlug": "departamento-de-atlantida",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tela_(Atl%C3%A1ntida)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.78245,
+   "lon": -87.451405555
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "San Manuel",
+  "slug": false,
+  "poblacion": 53083,
+  "region": "Departamento de Cortés",
+  "regionSlug": "departamento-de-cortes",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Manuel_de_Cort%C3%A9s",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.331808333,
+   "lon": -87.919447222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Gracias",
+  "slug": false,
+  "poblacion": 47622,
+  "region": "Departamento de Lempira",
+  "regionSlug": "departamento-de-lempira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gracias_(Lempira)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.588880555,
+   "lon": -88.580547222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "El Paraíso",
+  "slug": true,
+  "poblacion": 44770,
+  "region": "Departamento de El Paraíso",
+  "regionSlug": "departamento-de-el-paraiso",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Para%C3%ADso_de_El_Para%C3%ADso",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.862377777,
+   "lon": -86.552316666
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "El Triunfo",
+  "slug": true,
+  "poblacion": 43670,
+  "region": "Departamento de Choluteca",
+  "regionSlug": "departamento-de-choluteca",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Triunfo_(Honduras)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.121413888,
+   "lon": -86.993177777
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Santa Bárbara",
+  "slug": true,
+  "poblacion": 41736,
+  "region": "Departamento de Santa Bárbara",
+  "regionSlug": "departamento-de-santa-barbara",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_B%C3%A1rbara_de_Santa_B%C3%A1rbara",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.921644444,
+   "lon": -88.236447222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Morazán",
+  "slug": false,
+  "poblacion": 40402,
+  "region": "Departamento de Yoro",
+  "regionSlug": "departamento-de-yoro",
+  "wikipedia": "https://es.wikipedia.org/wiki/Moraz%C3%A1n_(Yoro)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.324525,
+   "lon": -87.598925
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Cofradía",
+  "slug": false,
+  "poblacion": 38780,
+  "region": "Departamento de Cortés",
+  "regionSlug": "departamento-de-cortes",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.415297222,
+   "lon": -88.15715
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Jutiapa",
+  "slug": true,
+  "poblacion": 34224,
+  "region": "Departamento de Atlántida",
+  "regionSlug": "departamento-de-atlantida",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jutiapa_de_Atl%C3%A1ntida",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.744011111,
+   "lon": -86.513672222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Santa Rita",
+  "slug": true,
+  "poblacion": 29927,
+  "region": "Departamento de Copán",
+  "regionSlug": "departamento-de-copan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Rita_(Cop%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.867994444,
+   "lon": -89.094125
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "San Esteban",
+  "slug": false,
+  "poblacion": 25572,
+  "region": "Departamento de Olancho",
+  "regionSlug": "departamento-de-olancho",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Esteban_de_Olancho",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.213133333,
+   "lon": -85.771777777
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Cedros",
+  "slug": false,
+  "poblacion": 24305,
+  "region": "Departamento de Francisco Morazán",
+  "regionSlug": "departamento-de-francisco-morazan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cedros_de_Francisco_Moraz%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.595605555,
+   "lon": -87.118588888
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Arizona",
+  "slug": false,
+  "poblacion": 23714,
+  "region": "Departamento de Atlántida",
+  "regionSlug": "departamento-de-atlantida",
+  "wikipedia": "https://es.wikipedia.org/wiki/Arizona_(Atl%C3%A1ntida)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.683608333,
+   "lon": -87.332922222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Potrerillos",
+  "slug": false,
+  "poblacion": 23678,
+  "region": "Departamento de Cortés",
+  "regionSlug": "departamento-de-cortes",
+  "wikipedia": "https://es.wikipedia.org/wiki/Potrerillos_de_Cort%C3%A9s",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.230936111,
+   "lon": -87.964347222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "El Porvenir",
+  "slug": true,
+  "poblacion": 21854,
+  "region": "Departamento de Atlántida",
+  "regionSlug": "departamento-de-atlantida",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Porvenir_(Atl%C3%A1ntida)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.755630555,
+   "lon": -86.895519444
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "La Entrada",
+  "slug": false,
+  "poblacion": 21272,
+  "region": "Departamento de Copán",
+  "regionSlug": "departamento-de-copan",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Entrada_(ciudad)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.0648,
+   "lon": -88.746116666
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "San Jerónimo",
+  "slug": true,
+  "poblacion": 20979,
+  "region": "Departamento de Comayagua",
+  "regionSlug": "departamento-de-comayagua",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Jer%C3%B3nimo_del_Espino",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.626772222,
+   "lon": -87.607461111
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Santa Rita",
+  "slug": true,
+  "poblacion": 20301,
+  "region": "Departamento de Yoro",
+  "regionSlug": "departamento-de-yoro",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Rita_de_Yoro",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.200077777,
+   "lon": -87.884147222
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "Azacualpa",
+  "slug": false,
+  "poblacion": 20210,
+  "region": "Departamento de Santa Bárbara",
+  "regionSlug": "departamento-de-santa-barbara",
+  "wikipedia": "https://es.wikipedia.org/wiki/Azacualpa_(Santa_B%C3%A1rbara)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.344072222,
+   "lon": -88.551491666
+  }
+ },
+ {
+  "pais": "Honduras",
+  "paisSlug": "honduras",
+  "nombre": "El Porvenir",
+  "slug": true,
+  "poblacion": 20149,
+  "region": "Departamento de Francisco Morazán",
+  "regionSlug": "departamento-de-francisco-morazan",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Porvenir_de_Francisco_Moraz%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.756186111,
+   "lon": -87.190058333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Bahía de Banderas",
+  "slug": false,
+  "poblacion": 187632,
+  "region": "Nayarit",
+  "regionSlug": "nayarit",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Bah%C3%ADa_de_Banderas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.804166666,
+   "lon": -105.309166666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Cuauhtémoc",
+  "slug": true,
+  "poblacion": 180638,
+  "region": "Chihuahua",
+  "regionSlug": "chihuahua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cuauht%C3%A9moc_(Chihuahua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 28.405,
+   "lon": -106.866666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ixtlahuaca",
+  "slug": false,
+  "poblacion": 153184,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ixtlahuaca",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.583333333,
+   "lon": -99.766666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Villa Victoria",
+  "slug": false,
+  "poblacion": 104612,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Villa_Victoria",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.433333333,
+   "lon": -100
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Frontera",
+  "slug": true,
+  "poblacion": 75242,
+  "region": "Coahuila de Zaragoza",
+  "regionSlug": "coahuila-de-zaragoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Frontera_(Coahuila)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 26.926111111,
+   "lon": -101.449444444
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Pinos",
+  "slug": false,
+  "poblacion": 72241,
+  "region": "Zacatecas",
+  "regionSlug": "zacatecas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Pinos",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.29719093,
+   "lon": -101.574984492
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Guamúchil",
+  "slug": false,
+  "poblacion": 63743,
+  "region": "Sinaloa",
+  "regionSlug": "sinaloa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Guam%C3%BAchil_(Sinaloa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.4587,
+   "lon": -108.07732
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Pueblo Viejo",
+  "slug": false,
+  "poblacion": 57646,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Pueblo_Viejo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.183333333,
+   "lon": -97.933333333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tlatlauquitepec",
+  "slug": false,
+  "poblacion": 55576,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlatlauquitepec",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.851388888,
+   "lon": -97.496111111
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Loreto",
+  "slug": true,
+  "poblacion": 53709,
+  "region": "Zacatecas",
+  "regionSlug": "zacatecas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Loreto_(Zacatecas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.266666666,
+   "lon": -101.983333333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Pueblo Nuevo",
+  "slug": true,
+  "poblacion": 51269,
+  "region": "Durango",
+  "regionSlug": "durango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Pueblo_Nuevo_(Durango)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.42,
+   "lon": -105.29
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Calpulalpan",
+  "slug": false,
+  "poblacion": 51172,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Calpulalpan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.55,
+   "lon": -98.566666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Pedro Mixtepec Distrito 22",
+  "slug": false,
+  "poblacion": 48336,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Pedro_Mixtepec_-Distrito_22-",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.95,
+   "lon": -97.05
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Actopan",
+  "slug": true,
+  "poblacion": 43388,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Actopan_(Veracruz)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.503611111,
+   "lon": -96.619166666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Loma Bonita",
+  "slug": false,
+  "poblacion": 42884,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Loma_Bonita",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.97,
+   "lon": -95.87
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Blas",
+  "slug": false,
+  "poblacion": 41518,
+  "region": "Nayarit",
+  "regionSlug": "nayarit",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Blas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.53972223,
+   "lon": -105.2855556
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Matías Romero",
+  "slug": false,
+  "poblacion": 39828,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mat%C3%ADas_Romero_(Oaxaca)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 16.87984,
+   "lon": -95.03908
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Guerrero",
+  "slug": false,
+  "poblacion": 39064,
+  "region": "Chihuahua",
+  "regionSlug": "chihuahua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Guerrero_(Chihuahua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 28.45,
+   "lon": -107.566666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Juan Rodríguez Clara",
+  "slug": false,
+  "poblacion": 38895,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juan_Rodr%C3%ADguez_Clara",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18,
+   "lon": -95.4
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Manuel Doblado",
+  "slug": false,
+  "poblacion": 37145,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Manuel_Doblado",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.71,
+   "lon": -101.87
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ario",
+  "slug": false,
+  "poblacion": 36549,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ario",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.133333333,
+   "lon": -101.7
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "El Refugio, Baja California",
+  "slug": false,
+  "poblacion": 36400,
+  "region": "Baja California",
+  "regionSlug": "baja-california",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 32.45527778,
+   "lon": -116.83277778
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tangancícuaro",
+  "slug": false,
+  "poblacion": 35256,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tanganc%C3%ADcuaro",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.872222222,
+   "lon": -102.238333333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Juan Evangelista",
+  "slug": false,
+  "poblacion": 33929,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Juan_Evangelista",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.722405,
+   "lon": -95.174205
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Rosamorada",
+  "slug": false,
+  "poblacion": 33567,
+  "region": "Nayarit",
+  "regionSlug": "nayarit",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Rosamorada",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.123055555,
+   "lon": -105.254166666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Nopalucan",
+  "slug": false,
+  "poblacion": 30848,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Nopalucan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.21638889,
+   "lon": -97.82194444
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ixtepec",
+  "slug": false,
+  "poblacion": 28637,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Ixtepec",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 16.562777777,
+   "lon": -95.1
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Cuitláhuac",
+  "slug": false,
+  "poblacion": 27940,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cuitl%C3%A1huac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.79,
+   "lon": -96.626666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Quiroga",
+  "slug": false,
+  "poblacion": 27862,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Quiroga_(Michoac%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.663786111,
+   "lon": -101.524003611
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Peribán",
+  "slug": false,
+  "poblacion": 27832,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Perib%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.500000277,
+   "lon": -102.450000277
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jesús Carranza",
+  "slug": false,
+  "poblacion": 27080,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jes%C3%BAs_Carranza",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.38,
+   "lon": -94.9
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Villagrán",
+  "slug": false,
+  "poblacion": 27079,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villagr%C3%A1n_(Guanajuato)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.511111111,
+   "lon": -100.996388888
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "La Perla",
+  "slug": true,
+  "poblacion": 26880,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_La_Perla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.97,
+   "lon": -97.17
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ayahualulco",
+  "slug": false,
+  "poblacion": 26694,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ayahualulco",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.37,
+   "lon": -97.12
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ascensión",
+  "slug": true,
+  "poblacion": 24966,
+  "region": "Chihuahua",
+  "regionSlug": "chihuahua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ascensi%C3%B3n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 31.25,
+   "lon": -107.466666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Aquila",
+  "slug": false,
+  "poblacion": 24864,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Aquila_(Michoac%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.37585,
+   "lon": -103.2231
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Comonfort",
+  "slug": false,
+  "poblacion": 24228,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Comonfort_(Guanajuato)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.719,
+   "lon": -100.7605
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Atoyac",
+  "slug": false,
+  "poblacion": 23896,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atoyac_(Veracruz)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.916666666,
+   "lon": -96.778194444
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Manlio Fabio Altamirano",
+  "slug": false,
+  "poblacion": 23408,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Manlio_Fabio_Altamirano_(Veracruz)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.094166666,
+   "lon": -96.333611111
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Rafael Delgado",
+  "slug": false,
+  "poblacion": 23112,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Rafael_Delgado",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.794166666,
+   "lon": -97.091666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ocampo",
+  "slug": false,
+  "poblacion": 22683,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ocampo_(Guanajuato)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.6475,
+   "lon": -101.479722222
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Arteaga",
+  "slug": true,
+  "poblacion": 22544,
+  "region": "Coahuila de Zaragoza",
+  "regionSlug": "coahuila-de-zaragoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Arteaga_(Coahuila)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.35,
+   "lon": -100.6
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Puente Nacional",
+  "slug": false,
+  "poblacion": 22454,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Puente_Nacional_(Veracruz)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.33018,
+   "lon": -96.48369
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Arteaga",
+  "slug": true,
+  "poblacion": 22138,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Arteaga_(Michoac%C3%A1n)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.35,
+   "lon": -102.283333333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Charo",
+  "slug": false,
+  "poblacion": 21784,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Charo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.65,
+   "lon": -100.983333333
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Chiautla",
+  "slug": true,
+  "poblacion": 21699,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chiautla_(Puebla)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.299166666,
+   "lon": -98.602777777
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Romita",
+  "slug": false,
+  "poblacion": 21176,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Romita_(Guanajuato)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.870277777,
+   "lon": -101.516666666
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "General Felipe Ángeles",
+  "slug": false,
+  "poblacion": 20511,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_General_Felipe_%C3%81ngeles",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.02,
+   "lon": -97.66
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Coxcatlán",
+  "slug": false,
+  "poblacion": 20459,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Coxcatl%C3%A1n_(Puebla)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.236666666,
+   "lon": -97.133888888
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Chiautzingo",
+  "slug": false,
+  "poblacion": 20441,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chiautzingo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1982,
+   "lon": -98.5149
+  }
+ },
+ {
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "El Llano",
+  "slug": false,
+  "poblacion": 20245,
+  "region": "Aguascalientes",
+  "regionSlug": "aguascalientes",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_El_Llano",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.92,
+   "lon": -102.008333333
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Jalapa",
+  "slug": true,
+  "poblacion": 54491,
+  "region": "Departamento de Nueva Segovia",
+  "regionSlug": "departamento-de-nueva-segovia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jalapa_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.921997222,
+   "lon": -86.125347222
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Darío",
+  "slug": false,
+  "poblacion": 41014,
+  "region": "Departamento de Matagalpa",
+  "regionSlug": "departamento-de-matagalpa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Dar%C3%ADo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.731922222,
+   "lon": -86.124391666
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "La Concepción",
+  "slug": false,
+  "poblacion": 31950,
+  "region": "Departamento de Masaya",
+  "regionSlug": "departamento-de-masaya",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Concepci%C3%B3n_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.9373,
+   "lon": -86.190188888
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "El Sauce",
+  "slug": false,
+  "poblacion": 27900,
+  "region": "Departamento de León",
+  "regionSlug": "departamento-de-leon",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Sauce_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.885944444,
+   "lon": -86.538972222
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "El Jícaro",
+  "slug": false,
+  "poblacion": 25901,
+  "region": "Departamento de Nueva Segovia",
+  "regionSlug": "departamento-de-nueva-segovia",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_J%C3%ADcaro_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.722044444,
+   "lon": -86.136877777
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Rosita",
+  "slug": false,
+  "poblacion": 22723,
+  "region": "Región Autónoma de la Costa Caribe Norte",
+  "regionSlug": "region-autonoma-de-la-costa-caribe-norte",
+  "wikipedia": "https://es.wikipedia.org/wiki/Rosita_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.923636111,
+   "lon": -84.399619444
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Tola",
+  "slug": false,
+  "poblacion": 22012,
+  "region": "Departamento de Rivas",
+  "regionSlug": "departamento-de-rivas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tola_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.439025,
+   "lon": -85.938602777
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "Pueblo Nuevo",
+  "slug": true,
+  "poblacion": 20620,
+  "region": "Departamento de Estelí",
+  "regionSlug": "departamento-de-esteli",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pueblo_Nuevo_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 13.380177777,
+   "lon": -86.481294444
+  }
+ },
+ {
+  "pais": "Nicaragua",
+  "paisSlug": "nicaragua",
+  "nombre": "La Trinidad",
+  "slug": true,
+  "poblacion": 20140,
+  "region": "Departamento de Estelí",
+  "regionSlug": "departamento-de-esteli",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Trinidad_(Nicaragua)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 12.967725,
+   "lon": -86.234625
+  }
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Las Cumbres",
+  "slug": false,
+  "poblacion": 127440,
+  "region": "Provincia de Panamá",
+  "regionSlug": "provincia-de-panama",
+  "wikipedia": "https://es.wikipedia.org/wiki/Las_Cumbres_(Panam%C3%A1)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.08,
+   "lon": -79.53
+  }
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Pacora",
+  "slug": false,
+  "poblacion": 52494,
+  "region": "Provincia de Panamá",
+  "regionSlug": "provincia-de-panama",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pacora_(Panam%C3%A1)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.08,
+   "lon": -79.28
+  }
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Aguadulce",
+  "slug": false,
+  "poblacion": 49005,
+  "region": "Provincia de Coclé",
+  "regionSlug": "provincia-de-cocle",
+  "wikipedia": "https://es.wikipedia.org/wiki/Aguadulce_(Panam%C3%A1)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.24,
+   "lon": -80.54
+  }
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Boquete",
+  "slug": false,
+  "poblacion": 23562,
+  "region": "Provincia de Chiriquí",
+  "regionSlug": "provincia-de-chiriqui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Boquete",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.75,
+   "lon": -82.4
+  }
+ },
+ {
+  "pais": "Panamá",
+  "paisSlug": "panama",
+  "nombre": "Tierras Altas",
+  "slug": false,
+  "poblacion": 23525,
+  "region": "Provincia de Chiriquí",
+  "regionSlug": "provincia-de-chiriqui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Tierras_Altas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.772,
+   "lon": -82.639
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Limpio",
+  "slug": false,
+  "poblacion": 139652,
+  "region": "Departamento Central",
+  "regionSlug": "departamento-central",
+  "wikipedia": "https://es.wikipedia.org/wiki/Limpio_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.168333333,
+   "lon": -57.494166666
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Hernandarias",
+  "slug": false,
+  "poblacion": 79036,
+  "region": "Departamento de Alto Paraná",
+  "regionSlug": "departamento-de-alto-parana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Hernandarias_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.405064,
+   "lon": -54.641112
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Horqueta",
+  "slug": false,
+  "poblacion": 60690,
+  "region": "Departamento de Concepción",
+  "regionSlug": "departamento-de-concepcion",
+  "wikipedia": "https://es.wikipedia.org/wiki/Horqueta_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -23.344166666,
+   "lon": -57.043611111
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "San Estanislao",
+  "slug": true,
+  "poblacion": 55150,
+  "region": "Departamento de San Pedro",
+  "regionSlug": "departamento-de-san-pedro",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Estanislao_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -24.65,
+   "lon": -56.433333333
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Saltos del Guairá",
+  "slug": false,
+  "poblacion": 37600,
+  "region": "Departamento de Canindeyú",
+  "regionSlug": "departamento-de-canindeyu",
+  "wikipedia": "https://es.wikipedia.org/wiki/Saltos_del_Guair%C3%A1_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -24.063888888,
+   "lon": -54.308888888
+  }
+ },
+ {
+  "pais": "Paraguay",
+  "paisSlug": "paraguay",
+  "nombre": "Yaguarón",
+  "slug": false,
+  "poblacion": 32000,
+  "region": "Departamento de Paraguarí",
+  "regionSlug": "departamento-de-paraguari",
+  "wikipedia": "https://es.wikipedia.org/wiki/Yaguar%C3%B3n_(Paraguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -25.5620692,
+   "lon": -57.284015
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "El Porvenir",
+  "slug": true,
+  "poblacion": 190461,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_El_Porvenir",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.07392,
+   "lon": -78.99292
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Rioja",
+  "slug": false,
+  "poblacion": 75080,
+  "region": "Departamento de San Martín",
+  "regionSlug": "departamento-de-san-martin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Rioja_(Per%C3%BA)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -6.05,
+   "lon": -77.14166667
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Barranca",
+  "slug": true,
+  "poblacion": 58749,
+  "region": "Departamento de Lima",
+  "regionSlug": "departamento-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Barranca_(Per%C3%BA)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -10.753888888,
+   "lon": -77.760994444
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "San Jerónimo",
+  "slug": true,
+  "poblacion": 57075,
+  "region": "Departamento de Cusco",
+  "regionSlug": "departamento-de-cusco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Jer%C3%B3nimo_(Cusco)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.5520509,
+   "lon": -71.8813133
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Rupa-Rupa",
+  "slug": false,
+  "poblacion": 53066,
+  "region": "Departamento de Huánuco",
+  "regionSlug": "departamento-de-huanuco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Rupa-Rupa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -9.2959516,
+   "lon": -75.9991264
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Olmos",
+  "slug": false,
+  "poblacion": 46484,
+  "region": "Departamento de Lambayeque",
+  "regionSlug": "departamento-de-lambayeque",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Olmos",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -5.98825,
+   "lon": -79.74711
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Pimentel",
+  "slug": true,
+  "poblacion": 44602,
+  "region": "Departamento de Lambayeque",
+  "regionSlug": "departamento-de-lambayeque",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pimentel",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -6.83591,
+   "lon": -79.9356
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Moche",
+  "slug": false,
+  "poblacion": 37436,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Moche",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.1715,
+   "lon": -79.00889
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "La Tinguiña",
+  "slug": false,
+  "poblacion": 36052,
+  "region": "Departamento de Ica",
+  "regionSlug": "departamento-de-ica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Tingui%C3%B1a",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.039078,
+   "lon": -75.712082
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Cayhuayna",
+  "slug": false,
+  "poblacion": 35682,
+  "region": "Departamento de Huánuco",
+  "regionSlug": "departamento-de-huanuco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pillco_Marca",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -9.960514,
+   "lon": -76.249034
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Yura",
+  "slug": false,
+  "poblacion": 33346,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Yura",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.251111111,
+   "lon": -71.681111111
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Chao",
+  "slug": false,
+  "poblacion": 32842,
+  "region": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Chao",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -8.5405,
+   "lon": -78.67825
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "La Joya",
+  "slug": false,
+  "poblacion": 32019,
+  "region": "Departamento de Arequipa",
+  "regionSlug": "departamento-de-arequipa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Joya",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -16.726111111,
+   "lon": -71.861111111
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Parcona",
+  "slug": false,
+  "poblacion": 31140,
+  "region": "Departamento de Ica",
+  "regionSlug": "departamento-de-ica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Parcona",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.046792,
+   "lon": -75.69852
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Morales",
+  "slug": true,
+  "poblacion": 30708,
+  "region": "Departamento de San Martín",
+  "regionSlug": "departamento-de-san-martin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Morales",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -6.47861,
+   "lon": -76.38323
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Río Negro",
+  "slug": false,
+  "poblacion": 30651,
+  "region": "Departamento de Junín",
+  "regionSlug": "departamento-de-junin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_R%C3%ADo_Negro",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.2090709,
+   "lon": -74.6636439
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Padre Abad",
+  "slug": false,
+  "poblacion": 29440,
+  "region": "Departamento de Ucayali",
+  "regionSlug": "departamento-de-ucayali",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Padre_Abad",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -9.037,
+   "lon": -75.508
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Imperial",
+  "slug": false,
+  "poblacion": 27732,
+  "region": "Departamento de Lima",
+  "regionSlug": "departamento-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Imperial_(Ca%C3%B1ete)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.061015,
+   "lon": -76.352922
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Las Lomas",
+  "slug": false,
+  "poblacion": 26947,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Las_Lomas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -4.65788,
+   "lon": -80.24296
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Río Tambo",
+  "slug": false,
+  "poblacion": 26036,
+  "region": "Departamento de Junín",
+  "regionSlug": "departamento-de-junin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_R%C3%ADo_Tambo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.1432869,
+   "lon": -74.3134976
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Ayaviri",
+  "slug": false,
+  "poblacion": 25057,
+  "region": "Departamento de Puno",
+  "regionSlug": "departamento-de-puno",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ayaviri_(Melgar)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.88182222,
+   "lon": -70.59006111
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Bagua",
+  "slug": false,
+  "poblacion": 24224,
+  "region": "Departamento de Amazonas",
+  "regionSlug": "departamento-de-amazonas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Bagua_(ciudad)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -5.633333333,
+   "lon": -78.533333333
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Cachachi",
+  "slug": false,
+  "poblacion": 23524,
+  "region": "Departamento de Cajamarca",
+  "regionSlug": "departamento-de-cajamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Cachachi",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -7.45167,
+   "lon": -78.269103
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Sayán",
+  "slug": false,
+  "poblacion": 23408,
+  "region": "Departamento de Lima",
+  "regionSlug": "departamento-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Say%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -11.134832,
+   "lon": -77.1921799
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Cajaruro",
+  "slug": false,
+  "poblacion": 23089,
+  "region": "Departamento de Amazonas",
+  "regionSlug": "departamento-de-amazonas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Cajaruro",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -5.736111111,
+   "lon": -78.426111111
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Lircay",
+  "slug": false,
+  "poblacion": 22991,
+  "region": "Departamento de Huancavelica",
+  "regionSlug": "departamento-de-huancavelica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Lircay",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.9895611,
+   "lon": -74.720505
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Cajabamba",
+  "slug": false,
+  "poblacion": 22830,
+  "region": "Departamento de Cajamarca",
+  "regionSlug": "departamento-de-cajamarca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cajabamba_(Per%C3%BA)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -7.62372222,
+   "lon": -78.04603056
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Mala",
+  "slug": false,
+  "poblacion": 22325,
+  "region": "Departamento de Lima",
+  "regionSlug": "departamento-de-lima",
+  "wikipedia": "https://es.wikipedia.org/wiki/Mala_(Per%C3%BA)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.657742,
+   "lon": -76.632273
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Villa Rica",
+  "slug": false,
+  "poblacion": 22274,
+  "region": "Departamento de Pasco",
+  "regionSlug": "departamento-de-pasco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Villa_Rica",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -10.73506,
+   "lon": -75.268
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Los Aquijes",
+  "slug": false,
+  "poblacion": 21963,
+  "region": "Departamento de Ica",
+  "regionSlug": "departamento-de-ica",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Los_Aquijes",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -14.0963171,
+   "lon": -75.6914243
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Anta",
+  "slug": false,
+  "poblacion": 21674,
+  "region": "Departamento de Cusco",
+  "regionSlug": "departamento-de-cusco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Anta_(Anta)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.471642,
+   "lon": -72.1487617
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Ambo",
+  "slug": false,
+  "poblacion": 20886,
+  "region": "Departamento de Huánuco",
+  "regionSlug": "departamento-de-huanuco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Ambo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -10.133333,
+   "lon": -76.2
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "San Jerónimo",
+  "slug": true,
+  "poblacion": 20738,
+  "region": "Departamento de Apurímac",
+  "regionSlug": "departamento-de-apurimac",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Jer%C3%B3nimo_(Andahuaylas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -13.65111111,
+   "lon": -73.365
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Ignacio Escudero",
+  "slug": false,
+  "poblacion": 20423,
+  "region": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Ignacio_Escudero",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -4.84588,
+   "lon": -80.87159
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Yungay",
+  "slug": false,
+  "poblacion": 20070,
+  "region": "Departamento de Áncash",
+  "regionSlug": "departamento-de-ancash",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Yungay",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -9.139272222,
+   "lon": -77.745522222
+  }
+ },
+ {
+  "pais": "Perú",
+  "paisSlug": "peru",
+  "nombre": "Pilcomayo",
+  "slug": false,
+  "poblacion": 20055,
+  "region": "Departamento de Junín",
+  "regionSlug": "departamento-de-junin",
+  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pilcomayo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -12.047222222,
+   "lon": -75.249444444
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Santurce",
+  "slug": true,
+  "poblacion": 94067,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Santurce_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.440833333,
+   "lon": -66.047222222
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Isabela",
+  "slug": false,
+  "poblacion": 42943,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Isabela_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.513055555,
+   "lon": -67.07
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Cidra",
+  "slug": false,
+  "poblacion": 39970,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Cidra_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.175833333,
+   "lon": -66.161388888
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Vega Alta",
+  "slug": false,
+  "poblacion": 35395,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Vega_Alta_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.411944444,
+   "lon": -66.331388888
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Naranjito",
+  "slug": true,
+  "poblacion": 29241,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Naranjito_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.300555555,
+   "lon": -66.245
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Salinas",
+  "slug": true,
+  "poblacion": 25789,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Salinas_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.017222222,
+   "lon": -66.253611111
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Mansión del Mar",
+  "slug": false,
+  "poblacion": 25591,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.445822,
+   "lon": -66.178862
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Sabana Grande",
+  "slug": false,
+  "poblacion": 22729,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Sabana_Grande_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.079722222,
+   "lon": -66.960833333
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Barceloneta",
+  "slug": true,
+  "poblacion": 22657,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Barceloneta_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.450555555,
+   "lon": -66.538611111
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Villalba",
+  "slug": false,
+  "poblacion": 22093,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Villalba_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "Villalbeños",
+  "coords": {
+   "lat": 18.126944444,
+   "lon": -66.491944444
+  }
+ },
+ {
+  "pais": "Puerto Rico",
+  "paisSlug": "puerto-rico",
+  "nombre": "Santa Isabel",
+  "slug": true,
+  "poblacion": 20281,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Isabel_(Puerto_Rico)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.966111111,
+   "lon": -66.405
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Villa Hermosa",
+  "slug": false,
+  "poblacion": 89204,
+  "region": "La Romana",
+  "regionSlug": "la-romana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Hermosa_(La_Romana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.58,
+   "lon": -68.98
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Tamboril",
+  "slug": false,
+  "poblacion": 51695,
+  "region": "Provincia de Santiago (República Dominicana)",
+  "regionSlug": "provincia-de-santiago-republica-dominicana",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tamboril_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.48,
+   "lon": -70.6
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Salcedo",
+  "slug": false,
+  "poblacion": 39557,
+  "region": "Hermanas Mirabal",
+  "regionSlug": "hermanas-mirabal",
+  "wikipedia": "https://es.wikipedia.org/wiki/Salcedo_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.42,
+   "lon": -70.39
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "La Mata",
+  "slug": false,
+  "poblacion": 38962,
+  "region": "Sánchez Ramírez",
+  "regionSlug": "sanchez-ramirez",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Mata_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1,
+   "lon": -70.16805556
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Consuelo",
+  "slug": false,
+  "poblacion": 30051,
+  "region": "San Pedro de Macorís",
+  "regionSlug": "san-pedro-de-macoris",
+  "wikipedia": "https://es.wikipedia.org/wiki/Consuelo_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.56,
+   "lon": -69.3
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Tamayo",
+  "slug": false,
+  "poblacion": 26772,
+  "region": "Bahoruco",
+  "regionSlug": "bahoruco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tamayo_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.4,
+   "lon": -71.2
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Comendador",
+  "slug": false,
+  "poblacion": 25924,
+  "region": "Elías Piña",
+  "regionSlug": "elias-pina",
+  "wikipedia": "https://es.wikipedia.org/wiki/Comendador_(municipio)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.8775,
+   "lon": -71.702777777
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Cabrera",
+  "slug": false,
+  "poblacion": 25524,
+  "region": "María Trinidad Sánchez",
+  "regionSlug": "maria-trinidad-sanchez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cabrera_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.63,
+   "lon": -69.9
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Monte Cristi",
+  "slug": false,
+  "poblacion": 24674,
+  "region": "Provincia de Monte Cristi",
+  "regionSlug": "provincia-de-monte-cristi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Monte_Cristi_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -71.65
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Sánchez",
+  "slug": false,
+  "poblacion": 24509,
+  "region": "Samaná",
+  "regionSlug": "samana",
+  "wikipedia": "https://es.wikipedia.org/wiki/S%C3%A1nchez_(municipio)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.22893,
+   "lon": -69.611923
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Pedernales",
+  "slug": true,
+  "poblacion": 24291,
+  "region": "Pedernales",
+  "regionSlug": "pedernales",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pedernales_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.03333333,
+   "lon": -71.75
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Fantino",
+  "slug": false,
+  "poblacion": 23780,
+  "region": "Sánchez Ramírez",
+  "regionSlug": "sanchez-ramirez",
+  "wikipedia": "https://es.wikipedia.org/wiki/Fantino_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.12,
+   "lon": -70.3
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Imbert",
+  "slug": false,
+  "poblacion": 22058,
+  "region": "Puerto Plata",
+  "regionSlug": "puerto-plata",
+  "wikipedia": "https://es.wikipedia.org/wiki/Imbert_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.75,
+   "lon": -70.83
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "San Víctor",
+  "slug": false,
+  "poblacion": 21009,
+  "region": "Espaillat",
+  "regionSlug": "espaillat",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_V%C3%ADctor_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.45,
+   "lon": -70.53
+  }
+ },
+ {
+  "pais": "República Dominicana",
+  "paisSlug": "republica-dominicana",
+  "nombre": "Piedra Blanca",
+  "slug": false,
+  "poblacion": 20934,
+  "region": "Monseñor Nouel",
+  "regionSlug": "monsenor-nouel",
+  "wikipedia": "https://es.wikipedia.org/wiki/Piedra_Blanca_(Rep%C3%BAblica_Dominicana)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.83,
+   "lon": -70.3
+  }
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "Artigas",
+  "slug": false,
+  "poblacion": 43843,
+  "region": "Departamento de Artigas",
+  "regionSlug": "departamento-de-artigas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Artigas_(ciudad)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "artiguense",
+  "coords": {
+   "lat": -30.398441666,
+   "lon": -56.463808333
+  }
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "Durazno",
+  "slug": false,
+  "poblacion": 40279,
+  "region": "Departamento de Durazno",
+  "regionSlug": "departamento-de-durazno",
+  "wikipedia": "https://es.wikipedia.org/wiki/Durazno_(Uruguay)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "duraznense",
+  "coords": {
+   "lat": -33.38015,
+   "lon": -56.5225
+  }
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "El Pinar",
+  "slug": false,
+  "poblacion": 27190,
+  "region": "Departamento de Canelones",
+  "regionSlug": "departamento-de-canelones",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Pinar_(Canelones)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": "pinarense",
+  "coords": {
+   "lat": -34.795936,
+   "lon": -55.904497
+  }
+ },
+ {
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "18 de Mayo",
+  "slug": false,
+  "poblacion": 22592,
+  "region": "Departamento de Canelones",
+  "regionSlug": "departamento-de-canelones",
+  "wikipedia": "https://es.wikipedia.org/wiki/18_de_Mayo_(ciudad)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -34.698611111,
+   "lon": -56.215277777
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Torres",
+  "slug": false,
+  "poblacion": 185275,
+  "region": "Lara",
+  "regionSlug": "lara",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Torres_(Lara)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.15,
+   "lon": -70.190277777
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Calabozo",
+  "slug": false,
+  "poblacion": 168605,
+  "region": "Guárico",
+  "regionSlug": "guarico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Calabozo_(Venezuela)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.921944444,
+   "lon": -67.428333333
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Altos de Los Godos",
+  "slug": false,
+  "poblacion": 139257,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.7065192,
+   "lon": -63.1949045
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Ojeda",
+  "slug": false,
+  "poblacion": 122124,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Ojeda",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.2,
+   "lon": -71.3
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Lossada",
+  "slug": false,
+  "poblacion": 118756,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Jes%C3%BAs_Enrique_Lossada",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.644444444,
+   "lon": -72.128055555
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Las Cocuizas",
+  "slug": false,
+  "poblacion": 110976,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.7386664,
+   "lon": -63.134308
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Ejido",
+  "slug": false,
+  "poblacion": 107056,
+  "region": "Mérida",
+  "regionSlug": "merida",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ejido_(Venezuela)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.54665,
+   "lon": -71.24087
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "El Limón",
+  "slug": false,
+  "poblacion": 106206,
+  "region": "Aragua",
+  "regionSlug": "aragua",
+  "wikipedia": "https://es.wikipedia.org/wiki/El_Lim%C3%B3n_(Venezuela)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.30589,
+   "lon": -67.63212
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Chirica",
+  "slug": false,
+  "poblacion": 96368,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.3162936,
+   "lon": -62.6201579
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Vista Al Sol",
+  "slug": false,
+  "poblacion": 88364,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.3353032,
+   "lon": -62.6066657
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "11 de Abril",
+  "slug": false,
+  "poblacion": 85317,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.395993,
+   "lon": -62.6260057
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "La Pastora",
+  "slug": false,
+  "poblacion": 80397,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Parroquia_La_Pastora_(Caracas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.512583,
+   "lon": -66.920209
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Agua Salada",
+  "slug": false,
+  "poblacion": 79847,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.1132065,
+   "lon": -63.6211154
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "23 de Enero",
+  "slug": false,
+  "poblacion": 77344,
+  "region": null,
+  "regionSlug": null,
+  "wikipedia": "https://es.wikipedia.org/wiki/Parroquia_23_de_Enero_(Caracas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.5076023,
+   "lon": -66.9312039
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Guanipa",
+  "slug": false,
+  "poblacion": 76398,
+  "region": "Anzoátegui",
+  "regionSlug": "anzoategui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Guanipa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.760277777,
+   "lon": -63.901388888
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "La Cruz",
+  "slug": true,
+  "poblacion": 75687,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.7112569,
+   "lon": -63.2637407
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "La Sabanita",
+  "slug": false,
+  "poblacion": 74800,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.094298,
+   "lon": -63.551829
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Boquerón",
+  "slug": false,
+  "poblacion": 73800,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.8068422,
+   "lon": -63.2149891
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "La Guajira",
+  "slug": false,
+  "poblacion": 65545,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Guajira",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.352222222,
+   "lon": -72.037222222
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "San Joaquín",
+  "slug": true,
+  "poblacion": 64124,
+  "region": "Carabobo",
+  "regionSlug": "carabobo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_San_Joaqu%C3%ADn_(Carabobo)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.278055555,
+   "lon": -67.793888888
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Pedraza",
+  "slug": false,
+  "poblacion": 58822,
+  "region": "Estado Barinas",
+  "regionSlug": "estado-barinas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Pedraza_(Venezuela)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.057777777,
+   "lon": -70.322222222
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Vista Hermosa",
+  "slug": true,
+  "poblacion": 56668,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.0943787,
+   "lon": -63.5325234
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Torbes",
+  "slug": false,
+  "poblacion": 49577,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Torbes_(T%C3%A1chira)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.652777777,
+   "lon": -72.164444444
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Santa Rita",
+  "slug": true,
+  "poblacion": 49194,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Rita_(Zulia)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.536666666,
+   "lon": -71.510833333
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Piar",
+  "slug": false,
+  "poblacion": 46610,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Piar_(Monagas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.949166666,
+   "lon": -63.425555555
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Fernández Feo",
+  "slug": false,
+  "poblacion": 45891,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Fern%C3%A1ndez_Feo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.518055555,
+   "lon": -71.965555555
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Universidad",
+  "slug": false,
+  "poblacion": 44117,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.2807723,
+   "lon": -62.713594
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Guásimos",
+  "slug": false,
+  "poblacion": 43236,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Gu%C3%A1simos",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.846666666,
+   "lon": -72.232222222
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "San Juan Bautista",
+  "slug": true,
+  "poblacion": 43117,
+  "region": "Nueva Esparta",
+  "regionSlug": "nueva-esparta",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Juan_Bautista_(Venezuela)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 11.0142,
+   "lon": -63.9451
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Cachamay",
+  "slug": false,
+  "poblacion": 42354,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.3240331,
+   "lon": -62.7247225
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Angostura",
+  "slug": false,
+  "poblacion": 40927,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Angostura",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 5.800277777,
+   "lon": -63.148611111
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Catatumbo",
+  "slug": false,
+  "poblacion": 40702,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Catatumbo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.961111111,
+   "lon": -72.224166666
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Caicara",
+  "slug": true,
+  "poblacion": 39054,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 6.7931454,
+   "lon": -66.2073281
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Marhuanta",
+  "slug": false,
+  "poblacion": 36646,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.9990768,
+   "lon": -63.3952051
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Javier Pulgar",
+  "slug": false,
+  "poblacion": 33942,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Francisco_Javier_Pulgar",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.919722222,
+   "lon": -71.539444444
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Temblador",
+  "slug": false,
+  "poblacion": 33430,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.9766457,
+   "lon": -62.6969154
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Silva",
+  "slug": false,
+  "poblacion": 32193,
+  "region": "Falcón",
+  "regionSlug": "falcon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Jos%C3%A9_Laurencio_Silva",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.7075,
+   "lon": -68.380277777
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Guanta",
+  "slug": false,
+  "poblacion": 30891,
+  "region": "Anzoátegui",
+  "regionSlug": "anzoategui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Guanta",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.215277777,
+   "lon": -64.554166666
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Semprún",
+  "slug": false,
+  "poblacion": 30484,
+  "region": "Zulia",
+  "regionSlug": "zulia",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Jes%C3%BAs_Mar%C3%ADa_Sempr%C3%BAm",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.062777777,
+   "lon": -72.560555555
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Amana",
+  "slug": false,
+  "poblacion": 28157,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.4043566,
+   "lon": -62.9145827
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Píritu",
+  "slug": false,
+  "poblacion": 27357,
+  "region": "Anzoátegui",
+  "regionSlug": "anzoategui",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_P%C3%ADritu_(Anzo%C3%A1tegui)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 10.03889,
+   "lon": -65.02972
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Antonio Díaz",
+  "slug": false,
+  "poblacion": 26655,
+  "region": "Delta Amacuro",
+  "regionSlug": "delta-amacuro",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Antonio_D%C3%ADaz_(Delta_Amacuro)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.6425,
+   "lon": -60.7875
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Juan Germán Roscio",
+  "slug": false,
+  "poblacion": 25540,
+  "region": "Aragua",
+  "regionSlug": "aragua",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_San_Casimiro",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.996291,
+   "lon": -67.013923
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Sotillo",
+  "slug": false,
+  "poblacion": 24238,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Sotillo_(Monagas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.6375,
+   "lon": -62.391388888
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Sosa",
+  "slug": false,
+  "poblacion": 24142,
+  "region": "Estado Barinas",
+  "regionSlug": "estado-barinas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Sosa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.157222222,
+   "lon": -69.095833333
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Pozo Verde",
+  "slug": false,
+  "poblacion": 23471,
+  "region": "Bolívar",
+  "regionSlug": "bolivar",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.1604033,
+   "lon": -62.757211
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Libertador",
+  "slug": true,
+  "poblacion": 22464,
+  "region": "Táchira",
+  "regionSlug": "tachira",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_Libertador_(T%C3%A1chira)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 7.645555555,
+   "lon": -71.643888888
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Agua Blanca",
+  "slug": true,
+  "poblacion": 21506,
+  "region": "Portuguesa",
+  "regionSlug": "portuguesa",
+  "wikipedia": "https://es.wikipedia.org/wiki/Agua_Blanca_(Portuguesa)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.67777778,
+   "lon": -69.10722222
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Caicara",
+  "slug": true,
+  "poblacion": 20257,
+  "region": "Monagas",
+  "regionSlug": "monagas",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 9.7946633,
+   "lon": -63.5610587
+  }
+ },
+ {
+  "pais": "Venezuela",
+  "paisSlug": "venezuela",
+  "nombre": "Guayabal",
+  "slug": false,
+  "poblacion": 20206,
+  "region": "Guárico",
+  "regionSlug": "guarico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_San_Jer%C3%B3nimo_de_Guayabal",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 8.011666666,
+   "lon": -67.121111111
+  }
+ }
+]
