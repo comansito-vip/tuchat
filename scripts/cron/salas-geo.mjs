@@ -148,6 +148,7 @@ Devuelve SOLO este JSON, sin texto alrededor:
 {
   "intro": "entre 110 y 160 caracteres. Es la meta description de la página, así que tiene que ser única y llevar un dato concreto de ${loc.nombre}. Menciona que es la sala de chat de ${loc.nombre}.",
   "about": "150-260 palabras de prosa corrida (puedes usar dos párrafos separados por una línea en blanco). Primero el sitio: qué es, dónde está, qué tiene de propio según el material. Después, de qué se habla en su sala y quién entra. Sin markdown.",
+  "aboutTitle": "el H2 de la ficha: entre 25 y 70 caracteres, con algo propio de ${loc.nombre} dentro (un río, un puerto, una fiesta, una industria, lo que dé el material). NO vale 'Sobre el chat de ${loc.nombre}' ni 'Acerca de ${loc.nombre}': ese encabezado repetido en miles de páginas es lo que delata a un directorio generado. Tampoco nombres de alcaldes, intendentes ni cargos: caducan en las siguientes elecciones y el título se queda viejo.",
   "dato_ancla": "la frase exacta del material de origen en la que te has apoyado para el dato concreto"
 }`;
 
@@ -325,6 +326,9 @@ function construirRegistro(loc, ficha, canalesParaCiudad) {
     channels: canalesDe(loc, canalesParaCiudad),
     related: loc.related,
     intro: ficha.intro.trim(),
+    // Sin título propio la página cae en el H2 genérico de la plantilla, que es
+    // legítimo para las salas antiguas pero no para las que se escriben ahora.
+    ...(ficha.aboutTitle ? { aboutTitle: ficha.aboutTitle.trim() } : {}),
     about: ficha.about.trim(),
   };
 }

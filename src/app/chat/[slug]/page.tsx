@@ -132,8 +132,14 @@ export default async function ChatRoomPage({
             input+botón de NickInput en el aside) puede ensanchar toda la
             columna más allá del viewport en móvil. */}
         <div className="min-w-0">
-          {/* Block 1: Sobre el chat */}
-          <SEOTextBlock title={`Sobre el chat de ${place.name}`}>
+          {/* Block 1: Sobre el chat.
+              El H2 sale del propio contenido cuando la sala trae `aboutTitle`
+              ("El puerto, la sal y las conversaciones de agosto"). El genérico
+              "Sobre el chat de X" repetido en 4.900 páginas es la definición de
+              plantilla con hueco, que es lo que Google lee como página puerta;
+              se conserva solo para las salas antiguas, que no tienen título
+              propio todavía. */}
+          <SEOTextBlock title={place.aboutTitle ?? `Sobre el chat de ${place.name}`}>
             {/* El texto puede venir en varios párrafos separados por una línea
                 en blanco (las salas que redacta el cron los usan). En un solo
                 <p> el salto se colapsa y quedaba un muro de 250 palabras. */}

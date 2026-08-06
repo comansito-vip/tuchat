@@ -192,6 +192,24 @@ export function revisarFicha(ficha) {
   if (/^\s*#{1,6}\s/m.test(about)) problemas.push("el about lleva encabezados markdown (se imprimirían literales)");
   if (cifrasMalFormateadas(about)) problemas.push("cifra de 5+ dígitos sin separador de miles");
 
+  // El H2 propio es opcional en las salas viejas, pero si viene tiene que ser
+  // específico: un "Sobre el chat de X" cumple la medida y no aporta nada.
+  const titulo = (ficha.aboutTitle ?? "").trim();
+  if (titulo) {
+    if (titulo.length < 25 || titulo.length > 70) {
+      problemas.push(`aboutTitle de ${titulo.length} caracteres (debe estar entre 25 y 70)`);
+    }
+    if (/^(sobre|acerca|qu[ée]|informaci[óo]n|bienvenid)/i.test(titulo)) {
+      problemas.push(`aboutTitle genérico: "${titulo}"`);
+    }
+    // Un cargo en el encabezado envejece con la primera elección, y el nombre
+    // del alcalde no le dice nada a quien busca una sala de chat. Salió en la
+    // prueba de Ciudad del Plata: "bajo la administración de Richard Mariani".
+    if (/\b(alcald|intendent|gobernador|president|ayuntamiento de|administraci[óo]n de)\b/i.test(titulo)) {
+      problemas.push(`aboutTitle con cargo o autoridad: "${titulo}"`);
+    }
+  }
+
   if (intro.length < 110 || intro.length > 160) {
     problemas.push(`intro/meta de ${intro.length} caracteres (debe estar entre 110 y 160)`);
   }
