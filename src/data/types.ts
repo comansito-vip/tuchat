@@ -19,6 +19,11 @@ export interface Place {
   related: string[];     // related slugs
   intro: string;         // human, location-specific paragraph
   about?: string;        // longer SEO block (cities)
+  // Título del bloque `about`. Existe para que el H2 lleve nombre propio del
+  // lugar ("El puerto, la sal y las conversaciones de agosto") en vez del
+  // genérico "Sobre el chat de X", que convierte la página en una plantilla con
+  // hueco a ojos de Google. Lo redacta el generador de localidades.
+  aboutTitle?: string;
 }
 
 export interface NewsItem {

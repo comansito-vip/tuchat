@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-// @ts-expect-error — módulo .mjs sin tipos, usado por los scripts de localidades
+// Módulo .mjs compartido con los scripts de localidades.
 import { variantesDe, yaExiste, indexar, distanciaKm } from "../../../scripts/localidades/duplicados.mjs";
 
 // Todos los casos de aquí son reales: aparecieron al cruzar el censo del INE con

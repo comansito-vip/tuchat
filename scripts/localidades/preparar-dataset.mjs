@@ -143,14 +143,21 @@ async function main() {
     // El censo de América ya trae extracto y web oficial en cada registro; el
     // fichero de "nuevas" solo aporta el slug desambiguado, así que se combinan
     // con el censo teniendo prioridad.
-    const f = { ...(fuenteAm.get(l.qid ?? l.slug) ?? {}), ...l };
+    const fuente = fuenteAm.get(l.qid ?? l.slug) ?? {};
+    const f = { ...fuente, ...l };
     const entrada = {
       pais: l.pais,
       paisSlug: l.pais_slug,
       nombre: l.nombre,
-      // slug_desambiguado resuelve los homónimos entre países (Madrid España vs
-      // Madrid Colombia); sin él, dos localidades distintas colisionarían.
-      slug: f.slug_desambiguado ?? l.slug ?? norm(l.nombre),
+      // El slug bueno es el del fichero de "nuevas": ahí ya viene resuelto el
+      // homónimo entre países (san-juan-argentina, avellaneda-argentina),
+      // mientras que el del censo es el crudo y colisionaría.
+      //
+      // Ojo: `slug_desambiguado` es un BOOLEANO que dice si hizo falta
+      // desambiguar, NO el slug. Usarlo como slug dejó 1.376 de las 1.389
+      // localidades de la cola con `slug: true` o `slug: false`, y con ellas
+      // el cron no podía ni nombrar la página.
+      slug: fuente.slug ?? l.slug ?? norm(l.nombre),
       poblacion: l.poblacion,
       region: l.region ?? null,
       regionSlug: l.region_slug ?? null,
