@@ -76,3 +76,32 @@
 [2026-08-06T23:13:35.345Z]   ✓ palermo-colombia (Colombia) — escribió Cerebras, verificó Mistral
 [2026-08-06T23:13:42.853Z]   ✓ palermo (Colombia) — escribió Mistral, verificó Cerebras
 [2026-08-06T23:13:42.854Z] publicadas 3 salas · acumuladas 15 · quedan 2968 en cola
+[2026-08-07T03:40:05.104Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-07T03:40:05.112Z] cola: 2968 pendientes · lote de hoy: 12
+[2026-08-07T03:40:09.295Z]   ✓ abasto (Argentina) — escribió Cerebras, verificó Groq
+[2026-08-07T03:40:14.618Z]   ✓ ate (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:40:21.205Z]   ✗ distrito-de-comas: fraseo calcado de ate: "de los cuarenta y tres distritos que"
+[2026-08-07T03:41:04.431Z]   ✗ area-metropolitana-de-piura: rechazada tras corrección: Se menciona que el área metropolitana 'superando el umbral de 500.001 residentes que define a una metrópoli peruana', lo que no se menciona en la fuente original. La fuente solo menciona que se consid
+[2026-08-07T03:41:10.081Z]   ✓ heroica-matamoros (México) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:15.375Z]   ✓ maipu-chile (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:25.473Z]   ✓ florencio-varela-argentina (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:29.467Z]   ✗ partido-de-san-martin: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-07T03:41:59.884Z]   ✗ distrito-de-carabayllo: rechazada tras corrección: El territorio se caracteriza por su ubicación entre la zona urbana de la capital y áreas más rurales de la sierra, lo que le confiere una diversidad de paisajes y usos del suelo.; La población combina
+[2026-08-07T03:42:10.743Z]   ✗ corrientes: fraseo calcado de tolu: "lo que la convierte en la ciudad"
+[2026-08-07T03:42:29.542Z]   ✓ corrientes-provincia-de-corrientes (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:43:02.586Z]   ✓ simon-bolivar-anzoategui (Venezuela) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:43:40.551Z]   ✗ distrito-de-puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-07T03:43:53.567Z]   ✗ distrito-de-chorrillos: fraseo calcado de chorrillos: "con barranco y santiago de surco al"
+[2026-08-07T03:44:09.069Z]   ✓ la-florida (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:44:29.480Z]   ✓ santo-domingo-oeste (República Dominicana) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:45:08.881Z]   ✓ ventanilla- (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:45:23.114Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-07T03:45:27.204Z]   ✗ partido-de-san-miguel: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-07T03:45:38.784Z]   ✗ partido-de-jose-c-paz: fraseo calcado de florencio-varela-argentina: "de los 135 partidos de la provincia"
+[2026-08-07T03:45:57.308Z]   ✗ carabayllo: controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)
+[2026-08-07T03:46:12.180Z]   ✗ ventanilla: fraseo calcado de ventanilla-: "de la provincia constitucional del callao en"
+[2026-08-07T03:46:36.446Z]   ✗ distrito-de-lurigancho-chosica: controles de calidad: intro/meta de 199 caracteres (debe estar entre 110 y 160)
+[2026-08-07T03:46:41.014Z]   ✓ santa-catarina (México) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:50:04.471Z]   ✗ san-bernardo-chile: rechazada tras corrección: Afirma que San Bernardo "le da un carácter de centro político y de servicios para los municipios aledaños", dato no respaldado por la fuente.; Afirma que su ubicación "la convierte en un punto de paso
+[2026-08-07T03:50:09.573Z]   ✓ san-juan-sacatepequez (Guatemala) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:50:09.576Z] publicadas 12 salas · acumuladas 26 · quedan 2956 en cola

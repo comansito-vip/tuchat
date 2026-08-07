@@ -10,405 +10,760 @@ import type { Place } from "./types";
 // la escribió.
 export const CITIES_GENERADAS: Place[] = [
   {
-   "slug": "apodaca",
-   "name": "Apodaca",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 131,
-   "votes": 215,
-   "activity": "Alta",
-   "parentName": "México",
-   "parentSlug": "mexico",
-   "provincia": "Nuevo León",
-   "regionSlug": "nuevo-leon",
-   "channels": [
-    "nuevo_leon",
-    "mexico",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "guadalupe-nuevo-leon",
-    "monterrey",
-    "allende",
-    "saltillo",
-    "mexico",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Chat de Apodaca, ciudad de Nuevo León con 536.436 habitantes (2020) e integrante clave de la zona metropolitana de Monterrey.",
-   "about": "Apodaca es la cabecera del municipio homónimo en Nuevo León, México. Ubicada en el extremo oriental de la conurbación de Monterrey, concentra 536.436 habitantes según el INEGI (2020), lo que la convierte en la segunda ciudad más poblada del estado. Su posición estratégica dentro del área metropolitana la vincula directamente con la dinámica económica y urbana de la región.\n\nLa sala de chat de Apodaca reúne a residentes, trabajadores y personas que pasan por la ciudad. Aquí se comentan asuntos cotidianos como movilidad, servicios públicos y eventos locales, así como temas que afectan a toda la zona metropolitana. Es un espacio para intercambiar información práctica: desde recomendaciones sobre transporte hasta novedades en comercios o actividades en la zona. También se discuten problemas comunes de la urbe, como tráfico, obras o cambios en infraestructura, siempre con enfoque en lo que impacta directamente a quienes viven o transitan por Apodaca. La conversación fluye según los intereses del momento, sin horarios fijos, y suele reflejar la diversidad de perfiles que conviven en la ciudad."
+    "slug": "apodaca",
+    "name": "Apodaca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 215,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nuevo León",
+    "regionSlug": "nuevo-leon",
+    "channels": [
+      "nuevo_leon",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guadalupe-nuevo-leon",
+      "monterrey",
+      "allende",
+      "saltillo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Apodaca, ciudad de Nuevo León con 536.436 habitantes (2020) e integrante clave de la zona metropolitana de Monterrey.",
+    "about": "Apodaca es la cabecera del municipio homónimo en Nuevo León, México. Ubicada en el extremo oriental de la conurbación de Monterrey, concentra 536.436 habitantes según el INEGI (2020), lo que la convierte en la segunda ciudad más poblada del estado. Su posición estratégica dentro del área metropolitana la vincula directamente con la dinámica económica y urbana de la región.\n\nLa sala de chat de Apodaca reúne a residentes, trabajadores y personas que pasan por la ciudad. Aquí se comentan asuntos cotidianos como movilidad, servicios públicos y eventos locales, así como temas que afectan a toda la zona metropolitana. Es un espacio para intercambiar información práctica: desde recomendaciones sobre transporte hasta novedades en comercios o actividades en la zona. También se discuten problemas comunes de la urbe, como tráfico, obras o cambios en infraestructura, siempre con enfoque en lo que impacta directamente a quienes viven o transitan por Apodaca. La conversación fluye según los intereses del momento, sin horarios fijos, y suele reflejar la diversidad de perfiles que conviven en la ciudad."
   },
   {
-   "slug": "piedras-negras",
-   "name": "Piedras Negras",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 137,
-   "votes": 229,
-   "activity": "Media",
-   "parentName": "México",
-   "parentSlug": "mexico",
-   "provincia": "Coahuila de Zaragoza",
-   "regionSlug": "coahuila-de-zaragoza",
-   "channels": [
-    "mexico",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "mexico",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Piedras Negras, ciudad mexicana en Coahuila frente a Eagle Pass (Texas), a orillas del río Bravo. Conecta con su comunidad fronteriza.",
-   "about": "Piedras Negras es una ciudad del noreste de México, en el estado de Coahuila, justo en la frontera con Estados Unidos. Se ubica frente a Eagle Pass, Texas, separada solo por el río Bravo, lo que le da un carácter binacional y un flujo constante de intercambio cultural y comercial. Es cabecera del municipio homónimo y uno de los puntos clave en la relación entre ambos países.\n\nEn el Chat de Piedras Negras entran vecinos de la ciudad, personas que cruzan la frontera con frecuencia y quienes buscan información sobre la vida en esta zona. Se habla de temas locales, como eventos en la ribera del río, oportunidades laborales en la industria fronteriza o cómo es vivir en una ciudad con doble influencia. También es un espacio para coordinar encuentros o resolver dudas sobre trámites y movilidad entre ambos lados de la frontera."
+    "slug": "piedras-negras",
+    "name": "Piedras Negras",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 229,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Piedras Negras, ciudad mexicana en Coahuila frente a Eagle Pass (Texas), a orillas del río Bravo. Conecta con su comunidad fronteriza.",
+    "about": "Piedras Negras es una ciudad del noreste de México, en el estado de Coahuila, justo en la frontera con Estados Unidos. Se ubica frente a Eagle Pass, Texas, separada solo por el río Bravo, lo que le da un carácter binacional y un flujo constante de intercambio cultural y comercial. Es cabecera del municipio homónimo y uno de los puntos clave en la relación entre ambos países.\n\nEn el Chat de Piedras Negras entran vecinos de la ciudad, personas que cruzan la frontera con frecuencia y quienes buscan información sobre la vida en esta zona. Se habla de temas locales, como eventos en la ribera del río, oportunidades laborales en la industria fronteriza o cómo es vivir en una ciudad con doble influencia. También es un espacio para coordinar encuentros o resolver dudas sobre trámites y movilidad entre ambos lados de la frontera."
   },
   {
-   "slug": "los-mochis",
-   "name": "Los Mochis",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 131,
-   "votes": 231,
-   "activity": "Alta",
-   "parentName": "México",
-   "parentSlug": "mexico",
-   "provincia": "Sinaloa",
-   "regionSlug": "sinaloa",
-   "channels": [
-    "sinaloa",
-    "mexico",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "mexico",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Los Mochis, cabecera del municipio de Ahome en Sinaloa. Trámites municipales en línea como pago de predial o actas de nacimiento.",
-   "about": "Los Mochis es una ciudad del noroeste de México, cabecera del municipio de Ahome en Sinaloa. El ayuntamiento ofrece trámites en línea como pago de predial, actas civiles (nacimiento, matrimonio o defunción) y licencias de conducir. También gestiona programas locales como el Desarme Voluntario y capacitaciones para emprendedores, además de servicios sociales como cursos para solicitantes de adopción.\n\nEn la sala de chat se comentan noticias municipales, se comparte información sobre trámites o se debaten iniciativas como el Plan Municipal de Desarrollo. Participan residentes y usuarios interesados en la bolsa de trabajo del ayuntamiento o en eventos de atención presencial. Es un espacio para quienes buscan resolver gestiones locales o conectar con la vida administrativa de Ahome."
+    "slug": "los-mochis",
+    "name": "Los Mochis",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 231,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sinaloa",
+    "regionSlug": "sinaloa",
+    "channels": [
+      "sinaloa",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Los Mochis, cabecera del municipio de Ahome en Sinaloa. Trámites municipales en línea como pago de predial o actas de nacimiento.",
+    "about": "Los Mochis es una ciudad del noroeste de México, cabecera del municipio de Ahome en Sinaloa. El ayuntamiento ofrece trámites en línea como pago de predial, actas civiles (nacimiento, matrimonio o defunción) y licencias de conducir. También gestiona programas locales como el Desarme Voluntario y capacitaciones para emprendedores, además de servicios sociales como cursos para solicitantes de adopción.\n\nEn la sala de chat se comentan noticias municipales, se comparte información sobre trámites o se debaten iniciativas como el Plan Municipal de Desarrollo. Participan residentes y usuarios interesados en la bolsa de trabajo del ayuntamiento o en eventos de atención presencial. Es un espacio para quienes buscan resolver gestiones locales o conectar con la vida administrativa de Ahome."
   },
   {
-   "slug": "puente-alto",
-   "name": "Puente Alto",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 152,
-   "votes": 252,
-   "activity": "Alta",
-   "parentName": "Chile",
-   "parentSlug": "chile",
-   "provincia": "Región Metropolitana de Santiago",
-   "regionSlug": "region-metropolitana-de-santiago",
-   "channels": [
-    "chile",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "chile",
-    "santiago-de-chile",
-    "rancagua",
-    "san-antonio-chile",
-    "quillota",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Puente Alto, comuna capital de la Provincia de Cordillera en la Región Metropolitana de Santiago.",
-   "about": "Puente Alto es una comuna ubicada en el Valle del Maipo Alto, al suroriente del Gran Santiago. Como capital de la Provincia de Cordillera, concentra servicios municipales, educativos y culturales. La red de bibliotecas incluye Bibliobuses y Bibliopiscina, además de la Biblioteca Central y bibliotecas escolares. La municipalidad gestiona centros de salud, jardines infantiles y organizaciones comunitarias, junto con trámites digitales para certificados y permisos.\n\nEn la sala de chat de Puente Alto los vecinos intercambian información sobre actividades culturales de la Corporación Cultural o eventos deportivos de la Corporación del Deporte. También se habla de la Corporación Pueblito Las Vizcachas, la Oficina del Adulto Mayor y los programas de transparencia municipal."
+    "slug": "puente-alto",
+    "name": "Puente Alto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 152,
+    "votes": 252,
+    "activity": "Alta",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "quillota",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Puente Alto, comuna capital de la Provincia de Cordillera en la Región Metropolitana de Santiago.",
+    "about": "Puente Alto es una comuna ubicada en el Valle del Maipo Alto, al suroriente del Gran Santiago. Como capital de la Provincia de Cordillera, concentra servicios municipales, educativos y culturales. La red de bibliotecas incluye Bibliobuses y Bibliopiscina, además de la Biblioteca Central y bibliotecas escolares. La municipalidad gestiona centros de salud, jardines infantiles y organizaciones comunitarias, junto con trámites digitales para certificados y permisos.\n\nEn la sala de chat de Puente Alto los vecinos intercambian información sobre actividades culturales de la Corporación Cultural o eventos deportivos de la Corporación del Deporte. También se habla de la Corporación Pueblito Las Vizcachas, la Oficina del Adulto Mayor y los programas de transparencia municipal."
   },
   {
-   "slug": "catia-la-mar",
-   "name": "Catia La Mar",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 132,
-   "votes": 214,
-   "activity": "Alta",
-   "parentName": "Venezuela",
-   "parentSlug": "venezuela",
-   "provincia": "Estado La Guaira",
-   "regionSlug": "estado-la-guaira",
-   "channels": [
-    "venezuela",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "venezuela",
-    "caracas",
-    "los-teques",
-    "guarenas",
-    "maracay",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Chat de Catia La Mar, parroquia del municipio Vargas en el estado La Guaira, Venezuela. Espacio para vecinos, trabajadores y visitantes de esta zona costera.",
-   "about": "Catia La Mar es una de las once parroquias que conforman el municipio Vargas, en el estado La Guaira, Venezuela. Su sala de chat reúne a residentes permanentes, personas que trabajan en la zona —especialmente en sectores como el comercio o los servicios— y quienes llegan de visita, ya sea por turismo o asuntos personales. Las conversaciones giran en torno a la vida cotidiana de la parroquia: desde noticias locales y eventos en Vargas hasta recomendaciones prácticas sobre transporte, comercios o lugares para comer. También se habla de la dinámica urbana, como el tráfico en horas pico o la oferta de actividades en playas y espacios públicos cercanos. Los participantes suelen compartir información útil, como cambios en rutas de autobuses, horarios de mercados o alertas sobre cortes de servicios. Aunque el tono es informal, predomina el interés por mantenerse al tanto de lo que ocurre en la zona y resolver dudas sobre movilidad, trámites o opciones de ocio. La sala sirve como punto de referencia para quienes buscan conectar con el día a día de Catia La Mar, sin importar si su vínculo con el lugar es permanente o temporal."
+    "slug": "catia-la-mar",
+    "name": "Catia La Mar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 214,
+    "activity": "Alta",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Estado La Guaira",
+    "regionSlug": "estado-la-guaira",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "caracas",
+      "los-teques",
+      "guarenas",
+      "maracay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Catia La Mar, parroquia del municipio Vargas en el estado La Guaira, Venezuela. Espacio para vecinos, trabajadores y visitantes de esta zona costera.",
+    "about": "Catia La Mar es una de las once parroquias que conforman el municipio Vargas, en el estado La Guaira, Venezuela. Su sala de chat reúne a residentes permanentes, personas que trabajan en la zona —especialmente en sectores como el comercio o los servicios— y quienes llegan de visita, ya sea por turismo o asuntos personales. Las conversaciones giran en torno a la vida cotidiana de la parroquia: desde noticias locales y eventos en Vargas hasta recomendaciones prácticas sobre transporte, comercios o lugares para comer. También se habla de la dinámica urbana, como el tráfico en horas pico o la oferta de actividades en playas y espacios públicos cercanos. Los participantes suelen compartir información útil, como cambios en rutas de autobuses, horarios de mercados o alertas sobre cortes de servicios. Aunque el tono es informal, predomina el interés por mantenerse al tanto de lo que ocurre en la zona y resolver dudas sobre movilidad, trámites o opciones de ocio. La sala sirve como punto de referencia para quienes buscan conectar con el día a día de Catia La Mar, sin importar si su vínculo con el lugar es permanente o temporal."
   },
   {
-   "slug": "vitarte",
-   "name": "Vitarte",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 145,
-   "votes": 232,
-   "activity": "Alta",
-   "parentName": "Perú",
-   "parentSlug": "peru",
-   "provincia": "Provincia de Lima",
-   "regionSlug": "provincia-de-lima",
-   "channels": [
-    "peru",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "peru",
-    "lima",
-    "callao",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de Vitarte, localidad obrera y casco histórico de Ate en Lima, declarada Patrimonio Cultural de la Nación en 1990.",
-   "about": "Vitarte es la capital y casco histórico del distrito de Ate, en Lima (Perú). Destaca por su pasado industrial y su relevancia en la historia laboral del país. En 1871 se construyó la Fábrica Textil de Vitarte, impulsada por Carlos López Aldana, y en 1896 se registró aquí la primera huelga obrera del Perú. Desde el 15 de marzo de 1990, su zona histórica es Patrimonio Cultural de la Nación.\n\nEn el Chat de Vitarte se reúnen vecinos y personas interesadas en la historia local. Los temas incluyen el día a día en el distrito, su legado industrial y eventos culturales. Es un espacio para quienes viven en Vitarte o sienten curiosidad por su papel en la formación de la Lima moderna, especialmente su conexión con el movimiento obrero y la industria textil."
+    "slug": "vitarte",
+    "name": "Vitarte",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 145,
+    "votes": 232,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de Vitarte, localidad obrera y casco histórico de Ate en Lima, declarada Patrimonio Cultural de la Nación en 1990.",
+    "about": "Vitarte es la capital y casco histórico del distrito de Ate, en Lima (Perú). Destaca por su pasado industrial y su relevancia en la historia laboral del país. En 1871 se construyó la Fábrica Textil de Vitarte, impulsada por Carlos López Aldana, y en 1896 se registró aquí la primera huelga obrera del Perú. Desde el 15 de marzo de 1990, su zona histórica es Patrimonio Cultural de la Nación.\n\nEn el Chat de Vitarte se reúnen vecinos y personas interesadas en la historia local. Los temas incluyen el día a día en el distrito, su legado industrial y eventos culturales. Es un espacio para quienes viven en Vitarte o sienten curiosidad por su papel en la formación de la Lima moderna, especialmente su conexión con el movimiento obrero y la industria textil."
   },
   {
-   "slug": "comas",
-   "name": "Comas",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 134,
-   "votes": 220,
-   "activity": "Alta",
-   "parentName": "Perú",
-   "parentSlug": "peru",
-   "provincia": "Provincia de Lima",
-   "regionSlug": "provincia-de-lima",
-   "channels": [
-    "peru",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "peru",
-    "lima",
-    "callao",
-    "vitarte",
-    "huacho",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Comas, distrito de Lima. Aquí se gestionan trámites municipales como licencias de funcionamiento y matrimonio civil en línea.",
-   "about": "Comas es uno de los distritos de la provincia de Lima, Perú. Limita con Carabayllo al norte, San Juan de Lurigancho al este, Independencia al sur y Los Olivos y Puente Piedra al oeste. Su municipalidad ofrece servicios en línea como pagos, consulta de expedientes y trámites como licencias de edificación o matrimonios civiles.\n\nEn el Chat de Comas entran vecinos que comentan obras municipales, amnistías tributarias como la de julio o eventos locales. También se habla de participación vecinal, normativas urbanas y gestiones cotidianas, desde el ITSE hasta el registro tributario. Es un espacio para quienes viven o trabajan en el distrito y buscan información sobre su municipio."
+    "slug": "comas",
+    "name": "Comas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 220,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "vitarte",
+      "huacho",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Comas, distrito de Lima. Aquí se gestionan trámites municipales como licencias de funcionamiento y matrimonio civil en línea.",
+    "about": "Comas es uno de los distritos de la provincia de Lima, Perú. Limita con Carabayllo al norte, San Juan de Lurigancho al este, Independencia al sur y Los Olivos y Puente Piedra al oeste. Su municipalidad ofrece servicios en línea como pagos, consulta de expedientes y trámites como licencias de edificación o matrimonios civiles.\n\nEn el Chat de Comas entran vecinos que comentan obras municipales, amnistías tributarias como la de julio o eventos locales. También se habla de participación vecinal, normativas urbanas y gestiones cotidianas, desde el ITSE hasta el registro tributario. Es un espacio para quienes viven o trabajan en el distrito y buscan información sobre su municipio."
   },
   {
-   "slug": "villa-el-salvador",
-   "name": "Villa El Salvador",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 141,
-   "votes": 226,
-   "activity": "Alta",
-   "parentName": "Perú",
-   "parentSlug": "peru",
-   "provincia": "Provincia de Lima",
-   "regionSlug": "provincia-de-lima",
-   "channels": [
-    "peru",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "peru",
-    "lima",
-    "vitarte",
-    "callao",
-    "comas",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat para vecinos, estudiantes y trabajadores de Villa El Salvador, distrito limeño junto al Pacífico. Noticias locales, transporte y vida diaria.",
-   "about": "Villa El Salvador es un distrito de Lima, Perú, en la zona sur de la capital. Limita con San Juan de Miraflores, Villa María del Triunfo, Lurín y el océano Pacífico. Su territorio mezcla áreas urbanas con zonas costeras donde se desarrollan actividades económicas y sociales.\n\nEn el Chat de Villa El Salvador participan residentes, trabajadores y estudiantes que buscan información práctica. Los temas habituales incluyen eventos locales, servicios públicos, transporte, comercios y negocios de la zona. También se comparten novedades sobre proyectos municipales o iniciativas vecinales que impactan en el día a día. La sala es un espacio para quienes tienen vínculos con el distrito, ya sea por residencia, trabajo o estudios."
+    "slug": "villa-el-salvador",
+    "name": "Villa El Salvador",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 226,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "vitarte",
+      "callao",
+      "comas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat para vecinos, estudiantes y trabajadores de Villa El Salvador, distrito limeño junto al Pacífico. Noticias locales, transporte y vida diaria.",
+    "about": "Villa El Salvador es un distrito de Lima, Perú, en la zona sur de la capital. Limita con San Juan de Miraflores, Villa María del Triunfo, Lurín y el océano Pacífico. Su territorio mezcla áreas urbanas con zonas costeras donde se desarrollan actividades económicas y sociales.\n\nEn el Chat de Villa El Salvador participan residentes, trabajadores y estudiantes que buscan información práctica. Los temas habituales incluyen eventos locales, servicios públicos, transporte, comercios y negocios de la zona. También se comparten novedades sobre proyectos municipales o iniciativas vecinales que impactan en el día a día. La sala es un espacio para quienes tienen vínculos con el distrito, ya sea por residencia, trabajo o estudios."
   },
   {
-   "slug": "limon-costa-rica",
-   "name": "Limón",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 137,
-   "votes": 226,
-   "activity": "Media",
-   "parentName": "Costa Rica",
-   "parentSlug": "costa-rica",
-   "provincia": "Provincia de Limón",
-   "regionSlug": "provincia-de-limon",
-   "channels": [
-    "costa_rica",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "cartago",
-    "costa-rica",
-    "san-jose",
-    "heredia",
-    "bocas-del-toro",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Limón, el cantón costarricense con distritos como Valle de la Estrella y Río Blanco. Conecta con vecinos y viajeros desde el Caribe.",
-   "about": "Limón es el cantón central de la provincia homónima en Costa Rica, bañado por el mar Caribe. Su municipalidad gestiona distritos como Limón Centro, Valle de la Estrella, Río Blanco y Matama, cada uno con dinámicas propias. Aquí se ubica el principal puerto del país, clave para el comercio, y una mezcla cultural influida por comunidades afrocaribeñas, indígenas y migrantes. La ciudad alberga mercados municipales, proyectos de infraestructura vial y programas como el Comité Cantonal de Deportes y Recreación, que promueve actividades locales.\n\nEn el Chat de Limón entran residentes que comentan sobre el pago de patentes trimestrales, vecinos de distritos rurales como Matama o Río Blanco, y quienes buscan información sobre trámites municipales. También participan turistas interesados en el patrimonio local o en los proyectos de recolección de residuos sólidos que mantiene el ayuntamiento. Es un espacio para hablar de la vida cotidiana, eventos deportivos o las fechas de vencimiento de impuestos municipales, sin filtros ni formalidades."
+    "slug": "limon-costa-rica",
+    "name": "Limón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Limón",
+    "regionSlug": "provincia-de-limon",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cartago",
+      "costa-rica",
+      "san-jose",
+      "heredia",
+      "bocas-del-toro",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Limón, el cantón costarricense con distritos como Valle de la Estrella y Río Blanco. Conecta con vecinos y viajeros desde el Caribe.",
+    "about": "Limón es el cantón central de la provincia homónima en Costa Rica, bañado por el mar Caribe. Su municipalidad gestiona distritos como Limón Centro, Valle de la Estrella, Río Blanco y Matama, cada uno con dinámicas propias. Aquí se ubica el principal puerto del país, clave para el comercio, y una mezcla cultural influida por comunidades afrocaribeñas, indígenas y migrantes. La ciudad alberga mercados municipales, proyectos de infraestructura vial y programas como el Comité Cantonal de Deportes y Recreación, que promueve actividades locales.\n\nEn el Chat de Limón entran residentes que comentan sobre el pago de patentes trimestrales, vecinos de distritos rurales como Matama o Río Blanco, y quienes buscan información sobre trámites municipales. También participan turistas interesados en el patrimonio local o en los proyectos de recolección de residuos sólidos que mantiene el ayuntamiento. Es un espacio para hablar de la vida cotidiana, eventos deportivos o las fechas de vencimiento de impuestos municipales, sin filtros ni formalidades."
   },
   {
-   "slug": "chorrillos",
-   "name": "Chorrillos",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 121,
-   "votes": 209,
-   "activity": "Alta",
-   "parentName": "Perú",
-   "parentSlug": "peru",
-   "provincia": "Provincia de Lima",
-   "regionSlug": "provincia-de-lima",
-   "channels": [
-    "peru",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "villa-el-salvador",
-    "peru",
-    "lima",
-    "vitarte",
-    "callao",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat para vecinos y visitantes de Chorrillos, distrito limeño en la costa del Pacífico. Aquí se comparte lo cotidiano, eventos y la vida junto al mar.",
-   "about": "Chorrillos es un distrito de la provincia de Lima, Perú, ubicado en la costa del océano Pacífico. Es el único de los 43 distritos limeños que limita al sur y al oeste directamente con el mar. Al norte, colinda con Barranco y Santiago de Surco; al este, con San Juan de Miraflores y Villa El Salvador. Su carácter es costero y urbano a la vez.\n\nEn el Chat de Chorrillos se comentan temas del día a día: noticias del distrito, eventos locales, experiencias en sus barrios o cómo es vivir cerca del Pacífico. Participan residentes, personas que trabajan o estudian en la zona y quienes buscan información de primera mano sobre el distrito."
+    "slug": "chorrillos",
+    "name": "Chorrillos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 209,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-el-salvador",
+      "peru",
+      "lima",
+      "vitarte",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat para vecinos y visitantes de Chorrillos, distrito limeño en la costa del Pacífico. Aquí se comparte lo cotidiano, eventos y la vida junto al mar.",
+    "about": "Chorrillos es un distrito de la provincia de Lima, Perú, ubicado en la costa del océano Pacífico. Es el único de los 43 distritos limeños que limita al sur y al oeste directamente con el mar. Al norte, colinda con Barranco y Santiago de Surco; al este, con San Juan de Miraflores y Villa El Salvador. Su carácter es costero y urbano a la vez.\n\nEn el Chat de Chorrillos se comentan temas del día a día: noticias del distrito, eventos locales, experiencias en sus barrios o cómo es vivir cerca del Pacífico. Participan residentes, personas que trabajan o estudian en la zona y quienes buscan información de primera mano sobre el distrito."
   },
   {
-   "slug": "general-escobedo",
-   "name": "General Escobedo",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 154,
-   "votes": 265,
-   "activity": "Alta",
-   "parentName": "México",
-   "parentSlug": "mexico",
-   "provincia": "Nuevo León",
-   "regionSlug": "nuevo-leon",
-   "channels": [
-    "nuevo_leon",
-    "mexico",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "monterrey",
-    "apodaca",
-    "guadalupe-nuevo-leon",
-    "allende",
-    "saltillo",
-    "mexico",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Chat de General Escobedo, municipio industrial en la zona metropolitana de Monterrey. Vecinos y trabajadores comparten información local y trámites municipales.",
-   "about": "General Escobedo es una ciudad de Nuevo León dentro de la zona metropolitana de Monterrey. Su perfil industrial y crecimiento ordenado la definen, con infraestructura municipal en mejora continua. El ayuntamiento destaca su tranquilidad y seguridad para residentes y trabajadores.\n\nLa sala de chat reúne a vecinos y personas que trabajan en el municipio. Los temas habituales incluyen trámites como el pago del predial, obras públicas o la bolsa de empleo del ayuntamiento. También se comentan noticias locales y asuntos de interés ciudadano. Es un espacio para quienes buscan datos prácticos sobre un municipio en expansión, donde el crecimiento se acompaña de mejoras en servicios."
+    "slug": "general-escobedo",
+    "name": "General Escobedo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 154,
+    "votes": 265,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nuevo León",
+    "regionSlug": "nuevo-leon",
+    "channels": [
+      "nuevo_leon",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "monterrey",
+      "apodaca",
+      "guadalupe-nuevo-leon",
+      "allende",
+      "saltillo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de General Escobedo, municipio industrial en la zona metropolitana de Monterrey. Vecinos y trabajadores comparten información local y trámites municipales.",
+    "about": "General Escobedo es una ciudad de Nuevo León dentro de la zona metropolitana de Monterrey. Su perfil industrial y crecimiento ordenado la definen, con infraestructura municipal en mejora continua. El ayuntamiento destaca su tranquilidad y seguridad para residentes y trabajadores.\n\nLa sala de chat reúne a vecinos y personas que trabajan en el municipio. Los temas habituales incluyen trámites como el pago del predial, obras públicas o la bolsa de empleo del ayuntamiento. También se comentan noticias locales y asuntos de interés ciudadano. Es un espacio para quienes buscan datos prácticos sobre un municipio en expansión, donde el crecimiento se acompaña de mejoras en servicios."
   },
   {
-   "slug": "hidalgo-michoacan",
-   "name": "Hidalgo",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 113,
-   "votes": 187,
-   "activity": "Media",
-   "parentName": "México",
-   "parentSlug": "mexico",
-   "provincia": "Michoacán",
-   "regionSlug": "michoacan",
-   "channels": [
-    "mexico",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "morelia",
-    "valle-de-bravo",
-    "atlacomulco-de-fabela",
-    "san-francisco-tlalcilalcalpan",
-    "san-antonio-acahualco",
-    "mexico",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Sala de chat de Hidalgo (Michoacán), municipio que plantó 3 mil arbolitos en El Mirador y reparte apoyos sociales.",
-   "about": "Hidalgo es un municipio de Michoacán, México. Su gobierno municipal, encabezado por Jeovana Alcántar, organiza actividades como la reforestación de 3 mil arbolitos en El Mirador (Llano del Ejido) y la entrega de apoyos sociales a través de la Dirección de Desarrollo Social. También ha impulsado eventos como el Primer Congreso Internacional de Tecnologías Emergentes 2025.\n\nEn la sala de chat de Hidalgo se reúnen vecinos y visitantes para hablar de la vida local, desde las obras públicas y los programas municipales hasta las iniciativas de desarrollo urbano. Es un espacio para quienes quieren estar al tanto de las actividades del ayuntamiento o conectar con gente de la zona."
+    "slug": "hidalgo-michoacan",
+    "name": "Hidalgo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 187,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "valle-de-bravo",
+      "atlacomulco-de-fabela",
+      "san-francisco-tlalcilalcalpan",
+      "san-antonio-acahualco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Hidalgo (Michoacán), municipio que plantó 3 mil arbolitos en El Mirador y reparte apoyos sociales.",
+    "about": "Hidalgo es un municipio de Michoacán, México. Su gobierno municipal, encabezado por Jeovana Alcántar, organiza actividades como la reforestación de 3 mil arbolitos en El Mirador (Llano del Ejido) y la entrega de apoyos sociales a través de la Dirección de Desarrollo Social. También ha impulsado eventos como el Primer Congreso Internacional de Tecnologías Emergentes 2025.\n\nEn la sala de chat de Hidalgo se reúnen vecinos y visitantes para hablar de la vida local, desde las obras públicas y los programas municipales hasta las iniciativas de desarrollo urbano. Es un espacio para quienes quieren estar al tanto de las actividades del ayuntamiento o conectar con gente de la zona."
   },
   {
-   "slug": "lima-metropolitana",
-   "name": "Lima Metropolitana",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 170,
-   "votes": 276,
-   "activity": "Alta",
-   "parentName": "Perú",
-   "parentSlug": "peru",
-   "provincia": "Provincia de Lima",
-   "regionSlug": "provincia-de-lima",
-   "channels": [
-    "peru",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "peru",
-    "lima",
-    "callao",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Chat de Lima Metropolitana: conecta con usuarios de la zona urbana más grande del Perú, la 32.ª mayor área metropolitana del mundo con 11,3 millones.",
-   "aboutTitle": "Lima-Callao, la 32.ª mayor área metropolitana del mundo",
-   "about": "El área metropolitana de Lima-Callao agrupa los distritos de la provincia de Lima y la provincia constitucional del Callao, constituyendo la zona urbana más extensa y poblada del país. Según el INEI, en 2023 cuenta con una población estimada de 11,3 millones de habitantes, lo que la sitúa como una de las cinco mayores en Latinoamérica y la 32.ª mayor área metropolitana en todo el mundo. Su carácter de megaciudad la convierte en un punto neurálgico para la actividad económica, cultural y social del Perú.\n\nLa sala de chat de Lima Metropolitana reúne a residentes, estudiantes y visitantes que comparten información sobre la vida cotidiana, noticias locales, eventos culturales y temas de interés general. Los participantes discuten la dinámica de la ciudad, sus desafíos y oportunidades, intercambiando opiniones y experiencias que reflejan la diversidad de la gran comunidad limeña."
+    "slug": "lima-metropolitana",
+    "name": "Lima Metropolitana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 170,
+    "votes": 276,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Lima Metropolitana: conecta con usuarios de la zona urbana más grande del Perú, la 32.ª mayor área metropolitana del mundo con 11,3 millones.",
+    "aboutTitle": "Lima-Callao, la 32.ª mayor área metropolitana del mundo",
+    "about": "El área metropolitana de Lima-Callao agrupa los distritos de la provincia de Lima y la provincia constitucional del Callao, constituyendo la zona urbana más extensa y poblada del país. Según el INEI, en 2023 cuenta con una población estimada de 11,3 millones de habitantes, lo que la sitúa como una de las cinco mayores en Latinoamérica y la 32.ª mayor área metropolitana en todo el mundo. Su carácter de megaciudad la convierte en un punto neurálgico para la actividad económica, cultural y social del Perú.\n\nLa sala de chat de Lima Metropolitana reúne a residentes, estudiantes y visitantes que comparten información sobre la vida cotidiana, noticias locales, eventos culturales y temas de interés general. Los participantes discuten la dinámica de la ciudad, sus desafíos y oportunidades, intercambiando opiniones y experiencias que reflejan la diversidad de la gran comunidad limeña."
   },
   {
-   "slug": "palermo-colombia",
-   "name": "Palermo",
-   "kind": "ciudad",
-   "icon": "💬",
-   "users": 153,
-   "votes": 259,
-   "activity": "Alta",
-   "parentName": "Colombia",
-   "parentSlug": "colombia",
-   "provincia": "Huila",
-   "regionSlug": "huila",
-   "channels": [
-    "colombia",
-    "latinoamerica",
-    "chatzona"
-   ],
-   "related": [
-    "neiva",
-    "campoalegre",
-    "la-plata-huila",
-    "garzon",
-    "chaparral",
-    "colombia",
-    "amistad",
-    "amor"
-   ],
-   "intro": "Chat de Palermo, municipio del Huila con 917 km² de territorio y clima de 27 °C, espacio para conversar sobre su vida y entorno.",
-   "aboutTitle": "Palermo: 917 km² en el alto del valle del Magdalena",
-   "about": "Palermo es un municipio colombiano situado en el noroccidente del departamento del Huila, dentro de la región andina y del SubNorte del departamento. Ocupa 917 km² en el alto del valle del Magdalena, a una altitud de 690 metros sobre el nivel del mar, y su temperatura promedio ronda los 27 °C. La ubicación geográfica le brinda una mezcla de paisajes de montaña y llanura, y su entorno natural forma parte de la cordillera Central.\\n\\nEn la sala de chat de Palermo los habitantes y visitantes intercambian información sobre la cotidianidad del municipio: actividades locales, clima, agricultura, eventos comunitarios y cualquier tema de interés para la gente de la zona. La conversación está abierta a residentes, emigrantes y a quien quiera conocer más sobre este punto del Huila, fomentando un espacio de diálogo cercano y directo."
+    "slug": "palermo-colombia",
+    "name": "Palermo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 153,
+    "votes": 259,
+    "activity": "Alta",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Huila",
+    "regionSlug": "huila",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "neiva",
+      "campoalegre",
+      "la-plata-huila",
+      "garzon",
+      "chaparral",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Palermo, municipio del Huila con 917 km² de territorio y clima de 27 °C, espacio para conversar sobre su vida y entorno.",
+    "aboutTitle": "Palermo: 917 km² en el alto del valle del Magdalena",
+    "about": "Palermo es un municipio colombiano situado en el noroccidente del departamento del Huila, dentro de la región andina y del SubNorte del departamento. Ocupa 917 km² en el alto del valle del Magdalena, a una altitud de 690 metros sobre el nivel del mar, y su temperatura promedio ronda los 27 °C. La ubicación geográfica le brinda una mezcla de paisajes de montaña y llanura, y su entorno natural forma parte de la cordillera Central.\\n\\nEn la sala de chat de Palermo los habitantes y visitantes intercambian información sobre la cotidianidad del municipio: actividades locales, clima, agricultura, eventos comunitarios y cualquier tema de interés para la gente de la zona. La conversación está abierta a residentes, emigrantes y a quien quiera conocer más sobre este punto del Huila, fomentando un espacio de diálogo cercano y directo."
   },
+  {
+    "slug": "abasto",
+    "name": "Abasto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 158,
+    "votes": 263,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-plata",
+      "brandsen",
+      "san-vicente-misiones",
+      "quilmes",
+      "lomas-de-zamora",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Abasto, la sala de conversación para residentes y visitantes de la zona del km 55 de la Autovía 2, en el partido de La Plata, Buenos Aires.",
+    "aboutTitle": "Conversaciones en el km 55 de la Autovía 2 de Abasto",
+    "about": "Abasto es una zona del partido de La Plata, en la provincia de Buenos Aires, situada a la altura del kilómetro 55 de la Autovía 2. La zona se encuentra en el sector este‑sur del partido, y su ubicación permite el acceso mediante dos rutas principales. Desde el este, la avenida 520 conecta con la Ruta Provincial 36, ofreciendo una vía de ingreso directa. Desde el sur, la avenida 208 enlaza con la avenida 44 en la localidad de Lisandro Olmos, proporcionando otra alternativa de acceso. Ambas avenidas convergen en la proximidad de la Autovía 2, lo que sitúa a Abasto en una posición estratégica para el tránsito vehicular. La zona forma parte del entramado urbano del Gran La Plata y está incluida dentro de la jurisdicción del municipio de La Plata. Estas características geográficas son las que definen la forma de llegar a Abasto. El trazado de estas vías responde a la planificación urbana del área, garantizando una circulación fluida entre los distintos puntos del partido."
+  },
+  {
+    "slug": "ate",
+    "name": "Ate",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 157,
+    "votes": 261,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Ate: conecta con residentes del distrito que limita al norte con Lurigancho-Chosica y al este con Chaclacayo, en la provincia de Lima, Perú.",
+    "aboutTitle": "Límites de Ate: de Lurigancho-Chosica a Chaclacayo",
+    "about": "Ate, también llamado Ate Vitarte, es uno de los cuarenta y tres distritos que integran la provincia de Lima, Perú. El distrito se caracteriza por su ubicación estratégica y sus límites bien definidos. Limita al norte con el distrito de Lurigancho-Chosica; al este con el distrito de Chaclacayo; al sur con los distritos de Cieneguilla, Pachacámac y La Molina; al suroeste con los distritos de Santiago de Surco y San Borja; al oeste con los distritos de San Luis y El Agustino; y al noroeste con el distrito de Santa Anita y nuevamente con el distrito de El Agustino.\n\nEn la sala de chat de Ate los residentes y visitantes intercambian información sobre la vida cotidiana, servicios municipales, eventos locales y temas de interés general. La conversación suele girar en torno a la movilidad urbana, la oferta educativa, los comercios y la seguridad del barrio, ofreciendo a los participantes un espacio para plantear dudas y compartir experiencias."
+  },
+  {
+    "slug": "heroica-matamoros",
+    "name": "Heroica Matamoros",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 213,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "reynosa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Heroica Matamoros: conecta con residentes de la ciudad fronteriza al sur de la boca del río Bravo, con 510.739 habitantes según INEGI 2020.",
+    "aboutTitle": "Charla sobre el río Bravo y la zona metropolitana de Matamoros",
+    "about": "Heroica Matamoros es la cabecera del municipio homónimo en el estado de Tamaulipas, México. Según el Censo 2020 del INEGI, la ciudad cuenta con 510.739 habitantes, lo que la convierte en la segunda más poblada del estado. Se sitúa al sur de la boca del río Bravo, limitando con Brownsville, Texas, y forma parte de la tercera zona metropolitana de Tamaulipas, integrada en la 35.ª área metropolitana más poblada de México con 541.979 habitantes. La sede municipal se ubica en Calle 6a, entre González y Morelos, y el número de atención ciudadana es (868) 810 8000.\n\nEn la sala de chat de Heroica Matamoros los usuarios comparten información sobre trámites municipales, eventos locales y la vida cotidiana en la frontera. Se comentan noticias del sitio oficial, como el programa “Martes en tu Colonia”, una convocatoria semanal que aparece en los comunicados del ayuntamiento. Participan residentes, estudiantes y profesionales que buscan resolver dudas, intercambiar opiniones y mantenerse al día con los anuncios de la autoridad local."
+  },
+  {
+    "slug": "maipu-chile",
+    "name": "Maipú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 213,
+    "activity": "Alta",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "quillota",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Maipú, la segunda comuna más poblada de Chile con 503.635 habitantes, ubicada en el sector surponiente de Santiago, conecta con vecinos y temas locales",
+    "aboutTitle": "Maipú: segunda comuna más poblada de Chile",
+    "about": "Chat de Maipú es una sala de conversación online dedicada a la comuna de Maipú, en el sector surponiente de la ciudad de Santiago, Chile. Según el censo de 2024, Maipú cuenta con 503.635 habitantes, lo que la convierte en la segunda comuna más poblada del país después de Puente Alto. La comuna forma parte de la provincia de Santiago y pertenece a la Región Metropolitana. Su ubicación al suroeste del centro de Santiago le otorga una identidad urbana marcada por barrios residenciales y actividades comerciales.\n\nEn la sala de chat los participantes discuten temas como la vida cotidiana en Maipú, servicios municipales, transporte, eventos locales y cuestiones de seguridad. Se unen residentes, estudiantes, comerciantes y personas interesadas en la zona, intercambiando información, avisos y opiniones. La conversación se mantiene abierta y respetuosa, facilitando la conexión entre vecinos que buscan compartir experiencias y estar al día con lo que ocurre en su comunidad."
+  },
+  {
+    "slug": "florencio-varela-argentina",
+    "name": "Florencio Varela",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 207,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quilmes",
+      "lomas-de-zamora",
+      "lanus",
+      "argentina",
+      "buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Florencio Varela, partido de la provincia de Buenos Aires; su cabecera es la Ciudad de Florencio Varela, oficialmente San Juan Bautista.",
+    "aboutTitle": "Polideportivo La Patriada y la Ciudad de San Juan Bautista en Varela",
+    "about": "Florencio Varela es uno de los 135 partidos de la provincia de Buenos Aires. Su cabecera lleva el mismo nombre y está oficialmente denominada San Juan Bautista. En el municipio destacan equipamientos como el Polideportivo La Patriada, el Polideportivo Néstor Kirchner y el Parque Thevenet, además de un Mercado Municipal activo y una agenda de actividades gratuitas. La comunidad también cuenta con proyectos de desarrollo social, como el programa de tramitación gratuita de documentación que benefició a 200 vecinos recientemente. El servicio de radio en vivo y la plataforma Meteovarela ofrecen información meteorológica y de actualidad. El portal de empleo y el mercado municipal facilitan la búsqueda de trabajo y la compra de productos locales. Las redes municipales difunden noticias y eventos mediante hashtags como #ViviendasSociales y #Seguridad.\n\nEn la sala de chat de Florencio Varela los usuarios conversan sobre la vida cotidiana del partido, comparten información sobre los servicios municipales, eventos culturales y consultas sobre empleo, salud y seguridad. Participan residentes, estudiantes y personas interesadas en la zona que buscan intercambiar experiencias y recibir ayuda de otros vecinos."
+  },
+  {
+    "slug": "corrientes-provincia-de-corrientes",
+    "name": "Corrientes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 212,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Corrientes",
+    "regionSlug": "provincia-de-corrientes",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "resistencia",
+      "san-luis-del-palmar",
+      "saladas",
+      "bella-vista",
+      "general-jose-de-san-martin",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Conecta con Corrientes, capital del Nordeste argentino fundada en 1588, donde se habla de su costanera con desfibriladores y el certamen 'Jacinto Mamuh'.",
+    "aboutTitle": "Corrientes: costanera cardioprotegida y el certamen 'Jacinto Mamuh'",
+    "about": "Corrientes, fundada en 1588 por Juan Torres de Vera y Aragón, es la capital de la provincia homónima y un eje administrativo y cultural del Nordeste argentino. Destacan proyectos como la costanera cardioprotegida, con desfibriladores instalados en colaboración con el Rotary Club, y eventos como el certamen interbarrios 'Jacinto Mamuh', que en ediciones recientes ha llegado a barrios como San Gerónimo. La ciudad equilibra su patrimonio histórico con iniciativas modernas, desde obras de desagüe hasta alianzas con la provincia para impulsar turismo y cultura.\n\nEn la sala de chat de Corrientes se comentan las novedades locales: obras municipales, eventos interbarrios, gestiones del ayuntamiento o detalles de la costanera. Participan vecinos que buscan información, correntinos que viven fuera y mantienen el vínculo, y quienes simplemente quieren charlar sobre la ciudad."
+  },
+  {
+    "slug": "simon-bolivar-anzoategui",
+    "name": "Simón Bolívar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 155,
+    "votes": 266,
+    "activity": "Alta",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Anzoátegui",
+    "regionSlug": "anzoategui",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barcelona-venezuela",
+      "puerto-la-cruz",
+      "cumana",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Simón Bolívar, municipio más poblado de Anzoátegui y sede de Barcelona, capital del estado, punto de encuentro para residentes y visitantes.",
+    "aboutTitle": "Barcelona y el municipio más poblado de Anzoátegui",
+    "about": "Simón Bolívar es el municipio más poblado del Estado Anzoátegui, en el noreste de Venezuela. Su capital es Barcelona, la ciudad más grande de la región, y abarca una superficie de 1.706 km². Con una población de 520.122 habitantes, incluye zonas urbanas y menos densas. La diversidad de su territorio y su importancia en la región atraen a personas de distintos intereses y orígenes. En el Chat de Simón Bolívar se reúnen vecinos, estudiantes y personas vinculadas a la zona para hablar de la vida local, eventos en Barcelona, temas de la región y asuntos cotidianos. Es un espacio para quienes conocen el municipio o quieren informarse sobre él. En la sala, es común encontrar conversaciones sobre la historia y el desarrollo de la zona, así como discusiones sobre temas de actualidad y eventos culturales en Barcelona. También se comparten experiencias y consejos sobre la vida en el municipio, lo que la convierte en un punto de encuentro valioso para los interesados en Simón Bolívar."
+  },
+  {
+    "slug": "la-florida",
+    "name": "La Florida",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 146,
+    "votes": 254,
+    "activity": "Alta",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "maipu-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de La Florida: únete a la comunidad de la quinta comuna más poblada de Chile, con 374 863 habitantes, y comparte tu día a día en Santiago.",
+    "aboutTitle": "Los límites de La Florida con Macul, Peñalolén y San José de Maipo",
+    "about": "La Florida es una comuna ubicada en el sector suroriente de la ciudad de Santiago, la capital de Chile. Forma parte de la Provincia de Santiago y limita al norte con Macul y Peñalolén, al este con San José de Maipo, al sur con Puente Alto y al oeste con San Joaquín, La Granja y La Pintana. Durante los años 1980 y parte de los años 1990 fue la comuna más poblada del país. Actualmente cuenta con 374 863 habitantes y es la quinta más poblada de Chile tras Antofagasta, Puente Alto, Santiago y Maipú.\n\nEn la sala de chat de La Florida los residentes, estudiantes y trabajadores comparten información sobre el transporte, la seguridad, los colegios y los eventos locales. Se discuten los cambios en los barrios, los servicios municipales y las actividades recreativas, creando un espacio de intercambio para quienes viven o se desplazan por esta zona de la Región Metropolitana."
+  },
+  {
+    "slug": "santo-domingo-oeste",
+    "name": "Santo Domingo Oeste",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 237,
+    "activity": "Alta",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia Santo Domingo",
+    "regionSlug": "provincia-santo-domingo",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-rd",
+      "santo-domingo-este",
+      "bani",
+      "san-pedro-de-macorris",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat para vecinos de Santo Domingo Oeste, municipio dominicano separado del Distrito Nacional en 2001. Noticias, eventos y conversación local.",
+    "aboutTitle": "Un municipio joven: Santo Domingo Oeste desde 2001",
+    "about": "Santo Domingo Oeste es un municipio de la provincia de Santo Domingo, creado el 16 de octubre de 2001 por la Ley 163-01. La sala reúne a residentes que hablan de lo que pasa en la zona: noticias, problemas cotidianos o recomendaciones entre vecinos. Participan desde estudiantes hasta trabajadores que buscan información o compartir experiencias. Los temas dependen de lo que ocurra cada día, ya sea un evento local, un servicio municipal o anécdotas de la vida diaria. Es un espacio para mantener el contacto con la comunidad, sin más objetivo que conectar a quienes viven o pasan tiempo en el municipio."
+  },
+  {
+    "slug": "ventanilla-",
+    "name": "Ventanilla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 152,
+    "votes": 246,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "ate",
+      "huacho",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Ventanilla: espacio para conversar sobre el distrito más extenso de la provincia del Callao, que limita al sur con el río Chillón.",
+    "aboutTitle": "Río Chillón, límite sur del distrito de Ventanilla",
+    "about": "Ventanilla es un distrito de la provincia constitucional del Callao, en Perú. Es el distrito más extenso y el segundo más poblado de la provincia. Limita al norte con Santa Rosa y Ancón, al este con Mi Perú y Puente Piedra, al sur con el río Chillón, el distrito de San Martín de Porres y el distrito del Callao, y al oeste con el océano Pacífico.\n\nEn la sala de chat de Ventanilla se comentan temas cotidianos de los residentes, desde la vida en los barrios costeros hasta la actividad comercial y los servicios municipales. Participan vecinos, comerciantes y visitantes que buscan intercambiar información sobre trámites, eventos locales y la dinámica del distrito. La conversación gira en torno a la infraestructura, el acceso a la playa y la interacción con el entorno del Pacífico, ofreciendo un espacio de intercambio directo y práctico."
+  },
+  {
+    "slug": "santa-catarina",
+    "name": "Santa Catarina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 157,
+    "votes": 259,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nuevo León",
+    "regionSlug": "nuevo-leon",
+    "channels": [
+      "nuevo_leon",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "monterrey",
+      "guadalupe-nuevo-leon",
+      "saltillo",
+      "allende",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Santa Catarina: la sala de conversación para residentes de la Ciudad Santa Catarina, cabecera del municipio y la zona metropolitana de Monterrey.",
+    "aboutTitle": "Ciudad Santa Catarina, cabecera del municipio en Monterrey",
+    "about": "Santa Catarina, cuyo nombre completo es Ciudad Santa Catarina, es una ciudad mexicana situada en el estado de Nuevo León. Es la cabecera del municipio de Santa Catarina y forma parte de la Zona Metropolitana de Monterrey, lo que la sitúa en un importante eje urbano del norte del país. La localidad combina la vida urbana con la cercanía a áreas industriales y comerciales de la gran metrópolis, ofreciendo a sus habitantes acceso a servicios y a una red de transporte que la conecta con el resto de la región. \n\nEn la sala de chat de Santa Catarina se comentan temas de interés local: noticias municipales, eventos culturales, actividades deportivas y la vida cotidiana de los residentes. Participan vecinos, jóvenes y adultos que buscan intercambiar opiniones, organizar encuentros y mantenerse informados sobre lo que ocurre en su comunidad. La conversación se mantiene en tono respetuoso y centrado en la realidad de la ciudad, fomentando la participación ciudadana y el sentido de pertenencia."
+  },
+  {
+    "slug": "san-juan-sacatepequez",
+    "name": "San Juan Sacatepéquez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 218,
+    "activity": "Alta",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Guatemala",
+    "regionSlug": "departamento-de-guatemala",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mixco",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "antigua-guatemala",
+      "villa-nueva",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de San Juan Sacatepéquez, municipio de 242 km² en la zona metropolitana de Guatemala, celebra su fiesta patronal el 24 de junio.",
+    "aboutTitle": "Fiesta patronal del 24 de junio en San Juan Sacatepéquez",
+    "about": "San Juan Sacatepéquez es un municipio del departamento de Guatemala, ubicado en la región metropolitana de la República de Guatemala. Con sus 242 km², es uno de los municipios más grandes del departamento, lo que le confiere una importante presencia territorial. La localidad celebra su fiesta patronal el 24 de junio, una fecha señalada en el calendario local que reúne a la comunidad en actividades tradicionales. El municipio cuenta con una diversidad de barrios que refleja la mezcla de tradiciones rurales y la influencia urbana de la capital.\n\nEn la sala de chat de San Juan Sacatepéquez se intercambian noticias del municipio, comentarios sobre la fiesta del 24 de junio, información sobre servicios municipales y preguntas sobre la vida cotidiana en la zona metropolitana. Participan residentes, vecinos y personas interesadas en la comunidad, lo que crea un espacio de conversación directo y centrado en temas locales. Los usuarios comparten avisos de eventos, consultas sobre trámites y recomendaciones de lugares de visita dentro del municipio."
+  }
 ];

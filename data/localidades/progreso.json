@@ -14,7 +14,19 @@
   "hidalgo-michoacan",
   "lima-metropolitana",
   "palermo-colombia",
-  "palermo"
+  "palermo",
+  "abasto",
+  "ate",
+  "heroica-matamoros",
+  "maipu-chile",
+  "florencio-varela-argentina",
+  "corrientes-provincia-de-corrientes",
+  "simon-bolivar-anzoategui",
+  "la-florida",
+  "santo-domingo-oeste",
+  "ventanilla-",
+  "santa-catarina",
+  "san-juan-sacatepequez"
  ],
  "descartadas": [
   {
@@ -106,6 +118,76 @@
    "slug": "santa-catarina",
    "razon": "sin fuente utilizable",
    "fecha": "2026-08-06"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"de los cuarenta y tres distritos que\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "area-metropolitana-de-piura",
+   "razon": "rechazada tras corrección: Se menciona que el área metropolitana 'superando el umbral de 500.001 residentes que define a una metrópoli peruana', lo que no se menciona en la fuente original. La fuente solo menciona que se consid",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-san-martin",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-carabayllo",
+   "razon": "rechazada tras corrección: El territorio se caracteriza por su ubicación entre la zona urbana de la capital y áreas más rurales de la sierra, lo que le confiere una diversidad de paisajes y usos del suelo.; La población combina",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "corrientes",
+   "razon": "fraseo calcado de tolu: \"lo que la convierte en la ciudad\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de chorrillos: \"con barranco y santiago de surco al\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-san-miguel",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-jose-c-paz",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"de los 135 partidos de la provincia\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "ventanilla",
+   "razon": "fraseo calcado de ventanilla-: \"de la provincia constitucional del callao en\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-lurigancho-chosica",
+   "razon": "controles de calidad: intro/meta de 199 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "rechazada tras corrección: Afirma que San Bernardo \"le da un carácter de centro político y de servicios para los municipios aledaños\", dato no respaldado por la fuente.; Afirma que su ubicación \"la convierte en un punto de paso",
+   "fecha": "2026-08-07"
   }
  ]
 }
