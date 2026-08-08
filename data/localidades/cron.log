@@ -105,3 +105,36 @@
 [2026-08-07T03:50:04.471Z]   ✗ san-bernardo-chile: rechazada tras corrección: Afirma que San Bernardo "le da un carácter de centro político y de servicios para los municipios aledaños", dato no respaldado por la fuente.; Afirma que su ubicación "la convierte en un punto de paso
 [2026-08-07T03:50:09.573Z]   ✓ san-juan-sacatepequez (Guatemala) — escribió Cerebras, verificó Mistral
 [2026-08-07T03:50:09.576Z] publicadas 12 salas · acumuladas 26 · quedan 2956 en cola
+[2026-08-08T03:40:05.717Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-08T03:40:05.724Z] cola: 2954 pendientes · lote de hoy: 12
+[2026-08-08T03:40:14.162Z]   ✗ distrito-de-comas: fraseo calcado de ate: "distritos que integran la provincia de lima"
+[2026-08-08T03:40:18.321Z]   ✗ area-metropolitana-de-piura: fraseo calcado de florencio-varela-argentina: "participan residentes estudiantes y personas interesadas en"
+[2026-08-08T03:40:24.177Z]   ✗ partido-de-san-martin: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-08T03:40:37.201Z]   ✓ distrito-de-carabayllo (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:41:01.880Z]   ✗ distrito-de-puente-piedra: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 159 (line 1 column 160)
+[2026-08-08T03:44:24.426Z]   ✗ distrito-de-chorrillos: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:44:41.989Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:44:46.714Z]   ✗ partido-de-san-miguel: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-08T03:44:49.518Z]   ✓ partido-de-jose-c-paz (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:45:04.655Z]   ✗ carabayllo: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:45:08.839Z]   ✓ distrito-de-lurigancho-chosica (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:45:13.898Z]   ✗ san-bernardo-chile: controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); intro/meta de 54 caracteres (debe estar entre 110 y 160)
+[2026-08-08T03:45:22.955Z]   ✗ los-alcarrizos: controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-08-08T03:47:47.586Z]   ✓ escobar (Argentina) — escribió Cerebras, verificó NVIDIA
+[2026-08-08T03:47:56.079Z]   ✗ partido-de-escobar: fraseo calcado de escobar: "la localidad de belen de escobar esta"
+[2026-08-08T03:48:00.568Z]   ✓ turmero (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:48:04.728Z]   ✓ gregorio-de-laferrere (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:48:10.831Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:48:35.005Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-08T03:49:47.313Z]   ✗ gonzalez-catan: rechazada tras corrección: Se menciona información no respaldada por el material de origen: 'vida cotidiana, los servicios municipales, el comercio local y las problemáticas que afectan a la comunidad', 'movilidad, los colegios
+[2026-08-08T03:49:53.854Z]   ✓ monclova (México) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:50:03.403Z]   ✗ centurion: rechazada tras corrección: La ficha menciona 'Departamento de Cerro Largo, Uruguay' en el encabezado, lo que contradice directamente el material de origen (Centurion está en Sudáfrica, provincia de Gauteng).; La ficha incluye d
+[2026-08-08T03:50:04.188Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-08T03:50:08.947Z]   ✓ carlos-manuel-de-cespedes (Cuba) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:50:45.081Z]   ✓ jose-c-paz (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:51:06.498Z]   ✗ jose-c-paz-provincia-de-buenos-aires: fraseo calcado de jose-c-paz: "jose c paz es una ciudad y"
+[2026-08-08T03:51:17.387Z]   ✗ cua: rechazada tras corrección: La ficha indica que Cúa pertenece al Estado Aragua, cuando el material de origen especifica que es del Estado Miranda.
+[2026-08-08T03:51:29.131Z]   ✓ warnes (Bolivia) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:52:53.287Z]   ✓ marino (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-08T03:52:58.988Z]   ✓ mara (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:52:58.992Z] publicadas 12 salas · acumuladas 38 · quedan 2942 en cola

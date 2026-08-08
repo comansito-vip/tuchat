@@ -765,5 +765,361 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de San Juan Sacatepéquez, municipio de 242 km² en la zona metropolitana de Guatemala, celebra su fiesta patronal el 24 de junio.",
     "aboutTitle": "Fiesta patronal del 24 de junio en San Juan Sacatepéquez",
     "about": "San Juan Sacatepéquez es un municipio del departamento de Guatemala, ubicado en la región metropolitana de la República de Guatemala. Con sus 242 km², es uno de los municipios más grandes del departamento, lo que le confiere una importante presencia territorial. La localidad celebra su fiesta patronal el 24 de junio, una fecha señalada en el calendario local que reúne a la comunidad en actividades tradicionales. El municipio cuenta con una diversidad de barrios que refleja la mezcla de tradiciones rurales y la influencia urbana de la capital.\n\nEn la sala de chat de San Juan Sacatepéquez se intercambian noticias del municipio, comentarios sobre la fiesta del 24 de junio, información sobre servicios municipales y preguntas sobre la vida cotidiana en la zona metropolitana. Participan residentes, vecinos y personas interesadas en la comunidad, lo que crea un espacio de conversación directo y centrado en temas locales. Los usuarios comparten avisos de eventos, consultas sobre trámites y recomendaciones de lugares de visita dentro del municipio."
+  },
+  {
+    "slug": "distrito-de-carabayllo",
+    "name": "Distrito de Carabayllo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 241,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "huacho",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Distrito de Carabayllo, uno de los 43 distritos que integran la provincia de Lima en Perú, espacio para conversar sobre su vida y entorno.",
+    "aboutTitle": "Limita al norte con Santa Rosa de Quives (provincia de Canta)",
+    "about": "El distrito de Carabayllo, también escrito como Carabaýllo, forma parte de los 43 distritos que integran la provincia de Lima, en el departamento homónimo del Perú. Limita al norte y noreste con Santa Rosa de Quives (provincia de Canta), al este con San Antonio de Chaclla (provincia de Huarochirí), al sureste con San Juan de Lurigancho, al sur con Comas y al oeste con los distritos de Puente Piedra y Ancón. Su posición geográfica lo sitúa entre zonas urbanas y rurales, ofreciendo una mezcla de áreas residenciales y agrícolas.\n\nEn la sala de chat de Distrito de Carabayllo los vecinos, comerciantes y estudiantes comparten información sobre servicios locales, eventos comunitarios y problemáticas cotidianas. Se discuten temas como el acceso a transporte, la seguridad en los barrios, y las iniciativas de mejora urbana. La conversación está abierta a cualquier persona que tenga vínculo con el distrito y busca intercambiar experiencias o recibir recomendaciones."
+  },
+  {
+    "slug": "partido-de-jose-c-paz",
+    "name": "Partido de José C. Paz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 144,
+    "votes": 231,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merlo",
+      "tigre",
+      "moron",
+      "san-isidro",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Partido de José C. Paz: conecta con vecinos del partido ubicado a 40 km de la Ciudad Autónoma de Buenos Aires, en el noroeste del Gran Buenos Aires.",
+    "aboutTitle": "En el noroeste del Gran Buenos Aires",
+    "about": "El Partido de José C. Paz es uno de los 135 partidos que conforman la provincia de Buenos Aires. Se sitúa en el noroeste del Gran Buenos Aires, a unos 40 kilómetros de la Ciudad Autónoma de Buenos Aires, lo que lo convierte en una zona de transición entre la capital y la zona interior. Su territorio combina áreas residenciales con sectores industriales y cuenta con una infraestructura de servicios que incluye escuelas, centros de salud y espacios recreativos.\n\nEn la sala de chat de Partido de José C. Paz los residentes intercambian información sobre el tránsito, los comercios locales, actividades vecinales y cualquier tema de interés cotidiano. Participan vecinos, estudiantes, trabajadores y recién llegados que buscan conocer mejor su entorno o compartir experiencias. El espacio sirve como punto de referencia para preguntar sobre horarios de transporte, avisar sobre eventos en la comunidad y organizar encuentros informales, manteniendo viva la conversación entre quienes forman parte del partido."
+  },
+  {
+    "slug": "distrito-de-lurigancho-chosica",
+    "name": "Distrito de Lurigancho-Chosica",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 245,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "distrito-de-carabayllo",
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Distrito de Lurigancho-Chosica, ubicado en la zona este de Lima dentro de la cuenca media del río Rímac, con población de 303.966 en 2023.",
+    "aboutTitle": "Conversaciones en la cuenca del río Rímac de Lurigancho-Chosica",
+    "about": "El distrito de Lurigancho-Chosica, conocido también como Chosica, forma parte de los cuarenta y tres distritos de la provincia de Lima. Se sitúa en la zona este de la capital, limitando al norte con San Antonio de Chaclla, al este con Santa Eulalia y Ricardo Palma, al sureste con Antioquía, al sur con Chaclacayo, Ate y El Agustino, y al oeste con San Juan de Lurigancho. Además, está en la cuenca media del río Rímac, lo que le confiere una geografía característica y una población de 303.966 habitantes según el censo de 2023. \n\nEn la sala de chat de Distrito de Lurigancho-Chosica se discuten temas de interés local: noticias municipales, trámites de la Municipalidad Distrital, eventos culturales y deportivos, y cuestiones cotidianas de los vecinos. La conversación está abierta a residentes, comerciantes y cualquier persona vinculada al distrito que quiera intercambiar información, resolver dudas o compartir experiencias sobre la vida en Chosica."
+  },
+  {
+    "slug": "escobar",
+    "name": "Escobar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 202,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "partido-de-jose-c-paz",
+      "tigre",
+      "san-isidro",
+      "merlo",
+      "moron",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Escobar: conecta con vecinos del norte del Gran Buenos Aires, donde el municipio alcanzó 70% de efectividad contra microbasurales (7 agosto 2026).",
+    "aboutTitle": "Escobar y la herramienta digital Escobar 360 para trámites",
+    "about": "Escobar es un partido de la provincia de Buenos Aires, cuya cabecera es la localidad de Belén de Escobar. Está en el borde norte del Gran Buenos Aires y forma parte del conurbano bonaerense, limitando con los partidos de Campana, Pilar, Malvinas Argentinas y Tigre. Con una población considerable, es una de las áreas con mayor crecimiento demográfico de la zona.\n\nEn la sala de chat de Escobar los vecinos intercambian información sobre los servicios municipales, como la plataforma Escobar 360 que centraliza trámites y permite participar en el programa de Presupuesto Participativo. También se comenta la agenda cultural, por ejemplo el concierto de Teresa Parodi y la feria Kamogelo anunciados para el 7 agosto 2026, y se comparte la noticia de que el municipio superó el 70 % de efectividad en la erradicación de microbasurales el mismo día. La conversación se centra en temas cotidianos, iniciativas de sostenibilidad y eventos locales, atrayendo a residentes de Belén de Escobar y de los barrios colindantes."
+  },
+  {
+    "slug": "turmero",
+    "name": "Turmero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 246,
+    "activity": "Alta",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Aragua",
+    "regionSlug": "aragua",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maracay",
+      "san-juan-de-los-morros",
+      "los-teques",
+      "valencia-venezuela",
+      "puerto-cabello",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Turmero, la localidad capital del municipio Santiago Mariño, a 102 km de Caracas y con 211.010 habitantes según el Censo 2011.",
+    "aboutTitle": "Turmero, capital del municipio Santiago Mariño, a 102 km de Caracas",
+    "about": "Turmero es la capital del Municipio Santiago Mariño, situada en la Región Central de Venezuela y formando parte del Área metropolitana de Maracay. Con una población de 211.010 habitantes según el censo de 2011, se ubica a 102 km de la capital, Caracas, y destaca por su posición estratégica dentro del estado Aragua. La localidad combina zonas residenciales con actividades comerciales y es un punto de referencia para los habitantes de la zona norte del país.\\n\\nEn la sala de chat de Turmero los usuarios conversan sobre la vida cotidiana de la ciudad, eventos locales, noticias del municipio y temas de interés general. Participan residentes, jóvenes y adultos que buscan compartir opiniones, preguntar sobre servicios municipales o simplemente intercambiar ideas sobre la cultura y el día a día en Turmero."
+  },
+  {
+    "slug": "gregorio-de-laferrere",
+    "name": "Gregorio de Laferrere",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moron",
+      "merlo",
+      "lomas-de-zamora",
+      "lanus",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Gregorio de Laferrere, localidad del partido La Matanza a 13 km del acceso a la Ciudad Autónoma de Buenos Aires, para compartir noticias y charlar.",
+    "aboutTitle": "A 13 km del acceso a la Ciudad de Buenos Aires, en La Matanza",
+    "about": "Gregorio de Laferrere es una localidad del partido de La Matanza, en la provincia de Buenos Aires, que forma parte del aglomerado urbano del Gran Buenos Aires (AMBA). Se encuentra ubicada a 13 km de su acceso más cercano a la Ciudad Autónoma de Buenos Aires, accediendo vía la Autopista Teniente General Pablo Ricchieri. La zona combina la vida residencial típica de la zona sur del conurbano con la cercanía a la capital, lo que le confiere una dinámica propia dentro del conurbado porteño.\n\nEn la sala de chat de Gregorio de Laferrere se discuten asuntos cotidianos de la comunidad: eventos locales, transporte, comercio, deportes y temas de interés general. Participan residentes, estudiantes, trabajadores que se desplazan a la capital y cualquier persona que busque información o compañía relacionada con la vida en esta zona del AMBA. El tono es informal y cercano, facilitando el intercambio de experiencias y la organización de encuentros entre los vecinos."
+  },
+  {
+    "slug": "monclova",
+    "name": "Monclova",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 154,
+    "votes": 262,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Monclova, la Capital del Acero, reúne a residentes de la ciudad de 237.169 habitantes para conversar sobre su historia, cultura y actualidad.",
+    "aboutTitle": "Monclova, la Capital del Acero y su industria siderúrgica",
+    "about": "Monclova está situada en la región central del estado de Coahuila, al norte de México, a una altitud de 600 metros sobre el nivel del mar y con una densidad de 146.1 hab/km². Con una población de 237.169 habitantes, la ciudad destaca por ser la mayor productora de acero de México y Latinoamérica, lo que le valió el sobrenombre de La Capital del Acero. Su zona metropolitana, integrada por los municipios de Frontera, Castaños y San Buenaventura, supera los 374.247 habitantes, consolidando un importante polo industrial y comercial.\n\nEn la sala \"Chat de Monclova\" se discuten temas cotidianos y de interés local: la vida en la zona industrial, eventos culturales, noticias municipales y el desarrollo urbano que impulsa la administración. Participan moncloveños de distintas edades, trabajadores del sector siderúrgico, estudiantes y personas que buscan información sobre servicios municipales. El intercambio se centra en la experiencia de vivir en una ciudad marcada por la producción de acero, su identidad y los retos de su crecimiento."
+  },
+  {
+    "slug": "carlos-manuel-de-cespedes",
+    "name": "Carlos Manuel de Céspedes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 211,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Camagüey",
+    "regionSlug": "provincia-de-camaguey",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "camaguey",
+      "ciego-de-avila",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Carlos Manuel de Céspedes, que inició la Guerra de los Diez Años el 10 de octubre de 1868, y donde se debate su papel como padre de la Patria.",
+    "aboutTitle": "Guerra de los Diez Años y legado de Carlos Manuel de Céspedes",
+    "about": "La sala de chat de Carlos Manuel de Céspedes es un espacio virtual destinado a los habitantes y a los interesados de la localidad homónima, situada en la provincia de Camagüey, Cuba. El objetivo es ofrecer un punto de encuentro donde se comparten recuerdos, información y opiniones sobre la historia y la vida cotidiana del municipio.\n\nEn la conversación se analizan episodios clave de la figura de Carlos Manuel de Céspedes, como su papel en la Guerra de los Diez Años, su cargo como mayor general del Ejército Libertador y su breve presidencia de la República de Cuba en Armas. Participan residentes, estudiantes, historiadores y cualquier persona que quiera profundizar en su legado, intercambiando puntos de vista y datos relevantes sin caer en conjeturas. La sala mantiene un tono directo y basado en hechos verificables, fomentando un intercambio respetuoso y centrado en la memoria histórica del país. El espacio está abierto a todo público."
+  },
+  {
+    "slug": "jose-c-paz",
+    "name": "José C. Paz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "partido-de-jose-c-paz",
+      "merlo",
+      "escobar",
+      "tigre",
+      "moron",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de José C. Paz: conecta con vecinos de la ciudad, ubicada en el oeste del Buenos Aires, en la provincia de Buenos Aires, a 40 km de la Ciudad Autónoma.",
+    "aboutTitle": "Límites con San Miguel, Los Polvorines y Grand Bourg",
+    "about": "José C. Paz es una ciudad y cabecera del partido homónimo, ubicada en el oeste del Gran Buenos Aires, a aproximadamente 40 km de la Ciudad Autónoma de Buenos Aires. No está subdividida en localidades; la ciudad comprende toda la municipalidad y se organiza en barrios. Limita con San Miguel (partido de San Miguel), Los Polvorines, Grand Bourg y Tortuguitas (partido de Malvinas Argentinas), con Del Viso, La Lonja y Presidente Derqui (partido del Pilar) y con Cuartel V (partido de Moreno). \nEn la sala de chat de José C. Paz los usuarios comparten información sobre la cotidianidad del barrio, anuncian eventos locales, discuten temas de transporte, educación y seguridad, y se apoyan en la organización de actividades vecinales. Participan residentes, jóvenes, familias y comerciantes que buscan intercambiar opiniones y recibir respuestas rápidas a sus consultas. La conversación se mantiene centrada en la realidad del municipio, sin desviarse a temas ajenos al entorno inmediato."
+  },
+  {
+    "slug": "warnes",
+    "name": "Warnes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 241,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de Santa Cruz",
+    "regionSlug": "departamento-de-santa-cruz",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "montero",
+      "santa-cruz-de-la-sierra",
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Warnes: conecta con la comunidad de la ciudad de 214.216 habitantes, ubicada a 30 km al norte de Santa Cruz de la Sierra, en Bolivia.",
+    "aboutTitle": "A 30 km al norte de Santa Cruz de la Sierra, Warnes",
+    "about": "Warnes es una ciudad y municipio boliviano, capital de la provincia homónima en el departamento de Santa Cruz. Se sitúa a 30 km al norte de Santa Cruz de la Sierra, a una altitud de 340 m sobre el nivel del mar, y cuenta con 214.216 habitantes según el censo de 2020. Forma parte del área metropolitana de la capital santacruceña, lo que le brinda acceso a servicios urbanos y a una infraestructura creciente.\n\nEn la sala “Chat de Warnes” los usuarios comentan la vida cotidiana de la ciudad, desde el comercio local y las actividades del mercado hasta los eventos municipales. Entre ellos se menciona la invitación a la Rendición Pública de Cuentas prevista para el lunes 30 de marzo de 2026 en el Centro de Convenciones Mario Paniagua (Ex‑IPD). Participan residentes, estudiantes, comerciantes y visitantes que comparten información, hacen preguntas y organizan encuentros virtuales, creando una comunidad digital que refleja la dinámica de Warnes en línea."
+  },
+  {
+    "slug": "marino",
+    "name": "Mariño",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 153,
+    "votes": 253,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Aragua",
+    "regionSlug": "aragua",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "turmero",
+      "maracay",
+      "los-teques",
+      "san-juan-de-los-morros",
+      "puerto-cabello",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Mariño, municipio del estado Aragua en Venezuela, con 497 km² y 224.880 habitantes, es la segunda población más grande del estado.",
+    "aboutTitle": "Santiago Mariño: el segundo municipio más poblado de Aragua",
+    "about": "Chat de Mariño es la sala destinada a los habitantes y simpatizantes del municipio de Santiago Mariño, situado al norte del estado Aragua, Venezuela. El municipio forma parte de los 18 que integran Aragua, cuenta con una superficie de 497 km² y alberga a 224.880 personas, lo que lo convierte en el segundo municipio más poblado de la entidad. Su capital es la ciudad de Turmero, centro administrativo y comercial que reúne los servicios principales del territorio.\n\nEn la sala se comentan noticias locales, la agenda de eventos y las problemáticas cotidianas que afectan a la comunidad. Los usuarios comparten información sobre el mercado semanal, las actividades culturales y cualquier novedad que interese a los residentes de Turmero y de los alrededores. La conversación es abierta, sin filtros, y permite a vecinos y a personas interesadas intercambiar opiniones, organizar encuentros y mantenerse al día con lo que ocurre en el municipio."
+  },
+  {
+    "slug": "mara",
+    "name": "Mara",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 138,
+    "votes": 235,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Zulia",
+    "regionSlug": "zulia",
+    "channels": [
+      "zulia",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maracaibo",
+      "maicao",
+      "cabimas",
+      "albania",
+      "barrancas",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Mara: la sala para conversar sobre el municipio zuliés, uno de los 21 que forman Zulia y cuya capital es San Rafael del El Moján.",
+    "aboutTitle": "Mara y su capital San Rafael del El Moján",
+    "about": "Mara es uno de los 21 municipios que conforman al estado Zulia, en Venezuela. Forma parte del Área metropolitana de Maracaibo y su capital es San Rafael del El Moján. El municipio cuenta con iniciativas como el Plan Quirúrgico Nacional, que el 9 de diciembre de 2023 benefició a niños y niñas en el Hospital I San Rafael de Mara, y la entrega de 45 transformadores que mejoraron el suministro eléctrico a 500 familias en cinco parroquias.\n\nEn la sala Chat de Mara los usuarios comparten información sobre la vida cotidiana del municipio, desde eventos locales y servicios municipales hasta temas de salud, educación y comercio. Participan residentes de San Rafael del El Moján, vecinos de las parroquias y personas interesadas en la zona metropolitana de Maracaibo que buscan intercambiar experiencias y estar al día con las noticias del ayuntamiento. También se discuten los resultados del Congreso Historiográfico marense y las iniciativas de la alcaldía, como la nueva estación policial en La Sierrita y los programas de distribución de alimentos a comunidades indígenas."
   }
 ];

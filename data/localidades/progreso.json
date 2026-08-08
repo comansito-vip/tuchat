@@ -26,7 +26,19 @@
   "santo-domingo-oeste",
   "ventanilla-",
   "santa-catarina",
-  "san-juan-sacatepequez"
+  "san-juan-sacatepequez",
+  "distrito-de-carabayllo",
+  "partido-de-jose-c-paz",
+  "distrito-de-lurigancho-chosica",
+  "escobar",
+  "turmero",
+  "gregorio-de-laferrere",
+  "monclova",
+  "carlos-manuel-de-cespedes",
+  "jose-c-paz",
+  "warnes",
+  "marino",
+  "mara"
  ],
  "descartadas": [
   {
@@ -188,6 +200,96 @@
    "slug": "san-bernardo-chile",
    "razon": "rechazada tras corrección: Afirma que San Bernardo \"le da un carácter de centro político y de servicios para los municipios aledaños\", dato no respaldado por la fuente.; Afirma que su ubicación \"la convierte en un punto de paso",
    "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"distritos que integran la provincia de lima\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "area-metropolitana-de-piura",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"participan residentes estudiantes y personas interesadas en\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-san-martin",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 159 (line 1 column 160)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-san-miguel",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); intro/meta de 54 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de escobar: \"la localidad de belen de escobar esta\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "rechazada tras corrección: Se menciona información no respaldada por el material de origen: 'vida cotidiana, los servicios municipales, el comercio local y las problemáticas que afectan a la comunidad', 'movilidad, los colegios",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: La ficha menciona 'Departamento de Cerro Largo, Uruguay' en el encabezado, lo que contradice directamente el material de origen (Centurion está en Sudáfrica, provincia de Gauteng).; La ficha incluye d",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "jose-c-paz-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de jose-c-paz: \"jose c paz es una ciudad y\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: La ficha indica que Cúa pertenece al Estado Aragua, cuando el material de origen especifica que es del Estado Miranda.",
+   "fecha": "2026-08-08"
   }
  ]
 }
