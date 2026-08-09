@@ -38,7 +38,19 @@
   "jose-c-paz",
   "warnes",
   "marino",
-  "mara"
+  "mara",
+  "area-metropolitana-de-piura",
+  "partido-de-san-martin",
+  "partido-de-san-miguel",
+  "arroyo-naranjo",
+  "boyeros",
+  "cabo-san-lucas",
+  "guacara",
+  "tocuyito",
+  "cuautla",
+  "la-pintana",
+  "ciudad-valles",
+  "lujan-de-cuyo"
  ],
  "descartadas": [
   {
@@ -290,6 +302,91 @@
    "slug": "cua",
    "razon": "rechazada tras corrección: La ficha indica que Cúa pertenece al Estado Aragua, cuando el material de origen especifica que es del Estado Miranda.",
    "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"de los cuarenta y tres distritos que\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"la provincia de lima en el departamento\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"forma parte de los 43 distritos que\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "fraseo calcado de partido-de-jose-c-paz: \"combina areas residenciales con sectores industriales y\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "fraseo calcado de la-llagosta: \"lo que lo convierte en uno de\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: Confusión de localidad: la ficha indica que Centurion pertenece al Departamento de Cerro Largo, Uruguay, aunque la fuente describe Centurion en la provincia sudafricana de Gauteng.",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: La ficha menciona que Cúa está en el Estado Aragua, cuando en realidad está en el Estado Miranda; La ficha menciona que la ciudad es un 'punto de referencia dentro de la región, ofreciendo servicios u",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "la-guaira",
+   "razon": "inventa cuándo se anima la sala",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "partido-de-ezeiza",
+   "razon": "rechazada tras corrección: La ficha menciona que el partido de Ezeiza se separó 'de los partidos de Esteban Echeverría y de Ezeiza', lo cual es contradictorio. Según la fuente, se subdividieron los partidos de Esteban Echeverrí",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "paez-venezuela",
+   "razon": "controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "san-luis-rio-colorado",
+   "razon": "fraseo calcado de heroica-matamoros: \"la cabecera del municipio homonimo en el\"",
+   "fecha": "2026-08-09"
   }
  ]
 }

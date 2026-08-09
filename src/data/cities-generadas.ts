@@ -1121,5 +1121,361 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de Mara: la sala para conversar sobre el municipio zuliés, uno de los 21 que forman Zulia y cuya capital es San Rafael del El Moján.",
     "aboutTitle": "Mara y su capital San Rafael del El Moján",
     "about": "Mara es uno de los 21 municipios que conforman al estado Zulia, en Venezuela. Forma parte del Área metropolitana de Maracaibo y su capital es San Rafael del El Moján. El municipio cuenta con iniciativas como el Plan Quirúrgico Nacional, que el 9 de diciembre de 2023 benefició a niños y niñas en el Hospital I San Rafael de Mara, y la entrega de 45 transformadores que mejoraron el suministro eléctrico a 500 familias en cinco parroquias.\n\nEn la sala Chat de Mara los usuarios comparten información sobre la vida cotidiana del municipio, desde eventos locales y servicios municipales hasta temas de salud, educación y comercio. Participan residentes de San Rafael del El Moján, vecinos de las parroquias y personas interesadas en la zona metropolitana de Maracaibo que buscan intercambiar experiencias y estar al día con las noticias del ayuntamiento. También se discuten los resultados del Congreso Historiográfico marense y las iniciativas de la alcaldía, como la nueva estación policial en La Sierrita y los programas de distribución de alimentos a comunidades indígenas."
+  },
+  {
+    "slug": "area-metropolitana-de-piura",
+    "name": "Área Metropolitana de Piura",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 248,
+    "activity": "Alta",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Piura",
+    "regionSlug": "departamento-de-piura",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Área Metropolitana de Piura: conecta con usuarios de la quinta urbe metropolitana más grande del Perú, situada en el norte del país.",
+    "aboutTitle": "Los distritos de Piura, Veintiséis de Octubre, Castilla y Catacaos",
+    "about": "Piura Metropolitana es un área metropolitana peruana situada en el departamento de Piura, al norte del país. Según el Plan de Desarrollo Urbano, comprende los centros urbanos de los distritos de Piura, Veintiséis de Octubre, Castilla y Catacaos, y sus respectivos centros poblados. Al superar los 500.001 habitantes y contar con planes de acondicionamiento y desarrollo metropolitano, se considera una metrópolis peruana, y ocupa el puesto de quinta urbe metropolitana más grande y poblada del Perú, detrás de Lima, Arequipa, Trujillo y Chiclayo. En la sala de chat de Área Metropolitana de Piura se discuten temas locales como la dinámica urbana de los cuatro distritos, proyectos de infraestructura, actividades culturales y el comercio regional. Participan residentes, estudiantes y profesionales que comparten información, preguntas y opiniones sobre la vida cotidiana en la zona, así como noticias relevantes del departamento de Piura. El intercambio se mantiene centrado en la realidad del área metropolitana, ofreciendo un espacio de conversación concreto y actualizado para quienes viven o tienen interés en la región."
+  },
+  {
+    "slug": "partido-de-san-martin",
+    "name": "Partido de San Martín",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 150,
+    "votes": 245,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-isidro",
+      "moron",
+      "argentina",
+      "buenos-aires",
+      "tigre",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Partido de San Martín, uno de los 135 partidos de la provincia de Buenos Aires, situado al norte del Gran Buenos Aires y cercano a la capital",
+    "aboutTitle": "San Martín en el Gran Buenos Aires",
+    "about": "El Partido de San Martín es una jurisdicción ubicada en la zona norte del Gran Buenos Aires, limita con los partidos de Vicente López y San Isidro al este, Tigre al norte, San Miguel y Tres de Febrero al oeste, y la Ciudad Autónoma de Buenos Aires al sur. En esta sala de chat, los habitantes de Partido de San Martín y personas interesadas en la región pueden conversar sobre diversos temas, intercambiar ideas y conocerse entre sí. Se tratan asuntos cotidianos como la vida en el partido, sus lugares de interés, eventos y actividades, pero también se abordan preguntas sobre comercios locales, colegios, transporte público y la historia del territorio. Los usuarios comparten experiencias personales, opiniones sobre la zona y recomendaciones para visitar o disfrutar de los espacios comunes. La conversación es abierta y respetuosa, permitiendo que tanto residentes como visitantes intercambien información útil y establezcan contactos. La sala funciona como un punto de encuentro virtual donde se fomenta la participación activa y el intercambio de conocimientos sobre Partido de San Martín."
+  },
+  {
+    "slug": "partido-de-san-miguel",
+    "name": "Partido de San Miguel",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 223,
+    "activity": "Alta",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merlo",
+      "moron",
+      "partido-de-san-martin",
+      "tigre",
+      "san-isidro",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat del Partido de San Miguel, en el noroeste del Gran Buenos Aires, a 33 km de Buenos Aires, y colinda con Tigre y San Martín",
+    "aboutTitle": "Drones municipales y cultura en el noroeste del Gran Buenos Aires",
+    "about": "El Partido de San Miguel forma parte del Gran Buenos Aires y está integrado a la aglomeración urbana. Limita con los partidos de Tigre, San Martín, Tres de Febrero, Hurlingham, Ituzaingó, Moreno, José C. Paz y Malvinas Argentinas. El municipio ofrece servicios que van desde reciclaje hasta programas para emprendedores, salud, educación y empleo.\n\nEn el Chat de Partido de San Miguel se habla de trámites locales como licencias de conducir o estacionamiento medido, eventos culturales en La Fábrica del Arte y actividades como la carrera “Pasos adelante”. Los participantes intercambian información sobre horarios de atención, requisitos y experiencias en la gestión de dichos trámites. También se comentan iniciativas municipales, como la División de Vigilancia Aérea con drones para patrullajes, y se difunden avisos de eventos organizados por la municipalidad. Quienes participan suelen ser residentes o personas vinculadas al distrito por trabajo o estudio, y utilizan la sala para mantenerse al día con noticias locales y compartir recursos útiles."
+  },
+  {
+    "slug": "arroyo-naranjo",
+    "name": "Arroyo Naranjo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de La Habana",
+    "regionSlug": "provincia-de-la-habana",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuba",
+      "la-habana",
+      "matanzas",
+      "cardenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Arroyo Naranjo, municipio que representa el 11 % del territorio de la provincia de La Habana, Cuba.",
+    "aboutTitle": "Arroyo Naranjo, un municipio con tradición agrícola",
+    "about": "Arroyo Naranjo es un municipio ubicado en la provincia de La Habana, Cuba. Tiene una extensión territorial de 83 km², lo que representa el 11 % del total del territorio de la provincia. Esta localidad dedica un 36 % de sus tierras a uso agrícola, mientras que el resto se destina a otras actividades no agrícolas.\n\nEn la sala de chat de Arroyo Naranjo, los usuarios pueden conversar sobre temas relacionados con la vida en este municipio, compartir experiencias y conocimientos sobre la agricultura y las actividades económicas de la zona. La sala es un espacio abierto para que los residentes y visitantes de Arroyo Naranjo se conecten y compartan ideas."
+  },
+  {
+    "slug": "boyeros",
+    "name": "Boyeros",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 139,
+    "votes": 238,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de La Habana",
+    "regionSlug": "provincia-de-la-habana",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arroyo-naranjo",
+      "cuba",
+      "la-habana",
+      "matanzas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Boyeros, la sala para conversar sobre el municipio de La Habana fundado en 1976, ubicado al suroeste y cerca del Aeropuerto José Martí.",
+    "aboutTitle": "Boyeros, municipio fundado en 1976 y vecino del Aeropuerto José Martí",
+    "about": "Boyeros es uno de los quince municipios que conforman la ciudad de La Habana, en Cuba. Fundado en 1976 mediante la fusión con el pueblo de Santiago de Las Vegas, se sitúa al suroeste de la capital y llega hasta los terrenos del Aeropuerto Internacional José Martí. La zona combina áreas residenciales, comercios locales y espacios verdes, y constituye un punto de enlace entre el centro de La Habana y la zona aeroportuaria. Además, el municipio alberga varios colegios, centros de salud y el Polígono Industrial de Boyeros, que aporta empleo a la zona.\n\nLa sala de chat de Boyeros reúne a residentes, estudiantes y visitantes que quieren intercambiar opiniones sobre la vida cotidiana, eventos locales y la historia del municipio. Se comentan temas como el desarrollo urbano, las tradiciones de la comunidad y la relación con el aeropuerto, mientras los participantes comparten anécdotas y preguntas. Frecuentemente se menciona la proximidad al aeropuerto como factor que influye en la economía local y en la movilidad de los habitantes. La conversación está abierta a cualquier persona interesada en conocer mejor Boyeros y su entorno."
+  },
+  {
+    "slug": "cabo-san-lucas",
+    "name": "Cabo San Lucas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 218,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Cabo San Lucas: conecta a residentes y visitantes donde confluyen las aguas del golfo de California, y donde está el Aeródromo Internacional.",
+    "aboutTitle": "Cabo San Lucas: unión del golfo de California y el Pacífico",
+    "about": "Cabo San Lucas es una ciudad turística situada en el extremo sur de la península de Baja California, en el estado de Baja California Sur, delegación del municipio de Los Cabos. Se ubica entre latitudes 23°40′ y 22°52′ y longitudes 109°24′ y 110°7′, y sus costas están bañadas por el golfo de California y el océano Pacífico. En la zona opera el Aeródromo Internacional de Cabo San Lucas, además del Aeropuerto Internacional de Los Cabos, y está adyacente al Área de Protección de Flora y Fauna Cabo San Lucas.\n\nEn la sala de chat de Cabo San Lucas los habitantes, turistas y trabajadores comparten información sobre actividades náuticas, reservas en hoteles, recomendaciones de restaurantes y eventos locales, como la participación en concursos de fotografía. La conversación se mantiene centrada en la vida cotidiana de la ciudad y en la interacción entre quienes la visitan y quienes la llaman hogar y comparten experiencias cotidianas."
+  },
+  {
+    "slug": "guacara",
+    "name": "Guacara",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Carabobo",
+    "regionSlug": "carabobo",
+    "channels": [
+      "carabobo",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valencia-venezuela",
+      "maracay",
+      "puerto-cabello",
+      "san-juan-de-los-morros",
+      "los-teques",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Guacara: conversa con residentes de la ciudad fundada en 1624 como San Agustín de Guacara, capital del municipio homónimo en Carabobo.",
+    "aboutTitle": "Industria y historia de Guacara, capital del municipio",
+    "about": "Guacara es una ciudad venezolana situada en el estado Carabobo, en la Región Central del país. Es la capital del Municipio Guacara y forma parte de una conurbación que alberga algunas de las zonas industriales más relevantes de Venezuela. La localidad se originó en 1624 bajo el nombre de San Agustín de Guacara, cuando fue establecida como un pueblo indígena. Las zonas industriales de Guacara se consideran entre las más importantes de Venezuela. Su ubicación estratégica favorece el desarrollo de actividades manufactureras y logísticas, y la comunidad conserva tradiciones culturales vinculadas a su origen colonial.\n\nEn la sala de chat de Guacara los usuarios comparten información sobre la vida cotidiana, consultas sobre servicios municipales y comentarios acerca de la actividad industrial local. Participan residentes, comerciantes y personas interesadas en la evolución urbana de la ciudad. El espacio permite intercambiar opiniones, coordinar encuentros y mantenerse al día con cualquier novedad que surja en la zona. En el chat se tratan también asuntos de educación, salud y cultura local, ofreciendo un espacio de apoyo mutuo."
+  },
+  {
+    "slug": "tocuyito",
+    "name": "Tocuyito",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 224,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Carabobo",
+    "regionSlug": "carabobo",
+    "channels": [
+      "carabobo",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valencia-venezuela",
+      "guacara",
+      "puerto-cabello",
+      "maracay",
+      "san-felipe",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Tocuyito, la localidad capital del Municipio Libertador en Carabobo, situada en la Autopista Circunvalación Sur, conecta a sus habitantes.",
+    "aboutTitle": "Autopista Circunvalación Sur y la capital del Municipio Libertador",
+    "about": "Tocuyito es la capital del Municipio Libertador del Estado Carabobo, situada en la Región Central de Venezuela. La ciudad se encuentra estratégicamente ubicada en la Autopista Circunvalación Sur y en la Carretera Panamericana que dirige hacia Barquisimeto, lo que facilita el tránsito entre los Llanos del Estado Cojedes y el resto del país. En el centro municipal, la dirección oficial es Av. Principal #123, Centro Municipal, Ciudad, y allí operan los servicios de la alcaldía, como el sistema SIREL de registro civil y el portal de censo universitario.\n\nEn la sala de chat de Tocuyito los habitantes, estudiantes y comerciantes se reúnen para comentar noticias locales, trámites municipales, el estado del tráfico en la autopista y la organización de los carnavales gestionados por la alcaldía. También se intercambian avisos sobre el mercado semanal y la disponibilidad de rutas de transporte público. La conversación está abierta a cualquier persona que viva o tenga interés en la zona, creando un espacio de intercambio directo y práctico."
+  },
+  {
+    "slug": "cuautla",
+    "name": "Cuautla de Morelos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Morelos",
+    "regionSlug": "morelos",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "emiliano-zapata-edomex",
+      "ozumba-de-alzate",
+      "juchitepec",
+      "cuernavaca",
+      "amecameca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Cuautla de Morelos, la segunda ciudad más importante del estado, conecta a residentes y visitantes en una sala de conversación local.",
+    "aboutTitle": "Cuautla de Morelos: cabecera del municipio y segunda ciudad del estado",
+    "about": "Cuautla de Morelos, oficialmente denominada Heroica e Histórica Ciudad de Cuautla de Morelos, es una ciudad mexicana que funciona como cabecera del municipio de Cuautla y como núcleo central de la zona metropolitana del mismo nombre. Se reconoce como la segunda ciudad más importante del estado de Morelos. En la sala de chat de TuChat.org los usuarios pueden intercambiar información sobre la vida cotidiana, eventos locales y temas de interés general. Participan residentes, estudiantes y personas vinculadas a la región que buscan compartir noticias, preguntar sobre servicios municipales o simplemente conversar. La conversación suele abordar la agenda cultural, el tráfico, el comercio y los aspectos cotidianos de la ciudad, ofreciendo un espacio de interacción directa para la comunidad. Los participantes pueden organizar encuentros virtuales, proponer actividades locales y colaborar en la difusión de iniciativas culturales. La plataforma permite el intercambio de opiniones sobre servicios públicos, recomendaciones de comercios y la coordinación de proyectos vecinales, fortaleciendo el vínculo entre los habitantes de Cuautla y sus alrededores."
+  },
+  {
+    "slug": "la-pintana",
+    "name": "La Pintana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 146,
+    "votes": 239,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "quillota",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de La Pintana, la comuna del sector sur de Santiago, forma parte del Gran Santiago. Únete a la conversación local.",
+    "aboutTitle": "La Pintana: comuna del sector sur dentro del Gran Santiago",
+    "about": "La Pintana es una comuna ubicada en el sector sur de la ciudad de Santiago, capital de Chile, y forma parte del Gran Santiago dentro de la Región Metropolitana. En la sala de chat de La Pintana los usuarios comentan temas cotidianos como transporte, seguridad, servicios municipales y actividades culturales de la comuna. Participan residentes, estudiantes y trabajadores del sector, intercambiando información y opiniones sobre la vida local. El espacio sirve como punto de encuentro virtual donde se comparten avisos, se resuelven dudas y se fomenta la colaboración entre vecinos. También se tratan asuntos de empleo, educación y proyectos comunitarios, y se intercambian datos sobre horarios de transporte público y actividades deportivas. La conversación se mantiene respetuosa y enfocada en la mejora del entorno local. Los participantes comparten experiencias diarias, plantean preguntas y ofrecen sugerencias sobre la gestión municipal. Se fomenta la interacción entre vecinos y se promueve la participación ciudadana."
+  },
+  {
+    "slug": "ciudad-valles",
+    "name": "Valles",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "San Luis Potosí",
+    "regionSlug": "san-luis-potosi",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "panuco",
+      "tantoyuca",
+      "san-luis-potosi",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Valles: la sala de conversación para los habitantes de Ciudad Valles, con importantes industrias de azúcar y cemento.",
+    "aboutTitle": "Río Valles y la industria azucarera que define a Ciudad Valles",
+    "about": "Ciudad Valles es la cabecera del municipio homónimo, situada en el oriente de San Luis Potosí, dentro de la región de la Huasteca Potosina. La urbe se extiende a orillas del Río Valles, afluente del Río Tampaón, y está rodeada por la Sierra del Abra. Su economía combina actividades comerciales, agrícolas y ganaderas, y destaca por sus industrias de azúcar y cemento instaladas en la zona. La ciudad también funciona como punto de acceso para los municipios de la Huasteca, ofreciendo infraestructura hotelera y de servicios que favorecen el flujo de turistas.\n\nLa sala de chat de Valles reúne a residentes, visitantes y personas interesadas en la zona. En ella se comenta el desarrollo comercial, los proyectos turísticos, el turismo ecológico y los deportes de aventura como kayak y rápel. También se comparten información sobre eventos locales y se intercambian experiencias de la vida cotidiana en la Huasteca. Los usuarios intercambian datos sobre el clima, la disponibilidad de transporte y las oportunidades laborales en los sectores agrícola y manufacturero. Asimismo, se discuten iniciativas de desarrollo urbano presentadas en la cuenta pública del ayuntamiento."
+  },
+  {
+    "slug": "lujan-de-cuyo",
+    "name": "Luján de Cuyo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 201,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Mendoza",
+    "regionSlug": "provincia-de-mendoza",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "laboulaye",
+      "rufino",
+      "venado-tuerto",
+      "bell-ville",
+      "marcos-juarez",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Luján de Cuyo, cabecera del departamento homónimo en Mendoza. Conecta a los vecinos desde que fue declarada ciudad en 1949.",
+    "aboutTitle": "Luján de Cuyo: de pueblo a ciudad desde 1949",
+    "about": "Luján de Cuyo es la ciudad cabecera del departamento del mismo nombre en la provincia de Mendoza, Argentina. Forma parte del Gran Mendoza y fue reconocida como ciudad en 1949, adoptando su nombre actual en 1964. Su ubicación la convierte en un punto clave dentro de la región cuyana. En el Chat de Luján de Cuyo se reúnen vecinos, trabajadores y visitantes para hablar de la vida cotidiana, los proyectos locales y lo que define a la zona. Entran desde jóvenes que buscan planes hasta residentes de toda la vida que comparten noticias o recuerdos de cómo ha cambiado la ciudad desde que dejó de llamarse simplemente Luján. También se comentan temas relacionados con el departamento, desde trámites municipales hasta eventos que organizan las distintas localidades que lo integran."
   }
 ];

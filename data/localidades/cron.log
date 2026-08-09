@@ -138,3 +138,35 @@
 [2026-08-08T03:52:53.287Z]   ✓ marino (Venezuela) — escribió Cerebras, verificó NVIDIA
 [2026-08-08T03:52:58.988Z]   ✓ mara (Venezuela) — escribió Cerebras, verificó Mistral
 [2026-08-08T03:52:58.992Z] publicadas 12 salas · acumuladas 38 · quedan 2942 en cola
+[2026-08-09T03:40:05.331Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-09T03:40:05.338Z] cola: 2940 pendientes · lote de hoy: 12
+[2026-08-09T03:40:11.310Z]   ✗ distrito-de-comas: fraseo calcado de ate: "de los cuarenta y tres distritos que"
+[2026-08-09T03:40:17.082Z]   ✓ area-metropolitana-de-piura (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:40:21.937Z]   ✓ partido-de-san-martin (Argentina) — escribió Groq, verificó Cerebras
+[2026-08-09T03:40:37.597Z]   ✗ distrito-de-puente-piedra: fraseo calcado de distrito-de-carabayllo: "la provincia de lima en el departamento"
+[2026-08-09T03:40:48.000Z]   ✗ distrito-de-chorrillos: fraseo calcado de distrito-de-carabayllo: "forma parte de los 43 distritos que"
+[2026-08-09T03:41:06.642Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-09T03:41:25.730Z]   ✓ partido-de-san-miguel (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-09T03:43:05.451Z]   ✗ san-bernardo-chile: fraseo calcado de partido-de-jose-c-paz: "combina areas residenciales con sectores industriales y"
+[2026-08-09T03:43:08.151Z]   ✗ los-alcarrizos: fraseo calcado de la-llagosta: "lo que lo convierte en uno de"
+[2026-08-09T03:43:16.929Z]   ✗ partido-de-escobar: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-09T03:43:53.808Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-09T03:44:01.707Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-09T03:44:15.827Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-09T03:44:40.294Z]   ✗ centurion: rechazada tras corrección: Confusión de localidad: la ficha indica que Centurion pertenece al Departamento de Cerro Largo, Uruguay, aunque la fuente describe Centurion en la provincia sudafricana de Gauteng.
+[2026-08-09T03:44:40.748Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-09T03:44:52.712Z]   ✗ cua: rechazada tras corrección: La ficha menciona que Cúa está en el Estado Aragua, cuando en realidad está en el Estado Miranda; La ficha menciona que la ciudad es un 'punto de referencia dentro de la región, ofreciendo servicios u
+[2026-08-09T03:45:05.700Z]   ✓ arroyo-naranjo (Cuba) — escribió NVIDIA, verificó Cerebras
+[2026-08-09T03:45:08.589Z]   ✓ boyeros (Cuba) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:45:35.705Z]   ✗ la-guaira: inventa cuándo se anima la sala
+[2026-08-09T03:46:56.600Z]   ✓ cabo-san-lucas (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:47:12.005Z]   ✗ partido-de-ezeiza: rechazada tras corrección: La ficha menciona que el partido de Ezeiza se separó 'de los partidos de Esteban Echeverría y de Ezeiza', lo cual es contradictorio. Según la fuente, se subdividieron los partidos de Esteban Echeverrí
+[2026-08-09T03:47:20.743Z]   ✓ guacara (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:47:52.168Z]   ✓ tocuyito (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:48:03.304Z]   ✓ cuautla (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:48:15.103Z]   ✓ la-pintana (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:49:05.999Z]   ✗ paez-venezuela: controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)
+[2026-08-09T03:49:14.216Z]   ✓ ciudad-valles (México) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:49:18.737Z]   ✗ san-luis-rio-colorado: fraseo calcado de heroica-matamoros: "la cabecera del municipio homonimo en el"
+[2026-08-09T03:49:54.560Z]   ✓ lujan-de-cuyo (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-09T03:49:54.564Z] publicadas 12 salas · acumuladas 50 · quedan 2928 en cola
