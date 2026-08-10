@@ -51,8 +51,15 @@ function transformEntry(config, path) {
     return { ...base, changefreq: "weekly", priority: 0.8 };
   }
 
-  // Weather + lotteries (service pages)
-  if (path.startsWith("/tiempo/") || path.startsWith("/loterias/")) {
+  // Weather + lotteries (service pages). /tiempo son 1.966 URLs —el 39% del
+  // sitemap— con una mediana de 174 palabras frente a las 645 de una sala: su
+  // valor es el dato, no el texto, y ese contraste es real. Mientras Google
+  // conceda tan poco rastreo al dominio, la jerarquía tiene que decir con
+  // claridad que primero van las salas.
+  if (path.startsWith("/tiempo/")) {
+    return { ...base, changefreq: "weekly", priority: 0.3 };
+  }
+  if (path.startsWith("/loterias/")) {
     return { ...base, changefreq: "weekly", priority: 0.5 };
   }
 

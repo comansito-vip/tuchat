@@ -11,10 +11,16 @@
  *
  * Recorre las ~4.950 páginas prerenderizadas sin tocar la red, así que es
  * barata de repetir. Comprueba por página: <title> y meta description (presencia
- * y longitud), canonical, un solo <h1>, jerarquía de encabezados sin saltos,
- * encabezados vacíos, <img> sin alt, enlaces sin nombre accesible, JSON-LD
- * parseable y con @type, texto roto (undefined/NaN/[object Object]) y peso. Y
- * sobre el conjunto: títulos, descripciones y canonical duplicados a escala.
+ * y longitud), canonical, un solo <h1>, al menos un <h2>, jerarquía de
+ * encabezados sin saltos, encabezados vacíos, <img> sin alt, enlaces sin nombre
+ * accesible, JSON-LD parseable y con @type, texto roto (undefined/NaN/[object
+ * Object]) y peso. Y sobre el conjunto: títulos, H1, descripciones y canonical
+ * duplicados a escala, más el grafo de enlaces internos —enlaces a páginas que
+ * no existen y páginas huérfanas—.
+ *
+ * Lo del grafo se añadió después de la auditoría del 2026-08-10, que encontró
+ * 76 enlaces a 404 y 20 huérfanas con todo lo demás en verde: son fallos que no
+ * se ven mirando una página aislada, por buena que esté.
  *
  * FALSOS POSITIVOS CONOCIDOS, no son fallos:
  *   - /resultados y /admin salen sin canonical, sin h1 y compartiendo metadatos:
@@ -48,11 +54,34 @@ const archivos = [];
  */
 const STUBS = ["/admin", "/resultados", "/_not-found", "/_global-error"];
 
+/**
+ * Rutas que existen y responden 200 pero que Next NO prerenderiza, así que no
+ * dejan .html en disco: /webchat depende de searchParams y las de resultados
+ * declaran `dynamic = "force-dynamic"` porque piden la clasificación en vivo.
+ * Sin esta lista, el grafo de enlaces las daría por rotas en las 4.991 páginas.
+ */
+const DINAMICAS = new Set([
+  "/webchat",
+  "/chat",
+  ...["laliga", "premier", "seriea", "ligamx", "bundesliga", "ligue1", "argentina", "brasileirao", "mls", "saudi"].map(
+    (l) => `/resultados/${l}`,
+  ),
+]);
+
 /** Los titulares de noticias pasan de 65 a propósito (data.test.ts admite 110). */
 const esArticulo = (u) => u.startsWith("/noticias/articulo/");
 
 const problemas = [];
 const add = (u, sev, msg) => problemas.push({ u, sev, msg });
+
+// Grafo de enlaces internos. Es lo que destapó, en la auditoría del 2026-08-10,
+// 76 enlaces a páginas que respondían 404 y 20 páginas huérfanas: ninguna de las
+// dos cosas se ve mirando una página aislada, que es como mira todo lo demás de
+// este fichero.
+const h1s = new Map();
+const salientes = new Map();
+const entrantes = new Map();
+const urls = new Set();
 
 const titles = new Map();
 const descs = new Map();
@@ -103,6 +132,8 @@ for (const f of archivos) {
   const h1 = heads.filter((h) => h.n === 1);
   if (h1.length === 0) add(url, "ALTO", "sin <h1>");
   else if (h1.length > 1) add(url, "ALTO", `${h1.length} <h1>`);
+  else (h1s.get(h1[0].t) ?? h1s.set(h1[0].t, []).get(h1[0].t)).push(url);
+  if (heads.filter((h) => h.n === 2).length === 0) add(url, "MEDIO", "sin ningún <h2>");
   for (let i = 1; i < heads.length; i++)
     if (heads[i].n > heads[i - 1].n + 1)
       add(url, "MEDIO", `salto h${heads[i - 1].n}→h${heads[i].n} ("${heads[i].t.slice(0, 30)}")`);
@@ -112,6 +143,17 @@ for (const f of archivos) {
   const imgs = [...v.matchAll(/<img[^>]*>/gi)].map((m) => m[0]);
   const sinAlt = imgs.filter((i) => !/\salt=/i.test(i));
   if (sinAlt.length) add(url, "ALTO", `${sinAlt.length} <img> sin alt`);
+
+  // enlaces internos, para el grafo
+  urls.add(url);
+  const destinos = new Set();
+  for (const m of v.matchAll(/href="(\/[^"#?]*)"/g)) {
+    const d = m[1].length > 1 && m[1].endsWith("/") ? m[1].slice(0, -1) : m[1];
+    if (/\.(png|jpg|jpeg|svg|xml|txt|ico|webmanifest|json|js|css|woff2?)$/i.test(d)) continue;
+    if (d.startsWith("/_next") || d.startsWith("/api")) continue;
+    destinos.add(d);
+  }
+  salientes.set(url, destinos);
 
   // enlaces sin texto accesible
   const mudos = [...v.matchAll(/<a\s[^>]*href[^>]*>([\s\S]*?)<\/a>/gi)].filter((m) => {
@@ -136,7 +178,30 @@ for (const f of archivos) {
   if (html.length > 1_500_000) add(url, "MEDIO", `pesa ${(html.length / 1e6).toFixed(2)} MB`);
 }
 
+// ── Grafo de enlaces internos ───────────────────────────────────────────────
+// Un enlace a 404 desde una página indexable gasta rastreo y no lleva a ningún
+// sitio; una página que solo conoce el sitemap es, para Google, una página a la
+// que su propio autor no considera digna de enlazar.
+const rotos = new Map();
+for (const [origen, destinos] of salientes) {
+  for (const d of destinos) {
+    if (!urls.has(d) && !DINAMICAS.has(d) && !STUBS.includes(d)) {
+      (rotos.get(d) ?? rotos.set(d, []).get(d)).push(origen);
+      continue;
+    }
+    if (d === origen) continue;
+    (entrantes.get(d) ?? entrantes.set(d, new Set()).get(d)).add(origen);
+  }
+}
+for (const [d, origenes] of [...rotos].sort((a, b) => b[1].length - a[1].length))
+  add(origenes[0], "ALTO", `enlaza a ${d}, que no existe (desde ${origenes.length} pág.)`);
+
+for (const u of urls)
+  if (u !== "/" && !STUBS.includes(u) && !entrantes.has(u))
+    add(u, "MEDIO", "huérfana: ninguna página del sitio la enlaza");
+
 // duplicados a escala
+for (const [t, us] of h1s) if (us.length > 1) add(us[0], "ALTO", `<h1> repetido en ${us.length}: "${t.slice(0, 50)}" → ${us.slice(0, 4).join(", ")}`);
 for (const [t, us] of titles) if (us.length > 1) add(us[0], "ALTO", `<title> repetido en ${us.length}: "${t.slice(0, 50)}" → ${us.slice(0, 4).join(", ")}`);
 for (const [d, us] of descs) if (us.length > 1) add(us[0], "ALTO", `description repetida en ${us.length}: "${d.slice(0, 45)}" → ${us.slice(0, 4).join(", ")}`);
 for (const [c, us] of canons) if (us.length > 1) add(us[0], "ALTO", `canonical repetido en ${us.length}: ${c} → ${us.slice(0, 4).join(", ")}`);

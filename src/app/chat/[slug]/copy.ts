@@ -179,15 +179,35 @@ export function aboutLead(place: Place): string | null {
   return leadTematica(place);
 }
 
+/**
+ * La provincia, solo si dice algo que el nombre de la ciudad no diga ya.
+ *
+ * En América buena parte del dataset nombra la división administrativa por su
+ * capital —"Santiago de Cuba, en Provincia de Santiago de Cuba", "La Habana, en
+ * provincia de La Habana"—, así que la frase del encaje se quedaba en una
+ * tautología. Y en once salas era la única frase del párrafo, con lo que las
+ * once compartían molde: exactamente lo que este fichero existe para evitar.
+ */
+function provinciaQueAporta(place: Place): string | undefined {
+  if (!place.provincia) return undefined;
+  const n = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  return n(place.provincia).includes(n(place.name)) ? undefined : place.provincia;
+}
+
 function leadCiudad(place: Place): string | null {
   const comunidad = comunidadDe(place);
   const hermanas = hermanasProvincia(place);
   const vecinas = hermanas.slice(0, 3).map((c) => c.name);
+  const provincia = provinciaQueAporta(place);
   const partes: string[] = [];
 
   // 1. Encaje administrativo: provincia y comunidad son datos verificados del
   //    dataset (padrón del INE para España), no una suposición del redactor.
-  if (place.provincia && comunidad) {
+  //    En 14 ciudades americanas la provincia Y la región se llaman igual que
+  //    ellas (Buenos Aires, Aguascalientes, Campeche, Colima…) y la frase salía
+  //    "Buenos Aires está en Buenos Aires, dentro de Buenos Aires": ahí el
+  //    encaje no sitúa nada y no se emite.
+  if (place.provincia && comunidad && (provincia || comunidad.name !== place.name)) {
     partes.push(
       variante(
         [
@@ -198,13 +218,13 @@ function leadCiudad(place: Place): string | null {
         place.slug,
       ),
     );
-  } else if (place.provincia && place.parentName) {
+  } else if (provincia && place.parentName) {
     partes.push(
       variante(
         [
-          `${place.name} está en ${place.provincia}, ${place.parentName}.`,
-          `La sala corresponde a ${place.name}, en ${place.provincia} (${place.parentName}).`,
-          `${place.name} pertenece a ${place.provincia}, ${place.parentName}.`,
+          `${place.name} está en ${provincia}, ${place.parentName}.`,
+          `La sala corresponde a ${place.name}, en ${provincia} (${place.parentName}).`,
+          `${place.name} pertenece a ${provincia}, ${place.parentName}.`,
         ],
         place.slug,
       ),
@@ -229,7 +249,10 @@ function leadCiudad(place: Place): string | null {
         1,
       ),
     );
-  } else if (comunidad) {
+  } else if (comunidad && getCitiesByRegion(comunidad.slug).length > 1) {
+    // Con una sola localidad la frase se leía "Es una de las 1 localidades de
+    // Campeche con sala propia": ni concuerda ni dice nada, porque esa única
+    // localidad es la propia sala.
     const enLaComunidad = getCitiesByRegion(comunidad.slug).length;
     partes.push(
       `Es una de las ${enLaComunidad} localidades de ${comunidad.name} con sala propia en el portal.`,

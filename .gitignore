@@ -53,3 +53,6 @@ public/llms-full.txt
 # Caché del cliente de Search Console: guarda tokens OAuth de las service
 # accounts, así que no puede entrar en el repositorio.
 data/.gsc-cache/
+
+# Progreso reanudable del backfill de H2 (el resultado vive en src/data/about-titles.ts)
+/data/about-titles-progreso.json

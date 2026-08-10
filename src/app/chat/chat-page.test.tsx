@@ -157,6 +157,61 @@ describe("el copy de sala no es una plantilla con hueco", () => {
       .map((p) => despersonalizar(roomBullets(p).join(" | "), p));
     expect(new Set(moldes).size).toBe(moldes.length);
   });
+
+  /**
+   * En buena parte de América la provincia del dataset repite el nombre de la
+   * ciudad —"Santiago de Cuba, en Provincia de Santiago de Cuba"—, así que la
+   * frase del encaje administrativo no informaba de nada y era, encima, la
+   * única del párrafo en once salas: un molde idéntico salvo el nombre, que es
+   * justo lo que este fichero existe para evitar.
+   */
+  it("no sitúa la ciudad en una provincia que solo repite su nombre", () => {
+    for (const slug of ["santiago-de-cuba", "la-habana"]) {
+      const p = getPlace(slug)!;
+      expect(p.provincia?.toLowerCase()).toContain(p.name.toLowerCase());
+      expect(aboutLead(p) ?? "").not.toContain(`en ${p.provincia}`);
+    }
+  });
+
+  it("sigue situando la ciudad cuando la provincia sí añade algo", () => {
+    const p = getPlace("ciudad-del-este")!;
+    expect(aboutLead(p)).toContain("Alto Paraná");
+  });
+
+  /**
+   * 14 ciudades tienen la región y la provincia con su mismo nombre (Buenos
+   * Aires, Aguascalientes, Campeche, Colima…) y su región no agrupa ninguna
+   * otra localidad, así que emitían dos frases sin sentido:
+   * "Administrativamente Buenos Aires está en Buenos Aires, dentro de Buenos
+   * Aires" y "Es una de las 1 localidades de Buenos Aires con sala propia".
+   */
+  it("no repite el mismo nombre como ciudad, provincia y comunidad", () => {
+    const p = getPlace("buenos-aires")!;
+    const veces = (aboutLead(p) ?? "").split(p.name).length - 1;
+    expect(veces).toBeLessThanOrEqual(1);
+  });
+
+  it("no dice «una de las 1 localidades» en ninguna sala", () => {
+    const rotas = getCities()
+      .filter((p) => / 1 localidades/.test(aboutLead(p) ?? ""))
+      .map((p) => p.slug);
+    expect(rotas).toEqual([]);
+  });
+
+  it("ningún molde de aboutLead se repite en más de 10 salas del catálogo", () => {
+    const moldes = new Map<string, string[]>();
+    for (const p of getCities()) {
+      const texto = aboutLead(p);
+      if (!texto) continue;
+      const molde = despersonalizar(texto, p).toLowerCase();
+      if (!moldes.has(molde)) moldes.set(molde, []);
+      moldes.get(molde)!.push(p.slug);
+    }
+    const abusivos = [...moldes.entries()]
+      .filter(([, s]) => s.length > 10)
+      .map(([m, s]) => `${s.length}× "${m.slice(0, 60)}" (${s.slice(0, 3).join(", ")})`);
+    expect(abusivos).toEqual([]);
+  });
 });
 
 /**
