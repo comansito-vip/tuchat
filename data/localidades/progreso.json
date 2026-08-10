@@ -50,7 +50,17 @@
   "cuautla",
   "la-pintana",
   "ciudad-valles",
-  "lujan-de-cuyo"
+  "lujan-de-cuyo",
+  "la-guaira",
+  "paez-venezuela",
+  "anaco",
+  "ciudad-acuna",
+  "ezeiza",
+  "bonao",
+  "milpa-alta",
+  "nacajuca",
+  "ocumare-del-tuy",
+  "talcahuano"
  ],
  "descartadas": [
   {
@@ -387,6 +397,136 @@
    "slug": "san-luis-rio-colorado",
    "razon": "fraseo calcado de heroica-matamoros: \"la cabecera del municipio homonimo en el\"",
    "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"que integran la provincia de lima en\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de escobar: \"con los partidos de campana pilar malvinas\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: La ficha describe una localidad de Uruguay, pero el material de origen se refiere a una localidad de Sudáfrica.",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: El material de origen indica que Cúa se encuentra en el Estado Miranda, pero la ficha dice que es parte de Aragua; La ficha menciona que la ciudad está en el centro de Venezuela, pero el material de o",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "partido-de-ezeiza",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "san-luis-rio-colorado",
+   "razon": "fraseo calcado de ciudad-valles: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "departamento-lujan-de-cuyo",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "unare",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "carupano",
+   "razon": "rechazada tras corrección: La ubicación a lo largo de la ribera del mar Caribe no está respaldada por la fuente; La mención a playas y zonas de manglar no está respaldada por la fuente; La división en cinco unidades territorial",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "habana-del-este",
+   "razon": "rechazada tras corrección: El municipio incluye varios sectores residenciales y zonas industriales; su ubicación al este de la capital le confiere una posición estratégica dentro del área metropolitana; Se comenta sobre servici",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "jutiapa-guatemala",
+   "razon": "rechazada tras corrección: La ficha menciona Zapotitlán, pero la fuente solo menciona 'Turismo Rio Paz Zapotitlan Jutiapa', lo que no implica necesariamente que Zapotitlán sea un destino turístico en sí mismo.; La ficha habla d",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "tulancingo-de-bravo",
+   "razon": "fraseo calcado de la-pintana: \"la conversacion se mantiene respetuosa y enfocada\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "ezeiza-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de ezeiza: \"ezeiza es una ciudad administrativa del gran\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "fraseo calcado de ate: \"limita al norte con el distrito de\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "fraseo calcado de ate: \"limita al norte con el distrito de\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "provincia-de-alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "naguanagua",
+   "razon": "fraseo calcado de guacara: \"situada en el estado carabobo en la\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"es una localidad del partido de la\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "palo-negro",
+   "razon": "rechazada tras corrección: El sector industrial genera empleo para la población local. (No está en la fuente); El intercambio es directo y se centra en temas relevantes para la comunidad, manteniendo un tono cercano y práctico.",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "distrito-de-la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "chichicastenango",
+   "razon": "rechazada tras corrección: La ficha afirma que Chichicastenango se encuentra en el sur de la zona, pero la fuente solo menciona que se encuentra al sur del departamento de Quiché, sin especificar la zona.; La ficha menciona que",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "delicias",
+   "razon": "fraseo calcado de santa-catarina: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "quilpue",
+   "razon": "fraseo calcado de partido-de-san-martin: \"la sala funciona como un punto de\"",
+   "fecha": "2026-08-10"
   }
  ]
 }

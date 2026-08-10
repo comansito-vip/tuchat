@@ -170,3 +170,43 @@
 [2026-08-09T03:49:18.737Z]   ✗ san-luis-rio-colorado: fraseo calcado de heroica-matamoros: "la cabecera del municipio homonimo en el"
 [2026-08-09T03:49:54.560Z]   ✓ lujan-de-cuyo (Argentina) — escribió Mistral, verificó Cerebras
 [2026-08-09T03:49:54.564Z] publicadas 12 salas · acumuladas 50 · quedan 2928 en cola
+[2026-08-10T03:40:05.361Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-10T03:40:05.376Z] cola: 2922 pendientes · lote de hoy: 12
+[2026-08-10T03:40:20.159Z]   ✗ distrito-de-puente-piedra: fraseo calcado de distrito-de-carabayllo: "que integran la provincia de lima en"
+[2026-08-10T03:41:49.123Z]   ✗ los-alcarrizos: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)
+[2026-08-10T03:42:46.251Z]   ✗ partido-de-escobar: fraseo calcado de escobar: "con los partidos de campana pilar malvinas"
+[2026-08-10T03:44:29.159Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-10T03:45:45.667Z]   ✗ centurion: rechazada tras corrección: La ficha describe una localidad de Uruguay, pero el material de origen se refiere a una localidad de Sudáfrica.
+[2026-08-10T03:45:46.165Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-10T03:46:54.808Z]   ✗ cua: rechazada tras corrección: El material de origen indica que Cúa se encuentra en el Estado Miranda, pero la ficha dice que es parte de Aragua; La ficha menciona que la ciudad está en el centro de Venezuela, pero el material de o
+[2026-08-10T03:47:36.790Z]   ✓ la-guaira (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:47:56.809Z]   ✗ partido-de-ezeiza: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-10T03:48:04.094Z]   ✓ paez-venezuela (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:48:09.367Z]   ✗ san-luis-rio-colorado: fraseo calcado de ciudad-valles: "es la cabecera del municipio homonimo situada"
+[2026-08-10T03:48:09.709Z]   ✗ departamento-lujan-de-cuyo: es una división administrativa, no una localidad
+[2026-08-10T03:48:25.554Z]   ✗ unare: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-10T03:48:58.589Z]   ✗ carupano: rechazada tras corrección: La ubicación a lo largo de la ribera del mar Caribe no está respaldada por la fuente; La mención a playas y zonas de manglar no está respaldada por la fuente; La división en cinco unidades territorial
+[2026-08-10T03:50:31.411Z]   ✗ habana-del-este: rechazada tras corrección: El municipio incluye varios sectores residenciales y zonas industriales; su ubicación al este de la capital le confiere una posición estratégica dentro del área metropolitana; Se comenta sobre servici
+[2026-08-10T03:52:44.648Z]   ✗ jutiapa-guatemala: rechazada tras corrección: La ficha menciona Zapotitlán, pero la fuente solo menciona 'Turismo Rio Paz Zapotitlan Jutiapa', lo que no implica necesariamente que Zapotitlán sea un destino turístico en sí mismo.; La ficha habla d
+[2026-08-10T03:52:59.929Z]   ✓ anaco (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:53:18.063Z]   ✗ tulancingo-de-bravo: fraseo calcado de la-pintana: "la conversacion se mantiene respetuosa y enfocada"
+[2026-08-10T03:53:34.667Z]   ✓ ciudad-acuna (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:55:24.247Z]   ✓ ezeiza (Argentina) — escribió Cerebras, verificó Groq
+[2026-08-10T03:56:35.035Z]   ✗ ezeiza-provincia-de-buenos-aires: fraseo calcado de ezeiza: "ezeiza es una ciudad administrativa del gran"
+[2026-08-10T03:57:31.874Z]   ✗ huaycan: fraseo calcado de ate: "limita al norte con el distrito de"
+[2026-08-10T03:57:47.610Z]   ✗ huaycan: fraseo calcado de ate: "limita al norte con el distrito de"
+[2026-08-10T03:57:48.009Z]   ✗ provincia-de-alto-amazonas: es una división administrativa, no una localidad
+[2026-08-10T03:57:50.938Z]   ✓ bonao (República Dominicana) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:57:57.077Z]   ✗ naguanagua: fraseo calcado de guacara: "situada en el estado carabobo en la"
+[2026-08-10T03:59:37.397Z]   ✗ virrey-del-pino: fraseo calcado de gregorio-de-laferrere: "es una localidad del partido de la"
+[2026-08-10T04:02:30.746Z]   ✗ palo-negro: rechazada tras corrección: El sector industrial genera empleo para la población local. (No está en la fuente); El intercambio es directo y se centra en temas relevantes para la comunidad, manteniendo un tono cercano y práctico.
+[2026-08-10T04:03:07.533Z]   ✓ milpa-alta (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T04:05:12.569Z]   ✗ distrito-de-la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-10T04:06:02.901Z]   ✗ chichicastenango: rechazada tras corrección: La ficha afirma que Chichicastenango se encuentra en el sur de la zona, pero la fuente solo menciona que se encuentra al sur del departamento de Quiché, sin especificar la zona.; La ficha menciona que
+[2026-08-10T04:09:25.914Z]   ✗ delicias: fraseo calcado de santa-catarina: "es una ciudad mexicana situada en el"
+[2026-08-10T04:11:40.530Z]   ✓ nacajuca (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T04:13:44.157Z]   ✓ ocumare-del-tuy (Venezuela) — escribió Gemini, verificó NVIDIA
+[2026-08-10T04:15:06.189Z]   ✗ quilpue: fraseo calcado de partido-de-san-martin: "la sala funciona como un punto de"
+[2026-08-10T04:15:33.402Z]   ✓ talcahuano (Chile) — escribió NVIDIA, verificó Cerebras
+[2026-08-10T04:15:33.402Z] demasiados intentos fallidos, se corta el lote
+[2026-08-10T04:15:33.407Z] publicadas 10 salas · acumuladas 60 · quedan 2912 en cola
