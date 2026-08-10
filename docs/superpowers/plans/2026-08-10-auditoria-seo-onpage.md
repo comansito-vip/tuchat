@@ -6,6 +6,11 @@ Search Console.
 escrito para esta sesión (grafo de enlaces, H2 repetidos, volumen de texto), verificación con
 `next start` de los códigos HTTP, y datos reales de la API de Search Console.
 
+> **Estado: los seis puntos de la auditoría están aplicados.** Lo que sigue es el diagnóstico
+> tal como se levantó; al final, en «Qué se hizo», está lo que se cambió en cada uno y con qué
+> commit. Lo único que sigue pendiente no está en este repositorio: **nadie de la red enlaza a
+> tuchat.org**, y sin eso lo demás rinde poco.
+
 ---
 
 ## Resumen
@@ -232,6 +237,145 @@ condiciona el rendimiento de todo lo que se haga dentro.
 | 4 | Backfill de `aboutTitle` en las 2.559 salas | script de contenido | medio |
 | 5 | `/contacto` con contenido y H2 · 3 descriptions largas | varios | bajo |
 | 6 | Decidir qué hacer con la escala de `/tiempo` | `next-sitemap.config.js` | decisión |
+
+---
+
+# Qué se hizo
+
+Todo lo de la tabla salvo el punto 1, que está fuera de este repositorio.
+
+## Los 76 enlaces a 404 → `roomServiceCards()` · `fc9ae27`
+
+Las tarjetas de "Más sobre X" ya no se pintan a ojo: `roomServiceCards(place)` decide cuáles
+puede ofrecer la sala consultando **el mismo predicado que usa `generateStaticParams` de cada
+ruta** (`hasWeather(slug)` y `slug in LOTERIA_INFO`), no una lista paralela que se
+desincronizaría a la primera tanda de salas nuevas.
+
+El test recorre el catálogo entero, no una muestra, porque el fallo se repone solo: cada
+localidad que publica el cron de goteo llega sin coordenadas.
+
+## Las 20 huérfanas → `getRankedCountries()` · `fc9ae27`
+
+`/ranking` pinta ahora un chip por cada uno de los 30 países que tienen página. La tabla
+numérica sigue mostrando el top 10: lo que cambia es el enlazado, no el ranking.
+
+## El H2 de las 2.561 salas · `scripts/content/backfill-about-titles.mjs`
+
+De 2 salas con H2 propio a **2.561**. El resultado vive en `src/data/about-titles.ts` (un mapa
+slug → título que `index.ts` aplica en `conAboutTitle`, y donde el título de la ficha siempre
+gana), no repartido por los once ficheros de datos: así el backfill entero se lee de un vistazo
+y se revierte borrando un fichero.
+
+**El material de origen es el `about` que cada sala ya tenía escrito y verificado**, y nada
+más. El modelo no puede introducir un dato que no estuviera ya en la página, que es el riesgo
+habitual de estos backfills. Aun así se verifica sala a sala y de forma determinista: todo
+nombre propio y toda cifra del título tienen que aparecer en el about, más las reglas de
+`calidad.mjs` (25-70 caracteres, nada de encabezados genéricos ni cargos, sin muletillas) y dos
+comprobaciones de escala —título ya usado y molde repetido más de diez veces—.
+
+Resultado sobre los 2.559 generados:
+
+| | |
+|---|---:|
+| Con algún dato no respaldado por el about | **0** |
+| Títulos únicos | 2.559 / 2.559 |
+| Molde más repetido | 1× |
+| Longitud (mín / mediana / máx) | 25 / 38 / 70 |
+| Rechazados por la verificación durante el proceso | ~1.100 |
+
+Ese último número es la parte que importa: el verificador tumbó y reintentó más de mil títulos
+antes de dar por bueno el que se publica.
+
+Tres cosas que costaron una pasada entera cada una, anotadas por si el script se reutiliza:
+`maxTokens: 1200` truncaba el JSON porque varios modelos de la cadena gastan tokens razonando;
+el 429 masivo era límite **por minuto**, no cuota diaria, y se arregla esperando; y reintentar
+sin decirle al modelo qué falló dejó 24 salas devolviendo el mismo título corto una y otra vez.
+
+## `/contacto`, las descriptions y dos textos absurdos · `fc9ae27`, `59a8392`
+
+`/contacto` pasa de 28 palabras sin ningún H2 a cuatro secciones con lo que hay que contar en
+cada caso. `weatherMetaDescription()` elige la variante más completa que cabe en 170 caracteres
+en vez de cortar la frase. Y al mirar el HTML a escala salieron dos textos que llevaban tiempo
+publicados sin que nada los mirara:
+
+- 14 ciudades servían «Administrativamente Buenos Aires está en Buenos Aires, dentro de Buenos
+  Aires» y «Es una de las 1 localidades de Campeche con sala propia».
+- En América la división administrativa suele llamarse como su capital, así que «Santiago de
+  Cuba, en Provincia de Santiago de Cuba» era la única frase del párrafo en once salas, que
+  compartían molde por eso.
+
+## El `<title>` de las salas · `1f91950`
+
+El `<title>` y el H1 eran el mismo texto en 2.940 páginas, con 21 caracteres de mediana sobre
+los ~60 que muestra Google. La opción evidente —rotar el sufijo entre salas— la descarta el
+corpus de la red (`/home/javier/red-seo`, 26 M de impresiones en consultas que empiezan por
+"chat"):
+
+| Forma de buscar una sala | Impresiones | % |
+|---|---:|---:|
+| «chat madrid» a secas | 12.841.393 | 87,4% |
+| «chat madrid gratis» | 1.711.514 | 11,6% |
+| «chat madrid online / en línea» | 83.145 | 0,6% |
+| «chat madrid sin registro» | 49.323 | 0,3% |
+
+Y de las 173 salas con demanda medible en formas con sufijo, **en 167 gana "gratis"**. Rotar
+habría cambiado el 11,6% por el 0,3%. Así que `roomMetaTitle()` **añade** en vez de sustituir:
+
+```
+<title>  Chat Madrid gratis sin registro
+H1       Chat Madrid gratis
+```
+
+Las tres salas donde el corpus da otro ganador llevan el suyo (`portugal`, `arg`, `nudismo` →
+"online"; Portugal acumula 2.424 impresiones en "chat portugal online" frente a 490 en
+"gratis"). El complemento se omite entero si no cabe en 60 y no se duplica en los hubs cuyo
+título propio ya lo dice.
+
+## `/tiempo` en el sitemap · `59a8392`
+
+Baja a `priority 0.3`. Es la opción 2 de las tres que planteaba el diagnóstico: no quita
+páginas —dan un servicio real y ya pasan el filtro de "solo donde hay datos"— pero deja dicho
+que primero van las salas. Conviene no esperar mucho de este cambio: Google trata `priority`
+como una pista débil.
+
+## El auditor ya vigila lo que se le escapó · `59a8392`
+
+`auditar-html.mjs` gana el grafo de enlaces internos (enlaces a páginas que no existen → ALTO,
+huérfanas → MEDIO), H1 duplicados entre páginas y páginas sin ningún H2. Los tres fallos de
+esta auditoría eran invisibles mirando una página aislada, que es como miraba todo lo demás.
+Probado contra el build anterior: marcó los 76 + 24 exactos.
+
+## Estado final
+
+Medido sobre el build de las 4.991 páginas, con el auditor ya ampliado:
+
+| Comprobación | Antes | Después |
+|---|---|---|
+| `auditar-html.mjs` | 76 ALTO · 24 MEDIO | **ninguna incidencia** |
+| `npm run auditar` | 1 aviso | **0 avisos** |
+| Tests | 409 | **425** |
+| Salas con H2 propio | 2 / 2.561 | **2.561 / 2.561** |
+| Enlaces internos a 404 | 76 | **0** |
+| Páginas huérfanas | 20 | **0** |
+| Páginas sin ningún H2 | 1 | **0** |
+| `<title>` = H1 | 2.940 páginas | **0** |
+
+Comprobado en el HTML servido, no solo en los datos:
+
+```
+/chat/madrid   <title>Chat Madrid gratis sin registro</title>
+               <h1>Chat Madrid gratis</h1>
+               <h2>Planes de fin de semana y Metro a las tantas</h2>
+
+/chat/vigo     <h2>Empanadas de berberechos y Celta de Vigo</h2>
+/chat/cocula   <h2>Cuna del mariachi y la música</h2>
+```
+
+Y cero ocurrencias de «Sobre el chat de» en las 2.561 páginas de sala.
+
+**Lo que no ha cambiado es lo que más pesa:** tuchat.org sigue con 3 URLs indexadas de 4.997 y
+ningún dominio de la red enlaza a él. Todo lo de arriba quita motivos para no indexar; no
+sustituye al enlace que falta.
 
 ## Cómo repetir esta auditoría
 
