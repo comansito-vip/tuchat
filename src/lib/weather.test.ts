@@ -147,31 +147,56 @@ describe("fetchWeather", () => {
    * 200 y las ciudades que fallaban responden bien de una en una— lo que sobra
    * es ritmo: hay que espaciar las peticiones, no solo repetirlas.
    */
+  /**
+   * Estos dos re-importan el módulo (`vi.resetModules`) y usan temporizadores
+   * falsos. Las dos cosas son necesarias: el limitador guarda en una variable
+   * de módulo cuándo queda libre el siguiente hueco, así que un test heredaba
+   * la cuenta del anterior; y midiendo milisegundos de pared, la suite en
+   * paralelo hacía fallar el aserto de vez en cuando. Un test que falla una de
+   * cada N veces para el cron nocturno entero, porque generar-salas-tuchat.sh
+   * corre `npm test` con `set -e` antes de publicar.
+   */
   it("espacia las peticiones seguidas en vez de dispararlas a la vez", async () => {
-    const instantes: number[] = [];
-    global.fetch = vi.fn().mockImplementation(async () => {
-      instantes.push(Date.now());
-      return { ok: true, json: async () => respuestaValida } as unknown as Response;
-    });
+    vi.resetModules();
+    vi.useFakeTimers();
+    try {
+      const instantes: number[] = [];
+      global.fetch = vi.fn().mockImplementation(async () => {
+        instantes.push(Date.now());
+        return { ok: true, json: async () => respuestaValida } as unknown as Response;
+      });
+      const { fetchWeather: pedir } = await import("@/lib/weather");
 
-    await Promise.all([fetchWeather("murcia"), fetchWeather("alicante"), fetchWeather("cordoba")]);
+      const enVuelo = Promise.all([pedir("murcia"), pedir("alicante"), pedir("cordoba")]);
+      await vi.advanceTimersByTimeAsync(MIN_MS_ENTRE_PETICIONES * 3);
+      await enVuelo;
 
-    expect(instantes).toHaveLength(3);
-    for (let i = 1; i < instantes.length; i++) {
-      expect(instantes[i] - instantes[i - 1]).toBeGreaterThanOrEqual(MIN_MS_ENTRE_PETICIONES - 20);
+      expect(instantes).toHaveLength(3);
+      for (let i = 1; i < instantes.length; i++) {
+        expect(instantes[i] - instantes[i - 1]).toBe(MIN_MS_ENTRE_PETICIONES);
+      }
+    } finally {
+      vi.useRealTimers();
     }
   });
 
   it("no espera cuando hace rato que no se pide nada", async () => {
-    global.fetch = vi
-      .fn()
-      .mockResolvedValue({ ok: true, json: async () => respuestaValida } as unknown as Response);
-    await fetchWeather("valladolid");
-    await new Promise((r) => setTimeout(r, MIN_MS_ENTRE_PETICIONES + 30));
+    vi.resetModules();
+    vi.useFakeTimers();
+    try {
+      global.fetch = vi
+        .fn()
+        .mockResolvedValue({ ok: true, json: async () => respuestaValida } as unknown as Response);
+      const { fetchWeather: pedir } = await import("@/lib/weather");
 
-    const t0 = Date.now();
-    await fetchWeather("gijon");
-    expect(Date.now() - t0).toBeLessThan(MIN_MS_ENTRE_PETICIONES);
+      // Sin avanzar el reloj en ningún momento: si pidiera turno, esta promesa
+      // no llegaría a resolver y el test moriría por timeout.
+      const t0 = Date.now();
+      await pedir("gijon");
+      expect(Date.now() - t0).toBe(0);
+    } finally {
+      vi.useRealTimers();
+    }
   });
 
   /**

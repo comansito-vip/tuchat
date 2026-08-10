@@ -192,10 +192,16 @@ export function revisarFicha(ficha) {
   if (/^\s*#{1,6}\s/m.test(about)) problemas.push("el about lleva encabezados markdown (se imprimirían literales)");
   if (cifrasMalFormateadas(about)) problemas.push("cifra de 5+ dígitos sin separador de miles");
 
-  // El H2 propio es opcional en las salas viejas, pero si viene tiene que ser
-  // específico: un "Sobre el chat de X" cumple la medida y no aporta nada.
+  // El H2 propio es OBLIGATORIO desde el backfill del 2026-08-11, que dejó las
+  // 2.561 salas con encabezado propio: `src/data/about-titles.test.ts` exige que
+  // ninguna se quede con el genérico "Sobre el chat de X". Una ficha sin título
+  // que llegara a publicarse haría fallar ese test dentro del `npm test` del
+  // cron nocturno y, con `set -e`, pararía el goteo entero. Se descarta aquí,
+  // que es lo que el generador ya sabe hacer, y se sigue con otra localidad.
   const titulo = (ficha.aboutTitle ?? "").trim();
-  if (titulo) {
+  if (!titulo) {
+    problemas.push("sin aboutTitle (el H2 propio de la sala)");
+  } else {
     if (titulo.length < 25 || titulo.length > 70) {
       problemas.push(`aboutTitle de ${titulo.length} caracteres (debe estar entre 25 y 70)`);
     }

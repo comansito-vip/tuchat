@@ -40,10 +40,25 @@ describe("revisarFicha", () => {
       + "La ciudad instaló desfibriladores en su costanera junto al Rotary Club, y el municipio publica en línea los trámites y las infracciones. "
       + "En la sala entran vecinos que preguntan por gestiones, gente que comenta obras del barrio y visitantes que buscan referencias de la ciudad antes de viajar. "
       + "Las conversaciones giran alrededor del transporte urbano, de los centros para mayores y de lo que va pasando en el litoral correntino cada semana.",
+    aboutTitle: "La costanera del Paraná y los trámites del municipio",
   };
 
   it("aprueba una ficha correcta", () => {
     expect(revisarFicha(buena)).toEqual([]);
+  });
+
+  /**
+   * El aboutTitle pasó de opcional a obligatorio cuando el backfill del
+   * 2026-08-11 dejó las 2.561 salas con H2 propio: `about-titles.test.ts` exige
+   * ahora que ninguna sala se quede con el genérico "Sobre el chat de X". Si
+   * una ficha sin título llegara a publicarse, ese test fallaría dentro del
+   * `npm test` del cron nocturno, y con `set -e` el goteo se pararía entero.
+   * Mejor descartar esa localidad aquí, que es lo que el generador ya sabe
+   * hacer, y seguir con la siguiente.
+   */
+  it("rechaza una ficha sin aboutTitle", () => {
+    expect(revisarFicha({ ...buena, aboutTitle: undefined }).join(" "))
+      .toMatch(/aboutTitle/);
   });
 
   it("rechaza la intro fuera del rango de meta description", () => {
