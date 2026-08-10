@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { OG_BASE, JsonLd, faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
+import { OG_BASE, JsonLd, faqJsonLd } from "@/lib/seo";
 import { getStats } from "@/data";
 
 /**
@@ -63,7 +63,8 @@ export default function ComoFuncionaPage() {
   const stats = getStats();
   return (
     <main className="mx-auto max-w-3xl px-4 py-6">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      {/* El BreadcrumbList lo emite <Breadcrumbs> por dentro: emitirlo aquí
+          además dejaba el mismo bloque dos veces en la página. */}
       <JsonLd data={faqJsonLd(FAQ)} />
       <Breadcrumbs crumbs={crumbs} />
 

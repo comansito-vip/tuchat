@@ -159,13 +159,69 @@ es mucho para una página y conviene tenerlo en el radar si esas ciudades tardan
 
 ## Orden de trabajo
 
-| # | Qué | Dónde | Severidad |
-|---|---|---|---|
-| 1 | `push` de los cinco commits ya hechos | — | bloquea todo lo demás |
-| 2 | Reintento + concurrencia limitada en `fetchWeather` | `src/lib/weather.ts` | **ALTO** |
-| 3 | Quitar el `BreadcrumbList` duplicado de `/como-funciona` | `app/como-funciona` | MEDIO |
-| 4 | `rel="nofollow"` en la atribución a Open-Meteo | `WeatherWidget.tsx` | MEDIO |
-| 5 | Enlazar a tuchat.org desde la red | **fuera de este repo** | sigue siendo lo de mayor retorno |
+| # | Qué | Dónde | Severidad | Estado |
+|---|---|---|---|---|
+| 1 | `push` de los commits | — | bloquea lo demás | **pendiente** |
+| 2 | Reintento + ritmo limitado en `fetchWeather` | `src/lib/weather.ts` | ALTO | hecho |
+| 3 | Quitar el `BreadcrumbList` duplicado | `app/como-funciona` | MEDIO | hecho |
+| 4 | `rel="nofollow"` en la atribución a Open-Meteo | `WeatherWidget.tsx` | MEDIO | hecho |
+| 5 | Enlazar a tuchat.org desde la red | **fuera de este repo** | mayor retorno | pendiente |
 
 El punto 5 no ha cambiado desde el 6 de agosto: **3 URLs indexadas de 4.997 y ningún dominio de
 la red enlaza a tuchat.org.**
+
+---
+
+# Qué se hizo (2026-08-11)
+
+## Las páginas de `/tiempo`: de 1.332 vacías a 0
+
+Hicieron falta tres arreglos, y el orden en que se descartaron importa porque el primero parecía
+suficiente y no lo era:
+
+1. **Reintento ante 429/5xx y errores de red** (`pedirConReintento`). Bajó de **1.332 a 467**.
+   Un 4xx que no sea 429 no se reintenta: la petición está mal formada y repetirla gasta build.
+2. **Ritmo limitado** (`MIN_MS_ENTRE_PETICIONES = 700`). Reintentar no bastaba porque el problema
+   no era una petición que falla, sino todas lanzadas a la vez: con la API sana —60 peticiones
+   seguidas dan 200, y las ciudades que fallaban responden bien de una en una— lo que sobraba era
+   ritmo. La espera se calcula sobre la última petición hecha, así que una visita aislada en
+   producción no espera nada.
+3. **Memoización por slug**. `tiempo/[ciudad]` pide la previsión dos veces —`generateMetadata` y
+   el cuerpo—; Next deduplica el fetch, pero el turno del limitador se consumía igual y cada
+   página gastaba dos huecos de 700 ms. El build se iba de 13 minutos sin terminar.
+
+Resultado del build completo:
+
+```
+1.965 páginas de /tiempo · 0 sin previsión · 773 s
+```
+
+**Coste a tener en cuenta:** el build pasa a ~13 minutos por el limitador. Es un cron nocturno en
+el VPS, así que el cambio se paga solo, pero conviene saberlo antes de tocar
+`MIN_MS_ENTRE_PETICIONES` a la baja.
+
+## Los otros dos
+
+- `/como-funciona` emitía su `BreadcrumbList` a mano además del que ya pinta `<Breadcrumbs>`.
+  Ahora hay **uno**.
+- La atribución a Open-Meteo lleva `rel="nofollow noopener noreferrer"`. Enlaces externos
+  dofollow del sitio: **0** (eran 1.332, casi todos por las páginas rotas del punto anterior).
+
+## Y el auditor aprende a verlo
+
+`auditar-html.mjs` marca ahora el mismo bloque de JSON-LD repetido dentro de una página. Los
+tipos que legítimamente aparecen varias veces (`ItemList`, uno por listado) se comparan por su
+JSON completo, así que solo salta cuando el bloque es literalmente idéntico.
+
+## Estado final verificado
+
+| | |
+|---|---|
+| `auditar-html.mjs` (4.991 páginas) | **ninguna incidencia** |
+| `npm run auditar` | 0 avisos |
+| Tests | **431** |
+| `tsc` / `eslint` | limpios |
+| Páginas de `/tiempo` sin previsión | **0 de 1.965** |
+| Enlaces externos dofollow | **0** |
+| `BreadcrumbList` en `/como-funciona` | 1 |
+| Referencias a `nip.io`, `localhost`, IPs o dominios de dev | **0** en código, HTML, sitemap, robots.txt e historial de git |

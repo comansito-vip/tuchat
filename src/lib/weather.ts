@@ -128,7 +128,89 @@ export function rainyDays(data: WeatherData): number {
   return data.forecast.filter((d) => RAIN_CODES.has(d.weatherCode)).length;
 }
 
-export async function fetchWeather(slug: string): Promise<WeatherData | null> {
+/**
+ * Espera entre reintentos. Corta a propósito: el build tiene que terminar, y lo
+ * que se combate aquí es un pico de peticiones simultáneas, no una caída.
+ */
+const ESPERA_REINTENTO = [250, 750, 2500];
+
+/**
+ * Separación mínima entre dos peticiones a Open-Meteo desde este proceso.
+ *
+ * El plan gratuito admite del orden de 600 peticiones por minuto y el build las
+ * reparte entre los cinco workers de Next: a 700 ms por worker salen unas 430
+ * al minuto, con margen. Reintentar no bastaba —el build pasó de 1.332 páginas
+ * sin previsión a 467— porque el problema no era que fallara una petición
+ * suelta, sino el ritmo al que se lanzaban todas.
+ *
+ * No penaliza el runtime: la espera se calcula sobre la ÚLTIMA petición hecha,
+ * así que una visita aislada a /tiempo/madrid no espera nada.
+ */
+export const MIN_MS_ENTRE_PETICIONES = 700;
+
+let proximaLibre = 0;
+
+/** Reserva el siguiente hueco y espera a que llegue. */
+async function turno(): Promise<void> {
+  const ahora = Date.now();
+  const inicio = Math.max(ahora, proximaLibre);
+  proximaLibre = inicio + MIN_MS_ENTRE_PETICIONES;
+  if (inicio > ahora) await new Promise((r) => setTimeout(r, inicio - ahora));
+}
+
+/**
+ * Pide la previsión reintentando lo que merece la pena reintentar.
+ *
+ * POR QUÉ: el build pide las 1.965 localidades con los cinco workers de Next y
+ * Open-Meteo empieza a devolver 429. Antes, un solo `!res.ok` devolvía null y
+ * la página se prerenderizaba con "Sin datos meteorológicos disponibles" bajo un
+ * <h1> que promete la previsión —1.332 páginas del build del 2026-08-10, con un
+ * 30% de ellas todavía así en producción, porque el ISR solo las arregla cuando
+ * alguien las visita—. La API no estaba caída: 40 peticiones seguidas responden
+ * 200. Era el ritmo.
+ *
+ * Un 4xx que no sea 429 no se reintenta: la petición está mal formada y
+ * repetirla solo gasta tiempo de build.
+ */
+async function pedirConReintento(url: string): Promise<Response | null> {
+  for (let intento = 0; ; intento++) {
+    try {
+      await turno();
+      const res = await fetch(url, { next: { revalidate: 3600 } });
+      if (res.ok) return res;
+      const merecePena = res.status === 429 || res.status >= 500;
+      if (!merecePena || intento >= ESPERA_REINTENTO.length) return null;
+    } catch {
+      if (intento >= ESPERA_REINTENTO.length) return null;
+    }
+    await new Promise((r) => setTimeout(r, ESPERA_REINTENTO[intento]));
+  }
+}
+
+/**
+ * Previsiones ya pedidas en este proceso, por slug.
+ *
+ * `tiempo/[ciudad]` pide la previsión dos veces —en generateMetadata, para
+ * poner la temperatura real en la description, y en el cuerpo—. Next deduplica
+ * el fetch, pero el turno del limitador se consumía igual: cada página gastaba
+ * dos huecos de 700 ms y el build tardaba el doble sin motivo. Guardando la
+ * promesa, la segunda llamada no toca la red ni pide turno.
+ *
+ * Vive lo que vive el proceso: en el build es lo que dura el build, y en
+ * runtime lo recicla el reinicio de pm2. La frescura de los datos la sigue
+ * gobernando `revalidate: 3600` del propio fetch.
+ */
+const enCurso = new Map<string, Promise<WeatherData | null>>();
+
+export function fetchWeather(slug: string): Promise<WeatherData | null> {
+  const yaPedida = enCurso.get(slug);
+  if (yaPedida) return yaPedida;
+  const promesa = pedirPrevision(slug);
+  enCurso.set(slug, promesa);
+  return promesa;
+}
+
+async function pedirPrevision(slug: string): Promise<WeatherData | null> {
   const coord = CITY_COORDS[slug];
   if (!coord) return null;
 
@@ -142,8 +224,8 @@ export async function fetchWeather(slug: string): Promise<WeatherData | null> {
     `&forecast_days=5`;
 
   try {
-    const res = await fetch(url, { next: { revalidate: 3600 } });
-    if (!res.ok) return null;
+    const res = await pedirConReintento(url);
+    if (!res) return null;
     const d = await res.json();
 
     const days: WeatherDay[] = (d.daily.time as string[]).map((date, i) => ({

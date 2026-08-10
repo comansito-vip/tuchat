@@ -21,10 +21,13 @@ export function WeatherWidget({
       <div className="mt-6 rounded-2xl border border-line bg-card p-6">
         <p className="text-sm text-muted">
           Sin datos meteorológicos disponibles para {nombre}. Consulta{" "}
+          {/* nofollow: es una atribución a la fuente, no una recomendación.
+              Sin él, cada página sin previsión regalaba un enlace saliente y
+              llegaron a ser 1.332 apuntando todos al mismo dominio. */}
           <a
             href="https://open-meteo.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="text-blue hover:underline"
           >
             Open-Meteo

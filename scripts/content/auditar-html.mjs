@@ -162,13 +162,25 @@ for (const f of archivos) {
   });
   if (mudos.length) add(url, "ALTO", `${mudos.length} enlaces sin nombre accesible`);
 
-  // JSON-LD válido
+  // JSON-LD válido, y sin repetir el mismo bloque dos veces en la misma página.
+  // Los tipos que sí pueden aparecer varias veces con contenido distinto
+  // (ItemList: uno por listado de la página) se comparan por su JSON completo,
+  // así que solo salta cuando el bloque es literalmente el mismo. Lo destapó
+  // /como-funciona, que emitía su BreadcrumbList a mano además del que ya pinta
+  // el componente Breadcrumbs.
+  const bloques = new Map();
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try {
       const d = JSON.parse(m[1]);
       if (!d["@type"]) add(url, "MEDIO", "JSON-LD sin @type");
+      bloques.set(m[1], (bloques.get(m[1]) ?? 0) + 1);
     } catch { add(url, "ALTO", "JSON-LD no parseable"); }
   }
+  for (const [bloque, n] of bloques)
+    if (n > 1) {
+      const tipo = (JSON.parse(bloque)["@type"]) ?? "?";
+      add(url, "MEDIO", `JSON-LD ${tipo} repetido ${n} veces en la misma página`);
+    }
 
   // texto roto
   if (/\bundefined\b|\bNaN\b|\[object Object\]|\bnull\b/.test(v))
