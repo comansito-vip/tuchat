@@ -27,6 +27,18 @@ export async function getRankingByCountry(countrySlug: string, limit = 20): Prom
   return rank(cities, counts, limit);
 }
 
+/**
+ * Los países completos, ordenados por votos. Alimenta los enlaces a
+ * /ranking/{país} de la página /ranking: hay página generada para los 30, así
+ * que enlazar solo el top 10 dejaba 20 huérfanas —en el sitemap y sin un solo
+ * enlace entrante en todo el sitio—. La tabla numérica sigue usando
+ * getRankingByKind("pais", 10); esto es solo para el enlazado.
+ */
+export async function getRankedCountries(): Promise<Place[]> {
+  const counts = await getVoteCounts();
+  return rank(getCountries(), counts, getCountries().length);
+}
+
 /** Puesto (1-based) de un país dentro del ranking global de países. */
 export async function getCountryRankPosition(countrySlug: string): Promise<number> {
   const counts = await getVoteCounts();

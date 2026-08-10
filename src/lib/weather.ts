@@ -71,6 +71,53 @@ export function wmoText(code: number): string {
   return "condiciones variables";
 }
 
+/** Lo que Google llega a mostrar de una meta description antes de cortarla. */
+const MAX_DESCRIPTION = 170;
+
+/**
+ * Meta description de /tiempo/[ciudad], armada con la previsión real.
+ *
+ * Se construye por variantes de más completa a más corta y se emite la primera
+ * que cabe, en vez de recortar la frase final por caracteres: cortar dejaba la
+ * description a media palabra en las localidades de nombre largo con
+ * cualificador (Concepción (Paraguay), San Marcos (Guatemala), Ushuaia se iban
+ * a 173-178). Lo primero que se cae es la coletilla de la previsión a N días;
+ * lo último, la temperatura, que es el dato por el que se busca.
+ */
+export function weatherMetaDescription(
+  nombreSEO: string,
+  ubicacion: string | undefined,
+  w: WeatherData | null,
+): string {
+  const conUbicacion = ubicacion ? `${nombreSEO} (${ubicacion})` : nombreSEO;
+
+  if (!w) {
+    return elegir([
+      `Previsión del tiempo en ${conUbicacion}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
+      `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`,
+      `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento día a día.`,
+    ]);
+  }
+
+  const ahora = `${Math.round(w.current.temp)}°C y ${wmoText(w.current.weatherCode).toLowerCase()} ahora`;
+  const rango = `máxima de ${w.maxTemp}° y mínima de ${w.minTemp}°`;
+  const cola = `Previsión a ${w.forecast.length} días con lluvia y viento.`;
+
+  return elegir([
+    `${conUbicacion}: ${ahora}, ${rango}. ${cola}`,
+    `${conUbicacion}: ${ahora}, ${rango}.`,
+    `${nombreSEO}: ${ahora}, ${rango}. ${cola}`,
+    `${nombreSEO}: ${ahora}, ${rango}.`,
+    `${nombreSEO}: ${ahora}.`,
+  ]);
+}
+
+/** La primera variante que cabe; si ninguna cabe, la última recortada. */
+function elegir(variantes: string[]): string {
+  for (const v of variantes) if (v.length <= MAX_DESCRIPTION) return v;
+  return variantes[variantes.length - 1].slice(0, MAX_DESCRIPTION - 1).trimEnd() + "…";
+}
+
 // Códigos WMO que implican precipitación (llovizna, lluvia, chubascos, nieve, tormenta).
 const RAIN_CODES = new Set([
   51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 71, 73, 75, 77, 80, 81, 82, 85, 86, 95, 96, 99,

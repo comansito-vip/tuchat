@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RankingTable } from "@/components/home/RankingTable";
 import { NickInput } from "@/components/ui/NickInput";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { getGlobalRanking, getRankingByKind } from "@/lib/ranking";
+import { getGlobalRanking, getRankingByKind, getRankedCountries } from "@/lib/ranking";
 import { FAQBlock } from "@/components/room/FAQBlock";
 import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
@@ -45,11 +45,12 @@ const FAQ = [
 ];
 
 export default async function RankingPage() {
-  const [general, paises, ciudades, tematicas] = await Promise.all([
+  const [general, paises, ciudades, tematicas, todosLosPaises] = await Promise.all([
     getGlobalRanking(10),
     getRankingByKind("pais", 10),
     getRankingByKind("ciudad", 10),
     getRankingByKind("tematica", 10),
+    getRankedCountries(),
   ]);
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -77,8 +78,10 @@ export default async function RankingPage() {
       <section className="mt-10">
         <SectionTitle>Por país</SectionTitle>
         <RankingTable ranking={paises} />
+        {/* Los 30 países, no los 10 de la tabla: /ranking/[pais] genera página
+            para todos y estos chips son su único enlace entrante. */}
         <div className="mt-3 flex flex-wrap gap-2">
-          {paises.map((p) => (
+          {todosLosPaises.map((p) => (
             <Link
               key={p.slug}
               href={`/ranking/${p.slug}`}

@@ -24,7 +24,7 @@ import { LeagueStandings } from "@/components/room/LeagueStandings";
 import { TEAM_LEAGUE, getLeague } from "@/lib/sports";
 import { SEOTextBlock } from "@/components/room/SEOTextBlock";
 import { FAQBlock } from "@/components/room/FAQBlock";
-import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "./copy";
+import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets, roomServiceCards } from "./copy";
 import { collectionJsonLd, faqJsonLd, itemListJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 
 // ISR: el contenido base es estático; las redirecciones/overrides del panel se
@@ -199,53 +199,30 @@ export default async function ChatRoomPage({
             </section>
           )}
 
-          {/* News, weather and services teasers */}
+          {/* News, weather and services teasers. Qué tarjetas se pintan lo
+              decide `roomServiceCards`, que solo ofrece los servicios con
+              página generada: el tiempo y las loterías tienen
+              `dynamicParams = false`, así que enlazar a una localidad sin
+              previsión llevaba a un 404, no a una página pobre. */}
           <section className="mt-8">
             <SectionTitle>Más sobre {place.name}</SectionTitle>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
-              <div className="text-2xl" aria-hidden="true">📰</div>
-              <h3 className="mt-1 font-semibold text-ink">Noticias de {place.name}</h3>
-              <p className="mt-1 text-sm text-muted">
-                Mantente al día con las últimas noticias relacionadas con {place.name}.
-              </p>
-              <Link
-                href="/noticias"
-                className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
-              >
-                Ver noticias →
-              </Link>
-            </div>
-            {place.kind !== "tematica" && (
-              <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
-                <div className="text-2xl" aria-hidden="true">🌤️</div>
-                <h3 className="mt-1 font-semibold text-ink">Tiempo en {place.name}</h3>
-                <p className="mt-1 text-sm text-muted">
-                  Consulta la previsión del tiempo para planificar tu día en {place.name}.
-                </p>
-                <Link
-                  href={`/tiempo/${place.slug}`}
-                  className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
+              {roomServiceCards(place).map((card) => (
+                <div
+                  key={card.href}
+                  className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue"
                 >
-                  Ver el tiempo →
-                </Link>
-              </div>
-            )}
-            {place.kind === "pais" && (
-              <div className="rounded-xl border border-line bg-card p-4 transition-colors hover:border-blue">
-                <div className="text-2xl" aria-hidden="true">🎰</div>
-                <h3 className="mt-1 font-semibold text-ink">Loterías de {place.name}</h3>
-                <p className="mt-1 text-sm text-muted">
-                  Resultados y fechas de los sorteos más populares de {place.name}.
-                </p>
-                <Link
-                  href={`/loterias/${place.slug}`}
-                  className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
-                >
-                  Ver loterías →
-                </Link>
-              </div>
-            )}
+                  <div className="text-2xl" aria-hidden="true">{card.icon}</div>
+                  <h3 className="mt-1 font-semibold text-ink">{card.title}</h3>
+                  <p className="mt-1 text-sm text-muted">{card.desc}</p>
+                  <Link
+                    href={card.href}
+                    className="mt-2 inline-block text-sm font-semibold text-blue hover:underline"
+                  >
+                    {card.cta}
+                  </Link>
+                </div>
+              ))}
             </div>
           </section>
         </div>

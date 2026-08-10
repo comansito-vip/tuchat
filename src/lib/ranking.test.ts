@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { getGlobalRanking, getRankingByKind, getRankingByCountry, getCountryRankPosition } from "@/lib/ranking";
+import { getGlobalRanking, getRankingByKind, getRankingByCountry, getCountryRankPosition, getRankedCountries } from "@/lib/ranking";
 import { getCountries } from "@/data";
 
 vi.mock("@/lib/votes-store", () => ({
@@ -75,6 +75,25 @@ describe("ranking", () => {
   it("getRankingByCountry returns an empty array for an unknown country slug", async () => {
     const results = await getRankingByCountry("nonexistent-country-slug", 10);
     expect(results).toEqual([]);
+  });
+
+  /**
+   * /ranking/[pais] genera página para los 30 países, pero /ranking solo
+   * pintaba los chips del top 10 que devuelve getRankingByKind("pais", 10):
+   * las otras 20 quedaban en el sitemap sin un solo enlace entrante en todo el
+   * sitio —las únicas 20 huérfanas que tenía tuchat—. La tabla de arriba sigue
+   * mostrando 10; los enlaces tienen que cubrir el catálogo entero.
+   */
+  it("getRankedCountries covers every country that has a ranking page", async () => {
+    const ranked = await getRankedCountries();
+    expect(ranked.map((p) => p.slug).sort()).toEqual(getCountries().map((c) => c.slug).sort());
+  });
+
+  it("getRankedCountries sorts by votes descending", async () => {
+    const ranked = await getRankedCountries();
+    for (let i = 1; i < ranked.length; i++) {
+      expect(ranked[i].votes).toBeLessThanOrEqual(ranked[i - 1].votes);
+    }
   });
 
   it("getCountryRankPosition returns a 1-based position within total country count", async () => {

@@ -6,7 +6,7 @@ import { FAQBlock } from "@/components/room/FAQBlock";
 import { cap } from "@/lib/slug";
 import { collectionJsonLd, faqJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
 import Link from "next/link";
-import { fetchWeather, wmoText, rainyDays, hasWeather } from "@/lib/weather";
+import { fetchWeather, wmoText, rainyDays, hasWeather, weatherMetaDescription } from "@/lib/weather";
 import { WeatherWidget } from "@/components/tiempo/WeatherWidget";
 
 export const revalidate = 3600;
@@ -46,13 +46,10 @@ export async function generateMetadata({
   // nombre de la ciudad, que pasa en toda capital de provincia homónima.
   const candidato = place?.provincia ?? place?.parentName;
   const ubicacion = candidato && candidato !== place?.name ? candidato : undefined;
-  const description = w
-    ? `${nombreSEO}${ubicacion ? ` (${ubicacion})` : ""}: ${Math.round(w.current.temp)}°C y ${wmoText(
-        w.current.weatherCode,
-      ).toLowerCase()} ahora, máxima de ${w.maxTemp}° y mínima de ${w.minTemp}°. Previsión a ${
-        w.forecast.length
-      } días con lluvia y viento.`
-    : `Previsión del tiempo en ${nombreSEO}: temperaturas, lluvia y viento para los próximos días. Consulta el forecast actualizado en TuChat.`;
+  // El armado vive en weatherMetaDescription porque las localidades de nombre
+  // largo con cualificador se pasaban de los ~170 caracteres que muestra Google
+  // y la frase se cortaba a media palabra.
+  const description = weatherMetaDescription(nombreSEO, ubicacion, w);
 
   return {
     // "Tiempo en X" y no "Previsión del tiempo en X": con el cualificador

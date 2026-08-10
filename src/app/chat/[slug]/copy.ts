@@ -1,6 +1,8 @@
 import type { Place } from "@/data";
 import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren } from "@/data";
 import type { Crumb } from "@/lib/seo";
+import { hasWeather } from "@/lib/weather";
+import { LOTERIA_INFO } from "@/lib/lottery-info";
 
 /**
  * Copy de la landing de cada sala.
@@ -101,6 +103,64 @@ function mismoNombre(canal: string, slug: string): boolean {
       .replace(/[̀-ͯ]/g, "")
       .replace(/[_-]/g, "");
   return n(canal) === n(slug);
+}
+
+// ───────────────────── Tarjetas de "Más sobre X" ─────────────────────
+
+export interface ServiceCard {
+  icon: string;
+  title: string;
+  desc: string;
+  href: string;
+  cta: string;
+}
+
+/**
+ * Las tarjetas de servicio que la sala puede ofrecer de verdad.
+ *
+ * La condición no es cosmética: `/tiempo/[ciudad]` y `/loterias/[pais]` declaran
+ * ambas `dynamicParams = false` y solo generan las entradas que tienen datos
+ * reales detrás —previsión geocodificada en un caso, sorteos verificados en el
+ * otro—, así que enlazar a una localidad sin previsión no lleva a una página
+ * pobre: lleva a un 404. Eran 76 enlaces internos rotos, y se reponían solos con
+ * cada tanda de salas del cron de goteo, porque las localidades nuevas llegan
+ * sin coordenadas.
+ *
+ * Se comprueba con el mismo predicado que usa `generateStaticParams` de cada
+ * ruta, no con una lista paralela: una copia se desincroniza a la primera.
+ */
+export function roomServiceCards(place: Place): ServiceCard[] {
+  const cards: ServiceCard[] = [
+    {
+      icon: "📰",
+      title: `Noticias de ${place.name}`,
+      desc: `Mantente al día con las últimas noticias relacionadas con ${place.name}.`,
+      href: "/noticias",
+      cta: "Ver noticias →",
+    },
+  ];
+
+  if (place.kind !== "tematica" && hasWeather(place.slug)) {
+    cards.push({
+      icon: "🌤️",
+      title: `Tiempo en ${place.name}`,
+      desc: `Consulta la previsión del tiempo para planificar tu día en ${place.name}.`,
+      href: `/tiempo/${place.slug}`,
+      cta: "Ver el tiempo →",
+    });
+  }
+
+  if (place.kind === "pais" && place.slug in LOTERIA_INFO) {
+    cards.push({
+      icon: "🎰",
+      title: `Loterías de ${place.name}`,
+      desc: `Resultados y fechas de los sorteos más populares de ${place.name}.`,
+      href: `/loterias/${place.slug}`,
+      cta: "Ver loterías →",
+    });
+  }
+
+  return cards;
 }
 
 // ───────────────────── Párrafo de contexto ─────────────────────

@@ -1,6 +1,8 @@
 import { it, expect, describe } from "vitest";
-import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets } from "@/app/chat/[slug]/copy";
+import { buildRoomCrumbs, buildFaq, aboutLead, roomBullets, roomServiceCards } from "@/app/chat/[slug]/copy";
 import { getPlace, getNews, getCountries, getCities, getTopics } from "@/data";
+import { hasWeather } from "@/lib/weather";
+import { LOTERIA_INFO } from "@/lib/lottery-info";
 
 describe("chat room copy", () => {
   it("builds breadcrumbs Inicio > España > Madrid for a city", () => {
@@ -154,6 +156,53 @@ describe("el copy de sala no es una plantilla con hueco", () => {
       .map((s) => getPlace(s)!)
       .map((p) => despersonalizar(roomBullets(p).join(" | "), p));
     expect(new Set(moldes).size).toBe(moldes.length);
+  });
+});
+
+/**
+ * Las tarjetas de "Más sobre X" enlazaban a /tiempo/{slug} en toda sala que no
+ * fuese temática y a /loterias/{slug} en todo país. Pero ninguna de esas dos
+ * rutas genera página para todos: /tiempo solo cubre las localidades con
+ * previsión real (hasWeather) y /loterias solo los países con sorteos
+ * verificados (LOTERIA_INFO), y ambas declaran `dynamicParams = false`, así que
+ * lo que no se genera responde 404 —no un redirect—. Resultado medido sobre el
+ * build del 2026-08-10: 76 enlaces internos a 404 desde páginas indexables.
+ *
+ * El caso se repone solo: cada tanda de salas que publica el cron de goteo trae
+ * localidades nuevas sin coordenadas. Por eso el test recorre el catálogo
+ * entero en vez de un puñado de ejemplos.
+ */
+describe("las tarjetas de servicio no enlazan a páginas que no existen", () => {
+  const destinos = (slug: string) => roomServiceCards(getPlace(slug)!).map((c) => c.href);
+
+  it("no ofrece el tiempo de una localidad sin previsión", () => {
+    expect(hasWeather("petrer")).toBe(false);
+    expect(destinos("petrer")).not.toContain("/tiempo/petrer");
+  });
+
+  it("sigue ofreciendo el tiempo donde sí hay previsión", () => {
+    expect(destinos("madrid")).toContain("/tiempo/madrid");
+  });
+
+  it("no ofrece loterías de un país sin sorteos verificados", () => {
+    expect("belice" in LOTERIA_INFO).toBe(false);
+    expect(destinos("belice")).not.toContain("/loterias/belice");
+  });
+
+  it("sigue ofreciendo loterías del país que sí las tiene", () => {
+    expect(destinos("espana")).toContain("/loterias/espana");
+  });
+
+  it("ninguna sala del catálogo enlaza a una ruta sin página", () => {
+    const rotos: string[] = [];
+    for (const place of [...getCountries(), ...getCities(), ...getTopics()]) {
+      for (const { href } of roomServiceCards(place)) {
+        const slug = href.split("/")[2];
+        if (href.startsWith("/tiempo/") && !hasWeather(slug)) rotos.push(`${place.slug} → ${href}`);
+        if (href.startsWith("/loterias/") && !(slug in LOTERIA_INFO)) rotos.push(`${place.slug} → ${href}`);
+      }
+    }
+    expect(rotos).toEqual([]);
   });
 });
 
