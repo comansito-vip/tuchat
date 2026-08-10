@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomName, roomTitle, CONTINENTS } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomName, roomTitle, roomMetaTitle, CONTINENTS } from "@/data";
 
 describe("títulos de sala", () => {
   const ALL = [...getCountries(), ...getCities(), ...getTopics()];
@@ -36,6 +36,39 @@ describe("títulos de sala", () => {
       expect(dupes).toEqual([]);
       expect(grupo.filter((t) => t.length + SUFIJO > 60)).toEqual([]);
     }
+  });
+
+  /**
+   * El <title> y el H1 eran idénticos en 2.940 páginas, y el <title> medía 21
+   * caracteres de mediana cuando Google muestra unos 60: sobraban cuarenta sin
+   * usar. El complemento se AÑADE, nunca sustituye, porque el corpus de la red
+   * (26 M de impresiones) dice que de las 173 salas con demanda medible en
+   * formas con sufijo, en 167 gana "gratis" — cambiarlo por "sin registro",
+   * que es el 0,3% de la demanda, sería un mal negocio.
+   */
+  it("el <title> añade el complemento y el H1 se queda con la forma corta", () => {
+    expect(roomMetaTitle(getPlace("madrid")!)).toBe("Chat Madrid gratis sin registro");
+    expect(roomTitle(getPlace("madrid")!)).toBe("Chat Madrid gratis");
+  });
+
+  it("usa el complemento que la demanda medida da como ganador en esa sala", () => {
+    // En estas tres el corpus da "online" por encima de "gratis" (Portugal:
+    // 2.424 impresiones frente a 490). "gratis" se conserva igualmente.
+    expect(roomMetaTitle(getPlace("portugal")!)).toBe("Chat Portugal gratis online");
+    expect(roomMetaTitle(getPlace("nudismo")!)).toContain("online");
+  });
+
+  it("no repite un complemento que el título ya lleva", () => {
+    // Los títulos propios de los hubs ya dicen "sin registro" a mano.
+    const t = roomMetaTitle(getPlace("ligar")!);
+    expect(t.match(/sin registro/g)?.length ?? 0).toBeLessThanOrEqual(1);
+  });
+
+  it("los <title> con complemento siguen cabiendo en la SERP y sin repetirse", () => {
+    const titles = ALL.map((p) => roomMetaTitle(p));
+    expect(titles.filter((t) => t.length > 60)).toEqual([]);
+    const dupes = titles.filter((t, i) => titles.indexOf(t) !== i);
+    expect(dupes).toEqual([]);
   });
 
   it("la sala canónica conserva el título limpio y la homónima se cualifica", () => {

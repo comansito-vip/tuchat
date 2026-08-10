@@ -17,7 +17,7 @@ import { RoomCard } from "@/components/home/RoomCard";
 import { RoomGrid } from "@/components/ui/RoomGrid";
 import { RegionGroupedGrid } from "@/components/ui/RegionGroupedGrid";
 import { ProvinciaGroupedGrid } from "@/components/ui/ProvinciaGroupedGrid";
-import { getRegions, getCitiesByRegion, roomName, roomTitle } from "@/data";
+import { getRegions, getCitiesByRegion, roomName, roomTitle, roomMetaTitle } from "@/data";
 import { RoomHero } from "@/components/room/RoomHero";
 import { RoomInfoPanel } from "@/components/room/RoomInfoPanel";
 import { LeagueStandings } from "@/components/room/LeagueStandings";
@@ -54,7 +54,12 @@ export async function generateMetadata({
     // Título absoluto (sin el sufijo "· TuChat" del template): con ~2.000
     // salas, repetir la marca en cada title era redundante — pedido del
     // cliente 2026-07-13. Mismo patrón que los artículos de noticias.
-    title: { absolute: roomTitle(place) },
+    //
+    // `roomMetaTitle` y no `roomTitle`: el <title> lleva un complemento que el
+    // H1 no necesita ("Chat Madrid gratis sin registro" frente a "Chat Madrid
+    // gratis"). Eran el mismo texto en 2.940 páginas, desaprovechando cuarenta
+    // caracteres de los sesenta que muestra Google.
+    title: { absolute: roomMetaTitle(place) },
     description: place.intro,
     alternates: { canonical: `/chat/${place.slug}` },
     openGraph: { ...OG_BASE, url: `/chat/${place.slug}` },

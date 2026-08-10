@@ -2,6 +2,7 @@ import { CITIES } from "./cities";
 import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
+import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
 import { TOPICS_EXTRA } from "./topics-extra";
@@ -25,7 +26,15 @@ import { normalize } from "@/lib/slug";
 const conRegion = (p: Place): Place =>
   p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
 
-const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD, ...CITIES_GENERADAS].map(conRegion);
+// El H2 propio de las salas anteriores al generador de localidades (ver
+// about-titles.ts). Gana siempre el de la ficha: el cron de goteo escribe el
+// suyo al publicar y no tiene por qué saber de este mapa.
+const conAboutTitle = (p: Place): Place =>
+  p.aboutTitle || !ABOUT_TITLES[p.slug] ? p : { ...p, aboutTitle: ABOUT_TITLES[p.slug] };
+
+const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD, ...CITIES_GENERADAS]
+  .map(conRegion)
+  .map(conAboutTitle);
 const ALL_TOPICS: Place[] = [
   ...TOPICS,
   ...TOPICS_EXTRA,
@@ -37,8 +46,9 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
   ...TOPICS_LATINCHAT,
-];
-const ALL: Place[] = [...COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
+].map(conAboutTitle);
+const ALL_COUNTRIES: Place[] = COUNTRIES.map(conAboutTitle);
+const ALL: Place[] = [...ALL_COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 
 // Índice por slug: getPlace se llama una vez por sala al prerenderizar 460+
 // páginas, así que un Map evita el escaneo lineal repetido sobre todo el catálogo.
@@ -142,8 +152,49 @@ export function roomTitle(place: Place): string {
   return /^chat\b/i.test(name) ? `${name} gratis` : `Chat ${name} gratis`;
 }
 
+/**
+ * Las salas donde la demanda medida NO da "gratis" como forma ganadora.
+ *
+ * Sale del corpus de la red (/home/javier/red-seo, 26 M de impresiones en
+ * consultas que empiezan por "chat"): de las 173 salas con demanda suficiente en
+ * formas con sufijo, en 167 gana "gratis". Estas son las excepciones reales
+ * —Portugal acumula 2.424 impresiones en "chat portugal online" frente a 490 en
+ * "gratis"—, así que su complemento es el suyo y no el genérico.
+ */
+const COMPLEMENTO_MEDIDO: Record<string, string> = {
+  portugal: "online",
+  arg: "online",
+  nudismo: "online",
+};
+
+/** El complemento por defecto: la fórmula natural del sector cuando no hay dato propio. */
+const COMPLEMENTO = "sin registro";
+
+/**
+ * El <title> de la página de sala. Es el H1 más un complemento.
+ *
+ * POR QUÉ AÑADE EN VEZ DE ROTAR: el H1 y el <title> eran el mismo texto en 2.940
+ * páginas, y ese texto medía 21 caracteres de mediana cuando Google muestra unos
+ * 60 —sobraban cuarenta sin usar—. La tentación es rotar el sufijo ("gratis" en
+ * unas, "sin registro" en otras) para que no se parezcan tanto, pero el corpus
+ * dice que en las consultas de sala "gratis" vale el 11,6% de las impresiones y
+ * "sin registro" el 0,3%: sustituir uno por otro sería cambiar demanda real por
+ * demanda marginal. Añadiendo, la página cubre las dos formulaciones y el H1 se
+ * queda con la corta, que es la que se lee bien dentro de la página.
+ *
+ * El complemento se omite —no se recorta a la mitad— si no cabe en los 60
+ * caracteres, y no se duplica en las salas cuyo título propio ya lo dice.
+ */
+export function roomMetaTitle(place: Place): string {
+  const base = roomTitle(place);
+  const complemento = COMPLEMENTO_MEDIDO[place.slug] ?? COMPLEMENTO;
+  if (new RegExp(`\\b${complemento}\\b`, "i").test(base)) return base;
+  const conComplemento = `${base} ${complemento}`;
+  return conComplemento.length <= 60 ? conComplemento : base;
+}
+
 export function getCities() { return ALL_CITIES; }
-export function getCountries() { return COUNTRIES; }
+export function getCountries() { return ALL_COUNTRIES; }
 export function getTopics() { return ALL_TOPICS; }
 // Solo los temas principales (para el carrusel de categorías de la home).
 export function getPrimaryTopics() { return TOPICS; }
