@@ -1775,5 +1775,156 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Sala de chat de Talcahuano, uno de los puertos más importantes de Chile. Conecta con personas de la zona central del país.",
     "aboutTitle": "La comunidad del puerto de Talcahuano",
     "about": "Talcahuano es una comuna y ciudad de la zona central de Chile, ubicada en la provincia de Concepción, Región del Biobío. Es uno de los puertos más importantes del país. En la sala de chat de Talcahuano, podrás conocer a personas que comparten intereses y pasatiempos relacionados con la vida en la costa chilena. Hablan sobre temas cotidianos, eventos locales y actividades en el puerto. La sala es un espacio abierto para que todos se sientan cómodos compartiendo sus pensamientos y experiencias.\n\nEn la sala de chat de Talcahuano, encontrarás personas de diferentes edades y profesiones, todas con una cosa en común: su conexión con la ciudad y su deseo de conectarse con otros. Puedes compartir tus experiencias, hacer amigos o simplemente disfrutar de la conversación."
+  },
+  {
+    "slug": "unare",
+    "name": "Unare",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 231,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-guayana",
+      "ciudad-bolivar",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Unare, la sala de encuentro para conversar sobre esta zona de Venezuela, donde el río Unare separa las lagunas de Unare y Píritu.",
+    "aboutTitle": "El río Unare y sus lagunas: tema central en el chat",
+    "about": "La sala de chat de Unare es un espacio de comunicación para usuarios interesados en esta región vinculada al río Unare, una corriente fluvial de la cuenca hidrográfica de la parte central de Venezuela. Este río recorre parte de los estados de Anzoátegui y Guárico, y destaca por incluir dos lagunas de gran importancia en su entorno: la laguna de Unare y la laguna de Píritu, las cuales se encuentran separadas por el propio cauce del río. En este canal de conversación, los participantes comparten opiniones, intercambian experiencias y conversan sobre la vida diaria en los territorios que atraviesa este río. Los usuarios de diferentes localidades de Anzoátegui y Guárico, así como visitantes o personas interesadas en la geografía de la zona, utilizan la sala para hablar sobre temas cotidianos, resolver dudas sobre el acceso a estas áreas naturales y mantener el contacto con otros miembros. El chat ofrece un entorno directo y sencillo para conversar de forma abierta y compartir información de utilidad sobre este sector de la geografía venezolana, facilitando la comunicación entre quienes valoran la región del río y sus lagunas."
+  },
+  {
+    "slug": "jutiapa-guatemala",
+    "name": "Jutiapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 146,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Jutiapa",
+    "regionSlug": "departamento-de-jutiapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "santa-ana",
+      "sonsonate",
+      "chiquimula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Conecta con la sala de chat de Jutiapa, el municipio más poblado del departamento homónimo en Guatemala, que cuenta con una población de 167.049 habitantes.",
+    "aboutTitle": "Hablar sobre el desfile hípico y la gastronomía de Jutiapa",
+    "about": "Jutiapa es un municipio y la capital del departamento homónimo, situado a 125 kilómetros de la Ciudad de Guatemala, en la región sur-oriente del país. Con una extensión de 620 kilómetros cuadrados y una población aproximada de 167.049 habitantes, constituye el municipio más poblado de su departamento. La localidad destaca por su actividad en agricultura y ganadería, su Centro Histórico y tradiciones locales como el desfile hípico, la temporada de elotes y la gastronomía típica de sus ferias patronales.\n\nEn esta sala de chat se reúnen residentes del municipio y personas de otros puntos del departamento de Jutiapa para conversar y compartir experiencias. Los usuarios entran para hablar sobre las actividades del municipio, intercambiar opiniones sobre la producción ganadera o la agricultura local, y comentar detalles de las ferias patronales y eventos tradicionales. Es un espacio de comunicación directa y sencilla para quienes desean mantener el contacto con la actualidad y la cultura de este municipio guatemalteco."
+  },
+  {
+    "slug": "naguanagua",
+    "name": "Naguanagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 188,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Carabobo",
+    "regionSlug": "carabobo",
+    "channels": [
+      "carabobo",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valencia-venezuela",
+      "puerto-cabello",
+      "maracay",
+      "san-felipe",
+      "san-juan-de-los-morros",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Naguanagua, la capital del Municipio Naguanagua en el Estado Carabobo, con una amplia área económica y comercial.",
+    "aboutTitle": "Naguanagua, sede de la Universidad de Carabobo",
+    "about": "Naguanagua es una localidad venezolana capital del Municipio Naguanagua, Estado Carabobo, en la Región Central de Venezuela. Es reconocida por su amplia área económica y comercial y por ser sede de una de las principales universidades de Venezuela, la reconocida Universidad de Carabobo.\n\nEn la sala de chat de Naguanagua, se habla sobre la vida en la localidad, la economía y la educación. Los usuarios pueden compartir sus experiencias y opiniones sobre la Universidad de Carabobo y otros temas de interés local. La sala es un espacio para que los habitantes de Naguanagua y personas interesadas en la localidad se conecten y compartan información."
+  },
+  {
+    "slug": "villa-alemana",
+    "name": "Villa Alemana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 199,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Valparaíso",
+    "regionSlug": "region-de-valparaiso",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "vina-del-mar",
+      "quillota",
+      "valparaiso",
+      "san-antonio-chile",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Villa Alemana, ciudad de la Región de Valparaíso, para conocer a personas de la ciudad y su área metropolitana.",
+    "aboutTitle": "Villa Alemana en el Gran Valparaíso",
+    "about": "Villa Alemana es una comuna y ciudad ubicada en la provincia de Marga Marga, Región de Valparaíso. Junto con otras comunas, integra el área metropolitana del Gran Valparaíso. La ciudad tiene una ubicación estratégica en la zona central de Chile. En el chat de Villa Alemana, podrás conocer y hablar con personas de la ciudad y sus alrededores. Es un espacio para compartir experiencias, intereses y opiniones sobre la vida en Villa Alemana y su región. Puedes hablar sobre temas como la cultura local, eventos y actividades en la ciudad, o simplemente conocer a personas con intereses similares. En este entorno, podrás encontrar personas que comparten tus pasatiempos o que tienen intereses similares. Además, es un lugar ideal para conocer a personas que viven en la ciudad y sus alrededores, y que pueden ofrecer recomendaciones o consejos sobre lugares para visitar o actividades para realizar en la zona. En general, el chat de Villa Alemana es un espacio acogedor y relajado, donde podrás establecer conexiones con personas de la ciudad y su región."
+  },
+  {
+    "slug": "momostenango",
+    "name": "Momostenango",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 138,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Totonicapán",
+    "regionSlug": "departamento-de-totonicapan",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "huehuetenango",
+      "solola",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Momostenango, un municipio del departamento de Totonicapán en el altiplano occidental de Guatemala, popular destino turístico.",
+    "aboutTitle": "Conversaciones en el altiplano occidental",
+    "about": "Momostenango es un municipio del departamento de Totonicapán en el altiplano occidental de la República de Guatemala. Su cabecera municipal se encuentra a una altitud de 2204 m s. n. m. y es uno de los destinos turísticos más visitados del país. La sala de chat de Momostenango es un espacio para discutir temas relacionados con la cultura, la historia y la vida diaria de la localidad. Los participantes pueden compartir sus experiencias y conocimientos sobre la región, así como discutir temas de interés general. La sala es un espacio abierto para que todos los interesados en Momostenango se conecten y compartan ideas, creando un ambiente de intercambio y aprendizaje mutuo."
   }
 ];
