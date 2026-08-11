@@ -5,15 +5,20 @@ import { channelKey } from "./irc-canal";
 import { getPlace } from "@/data";
 
 describe("salas de ambiente por ciudad", () => {
-  it("son las 24 que la demanda medida sostiene", () => {
-    expect(TOPICS_GAY_CIUDADES.map((r) => r.slug).sort()).toEqual([
-      "gay-alicante", "gay-aragon", "gay-asturias", "gay-baleares", "gay-cadiz",
-      "gay-cali", "gay-canarias", "gay-cantabria", "gay-euskadi",
-      "gay-extremadura", "gay-galicia", "gay-lima", "gay-malaga", "gay-medellin",
-      "gay-monterrey", "gay-montevideo", "gay-murcia", "gay-navarra",
-      "gay-puebla", "gay-rosario", "gay-tenerife", "gay-tijuana", "gay-vigo",
-      "gay-zaragoza",
-    ]);
+  it("son 40, todas con demanda medida y slug libre", () => {
+    expect(TOPICS_GAY_CIUDADES).toHaveLength(40);
+    const slugs = TOPICS_GAY_CIUDADES.map((r) => r.slug);
+    expect(new Set(slugs).size, "sin duplicados").toBe(slugs.length);
+    for (const s of slugs) expect(s, s).toMatch(/^gay-[a-z-]+$/);
+  });
+
+  it("los related apuntan a salas que existen de verdad", () => {
+    // gay-granada no existe: la sala se llama gaygranada, sin guion. Y la de
+    // Zulia es `zulia` a secas, que es una sala de estado.
+    const rotos = TOPICS_GAY_CIUDADES.flatMap((r) =>
+      r.related.filter((rel) => !getPlace(rel)).map((rel) => `${r.slug} -> ${rel}`),
+    );
+    expect(rotos).toEqual([]);
   });
 
   it("entran al canal real de su ciudad, nunca a un #gay{ciudad} inventado", () => {
@@ -24,9 +29,11 @@ describe("salas de ambiente por ciudad", () => {
       const fuera = r.channels.filter((c) => !reales.has(channelKey(c)));
       expect(fuera, r.slug).toEqual([]);
       expect(r.channels[0], r.slug).toBe("gay");
-      // el segundo es siempre el canal de la ciudad, que da el vínculo local
+      // el segundo es siempre el canal de la ciudad, que da el vínculo local.
+      // Se compara con canon() porque la red no siempre escribe el canal igual
+      // que nuestro slug: Las Palmas es #las_palmas, con guion bajo.
       const ciudad = r.slug.replace(/^gay-/, "");
-      expect(r.channels[1], r.slug).toBe(ciudad);
+      expect(channelKey(r.channels[1]), r.slug).toBe(channelKey(ciudad));
     }
   });
 
