@@ -14,7 +14,53 @@
   "hidalgo-michoacan",
   "lima-metropolitana",
   "palermo-colombia",
-  "palermo"
+  "palermo",
+  "abasto",
+  "ate",
+  "heroica-matamoros",
+  "maipu-chile",
+  "florencio-varela-argentina",
+  "corrientes-provincia-de-corrientes",
+  "simon-bolivar-anzoategui",
+  "la-florida",
+  "santo-domingo-oeste",
+  "ventanilla-",
+  "santa-catarina",
+  "san-juan-sacatepequez",
+  "distrito-de-carabayllo",
+  "partido-de-jose-c-paz",
+  "distrito-de-lurigancho-chosica",
+  "escobar",
+  "turmero",
+  "gregorio-de-laferrere",
+  "monclova",
+  "carlos-manuel-de-cespedes",
+  "jose-c-paz",
+  "warnes",
+  "marino",
+  "mara",
+  "area-metropolitana-de-piura",
+  "partido-de-san-martin",
+  "partido-de-san-miguel",
+  "arroyo-naranjo",
+  "boyeros",
+  "cabo-san-lucas",
+  "guacara",
+  "tocuyito",
+  "cuautla",
+  "la-pintana",
+  "ciudad-valles",
+  "lujan-de-cuyo",
+  "la-guaira",
+  "paez-venezuela",
+  "anaco",
+  "ciudad-acuna",
+  "ezeiza",
+  "bonao",
+  "milpa-alta",
+  "nacajuca",
+  "ocumare-del-tuy",
+  "talcahuano"
  ],
  "descartadas": [
   {
@@ -106,6 +152,381 @@
    "slug": "santa-catarina",
    "razon": "sin fuente utilizable",
    "fecha": "2026-08-06"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"de los cuarenta y tres distritos que\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "area-metropolitana-de-piura",
+   "razon": "rechazada tras corrección: Se menciona que el área metropolitana 'superando el umbral de 500.001 residentes que define a una metrópoli peruana', lo que no se menciona en la fuente original. La fuente solo menciona que se consid",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-san-martin",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-carabayllo",
+   "razon": "rechazada tras corrección: El territorio se caracteriza por su ubicación entre la zona urbana de la capital y áreas más rurales de la sierra, lo que le confiere una diversidad de paisajes y usos del suelo.; La población combina",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "corrientes",
+   "razon": "fraseo calcado de tolu: \"lo que la convierte en la ciudad\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de chorrillos: \"con barranco y santiago de surco al\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-san-miguel",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "partido-de-jose-c-paz",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"de los 135 partidos de la provincia\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "ventanilla",
+   "razon": "fraseo calcado de ventanilla-: \"de la provincia constitucional del callao en\"",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-lurigancho-chosica",
+   "razon": "controles de calidad: intro/meta de 199 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "rechazada tras corrección: Afirma que San Bernardo \"le da un carácter de centro político y de servicios para los municipios aledaños\", dato no respaldado por la fuente.; Afirma que su ubicación \"la convierte en un punto de paso",
+   "fecha": "2026-08-07"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"distritos que integran la provincia de lima\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "area-metropolitana-de-piura",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"participan residentes estudiantes y personas interesadas en\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-san-martin",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 159 (line 1 column 160)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-san-miguel",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); intro/meta de 54 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de escobar: \"la localidad de belen de escobar esta\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "rechazada tras corrección: Se menciona información no respaldada por el material de origen: 'vida cotidiana, los servicios municipales, el comercio local y las problemáticas que afectan a la comunidad', 'movilidad, los colegios",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: La ficha menciona 'Departamento de Cerro Largo, Uruguay' en el encabezado, lo que contradice directamente el material de origen (Centurion está en Sudáfrica, provincia de Gauteng).; La ficha incluye d",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "jose-c-paz-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de jose-c-paz: \"jose c paz es una ciudad y\"",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: La ficha indica que Cúa pertenece al Estado Aragua, cuando el material de origen especifica que es del Estado Miranda.",
+   "fecha": "2026-08-08"
+  },
+  {
+   "slug": "distrito-de-comas",
+   "razon": "fraseo calcado de ate: \"de los cuarenta y tres distritos que\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"la provincia de lima en el departamento\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-chorrillos",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"forma parte de los 43 distritos que\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "puente-piedra",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "san-bernardo-chile",
+   "razon": "fraseo calcado de partido-de-jose-c-paz: \"combina areas residenciales con sectores industriales y\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "fraseo calcado de la-llagosta: \"lo que lo convierte en uno de\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "gonzalez-catan",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: Confusión de localidad: la ficha indica que Centurion pertenece al Departamento de Cerro Largo, Uruguay, aunque la fuente describe Centurion en la provincia sudafricana de Gauteng.",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: La ficha menciona que Cúa está en el Estado Aragua, cuando en realidad está en el Estado Miranda; La ficha menciona que la ciudad es un 'punto de referencia dentro de la región, ofreciendo servicios u",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "la-guaira",
+   "razon": "inventa cuándo se anima la sala",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "partido-de-ezeiza",
+   "razon": "rechazada tras corrección: La ficha menciona que el partido de Ezeiza se separó 'de los partidos de Esteban Echeverría y de Ezeiza', lo cual es contradictorio. Según la fuente, se subdividieron los partidos de Esteban Echeverrí",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "paez-venezuela",
+   "razon": "controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "san-luis-rio-colorado",
+   "razon": "fraseo calcado de heroica-matamoros: \"la cabecera del municipio homonimo en el\"",
+   "fecha": "2026-08-09"
+  },
+  {
+   "slug": "distrito-de-puente-piedra",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"que integran la provincia de lima en\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "partido-de-escobar",
+   "razon": "fraseo calcado de escobar: \"con los partidos de campana pilar malvinas\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "centurion",
+   "razon": "rechazada tras corrección: La ficha describe una localidad de Uruguay, pero el material de origen se refiere a una localidad de Sudáfrica.",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "cua",
+   "razon": "rechazada tras corrección: El material de origen indica que Cúa se encuentra en el Estado Miranda, pero la ficha dice que es parte de Aragua; La ficha menciona que la ciudad está en el centro de Venezuela, pero el material de o",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "partido-de-ezeiza",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "san-luis-rio-colorado",
+   "razon": "fraseo calcado de ciudad-valles: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "departamento-lujan-de-cuyo",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "unare",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "carupano",
+   "razon": "rechazada tras corrección: La ubicación a lo largo de la ribera del mar Caribe no está respaldada por la fuente; La mención a playas y zonas de manglar no está respaldada por la fuente; La división en cinco unidades territorial",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "habana-del-este",
+   "razon": "rechazada tras corrección: El municipio incluye varios sectores residenciales y zonas industriales; su ubicación al este de la capital le confiere una posición estratégica dentro del área metropolitana; Se comenta sobre servici",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "jutiapa-guatemala",
+   "razon": "rechazada tras corrección: La ficha menciona Zapotitlán, pero la fuente solo menciona 'Turismo Rio Paz Zapotitlan Jutiapa', lo que no implica necesariamente que Zapotitlán sea un destino turístico en sí mismo.; La ficha habla d",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "tulancingo-de-bravo",
+   "razon": "fraseo calcado de la-pintana: \"la conversacion se mantiene respetuosa y enfocada\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "ezeiza-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de ezeiza: \"ezeiza es una ciudad administrativa del gran\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "fraseo calcado de ate: \"limita al norte con el distrito de\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "fraseo calcado de ate: \"limita al norte con el distrito de\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "provincia-de-alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "naguanagua",
+   "razon": "fraseo calcado de guacara: \"situada en el estado carabobo en la\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"es una localidad del partido de la\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "palo-negro",
+   "razon": "rechazada tras corrección: El sector industrial genera empleo para la población local. (No está en la fuente); El intercambio es directo y se centra en temas relevantes para la comunidad, manteniendo un tono cercano y práctico.",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "distrito-de-la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "chichicastenango",
+   "razon": "rechazada tras corrección: La ficha afirma que Chichicastenango se encuentra en el sur de la zona, pero la fuente solo menciona que se encuentra al sur del departamento de Quiché, sin especificar la zona.; La ficha menciona que",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "delicias",
+   "razon": "fraseo calcado de santa-catarina: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-08-10"
+  },
+  {
+   "slug": "quilpue",
+   "razon": "fraseo calcado de partido-de-san-martin: \"la sala funciona como un punto de\"",
+   "fecha": "2026-08-10"
   }
  ]
 }

@@ -76,3 +76,137 @@
 [2026-08-06T23:13:35.345Z]   ✓ palermo-colombia (Colombia) — escribió Cerebras, verificó Mistral
 [2026-08-06T23:13:42.853Z]   ✓ palermo (Colombia) — escribió Mistral, verificó Cerebras
 [2026-08-06T23:13:42.854Z] publicadas 3 salas · acumuladas 15 · quedan 2968 en cola
+[2026-08-07T03:40:05.104Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-07T03:40:05.112Z] cola: 2968 pendientes · lote de hoy: 12
+[2026-08-07T03:40:09.295Z]   ✓ abasto (Argentina) — escribió Cerebras, verificó Groq
+[2026-08-07T03:40:14.618Z]   ✓ ate (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:40:21.205Z]   ✗ distrito-de-comas: fraseo calcado de ate: "de los cuarenta y tres distritos que"
+[2026-08-07T03:41:04.431Z]   ✗ area-metropolitana-de-piura: rechazada tras corrección: Se menciona que el área metropolitana 'superando el umbral de 500.001 residentes que define a una metrópoli peruana', lo que no se menciona en la fuente original. La fuente solo menciona que se consid
+[2026-08-07T03:41:10.081Z]   ✓ heroica-matamoros (México) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:15.375Z]   ✓ maipu-chile (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:25.473Z]   ✓ florencio-varela-argentina (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:41:29.467Z]   ✗ partido-de-san-martin: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-07T03:41:59.884Z]   ✗ distrito-de-carabayllo: rechazada tras corrección: El territorio se caracteriza por su ubicación entre la zona urbana de la capital y áreas más rurales de la sierra, lo que le confiere una diversidad de paisajes y usos del suelo.; La población combina
+[2026-08-07T03:42:10.743Z]   ✗ corrientes: fraseo calcado de tolu: "lo que la convierte en la ciudad"
+[2026-08-07T03:42:29.542Z]   ✓ corrientes-provincia-de-corrientes (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:43:02.586Z]   ✓ simon-bolivar-anzoategui (Venezuela) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:43:40.551Z]   ✗ distrito-de-puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-07T03:43:53.567Z]   ✗ distrito-de-chorrillos: fraseo calcado de chorrillos: "con barranco y santiago de surco al"
+[2026-08-07T03:44:09.069Z]   ✓ la-florida (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:44:29.480Z]   ✓ santo-domingo-oeste (República Dominicana) — escribió Mistral, verificó Cerebras
+[2026-08-07T03:45:08.881Z]   ✓ ventanilla- (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:45:23.114Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-07T03:45:27.204Z]   ✗ partido-de-san-miguel: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-07T03:45:38.784Z]   ✗ partido-de-jose-c-paz: fraseo calcado de florencio-varela-argentina: "de los 135 partidos de la provincia"
+[2026-08-07T03:45:57.308Z]   ✗ carabayllo: controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)
+[2026-08-07T03:46:12.180Z]   ✗ ventanilla: fraseo calcado de ventanilla-: "de la provincia constitucional del callao en"
+[2026-08-07T03:46:36.446Z]   ✗ distrito-de-lurigancho-chosica: controles de calidad: intro/meta de 199 caracteres (debe estar entre 110 y 160)
+[2026-08-07T03:46:41.014Z]   ✓ santa-catarina (México) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:50:04.471Z]   ✗ san-bernardo-chile: rechazada tras corrección: Afirma que San Bernardo "le da un carácter de centro político y de servicios para los municipios aledaños", dato no respaldado por la fuente.; Afirma que su ubicación "la convierte en un punto de paso
+[2026-08-07T03:50:09.573Z]   ✓ san-juan-sacatepequez (Guatemala) — escribió Cerebras, verificó Mistral
+[2026-08-07T03:50:09.576Z] publicadas 12 salas · acumuladas 26 · quedan 2956 en cola
+[2026-08-08T03:40:05.717Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-08T03:40:05.724Z] cola: 2954 pendientes · lote de hoy: 12
+[2026-08-08T03:40:14.162Z]   ✗ distrito-de-comas: fraseo calcado de ate: "distritos que integran la provincia de lima"
+[2026-08-08T03:40:18.321Z]   ✗ area-metropolitana-de-piura: fraseo calcado de florencio-varela-argentina: "participan residentes estudiantes y personas interesadas en"
+[2026-08-08T03:40:24.177Z]   ✗ partido-de-san-martin: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-08T03:40:37.201Z]   ✓ distrito-de-carabayllo (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:41:01.880Z]   ✗ distrito-de-puente-piedra: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 159 (line 1 column 160)
+[2026-08-08T03:44:24.426Z]   ✗ distrito-de-chorrillos: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:44:41.989Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:44:46.714Z]   ✗ partido-de-san-miguel: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-08T03:44:49.518Z]   ✓ partido-de-jose-c-paz (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:45:04.655Z]   ✗ carabayllo: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:45:08.839Z]   ✓ distrito-de-lurigancho-chosica (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:45:13.898Z]   ✗ san-bernardo-chile: controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); intro/meta de 54 caracteres (debe estar entre 110 y 160)
+[2026-08-08T03:45:22.955Z]   ✗ los-alcarrizos: controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-08-08T03:47:47.586Z]   ✓ escobar (Argentina) — escribió Cerebras, verificó NVIDIA
+[2026-08-08T03:47:56.079Z]   ✗ partido-de-escobar: fraseo calcado de escobar: "la localidad de belen de escobar esta"
+[2026-08-08T03:48:00.568Z]   ✓ turmero (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:48:04.728Z]   ✓ gregorio-de-laferrere (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:48:10.831Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-08T03:48:35.005Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-08T03:49:47.313Z]   ✗ gonzalez-catan: rechazada tras corrección: Se menciona información no respaldada por el material de origen: 'vida cotidiana, los servicios municipales, el comercio local y las problemáticas que afectan a la comunidad', 'movilidad, los colegios
+[2026-08-08T03:49:53.854Z]   ✓ monclova (México) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:50:03.403Z]   ✗ centurion: rechazada tras corrección: La ficha menciona 'Departamento de Cerro Largo, Uruguay' en el encabezado, lo que contradice directamente el material de origen (Centurion está en Sudáfrica, provincia de Gauteng).; La ficha incluye d
+[2026-08-08T03:50:04.188Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-08T03:50:08.947Z]   ✓ carlos-manuel-de-cespedes (Cuba) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:50:45.081Z]   ✓ jose-c-paz (Argentina) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:51:06.498Z]   ✗ jose-c-paz-provincia-de-buenos-aires: fraseo calcado de jose-c-paz: "jose c paz es una ciudad y"
+[2026-08-08T03:51:17.387Z]   ✗ cua: rechazada tras corrección: La ficha indica que Cúa pertenece al Estado Aragua, cuando el material de origen especifica que es del Estado Miranda.
+[2026-08-08T03:51:29.131Z]   ✓ warnes (Bolivia) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:52:53.287Z]   ✓ marino (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-08T03:52:58.988Z]   ✓ mara (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-08T03:52:58.992Z] publicadas 12 salas · acumuladas 38 · quedan 2942 en cola
+[2026-08-09T03:40:05.331Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-09T03:40:05.338Z] cola: 2940 pendientes · lote de hoy: 12
+[2026-08-09T03:40:11.310Z]   ✗ distrito-de-comas: fraseo calcado de ate: "de los cuarenta y tres distritos que"
+[2026-08-09T03:40:17.082Z]   ✓ area-metropolitana-de-piura (Perú) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:40:21.937Z]   ✓ partido-de-san-martin (Argentina) — escribió Groq, verificó Cerebras
+[2026-08-09T03:40:37.597Z]   ✗ distrito-de-puente-piedra: fraseo calcado de distrito-de-carabayllo: "la provincia de lima en el departamento"
+[2026-08-09T03:40:48.000Z]   ✗ distrito-de-chorrillos: fraseo calcado de distrito-de-carabayllo: "forma parte de los 43 distritos que"
+[2026-08-09T03:41:06.642Z]   ✗ puente-piedra: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-09T03:41:25.730Z]   ✓ partido-de-san-miguel (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-09T03:43:05.451Z]   ✗ san-bernardo-chile: fraseo calcado de partido-de-jose-c-paz: "combina areas residenciales con sectores industriales y"
+[2026-08-09T03:43:08.151Z]   ✗ los-alcarrizos: fraseo calcado de la-llagosta: "lo que lo convierte en uno de"
+[2026-08-09T03:43:16.929Z]   ✗ partido-de-escobar: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-09T03:43:53.808Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-09T03:44:01.707Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-09T03:44:15.827Z]   ✗ gonzalez-catan: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-09T03:44:40.294Z]   ✗ centurion: rechazada tras corrección: Confusión de localidad: la ficha indica que Centurion pertenece al Departamento de Cerro Largo, Uruguay, aunque la fuente describe Centurion en la provincia sudafricana de Gauteng.
+[2026-08-09T03:44:40.748Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-09T03:44:52.712Z]   ✗ cua: rechazada tras corrección: La ficha menciona que Cúa está en el Estado Aragua, cuando en realidad está en el Estado Miranda; La ficha menciona que la ciudad es un 'punto de referencia dentro de la región, ofreciendo servicios u
+[2026-08-09T03:45:05.700Z]   ✓ arroyo-naranjo (Cuba) — escribió NVIDIA, verificó Cerebras
+[2026-08-09T03:45:08.589Z]   ✓ boyeros (Cuba) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:45:35.705Z]   ✗ la-guaira: inventa cuándo se anima la sala
+[2026-08-09T03:46:56.600Z]   ✓ cabo-san-lucas (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:47:12.005Z]   ✗ partido-de-ezeiza: rechazada tras corrección: La ficha menciona que el partido de Ezeiza se separó 'de los partidos de Esteban Echeverría y de Ezeiza', lo cual es contradictorio. Según la fuente, se subdividieron los partidos de Esteban Echeverrí
+[2026-08-09T03:47:20.743Z]   ✓ guacara (Venezuela) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:47:52.168Z]   ✓ tocuyito (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:48:03.304Z]   ✓ cuautla (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-09T03:48:15.103Z]   ✓ la-pintana (Chile) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:49:05.999Z]   ✗ paez-venezuela: controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)
+[2026-08-09T03:49:14.216Z]   ✓ ciudad-valles (México) — escribió Cerebras, verificó Mistral
+[2026-08-09T03:49:18.737Z]   ✗ san-luis-rio-colorado: fraseo calcado de heroica-matamoros: "la cabecera del municipio homonimo en el"
+[2026-08-09T03:49:54.560Z]   ✓ lujan-de-cuyo (Argentina) — escribió Mistral, verificó Cerebras
+[2026-08-09T03:49:54.564Z] publicadas 12 salas · acumuladas 50 · quedan 2928 en cola
+[2026-08-10T03:40:05.361Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-10T03:40:05.376Z] cola: 2922 pendientes · lote de hoy: 12
+[2026-08-10T03:40:20.159Z]   ✗ distrito-de-puente-piedra: fraseo calcado de distrito-de-carabayllo: "que integran la provincia de lima en"
+[2026-08-10T03:41:49.123Z]   ✗ los-alcarrizos: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)
+[2026-08-10T03:42:46.251Z]   ✗ partido-de-escobar: fraseo calcado de escobar: "con los partidos de campana pilar malvinas"
+[2026-08-10T03:44:29.159Z]   ✗ lurigancho-chosica: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-10T03:45:45.667Z]   ✗ centurion: rechazada tras corrección: La ficha describe una localidad de Uruguay, pero el material de origen se refiere a una localidad de Sudáfrica.
+[2026-08-10T03:45:46.165Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-10T03:46:54.808Z]   ✗ cua: rechazada tras corrección: El material de origen indica que Cúa se encuentra en el Estado Miranda, pero la ficha dice que es parte de Aragua; La ficha menciona que la ciudad está en el centro de Venezuela, pero el material de o
+[2026-08-10T03:47:36.790Z]   ✓ la-guaira (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:47:56.809Z]   ✗ partido-de-ezeiza: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-10T03:48:04.094Z]   ✓ paez-venezuela (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:48:09.367Z]   ✗ san-luis-rio-colorado: fraseo calcado de ciudad-valles: "es la cabecera del municipio homonimo situada"
+[2026-08-10T03:48:09.709Z]   ✗ departamento-lujan-de-cuyo: es una división administrativa, no una localidad
+[2026-08-10T03:48:25.554Z]   ✗ unare: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-10T03:48:58.589Z]   ✗ carupano: rechazada tras corrección: La ubicación a lo largo de la ribera del mar Caribe no está respaldada por la fuente; La mención a playas y zonas de manglar no está respaldada por la fuente; La división en cinco unidades territorial
+[2026-08-10T03:50:31.411Z]   ✗ habana-del-este: rechazada tras corrección: El municipio incluye varios sectores residenciales y zonas industriales; su ubicación al este de la capital le confiere una posición estratégica dentro del área metropolitana; Se comenta sobre servici
+[2026-08-10T03:52:44.648Z]   ✗ jutiapa-guatemala: rechazada tras corrección: La ficha menciona Zapotitlán, pero la fuente solo menciona 'Turismo Rio Paz Zapotitlan Jutiapa', lo que no implica necesariamente que Zapotitlán sea un destino turístico en sí mismo.; La ficha habla d
+[2026-08-10T03:52:59.929Z]   ✓ anaco (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:53:18.063Z]   ✗ tulancingo-de-bravo: fraseo calcado de la-pintana: "la conversacion se mantiene respetuosa y enfocada"
+[2026-08-10T03:53:34.667Z]   ✓ ciudad-acuna (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:55:24.247Z]   ✓ ezeiza (Argentina) — escribió Cerebras, verificó Groq
+[2026-08-10T03:56:35.035Z]   ✗ ezeiza-provincia-de-buenos-aires: fraseo calcado de ezeiza: "ezeiza es una ciudad administrativa del gran"
+[2026-08-10T03:57:31.874Z]   ✗ huaycan: fraseo calcado de ate: "limita al norte con el distrito de"
+[2026-08-10T03:57:47.610Z]   ✗ huaycan: fraseo calcado de ate: "limita al norte con el distrito de"
+[2026-08-10T03:57:48.009Z]   ✗ provincia-de-alto-amazonas: es una división administrativa, no una localidad
+[2026-08-10T03:57:50.938Z]   ✓ bonao (República Dominicana) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T03:57:57.077Z]   ✗ naguanagua: fraseo calcado de guacara: "situada en el estado carabobo en la"
+[2026-08-10T03:59:37.397Z]   ✗ virrey-del-pino: fraseo calcado de gregorio-de-laferrere: "es una localidad del partido de la"
+[2026-08-10T04:02:30.746Z]   ✗ palo-negro: rechazada tras corrección: El sector industrial genera empleo para la población local. (No está en la fuente); El intercambio es directo y se centra en temas relevantes para la comunidad, manteniendo un tono cercano y práctico.
+[2026-08-10T04:03:07.533Z]   ✓ milpa-alta (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T04:05:12.569Z]   ✗ distrito-de-la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-10T04:06:02.901Z]   ✗ chichicastenango: rechazada tras corrección: La ficha afirma que Chichicastenango se encuentra en el sur de la zona, pero la fuente solo menciona que se encuentra al sur del departamento de Quiché, sin especificar la zona.; La ficha menciona que
+[2026-08-10T04:09:25.914Z]   ✗ delicias: fraseo calcado de santa-catarina: "es una ciudad mexicana situada en el"
+[2026-08-10T04:11:40.530Z]   ✓ nacajuca (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-10T04:13:44.157Z]   ✓ ocumare-del-tuy (Venezuela) — escribió Gemini, verificó NVIDIA
+[2026-08-10T04:15:06.189Z]   ✗ quilpue: fraseo calcado de partido-de-san-martin: "la sala funciona como un punto de"
+[2026-08-10T04:15:33.402Z]   ✓ talcahuano (Chile) — escribió NVIDIA, verificó Cerebras
+[2026-08-10T04:15:33.402Z] demasiados intentos fallidos, se corta el lote
+[2026-08-10T04:15:33.407Z] publicadas 10 salas · acumuladas 60 · quedan 2912 en cola
