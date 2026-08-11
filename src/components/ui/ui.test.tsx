@@ -259,4 +259,16 @@ describe("RegionGroupedGrid", () => {
     const titulos = screen.getAllByRole("heading", { level: 3 }).map((h) => h.textContent);
     expect(titulos[titulos.length - 1]).toContain("Otras ciudades");
   });
+
+  it("subdivide por provincia el cajón de sobras cuando es grande", () => {
+    // En México caen ahí 228 de 292 ciudades: en una lista plana con "ver más"
+    // se navega peor que en el agrupado por provincia que tenían antes.
+    const sobras = Array.from({ length: 40 }, (_, i) => ({
+      ...ciudad(`pueblo-${i}`, "michoacan"),
+      provincia: i < 20 ? "Michoacán" : "Nayarit",
+    }));
+    render(<RegionGroupedGrid cities={[ciudad("guadalajara", "jalisco"), ...sobras]} />);
+    expect(screen.getByText("Michoacán")).toBeDefined();
+    expect(screen.getByText("Nayarit")).toBeDefined();
+  });
 });

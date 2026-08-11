@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { RoomGrid } from "@/components/ui/RoomGrid";
 import { Flag } from "@/components/ui/Flag";
-import { provinciaAnchor } from "@/components/ui/ProvinciaGroupedGrid";
+import { provinciaAnchor, ProvinciaGroupedGrid } from "@/components/ui/ProvinciaGroupedGrid";
 import { getRegions, type Place } from "@/data";
 
 // /chat/espana volcaba sus 893 ciudades en una única lista plana con "ver
@@ -67,7 +67,16 @@ export function RegionGroupedGrid({ cities, initialPerRegion = 8 }: { cities: Pl
                 ))}
               </div>
             )}
-            <RoomGrid places={list} initialCount={initialPerRegion} />
+            {/* El cajón de sobras se subdivide por provincia en cuanto es grande:
+                en México caen ahí 228 de 292 ciudades (los 23 estados sin sala),
+                y volcarlas en una lista con "ver más" se navega peor que el
+                agrupado por provincia que tenían antes. España no entra por aquí:
+                sus sobras son Ceuta y Melilla. */}
+            {!region && list.length > 30 && list.filter((c) => c.provincia).length >= list.length / 2 ? (
+              <ProvinciaGroupedGrid cities={list} />
+            ) : (
+              <RoomGrid places={list} initialCount={initialPerRegion} />
+            )}
           </section>
         );
       })}

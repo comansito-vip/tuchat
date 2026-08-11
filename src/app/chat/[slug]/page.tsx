@@ -89,13 +89,15 @@ export default async function ChatRoomPage({
   ]);
   const childrenTitle =
     place.kind === "pais" ? `Ciudades de ${place.name}` : `Más salas de ${place.name}`;
-  // España: 893 ciudades reales, agrupadas por comunidad autónoma (con su
-  // bandera) en vez de una lista plana. El resto de países ya tienen pocas
-  // ciudades y no lo necesitan.
-  const groupByRegion = place.slug === "espana" && children.some((c) => c.regionSlug);
-  // Países grandes sin comunidades (Argentina, Colombia...): si sus ciudades
-  // traen provincia/departamento y son demasiadas para una lista plana, se
-  // agrupan por provincia igual que las comunidades españolas.
+  // Un país agrupa sus ciudades por región cuando esas regiones tienen sala a la
+  // que enlazar: España y sus comunidades, México y sus estados. Ahí el
+  // encabezado de cada grupo es un enlace, que es enlazado interno que de otro
+  // modo se pierde.
+  const regionSlugs = new Set(getRegions().map((r) => r.slug));
+  const groupByRegion = children.some((c) => c.regionSlug && regionSlugs.has(c.regionSlug));
+  // Países cuyas regiones no tienen sala (Argentina, Colombia, Perú...): sin
+  // enlace que ganar, se agrupan por el nombre de la provincia, que se lee igual
+  // de bien.
   const groupByProvincia =
     !groupByRegion &&
     children.length > 30 &&
