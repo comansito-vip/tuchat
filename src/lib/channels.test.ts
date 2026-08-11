@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { resolveChannels, channelString } from "@/lib/channels";
-import { getCities, getCountries, getTopics } from "@/data";
+import { getCities, getCountries, getTopics, getPlace } from "@/data";
 import { REAL_CHANNELS } from "@/data/irc-real-channels";
 
 describe("resolveChannels", () => {
@@ -168,5 +168,37 @@ describe("resolveChannels", () => {
     expect(ch).toContain("amistad");
     expect(ch).toContain("chatzona");
     expect(ch[ch.length - 1]).toBe("chatzona");
+  });
+});
+
+describe("ninguna sala nombra un canal que no existe", () => {
+  /**
+   * El test de más arriba solo cubría las salas geográficas y, del resto, solo
+   * el primer canal. Con eso nadie aterrizaba solo, pero 306 salas publicaban
+   * en «También conecta con #…» canales que nadie ha creado: los temáticos
+   * (#salud, #empleo, #deportes…), uno propio por cada sala de equipo de fútbol
+   * y un #gay-sevilla que existiendo #sevilla no tenía sentido. La página
+   * afirmaba algo falso, que es justo lo que este repo no se permite.
+   */
+  it("tampoco en los canales secundarios, y en ninguna sala del catálogo", () => {
+    const todas = [...getCountries(), ...getCities(), ...getTopics()];
+    expect(todas.length).toBeGreaterThan(2500);
+    const fantasmas = todas.flatMap((p) =>
+      p.channels.filter((c) => !REAL_CHANNELS.has(c)).map((c) => `${p.slug}: #${c}`),
+    );
+    expect(fantasmas).toEqual([]);
+  });
+
+  it("ninguna sala se queda sin canales al sanear", () => {
+    const todas = [...getCountries(), ...getCities(), ...getTopics()];
+    expect(todas.filter((p) => p.channels.length === 0).map((p) => p.slug)).toEqual([]);
+  });
+
+  it("las salas gay de ciudad conectan con el canal real de su ciudad", () => {
+    // Antes nombraban un #gay-sevilla inventado teniendo al lado #sevilla, que
+    // existe y tiene gente. gay-madrid ya lo hacía así desde siempre.
+    expect(getPlace("gay-sevilla")!.channels).toContain("sevilla");
+    expect(getPlace("gaygranada")!.channels).toContain("granada");
+    expect(getPlace("gay-madrid")!.channels).toContain("madrid");
   });
 });

@@ -3,6 +3,7 @@ import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
 import { slugRegion } from "./region-alias";
+import { canalesReales } from "./canales-saneado";
 import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
@@ -36,6 +37,16 @@ const conRegion = (p: Place): Place => {
   return alias === base.regionSlug ? base : { ...base, regionSlug: alias };
 };
 
+// Fuera los canales que no existen en la red. El panel de la sala los publica
+// como «También conecta con #…», así que nombrar uno inventado es afirmar algo
+// falso. Ver canales-saneado.ts.
+const conCanalesReales = (p: Place): Place => {
+  const limpios = canalesReales(p.channels);
+  return limpios.length === p.channels.length && limpios.every((c, i) => c === p.channels[i])
+    ? p
+    : { ...p, channels: limpios };
+};
+
 // El H2 propio de las salas anteriores al generador de localidades (ver
 // about-titles.ts). Gana siempre el de la ficha: el cron de goteo escribe el
 // suyo al publicar y no tiene por qué saber de este mapa.
@@ -44,7 +55,8 @@ const conAboutTitle = (p: Place): Place =>
 
 const ALL_CITIES: Place[] = [...CITIES, ...CITIES_WORLD, ...CITIES_GENERADAS]
   .map(conRegion)
-  .map(conAboutTitle);
+  .map(conAboutTitle)
+  .map(conCanalesReales);
 const ALL_TOPICS: Place[] = [
   ...TOPICS,
   ...TOPICS_EXTRA,
@@ -57,8 +69,8 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
   ...TOPICS_LATINCHAT,
-].map(conAboutTitle);
-const ALL_COUNTRIES: Place[] = COUNTRIES.map(conAboutTitle);
+].map(conAboutTitle).map(conCanalesReales);
+const ALL_COUNTRIES: Place[] = COUNTRIES.map(conAboutTitle).map(conCanalesReales);
 const ALL: Place[] = [...ALL_COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
 
 // Índice por slug: getPlace se llama una vez por sala al prerenderizar 460+
