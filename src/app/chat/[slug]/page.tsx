@@ -83,17 +83,22 @@ export default async function ChatRoomPage({
   const bullets = roomBullets(place);
   const aboutText = place.about ?? place.intro;
   const extraLead = aboutLead(place);
-  const [children, related] = await Promise.all([
+  const [childrenRaw, related] = await Promise.all([
     getMergedChildren(place.slug),
     getMergedRelated(place.related),
   ]);
+  const regionSlugs = new Set(getRegions().map((r) => r.slug));
+  // Las salas de estado cuelgan de su país por parentSlug, pero no son una
+  // ciudad más: ya encabezan su propio grupo en el listado. Sin sacarlas, Jalisco
+  // salía dos veces en /chat/mexico —como encabezado y como chip dentro de
+  // "Otras ciudades"—, que es el mismo duplicado que /chat ya tuvo que resolver.
+  const children = childrenRaw.filter((c) => !regionSlugs.has(c.slug));
   const childrenTitle =
     place.kind === "pais" ? `Ciudades de ${place.name}` : `Más salas de ${place.name}`;
   // Un país agrupa sus ciudades por región cuando esas regiones tienen sala a la
   // que enlazar: España y sus comunidades, México y sus estados. Ahí el
   // encabezado de cada grupo es un enlace, que es enlazado interno que de otro
   // modo se pierde.
-  const regionSlugs = new Set(getRegions().map((r) => r.slug));
   const groupByRegion = children.some((c) => c.regionSlug && regionSlugs.has(c.regionSlug));
   // Países cuyas regiones no tienen sala (Argentina, Colombia, Perú...): sin
   // enlace que ganar, se agrupan por el nombre de la provincia, que se lee igual

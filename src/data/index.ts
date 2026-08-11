@@ -247,6 +247,16 @@ export function getAgeTopics(): Place[] {
 export function getRegions(): Place[] {
   return [...TOPICS_REGIONES, ...TOPICS_REGIONES_AM];
 }
+// Regiones con sala de un país concreto, para que su tarjeta en /chat se navegue
+// por ellas. Las comunidades españolas no llevan `parentSlug` —se escribieron
+// cuando España era el único país con regiones— así que se resuelven por
+// descarte; las americanas sí lo traen. La asimetría se encapsula aquí para que
+// ninguna página tenga que conocerla.
+export function getRegionsOfCountry(countrySlug: string): Place[] {
+  return getRegions().filter((r) =>
+    r.parentSlug ? r.parentSlug === countrySlug : countrySlug === "espana",
+  );
+}
 // Ciudades de una comunidad autónoma española (no usan parentSlug para esto,
 // las ciudades cuelgan de "espana"; regionSlug es el vínculo real).
 export function getCitiesByRegion(regionSlug: string): Place[] {
