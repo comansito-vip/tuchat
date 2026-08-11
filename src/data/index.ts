@@ -17,6 +17,7 @@ import { TOPICS_MOTOR } from "./topics-motor";
 import { TOPICS_OCIO } from "./topics-ocio";
 import { TOPICS_ADULTOS } from "./topics-adultos";
 import { TOPICS_LATINCHAT } from "./topics-latinchat";
+import { TOPICS_GAY_CIUDADES } from "./topics-gay-ciudades";
 import { NEWS } from "./news";
 import type { Place } from "./types";
 import { normalize } from "@/lib/slug";
@@ -69,6 +70,7 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
   ...TOPICS_LATINCHAT,
+  ...TOPICS_GAY_CIUDADES,
 ].map(conAboutTitle).map(conCanalesReales);
 const ALL_COUNTRIES: Place[] = COUNTRIES.map(conAboutTitle).map(conCanalesReales);
 const ALL: Place[] = [...ALL_COUNTRIES, ...ALL_CITIES, ...ALL_TOPICS];
