@@ -62,11 +62,17 @@ El deploy de las 05:30 sigue existiendo para recoger lo que se empuje desde fuer
 
 ## Lock compartido
 
-Ambos scripts usan **`/tmp/tuchat-pipeline.lock`**, no uno cada uno. Manipulan el
-mismo árbol de git y el deploy hace `git reset --hard`: si arrancara a mitad de una
-generación, se llevaría por delante el `news.ts` recién escrito. El generador espera
-10 minutos y se rinde; el deploy espera 30, porque si la generación se alarga es él
-quien publica su trabajo y saltárselo dejaría las noticias del día sin salir.
+Los tres usan **`/tmp/tuchat-pipeline.lock`**, no uno cada uno. Manipulan el mismo árbol
+de git y el deploy hace `git reset --hard`: si arrancara a mitad de una generación, se
+llevaría por delante el `news.ts` recién escrito.
+
+Cuánto espera cada uno antes de rendirse, y por qué:
+
+| Script | Espera | Motivo |
+|---|---:|---|
+| goteo de salas | 15 min | corre el primero, a la 01:30, y no debería encontrarse nada |
+| noticias | **40 min** | va detrás del goteo, que algún día se alarga; con 10 minutos se perdió el día entero (ver arriba) |
+| deploy | 30 min | si la generación se alarga es él quien publica su trabajo, y saltárselo dejaría el contenido del día sin salir |
 
 ## Credenciales
 
