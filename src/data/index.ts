@@ -2,6 +2,7 @@ import { CITIES } from "./cities";
 import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
+import { slugRegion } from "./region-alias";
 import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
@@ -23,8 +24,16 @@ import { normalize } from "@/lib/slug";
 // tenían página de estado a la que enlazar y una sala de estado habría nacido
 // vacía. `CITY_REGIONS` (generado) les pone su provincia sin tocar los 2,3 MB de
 // datos escritos a mano; lo que ya trae regionSlug se respeta.
-const conRegion = (p: Place): Place =>
-  p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
+// El regionSlug se normaliza aquí, al cargar, y no en el generador: lo escriben
+// tres sitios distintos (mapear-regiones.mjs, los datos a mano y el cron de
+// goteo que llena cities-generadas.ts), así que este es el único punto por el
+// que pasan todos. Ver region-alias.ts.
+const conRegion = (p: Place): Place => {
+  const base = p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
+  if (!base.regionSlug) return base;
+  const alias = slugRegion(base.regionSlug);
+  return alias === base.regionSlug ? base : { ...base, regionSlug: alias };
+};
 
 // El H2 propio de las salas anteriores al generador de localidades (ver
 // about-titles.ts). Gana siempre el de la ficha: el cron de goteo escribe el

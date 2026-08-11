@@ -157,6 +157,15 @@ describe("data getters", () => {
       .map((c) => `${c.slug}: ${c.provincia}`);
     expect(fuera).toEqual([]);
   });
+  it("los regionSlug del censo usan el slug de la sala, no el nombre largo", () => {
+    // El censo escribe "Coahuila de Zaragoza" y "Estado de Jalisco"; la sala se
+    // llama "coahuila" y "jalisco". Sin normalizar, esas ciudades no encuentran
+    // su región y la sala nace vacía.
+    const PROHIBIDOS = ["coahuila-de-zaragoza", "estado-de-jalisco"];
+    const usados = new Set(getCities().map((c) => c.regionSlug).filter(Boolean));
+    const fuera = PROHIBIDOS.filter((p) => usados.has(p));
+    expect(fuera).toEqual([]);
+  });
   it("getCitiesByRegion devuelve solo ciudades de esa comunidad, y cada regionSlug resuelve a una sala real", () => {
     const regions = getRegions();
     for (const r of regions) {
