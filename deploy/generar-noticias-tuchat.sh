@@ -15,8 +15,15 @@
 # reconstruye. Los dos usan flock, y con media hora de separación no se solapan.
 set -e
 # Lock COMPARTIDO con deploy-tuchat.sh: ambos manipulan el mismo checkout.
+#
+# La espera era de 10 minutos y el 11 de agosto de 2026 eso costó un día de
+# noticias: el goteo de salas se alargó hasta las 05:49 —los proveedores LLM
+# estaban con la cuota agotada y cada localidad reintenta con todos antes de
+# rendirse— y a las 05:10 este script se encontró el lock ocupado y se saltó.
+# Con 40 minutos espera en vez de abandonar; si aun así no lo consigue, el
+# problema es otro y saltarse el día es lo correcto.
 exec 9>/tmp/tuchat-pipeline.lock
-flock -w 600 9 || { echo "[$(date -u +%FT%TZ)] el pipeline está ocupado (deploy en curso); se salta"; exit 0; }
+flock -w 2400 9 || { echo "[$(date -u +%FT%TZ)] el pipeline sigue ocupado tras 40 min; se salta"; exit 0; }
 
 LOG=/home/ubuntu/generar-noticias-tuchat.log
 # Sin esto el log crece sin fin: se conserva la última parte y se recorta el resto.

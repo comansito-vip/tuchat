@@ -9,16 +9,40 @@ historial. Si tocas el script en el VPS, actualiza también esta copia.
 
 | Ruta en el VPS | Cuándo | Qué hace |
 |---|---|---|
-| `/home/ubuntu/generar-salas-tuchat.sh` | cron, 03:40 UTC | redacta 12 salas de localidad, pasa los tests, commitea, empuja y **reconstruye** |
+| `/home/ubuntu/generar-salas-tuchat.sh` | cron, 01:30 UTC | redacta 12 salas de localidad, pasa los tests, commitea, empuja y **reconstruye** |
 | `/home/ubuntu/generar-noticias-tuchat.sh` | cron, 05:00 UTC | genera noticias, cura, pasa los tests, commitea, empuja y **reconstruye** |
 | `/home/ubuntu/deploy-tuchat.sh` | cron, 05:30 UTC | despliega si `origin/main` trae commits nuevos (los hechos desde fuera del VPS) |
 
 Logs: `generar-salas-tuchat.log`, `generar-noticias-tuchat.log` y `deploy-tuchat.log`,
 todos en `/home/ubuntu/`.
 
-Los tres comparten `/tmp/tuchat-pipeline.lock` y van escalonados (03:40 → 05:00 →
-05:30) para no competir entre ellos ni con los ~20 crons de estoeschat, que
-arrancan a las 04:10 y usan las mismas claves de LLM.
+Los tres comparten `/tmp/tuchat-pipeline.lock` y van escalonados para no competir
+entre ellos ni con los ~20 crons de estoeschat, que usan las mismas claves de LLM.
+
+## Por qué el goteo corre a la 01:30 y no a las 03:40
+
+Lo movimos el 11 de agosto de 2026, después de perder un día de noticias.
+
+Aquel día el goteo arrancó a las 03:40 y **no terminó hasta las 05:49**, cuando
+lo normal eran 14 minutos. La causa no fue el build: fue que Groq devolvía
+`429 … on tokens` —cuota diaria agotada— y cada localidad reintenta con todos los
+proveedores antes de darse por vencida, así que el lote entero se arrastró dos
+horas y publicó 5 salas de 12. A las 05:10 el cron de noticias se encontró el
+lock ocupado, esperó sus 10 minutos y se saltó el día.
+
+Las dos cosas que lo causaron están arregladas:
+
+- **El horario.** A las 03:40 arrancaba a la vez que un cron de estoeschat, y a
+  las 03:50 otro; la cuota de Groq y Cerebras es común a toda la red, así que
+  competían por ella. De 00:00 a 03:39 no corre nada, de modo que a la 01:30 el
+  goteo tiene la cuota entera y casi cuatro horas de margen.
+- **La espera del lock de las noticias**, de 10 a 40 minutos. Diez minutos no dan
+  para que termine un goteo que se complique.
+
+Para ver si vuelve a pasar: `grep "se salta" /home/ubuntu/generar-noticias-tuchat.log`
+y `node scripts/check-llm-providers.mjs` desde `/var/www/tuchat.org` con el `.env`
+cargado, que dice qué proveedores responden **en ese momento** (las cuotas se
+reponen a lo largo del día: a mediodía suele haber Groq, Cerebras y NVIDIA).
 
 ## Por qué el generador reconstruye él mismo
 
