@@ -175,7 +175,11 @@ export const TOPICS_ADULTOS: Place[] = [
     slug: "cornudos", name: "Cornudos", kind: "tematica", icon: "🦌",
     users: 88, votes: 146, activity: "Media",
     parentSlug: "erotico", parentName: "Erótico",
-    channels: ["cornudos", "sexo_casadas", "chatzona", "infieles"],
+    // #parejas va junto a #cornudos porque es donde está de verdad la gente del
+    // fetiche: la sala propia se llena a ratos y la de parejas sostiene la
+    // conversación el resto del tiempo. (#infieles no existe en la red y lo
+    // quitaba ya el saneado de canales-saneado.ts.)
+    channels: ["cornudos", "parejas", "sexo_casadas", "chatzona"],
     related: ["infieles", "sexo_casadas", "erotico", "adultos", "sexo"],
     intro: "Chat cuckold en español: fantasía de compartir pareja, humillación consentida y charla sobre un fetiche que mueve más gente de la que parece.",
     about: "El fetiche cuckold —el cornudo consentido, el que disfruta viendo o sabiendo que su pareja está con otro— tiene más seguidores de los que se admiten en voz alta, y esta sala es su espacio propio. Se habla de fantasías, de parejas que ya lo practican y de curiosos que quieren entender de dónde viene esa atracción antes de decidir si es lo suyo. Hay matices dentro del propio fetiche —desde la simple fantasía hablada hasta arreglos reales entre parejas— y aquí se distinguen sin juzgar ninguno. Consentimiento y comunicación entre todos los implicados, siempre por delante.",

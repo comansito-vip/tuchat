@@ -135,18 +135,24 @@ export function rainyDays(data: WeatherData): number {
 const ESPERA_REINTENTO = [250, 750, 2500];
 
 /**
- * Separación mínima entre dos peticiones a Open-Meteo desde este proceso.
+ * Separación mínima entre dos peticiones a Open-Meteo **desde este proceso**.
  *
- * El plan gratuito admite del orden de 600 peticiones por minuto y el build las
- * reparte entre los cinco workers de Next: a 700 ms por worker salen unas 430
- * al minuto, con margen. Reintentar no bastaba —el build pasó de 1.332 páginas
- * sin previsión a 467— porque el problema no era que fallara una petición
- * suelta, sino el ritmo al que se lanzaban todas.
+ * El plan gratuito admite del orden de 600 peticiones por minuto. Los 700 ms de
+ * partida se calcularon para los cinco workers que Next usa en una máquina
+ * holgada: 5 × (1/0,7 s) ≈ 430 al minuto, con margen. Reintentar no bastaba —el
+ * build pasó de 1.332 páginas sin previsión a 467— porque el problema no era una
+ * petición que falla, sino el ritmo al que salían todas.
+ *
+ * El detalle que importa: **el límite es por proceso, así que el ritmo real
+ * depende de cuántos workers haya**. El VPS tiene 2 CPU y 3,8 GB, Next se queda
+ * en UN worker, y ahí 700 ms son 85 peticiones por minuto: se desperdicia el 85%
+ * del margen y las 1.965 localidades cuestan 23 minutos de espera pura. Por eso
+ * se puede ajustar por entorno con `WEATHER_MIN_MS`, que es lo que hace el VPS.
  *
  * No penaliza el runtime: la espera se calcula sobre la ÚLTIMA petición hecha,
  * así que una visita aislada a /tiempo/madrid no espera nada.
  */
-export const MIN_MS_ENTRE_PETICIONES = 700;
+export const MIN_MS_ENTRE_PETICIONES = Number(process.env.WEATHER_MIN_MS) || 700;
 
 let proximaLibre = 0;
 
@@ -202,12 +208,77 @@ async function pedirConReintento(url: string): Promise<Response | null> {
  */
 const enCurso = new Map<string, Promise<WeatherData | null>>();
 
+/**
+ * Caché en disco de las previsiones, un fichero por localidad.
+ *
+ * POR QUÉ: `enCurso` solo vive lo que vive el proceso, así que cada build vuelve
+ * a pedir las 1.965 previsiones desde cero. El 11 de agosto de 2026 se
+ * construyó cuatro veces en un día y eso fueron cuatro veces 23 minutos de
+ * espera del limitador para bajar exactamente los mismos datos.
+ *
+ * Vive en `.data/` y no en `.next/` a propósito: el deploy hace `rm -rf .next`
+ * antes de construir —lo hace desde la caída del 5 de agosto y con razón—, así
+ * que una caché ahí dentro no sobreviviría a lo único que tiene que sobrevivir.
+ *
+ * Un fichero por slug en vez de un JSON grande porque en local construyen cinco
+ * workers a la vez: con un único fichero se pisarían las escrituras, y con uno
+ * por localidad no hay nada que coordinar.
+ *
+ * El TTL por defecto son 3 horas, coherente con el `revalidate: 3600` de la
+ * página: la previsión de los próximos cinco días no cambia de forma apreciable
+ * en ese rato. Se ajusta con `WEATHER_CACHE_TTL_MIN`; a 0 se desactiva.
+ */
+const TTL_MIN = process.env.WEATHER_CACHE_TTL_MIN === undefined
+  ? 180
+  : Number(process.env.WEATHER_CACHE_TTL_MIN);
+
+const DIR_CACHE = "./.data/weather";
+
+/** Nombre de fichero seguro: los slugs son [a-z0-9-], pero no se da por hecho. */
+const ficheroDe = (slug: string) => `${DIR_CACHE}/${slug.replace(/[^a-z0-9-]/gi, "_")}.json`;
+
+async function deLaCache(slug: string): Promise<WeatherData | null> {
+  if (TTL_MIN <= 0) return null;
+  try {
+    const { readFile } = await import("node:fs/promises");
+    const raw = await readFile(ficheroDe(slug), "utf8");
+    const { t, d } = JSON.parse(raw) as { t: number; d: WeatherData };
+    if (!t || Date.now() - t > TTL_MIN * 60_000) return null;
+    return d;
+  } catch {
+    return null; // no existe, está corrupta o el disco no deja: se pide y ya
+  }
+}
+
+async function aLaCache(slug: string, data: WeatherData): Promise<void> {
+  if (TTL_MIN <= 0) return;
+  try {
+    const { mkdir, writeFile, rename } = await import("node:fs/promises");
+    await mkdir(DIR_CACHE, { recursive: true });
+    // Escritura atómica: si el build muere a media escritura, la caché no queda
+    // con un JSON truncado que luego reviente al leerlo.
+    const tmp = `${ficheroDe(slug)}.${process.pid}.tmp`;
+    await writeFile(tmp, JSON.stringify({ t: Date.now(), d: data }), "utf8");
+    await rename(tmp, ficheroDe(slug));
+  } catch {
+    // Sin caché se sigue funcionando: solo se pierde la mejora de tiempo.
+  }
+}
+
 export function fetchWeather(slug: string): Promise<WeatherData | null> {
   const yaPedida = enCurso.get(slug);
   if (yaPedida) return yaPedida;
-  const promesa = pedirPrevision(slug);
+  const promesa = conCache(slug);
   enCurso.set(slug, promesa);
   return promesa;
+}
+
+async function conCache(slug: string): Promise<WeatherData | null> {
+  const guardada = await deLaCache(slug);
+  if (guardada) return guardada;
+  const fresca = await pedirPrevision(slug);
+  if (fresca) await aLaCache(slug, fresca);
+  return fresca;
 }
 
 async function pedirPrevision(slug: string): Promise<WeatherData | null> {
