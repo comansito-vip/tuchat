@@ -1,8 +1,9 @@
 # El siguiente hueco medido: «chat gay de {ciudad}»
 
 **Fecha:** 2026-08-11
-**Estado:** medido y **hecha la primera mitad** — 12 salas publicadas el mismo día,
-345.948 impresiones de las 730.821 del hueco completo. Lo que falta está más abajo.
+**Estado:** medido y **cubierto en sus dos terceras partes** — 24 salas publicadas el
+mismo día, 440.263 impresiones de las 730.821 del hueco completo. Lo que falta está más
+abajo.
 
 ---
 
@@ -133,13 +134,32 @@ Arreglado en `canales-saneado.ts`, que se aplica al cargar el catálogo igual qu
 `conRegion`. Las salas gay de ciudad salieron ganando: pasan de un canal inventado al
 canal real de su ciudad, donde hay gente.
 
+## El segundo lote, el mismo día
+
+Otras 12, esta vez sobre todo comunidades: Euskadi, Baleares, Canarias, Cantabria,
+Navarra, Zaragoza, Aragón, Galicia, Extremadura, Alicante, Tijuana y Montevideo. Suman
+94.315 impresiones.
+
+Escribir una comunidad no es lo mismo que escribir una ciudad: el texto tiene que dar
+cuenta del reparto interno —Bilbao y Donosti, las tres ciudades gallegas que discuten cuál
+manda, Zaragoza frente a dos provincias casi vacías— en lugar de describir una noche
+concreta que solo valdría para la capital.
+
 ## Lo que queda del hueco
 
-39 lugares con demanda medida y todavía sin sala, unas 385.000 impresiones. Los mayores:
-Córdoba (20.393), Euskadi (17.070), Baleares (14.743), Canarias (12.523), Cantabria (9.576), Navarra (6.667),
-Zaragoza (6.327), Guadalajara (5.544), Galicia (5.270), Extremadura (5.009), Aragón
-(4.640), Tijuana (4.556), Alicante (4.168), Montevideo (3.766), Tarragona (3.762), Girona
-(3.319) y Las Palmas (3.186).
+27 lugares con demanda medida y todavía sin sala, unas 290.000 impresiones. Los mayores:
+Córdoba (20.393), Guadalajara (5.544), Tarragona (3.762), Girona (3.319) y Las Palmas
+(3.186); el resto ya baja de 3.000.
+
+Dos que necesitan decidirse antes de escribirlas:
+
+- **Córdoba** es ambigua entre la española y la argentina, igual que `merida` en el trabajo
+  de las regiones. Es la mayor que queda, así que merece resolverse.
+- **Guadalajara** tiene el mismo problema entre la mexicana y la española, y los 1.886
+  clics apuntan a que la demanda es de la de Jalisco.
+
+Y un detalle de canal: **Las Palmas usa `#las_palmas`, con guion bajo**, así que no sirve
+derivar el canal del slug sin pasar por `canon()`.
 
 Dos avisos para quien siga:
 
