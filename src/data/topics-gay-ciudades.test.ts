@@ -5,11 +5,14 @@ import { channelKey } from "./irc-canal";
 import { getPlace } from "@/data";
 
 describe("salas de ambiente por ciudad", () => {
-  it("son las 12 que la demanda medida sostiene", () => {
+  it("son las 24 que la demanda medida sostiene", () => {
     expect(TOPICS_GAY_CIUDADES.map((r) => r.slug).sort()).toEqual([
-      "gay-asturias", "gay-cadiz", "gay-cali", "gay-lima", "gay-malaga",
-      "gay-medellin", "gay-monterrey", "gay-murcia", "gay-puebla",
-      "gay-rosario", "gay-tenerife", "gay-vigo",
+      "gay-alicante", "gay-aragon", "gay-asturias", "gay-baleares", "gay-cadiz",
+      "gay-cali", "gay-canarias", "gay-cantabria", "gay-euskadi",
+      "gay-extremadura", "gay-galicia", "gay-lima", "gay-malaga", "gay-medellin",
+      "gay-monterrey", "gay-montevideo", "gay-murcia", "gay-navarra",
+      "gay-puebla", "gay-rosario", "gay-tenerife", "gay-tijuana", "gay-vigo",
+      "gay-zaragoza",
     ]);
   });
 
