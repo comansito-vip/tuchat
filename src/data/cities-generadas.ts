@@ -1414,7 +1414,7 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de La Pintana, la comuna del sector sur de Santiago, forma parte del Gran Santiago. Únete a la conversación local.",
+    "intro": "Chat de La Pintana, comuna del sector sur de Santiago que forma parte del Gran Santiago, dentro de la Región Metropolitana de Chile.",
     "aboutTitle": "La Pintana: comuna del sector sur dentro del Gran Santiago",
     "about": "La Pintana es una comuna ubicada en el sector sur de la ciudad de Santiago, capital de Chile, y forma parte del Gran Santiago dentro de la Región Metropolitana. En la sala de chat de La Pintana los usuarios comentan temas cotidianos como transporte, seguridad, servicios municipales y actividades culturales de la comuna. Participan residentes, estudiantes y trabajadores del sector, intercambiando información y opiniones sobre la vida local. El espacio sirve como punto de encuentro virtual donde se comparten avisos, se resuelven dudas y se fomenta la colaboración entre vecinos. También se tratan asuntos de empleo, educación y proyectos comunitarios, y se intercambian datos sobre horarios de transporte público y actividades deportivas. La conversación se mantiene respetuosa y enfocada en la mejora del entorno local. Los participantes comparten experiencias diarias, plantean preguntas y ofrecen sugerencias sobre la gestión municipal. Se fomenta la interacción entre vecinos y se promueve la participación ciudadana."
   },

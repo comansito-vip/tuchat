@@ -2,7 +2,9 @@ import { describe, it, expect } from "vitest";
 import { esDivisionAdministrativa } from "./salas-geo.mjs";
 import {
   revisarFicha, shingles, fraseoCalcado, indiceDeShingles, parrafosDuplicados,
+  muletillasEn,
 } from "../lib/calidad.mjs";
+import { MULETILLAS_IA } from "@/lib/content/muletillas";
 import { extraeJSON } from "../lib/llm.mjs";
 
 describe("esDivisionAdministrativa", () => {
@@ -30,6 +32,21 @@ describe("esDivisionAdministrativa", () => {
     ]) {
       expect(esDivisionAdministrativa(t), t).toBe(true);
     }
+  });
+});
+
+/**
+ * El cron valida con `scripts/lib/calidad.mjs` y el auditor de contenido con
+ * `src/lib/content/muletillas.ts`. Eran dos listas distintas, así que el cron
+ * publicaba textos que el auditor marcaba después: la sala de La Pintana salió
+ * el 2026-08-11 con "Únete a la conversación local" en la intro, que el cron no
+ * conocía y el auditor sí. La comprobación es de comportamiento, no de listas:
+ * lo que el auditor rechaza, el generador tiene que rechazarlo antes.
+ */
+describe("las dos listas de muletillas no se desincronizan", () => {
+  it("el generador detecta todas las muletillas que detecta el auditor", () => {
+    const ciegas = MULETILLAS_IA.filter((m) => muletillasEn(`Texto de prueba. ${m} y sigue.`).length === 0);
+    expect(ciegas).toEqual([]);
   });
 });
 

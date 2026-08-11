@@ -12,20 +12,33 @@
  * "descubre" o "sumérgete" sueltas dan falsos positivos en prosa histórica
  * legítima ("se descubrió el yacimiento en 1850").
  */
-export const MULETILLAS = [
-  "el lugar perfecto", "ya seas", "no importa si", "punto de encuentro ideal",
-  "joya escondida", "no te lo puedes perder", "todo un mundo de",
-  "en el mundo de hoy", "sumérgete en", "descubre la magia", "descubre el encanto",
-  "un rincón especial", "no dudes en", "te sorprenderá", "sea cual sea",
-  "tanto si", "en pleno corazón de", "un sinfín de", "lo que buscas",
-  "la mejor experiencia", "sin lugar a dudas", "vibrante comunidad",
-];
+/**
+ * Fuente única con el auditor de contenido.
+ *
+ * Antes esta lista era propia y más corta que la de `src/lib/content/muletillas.ts`,
+ * así que el cron publicaba textos que el auditor marcaba después: la sala de La
+ * Pintana salió el 2026-08-11 con "Únete a la conversación local" en la intro,
+ * que aquí no figuraba y allí sí. Con una sola lista, lo que el auditor rechaza
+ * lo rechaza también el generador, antes de publicar.
+ *
+ * OJO: esto obliga a ejecutar con `tsx` cualquier script que importe este
+ * módulo (el import es de un .ts). Los tres que lo hacen ya lo hacen.
+ */
+import { MULETILLAS_IA as MULETILLAS } from "../../src/lib/content/muletillas.ts";
+export { MULETILLAS };
 
 /** Aperturas de folleto: imperativos con los que el LLM arranca por defecto. */
 const APERTURAS = /^\s*(descubre|conoce|explora|sumérgete|sumergete|vive|disfruta|bienvenid|adéntrate|adentrate|prepárate|preparate)/i;
 
 export function muletillasEn(texto) {
-  const t = (texto ?? "").toLowerCase();
+  // Misma normalización que el auditor: su lista va sin tildes ni signos, así
+  // que comparar en crudo dejaba pasar "sumérgete" por tener acento.
+  const t = (texto ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9ñ ]+/g, " ")
+    .replace(/\s+/g, " ");
   return MULETILLAS.filter((m) => t.includes(m));
 }
 
