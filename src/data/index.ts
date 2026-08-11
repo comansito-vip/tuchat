@@ -2,6 +2,7 @@ import { CITIES } from "./cities";
 import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
+import { slugRegion } from "./region-alias";
 import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
@@ -10,6 +11,7 @@ import { TOPICS_EDAD } from "./topics-edad";
 import { TOPICS_LEGACY } from "./topics-legacy";
 import { TOPICS_INTERESES } from "./topics-intereses";
 import { TOPICS_REGIONES } from "./topics-regiones";
+import { TOPICS_REGIONES_AM } from "./topics-regiones-am";
 import { TOPICS_MOTOR } from "./topics-motor";
 import { TOPICS_OCIO } from "./topics-ocio";
 import { TOPICS_ADULTOS } from "./topics-adultos";
@@ -23,8 +25,16 @@ import { normalize } from "@/lib/slug";
 // tenían página de estado a la que enlazar y una sala de estado habría nacido
 // vacía. `CITY_REGIONS` (generado) les pone su provincia sin tocar los 2,3 MB de
 // datos escritos a mano; lo que ya trae regionSlug se respeta.
-const conRegion = (p: Place): Place =>
-  p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
+// El regionSlug se normaliza aquí, al cargar, y no en el generador: lo escriben
+// tres sitios distintos (mapear-regiones.mjs, los datos a mano y el cron de
+// goteo que llena cities-generadas.ts), así que este es el único punto por el
+// que pasan todos. Ver region-alias.ts.
+const conRegion = (p: Place): Place => {
+  const base = p.regionSlug || !CITY_REGIONS[p.slug] ? p : { ...p, ...CITY_REGIONS[p.slug] };
+  if (!base.regionSlug) return base;
+  const alias = slugRegion(base.regionSlug);
+  return alias === base.regionSlug ? base : { ...base, regionSlug: alias };
+};
 
 // El H2 propio de las salas anteriores al generador de localidades (ver
 // about-titles.ts). Gana siempre el de la ficha: el cron de goteo escribe el
@@ -42,6 +52,7 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_LEGACY,
   ...TOPICS_INTERESES,
   ...TOPICS_REGIONES,
+  ...TOPICS_REGIONES_AM,
   ...TOPICS_MOTOR,
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
@@ -229,10 +240,22 @@ export function getChildren(slug: string): Place[] {
 export function getAgeTopics(): Place[] {
   return TOPICS_EDAD;
 }
-// Comunidades autónomas españolas (topics-regiones.ts): para agrupar el listado
-// de ciudades de /chat/espana y para las cabeceras de /chat/{comunidad}.
+// Regiones con sala propia: comunidades autónomas españolas (topics-regiones.ts)
+// y estados americanos (topics-regiones-am.ts). Sirve para agrupar el listado de
+// ciudades de su país y para las cabeceras de /chat/{region}. Las españolas
+// tienen bandera real en /flags/regiones/; las americanas no, y caen en su icono.
 export function getRegions(): Place[] {
-  return TOPICS_REGIONES;
+  return [...TOPICS_REGIONES, ...TOPICS_REGIONES_AM];
+}
+// Regiones con sala de un país concreto, para que su tarjeta en /chat se navegue
+// por ellas. Las comunidades españolas no llevan `parentSlug` —se escribieron
+// cuando España era el único país con regiones— así que se resuelven por
+// descarte; las americanas sí lo traen. La asimetría se encapsula aquí para que
+// ninguna página tenga que conocerla.
+export function getRegionsOfCountry(countrySlug: string): Place[] {
+  return getRegions().filter((r) =>
+    r.parentSlug ? r.parentSlug === countrySlug : countrySlug === "espana",
+  );
 }
 // Ciudades de una comunidad autónoma española (no usan parentSlug para esto,
 // las ciudades cuelgan de "espana"; regionSlug es el vínculo real).

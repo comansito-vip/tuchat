@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getCitiesByRegion, roomName, roomTitle, roomMetaTitle, CONTINENTS } from "@/data";
+import { getPlace, getRooms, getCities, getTopics, getNews, getCountries, getPrimaryTopics, getStats, getChildren, getRelated, getRanking, getRegions, getRegionsOfCountry, getCitiesByRegion, roomName, roomTitle, roomMetaTitle, CONTINENTS } from "@/data";
 
 describe("títulos de sala", () => {
   const ALL = [...getCountries(), ...getCities(), ...getTopics()];
@@ -123,10 +123,39 @@ describe("data getters", () => {
     expect(children.length).toBeGreaterThan(0);
     expect(children.every((c) => c.parentSlug === "espana")).toBe(true);
   });
-  it("getRegions returns the 16 comunidades autónomas con bandera real", () => {
-    const regions = getRegions();
-    expect(regions.length).toBeGreaterThanOrEqual(16);
-    for (const r of regions) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
+  it("getRegions incluye las comunidades españolas, todas con bandera real", () => {
+    // Las españolas no cuelgan de ningún país (las ciudades cuelgan de "espana",
+    // ellas no); las americanas sí, y es lo que las distingue.
+    const esp = getRegions().filter((r) => r.parentSlug === undefined);
+    expect(esp.length).toBeGreaterThanOrEqual(16);
+    for (const r of esp) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
+  });
+  it("getRegions incluye las 10 regiones americanas, que cuelgan de su país", () => {
+    const am = getRegions().filter((r) => r.parentSlug !== undefined);
+    expect(am.length).toBe(10);
+    for (const r of am) expect(["mexico", "venezuela"], r.slug).toContain(r.parentSlug);
+  });
+  it("cada país recibe sus propias regiones y no las de otro", () => {
+    // getRegions() devuelve las 26 juntas: si la tarjeta de España las pidiera
+    // todas, enseñaría estados mexicanos, y México no enseñaría ninguno.
+    const esp = getRegionsOfCountry("espana");
+    const mex = getRegionsOfCountry("mexico");
+    expect(esp.length).toBeGreaterThanOrEqual(16);
+    expect(mex.map((r) => r.slug).sort()).toEqual([
+      "chiapas", "coahuila", "jalisco", "nuevo-leon", "sinaloa", "sonora", "tabasco", "yucatan",
+    ]);
+    expect(esp.some((r) => r.slug === "jalisco")).toBe(false);
+    expect(getRegionsOfCountry("argentina")).toEqual([]);
+  });
+  it("una sala de región no se cuela como ciudad en el listado de su país", () => {
+    // Cuelgan del país por parentSlug, así que getChildren las devuelve. La
+    // página las saca del listado porque ya encabezan su propio grupo: sin eso,
+    // Jalisco salía dos veces en /chat/mexico.
+    const regiones = new Set(getRegions().map((r) => r.slug));
+    const colados = getChildren("mexico").filter((c) => regiones.has(c.slug)).map((c) => c.slug);
+    expect(colados.length).toBe(8);
+    const listado = getChildren("mexico").filter((c) => !regiones.has(c.slug));
+    expect(listado.some((c) => c.slug === "jalisco")).toBe(false);
   });
   it("toda ciudad española tiene provincia y comunidad (regionSlug) asignadas, salvo Ceuta/Melilla", () => {
     const esp = getCities().filter((c) => c.parentSlug === "espana");
@@ -155,6 +184,15 @@ describe("data getters", () => {
     const fuera = getCities()
       .filter((c) => c.parentSlug === "espana" && c.provincia && !CANONICAS.has(c.provincia))
       .map((c) => `${c.slug}: ${c.provincia}`);
+    expect(fuera).toEqual([]);
+  });
+  it("los regionSlug del censo usan el slug de la sala, no el nombre largo", () => {
+    // El censo escribe "Coahuila de Zaragoza" y "Estado de Jalisco"; la sala se
+    // llama "coahuila" y "jalisco". Sin normalizar, esas ciudades no encuentran
+    // su región y la sala nace vacía.
+    const PROHIBIDOS = ["coahuila-de-zaragoza", "estado-de-jalisco"];
+    const usados = new Set(getCities().map((c) => c.regionSlug).filter(Boolean));
+    const fuera = PROHIBIDOS.filter((p) => usados.has(p));
     expect(fuera).toEqual([]);
   });
   it("getCitiesByRegion devuelve solo ciudades de esa comunidad, y cada regionSlug resuelve a una sala real", () => {

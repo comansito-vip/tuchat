@@ -1,6 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Cuántos procesos usa Next para prerenderizar. Lo calcula solo a partir de
+  // las CPU y la memoria libre de la máquina, y con 5.100 páginas eso se queda
+  // corto en un equipo con otros proyectos abiertos: eligió 5 workers con 1,7 GB
+  // libres y el build murió sin mensaje por la página 4.000, que es un fallo
+  // difícil de leer porque no imprime error, solo deja de avanzar.
+  //
+  // Se toca por entorno y no en el fichero para no cambiar el VPS, que con su
+  // propio cálculo construye bien: allí no se define la variable.
+  ...(process.env.NEXT_BUILD_CPUS
+    ? { experimental: { cpus: Number(process.env.NEXT_BUILD_CPUS) } }
+    : {}),
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 86400,

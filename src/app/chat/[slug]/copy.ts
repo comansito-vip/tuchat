@@ -1,5 +1,5 @@
 import type { Place } from "@/data";
-import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren } from "@/data";
+import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren, getRegions } from "@/data";
 import type { Crumb } from "@/lib/seo";
 import { hasWeather } from "@/lib/weather";
 import { LOTERIA_INFO } from "@/lib/lottery-info";
@@ -20,12 +20,31 @@ import { LOTERIA_INFO } from "@/lib/lottery-info";
  * menos bullets en lugar de rellenarlos con prosa intercambiable.
  */
 
+// Índice de regiones con sala, construido una vez: buildRoomCrumbs se llama una
+// vez por sala al prerenderizar 2.600 páginas y un find() lineal sobre las 26
+// regiones se pagaría en cada una.
+let REGION_POR_SLUG: Map<string, Place> | null = null;
+const regionDe = (slug: string | undefined): Place | undefined => {
+  if (!slug) return undefined;
+  REGION_POR_SLUG ??= new Map(getRegions().map((r) => [r.slug, r]));
+  return REGION_POR_SLUG.get(slug);
+};
+
 export function buildRoomCrumbs(place: Place): Crumb[] {
   const crumbs: Crumb[] = [{ name: "Inicio", url: "/" }];
   if (place.parentName && place.parentSlug) {
     // Tanto países como temáticas padre viven bajo /chat/{slug} (los antiguos
     // /pais/* se consolidaron en /chat/* con 308).
     crumbs.push({ name: place.parentName, url: `/chat/${place.parentSlug}` });
+  }
+  // La comunidad o el estado van entre el país y la ciudad: es la jerarquía real
+  // —Vigo está en Galicia, no cuelga de España a secas— y es lo que da a las 26
+  // salas de región sus enlaces entrantes. Sin esto solo las enlaza el listado
+  // de su país, un único enlace, que en un dominio cuyo problema medido es de
+  // rastreo equivale a no existir. Son 963 ciudades las que lo ganan.
+  const region = regionDe(place.regionSlug);
+  if (region && region.slug !== place.slug) {
+    crumbs.push({ name: region.name, url: `/chat/${region.slug}` });
   }
   crumbs.push({ name: place.name, url: `/chat/${place.slug}` });
   return crumbs;

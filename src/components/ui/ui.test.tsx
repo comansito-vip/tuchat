@@ -9,6 +9,8 @@ import { Card } from "./Card";
 import { SectionTitle } from "./SectionTitle";
 import { SearchInput } from "./SearchInput";
 import { saveNick } from "@/lib/nick-storage";
+import { RegionGroupedGrid } from "./RegionGroupedGrid";
+import type { Place } from "@/data";
 
 const mockPush = vi.fn();
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: mockPush }) }));
@@ -217,5 +219,56 @@ describe("SearchInput", () => {
     fireEvent.submit(screen.getByRole("button", { name: /Buscar/i }).closest("form")!);
     expect(mockPush).toHaveBeenCalledWith("/chat/madrid");
     vi.unstubAllGlobals();
+  });
+});
+
+describe("RegionGroupedGrid", () => {
+  const ciudad = (slug: string, regionSlug?: string): Place => ({
+    slug, name: slug, kind: "ciudad", icon: "🏙️", users: 10, votes: 10,
+    activity: "Baja", channels: ["chatzona"], related: [], intro: "x",
+    ...(regionSlug ? { regionSlug } : {}),
+  });
+
+  it("funde en un solo grupo las regiones sin sala", () => {
+    // jalisco tiene sala; michoacan y nayarit no, y sin fundirlos darían dos
+    // secciones tituladas ambas "Otras ciudades".
+    render(
+      <RegionGroupedGrid
+        cities={[
+          ciudad("guadalajara", "jalisco"),
+          ciudad("morelia", "michoacan"),
+          ciudad("tepic", "nayarit"),
+          ciudad("suelta"),
+        ]}
+      />
+    );
+    expect(screen.getAllByText("Otras ciudades")).toHaveLength(1);
+  });
+
+  it("deja «Otras ciudades» al final aunque sea el grupo más grande", () => {
+    render(
+      <RegionGroupedGrid
+        cities={[
+          ciudad("guadalajara", "jalisco"),
+          ciudad("morelia", "michoacan"),
+          ciudad("tepic", "nayarit"),
+          ciudad("colima-ciudad", "colima"),
+        ]}
+      />
+    );
+    const titulos = screen.getAllByRole("heading", { level: 3 }).map((h) => h.textContent);
+    expect(titulos[titulos.length - 1]).toContain("Otras ciudades");
+  });
+
+  it("subdivide por provincia el cajón de sobras cuando es grande", () => {
+    // En México caen ahí 228 de 292 ciudades: en una lista plana con "ver más"
+    // se navega peor que en el agrupado por provincia que tenían antes.
+    const sobras = Array.from({ length: 40 }, (_, i) => ({
+      ...ciudad(`pueblo-${i}`, "michoacan"),
+      provincia: i < 20 ? "Michoacán" : "Nayarit",
+    }));
+    render(<RegionGroupedGrid cities={[ciudad("guadalajara", "jalisco"), ...sobras]} />);
+    expect(screen.getByText("Michoacán")).toBeDefined();
+    expect(screen.getByText("Nayarit")).toBeDefined();
   });
 });

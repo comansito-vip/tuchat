@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
-import { cityFlag, getAgeTopics, getPrimaryTopics, getRegions } from "@/data";
+import { cityFlag, getAgeTopics, getPrimaryTopics, getRegions, getRegionsOfCountry } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
@@ -136,10 +136,21 @@ export default async function ChatIndexPage() {
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {countries.map((country) => {
             const citiesOfCountry = cities.filter((c) => c.parentSlug === country.slug);
-            // España se navega por comunidades autónomas (con su bandera), no
-            // por una muestra de 8 ciudades entre 893: es su organización real.
-            const regionsOfCountry = country.slug === "espana" ? getRegions() : [];
-            const preview = citiesOfCountry.slice(0, 8);
+            // Un país con salas de región se navega por ellas —España por sus
+            // comunidades, México por sus estados— en vez de por una muestra de
+            // 8 ciudades entre cientos: es su organización real.
+            const regionsOfCountry = getRegionsOfCountry(country.slug);
+            // …pero solo si esas regiones cubren de verdad el país. Las 17
+            // comunidades se llevan 891 de las 893 ciudades españolas; los 8
+            // estados mexicanos con sala, 64 de 292, así que enseñar únicamente
+            // sus chips escondería Ciudad de México o Monterrey. Cuando no
+            // cubren, se enseñan las dos cosas.
+            const cubiertas = citiesOfCountry.filter(
+              (c) => c.regionSlug && regionsOfCountry.some((r) => r.slug === c.regionSlug),
+            ).length;
+            const soloRegiones =
+              regionsOfCountry.length > 0 && cubiertas >= citiesOfCountry.length / 2;
+            const preview = soloRegiones ? [] : citiesOfCountry.slice(0, 8);
             const rest = citiesOfCountry.length - preview.length;
             return (
               <div key={country.slug} className="rounded-xl border border-line bg-card p-4">
@@ -166,30 +177,29 @@ export default async function ChatIndexPage() {
                     los 44px que pide la guía táctil de Apple, y son la vía de
                     entrada a las 893 ciudades españolas. */}
                 <div className="mt-3 flex flex-wrap gap-2">
-                  {regionsOfCountry.length > 0
-                    ? regionsOfCountry.map((r) => (
-                        <Link
-                          key={r.slug}
-                          href={`/chat/${r.slug}`}
-                          className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
-                        >
-                          <Flag emoji={r.icon} flagSrc={r.flagSrc} size={14} />
-                          {r.name}
-                        </Link>
-                      ))
-                    : preview.map((c) => {
-                        const flag = cityFlag(c);
-                        return (
-                          <Link
-                            key={c.slug}
-                            href={`/chat/${c.slug}`}
-                            className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
-                          >
-                            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
-                            {c.name}
-                          </Link>
-                        );
-                      })}
+                  {regionsOfCountry.map((r) => (
+                    <Link
+                      key={r.slug}
+                      href={`/chat/${r.slug}`}
+                      className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+                    >
+                      <Flag emoji={r.icon} flagSrc={r.flagSrc} size={14} />
+                      {r.name}
+                    </Link>
+                  ))}
+                  {preview.map((c) => {
+                    const flag = cityFlag(c);
+                    return (
+                      <Link
+                        key={c.slug}
+                        href={`/chat/${c.slug}`}
+                        className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
+                      >
+                        <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
+                        {c.name}
+                      </Link>
+                    );
+                  })}
                   {/* Salas propias del país (argentinos, rebelión…): antes formaban
                       un grupo suelto en "Más salas temáticas" que duplicaba al país. */}
                   {(topicsByCountry.get(country.slug) ?? []).map((t) => (

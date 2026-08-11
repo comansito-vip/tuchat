@@ -5,9 +5,25 @@ import { hasWeather } from "@/lib/weather";
 import { LOTERIA_INFO } from "@/lib/lottery-info";
 
 describe("chat room copy", () => {
-  it("builds breadcrumbs Inicio > España > Madrid for a city", () => {
+  it("la ciudad pasa por su comunidad: Inicio > España > Comunidad de Madrid > Madrid", () => {
+    // La región va en medio porque es la jerarquía real y porque es lo que da a
+    // las salas de comunidad y estado sus enlaces entrantes: sin esto solo las
+    // enlaza el listado de su país.
     const crumbs = buildRoomCrumbs(getPlace("madrid")!);
-    expect(crumbs.map((c) => c.name)).toEqual(["Inicio", "España", "Madrid"]);
+    expect(crumbs.map((c) => c.name)).toEqual(["Inicio", "España", "Comunidad de Madrid", "Madrid"]);
+    expect(crumbs[2].url).toBe("/chat/madrid-comunidad");
+  });
+
+  it("la ciudad mexicana pasa por su estado: Inicio > México > Jalisco > Guadalajara", () => {
+    const crumbs = buildRoomCrumbs(getPlace("guadalajara")!);
+    expect(crumbs.map((c) => c.name)).toEqual(["Inicio", "México", "Jalisco", "Guadalajara"]);
+  });
+
+  it("una ciudad sin región con sala no gana un nivel de más", () => {
+    // Ceuta no cuelga de ninguna comunidad, y las provincias argentinas no
+    // tienen sala: su breadcrumb se queda en país > ciudad.
+    expect(buildRoomCrumbs(getPlace("ceuta")!).map((c) => c.name)).toEqual(["Inicio", "España", "Ceuta"]);
+    expect(buildRoomCrumbs(getPlace("rosario")!).map((c) => c.name)).toEqual(["Inicio", "Argentina", "Rosario"]);
   });
 
   it("builds breadcrumbs Inicio > España for a country room", () => {
