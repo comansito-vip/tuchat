@@ -210,3 +210,75 @@
 [2026-08-10T04:15:33.402Z]   ✓ talcahuano (Chile) — escribió NVIDIA, verificó Cerebras
 [2026-08-10T04:15:33.402Z] demasiados intentos fallidos, se corta el lote
 [2026-08-10T04:15:33.407Z] publicadas 10 salas · acumuladas 60 · quedan 2912 en cola
+[2026-08-11T03:40:05.474Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-11T03:40:05.483Z] cola: 2906 pendientes · lote de hoy: 12
+[2026-08-11T03:40:13.214Z]   ✗ los-alcarrizos: fraseo calcado de santo-domingo-oeste: "es un municipio de la provincia de"
+[2026-08-11T03:40:13.837Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-11T03:40:38.773Z]   ✗ partido-de-ezeiza: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-11T03:41:23.112Z]   ✗ san-luis-rio-colorado: fraseo calcado de heroica-matamoros: "la cabecera del municipio homonimo en el"
+[2026-08-11T03:41:23.365Z]   ✗ departamento-lujan-de-cuyo: es una división administrativa, no una localidad
+[2026-08-11T03:43:40.379Z]   ✓ unare (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-11T03:48:27.176Z]   ✗ carupano: rechazada tras corrección: Uso de muletilla prohibida 'Conoce'
+[2026-08-11T03:53:00.141Z]   ✗ habana-del-este: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T03:56:18.175Z]   ✓ jutiapa-guatemala (Guatemala) — escribió Gemini, verificó Cerebras
+[2026-08-11T04:00:57.544Z]   ✗ tulancingo-de-bravo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:04:12.557Z]   ✗ huaycan: rechazada tras corrección: Incluye datos sobre la combinación de áreas residenciales, comercios locales y espacios de uso público que no aparecen en el material de origen
+[2026-08-11T04:10:15.573Z]   ✗ huaycan: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:10:16.255Z]   ✗ provincia-de-alto-amazonas: es una división administrativa, no una localidad
+[2026-08-11T04:11:11.648Z]   ✓ naguanagua (Venezuela) — escribió NVIDIA, verificó Cerebras
+[2026-08-11T04:17:14.207Z]   ✗ virrey-del-pino: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:26:08.774Z]   ✗ palo-negro: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:34:43.467Z]   ✗ distrito-de-la-molina: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:39:31.083Z]   ✗ chichicastenango: controles de calidad: intro/meta de 227 caracteres (debe estar entre 110 y 160)
+[2026-08-11T04:45:36.403Z]   ✗ delicias: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:51:20.255Z]   ✗ quilpue: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T04:57:22.832Z]   ✗ la-lisa: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:00:36.434Z]   ✗ colina-chile: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:07:44.911Z]   ✗ partido-de-tandil: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:15:20.795Z]   ✗ fresnillo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:19:55.995Z]   ✗ general-rodriguez-argentina: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:21:08.947Z]   ✗ boca-chica: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:22:09.789Z]   ✗ distrito-de-pachacamac: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-11T05:26:54.221Z]   ✗ la-molina: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:30:49.524Z]   ✗ yaritagua: controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)
+[2026-08-11T05:30:49.982Z]   ✗ departamento-san-martin: es una división administrativa, no una localidad
+[2026-08-11T05:31:31.653Z]   ✓ villa-alemana (Chile) — escribió NVIDIA, verificó Cerebras
+[2026-08-11T05:32:04.998Z]   ✓ momostenango (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-08-11T05:36:44.036Z]   ✗ distrito-de-tambogrande: fraseo calcado de cuautla: "la vida cotidiana eventos locales y temas"
+[2026-08-11T05:39:49.851Z]   ✗ chilon: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-11T05:43:13.851Z]   ✗ villa-madero: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-11T05:44:01.980Z]   ✗ villa-madero-provincia-de-buenos-aires: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-11T05:44:01.980Z] demasiados intentos fallidos, se corta el lote
+[2026-08-11T05:44:01.997Z] publicadas 5 salas · acumuladas 65 · quedan 2901 en cola

@@ -60,7 +60,12 @@
   "milpa-alta",
   "nacajuca",
   "ocumare-del-tuy",
-  "talcahuano"
+  "talcahuano",
+  "unare",
+  "jutiapa-guatemala",
+  "naguanagua",
+  "villa-alemana",
+  "momostenango"
  ],
  "descartadas": [
   {
@@ -527,6 +532,161 @@
    "slug": "quilpue",
    "razon": "fraseo calcado de partido-de-san-martin: \"la sala funciona como un punto de\"",
    "fecha": "2026-08-10"
+  },
+  {
+   "slug": "los-alcarrizos",
+   "razon": "fraseo calcado de santo-domingo-oeste: \"es un municipio de la provincia de\"",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "partido-de-ezeiza",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "san-luis-rio-colorado",
+   "razon": "fraseo calcado de heroica-matamoros: \"la cabecera del municipio homonimo en el\"",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "departamento-lujan-de-cuyo",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "carupano",
+   "razon": "rechazada tras corrección: Uso de muletilla prohibida 'Conoce'",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "habana-del-este",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "tulancingo-de-bravo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "rechazada tras corrección: Incluye datos sobre la combinación de áreas residenciales, comercios locales y espacios de uso público que no aparecen en el material de origen",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "huaycan",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "provincia-de-alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "palo-negro",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "distrito-de-la-molina",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "chichicastenango",
+   "razon": "controles de calidad: intro/meta de 227 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "delicias",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "quilpue",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "la-lisa",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "colina-chile",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "partido-de-tandil",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "fresnillo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "general-rodriguez-argentina",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "boca-chica",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "distrito-de-pachacamac",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "yaritagua",
+   "razon": "controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "departamento-san-martin",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "distrito-de-tambogrande",
+   "razon": "fraseo calcado de cuautla: \"la vida cotidiana eventos locales y temas\"",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "chilon",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "villa-madero",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-11"
+  },
+  {
+   "slug": "villa-madero-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-11"
   }
  ]
 }
