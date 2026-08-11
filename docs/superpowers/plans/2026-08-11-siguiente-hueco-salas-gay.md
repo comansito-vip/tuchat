@@ -160,12 +160,3 @@ Dos que necesitan decidirse antes de escribirlas:
 
 Y un detalle de canal: **Las Palmas usa `#las_palmas`, con guion bajo**, así que no sirve
 derivar el canal del slug sin pasar por `canon()`.
-
-Dos avisos para quien siga:
-
-- **Córdoba es ambigua** entre la española y la argentina, igual que pasó con `merida` en
-  el trabajo de las regiones. Merece decidirse aparte, no entrar de rebote en un lote.
-- Varias de las que quedan son **comunidades, no ciudades** (Euskadi, Canarias, Cantabria,
-  Navarra, Galicia, Extremadura, Aragón). El canal geográfico existe para todas —están en
-  `ES_CHANNELS`— así que el patrón vale igual, pero el texto tiene que hablar de una región
-  entera y no de una noche concreta.
