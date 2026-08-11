@@ -686,3 +686,83 @@ Antes de dar el trabajo por cerrado, con evidencia a la vista y no de memoria:
 ## Fuera de alcance
 
 Está en la spec y se deja fuera a propósito: salas de provincia argentina o departamento colombiano (ni canal IRC ni demanda), `merida` y `la-rioja` (nombres ambiguos, decisión aparte), y enlazar a tuchat.org desde el resto de la red, que sigue siendo la acción de mayor retorno del dominio y vive fuera de este repositorio.
+
+---
+
+# Qué se hizo (2026-08-11)
+
+Las cinco tareas salieron, pero tres cosas no estaban en el plan y son las que
+merece la pena recordar.
+
+## La tabla de alias no fue donde el plan decía
+
+El plan la ponía en `mapear-regiones.mjs`. Al ejecutar apareció una **tercera
+fuente** de `regionSlug` que nadie había contado: el cron de goteo, que escribe
+`cities-generadas.ts` y al que el generador no llega —lo salta por diseño, con
+`if (ciudad.regionSlug) continue`—. Con la tabla en el generador, las salas que
+publica el cron habrían seguido entrando con el nombre largo del censo, y de
+hecho ya había tres así.
+
+Vive en `src/data/region-alias.ts` y se aplica en `index.ts` al cargar el
+catálogo, que es el único punto por el que pasan las tres fuentes. Por eso
+Coahuila acabó con **8 ciudades y no con 5**. Es el mismo razonamiento que puso
+las reglas de canal en `irc-canal.ts` en vez de en el script que las estrenó.
+
+## Dos duplicados que solo se ven al registrar las salas
+
+Ninguno de los dos se veía en España, porque sus 17 comunidades tienen sala y
+las americanas no llegan a la mitad de sus estados:
+
+1. **`/chat/mexico` listaba Jalisco dos veces.** Las salas de región cuelgan del
+   país por `parentSlug`, así que `getChildren("mexico")` las devuelve como si
+   fueran una ciudad más: salía como encabezado de grupo y otra vez como chip
+   dentro de «Otras ciudades». La página las excluye del listado.
+2. **La tarjeta de España en `/chat` habría enseñado estados mexicanos.** Pedía
+   `getRegions()` entera, que ahora son 26. `getRegionsOfCountry()` resuelve las
+   de cada país y encapsula que las españolas no lleven `parentSlug`.
+
+Y una decisión de producto que el plan no anticipó: México enseña sus 8 estados
+**y** sus ciudades principales, porque sus estados con sala cubren 64 de 292
+ciudades y solo con los chips de región se perderían Ciudad de México o
+Monterrey. España sigue navegándose solo por comunidades, que se llevan 891 de
+893. Por lo mismo, el cajón de «Otras ciudades» se subdivide por provincia
+cuando es grande: en México caen ahí 228 de 292 y una lista con «ver más» se
+navega peor que el agrupado que ya tenían.
+
+## El breadcrumb, que no estaba en el plan y es lo que más rinde
+
+Los breadcrumbs iban `Inicio > México > Guadalajara`, saltándose el estado. Con
+eso, `/chat/jalisco` habría nacido con **un solo enlace entrante** —el listado
+de su país—, que en un dominio cuyo problema medido es de rastreo equivale a no
+existir.
+
+Ahora la región va en medio y lo ganan **963 ciudades** (891 españolas, 64
+mexicanas, 8 venezolanas). Ninguna ciudad se llama igual que su región, así que
+no hay breadcrumb redundante, y el `BreadcrumbList` del JSON-LD gana el nivel
+intermedio. Jalisco pasa de 1 enlace entrante a 41.
+
+## Un tropiezo de entorno que conviene no repetir
+
+El build local falló dos veces sin imprimir error, muriendo hacia la página
+4.000. No era el código: eran **dos builds solapados** compartiendo `.next` y el
+mismo fichero de log —el segundo se lanzó antes de que muriera del todo el
+primero—, que además dejaron la máquina en 117 MB libres. Con un `.next` limpio
+y nada más corriendo, el build pasa entero.
+
+De ahí sale `NEXT_BUILD_CPUS`: Next escala los workers con la memoria libre y
+eligió 5 cuando no había para tantos. `taskset` no sirve, porque mira
+`os.cpus()` y no la afinidad.
+
+## Estado final verificado
+
+| | |
+|---|---|
+| Tests | **447** |
+| `tsc`, `eslint` | limpios |
+| `npm run auditar` | 0 avisos |
+| `npm run auditar:html` (5.096 páginas) | **ninguna incidencia** |
+| URLs en el sitemap | 5.102, con las 10 nuevas |
+| `/chat/mexico` | 8 encabezados enlazados, **un solo** «Otras ciudades», Jalisco sin duplicar |
+| `/chat/espana` | sin cambios: 17 comunidades enlazadas |
+| Breadcrumb de Guadalajara | Inicio › México › Jalisco › Guadalajara |
+| Breadcrumb de Vigo | Inicio › España › Galicia › Vigo |
