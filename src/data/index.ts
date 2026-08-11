@@ -11,6 +11,7 @@ import { TOPICS_EDAD } from "./topics-edad";
 import { TOPICS_LEGACY } from "./topics-legacy";
 import { TOPICS_INTERESES } from "./topics-intereses";
 import { TOPICS_REGIONES } from "./topics-regiones";
+import { TOPICS_REGIONES_AM } from "./topics-regiones-am";
 import { TOPICS_MOTOR } from "./topics-motor";
 import { TOPICS_OCIO } from "./topics-ocio";
 import { TOPICS_ADULTOS } from "./topics-adultos";
@@ -51,6 +52,7 @@ const ALL_TOPICS: Place[] = [
   ...TOPICS_LEGACY,
   ...TOPICS_INTERESES,
   ...TOPICS_REGIONES,
+  ...TOPICS_REGIONES_AM,
   ...TOPICS_MOTOR,
   ...TOPICS_OCIO,
   ...TOPICS_ADULTOS,
@@ -238,10 +240,12 @@ export function getChildren(slug: string): Place[] {
 export function getAgeTopics(): Place[] {
   return TOPICS_EDAD;
 }
-// Comunidades autónomas españolas (topics-regiones.ts): para agrupar el listado
-// de ciudades de /chat/espana y para las cabeceras de /chat/{comunidad}.
+// Regiones con sala propia: comunidades autónomas españolas (topics-regiones.ts)
+// y estados americanos (topics-regiones-am.ts). Sirve para agrupar el listado de
+// ciudades de su país y para las cabeceras de /chat/{region}. Las españolas
+// tienen bandera real en /flags/regiones/; las americanas no, y caen en su icono.
 export function getRegions(): Place[] {
-  return TOPICS_REGIONES;
+  return [...TOPICS_REGIONES, ...TOPICS_REGIONES_AM];
 }
 // Ciudades de una comunidad autónoma española (no usan parentSlug para esto,
 // las ciudades cuelgan de "espana"; regionSlug es el vínculo real).

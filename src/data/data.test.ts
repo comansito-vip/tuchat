@@ -123,10 +123,17 @@ describe("data getters", () => {
     expect(children.length).toBeGreaterThan(0);
     expect(children.every((c) => c.parentSlug === "espana")).toBe(true);
   });
-  it("getRegions returns the 16 comunidades autónomas con bandera real", () => {
-    const regions = getRegions();
-    expect(regions.length).toBeGreaterThanOrEqual(16);
-    for (const r of regions) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
+  it("getRegions incluye las comunidades españolas, todas con bandera real", () => {
+    // Las españolas no cuelgan de ningún país (las ciudades cuelgan de "espana",
+    // ellas no); las americanas sí, y es lo que las distingue.
+    const esp = getRegions().filter((r) => r.parentSlug === undefined);
+    expect(esp.length).toBeGreaterThanOrEqual(16);
+    for (const r of esp) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
+  });
+  it("getRegions incluye las 10 regiones americanas, que cuelgan de su país", () => {
+    const am = getRegions().filter((r) => r.parentSlug !== undefined);
+    expect(am.length).toBe(10);
+    for (const r of am) expect(["mexico", "venezuela"], r.slug).toContain(r.parentSlug);
   });
   it("toda ciudad española tiene provincia y comunidad (regionSlug) asignadas, salvo Ceuta/Melilla", () => {
     const esp = getCities().filter((c) => c.parentSlug === "espana");
