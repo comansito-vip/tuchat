@@ -136,7 +136,7 @@ canal real de su ciudad, donde hay gente.
 ## Lo que queda del hueco
 
 39 lugares con demanda medida y todavía sin sala, unas 385.000 impresiones. Los mayores:
-Córdoba (20.393), Euskadi (17.070), Canarias (12.523), Cantabria (9.576), Navarra (6.667),
+Córdoba (20.393), Euskadi (17.070), Baleares (14.743), Canarias (12.523), Cantabria (9.576), Navarra (6.667),
 Zaragoza (6.327), Guadalajara (5.544), Galicia (5.270), Extremadura (5.009), Aragón
 (4.640), Tijuana (4.556), Alicante (4.168), Montevideo (3.766), Tarragona (3.762), Girona
 (3.319) y Las Palmas (3.186).
