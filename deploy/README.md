@@ -87,3 +87,35 @@ Para comprobar que los proveedores siguen respondiendo:
    sitio, no se publica. El log dice qué test cayó.
 4. Como red de seguridad, el workflow `generate-news.yml` sigue existiendo con
    `workflow_dispatch` y puede lanzarse a mano desde GitHub.
+
+## No pidas una URL nueva mientras el build viejo sigue sirviendo
+
+Pasó el 11 de agosto de 2026 con `/chat/gay-euskadi` y costó un rato entenderlo.
+
+Mientras el deploy construye, pm2 sigue sirviendo el build **anterior**. Si en ese momento
+alguien pide una URL que solo existe en el commit nuevo —yo, comprobando si ya había
+salido—, Next la resuelve por ISR contra el catálogo viejo, no la encuentra, devuelve 404
+**y lo cachea en disco**: deja un `.html` de «Página no encontrada» y un `.meta` con
+`"status":404` en `.next/server/app/chat/`.
+
+Lo malo es que ese fichero **sobrevive al build**. La página termina prerenderizada de
+verdad, el `prerender-manifest.json` la lista, el HTML pesa lo que debe… y aun así el
+servidor responde 404 con `Internal: NoFallbackError` en
+`~/.pm2/logs/tuchat.org-error.log`, porque se encuentra antes la entrada cacheada.
+
+Cómo se detecta y se arregla:
+
+```bash
+cd /var/www/tuchat.org/.next/server/app/chat
+for f in *.meta; do grep -l '"status":404' "$f"; done        # rutas con 404 cacheado
+rm -rf <slug>.html <slug>.meta <slug>.rsc <slug>.segments     # se borra la entrada
+pm2 restart tuchat.org                                        # y se regenera al pedirla
+```
+
+La pista rápida es el tamaño: una sala real pesa 90-100 KB de HTML y la versión 404 se
+queda en unos 27 KB.
+
+**La regla:** comprobar el resultado de un deploy en el **origen** solo cuando ha
+terminado (`ps -ef | grep "next build"` vacío y pm2 reiniciado). Antes de eso, mirar el
+progreso por los ficheros generados —`ls .next/server/app/tiempo/*.html | wc -l`— y no
+por HTTP.
