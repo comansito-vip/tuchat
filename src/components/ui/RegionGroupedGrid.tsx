@@ -12,11 +12,21 @@ export function RegionGroupedGrid({ cities, initialPerRegion = 8 }: { cities: Pl
   const regionMap = new Map(getRegions().map((r) => [r.slug, r]));
   const groups = new Map<string, Place[]>();
   for (const c of cities) {
-    const key = c.regionSlug ?? "otras";
+    // La clave es el regionSlug SOLO si esa región tiene sala. En España daba
+    // igual, porque las 17 comunidades la tienen; México reparte 31 regionSlug
+    // entre 8 salas, así que agrupar por el slug a secas sacaba 23 secciones
+    // tituladas todas "Otras ciudades".
+    const key = c.regionSlug && regionMap.has(c.regionSlug) ? c.regionSlug : "otras";
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key)!.push(c);
   }
-  const sorted = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+  const sorted = [...groups.entries()].sort((a, b) => {
+    // El cajón de sobras va al final aunque sea el grupo más numeroso, que en
+    // México lo es: 8 estados con sala frente a 23 sin ella.
+    if (a[0] === "otras") return 1;
+    if (b[0] === "otras") return -1;
+    return b[1].length - a[1].length;
+  });
 
   return (
     <div className="space-y-8">
