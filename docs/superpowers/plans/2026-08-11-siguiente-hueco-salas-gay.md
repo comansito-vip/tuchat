@@ -1,8 +1,8 @@
 # El siguiente hueco medido: «chat gay de {ciudad}»
 
 **Fecha:** 2026-08-11
-**Estado:** medido, no ejecutado. Queda como el trabajo de contenido con más demanda
-identificada del catálogo.
+**Estado:** medido y **hecha la primera mitad** — 12 salas publicadas el mismo día,
+345.948 impresiones de las 730.821 del hueco completo. Lo que falta está más abajo.
 
 ---
 
@@ -102,3 +102,50 @@ por lugar, descartando los slugs que ya existen como sala.
 - **Enlazar a tuchat.org desde el resto de la red.** Sigue siendo la acción de mayor
   retorno del dominio —26 de 30 URLs inspeccionadas el 11 de agosto no han sido
   rastreadas nunca— y sigue viviendo fuera de este repositorio.
+
+---
+
+# Qué se hizo (2026-08-11)
+
+## Las 12 primeras salas
+
+`src/data/topics-gay-ciudades.ts`, con su test. Por orden de demanda: Málaga, Tenerife,
+Medellín, Puebla, Rosario, Cádiz, Asturias, Vigo, Murcia, Monterrey, Cali y Lima.
+
+Las cuatro latinoamericanas entraron con prioridad **pese a tener menos impresiones que
+varias españolas**, porque convierten mucho mejor: Medellín suma 16.298 clics frente a los
+664 de Málaga, que dobla sus impresiones. Si el criterio fuera solo el volumen, se habría
+empezado por el sitio equivocado.
+
+## Un fallo que apareció por el camino y valía más que las salas
+
+Al comprobar qué canal usar salió que **`gay-sevilla`, `gaygranada`, `gay-valencia`,
+`gay-bilbao`, `gay-ibiza` y `gaybogota` nombraban un canal que no existe**. Tirando del
+hilo: 306 de las 2.622 salas del catálogo publicaban en «También conecta con #…» algún
+canal inventado —los temáticos (#salud, #empleo, #deportes, #cine…), uno propio por cada
+sala de equipo de fútbol, y esos #gay{ciudad}—.
+
+Nadie aterrizaba solo: el primer canal sí era real en las 2.622 y eso ya lo vigilaba
+`channels.test.ts`. Pero el test **solo cubría las salas geográficas y, del resto, solo el
+primer canal**, y por ese hueco se colaba todo lo demás. La página afirmaba algo falso.
+
+Arreglado en `canales-saneado.ts`, que se aplica al cargar el catálogo igual que
+`conRegion`. Las salas gay de ciudad salieron ganando: pasan de un canal inventado al
+canal real de su ciudad, donde hay gente.
+
+## Lo que queda del hueco
+
+39 lugares con demanda medida y todavía sin sala, unas 385.000 impresiones. Los mayores:
+Córdoba (20.393), Euskadi (17.070), Canarias (12.523), Cantabria (9.576), Navarra (6.667),
+Zaragoza (6.327), Guadalajara (5.544), Galicia (5.270), Extremadura (5.009), Aragón
+(4.640), Tijuana (4.556), Alicante (4.168), Montevideo (3.766), Tarragona (3.762), Girona
+(3.319) y Las Palmas (3.186).
+
+Dos avisos para quien siga:
+
+- **Córdoba es ambigua** entre la española y la argentina, igual que pasó con `merida` en
+  el trabajo de las regiones. Merece decidirse aparte, no entrar de rebote en un lote.
+- Varias de las que quedan son **comunidades, no ciudades** (Euskadi, Canarias, Cantabria,
+  Navarra, Galicia, Extremadura, Aragón). El canal geográfico existe para todas —están en
+  `ES_CHANNELS`— así que el patrón vale igual, pero el texto tiene que hablar de una región
+  entera y no de una noche concreta.
