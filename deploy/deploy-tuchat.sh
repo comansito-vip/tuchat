@@ -20,7 +20,18 @@ echo "[$(date -u +%FT%TZ)] deploy: $LOCAL -> $REMOTE"
 # lo que hacía abortar al pull. Un checkout de deploy no tiene nada local
 # que conservar: se sincroniza duro contra origin.
 git reset --hard origin/main --quiet
-npm ci --silent
+# `npm ci` borra node_modules y reinstala de cero: en esta máquina son un par de
+# minutos, y casi todos los deploys son contenido (salas, noticias, copy) sin un
+# solo cambio de dependencias. Era el único de los tres scripts que lo hacía
+# siempre; ahora comparte con ellos la misma huella, así que si el goteo de la
+# 01:30 ya instaló, este no repite el trabajo.
+HUELLA=.git/npm-ci-lock-hash
+ACTUAL=$(sha1sum package-lock.json | cut -d' ' -f1)
+if [ ! -d node_modules ] || [ ! -f "$HUELLA" ] || [ "$(cat $HUELLA)" != "$ACTUAL" ]; then
+  echo "[$(date -u +%FT%TZ)] package-lock cambió: npm ci"
+  npm ci --silent
+  echo "$ACTUAL" > "$HUELLA"
+fi
 # .next se aparta con `mv` antes de construir; se parte siempre de cero porque un
 # checkout de deploy no gana nada reutilizando caché.
 #
@@ -36,6 +47,10 @@ rm -rf .next-viejo-* 2>/dev/null || true
 # Open-Meteo al hecho de que aqui Next construye con UN worker. Next carga .env
 # por su cuenta, pero se hace explicito para no depender de ello.
 set -a; [ -f ./.env ] && . ./.env; set +a
+# `npm run build` dispara antes el `prebuild` del package.json, que baja las 1.965
+# previsiones en lotes de 100 (unos 4 min) y deja la cache caliente. Sin el, cada
+# pagina de /tiempo las pedia de una en una con 700 ms de separacion y el
+# prerender se llevaba 18,6 de los 20,6 minutos del deploy.
 npm run build
 /usr/lib/node_modules/pm2/bin/pm2 restart tuchat.org
 # Ya nadie escribe en el .next viejo: se puede borrar sin carrera.

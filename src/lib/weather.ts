@@ -281,6 +281,45 @@ async function conCache(slug: string): Promise<WeatherData | null> {
   return fresca;
 }
 
+/**
+ * Los campos que se le piden a Open-Meteo, en un solo sitio.
+ *
+ * Los comparten la petición de una localidad y la de un lote entero
+ * (`scripts/prefetch-weather.ts`): si divergieran, la caché que llena el
+ * prefetch no serviría para lo que lee la página.
+ */
+export const PARAMS_OPEN_METEO =
+  `&current=temperature_2m,weather_code,wind_speed_10m,precipitation` +
+  `&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code` +
+  `&forecast_days=5`;
+
+/** La respuesta de Open-Meteo, ya en la forma que usa la página. */
+export function mapearPrevision(d: {
+  current: Record<string, number>;
+  daily: Record<string, (number | string)[]>;
+}): WeatherData {
+  const days: WeatherDay[] = (d.daily.time as string[]).map((date, i) => ({
+    date,
+    maxTemp: Math.round(d.daily.temperature_2m_max[i] as number),
+    minTemp: Math.round(d.daily.temperature_2m_min[i] as number),
+    weatherCode: d.daily.weather_code[i] as number,
+    icon: wmoIcon(d.daily.weather_code[i] as number),
+  }));
+
+  return {
+    current: {
+      temp: d.current.temperature_2m,
+      weatherCode: d.current.weather_code,
+      windSpeed: Math.round(d.current.wind_speed_10m),
+      precipitation: d.current.precipitation,
+    },
+    maxTemp: days[0]?.maxTemp ?? Math.round(d.current.temperature_2m),
+    minTemp: days[0]?.minTemp ?? Math.round(d.current.temperature_2m),
+    icon: wmoIcon(d.current.weather_code),
+    forecast: days,
+  };
+}
+
 async function pedirPrevision(slug: string): Promise<WeatherData | null> {
   const coord = CITY_COORDS[slug];
   if (!coord) return null;
@@ -290,35 +329,12 @@ async function pedirPrevision(slug: string): Promise<WeatherData | null> {
     `https://api.open-meteo.com/v1/forecast` +
     `?latitude=${lat}&longitude=${lon}` +
     `&timezone=${encodeURIComponent(tz)}` +
-    `&current=temperature_2m,weather_code,wind_speed_10m,precipitation` +
-    `&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code` +
-    `&forecast_days=5`;
+    PARAMS_OPEN_METEO;
 
   try {
     const res = await pedirConReintento(url);
     if (!res) return null;
-    const d = await res.json();
-
-    const days: WeatherDay[] = (d.daily.time as string[]).map((date, i) => ({
-      date,
-      maxTemp: Math.round(d.daily.temperature_2m_max[i]),
-      minTemp: Math.round(d.daily.temperature_2m_min[i]),
-      weatherCode: d.daily.weather_code[i],
-      icon: wmoIcon(d.daily.weather_code[i]),
-    }));
-
-    return {
-      current: {
-        temp: d.current.temperature_2m,
-        weatherCode: d.current.weather_code,
-        windSpeed: Math.round(d.current.wind_speed_10m),
-        precipitation: d.current.precipitation,
-      },
-      maxTemp: days[0]?.maxTemp ?? Math.round(d.current.temperature_2m),
-      minTemp: days[0]?.minTemp ?? Math.round(d.current.temperature_2m),
-      icon: wmoIcon(d.current.weather_code),
-      forecast: days,
-    };
+    return mapearPrevision(await res.json());
   } catch {
     return null;
   }
