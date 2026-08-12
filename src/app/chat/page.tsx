@@ -43,7 +43,7 @@ const FAQ = [
   },
   {
     q: "¿Hay moderación en las salas de chat?",
-    a: "Sí. Todas las salas cuentan con operadores que aplican las normas de convivencia. Puedes reportar cualquier abuso desde la propia sala o escribiéndonos a hola@tuchat.org.",
+    a: "Sí. Todas las salas cuentan con operadores que aplican las normas de convivencia. Puedes reportar cualquier abuso desde la propia sala o escribiéndonos a info@chatzona.org.",
   },
 ];
 

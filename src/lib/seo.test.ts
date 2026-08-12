@@ -89,7 +89,7 @@ describe("seo json-ld", () => {
     const ld = organizationJsonLd();
     expect(ld["@type"]).toBe("Organization");
     expect(ld.name).toBe("TuChat");
-    expect(ld.contactPoint.email).toBe("hola@tuchat.org");
+    expect(ld.contactPoint.email).toBe("info@chatzona.org");
   });
 
   it("all JSON-LD objects include @context schema.org", () => {

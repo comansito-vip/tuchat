@@ -115,7 +115,7 @@ export function organizationJsonLd() {
       "Portal de chat global en español con salas por países, ciudades y temáticas.",
     contactPoint: {
       "@type": "ContactPoint",
-      email: "hola@tuchat.org",
+      email: "info@chatzona.org",
       contactType: "customer support",
       availableLanguage: "Spanish",
     },

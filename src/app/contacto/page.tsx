@@ -27,10 +27,10 @@ export default function ContactoPage() {
       <div className="mt-6 rounded-xl border border-line bg-card p-5">
         <p className="text-sm text-muted">Correo de contacto</p>
         <a
-          href="mailto:hola@tuchat.org"
+          href="mailto:info@chatzona.org"
           className="mt-1 inline-block text-lg font-semibold text-blue hover:underline"
         >
-          hola@tuchat.org
+          info@chatzona.org
         </a>
       </div>
 
