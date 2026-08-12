@@ -1,9 +1,10 @@
 # El siguiente hueco medido: «chat gay de {ciudad}»
 
 **Fecha:** 2026-08-11
-**Estado:** medido y **cubierto en sus dos terceras partes** — 24 salas publicadas el
-mismo día, 440.263 impresiones de las 730.821 del hueco completo. Lo que falta está más
-abajo.
+**Estado:** **cerrado** — 40 salas publicadas entre el 11 y el 12 de agosto. Al remedir el
+12 contra el catálogo, 59 lugares con demanda tienen sala y cubren 1.229.068 impresiones;
+de lo que queda, casi todo es ruido o apodos de sitios que ya la tienen. Ver «Lo que queda
+del hueco».
 
 ---
 
@@ -147,16 +148,40 @@ concreta que solo valdría para la capital.
 
 ## Lo que queda del hueco
 
-27 lugares con demanda medida y todavía sin sala, unas 290.000 impresiones. Los mayores:
-Córdoba (20.393), Guadalajara (5.544), Tarragona (3.762), Girona (3.319) y Las Palmas
-(3.186); el resto ya baja de 3.000.
+*(Actualizado el 2026-08-12, midiendo otra vez contra el catálogo en vez de restar a mano.)*
 
-Dos que necesitan decidirse antes de escribirlas:
+Tras el tercer lote son **40 salas** y el hueco está cerrado en lo que era: de los 1.261
+lugares con demanda gay/ambiente en el corpus, **59 tienen ya su sala y suman 1.229.068
+impresiones**; lo que queda sin sala son 1.202 entradas que apenas suman 328.694, y el
+grueso no son lugares nuevos:
 
-- **Córdoba** es ambigua entre la española y la argentina, igual que `merida` en el trabajo
-  de las regiones. Es la mayor que queda, así que merece resolverse.
-- **Guadalajara** tiene el mismo problema entre la mexicana y la española, y los 1.886
-  clics apuntan a que la demanda es de la de Jalisco.
+- **Ruido y variantes de intención**: «sin registro» (25.269), «españa» (16.444),
+  «cibersexo», «hispano», «terra», «org», «net», «xxx», «maduro», «cruising». No son
+  lugares y no piden página propia.
+- **Abreviaturas de sitios que ya tienen sala**: `bcn` (17.268), `gdl` y `jalisco`,
+  `cdmx` y `df`, `mty`, `cba`, `mallorca`/`palma`. Aquí no falta una sala: falta que la
+  que existe responda también a su apodo. Es trabajo de sinónimos, no de contenido.
 
-Y un detalle de canal: **Las Palmas usa `#las_palmas`, con guion bajo**, así que no sirve
-derivar el canal del slug sin pasar por `canon()`.
+Lugares de verdad todavía sin sala de ambiente, ya medidos contra el catálogo:
+
+| Lugar | Impresiones | Clics | ¿Existe la sala de ciudad? |
+|---|---:|---:|---|
+| **A Coruña** | 11.964 | 365 | sí (`a-coruna`) |
+| Chile | 2.348 | 164 | sí (país) |
+| La Rioja | 2.054 | 31 | — |
+| **Manizales** | 1.865 | **1.563** | sí (`manizales`) |
+| USA | 1.554 | 267 | sí |
+| **Bucaramanga** | 1.293 | **419** | sí (`bucaramanga`) |
+
+A Coruña es la mayor que queda y la única española de peso. Las dos colombianas valen más
+de lo que dice su volumen: Manizales convierte 1.563 clics sobre 1.865 impresiones, que es
+la proporción más alta de toda la tabla, y repite el patrón latinoamericano del primer
+lote.
+
+Y un detalle de canal que costó encontrar: **Las Palmas usa `#las_palmas`, con guion
+bajo**, así que no sirve derivar el canal del slug sin pasar por `canon()`.
+
+Reproducir la medición: `scripts/tmp-hueco-gay.ts` en el historial de esta sesión —cruza
+`corpus-consultas.tsv` con `getCities()+getCountries()+getTopics()`—. Cuidado con hacerlo
+sobre `getRooms()`, que solo devuelve las 12 salas más pobladas y da «0 salas existentes»
+sin quejarse.
