@@ -85,6 +85,21 @@ const CATEGORY_FAQ: Record<string, { q: string; a: string }[]> = {
   ],
 };
 
+/**
+ * Las categorías son las que traen las noticias publicadas, y nada más.
+ *
+ * Sin esto, cualquier slug inventado devolvía un 200 con `<title>Noticias de
+ * Categoria inventada xyz</title>` y canónica autorreferente: un espacio
+ * infinito de páginas indexables a la espera de que alguien enlace basura. Era
+ * la única ruta del sitio que quedaba abierta —`/chat` y el horóscopo hacen
+ * `notFound()`; `/tiempo` y las loterías cierran con esta misma línea—.
+ *
+ * Se puede cerrar así porque el conjunto sale de `news.ts`, que está versionado,
+ * y porque el generador reconstruye el sitio en cuanto publica (deploy/README):
+ * una categoría nueva entra en el build de esa misma noche.
+ */
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const categorias = new Set(getNews().map((n) => slugify(n.category)));
   return [...categorias].map((categoria) => ({ categoria }));
