@@ -772,4 +772,84 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     about:
       "Lleida es la única capital catalana sin mar y eso la hace distinta a las otras tres en casi todo. La Seu Vella corona la ciudad desde el turó y se ve desde cualquier punto. El ambiente es pequeño y muy de conocerse, con el Eix Comercial y el casco concentrando la salida; quien busca otra cosa sube a Barcelona en dos horas o se escapa al Pirineo, que está a poco más de una y cambia el plan por completo según la estación. La niebla del invierno en la plana es célebre y bastante deprimente, cosa que se comenta cada diciembre. En verano se pasan de largo los cuarenta grados. Se habla catalán con acento propio, del que aquí se hace broma antes que nadie, y de la fruta, que es la economía de media provincia.",
   },
+  // Cuarto lote (2026-08-12): los seis lugares que quedaban con demanda real
+  // tras remedir el hueco contra el catálogo. Los apodos que salían arriba en la
+  // medición —bcn, gdl, cdmx, mty, cba— no son salas nuevas: son sinónimos de
+  // otras que ya existen.
+  //
+  // OJO CON LOS CANALES de este lote: #coruña lleva eñe y #la_rioja guion bajo,
+  // así que no salen de aplicar el slug. Y no existe ni #manizales ni
+  // #bucaramanga: las dos colombianas entran por #colombia.
+  {
+    slug: "gay-coruna", name: "Gay A Coruña", kind: "tematica", icon: "🌊",
+    users: 164, votes: 238, tag: "Nueva", activity: "Media",
+    parentSlug: "lgtbi", parentName: "LGTBI",
+    channels: ["gay", "coruña", "galicia", "chatzona"],
+    related: ["lgtbi", "gay", "a-coruna", "galicia", "gay-vigo", "gay-bilbao"],
+    intro:
+      "El Atlantic Pride llena los jardines de Méndez Núñez cada julio; el resto del año la salida se concentra en el Orzán y el centro.",
+    aboutTitle: "El Orzán, Méndez Núñez y el Pride de julio",
+    about:
+      "Galicia reparte su ambiente entre dos ciudades que se miran de reojo, y aquí se nota. A Coruña tiene el Atlantic Pride en julio, con los conciertos gratuitos de los jardines de Méndez Núñez, que es de los orgullos con más tirón del norte; Vigo responde en junio con un Orgullo Crítico bastante más reivindicativo y menos de escenario. Discutir cuál de los dos vale más es deporte local. La salida coruñesa se concentra en la zona del Orzán y el centro, con el añadido de que la ciudad está casi rodeada de agua y se sale con el mar delante: el paseo marítimo, María Pita, la playa a pie de calle. Es una ciudad de tamaño manejable donde la gente se cruza, y eso tiene lo bueno y lo malo de siempre. Se habla del tiempo con resignación experta, de quién se ha ido a Madrid este año y de los que vuelven en agosto, y de si merece la pena coger el tren a Vigo un sábado.",
+  },
+  {
+    slug: "gay-manizales", name: "Gay Manizales", kind: "tematica", icon: "☕",
+    users: 158, votes: 226, tag: "Nueva", activity: "Media",
+    parentSlug: "gaylatino", parentName: "Gay Latino",
+    channels: ["gay", "colombia", "amistad", "chatzona"],
+    related: ["gaylatino", "gay", "manizales", "colombia", "gay-medellin", "gay-cali"],
+    intro:
+      "La marcha del Orgullo baja desde El Cable hasta el parque Ernesto Gutiérrez, en una ciudad de universidades metida en la cordillera Central.",
+    aboutTitle: "Del Cable al parque, y una ciudad de estudiantes",
+    about:
+      "Manizales es capital de Caldas, está en plena cordillera Central y vive con el Nevado del Ruiz de vecino, lo que aquí no es paisaje de postal sino algo que se sigue en las noticias. Es tierra paisa y del Eje Cafetero, con cerca de medio millón de habitantes y una vida universitaria que le cambia el carácter: entre las seis universidades principales rondan los 47.000 matriculados y casi la mitad de los presenciales llegó de fuera, un tercio del resto de Caldas y dos tercios de otros departamentos. Esa mezcla explica bastante de la sala, porque el ambiente que hay es sobre todo joven y de paso. La Semana del Orgullo termina con la marcha, que baja desde El Cable hasta el parque Ernesto Gutiérrez y que la Alcaldía acompaña, cosa que en una ciudad con fama de tradicional dice más de lo que parece. Se comenta el clima de montaña, que cambia tres veces en una tarde, quién se fue a Medellín buscando más movimiento y quién prefiere que esto siga siendo pequeño.",
+  },
+  {
+    slug: "gay-bucaramanga", name: "Gay Bucaramanga", kind: "tematica", icon: "🌳",
+    users: 152, votes: 214, tag: "Nueva", activity: "Media",
+    parentSlug: "gaylatino", parentName: "Gay Latino",
+    channels: ["gay", "colombia", "amistad", "chatzona"],
+    related: ["gaylatino", "gay", "bucaramanga", "colombia", "gaybogota", "gay-medellin"],
+    intro:
+      "Con Floridablanca, Girón y Piedecuesta pegadas, el área pasa de 1,3 millones: la quinta aglomeración de Colombia.",
+    aboutTitle: "Cuatro municipios pegados y una sola salida",
+    about:
+      "Aquí la ciudad no termina donde dice el letrero. Bucaramanga tiene unos 625.000 habitantes, pero con Floridablanca, Girón y Piedecuesta encima suma más de 1,3 millones y es la quinta aglomeración del país, así que media conversación de la sala es de gente que vive en un municipio y sale en otro sin pensárselo. Está en la cordillera Oriental, a 384 kilómetros de Bogotá, distancia suficiente para que el santandereano se sienta de lo suyo antes que de la capital. La marcha del Orgullo salió del Estadio La Flora en 2023. Del carácter de aquí se hacen bromas en toda Colombia —directos hasta el punto de parecer bruscos a quien no está acostumbrado—, y en un chat eso se nota rápido: se pregunta sin rodeos y se responde igual. Se habla del calor, de a qué municipio se va según el plan y de quién ha acabado en Bogotá o Medellín por trabajo.",
+  },
+  {
+    slug: "gay-chile", name: "Gay Chile", kind: "tematica", icon: "🏔️",
+    users: 186, votes: 268, tag: "Nueva", activity: "Alta",
+    parentSlug: "gaylatino", parentName: "Gay Latino",
+    channels: ["gay", "chile", "amistad", "chatzona"],
+    related: ["gaylatino", "gay", "chile", "santiago-de-chile", "gay-lima", "gay-argentina"],
+    intro:
+      "Matrimonio igualitario desde marzo de 2022 y Ley Zamudio desde 2012: Chile tardó en moverse y luego lo hizo de golpe.",
+    aboutTitle: "De la Ley Zamudio al matrimonio de marzo de 2022",
+    about:
+      "Chile llegó tarde a casi todo esto y después fue rápido, y esa historia reciente está muy presente en la sala. La Ley 20.609 contra la discriminación entró en vigor en julio de 2012, después del asesinato de Daniel Zamudio, y desde entonces se la conoce por su apellido; el matrimonio igualitario se firmó en diciembre de 2021 y empezó a aplicarse el 10 de marzo de 2022. Quien tiene cuarenta años recuerda perfectamente cómo era antes, y quien tiene veinte da por hecho lo que a los otros les costó. Del país cabe casi todo: Santiago concentra la vida nocturna y las organizaciones, Valparaíso tiene fama de ser el sitio donde nadie levanta una ceja, y en regiones la cosa cambia bastante según a quién se le pregunte, que es de las discusiones que más se repiten aquí. También entra gente del norte minero y del sur, con el chiste inevitable sobre lo largo que es esto y lo caro que sale moverse.",
+  },
+  {
+    slug: "gay-la-rioja", name: "Gay La Rioja", kind: "tematica", icon: "🍷",
+    users: 138, votes: 196, tag: "Nueva", activity: "Media",
+    parentSlug: "lgtbi", parentName: "LGTBI",
+    channels: ["gay", "la_rioja", "amistad", "chatzona"],
+    related: ["lgtbi", "gay", "espana", "gay-zaragoza", "gay-navarra", "gay-euskadi"],
+    intro:
+      "La de los siete valles: Logroño concentra casi todo y, para lo que no está, Zaragoza y Bilbao quedan a un rato de coche.",
+    aboutTitle: "Logroño concentra todo y el resto es carretera",
+    about:
+      "La Rioja se organiza en torno al Ebro y a los siete ríos que bajan hasta él —de ahí lo de la de los siete valles—, y en la práctica eso significa una capital y muchos pueblos. Logroño concentra la vida, y quien vive en Calahorra, Haro o Arnedo cuenta el rato de coche antes de decidir si sale. La escala manda en todo: es una comunidad pequeña donde la gente se conoce, y esa es la primera cosa que aparece cuando alguien pregunta aquí cómo es salir del armario en un pueblo de mil habitantes. La respuesta habitual no es dramática, pero tampoco es la de Madrid. Para el ambiente que no cabe en Logroño están Zaragoza y Bilbao a hora y media larga, y Pamplona más cerca todavía, así que en la sala hay bastante conversación de fines de semana fuera. Y sí, se habla de vino, aunque menos de lo que se imagina cualquiera de fuera: aquí es el trabajo de mucha gente antes que un tema de conversación.",
+  },
+  {
+    slug: "gay-usa", name: "Gay USA", kind: "tematica", icon: "🗽",
+    users: 174, votes: 252, tag: "Nueva", activity: "Alta",
+    parentSlug: "gaylatino", parentName: "Gay Latino",
+    channels: ["gay", "usa", "amistad", "chatzona"],
+    related: ["gaylatino", "gay", "estados-unidos", "usa", "miami", "gay-mexico"],
+    intro:
+      "Más de 43 millones de personas hablan español en casa en Estados Unidos, y esta sala funciona en esa lengua y con cuatro husos horarios.",
+    aboutTitle: "Cuatro husos horarios y el español de casa",
+    about:
+      "Esta es la sala de quien vive en Estados Unidos y prefiere hablar en español, que no es ninguna rareza: el censo de 2023 contó más de 43 millones de personas que lo hablan en casa, cerca del 14% del país. El detalle práctico que la distingue de cualquier sala española es el horario. Con cuatro husos en el territorio continental, aquí siempre hay alguien despierto, y la gente de California entra cuando la de Florida se está acostando. Coinciden quien nació allí y aprendió el idioma de sus padres, quien llegó de adulto y todavía piensa en español, y quien lleva media vida entre los dos sitios. Miami tiene conversación propia por razones evidentes, Los Ángeles reúne a la mayor población hispana del país y luego está todo lo que no es una gran ciudad, que es donde las cosas se parecen menos a lo que se ve en las series. Se habla de papeles, de seguros médicos y de la familia que quedó en el otro país, mezclado con lo de siempre.",
+  },
 ];

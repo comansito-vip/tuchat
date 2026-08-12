@@ -4,9 +4,26 @@ import { REAL_CHANNELS } from "./irc-real-channels";
 import { channelKey } from "./irc-canal";
 import { getPlace } from "@/data";
 
+/**
+ * La regla general es que el slug manda: `gay-{x}` entra al canal `#{x}` y
+ * enlaza a la sala `{x}`. Vale para 42 de las 46, y las otras cuatro no son un
+ * descuido sino sitios donde la red escribe otra cosa, así que se declaran una
+ * a una en vez de relajar la comprobación —que es justo la que en agosto de
+ * 2026 destapó que 306 salas publicaban canales inventados—.
+ */
+const EXCEPCIONES: Record<string, { canal: string; sala: string | null }> = {
+  // El canal lleva eñe y la sala del catálogo es `a-coruna`.
+  "gay-coruna": { canal: "coruña", sala: "a-coruna" },
+  // No hay #manizales ni #bucaramanga en la red: entran por el canal del país.
+  "gay-manizales": { canal: "colombia", sala: "manizales" },
+  "gay-bucaramanga": { canal: "colombia", sala: "bucaramanga" },
+  // #la_rioja va con guion bajo, y La Rioja no tiene sala propia en el catálogo.
+  "gay-la-rioja": { canal: "la_rioja", sala: null },
+};
+
 describe("salas de ambiente por ciudad", () => {
-  it("son 40, todas con demanda medida y slug libre", () => {
-    expect(TOPICS_GAY_CIUDADES).toHaveLength(40);
+  it("son 46, todas con demanda medida y slug libre", () => {
+    expect(TOPICS_GAY_CIUDADES).toHaveLength(46);
     const slugs = TOPICS_GAY_CIUDADES.map((r) => r.slug);
     expect(new Set(slugs).size, "sin duplicados").toBe(slugs.length);
     for (const s of slugs) expect(s, s).toMatch(/^gay-[a-z-]+$/);
@@ -33,7 +50,8 @@ describe("salas de ambiente por ciudad", () => {
       // Se compara con canon() porque la red no siempre escribe el canal igual
       // que nuestro slug: Las Palmas es #las_palmas, con guion bajo.
       const ciudad = r.slug.replace(/^gay-/, "");
-      expect(channelKey(r.channels[1]), r.slug).toBe(channelKey(ciudad));
+      const esperado = EXCEPCIONES[r.slug]?.canal ?? ciudad;
+      expect(channelKey(r.channels[1]), r.slug).toBe(channelKey(esperado));
     }
   });
 
@@ -46,9 +64,15 @@ describe("salas de ambiente por ciudad", () => {
 
   it("la sala de la ciudad existe y está enlazada", () => {
     for (const r of TOPICS_GAY_CIUDADES) {
-      const ciudad = r.slug.replace(/^gay-/, "");
-      expect(getPlace(ciudad), `sala de ${ciudad}`).toBeDefined();
-      expect(r.related, r.slug).toContain(ciudad);
+      const declarada = r.slug in EXCEPCIONES ? EXCEPCIONES[r.slug].sala : r.slug.replace(/^gay-/, "");
+      // La Rioja es la única sin sala propia en el catálogo; se comprueba aparte
+      // que al menos tenga anclaje geográfico, para que no quede colgando.
+      if (declarada === null) {
+        expect(r.related.some((rel) => getPlace(rel)?.kind !== "tematica"), r.slug).toBe(true);
+        continue;
+      }
+      expect(getPlace(declarada), `sala de ${declarada}`).toBeDefined();
+      expect(r.related, r.slug).toContain(declarada);
     }
   });
 
