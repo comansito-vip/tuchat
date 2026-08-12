@@ -432,6 +432,37 @@ describe("SEO constraints", () => {
     expect(violations).toEqual([]);
   });
 
+  /**
+   * Jávea enlazaba dos veces con Benissa, y el copy generado lo cantaba: «Salas
+   * cercanas en el portal: Benissa, Benissa, Teulada…». Un enlace repetido no
+   * añade nada y en la página se lee como un error.
+   */
+  it("ninguna sala repite un related ni se enlaza a sí misma", () => {
+    const violations = ALL_PLACES.flatMap((p) => {
+      const problemas: string[] = [];
+      if (new Set(p.related).size !== p.related.length) problemas.push(`${p.slug}: related duplicado`);
+      if (p.related.includes(p.slug)) problemas.push(`${p.slug}: se enlaza a sí misma`);
+      return problemas;
+    });
+    expect(violations).toEqual([]);
+  });
+
+  /**
+   * Las tres Méridas se llaman «Mérida» a secas, así que la FAQ de la sala del
+   * término salía diciendo «Las más cercanas son Mérida, Mérida, Mérida». El
+   * copy debe usar `roomName()`, que cualifica los homónimos con su provincia o
+   * su país; este test vigila el dato, que es lo que puede volver a romperlo.
+   */
+  it("los related de una sala no colisionan de nombre una vez cualificados", () => {
+    const violations = ALL_PLACES.flatMap((p) => {
+      const nombres = getRelated(p.related).map(roomName);
+      return new Set(nombres).size === nombres.length
+        ? []
+        : [`${p.slug} → ${nombres.join(", ")}`];
+    });
+    expect(violations).toEqual([]);
+  });
+
   it("all topic parentSlug values reference a valid place", () => {
     const allSlugs = new Set(ALL_PLACES.map((p) => p.slug));
     const violations = getTopics()

@@ -1,5 +1,5 @@
 import type { Place } from "@/data";
-import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren, getRegions } from "@/data";
+import { getRelated, getPlace, getCitiesByProvincia, getCitiesByRegion, getChildren, getRegions, roomName } from "@/data";
 import type { Crumb } from "@/lib/seo";
 import { hasWeather } from "@/lib/weather";
 import { LOTERIA_INFO } from "@/lib/lottery-info";
@@ -280,7 +280,7 @@ function leadCiudad(place: Place): string | null {
     const ciudadesCerca = getRelated(place.related)
       .filter((r) => r.kind === "ciudad")
       .slice(0, 3)
-      .map((r) => r.name);
+      .map(roomName);
     if (ciudadesCerca.length >= 2) {
       // Solo lo comprobable: que están enlazadas y que el nick vale para todas.
       // Antes había dos variantes ("las salas con las que más gente comparte",
@@ -336,7 +336,7 @@ function leadTematica(place: Place): string | null {
   const relacionadas = getRelated(place.related)
     .filter((r) => r.kind === "tematica")
     .slice(0, 3)
-    .map((r) => r.name);
+    .map(roomName);
   const partes: string[] = [];
 
   // Solo se afirma lo que consta en el catálogo: a qué canales conecta la sala.
@@ -421,7 +421,7 @@ export function roomBullets(place: Place): string[] {
       const cerca = getRelated(place.related)
         .filter((r) => r.kind === "ciudad")
         .slice(0, 4)
-        .map((r) => r.name);
+        .map(roomName);
       if (cerca.length) bullets.push(`Salas cercanas en el portal: ${enumerar(cerca)}`);
     }
     if (comunidad) bullets.push(`Sala hermana de ${comunidad.name}, que agrupa a toda la comunidad`);
@@ -437,7 +437,7 @@ export function roomBullets(place: Place): string[] {
   }
 
   if (place.kind === "tematica") {
-    const rel = getRelated(place.related).slice(0, 4).map((r) => r.name);
+    const rel = getRelated(place.related).slice(0, 4).map(roomName);
     if (rel.length) bullets.push(`Enlazada con las salas de ${enumerar(rel)}`);
     if (place.parentName) bullets.push(`Forma parte del bloque de ${place.parentName}`);
   }
@@ -517,7 +517,7 @@ export function buildFaq(place: Place): { q: string; a: string }[] {
   } else if (relacionadas.length >= 2) {
     faq.push({
       q: `¿Qué otras salas se parecen a la de ${place.name}?`,
-      a: `Las más cercanas son ${enumerar(relacionadas.map((r) => r.name))}. Las tienes enlazadas al final de la página, en "Otras salas que te pueden gustar".`,
+      a: `Las más cercanas son ${enumerar(relacionadas.map(roomName))}. Las tienes enlazadas al final de la página, en "Otras salas que te pueden gustar".`,
     });
   }
 

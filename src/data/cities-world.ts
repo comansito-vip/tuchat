@@ -15693,7 +15693,7 @@ export const CITIES_WORLD: Place[] = [
     provincia: "Alicante/Alacant",
     regionSlug: "comunidad-valenciana",
     channels: ["alicante", "valencia", "españa", "chatzona"],
-    related: ["benissa", "benissa", "teulada", "el-campello", "valencia"],
+    related: ["benissa", "denia", "teulada", "el-campello", "valencia"],
     intro: "El Montgó a la espalda y el cabo de la Nao delante. Entra al chat de Jávea con los que viven aquí todo el año y los que solo bajan en agosto.",
     about: "Entre el macizo del Montgó y el cabo de la Nao cabe casi todo lo que es Xàbia: el puerto, el Arenal, los pinares y las calas de grava del sur. El municipio ronda los treinta mil vecinos en invierno y multiplica esa cifra por cinco en verano, así que la doble vida del pueblo aparece enseguida en la conversación: el atasco de la ronda, lo que cuesta ahora un alquiler, dónde queda un hueco para aparcar en agosto. Por aquí pasan familias de toda la vida, residentes británicos y alemanes empadronados desde hace décadas y gente que viene solo para la temporada. Salen las fiestas de Loreto en el puerto, la Virgen de agosto, los Baños de la Reina con sus piletas romanas de salazón y la pregunta eterna de si el agua está ya para bañarse.",
   },
