@@ -12,6 +12,16 @@ import type { Place } from "./types";
  * «omegle» hoy casi siempre no lo sabe, así que contárselo es lo único útil que
  * se le puede ofrecer; y montar el «nuevo Omegle sin normas» sobre un sitio que
  * cerró por abusos sería, además de indecente, mal negocio. Un test lo exige.
+ *
+ * `merida` es de otro tipo: no es un término genérico sino un topónimo que
+ * comparten tres ciudades de tres países. «chat merida» son 52.339 impresiones
+ * en el corpus, en posición 6,1 y con seis dominios de la red dentro, y aquí no
+ * había página: las tres Méridas existen desambiguadas —`merida-espana`,
+ * `merida-mexico`, `merida-venezuela`— y el nombre a secas se quedó sin nadie.
+ * Es la excepción del catálogo, porque en el resto de homónimos el slug limpio
+ * se lo queda una (`cordoba`, `valencia`, `guadalajara` son las españolas).
+ * Aquí no se le adjudica a ninguna: la página cuenta por qué se llaman igual,
+ * que es la respuesta a la pregunta que trae quien busca el término ambiguo.
  */
 export const TOPICS_TERMINOS: Place[] = [
   {
@@ -67,5 +77,23 @@ export const TOPICS_TERMINOS: Place[] = [
     aboutTitle: "Agosto de 1988, Finlandia, y la almohadilla del canal",
     about:
       "IRC lo escribió Jarkko Oikarinen en agosto de 1988, en la Universidad de Oulu, para sustituir un programa de charla del BBS de la casa. Empezó en un solo servidor finlandés; en noviembre ya se había extendido por Internet y a mediados de 1989 andaban por los cuarenta servidores repartidos por el mundo. De ahí viene la almohadilla que llevan los canales delante del nombre, que casi nadie relaciona ya con nada y que sigue significando exactamente lo mismo. Lo que lo distingue de la mensajería a la que estamos acostumbrados es que no hay que agregar a nadie: se entra en un canal y ahí está la gente, hablando entre sí sin haberse pedido permiso previo. Estas salas son canales reales de una red que lleva décadas funcionando, y por eso a las cuatro de la tarde de un martes hay conversación. Quien viene de mIRC puede seguir usándolo si quiere; quien no ha oído hablar de esto en su vida entra por el navegador, escribe un apodo y no necesita saber nada más.",
+  },
+  {
+    slug: "merida",
+    name: "Mérida",
+    kind: "tematica",
+    icon: "🏛️",
+    users: 203,
+    votes: 289,
+    activity: "Media",
+    parentSlug: "amistad",
+    parentName: "Amistad",
+    channels: ["merida", "chatzona"],
+    related: ["merida-mexico", "merida-venezuela", "merida-espana", "amistad", "latinos"],
+    intro:
+      "Tres ciudades comparten el nombre: la Mérida extremeña, la de Yucatán y la de los Andes. Este es el canal que comparten, sin elegir cuál es la buena.",
+    aboutTitle: "Emerita Augusta y las dos que tomaron su nombre",
+    about:
+      "La primera la fundó Roma en el año 25 a. C., por orden de Augusto, como retiro para los soldados licenciados de las legiones V Alaudae y X Gemina: de esos eméritos salió Emerita Augusta y, siglos después, el nombre que llevan las tres. Las otras dos son americanas y las dos miran a la extremeña. La de Yucatán la levantó Francisco de Montejo «el Mozo» en 1542 sobre los vestigios de T'Hó —Ichcaansihó, que se suele traducir como «cinco cerros»—, y le puso ese nombre porque las ruinas mayas le recordaron a las romanas de la Mérida extremeña. La venezolana la fundó el 9 de octubre de 1558 Juan Rodríguez Suárez, nacido hacia 1510 en la propia Mérida de Extremadura, que le puso a su ciudad el nombre de la suya; también llevaría el de Santiago de los Caballeros de Mérida. Los tamaños de hoy no se parecen en nada: la yucateca pasa de los 900.000 habitantes, la venezolana supera los 300.000 según las proyecciones oficiales y la extremeña no llega a 61.000. Y como están en tres husos horarios distintos, en esta sala se juntan el mediodía yucateco, la tarde andina y la última hora de la tarde en Extremadura, que es la parte que no se puede contar en un mapa.",
   },
 ];
