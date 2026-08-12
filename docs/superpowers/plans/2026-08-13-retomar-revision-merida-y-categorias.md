@@ -78,6 +78,33 @@ fundadores, legiones, etimología, los tres husos horarios) y corrigió:
 El de la población venezolana es el que habría quedado mal: es la clase de cifra
 que se copia de la ficha de Wikipedia sin ver que dice «proyección».
 
+### Lo que destapó al construirla: «Mérida, Mérida, Mérida»
+
+La sala nueva sacó a la luz un fallo que llevaba tiempo ahí. Su FAQ salía así:
+
+> Las más cercanas son **Mérida, Mérida, Mérida** y Amistad.
+
+Las tres salas relacionadas son las tres Méridas, y las tres se llaman «Mérida»
+a secas. El sitio ya tenía resuelto el problema —`roomName()` cualifica los
+homónimos con su provincia o su país, y es lo que usan el `<title>` y el H1—,
+pero el copy generado tiraba de `place.name` en las cuatro listas de salas
+relacionadas. Ahora dice «Mérida (Yucatán), Mérida (Venezuela), Mérida
+(Badajoz)».
+
+Barrer las 2.685 salas con esa comprobación destapó un segundo caso, este de
+datos: **Jávea enlazaba dos veces con Benissa**, y el bullet lo cantaba igual
+(«Salas cercanas en el portal: Benissa, Benissa, Teulada…»). El hueco se lo lleva
+Dénia, el municipio vecino por el norte, que no estaba enlazado. Es el único
+related duplicado del catálogo entero.
+
+Dos tests nuevos lo fijan. El segundo —que los related de una sala no colisionen
+de nombre una vez cualificados— vigila el dato, que es por donde puede volver a
+romperse: basta añadir un homónimo nuevo al catálogo.
+
+**La lección de método:** esto no lo encontró ningún test ni ninguna auditoría,
+sino leer el HTML que salió del build. Las comprobaciones automáticas miran lo
+que se les dijo que mirasen; el texto generado hay que leerlo.
+
 ## La única puerta que quedaba abierta: `/noticias/[categoria]`
 
 Una auditoría de metadatos sobre las 5.180 páginas del sitio salió limpia
@@ -99,6 +126,19 @@ Hoy no afectaba a ninguna URL conocida. Importa por lo que puede pasar, no por
 lo que pasa: un dominio que aún pelea por que Google le rastree lo que ya tiene
 escrito no puede permitirse un espacio infinito de páginas que nadie ha escrito,
 y basta un enlace basura externo para empezar a llenarlo. Un test lo fija.
+
+### Lo que se vio y NO se ha tocado
+
+Las 1.965 descriptions de `/tiempo` son únicas de verdad porque salen de la
+previsión real (Madrid «36 °C y cielo despejado…», Soria «34 °C…»). Pero el
+fallback de `weatherMetaDescription` para cuando no hay datos —`src/lib/weather.ts`—
+emite la misma frase salvo el nombre. Si Open-Meteo fallara durante un build,
+el 38% del sitemap saldría con description de plantilla.
+
+No se cambia: hoy funciona, y no se toca el comportamiento de 1.965 páginas por
+un fallo que no se ha visto ocurrir. Queda escrito para que, si algún día la
+auditoría empieza a avisar de plantilla en `/tiempo`, se busque aquí y no en el
+generador.
 
 ## La última muletilla del catálogo
 
