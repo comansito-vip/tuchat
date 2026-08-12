@@ -1941,5 +1941,25 @@ export const TOPICS_INTERESES: Place[] = [
     intro: "Sala de sudcalifornianos: La Paz, Los Cabos, Ciudad Constitución. La otra Baja, la del ferry y el Mar de Cortés.",
     about: "Aquí se aclara lo primero que confunde a cualquiera de fuera: sudcaliforniano no es lo mismo que bajacaliforniano, y en la península eso se nota. Para llegar al resto del país hace falta ferry o avión, nunca carretera, y esa distancia moldea el carácter de quien creció entre La Paz, Los Cabos, Ciudad Constitución o Loreto. Se habla del Mar de Cortés y sus ballenas grises entre diciembre y abril, del calor seco que nada tiene que ver con el de Tijuana, de vivir a mil kilómetros del pariente más cercano en Mexicali y de un ritmo de vida que el turismo de Cabo San Lucas apenas roza. Coinciden paceños de nacimiento, sudcalifornianos que se fueron a estudiar al norte y vuelven cada verano, y quien simplemente quiere entender por qué a esta tierra se le dice la otra Baja.",
   },
+  // La sala del canal #chachipen, que la red lleva años posicionando (227.636
+  // impresiones y 94.416 clics en 90 días) y en la que tuchat.org no estaba.
+  //
+  // El ángulo es deliberadamente distinto del que ya usan los dominios hermanos
+  // —forochat tiene /gitano y /dikelame, los dos sobre cultura y respeto—: aquí
+  // se entra por la palabra y por la discusión etimológica, que además es la
+  // versión honesta. Contenido igual servido desde varios dominios propios es lo
+  // único que puede tumbar la estrategia de red.
+  {
+    slug: "chachipen", name: "Chachipén", kind: "tematica", icon: "🗣️",
+    users: 268, votes: 341, tag: "Popular", activity: "Alta",
+    parentSlug: "cultura", parentName: "Cultura",
+    channels: ["chachipen", "cultura", "amistad", "chat"],
+    related: ["cultura", "flamenco", "musica", "religion", "espana", "amistad"],
+    intro:
+      "Chachipén es caló y significa «verdad». Que de ahí salga el «chachi» que dice media España es probable, pero se discute: hay quien se lo atribuye a Churchill.",
+    aboutTitle: "Una palabra caló, «chachi» y la duda de Churchill",
+    about:
+      "Chachipén da nombre al canal y significa verdad, en el sentido de hablar sin adornos. Lo que casi nadie tiene presente es que el castellano de diario está lleno de préstamos del caló que ya no se notan —currar, chaval, molar, parné, camelar, chungo— y que «chachi» probablemente sea uno más, salido justo de chachipén. Probablemente, no seguro: el diccionario académico remite «chachi» a «chanchi», y en Cádiz se defiende otra versión, la de que viene de «chárchil», como allí llamaban a Winston Churchill en la posguerra, porque lo bueno era lo que entraba de Gibraltar. Ninguna de las dos está demostrada, y discutirlo da para una noche entera. El caló da para eso y para bastante más: no es un dialecto del romaní, sino una lengua de contacto, con el vocabulario venido del romaní y la gramática del castellano, y las estimaciones más generosas hablan de 300.000 personas que lo manejan en algún grado, casi siempre de oído y en casa antes que en ningún libro. Por aquí se pregunta por palabras que alguien le oyó a su abuela y ya no sabe ni deletrear, se corrigen traducciones de internet que no hay por dónde cogerlas, y se habla de todo lo demás, que es de lo que más se habla en cualquier chat. No hace falta credencial para entrar; lo que se nota enseguida es quién viene a escuchar y quién a repetir lo de siempre.",
+  },
 ];
 

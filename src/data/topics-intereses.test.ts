@@ -49,7 +49,7 @@ describe("salas temáticas de intereses", () => {
       expect(p.votes, `${p.slug}`).toBeGreaterThan(p.users);
   });
 
-  it("añade 209 salas de intereses", () => {
-    expect(TOPICS_INTERESES).toHaveLength(209);
+  it("añade 210 salas de intereses", () => {
+    expect(TOPICS_INTERESES).toHaveLength(210);
   });
 });
