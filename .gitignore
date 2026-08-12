@@ -56,3 +56,12 @@ data/.gsc-cache/
 
 # Progreso reanudable del backfill de H2 (el resultado vive en src/data/about-titles.ts)
 /data/about-titles-progreso.json
+
+# Sitemaps: los genera next-sitemap en cada postbuild, así que versionarlos solo
+# guardaba una foto vieja. Y hacía daño: el deploy hace `git reset --hard` antes
+# de construir, con lo que restauraba esa foto y la servía durante los quince
+# minutos del build —el 12 de agosto de 2026 el sitemap en producción no tenía
+# ninguna de las salas publicadas ese día—. Ningún cron los commitea (el goteo
+# solo mete src/data y data/localidades), así que nunca se iban a poner al día.
+/public/sitemap.xml
+/public/sitemap-*.xml
