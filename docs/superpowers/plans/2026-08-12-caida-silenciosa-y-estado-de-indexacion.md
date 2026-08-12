@@ -105,6 +105,24 @@ repositorios de la red.
 El hueco de ambiente queda **cerrado**: de 1.261 lugares con demanda, 59 tienen
 sala y cubren 1.229.068 impresiones; el resto es ruido de intención o apodos.
 
+## Lo siguiente, ya medido
+
+Cruzando el corpus con el catálogo (243 términos con ≥4.000 impresiones y sin
+página propia), casi todo lo grande resultó ser ruido de la heurística o algo ya
+cubierto en plural —«hispano» lo recoge `hispanos`, «latino» lo recoge
+`latinos`—. Lo que queda de verdad:
+
+- **`/chat/merida`** — 52.339 impresiones en la consulta genérica «chat merida».
+  Las tres Méridas existen desambiguadas (`merida-mexico`, `merida-venezuela`,
+  `merida-espana`) pero el término a secas no tiene página. Lo natural sería una
+  desambiguadora, que es sobre todo enlaces: queda a la espera.
+- **Adultos** — «caliente» (293.101), «sex», «travesti», «cornudo». Hay sección
+  de adultos en el sitio, pero entrar ahí es decisión del dueño, no del que pasa
+  por aquí.
+- **`adolescentes`** (58.279) — **no se toca**. Es tráfico de menores y esta red
+  no publica salas de edad por debajo de la mayoría legal.
+- Marcas ajenas sin ángulo propio: `netchat`, `bazocam`, `kiwi`, `friends`.
+
 ## Accesibilidad: sin hallazgos
 
 Auditadas siete páginas del HTML servido (1.642 enlaces, 475 imágenes): cero
