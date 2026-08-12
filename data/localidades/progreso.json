@@ -65,7 +65,14 @@
   "jutiapa-guatemala",
   "naguanagua",
   "villa-alemana",
-  "momostenango"
+  "momostenango",
+  "carupano",
+  "chichicastenango",
+  "quilpue",
+  "colina-chile",
+  "boca-chica",
+  "villa-madero",
+  "apatzingan-de-la-constitucion"
  ],
  "descartadas": [
   {
@@ -687,6 +694,151 @@
    "slug": "villa-madero-provincia-de-buenos-aires",
    "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
    "fecha": "2026-08-11"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "departamento-lujan-de-cuyo",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "habana-del-este",
+   "razon": "rechazada tras corrección: Combina zonas residenciales, industriales y áreas verdes.; Su territorio incluye sectores costeros y rurales, lo que le confiere una diversidad de paisajes y usos del suelo.",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "tulancingo-de-bravo",
+   "razon": "fraseo calcado de heroica-matamoros: \"los usuarios comparten informacion sobre tramites municipales\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "provincia-de-alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "palo-negro",
+   "razon": "fraseo calcado de naguanagua: \"la sala es un espacio para que\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "distrito-de-la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "delicias",
+   "razon": "fraseo calcado de santa-catarina: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "la-lisa",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "partido-de-tandil",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "fresnillo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "general-rodriguez-argentina",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "distrito-de-pachacamac",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "yaritagua",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "departamento-san-martin",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "distrito-de-tambogrande",
+   "razon": "fraseo calcado de colina-chile: \"los usuarios pueden discutir sobre temas relacionados\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "chilon",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "villa-madero-provincia-de-buenos-aires",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"del partido de la matanza en la\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "distrito-de-lurin",
+   "razon": "rechazada tras corrección: El material de origen no menciona que el Distrito de Lurín se sitúa en la zona sur de la capital regional; El material de origen no menciona que el Distrito de Lurín presenta una ubicación estratégica",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "provincia-de-ayabaca",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "guasdualito",
+   "razon": "fraseo calcado de turmero: \"usuarios conversan sobre la vida cotidiana de\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "santa-cruz-barillas",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "santa-lucia-cotzumalguapa",
+   "razon": "rechazada tras corrección: La distancia a la Ciudad de Guatemala no se menciona en la introducción de la ficha, pero sí se menciona en el apartado 'about'. En la introducción, se omite la distancia a la Ciudad de Guatemala y se",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "quininde",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "almoloya-de-juarez",
+   "razon": "fraseo calcado de marino: \"los usuarios comparten informacion sobre el mercado\"",
+   "fecha": "2026-08-12"
+  },
+  {
+   "slug": "partido-de-olavarria",
+   "razon": "rechazada tras corrección: El partido limita con Bolívar, no con Bolíbol",
+   "fecha": "2026-08-12"
   }
  ]
 }

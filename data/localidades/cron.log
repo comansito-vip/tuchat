@@ -282,3 +282,57 @@ Groq: HT
 [2026-08-11T05:44:01.980Z]   ✗ villa-madero-provincia-de-buenos-aires: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
 [2026-08-11T05:44:01.980Z] demasiados intentos fallidos, se corta el lote
 [2026-08-11T05:44:01.997Z] publicadas 5 salas · acumuladas 65 · quedan 2901 en cola
+[2026-08-12T01:30:05.821Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-12T01:30:05.829Z] cola: 2895 pendientes · lote de hoy: 12
+[2026-08-12T01:30:06.881Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-12T01:30:07.112Z]   ✗ departamento-lujan-de-cuyo: es una división administrativa, no una localidad
+[2026-08-12T01:30:09.476Z]   ✓ carupano (Venezuela) — escribió Cerebras, verificó Groq
+[2026-08-12T01:31:19.117Z]   ✗ habana-del-este: rechazada tras corrección: Combina zonas residenciales, industriales y áreas verdes.; Su territorio incluye sectores costeros y rurales, lo que le confiere una diversidad de paisajes y usos del suelo.
+[2026-08-12T01:31:58.253Z]   ✗ tulancingo-de-bravo: fraseo calcado de heroica-matamoros: "los usuarios comparten informacion sobre tramites municipales"
+[2026-08-12T01:31:58.505Z]   ✗ provincia-de-alto-amazonas: es una división administrativa, no una localidad
+[2026-08-12T01:33:06.565Z]   ✗ virrey-del-pino: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-12T01:34:53.002Z]   ✗ palo-negro: fraseo calcado de naguanagua: "la sala es un espacio para que"
+[2026-08-12T01:36:07.240Z]   ✗ distrito-de-la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-12T01:42:39.864Z]   ✓ chichicastenango (Guatemala) — escribió Gemini, verificó Cerebras
+[2026-08-12T01:43:06.609Z]   ✗ delicias: fraseo calcado de santa-catarina: "es una ciudad mexicana situada en el"
+[2026-08-12T01:45:18.306Z]   ✓ quilpue (Chile) — escribió Cerebras, verificó NVIDIA
+[2026-08-12T01:47:50.902Z]   ✗ la-lisa: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T01:50:35.644Z]   ✓ colina-chile (Chile) — escribió NVIDIA, verificó Cerebras
+[2026-08-12T01:59:31.045Z]   ✗ partido-de-tandil: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-12T02:00:48.558Z]   ✗ fresnillo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-12T02:02:13.471Z]   ✗ general-rodriguez-argentina: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:03:22.425Z]   ✓ boca-chica (República Dominicana) — escribió NVIDIA, verificó Gemini
+[2026-08-12T02:04:26.254Z]   ✗ distrito-de-pachacamac: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:07:47.244Z]   ✗ la-molina: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:12:44.575Z]   ✗ yaritagua: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:12:45.177Z]   ✗ departamento-san-martin: es una división administrativa, no una localidad
+[2026-08-12T02:17:51.577Z]   ✗ distrito-de-tambogrande: fraseo calcado de colina-chile: "los usuarios pueden discutir sobre temas relacionados"
+[2026-08-12T02:26:18.611Z]   ✗ chilon: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-12T02:29:38.711Z]   ✓ villa-madero (Argentina) — escribió Cerebras, verificó OpenRouter
+[2026-08-12T02:33:04.910Z]   ✗ villa-madero-provincia-de-buenos-aires: fraseo calcado de gregorio-de-laferrere: "del partido de la matanza en la"
+[2026-08-12T02:33:06.055Z]   ✗ zarate-provincia-de-buenos-aires: sin fuente utilizable
+[2026-08-12T02:34:33.802Z]   ✗ distrito-de-lurin: rechazada tras corrección: El material de origen no menciona que el Distrito de Lurín se sitúa en la zona sur de la capital regional; El material de origen no menciona que el Distrito de Lurín presenta una ubicación estratégica
+[2026-08-12T02:34:44.192Z]   ✓ apatzingan-de-la-constitucion (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-12T02:34:44.542Z]   ✗ provincia-de-ayabaca: es una división administrativa, no una localidad
+[2026-08-12T02:34:59.321Z]   ✗ guasdualito: fraseo calcado de turmero: "usuarios conversan sobre la vida cotidiana de"
+[2026-08-12T02:37:02.952Z]   ✗ santa-cruz-barillas: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:39:58.663Z]   ✗ santa-lucia-cotzumalguapa: rechazada tras corrección: La distancia a la Ciudad de Guatemala no se menciona en la introducción de la ficha, pero sí se menciona en el apartado 'about'. En la introducción, se omite la distancia a la Ciudad de Guatemala y se
+[2026-08-12T02:49:03.359Z]   ✗ quininde: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-12T02:56:19.355Z]   ✗ almoloya-de-juarez: fraseo calcado de marino: "los usuarios comparten informacion sobre el mercado"
+[2026-08-12T02:57:51.354Z]   ✗ partido-de-olavarria: rechazada tras corrección: El partido limita con Bolívar, no con Bolíbol
+[2026-08-12T02:57:51.354Z] demasiados intentos fallidos, se corta el lote
+[2026-08-12T02:57:51.360Z] publicadas 7 salas · acumuladas 72 · quedan 2888 en cola

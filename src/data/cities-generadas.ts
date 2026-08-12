@@ -1414,7 +1414,7 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de La Pintana, comuna del sector sur de Santiago que forma parte del Gran Santiago, dentro de la Región Metropolitana de Chile.",
+    "intro": "Chat de La Pintana, la comuna del sector sur de Santiago, forma parte del Gran Santiago. Únete a la conversación local.",
     "aboutTitle": "La Pintana: comuna del sector sur dentro del Gran Santiago",
     "about": "La Pintana es una comuna ubicada en el sector sur de la ciudad de Santiago, capital de Chile, y forma parte del Gran Santiago dentro de la Región Metropolitana. En la sala de chat de La Pintana los usuarios comentan temas cotidianos como transporte, seguridad, servicios municipales y actividades culturales de la comuna. Participan residentes, estudiantes y trabajadores del sector, intercambiando información y opiniones sobre la vida local. El espacio sirve como punto de encuentro virtual donde se comparten avisos, se resuelven dudas y se fomenta la colaboración entre vecinos. También se tratan asuntos de empleo, educación y proyectos comunitarios, y se intercambian datos sobre horarios de transporte público y actividades deportivas. La conversación se mantiene respetuosa y enfocada en la mejora del entorno local. Los participantes comparten experiencias diarias, plantean preguntas y ofrecen sugerencias sobre la gestión municipal. Se fomenta la interacción entre vecinos y se promueve la participación ciudadana."
   },
@@ -1926,5 +1926,215 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de Momostenango, un municipio del departamento de Totonicapán en el altiplano occidental de Guatemala, popular destino turístico.",
     "aboutTitle": "Conversaciones en el altiplano occidental",
     "about": "Momostenango es un municipio del departamento de Totonicapán en el altiplano occidental de la República de Guatemala. Su cabecera municipal se encuentra a una altitud de 2204 m s. n. m. y es uno de los destinos turísticos más visitados del país. La sala de chat de Momostenango es un espacio para discutir temas relacionados con la cultura, la historia y la vida diaria de la localidad. Los participantes pueden compartir sus experiencias y conocimientos sobre la región, así como discutir temas de interés general. La sala es un espacio abierto para que todos los interesados en Momostenango se conecten y compartan ideas, creando un ambiente de intercambio y aprendizaje mutuo."
+  },
+  {
+    "slug": "carupano",
+    "name": "Carúpano",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Sucre",
+    "regionSlug": "sucre",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maturin",
+      "cumana",
+      "sucre",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sala de chat de Carúpano, la ciudad sucrense con uno de los puertos más antiguos de América Latina y una población de 138.798 habitantes.",
+    "aboutTitle": "El puerto histórico de Carúpano y sus parroquias",
+    "about": "Carúpano es una ciudad del estado Sucre, Venezuela, situada en la costa al noreste de la región, a 120 km de Cumaná y a unos 500 km de Caracas. Es un centro de pesca relevante para el país y contó con uno de los puertos más antiguos de América Latina. Administrativamente se divide en dos parroquias, Santa Catalina y Santa Rosa, y en total cinco si se considera todo el municipio.\n\nEn la sala de chat de Carúpano los usuarios intercambian información sobre la actividad pesquera, eventos locales y la vida cotidiana del municipio. Participan residentes, emigrantes y personas interesadas en la zona que buscan compartir noticias, conversar sobre la historia del puerto y debatir sobre el desarrollo económico y cultural de la ciudad."
+  },
+  {
+    "slug": "chichicastenango",
+    "name": "Chichicastenango",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "quetzaltenango",
+      "huehuetenango",
+      "antigua-guatemala",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Entra a la sala de chat de Chichicastenango, el municipio de Quiché donde se redactó el histórico libro sagrado maya quiché Popol Vuh.",
+    "aboutTitle": "La sala de chat del municipio donde se redactó el Popol Vuh",
+    "about": "El municipio de Santo Tomás Chichicastenango se sitúa al sur del departamento de Quiché, en Guatemala, a una distancia de 18 kilómetros de la cabecera departamental y a 145 kilómetros de la ciudad de Guatemala. Al ser la mayoría de su población de origen indígena de la etnia quiché, esta localidad destaca como un importante centro turístico gracias a su mercado local. Además, cuenta con una gran relevancia histórica y cultural, ya que en este territorio se encontró y redactó el Popol Vuh, el libro sagrado de los mayas quiché que explica el origen de la humanidad y que está declarado como Libro Nacional de Guatemala. En la sala de chat de Chichicastenango se reúnen vecinos de este municipio y personas interesadas en su cultura y en su conocido mercado local. Los usuarios de este canal conversan sobre la vida cotidiana en el departamento de Quiché, comparten información para visitantes que planean viajar a la localidad y comentan aspectos de la tradición quiché y la historia del Popol Vuh. Es un espacio de comunicación directa para quienes habitan en la zona o desean mantener el contacto con esta comunidad guatemalteca desde el extranjero."
+  },
+  {
+    "slug": "quilpue",
+    "name": "Quilpué",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 142,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Valparaíso",
+    "regionSlug": "region-de-valparaiso",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "vina-del-mar",
+      "valparaiso",
+      "quillota",
+      "san-antonio-chile",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Quilpué, la comuna chilena capital de la Provincia de Marga Marga y parte del Gran Valparaíso, conecta a los vecinos de esta localidad.",
+    "aboutTitle": "Quilpué, capital de la Provincia de Marga Marga en el Gran Valparaíso",
+    "about": "Quilpué es una comuna y ciudad de la Región de Valparaíso. Es la capital de la Provincia de Marga Marga y forma parte del área metropolitana del Gran Valparaíso, que incluye a Valparaíso, Viña del Mar, Concón y Villa Alemana. En la sala de chat de Quilpué los residentes se reúnen para intercambiar información sobre la vida local, el transporte y las actividades de la zona. La conversación gira en torno a la organización de la comunidad y la participación en iniciativas vecinales, creando un espacio de diálogo abierto y directo para quien quiera conocer o aportar al entorno de la ciudad. Los usuarios también comparten avisos, recomendaciones de servicios y opiniones sobre el desarrollo de la localidad, manteniendo el contacto y la comunicación entre los vecinos. Esta plataforma digital facilita que las personas compartan sus experiencias cotidianas, resuelvan dudas comunes sobre trámites locales, difundan eventos comunitarios o conversen sobre temas de interés general para la población. De esta manera, el chat se convierte en una herramienta útil de comunicación diaria para quienes habitan en la capital provincial o tienen interés en interactuar con su gente, permitiendo estrechar lazos entre los miembros de la comunidad y favorecer la cooperación mutua en el día a día."
+  },
+  {
+    "slug": "colina-chile",
+    "name": "Colina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 136,
+    "votes": 239,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "quillota",
+      "quilpue",
+      "vina-del-mar",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Colina, la sala de chat de la comuna y ciudad chilena ubicada al norte de la Región Metropolitana de Santiago.",
+    "aboutTitle": "La vida en la comuna de Chacabuco",
+    "about": "Colina es una comuna y ciudad chilena ubicada al norte de la Región Metropolitana de Santiago, en la zona central de Chile. Es la capital de la provincia de Chacabuco. Dentro de la comuna se encuentran localidades como la ciudad de Colina, Chicureo, Chamisero, Peldehue, Las Canteras, Casas de Chacabuco y Esmeralda.\n\nEn la sala de chat de Colina, los usuarios pueden discutir sobre temas relacionados con la comuna, como su historia, sus lugares de interés y su cultura. También pueden compartir información sobre eventos y actividades que se llevan a cabo en la zona. Los usuarios que se unen a esta sala pueden ser residentes de Colina, visitantes o personas interesadas en conocer más sobre esta ciudad chilena."
+  },
+  {
+    "slug": "boca-chica",
+    "name": "Boca Chica",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 219,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia Santo Domingo",
+    "regionSlug": "provincia-santo-domingo",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santo-domingo-este",
+      "san-pedro-de-macorris",
+      "san-cristobal-rd",
+      "la-romana",
+      "bani",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Boca Chica, un municipio de la provincia Santo Domingo en la República Dominicana con una playa en la bahía de Andrés.",
+    "aboutTitle": "La playa de Boca Chica en la bahía de Andrés",
+    "about": "Boca Chica es un municipio de la provincia Santo Domingo en la República Dominicana. Forma parte de la región metropolitana del Gran Santo Domingo y alberga el principal puerto, aeropuerto y parque tecnológico de dicha región. Tiene enclavada una playa que lleva su mismo nombre, situada a unos 30 kilómetros al este de Santo Domingo en la bahía de Andrés, en la costa Sur de la isla de La Española.\n\nEn la sala de chat de Boca Chica, los usuarios pueden discutir sobre la vida en la ciudad, compartir experiencias y consejos sobre la playa y la bahía de Andrés, o simplemente conocer a nuevas personas que comparten intereses similares. La sala es un espacio abierto para todos los que desean conectarse con la comunidad de Boca Chica."
+  },
+  {
+    "slug": "villa-madero",
+    "name": "Villa Madero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 193,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lanus",
+      "moron",
+      "lomas-de-zamora",
+      "argentina",
+      "buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Villa Madero, la ciudad del partido de La Matanza en la provincia de Buenos Aires, ubicada totalmente en el Gran Buenos Aires, conecta a sus vecinos.",
+    "aboutTitle": "Villa Madero: ciudad del Gran Buenos Aires en La Matanza",
+    "about": "Villa Madero es una localidad del partido de La Matanza, situada en la provincia de Buenos Aires y forma parte integral del Gran Buenos Aires. Su entorno urbano combina residencias, comercios y espacios de actividad típicos de la zona metropolitana, ofreciendo a sus habitantes una vida cercana a los servicios de la capital sin perder su identidad de barrio. \n\nEn la sala de chat de Villa Madero los residentes intercambian información sobre el día a día, como el tránsito, eventos locales, actividades deportivas y asuntos de la comunidad. Participan vecinos, jóvenes y adultos que buscan compartir experiencias, resolver dudas y mantener el vínculo vecinal, creando un espacio de conversación directa y práctica para la zona."
+  },
+  {
+    "slug": "apatzingan-de-la-constitucion",
+    "name": "Apatzingán de la Constitución",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 194,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "los-cabos",
+      "tamazula-de-gordiano",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Apatzingán de la Constitución, la ciudad más poblada de la Tierra Caliente con 102 362 habitantes según el Censo 2020, es la sala de chat local.",
+    "aboutTitle": "Tierra Caliente: la ciudad fundadora de 1617",
+    "about": "Apatzingán de la Constitución es la cabecera del municipio homónimo, situada en la región de Tierra Caliente, Michoacán. Fue fundada en 1617 por monjes franciscanos y agustinos y obtuvo el rango de ciudad en 1883. Según el Censo 2020 del INEGI, cuenta con 102 362 habitantes, lo que la convierte en la cuarta ciudad más poblada del estado y la más habitada de la zona de Tierra Caliente.\n\nEn la sala de chat los usuarios comentan temas cotidianos de la vida en Apatzingán: eventos municipales, noticias locales, la actividad del ayuntamiento en Av. Constitución de 1814 #1 y la agenda cultural. Participan residentes, jóvenes, empresarios y visitantes que buscan intercambiar información, organizar encuentros y compartir experiencias sobre la ciudad y sus alrededores."
   }
 ];
