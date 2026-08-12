@@ -85,17 +85,23 @@ function auditar(ruta: string, html: string) {
       if (!document.getElementById(id)) add(ruta, `aria-labelledby apunta a #${id}, que no existe`);
 }
 
-let auditadas = 0;
-for (const ruta of RUTAS) {
-  const res = await fetch(BASE + ruta);
-  if (!res.ok) {
-    console.log(`  ⚠ ${ruta} devolvió ${res.status}, no se audita`);
-    continue;
+// En una función y no arriba del todo: tsx compila estos scripts a CommonJS y
+// el await de nivel superior no le vale.
+async function main() {
+  let auditadas = 0;
+  for (const ruta of RUTAS) {
+    const res = await fetch(BASE + ruta);
+    if (!res.ok) {
+      console.log(`  ⚠ ${ruta} devolvió ${res.status}, no se audita`);
+      continue;
+    }
+    auditar(ruta, await res.text());
+    auditadas++;
   }
-  auditar(ruta, await res.text());
-  auditadas++;
+
+  console.log(`\n${auditadas} páginas auditadas · ${problemas.length} problemas`);
+  for (const p of problemas) console.log("  " + p);
+  if (problemas.length) process.exit(1);
 }
 
-console.log(`\n${auditadas} páginas auditadas · ${problemas.length} problemas`);
-for (const p of problemas) console.log("  " + p);
-if (problemas.length) process.exit(1);
+main();
