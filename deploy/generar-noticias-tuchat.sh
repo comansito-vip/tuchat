@@ -99,12 +99,27 @@ fi
 # en git sin llegar nunca al sitio. Pasó el 2026-08-06 en la primera prueba — .next
 # quedó 15 minutos por detrás de news.ts.
 echo "[$(date -u +%FT%TZ)] reconstruyendo con el contenido nuevo"
-# .next se borra entero: un build incremental sobre el anterior abortó con ENOTEMPTY
-# y dejó el sitio devolviendo 500 (2026-08-05).
-rm -rf .next
+# .next se aparta con `mv`, NO con `rm -rf`, y esto es lo menos evidente del script.
+#
+# pm2 sigue sirviendo mientras nosotros construimos, y cada visita que dispara ISR
+# escribe un .html dentro de .next/server/app. `rm -rf` vacía el directorio y luego
+# hace rmdir; si en ese hueco entra una visita, el rmdir falla con ENOTEMPTY, y como
+# aquí hay `set -e`, el script muere ANTES de construir y de reiniciar. El sitio se
+# queda con .next medio borrado, sin BUILD_ID ni manifests, sirviendo sólo desde la
+# memoria del proceso vivo: en pie hasta el primer restart, y luego caído.
+#
+# Pasó el 2026-08-05 (rmdir de .next/server/app/chat/asturias.segments) y se leyó como
+# un problema de build incremental; el remedio de entonces —borrar entero— corría la
+# misma carrera y volvió a pasar el 2026-08-12, dejando /tiempo en 500 toda la mañana.
+#
+# `mv` es un rename() atómico: no recorre el directorio, así que no hay ventana que
+# perder. El viejo se borra después del restart, cuando ya nadie escribe en él.
+rm -rf .next-viejo-* 2>/dev/null || true
+[ -d .next ] && mv .next ".next-viejo-$$"
 npm run build
 /usr/lib/node_modules/pm2/bin/pm2 restart tuchat.org
 sleep 5
+rm -rf .next-viejo-* 2>/dev/null || true
 node scripts/indexnow-submit.mjs >> /home/ubuntu/tuchat-indexnow.log 2>&1 || true
 echo "[$(date -u +%FT%TZ)] publicado ✓"
 exit 0

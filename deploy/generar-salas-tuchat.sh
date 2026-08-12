@@ -61,9 +61,14 @@ done
 [ "$PUSHED" -eq 1 ] || { echo "[$(date -u +%FT%TZ)] ERROR: no se pudo empujar"; exit 1; }
 
 echo "[$(date -u +%FT%TZ)] reconstruyendo con las salas nuevas"
-rm -rf .next
+# `mv` y no `rm -rf`: borrar .next mientras pm2 escribe caché ISR dentro compite con
+# el runtime y aborta con ENOTEMPTY, y con `set -e` el script muere sin construir.
+# La explicación larga, con las dos veces que pasó, está en generar-noticias-tuchat.sh.
+rm -rf .next-viejo-* 2>/dev/null || true
+[ -d .next ] && mv .next ".next-viejo-$$"
 npm run build
 /usr/lib/node_modules/pm2/bin/pm2 restart tuchat.org
 sleep 5
+rm -rf .next-viejo-* 2>/dev/null || true
 node scripts/indexnow-submit.mjs >> /home/ubuntu/tuchat-indexnow.log 2>&1 || true
 echo "[$(date -u +%FT%TZ)] publicado ✓"

@@ -13,6 +13,9 @@ historial. Si tocas el script en el VPS, actualiza también esta copia.
 | `/home/ubuntu/generar-noticias-tuchat.sh` | cron, 05:00 UTC | genera noticias, cura, pasa los tests, commitea, empuja y **reconstruye** |
 | `/home/ubuntu/deploy-tuchat.sh` | cron, 05:30 UTC | despliega si `origin/main` trae commits nuevos (los hechos desde fuera del VPS) |
 
+Los tres están aquí con el mismo nombre. `deploy-tuchat.sh` faltaba y se añadió el
+2026-08-12, cuando resultó que compartía con los otros dos el fallo de más abajo.
+
 Logs: `generar-salas-tuchat.log`, `generar-noticias-tuchat.log` y `deploy-tuchat.log`,
 todos en `/home/ubuntu/`.
 
@@ -59,6 +62,45 @@ quedaba por detrás, así que el deploy sí detectaba trabajo pendiente.
 
 Por eso el generador termina con `rm -rf .next && npm run build && pm2 restart`.
 El deploy de las 05:30 sigue existiendo para recoger lo que se empuje desde fuera.
+
+## Nunca borres `.next` con `rm -rf` mientras pm2 sirve
+
+Es la causa de las dos únicas caídas que ha tenido el sitio, y las dos veces se
+diagnosticó mal.
+
+pm2 sigue sirviendo mientras se construye, y cada visita que dispara ISR escribe un
+`.html` dentro de `.next/server/app`. `rm -rf` vacía el directorio y luego hace `rmdir`:
+si en ese hueco entra una visita, el `rmdir` falla con **ENOTEMPTY**. Como los tres
+scripts llevan `set -e`, mueren ahí —**antes** de `npm run build` y de `pm2 restart`—.
+
+Lo que queda es lo peor de los dos mundos: `.next` medio borrado, sin `BUILD_ID` ni
+`app-paths-manifest.json`, y un proceso pm2 vivo que sigue respondiendo 200 desde
+memoria. El sitio parece sano y en realidad está sostenido por un proceso que no puede
+reiniciarse: al primer `pm2 restart` se cae entero.
+
+| Fecha | Cómo se vio | Qué se pensó entonces |
+|---|---|---|
+| 2026-08-05 | 500 en la home; `rmdir` de `.next/server/app/chat/asturias.segments` | «build incremental corrupto» → se pasó a borrar entero, que corre la misma carrera |
+| 2026-08-12 | `/tiempo` en 500 y `/tiempo/*` en 404 durante toda la mañana | se vio a tiempo: el log terminaba en el `rm` y no había `BUILD_ID` |
+
+El arreglo es no borrar, sino **apartar**:
+
+```bash
+rm -rf .next-viejo-* 2>/dev/null || true
+[ -d .next ] && mv .next ".next-viejo-$$"
+npm run build
+pm2 restart tuchat.org
+rm -rf .next-viejo-*        # ya nadie escribe dentro
+```
+
+`mv` es un `rename()` atómico: no recorre el directorio, así que no hay ventana que
+perder por mucho tráfico que haya. Está aplicado en los tres scripts.
+
+Para comprobar de un vistazo que un build terminó de verdad:
+
+```bash
+ls /var/www/tuchat.org/.next/BUILD_ID   # si no existe, NO hay build en disco
+```
 
 ## Lock compartido
 
