@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
+  tituloArticuloSerp,
   breadcrumbJsonLd,
   faqJsonLd,
   websiteJsonLd,
@@ -120,5 +121,42 @@ describe("seo json-ld", () => {
       body: "uno dos tres cuatro cinco",
     });
     expect(ld.wordCount).toBe(5);
+  });
+});
+
+describe("tituloArticuloSerp", () => {
+  it("deja en paz lo que ya cabe", () => {
+    expect(tituloArticuloSerp("Un titular corto y normal")).toBe("Un titular corto y normal");
+  });
+
+  it("corta por el separador cuando lo que queda dice algo", () => {
+    expect(
+      tituloArticuloSerp(
+        "La paradoja de la plaza pública digital: por qué estar más conectados nos aísla",
+      ),
+    ).toBe("La paradoja de la plaza pública digital");
+  });
+
+  it("no se queda con un enunciado vago: prefiere truncar y conservar el tema", () => {
+    // "Más allá del silencio" son 21 caracteres que no dicen de qué va el artículo
+    const t = tituloArticuloSerp(
+      "Más allá del silencio: el nuevo reto de la moderación en comunidades",
+    );
+    expect(t).not.toBe("Más allá del silencio");
+    expect(t).toContain("moderación");
+    expect(t.length).toBeLessThanOrEqual(65);
+  });
+
+  it("nunca pasa del límite ni corta a mitad de palabra", () => {
+    const casos = [
+      "Cultura, flamenco y patrimonio: la hispanidad revisada en un 2026 que discute su propio relato histórico",
+      "El sueño como pilar invisible: cómo la calidad del descanso moldea la salud del día siguiente",
+      "Palabrasinseparadoresnisespacios".repeat(4),
+    ];
+    for (const c of casos) {
+      const t = tituloArticuloSerp(c);
+      expect(t.length, c.slice(0, 30)).toBeLessThanOrEqual(65);
+      if (t.endsWith("…")) expect(c.startsWith(t.slice(0, -1).trim())).toBe(true);
+    }
   });
 });

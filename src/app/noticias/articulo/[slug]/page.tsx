@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { NickInput } from "@/components/ui/NickInput";
 import { getNews } from "@/data";
-import { articleJsonLd, JsonLd, OG_BASE } from "@/lib/seo";
+import { articleJsonLd, JsonLd, OG_BASE, tituloArticuloSerp } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import { getNewsImage } from "@/lib/news-images";
 
@@ -33,9 +33,12 @@ export async function generateMetadata({
   if (!a) return {};
   const image = a.image ?? getNewsImage(a.category, a.slug);
   return {
-    // Absoluto: los titulares ya rondan los 90-110 caracteres, el sufijo
-    // "· TuChat" solo empeora el recorte en los resultados de Google.
-    title: { absolute: a.title },
+    // Absoluto y recortado: los titulares rondan los 90-110 caracteres y el
+    // sufijo "· TuChat" solo empeoraba el corte. Quitarlo no bastaba —el 42% de
+    // los artículos seguía saliendo truncado a mitad de palabra—, así que el
+    // título de la etiqueta se ajusta a lo que la SERP muestra. El H1 de la
+    // página conserva el titular entero.
+    title: { absolute: tituloArticuloSerp(a.title) },
     description: a.excerpt,
     alternates: { canonical: `/noticias/articulo/${a.slug}` },
     openGraph: {

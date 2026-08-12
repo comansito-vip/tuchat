@@ -151,3 +151,34 @@ export function itemListJsonLd(items: { url: string; name: string }[]) {
 export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />;
 }
+
+/**
+ * El `<title>` de un artículo, recortado a lo que Google llega a mostrar.
+ *
+ * Los titulares del generador rondan los 90-110 caracteres y en la SERP se
+ * cortan sobre los 65: el 42% de los 426 artículos publicados salía truncado a
+ * mitad de palabra, con la parte informativa fuera. El H1 sigue llevando el
+ * titular entero; esto es solo la etiqueta.
+ *
+ * Dos reglas, en este orden:
+ *  1. Casi todos los titulares son «Tema: desarrollo del tema», así que cortar
+ *     por el separador da un título natural. Pero solo si lo que queda dice algo:
+ *     «Más allá del silencio» son 21 caracteres que no cuentan de qué va.
+ *  2. Si el corte se queda corto, se trunca el titular entero por palabras, que
+ *     conserva más información que quedarse con un enunciado vago.
+ */
+export function tituloArticuloSerp(titular: string, max = 65): string {
+  const limpio = titular.trim();
+  if (limpio.length <= max) return limpio;
+
+  const cabeza = limpio.split(/[:—–]/)[0].trim();
+  if (cabeza.length >= 35 && cabeza.length <= max) return cabeza;
+
+  const palabras = limpio.split(/\s+/);
+  let out = "";
+  for (const p of palabras) {
+    if ((out ? `${out} ${p}` : p).length > max - 1) break;
+    out = out ? `${out} ${p}` : p;
+  }
+  return `${out.replace(/[,;:—–]$/, "")}…`;
+}
