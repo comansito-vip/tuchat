@@ -39,7 +39,7 @@ set -a
 . ./.env
 set +a
 
-npx tsx scripts/cron/salas-geo.mjs --lote 3
+npx tsx scripts/cron/salas-geo.mjs --lote 12
 
 if [ -z "$(git status --porcelain src/data data/localidades)" ]; then
   echo "[$(date -u +%FT%TZ)] ninguna sala nueva superó los controles"
