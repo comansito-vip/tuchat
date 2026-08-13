@@ -96,4 +96,23 @@ export const TOPICS_TERMINOS: Place[] = [
     about:
       "La primera la fundó Roma en el año 25 a. C., por orden de Augusto, como retiro para los soldados licenciados de las legiones V Alaudae y X Gemina: de esos eméritos salió Emerita Augusta y, siglos después, el nombre que llevan las tres. Las otras dos son americanas y las dos miran a la extremeña. La de Yucatán la levantó Francisco de Montejo «el Mozo» en 1542 sobre los vestigios de T'Hó —Ichcaansihó, que se suele traducir como «cinco cerros»—, y le puso ese nombre porque las ruinas mayas le recordaron a las romanas de la Mérida extremeña. La venezolana la fundó el 9 de octubre de 1558 Juan Rodríguez Suárez, nacido hacia 1510 en la propia Mérida de Extremadura, que le puso a su ciudad el nombre de la suya; también llevaría el de Santiago de los Caballeros de Mérida. Los tamaños de hoy no se parecen en nada: la yucateca pasa de los 900.000 habitantes, la venezolana supera los 300.000 según las proyecciones oficiales y la extremeña no llega a 61.000. Y como están en tres husos horarios distintos, en esta sala se juntan el mediodía yucateco, la tarde andina y la última hora de la tarde en Extremadura, que es la parte que no se puede contar en un mapa.",
   },
+  {
+    slug: "illes-balears",
+    name: "Illes Balears",
+    kind: "tematica",
+    icon: "⛵",
+    flagSrc: "/flags/regiones/baleares.png",
+    users: 24,
+    votes: 33,
+    activity: "Baja",
+    parentSlug: "espana",
+    parentName: "España",
+    channels: ["baleares", "amistad", "chatzona"],
+    related: ["baleares", "palma", "ibiza", "formentera", "viajes"],
+    intro:
+      "El nombre oficial del archipiélago es este, en catalán, y se entra por el mismo canal que Baleares: #baleares, con las cuatro islas dentro.",
+    aboutTitle: "Es Mercadal, sa Pobla: el artículo que viene de «ipse»",
+    about:
+      "«Illes Balears» es la denominación oficial de la comunidad y es la razón de que en los mapas convivan Ibiza y Eivissa, o Mahón y Maó, según quién los haya impreso. Pero lo que de verdad separa el habla de las islas de la del continente no está en los topónimos, sino en una palabra de dos letras: aquí el artículo no es «el» y «la», es «es» y «sa». Es Mercadal, sa Pobla, Sant Llorenç des Cardassar, es Castell. No es una deformación ni una manía local: es el artículo salat, que procede del demostrativo latino «ipse», mientras que el «el» del castellano y el del catalán continental vienen de «ille». Sobrevive también en occitano, en sardo y en algunas hablas del sur de Italia y de Sicilia, pero es en Baleares y en Cerdeña donde sigue más vivo, y en las islas se usa hablando, no como reliquia. Por eso media docena de pueblos del mapa parecen escritos con una falta de ortografía a ojos de quien llega de fuera, y por eso a un mallorquín le suena rarísimo oírlos «corregidos». Quien entra aquí escribiendo en castellano no tiene ningún problema: la conversación va en las dos lenguas y nadie pide credenciales.",
+  },
 ];

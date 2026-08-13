@@ -160,7 +160,7 @@ export const TOPICS_REGIONES: Place[] = [
     votes: 40,
     activity: "Baja",
     channels: ["baleares", "amistad", "chatzona"],
-    related: ["palma", "viajes", "playas", "musica"],
+    related: ["palma", "illes-balears", "viajes", "playas", "musica"],
     intro:
       "Mallorca, Menorca, Ibiza y Formentera en un mismo chat: Baleares entra con calas turquesa, mallorquín cerrado y la eterna rivalidad entre islas.",
     about:
