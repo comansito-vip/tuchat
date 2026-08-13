@@ -140,6 +140,25 @@ un fallo que no se ha visto ocurrir. Queda escrito para que, si algún día la
 auditoría empieza a avisar de plantilla en `/tiempo`, se busque aquí y no en el
 generador.
 
+## `/chat/illes-balears`
+
+3.761 impresiones en el corpus, posición 6,6, con cinco dominios de la red dentro
+y tuchat.org fuera. Entra a **#baleares**, que es el mismo canal: no se inventa
+uno nuevo para la misma gente.
+
+La trampa aquí era escribir una segunda página sobre las calas, la rivalidad
+entre islas y la ensaimada, que es lo que ya cuenta `baleares`: dos versiones de
+lo mismo y Google se queda con una. Así que cuenta lo que el nombre oficial trae
+consigo, el **artículo salat**: en las islas el artículo no es «el» y «la» sino
+«es» y «sa» —es Mercadal, sa Pobla, Sant Llorenç des Cardassar—, y viene del
+demostrativo latino *ipse*, no del *ille* del que salieron el castellano y el
+catalán continental.
+
+Se escribió primero en `topics-regiones.ts` y un test la echó de allí: ese fichero
+es el de las comunidades que agrupan ciudades, y exige que cada una tenga
+localidades con su `regionSlug`. Las baleares cuelgan de `baleares`, así que la
+sala rompía el contrato. Vive en `topics-terminos.ts`, con Mérida.
+
 ## La última muletilla del catálogo
 
 El auditor de contenido encontró un aviso en 2.684 salas: `la-pintana` cerraba
@@ -151,6 +170,77 @@ nombre, los Huertos Obreros de 1942 de los que salieron Villa La Pintana, Villa
 Las Rosas y Mapuhue, y el campus Antumapu de la Universidad de Chile.
 
 Auditoría **a cero avisos** tras el cambio.
+
+## Por qué el build tardaba 20 minutos
+
+Medido sobre el deploy de las 23:15, no estimado:
+
+| Fase | Tiempo |
+|---|---|
+| Compilar el código | 62 s |
+| Generar las 5.178 páginas | **18,6 min** (1 worker) |
+| **Total** | **20 min 39 s** |
+
+**El código no era el problema.** El tiempo se iba esperando a Open-Meteo:
+`/tiempo` son 1.965 páginas y cada una pedía su previsión por separado con 700 ms
+de separación obligatoria, que es lo que impone `MIN_MS_ENTRE_PETICIONES` para no
+comerse un 429. Son 23 minutos de reloj con el worker parado.
+
+Y con **un** worker, porque Next los calcula como `max(1, CPUs − 1)` y el VPS
+tiene 2 núcleos. Se comprobó en el código de Next, no de oídas
+(`node_modules/next/dist/server/config-shared.js`). La RAM no pintaba nada: en
+reposo hay 2,5 GB libres.
+
+### Lo que se hizo
+
+Open-Meteo acepta **varias coordenadas en la misma petición** y devuelve un array
+en el mismo orden. Medido contra la API real: 100 localidades con los campos que
+usa el sitio tardan 0,75 s y ocupan 80 KB. Así que un `prebuild` deja caliente la
+caché de `.data/weather` que `fetchWeather()` ya sabía leer, y el build no espera
+nada. No se toca ni la página ni el limitador.
+
+**Resultado, medido en el VPS:**
+
+| | Antes | Después |
+|---|---|---|
+| Compilación | 62 s | 56 s |
+| Generación de páginas | 18,6 min | **2,6 min** |
+| Deploy completo | 20 min 39 s | **4 min 14 s** |
+
+De paso, el deploy hacía `npm ci` en todos los despliegues aunque no cambiara una
+dependencia; era el único de los tres scripts sin la comprobación de huella.
+
+### El incidente que enseñó lo importante
+
+Al lanzar el primer prefetch en el VPS, Open-Meteo respondió **`Daily API request
+limit exceeded`**. El plan gratuito son 10.000 llamadas al día y cada build se
+lleva 1.965; entre los builds del día y las pruebas, se agotó.
+
+Eso obligó a parar el deploy a medias —con `.next` ya apartado y pm2 sirviendo de
+memoria— y a restaurar a mano el build anterior. El sitio no llegó a caerse.
+
+Lo importante es lo que destapó: **el diseño pedía las 1.965 previsiones en cada
+build**, y con tres builds diarios eso son 5.900 llamadas de las 10.000. Cuando se
+agotan no falla el build, fallan los datos: las páginas salen con «Sin datos
+meteorológicos disponibles» bajo un `<h1>` que promete la previsión. Ya había
+pasado el 10 de agosto con 1.332 páginas.
+
+Arreglado subiendo el TTL de la caché de 3 a **24 horas**, que es lo que
+corresponde al dato: la previsión es a cinco días y no cambia de un build al
+siguiente. Ahora solo pide el primer build del día. La temperatura de «ahora», que
+sí envejece, la refresca el `revalidate: 3600` en cuanto alguien visita la página.
+
+### Lo que queda sobre la mesa
+
+- **`NEXT_BUILD_CPUS=2`**: forzaría 2 workers en un VPS de 2 núcleos. Bajaría los
+  2,6 min de prerender, a cambio de dejar la máquina sin núcleo libre mientras
+  construye. No se ha tocado: ahora mismo el prerender ya no es el cuello.
+- **Ampliar el VPS a 4 núcleos** daría 3 workers. Con el build en 4 minutos, no
+  urge.
+- Turbopack emite un aviso —«Encountered unexpected file in NFT list»— por las
+  operaciones de fichero de `admin-store.ts`. El patrón ya sigue la recomendación
+  oficial (`path.join(process.cwd(), …)`) y la compilación son 56 s de 4 minutos:
+  se deja anotado, no tocado.
 
 ## Indexación: sigue siendo el problema, y no ha mejorado
 
