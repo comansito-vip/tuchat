@@ -224,12 +224,30 @@ const enCurso = new Map<string, Promise<WeatherData | null>>();
  * workers a la vez: con un único fichero se pisarían las escrituras, y con uno
  * por localidad no hay nada que coordinar.
  *
- * El TTL por defecto son 3 horas, coherente con el `revalidate: 3600` de la
- * página: la previsión de los próximos cinco días no cambia de forma apreciable
- * en ese rato. Se ajusta con `WEATHER_CACHE_TTL_MIN`; a 0 se desactiva.
+ * EL TTL SON 24 HORAS, Y ESO ES UN LÍMITE DURO, NO UNA PREFERENCIA
+ *
+ * Antes eran 3 horas, y con tres builds al día —goteo a la 01:30, noticias a las
+ * 05:00, deploy a las 05:30— casi todos encontraban la caché caducada y volvían
+ * a bajar las 1.965 previsiones. El 12 de agosto de 2026, con cuatro builds, la
+ * API cortó: `Daily API request limit exceeded`. El plan gratuito de Open-Meteo
+ * son **10.000 llamadas al día** y cada build entero se lleva 1.965.
+ *
+ * Cuando eso pasa no falla el build: fallan los datos. Las páginas se generan
+ * con «Sin datos meteorológicos disponibles» bajo un <h1> que promete la
+ * previsión, y ahí se quedan hasta que alguien las visita y el ISR las arregla.
+ * Ya ocurrió el 10 de agosto con 1.332 páginas.
+ *
+ * Con 24 horas solo pide el primer build del día y los otros dos leen de disco.
+ * Es lo que corresponde al dato: la previsión es a cinco días, no cambia de un
+ * build al siguiente. Lo que sí envejece es la temperatura de «ahora», y de eso
+ * se encarga el `revalidate: 3600` del fetch: cualquier página que alguien visite
+ * se refresca sola al cabo de una hora. Las que nadie visita son justamente las
+ * que no importa que lleven el dato de esta mañana.
+ *
+ * Se ajusta con `WEATHER_CACHE_TTL_MIN`; a 0 se desactiva.
  */
 const TTL_MIN = process.env.WEATHER_CACHE_TTL_MIN === undefined
-  ? 180
+  ? 1440
   : Number(process.env.WEATHER_CACHE_TTL_MIN);
 
 const DIR_CACHE = "./.data/weather";

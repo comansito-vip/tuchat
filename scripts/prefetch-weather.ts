@@ -56,7 +56,8 @@ const arg = (n: string, d: number) => {
   return i >= 0 && process.argv[i + 1] ? Number(process.argv[i + 1]) : d;
 };
 
-const TTL_MIN = arg("--ttl", Number(process.env.WEATHER_CACHE_TTL_MIN ?? 180));
+/** 24 h, el mismo que lee la página. Ver el bloque del TTL en src/lib/weather.ts. */
+const TTL_MIN = arg("--ttl", Number(process.env.WEATHER_CACHE_TTL_MIN ?? 1440));
 const POR_LOTE = arg("--lote", 100);
 /** Localidades por segundo. El límite de Open-Meteo ronda 600/min; esto son 480. */
 const RITMO = arg("--ritmo", Number(process.env.WEATHER_RITMO ?? 8));
@@ -106,9 +107,11 @@ async function main() {
   let ok = 0;
   let fallos = 0;
   let peticiones = 0;
+  let sinCuota = false;
 
   for (const [tz, slugs] of porHuso) {
-    for (let i = 0; i < slugs.length; i += POR_LOTE) {
+    if (sinCuota) break;
+    for (let i = 0; i < slugs.length && !sinCuota; i += POR_LOTE) {
       const lote = slugs.slice(i, i + POR_LOTE);
       const url =
         `https://api.open-meteo.com/v1/forecast` +
@@ -127,9 +130,23 @@ async function main() {
           peticiones++;
           const res = await fetch(url);
 
-          if (res.status === 429 && intento < REINTENTOS.length) {
-            await new Promise((r) => setTimeout(r, REINTENTOS[intento]));
-            continue;
+          if (res.status === 429) {
+            // Dos 429 distintos: el del ritmo, que se pasa esperando, y el de la
+            // cuota diaria, que no se pasa hasta mañana. Insistir contra el
+            // segundo son veinte lotes de espera para nada, así que se corta y se
+            // deja lo que ya haya en disco, que es lo que salvará el build.
+            const cuerpo = await res.text().catch(() => "");
+            if (/daily/i.test(cuerpo)) {
+              console.warn("  cuota DIARIA de Open-Meteo agotada: se deja de pedir");
+              console.warn("  el build usará lo que quede en caché; las que falten saldrán sin previsión");
+              sinCuota = true;
+              fallos += lote.length;
+              break;
+            }
+            if (intento < REINTENTOS.length) {
+              await new Promise((r) => setTimeout(r, REINTENTOS[intento]));
+              continue;
+            }
           }
           if (!res.ok) {
             fallos += lote.length;
@@ -165,12 +182,13 @@ async function main() {
         }
       }
 
-      await new Promise((r) => setTimeout(r, pausa));
+      if (!sinCuota) await new Promise((r) => setTimeout(r, pausa));
     }
   }
 
   const seg = ((Date.now() - inicio) / 1000).toFixed(1);
   console.log(`${ok} previsiones cacheadas · ${fallos} sin datos · ${peticiones} peticiones · ${seg}s`);
+  if (sinCuota) console.warn("cortado por cuota diaria: vuelve a intentarse en el build de mañana");
 }
 
 // Nunca tumba el build: sin previsiones se construye igual, solo más despacio.
