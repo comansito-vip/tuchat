@@ -3,7 +3,7 @@ import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
 import { slugRegion } from "./region-alias";
-import { canalesReales } from "./canales-saneado";
+import { canalesReales, conCanalChueca } from "./canales-saneado";
 import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
@@ -40,11 +40,14 @@ const conRegion = (p: Place): Place => {
   return alias === base.regionSlug ? base : { ...base, regionSlug: alias };
 };
 
-// Fuera los canales que no existen en la red. El panel de la sala los publica
+// Fuera los canales que no existen en la red —el panel de la sala los publica
 // como «También conecta con #…», así que nombrar uno inventado es afirmar algo
-// falso. Ver canales-saneado.ts.
+// falso— y dentro `#chueca` en las salas de ambiente. Ver canales-saneado.ts.
+// Se hace aquí y no en los ficheros de datos por lo mismo que el resto de
+// derivaciones: los canales los escriben a mano trece ficheros y el cron de
+// goteo, y este es el único punto por el que pasan todos.
 const conCanalesReales = (p: Place): Place => {
-  const limpios = canalesReales(p.channels);
+  const limpios = conCanalChueca(canalesReales(p.channels), p.parentSlug);
   return limpios.length === p.channels.length && limpios.every((c, i) => c === p.channels[i])
     ? p
     : { ...p, channels: limpios };

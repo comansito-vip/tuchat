@@ -202,3 +202,73 @@ describe("ninguna sala nombra un canal que no existe", () => {
     expect(getPlace("gay-madrid")!.channels).toContain("madrid");
   });
 });
+
+/**
+ * El saneado de agosto de 2026 cambió los `#gay{ciudad}` inventados por el canal
+ * real de cada sitio, pero se dejó fuera la otra mitad del patrón que él mismo
+ * declaraba: `gay-madrid` entra a `#gay`, `#chueca` y `#madrid`, y las otras 81
+ * salas de la familia entraban a `#gay` y a su ciudad, sin pasar por `#chueca`.
+ * Quien busca «chat gay Euskadi» tiene que aterrizar en los dos sitios.
+ */
+describe("toda sala de ambiente entra a #chueca", () => {
+  const familia = () =>
+    [...getTopics(), ...getCities(), ...getCountries()].filter(
+      (p) =>
+        p.channels.some((c) => c === "gay" || c === "de_ambiente" || c.startsWith("chueca")) ||
+        ["gay", "lgtbi", "gaylatino"].includes(p.parentSlug ?? ""),
+    );
+
+  it("las 82 salas de la familia lo llevan, sin excepción", () => {
+    const salas = familia();
+    expect(salas.length).toBeGreaterThanOrEqual(82);
+    expect(salas.filter((p) => !p.channels.includes("chueca")).map((p) => p.slug)).toEqual([]);
+  });
+
+  it("«chueca euskadi» entra a #chueca Y a #euskadi, además de a los suyos", () => {
+    expect(resolveChannels("gay-euskadi")).toEqual([
+      "gay", "chueca", "euskadi", "amistad", "chatzona",
+    ]);
+  });
+
+  it("va detrás del canal principal, nunca por delante", () => {
+    // El principal es el que decide dónde aterriza el usuario; #chueca se suma,
+    // no desplaza. En las salas que ya lo traían escrito a mano puede ir más
+    // atrás (#gay entra a #gay, #de_ambiente, #chueca): eso también vale.
+    for (const p of familia()) {
+      if (p.channels[0] === "chueca") continue; // la propia sala Chueca
+      expect(p.channels.indexOf("chueca"), p.slug).toBeGreaterThanOrEqual(1);
+    }
+  });
+
+  it("las salas con canal de barrio propio conservan el suyo y suman el general", () => {
+    // #chueca_barcelona es el canal del Gaixample; #chueca, el de toda la red.
+    const bcn = getPlace("gaybarcelona")!.channels;
+    expect(bcn).toContain("chueca_barcelona");
+    expect(bcn).toContain("chueca");
+  });
+
+  it("las salas que se quedaban sin canal de su zona ya lo tienen", () => {
+    // La red no tiene #sitges, #ibiza ni #maspalomas, así que el canal inventado
+    // se caía al sanear y estas tres aterrizaban solo en #gay, sin nada local.
+    expect(getPlace("gay-sitges")!.channels).toContain("barcelona");
+    expect(getPlace("gay-ibiza")!.channels).toContain("baleares");
+    expect(getPlace("gay-maspalomas")!.channels).toContain("las_palmas");
+    expect(getPlace("gaychilenos")!.channels).toContain("chile");
+    expect(getPlace("gaylatino")!.channels).toContain("latinoamerica");
+  });
+
+  it("no se cuela en salas que no son de ambiente", () => {
+    const fuera = [...getTopics(), ...getCities(), ...getCountries()]
+      .filter((p) => p.channels.includes("chueca") && !familia().includes(p))
+      .map((p) => p.slug);
+    expect(fuera).toEqual([]);
+  });
+
+  // Las de lesbianas quedan fuera a propósito: tienen sus propios canales y no
+  // entran ni a #gay ni a #de_ambiente.
+  it("no toca las salas de lesbianas", () => {
+    for (const slug of ["lesbianas", "les", "chatlesbianas", "mujereslesbianas"]) {
+      expect(getPlace(slug)!.channels, slug).not.toContain("chueca");
+    }
+  });
+});

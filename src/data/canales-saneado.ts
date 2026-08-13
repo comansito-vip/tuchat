@@ -37,7 +37,58 @@ export const ALIAS_CANAL: Record<string, string> = {
   "gay-peru": "peru",
   "gay-venezuela": "venezuela",
   "gay-uruguay": "uruguay",
+  // Estas cinco se quedaban sin ningún canal de su sitio: la red no tiene
+  // #sitges, #ibiza ni #maspalomas, así que el canal inventado se caía y la sala
+  // aterrizaba solo en #gay. Van al canal real que les corresponde por zona, que
+  // es donde está la gente de la que hablan sus propios textos.
+  "gay-sitges": "barcelona",
+  "gay-ibiza": "baleares",
+  "gay-maspalomas": "las_palmas",
+  "gaychilenos": "chile",
+  "gaylatino": "latinoamerica",
 };
+
+/**
+ * Canales por los que se reconoce una sala de la familia LGTBI.
+ *
+ * No vale mirar el slug: `queer`, `les`, `comunidad-lgbt` o `de-gays` no lo
+ * llevan, y en cambio `santa-rosa-de-osos` sí contiene "osos" sin tener nada que
+ * ver. El canal al que entra la sala sí lo dice sin ambigüedad.
+ */
+const CANALES_FAMILIA = ["gay", "de_ambiente"];
+const PADRES_FAMILIA = ["gay", "lgtbi", "gaylatino"];
+
+/** Canal del barrio. Es el que faltaba en 75 de las 82 salas de la familia. */
+export const CANAL_CHUECA = "chueca";
+
+/**
+ * Mete `#chueca` en toda sala de ambiente que no lo llevara ya.
+ *
+ * Chueca es la marca del ambiente en la red y `#chueca` su canal: quien busca
+ * «chat gay Euskadi» tiene que aterrizar en `#chueca` **y** en `#euskadi`, no
+ * solo en el temático `#gay`. `gay-madrid` lo hacía desde siempre (`#gay`,
+ * `#chueca`, `#madrid`), y el saneado de agosto de 2026 lo dejó escrito como el
+ * patrón a seguir, pero al cambiar los `#gay{ciudad}` inventados por el canal
+ * real de cada sitio se olvidó de la otra mitad: 75 de las 82 salas de ambiente
+ * entraban a `#gay` y a su ciudad, y a `#chueca` no.
+ *
+ * Va después del canal principal para respetar ese orden: primero el temático de
+ * la sala, luego el barrio, luego el sitio.
+ *
+ * Las salas de lesbianas quedan fuera a propósito: tienen sus propios canales
+ * (`#lesbianas`, `#el_rincon_les`, `#lescontactos`) y no entran a `#gay` ni a
+ * `#de_ambiente`, así que no las alcanza esta regla.
+ */
+export function conCanalChueca(channels: string[], parentSlug?: string): string[] {
+  const key = (c: string) => channelKey(c);
+  if (channels.some((c) => key(c) === key(CANAL_CHUECA))) return channels;
+  const esFamilia =
+    channels.some((c) => CANALES_FAMILIA.includes(c) || key(c).startsWith(key(CANAL_CHUECA))) ||
+    (parentSlug !== undefined && PADRES_FAMILIA.includes(parentSlug));
+  if (!esFamilia) return channels;
+  if (channels.length === 0) return [CANAL_CHUECA];
+  return [channels[0], CANAL_CHUECA, ...channels.slice(1)];
+}
 
 /**
  * Canales reales de una sala, en su orden original y sin repetidos.
