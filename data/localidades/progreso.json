@@ -72,7 +72,18 @@
   "colina-chile",
   "boca-chica",
   "villa-madero",
-  "apatzingan-de-la-constitucion"
+  "apatzingan-de-la-constitucion",
+  "palo-negro",
+  "la-lisa",
+  "yaritagua",
+  "santa-lucia-cotzumalguapa",
+  "quininde",
+  "almoloya-de-juarez",
+  "machiques",
+  "navojoa",
+  "porlamar",
+  "chilapa-de-alvarez",
+  "distrito-de-majes"
  ],
  "descartadas": [
   {
@@ -839,6 +850,131 @@
    "slug": "partido-de-olavarria",
    "razon": "rechazada tras corrección: El partido limita con Bolívar, no con Bolíbol",
    "fecha": "2026-08-12"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "habana-del-este",
+   "razon": "controles de calidad: muletillas de IA: unete a la conversacion; aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "tulancingo-de-bravo",
+   "razon": "controles de calidad: muletillas de IA: unete a la conversacion",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "rechazada tras corrección: La ficha menciona que la presencia de la planta de Mercedes-Benz y la de Manaos convierte a Virrey del Pino en un importante polo industrial del conurbano bonaerense, lo cual no está respaldado por la",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "distrito-de-la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "delicias",
+   "razon": "fraseo calcado de boca-chica: \"los usuarios pueden discutir sobre la vida\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "partido-de-tandil",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "fresnillo",
+   "razon": "fraseo calcado de boca-chica: \"la vida en la ciudad compartir experiencias\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "general-rodriguez-argentina",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "distrito-de-pachacamac",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "departamento-san-martin",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "distrito-de-tambogrande",
+   "razon": "controles de calidad: aboutTitle de 22 caracteres (debe estar entre 25 y 70); intro/meta de 167 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "chilon",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "distrito-de-lurin",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "provincia-de-ayabaca",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "guasdualito",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "santa-cruz-barillas",
+   "razon": "fraseo calcado de arroyo-naranjo: \"los usuarios pueden conversar sobre temas relacionados\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "partido-de-olavarria",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "moran",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens \nGroq: HT",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "cagua",
+   "razon": "fraseo calcado de cuautla: \"locales y temas de interes general participan\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "mariara",
+   "razon": "fraseo calcado de naguanagua: \"estado carabobo en la region central de\"",
+   "fecha": "2026-08-13"
+  },
+  {
+   "slug": "palma-soriano",
+   "razon": "controles de calidad: aboutTitle de 19 caracteres (debe estar entre 25 y 70); intro/meta de 223 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-13"
   }
  ]
 }

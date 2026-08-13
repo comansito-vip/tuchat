@@ -336,3 +336,51 @@ Groq: HT
 [2026-08-12T02:57:51.354Z]   ✗ partido-de-olavarria: rechazada tras corrección: El partido limita con Bolívar, no con Bolíbol
 [2026-08-12T02:57:51.354Z] demasiados intentos fallidos, se corta el lote
 [2026-08-12T02:57:51.360Z] publicadas 7 salas · acumuladas 72 · quedan 2888 en cola
+[2026-08-13T01:30:05.200Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-13T01:30:05.208Z] cola: 2885 pendientes · lote de hoy: 12
+[2026-08-13T01:30:06.064Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-13T01:30:26.892Z]   ✗ habana-del-este: controles de calidad: muletillas de IA: unete a la conversacion; aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-08-13T01:30:41.334Z]   ✗ tulancingo-de-bravo: controles de calidad: muletillas de IA: unete a la conversacion
+[2026-08-13T01:33:06.952Z]   ✗ virrey-del-pino: rechazada tras corrección: La ficha menciona que la presencia de la planta de Mercedes-Benz y la de Manaos convierte a Virrey del Pino en un importante polo industrial del conurbano bonaerense, lo cual no está respaldado por la
+[2026-08-13T01:36:17.455Z]   ✓ palo-negro (Venezuela) — escribió Cerebras, verificó Gemini
+[2026-08-13T01:38:58.347Z]   ✗ distrito-de-la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-13T01:39:50.289Z]   ✗ delicias: fraseo calcado de boca-chica: "los usuarios pueden discutir sobre la vida"
+[2026-08-13T01:42:29.613Z]   ✓ la-lisa (Cuba) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T01:50:21.916Z]   ✗ partido-de-tandil: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-13T01:54:39.521Z]   ✗ fresnillo: fraseo calcado de boca-chica: "la vida en la ciudad compartir experiencias"
+[2026-08-13T01:57:03.320Z]   ✗ general-rodriguez-argentina: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-13T01:57:29.490Z]   ✗ distrito-de-pachacamac: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-13T01:58:24.270Z]   ✗ la-molina: No se pudo extraer JSON de la respuesta del LLM
+[2026-08-13T02:00:37.186Z]   ✓ yaritagua (Venezuela) — escribió NVIDIA, verificó Groq
+[2026-08-13T02:00:37.537Z]   ✗ departamento-san-martin: es una división administrativa, no una localidad
+[2026-08-13T02:06:22.992Z]   ✗ distrito-de-tambogrande: controles de calidad: aboutTitle de 22 caracteres (debe estar entre 25 y 70); intro/meta de 167 caracteres (debe estar entre 110 y 160)
+[2026-08-13T02:13:02.390Z]   ✗ chilon: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-13T02:13:03.235Z]   ✗ zarate-provincia-de-buenos-aires: sin fuente utilizable
+[2026-08-13T02:13:53.039Z]   ✗ distrito-de-lurin: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-13T02:13:53.292Z]   ✗ provincia-de-ayabaca: es una división administrativa, no una localidad
+[2026-08-13T02:20:07.175Z]   ✗ guasdualito: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-13T02:22:01.165Z]   ✗ santa-cruz-barillas: fraseo calcado de arroyo-naranjo: "los usuarios pueden conversar sobre temas relacionados"
+[2026-08-13T02:25:02.178Z]   ✓ santa-lucia-cotzumalguapa (Guatemala) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:27:58.936Z]   ✓ quininde (Ecuador) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:28:36.437Z]   ✓ almoloya-de-juarez (México) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:32:02.569Z]   ✗ partido-de-olavarria: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-13T02:32:32.336Z]   ✗ moran: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens 
+Groq: HT
+[2026-08-13T02:39:42.214Z]   ✓ machiques (Venezuela) — escribió OpenRouter, verificó Cerebras
+[2026-08-13T02:39:42.215Z]   ✗ alto-amazonas: es una división administrativa, no una localidad
+[2026-08-13T02:39:58.499Z]   ✗ cagua: fraseo calcado de cuautla: "locales y temas de interes general participan"
+[2026-08-13T02:40:53.928Z]   ✓ navojoa (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-13T02:50:20.071Z]   ✓ porlamar (Venezuela) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:52:50.318Z]   ✗ mariara: fraseo calcado de naguanagua: "estado carabobo en la region central de"
+[2026-08-13T02:53:48.096Z]   ✓ chilapa-de-alvarez (México) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:57:24.704Z]   ✗ palma-soriano: controles de calidad: aboutTitle de 19 caracteres (debe estar entre 25 y 70); intro/meta de 223 caracteres (debe estar entre 110 y 160)
+[2026-08-13T02:59:52.204Z]   ✓ distrito-de-majes (Perú) — escribió NVIDIA, verificó Cerebras
+[2026-08-13T02:59:52.204Z] demasiados intentos fallidos, se corta el lote
+[2026-08-13T02:59:52.212Z] publicadas 11 salas · acumuladas 83 · quedan 2874 en cola
