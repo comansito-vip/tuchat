@@ -44,6 +44,23 @@ export default function AvisoLegalPage() {
           Los textos, el diseño y la estructura del portal son titularidad de TuChat o de quienes
           corresponda, y no pueden reproducirse sin autorización.
         </p>
+        <h2 className="text-lg font-bold text-ink">Imágenes</h2>
+        <p>
+          Las fotografías que ilustran la sección de noticias proceden de Unsplash y se emplean
+          conforme a su licencia, que permite el uso comercial sin necesidad de atribución. Las
+          banderas de países y comunidades son símbolos oficiales de dominio público.
+        </p>
+        <p>
+          Los escudos de clubes deportivos son marcas registradas de sus respectivos titulares y se
+          reproducen a título meramente identificativo, en el contexto de las salas de chat
+          dedicadas a cada equipo. TuChat no mantiene relación, patrocinio ni vínculo alguno con
+          esos clubes. Si eres titular de alguno de estos signos y no deseas que aparezca aquí,
+          escríbenos a{" "}
+          <a href="mailto:info@chatzona.org" className="text-blue hover:underline">
+            info@chatzona.org
+          </a>{" "}
+          y lo retiraremos.
+        </p>
       </div>
     </main>
   );

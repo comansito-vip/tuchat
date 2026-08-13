@@ -132,10 +132,12 @@ describe("Flag", () => {
     expect(emojiToCountryCode("💬")).toBeNull();
     expect(emojiToCountryCode("")).toBeNull();
   });
-  it("Flag renders an img with flagcdn src for flag emoji", () => {
+  it("Flag sirve la bandera del país desde nuestro propio dominio", () => {
     render(<Flag emoji="🇪🇸" name="España" />);
     const img = screen.getByRole("img");
-    expect(img).toHaveAttribute("src", expect.stringContaining("flagcdn.com"));
+    // next/image reescribe el src a /_next/image?url=…, con la ruta codificada.
+    expect(img).toHaveAttribute("src", expect.stringContaining("es.png"));
+    expect(img).toHaveAttribute("src", expect.not.stringContaining("flagcdn"));
     expect(img).toHaveAttribute("alt", "Bandera de España");
   });
   it("Flag renders a span fallback for non-flag emoji", () => {

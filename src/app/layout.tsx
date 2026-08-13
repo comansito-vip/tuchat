@@ -88,13 +88,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "try{if(localStorage.getItem('cookie-consent')==='granted')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}",
           }}
         />
-        {/* Las banderas se sirven desde flagcdn.com en muchos listados: abrir la
-            conexión por adelantado reduce la latencia de las primeras imágenes. */}
-        <link rel="preconnect" href="https://flagcdn.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://flagcdn.com" />
-        {/* Las imágenes de noticias se sirven desde Unsplash. */}
-        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        {/* Aquí había preconnect a flagcdn.com y a images.unsplash.com. Ya no se
+            pide una sola imagen fuera de tuchat.org: banderas, escudos y fotos de
+            noticias salen de public/, así que abrir esas conexiones solo costaba
+            dos resoluciones DNS y un handshake TLS por visita. */}
       </head>
       <body className="font-sans">
         <a

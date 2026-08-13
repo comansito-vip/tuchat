@@ -18,17 +18,21 @@ export const OG_BASE = {
 };
 
 /**
- * Sube a 1200px de ancho la imagen que se declara en el schema del artículo.
+ * URL absoluta y en nuestro dominio de la imagen que declara el schema.
  *
- * Las fotos se piden a Unsplash con `?w=800`, que es de sobra para la tarjeta y
- * la cabecera, pero Google exige **al menos 1200px de ancho** en la imagen de un
- * artículo para que pueda salir en resultados enriquecidos y en Discover. Se
- * cambia solo el parámetro del JSON-LD: el `<img>` de la página sigue pidiendo
- * el tamaño que necesita, así que no se descarga ni un byte de más.
+ * Google exige al menos 1200px de ancho en la imagen de un artículo para que
+ * pueda salir en resultados enriquecidos y en Discover; los ficheros de
+ * `public/img/noticias/` se guardan a 1600px, así que el original vale y el
+ * `<img>` de la página sigue pidiendo por su cuenta el tamaño que necesita.
+ *
+ * Lo que se arregla aquí es de quién es la imagen: mientras el `src` apuntaba a
+ * `images.unsplash.com`, el JSON-LD declaraba una URL ajena como `image` del
+ * artículo, y Google Images atribuye la foto al dominio que la sirve. Eran 426
+ * artículos cediendo su imagen a un tercero.
  */
 function imagenParaSchema(url?: string): string | undefined {
   if (!url) return undefined;
-  return url.includes("w=800") ? url.replace("w=800", "w=1200") : url;
+  return url.startsWith("/") ? `${SITE}${url}` : url;
 }
 
 export interface Crumb { name: string; url: string; }

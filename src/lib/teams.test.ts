@@ -14,11 +14,14 @@ describe("teams data", () => {
     }
   });
 
-  it("each team has a name, badge URL and a slug", () => {
+  it("cada equipo tiene nombre, escudo propio y slug", () => {
     for (const league of getLeagues()) {
       for (const team of league.teams) {
         expect(team.name).toBeTruthy();
-        expect(team.badge).toMatch(/^https:\/\//);
+        // El escudo se sirve desde tuchat.org. Cuando era un enlace a
+        // upload.wikimedia.org, doce de los treinta daban 404 y este test lo
+        // daba por bueno igual: comprobaba la forma de la URL, no la imagen.
+        expect(team.badge, team.name).toMatch(/^\/img\/escudos\/[a-z0-9-]+\.(svg|png)$/);
         expect(typeof team.slug).toBe("string");
       }
     }

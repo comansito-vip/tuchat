@@ -30,10 +30,9 @@ const nextConfig: NextConfig = {
     // que hace falta en otro sitio.
     deviceSizes: [640, 828, 1080, 1920],
     imageSizes: [64, 128, 256, 384],
-    remotePatterns: [
-      { protocol: "https", hostname: "flagcdn.com" },
-      { protocol: "https", hostname: "images.unsplash.com" },
-    ],
+    // Sin `remotePatterns` a propósito: no queda ninguna imagen fuera de
+    // tuchat.org. Volver a añadir un host aquí es volver a regalar el tráfico
+    // de imagen —y la atribución en Google Images— a un tercero.
   },
   // 14 salas argentinas llevaban el nombre del aglomerado del censo
   // ("Villa Dolores-Villa Sarmiento-San Pedro-Villa de las Rosas"), que nadie

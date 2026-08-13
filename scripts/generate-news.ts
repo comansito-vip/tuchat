@@ -20,6 +20,11 @@ import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { detectarMuletillas, aperturaNormalizada } from "../src/lib/content/muletillas";
+// La foto de cada pieza la decide el mismo módulo que usa la web. El script
+// llevaba su propia copia de la tabla y ya se habían desincronizado: le faltaban
+// las categorías `ia` y `entretenimiento`, así que esas piezas nacían con la foto
+// genérica de actualidad.
+import { getNewsImage } from "../src/lib/news-images";
 
 // Carga .env.local a mano (sin dep de dotenv): útil en local; en CI las
 // variables ya vienen del entorno (GitHub Actions secrets) y esto no hace nada.
@@ -318,27 +323,6 @@ function slugify(text: string): string {
     .slice(0, 70);
 }
 
-const CATEGORY_IMAGES_SCRIPT: Record<string, string[]> = {
-  tecnologia:    ["photo-1518770660439-4636190af475", "photo-1461749280684-dccba630e2f6"],
-  deportes:      ["photo-1518091043644-c1d4457512c6", "photo-1540747913346-19e32dc3e97e"],
-  cultura:       ["photo-1513364776144-60967b0f800f", "photo-1507842217343-583bb7270b66"],
-  actualidad:    ["photo-1504711434969-e33886168f5c", "photo-1585829365295-ab7cd400c167"],
-  economia:      ["photo-1611974789855-9c2a0a7236a3", "photo-1579621970588-a35d0e7ab9b6"],
-  salud:         ["photo-1576091160550-2173dba999ef", "photo-1505751172876-fa1923c5c528"],
-  viajes:        ["photo-1488085061387-422e29b40080", "photo-1476514525535-07fb3b4ae5f1"],
-  anime:         ["photo-1578632767115-351597cf2477", "photo-1608889175250-c9b4ce5a803d"],
-  esoterismo:    ["photo-1518709268805-4e9042af9f23", "photo-1532105956626-9569c03602f6"],
-  psicologia:    ["photo-1554224155-6726b3ff858f", "photo-1493894473891-10fc1e5dbd22"],
-};
-
-function getScriptNewsImage(category: string, slug: string): string {
-  const key = category.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-  const pool = CATEGORY_IMAGES_SCRIPT[key] ?? CATEGORY_IMAGES_SCRIPT.actualidad;
-  const hash = slug.split("").reduce((s, c) => s + c.charCodeAt(0), 0);
-  const id = pool[hash % pool.length];
-  return `https://images.unsplash.com/${id}?w=800&q=75&auto=format&fit=crop`;
-}
-
 function renderFile(items: NewsItem[]): string {
   // JSON.stringify produce literales de string válidos en TS (escapa comillas y
   // saltos de línea), seguro para el body multipárrafo.
@@ -394,7 +378,7 @@ async function main() {
         excerpt: it.excerpt,
         date,
         body: it.body || undefined,
-        image: getScriptNewsImage(category, slug),
+        image: getNewsImage(category, slug),
       });
     });
   }

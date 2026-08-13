@@ -36,9 +36,14 @@ type FlagProps = {
 
 /**
  * Bandera real a partir de la data. Prioridad:
- *  1. flagSrc — bandera local (regiones/comunidades sin emoji-bandera).
- *  2. emoji de país → PNG de flagcdn.
+ *  1. flagSrc — bandera indicada a mano (regiones/comunidades sin emoji-bandera).
+ *  2. emoji de país → PNG propio en `public/flags/paises/`.
  *  3. cualquier otro emoji (icono temático) → se muestra tal cual.
+ *
+ * Las de país venían de flagcdn.com hasta agosto de 2026. Son 32 códigos en todo
+ * el catálogo —144 KB en total—, así que no había razón para que cada visita
+ * pidiera a un CDN ajeno una imagen que aparece en casi todas las páginas del
+ * sitio: se sirven desde tuchat.org como ya se hacía con las de las comunidades.
  */
 export function Flag({ emoji, flagSrc, name, size = 22, className, priority }: FlagProps) {
   const code = emojiToCountryCode(emoji);
@@ -69,13 +74,12 @@ export function Flag({ emoji, flagSrc, name, size = 22, className, priority }: F
     );
   }
 
-  // flagcdn solo sirve estos anchos fijos; pedimos el primero que cubra el
-  // tamaño mostrado a 2x (pantallas retina) para que no se vea pixelado.
-  const srcWidth = [80, 160, 320, 640].find((w) => w >= size * 2) ?? 640;
-
+  // Cada bandera se guarda a 320px de ancho, de sobra para el mayor uso (130px
+  // en el hero de la sala, 260 en pantalla retina). Del reescalado a los tamaños
+  // pequeños ya se encarga el optimizador de Next.
   return (
     <Image
-      src={`https://flagcdn.com/w${srcWidth}/${code}.png`}
+      src={`/flags/paises/${code}.png`}
       alt={name ? `Bandera de ${name}` : ""}
       width={size}
       height={height}
