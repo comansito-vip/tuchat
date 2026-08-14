@@ -384,3 +384,43 @@ Groq: HT
 [2026-08-13T02:59:52.204Z]   ✓ distrito-de-majes (Perú) — escribió NVIDIA, verificó Cerebras
 [2026-08-13T02:59:52.204Z] demasiados intentos fallidos, se corta el lote
 [2026-08-13T02:59:52.212Z] publicadas 11 salas · acumuladas 83 · quedan 2874 en cola
+[2026-08-14T01:30:06.017Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-14T01:30:06.035Z] cola: 2868 pendientes · lote de hoy: 12
+[2026-08-14T01:30:06.849Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-14T01:30:16.785Z]   ✗ virrey-del-pino: fraseo calcado de gregorio-de-laferrere: "es una localidad del partido de la"
+[2026-08-14T01:30:25.732Z]   ✗ partido-de-tandil: fraseo calcado de partido-de-jose-c-paz: "es uno de los 135 partidos que"
+[2026-08-14T01:33:41.653Z]   ✗ fresnillo: rechazada tras corrección: La ficha menciona que la historia de Fresnillo está vinculada a la minería de plata, actividad que marcó su desarrollo económico y cultural, lo cual no está respaldado por la fuente.; La ficha mencion
+[2026-08-14T01:34:59.179Z]   ✗ general-rodriguez-argentina: rechazada tras corrección: La ficha menciona que General Rodríguez está situado en el centro-este de la provincia, pero el material de origen solo menciona que está en el centro-este de la provincia de Buenos Aires, sin especif
+[2026-08-14T01:35:28.805Z]   ✗ distrito-de-pachacamac: fraseo calcado de distrito-de-carabayllo: "la provincia de lima en el departamento"
+[2026-08-14T01:35:56.035Z]   ✗ la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-14T01:36:01.303Z]   ✗ chilon: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-14T01:36:01.941Z]   ✗ zarate-provincia-de-buenos-aires: sin fuente utilizable
+[2026-08-14T01:36:20.844Z]   ✗ distrito-de-lurin: rechazada tras corrección: La ficha menciona una población sin especificarla, lo que no se encuentra en la fuente.; La ficha menciona zonas urbanas y costeras, la pesca, los mercados y las tradiciones vecinales, lo que no se en
+[2026-08-14T01:36:21.100Z]   ✗ provincia-de-ayabaca: es una división administrativa, no una localidad
+[2026-08-14T01:38:59.004Z]   ✓ guasdualito (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:39:08.037Z]   ✗ santa-cruz-barillas: rechazada tras corrección: 'punto de encuentro' es una muletilla de IA prohibida
+[2026-08-14T01:39:58.017Z]   ✓ partido-de-olavarria (Argentina) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:41:37.176Z]   ✗ moran: rechazada tras corrección: La ficha menciona 'la vida local, eventos comunitarios, noticias del municipio y temas de interés general' como temas de conversación, pero la fuente no respalda esta información.; La ficha menciona q
+[2026-08-14T01:41:37.177Z]   ✗ alto-amazonas: es una división administrativa, no una localidad
+[2026-08-14T01:43:23.586Z]   ✓ cagua (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:43:51.188Z]   ✗ mariara: controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)
+[2026-08-14T01:46:09.054Z]   ✓ palma-soriano (Cuba) — escribió NVIDIA, verificó Cerebras
+[2026-08-14T01:47:50.066Z]   ✗ ayabaca: rechazada tras corrección: La ficha menciona que Ayabaca está en el norte de Perú, pero la fuente no lo confirma; La ficha menciona que la ciudad capital es la más alta del departamento de Piura, pero la fuente dice que la ciud
+[2026-08-14T01:48:25.004Z]   ✓ totonicapan (Guatemala) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:48:40.854Z]   ✗ iguala: rechazada tras corrección: La ubicación en un valle permite que la ciudad tenga un entorno natural distintivo y una vista panorámica de los cerros circundantes.; un punto de referencia para quienes buscan mantenerse informados 
+[2026-08-14T01:49:21.156Z]   ✓ charallave (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:50:11.616Z]   ✓ uribia (Colombia) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T01:52:01.123Z]   ✗ uribia-la-guajira: fraseo calcado de uribia: "uribia es un municipio colombiano situado en"
+[2026-08-14T01:52:43.972Z]   ✗ san-quintin: rechazada tras corrección: Se menciona la 'región de la península de Baja California' sin que la fuente la mencione; Se menciona que la población se concentra en 'pequeñas comunidades cercanas' sin que la fuente lo mencione; Se
+[2026-08-14T01:53:25.747Z]   ✗ la-paz-centro-el-salvador: rechazada tras corrección: La ficha confunde la localidad de La Paz Centro en Nicaragua con la localidad homónima en El Salvador; La ficha menciona 'la zona leonesa', que no está respaldada por la fuente; La ficha menciona 'la 
+[2026-08-14T01:53:54.244Z]   ✗ la-asuncion: rechazada tras corrección: El material de origen no menciona que La Asunción sea un centro administrativo, que albergue instituciones públicas, que su ubicación en la isla la sitúe dentro del archipiélago venezolano del Caribe,
+[2026-08-14T01:55:31.370Z]   ✗ catacamas: fraseo calcado de escobar: "de la zona en la sala de"
+[2026-08-14T01:57:21.669Z]   ✗ heroica-guaymas: rechazada tras corrección: El número de habitantes en 2020 es incorrecto. La fuente oficial menciona 156,863 habitantes, no 117,153.; El orden de población en el estado es incorrecto. La fuente oficial no menciona que Guaymas s
+[2026-08-14T02:01:29.270Z]   ✗ chimaltenango: fraseo calcado de chichicastenango: "de este municipio y personas interesadas en"
+[2026-08-14T02:01:43.974Z]   ✓ coronel (Chile) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T02:02:09.747Z]   ✓ comitan-de-dominguez (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-14T02:02:10.925Z]   ✗ departamento-del-vichada: es una división administrativa, no una localidad
+[2026-08-14T02:02:15.127Z]   ✗ tecpan-guatemala: fraseo calcado de maipu-chile: "estar al dia con lo que ocurre"
+[2026-08-14T02:02:57.674Z]   ✗ carora: rechazada tras corrección: La frase 'un punto de referencia regional' no está respaldada por la fuente.; La frase 'La sala de chat de Carora está pensada para usuarios que quieren intercambiar información y opiniones sobre la v
+[2026-08-14T02:02:57.674Z] demasiados intentos fallidos, se corta el lote
+[2026-08-14T02:02:57.680Z] publicadas 9 salas · acumuladas 92 · quedan 2859 en cola

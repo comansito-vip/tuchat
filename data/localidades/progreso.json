@@ -83,7 +83,16 @@
   "navojoa",
   "porlamar",
   "chilapa-de-alvarez",
-  "distrito-de-majes"
+  "distrito-de-majes",
+  "guasdualito",
+  "partido-de-olavarria",
+  "cagua",
+  "palma-soriano",
+  "totonicapan",
+  "charallave",
+  "uribia",
+  "coronel",
+  "comitan-de-dominguez"
  ],
  "descartadas": [
   {
@@ -975,6 +984,141 @@
    "slug": "palma-soriano",
    "razon": "controles de calidad: aboutTitle de 19 caracteres (debe estar entre 25 y 70); intro/meta de 223 caracteres (debe estar entre 110 y 160)",
    "fecha": "2026-08-13"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "virrey-del-pino",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"es una localidad del partido de la\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "partido-de-tandil",
+   "razon": "fraseo calcado de partido-de-jose-c-paz: \"es uno de los 135 partidos que\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "fresnillo",
+   "razon": "rechazada tras corrección: La ficha menciona que la historia de Fresnillo está vinculada a la minería de plata, actividad que marcó su desarrollo económico y cultural, lo cual no está respaldado por la fuente.; La ficha mencion",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "general-rodriguez-argentina",
+   "razon": "rechazada tras corrección: La ficha menciona que General Rodríguez está situado en el centro-este de la provincia, pero el material de origen solo menciona que está en el centro-este de la provincia de Buenos Aires, sin especif",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "distrito-de-pachacamac",
+   "razon": "fraseo calcado de distrito-de-carabayllo: \"la provincia de lima en el departamento\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "chilon",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "distrito-de-lurin",
+   "razon": "rechazada tras corrección: La ficha menciona una población sin especificarla, lo que no se encuentra en la fuente.; La ficha menciona zonas urbanas y costeras, la pesca, los mercados y las tradiciones vecinales, lo que no se en",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "provincia-de-ayabaca",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "santa-cruz-barillas",
+   "razon": "rechazada tras corrección: 'punto de encuentro' es una muletilla de IA prohibida",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "moran",
+   "razon": "rechazada tras corrección: La ficha menciona 'la vida local, eventos comunitarios, noticias del municipio y temas de interés general' como temas de conversación, pero la fuente no respalda esta información.; La ficha menciona q",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "mariara",
+   "razon": "controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "ayabaca",
+   "razon": "rechazada tras corrección: La ficha menciona que Ayabaca está en el norte de Perú, pero la fuente no lo confirma; La ficha menciona que la ciudad capital es la más alta del departamento de Piura, pero la fuente dice que la ciud",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "iguala",
+   "razon": "rechazada tras corrección: La ubicación en un valle permite que la ciudad tenga un entorno natural distintivo y una vista panorámica de los cerros circundantes.; un punto de referencia para quienes buscan mantenerse informados ",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "uribia-la-guajira",
+   "razon": "fraseo calcado de uribia: \"uribia es un municipio colombiano situado en\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "san-quintin",
+   "razon": "rechazada tras corrección: Se menciona la 'región de la península de Baja California' sin que la fuente la mencione; Se menciona que la población se concentra en 'pequeñas comunidades cercanas' sin que la fuente lo mencione; Se",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "la-paz-centro-el-salvador",
+   "razon": "rechazada tras corrección: La ficha confunde la localidad de La Paz Centro en Nicaragua con la localidad homónima en El Salvador; La ficha menciona 'la zona leonesa', que no está respaldada por la fuente; La ficha menciona 'la ",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "la-asuncion",
+   "razon": "rechazada tras corrección: El material de origen no menciona que La Asunción sea un centro administrativo, que albergue instituciones públicas, que su ubicación en la isla la sitúe dentro del archipiélago venezolano del Caribe,",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "catacamas",
+   "razon": "fraseo calcado de escobar: \"de la zona en la sala de\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "heroica-guaymas",
+   "razon": "rechazada tras corrección: El número de habitantes en 2020 es incorrecto. La fuente oficial menciona 156,863 habitantes, no 117,153.; El orden de población en el estado es incorrecto. La fuente oficial no menciona que Guaymas s",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "chimaltenango",
+   "razon": "fraseo calcado de chichicastenango: \"de este municipio y personas interesadas en\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "departamento-del-vichada",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "tecpan-guatemala",
+   "razon": "fraseo calcado de maipu-chile: \"estar al dia con lo que ocurre\"",
+   "fecha": "2026-08-14"
+  },
+  {
+   "slug": "carora",
+   "razon": "rechazada tras corrección: La frase 'un punto de referencia regional' no está respaldada por la fuente.; La frase 'La sala de chat de Carora está pensada para usuarios que quieren intercambiar información y opiniones sobre la v",
+   "fecha": "2026-08-14"
   }
  ]
 }
