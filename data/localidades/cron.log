@@ -424,3 +424,44 @@ Groq: HT
 [2026-08-14T02:02:57.674Z]   ✗ carora: rechazada tras corrección: La frase 'un punto de referencia regional' no está respaldada por la fuente.; La frase 'La sala de chat de Carora está pensada para usuarios que quieren intercambiar información y opiniones sobre la v
 [2026-08-14T02:02:57.674Z] demasiados intentos fallidos, se corta el lote
 [2026-08-14T02:02:57.680Z] publicadas 9 salas · acumuladas 92 · quedan 2859 en cola
+[2026-08-15T01:30:05.383Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-15T01:30:05.392Z] cola: 2853 pendientes · lote de hoy: 12
+[2026-08-15T01:30:06.095Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-15T01:30:12.304Z]   ✓ partido-de-tandil (Argentina) — escribió Cerebras, verificó Groq
+[2026-08-15T01:30:28.815Z]   ✗ fresnillo: fraseo calcado de apodaca: "lo que la convierte en la segunda"
+[2026-08-15T01:34:30.976Z]   ✗ general-rodriguez-argentina: fraseo calcado de escobar: "es un partido de la provincia de"
+[2026-08-15T01:35:56.479Z]   ✗ la-molina: rechazada tras corrección: La ficha menciona que el distrito de La Molina limita al sur con el distrito de Villa María del Triunfo y al este con el distrito de Pachacámac, pero no menciona que limita al noroeste con el distrito
+[2026-08-15T01:35:57.173Z]   ✗ zarate-provincia-de-buenos-aires: sin fuente utilizable
+[2026-08-15T01:38:52.074Z]   ✗ santa-cruz-barillas: rechazada tras corrección: La zona mantiene vivas sus costumbres y la vida comunitaria se refleja en sus actividades cotidianas.; Se discuten temas como el mercado semanal, las festividades tradicionales y los proyectos comunit
+[2026-08-15T01:40:22.603Z]   ✗ moran: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-15T01:40:22.604Z]   ✗ alto-amazonas: es una división administrativa, no una localidad
+[2026-08-15T01:41:05.959Z]   ✗ mariara: rechazada tras corrección: La ficha menciona la sede de la administración local y servicios públicos y comerciales, lo que no está respaldado por la fuente.; La ficha describe la posición geográfica y la actividad urbana, lo qu
+[2026-08-15T01:42:13.572Z]   ✗ ayabaca: rechazada tras corrección: Se repite la información de que Ayabaca se ubica al sureste de la ciudad fronteriza de Macará en Ecuador; Se dice que la ciudad se encuentra 'al surede' de la ciudad fronteriza de Macará, cuando en re
+[2026-08-15T01:42:35.746Z]   ✓ iguala (México) — escribió Cerebras, verificó NVIDIA
+[2026-08-15T01:43:47.280Z]   ✗ san-quintin: rechazada tras corrección: La cabecera del municipio es la localidad de San Quintín, que concentra la actividad administrativa.; El municipio forma parte de la región más meridional de la península, lo que lo sitúa en una posic
+[2026-08-15T01:44:52.821Z]   ✗ la-paz-centro-el-salvador: rechazada tras corrección: La ficha dice que La Paz Centro está en el departamento de La Paz, El Salvador, pero la fuente dice que está en el departamento de León, en la República de Nicaragua.; La ficha describe áreas rurales 
+[2026-08-15T01:46:14.520Z]   ✗ la-asuncion: rechazada tras corrección: La ficha da por cierto que la ciudad está 'situada' en la Isla de Margarita, pero la fuente dice 'ubicada'. Aunque es un error menor, es preferible no marcarlo. Sin embargo, sí hay un problema: la fic
+[2026-08-15T01:46:34.061Z]   ✗ catacamas: fraseo calcado de tocuyito: "la zona creando un espacio de intercambio"
+[2026-08-15T01:47:37.484Z]   ✗ heroica-guaymas: fraseo calcado de maipu-chile: "en la sala de chat los participantes"
+[2026-08-15T01:49:44.493Z]   ✗ chimaltenango: rechazada tras corrección: La ficha menciona 'la zona central del país' sin que la fuente lo respalde; La ficha menciona 'danzas y celebraciones' sin que la fuente lo respalde; La ficha menciona 'eventos locales' y 'vida cotidi
+[2026-08-15T01:49:45.727Z]   ✗ departamento-del-vichada: es una división administrativa, no una localidad
+[2026-08-15T01:50:38.322Z]   ✗ tecpan-guatemala: No se pudo extraer JSON de la respuesta del LLM: Unexpected token ']', ..."fuente.",
+]}" is not valid JSON
+[2026-08-15T01:51:17.256Z]   ✗ carora: rechazada tras corrección: El material de origen no menciona la actividad agrícola ni el tejido social como características de Carora.; No hay evidencia en el material de origen de la arquitectura colonial y moderna en Carora.;
+[2026-08-15T01:51:20.821Z]   ✓ pochuta (Guatemala) — escribió Cerebras, verificó NVIDIA
+[2026-08-15T01:52:35.075Z]   ✗ lujan: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-15T01:54:09.742Z]   ✗ partido-de-lujan: rechazada tras corrección: La ficha menciona que la basílica figura en la imagen aérea de la municipalidad, pero la fuente solo menciona la imagen aérea del río y la basílica de Luján sin especificar que la basílica esté en la 
+[2026-08-15T01:55:51.243Z]   ✗ campana-argentina: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-15T01:56:52.571Z]   ✓ quibor (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-15T02:00:53.169Z]   ✗ socopo: rechazada tras corrección: La ficha menciona 'residentes, comerciantes y personas interesadas en la zona' sin que la fuente respalde esta información específica sobre quién participa en la sala de chat.; La ficha describe la co
+[2026-08-15T02:03:01.857Z]   ✗ pachacamac: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-15T02:04:01.006Z]   ✓ tinaquillo (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-15T02:04:01.007Z]   ✗ retalhuleu: es una división administrativa, no una localidad
+[2026-08-15T02:04:56.360Z]   ✗ zarate: rechazada tras corrección: La presencia del río Paraná brinda un entorno natural que influye en la vida de los habitantes, mientras que la conexión vial con Buenos Aires y Rosario facilita el intercambio comercial y cultural.; 
+[2026-08-15T02:05:39.011Z]   ✗ zarate-argentina: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-15T02:06:51.462Z]   ✗ ixcan: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 221 (line 1 column 222)
+[2026-08-15T02:13:21.284Z]   ✗ malacatan: inventa cuándo se anima la sala
+[2026-08-15T02:14:09.149Z]   ✗ acambaro: rechazada tras corrección: la frase 'punto de encuentro virtual' es una muletilla de IA prohibida
+[2026-08-15T02:14:23.428Z]   ✓ distrito-de-huaral (Perú) — escribió Cerebras, verificó NVIDIA
+[2026-08-15T02:14:23.428Z] demasiados intentos fallidos, se corta el lote
+[2026-08-15T02:14:23.436Z] publicadas 6 salas · acumuladas 98 · quedan 2847 en cola

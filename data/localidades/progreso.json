@@ -92,7 +92,13 @@
   "charallave",
   "uribia",
   "coronel",
-  "comitan-de-dominguez"
+  "comitan-de-dominguez",
+  "partido-de-tandil",
+  "iguala",
+  "pochuta",
+  "quibor",
+  "tinaquillo",
+  "distrito-de-huaral"
  ],
  "descartadas": [
   {
@@ -1119,6 +1125,156 @@
    "slug": "carora",
    "razon": "rechazada tras corrección: La frase 'un punto de referencia regional' no está respaldada por la fuente.; La frase 'La sala de chat de Carora está pensada para usuarios que quieren intercambiar información y opiniones sobre la v",
    "fecha": "2026-08-14"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "fresnillo",
+   "razon": "fraseo calcado de apodaca: \"lo que la convierte en la segunda\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "general-rodriguez-argentina",
+   "razon": "fraseo calcado de escobar: \"es un partido de la provincia de\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "rechazada tras corrección: La ficha menciona que el distrito de La Molina limita al sur con el distrito de Villa María del Triunfo y al este con el distrito de Pachacámac, pero no menciona que limita al noroeste con el distrito",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "santa-cruz-barillas",
+   "razon": "rechazada tras corrección: La zona mantiene vivas sus costumbres y la vida comunitaria se refleja en sus actividades cotidianas.; Se discuten temas como el mercado semanal, las festividades tradicionales y los proyectos comunit",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "moran",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "alto-amazonas",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "mariara",
+   "razon": "rechazada tras corrección: La ficha menciona la sede de la administración local y servicios públicos y comerciales, lo que no está respaldado por la fuente.; La ficha describe la posición geográfica y la actividad urbana, lo qu",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "ayabaca",
+   "razon": "rechazada tras corrección: Se repite la información de que Ayabaca se ubica al sureste de la ciudad fronteriza de Macará en Ecuador; Se dice que la ciudad se encuentra 'al surede' de la ciudad fronteriza de Macará, cuando en re",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "san-quintin",
+   "razon": "rechazada tras corrección: La cabecera del municipio es la localidad de San Quintín, que concentra la actividad administrativa.; El municipio forma parte de la región más meridional de la península, lo que lo sitúa en una posic",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "la-paz-centro-el-salvador",
+   "razon": "rechazada tras corrección: La ficha dice que La Paz Centro está en el departamento de La Paz, El Salvador, pero la fuente dice que está en el departamento de León, en la República de Nicaragua.; La ficha describe áreas rurales ",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "la-asuncion",
+   "razon": "rechazada tras corrección: La ficha da por cierto que la ciudad está 'situada' en la Isla de Margarita, pero la fuente dice 'ubicada'. Aunque es un error menor, es preferible no marcarlo. Sin embargo, sí hay un problema: la fic",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "catacamas",
+   "razon": "fraseo calcado de tocuyito: \"la zona creando un espacio de intercambio\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "heroica-guaymas",
+   "razon": "fraseo calcado de maipu-chile: \"en la sala de chat los participantes\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "chimaltenango",
+   "razon": "rechazada tras corrección: La ficha menciona 'la zona central del país' sin que la fuente lo respalde; La ficha menciona 'danzas y celebraciones' sin que la fuente lo respalde; La ficha menciona 'eventos locales' y 'vida cotidi",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "departamento-del-vichada",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "tecpan-guatemala",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Unexpected token ']', ...\"fuente.\",\n]}\" is not valid JSON",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "carora",
+   "razon": "rechazada tras corrección: El material de origen no menciona la actividad agrícola ni el tejido social como características de Carora.; No hay evidencia en el material de origen de la arquitectura colonial y moderna en Carora.;",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "lujan",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "partido-de-lujan",
+   "razon": "rechazada tras corrección: La ficha menciona que la basílica figura en la imagen aérea de la municipalidad, pero la fuente solo menciona la imagen aérea del río y la basílica de Luján sin especificar que la basílica esté en la ",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "campana-argentina",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "socopo",
+   "razon": "rechazada tras corrección: La ficha menciona 'residentes, comerciantes y personas interesadas en la zona' sin que la fuente respalde esta información específica sobre quién participa en la sala de chat.; La ficha describe la co",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "pachacamac",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "retalhuleu",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "zarate",
+   "razon": "rechazada tras corrección: La presencia del río Paraná brinda un entorno natural que influye en la vida de los habitantes, mientras que la conexión vial con Buenos Aires y Rosario facilita el intercambio comercial y cultural.; ",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "zarate-argentina",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "ixcan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 221 (line 1 column 222)",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "malacatan",
+   "razon": "inventa cuándo se anima la sala",
+   "fecha": "2026-08-15"
+  },
+  {
+   "slug": "acambaro",
+   "razon": "rechazada tras corrección: la frase 'punto de encuentro virtual' es una muletilla de IA prohibida",
+   "fecha": "2026-08-15"
   }
  ]
 }

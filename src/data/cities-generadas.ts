@@ -2732,5 +2732,190 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de Comitán de Domínguez, la sala donde residentes y visitantes conversan sobre la ciudad conocida como Comitán de las Flores y su historia.",
     "aboutTitle": "Comitán de las Flores y su legado histórico",
     "about": "Comitán de Domínguez es una ciudad mexicana ubicada en el estado de Chiapas y capital del municipio del mismo nombre. Tradicionalmente conocida como Comitán de las Flores, lleva el apellido Domínguez en honor a Belisario Domínguez Palencia, mártir de la Libre Expresión y originario de esta ciudad. En la sala de chat de Comitán de Domínguez los usuarios comparten información sobre la vida cotidiana, eventos locales y cualquier tema de interés para la comunidad. Participan residentes, estudiantes y visitantes que consultan sobre servicios municipales, comentan la historia de la localidad o intercambian opiniones sobre cultura, educación y turismo. El tono de la conversación se mantiene respetuoso y abierto, y también se abordan cuestiones relacionadas con empleo y desarrollo económico de la zona. En la conversación también aparecen preguntas sobre salud pública, transporte, gastronomía típica y tradiciones locales. Los miembros suelen intercambiar recomendaciones de lugares para comer, datos sobre festividades y consejos para quienes se trasladan a la ciudad."
+  },
+  {
+    "slug": "partido-de-tandil",
+    "name": "Partido de Tandil",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 218,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tandil",
+      "ayacucho-buenos-aires",
+      "azul",
+      "benito-juarez",
+      "olavarria",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Partido de Tandil: espacio de conversación para residentes y visitantes del partido fundado el 4 de abril de 1823.",
+    "aboutTitle": "Feria del Libro 2026 y la fundación del Partido de Tandil",
+    "about": "El Partido de Tandil es una de las 135 divisiones administrativas de la provincia de Buenos Aires. Se fundó el 4 de abril de 1823 bajo la autoridad del Gobernador Brigadier Martín Rodríguez y pertenece a la Quinta Sección Electoral de la provincia. Además de su historia, el municipio gestiona actividades como la Feria del Libro 2026 y el Día de las Infancias en Independiente, y mantiene proyectos de seguridad vial en la Ruta Nacional 226. La municipalidad dispone de una cámara en vivo, una guía de trámites y servicios digitales como factura on‑line, licencias de conducir y habilitaciones comerciales.\n\nEn la sala de chat de Partido de Tandil se intercambian opiniones sobre la vida cotidiana, eventos locales como la Feria del Libro y la programación cultural, así como preguntas sobre trámites municipales y servicios públicos. Participan residentes, estudiantes, emprendedores y visitantes que buscan información actualizada y compartir experiencias sobre la comunidad tandilense."
+  },
+  {
+    "slug": "iguala",
+    "name": "Iguala de la Independencia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 247,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ixtapan-de-la-sal",
+      "emiliano-zapata-edomex",
+      "cuernavaca",
+      "tenango-de-arista",
+      "chilpancingo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Iguala de la Independencia: conecta con residentes de la ciudad ubicada a 190 km de la Ciudad de México, en un valle rodeado por nueve montañas.",
+    "aboutTitle": "Iguala de la Independencia, valle rodeado por nueve montañas",
+    "about": "Iguala de la Independencia es una ciudad mexicana ubicada en la región norte del estado de Guerrero, a 190 kilómetros de la Ciudad de México. Es la cabecera del municipio homónimo y se sitúa en un valle rodeado por nueve montañas, lo que le confiere un entorno natural distintivo dentro del estado.\n\nEn la sala de chat de Iguala de la Independencia los usuarios comparten noticias locales, eventos culturales y opiniones sobre la vida cotidiana en la ciudad. Participan residentes, estudiantes y personas vinculadas al municipio que buscan intercambiar información, resolver dudas y mantener el vínculo con su comunidad. La conversación suele girar en torno a temas como la actividad del mercado, la gestión municipal y las tradiciones que se celebran en la zona. Además, se discuten oportunidades de empleo, proyectos de desarrollo urbano y la forma en que la administración local comunica sus servicios a través de la página oficial."
+  },
+  {
+    "slug": "pochuta",
+    "name": "Pochuta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 238,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "antigua-guatemala",
+      "escuintla",
+      "mazatenango",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Pochuta, la sala para residentes y amigos de San Miguel Pochuta, municipio de Chimaltenango con 10.764 habitantes según el censo 2018.",
+    "aboutTitle": "San Miguel Pochuta y su población de 10.764 habitantes",
+    "about": "Pochuta, también llamado San Miguel Pochuta, es un municipio del departamento de Chimaltenango en la República de Guatemala. Según el censo oficial de 2018, cuenta con 10.764 habitantes.\n\nEn la sala de chat de Pochuta los residentes y quienes tienen vínculo con el municipio intercambian información sobre la vida cotidiana, eventos locales, noticias municipales y temas de interés común. Los participantes suelen comentar sobre la historia del municipio, las tradiciones que se mantienen y los retos que enfrenta la comunidad. También se comparten avisos de servicios públicos, oportunidades de empleo y eventos culturales cuando se conocen. La conversación se mantiene abierta para que cualquier persona interesada en la comunidad pueda participar, compartir recuerdos, preguntar sobre servicios o simplemente charlar con vecinos. El ambiente es informal y está orientado a fortalecer los lazos entre los habitantes y a mantener viva la identidad del municipio."
+  },
+  {
+    "slug": "quibor",
+    "name": "Quíbor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Lara",
+    "regionSlug": "lara",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barquisimeto",
+      "acarigua",
+      "guanare",
+      "san-felipe",
+      "trujillo-venezuela",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Quíbor: conecta con residentes de la capital del municipio Jiménez, una Ciudad Artesanal de Venezuela con 110 536 habitantes.",
+    "aboutTitle": "Quíbor, la Ciudad Artesanal del municipio Jiménez",
+    "about": "La sala de chat de Quíbor reúne a usuarios interesados en la vida de la ciudad venezolana que funciona como capital del municipio Jiménez, en el estado Lara. Con 110 536 habitantes, Quíbor representa la mitad de la población del municipio y se reconoce oficialmente como Ciudad Artesanal de Venezuela, destacando la tradición de su artesanía. Además, la ciudad es la sede de la parroquia Juan Bautista Rodríguez y forma parte del área metropolitana de la Gran Barquisimeto, lo que le confiere una posición estratégica dentro de la región. En la conversación los participantes comparten información, preguntas y experiencias relacionadas con la historia, la administración local, la actividad artesanal y el entorno de Quíbor, contribuyendo al conocimiento mutuo sobre la ciudad y sus vínculos con el resto de Lara. La conversación permite conocer mejor la dinámica social y económica de Quíbor, así como su relación con el resto del estado Lara."
+  },
+  {
+    "slug": "tinaquillo",
+    "name": "Tinaquillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 147,
+    "votes": 249,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Cojedes",
+    "regionSlug": "cojedes",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valencia-venezuela",
+      "san-felipe",
+      "puerto-cabello",
+      "maracay",
+      "san-juan-de-los-morros",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Tinaquillo, la sala de conversación para residentes y visitantes de la ciudad situada a 420 m s.n.m. a orillas del río Tamanaco, con 124.919 habitantes.",
+    "aboutTitle": "Río Tamanaco y la altiplanicie de Tinaquillo",
+    "about": "Tinaquillo es la capital del Municipio Tinaquillo, en el estado Cojedes, Venezuela. Fue fundada bajo el nombre de Nuestra Señora del Socorro de Tinaquillo; la fecha exacta de su fundación sigue siendo objeto de debate entre los historiadores, aunque el llamado a “Recogimiento a Pueblo” se registró el 25 de abril de 1760. La ciudad cuenta con 124.919 habitantes y se sitúa en una altiplanicie a 420 metros sobre el nivel del mar, a orillas del río Tamanaco. La Troncal 005 la enlaza con Valencia y Tinaco, facilitando el tránsito de personas y mercancías y contribuyendo al desarrollo local. En la sala de chat de Tinaquillo los usuarios pueden conversar sobre la historia, la geografía y la vida cotidiana del municipio, intercambiando información y manteniéndose al día con los temas de interés local. Los participantes pueden compartir experiencias, plantear dudas y conocer opiniones de otros habitantes y visitantes. El espacio está abierto a quien desee conocer más sobre la identidad y el desarrollo de Tinaquillo."
+  },
+  {
+    "slug": "distrito-de-huaral",
+    "name": "Distrito de Huaral",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 136,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huacho",
+      "callao",
+      "peru",
+      "lima",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Distrito de Huaral: conecta con vecinos que limitan al oeste con Chancay, al este con Ihuarí y Sumbilca, al norte con Huaura y al sur con Aucallama.",
+    "aboutTitle": "Límites de Huaral con Chancay, Ihuarí y Sumbilca",
+    "about": "El distrito de Huaral es uno de los doce que forman la provincia homónima, situada en el departamento de Lima, Perú. Limita al oeste con el distrito de Chancay, al este con los distritos de Ihuarí y Sumbilca, al norte con la provincia de Huaura y al sur con el distrito de Aucallama. En la sala de chat de Distrito de Huaral los residentes y personas interesadas pueden intercambiar información sobre temas locales: eventos comunitarios, servicios municipales, actividades del mercado y cuestiones de seguridad. Participan vecinos, comerciantes y visitantes que buscan compartir experiencias cotidianas, resolver dudas y mantenerse informados sobre la vida en el distrito. La conversación también abarca temas como educación, salud, transporte y cultura local, permitiendo a los participantes estar al día de las iniciativas y proyectos que se desarrollan en el distrito. Además, la sala facilita la coordinación entre vecinos para la organización de actividades vecinales y el apoyo mutuo en situaciones cotidianas."
   }
 ];
