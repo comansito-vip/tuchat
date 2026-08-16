@@ -465,3 +465,43 @@ Groq: HT
 [2026-08-15T02:14:23.428Z]   ✓ distrito-de-huaral (Perú) — escribió Cerebras, verificó NVIDIA
 [2026-08-15T02:14:23.428Z] demasiados intentos fallidos, se corta el lote
 [2026-08-15T02:14:23.436Z] publicadas 6 salas · acumuladas 98 · quedan 2847 en cola
+[2026-08-16T01:30:06.225Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-08-16T01:30:06.233Z] cola: 2842 pendientes · lote de hoy: 12
+[2026-08-16T01:30:07.017Z]   ✗ municipio-de-neuquen: sin fuente utilizable
+[2026-08-16T01:30:43.093Z]   ✗ la-molina: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-16T01:30:44.109Z]   ✗ zarate-provincia-de-buenos-aires: sin fuente utilizable
+[2026-08-16T01:31:16.469Z]   ✓ moran (Venezuela) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:32:16.345Z]   ✗ ayabaca: rechazada tras corrección: La ficha dice que Ayabaca está al norte de Perú, cuando la fuente no menciona la ubicación geográfica general de Ayabaca en Perú, solo su relación con Piura y Macará
+[2026-08-16T01:32:54.173Z]   ✗ san-quintin: fraseo calcado de marino: "mantenerse al dia con lo que ocurre"
+[2026-08-16T01:35:41.861Z]   ✗ la-paz-centro-el-salvador: rechazada tras corrección: La ficha menciona que La Paz Centro está ubicado en el departamento de León en Nicaragua, pero el título y la categoría indican que es un municipio del departamento de La Paz en El Salvador. Esto es u
+[2026-08-16T01:35:44.158Z]   ✗ la-asuncion: fraseo calcado de iguala: "que buscan intercambiar informacion resolver dudas y"
+[2026-08-16T01:36:22.405Z]   ✓ catacamas (Honduras) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:36:41.044Z]   ✗ heroica-guaymas: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-16T01:38:08.773Z]   ✗ chimaltenango: rechazada tras corrección: La ficha menciona que el municipio se encuentra a una altitud de 1 800 m sobre el nivel del mar, cuando en realidad el material de origen dice 1800 m s. n. m., que es una unidad de medida más precisa.
+[2026-08-16T01:38:09.893Z]   ✗ departamento-del-vichada: es una división administrativa, no una localidad
+[2026-08-16T01:38:49.898Z]   ✗ tecpan-guatemala: rechazada tras corrección: El material de origen no menciona la distancia a la Ciudad de Guatemala en el párrafo sobre la localidad, sino en el párrafo sobre la ubicación del municipio. La ficha combina información de diferente
+[2026-08-16T01:40:35.679Z]   ✗ carora: rechazada tras corrección: La ficha menciona que la ciudad conserva tradiciones vinculadas a su entorno, pero la fuente no respalda esta afirmación.; La ficha también menciona la organización de fiestas tradicionales, la gestió
+[2026-08-16T01:41:05.142Z]   ✗ lujan: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-16T01:41:13.314Z]   ✗ partido-de-lujan: fraseo calcado de partido-de-tandil: "es una de las 135 divisiones administrativas"
+[2026-08-16T01:41:35.672Z]   ✗ campana-argentina: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-08-16T01:42:10.310Z]   ✓ socopo (Venezuela) — escribió NVIDIA, verificó Cerebras
+[2026-08-16T01:42:54.663Z]   ✗ pachacamac: fraseo calcado de ate: "es uno de los cuarenta y tres"
+[2026-08-16T01:42:54.664Z]   ✗ retalhuleu: es una división administrativa, no una localidad
+[2026-08-16T01:43:29.603Z]   ✗ zarate: rechazada tras corrección: La ficha menciona que la ciudad se ubica a orillas del río Paraná, lo que le confiere una posición estratégica para el transporte fluvial y la actividad portuaria, pero el material de origen solo menc
+[2026-08-16T01:43:35.567Z]   ✗ zarate-argentina: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-08-16T01:43:42.572Z]   ✓ ixcan (Guatemala) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:44:42.391Z]   ✗ malacatan: rechazada tras corrección: La ficha menciona 'sobre el nivel del mar' que no está en la fuente, aunque la fuente menciona 's. n. m.' que podría ser una abreviatura de 'sobre el nivel del mar'.; La ficha repite información sobre
+[2026-08-16T01:46:03.279Z]   ✗ acambaro: rechazada tras corrección: La ficha menciona la 'feria agrícola', que no está en la fuente; La ficha menciona la 'gastronomía regional', que no está en la fuente; La ficha menciona la 'historia prehispánica' como tema de conver
+[2026-08-16T01:46:18.509Z]   ✓ melipilla (Chile) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:46:41.040Z]   ✗ usulutan-norte: fraseo calcado de santa-catarina: "jovenes y adultos que buscan intercambiar opiniones"
+[2026-08-16T01:46:59.552Z]   ✓ samana-rd (República Dominicana) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:49:22.745Z]   ✗ joyabaj: rechazada tras corrección: La ficha menciona que 'La denominación de Santa María Joyabaj refleja la tradición católica introducida por los religiosos en aquel periodo.', lo cual no está respaldado por la fuente original.
+[2026-08-16T01:49:26.955Z]   ✓ la-union-norte (El Salvador) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:50:00.356Z]   ✗ morales-guatemala: fraseo calcado de distrito-de-huaral: "los residentes y personas interesadas pueden intercambiar"
+[2026-08-16T01:51:12.769Z]   ✗ cotoca: rechazada tras corrección: La ficha afirma que Cotoca comparte límites geográficos con la zona urbana de Santa Cruz, aunque no hay evidencia en el material de origen que respalde esta afirmación.; La ficha menciona que Cotoca a
+[2026-08-16T01:52:52.293Z]   ✓ distrito-de-paita (Perú) — escribió Cerebras, verificó Gemini
+[2026-08-16T01:53:25.690Z]   ✓ lo-barnechea (Chile) — escribió Cerebras, verificó NVIDIA
+[2026-08-16T01:53:35.334Z]   ✗ yautepec: fraseo calcado de heroica-matamoros: "los usuarios comparten informacion sobre tramites municipales"
+[2026-08-16T01:53:35.687Z]   ✗ tarimbaro: sin fuente utilizable
+[2026-08-16T01:53:35.687Z] demasiados intentos fallidos, se corta el lote
+[2026-08-16T01:53:35.695Z] publicadas 9 salas · acumuladas 107 · quedan 2833 en cola

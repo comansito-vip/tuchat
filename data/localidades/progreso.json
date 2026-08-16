@@ -98,7 +98,16 @@
   "pochuta",
   "quibor",
   "tinaquillo",
-  "distrito-de-huaral"
+  "distrito-de-huaral",
+  "moran",
+  "catacamas",
+  "socopo",
+  "ixcan",
+  "melipilla",
+  "samana-rd",
+  "la-union-norte",
+  "distrito-de-paita",
+  "lo-barnechea"
  ],
  "descartadas": [
   {
@@ -1275,6 +1284,141 @@
    "slug": "acambaro",
    "razon": "rechazada tras corrección: la frase 'punto de encuentro virtual' es una muletilla de IA prohibida",
    "fecha": "2026-08-15"
+  },
+  {
+   "slug": "municipio-de-neuquen",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "la-molina",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "ayabaca",
+   "razon": "rechazada tras corrección: La ficha dice que Ayabaca está al norte de Perú, cuando la fuente no menciona la ubicación geográfica general de Ayabaca en Perú, solo su relación con Piura y Macará",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "san-quintin",
+   "razon": "fraseo calcado de marino: \"mantenerse al dia con lo que ocurre\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "la-paz-centro-el-salvador",
+   "razon": "rechazada tras corrección: La ficha menciona que La Paz Centro está ubicado en el departamento de León en Nicaragua, pero el título y la categoría indican que es un municipio del departamento de La Paz en El Salvador. Esto es u",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "la-asuncion",
+   "razon": "fraseo calcado de iguala: \"que buscan intercambiar informacion resolver dudas y\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "heroica-guaymas",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "chimaltenango",
+   "razon": "rechazada tras corrección: La ficha menciona que el municipio se encuentra a una altitud de 1 800 m sobre el nivel del mar, cuando en realidad el material de origen dice 1800 m s. n. m., que es una unidad de medida más precisa.",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "departamento-del-vichada",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "tecpan-guatemala",
+   "razon": "rechazada tras corrección: El material de origen no menciona la distancia a la Ciudad de Guatemala en el párrafo sobre la localidad, sino en el párrafo sobre la ubicación del municipio. La ficha combina información de diferente",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "carora",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad conserva tradiciones vinculadas a su entorno, pero la fuente no respalda esta afirmación.; La ficha también menciona la organización de fiestas tradicionales, la gestió",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "lujan",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "partido-de-lujan",
+   "razon": "fraseo calcado de partido-de-tandil: \"es una de las 135 divisiones administrativas\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "campana-argentina",
+   "razon": "fraseo calcado de florencio-varela-argentina: \"es uno de los 135 partidos de\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "pachacamac",
+   "razon": "fraseo calcado de ate: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "retalhuleu",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "zarate",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad se ubica a orillas del río Paraná, lo que le confiere una posición estratégica para el transporte fluvial y la actividad portuaria, pero el material de origen solo menc",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "zarate-argentina",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "malacatan",
+   "razon": "rechazada tras corrección: La ficha menciona 'sobre el nivel del mar' que no está en la fuente, aunque la fuente menciona 's. n. m.' que podría ser una abreviatura de 'sobre el nivel del mar'.; La ficha repite información sobre",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "acambaro",
+   "razon": "rechazada tras corrección: La ficha menciona la 'feria agrícola', que no está en la fuente; La ficha menciona la 'gastronomía regional', que no está en la fuente; La ficha menciona la 'historia prehispánica' como tema de conver",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "usulutan-norte",
+   "razon": "fraseo calcado de santa-catarina: \"jovenes y adultos que buscan intercambiar opiniones\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "joyabaj",
+   "razon": "rechazada tras corrección: La ficha menciona que 'La denominación de Santa María Joyabaj refleja la tradición católica introducida por los religiosos en aquel periodo.', lo cual no está respaldado por la fuente original.",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "morales-guatemala",
+   "razon": "fraseo calcado de distrito-de-huaral: \"los residentes y personas interesadas pueden intercambiar\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "cotoca",
+   "razon": "rechazada tras corrección: La ficha afirma que Cotoca comparte límites geográficos con la zona urbana de Santa Cruz, aunque no hay evidencia en el material de origen que respalde esta afirmación.; La ficha menciona que Cotoca a",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "yautepec",
+   "razon": "fraseo calcado de heroica-matamoros: \"los usuarios comparten informacion sobre tramites municipales\"",
+   "fecha": "2026-08-16"
+  },
+  {
+   "slug": "tarimbaro",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-16"
   }
  ]
 }

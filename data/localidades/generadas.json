@@ -2907,5 +2907,272 @@
   "intro": "Chat de Distrito de Huaral: conecta con vecinos que limitan al oeste con Chancay, al este con Ihuarí y Sumbilca, al norte con Huaura y al sur con Aucallama.",
   "aboutTitle": "Límites de Huaral con Chancay, Ihuarí y Sumbilca",
   "about": "El distrito de Huaral es uno de los doce que forman la provincia homónima, situada en el departamento de Lima, Perú. Limita al oeste con el distrito de Chancay, al este con los distritos de Ihuarí y Sumbilca, al norte con la provincia de Huaura y al sur con el distrito de Aucallama. En la sala de chat de Distrito de Huaral los residentes y personas interesadas pueden intercambiar información sobre temas locales: eventos comunitarios, servicios municipales, actividades del mercado y cuestiones de seguridad. Participan vecinos, comerciantes y visitantes que buscan compartir experiencias cotidianas, resolver dudas y mantenerse informados sobre la vida en el distrito. La conversación también abarca temas como educación, salud, transporte y cultura local, permitiendo a los participantes estar al día de las iniciativas y proyectos que se desarrollan en el distrito. Además, la sala facilita la coordinación entre vecinos para la organización de actividades vecinales y el apoyo mutuo en situaciones cotidianas."
+ },
+ {
+  "slug": "moran",
+  "name": "Morán",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 116,
+  "votes": 188,
+  "activity": "Media",
+  "parentName": "Venezuela",
+  "parentSlug": "venezuela",
+  "provincia": "Lara",
+  "regionSlug": "lara",
+  "channels": [
+   "venezuela",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "barquisimeto",
+   "trujillo-venezuela",
+   "acarigua",
+   "guanare",
+   "valera",
+   "venezuela",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Morán, la sala para conversar sobre el municipio del sur de Lara, que limita con Torres al norte y cubre una superficie de 2 231 km².",
+  "aboutTitle": "Morán: municipio de 2 231 km² en el sur de Lara",
+  "about": "Morán es un municipio situado al sur del estado Lara, en Venezuela. Limita al norte con el municipio Torres, al sur con el estado Portuguesa, al este con los municipios Andrés Eloy Blanco y Jiménez y al oeste con el estado Trujillo. Con una superficie de 2 231 km², su capital es la ciudad de El Tocuyo. Según el último censo, el municipio alberga 167 876 habitantes.\n\nEn la sala de chat de Morán los residentes, estudiantes y personas vinculadas a la zona comparten información sobre la vida cotidiana, eventos locales, la actividad del mercado y cuestiones relacionadas con la geografía y la historia del municipio. Se discuten temas como la agricultura, la cultura local y la movilidad entre los municipios limítrofes, y participan tanto habitantes de El Tocuyo como de los pueblos circundantes. También se tratan temas de educación, salud y transporte, esenciales para la comunidad local. Los participantes intercambian experiencias y opiniones sobre la vida cotidiana."
+ },
+ {
+  "slug": "catacamas",
+  "name": "Catacamas",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 130,
+  "votes": 217,
+  "activity": "Media",
+  "parentName": "Honduras",
+  "parentSlug": "honduras",
+  "provincia": "Departamento de Olancho",
+  "regionSlug": "departamento-de-olancho",
+  "channels": [
+   "honduras",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "juticalpa",
+   "danli",
+   "honduras",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Catacamas, la sala para conversar sobre el municipio del departamento de Olancho, Honduras, donde se comparten temas locales y cotidianos.",
+  "aboutTitle": "Catacamas: municipio de Olancho y su mercado local",
+  "about": "Catacamas es un municipio del departamento de Olancho, en la República de Honduras. En la página web oficial del municipio aparece el título “Tierra de cielos abiertos”, que forma parte de la presentación institucional. El directorio municipal enumera una amplia gama de comercios y servicios, entre los que se incluyen mercados, centros de salud, colegios, agencias de viajes, tiendas de alimentos, talleres mecánicos, instituciones financieras y establecimientos de ocio. La actividad económica del municipio está ligada al sector agrícola y a la oferta de servicios para la población local. En la sala de chat de Catacamas los usuarios intercambian información sobre eventos, oportunidades laborales, servicios municipales y cuestiones cotidianas. Participan residentes, comerciantes y visitantes que buscan consultar datos, compartir opiniones o mantenerse al día con las novedades del municipio. El espacio permite mantener el contacto con la comunidad y conocer de primera mano los cambios y actividades que se desarrollan en la zona."
+ },
+ {
+  "slug": "socopo",
+  "name": "Socopó",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 141,
+  "votes": 246,
+  "activity": "Media",
+  "parentName": "Venezuela",
+  "parentSlug": "venezuela",
+  "provincia": "Estado Barinas",
+  "regionSlug": "estado-barinas",
+  "channels": [
+   "venezuela",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "merida-venezuela",
+   "barinas",
+   "el-vigia",
+   "venezuela",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Sala de chat de Socopó, un importante centro financiero y económico de Venezuela, situada en el estado Barinas y capital del municipio Antonio José de Sucre.",
+  "aboutTitle": "Centro financiero y económico de Barinas",
+  "about": "Socopó es una ciudad venezolana, capital del municipio Antonio José de Sucre, situado en el estado Barinas. Dentro de la región se reconoce como un importante centro financiero y económico del país, lo que genera un flujo constante de actividades comerciales y profesionales. La sala de chat de Socopó reúne a usuarios que desean intercambiar opiniones y experiencias. En ella se tratan temas vinculados a la economía y la finanza, desde la evolución de los mercados locales hasta la gestión de negocios familiares. También se comparten reflexiones sobre la vida cotidiana en la ciudad, lo que permite a los participantes comparar su día a día con el de otros residentes. Además, la conversación abarca la cultura y la historia de Socopó, facilitando el intercambio de recuerdos, tradiciones y datos históricos. La comunidad está abierta a quienes buscan hacer amigos, ampliar su red de contactos o simplemente conversar con gente nueva interesada en la zona."
+ },
+ {
+  "slug": "ixcan",
+  "name": "Ixcán",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 111,
+  "votes": 185,
+  "activity": "Media",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "provincia": "Departamento de Quiché",
+  "regionSlug": "departamento-de-quiche",
+  "channels": [
+   "guatemala",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "coban",
+   "huehuetenango",
+   "guatemala",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Ixcán, municipio de 1.575 km² en la Franja Transversal del Norte de Guatemala, con sede en Playa Grande. Conecta con su comunidad.",
+  "aboutTitle": "Ixcán, municipio de la Franja Transversal del Norte",
+  "about": "Ixcán es un municipio del norte del Departamento de Quiché, en la República de Guatemala. Se ubica dentro de la zona petrolera conocida como la Franja Transversal del Norte y ocupa una superficie de 1.575 kilómetros cuadrados. Su cabecera municipal es Playa Grande, y la mayor parte de su población pertenece a grupos étnicos indígenas que se asentaron tras la creación de la Franja Transversal del Norte en 1970. Antes de esa fecha la zona era considerada inhóspita; durante el establecimiento de los límites con México entre 1882 y 1896 se registraron cientos de muertes entre los trabajadores de la Comisión Guatemalteca de Límites, reflejo de las duras condiciones de vida.\n\nEn la sala de chat de Ixcán los usuarios comparten información sobre la vida cotidiana, costumbres locales y eventos comunitarios, así como dudas sobre la historia y la geografía del municipio. Participan residentes de Playa Grande, personas de otras comunidades del departamento de Quiché y visitantes interesados en la cultura indígena de la región. La conversación suele girar en torno a la agricultura, la identidad cultural y los retos que plantea el entorno rural, ofreciendo un espacio para el intercambio de experiencias y la colaboración entre los miembros."
+ },
+ {
+  "slug": "melipilla",
+  "name": "Melipilla",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 130,
+  "votes": 211,
+  "activity": "Media",
+  "parentName": "Chile",
+  "parentSlug": "chile",
+  "provincia": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "channels": [
+   "chile",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "san-antonio-chile",
+   "chile",
+   "santiago-de-chile",
+   "rancagua",
+   "vina-del-mar",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Melipilla, la sala para residentes y visitantes de la comuna capital de la provincia, situada al suroeste de Santiago entre la Cordillera de la Costa.",
+  "aboutTitle": "Melipilla, capital provincial entre la Cordillera de la Costa",
+  "about": "Melipilla es una de las 52 comunas de la Región Metropolitana de Santiago, siendo la ciudad capital de la provincia de Melipilla. Situada al suroeste de Santiago de Chile, entre la Cordillera de la Costa, es una de las ciudades satélite más importantes para el Gran Santiago. En la sala de chat de Melipilla los usuarios comparten información sobre la vida cotidiana, eventos locales, cuestiones de movilidad y oportunidades laborales. Participan vecinos, estudiantes y personas que trabajan en la zona, intercambiando opiniones sobre la oferta comercial, la educación y la seguridad. Los participantes también tratan temas de salud, deporte, cultura y ocio, compartiendo avisos de actividades y recomendaciones. La conversación suele incluir referencias a la cercanía con la Cordillera de la Costa y a la relación con el Gran Santiago, lo que permite contextualizar preguntas sobre transporte y servicios. La sala está abierta tanto a residentes como a personas interesadas en la zona, sin requisitos de registro."
+ },
+ {
+  "slug": "samana-rd",
+  "name": "Samaná",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 139,
+  "votes": 232,
+  "activity": "Media",
+  "parentName": "República Dominicana",
+  "parentSlug": "republica-dominicana",
+  "provincia": "Samaná",
+  "regionSlug": "samana",
+  "channels": [
+   "republica_dominicana",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "san-pedro-de-macorris",
+   "higuey",
+   "la-romana",
+   "santo-domingo-este",
+   "san-francisco-de-macoris",
+   "republica-dominicana",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Samaná: conecta con usuarios del municipio dominicano Santa Bárbara de Samaná, situado en la provincia de Samaná.",
+  "aboutTitle": "Municipio de Santa Bárbara de Samaná en la provincia homónima",
+  "about": "Santa Bárbara de Samaná, conocido simplemente como Samaná, es un municipio de la República Dominicana situado en la provincia de Samaná. La sala de chat de Samaná permite a residentes, visitantes y personas interesadas intercambiar opiniones y experiencias vinculadas a la zona. En el espacio se discuten temas cotidianos, actividades locales, cuestiones de turismo, pesca, cultura y cualquier asunto relevante para la comunidad. Los participantes utilizan español neutro y evitan frases promocionales o imperativos, manteniendo un tono directo y concreto. La conversación se centra en datos verificables y en vivencias propias de quienes conocen la localidad. La comunidad virtual refleja la diversidad de sus miembros, ofreciendo un lugar donde se comparten información, se hacen preguntas y se debate sobre la realidad de Samaná. El intercambio es abierto y respetuoso, sin ánimo comercial. Se comparten noticias locales, eventos y opiniones sobre la vida en la zona, siempre con claridad y precisión."
+ },
+ {
+  "slug": "la-union-norte",
+  "name": "La Unión Norte",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 129,
+  "votes": 221,
+  "activity": "Media",
+  "parentName": "El Salvador",
+  "parentSlug": "el-salvador",
+  "provincia": "Departamento de La Unión",
+  "regionSlug": "departamento-de-la-union",
+  "channels": [
+   "el_salvador",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "san-miguel",
+   "usulutan",
+   "choluteca",
+   "honduras",
+   "tegucigalpa",
+   "el-salvador",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de La Unión Norte, municipio creado el 13 de junio de 2023 y con 107.540 habitantes, ubicado junto al Río Goascorán, conecta a residentes y visitantes.",
+  "aboutTitle": "Río Goascorán y la vida en La Unión Norte",
+  "about": "La Unión Norte es uno de los 44 municipios de El Salvador, situado en la zona norte del Departamento de La Unión. Limita al norte y al este con la República de Honduras por el Río Goascorán, al sur con La Unión Sur y al oeste con los municipios de Morazán Norte y Morazán Sur. Fue creado el 13 de junio de 2023 y agrupa diez distritos: Lislique, Nueva Esparta, Polorós, Concepción de Oriente, Anamorós, El Sauce, Santa Rosa de Lima, Bolívar, San José y Pasaquina. Con 107.540 habitantes, ocupa el puesto número 22 a nivel nacional en población.\n\nEn la sala de chat de La Unión Norte los usuarios comentan la vida cotidiana del municipio, el comercio fronterizo, eventos locales y la relación con la comunidad hondureña colindante. Participan residentes, jóvenes y adultos que buscan intercambiar información sobre servicios municipales, actividades culturales y noticias del entorno, así como personas de otras regiones interesadas en conocer la realidad de este municipio fronterizo."
+ },
+ {
+  "slug": "distrito-de-paita",
+  "name": "Distrito de Paita",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 122,
+  "votes": 201,
+  "activity": "Media",
+  "parentName": "Perú",
+  "parentSlug": "peru",
+  "provincia": "Departamento de Piura",
+  "regionSlug": "departamento-de-piura",
+  "channels": [
+   "peru",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "piura",
+   "sullana",
+   "talara",
+   "peru",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Distrito de Paita: conecta con residentes del distrito que limita al oeste con el océano Pacífico y al norte con Colán, en Piura, Perú.",
+  "aboutTitle": "Límites del Distrito de Paita: Pacífico, Colán y La Huaca",
+  "about": "El distrito de Paita es uno de los siete distritos que forman la provincia homónima, situado en el departamento de Piura, en el norte del Perú. Limita por el norte con el distrito de Colán, por el este con el distrito de La Huaca, por el sur con la provincia de Sechura y por el oeste con el océano Pacífico, lo que le confiere una posición estratégica frente al mar.\n\nEn la sala de chat de Distrito de Paita los usuarios comentan temas cotidianos de la zona: actividades portuarias, pesca, comercio local y eventos comunitarios. Participan habitantes, comerciantes y visitantes que buscan intercambiar información, resolver dudas y compartir opiniones sobre la vida en este distrito costero."
+ },
+ {
+  "slug": "lo-barnechea",
+  "name": "Lo Barnechea",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 124,
+  "votes": 208,
+  "activity": "Media",
+  "parentName": "Chile",
+  "parentSlug": "chile",
+  "provincia": "Región Metropolitana de Santiago",
+  "regionSlug": "region-metropolitana-de-santiago",
+  "channels": [
+   "chile",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "chile",
+   "santiago-de-chile",
+   "melipilla",
+   "quillota",
+   "rancagua",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chat de Lo Barnechea: conecta con vecinos de la comuna que cubre el 48 % de la superficie de la provincia de Santiago y comparte la vida local.",
+  "aboutTitle": "Lo Barnechea: la comuna que cubre el 48 % de la provincia de Santiago",
+  "about": "Lo Barnechea es una comuna situada en el sector nororiente de la provincia de Santiago, en la Región Metropolitana de Chile. Limita al norte con Los Andes de la región de Valparaíso, al oeste con Colina, al suroeste con Vitacura y Huechuraba, al sur con Las Condes y al este con San José de Maipo. La zona se desarrolló alrededor del antiguo poblado rural de Lo Barnechea y abarca un 48 % de la superficie de la provincia, albergando barrios como La Dehesa, Los Trapenses, El Arrayán, el Pueblo de Lo Barnechea, La Ermita y el Cerro 18. En la sala de chat de Lo Barnechea los participantes conversan sobre la vida cotidiana de la comuna: actividades culturales, eventos de naturaleza, servicios municipales, oportunidades de emprendimiento local y temas de vecindario. La comunidad es heterogénea, con familias de ingresos altos y medio‑altos en La Dehesa, Los Trapenses y El Arrayán, y familias de ingresos medio‑bajos y bajos en el Pueblo de Lo Barnechea, La Ermita y el Cerro 18, lo que genera un intercambio diverso y cercano."
  }
 ]
