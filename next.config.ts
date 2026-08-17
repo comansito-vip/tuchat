@@ -34,6 +34,32 @@ const nextConfig: NextConfig = {
     // tuchat.org. Volver a añadir un host aquí es volver a regalar el tráfico
     // de imagen —y la atribución en Google Images— a un tercero.
   },
+  /**
+   * Caché de las imágenes que se sirven tal cual desde `public/`.
+   *
+   * Next las devuelve con `Cache-Control: public, max-age=0`, así que Cloudflare
+   * las guardaba pero revalidaba **contra el VPS en cada visita**
+   * (`cf-cache-status: REVALIDATED`). Eso no se notaba mientras las fotos venían
+   * de Unsplash y las banderas de flagcdn, porque las servía el CDN de cada uno
+   * con su propio TTL; al traérnoslas, el viaje al origen pasó a ser nuestro.
+   *
+   * Afecta sobre todo a lo que NO pasa por el optimizador —los 30 escudos de
+   * /deportes van en un `<img>` normal— y a lo que piden los rastreadores y las
+   * redes sociales, que leen la URL del fichero directamente desde el JSON-LD y
+   * las etiquetas og:.
+   *
+   * 30 días y no `immutable`: los nombres no llevan hash del contenido
+   * (`actualidad-2.jpg`), así que si algún día se sustituye una foto en su sitio
+   * conviene que el navegador acabe enterándose solo. En el borde se arregla al
+   * momento con `npm run cf:purge`.
+   */
+  async headers() {
+    const unMes = "public, max-age=2592000";
+    return [
+      { source: "/img/:ruta*", headers: [{ key: "Cache-Control", value: unMes }] },
+      { source: "/flags/:ruta*", headers: [{ key: "Cache-Control", value: unMes }] },
+    ];
+  },
   // 14 salas argentinas llevaban el nombre del aglomerado del censo
   // ("Villa Dolores-Villa Sarmiento-San Pedro-Villa de las Rosas"), que nadie
   // busca ni teclea. Pasan a llamarse por su ciudad cabecera —el resto de
