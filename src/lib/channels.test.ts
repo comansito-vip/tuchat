@@ -224,10 +224,30 @@ describe("toda sala de ambiente entra a #chueca", () => {
     expect(salas.filter((p) => !p.channels.includes("chueca")).map((p) => p.slug)).toEqual([]);
   });
 
-  it("«chueca euskadi» entra a #chueca Y a #euskadi, además de a los suyos", () => {
-    expect(resolveChannels("gay-euskadi")).toEqual([
-      "gay", "chueca", "euskadi", "amistad", "chatzona",
-    ]);
+  it("«chueca euskadi» entra a #chueca Y a #euskadi, y a nada más", () => {
+    expect(resolveChannels("gay-euskadi")).toEqual(["gay", "chueca", "euskadi"]);
+  });
+
+  it("no arrastran los genéricos #amistad ni #chatzona", () => {
+    // Son los dos canales-cajón de la red y los llevaba casi cualquier sala por
+    // herencia. En las de ambiente no aportan nada y reparten al recién llegado
+    // entre cinco pestañas en vez de tres.
+    const conGenericos = familia()
+      .filter((p) => p.channels.some((c) => c === "amistad" || c === "chatzona"))
+      .map((p) => `${p.slug}: ${p.channels.join(",")}`);
+    expect(conGenericos).toEqual([]);
+  });
+
+  it("ninguna se queda con un solo canal al quitarlos", () => {
+    const pobres = familia()
+      .filter((p) => p.channels.length < 2)
+      .map((p) => `${p.slug}: ${p.channels.join(",")}`);
+    expect(pobres).toEqual([]);
+  });
+
+  it("los genéricos siguen intactos fuera de la familia", () => {
+    expect(resolveChannels("madrid")).toContain("chatzona");
+    expect(resolveChannels("amistad")).toContain("amistad");
   });
 
   it("va detrás del canal principal, nunca por delante", () => {

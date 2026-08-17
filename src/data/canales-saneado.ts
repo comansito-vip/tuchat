@@ -62,7 +62,19 @@ const PADRES_FAMILIA = ["gay", "lgtbi", "gaylatino"];
 export const CANAL_CHUECA = "chueca";
 
 /**
- * Mete `#chueca` en toda sala de ambiente que no lo llevara ya.
+ * Genéricos que una sala de ambiente NO arrastra.
+ *
+ * `#amistad` y `#chatzona` son los dos canales-cajón de la red: el primero es
+ * temático de conocer gente y el segundo el general de toda la casa. Los llevaba
+ * casi cualquier sala por herencia, y en las de ambiente no aportan nada —quien
+ * entra por «chat gay Euskadi» busca a los suyos, no la sala general— y además
+ * reparten al recién llegado entre cinco pestañas en vez de dos o tres. Decisión
+ * del cliente, 2026-08-13.
+ */
+const GENERICOS_FUERA = ["amistad", "chatzona"];
+
+/**
+ * Canales de una sala de ambiente: `#chueca` dentro, genéricos fuera.
  *
  * Chueca es la marca del ambiente en la red y `#chueca` su canal: quien busca
  * «chat gay Euskadi» tiene que aterrizar en `#chueca` **y** en `#euskadi`, no
@@ -72,8 +84,10 @@ export const CANAL_CHUECA = "chueca";
  * real de cada sitio se olvidó de la otra mitad: 75 de las 82 salas de ambiente
  * entraban a `#gay` y a su ciudad, y a `#chueca` no.
  *
- * Va después del canal principal para respetar ese orden: primero el temático de
- * la sala, luego el barrio, luego el sitio.
+ * `#chueca` va después del canal principal para respetar ese orden: primero el
+ * temático de la sala, luego el barrio, luego el sitio. Los genéricos se quitan
+ * DESPUÉS de decidir si la sala es de la familia, para que quitarlos no cambie
+ * quién entra en la regla.
  *
  * Las salas de lesbianas quedan fuera a propósito: tienen sus propios canales
  * (`#lesbianas`, `#el_rincon_les`, `#lescontactos`) y no entran a `#gay` ni a
@@ -81,13 +95,17 @@ export const CANAL_CHUECA = "chueca";
  */
 export function conCanalChueca(channels: string[], parentSlug?: string): string[] {
   const key = (c: string) => channelKey(c);
-  if (channels.some((c) => key(c) === key(CANAL_CHUECA))) return channels;
   const esFamilia =
-    channels.some((c) => CANALES_FAMILIA.includes(c) || key(c).startsWith(key(CANAL_CHUECA))) ||
-    (parentSlug !== undefined && PADRES_FAMILIA.includes(parentSlug));
+    channels.some(
+      (c) => CANALES_FAMILIA.includes(c) || key(c).startsWith(key(CANAL_CHUECA)),
+    ) || (parentSlug !== undefined && PADRES_FAMILIA.includes(parentSlug));
   if (!esFamilia) return channels;
-  if (channels.length === 0) return [CANAL_CHUECA];
-  return [channels[0], CANAL_CHUECA, ...channels.slice(1)];
+
+  const propios = channels.filter((c) => !GENERICOS_FUERA.includes(c));
+  if (propios.some((c) => key(c) === key(CANAL_CHUECA))) return propios;
+  // Sin canal propio no puede quedarse: se entra al barrio y punto.
+  if (propios.length === 0) return [CANAL_CHUECA];
+  return [propios[0], CANAL_CHUECA, ...propios.slice(1)];
 }
 
 /**
