@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { resolveChannels, channelString } from "@/lib/channels";
 import { getCities, getCountries, getTopics, getPlace } from "@/data";
-import { REAL_CHANNELS } from "@/data/irc-real-channels";
+import { REAL_CHANNELS, SEEDED_CHANNELS } from "@/data/irc-real-channels";
 
 describe("resolveChannels", () => {
   // Barrera contra el bug de fondo: una sala geográfica NUNCA debe entrar a un
@@ -306,5 +306,44 @@ describe("toda sala de ambiente entra a #chueca", () => {
   // incluye #travestis).
   it("travestis entra a #chueca aunque cuelgue de erotico", () => {
     expect(getPlace("travestis")!.channels).toEqual(["travestis", "chueca"]);
+  });
+});
+
+/**
+ * Las diez marcas de chat que el cliente pidió tener con canal propio
+ * (2026-08-17). Cuatro ya lo tenían en la red y entran a él directamente; las
+ * otras seis NO existían, y en IRC un canal se crea entrando: por eso van
+ * detrás de un canal poblado, para que el usuario caiga acompañado y de paso
+ * las siembre. Si alguna se colara la primera, la red la crearía vacía.
+ */
+describe("los canales de marca", () => {
+  const MARCAS = ["dalechat", "ozu", "terra", "latinchat", "chatsfriends",
+                  "canalchat", "icq", "hispano", "chatealo", "chueca"];
+
+  it("las diez salas existen y entran a su propio canal", () => {
+    for (const m of MARCAS) {
+      const sala = getPlace(m);
+      expect(sala, `falta la sala ${m}`).toBeDefined();
+      expect(sala!.channels, m).toContain(m);
+    }
+  });
+
+  it("ningún canal sembrado va el primero: se crearía vacío", () => {
+    const sembrados: readonly string[] = SEEDED_CHANNELS;
+    const enCabeza = [...getTopics(), ...getCities(), ...getCountries()]
+      .filter((p) => sembrados.includes(p.channels[0]))
+      .map((p) => `${p.slug}: #${p.channels[0]}`);
+    expect(enCabeza).toEqual([]);
+  });
+
+  it("delante de un sembrado siempre hay un canal que ya existía", () => {
+    const sembrados: readonly string[] = SEEDED_CHANNELS;
+    for (const m of MARCAS) {
+      const ch = getPlace(m)!.channels;
+      const i = ch.findIndex((c) => sembrados.includes(c));
+      if (i < 0) continue;                       // los cuatro que ya eran reales
+      expect(REAL_CHANNELS.has(ch[i - 1]), `${m}: #${ch[i - 1]}`).toBe(true);
+      expect(sembrados.includes(ch[i - 1]), `${m}: dos sembrados seguidos`).toBe(false);
+    }
   });
 });

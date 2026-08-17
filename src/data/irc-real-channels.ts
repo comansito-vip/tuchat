@@ -101,7 +101,33 @@ export const NETWORK_CHANNELS = [
   "latinchat", "mundochat", "terra", "mipunto", "zonafriends",
 ] as const;
 
-/** Todos los canales reales, para validar que ninguna sala entra a uno inventado. */
+/**
+ * Canales de marca que la red AÚN NO TIENE y que se crean a propósito.
+ *
+ * Los seis nombres de arriba —#terra, #latinchat, #canalchat…— existen porque en
+ * su día alguien entró. Estos otros seis no existen todavía, y el cliente pidió
+ * el 2026-08-17 que se creen: en IRC un canal nace en cuanto entra el primero,
+ * así que la forma de crearlos es exactamente esta, mandarles gente.
+ *
+ * **Van SIEMPRE detrás del canal poblado de su sala, nunca los primeros.** Es la
+ * misma regla que ya rige para los canales propios de cada sala: si la sala
+ * entrase aquí primero, la red lo crearía vacío y el usuario aterrizaría solo en
+ * vez de caer donde hay gente. Con el canal poblado por delante, el usuario cae
+ * acompañado y de paso siembra este otro, que se irá llenando solo.
+ *
+ * Cuando uno de estos coja gente de verdad, se mueve a NETWORK_CHANNELS y se
+ * borra de aquí; la lista debe quedarse vacía algún día.
+ */
+export const SEEDED_CHANNELS = [
+  "hispano", "ozu", "chatealo", "chatsfriends", "dalechat", "icq",
+] as const;
+
+/**
+ * Todos los canales que una sala puede nombrar: los que existen de verdad más
+ * los sembrados a propósito. Sigue sirviendo para lo de siempre —que nadie entre
+ * a un canal inventado por descuido—, porque para entrar a uno nuevo hay que
+ * añadirlo arriba de forma deliberada.
+ */
 export const REAL_CHANNELS: ReadonlySet<string> = new Set<string>([
   ...ES_CHANNELS,
   ...LATAM_CHANNELS,
@@ -111,4 +137,5 @@ export const REAL_CHANNELS: ReadonlySet<string> = new Set<string>([
   ...LGTBI_CHANNELS,
   ...ADULT_CHANNELS,
   ...NETWORK_CHANNELS,
+  ...SEEDED_CHANNELS,
 ]);
