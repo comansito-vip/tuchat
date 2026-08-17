@@ -19,6 +19,27 @@ const NEWS_DATES = (() => {
   return fechas;
 })();
 
+// Foto de cada artículo, para declararla en el sitemap. Desde que las imágenes
+// se sirven desde tuchat.org (y no desde Unsplash) pueden posicionar para
+// nosotros en Google Images, pero primero hay que dárselas a descubrir: la
+// extensión `image:` del sitemap es la vía directa, y no la teníamos.
+// OJO con el troceado: 45 de los 471 artículos NO traen campo `image` (se lo
+// calcula la web al pintar). Un `[\s\S]*?` desde el slug hasta el primer
+// `image:` les asignaría la foto del artículo SIGUIENTE, así que se corta por
+// bloques y se busca dentro de cada uno.
+const NEWS_IMAGES = (() => {
+  const src = fs.readFileSync(path_.join(__dirname, "src/data/news.ts"), "utf8");
+  const fotos = {};
+  const bloques = [...src.matchAll(/slug:\s*"([^"]+)"/g)];
+  bloques.forEach((m, i) => {
+    const desde = m.index;
+    const hasta = i + 1 < bloques.length ? bloques[i + 1].index : src.length;
+    const foto = src.slice(desde, hasta).match(/image:\s*"(\/img\/[^"]+)"/);
+    if (foto) fotos[m[1]] = foto[1];
+  });
+  return fotos;
+})();
+
 function transformEntry(config, path) {
   // Sin `lastmod` con el timestamp del build: idéntico en las 4.600 URLs, le
   // dice a Google que todo cambió a la vez en cada deploy y acaba ignorándolo.
@@ -75,12 +96,15 @@ function transformEntry(config, path) {
 
   // News articles
   if (path.startsWith("/noticias/articulo/")) {
-    const fecha = NEWS_DATES[path.replace("/noticias/articulo/", "")];
+    const slug = path.replace("/noticias/articulo/", "");
+    const fecha = NEWS_DATES[slug];
+    const foto = NEWS_IMAGES[slug];
     return {
       ...base,
       changefreq: "monthly",
       priority: 0.5,
       ...(fecha ? { lastmod: new Date(`${fecha}T00:00:00Z`).toISOString() } : {}),
+      ...(foto ? { images: [{ loc: new URL(`https://www.tuchat.org${foto}`) }] } : {}),
     };
   }
 
