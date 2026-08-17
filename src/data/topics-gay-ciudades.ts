@@ -11,6 +11,13 @@ import type { Place } from "./types";
 //
 // Las latinoamericanas cuelgan de `gaylatino` y las españolas de `lgtbi`, igual
 // que las que ya existían.
+//
+// LA BANDERA: las once salas cuyo tema ES una comunidad autónoma llevan
+// `flagSrc` con la suya. El héroe de la sala pinta el icono a 130px, y ahí un
+// emoji genérico se ve como un fallo —Gay Euskadi era un círculo verde plano a
+// pantalla completa—. Solo las de comunidad: hay una por comunidad, así que no
+// se repiten entre sí. Las de ciudad y provincia conservan su emoji propio,
+// que las distingue mejor que la bandera compartida de su comunidad.
 export const TOPICS_GAY_CIUDADES: Place[] = [
   {
     slug: "gay-malaga",
@@ -131,6 +138,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Asturias",
     kind: "tematica",
     icon: "🍃",
+    flagSrc: "/flags/regiones/asturias.png",
     users: 168,
     votes: 246,
     tag: "Nueva",
@@ -169,6 +177,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Murcia",
     kind: "tematica",
     icon: "🍋",
+    flagSrc: "/flags/regiones/murcia.png",
     users: 141,
     votes: 208,
     tag: "Nueva",
@@ -245,6 +254,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Euskadi",
     kind: "tematica",
     icon: "🟢",
+    flagSrc: "/flags/regiones/euskadi.png",
     users: 154,
     votes: 226,
     tag: "Nueva",
@@ -264,6 +274,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Baleares",
     kind: "tematica",
     icon: "⛵",
+    flagSrc: "/flags/regiones/baleares.png",
     users: 150,
     votes: 220,
     tag: "Nueva",
@@ -283,6 +294,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Canarias",
     kind: "tematica",
     icon: "🏝️",
+    flagSrc: "/flags/regiones/canarias.png",
     users: 157,
     votes: 231,
     tag: "Nueva",
@@ -302,6 +314,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Cantabria",
     kind: "tematica",
     icon: "🌿",
+    flagSrc: "/flags/regiones/cantabria.png",
     users: 132,
     votes: 194,
     tag: "Nueva",
@@ -321,6 +334,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Navarra",
     kind: "tematica",
     icon: "🐂",
+    flagSrc: "/flags/regiones/navarra.png",
     users: 128,
     votes: 188,
     tag: "Nueva",
@@ -359,6 +373,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Aragón",
     kind: "tematica",
     icon: "⛰️",
+    flagSrc: "/flags/regiones/aragon.png",
     users: 126,
     votes: 185,
     tag: "Nueva",
@@ -378,6 +393,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Galicia",
     kind: "tematica",
     icon: "🌦️",
+    flagSrc: "/flags/regiones/galicia.png",
     users: 148,
     votes: 217,
     tag: "Nueva",
@@ -397,6 +413,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
     name: "Gay Extremadura",
     kind: "tematica",
     icon: "🌾",
+    flagSrc: "/flags/regiones/extremadura.png",
     users: 124,
     votes: 182,
     tag: "Nueva",
@@ -830,6 +847,7 @@ export const TOPICS_GAY_CIUDADES: Place[] = [
   },
   {
     slug: "gay-la-rioja", name: "Gay La Rioja", kind: "tematica", icon: "🍷",
+    flagSrc: "/flags/regiones/rioja.png",
     users: 138, votes: 196, tag: "Nueva", activity: "Media",
     parentSlug: "lgtbi", parentName: "LGTBI",
     channels: ["gay", "la_rioja", "amistad", "chatzona"],
