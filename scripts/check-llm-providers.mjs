@@ -23,7 +23,11 @@ loadEnvLocal();
 
 // Debe reflejar lo que usan generate-news.ts y generate-room-content.ts.
 const PROVIDERS = [
-  { name: "Groq", envVar: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", models: ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"] },
+  // Groq retiró `llama-3.3-70b-versatile` el 16 de agosto de 2026 y desde entonces
+  // devuelve `model_not_found`. Los reemplazos que Groq recomienda —y que la clave
+  // de este proyecto sí tiene— son `openai/gpt-oss-120b` y `qwen/qwen3.6-27b`.
+  // Comprobado con llamada real, que es la única forma fiable de saberlo.
+  { name: "Groq", envVar: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", models: ["openai/gpt-oss-120b", "qwen/qwen3.6-27b"] },
   { name: "Cerebras", envVar: "CEREBRAS_API_KEYS", base: "https://api.cerebras.ai/v1", models: ["gpt-oss-120b", "zai-glm-4.7", "gemma-4-31b"] },
   { name: "Mistral", envVar: "MISTRAL_API_KEYS", base: "https://api.mistral.ai/v1", models: ["mistral-large-latest", "mistral-small-latest"] },
   { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", models: ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.1-70b-instruct"] },

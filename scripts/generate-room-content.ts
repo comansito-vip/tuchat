@@ -227,7 +227,7 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
   {
     name: "Groq",
     envVar: "GROQ_API_KEYS",
-    call: (key, room) => callOpenAICompatible("https://api.groq.com/openai/v1", "llama-3.3-70b-versatile", key, room),
+    call: (key, room) => callOpenAICompatible("https://api.groq.com/openai/v1", "openai/gpt-oss-120b", key, room),
   },
   {
     // Cerebras retiró todos los llama: llama-3.3-70b devolvía 404 "model does not

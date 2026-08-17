@@ -23,7 +23,11 @@ export function cargarEnvLocal(ruta = ".env.local") {
 
 /** Orden por disponibilidad medida, no por calidad teórica. */
 export const PROVEEDORES = [
-  { nombre: "Groq", env: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", modelo: "llama-3.3-70b-versatile" },
+  // Groq retiró `llama-3.3-70b-versatile` el 16 de agosto de 2026 y desde entonces
+  // devuelve `model_not_found`. Los reemplazos que Groq recomienda —y que la clave
+  // de este proyecto sí tiene— son `openai/gpt-oss-120b` y `qwen/qwen3.6-27b`.
+  // Comprobado con llamada real, que es la única forma fiable de saberlo.
+  { nombre: "Groq", env: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", modelo: "openai/gpt-oss-120b" },
   { nombre: "Cerebras", env: "CEREBRAS_API_KEYS", base: "https://api.cerebras.ai/v1", modelo: "gpt-oss-120b" },
   { nombre: "Mistral", env: "MISTRAL_API_KEYS", base: "https://api.mistral.ai/v1", modelo: "mistral-large-latest" },
   { nombre: "NVIDIA", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "meta/llama-3.1-70b-instruct" },

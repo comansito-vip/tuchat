@@ -238,7 +238,11 @@ const PROVIDERS: { name: string; envVar?: string; call: (c: string) => Promise<G
   { name: "OpenAI", envVar: "OPENAI_API_KEY", call: callOpenAI },
   // Groq agota 100.000 tokens/día en el tier gratuito: con 8 categorías se queda
   // corto él solo, de ahí que detrás vayan varios proveedores más y no uno.
-  { name: "Groq", envVar: "GROQ_API_KEYS", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]) },
+  // Groq retiró `llama-3.3-70b-versatile` el 16 de agosto de 2026 y desde entonces
+  // devuelve `model_not_found`. Los reemplazos que Groq recomienda —y que la clave
+  // de este proyecto sí tiene— son `openai/gpt-oss-120b` y `qwen/qwen3.6-27b`.
+  // Comprobado con llamada real, que es la única forma fiable de saberlo.
+  { name: "Groq", envVar: "GROQ_API_KEYS", call: makeOpenAICompatibleCaller("Groq", "GROQ_API_KEYS", "https://api.groq.com/openai/v1", ["openai/gpt-oss-120b", "qwen/qwen3.6-27b"]) },
   // Cerebras retiró los llama: sus modelos vigentes (verificado contra /models el
   // 2026-08-06) son gpt-oss-120b, zai-glm-4.7 y gemma-4-31b, y ninguno más.
   { name: "Cerebras", envVar: "CEREBRAS_API_KEYS", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["gpt-oss-120b", "zai-glm-4.7", "gemma-4-31b"]) },
