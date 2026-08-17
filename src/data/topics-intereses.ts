@@ -1917,7 +1917,7 @@ export const TOPICS_INTERESES: Place[] = [
     users: 68, votes: 121, activity: "Media",
     parentSlug: "argentina", parentName: "Argentina",
     channels: ["amistad", "argentina", "chatzona"],
-    related: ["argentina", "arg", "buenchat", "chaturro", "latinos"],
+    related: ["argentina", "arg", "buenchat", "chaturro", "latinos", "chatsfriends"],
     intro: "DaleChat, el salón argento de siempre: gente que viene de los chats viejos y sigue eligiendo escribir. Entrá, saludá y quedate.",
     about: "Hay toda una generación que aprendió a hacer amigos escribiendo en una ventanita, con el módem ocupando la línea del teléfono y alguien gritando desde la cocina que cortara de una vez, y buena parte de esa gente terminó recalando acá. DaleChat conserva ese aire: charlas largas que no tienen apuro, habitués que se acuerdan de tu nick del año pasado, chistes internos que ya llevan años rodando y una paciencia que en otros lados se perdió. Vienen veteranos de los salones argentinos clásicos, gente que probó las redes sociales durante una década y no encontró nada parecido, y también curiosos más jóvenes con ganas de ver de qué se trataba todo aquello. Se habla de la vida como es: los hijos, el laburo, la salud, la música que sonaba entonces y la que suena ahora. Nadie corre a nadie. Si extrañás la época en que charlar por internet era sentarse a charlar de verdad, ya sabés dónde encontrarnos.",
   },

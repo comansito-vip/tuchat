@@ -12,8 +12,11 @@ describe("salas de paridad con el viejo tuchat", () => {
     // + 15 salas gay/LGTBI (ciudades España, países LATAM, perfiles/intereses)
     // para completar la reorg. al estilo chatzona.com/chueca — 2026-07-13 noche.
     // + 14 portales y redes de chat clásicos bajo el hub Argentina — 2026-07-14.
+    // + 4 marcas que la gente sigue tecleando y no tenían sala (hispano, ozu,
+    //   chatealo, chatsfriends), elegidas por demanda medida en el corpus de la
+    //   red, no a ojo — 2026-08-17.
     // (Latinchat Argentina se mudó a topics-latinchat.ts con sus 22 hermanas.)
-    expect(TOPICS_LEGACY).toHaveLength(107);
+    expect(TOPICS_LEGACY).toHaveLength(111);
     expect(TOPICS_LEGACY.every((p) => p.kind === "tematica")).toBe(true);
   });
 

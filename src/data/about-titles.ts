@@ -2578,4 +2578,9 @@ export const ABOUT_TITLES: Record<string, string> = {
   "zumaia": "Los acantilados de Itzurun y el Geoparque",
   "zumarraga": "La ermita de La Antigua y el ferrocarril",
   "zumpango": "La laguna y la ganadería lechera",
+  // Las cuatro marcas añadidas el 2026-08-17 (ver topics-legacy.ts).
+  "hispano": "Un canal por provincia y el nick registrado de por vida",
+  "ozu": "El buscador andaluz cuyo chat aguanta en las búsquedas",
+  "chatealo": "Del .cl al canal de Chile, con Santiago y regiones",
+  "chatsfriends": "Un nombre que se sigue tecleando sin documentación detrás",
 };
