@@ -177,3 +177,50 @@ describe("isNoindex", () => {
     expect(await isNoindex("erotico")).toBe(true);
   });
 });
+
+/**
+ * El panel era la única puerta por la que una sala entraba sin pasar por el
+ * saneado de `@/data`: los overrides se aplicaban encima del catálogo ya
+ * derivado y el resultado no volvía a pasar por ahí, así que una sala editada o
+ * creada desde /admin podía nombrar canales inventados y, si era de ambiente,
+ * quedarse sin #chueca. La página de sala tira de `getMergedPlace`, así que eso
+ * llegaba al usuario.
+ */
+describe("los overrides del panel también pasan por el saneado de canales", () => {
+  it("una sala de ambiente editada a mano recupera #chueca", async () => {
+    mockGetAdminState.mockResolvedValue({
+      ...emptyState(),
+      overrides: { "gay-euskadi": { channels: ["gay", "euskadi"] } },
+    });
+    const sala = await getMergedPlace("gay-euskadi");
+    expect(sala!.channels).toEqual(["gay", "chueca", "euskadi"]);
+  });
+
+  it("un canal inventado no sobrevive al override", async () => {
+    mockGetAdminState.mockResolvedValue({
+      ...emptyState(),
+      overrides: { madrid: { channels: ["madrid", "canal-que-no-existe"] } },
+    });
+    const sala = await getMergedPlace("madrid");
+    expect(sala!.channels).toEqual(["madrid"]);
+  });
+
+  it("una sala nueva creada desde el panel nace saneada", async () => {
+    const nueva: Place = {
+      slug: "gay-almeria", name: "Gay Almería", kind: "tematica", icon: "🌈",
+      users: 10, votes: 10, parentSlug: "lgtbi",
+      channels: ["gay", "almeria", "amistad", "chatzona", "gay-almeria"],
+      related: [], intro: "x",
+    };
+    mockGetAdminState.mockResolvedValue({ ...emptyState(), newRooms: [nueva] });
+    const sala = await getMergedPlace("gay-almeria");
+    expect(sala!.channels).toEqual(["gay", "chueca", "almeria"]);
+    const todas = await getMergedAll();
+    expect(todas.find((p) => p.slug === "gay-almeria")!.channels).toContain("chueca");
+  });
+
+  it("una sala sin override no se toca", async () => {
+    const sala = await getMergedPlace("madrid");
+    expect(sala!.channels).toEqual(["madrid", "españa", "chatzona"]);
+  });
+});

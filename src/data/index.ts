@@ -46,7 +46,13 @@ const conRegion = (p: Place): Place => {
 // Se hace aquí y no en los ficheros de datos por lo mismo que el resto de
 // derivaciones: los canales los escriben a mano trece ficheros y el cron de
 // goteo, y este es el único punto por el que pasan todos.
-const conCanalesReales = (p: Place): Place => {
+// Se exporta porque el panel de administración es la única puerta por la que
+// entra una sala sin pasar por aquí: `merged.ts` aplica sus overrides y sus
+// salas nuevas DESPUÉS de esta carga, así que una sala creada o editada a mano
+// se saltaba tanto el saneado de canales como la regla de #chueca. La aplica
+// también allí, sobre lo que toca el panel, para que la regla sea de verdad
+// «siempre» y no «siempre salvo desde /admin».
+export const conCanalesReales = (p: Place): Place => {
   const limpios = conCanalChueca(canalesReales(p.channels), p.parentSlug);
   return limpios.length === p.channels.length && limpios.every((c, i) => c === p.channels[i])
     ? p

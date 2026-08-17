@@ -18,12 +18,27 @@ import {
   getChildren as baseChildren,
   getPlace,
   getRelated as baseRelated,
+  conCanalesReales,
 } from "@/data";
 import type { Place } from "@/data/types";
 
+/**
+ * Aplica el override del panel y vuelve a pasar la sala por el saneado.
+ *
+ * El catálogo estático ya sale derivado de `@/data` (canales que existen de
+ * verdad, `#chueca` en las salas de ambiente), pero los overrides se aplicaban
+ * encima y **el resultado no volvía a pasar por ahí**: cambiar `channels` desde
+ * /admin dejaba a la sala con lo que se hubiera tecleado, canales inventados
+ * incluidos. Solo se re-deriva lo que el panel toca; el resto ya viene hecho y
+ * esto corre en cada petición de /chat.
+ */
 function applyPatch(p: Place, overrides: Record<string, Partial<Place>>): Place {
-  return overrides[p.slug] ? { ...p, ...overrides[p.slug] } : p;
+  const patch = overrides[p.slug];
+  return patch ? conCanalesReales({ ...p, ...patch }) : p;
 }
+
+/** Las salas creadas desde el panel no han pasado nunca por el saneado. */
+const saneadas = (rooms: Place[]): Place[] => rooms.map(conCanalesReales);
 
 /** Todos los lugares: base − hidden + overrides aplicados + newRooms. */
 export async function getMergedAll(): Promise<Place[]> {
@@ -31,7 +46,7 @@ export async function getMergedAll(): Promise<Place[]> {
   const base = [...getCountries(), ...getCities(), ...getTopics()];
   return [
     ...base.filter((p) => !hidden.includes(p.slug)).map((p) => applyPatch(p, overrides)),
-    ...newRooms,
+    ...saneadas(newRooms),
   ];
 }
 
@@ -40,7 +55,8 @@ export async function getMergedPlace(slug: string): Promise<Place | undefined> {
   const { overrides, newRooms } = await getAdminState();
   const base = getPlace(slug);
   if (base) return applyPatch(base, overrides);
-  return newRooms.find((r) => r.slug === slug);
+  const nueva = newRooms.find((r) => r.slug === slug);
+  return nueva && conCanalesReales(nueva);
 }
 
 export async function getMergedCountries(): Promise<Place[]> {
