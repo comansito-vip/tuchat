@@ -93,3 +93,22 @@ export const TOPICS_APODOS: Place[] = [
       "Conviene aclararlo en la primera línea porque las dos Córdobas se cruzan siempre: esta es la argentina. Le dicen La Docta porque durante más de dos siglos tuvo la única universidad del país —la Nacional de Córdoba se fundó en 1613 y sigue siendo la más antigua de Argentina—, y esa herencia de ciudad de estudiantes se nota en quién anda por el centro en marzo. Lo otro que la define es la tonada, ese cantito cordobés que en el resto del país se imita mal y con cariño, y del que aquí se hacen los primeros chistes. Y el cuarteto, que nació con cuatro instrumentos y terminó siendo la música de los sábados de toda una provincia. Se habla de eso, de las sierras a una hora para escaparse el fin de semana, del calor de enero y de Belgrano y Talleres, que dan para discutir sin fin. Entra gente de Villa María, Río Cuarto y Carlos Paz, y bastantes que estudiaron acá y se volvieron a su pueblo.",
   },
 ];
+
+/**
+ * Salas que son OTRO NOMBRE de una sala que ya existe.
+ *
+ * Los cuatro apodos de arriba, más `gdl` (que fijó el patrón, en topics-legacy.ts)
+ * y `illes-balears` (el nombre oficial en catalán de Baleares, en
+ * topics-terminos.ts). No son duplicados ni redirecciones: cada una tiene su
+ * propio texto y gana su propia búsqueda —«chat bcn» son 49.537 impresiones en
+ * el corpus de la red— y por eso se quedan.
+ *
+ * Existe esta lista porque en la tarjeta de su país se pintaban en la misma fila
+ * que su gemela: «Baleares» al lado de «Illes Balears», «Guadalajara» al lado de
+ * «Guadalajara (GDL)». Cada chip lleva a una sala distinta, pero el usuario lee
+ * un listado con duplicados. Van en su propia línea, rotulada, sin perder el
+ * enlace: ver src/app/chat/page.tsx.
+ */
+export const SLUGS_APODO: readonly string[] = [
+  "bcn", "mty", "cdmx", "cba", "gdl", "illes-balears",
+];

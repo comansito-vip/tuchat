@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
+import { SLUGS_APODO } from "@/data/topics-apodos";
 import { cityFlag, getAgeTopics, getPrimaryTopics, getRegions, getRegionsOfCountry } from "@/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
@@ -75,14 +76,19 @@ export default async function ChatIndexPage() {
   const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
   const restTopics = topics.filter((t) => !primarySet.has(t.slug) && !regionSet.has(t.slug));
   const grouped = new Map<string, { name: string; slug?: string; items: typeof restTopics }>();
-  const topicsByCountry = new Map<string, typeof restTopics>();
+  // `bcn`, `illes-balears`, `gdl`… son otro nombre de una sala que ya sale en la
+  // misma tarjeta. Se separan para no pintarlas en la misma fila que su gemela.
+  const esApodo = (slug: string) => SLUGS_APODO.includes(slug);
+  const propiasDelPais = new Map<string, typeof restTopics>();
+  const apodosDelPais = new Map<string, typeof restTopics>();
   const conPadre = restTopics.filter((t) => t.parentSlug);
   const sinPadre = restTopics.filter((t) => !t.parentSlug);
   for (const t of conPadre) {
     const key = t.parentSlug!;
     if (countrySet.has(key)) {
-      if (!topicsByCountry.has(key)) topicsByCountry.set(key, []);
-      topicsByCountry.get(key)!.push(t);
+      const destino = esApodo(t.slug) ? apodosDelPais : propiasDelPais;
+      if (!destino.has(key)) destino.set(key, []);
+      destino.get(key)!.push(t);
       continue;
     }
     if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
@@ -201,8 +207,10 @@ export default async function ChatIndexPage() {
                     );
                   })}
                   {/* Salas propias del país (argentinos, rebelión…): antes formaban
-                      un grupo suelto en "Más salas temáticas" que duplicaba al país. */}
-                  {(topicsByCountry.get(country.slug) ?? []).map((t) => (
+                      un grupo suelto en "Más salas temáticas" que duplicaba al país.
+                      Las que son otro nombre de una sala que ya está arriba salen
+                      aparte, más abajo: mezcladas aquí se leían como duplicados. */}
+                  {(propiasDelPais.get(country.slug) ?? []).map((t) => (
                     <Link
                       key={t.slug}
                       href={`/chat/${t.slug}`}
@@ -229,6 +237,19 @@ export default async function ChatIndexPage() {
                     </Link>
                   )}
                 </div>
+                {(apodosDelPais.get(country.slug) ?? []).length > 0 && (
+                  <p className="mt-2 text-xs text-muted">
+                    También por su otro nombre:{" "}
+                    {(apodosDelPais.get(country.slug) ?? []).map((t, i) => (
+                      <span key={t.slug}>
+                        {i > 0 && " · "}
+                        <Link href={`/chat/${t.slug}`} className="text-blue hover:underline">
+                          {t.name}
+                        </Link>
+                      </span>
+                    ))}
+                  </p>
+                )}
               </div>
             );
           })}

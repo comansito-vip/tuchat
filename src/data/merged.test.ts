@@ -208,7 +208,7 @@ describe("los overrides del panel también pasan por el saneado de canales", () 
   it("una sala nueva creada desde el panel nace saneada", async () => {
     const nueva: Place = {
       slug: "gay-almeria", name: "Gay Almería", kind: "tematica", icon: "🌈",
-      users: 10, votes: 10, parentSlug: "lgtbi",
+      users: 10, votes: 10, activity: "Media", parentSlug: "lgtbi",
       channels: ["gay", "almeria", "amistad", "chatzona", "gay-almeria"],
       related: [], intro: "x",
     };
