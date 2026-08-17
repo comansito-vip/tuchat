@@ -120,7 +120,28 @@ function transformEntry(config, path) {
 module.exports = {
   siteUrl: "https://www.tuchat.org",
   generateRobotsTxt: true,
-  exclude: ["/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image"],
+  /**
+   * `/tiempo/*` sale del sitemap a propósito (2026-08-17).
+   *
+   * Search Console por API: **4 páginas indexadas de 5.263**, y el resto en
+   * «Descubierta: actualmente sin indexar» con último rastreo *nunca*. Google
+   * concede a este dominio un rastreo mínimo, y las 1.966 páginas de localidad
+   * de /tiempo eran el 37% del sitemap con una mediana de 174 palabras frente a
+   * las 645 de una sala: pedían para ellas más de un tercio de ese presupuesto.
+   * `priority: 0.3` ya estaba puesto y Google lo ignora en la práctica.
+   *
+   * Las páginas NO se tocan: siguen vivas, respondiendo 200 y accesibles desde
+   * el hub /tiempo. Solo dejan de pedir rastreo, para que el poco que hay vaya a
+   * las 2.721 salas, que son el negocio. El hub /tiempo sí se queda dentro.
+   *
+   * Es reversible: se quita esta línea y vuelven. Revisar en unos meses, cuando
+   * las salas empiecen a indexarse — ver
+   * docs/superpowers/plans/2026-08-17-diagnostico-indexacion.md.
+   */
+  exclude: [
+    "/webchat", "/admin", "/api/*", "/resultados", "/opengraph-image",
+    "/tiempo/*",
+  ],
   robotsTxtOptions: {
     // /webchat NO se bloquea: necesita ser rastreable para que su meta noindex
     // surta efecto (Google no lee el noindex de una URL bloqueada por robots).
