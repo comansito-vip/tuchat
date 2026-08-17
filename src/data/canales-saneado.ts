@@ -55,8 +55,18 @@ export const ALIAS_CANAL: Record<string, string> = {
  * llevan, y en cambio `santa-rosa-de-osos` sí contiene "osos" sin tener nada que
  * ver. El canal al que entra la sala sí lo dice sin ambigüedad.
  */
-const CANALES_FAMILIA = ["gay", "de_ambiente"];
+const CANALES_FAMILIA = ["gay", "de_ambiente", "travestis"];
 const PADRES_FAMILIA = ["gay", "lgtbi", "gaylatino"];
+
+/**
+ * Las salas de lesbianas van por su cuenta.
+ *
+ * Tienen canales propios y una audiencia que hoy no se cruza con la de `#gay`,
+ * así que **no** entran a `#chueca` (decisión del cliente). Lo que sí comparten
+ * con las de ambiente es que tampoco arrastran los genéricos.
+ */
+const CANALES_LESBICOS = ["lesbianas", "el_rincon_les", "lescontactos"];
+const PADRE_LESBICO = "lesbianas";
 
 /** Canal del barrio. Es el que faltaba en 75 de las 82 salas de la familia. */
 export const CANAL_CHUECA = "chueca";
@@ -89,22 +99,26 @@ const GENERICOS_FUERA = ["amistad", "chatzona"];
  * DESPUÉS de decidir si la sala es de la familia, para que quitarlos no cambie
  * quién entra en la regla.
  *
- * Las salas de lesbianas quedan fuera a propósito: tienen sus propios canales
- * (`#lesbianas`, `#el_rincon_les`, `#lescontactos`) y no entran a `#gay` ni a
- * `#de_ambiente`, así que no las alcanza esta regla.
+ * Las de lesbianas solo pierden los genéricos: `#chueca` no, porque su audiencia
+ * hoy no se cruza con la de `#gay` y meterlas ahí sería mezclar dos cosas
+ * distintas. `travestis` sí entra, aunque cuelgue del hub `erotico`.
  */
 export function conCanalChueca(channels: string[], parentSlug?: string): string[] {
   const key = (c: string) => channelKey(c);
-  const esFamilia =
+  const esAmbiente =
     channels.some(
       (c) => CANALES_FAMILIA.includes(c) || key(c).startsWith(key(CANAL_CHUECA)),
     ) || (parentSlug !== undefined && PADRES_FAMILIA.includes(parentSlug));
-  if (!esFamilia) return channels;
+  const esLesbico =
+    !esAmbiente &&
+    (channels.some((c) => CANALES_LESBICOS.includes(c)) || parentSlug === PADRE_LESBICO);
+  if (!esAmbiente && !esLesbico) return channels;
 
   const propios = channels.filter((c) => !GENERICOS_FUERA.includes(c));
+  // Quedarse sin ningún canal sería peor que arrastrar un genérico.
+  if (propios.length === 0) return esAmbiente ? [CANAL_CHUECA] : channels;
+  if (esLesbico) return propios;
   if (propios.some((c) => key(c) === key(CANAL_CHUECA))) return propios;
-  // Sin canal propio no puede quedarse: se entra al barrio y punto.
-  if (propios.length === 0) return [CANAL_CHUECA];
   return [propios[0], CANAL_CHUECA, ...propios.slice(1)];
 }
 

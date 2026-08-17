@@ -284,11 +284,27 @@ describe("toda sala de ambiente entra a #chueca", () => {
     expect(fuera).toEqual([]);
   });
 
-  // Las de lesbianas quedan fuera a propósito: tienen sus propios canales y no
-  // entran ni a #gay ni a #de_ambiente.
-  it("no toca las salas de lesbianas", () => {
-    for (const slug of ["lesbianas", "les", "chatlesbianas", "mujereslesbianas"]) {
-      expect(getPlace(slug)!.channels, slug).not.toContain("chueca");
+  // Las de lesbianas NO entran a #chueca: su audiencia hoy no se cruza con la de
+  // #gay y meterlas ahí sería mezclar dos cosas distintas (decisión del cliente).
+  // Lo único que comparten con las de ambiente es que tampoco arrastran los
+  // genéricos.
+  it("las salas de lesbianas no entran a #chueca, pero sí pierden los genéricos", () => {
+    const lesbicas = ["lesbianas", "les", "lesbianas-terra", "chatlesbianas",
+                      "mujereslesbianas", "lesbico", "lgtblesbianas"];
+    for (const slug of lesbicas) {
+      const ch = getPlace(slug)!.channels;
+      expect(ch, slug).not.toContain("chueca");
+      expect(ch, slug).not.toContain("amistad");
+      expect(ch, slug).not.toContain("chatzona");
+      expect(ch.length, `${slug} se queda sin canales`).toBeGreaterThan(0);
+      expect(REAL_CHANNELS.has(ch[0]), `${slug}: #${ch[0]}`).toBe(true);
     }
+  });
+
+  // Cuelga del hub `erotico`, no del de ambiente, así que no la alcanzaba la
+  // regla; el cliente decidió meterla (la sala `trans` ya entraba y de hecho
+  // incluye #travestis).
+  it("travestis entra a #chueca aunque cuelgue de erotico", () => {
+    expect(getPlace("travestis")!.channels).toEqual(["travestis", "chueca"]);
   });
 });
