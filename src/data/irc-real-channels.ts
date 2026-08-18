@@ -120,6 +120,12 @@ export const NETWORK_CHANNELS = [
  */
 export const SEEDED_CHANNELS = [
   "hispano", "ozu", "chatealo", "chatsfriends", "dalechat", "icq",
+  // #morelos lo pidió el cliente el 2026-08-19 al crear la sala del estado.
+  // La red tiene canal para diecinueve estados mexicanos y este no estaba,
+  // aunque tres salas del catálogo —Cuernavaca, Cuautla y Emiliano Zapata— ya
+  // se declaran de Morelos. Entra detrás de #mexico en la sala del estado y
+  // detrás de #cuernavaca en la de la capital: nunca el primero.
+  "morelos",
 ] as const;
 
 /**

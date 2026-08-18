@@ -130,9 +130,9 @@ describe("data getters", () => {
     expect(esp.length).toBeGreaterThanOrEqual(16);
     for (const r of esp) expect(r.flagSrc, r.slug).toMatch(/^\/flags\/regiones\//);
   });
-  it("getRegions incluye las 10 regiones americanas, que cuelgan de su país", () => {
+  it("getRegions incluye las 11 regiones americanas, que cuelgan de su país", () => {
     const am = getRegions().filter((r) => r.parentSlug !== undefined);
-    expect(am.length).toBe(10);
+    expect(am.length).toBe(11);
     for (const r of am) expect(["mexico", "venezuela"], r.slug).toContain(r.parentSlug);
   });
   it("cada país recibe sus propias regiones y no las de otro", () => {
@@ -142,7 +142,8 @@ describe("data getters", () => {
     const mex = getRegionsOfCountry("mexico");
     expect(esp.length).toBeGreaterThanOrEqual(16);
     expect(mex.map((r) => r.slug).sort()).toEqual([
-      "chiapas", "coahuila", "jalisco", "nuevo-leon", "sinaloa", "sonora", "tabasco", "yucatan",
+      "chiapas", "coahuila", "jalisco", "morelos", "nuevo-leon", "sinaloa", "sonora", "tabasco",
+      "yucatan",
     ]);
     expect(esp.some((r) => r.slug === "jalisco")).toBe(false);
     expect(getRegionsOfCountry("argentina")).toEqual([]);
@@ -153,7 +154,7 @@ describe("data getters", () => {
     // Jalisco salía dos veces en /chat/mexico.
     const regiones = new Set(getRegions().map((r) => r.slug));
     const colados = getChildren("mexico").filter((c) => regiones.has(c.slug)).map((c) => c.slug);
-    expect(colados.length).toBe(8);
+    expect(colados.length).toBe(9);
     const listado = getChildren("mexico").filter((c) => !regiones.has(c.slug));
     expect(listado.some((c) => c.slug === "jalisco")).toBe(false);
   });

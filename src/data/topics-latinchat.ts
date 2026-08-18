@@ -149,7 +149,7 @@ export const TOPICS_LATINCHAT: Place[] = [
     activity: "Media",
     parentSlug: "latinchat",
     parentName: "Latinchat",
-    channels: ["republica_dominicana", "latinchat", "latinoamerica"],
+    channels: ["republica_dominicana", "latinos", "latinchat", "latinoamerica"],
     related: ["latinchat", "republica-dominicana", "santo-domingo", "santiago-de-los-caballeros", "latinchat-puerto-rico", "latinos"],
     intro: "Santo Domingo, Santiago y la diáspora de Nueva York, con el dembow de fondo y la conversación a toda velocidad.",
     about: "Al dominicano se le reconoce escribiendo antes que hablando: la velocidad, las abreviaturas, la risa metida en medio de la frase. Esta sala junta a la gente de Santo Domingo, Santiago, La Vega, San Cristóbal y el resto de la isla con la enorme diáspora dominicana de Nueva York, Madrid y Puerto Rico, que entra sobre todo de noche. Se conversa de música —el dembow y la bachata se llevan la mitad de la sala—, de béisbol, del trabajo, de los cuartos y de la familia que se quedó. La conversación se enciende rápido y casi nunca decae. El canal general de República Dominicana va incluido, así que la gente que ya está en la red aparece aquí sin tener que buscarla.",

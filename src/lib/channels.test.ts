@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { resolveChannels, channelString } from "@/lib/channels";
 import { getCities, getCountries, getTopics, getPlace } from "@/data";
-import { REAL_CHANNELS, SEEDED_CHANNELS } from "@/data/irc-real-channels";
+import { REAL_CHANNELS, SEEDED_CHANNELS, ADULT_CHANNELS } from "@/data/irc-real-channels";
 
 describe("resolveChannels", () => {
   // Barrera contra el bug de fondo: una sala geográfica NUNCA debe entrar a un
@@ -344,6 +344,37 @@ describe("los canales de marca", () => {
       if (i < 0) continue;                       // los cuatro que ya eran reales
       expect(REAL_CHANNELS.has(ch[i - 1]), `${m}: #${ch[i - 1]}`).toBe(true);
       expect(sembrados.includes(ch[i - 1]), `${m}: dos sembrados seguidos`).toBe(false);
+    }
+  });
+});
+
+describe("la parte +18 no arrastra el canal general", () => {
+  /**
+   * `#chatzona` es el canal donde cae cualquiera que llegue por «chat gratis».
+   * Mandar ahí el tráfico de /chat/porno o /chat/mazmorra mezcla las dos
+   * audiencias en el único canal que debería quedarse limpio. Decisión del
+   * cliente, 2026-08-19; la regla vive en canales-saneado.ts y se aplica al
+   * cargar el catálogo, así que esto la comprueba sobre las salas ya montadas.
+   */
+  const adultos = new Set<string>(ADULT_CHANNELS);
+  const catalogo = [...getCountries(), ...getCities(), ...getTopics()];
+
+  it("ninguna sala que entre a un canal +18 lleva #chatzona", () => {
+    const infractoras = catalogo
+      .filter((p) => p.channels.some((c) => adultos.has(c)) && p.channels.includes("chatzona"))
+      .map((p) => p.slug);
+    expect(infractoras).toEqual([]);
+  });
+
+  it("y ninguna se queda sin canales por quitárselo", () => {
+    for (const p of catalogo.filter((p) => p.channels.some((c) => adultos.has(c)))) {
+      expect(p.channels.length, p.slug).toBeGreaterThan(0);
+    }
+  });
+
+  it("las salas que no son de la sección lo conservan", () => {
+    for (const slug of ["madrid", "cuba", "guatemala", "cuernavaca"]) {
+      expect(getPlace(slug)?.channels, slug).toContain("chatzona");
     }
   });
 });

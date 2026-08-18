@@ -4,9 +4,9 @@ import { REAL_CHANNELS } from "./irc-real-channels";
 import { channelKey } from "./irc-canal";
 
 describe("salas de región americana", () => {
-  it("son las 10 que la demanda medida sostiene", () => {
+  it("son las 11 que la demanda medida sostiene", () => {
     expect(TOPICS_REGIONES_AM.map((r) => r.slug).sort()).toEqual([
-      "carabobo", "chiapas", "coahuila", "jalisco", "nuevo-leon",
+      "carabobo", "chiapas", "coahuila", "jalisco", "morelos", "nuevo-leon",
       "sinaloa", "sonora", "tabasco", "yucatan", "zulia",
     ]);
   });

@@ -196,7 +196,7 @@ export const COUNTRIES: Place[] = [
     votes: 670,
     tag: "Tendencia",
     activity: "Media",
-    channels: ["cuba", "latinoamerica", "chatzona"],
+    channels: ["cuba", "latinos", "latinoamerica", "chatzona"],
     related: ["la-habana", "republica-dominicana", "puerto-rico", "espana", "amistad", "musica", "amor"],
     intro:
       "La isla del son y los almendrones por el Malecón. Entre los de allá y los de Miami, la sala mantiene viva una conversación que el estrecho no corta.",
@@ -226,7 +226,7 @@ export const COUNTRIES: Place[] = [
     users: 360,
     votes: 540,
     activity: "Media",
-    channels: ["guatemala", "latinoamerica", "chatzona"],
+    channels: ["guatemala", "latinos", "latinoamerica", "chatzona"],
     related: ["ciudad-de-guatemala", "el-salvador", "honduras", "mexico", "amistad", "amor", "viajes"],
     intro:
       "Tierra de volcanes y de un maya vivo en los mercados de Chichicastenango. Aquí todo es bien chilero y el desayuno sin frijoles negros no se entiende.",

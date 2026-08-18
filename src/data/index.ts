@@ -3,7 +3,7 @@ import { CITIES_WORLD } from "./cities-world";
 import { CITIES_GENERADAS } from "./cities-generadas";
 import { CITY_REGIONS } from "./city-regions";
 import { slugRegion } from "./region-alias";
-import { canalesReales, conCanalChueca } from "./canales-saneado";
+import { canalesReales, conCanalChueca, sinCanalGeneralSiEsAdulta } from "./canales-saneado";
 import { ABOUT_TITLES } from "./about-titles";
 import { COUNTRIES } from "./countries";
 import { TOPICS } from "./topics";
@@ -54,7 +54,10 @@ const conRegion = (p: Place): Place => {
 // también allí, sobre lo que toca el panel, para que la regla sea de verdad
 // «siempre» y no «siempre salvo desde /admin».
 export const conCanalesReales = (p: Place): Place => {
-  const limpios = conCanalChueca(canalesReales(p.channels), p.parentSlug);
+  const limpios = sinCanalGeneralSiEsAdulta(
+    conCanalChueca(canalesReales(p.channels), p.parentSlug),
+    p.parentSlug,
+  );
   return limpios.length === p.channels.length && limpios.every((c, i) => c === p.channels[i])
     ? p
     : { ...p, channels: limpios };

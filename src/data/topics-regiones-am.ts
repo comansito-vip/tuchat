@@ -14,6 +14,28 @@ import type { Place } from "./types";
 // su sala de ciudad ya se lleva la consulta y una segunda competiría con ella.
 export const TOPICS_REGIONES_AM: Place[] = [
   {
+    slug: "morelos",
+    name: "Morelos",
+    kind: "tematica",
+    icon: "🌺",
+    users: 178,
+    votes: 262,
+    tag: "Nueva",
+    activity: "Media",
+    parentName: "México",
+    parentSlug: "mexico",
+    // #morelos no existía en la red y va detrás de #mexico a propósito: si
+    // entrase el primero, la red lo crearía vacío y el usuario aterrizaría solo.
+    // Ver SEEDED_CHANNELS en irc-real-channels.ts.
+    channels: ["mexico", "morelos", "cuernavaca", "chatzona"],
+    related: ["cuernavaca", "cuautla", "mexico", "cdmx", "puebla"],
+    intro:
+      "El estado al que Ciudad de México se escapa el fin de semana: Cuernavaca, Tepoztlán y agua caliente todo el año a hora y media del Zócalo.",
+    aboutTitle: "Tierra de Zapata a hora y media del Zócalo",
+    about:
+      "Morelos es pequeño en el mapa y grande en lo que le cabe dentro. Cuernavaca lleva desde el siglo pasado con el apodo de ciudad de la eterna primavera, y ese clima explica media historia del estado: las casonas con alberca, los balnearios, y la costumbre chilanga de bajar el viernes por la tarde y volver el domingo quemado. Tepoztlán juega en otra liga, con su cerro y su pirámide arriba, la fama de pueblo de energías y una feria del chile relleno que se toma muy en serio. Xochicalco guarda las ruinas que aquí nadie presume lo bastante. Y luego está lo que de verdad marca la identidad: Emiliano Zapata nació en Anenecuilco y murió en Chinameca, los dos en Morelos, así que el agrarismo no es aquí un tema de libro de texto sino de apellido familiar. La caña de azúcar y los ingenios dejaron la huella económica y el vocabulario. Escribe gente de Cuernavaca, de Cuautla, de Jiutepec y de Temixco, y bastante capitalino que tiene casa o suegros por aquí.",
+  },
+  {
     slug: "nuevo-leon",
     name: "Nuevo León",
     kind: "tematica",

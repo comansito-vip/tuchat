@@ -1962,7 +1962,9 @@ export const CITIES_WORLD: Place[] = [
     activity: "Media",
     parentName: "México",
     parentSlug: "mexico",
-    channels: ["cuernavaca", "mexico", "latinoamerica", "chatzona"],
+    // #morelos, sembrado el 2026-08-19, va SEGUNDO: #cuernavaca es el poblado
+    // y quien entra tiene que caer ahí primero. Ver SEEDED_CHANNELS.
+    channels: ["cuernavaca", "morelos", "mexico", "latinoamerica", "chatzona"],
     related: ["ciudad-de-mexico", "toluca", "mexico", "amistad", "viajes", "amor"],
     intro:
       "Le llaman ciudad de la eterna primavera porque aquí ni el clima se atreve a ponerse pesado.",

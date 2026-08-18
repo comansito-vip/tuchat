@@ -1,4 +1,4 @@
-import { REAL_CHANNELS } from "./irc-real-channels";
+import { REAL_CHANNELS, ADULT_CHANNELS } from "./irc-real-channels";
 import { channelKey, canon } from "./irc-canal";
 
 /**
@@ -120,6 +120,43 @@ export function conCanalChueca(channels: string[], parentSlug?: string): string[
   if (esLesbico) return propios;
   if (propios.some((c) => key(c) === key(CANAL_CHUECA))) return propios;
   return [propios[0], CANAL_CHUECA, ...propios.slice(1)];
+}
+
+/**
+ * Hubs de la sección para adultos. `erotico` es el padre que declaran las 18
+ * salas de topics-adultos.ts; `adultos` es la landing de la sección.
+ */
+const PADRES_ADULTOS = ["erotico", "adultos"];
+
+/** El canal general de la casa, del que la parte +18 se descuelga. */
+const CANAL_GENERAL = "chatzona";
+
+/**
+ * Una sala de mayores no arrastra `#chatzona`.
+ *
+ * `#chatzona` es el canal general de la red: ahí entra cualquiera, incluida
+ * gente que llega por «chat gratis» sin más. Mandar a la misma sala el tráfico
+ * de `/chat/porno` o `/chat/mazmorra` mezcla las dos audiencias en el único
+ * canal que debería quedarse limpio, y quien buscaba charla general se
+ * encuentra la conversación de al lado. Decisión del cliente, 2026-08-19.
+ *
+ * Se reconoce por el canal, no por el slug: `cuarto-oscuro` y `intimos` no
+ * llevan nada explícito en el nombre y entran a `#sexo`, mientras que
+ * `santa-rosa-de-osos` contiene «osos» sin tener nada que ver. El padre sirve de
+ * refuerzo para las que cuelgan de la sección aunque su canal no esté en la
+ * lista de adultos.
+ *
+ * Nunca deja una sala sin canales: todas las de la sección entran antes a uno
+ * suyo —`#sexo`, `#bdsm`, `#mazmorra`…— y ese es el que de verdad las lleva a
+ * donde hay gente.
+ */
+export function sinCanalGeneralSiEsAdulta(channels: string[], parentSlug?: string): string[] {
+  const esAdulta =
+    channels.some((c) => (ADULT_CHANNELS as readonly string[]).includes(c)) ||
+    (parentSlug !== undefined && PADRES_ADULTOS.includes(parentSlug));
+  if (!esAdulta) return channels;
+  const propios = channels.filter((c) => channelKey(c) !== channelKey(CANAL_GENERAL));
+  return propios.length ? propios : channels;
 }
 
 /**

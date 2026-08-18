@@ -706,13 +706,13 @@
  {
   "orden": 22,
   "demanda": {
-   "consulta": "chat guatemalteco",
-   "impresiones": 0,
-   "clics": 0,
-   "posicion": null
+   "consulta": "chat chapin",
+   "impresiones": 33,
+   "clics": 2,
+   "posicion": 18.0
   },
-  "slug": "guatemalteco",
-  "name": "Guatemalteco",
+  "slug": "chapin",
+  "name": "Chapín",
   "kind": "tematica",
   "icon": "🇬🇹",
   "users": 148,
@@ -722,18 +722,145 @@
   "parentName": "Guatemala",
   "channels": [
    "guatemala",
-   "latinoamerica",
-   "chatzona"
+   "latinos"
   ],
   "related": [
    "guatemala",
    "ciudad-de-guatemala",
    "antigua-guatemala",
-   "quetzaltenango",
+   "gay-guatemala",
    "latinos"
   ],
-  "intro": "Chapines de la capital, de Xela y de la diáspora. Se habla de vos, se dice «cabal» y se discute quién hace mejor el fiambre de noviembre.",
-  "aboutTitle": "Chapín es como se llaman ellos mismos",
+  "intro": "Chapín es como se llaman entre ellos los guatemaltecos, y funciona de contraseña: quien lo escribe ya ha dicho de dónde es.",
+  "aboutTitle": "La contraseña con la que se reconocen",
   "about": "Chapín es el gentilicio que los guatemaltecos usan entre ellos, y funciona como contraseña: quien lo escribe en la sala se identifica sin decir de dónde es. El país tiene una mezcla lingüística poco común, con más de veinte idiomas mayas vivos junto al castellano, y eso deja huella incluso en cómo escribe alguien que solo habla español. El voseo es general, el «cabal» sirve para decir que sí y para cerrar cualquier frase, y el «pues» al final se cuela solo. La conversación reparte entre lo de dentro y lo de fuera: la capital con sus zonas numeradas, Xela como segunda ciudad con su propio orgullo, Antigua con los turistas, la costa y las cabeceras departamentales. Y la otra mitad son los que se fueron, sobre todo a Estados Unidos, que entran a horas raras y mantienen la sala despierta cuando en Guatemala todo el mundo duerme. Salen los temas de siempre, del fútbol a la política, y en noviembre no se libra nadie de discutir el fiambre y los barriletes de Sumpango. Se entra con un apodo, sin registro."
+ },
+ {
+  "orden": 23,
+  "demanda": {
+   "consulta": "chat cubanos",
+   "impresiones": 204,
+   "clics": 8,
+   "posicion": 6.3
+  },
+  "slug": "cubanos",
+  "name": "Cubanos",
+  "kind": "tematica",
+  "icon": "🇨🇺",
+  "users": 196,
+  "votes": 268,
+  "activity": "Alta",
+  "parentSlug": "cuba",
+  "parentName": "Cuba",
+  "channels": [
+   "cuba",
+   "latinos"
+  ],
+  "related": [
+   "cuba",
+   "la-habana",
+   "santiago-de-cuba",
+   "latinchat-cuba",
+   "latinos"
+  ],
+  "intro": "Cubanos de la isla y de fuera: La Habana, Santiago, Hialeah y Madrid escribiendo a la vez, con el «asere» de contraseña.",
+  "aboutTitle": "El asere que abre cualquier conversación",
+  "about": "Basta leer un rato para saber de dónde escribe cada quien: el «qué bolá» abre, el «asere» sirve igual para llamar a un amigo que para rellenar, y el «tremendo» se le pone delante a cualquier sustantivo. Escribe gente de La Habana y del Oriente —que no se llevan del todo bien y lo dicen con humor—, y escribe la que se fue: Hialeah y todo el condado de Miami, Madrid, Ciudad de México, Moscú. Entre unos husos y otros la sala rara vez se queda del todo callada. Los temas no hay que forzarlos. Industriales parte a la isla por la mitad cada temporada de béisbol y no admite término medio. El reguetón cubano tiene sus propias reglas y su propia discusión sobre quién manda este año. Y luego está lo cotidiano de verdad: el apagón, la cola, el paquete semanal que reparte series sin internet, lo que cuesta la conexión y lo que cuesta llamar a casa. Se habla sin épica y con detalle, que es como se habla de lo que se vive. Para escribir basta con inventarse un nombre; no hay registro que rellenar."
+ },
+ {
+  "orden": 24,
+  "demanda": {
+   "consulta": "terra chat republica dominicana",
+   "impresiones": 12,
+   "clics": 0,
+   "posicion": 9.3
+  },
+  "slug": "terra-republica-dominicana",
+  "name": "Terra República Dominicana",
+  "kind": "tematica",
+  "icon": "🌴",
+  "users": 168,
+  "votes": 234,
+  "activity": "Media",
+  "parentSlug": "terra",
+  "parentName": "Terra",
+  "channels": [
+   "republica_dominicana",
+   "latinos"
+  ],
+  "related": [
+   "terra",
+   "republica-dominicana",
+   "latinchat-republica-dominicana",
+   "santo-domingo",
+   "dominicano"
+  ],
+  "intro": "El chat de Terra fue la puerta de entrada de media isla a internet. Esto no es Terra, pero sí lo que queda de aquella costumbre.",
+  "aboutTitle": "De los cibercafés de Santo Domingo a hoy",
+  "about": "Aviso antes de nada: la marca Terra no está detrás de esto y nadie de aquella empresa tiene que ver. Aclarado, la búsqueda sigue viva y su explicación es muy dominicana. A principios de los dos mil casi nadie tenía internet en casa, y lo que había eran cibercafés: se pagaba la hora, se abría aquel chat y se salía con tres conversaciones empezadas. Para toda una generación esa fue la primera vez que habló con un desconocido por escrito. De aquello sobrevive el hábito y no el logotipo: teclear un apodo y aparecer donde la charla ya lleva rato. Ahora se hace desde el móvil y en datos, que es lo que cambió de verdad la isla. Por aquí pasan capitaleños, cibaeños y unos cuantos que escriben desde el norte, a la hora en que en la isla ya cerró todo."
+ },
+ {
+  "orden": 25,
+  "demanda": {
+   "consulta": "telegram guatemala",
+   "impresiones": 0,
+   "clics": 0,
+   "posicion": null
+  },
+  "slug": "telegram-guatemala",
+  "name": "Telegram Guatemala",
+  "kind": "tematica",
+  "icon": "✈️",
+  "users": 154,
+  "votes": 216,
+  "activity": "Media",
+  "parentSlug": "guatemala",
+  "parentName": "Guatemala",
+  "channels": [
+   "guatemala",
+   "latinos"
+  ],
+  "related": [
+   "guatemala",
+   "chapin",
+   "ciudad-de-guatemala",
+   "telegram-cuba",
+   "latinos"
+  ],
+  "intro": "Quien busca grupos de Telegram de Guatemala choca siempre con lo mismo: hay que dar el número de teléfono. Aquí no se pide ninguno.",
+  "aboutTitle": "Sin dar el número a nadie, que es la diferencia",
+  "about": "Conviene ser claro desde la primera línea: esto no es Telegram, no hay grupos de Telegram aquí y nadie va a pasar un enlace de invitación. Lo que hay es una alternativa a lo que la gente busca cuando teclea eso. Casi siempre busca dos cosas: hablar con guatemaltecos y hacerlo ya, sin trámite. El problema de la primera opción lo sabe cualquiera que lo haya intentado: para entrar a un grupo hace falta una cuenta, y para la cuenta hace falta un número de teléfono, que queda visible o semivisible según cómo esté configurado el perfil de cada quien. En un país donde la gente prefiere no exponerse, eso frena a mucha. Aquí se escribe un apodo y se entra, sin número, sin correo y sin instalar nada. Los grupos, además, se caen: el que estaba lleno hace medio año hoy está muerto o lo cerraron, y los enlaces que circulan por ahí llevan a ninguna parte. Un canal de IRC con años dentro no depende de que su administrador siga con ganas."
+ },
+ {
+  "orden": 26,
+  "demanda": {
+   "consulta": "telegram cuba",
+   "impresiones": 0,
+   "clics": 0,
+   "posicion": null
+  },
+  "slug": "telegram-cuba",
+  "name": "Telegram Cuba",
+  "kind": "tematica",
+  "icon": "📡",
+  "users": 161,
+  "votes": 224,
+  "activity": "Media",
+  "parentSlug": "cuba",
+  "parentName": "Cuba",
+  "channels": [
+   "cuba",
+   "latinos"
+  ],
+  "related": [
+   "cuba",
+   "cubanos",
+   "latinchat-cuba",
+   "telegram-guatemala",
+   "latinos"
+  ],
+  "intro": "En Cuba Telegram se usa porque gasta pocos datos, y los datos se pagan caros. Esto es texto puro en el navegador, que gasta menos todavía.",
+  "aboutTitle": "Lo que pesa un mensaje cuando los datos cuestan",
+  "about": "Esto no es Telegram ni tiene grupos de Telegram, y decirlo primero evita que nadie pierda el tiempo. Pero la búsqueda tiene una razón muy cubana detrás y merece respuesta. Telegram se extendió en la isla por un motivo práctico antes que por moda: consume poco, funciona con conexiones malas y no se cae cuando la señal va y viene. Cuando cada megabyte se paga, eso importa más que cualquier función. Una sala de texto en el navegador va todavía más ligera: no hay vídeo, no hay autoplay, no hay que descargar una aplicación ni actualizarla, y la página abre igual en un teléfono viejo. Basta inventarse un nombre: ni cuenta, ni correo, ni número de teléfono. Lo que se encuentra dentro es lo que se busca al entrar a un grupo cubano: gente de La Habana, del Oriente y de la diáspora, hablando de lo suyo a la hora en que puede conectarse. Y no depende de que un administrador siga pagando el grupo ni de que el enlace de invitación siga vivo."
  }
 ]
