@@ -545,7 +545,7 @@
   ],
   "intro": "Chat de Florencio Varela, partido de la provincia de Buenos Aires; su cabecera es la Ciudad de Florencio Varela, oficialmente San Juan Bautista.",
   "aboutTitle": "Polideportivo La Patriada y la Ciudad de San Juan Bautista en Varela",
-  "about": "Florencio Varela es uno de los 135 partidos de la provincia de Buenos Aires. Su cabecera lleva el mismo nombre y está oficialmente denominada San Juan Bautista. En el municipio destacan equipamientos como el Polideportivo La Patriada, el Polideportivo Néstor Kirchner y el Parque Thevenet, además de un Mercado Municipal activo y una agenda de actividades gratuitas. La comunidad también cuenta con proyectos de desarrollo social, como el programa de tramitación gratuita de documentación que benefició a 200 vecinos recientemente. El servicio de radio en vivo y la plataforma Meteovarela ofrecen información meteorológica y de actualidad. El portal de empleo y el mercado municipal facilitan la búsqueda de trabajo y la compra de productos locales. Las redes municipales difunden noticias y eventos mediante hashtags como #ViviendasSociales y #Seguridad.\n\nEn la sala de chat de Florencio Varela los usuarios conversan sobre la vida cotidiana del partido, comparten información sobre los servicios municipales, eventos culturales y consultas sobre empleo, salud y seguridad. Participan residentes, estudiantes y personas interesadas en la zona que buscan intercambiar experiencias y recibir ayuda de otros vecinos."
+  "about": "Florencio Varela es uno de los 135 partidos de la provincia de Buenos Aires. Su cabecera lleva el mismo nombre y está oficialmente denominada San Juan Bautista. En el municipio destacan equipamientos como el Polideportivo La Patriada, el Polideportivo Néstor Kirchner y el Parque Thevenet, además de un Mercado Municipal activo y una agenda de actividades gratuitas. La comunidad también cuenta con proyectos de desarrollo social, como el programa de tramitación gratuita de documentación que benefició a 200 vecinos recientemente. El servicio de radio en vivo y la plataforma Meteovarela ofrecen información meteorológica y de actualidad. El portal de empleo y el mercado municipal facilitan la búsqueda de trabajo y la compra de productos locales. Las redes municipales difunden noticias y eventos mediante hashtags como #ViviendasSociales y #Seguridad."
  },
  {
   "slug": "corrientes-provincia-de-corrientes",
@@ -668,7 +668,7 @@
   "about": "Santo Domingo Oeste es un municipio de la provincia de Santo Domingo, creado el 16 de octubre de 2001 por la Ley 163-01. La sala reúne a residentes que hablan de lo que pasa en la zona: noticias, problemas cotidianos o recomendaciones entre vecinos. Participan desde estudiantes hasta trabajadores que buscan información o compartir experiencias. Los temas dependen de lo que ocurra cada día, ya sea un evento local, un servicio municipal o anécdotas de la vida diaria. Es un espacio para mantener el contacto con la comunidad, sin más objetivo que conectar a quienes viven o pasan tiempo en el municipio."
  },
  {
-  "slug": "ventanilla-",
+  "slug": "ventanilla",
   "name": "Ventanilla",
   "kind": "ciudad",
   "icon": "💬",
@@ -757,8 +757,8 @@
   "about": "San Juan Sacatepéquez es un municipio del departamento de Guatemala, ubicado en la región metropolitana de la República de Guatemala. Con sus 242 km², es uno de los municipios más grandes del departamento, lo que le confiere una importante presencia territorial. La localidad celebra su fiesta patronal el 24 de junio, una fecha señalada en el calendario local que reúne a la comunidad en actividades tradicionales. El municipio cuenta con una diversidad de barrios que refleja la mezcla de tradiciones rurales y la influencia urbana de la capital.\n\nEn la sala de chat de San Juan Sacatepéquez se intercambian noticias del municipio, comentarios sobre la fiesta del 24 de junio, información sobre servicios municipales y preguntas sobre la vida cotidiana en la zona metropolitana. Participan residentes, vecinos y personas interesadas en la comunidad, lo que crea un espacio de conversación directo y centrado en temas locales. Los usuarios comparten avisos de eventos, consultas sobre trámites y recomendaciones de lugares de visita dentro del municipio."
  },
  {
-  "slug": "distrito-de-carabayllo",
-  "name": "Distrito de Carabayllo",
+  "slug": "carabayllo",
+  "name": "Carabayllo",
   "kind": "ciudad",
   "icon": "💬",
   "users": 140,
@@ -786,38 +786,8 @@
   "about": "El distrito de Carabayllo, también escrito como Carabaýllo, forma parte de los 43 distritos que integran la provincia de Lima, en el departamento homónimo del Perú. Limita al norte y noreste con Santa Rosa de Quives (provincia de Canta), al este con San Antonio de Chaclla (provincia de Huarochirí), al sureste con San Juan de Lurigancho, al sur con Comas y al oeste con los distritos de Puente Piedra y Ancón. Su posición geográfica lo sitúa entre zonas urbanas y rurales, ofreciendo una mezcla de áreas residenciales y agrícolas.\n\nEn la sala de chat de Distrito de Carabayllo los vecinos, comerciantes y estudiantes comparten información sobre servicios locales, eventos comunitarios y problemáticas cotidianas. Se discuten temas como el acceso a transporte, la seguridad en los barrios, y las iniciativas de mejora urbana. La conversación está abierta a cualquier persona que tenga vínculo con el distrito y busca intercambiar experiencias o recibir recomendaciones."
  },
  {
-  "slug": "partido-de-jose-c-paz",
-  "name": "Partido de José C. Paz",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 144,
-  "votes": 231,
-  "activity": "Alta",
-  "parentName": "Argentina",
-  "parentSlug": "argentina",
-  "provincia": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "channels": [
-   "argentina",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "merlo",
-   "tigre",
-   "moron",
-   "san-isidro",
-   "argentina",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Chat de Partido de José C. Paz: conecta con vecinos del partido ubicado a 40 km de la Ciudad Autónoma de Buenos Aires, en el noroeste del Gran Buenos Aires.",
-  "aboutTitle": "En el noroeste del Gran Buenos Aires",
-  "about": "El Partido de José C. Paz es uno de los 135 partidos que conforman la provincia de Buenos Aires. Se sitúa en el noroeste del Gran Buenos Aires, a unos 40 kilómetros de la Ciudad Autónoma de Buenos Aires, lo que lo convierte en una zona de transición entre la capital y la zona interior. Su territorio combina áreas residenciales con sectores industriales y cuenta con una infraestructura de servicios que incluye escuelas, centros de salud y espacios recreativos.\n\nEn la sala de chat de Partido de José C. Paz los residentes intercambian información sobre el tránsito, los comercios locales, actividades vecinales y cualquier tema de interés cotidiano. Participan vecinos, estudiantes, trabajadores y recién llegados que buscan conocer mejor su entorno o compartir experiencias. El espacio sirve como punto de referencia para preguntar sobre horarios de transporte, avisar sobre eventos en la comunidad y organizar encuentros informales, manteniendo viva la conversación entre quienes forman parte del partido."
- },
- {
-  "slug": "distrito-de-lurigancho-chosica",
-  "name": "Distrito de Lurigancho-Chosica",
+  "slug": "lurigancho-chosica",
+  "name": "Lurigancho-Chosica",
   "kind": "ciudad",
   "icon": "💬",
   "users": 140,
@@ -833,7 +803,7 @@
    "chatzona"
   ],
   "related": [
-   "distrito-de-carabayllo",
+   "carabayllo",
    "peru",
    "lima",
    "callao",
@@ -862,7 +832,7 @@
    "chatzona"
   ],
   "related": [
-   "partido-de-jose-c-paz",
+   "jose-c-paz",
    "tigre",
    "san-isidro",
    "merlo",
@@ -1008,7 +978,6 @@
    "chatzona"
   ],
   "related": [
-   "partido-de-jose-c-paz",
    "merlo",
    "escobar",
    "tigre",
@@ -1111,93 +1080,6 @@
   "intro": "Chat de Mara: la sala para conversar sobre el municipio zuliés, uno de los 21 que forman Zulia y cuya capital es San Rafael del El Moján.",
   "aboutTitle": "Mara y su capital San Rafael del El Moján",
   "about": "Mara es uno de los 21 municipios que conforman al estado Zulia, en Venezuela. Forma parte del Área metropolitana de Maracaibo y su capital es San Rafael del El Moján. El municipio cuenta con iniciativas como el Plan Quirúrgico Nacional, que el 9 de diciembre de 2023 benefició a niños y niñas en el Hospital I San Rafael de Mara, y la entrega de 45 transformadores que mejoraron el suministro eléctrico a 500 familias en cinco parroquias.\n\nEn la sala Chat de Mara los usuarios comparten información sobre la vida cotidiana del municipio, desde eventos locales y servicios municipales hasta temas de salud, educación y comercio. Participan residentes de San Rafael del El Moján, vecinos de las parroquias y personas interesadas en la zona metropolitana de Maracaibo que buscan intercambiar experiencias y estar al día con las noticias del ayuntamiento. También se discuten los resultados del Congreso Historiográfico marense y las iniciativas de la alcaldía, como la nueva estación policial en La Sierrita y los programas de distribución de alimentos a comunidades indígenas."
- },
- {
-  "slug": "area-metropolitana-de-piura",
-  "name": "Área Metropolitana de Piura",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 143,
-  "votes": 248,
-  "activity": "Alta",
-  "parentName": "Perú",
-  "parentSlug": "peru",
-  "provincia": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "channels": [
-   "peru",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "peru",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Chat de Área Metropolitana de Piura: conecta con usuarios de la quinta urbe metropolitana más grande del Perú, situada en el norte del país.",
-  "aboutTitle": "Los distritos de Piura, Veintiséis de Octubre, Castilla y Catacaos",
-  "about": "Piura Metropolitana es un área metropolitana peruana situada en el departamento de Piura, al norte del país. Según el Plan de Desarrollo Urbano, comprende los centros urbanos de los distritos de Piura, Veintiséis de Octubre, Castilla y Catacaos, y sus respectivos centros poblados. Al superar los 500.001 habitantes y contar con planes de acondicionamiento y desarrollo metropolitano, se considera una metrópolis peruana, y ocupa el puesto de quinta urbe metropolitana más grande y poblada del Perú, detrás de Lima, Arequipa, Trujillo y Chiclayo. En la sala de chat de Área Metropolitana de Piura se discuten temas locales como la dinámica urbana de los cuatro distritos, proyectos de infraestructura, actividades culturales y el comercio regional. Participan residentes, estudiantes y profesionales que comparten información, preguntas y opiniones sobre la vida cotidiana en la zona, así como noticias relevantes del departamento de Piura. El intercambio se mantiene centrado en la realidad del área metropolitana, ofreciendo un espacio de conversación concreto y actualizado para quienes viven o tienen interés en la región."
- },
- {
-  "slug": "partido-de-san-martin",
-  "name": "Partido de San Martín",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 150,
-  "votes": 245,
-  "activity": "Alta",
-  "parentName": "Argentina",
-  "parentSlug": "argentina",
-  "provincia": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "channels": [
-   "argentina",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "san-isidro",
-   "moron",
-   "argentina",
-   "buenos-aires",
-   "tigre",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Sala de chat de Partido de San Martín, uno de los 135 partidos de la provincia de Buenos Aires, situado al norte del Gran Buenos Aires y cercano a la capital",
-  "aboutTitle": "San Martín en el Gran Buenos Aires",
-  "about": "El Partido de San Martín es una jurisdicción ubicada en la zona norte del Gran Buenos Aires, limita con los partidos de Vicente López y San Isidro al este, Tigre al norte, San Miguel y Tres de Febrero al oeste, y la Ciudad Autónoma de Buenos Aires al sur. En esta sala de chat, los habitantes de Partido de San Martín y personas interesadas en la región pueden conversar sobre diversos temas, intercambiar ideas y conocerse entre sí. Se tratan asuntos cotidianos como la vida en el partido, sus lugares de interés, eventos y actividades, pero también se abordan preguntas sobre comercios locales, colegios, transporte público y la historia del territorio. Los usuarios comparten experiencias personales, opiniones sobre la zona y recomendaciones para visitar o disfrutar de los espacios comunes. La conversación es abierta y respetuosa, permitiendo que tanto residentes como visitantes intercambien información útil y establezcan contactos. La sala funciona como un punto de encuentro virtual donde se fomenta la participación activa y el intercambio de conocimientos sobre Partido de San Martín."
- },
- {
-  "slug": "partido-de-san-miguel",
-  "name": "Partido de San Miguel",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 137,
-  "votes": 223,
-  "activity": "Alta",
-  "parentName": "Argentina",
-  "parentSlug": "argentina",
-  "provincia": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "channels": [
-   "argentina",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "merlo",
-   "moron",
-   "partido-de-san-martin",
-   "tigre",
-   "san-isidro",
-   "argentina",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Sala de chat del Partido de San Miguel, en el noroeste del Gran Buenos Aires, a 33 km de Buenos Aires, y colinda con Tigre y San Martín",
-  "aboutTitle": "Drones municipales y cultura en el noroeste del Gran Buenos Aires",
-  "about": "El Partido de San Miguel forma parte del Gran Buenos Aires y está integrado a la aglomeración urbana. Limita con los partidos de Tigre, San Martín, Tres de Febrero, Hurlingham, Ituzaingó, Moreno, José C. Paz y Malvinas Argentinas. El municipio ofrece servicios que van desde reciclaje hasta programas para emprendedores, salud, educación y empleo.\n\nEn el Chat de Partido de San Miguel se habla de trámites locales como licencias de conducir o estacionamiento medido, eventos culturales en La Fábrica del Arte y actividades como la carrera “Pasos adelante”. Los participantes intercambian información sobre horarios de atención, requisitos y experiencias en la gestión de dichos trámites. También se comentan iniciativas municipales, como la División de Vigilancia Aérea con drones para patrullajes, y se difunden avisos de eventos organizados por la municipalidad. Quienes participan suelen ser residentes o personas vinculadas al distrito por trabajo o estudio, y utilizan la sala para mantenerse al día con noticias locales y compartir recursos útiles."
  },
  {
   "slug": "arroyo-naranjo",
@@ -1556,7 +1438,7 @@
   ],
   "intro": "Chat de Anaco, la sala para quienes viven o se interesan en la ciudad venezolana a 220 m de altitud, capital del municipio y cabecera de la Red Nacional de Gas.",
   "aboutTitle": "Anaco, capital del municipio y cabecera de la Red Nacional de Gas",
-  "about": "Anaco es la capital del municipio homónimo en el estado Anzoátegui, Venezuela, situada a 220 m de altitud sobre una mesa que se extiende por los Llanos altos orientales. La ciudad constituye un punto nodal de la carretera que la enlaza con Barcelona, El Tigre, Ciudad Bolívar, Maturín y Aragua de Barcelona, y desde 1942 se ha beneficiado por la explotación petrolera, apoyada por una industria de suministros, servicios y comercio. Es también centro de distribución de petróleo y gas natural, siendo cabecera de la Nueva Red Nacional de Gas, y en su zona de influencia destacan la producción de maíz, sorgo y la ganadería bovina.\n\nEn la sala de chat de Anaco se conversa sobre la vida cotidiana, la actividad económica del petróleo y del gas, la agricultura local y los eventos del municipio. Participan residentes, emprendedores y personas interesadas en la región, intercambiando noticias, opiniones y apoyándose en temas de empleo, comercio y cultura local."
+  "about": "Anaco es la capital del municipio homónimo en el estado Anzoátegui, Venezuela, situada a 220 m de altitud sobre una mesa que se extiende por los Llanos altos orientales. La ciudad constituye un punto nodal de la carretera que la enlaza con Barcelona, El Tigre, Ciudad Bolívar, Maturín y Aragua de Barcelona, y desde 1942 se ha beneficiado por la explotación petrolera, apoyada por una industria de suministros, servicios y comercio. Es también centro de distribución de petróleo y gas natural, siendo cabecera de la Nueva Red Nacional de Gas, y en su zona de influencia destacan la producción de maíz, sorgo y la ganadería bovina."
  },
  {
   "slug": "ciudad-acuna",
@@ -1735,7 +1617,7 @@
   ],
   "intro": "Entra al chat de Ocumare del Tuy, la capital del municipio Tomás Lander en Miranda con 174.947 habitantes y una de las zonas industriales más importantes.",
   "aboutTitle": "Chat de la tierra del Ron Pampero y los Valles del Tuy",
-  "about": "Ocumare del Tuy es la ciudad capital del Municipio Tomás Lander, en el Estado Miranda de Venezuela. Situada en la región de los Valles del Tuy, cuenta con una población de 174.947 habitantes y forma parte del área metropolitana junto a Charallave y Cúa. Esta localidad destaca por albergar una de las zonas industriales más importantes del país, donde se producen el Ron Pampero y la salsa de tomate del mismo nombre. En su territorio también se ubican infraestructuras clave como el Hospital General de los Valles del Tuy y el Aeropuerto Metropolitano, que recibe vuelos privados, conectándose con el resto del país mediante la autopista hacia Charallave.\n\nLa sala de chat de Ocumare del Tuy funciona como un espacio de comunicación para los residentes de este municipio y de las localidades vecinas de la región mirandina. Los usuarios entran a este espacio digital para conversar sobre la actualidad local, coordinar traslados por la autopista, compartir información sobre los servicios del Hospital General o simplemente entablar amistad con otras personas de la zona. Es un canal directo para quienes viven en los Valles del Tuy o tienen vínculos con su actividad industrial y comercial, facilitando el contacto inmediato sin necesidad de registros."
+  "about": "Ocumare del Tuy es la ciudad capital del Municipio Tomás Lander, en el Estado Miranda de Venezuela. Situada en la región de los Valles del Tuy, cuenta con una población de 174.947 habitantes y forma parte del área metropolitana junto a Charallave y Cúa. Esta localidad destaca por albergar una de las zonas industriales más importantes del país, donde se producen el Ron Pampero y la salsa de tomate del mismo nombre. En su territorio también se ubican infraestructuras clave como el Hospital General de los Valles del Tuy y el Aeropuerto Metropolitano, que recibe vuelos privados, conectándose con el resto del país mediante la autopista hacia Charallave."
  },
  {
   "slug": "talcahuano",
@@ -2156,7 +2038,7 @@
   ],
   "intro": "Chat de Palo Negro, la sala para conversar sobre la ciudad capital del municipio Libertador, situada a unos 12 km al sur de Maracay, en el estado Aragua.",
   "aboutTitle": "Industria y lago de Valencia: Palo Negro en el corazón de Aragua",
-  "about": "Palo Negro es una ciudad venezolana, capital del municipio Libertador, en el estado Aragua. Está ubicada a unos 12 km al sur de Maracay y se asienta en las riberas del lago de Valencia, formando parte del área metropolitana de Maracay. Su principal actividad económica gira en torno al sector industrial, con presencia de fábricas y pequeñas empresas manufactureras. Tenía una población para 2023 de 123 706 habitantes, lo que refleja su crecimiento como centro productivo. La cercanía al lago de Valencia influye en actividades recreativas y en la calidad de vida de sus habitantes. El municipio Libertador administra los servicios locales y fomenta el desarrollo de pequeñas empresas.\n\nEn la sala de chat de Palo Negro los usuarios comparten información sobre el entorno industrial, intercambian opiniones sobre empleo local, comentan sobre la vida cotidiana en la ribera del lago y organizan encuentros para debatir proyectos comunitarios. Participan residentes, trabajadores de las fábricas, estudiantes y cualquier persona interesada en la realidad de esta zona, creando un espacio de conversación cercano y práctico. Frecuentemente se discuten las oportunidades de inversión en la zona industrial y se comparten avisos de empleo publicados por las empresas locales. También se organizan encuentros virtuales para celebrar fechas importantes del municipio."
+  "about": "Palo Negro es una ciudad venezolana, capital del municipio Libertador, en el estado Aragua. Está ubicada a unos 12 km al sur de Maracay y se asienta en las riberas del lago de Valencia, formando parte del área metropolitana de Maracay. Su principal actividad económica gira en torno al sector industrial, con presencia de fábricas y pequeñas empresas manufactureras. Tenía una población para 2023 de 123 706 habitantes, lo que refleja su crecimiento como centro productivo. La cercanía al lago de Valencia influye en actividades recreativas y en la calidad de vida de sus habitantes. El municipio Libertador administra los servicios locales y fomenta el desarrollo de pequeñas empresas."
  },
  {
   "slug": "la-lisa",
@@ -2425,8 +2307,8 @@
   "about": "Chilapa de Álvarez es una ciudad mexicana ubicada en la zona centro-este del estado de Guerrero, a unos 54 kilómetros de la ciudad capital Chilpancingo. Forma parte de la región Centro y es conocida simplemente como Chilapa.\n\nEn la sala de chat de Chilapa de Álvarez, encontrarás a personas de la localidad y sus alrededores que buscan conversar y compartir experiencias. Puedes hablar sobre la vida en la ciudad, la cultura y las tradiciones de la región, o simplemente hacer amigos nuevos. La sala es un espacio abierto para todos, donde puedes compartir tus pensamientos y escuchar a los demás."
  },
  {
-  "slug": "distrito-de-majes",
-  "name": "Distrito de Majes",
+  "slug": "majes",
+  "name": "Majes",
   "kind": "ciudad",
   "icon": "💬",
   "users": 144,
@@ -2478,36 +2360,6 @@
   "intro": "Chat de Guasdualito, la ciudad fronteriza de Apure que es el mayor centro petrolero de la región y punto clave de comercio con Arauca.",
   "aboutTitle": "Guasdualito: punto fronterizo y centro petrolero del Alto Apure",
   "about": "Guasdualito es una ciudad del estado Apure, en Venezuela, y capital del municipio Páez dentro del Distrito Especial Alto Apure. Se sitúa en la frontera con Arauca, Colombia, y constituye un importante punto fronterizo para el intercambio comercial. Con una población de 71 661 habitantes en 2023, es la segunda ciudad más relevante del estado después de San Fernando y el mayor centro petrolero de la región. En la sala de chat los usuarios comparten información local y participan residentes, comerciantes y personas interesadas en la zona. Los participantes suelen comentar sobre el día a día, compartir avisos y apoyar la interacción entre vecinos. La proximidad a la frontera influye en la vida cotidiana, generando dinámicas de intercambio y colaboración. Aunque la zona enfrenta retos comunes, la conversación en línea brinda un espacio para la información y la colaboración. La sala también sirve para coordinar actividades locales y conocer novedades de servicios y eventos. Los interlocutores valoran el intercambio rápido y la cercanía de sus opiniones."
- },
- {
-  "slug": "partido-de-olavarria",
-  "name": "Partido de Olavarría",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 137,
-  "votes": 229,
-  "activity": "Media",
-  "parentName": "Argentina",
-  "parentSlug": "argentina",
-  "provincia": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "channels": [
-   "argentina",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "trenque-lauquen",
-   "general-pico",
-   "general-villegas",
-   "pehuajo",
-   "argentina",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Chat de Partido de Olavarría: conecta con vecinos, intercambia información sobre la agenda municipal, los servicios públicos y la vida cotidiana en la zona.",
-  "aboutTitle": "Festival de las Infancias en Parque Eseverri, Olavarría",
-  "about": "El Partido de Olavarría se sitúa en la pampa húmeda del centro‑suroeste de la Provincia de Buenos Aires y es uno de los 135 partidos‑municipio de la provincia. Con una superficie de 7.715 km² ocupa el tercer lugar en extensión dentro del territorio provincial. Su cabecera es la ciudad homónima, ubicada junto a la Ruta Nacional 226 y las rutas provinciales 51 y 60, a 45 km de la Ruta Nacional 3. Limita con los partidos de Azul, Benito Juárez, Laprida, General La Madrid, Daireaux, Bolívar y Tapalqué. En su territorio destacan instituciones como el Museo Dámaso Arce, el Museo de los Pueblos, el Centro Cultural San José y el Bioparque Conservación, que forman parte de la oferta cultural y educativa. La sala de chat de Partido de Olavarría permite a residentes, estudiantes y visitantes intercambiar información sobre la agenda municipal, la gestión de servicios públicos, el desarrollo económico y la vida cotidiana en la zona, facilitando la participación ciudadana y el seguimiento de las decisiones del gobierno local."
  },
  {
   "slug": "cagua",
@@ -2724,37 +2576,6 @@
   "about": "Comitán de Domínguez es una ciudad mexicana ubicada en el estado de Chiapas y capital del municipio del mismo nombre. Tradicionalmente conocida como Comitán de las Flores, lleva el apellido Domínguez en honor a Belisario Domínguez Palencia, mártir de la Libre Expresión y originario de esta ciudad. En la sala de chat de Comitán de Domínguez los usuarios comparten información sobre la vida cotidiana, eventos locales y cualquier tema de interés para la comunidad. Participan residentes, estudiantes y visitantes que consultan sobre servicios municipales, comentan la historia de la localidad o intercambian opiniones sobre cultura, educación y turismo. El tono de la conversación se mantiene respetuoso y abierto, y también se abordan cuestiones relacionadas con empleo y desarrollo económico de la zona. En la conversación también aparecen preguntas sobre salud pública, transporte, gastronomía típica y tradiciones locales. Los miembros suelen intercambiar recomendaciones de lugares para comer, datos sobre festividades y consejos para quienes se trasladan a la ciudad."
  },
  {
-  "slug": "partido-de-tandil",
-  "name": "Partido de Tandil",
-  "kind": "ciudad",
-  "icon": "💬",
-  "users": 131,
-  "votes": 218,
-  "activity": "Media",
-  "parentName": "Argentina",
-  "parentSlug": "argentina",
-  "provincia": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "channels": [
-   "argentina",
-   "latinoamerica",
-   "chatzona"
-  ],
-  "related": [
-   "tandil",
-   "ayacucho-buenos-aires",
-   "azul",
-   "benito-juarez",
-   "olavarria",
-   "argentina",
-   "amistad",
-   "amor"
-  ],
-  "intro": "Chat de Partido de Tandil: espacio de conversación para residentes y visitantes del partido fundado el 4 de abril de 1823.",
-  "aboutTitle": "Feria del Libro 2026 y la fundación del Partido de Tandil",
-  "about": "El Partido de Tandil es una de las 135 divisiones administrativas de la provincia de Buenos Aires. Se fundó el 4 de abril de 1823 bajo la autoridad del Gobernador Brigadier Martín Rodríguez y pertenece a la Quinta Sección Electoral de la provincia. Además de su historia, el municipio gestiona actividades como la Feria del Libro 2026 y el Día de las Infancias en Independiente, y mantiene proyectos de seguridad vial en la Ruta Nacional 226. La municipalidad dispone de una cámara en vivo, una guía de trámites y servicios digitales como factura on‑line, licencias de conducir y habilitaciones comerciales.\n\nEn la sala de chat de Partido de Tandil se intercambian opiniones sobre la vida cotidiana, eventos locales como la Feria del Libro y la programación cultural, así como preguntas sobre trámites municipales y servicios públicos. Participan residentes, estudiantes, emprendedores y visitantes que buscan información actualizada y compartir experiencias sobre la comunidad tandilense."
- },
- {
   "slug": "iguala",
   "name": "Iguala de la Independencia",
   "kind": "ciudad",
@@ -2880,8 +2701,8 @@
   "about": "Tinaquillo es la capital del Municipio Tinaquillo, en el estado Cojedes, Venezuela. Fue fundada bajo el nombre de Nuestra Señora del Socorro de Tinaquillo; la fecha exacta de su fundación sigue siendo objeto de debate entre los historiadores, aunque el llamado a “Recogimiento a Pueblo” se registró el 25 de abril de 1760. La ciudad cuenta con 124.919 habitantes y se sitúa en una altiplanicie a 420 metros sobre el nivel del mar, a orillas del río Tamanaco. La Troncal 005 la enlaza con Valencia y Tinaco, facilitando el tránsito de personas y mercancías y contribuyendo al desarrollo local. En la sala de chat de Tinaquillo los usuarios pueden conversar sobre la historia, la geografía y la vida cotidiana del municipio, intercambiando información y manteniéndose al día con los temas de interés local. Los participantes pueden compartir experiencias, plantear dudas y conocer opiniones de otros habitantes y visitantes. El espacio está abierto a quien desee conocer más sobre la identidad y el desarrollo de Tinaquillo."
  },
  {
-  "slug": "distrito-de-huaral",
-  "name": "Distrito de Huaral",
+  "slug": "huaral",
+  "name": "Huaral",
   "kind": "ciudad",
   "icon": "💬",
   "users": 136,
@@ -3022,7 +2843,7 @@
   ],
   "intro": "Chat de Ixcán, municipio de 1.575 km² en la Franja Transversal del Norte de Guatemala, con sede en Playa Grande. Conecta con su comunidad.",
   "aboutTitle": "Ixcán, municipio de la Franja Transversal del Norte",
-  "about": "Ixcán es un municipio del norte del Departamento de Quiché, en la República de Guatemala. Se ubica dentro de la zona petrolera conocida como la Franja Transversal del Norte y ocupa una superficie de 1.575 kilómetros cuadrados. Su cabecera municipal es Playa Grande, y la mayor parte de su población pertenece a grupos étnicos indígenas que se asentaron tras la creación de la Franja Transversal del Norte en 1970. Antes de esa fecha la zona era considerada inhóspita; durante el establecimiento de los límites con México entre 1882 y 1896 se registraron cientos de muertes entre los trabajadores de la Comisión Guatemalteca de Límites, reflejo de las duras condiciones de vida.\n\nEn la sala de chat de Ixcán los usuarios comparten información sobre la vida cotidiana, costumbres locales y eventos comunitarios, así como dudas sobre la historia y la geografía del municipio. Participan residentes de Playa Grande, personas de otras comunidades del departamento de Quiché y visitantes interesados en la cultura indígena de la región. La conversación suele girar en torno a la agricultura, la identidad cultural y los retos que plantea el entorno rural, ofreciendo un espacio para el intercambio de experiencias y la colaboración entre los miembros."
+  "about": "Ixcán es un municipio del norte del Departamento de Quiché, en la República de Guatemala. Se ubica dentro de la zona petrolera conocida como la Franja Transversal del Norte y ocupa una superficie de 1.575 kilómetros cuadrados. Su cabecera municipal es Playa Grande, y la mayor parte de su población pertenece a grupos étnicos indígenas que se asentaron tras la creación de la Franja Transversal del Norte en 1970. Antes de esa fecha la zona era considerada inhóspita; durante el establecimiento de los límites con México entre 1882 y 1896 se registraron cientos de muertes entre los trabajadores de la Comisión Guatemalteca de Límites, reflejo de las duras condiciones de vida."
  },
  {
   "slug": "melipilla",
@@ -3117,8 +2938,8 @@
   "about": "La Unión Norte es uno de los 44 municipios de El Salvador, situado en la zona norte del Departamento de La Unión. Limita al norte y al este con la República de Honduras por el Río Goascorán, al sur con La Unión Sur y al oeste con los municipios de Morazán Norte y Morazán Sur. Fue creado el 13 de junio de 2023 y agrupa diez distritos: Lislique, Nueva Esparta, Polorós, Concepción de Oriente, Anamorós, El Sauce, Santa Rosa de Lima, Bolívar, San José y Pasaquina. Con 107.540 habitantes, ocupa el puesto número 22 a nivel nacional en población.\n\nEn la sala de chat de La Unión Norte los usuarios comentan la vida cotidiana del municipio, el comercio fronterizo, eventos locales y la relación con la comunidad hondureña colindante. Participan residentes, jóvenes y adultos que buscan intercambiar información sobre servicios municipales, actividades culturales y noticias del entorno, así como personas de otras regiones interesadas en conocer la realidad de este municipio fronterizo."
  },
  {
-  "slug": "distrito-de-paita",
-  "name": "Distrito de Paita",
+  "slug": "paita",
+  "name": "Paita",
   "kind": "ciudad",
   "icon": "💬",
   "users": 122,

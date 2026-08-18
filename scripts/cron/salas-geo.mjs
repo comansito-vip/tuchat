@@ -39,6 +39,9 @@ const PROGRESO = join(DIR, "progreso.json");
 const GENERADAS = join(DIR, "generadas.json");
 const SALIDA_TS = join(RAIZ, "src", "data", "cities-generadas.ts");
 const LOG = join(DIR, "cron.log");
+// Lista de slugs YA publicados que hay que volver a escribir. La llena
+// scripts/localidades/curar-costura.mjs. Ver el bloque REHACER de abajo.
+const REHACER = join(DIR, "rehacer.json");
 const CORPUS = "/home/javier/red-seo/data/corpus-consultas.tsv";
 
 const arg = (n, d) => {
@@ -47,6 +50,7 @@ const arg = (n, d) => {
 };
 const LOTE = Number(arg("lote", 12));
 const SECO = process.argv.includes("--seco");
+const MODO_REHACER = process.argv.includes("--rehacer");
 
 // Tres intentos por localidad antes de abandonarla, y solo cuentan los fallos
 // por CONTENIDO: que la cadena de LLMs esté saturada no dice nada del pueblo.
@@ -121,6 +125,9 @@ PROHIBIDO, porque delata texto generado y este proyecto lo penaliza:
 - Superlativos huecos, párrafos que no dicen nada y frases de cierre motivacionales.
 - Markdown: ni encabezados, ni listas, ni negritas. Los dos campos se imprimen dentro de un párrafo.
 - Decir a qué hora o qué días se anima la sala ("suele animarse por las tardes", "mayor actividad al caer la tarde", "los fines de semana se llena"). NO tenemos ese dato: es relleno inventado, y escrito en todas las fichas es lo que delata que las escribe una máquina.
+- Contar de qué se habla en la sala o quién entra a ella. Tampoco tenemos ese dato. La medición del 2026-08-18 encontró la misma frase en 83 de las 107 fichas publicadas, con el nombre cambiado: "En la sala de chat de {LOCALIDAD} los vecinos comparten información sobre la vida cotidiana, eventos locales y temas de interés general". Ni una palabra de eso sale del material y no dice nada de ningún sitio. Quedan prohibidas en bloque: "en la sala de chat", "la sala de chat de", "comparten/intercambian información sobre", "la vida cotidiana", "temas de interés general", "punto de encuentro donde".
+
+La ficha va ENTERA sobre el lugar. De la sala no hay nada que contar que no sea el nombre.
 
 Cifras de miles siempre con punto separador: "12.480", nunca "12480".`;
 
@@ -146,8 +153,8 @@ Escribe la ficha de la sala "Chat de ${loc.nombre}". Tiene que contener AL MENOS
 
 Devuelve SOLO este JSON, sin texto alrededor:
 {
-  "intro": "entre 110 y 160 caracteres. Es la meta description de la página, así que tiene que ser única y llevar un dato concreto de ${loc.nombre}. Menciona que es la sala de chat de ${loc.nombre}.",
-  "about": "150-260 palabras de prosa corrida (puedes usar dos párrafos separados por una línea en blanco). Primero el sitio: qué es, dónde está, qué tiene de propio según el material. Después, de qué se habla en su sala y quién entra. Sin markdown.",
+  "intro": "entre 110 y 160 caracteres. Es la meta description de la página, así que tiene que ser única y llevar un dato concreto de ${loc.nombre}. Nombra ${loc.nombre}, pero NO escribas 'la sala de chat de ${loc.nombre}': esa fórmula está prohibida y tira la ficha.",
+  "about": "150-260 palabras de prosa corrida (puedes usar dos párrafos separados por una línea en blanco), TODAS sobre ${loc.nombre}: qué es, dónde está, de qué vive, qué fiesta tiene y cuándo, qué se le conoce, qué le pasó. Cada frase apoyada en el material. NO cierres hablando de la sala, de sus usuarios ni de lo que se conversa en ella: ese párrafo no tiene fuente y es el que delata la ficha generada. Sin markdown.",
   "aboutTitle": "el H2 de la ficha: entre 25 y 70 caracteres, con algo propio de ${loc.nombre} dentro (un río, un puerto, una fiesta, una industria, lo que dé el material). NO vale 'Sobre el chat de ${loc.nombre}' ni 'Acerca de ${loc.nombre}': ese encabezado repetido en miles de páginas es lo que delata a un directorio generado. Tampoco nombres de alcaldes, intendentes ni cargos: caducan en las siguientes elecciones y el título se queda viejo.",
   "dato_ancla": "la frase exacta del material de origen en la que te has apoyado para el dato concreto"
 }`;
@@ -158,12 +165,13 @@ NO es un problema (no lo marques):
 - Que la ficha omita datos de la fuente. Es un resumen.
 - Que sea menos precisa que la fuente ("más de doce mil" cuando la fuente dice "12.480").
 - El estilo, el tono o lo bien o mal escrita que esté.
-- Lo que la ficha dice sobre la propia sala de chat, quién entra o de qué se habla: eso es del sitio web, no de la localidad, y nunca va a estar en la fuente.
+- Que la ficha nombre la sala de chat de la localidad al presentarla. (Lo que NO puede hacer es describir quién entra o de qué se conversa: eso no tiene fuente y va en la lista de problemas de abajo.)
 
 SÍ es un problema:
 - Una fecha, cifra, nombre propio, monumento, fiesta, río o comarca que la ficha da por cierto y que la fuente no respalda.
 - Confundir esta localidad con otra homónima.
 - Muletillas de IA de la lista prohibida.
+- Describir la sala de chat: quién entra, de qué se habla, qué comparten los vecinos. No hay fuente para eso y es el relleno que hay que cortar.
 
 MATERIAL DE ORIGEN:
 """
@@ -395,12 +403,53 @@ async function main() {
   const puntuar = (loc) =>
     (demanda?.get(norm(loc.nombre)) ?? 0) * 1000 + (loc.poblacion ?? 0);
 
-  const candidatas = cola
-    .filter((l) => l.slug && !hechas.has(l.slug) && !abandonadas.has(l.slug)
-      && !yaSlug.has(l.slug) && !yaLocalidad.has(identidad(l)))
-    .sort((a, b) => puntuar(b) - puntuar(a));
+  /**
+   * REHACER: reescribir en su sitio una ficha ya publicada.
+   *
+   * Hace falta porque la alternativa —despublicarla y devolverla a la cola—
+   * tira la URL abajo unos días, y una URL que aparece y desaparece es peor
+   * señal que una ficha mejorable. Aquí la sala nunca deja de existir: se
+   * genera la ficha nueva y sustituye a la vieja en el mismo registro.
+   *
+   * La localidad se reconstruye desde `generadas.json`, que guarda nombre,
+   * provincia y país pero NO la fuente. No importa: `reunirMaterial` vuelve a
+   * bajar el extracto de Wikipedia por nombre y contexto cuando no se lo dan.
+   *
+   * Los filtros de duplicado (`yaSlug`, `yaLocalidad`) se saltan a propósito
+   * para estas: la sala ya existe, y que exista es justo el motivo de estar aquí.
+   */
+  const paraRehacer = MODO_REHACER ? leerJSON(REHACER, []) : [];
+  const porSlug = new Map(generadas.map((g) => [g.slug, g]));
+  const candidatas = MODO_REHACER
+    ? paraRehacer
+        .map((slug) => {
+          const g = porSlug.get(slug);
+          if (!g) { log(`  · ${slug} no está publicada: se ignora`); return null; }
+          return {
+            slug: g.slug,
+            nombre: g.name,
+            pais: g.parentName,
+            paisSlug: g.parentSlug,
+            region: g.provincia ?? null,
+            regionSlug: g.regionSlug ?? null,
+            related: g.related,
+            rehacer: true,
+          };
+        })
+        .filter(Boolean)
+    : cola
+        .filter((l) => l.slug && !hechas.has(l.slug) && !abandonadas.has(l.slug)
+          && !yaSlug.has(l.slug) && !yaLocalidad.has(identidad(l)))
+        .sort((a, b) => puntuar(b) - puntuar(a));
 
-  log(`cola: ${candidatas.length} pendientes · lote de hoy: ${LOTE}${SECO ? " (SECO)" : ""}`);
+  // Una ficha que se está rehaciendo no puede competir consigo misma en el
+  // detector de fraseo calcado: se saca del índice antes de empezar.
+  if (MODO_REHACER) {
+    const suyos = new Set(candidatas.map((c) => c.slug));
+    for (const [frase, duena] of indiceFraseo) if (suyos.has(duena)) indiceFraseo.delete(frase);
+  }
+
+  log(`${MODO_REHACER ? "a rehacer" : "cola"}: ${candidatas.length} · lote de hoy: ${LOTE}${SECO ? " (SECO)" : ""}`);
 
   const nuevas = [];
   let intentadas = 0;
@@ -486,7 +535,19 @@ async function main() {
       }
 
       loc.related = relacionadasDe(loc, situadas, (s) => yaSlug.has(s));
-      const registro = construirRegistro(loc, ficha, channelsForCity);
+      // Al rehacer solo cambia el TEXTO. Los números de sala, los canales y las
+      // vecinas se conservan tal cual estaban: recalcularlos exigiría la
+      // población y las coordenadas, que `generadas.json` no guarda, y además
+      // cambiar los canales de una sala publicada movería a su gente de sitio
+      // sin motivo.
+      const registro = loc.rehacer
+        ? {
+            ...porSlug.get(loc.slug),
+            intro: ficha.intro.trim(),
+            ...(ficha.aboutTitle ? { aboutTitle: ficha.aboutTitle.trim() } : {}),
+            about: ficha.about.trim(),
+          }
+        : construirRegistro(loc, ficha, channelsForCity);
 
       // Unicidad contra TODO lo que ya hay, no solo contra el lote de hoy.
       const universo = [...generadas, ...nuevas, registro];
@@ -522,12 +583,23 @@ async function main() {
     return;
   }
 
-  const todas = [...generadas, ...nuevas];
+  // En modo rehacer la ficha nueva OCUPA EL SITIO de la vieja, conservando el
+  // orden del fichero; en modo normal se añade al final, como siempre.
+  const rehechas = new Map(nuevas.map((n) => [n.slug, n]));
+  const todas = MODO_REHACER
+    ? generadas.map((g) => rehechas.get(g.slug) ?? g)
+    : [...generadas, ...nuevas];
   mkdirSync(dirname(GENERADAS), { recursive: true });
   writeFileSync(GENERADAS, JSON.stringify(todas, null, 1));
   writeFileSync(SALIDA_TS, emitirTS(todas));
   progreso.hechas = [...hechas];
   writeFileSync(PROGRESO, JSON.stringify(progreso, null, 1));
+
+  if (MODO_REHACER) {
+    const quedan = leerJSON(REHACER, []).filter((slug) => !rehechas.has(slug));
+    writeFileSync(REHACER, JSON.stringify(quedan, null, 1));
+    log(`quedan ${quedan.length} fichas por rehacer`);
+  }
 
   log(`publicadas ${nuevas.length} salas · acumuladas ${todas.length} · quedan ${candidatas.length - nuevas.length} en cola`);
 }

@@ -90,6 +90,24 @@ const nextConfig: NextConfig = {
       // La sala de Latinchat pasa a ser el hub de sus 23 salas por país y ciudad,
       // y se queda el slug que la gente teclea.
       "latinchat-amigos": "latinchat",
+      // El cron de goteo publicó once salas con el envoltorio administrativo
+      // que les pone Wikidata en el nombre («Partido de Tandil» en vez de
+      // «Tandil») y una con un guion suelto en el slug. Cinco de ellas eran
+      // además el mismo pueblo que una sala que ya existía, así que se borraron
+      // y apuntan a la buena; las otras siete se renombraron. Corregido en el
+      // origen: preparar-dataset.mjs limpia el prefijo antes de encolar.
+      "area-metropolitana-de-piura": "piura",
+      "partido-de-san-martin": "san-martin",
+      "partido-de-san-miguel": "san-miguel",
+      "partido-de-olavarria": "olavarria",
+      "partido-de-tandil": "tandil",
+      "ventanilla-": "ventanilla",
+      "distrito-de-carabayllo": "carabayllo",
+      "partido-de-jose-c-paz": "jose-c-paz",
+      "distrito-de-lurigancho-chosica": "lurigancho-chosica",
+      "distrito-de-majes": "majes",
+      "distrito-de-huaral": "huaral",
+      "distrito-de-paita": "paita",
     };
     return [
       { source: "/pais/:slug", destination: "/chat/:slug", permanent: true },

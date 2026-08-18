@@ -47,6 +47,25 @@ export const MULETILLAS_IA = [
   "te esperamos",
   "unete a la conversacion",
   "atreverse a dar el paso",
+  // La costura del generador de localidades, medida el 2026-08-18 sobre las 107
+  // salas que llevaba publicadas: 83 de ellas (78%) traían la misma frase con el
+  // nombre cambiado — «En la sala de chat de {X} los {vecinos} {comparten}
+  // información sobre la vida cotidiana, eventos locales y temas de interés
+  // general». Es exactamente el molde que costó la reescritura de copy.ts, esta
+  // vez dentro del `about` que escribe el LLM en vez de en la plantilla.
+  //
+  // Se pueden bloquear enteras sin miedo a falsos positivos porque no dicen nada
+  // del lugar: el contraste sobre las 2.727 salas del catálogo dio 78 aciertos,
+  // 77 de ellos del cron y el otro la intro de `madrid`, que arrastra la misma
+  // fórmula vacía y también hay que reescribir.
+  "en la sala de chat",
+  "la sala de chat de",
+  "temas de interes general",
+  "y temas de interes",
+  "sobre la vida cotidiana",
+  "comparten informacion sobre",
+  "intercambian informacion sobre",
+  "punto de encuentro donde",
 ] as const;
 
 /**

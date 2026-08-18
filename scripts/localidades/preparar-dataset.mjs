@@ -71,6 +71,33 @@ function leer(nombre) {
   return JSON.parse(readFileSync(ruta, "utf8"));
 }
 
+/**
+ * Quita el prefijo administrativo del nombre que da Wikidata.
+ *
+ * Wikidata llama a muchos municipios por su envoltorio legal —«Partido de
+ * Tandil», «Distrito de Paita», «Área Metropolitana de Piura»— y ese nombre se
+ * colaba tal cual hasta el título de la sala. El 2026-08-18 había once
+ * publicadas así: `/chat/partido-de-tandil` en vez de `/chat/tandil`. Nadie
+ * busca «chat partido de tandil»; se busca «chat tandil», que además ya podía
+ * existir como sala, con lo que la nueva era un duplicado con nombre feo.
+ *
+ * Limpiando el prefijo ANTES de comprobar duplicados, el que ya existe se
+ * detecta y la entrada se descarta sola; y el que no, entra con su nombre.
+ *
+ * `variantesDe` no sirve para esto: corta por la preposición y de «Distrito de
+ * Carabayllo» saca «Distrito», que no es el pueblo.
+ */
+// La preposición es OBLIGATORIA salvo en "Cantón X", que es como se nombran los
+// ecuatorianos. Sin esa exigencia, "Gran Canaria" se quedaba en "Canaria" y
+// "Distrito Federal" en "Federal": ahí la palabra no envuelve al nombre, forma
+// parte de él.
+const PREFIJO_ADMIN =
+  /^(?:(?:distritos?|partidos?|municipios?|provincia|departamento|comuna|regi[óo]n|[áa]rea metropolitana|zona metropolitana|aglomerado)\s+(?:de\s+la\s+|de\s+los\s+|de\s+las\s+|del\s+|de\s+)|cant[óo]n\s+)/i;
+const sinPrefijoAdministrativo = (nombre) => {
+  const limpio = String(nombre ?? "").replace(PREFIJO_ADMIN, "").trim();
+  return limpio.length > 3 ? limpio : String(nombre ?? "");
+};
+
 /** Una entrada solo entra en la cola si trae con qué anclarla en algo real. */
 const tieneFuente = (x) =>
   (x.extracto && x.extracto.length > 120) || Boolean(x.webOficial);
@@ -174,7 +201,9 @@ async function main() {
   const pendientesAm = [];
   const sinFuenteAm = [];
   for (const l of censoAm) {
-    if (yaExiste(yaEstan, { nombre: l.nombre, slug: l.slug, coords: l.coords })) continue;
+    const nombreAm = sinPrefijoAdministrativo(l.nombre);
+    if (yaExiste(yaEstan, { nombre: nombreAm, slug: l.slug, coords: l.coords })) continue;
+    if (nombreAm !== l.nombre && yaExiste(yaEstan, { nombre: l.nombre, coords: l.coords })) continue;
     // El censo de América ya trae extracto y web oficial en cada registro; el
     // fichero de "nuevas" solo aporta el slug desambiguado, así que se combinan
     // con el censo teniendo prioridad.
@@ -184,7 +213,7 @@ async function main() {
       origen: "am20k",
       pais: l.pais,
       paisSlug: l.pais_slug,
-      nombre: l.nombre,
+      nombre: nombreAm,
       // El slug bueno es el del fichero de "nuevas": ahí ya viene resuelto el
       // homónimo entre países (san-juan-argentina, avellaneda-argentina),
       // mientras que el del censo es el crudo y colisionaría.
@@ -223,7 +252,7 @@ async function main() {
   // homónimos a puñados: "San Martín" sale doce veces solo en Argentina.
   const slugsUsados = new Set([...yaEstan.claves, ...pendientesEs.map((x) => x.slug), ...pendientesAm.map((x) => x.slug)]);
   for (const l of censo5k) {
-    const nombre = l.nombre ?? l.nombre_wd;
+    const nombre = sinPrefijoAdministrativo(l.nombre ?? l.nombre_wd);
     if ((l.poblacion ?? 0) < 5000) continue;
     if (yaExiste(yaEstan, { nombre, coords: l.coords })) continue;
 
@@ -274,7 +303,7 @@ async function main() {
   if (!censo4k.length) console.log("aviso: falta latam-4k-mx-ec.json — México y Ecuador no entran en esta pasada");
   const pendientes4k = [];
   for (const l of censo4k) {
-    const nombre = l.nombre ?? l.nombre_wd;
+    const nombre = sinPrefijoAdministrativo(l.nombre ?? l.nombre_wd);
     if ((l.poblacion ?? 0) < UMBRAL_MX_EC) continue;
     if (yaExiste(yaEstan, { nombre, coords: l.coords })) continue;
 

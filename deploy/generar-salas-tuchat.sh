@@ -46,7 +46,19 @@ set -a
 . ./.env
 set +a
 
-npx tsx scripts/cron/salas-geo.mjs --lote 50
+# Arreglar va ANTES que añadir. Mientras queden fichas en rehacer.json —las 94
+# que salieron con el párrafo inventado sobre la propia sala, ver
+# scripts/localidades/curar-costura.mjs— el lote del día se gasta en
+# reescribirlas y no se publica ninguna localidad nueva. Sumar páginas encima de
+# un molde que hay que corregir solo multiplica el trabajo pendiente.
+#
+# Las fichas se reescriben EN SU SITIO: la URL no desaparece en ningún momento.
+if [ -s data/localidades/rehacer.json ] && [ "$(tr -d '[] \n' < data/localidades/rehacer.json)" != "" ]; then
+  echo "[$(date -u +%FT%TZ)] quedan fichas por rehacer: hoy no se publican salas nuevas"
+  npx tsx scripts/cron/salas-geo.mjs --rehacer --lote 50
+else
+  npx tsx scripts/cron/salas-geo.mjs --lote 50
+fi
 npx tsx scripts/cron/salas-termino.mjs --lote 3
 
 if [ -z "$(git status --porcelain src/data data/localidades data/terminos)" ]; then

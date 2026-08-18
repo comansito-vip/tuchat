@@ -17,9 +17,9 @@ export const CITIES: Place[] = [
     channels: ["madrid", "españa", "chatzona"],
     related: ["pozuelo-de-alarcon", "las-rozas", "alcorcon", "getafe", "alcobendas", "torrejon-de-ardoz", "espana", "amistad", "amor"],
     intro:
-      "Entra en la sala de chat de Madrid para conocer gente, hablar en directo y participar en conversaciones con usuarios de la ciudad y de toda España.",
+      "Madrid a cualquier hora: el Metro de madrugada, los bares que abren cuando los demás cierran y gente de Malasaña a Vallecas escribiendo.",
     about:
-      "La conversación gira en torno a planes de fin de semana, al Metro a las tantas, a dónde tomar algo sin gastarse el sueldo y a los locales que abren cuando los demás cierran. Por la sala pasa gente de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza, madrileños de toda la vida revueltos con quien lleva aquí dos años. Tiene ritmo de capital y se nota: se anima sobre todo los jueves, los viernes y los fines de semana, cuando cuesta seguir todas las conversaciones a la vez. Si eres de Madrid o estás de visita, aquí tienes tu punto de encuentro digital.",
+      "La conversación gira en torno a planes de fin de semana, al Metro a las tantas, a dónde tomar algo sin gastarse el sueldo y a los locales que abren cuando los demás cierran. Por la sala pasa gente de toda la ciudad: de Malasaña a Vallecas, de Chamberí a Carabanchel, de Lavapiés a Hortaleza, madrileños de toda la vida revueltos con quien lleva aquí dos años. Tiene ritmo de capital y se nota en lo que se cuenta: el último tren, la cuesta del alquiler, el partido del domingo y la eterna discusión sobre qué barrio se ha puesto imposible.",
   },
   {
     slug: "barcelona",
