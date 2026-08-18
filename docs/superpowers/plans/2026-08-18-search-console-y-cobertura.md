@@ -245,3 +245,64 @@ México devolvió 67 localidades y Ecuador 20. No es solo que el servicio fuera 
 que Wikidata no tiene la población de la mayoría de localidades pequeñas de esos dos
 países. Para completar ese corte hace falta el padrón real: **INEGI** para México e **INEC**
 para Ecuador. Los scripts quedan en el repo para cuando haya dataset.
+
+## Segunda ampliación: siete países de América con corte en 4.000
+
+Encargo posterior de la misma sesión: México, Ecuador, Guatemala, República Dominicana,
+Uruguay, Colombia y Chile. `censo-paises.mjs` (antes `censo-mx-ec.mjs`) arma el censo de
+los siete juntando la franja de 10.000 arriba —ya descargada, con enlace a Wikipedia y web
+oficial— con la de 4.000 a 10.000, que hay que bajar de Wikidata por tramos.
+
+Cola resultante: **3.337 localidades**, de las cuales 1.623 son de los siete países.
+
+| País | En cola |
+|---|---:|
+| México | 752 |
+| Colombia | 234 |
+| Guatemala | 225 |
+| Ecuador | 147 |
+| Chile | 121 |
+| República Dominicana | 94 |
+| Uruguay | 50 |
+
+### El fallo que apareció al medirla: 626 localidades repetidas
+
+La cola tenía **626 localidades duplicadas**, y no era culpa de la ampliación: venía de
+antes. `ayabaca` (Perú) salía cuatro veces —`ayabaca`, `ayabaca-peru`,
+`ayabaca-departamento-de-piura` y la de América—, `puente-piedra` dos, `gonzalez-catan`
+dos.
+
+El motivo es estructural: los cuatro bloques de la cola se construyen por separado y cada
+uno solo comprueba contra lo **ya publicado**, no contra lo que han encolado los otros. Y
+como el desambiguador le pone un sufijo distinto a cada copia, el filtro de slug deja de
+verlas iguales. Publicar eso son cuatro páginas del mismo pueblo en el mismo dominio, que
+es la definición de contenido duplicado.
+
+Criba nueva, por país y nombre normalizado:
+
+- si todas las del grupo traen coordenadas, se separan en corros de 25 km — dos «San José»
+  a 300 km son dos pueblos de verdad y los dos se quedan;
+- si a alguna le faltan, el grupo entero cuenta como una. Conservador a propósito: sin
+  coordenadas no hay forma de distinguir el homónimo del duplicado, y de los dos errores
+  posibles, publicar dos veces el mismo pueblo es el que hace daño.
+
+Gana la que tenga fuente y, a igualdad, la de más población; las desplazadas van a
+`revisar.json` con el nombre de quién las desplazó, no se tiran.
+
+Resultado: de 626 repetidas a **2 slugs repetidos**, y los dos son del mismo país a
+propósito (`rio-bravo` en México con 28 km entre las dos fichas, `huancabamba` en Perú).
+Ahí el cron publica la primera y salta la segunda, que es el comportamiento que se busca.
+Los choques entre países sí se desempatan con el sufijo del país: `nava` es un concejo
+asturiano y un municipio de Coahuila, y las dos merecen su página.
+
+### Wikidata: el 504 no significa que no haya datos
+
+La primera tanda devolvía 74 filas en el tramo de 4.000-5.000 y cero en el siguiente. Ese
+cero se habría leído como que México no tiene pueblos de 5.000 a 6.500 habitantes, y lo
+que quiere decir es que la consulta no cabe en el minuto que da el servicio.
+`fetch-censo-wikidata.mjs` ahora **parte el tramo en dos** tras tres fallos y pide cada
+mitad por separado, hasta un ancho mínimo de 250 habitantes.
+
+Aun así, conviene no confundir esto con cobertura completa: los padrones reales son el del
+INEGI, el INEC, el INE guatemalteco, la ONE dominicana, el INE uruguayo, el DANE y el INE
+chileno. Lo que sale de Wikidata es un suelo.
