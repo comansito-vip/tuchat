@@ -10,7 +10,7 @@
  *                Castilla y León, Extremadura, Canarias, Baleares y Cataluña).
  *   · América  — todas las localidades hispanohablantes de más de 20.000 (3.278)
  *   · CO/PE/UY/AR — corte propio en 5.000
- *   · MX/EC    — corte propio en 4.000 (mismo encargo del 2026-08-18)
+ *   · MX, EC, GT, DO, UY, CO y CL — corte propio en 4.000 (mismo encargo)
  *
  * Los datasets vienen de estoeschat, que ya los descargó y verificó: el del INE
  * es padrón oficial (Wikidata se queda en 671 municipios de los ~942 reales, así
@@ -26,7 +26,7 @@
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { indexar, yaExiste, vecinaMasCercana, variantesDe, norm } from "./duplicados.mjs";
+import { indexar, yaExiste, vecinaMasCercana, variantesDe, norm, distanciaKm } from "./duplicados.mjs";
 
 const ORIGEN = "/home/javier/estoeschat/data";
 const DESTINO = join(process.cwd(), "data", "localidades");
@@ -49,8 +49,14 @@ const UMBRAL_ES_BAJO = 4000;
 const UMBRAL_ES_ALTO = 8000;
 const umbralDe = (comunidad) => (COMUNIDADES_4K.has(comunidad) ? UMBRAL_ES_BAJO : UMBRAL_ES_ALTO);
 
-/** México y Ecuador, con su censo propio bajado de Wikidata por tramos. */
-const UMBRAL_MX_EC = 4000;
+/**
+ * Los siete países con corte propio en 4.000, censo aparte.
+ *
+ * Uruguay y Colombia ya entraban por el bloque de 5.000; aquí bajan a 4.000 y
+ * de paso recogen la franja de 10.000 a 20.000 que el censo de América (que
+ * corta en 20.000) no traía.
+ */
+const UMBRAL_PAISES = 4000;
 
 // Lo que ya existe se lee del build de datos, no de un volcado aparte, para que
 // la cola no se desincronice del sitio cuando se añaden salas a mano.
@@ -283,29 +289,39 @@ async function main() {
     });
   }
 
-  // ── México y Ecuador, con corte propio en 4.000 ───────────────────────────
+  // ── Siete países con corte propio en 4.000 ────────────────────────────────
+  // México, Ecuador, Guatemala, República Dominicana, Uruguay, Colombia y Chile.
   // Encargo del cliente del 2026-08-18, junto con las nueve comunidades
-  // españolas. El censo se bajó de Wikidata por tramos de población (la consulta
-  // del país entero devolvía 504) y viene igual de crudo que el de los cuatro
-  // anteriores: nombre, población y división de primer nivel, sin extracto. El
-  // cron baja la fuente por su cuenta antes de escribir y descarta lo que no
-  // consiga anclar.
+  // españolas. El censo lo arma `censo-paises.mjs` juntando dos fuentes: la de
+  // 10.000 arriba, que ya estaba descargada y trae enlace a Wikipedia y web
+  // oficial, y la de 4.000 a 10.000, que hay que bajar de Wikidata por tramos
+  // (la consulta del país entero devuelve 504) y viene pelada.
   //
-  // Vale aquí el mismo aviso: Wikidata no es un padrón. Para México el censo
-  // real es el del INEGI y para Ecuador el del INEC; estas cifras son un suelo,
-  // no la cobertura completa del país.
-  // Opcional a propósito: el censo de MX/EC se baja aparte y puede tardar días
-  // en estar (Wikidata se cae a ratos). Sin él, el resto de la cola se prepara
-  // igual en vez de romper la ejecución entera.
-  const censo4k = existsSync(join(ORIGEN, "latam-4k-mx-ec.json"))
-    ? (leer("latam-4k-mx-ec.json")?.localidades ?? [])
+  // Vale aquí el mismo aviso: Wikidata no es un padrón. Los censos reales son
+  // el del INEGI, el INEC, el INE guatemalteco, la ONE dominicana, el INE
+  // uruguayo, el DANE y el INE chileno. Esto es un suelo de cobertura.
+  // Opcional a propósito: el censo se baja aparte y puede tardar días en estar
+  // (Wikidata se cae a ratos). Sin él, el resto de la cola se prepara igual en
+  // vez de romper la ejecución entera.
+  const censo4k = existsSync(join(ORIGEN, "latam-4k-paises.json"))
+    ? (leer("latam-4k-paises.json")?.localidades ?? [])
     : [];
-  if (!censo4k.length) console.log("aviso: falta latam-4k-mx-ec.json — México y Ecuador no entran en esta pasada");
+  if (!censo4k.length) console.log("aviso: falta latam-4k-paises.json — los siete países con corte propio no entran en esta pasada");
+  // Colombia y Uruguay ya entran por el bloque de 5.000, así que la misma
+  // localidad puede venir en los dos censos. El slug no basta para verlo: el
+  // desambiguador le pondría el sufijo del departamento a la segunda («sabaneta»
+  // y «sabaneta-antioquia») y se publicarían dos salas del mismo pueblo. Se
+  // compara por país y nombre normalizado, que es lo que de verdad las iguala.
+  const yaEnCola = new Set(
+    [...pendientesAm, ...pendientes5k].map((x) => `${x.paisSlug}|${norm(x.nombre)}`),
+  );
+
   const pendientes4k = [];
   for (const l of censo4k) {
     const nombre = sinPrefijoAdministrativo(l.nombre ?? l.nombre_wd);
-    if ((l.poblacion ?? 0) < UMBRAL_MX_EC) continue;
+    if ((l.poblacion ?? 0) < UMBRAL_PAISES) continue;
     if (yaExiste(yaEstan, { nombre, coords: l.coords })) continue;
+    if (yaEnCola.has(`${l.pais_slug}|${norm(nombre)}`)) continue;
 
     let slug = norm(nombre);
     for (const sufijo of ["", `-${norm(l.division ?? "")}`, `-${l.pais_slug}`]) {
@@ -375,7 +391,93 @@ async function main() {
   // Las de 5.000 van al final de la cola a propósito: son las más pequeñas y las
   // que menos se buscan, así que entran cuando ya estén las grandes. El cron las
   // reordena por demanda medida de todas formas.
-  const cola = [...pendientesEs, ...criba(pendientesAm), ...criba(pendientes5k), ...criba(pendientes4k)];
+  /**
+   * Criba final: la MISMA localidad colada por dos censos distintos.
+   *
+   * Los cuatro bloques se construyen por separado y cada uno solo mira lo ya
+   * publicado, no lo que han encolado los otros. El resultado, medido el
+   * 2026-08-18: 626 localidades repetidas en la cola, con `ayabaca` cuatro veces
+   * (`ayabaca`, `ayabaca-peru`, `ayabaca-departamento-de-piura` y la de América)
+   * porque el desambiguador le pone un sufijo distinto a cada copia y el filtro
+   * de slug ya no las ve iguales. Publicar eso son cuatro páginas del mismo
+   * pueblo en el mismo dominio, que es literalmente lo que Google llama
+   * contenido duplicado.
+   *
+   * Se agrupa por país y nombre normalizado. Dentro del grupo:
+   *   · si TODAS traen coordenadas, se separan en corros de 25 km — dos «San
+   *     José» a 300 km son dos pueblos de verdad y los dos se quedan;
+   *   · si a alguna le faltan, el grupo entero cuenta como una. Es conservador a
+   *     propósito: sin coordenadas no hay forma de distinguir el homónimo del
+   *     duplicado, y de los dos errores posibles, publicar dos veces el mismo
+   *     pueblo es el que hace daño.
+   * Gana la que tenga fuente y, a igualdad, la de más población. Las demás no se
+   * tiran: van a revisar.json con quién las desplazó.
+   */
+  function sinRepetidas(lista) {
+    const grupos = new Map();
+    for (const x of lista) {
+      const clave = `${x.paisSlug}|${norm(x.nombre)}`;
+      grupos.set(clave, [...(grupos.get(clave) ?? []), x]);
+    }
+    const salida = [];
+    for (const [, grupo] of grupos) {
+      if (grupo.length === 1) { salida.push(grupo[0]); continue; }
+
+      const corros = [];
+      const todasSituadas = grupo.every((x) => x.coords?.lat != null);
+      for (const x of grupo) {
+        const suyo = todasSituadas
+          ? corros.find((c) => distanciaKm(c[0].coords, x.coords) <= 25)
+          : corros[0];
+        if (suyo) suyo.push(x);
+        else corros.push([x]);
+      }
+
+      for (const corro of corros) {
+        const orden = [...corro].sort((a, b) =>
+          Number(Boolean(b.extracto || b.webOficial)) - Number(Boolean(a.extracto || a.webOficial))
+          || (b.poblacion ?? 0) - (a.poblacion ?? 0));
+        const [gana, ...pierden] = orden;
+        salida.push(gana);
+        for (const x of pierden) dudosas.push({ ...x, posibleDuplicadoDe: gana.slug, motivo: "misma localidad en dos censos" });
+      }
+    }
+    return salida;
+  }
+
+  /**
+   * Último choque: dos entradas con el mismo slug.
+   *
+   * Solo se desempata cuando son de PAÍSES DISTINTOS —`nava` es un concejo de
+   * Asturias y un municipio de Coahuila, y las dos merecen su página—, porque
+   * ahí el sufijo del país las separa de verdad. Dentro del mismo país no se
+   * toca: si `rio-bravo` sale dos veces en México con 28 km entre las
+   * coordenadas, lo más probable es que sea el mismo sitio fichado dos veces, y
+   * ponerle sufijo a la segunda publicaría el pueblo por duplicado. Dejándolas
+   * con el mismo slug, el cron publica la primera y salta la segunda, que es el
+   * resultado que se quiere.
+   */
+  function desempatarPaises(lista) {
+    const porSlug = new Map();
+    for (const x of lista) porSlug.set(x.slug, [...(porSlug.get(x.slug) ?? []), x]);
+    for (const [slug, choque] of porSlug) {
+      if (choque.length < 2) continue;
+      const paises = new Set(choque.map((x) => x.paisSlug));
+      if (paises.size < 2) continue;
+      // La primera se queda el slug limpio; las de otros países llevan el suyo.
+      const [, ...resto] = choque;
+      for (const x of resto) {
+        if (x.paisSlug === choque[0].paisSlug) continue;
+        const candidato = `${slug}-${x.paisSlug}`;
+        if (!porSlug.has(candidato)) x.slug = candidato;
+      }
+    }
+    return lista;
+  }
+
+  const cola = desempatarPaises(sinRepetidas([
+    ...pendientesEs, ...criba(pendientesAm), ...criba(pendientes5k), ...criba(pendientes4k),
+  ]));
   writeFileSync(join(DESTINO, "revisar.json"), JSON.stringify(dudosas, null, 1));
   writeFileSync(join(DESTINO, "pendientes.json"), JSON.stringify(cola, null, 1));
   writeFileSync(join(DESTINO, "sin-fuente.json"), JSON.stringify(quedanSinFuente, null, 1));
@@ -398,7 +500,7 @@ async function main() {
   console.log(`   · de 8.000 arriba, todas las comunidades: faltan ${deOrigen("es8k")}`);
   console.log(`   · de 4.000 a 8.000, solo las nueve pedidas: faltan ${deOrigen("es4k")}`);
   console.log(`5.000+  (CO/PE/UY/AR)   añadidas a la cola ${pendientes5k.length} de ${censo5k.length} del censo`);
-  console.log(`4.000+  (MX/EC)         añadidas a la cola ${pendientes4k.length} de ${censo4k.length} del censo`);
+  console.log(`4.000+  (7 países)      añadidas a la cola ${pendientes4k.length} de ${censo4k.length} del censo`);
   console.log("");
   console.log(`cola con fuente:  ${cola.length}  (${conWeb} con web del ayuntamiento)`);
   console.log(`fuera por no tener fuente: ${quedanSinFuente.length}`);

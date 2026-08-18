@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Construye `latam-4k-mx-ec.json`: el censo de México y Ecuador desde 4.000
- * habitantes, que es el corte que pidió el cliente el 2026-08-18.
+ * Construye `latam-4k-paises.json`: el censo desde 4.000 habitantes de los siete
+ * países con corte propio que pidió el cliente el 2026-08-18 — México, Ecuador,
+ * Guatemala, República Dominicana, Uruguay, Colombia y Chile.
  *
  * Junta dos fuentes porque ninguna basta sola:
  *
@@ -29,13 +30,23 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 const ORIGEN = "/home/javier/estoeschat/data";
-const SALIDA = join(ORIGEN, "latam-4k-mx-ec.json");
+const SALIDA = join(ORIGEN, "latam-4k-paises.json");
 const FRANJA_BAJA = process.argv[2] ?? ORIGEN;
 const UMBRAL = 4000;
 
+/**
+ * Los siete, con el QID que hace falta para bajar la franja baja de Wikidata.
+ * La clave es el `pais_slug` que usa el censo de 10.000, que es por donde se
+ * cruzan las dos fuentes.
+ */
 const PAISES = {
-  mexico: { nombre: "México", fichero: "mx-4k.json" },
-  ecuador: { nombre: "Ecuador", fichero: "ec-4k.json" },
+  mexico: { nombre: "México", qid: "Q96", fichero: "mx-4k.json" },
+  ecuador: { nombre: "Ecuador", qid: "Q736", fichero: "ec-4k.json" },
+  guatemala: { nombre: "Guatemala", qid: "Q774", fichero: "gt-4k.json" },
+  "republica-dominicana": { nombre: "República Dominicana", qid: "Q786", fichero: "do-4k.json" },
+  uruguay: { nombre: "Uruguay", qid: "Q77", fichero: "uy-4k.json" },
+  colombia: { nombre: "Colombia", qid: "Q739", fichero: "co-4k.json" },
+  chile: { nombre: "Chile", qid: "Q298", fichero: "cl-4k.json" },
 };
 
 const leer = (ruta, porDefecto = null) =>
@@ -53,7 +64,6 @@ const listaCruda = Array.isArray(crudo) ? crudo : crudo.localidades ?? [];
 const clave = (x, paisSlug) => x.qid ?? `${paisSlug}:${(x.nombre ?? x.nombre_wd ?? "").toLowerCase()}`;
 
 const porClave = new Map();
-let deLaCompleta = 0;
 
 for (const l of listaCruda) {
   const paisSlug = l.pais_slug;
@@ -71,7 +81,6 @@ for (const l of listaCruda) {
     coords: l.coords ?? null,
     franja: "10k+",
   });
-  deLaCompleta++;
 }
 
 const faltan = [];
@@ -130,7 +139,9 @@ console.log(`${localidades.length} localidades escritas en ${SALIDA}`);
 console.table(porPais);
 if (faltan.length) {
   console.log(`\nFRANJA 4.000-10.000 SIN DESCARGAR: ${faltan.join(", ")}`);
-  console.log("Se completa con: node scripts/localidades/fetch-censo-wikidata.mjs Q96 mexico <dir>/mx-4k.json");
-  console.log("                 node scripts/localidades/fetch-censo-wikidata.mjs Q736 ecuador <dir>/ec-4k.json");
-  console.log("y volviendo a ejecutar este script.");
+  console.log("Se completa con una línea por país y volviendo a ejecutar este script:");
+  for (const [slug, { qid, fichero, nombre }] of Object.entries(PAISES)) {
+    if (!faltan.some((f) => f.startsWith(nombre))) continue;
+    console.log(`  node scripts/localidades/fetch-censo-wikidata.mjs ${qid} ${slug} ${join(ORIGEN, fichero)}`);
+  }
 }
