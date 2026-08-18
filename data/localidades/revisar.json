@@ -644,26 +644,6 @@
  },
  {
   "origen": "am20k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Florencio Varela",
-  "slug": "florencio-varela",
-  "poblacion": 146704,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Florencio_Varela_(ciudad)",
-  "extracto": null,
-  "webOficial": "http://www.varela.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.7975,
-   "lon": -58.2759
-  },
-  "posibleDuplicadoDe": "quilmes",
-  "km": 8.8
- },
- {
-  "origen": "am20k",
   "pais": "Perú",
   "paisSlug": "peru",
   "nombre": "Castilla",
@@ -1341,7 +1321,7 @@
   "region": "Provincia de Buenos Aires",
   "regionSlug": "provincia-de-buenos-aires",
   "wikipedia": "https://es.wikipedia.org/wiki/Trujui",
-  "extracto": "Trujui es una ciudad de la provincia de Buenos Aires en Argentina. Es la segunda ciudad de importancia del partido de Moreno. A 28 km al oeste de la Ciudad de Buenos Aires formando parte de la Zona Oeste del Gran Buenos Aires. No hay que confundirse con el barrio \"Trujui\", que es un barrio de la localidad de Santa María.",
+  "extracto": "Trujui es una ciudad de la provincia de Buenos Aires en Argentina. Es la segunda ciudad de importancia del partido de San Miguel. A 28 km al oeste de la Ciudad de Buenos Aires formando parte de la Zona Oeste del Gran Buenos Aires. No hay que confundirse con el barrio \"Trujui\", que es un barrio de la localidad de Santa María.",
   "webOficial": null,
   "gentilicio": null,
   "coords": {
@@ -1747,7 +1727,7 @@
   "region": "Provincia de Buenos Aires",
   "regionSlug": "provincia-de-buenos-aires",
   "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Celina",
-  "extracto": "Ciudad Celina es una localidad del Partido de La Matanza que limita con la Ciudad Autónoma de Buenos Aires. Está ubicada en la zona oeste de área metropolitana de Buenos Aires. Hasta 2013 formaba parte de la ciudad de Villa Madero según ley provincial Nro. 8668 de noviembre de 1976, ya que en julio de ese mismo año se separó pasando a ser una localidad. Está situada entre las avenidas General Paz y Autopista Pablo Ricchieri, y Ribera del río Matanza-Riachuelo y el Mercado Central de Buenos Aires.",
+  "extracto": "Ciudad Celina, también llamada Villa Celina, es una localidad del Partido de La Matanza que limita con la Ciudad Autónoma de Buenos Aires. Está ubicada en la zona oeste de área metropolitana de Buenos Aires. Hasta 2013 formaba parte de la ciudad de Villa Madero según ley provincial Nro. 8668 de noviembre de 1976, ya que en julio de ese mismo año se separó pasando a ser una localidad. Está situada entre las avenidas General Paz y Autopista Pablo Ricchieri, y Ribera del río Matanza-Riachuelo y el Mercado Central de Buenos Aires.",
   "webOficial": null,
   "gentilicio": null,
   "coords": {
@@ -1901,27 +1881,6 @@
   },
   "posibleDuplicadoDe": "san-jose",
   "km": 5.6
- },
- {
-  "origen": "am20k",
-  "pais": "Venezuela",
-  "paisSlug": "venezuela",
-  "nombre": "Simón Bolívar",
-  "slug": "simon-bolivar-venezuela",
-  "poblacion": 69676,
-  "region": "Bolívar",
-  "regionSlug": "bolivar",
-  "wikipedia": "https://es.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
-  "extracto": "Simón José Antonio de la Santísima Trinidad Bolívar Ponte y Palacios Blanco, conocido como el Libertador, fue un militar, estratega y político venezolano, líder fundamental de la independencia de lo que son hoy Venezuela, Colombia, Ecuador y Panamá. Fue uno de los principales artífices de la independencia de Perú, y aprobó el reconocimiento de Bolivia como república. Es una figura destacada en los procesos de emancipación hispanoamericana frente al Imperio español, y por sus actos, se le otorgó el título de Libertador.",
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": 8.373793,
-   "lon": -62.726675
-  },
-  "rescatada": true,
-  "posibleDuplicadoDe": "ciudad-guayana",
-  "km": 9.8
  },
  {
   "origen": "am20k",
@@ -4246,26 +4205,6 @@
  },
  {
   "origen": "am20k",
-  "pais": "Ecuador",
-  "paisSlug": "ecuador",
-  "nombre": "Simón Bolívar",
-  "slug": "simon-bolivar-ecuador",
-  "poblacion": 29427,
-  "region": "Guayas",
-  "regionSlug": "guayas",
-  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Sim%C3%B3n_Bol%C3%ADvar",
-  "extracto": null,
-  "webOficial": "https://www.gobiernosimonbolivar.gob.ec/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -2.15666667,
-   "lon": -79.8875
-  },
-  "posibleDuplicadoDe": "guayaquil",
-  "km": 4.4
- },
- {
-  "origen": "am20k",
   "pais": "Costa Rica",
   "paisSlug": "costa-rica",
   "nombre": "Aserrí",
@@ -5642,86 +5581,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Moreno",
-  "slug": "partido-de-moreno",
-  "poblacion": 576632,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Moreno",
-  "extracto": null,
-  "webOficial": "http://www.moreno.gov.ar/principal.aspx",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.65,
-   "lon": -58.783333333
-  },
-  "posibleDuplicadoDe": "merlo",
-  "km": 5.4
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Avellaneda",
-  "slug": "partido-de-avellaneda",
-  "poblacion": 367554,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Avellaneda",
-  "extracto": null,
-  "webOficial": "https://www.mda.gob.ar/ciudad/avellaneda/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.666666666,
-   "lon": -58.35
-  },
-  "posibleDuplicadoDe": "lanus",
-  "km": 5.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Tres de Febrero",
-  "slug": "partido-de-tres-de-febrero",
-  "poblacion": 364176,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Tres_de_Febrero",
-  "extracto": null,
-  "webOficial": "https://www.tresdefebrero.gov.ar/",
-  "gentilicio": "tresfebrerense",
-  "coords": {
-   "lat": -34.598055555,
-   "lon": -58.565
-  },
-  "posibleDuplicadoDe": "moron",
-  "km": 7.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Los Olivos",
-  "slug": "distrito-de-los-olivos",
-  "poblacion": 362039,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Los_Olivos",
-  "extracto": null,
-  "webOficial": "http://www.munilosolivos.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.97027778,
-   "lon": -77.07388889
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 9.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Berazategui",
   "slug": "berazategui-argentina",
   "poblacion": 358712,
@@ -5742,46 +5601,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Malvinas Argentinas",
-  "slug": "partido-de-malvinas-argentinas",
-  "poblacion": 350674,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Malvinas_Argentinas",
-  "extracto": null,
-  "webOficial": "https://www.malvinasargentinas.gob.ar/web/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.45,
-   "lon": -58.63
-  },
-  "posibleDuplicadoDe": "tigre",
-  "km": 5.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Esteban Echeverría",
-  "slug": "partido-de-esteban-echeverria",
-  "poblacion": 338480,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Esteban_Echeverr%C3%ADa",
-  "extracto": null,
-  "webOficial": "http://www.estebanecheverria.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.8,
-   "lon": -58.466666666
-  },
-  "posibleDuplicadoDe": "lomas-de-zamora",
-  "km": 7.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Departamento Guaymallén",
   "slug": "departamento-guaymallen",
   "poblacion": 321966,
@@ -5797,46 +5616,6 @@
   },
   "posibleDuplicadoDe": "mendoza",
   "km": 5.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Vicente López",
-  "slug": "partido-de-vicente-lopez",
-  "poblacion": 274082,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Vicente_L%C3%B3pez",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.516666666,
-   "lon": -58.483333333
-  },
-  "posibleDuplicadoDe": "san-isidro",
-  "km": 6.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Cerro Colorado",
-  "slug": "distrito-de-cerro-colorado",
-  "poblacion": 273339,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Cerro_Colorado",
-  "extracto": null,
-  "webOficial": "http://www.municerrocolorado.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.376797222,
-   "lon": -71.560325
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 3.5
  },
  {
   "origen": "pais5k",
@@ -5882,46 +5661,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Palermo",
-  "slug": "palermo-buenos-aires",
-  "poblacion": 225970,
-  "region": "Buenos Aires",
-  "regionSlug": "buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Palermo_(Buenos_Aires)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.588888888,
-   "lon": -58.430555555
-  },
-  "posibleDuplicadoDe": "buenos-aires",
-  "km": 5.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Independencia",
-  "slug": "distrito-de-independencia",
-  "poblacion": 225078,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Independencia_(Lima)",
-  "extracto": null,
-  "webOficial": "http://www.muniindependencia.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.99166667,
-   "lon": -77.05
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 6.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Departamento Maipú",
   "slug": "departamento-maipu",
   "poblacion": 219402,
@@ -5960,26 +5699,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de La Esperanza",
-  "slug": "distrito-de-la-esperanza",
-  "poblacion": 204746,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Esperanza_(Trujillo)",
-  "extracto": null,
-  "webOficial": "http://munilaesperanza.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.0829,
-   "lon": -79.04104
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 3.9
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Departamento Godoy Cruz",
@@ -5997,46 +5716,6 @@
   },
   "posibleDuplicadoDe": "mendoza",
   "km": 4.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Castilla",
-  "slug": "distrito-de-castilla",
-  "poblacion": 193607,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Castilla",
-  "extracto": null,
-  "webOficial": "http://www.municastilla.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -5.20165,
-   "lon": -80.62247
-  },
-  "posibleDuplicadoDe": "piura",
-  "km": 4.4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de La Victoria",
-  "slug": "distrito-de-la-victoria",
-  "poblacion": 192325,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Victoria",
-  "extracto": null,
-  "webOficial": "http://www.munilavictoria.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.07233,
-   "lon": -77.01739
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 3.4
  },
  {
   "origen": "pais5k",
@@ -6122,26 +5801,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Hurlingham",
-  "slug": "partido-de-hurlingham",
-  "poblacion": 185641,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Hurlingham",
-  "extracto": null,
-  "webOficial": "https://www.hurlingham.gob.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.6,
-   "lon": -58.633333333
-  },
-  "posibleDuplicadoDe": "moron",
-  "km": 5.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Berazategui",
   "slug": "berazategui-provincia-de-buenos-aires",
   "poblacion": 180523,
@@ -6157,26 +5816,6 @@
   },
   "posibleDuplicadoDe": "quilmes",
   "km": 6.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Ituzaingó",
-  "slug": "partido-de-ituzaingo",
-  "poblacion": 180232,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Ituzaing%C3%B3",
-  "extracto": null,
-  "webOficial": "https://www.miituzaingo.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.652222222,
-   "lon": -58.675
-  },
-  "posibleDuplicadoDe": "moron",
-  "km": 4.8
  },
  {
   "origen": "pais5k",
@@ -6280,46 +5919,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Piura",
-  "slug": "distrito-de-piura",
-  "poblacion": 155461,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Piura",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -5.195833333,
-   "lon": -80.633333333
-  },
-  "posibleDuplicadoDe": "piura",
-  "km": 3.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Juan Bautista",
-  "slug": "distrito-de-san-juan-bautista-departamento-de-loreto",
-  "poblacion": 154588,
-  "region": "Departamento de Loreto",
-  "regionSlug": "departamento-de-loreto",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Juan_Bautista_(Maynas)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -3.77508,
-   "lon": -73.28891
-  },
-  "posibleDuplicadoDe": "iquitos",
-  "km": 5
- },
- {
-  "origen": "pais5k",
   "pais": "Uruguay",
   "paisSlug": "uruguay",
   "nombre": "Municipio G",
@@ -6340,26 +5939,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Paucarpata",
-  "slug": "distrito-de-paucarpata",
-  "poblacion": 153023,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Paucarpata",
-  "extracto": null,
-  "webOficial": "http://www.munipaucarpata.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.42007,
-   "lon": -71.478
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 6.8
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Rafael Castillo",
@@ -6377,26 +5956,6 @@
   },
   "posibleDuplicadoDe": "moron",
   "km": 7.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Florencio Varela",
-  "slug": "florencio-varela-provincia-de-buenos-aires",
-  "poblacion": 146704,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Florencio_Varela_(ciudad)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.7975,
-   "lon": -58.2759
-  },
-  "posibleDuplicadoDe": "quilmes",
-  "km": 8.8
  },
  {
   "origen": "pais5k",
@@ -6482,46 +6041,6 @@
   "origen": "pais5k",
   "pais": "Perú",
   "paisSlug": "peru",
-  "nombre": "Distrito de Yarinacocha",
-  "slug": "distrito-de-yarinacocha",
-  "poblacion": 135161,
-  "region": "Departamento de Ucayali",
-  "regionSlug": "departamento-de-ucayali",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Yarinacocha",
-  "extracto": null,
-  "webOficial": "http://www.muniyarinacocha.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.3538,
-   "lon": -74.5768
-  },
-  "posibleDuplicadoDe": "pucallpa",
-  "km": 3.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Sebastián",
-  "slug": "distrito-de-san-sebastian",
-  "poblacion": 134218,
-  "region": "Departamento de Cusco",
-  "regionSlug": "departamento-de-cusco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Sebasti%C3%A1n_(Cusco)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.5361966,
-   "lon": -71.9261169
-  },
-  "posibleDuplicadoDe": "cusco",
-  "km": 4.4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
   "nombre": "Paucarpata",
   "slug": "paucarpata-departamento-de-arequipa",
   "poblacion": 131346,
@@ -6580,26 +6099,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Miraflores",
-  "slug": "distrito-de-miraflores",
-  "poblacion": 126049,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Miraflores_(Lima)",
-  "extracto": null,
-  "webOficial": "http://www.miraflores.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.12091,
-   "lon": -77.02893
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 8.6
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Ramos Mejía",
@@ -6640,26 +6139,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de El Porvenir",
-  "slug": "distrito-de-el-porvenir",
-  "poblacion": 113343,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_El_Porvenir",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.07392,
-   "lon": -78.99292
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 6.2
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Bernal",
@@ -6697,86 +6176,6 @@
   },
   "posibleDuplicadoDe": "lomas-de-zamora",
   "km": 8.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Manantay",
-  "slug": "distrito-de-manantay",
-  "poblacion": 107016,
-  "region": "Departamento de Ucayali",
-  "regionSlug": "departamento-de-ucayali",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Manantay",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.43333333,
-   "lon": -74.55
-  },
-  "posibleDuplicadoDe": "pucallpa",
-  "km": 6
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Maipú",
-  "slug": "maipu",
-  "poblacion": 106662,
-  "region": "Provincia de Mendoza",
-  "regionSlug": "provincia-de-mendoza",
-  "wikipedia": "https://es.wikipedia.org/wiki/Maip%C3%BA_(Mendoza)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -32.966666666,
-   "lon": -68.75
-  },
-  "posibleDuplicadoDe": "rodeo-del-medio",
-  "km": 6.7
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Chilca",
-  "slug": "distrito-de-chilca",
-  "poblacion": 106396,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Chilca_(Huancayo)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.07905,
-   "lon": -75.18315
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 3.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Jesús María",
-  "slug": "distrito-de-jesus-maria",
-  "poblacion": 105776,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Jes%C3%BAs_Mar%C3%ADa",
-  "extracto": null,
-  "webOficial": "http://www.munijesusmaria.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.07833333,
-   "lon": -77.04805556
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 4.5
  },
  {
   "origen": "pais5k",
@@ -6840,26 +6239,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de José Luis Bustamante y Rivero",
-  "slug": "distrito-de-jose-luis-bustamante-y-rivero",
-  "poblacion": 102243,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Jos%C3%A9_Luis_Bustamante_y_Rivero",
-  "extracto": null,
-  "webOficial": "http://www.munibustamante.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.42655,
-   "lon": -71.523927777
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 3.4
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Departamento Rivadavia",
@@ -6916,26 +6295,6 @@
    "lon": -58.686
   },
   "posibleDuplicadoDe": "merlo",
-  "km": 4.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Pueblo Libre",
-  "slug": "distrito-de-pueblo-libre",
-  "poblacion": 99936,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pueblo_Libre",
-  "extracto": null,
-  "webOficial": "http://www.muniplibre.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.070277777,
-   "lon": -77.0625
-  },
-  "posibleDuplicadoDe": "lima",
   "km": 4.8
  },
  {
@@ -7040,26 +6399,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Lambayeque",
-  "slug": "distrito-de-lambayeque",
-  "poblacion": 91664,
-  "region": "Departamento de Lambayeque",
-  "regionSlug": "departamento-de-lambayeque",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Lambayeque",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -6.701006,
-   "lon": -79.904796
-  },
-  "posibleDuplicadoDe": "chiclayo",
-  "km": 9.4
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "San Francisco Solano",
@@ -7100,66 +6439,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Catacaos",
-  "slug": "distrito-de-catacaos",
-  "poblacion": 88255,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Catacaos",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -5.26546,
-   "lon": -80.67609
-  },
-  "posibleDuplicadoDe": "piura",
-  "km": 9.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Socabaya",
-  "slug": "distrito-de-socabaya",
-  "poblacion": 86855,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Socabaya",
-  "extracto": null,
-  "webOficial": "http://www.munisocabaya.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.47,
-   "lon": -71.54
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 7.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Alto Trujillo",
-  "slug": "distrito-de-alto-trujillo",
-  "poblacion": 85323,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Alto_Trujillo",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.059444444,
-   "lon": -79.015555555
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 6.5
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Monte Chingolo",
@@ -7197,46 +6476,6 @@
   },
   "posibleDuplicadoDe": "puerto-colombia",
   "km": 4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Magdalena del Mar",
-  "slug": "distrito-de-magdalena-del-mar",
-  "poblacion": 82146,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Magdalena_del_Mar",
-  "extracto": null,
-  "webOficial": "http://www.munimagdalena.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.090555555,
-   "lon": -77.07
-  },
-  "posibleDuplicadoDe": "lima",
-  "km": 7
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Víctor Larco Herrera",
-  "slug": "distrito-de-victor-larco-herrera",
-  "poblacion": 81901,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_V%C3%ADctor_Larco_Herrera",
-  "extracto": null,
-  "webOficial": "http://www.munivictorlarco.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.14355,
-   "lon": -79.05608
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 4.2
  },
  {
   "origen": "pais5k",
@@ -7356,66 +6595,6 @@
    "lon": -58.483333333
   },
   "posibleDuplicadoDe": "san-isidro",
-  "km": 4.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Jerónimo",
-  "slug": "distrito-de-san-jeronimo",
-  "poblacion": 75158,
-  "region": "Departamento de Cusco",
-  "regionSlug": "departamento-de-cusco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Jer%C3%B3nimo_(Cusco)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.5520509,
-   "lon": -71.8813133
-  },
-  "posibleDuplicadoDe": "cusco",
-  "km": 9.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Mariano Melgar",
-  "slug": "distrito-de-mariano-melgar",
-  "poblacion": 73969,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Mariano_Melgar",
-  "extracto": null,
-  "webOficial": "http://www.munimarianomelgar.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.4,
-   "lon": -71.483055555
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 5.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Lince",
-  "slug": "distrito-de-lince",
-  "poblacion": 72911,
-  "region": "Provincia de Lima",
-  "regionSlug": "provincia-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Lince",
-  "extracto": null,
-  "webOficial": "http://www.munilince.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.08579,
-   "lon": -77.03567
-  },
-  "posibleDuplicadoDe": "lima",
   "km": 4.8
  },
  {
@@ -7542,46 +6721,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Ensenada",
-  "slug": "partido-de-ensenada",
-  "poblacion": 63997,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Ensenada",
-  "extracto": null,
-  "webOficial": "https://www.ensenada.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.866666666,
-   "lon": -57.9
-  },
-  "posibleDuplicadoDe": "la-plata",
-  "km": 7.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Baños del Inca",
-  "slug": "distrito-de-banos-del-inca",
-  "poblacion": 63555,
-  "region": "Departamento de Cajamarca",
-  "regionSlug": "departamento-de-cajamarca",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Ba%C3%B1os_del_Inca",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -7.163748055,
-   "lon": -78.462161944
-  },
-  "posibleDuplicadoDe": "cajamarca",
-  "km": 4.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Garupá",
   "slug": "garupa",
   "poblacion": 63520,
@@ -7677,26 +6816,6 @@
   },
   "posibleDuplicadoDe": "moron",
   "km": 5.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Parcona",
-  "slug": "distrito-de-parcona",
-  "poblacion": 60816,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Parcona",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.0483197,
-   "lon": -75.7068253
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 4.2
  },
  {
   "origen": "pais5k",
@@ -7820,26 +6939,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Pillco Marca",
-  "slug": "distrito-de-pillco-marca",
-  "poblacion": 58023,
-  "region": "Departamento de Huánuco",
-  "regionSlug": "departamento-de-huanuco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pillco_Marca",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -9.961666666,
-   "lon": -76.246944444
-  },
-  "posibleDuplicadoDe": "huanuco",
-  "km": 3.7
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Rafael Calzada",
@@ -7857,46 +6956,6 @@
   },
   "posibleDuplicadoDe": "lomas-de-zamora",
   "km": 4.4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Florencia de Mora",
-  "slug": "distrito-de-florencia-de-mora",
-  "poblacion": 57225,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Florencia_de_Mora",
-  "extracto": null,
-  "webOficial": "https://muniflorenciademora.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.08243,
-   "lon": -79.02141
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 3.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Laredo",
-  "slug": "distrito-de-laredo",
-  "poblacion": 52834,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Laredo",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.08639,
-   "lon": -78.95962
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 8.4
  },
  {
   "origen": "pais5k",
@@ -7960,46 +7019,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Moche",
-  "slug": "distrito-de-moche",
-  "poblacion": 49917,
-  "region": "Departamento de La Libertad",
-  "regionSlug": "departamento-de-la-libertad",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Moche",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.1715,
-   "lon": -79.00889
-  },
-  "posibleDuplicadoDe": "trujillo",
-  "km": 6.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Trenque Lauquen",
-  "slug": "partido-de-trenque-lauquen",
-  "poblacion": 49309,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Trenque_Lauquen",
-  "extracto": null,
-  "webOficial": "https://www.trenquelauquen.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -35.966666666,
-   "lon": -62.683333333
-  },
-  "posibleDuplicadoDe": "trenque-lauquen",
-  "km": 4.5
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Centenario",
@@ -8017,26 +7036,6 @@
   },
   "posibleDuplicadoDe": "cinco-saltos",
   "km": 6.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de La Tinguiña",
-  "slug": "distrito-de-la-tinguina",
-  "poblacion": 48511,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Tingui%C3%B1a",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.0390299,
-   "lon": -75.7121428
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 4.7
  },
  {
   "origen": "pais5k",
@@ -8122,46 +7121,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Pehuajó",
-  "slug": "partido-de-pehuajo",
-  "poblacion": 44783,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Pehuaj%C3%B3",
-  "extracto": null,
-  "webOficial": "http://www.pehuajo.gov.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -35.8,
-   "lon": -61.866666666
-  },
-  "posibleDuplicadoDe": "pehuajo",
-  "km": 3.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Santa María",
-  "slug": "distrito-de-santa-maria",
-  "poblacion": 43603,
-  "region": "Departamento de Lima",
-  "regionSlug": "departamento-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Santa_Mar%C3%ADa_(Huaura)",
-  "extracto": null,
-  "webOficial": "http://www.munisantamaria.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.091666666,
-   "lon": -77.573055555
-  },
-  "posibleDuplicadoDe": "huacho",
-  "km": 4.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Barrio Don Orione",
   "slug": "barrio-don-orione",
   "poblacion": 43294,
@@ -8217,46 +7176,6 @@
   },
   "posibleDuplicadoDe": "lanus",
   "km": 4.7
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Sunampe",
-  "slug": "distrito-de-sunampe",
-  "poblacion": 41816,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sunampe",
-  "extracto": null,
-  "webOficial": "http://www.munisunampe.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.4272798,
-   "lon": -76.1642592
-  },
-  "posibleDuplicadoDe": "chincha-alta",
-  "km": 4
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Partido de Lobos",
-  "slug": "partido-de-lobos",
-  "poblacion": 41760,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Lobos",
-  "extracto": null,
-  "webOficial": "https://www.lobos.gob.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -35.216666666,
-   "lon": -59.183333333
-  },
-  "posibleDuplicadoDe": "lobos",
-  "km": 8.5
  },
  {
   "origen": "pais5k",
@@ -8362,26 +7281,6 @@
   "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Partido de Baradero",
-  "slug": "partido-de-baradero",
-  "poblacion": 40002,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Partido_de_Baradero",
-  "extracto": null,
-  "webOficial": "https://www.baradero.gob.ar/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -33.833333333,
-   "lon": -59.533333333
-  },
-  "posibleDuplicadoDe": "baradero",
-  "km": 3.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Parque Barón",
   "slug": "parque-baron",
   "poblacion": 39819,
@@ -8397,26 +7296,6 @@
   },
   "posibleDuplicadoDe": "lomas-de-zamora",
   "km": 3.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Huaura",
-  "slug": "distrito-de-huaura",
-  "poblacion": 39450,
-  "region": "Departamento de Lima",
-  "regionSlug": "departamento-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Huaura",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.069427,
-   "lon": -77.5997722
-  },
-  "posibleDuplicadoDe": "huacho",
-  "km": 5.4
  },
  {
   "origen": "pais5k",
@@ -8560,26 +7439,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Subtanjalla",
-  "slug": "distrito-de-subtanjalla",
-  "poblacion": 34886,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Subtanjalla",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.0184263,
-   "lon": -75.7583885
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 6.9
- },
- {
-  "origen": "pais5k",
   "pais": "Uruguay",
   "paisSlug": "uruguay",
   "nombre": "Municipio de Barros Blancos",
@@ -8597,26 +7456,6 @@
   },
   "posibleDuplicadoDe": "ciudad-de-la-costa",
   "km": 8.7
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Ciudad Nueva",
-  "slug": "distrito-de-ciudad-nueva",
-  "poblacion": 34255,
-  "region": "Departamento de Tacna",
-  "regionSlug": "departamento-de-tacna",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Ciudad_Nueva",
-  "extracto": null,
-  "webOficial": "http://www.municiudadnueva.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -17.9836975,
-   "lon": -70.2355919
-  },
-  "posibleDuplicadoDe": "tacna",
-  "km": 3.9
  },
  {
   "origen": "pais5k",
@@ -8677,26 +7516,6 @@
   },
   "posibleDuplicadoDe": "cienaga",
   "km": 4.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Marcavelica",
-  "slug": "distrito-de-marcavelica",
-  "poblacion": 32861,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Marcavelica",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -4.8816137,
-   "lon": -80.7033707
-  },
-  "posibleDuplicadoDe": "sullana",
-  "km": 3.2
  },
  {
   "origen": "pais5k",
@@ -8782,46 +7601,6 @@
   "origen": "pais5k",
   "pais": "Perú",
   "paisSlug": "peru",
-  "nombre": "Distrito de Sachaca",
-  "slug": "distrito-de-sachaca",
-  "poblacion": 29617,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sachaca",
-  "extracto": null,
-  "webOficial": "http://www.munisachaca.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.425,
-   "lon": -71.566111111
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 4.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Los Aquijes",
-  "slug": "distrito-de-los-aquijes",
-  "poblacion": 29598,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Los_Aquijes",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.0963171,
-   "lon": -75.6914243
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 5.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
   "nombre": "Sunampe",
   "slug": "sunampe-departamento-de-ica",
   "poblacion": 28520,
@@ -8837,26 +7616,6 @@
   },
   "posibleDuplicadoDe": "chincha-alta",
   "km": 4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Clemente",
-  "slug": "distrito-de-san-clemente",
-  "poblacion": 28447,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Clemente",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.6807627,
-   "lon": -76.1574721
-  },
-  "posibleDuplicadoDe": "pisco",
-  "km": 6.1
  },
  {
   "origen": "pais5k",
@@ -8877,26 +7636,6 @@
   },
   "posibleDuplicadoDe": "lomas-de-zamora",
   "km": 5.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Querecotillo",
-  "slug": "distrito-de-querecotillo",
-  "poblacion": 28026,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Querecotillo",
-  "extracto": null,
-  "webOficial": "http://www.muniquerecotillo.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -4.8399696,
-   "lon": -80.6490343
-  },
-  "posibleDuplicadoDe": "sullana",
-  "km": 8.2
  },
  {
   "origen": "pais5k",
@@ -8977,46 +7716,6 @@
   },
   "posibleDuplicadoDe": "lanus",
   "km": 4.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Pilcomayo",
-  "slug": "distrito-de-pilcomayo",
-  "poblacion": 26817,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pilcomayo",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.0549335,
-   "lon": -75.2661324
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 6.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Corrales",
-  "slug": "distrito-de-corrales",
-  "poblacion": 26586,
-  "region": "Departamento de Tumbes",
-  "regionSlug": "departamento-de-tumbes",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Corrales",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -3.6010499,
-   "lon": -80.4806985
-  },
-  "posibleDuplicadoDe": "tumbes",
-  "km": 6.6
  },
  {
   "origen": "pais5k",
@@ -9120,26 +7819,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Sicaya",
-  "slug": "distrito-de-sicaya",
-  "poblacion": 24646,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sicaya",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.016655,
-   "lon": -75.2783203
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 9.4
- },
- {
-  "origen": "pais5k",
   "pais": "Colombia",
   "paisSlug": "colombia",
   "nombre": "Calamar",
@@ -9177,26 +7856,6 @@
   },
   "posibleDuplicadoDe": "lomas-de-zamora",
   "km": 7.2
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Huancán",
-  "slug": "distrito-de-huancan",
-  "poblacion": 24302,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Huanc%C3%A1n",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.1081448,
-   "lon": -75.2041626
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 4.4
  },
  {
   "origen": "pais5k",
@@ -9302,26 +7961,6 @@
   "origen": "pais5k",
   "pais": "Perú",
   "paisSlug": "peru",
-  "nombre": "Distrito de Pocollay",
-  "slug": "distrito-de-pocollay",
-  "poblacion": 23844,
-  "region": "Departamento de Tacna",
-  "regionSlug": "departamento-de-tacna",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pocollay",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -17.99694444,
-   "lon": -70.22138889
-  },
-  "posibleDuplicadoDe": "tacna",
-  "km": 3.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
   "nombre": "Sachaca",
   "slug": "sachaca-departamento-de-arequipa",
   "poblacion": 23675,
@@ -9357,46 +7996,6 @@
   },
   "posibleDuplicadoDe": "las-piedras",
   "km": 3.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Chupaca",
-  "slug": "distrito-de-chupaca",
-  "poblacion": 23007,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Chupaca",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.062152,
-   "lon": -75.2887917
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 8.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Santa",
-  "slug": "distrito-de-santa",
-  "poblacion": 22780,
-  "region": "Departamento de Áncash",
-  "regionSlug": "departamento-de-ancash",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Santa",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -8.99217,
-   "lon": -78.60923
-  },
-  "posibleDuplicadoDe": "chimbote",
-  "km": 9.4
  },
  {
   "origen": "pais5k",
@@ -9600,26 +8199,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Agustín de Cajas",
-  "slug": "distrito-de-san-agustin-de-cajas",
-  "poblacion": 20797,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Agust%C3%ADn_de_Cajas",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.99008,
-   "lon": -75.24353
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 9.5
- },
- {
-  "origen": "pais5k",
   "pais": "Uruguay",
   "paisSlug": "uruguay",
   "nombre": "Municipio de Bella Unión",
@@ -9777,46 +8356,6 @@
   },
   "posibleDuplicadoDe": "tacna",
   "km": 3.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Coishco",
-  "slug": "distrito-de-coishco",
-  "poblacion": 18182,
-  "region": "Departamento de Áncash",
-  "regionSlug": "departamento-de-ancash",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Coishco",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -9.023055555,
-   "lon": -78.615555555
-  },
-  "posibleDuplicadoDe": "chimbote",
-  "km": 6.3
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Tiabaya",
-  "slug": "distrito-de-tiabaya",
-  "poblacion": 18166,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Tiabaya",
-  "extracto": null,
-  "webOficial": "http://www.munitiabaya.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.425555555,
-   "lon": -71.562777777
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 4
  },
  {
   "origen": "pais5k",
@@ -10140,26 +8679,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Juan Bautista",
-  "slug": "distrito-de-san-juan-bautista",
-  "poblacion": 14938,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Juan_Bautista_(Ica)",
-  "extracto": null,
-  "webOficial": "http://www.munisanjuanbautistaica.gob.pe/site/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.0112703,
-   "lon": -75.7350876
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 7.1
- },
- {
-  "origen": "pais5k",
   "pais": "Colombia",
   "paisSlug": "colombia",
   "nombre": "Purísima",
@@ -10220,46 +8739,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Huamancaca Chico",
-  "slug": "distrito-de-huamancaca-chico",
-  "poblacion": 14047,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Huamancaca_Chico",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.0814375,
-   "lon": -75.2433443
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 3.9
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Poroy",
-  "slug": "distrito-de-poroy",
-  "poblacion": 14043,
-  "region": "Departamento de Cusco",
-  "regionSlug": "departamento-de-cusco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Poroy",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.50192,
-   "lon": -72.0423
-  },
-  "posibleDuplicadoDe": "cusco",
-  "km": 8.8
- },
- {
-  "origen": "pais5k",
   "pais": "Colombia",
   "paisSlug": "colombia",
   "nombre": "Río de Oro",
@@ -10297,26 +8776,6 @@
   },
   "posibleDuplicadoDe": "buenos-aires",
   "km": 9.8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Huayucachi",
-  "slug": "distrito-de-huayucachi",
-  "poblacion": 13829,
-  "region": "Departamento de Junín",
-  "regionSlug": "departamento-de-junin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Huayucachi",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -12.13441,
-   "lon": -75.22207
-  },
-  "posibleDuplicadoDe": "huancayo",
-  "km": 7.4
  },
  {
   "origen": "pais5k",
@@ -10360,26 +8819,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de La Brea",
-  "slug": "distrito-de-la-brea",
-  "poblacion": 13559,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_La_Brea",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -4.654428,
-   "lon": -81.3056025
-  },
-  "posibleDuplicadoDe": "talara",
-  "km": 9.4
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Villa España",
@@ -10417,26 +8856,6 @@
   },
   "posibleDuplicadoDe": "sullana",
   "km": 8.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Simón Bolívar",
-  "slug": "distrito-de-simon-bolivar",
-  "poblacion": 13063,
-  "region": "Departamento de Pasco",
-  "regionSlug": "departamento-de-pasco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Sim%C3%B3n_Bol%C3%ADvar",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -10.68986,
-   "lon": -76.31593
-  },
-  "posibleDuplicadoDe": "cerro-de-pasco",
-  "km": 7.4
  },
  {
   "origen": "pais5k",
@@ -10722,26 +9141,6 @@
   "origen": "pais5k",
   "pais": "Perú",
   "paisSlug": "peru",
-  "nombre": "Distrito de Alto Larán",
-  "slug": "distrito-de-alto-laran",
-  "poblacion": 10908,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Alto_Lar%C3%A1n",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.4425867,
-   "lon": -76.08293
-  },
-  "posibleDuplicadoDe": "chincha-alta",
-  "km": 6.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
   "nombre": "Tiabaya",
   "slug": "tiabaya",
   "poblacion": 10870,
@@ -10757,26 +9156,6 @@
   },
   "posibleDuplicadoDe": "arequipa",
   "km": 8.1
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Caracoto",
-  "slug": "distrito-de-caracoto",
-  "poblacion": 10632,
-  "region": "Departamento de Puno",
-  "regionSlug": "departamento-de-puno",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Caracoto",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -15.5691769,
-   "lon": -70.107236
-  },
-  "posibleDuplicadoDe": "juliaca",
-  "km": 8.2
  },
  {
   "origen": "pais5k",
@@ -10797,26 +9176,6 @@
   },
   "posibleDuplicadoDe": "el-carril",
   "km": 6.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Samegua",
-  "slug": "distrito-de-samegua",
-  "poblacion": 10440,
-  "region": "Departamento de Moquegua",
-  "regionSlug": "departamento-de-moquegua",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Samegua",
-  "extracto": null,
-  "webOficial": "http://www.munisamegua.gob.pe/",
-  "gentilicio": null,
-  "coords": {
-   "lat": -17.1819384,
-   "lon": -70.8999142
-  },
-  "posibleDuplicadoDe": "moquegua",
-  "km": 4.2
  },
  {
   "origen": "pais5k",
@@ -10862,26 +9221,6 @@
   "origen": "pais5k",
   "pais": "Perú",
   "paisSlug": "peru",
-  "nombre": "Distrito de San Jacinto",
-  "slug": "distrito-de-san-jacinto",
-  "poblacion": 9883,
-  "region": "Departamento de Tumbes",
-  "regionSlug": "departamento-de-tumbes",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Jacinto",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -3.6421965,
-   "lon": -80.448582
-  },
-  "posibleDuplicadoDe": "tumbes",
-  "km": 9.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
   "nombre": "Chupaca",
   "slug": "chupaca",
   "poblacion": 9877,
@@ -10897,26 +9236,6 @@
   },
   "posibleDuplicadoDe": "huancayo",
   "km": 8.4
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Sabandía",
-  "slug": "distrito-de-sabandia",
-  "poblacion": 9674,
-  "region": "Departamento de Arequipa",
-  "regionSlug": "departamento-de-arequipa",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Saband%C3%ADa",
-  "extracto": null,
-  "webOficial": "http://www.munisabandia.gob.pe",
-  "gentilicio": null,
-  "coords": {
-   "lat": -16.466944444,
-   "lon": -71.5
-  },
-  "posibleDuplicadoDe": "arequipa",
-  "km": 8.5
  },
  {
   "origen": "pais5k",
@@ -11100,26 +9419,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Pachacútec",
-  "slug": "distrito-de-pachacutec",
-  "poblacion": 8916,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pachac%C3%BAtec",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.1523092,
-   "lon": -75.6916563
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 9.7
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Campo Santo",
@@ -11137,26 +9436,6 @@
   },
   "posibleDuplicadoDe": "general-guemes",
   "km": 6
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Caleta de Carquín",
-  "slug": "distrito-de-caleta-de-carquin",
-  "poblacion": 8879,
-  "region": "Departamento de Lima",
-  "regionSlug": "departamento-de-lima",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Caleta_de_Carqu%C3%ADn",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -11.0918364,
-   "lon": -77.6283049
-  },
-  "posibleDuplicadoDe": "huacho",
-  "km": 3.7
  },
  {
   "origen": "pais5k",
@@ -11340,26 +9619,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Salitral",
-  "slug": "distrito-de-salitral",
-  "poblacion": 7775,
-  "region": "Departamento de Piura",
-  "regionSlug": "departamento-de-piura",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Salitral_(Sullana)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -4.8574486,
-   "lon": -80.6812018
-  },
-  "posibleDuplicadoDe": "sullana",
-  "km": 5.2
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Vaqueros",
@@ -11377,26 +9636,6 @@
   },
   "posibleDuplicadoDe": "salta",
   "km": 10
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Pueblo Nuevo",
-  "slug": "distrito-de-pueblo-nuevo-departamento-de-ica",
-  "poblacion": 7737,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Pueblo_Nuevo_(Ica)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.1270907,
-   "lon": -75.7059197
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 6.5
  },
  {
   "origen": "pais5k",
@@ -11500,26 +9739,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Llacanora",
-  "slug": "distrito-de-llacanora",
-  "poblacion": 7178,
-  "region": "Departamento de Cajamarca",
-  "regionSlug": "departamento-de-cajamarca",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Llacanora",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -7.194333,
-   "lon": -78.423599
-  },
-  "posibleDuplicadoDe": "cajamarca",
-  "km": 9.1
- },
- {
-  "origen": "pais5k",
   "pais": "Colombia",
   "paisSlug": "colombia",
   "nombre": "Guatavita",
@@ -11560,26 +9779,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Tambo de Mora",
-  "slug": "distrito-de-tambo-de-mora",
-  "poblacion": 6800,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Tambo_de_Mora",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.4584529,
-   "lon": -76.1826597
-  },
-  "posibleDuplicadoDe": "chincha-alta",
-  "km": 7.7
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Playa Unión",
@@ -11617,26 +9816,6 @@
   },
   "posibleDuplicadoDe": "cipolletti",
   "km": 6.6
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Socos",
-  "slug": "distrito-de-socos",
-  "poblacion": 6659,
-  "region": "Departamento de Ayacucho",
-  "regionSlug": "departamento-de-ayacucho",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Socos",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -13.210833333,
-   "lon": -74.2875
-  },
-  "posibleDuplicadoDe": "ayacucho",
-  "km": 8.7
  },
  {
   "origen": "pais5k",
@@ -11717,26 +9896,6 @@
   },
   "posibleDuplicadoDe": "carcarana",
   "km": 9.5
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Tate",
-  "slug": "distrito-de-tate",
-  "poblacion": 6235,
-  "region": "Departamento de Ica",
-  "regionSlug": "departamento-de-ica",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Tate",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -14.1556468,
-   "lon": -75.7077961
-  },
-  "posibleDuplicadoDe": "ica",
-  "km": 9.4
  },
  {
   "origen": "pais5k",
@@ -11960,46 +10119,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Juan de la Virgen",
-  "slug": "distrito-de-san-juan-de-la-virgen",
-  "poblacion": 5556,
-  "region": "Departamento de Tumbes",
-  "regionSlug": "departamento-de-tumbes",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Juan_de_la_Virgen",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -3.6275108,
-   "lon": -80.4331676
-  },
-  "posibleDuplicadoDe": "tumbes",
-  "km": 8
- },
- {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de San Francisco de Cayrán",
-  "slug": "distrito-de-san-francisco-de-cayran",
-  "poblacion": 5528,
-  "region": "Departamento de Huánuco",
-  "regionSlug": "departamento-de-huanuco",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_San_Francisco_de_Cayr%C3%A1n",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -9.98096,
-   "lon": -76.28404
-  },
-  "posibleDuplicadoDe": "huanuco",
-  "km": 7.6
- },
- {
-  "origen": "pais5k",
   "pais": "Colombia",
   "paisSlug": "colombia",
   "nombre": "Ulloa",
@@ -12079,23 +10198,3443 @@
   "km": 7.5
  },
  {
-  "origen": "pais5k",
-  "pais": "Perú",
-  "paisSlug": "peru",
-  "nombre": "Distrito de Calzada",
-  "slug": "distrito-de-calzada",
-  "poblacion": 5034,
-  "region": "Departamento de San Martín",
-  "regionSlug": "departamento-de-san-martin",
-  "wikipedia": "https://es.wikipedia.org/wiki/Distrito_de_Calzada",
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Monterrey",
+  "slug": "municipio-de-monterrey",
+  "poblacion": 4520329,
+  "region": "Nuevo León",
+  "regionSlug": "nuevo-leon",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Monterrey",
+  "extracto": null,
+  "webOficial": "http://www.monterrey.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.626944444,
+   "lon": -100.283888888
+  },
+  "posibleDuplicadoDe": "guadalupe-nuevo-leon",
+  "km": 6.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ecatepec de Morelos",
+  "slug": "municipio-de-ecatepec-de-morelos",
+  "poblacion": 1929926,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ecatepec_de_Morelos",
+  "extracto": null,
+  "webOficial": "http://www.ecatepec.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.566666666,
+   "lon": -99.04
+  },
+  "posibleDuplicadoDe": "ecatepec",
+  "km": 4.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Iztapalapa",
+  "slug": "iztapalapa-ciudad-de-mexico",
+  "poblacion": 1835486,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Iztapalapa",
+  "extracto": null,
+  "webOficial": "http://www.iztapalapa.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.358333333,
+   "lon": -99.093055555
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 8.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Gustavo A. Madero",
+  "slug": "gustavo-a-madero-ciudad-de-mexico",
+  "poblacion": 1173351,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gustavo_A._Madero_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.gamadero.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.48407,
+   "lon": -99.11144
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 6.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Naucalpan de Juárez",
+  "slug": "municipio-de-naucalpan-de-juarez",
+  "poblacion": 872320,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Naucalpan_de_Ju%C3%A1rez",
+  "extracto": null,
+  "webOficial": "http://www.naucalpan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.47,
+   "lon": -99.29
+  },
+  "posibleDuplicadoDe": "naucalpan",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Álvaro Obregón",
+  "slug": "alvaro-obregon-ciudad-de-mexico",
+  "poblacion": 759137,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/%C3%81lvaro_Obreg%C3%B3n_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.aao.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.356388888,
+   "lon": -99.236111111
+  },
+  "posibleDuplicadoDe": "jesus-del-monte",
+  "km": 6.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tlalnepantla de Baz",
+  "slug": "municipio-de-tlalnepantla-de-baz",
+  "poblacion": 700734,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlalnepantla_de_Baz",
+  "extracto": null,
+  "webOficial": "https://www.tlalnepantla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.54,
+   "lon": -99.166666666
+  },
+  "posibleDuplicadoDe": "tlalnepantla",
+  "km": 3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Pedro Tlaquepaque",
+  "slug": "municipio-de-san-pedro-tlaquepaque",
+  "poblacion": 687127,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Pedro_Tlaquepaque",
+  "extracto": null,
+  "webOficial": "https://www.tlaquepaque.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.583333333,
+   "lon": -103.35
+  },
+  "posibleDuplicadoDe": "las-pintitas",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Coyoacán",
+  "slug": "coyoacan-ciudad-de-mexico",
+  "poblacion": 614447,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Coyoac%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://www.coyoacan.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.35,
+   "lon": -99.162222222
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 9.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Celaya",
+  "slug": "municipio-de-celaya",
+  "poblacion": 521169,
+  "region": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Celaya",
   "extracto": null,
   "webOficial": null,
   "gentilicio": null,
   "coords": {
-   "lat": -6.03169,
-   "lon": -77.06456
+   "lat": 20.52,
+   "lon": -100.75
   },
-  "posibleDuplicadoDe": "moyobamba",
+  "posibleDuplicadoDe": "celaya",
+  "km": 6.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Azcapotzalco",
+  "slug": "azcapotzalco-ciudad-de-mexico",
+  "poblacion": 432205,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Azcapotzalco",
+  "extracto": null,
+  "webOficial": "http://www.azcapotzalco.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.48731,
+   "lon": -99.18766
+  },
+  "posibleDuplicadoDe": "naucalpan",
+  "km": 5.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Miguel Hidalgo",
+  "slug": "miguel-hidalgo-ciudad-de-mexico",
+  "poblacion": 414470,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Miguel_Hidalgo_(Ciudad_de_M%C3%A9xico)",
+  "extracto": null,
+  "webOficial": "http://www.miguelhidalgo.cdmx.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.406666666,
+   "lon": -99.191111111
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 7.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Iztacalco",
+  "slug": "iztacalco-ciudad-de-mexico",
+  "poblacion": 404695,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Iztacalco",
+  "extracto": null,
+  "webOficial": "http://www.iztacalco.cdmx.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.39601,
+   "lon": -99.08192
+  },
+  "posibleDuplicadoDe": "ciudad-de-mexico",
+  "km": 6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tláhuac",
+  "slug": "tlahuac-ciudad-de-mexico",
+  "poblacion": 392313,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tl%C3%A1huac",
+  "extracto": null,
+  "webOficial": "http://www.tlahuac.cdmx.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.27436,
+   "lon": -99.00278
+  },
+  "posibleDuplicadoDe": "xico-veracruz",
+  "km": 5.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tapachula",
+  "slug": "municipio-de-tapachula",
+  "poblacion": 353706,
+  "region": "Chiapas",
+  "regionSlug": "chiapas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tapachula",
+  "extracto": null,
+  "webOficial": "http://www.tapachula.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.933333333,
+   "lon": -92.3
+  },
+  "posibleDuplicadoDe": "tapachula",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Gómez Palacio",
+  "slug": "gomez-palacio-durango",
+  "poblacion": 342286,
+  "region": "Durango",
+  "regionSlug": "durango",
+  "wikipedia": "https://es.wikipedia.org/wiki/G%C3%B3mez_Palacio",
+  "extracto": null,
+  "webOficial": "https://www.gomezpalacio.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.5725,
+   "lon": -103.4945
+  },
+  "posibleDuplicadoDe": "torreon",
+  "km": 8.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Victoria",
+  "slug": "municipio-de-victoria",
+  "poblacion": 321953,
+  "region": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Victoria_(Tamaulipas)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 23.683333333,
+   "lon": -99.166666666
+  },
+  "posibleDuplicadoDe": "ciudad-victoria",
+  "km": 6.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tehuacán",
+  "slug": "municipio-de-tehuacan",
+  "poblacion": 319375,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tehuac%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.42992,
+   "lon": -97.46614
+  },
+  "posibleDuplicadoDe": "tehuacan",
+  "km": 8.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Coatzacoalcos",
+  "slug": "municipio-de-coatzacoalcos",
+  "poblacion": 319187,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Coatzacoalcos",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.12501,
+   "lon": -94.38917
+  },
+  "posibleDuplicadoDe": "nanchital-de-lazaro-cardenas-del-rio",
+  "km": 6.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Durán",
+  "slug": "canton-duran",
+  "poblacion": 303910,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Dur%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://www.duran.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.16666667,
+   "lon": -79.83333333
+  },
+  "posibleDuplicadoDe": "guayaquil",
+  "km": 6.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tampico",
+  "slug": "municipio-de-tampico",
+  "poblacion": 297554,
+  "region": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tampico",
+  "extracto": null,
+  "webOficial": "http://www.tampico.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.255277777,
+   "lon": -97.918611111
+  },
+  "posibleDuplicadoDe": "tampico",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Oaxaca de Juárez",
+  "slug": "municipio-de-oaxaca-de-juarez",
+  "poblacion": 264251,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Oaxaca_de_Ju%C3%A1rez",
+  "extracto": null,
+  "webOficial": "http://www.municipiodeoaxaca.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.1,
+   "lon": -96.716666666
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 4.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "La Magdalena Contreras",
+  "slug": "la-magdalena-contreras-ciudad-de-mexico",
+  "poblacion": 247622,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Magdalena_Contreras",
+  "extracto": null,
+  "webOficial": "https://mcontreras.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.333333333,
+   "lon": -99.213888888
+  },
+  "posibleDuplicadoDe": "jesus-del-monte",
+  "km": 9.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ciudad Madero",
+  "slug": "ciudad-madero",
+  "poblacion": 197216,
+  "region": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ciudad_Madero",
+  "extracto": null,
+  "webOficial": "http://www.ciudadmadero.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.2475,
+   "lon": -97.8375
+  },
+  "posibleDuplicadoDe": "tampico",
+  "km": 5.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ciudad Madero",
+  "slug": "municipio-de-ciudad-madero",
+  "poblacion": 197216,
+  "region": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ciudad_Madero",
+  "extracto": null,
+  "webOficial": "http://www.ciudadmadero.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 22.283333333,
+   "lon": -97.816666666
+  },
+  "posibleDuplicadoDe": "tampico",
+  "km": 6.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Santa Elena",
+  "slug": "canton-santa-elena",
+  "poblacion": 186687,
+  "region": "Santa Elena",
+  "regionSlug": "santa-elena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Santa_Elena",
+  "extracto": null,
+  "webOficial": "http://www.gadse.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.2267,
+   "lon": -80.8583
+  },
+  "posibleDuplicadoDe": "la-libertad",
+  "km": 5.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jiutepec",
+  "slug": "jiutepec-morelos",
+  "poblacion": 162427,
+  "region": "Morelos",
+  "regionSlug": "morelos",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": "http://www.municipiojiutepec.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.881388888,
+   "lon": -99.177777777
+  },
+  "posibleDuplicadoDe": "emiliano-zapata-edomex",
+  "km": 4.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tepatitlán de Morelos",
+  "slug": "municipio-de-tepatitlan-de-morelos",
+  "poblacion": 150190,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tepatitl%C3%A1n_de_Morelos",
+  "extracto": null,
+  "webOficial": "https://www.tepatitlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.816666666,
+   "lon": -102.716666666
+  },
+  "posibleDuplicadoDe": "tepatitlan-de-morelos",
+  "km": 4.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cuautitlán",
+  "slug": "municipio-de-cuautitlan",
+  "poblacion": 140059,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cuautitl%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.7,
+   "lon": -99.166666666
+  },
+  "posibleDuplicadoDe": "tultepec",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Kanasín",
+  "slug": "kanasin-yucatan",
+  "poblacion": 139753,
+  "region": "Yucatán",
+  "regionSlug": "yucatan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Kanas%C3%ADn",
+  "extracto": null,
+  "webOficial": "http://www.kanasin.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.934444444,
+   "lon": -89.557777777
+  },
+  "posibleDuplicadoDe": "merida-mexico",
+  "km": 7.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Pedro Cholula",
+  "slug": "municipio-de-san-pedro-cholula",
+  "poblacion": 129032,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Pedro_Cholula",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.0707,
+   "lon": -98.3367
+  },
+  "posibleDuplicadoDe": "cholula",
+  "km": 3.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Pedro Garza García",
+  "slug": "san-pedro-garza-garcia-nuevo-leon",
+  "poblacion": 122659,
+  "region": "Nuevo León",
+  "regionSlug": "nuevo-leon",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Pedro_Garza_Garc%C3%ADa",
+  "extracto": null,
+  "webOficial": "http://www.sanpedro.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.6643,
+   "lon": -100.4023
+  },
+  "posibleDuplicadoDe": "monterrey",
+  "km": 8.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tizayuca",
+  "slug": "municipio-de-tizayuca",
+  "poblacion": 119442,
+  "region": "Hidalgo",
+  "regionSlug": "hidalgo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tizayuca",
+  "extracto": null,
+  "webOficial": "https://www.tizayuca.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -98.966666666
+  },
+  "posibleDuplicadoDe": "reyes-acozac",
+  "km": 8.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Matamoros",
+  "slug": "municipio-de-matamoros-coahuila-de-zaragoza",
+  "poblacion": 118337,
+  "region": "Coahuila de Zaragoza",
+  "regionSlug": "coahuila-de-zaragoza",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Matamoros_(Coahuila)",
+  "extracto": null,
+  "webOficial": "http://www.matamoroscoahuila.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.566666666,
+   "lon": -103.2
+  },
+  "posibleDuplicadoDe": "matamoros",
+  "km": 5.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zapotlán el Grande",
+  "slug": "municipio-de-zapotlan-el-grande",
+  "poblacion": 115141,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zapotl%C3%A1n_el_Grande",
+  "extracto": null,
+  "webOficial": "http://www.zapotlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.7,
+   "lon": -103.516666666
+  },
+  "posibleDuplicadoDe": "ciudad-guzman",
+  "km": 5.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tlapacoyan",
+  "slug": "municipio-de-tlapacoyan",
+  "poblacion": 115000,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlapacoyan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.01899,
+   "lon": -97.17215
+  },
+  "posibleDuplicadoDe": "tlapacoyan",
+  "km": 7.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Antonio la Isla",
+  "slug": "municipio-de-san-antonio-la-isla",
+  "poblacion": 110560,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Antonio_la_Isla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.167694444,
+   "lon": -99.554166666
+  },
+  "posibleDuplicadoDe": "tenango-de-arista",
+  "km": 8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Martínez de la Torre",
+  "slug": "municipio-de-martinez-de-la-torre",
+  "poblacion": 110415,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Mart%C3%ADnez_de_la_Torre",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.116666666,
+   "lon": -97.05
+  },
+  "posibleDuplicadoDe": "martinez-de-la-torre",
+  "km": 5.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ocotlán",
+  "slug": "municipio-de-ocotlan",
+  "poblacion": 106050,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ocotl%C3%A1n",
+  "extracto": null,
+  "webOficial": "https://www.ocotlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.383333333,
+   "lon": -102.733333333
+  },
+  "posibleDuplicadoDe": "ocotlan",
+  "km": 5.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Temoaya",
+  "slug": "municipio-de-temoaya",
+  "poblacion": 105766,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Temoaya",
+  "extracto": null,
+  "webOficial": "http://www.temoaya.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.468611111,
+   "lon": -99.593333333
+  },
+  "posibleDuplicadoDe": "xonacatlan",
+  "km": 9.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Álamo Temapache",
+  "slug": "municipio-de-alamo-temapache",
+  "poblacion": 104694,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_%C3%81lamo_Temapache",
+  "extracto": null,
+  "webOficial": "http://www.temapache.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.989166666,
+   "lon": -97.705833333
+  },
+  "posibleDuplicadoDe": "alamo",
+  "km": 9.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Emiliano Zapata",
+  "slug": "municipio-de-emiliano-zapata",
+  "poblacion": 99493,
+  "region": "Morelos",
+  "regionSlug": "morelos",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Emiliano_Zapata_(Morelos)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.8115,
+   "lon": -99.1825
+  },
+  "posibleDuplicadoDe": "emiliano-zapata-edomex",
+  "km": 3.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Teziutlán",
+  "slug": "municipio-de-teziutlan",
+  "poblacion": 97590,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Teziutl%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://teziutlan.puebla.gob.mx/Vista/index.php",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.853688888,
+   "lon": -97.358230555
+  },
+  "posibleDuplicadoDe": "teziutlan",
+  "km": 4.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Santa Cruz Xoxocotlán",
+  "slug": "municipio-de-santa-cruz-xoxocotlan",
+  "poblacion": 93188,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Santa_Cruz_Xoxocotl%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17,
+   "lon": -96.75
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 7.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Francisco Tesistán",
+  "slug": "san-francisco-tesistan",
+  "poblacion": 91631,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Francisco_Tesist%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.798611111,
+   "lon": -103.477222222
+  },
+  "posibleDuplicadoDe": "nuevo-mexico",
+  "km": 5.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tala",
+  "slug": "municipio-de-tala-estado-de-jalisco",
+  "poblacion": 87690,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tala_(Jalisco)",
+  "extracto": null,
+  "webOficial": "https://talajalisco.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.616666666,
+   "lon": -103.683333333
+  },
+  "posibleDuplicadoDe": "tala",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Salinas",
+  "slug": "canton-salinas",
+  "poblacion": 86801,
+  "region": "Santa Elena",
+  "regionSlug": "santa-elena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Salinas",
+  "extracto": null,
+  "webOficial": "http://www.salinas.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.21666667,
+   "lon": -80.95
+  },
+  "posibleDuplicadoDe": "la-libertad",
+  "km": 4.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Calpan",
+  "slug": "municipio-de-calpan",
+  "poblacion": 85000,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Calpan",
+  "extracto": null,
+  "webOficial": "http://calpan.puebla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1,
+   "lon": -98.45
+  },
+  "posibleDuplicadoDe": "huejotzingo",
+  "km": 7.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Otzolotepec",
+  "slug": "municipio-de-otzolotepec",
+  "poblacion": 84519,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Otzolotepec",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.444138888,
+   "lon": -99.532416666
+  },
+  "posibleDuplicadoDe": "xonacatlan",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zacatlán",
+  "slug": "municipio-de-zacatlan",
+  "poblacion": 82457,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zacatl%C3%A1n",
+  "extracto": null,
+  "webOficial": "https://zacatlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.966666666,
+   "lon": -98.016666666
+  },
+  "posibleDuplicadoDe": "zacatlan",
+  "km": 6.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Arandas",
+  "slug": "municipio-de-arandas",
+  "poblacion": 80609,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Arandas",
+  "extracto": null,
+  "webOficial": "https://arandas.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.75,
+   "lon": -102.3
+  },
+  "posibleDuplicadoDe": "arandas",
+  "km": 6.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tepeaca",
+  "slug": "municipio-de-tepeaca",
+  "poblacion": 80507,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tepeaca",
+  "extracto": null,
+  "webOficial": "http://www.tepeaca.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.02,
+   "lon": -97.87
+  },
+  "posibleDuplicadoDe": "tepeaca",
+  "km": 6.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tejupilco",
+  "slug": "municipio-de-tejupilco",
+  "poblacion": 79282,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tejupilco",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.9,
+   "lon": -100.24
+  },
+  "posibleDuplicadoDe": "tejupilco-de-hidalgo",
+  "km": 9.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Huejotzingo",
+  "slug": "municipio-de-huejotzingo",
+  "poblacion": 73771,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Huejotzingo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1708,
+   "lon": -98.4852
+  },
+  "posibleDuplicadoDe": "huejotzingo",
+  "km": 8.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Perote",
+  "slug": "municipio-de-perote",
+  "poblacion": 72795,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Perote",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.51,
+   "lon": -97.26
+  },
+  "posibleDuplicadoDe": "perote",
+  "km": 6.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de La Barca",
+  "slug": "municipio-de-la-barca",
+  "poblacion": 67937,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_La_Barca",
+  "extracto": null,
+  "webOficial": "https://www.labarca.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.35,
+   "lon": -102.5
+  },
+  "posibleDuplicadoDe": "la-barca",
+  "km": 8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Pujilí",
+  "slug": "pujili-provincia-de-cotopaxi",
+  "poblacion": 66980,
+  "region": "Provincia de Cotopaxi",
+  "regionSlug": "provincia-de-cotopaxi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Pujil%C3%AD",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -0.95,
+   "lon": -78.69
+  },
+  "posibleDuplicadoDe": "latacunga",
+  "km": 8.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Pujilí",
+  "slug": "canton-pujili",
+  "poblacion": 66980,
+  "region": "Provincia de Cotopaxi",
+  "regionSlug": "provincia-de-cotopaxi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Pujil%C3%AD",
+  "extracto": null,
+  "webOficial": "https://www.municipiopujili.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -0.95,
+   "lon": -78.69
+  },
+  "posibleDuplicadoDe": "latacunga",
+  "km": 8.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ocoyoacac",
+  "slug": "municipio-de-ocoyoacac",
+  "poblacion": 66190,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ocoyoacac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.25,
+   "lon": -99.4
+  },
+  "posibleDuplicadoDe": "ocoyoacac",
+  "km": 6.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Autlán de Navarro",
+  "slug": "municipio-de-autlan-de-navarro",
+  "poblacion": 64931,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Autl%C3%A1n_de_Navarro",
+  "extracto": null,
+  "webOficial": "https://www.autlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.75,
+   "lon": -104.3
+  },
+  "posibleDuplicadoDe": "autlan-de-navarro",
+  "km": 7.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zapotlanejo",
+  "slug": "municipio-de-zapotlanejo",
+  "poblacion": 64806,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zapotlanejo",
+  "extracto": null,
+  "webOficial": "https://zapotlanejo.gob.mx/2016/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.65,
+   "lon": -103.066666666
+  },
+  "posibleDuplicadoDe": "zapotlanejo",
+  "km": 3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tianguistenco",
+  "slug": "municipio-de-tianguistenco",
+  "poblacion": 64356,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tianguistenco",
+  "extracto": null,
+  "webOficial": "http://www.tianguistencoenaccion.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.16138,
+   "lon": -99.46119
+  },
+  "posibleDuplicadoDe": "capulhuac-de-mirafuentes",
+  "km": 3.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Atotonilco el Alto",
+  "slug": "municipio-de-atotonilco-el-alto",
+  "poblacion": 64009,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atotonilco_el_Alto",
+  "extracto": null,
+  "webOficial": "https://atotonilco.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.533333333,
+   "lon": -102.55
+  },
+  "posibleDuplicadoDe": "atotonilco-el-alto",
+  "km": 4.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Huatusco",
+  "slug": "municipio-de-huatusco",
+  "poblacion": 60674,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Huatusco",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.13,
+   "lon": -96.876666666
+  },
+  "posibleDuplicadoDe": "huatusco",
+  "km": 9.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Acatzingo",
+  "slug": "municipio-de-acatzingo",
+  "poblacion": 59077,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Acatzingo",
+  "extracto": null,
+  "webOficial": "http://www.municipiodeacatzingo.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.03,
+   "lon": -97.75
+  },
+  "posibleDuplicadoDe": "acatzingo",
+  "km": 6.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Alvarado",
+  "slug": "municipio-de-alvarado",
+  "poblacion": 57035,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Alvarado",
+  "extracto": null,
+  "webOficial": "http://www.alvarado.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.797777777,
+   "lon": -95.773888888
+  },
+  "posibleDuplicadoDe": "alvarado",
+  "km": 3.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Coatzintla",
+  "slug": "municipio-de-coatzintla",
+  "poblacion": 56897,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Coatzintla",
+  "extracto": null,
+  "webOficial": "http://www.coatzintla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.429,
+   "lon": -97.516
+  },
+  "posibleDuplicadoDe": "coatzintla",
+  "km": 8.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zacapoaxtla",
+  "slug": "municipio-de-zacapoaxtla",
+  "poblacion": 55299,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zacapoaxtla",
+  "extracto": null,
+  "webOficial": "https://zacapoaxtla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -97.588055555
+  },
+  "posibleDuplicadoDe": "zaragoza-puebla",
+  "km": 9.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Chapala",
+  "slug": "municipio-de-chapala",
+  "poblacion": 55196,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chapala",
+  "extracto": null,
+  "webOficial": "https://www.chapala.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.283333333,
+   "lon": -103.216666666
+  },
+  "posibleDuplicadoDe": "chapala",
+  "km": 3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Xonacatlán",
+  "slug": "municipio-de-xonacatlan",
+  "poblacion": 51646,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Xonacatl%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.43,
+   "lon": -99.48
+  },
+  "posibleDuplicadoDe": "xonacatlan",
+  "km": 5.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Quecholac",
+  "slug": "municipio-de-quecholac",
+  "poblacion": 50962,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Quecholac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.9554497,
+   "lon": -97.6575237
+  },
+  "posibleDuplicadoDe": "palmarito-tochapan",
+  "km": 6.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Santa Lucía del Camino",
+  "slug": "municipio-de-santa-lucia-del-camino",
+  "poblacion": 49459,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Santa_Luc%C3%ADa_del_Camino",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.066666666,
+   "lon": -96.683333333
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 4.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Guano",
+  "slug": "canton-guano",
+  "poblacion": 48327,
+  "region": "Chimborazo",
+  "regionSlug": "chimborazo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Guano",
+  "extracto": null,
+  "webOficial": "https://municipiodeguano.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.58333333,
+   "lon": -78.63333333
+  },
+  "posibleDuplicadoDe": "riobamba",
+  "km": 9.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Agua Dulce",
+  "slug": "municipio-de-agua-dulce",
+  "poblacion": 48091,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Agua_Dulce",
+  "extracto": null,
+  "webOficial": "http://www.aguadulce.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.07,
+   "lon": -94.16
+  },
+  "posibleDuplicadoDe": "agua-dulce",
+  "km": 7.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tlalmanalco",
+  "slug": "municipio-de-tlalmanalco",
+  "poblacion": 47390,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlalmanalco",
+  "extracto": null,
+  "webOficial": "http://www.tlalmanalco.com",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.2,
+   "lon": -98.72
+  },
+  "posibleDuplicadoDe": "amecameca",
+  "km": 9.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Chalchicomula de Sesma",
+  "slug": "municipio-de-chalchicomula-de-sesma",
+  "poblacion": 46778,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chalchicomula_de_Sesma",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.970530555,
+   "lon": -97.416666666
+  },
+  "posibleDuplicadoDe": "ciudad-serdan",
+  "km": 3.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Chiautempan",
+  "slug": "chiautempan-tlaxcala",
+  "poblacion": 46776,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Chiautempan",
+  "extracto": null,
+  "webOficial": "http://www.chiautempan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.311403148,
+   "lon": -98.187967147
+  },
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Amatlán de los Reyes",
+  "slug": "municipio-de-amatlan-de-los-reyes",
+  "poblacion": 45430,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Amatl%C3%A1n_de_los_Reyes",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.866666666,
+   "lon": -96.88
+  },
+  "posibleDuplicadoDe": "cordoba-veracruz",
+  "km": 5.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tres Valles",
+  "slug": "municipio-de-tres-valles",
+  "poblacion": 44978,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tres_Valles",
+  "extracto": null,
+  "webOficial": "http://www.tresvalles.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.2867,
+   "lon": -96.1369
+  },
+  "posibleDuplicadoDe": "tres-valles",
+  "km": 5.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Jalacingo",
+  "slug": "municipio-de-jalacingo",
+  "poblacion": 44488,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jalacingo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.766666666,
+   "lon": -97.3
+  },
+  "posibleDuplicadoDe": "altotonga",
+  "km": 5.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Atenco",
+  "slug": "municipio-de-atenco",
+  "poblacion": 42739,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atenco",
+  "extracto": null,
+  "webOficial": "http://www.atenco.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.55,
+   "lon": -98.95
+  },
+  "posibleDuplicadoDe": "san-salvador-atenco",
+  "km": 3.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Río Blanco",
+  "slug": "municipio-de-rio-blanco",
+  "poblacion": 41927,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_R%C3%ADo_Blanco",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.83936,
+   "lon": -97.12829
+  },
+  "posibleDuplicadoDe": "rio-blanco",
+  "km": 3.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Santa María Atzompa",
+  "slug": "municipio-de-santa-maria-atzompa",
+  "poblacion": 41921,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Santa_Mar%C3%ADa_Atzompa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.079444444,
+   "lon": -96.786944444
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 6.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tuxtla Chico",
+  "slug": "municipio-de-tuxtla-chico",
+  "poblacion": 41024,
+  "region": "Chiapas",
+  "regionSlug": "chiapas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tuxtla_Chico",
+  "extracto": null,
+  "webOficial": "http://www.tuxtlachico.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 14.883333333,
+   "lon": -92.2
+  },
+  "posibleDuplicadoDe": "tapachula",
+  "km": 6.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Coronango",
+  "slug": "municipio-de-coronango",
+  "poblacion": 40949,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Coronango",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.133333333,
+   "lon": -98.291666666
+  },
+  "posibleDuplicadoDe": "cuautlancingo",
+  "km": 5.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cihuatlán",
+  "slug": "municipio-de-cihuatlan",
+  "poblacion": 40139,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cihuatl%C3%A1n",
+  "extracto": null,
+  "webOficial": "https://www.cihuatlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.266666666,
+   "lon": -104.616666666
+  },
+  "posibleDuplicadoDe": "cihuatlan",
+  "km": 6.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Xiutetelco",
+  "slug": "municipio-de-xiutetelco",
+  "poblacion": 39959,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Xiutetelco",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.75,
+   "lon": -97.36
+  },
+  "posibleDuplicadoDe": "teziutlan",
+  "km": 7.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tamazula de Gordiano",
+  "slug": "municipio-de-tamazula-de-gordiano",
+  "poblacion": 38955,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tamazula_de_Gordiano",
+  "extracto": null,
+  "webOficial": "https://www.tamazuladegordiano.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.683333333,
+   "lon": -103.216666666
+  },
+  "posibleDuplicadoDe": "tamazula-de-gordiano",
+  "km": 3.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Temascalapa",
+  "slug": "municipio-de-temascalapa",
+  "poblacion": 38622,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Temascalapa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.808333333,
+   "lon": -98.883333333
+  },
+  "posibleDuplicadoDe": "santa-maria-ajoloapan",
+  "km": 9.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Mariano Escobedo",
+  "slug": "municipio-de-mariano-escobedo",
+  "poblacion": 37285,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Mariano_Escobedo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.916666666,
+   "lon": -97.166666666
+  },
+  "posibleDuplicadoDe": "rio-blanco",
+  "km": 9.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Sayula",
+  "slug": "municipio-de-sayula",
+  "poblacion": 37186,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Sayula",
+  "extracto": null,
+  "webOficial": "http://www.sayula.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.85,
+   "lon": -103.6
+  },
+  "posibleDuplicadoDe": "sayula",
+  "km": 3.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Xalisco",
+  "slug": "xalisco-nayarit",
+  "poblacion": 35702,
+  "region": "Nayarit",
+  "regionSlug": "nayarit",
+  "wikipedia": "https://es.wikipedia.org/wiki/Xalisco_(Nayarit)",
+  "extracto": null,
+  "webOficial": "http://www.xalisco.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.444166666,
+   "lon": -104.901666666
+  },
+  "posibleDuplicadoDe": "tepic",
+  "km": 7.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Salinas",
+  "slug": "salinas-santa-elena",
+  "poblacion": 35066,
+  "region": "Santa Elena",
+  "regionSlug": "santa-elena",
+  "wikipedia": "https://es.wikipedia.org/wiki/Salinas_(Ecuador)",
+  "extracto": null,
+  "webOficial": "https://www.salinas.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.208333333,
+   "lon": -80.968055555
+  },
+  "posibleDuplicadoDe": "la-libertad",
+  "km": 7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Nextlalpan",
+  "slug": "municipio-de-nextlalpan",
+  "poblacion": 34374,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Nextlalpan",
+  "extracto": null,
+  "webOficial": "http://www.nextlalpan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.732805555,
+   "lon": -99.067361111
+  },
+  "posibleDuplicadoDe": "alborada-jaltenco",
+  "km": 7.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Jalostotitlán",
+  "slug": "municipio-de-jalostotitlan",
+  "poblacion": 33777,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jalostotitl%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://www.jalostotitlan.gob.mx/hoy/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.2,
+   "lon": -102.466666666
+  },
+  "posibleDuplicadoDe": "jalostotitlan",
+  "km": 3.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ángel R. Cabada",
+  "slug": "municipio-de-angel-r-cabada",
+  "poblacion": 33730,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_%C3%81ngel_R._Cabada",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.6,
+   "lon": -95.45
+  },
+  "posibleDuplicadoDe": "lerdo-de-tejada",
+  "km": 8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zapotiltic",
+  "slug": "municipio-de-zapotiltic",
+  "poblacion": 33713,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zapotiltic",
+  "extracto": null,
+  "webOficial": "https://www.zapotiltic.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.616666666,
+   "lon": -103.333333333
+  },
+  "posibleDuplicadoDe": "zapotiltic",
+  "km": 8.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Arenillas",
+  "slug": "arenillas",
+  "poblacion": 32366,
+  "region": "Provincia de El Oro",
+  "regionSlug": "provincia-de-el-oro",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -3.55,
+   "lon": -80.06
+  },
+  "posibleDuplicadoDe": "duran",
+  "km": 3.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Arenillas",
+  "slug": "canton-arenillas",
+  "poblacion": 32366,
+  "region": "Provincia de El Oro",
+  "regionSlug": "provincia-de-el-oro",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Arenillas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -3.55,
+   "lon": -80.06
+  },
+  "posibleDuplicadoDe": "duran",
+  "km": 3.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Salvador el Verde",
+  "slug": "municipio-de-san-salvador-el-verde",
+  "poblacion": 31355,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Salvador_el_Verde",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.25,
+   "lon": -98.52
+  },
+  "posibleDuplicadoDe": "san-rafael-tlanalapan",
+  "km": 7.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Juanacatlán",
+  "slug": "municipio-de-juanacatlan",
+  "poblacion": 30855,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juanacatl%C3%A1n",
+  "extracto": null,
+  "webOficial": "https://www.juanacatlan.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.483333333,
+   "lon": -103.15
+  },
+  "posibleDuplicadoDe": "san-jose-del-castillo",
+  "km": 9.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Simón Bolívar",
+  "slug": "canton-simon-bolivar",
+  "poblacion": 29427,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Sim%C3%B3n_Bol%C3%ADvar",
+  "extracto": null,
+  "webOficial": "https://www.gobiernosimonbolivar.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -2.15666667,
+   "lon": -79.8875
+  },
+  "posibleDuplicadoDe": "guayaquil",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cocula",
+  "slug": "municipio-de-cocula",
+  "poblacion": 29267,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cocula_(Jalisco)",
+  "extracto": null,
+  "webOficial": "https://www.cocula.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.4,
+   "lon": -103.833333333
+  },
+  "posibleDuplicadoDe": "cocula",
+  "km": 4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ozumba",
+  "slug": "municipio-de-ozumba",
+  "poblacion": 29114,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ozumba",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.016666666,
+   "lon": -98.816666666
+  },
+  "posibleDuplicadoDe": "ozumba-de-alzate",
+  "km": 3.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Panotla",
+  "slug": "municipio-de-panotla",
+  "poblacion": 28357,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Panotla",
+  "extracto": null,
+  "webOficial": "http://www.panotla.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.35,
+   "lon": -98.28
+  },
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 5.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Atempan",
+  "slug": "municipio-de-atempan",
+  "poblacion": 28306,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atempan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.805,
+   "lon": -97.4384
+  },
+  "posibleDuplicadoDe": "teziutlan",
+  "km": 8.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Naranjos Amatlán",
+  "slug": "municipio-de-naranjos-amatlan",
+  "poblacion": 28295,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Naranjos_Amatl%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.31139,
+   "lon": -97.69131
+  },
+  "posibleDuplicadoDe": "naranjos",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Atlautla",
+  "slug": "municipio-de-atlautla",
+  "poblacion": 27663,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atlautla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.01,
+   "lon": -98.72
+  },
+  "posibleDuplicadoDe": "ozumba-de-alzate",
+  "km": 8.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Contla",
+  "slug": "contla",
+  "poblacion": 27610,
+  "region": "Tlaxcala",
+  "regionSlug": "tlaxcala",
+  "wikipedia": "https://es.wikipedia.org/wiki/Contla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.32932,
+   "lon": -98.1664
+  },
+  "posibleDuplicadoDe": "tlaxcala",
+  "km": 7.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de La Antigua",
+  "slug": "municipio-de-la-antigua",
+  "poblacion": 27210,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_La_Antigua",
+  "extracto": null,
+  "webOficial": "https://laantigua.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.322222222,
+   "lon": -96.321388888
+  },
+  "posibleDuplicadoDe": "jose-cardel",
+  "km": 7.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cerro Azul",
+  "slug": "municipio-de-cerro-azul",
+  "poblacion": 26807,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cerro_Azul",
+  "extracto": null,
+  "webOficial": "http://www.cerroazul.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.17864,
+   "lon": -97.76933
+  },
+  "posibleDuplicadoDe": "cerro-azul",
+  "km": 3.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Jaltenco",
+  "slug": "municipio-de-jaltenco",
+  "poblacion": 26359,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jaltenco",
+  "extracto": null,
+  "webOficial": "http://www.jaltenco.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.7,
+   "lon": -99.08
+  },
+  "posibleDuplicadoDe": "san-pablo-de-las-salinas",
+  "km": 4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Santiago Miahuatlán",
+  "slug": "municipio-de-santiago-miahuatlan",
+  "poblacion": 25228,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Santiago_Miahuatl%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.5508,
+   "lon": -97.4168
+  },
+  "posibleDuplicadoDe": "tehuacan",
+  "km": 9.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ixhuatlancillo",
+  "slug": "municipio-de-ixhuatlancillo",
+  "poblacion": 24896,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ixhuatlancillo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.89,
+   "lon": -97.16
+  },
+  "posibleDuplicadoDe": "rio-blanco",
+  "km": 6.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Jamay",
+  "slug": "municipio-de-jamay",
+  "poblacion": 24894,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Jamay",
+  "extracto": null,
+  "webOficial": "https://www.jamayjalisco.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.283333333,
+   "lon": -102.666666666
+  },
+  "posibleDuplicadoDe": "jamay",
+  "km": 4.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Carlos A. Carrillo",
+  "slug": "municipio-de-carlos-a-carrillo",
+  "poblacion": 24565,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Carlos_A._Carrillo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.332,
+   "lon": -95.715
+  },
+  "posibleDuplicadoDe": "carlos-a-carrillo",
+  "km": 6.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Antonio Tecómitl",
+  "slug": "san-antonio-tecomitl",
+  "poblacion": 24397,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Antonio_Tec%C3%B3mitl",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.21778,
+   "lon": -98.98806
+  },
+  "posibleDuplicadoDe": "san-mateo-huitzilzingo",
+  "km": 6.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Cantón Nobol",
+  "slug": "canton-nobol",
+  "poblacion": 23850,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cant%C3%B3n_Nobol",
+  "extracto": null,
+  "webOficial": "https://nobol.gob.ec/",
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.916671,
+   "lon": -80.011539
+  },
+  "posibleDuplicadoDe": "daule",
+  "km": 7.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Ahualulco de Mercado",
+  "slug": "municipio-de-ahualulco-de-mercado",
+  "poblacion": 23630,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Ahualulco_de_Mercado",
+  "extracto": null,
+  "webOficial": "https://www.ahualulcodemercado.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.716666666,
+   "lon": -103.933333333
+  },
+  "posibleDuplicadoDe": "ahualulco-de-mercado",
+  "km": 4.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Rafael Delgado",
+  "slug": "municipio-de-rafael-delgado",
+  "poblacion": 23112,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Rafael_Delgado",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.794166666,
+   "lon": -97.091666666
+  },
+  "posibleDuplicadoDe": "orizaba",
+  "km": 6.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Antonio de la Cal",
+  "slug": "municipio-de-san-antonio-de-la-cal",
+  "poblacion": 23038,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Antonio_de_la_Cal",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.033333333,
+   "lon": -96.7
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Naolinco de Victoria",
+  "slug": "naolinco-de-victoria",
+  "poblacion": 22835,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Naolinco_de_Victoria",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.655833333,
+   "lon": -96.873611111
+  },
+  "posibleDuplicadoDe": "banderilla",
   "km": 10
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Cuilápam de Guerrero",
+  "slug": "cuilapam-de-guerrero",
+  "poblacion": 21597,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Cuil%C3%A1pam_de_Guerrero",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 16.997222222,
+   "lon": -96.781666666
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 9.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Atzacan",
+  "slug": "municipio-de-atzacan",
+  "poblacion": 21360,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Atzacan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.93392,
+   "lon": -97.07644
+  },
+  "posibleDuplicadoDe": "fortin-de-las-flores",
+  "km": 8.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Juan C. Bonilla",
+  "slug": "municipio-de-juan-c-bonilla",
+  "poblacion": 21253,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juan_C._Bonilla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1223,
+   "lon": -98.3416
+  },
+  "posibleDuplicadoDe": "cholula",
+  "km": 7.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Chocamán",
+  "slug": "municipio-de-chocaman",
+  "poblacion": 21102,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chocam%C3%A1n",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.99779,
+   "lon": -97.04299
+  },
+  "posibleDuplicadoDe": "coscomatepec-de-bravo",
+  "km": 8.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Vista Hermosa de Negrete",
+  "slug": "vista-hermosa-de-negrete",
+  "poblacion": 20624,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Vista_Hermosa_de_Negrete",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.273115,
+   "lon": -102.473646111
+  },
+  "posibleDuplicadoDe": "la-barca",
+  "km": 7.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Matías Tlalancaleca",
+  "slug": "municipio-de-san-matias-tlalancaleca",
+  "poblacion": 20175,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Mat%C3%ADas_Tlalancaleca",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.341666666,
+   "lon": -98.5
+  },
+  "posibleDuplicadoDe": "san-rafael-tlanalapan",
+  "km": 6.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tepetlixpa",
+  "slug": "municipio-de-tepetlixpa",
+  "poblacion": 19843,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tepetlixpa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.016666666,
+   "lon": -98.833333333
+  },
+  "posibleDuplicadoDe": "ozumba-de-alzate",
+  "km": 4.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Alfredo V. Bonfil",
+  "slug": "alfredo-v-bonfil",
+  "poblacion": 19789,
+  "region": "Quintana Roo",
+  "regionSlug": "quintana-roo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Alfredo_V._Bonfil_(Quintana_Roo)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.088118333,
+   "lon": -86.847480833
+  },
+  "posibleDuplicadoDe": "cancun",
+  "km": 9.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Xochitepec",
+  "slug": "municipio-de-xochitepec",
+  "poblacion": 19164,
+  "region": "Morelos",
+  "regionSlug": "morelos",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Xochitepec",
+  "extracto": null,
+  "webOficial": "http://xochitepec.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.780833333,
+   "lon": -99.231388888
+  },
+  "posibleDuplicadoDe": "emiliano-zapata-edomex",
+  "km": 8.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Picoazá",
+  "slug": "picoaza",
+  "poblacion": 19000,
+  "region": "Provincia de Manabí",
+  "regionSlug": "provincia-de-manabi",
+  "wikipedia": "https://es.wikipedia.org/wiki/Picoaz%C3%A1",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.03333333,
+   "lon": -80.5
+  },
+  "posibleDuplicadoDe": "portoviejo",
+  "km": 6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Vista Hermosa",
+  "slug": "municipio-de-vista-hermosa",
+  "poblacion": 18995,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Vista_Hermosa",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.272777777,
+   "lon": -102.455555555
+  },
+  "posibleDuplicadoDe": "la-barca",
+  "km": 9.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tlalnelhuayocan",
+  "slug": "municipio-de-tlalnelhuayocan",
+  "poblacion": 18715,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tlalnelhuayocan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.54,
+   "lon": -96.98
+  },
+  "posibleDuplicadoDe": "xalapa",
+  "km": 6.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Xico",
+  "slug": "municipio-de-xico",
+  "poblacion": 18652,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Xico",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.43991,
+   "lon": -97.04332
+  },
+  "posibleDuplicadoDe": "coatepec",
+  "km": 8.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Sebastián Tutla",
+  "slug": "municipio-de-san-sebastian-tutla",
+  "poblacion": 18195,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Sebasti%C3%A1n_Tutla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.0434,
+   "lon": -96.6821
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tepatlaxco de Hidalgo",
+  "slug": "municipio-de-tepatlaxco-de-hidalgo",
+  "poblacion": 17472,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tepatlaxco_de_Hidalgo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.141666666,
+   "lon": -98
+  },
+  "posibleDuplicadoDe": "acajete",
+  "km": 6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Teocelo",
+  "slug": "teocelo",
+  "poblacion": 16957,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Teocelo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.383333333,
+   "lon": -96.975
+  },
+  "posibleDuplicadoDe": "coatepec",
+  "km": 7.8
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Oluta",
+  "slug": "municipio-de-oluta",
+  "poblacion": 16710,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Oluta",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.9,
+   "lon": -94.9
+  },
+  "posibleDuplicadoDe": "acayucan",
+  "km": 5.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Santa Ana Nextlalpan",
+  "slug": "santa-ana-nextlalpan",
+  "poblacion": 16596,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Ana_Nextlalpan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.739866388,
+   "lon": -99.0803375
+  },
+  "posibleDuplicadoDe": "zumpango",
+  "km": 6.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Chinameca",
+  "slug": "municipio-de-chinameca",
+  "poblacion": 16241,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chinameca",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.0183579,
+   "lon": -94.678624
+  },
+  "posibleDuplicadoDe": "cosoleacaque",
+  "km": 5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Oteapan",
+  "slug": "municipio-de-oteapan",
+  "poblacion": 16222,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Oteapan",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.983333333,
+   "lon": -94.666666666
+  },
+  "posibleDuplicadoDe": "cosoleacaque",
+  "km": 3.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zaragoza",
+  "slug": "municipio-de-zaragoza",
+  "poblacion": 16173,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zaragoza_(Puebla)",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.745833333,
+   "lon": -97.566666666
+  },
+  "posibleDuplicadoDe": "zaragoza-puebla",
+  "km": 3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Gabriel Chilac",
+  "slug": "municipio-de-san-gabriel-chilac",
+  "poblacion": 15763,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Gabriel_Chilac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.3152,
+   "lon": -97.3732
+  },
+  "posibleDuplicadoDe": "altepexi",
+  "km": 9.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Jacinto Amilpas",
+  "slug": "municipio-de-san-jacinto-amilpas",
+  "poblacion": 15720,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Jacinto_Amilpas",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.091666666,
+   "lon": -96.758333333
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 4.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Salvador Huixcolotla",
+  "slug": "municipio-de-san-salvador-huixcolotla",
+  "poblacion": 14810,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Salvador_Huixcolotla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.921944444,
+   "lon": -97.770833333
+  },
+  "posibleDuplicadoDe": "los-reyes-de-juarez",
+  "km": 4.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Tlalmanalco de Velázquez",
+  "slug": "tlalmanalco-de-velazquez",
+  "poblacion": 14786,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Tlalmanalco_de_Vel%C3%A1zquez",
+  "extracto": null,
+  "webOficial": "http://ayuntamientodetlalmanalco.gob.mx",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.20807,
+   "lon": -98.80138
+  },
+  "posibleDuplicadoDe": "san-martin-cuautlalpan",
+  "km": 8.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Nuevo San Juan Parangaricutiro",
+  "slug": "nuevo-san-juan-parangaricutiro",
+  "poblacion": 14772,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Nuevo_San_Juan_Parangaricutiro",
+  "extracto": null,
+  "webOficial": "http://nparangaricutiro.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.416666666,
+   "lon": -102.129444444
+  },
+  "posibleDuplicadoDe": "uruapan",
+  "km": 7.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Mineral del Monte",
+  "slug": "municipio-de-mineral-del-monte",
+  "poblacion": 14640,
+  "region": "Hidalgo",
+  "regionSlug": "hidalgo",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Mineral_del_Monte",
+  "extracto": null,
+  "webOficial": "http://mineraldelmonte.hidalgo.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.139166666,
+   "lon": -98.671666666
+  },
+  "posibleDuplicadoDe": "pachuca",
+  "km": 6.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Joquicingo",
+  "slug": "municipio-de-joquicingo",
+  "poblacion": 13857,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Joquicingo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.055555555,
+   "lon": -99.516666666
+  },
+  "posibleDuplicadoDe": "tenango-de-arista",
+  "km": 9.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Gabriel Chilac",
+  "slug": "san-gabriel-chilac",
+  "poblacion": 13687,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Gabriel_Chilac",
+  "extracto": null,
+  "webOficial": "https://sangabrielchilac.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.326273333,
+   "lon": -97.347981666
+  },
+  "posibleDuplicadoDe": "altepexi",
+  "km": 7.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "San Andrés Míxquic",
+  "slug": "san-andres-mixquic",
+  "poblacion": 13310,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/San_Andr%C3%A9s_M%C3%ADxquic",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.224913888,
+   "lon": -98.964286111
+  },
+  "posibleDuplicadoDe": "san-mateo-huitzilzingo",
+  "km": 4.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Temamatla",
+  "slug": "municipio-de-temamatla",
+  "poblacion": 12984,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Temamatla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.1875,
+   "lon": -98.883333333
+  },
+  "posibleDuplicadoDe": "san-mateo-huitzilzingo",
+  "km": 6.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tantima",
+  "slug": "municipio-de-tantima",
+  "poblacion": 12983,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tantima",
+  "extracto": null,
+  "webOficial": "http://www.tantima.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 21.41,
+   "lon": -97.746666666
+  },
+  "posibleDuplicadoDe": "naranjos",
+  "km": 9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tonatico",
+  "slug": "municipio-de-tonatico",
+  "poblacion": 12912,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tonatico",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.783333333,
+   "lon": -99.633333333
+  },
+  "posibleDuplicadoDe": "ixtapan-de-la-sal",
+  "km": 8.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Santa Cruz Amilpas",
+  "slug": "municipio-de-santa-cruz-amilpas",
+  "poblacion": 12814,
+  "region": "Estado de Oaxaca",
+  "regionSlug": "estado-de-oaxaca",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Santa_Cruz_Amilpas",
+  "extracto": null,
+  "webOficial": "http://santacruzamilpas.com/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.047222222,
+   "lon": -96.686194444
+  },
+  "posibleDuplicadoDe": "oaxaca",
+  "km": 4.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Miguel Xoxtla",
+  "slug": "municipio-de-san-miguel-xoxtla",
+  "poblacion": 12341,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Miguel_Xoxtla",
+  "extracto": null,
+  "webOficial": "http://sanmiguelxoxtlaoficial.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.170833333,
+   "lon": -98.305194444
+  },
+  "posibleDuplicadoDe": "santa-ana-xalmimilulco",
+  "km": 9.3
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Soltepec",
+  "slug": "municipio-de-soltepec",
+  "poblacion": 12226,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Soltepec",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.121111111,
+   "lon": -97.733333333
+  },
+  "posibleDuplicadoDe": "san-salvador-el-seco",
+  "km": 9.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cocotitlán",
+  "slug": "municipio-de-cocotitlan",
+  "poblacion": 12142,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cocotitl%C3%A1n",
+  "extracto": null,
+  "webOficial": "http://cocotitlan.gob.mx/web/inicio.php?seccion=1/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.227,
+   "lon": -98.8575
+  },
+  "posibleDuplicadoDe": "chalco",
+  "km": 5.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Chapultepec",
+  "slug": "municipio-de-chapultepec",
+  "poblacion": 12120,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Chapultepec",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.207,
+   "lon": -99.5465
+  },
+  "posibleDuplicadoDe": "san-mateo-atenco",
+  "km": 6.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Jaltenango de la Paz",
+  "slug": "jaltenango-de-la-paz",
+  "poblacion": 11875,
+  "region": "Chiapas",
+  "regionSlug": "chiapas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Jaltenango_de_la_Paz",
+  "extracto": null,
+  "webOficial": "http://www.angelalbinocorzo.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 15.8725,
+   "lon": -92.725
+  },
+  "posibleDuplicadoDe": "queretaro",
+  "km": 5.2
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Ajijic",
+  "slug": "ajijic",
+  "poblacion": 11439,
+  "region": "estado de Jalisco",
+  "regionSlug": "estado-de-jalisco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Ajijic",
+  "extracto": null,
+  "webOficial": "https://chapala.com/ajijic/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.300277777,
+   "lon": -103.272222222
+  },
+  "posibleDuplicadoDe": "chapala",
+  "km": 8.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Tenango del Aire",
+  "slug": "municipio-de-tenango-del-aire",
+  "poblacion": 11359,
+  "region": "Estado de México",
+  "regionSlug": "estado-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Tenango_del_Aire",
+  "extracto": null,
+  "webOficial": "http://www.tenangodelaire.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.15,
+   "lon": -98.866666666
+  },
+  "posibleDuplicadoDe": "juchitepec",
+  "km": 5.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Zaragoza",
+  "slug": "municipio-de-zaragoza-estado-de-veracruz",
+  "poblacion": 11354,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Zaragoza_(Veracruz)",
+  "extracto": null,
+  "webOficial": "http://zaragozaver.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.94871,
+   "lon": -94.64361
+  },
+  "posibleDuplicadoDe": "cosoleacaque",
+  "km": 5.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Briseñas",
+  "slug": "municipio-de-brisenas",
+  "poblacion": 11328,
+  "region": "Michoacán",
+  "regionSlug": "michoacan",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Brise%C3%B1as",
+  "extracto": null,
+  "webOficial": "http://www.brisenas.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.239444444,
+   "lon": -102.610833333
+  },
+  "posibleDuplicadoDe": "la-barca",
+  "km": 9.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Santa Rosa Xochiac",
+  "slug": "santa-rosa-xochiac",
+  "poblacion": 10722,
+  "region": "Ciudad de México",
+  "regionSlug": "ciudad-de-mexico",
+  "wikipedia": "https://es.wikipedia.org/wiki/Santa_Rosa_Xochiac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.326388888,
+   "lon": -99.288333333
+  },
+  "posibleDuplicadoDe": "jesus-del-monte",
+  "km": 5.4
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Juan Galindo",
+  "slug": "municipio-de-juan-galindo",
+  "poblacion": 10685,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Juan_Galindo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 20.211111111,
+   "lon": -98
+  },
+  "posibleDuplicadoDe": "huauchinango",
+  "km": 7.1
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de San Felipe Teotlalcingo",
+  "slug": "municipio-de-san-felipe-teotlalcingo",
+  "poblacion": 10456,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_San_Felipe_Teotlalcingo",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.232569444,
+   "lon": -98.525
+  },
+  "posibleDuplicadoDe": "san-rafael-tlanalapan",
+  "km": 8.9
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Alpatláhuac",
+  "slug": "municipio-de-alpatlahuac",
+  "poblacion": 10189,
+  "region": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Alpatl%C3%A1huac",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 19.0988,
+   "lon": -97.1354
+  },
+  "posibleDuplicadoDe": "coscomatepec-de-bravo",
+  "km": 9.7
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Municipio de Cuapiaxtla de Madero",
+  "slug": "municipio-de-cuapiaxtla-de-madero",
+  "poblacion": 10101,
+  "region": "Puebla",
+  "regionSlug": "puebla",
+  "wikipedia": "https://es.wikipedia.org/wiki/Municipio_de_Cuapiaxtla_de_Madero",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 18.925,
+   "lon": -97.825
+  },
+  "posibleDuplicadoDe": "los-reyes-de-juarez",
+  "km": 3.5
+ },
+ {
+  "origen": "pais4k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Parrilla",
+  "slug": "parrilla",
+  "poblacion": 10036,
+  "region": "Tabasco",
+  "regionSlug": "tabasco",
+  "wikipedia": "https://es.wikipedia.org/wiki/Villa_Parrilla",
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": {
+   "lat": 17.911922777,
+   "lon": -92.917528055
+  },
+  "posibleDuplicadoDe": "villahermosa",
+  "km": 8.6
+ },
+ {
+  "origen": "pais4k",
+  "pais": "Ecuador",
+  "paisSlug": "ecuador",
+  "nombre": "Narcisa de Jesús",
+  "slug": "narcisa-de-jesus",
+  "poblacion": 10010,
+  "region": "Guayas",
+  "regionSlug": "guayas",
+  "wikipedia": "https://es.wikipedia.org/wiki/Narcisa_de_Jes%C3%BAs_(ciudad)",
+  "extracto": null,
+  "webOficial": "https://www.nobol.gob.ec",
+  "gentilicio": null,
+  "coords": {
+   "lat": -1.916672222,
+   "lon": -80.011538888
+  },
+  "posibleDuplicadoDe": "daule",
+  "km": 7.4
  }
 ]

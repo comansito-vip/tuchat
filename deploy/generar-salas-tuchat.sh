@@ -1,9 +1,16 @@
 #!/bin/bash
 # Goteo diario de salas de localidad de tuchat.org.
 #
-# Publica una docena al día y no más. Con ~2.900 localidades en cola son meses,
-# y esa es la idea: un sitio que aparece de golpe con miles de páginas de pueblos
-# parece una granja de páginas puerta por buenas que sean las fichas.
+# Publica un bloque de 50 al día y no más (el cliente lo subió de 12 a 50 el
+# 2026-08-18, al ampliar la cobertura a los municipios de más de 4.000 habitantes
+# de nueve comunidades y a México y Ecuador). Con la cola en miles de localidades
+# siguen siendo meses, y esa es la idea: un sitio que aparece de golpe con miles
+# de páginas de pueblos parece una granja de páginas puerta por buenas que sean
+# las fichas.
+#
+# En la misma pasada salen las tres salas de término del día
+# (scripts/cron/salas-termino.mjs): comparten checkout, lock, tests y build, así
+# que hacerlo aquí evita un segundo ciclo de construcción diario.
 #
 # Comparte el lock con la generación de noticias y con el deploy
 # (/tmp/tuchat-pipeline.lock): los tres tocan el mismo checkout y el deploy hace
@@ -39,9 +46,10 @@ set -a
 . ./.env
 set +a
 
-npx tsx scripts/cron/salas-geo.mjs --lote 12
+npx tsx scripts/cron/salas-geo.mjs --lote 50
+npx tsx scripts/cron/salas-termino.mjs --lote 3
 
-if [ -z "$(git status --porcelain src/data data/localidades)" ]; then
+if [ -z "$(git status --porcelain src/data data/localidades data/terminos)" ]; then
   echo "[$(date -u +%FT%TZ)] ninguna sala nueva superó los controles"
   exit 0
 fi
@@ -51,7 +59,7 @@ fi
 npm test
 
 git -c user.name="tuchat-bot" -c user.email="bot@tuchat.org" \
-    commit -q -m "chore(salas): goteo diario de salas de localidad" -- src/data data/localidades
+    commit -q -m "chore(salas): goteo diario de salas de localidad y de término" -- src/data data/localidades data/terminos
 
 PUSHED=0
 for intento in 1 2 3; do

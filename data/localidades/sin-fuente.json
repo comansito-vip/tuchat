@@ -3,60 +3,6 @@
   "origen": "am20k",
   "pais": "Argentina",
   "paisSlug": "argentina",
-  "nombre": "Abasto",
-  "slug": "abasto",
-  "poblacion": 719013,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Abasto_(La_Plata)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.9869,
-   "lon": -58.0889
-  }
- },
- {
-  "origen": "am20k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Gregorio de Laferrere",
-  "slug": "gregorio-de-laferrere",
-  "poblacion": 248362,
-  "region": "Provincia de Buenos Aires",
-  "regionSlug": "provincia-de-buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Gregorio_de_Laferrere_(Buenos_Aires)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.75,
-   "lon": -58.583333333
-  }
- },
- {
-  "origen": "am20k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Palermo",
-  "slug": "palermo-argentina",
-  "poblacion": 225970,
-  "region": "Buenos Aires",
-  "regionSlug": "buenos-aires",
-  "wikipedia": "https://es.wikipedia.org/wiki/Palermo_(Buenos_Aires)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -34.588888888,
-   "lon": -58.430555555
-  }
- },
- {
-  "origen": "am20k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
   "nombre": "Virrey del Pino",
   "slug": "virrey-del-pino",
   "poblacion": 156132,
@@ -87,24 +33,6 @@
   "coords": {
    "lat": -34.716666666,
    "lon": -58.616666666
-  }
- },
- {
-  "origen": "am20k",
-  "pais": "Argentina",
-  "paisSlug": "argentina",
-  "nombre": "Maipú",
-  "slug": "maipu-argentina",
-  "poblacion": 106662,
-  "region": "Provincia de Mendoza",
-  "regionSlug": "provincia-de-mendoza",
-  "wikipedia": "https://es.wikipedia.org/wiki/Maip%C3%BA_(Mendoza)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": "maipucino",
-  "coords": {
-   "lat": -32.966666666,
-   "lon": -68.75
   }
  },
  {
@@ -2067,24 +1995,6 @@
   "coords": {
    "lat": 15.415297222,
    "lon": -88.15715
-  }
- },
- {
-  "origen": "am20k",
-  "pais": "Honduras",
-  "paisSlug": "honduras",
-  "nombre": "Jutiapa",
-  "slug": "jutiapa-honduras",
-  "poblacion": 34224,
-  "region": "Departamento de Atlántida",
-  "regionSlug": "departamento-de-atlantida",
-  "wikipedia": "https://es.wikipedia.org/wiki/Jutiapa_de_Atl%C3%A1ntida",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": 15.744011111,
-   "lon": -86.513672222
   }
  },
  {

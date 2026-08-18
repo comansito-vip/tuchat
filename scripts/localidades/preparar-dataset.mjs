@@ -4,8 +4,13 @@
  * cada una ya adjunta.
  *
  * Objetivo de cobertura:
- *   · España   — todos los municipios de más de 8.000 habitantes (INE 2025, 942)
+ *   · España   — municipios de más de 8.000 habitantes (INE 2025, 942), y de más
+ *                de 4.000 en las nueve comunidades que pidió el cliente el
+ *                2026-08-18 (Galicia, C. Valenciana, Asturias, País Vasco,
+ *                Castilla y León, Extremadura, Canarias, Baleares y Cataluña).
  *   · América  — todas las localidades hispanohablantes de más de 20.000 (3.278)
+ *   · CO/PE/UY/AR — corte propio en 5.000
+ *   · MX/EC    — corte propio en 4.000 (mismo encargo del 2026-08-18)
  *
  * Los datasets vienen de estoeschat, que ya los descargó y verificó: el del INE
  * es padrón oficial (Wikidata se queda en 671 municipios de los ~942 reales, así
@@ -26,6 +31,26 @@ import { indexar, yaExiste, vecinaMasCercana, variantesDe, norm } from "./duplic
 const ORIGEN = "/home/javier/estoeschat/data";
 const DESTINO = join(process.cwd(), "data", "localidades");
 const UMBRAL_AMERICA = 20000;
+
+/**
+ * Las nueve comunidades con corte en 4.000 en vez de en 8.000.
+ *
+ * El resto de España se queda en 8.000: bajar el listón en todas de golpe
+ * duplicaría la cola sin que nadie lo haya pedido, y la cobertura que ya hay no
+ * se toca. Los nombres son los de la columna `comunidad` de es-municipios-3k.json
+ * y se comparan tal cual, así que si el dataset cambia de nomenclatura este mapa
+ * deja de encontrarlas y el resumen lo cantará (contaría 0 nuevas).
+ */
+const COMUNIDADES_4K = new Set([
+  "Galicia", "Comunidad Valenciana", "Asturias", "País Vasco",
+  "Castilla y León", "Extremadura", "Canarias", "Islas Baleares", "Cataluña",
+]);
+const UMBRAL_ES_BAJO = 4000;
+const UMBRAL_ES_ALTO = 8000;
+const umbralDe = (comunidad) => (COMUNIDADES_4K.has(comunidad) ? UMBRAL_ES_BAJO : UMBRAL_ES_ALTO);
+
+/** México y Ecuador, con su censo propio bajado de Wikidata por tramos. */
+const UMBRAL_MX_EC = 4000;
 
 // Lo que ya existe se lee del build de datos, no de un volcado aparte, para que
 // la cola no se desincronice del sitio cuando se añaden salas a mano.
@@ -91,7 +116,9 @@ async function main() {
   mkdirSync(DESTINO, { recursive: true });
 
   // ── España ─────────────────────────────────────────────────────────────────
-  const censoEs = leer("es-municipios-8k.json");
+  // El censo de 3.000 contiene al de 8.000: filtrando por el umbral de cada
+  // comunidad se obtienen a la vez las de siempre y las nuevas, sin dos listas.
+  const censoEs = leer("es-municipios-3k.json").filter((m) => m.poblacion >= umbralDe(m.comunidad));
   const fuenteEs = new Map(leer("es-nuevos-8k-con-fuente.json").map((x) => [String(x.ine), x]));
 
   // Para España hay un desempate exacto que América no tiene: el código INE.
@@ -118,7 +145,7 @@ async function main() {
     if (yaExiste(yaEstan, { nombre: m.nombre_oficial ?? m.nombre, coords: f.coords })) continue;
     if (yaExiste(yaEstan, { nombre: m.nombre, coords: f.coords })) continue;
     const entrada = {
-      origen: "es8k",
+      origen: m.poblacion >= UMBRAL_ES_ALTO ? "es8k" : "es4k",
       pais: "España",
       paisSlug: "espana",
       nombre: m.nombre,
@@ -127,12 +154,15 @@ async function main() {
       region: m.provincia,
       regionSlug: m.provincia_slug,
       comunidad: m.comunidad,
-      wikipedia: f.wikipedia_url ?? null,
+      // Los municipios de 4.000 a 8.000 no estaban en es-nuevos-8k-con-fuente
+      // (se armó para el corte anterior), así que la fuente sale del propio
+      // censo de 3.000, que trae Wikipedia, web del ayuntamiento y coordenadas.
+      wikipedia: f.wikipedia_url ?? m.wikipedia_url ?? null,
       extracto: f.wiki_extracto ?? null,
-      webOficial: f.web_oficial ?? null,
+      webOficial: f.web_oficial ?? m.web_oficial ?? null,
       gentilicio: f.gentilicio ?? null,
       comarca: f.comarca ?? null,
-      coords: f.coords ?? null,
+      coords: f.coords ?? m.coords ?? null,
     };
     (tieneFuente(entrada) ? pendientesEs : sinFuenteEs).push(entrada);
   }
@@ -224,6 +254,56 @@ async function main() {
     });
   }
 
+  // ── México y Ecuador, con corte propio en 4.000 ───────────────────────────
+  // Encargo del cliente del 2026-08-18, junto con las nueve comunidades
+  // españolas. El censo se bajó de Wikidata por tramos de población (la consulta
+  // del país entero devolvía 504) y viene igual de crudo que el de los cuatro
+  // anteriores: nombre, población y división de primer nivel, sin extracto. El
+  // cron baja la fuente por su cuenta antes de escribir y descarta lo que no
+  // consiga anclar.
+  //
+  // Vale aquí el mismo aviso: Wikidata no es un padrón. Para México el censo
+  // real es el del INEGI y para Ecuador el del INEC; estas cifras son un suelo,
+  // no la cobertura completa del país.
+  // Opcional a propósito: el censo de MX/EC se baja aparte y puede tardar días
+  // en estar (Wikidata se cae a ratos). Sin él, el resto de la cola se prepara
+  // igual en vez de romper la ejecución entera.
+  const censo4k = existsSync(join(ORIGEN, "latam-4k-mx-ec.json"))
+    ? (leer("latam-4k-mx-ec.json")?.localidades ?? [])
+    : [];
+  if (!censo4k.length) console.log("aviso: falta latam-4k-mx-ec.json — México y Ecuador no entran en esta pasada");
+  const pendientes4k = [];
+  for (const l of censo4k) {
+    const nombre = l.nombre ?? l.nombre_wd;
+    if ((l.poblacion ?? 0) < UMBRAL_MX_EC) continue;
+    if (yaExiste(yaEstan, { nombre, coords: l.coords })) continue;
+
+    let slug = norm(nombre);
+    for (const sufijo of ["", `-${norm(l.division ?? "")}`, `-${l.pais_slug}`]) {
+      const intento = norm(nombre) + sufijo;
+      if (!slugsUsados.has(intento)) { slug = intento; break; }
+      slug = intento;
+    }
+    if (slugsUsados.has(slug)) continue;
+    slugsUsados.add(slug);
+
+    pendientes4k.push({
+      origen: "pais4k",
+      pais: l.pais,
+      paisSlug: l.pais_slug,
+      nombre,
+      slug,
+      poblacion: l.poblacion,
+      region: l.division ?? null,
+      regionSlug: l.division ? norm(l.division) : null,
+      wikipedia: l.wikipedia_url ?? null,
+      extracto: null,
+      webOficial: l.web_oficial ?? null,
+      gentilicio: null,
+      coords: l.coords ?? null,
+    });
+  }
+
   // Segunda oportunidad para las que se quedaron sin fuente: muchas la tienen en
   // Wikipedia aunque no estuvieran en los datasets de origen, que se armaron para
   // otro sitio y con otro corte.
@@ -248,6 +328,7 @@ async function main() {
   pendientesEs.sort(porPoblacion);
   pendientesAm.sort(porPoblacion);
   pendientes5k.sort(porPoblacion);
+  pendientes4k.sort(porPoblacion);
 
   // Última criba: las que tienen una sala a menos de 10 km se apartan para
   // mirarlas a mano. No se descartan (podrían ser municipios vecinos legítimos)
@@ -265,7 +346,7 @@ async function main() {
   // Las de 5.000 van al final de la cola a propósito: son las más pequeñas y las
   // que menos se buscan, así que entran cuando ya estén las grandes. El cron las
   // reordena por demanda medida de todas formas.
-  const cola = [...pendientesEs, ...criba(pendientesAm), ...criba(pendientes5k)];
+  const cola = [...pendientesEs, ...criba(pendientesAm), ...criba(pendientes5k), ...criba(pendientes4k)];
   writeFileSync(join(DESTINO, "revisar.json"), JSON.stringify(dudosas, null, 1));
   writeFileSync(join(DESTINO, "pendientes.json"), JSON.stringify(cola, null, 1));
   writeFileSync(join(DESTINO, "sin-fuente.json"), JSON.stringify(quedanSinFuente, null, 1));
@@ -278,11 +359,17 @@ async function main() {
   // resumen pasó a decir "América 1% cubierto" cuando es el 40%.
   const deOrigen = (o) => cola.filter((x) => x.origen === o).length
     + quedanSinFuente.filter((x) => x.origen === o).length;
-  const faltanEs = deOrigen("es8k");
+  const faltanEs = deOrigen("es8k") + deOrigen("es4k");
   const faltanAm = deOrigen("am20k");
-  console.log(`ESPAÑA   (>8.000 hab)   objetivo ${censoEs.length} · faltan ${faltanEs} · cubierto ${Math.round((censoEs.length - faltanEs) / censoEs.length * 100)}%`);
+  // `censoEs` ya viene filtrado con el umbral de cada comunidad (8.000 en
+  // general, 4.000 en las nueve pedidas), así que el objetivo es el conjunto de
+  // los dos cortes y no solo el de 8.000.
+  console.log(`ESPAÑA   (umbral mixto)  objetivo ${censoEs.length} · faltan ${faltanEs} · cubierto ${Math.round((censoEs.length - faltanEs) / censoEs.length * 100)}%`);
   console.log(`AMÉRICA  (>${UMBRAL_AMERICA} hab)  objetivo ${censoAm.length} · faltan ${faltanAm} · cubierto ${Math.round((censoAm.length - faltanAm) / censoAm.length * 100)}%`);
+  console.log(`   · de 8.000 arriba, todas las comunidades: faltan ${deOrigen("es8k")}`);
+  console.log(`   · de 4.000 a 8.000, solo las nueve pedidas: faltan ${deOrigen("es4k")}`);
   console.log(`5.000+  (CO/PE/UY/AR)   añadidas a la cola ${pendientes5k.length} de ${censo5k.length} del censo`);
+  console.log(`4.000+  (MX/EC)         añadidas a la cola ${pendientes4k.length} de ${censo4k.length} del censo`);
   console.log("");
   console.log(`cola con fuente:  ${cola.length}  (${conWeb} con web del ayuntamiento)`);
   console.log(`fuera por no tener fuente: ${quedanSinFuente.length}`);
