@@ -174,3 +174,74 @@ tiempo pidiendo evitar. A doce al día se corrige a mano; a cincuenta, no. Si se
 mantener el ritmo, merece la pena endurecer antes la lista de muletillas con las fórmulas
 de este tipo («podrás conocer a personas», «para compartir recuerdos», «sus intereses,
 hobbies y experiencias»).
+
+## Lo que apareció al revisar de verdad las fichas publicadas: la costura
+
+La nota de arriba sobre Salas (Asturias) se quedó corta. Medido sobre las 107 salas que
+llevaba publicadas el cron:
+
+| | |
+|---|---:|
+| Con la frase «(en) la sala de chat de {X}» | **83 (78 %)** |
+| Con «sobre la vida cotidiana» o «temas de interés general» | 48 |
+| Que conservan 100 palabras al quitar el párrafo sobre la sala | **16** |
+
+No es una muletilla suelta: es un **párrafo entero, y es la mitad de la ficha**. Siempre el
+mismo, siempre al final, siempre con el nombre del pueblo cambiado:
+
+> «En la sala de chat de {LOCALIDAD} los {vecinos/usuarios/residentes}
+> {comparten/intercambian} información sobre la vida cotidiana, eventos locales y temas de
+> interés general.»
+
+Es el mismo molde que costó la reescritura de `copy.ts` en agosto, esta vez dentro del
+texto que escribe el LLM en lugar de en la plantilla.
+
+**La causa no era el modelo, era el encargo.** El prompt pedía literalmente «Después, de
+qué se habla en su sala y quién entra», que es un dato que no existe en ninguna parte; y
+el verificador tenía instrucción expresa de no marcarlo («Lo que la ficha dice sobre la
+propia sala de chat […] nunca va a estar en la fuente»). El generador pedía relleno y el
+control lo eximía.
+
+Corregido en tres sitios:
+
+1. **El prompt** (`salas-geo.mjs`): la ficha va entera sobre el lugar y las ocho fórmulas
+   quedan prohibidas por su nombre. La `intro` ya no pide «menciona que es la sala de chat
+   de X», que era la que producía la fórmula.
+2. **El verificador**: describir la sala pasa de estar exento a estar en la lista de
+   problemas.
+3. **`MULETILLAS_IA`**: las ocho fórmulas entran en la lista que comparten generador,
+   auditoría y curador. Contrastadas sobre las 2.727 salas del catálogo antes de añadirlas:
+   78 aciertos, 77 del cron y uno la intro de `madrid`, que llevaba la misma fórmula vacía
+   y se ha reescrito.
+
+**La reparación no tira ninguna URL abajo.** `salas-geo.mjs --rehacer` lee
+`data/localidades/rehacer.json` y reescribe la ficha *en su sitio*, conservando slug,
+canales, vecinas y números de sala; solo cambia el texto. Una página que aparece y
+desaparece es peor señal que una ficha mejorable. Y el cron gasta el lote diario en
+rehacer mientras queden pendientes: **arreglar va antes que añadir**.
+
+Van 94 fichas en cola de rehacer, a 50 por noche: dos pasadas.
+
+### De paso: once salas con nombre de expediente
+
+Wikidata nombra a muchos municipios por su envoltorio legal, y ese nombre llegaba hasta el
+título de la sala: `/chat/partido-de-tandil`, `/chat/distrito-de-paita`,
+`/chat/area-metropolitana-de-piura`. Nadie busca «chat partido de tandil».
+
+Seis de las once eran además **el mismo pueblo que una sala que ya existía** —Tandil,
+Olavarría, San Miguel, San Martín, Piura y José C. Paz—, o sea dos URLs para el mismo
+sitio. Esas se borran y redirigen; las otras cinco se renombran, más `ventanilla-`, que
+tenía un guion suelto en el slug. Los doce redirects están en el mapa `renamed` de
+`next.config.ts`.
+
+Corregido en el origen: `preparar-dataset.mjs` limpia el prefijo antes de encolar. La
+preposición es obligatoria en el patrón, o «Gran Canaria» se quedaba en «Canaria» y
+«Distrito Federal» en «Federal».
+
+### Wikidata no tiene la franja de 4.000 a 10.000
+
+Segundo intento por la tarde, con el servicio ya respondiendo: de ocho tramos de población,
+México devolvió 67 localidades y Ecuador 20. No es solo que el servicio fuera inestable —es
+que Wikidata no tiene la población de la mayoría de localidades pequeñas de esos dos
+países. Para completar ese corte hace falta el padrón real: **INEGI** para México e **INEC**
+para Ecuador. Los scripts quedan en el repo para cuando haya dataset.
