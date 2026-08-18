@@ -1,0 +1,739 @@
+[
+ {
+  "orden": 1,
+  "demanda": {
+   "consulta": "chat caliente",
+   "impresiones": 280345,
+   "clics": 6302,
+   "posicion": 6.2
+  },
+  "slug": "caliente",
+  "name": "Caliente",
+  "kind": "tematica",
+  "icon": "🔥",
+  "users": 268,
+  "votes": 341,
+  "activity": "Alta",
+  "parentSlug": "adultos",
+  "parentName": "Adultos",
+  "channels": [
+   "sexo",
+   "canalsexo",
+   "chatzona"
+  ],
+  "related": [
+   "hot",
+   "sexo",
+   "adultos",
+   "ligar",
+   "encuentros"
+  ],
+  "intro": "Dos personas escriben «chat caliente» y buscan cosas distintas: coqueteo, morbo o compañía a las tres de la mañana. Caben las tres.",
+  "aboutTitle": "La palabra que tapa tres intenciones distintas",
+  "about": "Caliente es, en el buscador, una palabra paraguas. Debajo entra quien quiere coqueteo sin llegar a nada, quien busca conversación explícita y quien simplemente no tiene sueño y prefiere hablar con alguien despierto antes que mirar el techo. La sala no resuelve esa ambigüedad por ti: lo que hace es dejarte en el canal #sexo, el más poblado de la parte adulta de la red, y darte un rato para leer antes de escribir. Funciona mejor así. Los mensajes van rápidos, nadie pide fotos de perfil porque aquí no hay perfiles, y el nick con el que entras es todo lo que se sabe de ti hasta que tú cuentes más. Hay dos cosas que conviene saber antes de entrar. La primera es que es sala de mayores de edad y que se echa a quien no lo respete. La segunda es que el ritmo baja mucho por la mañana y sube a partir de medianoche: si entras a las once y ves poco movimiento, no es que esté vacía, es que la madrugada es la hora punta."
+ },
+ {
+  "orden": 2,
+  "demanda": {
+   "consulta": "chat online",
+   "impresiones": 176365,
+   "clics": 4192,
+   "posicion": 7.9
+  },
+  "slug": "online",
+  "name": "Online",
+  "kind": "tematica",
+  "icon": "🌐",
+  "users": 254,
+  "votes": 318,
+  "activity": "Alta",
+  "parentSlug": "amistad",
+  "parentName": "Amistad",
+  "channels": [
+   "chat",
+   "chatea",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "chatear",
+   "sin-registro",
+   "amistad",
+   "webchat",
+   "anonimo"
+  ],
+  "intro": "Chat online significa dos cosas a la vez: que funciona en el navegador y que al otro lado hay alguien conectado ahora. Las dos se cumplen.",
+  "aboutTitle": "Se abre en el navegador y hay gente dentro",
+  "about": "Online se ha quedado como sinónimo de «que funciona sin más», y aplicado a un chat quiere decir dos cosas distintas. Una es técnica: la sala vive dentro de la página, no en un programa que haya que bajarse, así que el mismo enlace abre igual en el móvil del autobús que en el ordenador de casa. La otra es la que de verdad trae aquí a la gente cuando escribe la palabra: quiere saber si hay alguien en línea en este momento. La respuesta honesta es que depende de la hora. Las salas de aquí son canales de IRC con años encima, no salas recién abiertas esperando visitas, y eso cambia el resultado: a media tarde y de madrugada hay conversación en marcha, y a las siete de la mañana de un martes hay cuatro personas y silencio. Mirar quién está conectado antes de ponerse a escribir es parte del oficio. La lista de nicks está siempre a la vista, y saludar a la sala entera funciona bastante mejor que abrirle un privado a alguien que todavía no ha dicho nada."
+ },
+ {
+  "orden": 3,
+  "demanda": {
+   "consulta": "chat santiago",
+   "impresiones": 28974,
+   "clics": 970,
+   "posicion": 8.0
+  },
+  "slug": "santiago",
+  "name": "Santiago",
+  "kind": "tematica",
+  "icon": "🧭",
+  "users": 176,
+  "votes": 244,
+  "activity": "Media",
+  "parentSlug": "latinoamerica",
+  "parentName": "Latinoamérica",
+  "channels": [
+   "chile",
+   "galicia",
+   "republica_dominicana",
+   "chatzona"
+  ],
+  "related": [
+   "santiago-de-chile",
+   "santiago-de-compostela",
+   "santiago-de-los-caballeros",
+   "santiago-de-cuba",
+   "santiago-del-estero"
+  ],
+  "intro": "Escribir «chat Santiago» no dice de cuál: hay uno en Chile, otro en Galicia, otro en la República Dominicana y varios más. Esta página separa.",
+  "aboutTitle": "Seis ciudades, un nombre y un apóstol",
+  "about": "El nombre viene de Sant Iago, la forma medieval de Santiago apóstol, y se repartió por el mundo hispano con la costumbre de bautizar cada fundación con el santo del día o con el patrón de quien fundaba. De ahí que hoy haya media docena de Santiagos con sala propia y ninguno tenga más derecho que los demás al nombre a secas. El de Compostela es el final del Camino y la capital de Galicia, una ciudad de piedra mojada donde el casco viejo cabe entero a pie. El de Chile es la capital del país, fundada en 1541 por Pedro de Valdivia, con la cordillera cerrando el horizonte los días en que el aire deja verla. Santiago de los Caballeros es la segunda ciudad dominicana y el corazón del Cibao. Santiago de Cuba fue capital de la isla antes que La Habana y todavía se comporta como si lo fuera. Y en Argentina, el Santiago del noroeste fue el primer asentamiento español que no llegó a despoblarse nunca. Si sabes cuál buscas, los enlaces de aquí abajo llevan a cada sala; si llegaste por casualidad, ya sabes por qué se llaman todas igual."
+ },
+ {
+  "orden": 4,
+  "demanda": {
+   "consulta": "chateamos",
+   "impresiones": 15759,
+   "clics": 49,
+   "posicion": 8.3
+  },
+  "slug": "chateamos",
+  "name": "Chateamos",
+  "kind": "tematica",
+  "icon": "💬",
+  "users": 191,
+  "votes": 263,
+  "activity": "Media",
+  "parentSlug": "amistad",
+  "parentName": "Amistad",
+  "channels": [
+   "chatea",
+   "chatear",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "chatear",
+   "conocergente",
+   "terra",
+   "latinchat",
+   "amistad"
+  ],
+  "intro": "Chateamos fue uno de aquellos portales de webchat de los 2000 y todavía se busca por su nombre. Esto es lo que hay hoy donde estaba.",
+  "aboutTitle": "El nombre aguantó más que el portal",
+  "about": "Conviene decirlo antes que nada: esto no es aquel Chateamos ni tiene relación con quien lo llevaba. Es la misma advertencia que lleva la sala de Terra, y por el mismo motivo, que es no hacerle creer a nadie que ha vuelto a un sitio que ya no está. Lo que sí se puede contar es por qué el nombre sigue apareciendo en el buscador dos décadas después. Chateamos era una de esas puertas de entrada de la primera web en español, cuando chatear significaba abrir una página con la lista de salas y elegir una; el nombre, que no es más que el verbo en primera persona del plural, se quedó pegado a la costumbre y mucha gente lo sigue tecleando por inercia, como quien busca su viejo portal de correo. De aquella época quedan pocos datos verificables y aquí no se van a inventar. Lo que queda de verdad es la costumbre: entrar escribiendo un apodo, sin cuenta, y caer en una sala donde ya hay conversación. Eso funciona igual que entonces, y es todo lo que esta página promete."
+ },
+ {
+  "orden": 5,
+  "demanda": {
+   "consulta": "chat dominicano",
+   "impresiones": 10444,
+   "clics": 282,
+   "posicion": 4.2
+  },
+  "slug": "dominicano",
+  "name": "Dominicano",
+  "kind": "tematica",
+  "icon": "🇩🇴",
+  "users": 213,
+  "votes": 287,
+  "activity": "Alta",
+  "parentSlug": "republica-dominicana",
+  "parentName": "República Dominicana",
+  "channels": [
+   "republica_dominicana",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "republica-dominicana",
+   "santo-domingo",
+   "santiago-de-los-caballeros",
+   "latinos",
+   "latinchat-republica-dominicana"
+  ],
+  "intro": "Dominicanos de la isla y de fuera en la misma sala: Santo Domingo, Santiago, Nueva York y Madrid escribiendo a la vez y a distinta hora.",
+  "aboutTitle": "De la isla a Alto Manhattan, misma sala",
+  "about": "La conversación dominicana no cabe entera en la isla y esta sala lo nota enseguida. Escribe gente del Distrito Nacional, de Santiago y del Cibao, y escribe también la que se fue: Nueva York —donde Washington Heights lleva medio siglo hablando dominicano—, Madrid, San Juan, Miami. Como cada uno está en una franja horaria distinta, la sala nunca se queda del todo quieta. El habla se reconoce en dos mensajes: el «qué lo qué» de saludo, el «vaina» que sirve para cualquier cosa, la costumbre de comerse las eses al final de palabra hasta cuando se escribe. Los temas dan vueltas alrededor de lo de siempre y no hace falta forzarlos: el dembow y quién manda este mes, la bachata de toda la vida, el colmado como institución social, el béisbol invernal con las Águilas y el Licey partiendo familias. También sale lo otro, lo de la luz que se va, lo del pasaje y lo de mandar dinero a casa, que se habla con menos épica y más detalle. Se entra escribiendo un apodo, sin cuenta ni datos, y se saluda a la sala antes de meterse en cualquier conversación."
+ },
+ {
+  "orden": 6,
+  "demanda": {
+   "consulta": "chat anonimo",
+   "impresiones": 4170,
+   "clics": 222,
+   "posicion": 6.5
+  },
+  "slug": "anonimo",
+  "name": "Anónimo",
+  "kind": "tematica",
+  "icon": "🕶️",
+  "users": 229,
+  "votes": 296,
+  "activity": "Alta",
+  "parentSlug": "amistad",
+  "parentName": "Amistad",
+  "channels": [
+   "chat",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "sin-registro",
+   "desconocidos",
+   "chatear",
+   "online",
+   "omegle"
+  ],
+  "intro": "Anónimo aquí quiere decir sin cuenta, sin correo y sin foto: entras con un apodo inventado y nadie sabe de ti más que lo que tú cuentes.",
+  "aboutTitle": "Un apodo inventado y nada más detrás",
+  "about": "El anonimato de un chat de texto es concreto y conviene entenderlo bien, porque protege mucho en una dirección y nada en la contraria. Hacia los demás usuarios protege del todo: nadie ve tu nombre, tu correo, tu edad ni tu cara, porque no hay ficha que rellenar, y el apodo con el que entras se puede cambiar mañana sin dejar rastro de que eras el mismo. Eso es lo que la gente busca cuando escribe «chat anónimo»: hablar de algo sin que quede pegado a su nombre, contar lo que no se cuenta en el grupo del trabajo, preguntar lo que da vergüenza preguntar. Hacia la sala, en cambio, el anonimato tiene un límite sano: hay moderación, y a quien acosa, spamea o entra a incordiar se le echa aunque no se sepa quién es. Lo que de verdad rompe el anonimato es uno mismo. Casi siempre se cae por lo mismo: el nick de siempre reutilizado en todas partes, la foto que se manda por privado en un impulso, el detalle que identifica sin querer. Lo demás lo hace la costumbre: no dar el teléfono el primer día y desconfiar de quien lo pide."
+ },
+ {
+  "orden": 7,
+  "demanda": {
+   "consulta": "terra chat usa",
+   "impresiones": 3565,
+   "clics": 1109,
+   "posicion": 8.6
+  },
+  "slug": "terra-usa",
+  "name": "Terra USA",
+  "kind": "tematica",
+  "icon": "🗽",
+  "users": 187,
+  "votes": 259,
+  "activity": "Media",
+  "parentSlug": "terra",
+  "parentName": "Terra",
+  "channels": [
+   "usa",
+   "terra",
+   "latinos",
+   "chatzona"
+  ],
+  "related": [
+   "terra",
+   "latinosusa",
+   "latinos",
+   "houston",
+   "miami"
+  ],
+  "intro": "«Terra chat usa» se sigue buscando desde Miami, Houston y Nueva York. Es el hueco que dejó aquel chat entre los latinos de Estados Unidos.",
+  "aboutTitle": "El hueco que dejó Terra entre los latinos de EE. UU.",
+  "about": "Esta sala no pertenece a Terra ni tiene relación con la empresa, y decirlo primero es lo mínimo. Dicho eso, la búsqueda existe y es tozuda: miles de personas siguen escribiendo el nombre desde Estados Unidos años después de que aquello cerrara. Tiene sentido. Para mucha gente que emigró a finales de los noventa y en los dos mil, aquel chat fue la manera barata de seguir hablando en español a diario cuando alrededor todo era inglés, y ese hábito no se pierde. Lo que hay hoy en su lugar es una sala de hispanohablantes en Estados Unidos: gente de Miami, de Houston, de Nueva York, de Los Ángeles y de ciudades más pequeñas donde ser el único que habla español es lo normal. La franja horaria hace su trabajo: cuando en Madrid es medianoche aquí es media tarde, y la sala tiene movimiento a horas en que la parte europea de la red duerme. Se cruzan acentos de todo el continente, se mezcla el spanglish sin que nadie corrija, y salen los temas de la vida de allí, del papeleo a la cuenta del médico. Se entra con un apodo y sin registro."
+ },
+ {
+  "orden": 8,
+  "demanda": {
+   "consulta": "chat dominacion",
+   "impresiones": 1254,
+   "clics": 207,
+   "posicion": 8.7
+  },
+  "slug": "dominacion",
+  "name": "Dominación",
+  "kind": "tematica",
+  "icon": "⛓️",
+  "users": 164,
+  "votes": 231,
+  "activity": "Media",
+  "parentSlug": "bdsm",
+  "parentName": "BDSM",
+  "channels": [
+   "bdsm",
+   "mazmorra",
+   "sumisas",
+   "chatzona"
+  ],
+  "related": [
+   "bdsm",
+   "mazmorra",
+   "adultos",
+   "sexo",
+   "hot"
+  ],
+  "intro": "Dominación y sumisión con las reglas por delante: qué se acuerda antes, qué es un límite duro y para qué sirve la palabra de seguridad.",
+  "aboutTitle": "Lo que se acuerda antes de empezar",
+  "about": "La dominación es la mitad de una pareja de roles, y sin la otra mitad no significa nada: alguien dirige porque alguien ha decidido ceder, y esa decisión se toma antes, hablando, con la cabeza fría. Esa conversación previa es el noventa por ciento de lo que aquí se comenta. Se acuerda qué prácticas entran y cuáles no, se marcan los límites duros —lo que no se toca ni en mitad de una escena— y los blandos, se fija una palabra de seguridad que corta todo en el momento en que se pronuncia, y se decide si el trato dura una escena o se extiende a una relación con normas. Después viene lo que casi nadie cuenta y sostiene lo demás: el rato de calma al terminar, bajar del sitio donde uno estaba, comprobar cómo está el otro. Quien confunde esto con hacer daño a alguien sin su permiso se equivoca de sitio y suele durar poco en la sala. Escriben veteranos que llevan años en la escena y gente que llega con curiosidad y más dudas que experiencia; a los segundos se les responde sin condescendencia, que es como se aprende. Mayores de edad."
+ },
+ {
+  "orden": 9,
+  "demanda": {
+   "consulta": "chat santa cruz",
+   "impresiones": 1455,
+   "clics": 37,
+   "posicion": 6.4
+  },
+  "slug": "santa-cruz",
+  "name": "Santa Cruz",
+  "kind": "tematica",
+  "icon": "✝️",
+  "users": 158,
+  "votes": 219,
+  "activity": "Media",
+  "parentSlug": "latinoamerica",
+  "parentName": "Latinoamérica",
+  "channels": [
+   "bolivia",
+   "tenerife",
+   "canarias",
+   "chatzona"
+  ],
+  "related": [
+   "santa-cruz-de-la-sierra",
+   "santa-cruz-de-tenerife",
+   "santa-cruz-de-la-palma",
+   "bolivia",
+   "canarias"
+  ],
+  "intro": "Hay varias Santa Cruz y no se parecen en nada: la de la Sierra en Bolivia, la de Tenerife, la de La Palma. Aquí se aclara cuál buscas.",
+  "aboutTitle": "De la Sierra a Tenerife, cuál es la tuya",
+  "about": "El nombre se repitió por una costumbre fundacional: plantar una cruz al tomar posesión del sitio y bautizarlo con ella. Por eso hay Santa Cruz en media docena de países y ninguna es la Santa Cruz. La de la Sierra es hoy la ciudad más grande de Bolivia y su motor económico, una ciudad de llano y calor organizada en anillos concéntricos, con un carácter camba que los propios bolivianos distinguen del de las tierras altas en cuanto alguien abre la boca. La de Tenerife es capital de provincia y comparte con Las Palmas la capitalidad de Canarias, un arreglo que allí se explica con paciencia y fuera se entiende regular; tiene puerto grande, carnaval de los que se preparan todo el año y una relación difícil con el viento. La de La Palma es pequeña, colonial y con balcones de madera, y su nombre completo lleva además el de la isla para no confundirse con la anterior. Cada una tiene su sala, con su gente y su canal, y los enlaces de abajo llevan a la que corresponda."
+ },
+ {
+  "orden": 10,
+  "demanda": {
+   "consulta": "chat bdsm españa",
+   "impresiones": 383,
+   "clics": 64,
+   "posicion": 3.0
+  },
+  "slug": "bdsm-espana",
+  "name": "BDSM España",
+  "kind": "tematica",
+  "icon": "🖤",
+  "users": 172,
+  "votes": 238,
+  "activity": "Media",
+  "parentSlug": "bdsm",
+  "parentName": "BDSM",
+  "channels": [
+   "bdsm",
+   "españa",
+   "mazmorra",
+   "chatzona"
+  ],
+  "related": [
+   "bdsm",
+   "bdsm-madrid",
+   "dominacion",
+   "mazmorra",
+   "adultos"
+  ],
+  "intro": "La escena BDSM española tiene sus propios códigos, sus quedadas y su vocabulario. Aquí se habla de eso entre gente que la conoce de dentro.",
+  "aboutTitle": "Cómo funciona la escena española por dentro",
+  "about": "En España la escena está más viva de lo que parece desde fuera, pero es discreta por costumbre y se mueve casi toda por el boca a oreja. Madrid y Barcelona concentran los locales y las fiestas privadas; Valencia, Bilbao, Sevilla y Zaragoza tienen grupos más pequeños que se juntan con menos frecuencia y más confianza. La puerta de entrada habitual no es un club sino un munch: una quedada informal en un bar cualquiera, a plena luz, vestidos de calle y sin que pase nada, pensada justo para conocerse antes de plantearse otra cosa. Quien pregunte aquí por dónde empezar va a recibir esa respuesta antes que ninguna otra. También se habla de lo práctico y poco glamuroso: cómo se dice que no sin dar explicaciones, qué se pregunta antes de quedar con un desconocido, cómo detectar al que confunde el consentimiento con un trámite. El vocabulario es el de la escena en español, con sus mezclas del inglés, y a quien llega sin él se le traduce sin hacerle sentir de fuera. Sala para mayores de edad y con moderación."
+ },
+ {
+  "orden": 11,
+  "demanda": {
+   "consulta": "chat lesbianas españa",
+   "impresiones": 324,
+   "clics": 41,
+   "posicion": 6.1
+  },
+  "slug": "lesbianas-espana",
+  "name": "Lesbianas España",
+  "kind": "tematica",
+  "icon": "🇪🇸",
+  "users": 198,
+  "votes": 271,
+  "activity": "Alta",
+  "parentSlug": "lesbianas",
+  "parentName": "Lesbianas",
+  "channels": [
+   "lesbianas",
+   "españa",
+   "el_rincon_les"
+  ],
+  "related": [
+   "lesbianas",
+   "lesbianas-madrid",
+   "lesbianas-barcelona",
+   "lgtbi",
+   "espana"
+  ],
+  "intro": "Mujeres que buscan mujeres en toda España: Madrid y Barcelona concentran el ambiente, y del resto del mapa se habla aquí con más detalle.",
+  "aboutTitle": "El mapa lésbico español no es solo Madrid",
+  "about": "España lleva desde 2005 con el matrimonio igualitario y eso cambió lo legal, pero el mapa social sigue siendo desigual y esta sala lo refleja. En Madrid y en Barcelona hay ambiente propio, locales que aguantan y agenda casi todas las semanas. En Valencia, Bilbao, Sevilla o Zaragoza hay grupos y fiestas de las que hay que enterarse, porque no están a la vista. Y en una ciudad de provincias o en un pueblo, lo normal sigue siendo no conocer a nadie más, que es exactamente lo que trae a mucha gente a un chat. De eso se habla aquí sin dramatizarlo: de salir del armario en un sitio donde todo el mundo se conoce, de la doble vida que algunas mantienen con la familia, de lo raro que es no tener referentes cerca. Y se habla también de lo demás, que es la mayor parte del tiempo: series, trabajo, viajes, quedadas, ligoteo y la conversación tonta de un martes. Es una sala de mujeres, con moderación y sin curiosos, que es la condición para que la conversación sea la que es."
+ },
+ {
+  "orden": 12,
+  "demanda": {
+   "consulta": "chat lesbianas mexico",
+   "impresiones": 235,
+   "clics": 19,
+   "posicion": 2.8
+  },
+  "slug": "lesbianas-mexico",
+  "name": "Lesbianas México",
+  "kind": "tematica",
+  "icon": "🇲🇽",
+  "users": 189,
+  "votes": 256,
+  "activity": "Alta",
+  "parentSlug": "lesbianas",
+  "parentName": "Lesbianas",
+  "channels": [
+   "lesbianas",
+   "mexico",
+   "el_rincon_les"
+  ],
+  "related": [
+   "lesbianas",
+   "lesbianas-espana",
+   "mexico",
+   "cdmx",
+   "lgtbi"
+  ],
+  "intro": "Chicas de la CDMX, Guadalajara, Monterrey y de estados donde el ambiente no existe: la sala lésbica mexicana, con su horario y su acento.",
+  "aboutTitle": "De la Zona Rosa a los estados sin ambiente",
+  "about": "México aprobó el matrimonio igualitario estado por estado y tardó años en completar el mapa, así que la experiencia depende muchísimo de dónde vivas, y eso se nota en cuanto la conversación arranca. En la Ciudad de México hay barrio, agenda y una marcha del orgullo enorme en junio; Guadalajara tiene escena propia desde hace tiempo y Monterrey se mueve más de puertas adentro. En muchos estados no hay nada parecido a un ambiente y lo que hay es un grupo de WhatsApp y poco más. La sala junta las dos realidades, y las chicas de ciudad grande acaban explicándole a alguien de un pueblo cómo se organizaron ellas. Se habla de la familia, que en México pesa y a la vez sostiene, del trabajo, de las series que todo el mundo está viendo y de a quién se le hace caso en redes este mes. También de ligue, sin prisa. La sala es de mujeres y está moderada; el horario del centro de México marca las horas fuertes, y por la noche se cruza con las chicas que escriben desde España."
+ },
+ {
+  "orden": 13,
+  "demanda": {
+   "consulta": "chat lesbianas barcelona",
+   "impresiones": 212,
+   "clics": 38,
+   "posicion": 4.3
+  },
+  "slug": "lesbianas-barcelona",
+  "name": "Lesbianas Barcelona",
+  "kind": "tematica",
+  "icon": "🏳️‍🌈",
+  "users": 181,
+  "votes": 247,
+  "activity": "Media",
+  "parentSlug": "lesbianas",
+  "parentName": "Lesbianas",
+  "channels": [
+   "lesbianas",
+   "barcelona",
+   "el_rincon_les"
+  ],
+  "related": [
+   "lesbianas",
+   "lesbianas-espana",
+   "lesbianas-madrid",
+   "barcelona",
+   "cataluna"
+  ],
+  "intro": "Barcelona tiene ambiente lésbico repartido entre el Eixample y Gràcia, y una parte que va por asociaciones. De eso se habla en esta sala.",
+  "aboutTitle": "Entre el Eixample y Gràcia, y lo que va por libre",
+  "about": "El ambiente LGTBI de Barcelona se concentra en la parte del Eixample que todo el mundo llama Gaixample, pero lo lésbico nunca ha estado del todo ahí: se ha movido siempre entre unos pocos locales, las fiestas que cambian de sitio cada temporada y una red de asociaciones y espacios feministas con bastante peso en la ciudad. Gràcia aporta la otra mitad, más de barrio y menos de noche. Quien llega de fuera —y a Barcelona llega muchísima gente de fuera— suele tardar en encontrar el hilo, y eso es justo lo que se pregunta aquí: dónde hay algo esta semana, qué queda de las fiestas de siempre, si el Pride de julio compensa o es mejor lo pequeño. Se escribe en catalán y en castellano según le salga a cada una, sin que nadie lo señale. Y la mitad de la conversación no va del ambiente en absoluto: va del alquiler imposible, del trabajo, de la última serie y de quedar para tomar algo un jueves. Sala de mujeres, moderada, con gente de la ciudad y del área metropolitana."
+ },
+ {
+  "orden": 14,
+  "demanda": {
+   "consulta": "chat amistad madrid",
+   "impresiones": 208,
+   "clics": 0,
+   "posicion": 8.3
+  },
+  "slug": "madrid-amistad",
+  "name": "Amistad Madrid",
+  "kind": "tematica",
+  "icon": "🐻",
+  "users": 206,
+  "votes": 279,
+  "activity": "Alta",
+  "parentSlug": "amistad",
+  "parentName": "Amistad",
+  "channels": [
+   "madrid",
+   "amistad",
+   "amigos",
+   "chatzona"
+  ],
+  "related": [
+   "madrid",
+   "amistad",
+   "madrid-conocer-gente",
+   "amigos",
+   "madrid-comunidad"
+  ],
+  "intro": "Hacer amigos en Madrid teniendo treinta o cuarenta años cuesta más de lo que parece. Esta sala es para eso y no para ligar disimulando.",
+  "aboutTitle": "Los grupos de Madrid vienen ya cerrados",
+  "about": "Madrid está llena de gente que llegó de otro sitio, y aun así hacer amigos aquí pasado cierto punto tiene fama de difícil. El motivo es prosaico: los grupos vienen hechos de la universidad, del pueblo o del primer trabajo, quedan entre semana a horas imposibles y se ven cada vez menos según se van repartiendo por la corona metropolitana. Al que llega nuevo, o al que se queda sin grupo tras una ruptura o una mudanza, le toca empezar de cero con treinta y muchos, que es cuando menos práctica se tiene. Esta sala existe para eso, y la diferencia con las de ligar es deliberada: aquí se viene a hacer amigos, y quien lo usa de tapadera para otra cosa se nota al segundo mensaje. Se hablan planes concretos —una exposición, una caña en Malasaña, subir al Cerro del Tío Pío a ver el atardecer, escaparse a la sierra un sábado—, se cruzan quejas de Cercanías y de precios, y se organizan quedadas cuando sale gente suficiente. Escriben tanto madrileños de siempre como recién llegados de toda España y de fuera."
+ },
+ {
+  "orden": 15,
+  "demanda": {
+   "consulta": "chat boliviano",
+   "impresiones": 170,
+   "clics": 0,
+   "posicion": 12.4
+  },
+  "slug": "boliviano",
+  "name": "Boliviano",
+  "kind": "tematica",
+  "icon": "🇧🇴",
+  "users": 167,
+  "votes": 229,
+  "activity": "Media",
+  "parentSlug": "bolivia",
+  "parentName": "Bolivia",
+  "channels": [
+   "bolivia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "bolivia",
+   "la-paz",
+   "santa-cruz-de-la-sierra",
+   "cochabamba",
+   "latinos"
+  ],
+  "intro": "Collas y cambas en la misma sala, que en Bolivia ya es media conversación. Gente de La Paz, El Alto, Santa Cruz, Cochabamba y de fuera.",
+  "aboutTitle": "Collas y cambas escribiendo en la misma sala",
+  "about": "Bolivia se cuenta a sí misma partida en dos mitades que se pican con gusto: el occidente andino de La Paz, El Alto, Oruro y Potosí, y el oriente llano de Santa Cruz y el Beni. Colla y camba son los apodos, se usan con más humor que otra cosa y no hay conversación boliviana larga que no acabe pasando por ahí. En medio queda Cochabamba, que presume de estar en el valle y de comer mejor que nadie, y a la que las dos mitades acusan de arrimarse a la que convenga. En la sala se nota el acento en cómo se escribe, con el «pues» al final de la frase y los diminutivos que allá se usan para todo. Los temas van de lo cotidiano —el tráfico de La Paz, el teleférico que cambió la ciudad, el calor cruceño— a lo que se habla cuando alguien escribe desde España, Argentina o Brasil, que son destinos de mucha gente que se fue. Se entra con un apodo, sin registro, y las horas fuertes son las de la noche boliviana."
+ },
+ {
+  "orden": 16,
+  "demanda": {
+   "consulta": "chat lesbianas madrid",
+   "impresiones": 157,
+   "clics": 38,
+   "posicion": 4.5
+  },
+  "slug": "lesbianas-madrid",
+  "name": "Lesbianas Madrid",
+  "kind": "tematica",
+  "icon": "💜",
+  "users": 184,
+  "votes": 251,
+  "activity": "Media",
+  "parentSlug": "lesbianas",
+  "parentName": "Lesbianas",
+  "channels": [
+   "lesbianas",
+   "madrid",
+   "el_rincon_les"
+  ],
+  "related": [
+   "lesbianas",
+   "lesbianas-espana",
+   "lesbianas-barcelona",
+   "madrid",
+   "lgtbi"
+  ],
+  "intro": "Chueca es sobre todo ambiente de chicos y en Madrid eso se nota. Lo lésbico va por otro lado, y esta sala sirve para encontrarlo.",
+  "aboutTitle": "Lo lésbico de Madrid no está donde lo buscas",
+  "about": "Cualquiera que llegue a Madrid buscando ambiente acaba en Chueca, y quien busque ambiente lésbico se va a encontrar con que el barrio es sobre todo de chicos. No es una queja nueva: los locales de mujeres siempre han sido pocos, han durado menos y han estado repartidos, y buena parte de la vida lésbica de la ciudad pasa por fiestas que se mueven de sitio, por asociaciones y por grupos que se organizan por su cuenta. Por eso la pregunta más repetida en esta sala es dónde hay algo esta semana, y por eso se responde entre varias. La otra mitad de la conversación es la de siempre, la que no tiene nada de temática: el trabajo, el piso compartido, la familia que lo lleva mejor o peor, la serie del momento, quedar para un vermú el domingo. Escribe gente del centro, de los barrios y de la corona sur y este, que en Madrid es media región. El Orgullo de julio ocupa la sala entera unos días y luego todo vuelve a su sitio. Sala de mujeres y moderada."
+ },
+ {
+  "orden": 17,
+  "demanda": {
+   "consulta": "chat ecuatoriano",
+   "impresiones": 102,
+   "clics": 0,
+   "posicion": 7.2
+  },
+  "slug": "ecuatoriano",
+  "name": "Ecuatoriano",
+  "kind": "tematica",
+  "icon": "🇪🇨",
+  "users": 173,
+  "votes": 236,
+  "activity": "Media",
+  "parentSlug": "ecuador",
+  "parentName": "Ecuador",
+  "channels": [
+   "ecuador",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "ecuador",
+   "quito",
+   "guayaquil",
+   "cuenca",
+   "latinos"
+  ],
+  "intro": "Costeños y serranos se pican en cuanto entran, y esa es media sala. Gente de Quito, Guayaquil, Cuenca y de la emigración en España.",
+  "aboutTitle": "Quito y Guayaquil, la vieja discusión",
+  "about": "En Ecuador la primera pregunta no es de dónde eres sino si eres de la costa o de la sierra, y la respuesta ordena el resto de la conversación. Guayaquil habla rápido, alarga las vocales y presume de puerto y de comida; Quito va más pausado, usa el «dale» y el diminutivo para todo y devuelve la broma con calma. Cuenca queda aparte, orgullosa de lo suyo, y el Oriente y Galápagos aparecen menos porque hay menos gente escribiendo desde allí. Encima de eso se cruza el quichua que se cuela en el castellano de la sierra con palabras que ya nadie percibe como prestadas. La otra mitad de la sala escribe desde fuera: Ecuador fue uno de los países que más gente mandó a España a principios de los dos mil, y en Madrid, Murcia o Barcelona hay ecuatorianos de segunda generación que entran a hablar el idioma de casa. Eso reparte las horas y hace que la sala tenga movimiento incluso cuando en el país es de madrugada. Se entra con un apodo y sin registro."
+ },
+ {
+  "orden": 18,
+  "demanda": {
+   "consulta": "chat conocer gente madrid",
+   "impresiones": 88,
+   "clics": 1,
+   "posicion": 7.6
+  },
+  "slug": "madrid-conocer-gente",
+  "name": "Conocer Gente Madrid",
+  "kind": "tematica",
+  "icon": "🗺️",
+  "users": 194,
+  "votes": 264,
+  "activity": "Alta",
+  "parentSlug": "conocergente",
+  "parentName": "Conocer Gente",
+  "channels": [
+   "madrid",
+   "conocer-gente",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "madrid",
+   "conocergente",
+   "madrid-amistad",
+   "madrid-comunidad",
+   "conocerpersonas"
+  ],
+  "intro": "En Madrid la gente que conoces depende del barrio y de la hora a la que salgas. Esta sala junta las dos mitades de la ciudad y su corona.",
+  "aboutTitle": "Madrid cambia según el barrio y la hora",
+  "about": "Madrid funciona por zonas y por horarios, y quien lleve poco tiempo lo descubre tarde. No es lo mismo el norte que el sur, ni el centro que la corona, ni salir un jueves que un sábado; una ciudad donde media población viene de fuera reparte a la gente por donde encontró piso, no por donde le gustaría vivir, y eso condiciona a quién acaba conociendo. Esta sala sirve para saltarse esa geografía: escribe gente de Vallecas y de Chamberí, de Alcalá, de Getafe, de Móstoles y de Alcorcón, y también quien acaba de aterrizar y todavía no sabe qué línea de Cercanías le conviene. Se pregunta lo práctico —qué barrio para vivir, dónde se sale sin arruinarse, qué hacer un domingo que no sea el Rastro— y se conoce gente por el camino, que es de lo que va la sala. A diferencia de la de amistad, aquí no se busca necesariamente un grupo fijo: mucha conversación empieza y acaba en el mismo rato y no pasa nada. Se entra con un apodo, sin cuenta, y sin decir dónde vives."
+ },
+ {
+  "orden": 19,
+  "demanda": {
+   "consulta": "chat bdsm madrid",
+   "impresiones": 77,
+   "clics": 4,
+   "posicion": 3.4
+  },
+  "slug": "bdsm-madrid",
+  "name": "BDSM Madrid",
+  "kind": "tematica",
+  "icon": "🔗",
+  "users": 161,
+  "votes": 224,
+  "activity": "Media",
+  "parentSlug": "bdsm",
+  "parentName": "BDSM",
+  "channels": [
+   "bdsm",
+   "madrid",
+   "sexomadrid",
+   "chatzona"
+  ],
+  "related": [
+   "bdsm",
+   "bdsm-espana",
+   "dominacion",
+   "mazmorra",
+   "madrid"
+  ],
+  "intro": "Madrid concentra la mayor parte de la escena BDSM española: locales, munches y fiestas privadas. Aquí se comparte quién organiza qué y cuándo.",
+  "aboutTitle": "Dónde está de verdad la escena madrileña",
+  "about": "De todas las ciudades españolas, Madrid es donde más cosas pasan y también donde más fácil es no enterarse de ninguna. La escena se reparte entre unos pocos locales estables, fiestas privadas que se organizan por invitación y quedadas informales en bares corrientes, los munches, que son la puerta de entrada razonable para quien no conoce a nadie: se va vestido de calle, se toma algo, se charla y ahí acaba la cosa. Quien pregunte en esta sala por dónde empezar va a recibir esa recomendación antes que cualquier dirección. Lo demás que se habla es lo práctico de una escena en una ciudad grande: cómo se contrasta a alguien antes de quedar, por qué la primera vez se queda en sitio público, qué grupos llevan años funcionando y cuáles duran dos meses. También se comenta lo que no se comenta fuera, que es lo difícil de compaginar todo esto con un trabajo, una familia y un horario normal. Sala de mayores de edad, moderada, con gente de Madrid capital y de la comunidad."
+ },
+ {
+  "orden": 20,
+  "demanda": {
+   "consulta": "chat gay guatemala",
+   "impresiones": 47,
+   "clics": 7,
+   "posicion": 13.2
+  },
+  "slug": "gay-guatemala",
+  "name": "Gay Guatemala",
+  "kind": "tematica",
+  "icon": "🇬🇹",
+  "users": 152,
+  "votes": 212,
+  "activity": "Media",
+  "parentSlug": "gaylatino",
+  "parentName": "Gay Latino",
+  "channels": [
+   "gay",
+   "guatemala",
+   "chatzona"
+  ],
+  "related": [
+   "gaylatino",
+   "guatemala",
+   "ciudad-de-guatemala",
+   "gay",
+   "guatemalteco"
+  ],
+  "intro": "El ambiente guatemalteco es pequeño y discreto, entre la zona 1 y la zona 4 de la capital. Sala para hablarlo con quien lo vive de cerca.",
+  "aboutTitle": "Un ambiente pequeño y sin ganas de ruido",
+  "about": "Guatemala no tiene matrimonio igualitario y la vida gay del país se mueve con una discreción que a quien escribe desde España le cuesta entender hasta que se lo explican. La escena existe, pero es reducida y se concentra en la capital, entre la zona 1 y la zona 4, con locales que abren y cierran y una agenda que circula de boca en boca más que en carteles. Antigua tiene su propio ambiente, más pequeño y muy marcado por el turismo. Fuera de ahí, en cabeceras departamentales y pueblos, lo normal es no conocer a nadie que esté fuera del armario, y por eso una sala de texto hace un trabajo que en otros países ya no hace: es el único sitio donde se puede hablar sin que te vea nadie conocido. Aquí se habla de eso —de la familia, de la iglesia, del trabajo, de a quién se le cuenta y a quién no— y también de lo corriente, que ocupa más rato. Escribe gente de la capital, de Quetzaltenango, de Antigua y de la diáspora en Estados Unidos y México."
+ },
+ {
+  "orden": 21,
+  "demanda": {
+   "consulta": "conocer gente barcelona gratis",
+   "impresiones": 34,
+   "clics": 7,
+   "posicion": 8.2
+  },
+  "slug": "gente-barcelona",
+  "name": "Gente Barcelona",
+  "kind": "tematica",
+  "icon": "🏙️",
+  "users": 179,
+  "votes": 243,
+  "activity": "Media",
+  "parentSlug": "conocergente",
+  "parentName": "Conocer Gente",
+  "channels": [
+   "barcelona",
+   "conocer-gente",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "barcelona",
+   "conocergente",
+   "cataluna",
+   "amistad",
+   "conocerpersonas"
+  ],
+  "intro": "Barcelona es una ciudad de paso y eso se nota al intentar conocer gente: mucha llega, mucha se va. Esta sala junta a los que están ahora.",
+  "aboutTitle": "Una ciudad donde casi todos acaban de llegar",
+  "about": "Barcelona tiene una particularidad que condiciona todo lo demás: una parte enorme de quien vive allí no nació allí y una parte parecida se irá en dos o tres años. Erasmus, gente que viene por trabajo, nómadas de portátil, estudiantes de máster y catalanes del resto del país que suben a la capital. Eso hace que sea fácil conocer gente y difícil que la amistad se asiente, y es la queja más repetida de quien lleva un par de años. La sala junta a los que están ahora mismo: los del barrio de toda la vida y los que llegaron en septiembre. Las preguntas que más se repiten son prácticas: en qué barrio buscar habitación, si merece la pena cruzar a Hospitalet o a Badalona por el alquiler, y a qué se apunta uno para no pasar el invierno solo. Las fiestas de barrio dan mucho juego, sobre todo las de Gràcia en agosto, que convierten media ciudad en calle. Se escribe en catalán y en castellano según a quién le toque, sin traducciones ni discusiones sobre el idioma. Se entra con un apodo y sin registro."
+ },
+ {
+  "orden": 22,
+  "demanda": {
+   "consulta": "chat guatemalteco",
+   "impresiones": 0,
+   "clics": 0,
+   "posicion": null
+  },
+  "slug": "guatemalteco",
+  "name": "Guatemalteco",
+  "kind": "tematica",
+  "icon": "🇬🇹",
+  "users": 148,
+  "votes": 206,
+  "activity": "Media",
+  "parentSlug": "guatemala",
+  "parentName": "Guatemala",
+  "channels": [
+   "guatemala",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "guatemala",
+   "ciudad-de-guatemala",
+   "antigua-guatemala",
+   "quetzaltenango",
+   "latinos"
+  ],
+  "intro": "Chapines de la capital, de Xela y de la diáspora. Se habla de vos, se dice «cabal» y se discute quién hace mejor el fiambre de noviembre.",
+  "aboutTitle": "Chapín es como se llaman ellos mismos",
+  "about": "Chapín es el gentilicio que los guatemaltecos usan entre ellos, y funciona como contraseña: quien lo escribe en la sala se identifica sin decir de dónde es. El país tiene una mezcla lingüística poco común, con más de veinte idiomas mayas vivos junto al castellano, y eso deja huella incluso en cómo escribe alguien que solo habla español. El voseo es general, el «cabal» sirve para decir que sí y para cerrar cualquier frase, y el «pues» al final se cuela solo. La conversación reparte entre lo de dentro y lo de fuera: la capital con sus zonas numeradas, Xela como segunda ciudad con su propio orgullo, Antigua con los turistas, la costa y las cabeceras departamentales. Y la otra mitad son los que se fueron, sobre todo a Estados Unidos, que entran a horas raras y mantienen la sala despierta cuando en Guatemala todo el mundo duerme. Salen los temas de siempre, del fútbol a la política, y en noviembre no se libra nadie de discutir el fiambre y los barriletes de Sumpango. Se entra con un apodo, sin registro."
+ }
+]

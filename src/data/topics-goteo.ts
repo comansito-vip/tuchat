@@ -1,0 +1,92 @@
+import type { Place } from "./types";
+
+// Salas de TÉRMINO publicadas por el cron scripts/cron/salas-termino.mjs, a
+// razón de tres al día. NO EDITAR A MANO: este fichero se reescribe entero a
+// partir de data/terminos/publicadas.json, que es la fuente de verdad y guarda
+// además la demanda medida que justificó cada sala.
+//
+// Cada ficha está escrita a mano (aquí no hay fuente por entidad que un LLM
+// pueda resumir) y pasa por los mismos controles que el goteo de localidades:
+// muletillas, apertura de folleto, longitudes, canales reales y fraseo calcado
+// contra todo el catálogo.
+export const TOPICS_GOTEO: Place[] = [
+  {
+    "slug": "caliente",
+    "name": "Caliente",
+    "kind": "tematica",
+    "icon": "🔥",
+    "users": 268,
+    "votes": 341,
+    "activity": "Alta",
+    "parentName": "Adultos",
+    "parentSlug": "adultos",
+    "channels": [
+      "sexo",
+      "canalsexo",
+      "chatzona"
+    ],
+    "related": [
+      "hot",
+      "sexo",
+      "adultos",
+      "ligar",
+      "encuentros"
+    ],
+    "intro": "Dos personas escriben «chat caliente» y buscan cosas distintas: coqueteo, morbo o compañía a las tres de la mañana. Caben las tres.",
+    "aboutTitle": "La palabra que tapa tres intenciones distintas",
+    "about": "Caliente es, en el buscador, una palabra paraguas. Debajo entra quien quiere coqueteo sin llegar a nada, quien busca conversación explícita y quien simplemente no tiene sueño y prefiere hablar con alguien despierto antes que mirar el techo. La sala no resuelve esa ambigüedad por ti: lo que hace es dejarte en el canal #sexo, el más poblado de la parte adulta de la red, y darte un rato para leer antes de escribir. Funciona mejor así. Los mensajes van rápidos, nadie pide fotos de perfil porque aquí no hay perfiles, y el nick con el que entras es todo lo que se sabe de ti hasta que tú cuentes más. Hay dos cosas que conviene saber antes de entrar. La primera es que es sala de mayores de edad y que se echa a quien no lo respete. La segunda es que el ritmo baja mucho por la mañana y sube a partir de medianoche: si entras a las once y ves poco movimiento, no es que esté vacía, es que la madrugada es la hora punta."
+  },
+  {
+    "slug": "online",
+    "name": "Online",
+    "kind": "tematica",
+    "icon": "🌐",
+    "users": 254,
+    "votes": 318,
+    "activity": "Alta",
+    "parentName": "Amistad",
+    "parentSlug": "amistad",
+    "channels": [
+      "chat",
+      "chatea",
+      "amistad",
+      "chatzona"
+    ],
+    "related": [
+      "chatear",
+      "sin-registro",
+      "amistad",
+      "webchat"
+    ],
+    "intro": "Chat online significa dos cosas a la vez: que funciona en el navegador y que al otro lado hay alguien conectado ahora. Las dos se cumplen.",
+    "aboutTitle": "Se abre en el navegador y hay gente dentro",
+    "about": "Online se ha quedado como sinónimo de «que funciona sin más», y aplicado a un chat quiere decir dos cosas distintas. Una es técnica: la sala vive dentro de la página, no en un programa que haya que bajarse, así que el mismo enlace abre igual en el móvil del autobús que en el ordenador de casa. La otra es la que de verdad trae aquí a la gente cuando escribe la palabra: quiere saber si hay alguien en línea en este momento. La respuesta honesta es que depende de la hora. Las salas de aquí son canales de IRC con años encima, no salas recién abiertas esperando visitas, y eso cambia el resultado: a media tarde y de madrugada hay conversación en marcha, y a las siete de la mañana de un martes hay cuatro personas y silencio. Mirar quién está conectado antes de ponerse a escribir es parte del oficio. La lista de nicks está siempre a la vista, y saludar a la sala entera funciona bastante mejor que abrirle un privado a alguien que todavía no ha dicho nada."
+  },
+  {
+    "slug": "santiago",
+    "name": "Santiago",
+    "kind": "tematica",
+    "icon": "🧭",
+    "users": 176,
+    "votes": 244,
+    "activity": "Media",
+    "parentName": "Latinoamérica",
+    "parentSlug": "latinoamerica",
+    "channels": [
+      "chile",
+      "galicia",
+      "republica_dominicana",
+      "chatzona"
+    ],
+    "related": [
+      "santiago-de-chile",
+      "santiago-de-compostela",
+      "santiago-de-los-caballeros",
+      "santiago-de-cuba",
+      "santiago-del-estero"
+    ],
+    "intro": "Escribir «chat Santiago» no dice de cuál: hay uno en Chile, otro en Galicia, otro en la República Dominicana y varios más. Esta página separa.",
+    "aboutTitle": "Seis ciudades, un nombre y un apóstol",
+    "about": "El nombre viene de Sant Iago, la forma medieval de Santiago apóstol, y se repartió por el mundo hispano con la costumbre de bautizar cada fundación con el santo del día o con el patrón de quien fundaba. De ahí que hoy haya media docena de Santiagos con sala propia y ninguno tenga más derecho que los demás al nombre a secas. El de Compostela es el final del Camino y la capital de Galicia, una ciudad de piedra mojada donde el casco viejo cabe entero a pie. El de Chile es la capital del país, fundada en 1541 por Pedro de Valdivia, con la cordillera cerrando el horizonte los días en que el aire deja verla. Santiago de los Caballeros es la segunda ciudad dominicana y el corazón del Cibao. Santiago de Cuba fue capital de la isla antes que La Habana y todavía se comporta como si lo fuera. Y en Argentina, el Santiago del noroeste fue el primer asentamiento español que no llegó a despoblarse nunca. Si sabes cuál buscas, los enlaces de aquí abajo llevan a cada sala; si llegaste por casualidad, ya sabes por qué se llaman todas igual."
+  }
+];

@@ -19,6 +19,8 @@
     "salas:cola": "npx tsx scripts/localidades/preparar-dataset.mjs",
     "salas:cobertura": "npx tsx scripts/localidades/auditar-cobertura.mjs",
     "salas:demanda": "npx tsx scripts/localidades/cruzar-demanda.mjs",
+    "terminos:cron": "npx tsx scripts/cron/salas-termino.mjs --lote 3",
+    "terminos:seco": "npx tsx scripts/cron/salas-termino.mjs --lote 99 --seco",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "auditar:html": "node scripts/content/auditar-html.mjs",
     "llms:full": "npx tsx scripts/content/generar-llms-full.ts",
