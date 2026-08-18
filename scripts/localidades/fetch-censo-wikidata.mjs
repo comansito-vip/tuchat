@@ -7,6 +7,13 @@
  * México entero. El enriquecido va en otra pasada, contra la API REST de
  * Wikipedia, que es otro servicio y aguanta bien.
  *
+ * Y cuando un tramo falla, se PARTE EN DOS y se reintenta cada mitad. Un 504 de
+ * WDQS quiere decir «esta consulta no me cabe en el minuto que te doy», no «no
+ * hay nada»: con los tramos fijos, la tanda del 18 de agosto devolvía 74 filas
+ * en 4.000-5.000 y cero en el siguiente, y ese cero se habría leído como que
+ * México no tiene pueblos de 5.000 a 6.500 habitantes. Partiendo, cada mitad
+ * cabe y los datos aparecen.
+ *
  * Uso: node fetch-min.mjs <QID_pais> <slug_pais> <salida.json>
  */
 import fs from "node:fs";
@@ -14,9 +21,12 @@ import fs from "node:fs";
 const [qid, slugPais, salida] = process.argv.slice(2);
 const TRAMOS = [
   [4000, 5000], [5000, 6500], [6500, 8500], [8500, 12000],
-  [12000, 20000], [20000, 40000], [40000, 100000], [100000, 1e9],
+  [12000, 20000], [20000, 40000], [40000, 100000], [100000, 500000], [500000, 1e9],
 ];
 const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Rangos de población tan estrechos que ya no tiene sentido partirlos más. */
+const ANCHO_MINIMO = 250;
 
 async function pide(min, max, intento = 1) {
   const query = `SELECT ?item ?nombre ?pob ?admNombre WHERE {
@@ -38,13 +48,24 @@ async function pide(min, max, intento = 1) {
     if (!res.ok) throw new Error("HTTP " + res.status);
     return (await res.json()).results.bindings;
   } catch (e) {
-    if (intento >= 5) {
-      console.error(`  ! ${min}-${max} abandonado: ${e.message}`);
-      return [];
+    if (intento < 3) {
+      console.error(`  · ${min}-${max} intento ${intento}: ${e.message}`);
+      await dormir(10000 * intento);
+      return pide(min, max, intento + 1);
     }
-    console.error(`  · ${min}-${max} intento ${intento}: ${e.message}`);
-    await dormir(10000 * intento);
-    return pide(min, max, intento + 1);
+    // Tres fallos seguidos: el tramo es demasiado grande para el servicio. Se
+    // parte por la mitad y se piden las dos mitades por separado.
+    if (max - min > ANCHO_MINIMO) {
+      const medio = Math.round((min + max) / 2);
+      console.error(`  ÷ ${min}-${max} no entra: se parte en ${min}-${medio} y ${medio}-${max}`);
+      await dormir(5000);
+      const izquierda = await pide(min, medio);
+      await dormir(2000);
+      const derecha = await pide(medio, max);
+      return [...izquierda, ...derecha];
+    }
+    console.error(`  ! ${min}-${max} abandonado: ${e.message}`);
+    return [];
   }
 }
 
