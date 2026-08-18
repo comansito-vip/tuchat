@@ -17,6 +17,9 @@ Propiedad `sc-domain:tuchat.org`, 90 días (20 may – 15 ago 2026):
 | **Páginas con alguna impresión** | **6** |
 | URLs en el sitemap | 3.311 |
 
+El sitemap tenía 5.261 URLs hasta el 17 de agosto: sacar las 1.966 páginas de `/tiempo`
+ya está hecho y contado aquí.
+
 Seis. Las seis son `/`, `/chat`, `/anime`, `/chat/galicia`, `/chat/argentina` y la home sin
 `www`. Todo lo demás —las 2.100 ciudades, las 590 temáticas, los 440 artículos— no ha
 impreso ni una vez.
