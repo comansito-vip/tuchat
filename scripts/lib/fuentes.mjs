@@ -113,9 +113,14 @@ function titulosAlternativos(nombre, contexto) {
   const partes = String(contexto).split(/\s+/).filter((p) => p.length > 3);
   const region = partes[0];
   const pais = partes[partes.length - 1];
+  // La forma con la REGIÓN va primero porque es la que discrimina: «Hidalgo
+  // (México)» puede ser el estado de Hidalgo, mientras que «Hidalgo (Michoacán)»
+  // solo puede ser el municipio que buscamos.
   const candidatos = [
-    pais && `${nombre} (${pais})`,
-    region && region !== pais && `${nombre} (${region})`,
+    region && `${nombre} (${region})`,
+    `Ciudad ${nombre}`,
+    region && `Ciudad ${nombre} (${region})`,
+    pais && pais !== region && `${nombre} (${pais})`,
     `Distrito de ${nombre}`,
     `Municipio de ${nombre}`,
   ].filter(Boolean);
@@ -160,7 +165,25 @@ export async function traerWikipedia(nombre, contexto = "", urlArticulo = null) 
     // homónimo: hay decenas de "San Miguel" repartidos por el continente.
     const pistas = contexto.toLowerCase().split(/\s+/).filter((p) => p.length > 3);
     const texto = `${data.extract} ${data.description ?? ""}`.toLowerCase();
-    if (pistas.length && !pistas.some((p) => texto.includes(p))) return null;
+    if (pistas.length && !pistas.some((p) => texto.includes(p))) {
+      // Aquí el título pelado NO lleva a una desambiguación: lleva a un homónimo
+      // legítimo que no es el nuestro. «Palermo» devuelve la ciudad siciliana y
+      // «Hidalgo» el estado mexicano, las dos con artículo propio y perfectamente
+      // válidas... para otra localidad. Antes se descartaba sin más y el pueblo
+      // se quedaba sin fuente para siempre; las formas con paréntesis —«Palermo
+      // (Huila)», «Hidalgo (Michoacán)»— existen y son las buenas.
+      // Aquí NO vale con que coincida una pista cualquiera. Buscando «Hidalgo»
+      // de Michoacán, el artículo del estado de Hidalgo contiene «méxico» y
+      // pasaba el filtro: la ficha habría hablado de un estado entero en vez
+      // del municipio. Se exige la pista más específica que haya —la región—,
+      // y solo se acepta el país cuando no hay región que pedir.
+      const pistaFuerte = pistas[0];
+      for (const alt of titulosAlternativos(nombre, contexto)) {
+        const otro = await traerArticuloCompleto(alt);
+        if (otro && otro.toLowerCase().includes(pistaFuerte)) return otro;
+      }
+      return null;
+    }
     return (await traerArticuloCompleto(titulo)) ?? data.extract;
   } catch {
     return null;

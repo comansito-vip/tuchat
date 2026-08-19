@@ -279,6 +279,24 @@ export function esDivisionAdministrativa(texto) {
 const HORARIOS_INVENTADOS =
   /\b(por las tardes|a última hora|al caer la tarde|por la noche|las tardes y noches|mayor actividad|se anima|suele animarse|momentos de más|horas punta)\b/i;
 
+/**
+ * ¿Esta cadena de palabras sale tal cual del material de origen?
+ *
+ * Se compara con la misma normalización que usa el detector de fraseo (sin
+ * tildes, sin puntuación, minúsculas) porque la frase que devuelve viene ya
+ * normalizada de ahí.
+ */
+function fuenteContiene(material, frase) {
+  const plano = (t) => String(t ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9ñ ]+/g, " ")
+    .replace(/\s+/g, " ");
+  const fuente = `${plano(material.extracto)} ${plano(material.textoWeb)}`;
+  return fuente.includes(plano(frase));
+}
+
 /** Números de sala estables: derivados de la población, no aleatorios. */
 function actividadDe(poblacion) {
   const p = poblacion ?? 0;
@@ -611,7 +629,17 @@ async function main() {
       // Y el fraseo, que es lo que se cuela cuando el párrafo no es idéntico
       // pero la costura sí: "por las tardes, cuando terminan su jornada".
       const calco = fraseoCalcado(registro, indiceFraseo);
-      if (calco) { descarta(`fraseo calcado de ${calco.slug}: "${calco.frase}"`); continue; }
+      // Una frase compartida que está LITERALMENTE en la fuente no es una
+      // plantilla: es una cita. Los cuarenta y tres distritos de Lima abren su
+      // artículo de Wikipedia con la misma oración —«es uno de los cuarenta y
+      // tres distritos que conforman la provincia de Lima»— y con el detector a
+      // secas, publicado Comas, ya no podía entrar ninguno de los otros
+      // cuarenta y dos. Se comprueba contra el material de esta misma ficha, no
+      // contra el de la otra: si lo copió de su propia fuente, es legítimo.
+      if (calco && !fuenteContiene(material, calco.frase)) {
+        descarta(`fraseo calcado de ${calco.slug}: "${calco.frase}"`);
+        continue;
+      }
 
       nuevas.push(registro);
       hechas.add(loc.slug);
