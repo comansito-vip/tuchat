@@ -892,3 +892,6 @@ Groq: HT
 [2026-08-19T08:42:30.432Z]   ✓ la-florida (Chile) — escribió Gemini, verificó Groq
 [2026-08-19T08:46:12.340Z]   ✓ santo-domingo-oeste (República Dominicana) — escribió Gemini, verificó Groq
 [2026-08-19T08:46:35.802Z]   ✗ santa-catarina: sin fuente utilizable
+[2026-08-19T08:50:35.167Z]   ✓ carabayllo (Perú) — escribió Gemini, verificó NVIDIA
+[2026-08-19T08:54:17.821Z]   ✓ lurigancho-chosica (Perú) — escribió Gemini, verificó Groq
+[2026-08-19T08:54:42.360Z]   ✗ escobar: sin fuente utilizable

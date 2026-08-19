@@ -102,6 +102,31 @@ async function traerArticuloCompleto(titulo) {
 }
 
 /**
+ * Las palabras del contexto que de verdad identifican al sitio.
+ *
+ * El contexto llega como «región país», y la región viene con su envoltorio
+ * administrativo: «Provincia de Buenos Aires», «Estado Aragua». Sin limpiarlo, la
+ * primera palabra útil era «provincia», que no distingue nada —aparece en miles
+ * de artículos— y además se pedían títulos imposibles como «Escobar
+ * (provincia)». Quitando el envoltorio queda «buenos aires», que sí discrimina.
+ */
+function limpiarContexto(contexto) {
+  const limpio = String(contexto)
+    .replace(/\b(provincia|estado|departamento|regi[óo]n|municipio|distrito|partido|comuna|cant[óo]n)\b/gi, " ")
+    .replace(/\b(de|del|la|las|los|el)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  // El contexto es «región país» y la región puede tener varias palabras. Hay
+  // que conservarla ENTERA: pidiendo solo la primera salían títulos como «Villa
+  // Madero (Buenos)» o «Santa Catarina (Nuevo)», que no existen, mientras que
+  // «(Buenos Aires)» y «(Nuevo León)» sí. El país es la última palabra.
+  const palabras = limpio.split(" ").filter((p) => p.length > 3);
+  const pais = palabras.length ? palabras[palabras.length - 1] : "";
+  const region = palabras.slice(0, -1).join(" ");
+  return { region, pais, palabras };
+}
+
+/**
  * Títulos alternativos para un topónimo que a secas lleva a la desambiguación.
  *
  * «Ate» es un distrito de Lima y también un montón de cosas más, así que el
@@ -110,9 +135,7 @@ async function traerArticuloCompleto(titulo) {
  * en cuando con el nombre administrativo delante.
  */
 function titulosAlternativos(nombre, contexto) {
-  const partes = String(contexto).split(/\s+/).filter((p) => p.length > 3);
-  const region = partes[0];
-  const pais = partes[partes.length - 1];
+  const { region, pais } = limpiarContexto(contexto);
   // La forma con la REGIÓN va primero porque es la que discrimina: «Hidalgo
   // (México)» puede ser el estado de Hidalgo, mientras que «Hidalgo (Michoacán)»
   // solo puede ser el municipio que buscamos.
@@ -120,9 +143,14 @@ function titulosAlternativos(nombre, contexto) {
     region && `${nombre} (${region})`,
     `Ciudad ${nombre}`,
     region && `Ciudad ${nombre} (${region})`,
+    // Venezuela nombra sus municipios así en Wikipedia: «Municipio Mariño
+    // (Aragua)», sin la preposición que llevan los distritos peruanos.
+    region && `Municipio ${nombre} (${region})`,
+    `Municipio ${nombre}`,
     pais && pais !== region && `${nombre} (${pais})`,
     `Distrito de ${nombre}`,
     `Municipio de ${nombre}`,
+    `Partido de ${nombre}`,
   ].filter(Boolean);
   return [...new Set(candidatos)].map((t) => encodeURIComponent(t.replace(/ /g, "_")));
 }
@@ -163,7 +191,7 @@ export async function traerWikipedia(nombre, contexto = "", urlArticulo = null) 
     if (urlArticulo) return (await traerArticuloCompleto(titulo)) ?? data.extract;
     // Un resumen que no menciona ni la región ni el país casi siempre es de otro
     // homónimo: hay decenas de "San Miguel" repartidos por el continente.
-    const pistas = contexto.toLowerCase().split(/\s+/).filter((p) => p.length > 3);
+    const pistas = limpiarContexto(contexto).palabras.map((p) => p.toLowerCase());
     const texto = `${data.extract} ${data.description ?? ""}`.toLowerCase();
     if (pistas.length && !pistas.some((p) => texto.includes(p))) {
       // Aquí el título pelado NO lleva a una desambiguación: lleva a un homónimo
