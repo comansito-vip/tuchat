@@ -490,6 +490,7 @@ async function main() {
   const nuevas = [];
   const intentados = [];
   let intentadas = 0;
+  let sinCuotaSeguidas = 0;
 
   /**
    * Pausa entre localidades para que la cuota POR MINUTO se recupere.
@@ -523,11 +524,18 @@ async function main() {
   for (const [i, loc] of candidatas.entries()) {
     if (nuevas.length >= LOTE) break;
     if (intentadas >= LOTE * 3) { log("demasiados intentos fallidos, se corta el lote"); break; }
+    // Corte por cuota: si las últimas seis seguidas se cayeron porque no quedaba
+    // ningún proveedor, no es mala suerte, es que se acabó el día. Seguir
+    // intentando cuesta diez minutos por ficha —cada fallo recorre la cadena
+    // entera con sus tiempos de espera— y no publica nada. Mejor cerrar y
+    // escribir lo conseguido, que si no se pierde al matar el proceso.
+    if (sinCuotaSeguidas >= 6) { log("sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho"); break; }
     if (i > 0 && PAUSA_MS > 0) await respirar(PAUSA_MS);
     intentadas++;
     intentados.push(loc.slug);
 
     const descarta = (razon) => {
+      sinCuotaSeguidas = /Todos los proveedores LLM fallaron/.test(razon) ? sinCuotaSeguidas + 1 : 0;
       log(`  ✗ ${loc.slug}: ${razon}`);
       progreso.descartadas.push({ slug: loc.slug, razon, fecha: new Date().toISOString().slice(0, 10) });
     };
@@ -642,6 +650,7 @@ async function main() {
       }
 
       nuevas.push(registro);
+      sinCuotaSeguidas = 0;
       hechas.add(loc.slug);
       yaSlug.add(loc.slug);
       yaLocalidad.add(identidad(loc));

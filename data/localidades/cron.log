@@ -895,3 +895,102 @@ Groq: HT
 [2026-08-19T08:50:35.167Z]   ✓ carabayllo (Perú) — escribió Gemini, verificó NVIDIA
 [2026-08-19T08:54:17.821Z]   ✓ lurigancho-chosica (Perú) — escribió Gemini, verificó Groq
 [2026-08-19T08:54:42.360Z]   ✗ escobar: sin fuente utilizable
+[2026-08-19T09:01:20.958Z]   ✗ turmero: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T09:01:44.213Z]   ✗ gregorio-de-laferrere: sin fuente utilizable
+[2026-08-19T09:02:04.689Z]   ✗ monclova: sin fuente utilizable
+[2026-08-19T09:09:39.901Z]   ✓ carlos-manuel-de-cespedes (Cuba) — escribió Gemini, verificó Groq
+[2026-08-19T09:12:49.878Z]   ✓ jose-c-paz (Argentina) — escribió NVIDIA, verificó Gemini
+[2026-08-19T09:15:14.836Z]   ✓ warnes (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-08-19T09:15:38.146Z]   ✗ marino: sin fuente utilizable
+[2026-08-19T09:19:19.811Z]   ✗ mara: fraseo calcado de santiago-del-teide: "la virgen del carmen el 16 de"
+[2026-08-19T09:19:40.557Z]   ✗ arroyo-naranjo: sin fuente utilizable
+[2026-08-19T09:23:25.551Z]   ✓ boyeros (Cuba) — escribió Gemini, verificó NVIDIA
+[2026-08-19T09:26:33.247Z]   ✓ cabo-san-lucas (México) — escribió NVIDIA, verificó Groq
+[2026-08-19T09:29:24.874Z]   ✗ guacara: controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 84 caracteres (debe estar entre 110 y 160)
+[2026-08-19T09:33:49.172Z]   ✓ tocuyito (Venezuela) — escribió Gemini, verificó Groq
+[2026-08-19T09:34:52.970Z]   ✗ cuautla: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-19T09:38:41.695Z]   ✓ la-pintana (Chile) — escribió Gemini, verificó Groq
+[2026-08-19T09:42:54.498Z]   ✓ ciudad-valles (México) — escribió Gemini, verificó NVIDIA
+[2026-08-19T09:46:20.971Z]   ✗ lujan-de-cuyo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T09:49:49.029Z]   ✗ la-guaira: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T09:50:12.406Z]   ✗ paez-venezuela: sin fuente utilizable
+[2026-08-19T09:53:42.179Z]   ✗ ciudad-acuna: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T09:57:24.947Z]   ✓ bonao (República Dominicana) — escribió Gemini, verificó Groq
+[2026-08-19T10:00:50.886Z]   ✗ milpa-alta: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:04:16.614Z]   ✗ nacajuca: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:07:42.252Z]   ✗ unare: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:08:04.626Z]   ✗ jutiapa-guatemala: es una división administrativa, no una localidad
+[2026-08-19T10:11:30.619Z]   ✗ naguanagua: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:11:51.117Z]   ✗ villa-alemana: sin fuente utilizable
+[2026-08-19T10:15:16.811Z]   ✗ momostenango: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:18:42.591Z]   ✗ carupano: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:22:18.576Z]   ✗ chichicastenango: Todos los proveedores LLM fallaron:
+Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}
+Cerebras: H
+[2026-08-19T10:25:44.294Z]   ✗ quilpue: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:27:25.855Z]   ✗ colina-chile: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 437 (line 3 column 313)
+[2026-08-19T10:27:48.520Z]   ✗ villa-madero: sin fuente utilizable
+[2026-08-19T10:31:13.918Z]   ✗ apatzingan-de-la-constitucion: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:35:36.958Z]   ✗ la-lisa: controles de calidad: intro/meta de 193 caracteres (debe estar entre 110 y 160)
+[2026-08-19T10:42:53.321Z]   ✗ yaritagua: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:47:04.797Z]   ✗ santa-lucia-cotzumalguapa: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T10:47:25.296Z]   ✗ quininde: sin fuente utilizable
+[2026-08-19T10:48:33.401Z]   ✗ almoloya-de-juarez: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 404 (line 3 column 277)
+[2026-08-19T10:49:48.130Z]   ✓ navojoa (México) — escribió NVIDIA, verificó Groq
+[2026-08-19T10:57:34.929Z]   ✗ porlamar: controles de calidad: intro/meta de 167 caracteres (debe estar entre 110 y 160)
+[2026-08-19T11:03:30.508Z]   ✓ chilapa-de-alvarez (México) — escribió NVIDIA, verificó Groq
+[2026-08-19T11:06:56.381Z]   ✗ majes: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T11:09:50.600Z]   ✓ guasdualito (Venezuela) — escribió NVIDIA, verificó Groq
+[2026-08-19T11:16:10.261Z]   ✗ palma-soriano: controles de calidad: intro/meta de 175 caracteres (debe estar entre 110 y 160)
+[2026-08-19T11:17:32.956Z]   ✗ totonicapan: controles de calidad: la intro empieza con un imperativo de folleto
+[2026-08-19T11:21:01.696Z]   ✗ uribia: fraseo calcado de ixcan: "y la mayor parte de su poblacion"
+[2026-08-19T11:21:22.194Z]   ✗ coronel: sin fuente utilizable
+[2026-08-19T11:27:53.725Z]   ✗ comitan-de-dominguez: controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70)
+[2026-08-19T11:29:05.240Z]   ✗ iguala: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T11:32:55.699Z]   ✓ pochuta (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-08-19T11:34:05.791Z]   ✗ tinaquillo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T11:37:16.311Z]   ✗ huaral: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 252 (line 3 column 163)
+[2026-08-19T11:37:38.949Z]   ✗ moran: sin fuente utilizable
+[2026-08-19T11:41:04.392Z]   ✗ catacamas: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T11:44:30.220Z]   ✗ socopo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T11:48:43.271Z]   ✓ melipilla (Chile) — escribió Gemini, verificó Groq
+[2026-08-19T11:48:43.339Z] quedan 50 fichas por rehacer (48 al final de la cola)
+[2026-08-19T11:48:43.339Z] publicadas 25 salas · acumuladas 100 · quedan 50 en cola
