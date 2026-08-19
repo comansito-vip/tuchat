@@ -438,6 +438,13 @@ async function main() {
           Number(Boolean(b.extracto || b.webOficial)) - Number(Boolean(a.extracto || a.webOficial))
           || (b.poblacion ?? 0) - (a.poblacion ?? 0));
         const [gana, ...pierden] = orden;
+        // El ganador se queda el slug MÁS CORTO del corro. Las copias venían del
+        // desambiguador con sufijos distintos, y si gana la de más población da
+        // igual con cuál se quedó: publicar «puente-piedra-provincia-de-lima»
+        // cuando «puente-piedra» va a quedar libre es regalar la consulta que la
+        // gente escribe de verdad.
+        const masCorto = corro.map((x) => x.slug).sort((a, b) => a.length - b.length || a.localeCompare(b))[0];
+        if (masCorto !== gana.slug) gana.slug = masCorto;
         salida.push(gana);
         for (const x of pierden) dudosas.push({ ...x, posibleDuplicadoDe: gana.slug, motivo: "misma localidad en dos censos" });
       }

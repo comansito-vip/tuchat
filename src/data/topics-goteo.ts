@@ -22,8 +22,7 @@ export const TOPICS_GOTEO: Place[] = [
     "parentSlug": "adultos",
     "channels": [
       "sexo",
-      "canalsexo",
-      "chatzona"
+      "canalsexo"
     ],
     "related": [
       "hot",

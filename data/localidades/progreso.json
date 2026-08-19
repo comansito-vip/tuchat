@@ -107,7 +107,9 @@
   "samana-rd",
   "la-union-norte",
   "distrito-de-paita",
-  "lo-barnechea"
+  "lo-barnechea",
+  "ventanilla",
+  "paita"
  ],
  "descartadas": [
   {
@@ -1463,6 +1465,381 @@
   {
    "slug": "heroica-matamoros",
    "razon": "fraseo calcado de apodaca: \"la segunda ciudad mas poblada del estado\"",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "puente-alto",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 824 (line 3 column 655)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "limon-costa-rica",
+   "razon": "rechazada tras corrección: La ficha menciona \"Chat de Limón\", lo cual no aparece en el material de origen; La ficha asume la localidad de Limón, Provincia de Limón, Costa Rica, sin respaldo en el material de origen",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "chorrillos",
+   "razon": "fraseo calcado de comas: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "general-escobedo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "hidalgo-michoacan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "palermo-colombia",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "ate",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "heroica-matamoros",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "corrientes-provincia-de-corrientes",
+   "razon": "fraseo calcado de tolu: \"lo que la convierte en la ciudad\"",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "simon-bolivar-anzoategui",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "la-florida",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "santo-domingo-oeste",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "santa-catarina",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "carabayllo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "lurigancho-chosica",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "escobar",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "turmero",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "gregorio-de-laferrere",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "monclova",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto; about de 95 palabras (mínimo 100)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "carlos-manuel-de-cespedes",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "jose-c-paz",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "warnes",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "marino",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "mara",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "arroyo-naranjo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "boyeros",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "cabo-san-lucas",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "guacara",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "tocuyito",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "cuautla",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "la-pintana",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "ciudad-valles",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "lujan-de-cuyo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "la-guaira",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 764 (line 3 column 593)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "paez-venezuela",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "ciudad-acuna",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "bonao",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "milpa-alta",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "nacajuca",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "unare",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "jutiapa-guatemala",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "naguanagua",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 812 (line 3 column 673)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "villa-alemana",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "momostenango",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "carupano",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "chichicastenango",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "quilpue",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "colina-chile",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "villa-madero",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "apatzingan-de-la-constitucion",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "la-lisa",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "yaritagua",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "santa-lucia-cotzumalguapa",
+   "razon": "controles de calidad: intro/meta de 171 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "quininde",
+   "razon": "controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70); intro/meta de 100 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "almoloya-de-juarez",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "navojoa",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 188 caracteres (debe estar entre 110 y 160); about de 75 palabras (mínimo 100)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "porlamar",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "chilapa-de-alvarez",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "majes",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "guasdualito",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "palma-soriano",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "totonicapan",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "uribia",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "coronel",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "comitan-de-dominguez",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "iguala",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "pochuta",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "tinaquillo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "huaral",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "moran",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "catacamas",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "socopo",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "melipilla",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "samana-rd",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "lo-barnechea",
+   "razon": "Todos los proveedores LLM fallaron:\nGroq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per \nGroq: HT",
    "fecha": "2026-08-19"
   }
  ]

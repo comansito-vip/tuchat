@@ -62,6 +62,24 @@ const MAX_INTENTOS = 3;
 // calidad.
 const TOKENS_FICHA = 6000;
 
+/**
+ * Cuánto material cabe en el prompt, medido contra el límite real del
+ * proveedor y no a ojo.
+ *
+ * Groq da **8.000 tokens por minuto** (`x-ratelimit-limit-tokens: 8000`, con
+ * reset en milisegundos: es por minuto, no por día) y cuenta los `max_tokens`
+ * reservados dentro de ese cubo. Con TOKENS_FICHA en 6.000 quedan unos 2.000
+ * para todo lo que entra, así que 3.500 caracteres de Wikipedia más 3.000 de la
+ * web del ayuntamiento se pasaban del minuto y devolvían 429 tras una sola
+ * ficha. Se vio al rehacer con el artículo completo, que antes no llegaba
+ * porque el resumen traía 300 caracteres pelados.
+ *
+ * 2.000 y 1.500 caracteres dejan el prompt en unos 1.100 tokens: cabe con
+ * holgura y siguen siendo dieciséis veces más material del que había.
+ */
+const CHARS_EXTRACTO = 2000;
+const CHARS_WEB = 1500;
+
 cargarEnvLocal();
 
 function log(msg) {
@@ -139,12 +157,12 @@ MATERIAL DE ORIGEN — es la ÚNICA fuente permitida. No uses nada que "recuerde
 
 [Wikipedia]
 """
-${(material.extracto ?? "(sin extracto)").slice(0, 3500)}
+${(material.extracto ?? "(sin extracto)").slice(0, CHARS_EXTRACTO)}
 """
 
 [Web oficial del ayuntamiento${loc.webOficial ? ` — ${loc.webOficial}` : ""}]
 """
-${(material.textoWeb ?? "(no disponible)").slice(0, 3000)}
+${(material.textoWeb ?? "(no disponible)").slice(0, CHARS_WEB)}
 """
 
 La web del ayuntamiento es la parte valiosa: de ahí salen las fiestas con su fecha, el mercado semanal, la feria, el polígono o el equipamiento que ningún competidor va a tener. Úsala si trae algo concreto.
@@ -175,8 +193,8 @@ SÍ es un problema:
 
 MATERIAL DE ORIGEN:
 """
-${(material.extracto ?? "").slice(0, 3500)}
-${(material.textoWeb ?? "").slice(0, 2000)}
+${(material.extracto ?? "").slice(0, CHARS_EXTRACTO)}
+${(material.textoWeb ?? "").slice(0, CHARS_WEB)}
 """
 
 FICHA A VERIFICAR (localidad: ${loc.nombre}, ${loc.region ?? ""}, ${loc.pais}):
@@ -196,8 +214,8 @@ ${problemas.map((p) => "- " + p).join("\n")}
 
 MATERIAL DE ORIGEN:
 """
-${(material.extracto ?? "").slice(0, 3000)}
-${(material.textoWeb ?? "").slice(0, 2000)}
+${(material.extracto ?? "").slice(0, CHARS_EXTRACTO)}
+${(material.textoWeb ?? "").slice(0, CHARS_WEB)}
 """
 
 FICHA ACTUAL:
@@ -454,9 +472,24 @@ async function main() {
   const nuevas = [];
   let intentadas = 0;
 
-  for (const loc of candidatas) {
+  /**
+   * Pausa entre localidades para no chocar con el límite POR MINUTO.
+   *
+   * Las claves de Groq son de la misma organización, así que rotarlas no
+   * multiplica la cuota: comparten el mismo cubo de tokens por minuto. Con el
+   * artículo completo de Wikipedia en el prompt cada ficha gasta unos 13.000
+   * tokens entre las cuatro llamadas, y encadenando sin respirar el lote entero
+   * se pasaba el minuto y devolvía 429 tras 429 sin publicar ni una. Diez
+   * segundos entre fichas cuestan quince minutos en un lote de 90 y son la
+   * diferencia entre publicar y no publicar.
+   */
+  const PAUSA_MS = Number(arg("pausa", 10000));
+  const respirar = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  for (const [i, loc] of candidatas.entries()) {
     if (nuevas.length >= LOTE) break;
     if (intentadas >= LOTE * 3) { log("demasiados intentos fallidos, se corta el lote"); break; }
+    if (i > 0 && PAUSA_MS > 0) await respirar(PAUSA_MS);
     intentadas++;
 
     const descarta = (razon) => {
