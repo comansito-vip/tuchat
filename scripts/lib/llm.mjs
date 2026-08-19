@@ -31,6 +31,22 @@ export const PROVEEDORES = [
   { nombre: "Cerebras", env: "CEREBRAS_API_KEYS", base: "https://api.cerebras.ai/v1", modelo: "gpt-oss-120b" },
   { nombre: "Mistral", env: "MISTRAL_API_KEYS", base: "https://api.mistral.ai/v1", modelo: "mistral-large-latest" },
   { nombre: "NVIDIA", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "meta/llama-3.1-70b-instruct" },
+  // Segunda entrada sobre la MISMA cuenta de NVIDIA, con un modelo de otra
+  // familia. No es un proveedor más: es la forma de tener dos modelos
+  // independientes cuando el resto de la cadena está sin cuota.
+  //
+  // Hace falta porque la verificación de las fichas excluye a propósito al que
+  // las escribió —el que redacta comparte el punto ciego del que redacta— y esa
+  // exclusión es por NOMBRE de proveedor. El 2026-08-19, con Groq agotado y
+  // Gemini, Cerebras, Mistral, HuggingFace y OpenRouter sin crédito, solo
+  // quedaba NVIDIA en pie y el cron no podía publicar NADA: generaba y se
+  // quedaba sin nadie que verificara. Con Gemma detrás de Llama, generar y
+  // verificar los hacen modelos distintos, que es lo que la regla busca.
+  //
+  // Comprobado con llamada real y prompt del tamaño del que usa el cron; los
+  // otros candidatos del catálogo de NVIDIA dieron 404, 410 o se pasaron del
+  // tiempo de espera.
+  { nombre: "NVIDIA-Gemma", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "google/gemma-4-31b-it" },
   { nombre: "Gemini", env: "GEMINI_API_KEYS", base: "https://generativelanguage.googleapis.com/v1beta/openai", modelo: "gemini-3.5-flash" },
   { nombre: "HuggingFace", env: "HUGGINGFACE_API_KEYS", base: "https://router.huggingface.co/v1", modelo: "meta-llama/Llama-3.3-70B-Instruct" },
   { nombre: "OpenRouter", env: "OPENROUTER_API_KEYS", base: "https://openrouter.ai/api/v1", modelo: "openai/gpt-oss-20b:free" },

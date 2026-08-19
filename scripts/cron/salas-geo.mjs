@@ -658,7 +658,10 @@ async function main() {
       if (loc.coords) situadas.push({ slug: loc.slug, nombre: loc.nombre, ...loc.coords });
       log(`  ✓ ${loc.slug} (${loc.pais}) — escribió ${gen.proveedor}, verificó ${ver.proveedor}`);
     } catch (err) {
-      descarta(err.message.slice(0, 220));
+      // 220 caracteres se comían el diagnóstico entero: el error de Groq trae
+      // un JSON largo y los demás proveedores quedaban fuera del recorte, así
+      // que el log decía «todos fallaron» sin decir por qué falló ninguno.
+      descarta(err.message.replace(/\s+/g, " ").slice(0, 700));
     }
   }
 
