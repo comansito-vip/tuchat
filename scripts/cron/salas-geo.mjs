@@ -189,7 +189,7 @@ SÍ es un problema:
 - Una fecha, cifra, nombre propio, monumento, fiesta, río o comarca que la ficha da por cierto y que la fuente no respalda.
 - Confundir esta localidad con otra homónima.
 - Muletillas de IA de la lista prohibida.
-- Describir la sala de chat: quién entra, de qué se habla, qué comparten los vecinos. No hay fuente para eso y es el relleno que hay que cortar.
+- Describir a la GENTE de la sala: quién entra, de qué se habla, qué comparten los vecinos, cómo es el ambiente. No hay fuente para eso y es el relleno que hay que cortar. Ojo: que la ficha diga "el chat de Limón" o nombre la sala NO es esto y no se marca; el problema es atribuirle conversaciones o usuarios.
 
 MATERIAL DE ORIGEN:
 """
@@ -470,20 +470,36 @@ async function main() {
   log(`${MODO_REHACER ? "a rehacer" : "cola"}: ${candidatas.length} · lote de hoy: ${LOTE}${SECO ? " (SECO)" : ""}`);
 
   const nuevas = [];
+  const intentados = [];
   let intentadas = 0;
 
   /**
-   * Pausa entre localidades para no chocar con el límite POR MINUTO.
+   * Pausa entre localidades para que la cuota POR MINUTO se recupere.
    *
-   * Las claves de Groq son de la misma organización, así que rotarlas no
-   * multiplica la cuota: comparten el mismo cubo de tokens por minuto. Con el
-   * artículo completo de Wikipedia en el prompt cada ficha gasta unos 13.000
-   * tokens entre las cuatro llamadas, y encadenando sin respirar el lote entero
-   * se pasaba el minuto y devolvía 429 tras 429 sin publicar ni una. Diez
-   * segundos entre fichas cuestan quince minutos en un lote de 90 y son la
-   * diferencia entre publicar y no publicar.
+   * Medido el 2026-08-19 contra las cabeceras del proveedor, no a ojo: Groq da
+   * 8.000 tokens por minuto (`x-ratelimit-limit-tokens: 8000`, reset en
+   * milisegundos) y cuenta dentro de ese cubo los `max_tokens` reservados. Cada
+   * ficha gasta ese presupuesto casi entero, así que encadenando sin respirar
+   * salían 429 tras 429 y el lote entero se iba sin publicar nada.
+   *
+   * Y no hay red de seguridad detrás: ese mismo día, de los siete proveedores
+   * solo NVIDIA respondía con un prompt de tamaño real (Cerebras, Mistral y
+   * HuggingFace en 402 sin crédito; Gemini y OpenRouter en 429 de cuota diaria).
+   * Con uno solo en pie no se publica NADA, porque la verificación excluye a
+   * propósito al que escribió la ficha: hacen falta dos vivos como mínimo.
+   *
+   * El límite que de verdad manda, medido leyendo el 429 entero, es el DIARIO:
+   * «tokens per day (TPD): Limit 200000». A unos 13.000 tokens por ficha salen
+   * **quince fichas al día por organización de Groq**, y ahí no hay pausa que
+   * valga: el lote grande se corta solo cuando se agota el día. El que va por
+   * minuto lo absorbe ya el reintento de `llamar()` en scripts/lib/llm.mjs, que
+   * espera lo que dice la cabecera cuando el reset es cosa de segundos y deja
+   * pasar al siguiente proveedor cuando son horas.
+   *
+   * Veinte segundos entre fichas es lo justo para no encadenar ráfagas. Subirlo
+   * más no compra nada, porque el techo es diario y no por minuto.
    */
-  const PAUSA_MS = Number(arg("pausa", 10000));
+  const PAUSA_MS = Number(arg("pausa", 20000));
   const respirar = (ms) => new Promise((r) => setTimeout(r, ms));
 
   for (const [i, loc] of candidatas.entries()) {
@@ -491,6 +507,7 @@ async function main() {
     if (intentadas >= LOTE * 3) { log("demasiados intentos fallidos, se corta el lote"); break; }
     if (i > 0 && PAUSA_MS > 0) await respirar(PAUSA_MS);
     intentadas++;
+    intentados.push(loc.slug);
 
     const descarta = (razon) => {
       log(`  ✗ ${loc.slug}: ${razon}`);
@@ -629,9 +646,16 @@ async function main() {
   writeFileSync(PROGRESO, JSON.stringify(progreso, null, 1));
 
   if (MODO_REHACER) {
-    const quedan = leerJSON(REHACER, []).filter((slug) => !rehechas.has(slug));
+    // Los que se intentaron y fallaron van AL FINAL. Sin esto, las tres o cuatro
+    // fichas difíciles de la cabecera —un JSON que el modelo siempre malforma,
+    // un fraseo que choca con el de su distrito vecino— se reintentan las
+    // primeras cada noche y se comen el lote antes de llegar a las que sí
+    // saldrían. Van al final y les toca turno cuando el resto esté hecho.
+    const previa = leerJSON(REHACER, []).filter((slug) => !rehechas.has(slug));
+    const fallaron = new Set(intentados.filter((slug) => !rehechas.has(slug)));
+    const quedan = [...previa.filter((x) => !fallaron.has(x)), ...previa.filter((x) => fallaron.has(x))];
     writeFileSync(REHACER, JSON.stringify(quedan, null, 1));
-    log(`quedan ${quedan.length} fichas por rehacer`);
+    log(`quedan ${quedan.length} fichas por rehacer (${fallaron.size} al final de la cola)`);
   }
 
   log(`publicadas ${nuevas.length} salas · acumuladas ${todas.length} · quedan ${candidatas.length - nuevas.length} en cola`);

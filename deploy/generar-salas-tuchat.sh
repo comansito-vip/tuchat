@@ -55,11 +55,11 @@ set +a
 # Las fichas se reescriben EN SU SITIO: la URL no desaparece en ningún momento.
 if [ -s data/localidades/rehacer.json ] && [ "$(tr -d '[] \n' < data/localidades/rehacer.json)" != "" ]; then
   echo "[$(date -u +%FT%TZ)] quedan fichas por rehacer: hoy no se publican salas nuevas"
-  # Lote de 30 y no de 50: las claves de Groq son de la misma organización y
-  # comparten el cubo de tokens por minuto, así que encadenar más solo produce
-  # 429 seguidos. Con la pausa de diez segundos que mete el script, treinta
-  # fichas son algo más de hora y media de cron.
-  npx tsx scripts/cron/salas-geo.mjs --rehacer --lote 30
+  # Lote de 20 y no de 50: el techo real es la cuota DIARIA de Groq —200.000
+  # tokens por organización, unos 13.000 por ficha— así que pedir más solo
+  # gasta intentos en balde. Las que fallen se van al final de la cola y les
+  # toca turno la noche siguiente.
+  npx tsx scripts/cron/salas-geo.mjs --rehacer --lote 20
 else
   npx tsx scripts/cron/salas-geo.mjs --lote 50
 fi

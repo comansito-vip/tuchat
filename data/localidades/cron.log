@@ -835,3 +835,44 @@ Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss
 Groq: HT
 [2026-08-19T03:38:38.598Z] quedan 75 fichas por rehacer
 [2026-08-19T03:38:38.599Z] publicadas 10 salas · acumuladas 100 · quedan 75 en cola
+[2026-08-19T04:06:55.103Z] a rehacer: 75 · lote de hoy: 12
+[2026-08-19T04:07:52.104Z]   ✗ puente-alto: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 608 (line 3 column 494)
+[2026-08-19T04:11:25.272Z]   ✗ limon-costa-rica: rechazada tras corrección: Intro contiene descripción de la sala de chat ('Conoce a los vecinos de Limón'), lo cual no está respaldado por la fuente y está prohibido.
+[2026-08-19T04:12:38.852Z]   ✗ chorrillos: fraseo calcado de comas: "es uno de los cuarenta y tres"
+[2026-08-19T04:16:45.518Z]   ✗ general-escobedo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:18:06.874Z] a rehacer: 75 · lote de hoy: 20
+[2026-08-19T04:18:37.054Z]   ✗ puente-alto: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 681 (line 3 column 489)
+[2026-08-19T04:20:05.092Z]   ✗ limon-costa-rica: Todos los proveedores LLM fallaron:
+Groq: fetch failed
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on t
+[2026-08-19T04:25:01.281Z]   ✗ chorrillos: fraseo calcado de comas: "es uno de los cuarenta y tres"
+[2026-08-19T04:26:23.273Z]   ✗ general-escobedo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:27:24.002Z]   ✗ hidalgo-michoacan: sin fuente utilizable
+[2026-08-19T04:28:24.366Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-19T04:29:35.192Z]   ✗ ate: fraseo calcado de comas: "es uno de los cuarenta y tres"
+[2026-08-19T04:30:00.461Z] a rehacer: 75 · lote de hoy: 20
+[2026-08-19T04:31:54.622Z]   ✗ puente-alto: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 560 (line 3 column 447)
+[2026-08-19T04:32:51.857Z]   ✗ limon-costa-rica: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:33:21.158Z]   ✗ heroica-matamoros: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:33:26.836Z]   ✗ chorrillos: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:34:14.420Z]   ✗ general-escobedo: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:34:29.768Z]   ✗ hidalgo-michoacan: sin fuente utilizable
+[2026-08-19T04:34:45.096Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-19T04:35:31.845Z]   ✗ ate: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T04:36:30.373Z]   ✗ corrientes-provincia-de-corrientes: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT

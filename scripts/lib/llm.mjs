@@ -38,7 +38,25 @@ export const PROVEEDORES = [
 
 const clavesDe = (env) => (process.env[env] ?? "").split(",").map((k) => k.trim()).filter(Boolean);
 
-async function llamar(prov, clave, system, user, maxTokens) {
+/**
+ * Cuántos segundos pide esperar un 429, según las cabeceras del proveedor.
+ *
+ * `retry-after` es el estándar y viene en segundos. Groq además publica
+ * `x-ratelimit-reset-tokens` con formato "577ms", "7.66s" o "2m30s". Devuelve
+ * null si no hay forma de saberlo, que es la señal de no reintentar.
+ */
+function segundosDeEspera(headers) {
+  const retry = Number(headers.get("retry-after"));
+  if (Number.isFinite(retry) && retry > 0) return retry;
+  const reset = headers.get("x-ratelimit-reset-tokens") ?? headers.get("x-ratelimit-reset-requests");
+  if (!reset) return null;
+  const m = String(reset).match(/(?:(\d+(?:\.\d+)?)m)?(?:(\d+(?:\.\d+)?)s)?(?:(\d+)ms)?/);
+  if (!m) return null;
+  const segundos = (Number(m[1]) || 0) * 60 + (Number(m[2]) || 0) + (Number(m[3]) || 0) / 1000;
+  return segundos > 0 ? Math.ceil(segundos) : 1;
+}
+
+async function llamar(prov, clave, system, user, maxTokens, reintentado = false) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 90_000);
   try {
@@ -56,6 +74,22 @@ async function llamar(prov, clave, system, user, maxTokens) {
         max_tokens: maxTokens,
       }),
     });
+    if (res.status === 429) {
+      // El 429 de cuota POR MINUTO no es un proveedor caído: es «espera». Las
+      // dos a cuatro llamadas de una misma ficha van seguidas y juntas se pasan
+      // del cubo (Groq da 8.000 tokens/minuto y cuenta los `max_tokens`
+      // reservados), así que sin esto la segunda llamada tumbaba la ficha entera
+      // y de paso quemaba el resto de la cadena. El proveedor dice cuándo se
+      // rellena; si es cosa de un minuto, se espera y se reintenta con la misma
+      // clave. Si el 429 es de cuota diaria, el reset viene en horas y se deja
+      // pasar al siguiente proveedor, que es lo correcto.
+      const espera = segundosDeEspera(res.headers);
+      if (espera !== null && espera <= 75 && !reintentado) {
+        clearTimeout(t);
+        await new Promise((r) => setTimeout(r, (espera + 2) * 1000));
+        return llamar(prov, clave, system, user, maxTokens, true);
+      }
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
     const data = await res.json();
     const texto = data.choices?.[0]?.message?.content ?? "";
