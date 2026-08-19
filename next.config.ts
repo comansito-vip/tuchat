@@ -108,6 +108,10 @@ const nextConfig: NextConfig = {
       "distrito-de-majes": "majes",
       "distrito-de-huaral": "huaral",
       "distrito-de-paita": "paita",
+      // Lima Metropolitana es un área metropolitana, no una localidad: el propio
+      // verificador la rechaza cada vez que se intenta reescribir, y `lima` ya
+      // tiene su sala.
+      "lima-metropolitana": "lima",
     };
     return [
       { source: "/pais/:slug", destination: "/chat/:slug", permanent: true },

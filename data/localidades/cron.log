@@ -505,3 +505,28 @@ Groq: HT
 [2026-08-16T01:53:35.687Z]   ✗ tarimbaro: sin fuente utilizable
 [2026-08-16T01:53:35.687Z] demasiados intentos fallidos, se corta el lote
 [2026-08-16T01:53:35.695Z] publicadas 9 salas · acumuladas 107 · quedan 2833 en cola
+[2026-08-18T23:39:36.534Z] a rehacer: 94 · lote de hoy: 25
+[2026-08-18T23:41:49.619Z]   ✗ apodaca: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-08-18T23:43:58.195Z]   ✗ piedras-negras: rechazada tras corrección: La ficha describe la sala de chat, lo cual no está permitido ya que no hay fuente que respalde esa información. Sin embargo, no es el caso aquí, pero hay otras invenciones: la descripción de Piedras N
+[2026-08-18T23:43:59.236Z]   ✗ los-mochis: sin fuente utilizable
+[2026-08-18T23:48:13.866Z]   ✗ puente-alto: rechazada tras corrección: Se inventan numerosas características de la comuna que no están en el material de origen, como que concentra los servicios públicos y la gestión territorial, que es una zona predominantemente residenc
+[2026-08-18T23:52:16.509Z] a rehacer: 94 · lote de hoy: 8
+[2026-08-18T23:52:29.301Z]   ✓ apodaca (México) — escribió Groq, verificó NVIDIA
+[2026-08-18T23:53:33.166Z]   ✓ piedras-negras (México) — escribió NVIDIA, verificó Groq
+[2026-08-18T23:53:49.869Z]   ✓ los-mochis (México) — escribió Groq, verificó NVIDIA
+[2026-08-18T23:55:49.743Z]   ✗ puente-alto: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 541 (line 3 column 427)
+[2026-08-18T23:55:59.328Z]   ✓ catia-la-mar (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-08-18T23:56:57.615Z]   ✓ vitarte (Perú) — escribió NVIDIA, verificó Groq
+[2026-08-18T23:57:17.534Z]   ✓ comas (Perú) — escribió Groq, verificó NVIDIA
+[2026-08-18T23:58:41.352Z]   ✓ villa-el-salvador (Perú) — escribió NVIDIA, verificó Groq
+[2026-08-18T23:59:38.270Z]   ✗ limon-costa-rica: rechazada tras corrección: La ficha afirma que Limón es una localidad de la Provincia de Limón, Costa Rica, información que no aparece en el material de origen.
+[2026-08-19T00:02:16.657Z]   ✗ chorrillos: fraseo calcado de comas: "es uno de los cuarenta y tres"
+[2026-08-19T00:05:29.155Z]   ✗ general-escobedo: controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); about de 98 palabras (mínimo 100)
+[2026-08-19T00:05:29.602Z]   ✗ hidalgo-michoacan: sin fuente utilizable
+[2026-08-19T00:05:30.512Z]   ✗ lima-metropolitana: es una división administrativa, no una localidad
+[2026-08-19T00:05:31.027Z]   ✗ palermo-colombia: sin fuente utilizable
+[2026-08-19T00:07:14.393Z]   ✗ ate: fraseo calcado de comas: "es uno de los cuarenta y tres"
+[2026-08-19T00:08:03.867Z]   ✗ heroica-matamoros: fraseo calcado de apodaca: "la segunda ciudad mas poblada del estado"
+[2026-08-19T00:09:36.645Z]   ✓ maipu-chile (Chile) — escribió NVIDIA, verificó OpenRouter
+[2026-08-19T00:09:36.672Z] quedan 86 fichas por rehacer
+[2026-08-19T00:09:36.672Z] publicadas 8 salas · acumuladas 101 · quedan 86 en cola

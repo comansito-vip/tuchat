@@ -36,8 +36,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Apodaca, ciudad de Nuevo León con 536.436 habitantes (2020) e integrante clave de la zona metropolitana de Monterrey.",
-    "about": "Apodaca es la cabecera del municipio homónimo en Nuevo León, México. Ubicada en el extremo oriental de la conurbación de Monterrey, concentra 536.436 habitantes según el INEGI (2020), lo que la convierte en la segunda ciudad más poblada del estado. Su posición estratégica dentro del área metropolitana la vincula directamente con la dinámica económica y urbana de la región.\n\nLa sala de chat de Apodaca reúne a residentes, trabajadores y personas que pasan por la ciudad. Aquí se comentan asuntos cotidianos como movilidad, servicios públicos y eventos locales, así como temas que afectan a toda la zona metropolitana. Es un espacio para intercambiar información práctica: desde recomendaciones sobre transporte hasta novedades en comercios o actividades en la zona. También se discuten problemas comunes de la urbe, como tráfico, obras o cambios en infraestructura, siempre con enfoque en lo que impacta directamente a quienes viven o transitan por Apodaca. La conversación fluye según los intereses del momento, sin horarios fijos, y suele reflejar la diversidad de perfiles que conviven en la ciudad."
+    "intro": "Apodaca, segunda ciudad más poblada de Nuevo León con 536 436 habitantes en 2020, forma parte de la zona metropolitana de Monterrey.",
+    "about": "Apodaca, oficialmente Ciudad Apodaca, es una urbe mexicana situada en el estado de Nuevo León y constituye la cabecera del municipio homónimo. Con 536 436 habitantes según el INEGI en 2020, es la segunda ciudad más poblada del estado, detrás de Monterrey, y la 32.ª a nivel nacional. Forma parte de la zona metropolitana de Monterrey, ubicándose en el extremo oriental de la conurbación.\n\nLos orígenes del asentamiento se remontan al siglo XVI. El 16 de agosto de 1585 Diego de Montemayor reclamó las tierras de las Mercedes y, en 1610, José de Treviño Quintanilla adquirió la hacienda San Francisco por cuatro mil pesos. A lo largo de los siglos la zona se dividió en varias haciendas, entre ellas Aguafría, Encarnación y Huinalá. En 1845 José María Flores fue elegido alcalde, marcando el inicio de la vida política local. Hoy Apodaca combina su legado histórico con una economía vinculada al sector industrial y comercial de la gran área de Monterrey.",
+    "aboutTitle": "Apodaca: la segunda ciudad más poblada de Nuevo León"
   },
   {
     "slug": "piedras-negras",
@@ -61,8 +62,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Piedras Negras, ciudad mexicana en Coahuila frente a Eagle Pass (Texas), a orillas del río Bravo. Conecta con su comunidad fronteriza.",
-    "about": "Piedras Negras es una ciudad del noreste de México, en el estado de Coahuila, justo en la frontera con Estados Unidos. Se ubica frente a Eagle Pass, Texas, separada solo por el río Bravo, lo que le da un carácter binacional y un flujo constante de intercambio cultural y comercial. Es cabecera del municipio homónimo y uno de los puntos clave en la relación entre ambos países.\n\nEn el Chat de Piedras Negras entran vecinos de la ciudad, personas que cruzan la frontera con frecuencia y quienes buscan información sobre la vida en esta zona. Se habla de temas locales, como eventos en la ribera del río, oportunidades laborales en la industria fronteriza o cómo es vivir en una ciudad con doble influencia. También es un espacio para coordinar encuentros o resolver dudas sobre trámites y movilidad entre ambos lados de la frontera."
+    "intro": "Piedras Negras, ciudad fronteriza del noreste de México, en el estado de Coahuila, a orillas del río Bravo, con una rica historia y economía regional.",
+    "about": "Piedras Negras es una ciudad fronteriza del noreste de México, en el estado de Coahuila, ubicada frente a la ciudad de Eagle Pass, Texas, Estados Unidos, a orillas del río Bravo. Fue fundada el 15 de junio de 1850 por 34 hombres comandados por Andrés Zapata, Gaspar Salazar y Antonio Ramírez, y se estableció como colonia militar y luego como población civil. En 1881, se descubrieron grandes yacimientos de carbón en la región, lo que ayudó al desarrollo de la economía regional.\n\nLa ciudad cuenta con diversos lugares de esparcimiento, como la Plaza de las Culturas, inaugurada en noviembre de 2005, que cuenta con réplicas a menor escala de las pirámides de Teotihuacán, Chichen Itzá y la pirámide de los 365 nichos, además de un planetario, una biblioteca y varios bares y restaurantes.",
+    "aboutTitle": "Piedras Negras, ciudad fronteriza del río Bravo"
   },
   {
     "slug": "los-mochis",
@@ -87,8 +89,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Los Mochis, cabecera del municipio de Ahome en Sinaloa. Trámites municipales en línea como pago de predial o actas de nacimiento.",
-    "about": "Los Mochis es una ciudad del noroeste de México, cabecera del municipio de Ahome en Sinaloa. El ayuntamiento ofrece trámites en línea como pago de predial, actas civiles (nacimiento, matrimonio o defunción) y licencias de conducir. También gestiona programas locales como el Desarme Voluntario y capacitaciones para emprendedores, además de servicios sociales como cursos para solicitantes de adopción.\n\nEn la sala de chat se comentan noticias municipales, se comparte información sobre trámites o se debaten iniciativas como el Plan Municipal de Desarrollo. Participan residentes y usuarios interesados en la bolsa de trabajo del ayuntamiento o en eventos de atención presencial. Es un espacio para quienes buscan resolver gestiones locales o conectar con la vida administrativa de Ahome."
+    "intro": "Los Mochis, ciudad sinaloense fundada el 20 de abril de 1903, lleva un nombre cahíta que significa 'tortuga terrestre' y creció gracias a la caña de azúcar.",
+    "about": "Los Mochis es una ciudad del noroeste de México, capital del municipio de Ahome en el estado de Sinaloa. El nombre proviene del cahíta mochim, plural de mochic, que se traduce como ‘tortuga de tierra’, aludiendo a la planta Boerhavia coccinea que cubría el valle antes de la urbanización. En septiembre de 1872 el ingeniero civil estadounidense Albert K. Owen llegó a la bahía de Ohuira y visualizó la creación de una población; más tarde, colonos socialistas utópicos construyeron los primeros canales e irrigaron el valle, fundando los poblados El Público y El Plat. El 20 de abril de 1903 se funda por decreto la alcaldía de Los Mochis y el 1 de junio del mismo año el poblado de El Plat pasa a llamarse Los Mochis. A finales del siglo XIX Benjamin Francis Johnston impulsó la industria azucarera, estableciendo el ingenio que se convirtió en una de las fábricas más importantes del noroeste mexicano, lo que favoreció el crecimiento demográfico. En la historia local destaca la ejecución el 24 de octubre de 1916 del líder revolucionario indígena Felipe Bachomo.",
+    "aboutTitle": "Historia azucarera y origen del nombre de Los Mochis"
   },
   {
     "slug": "puente-alto",
@@ -145,8 +148,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Catia La Mar, parroquia del municipio Vargas en el estado La Guaira, Venezuela. Espacio para vecinos, trabajadores y visitantes de esta zona costera.",
-    "about": "Catia La Mar es una de las once parroquias que conforman el municipio Vargas, en el estado La Guaira, Venezuela. Su sala de chat reúne a residentes permanentes, personas que trabajan en la zona —especialmente en sectores como el comercio o los servicios— y quienes llegan de visita, ya sea por turismo o asuntos personales. Las conversaciones giran en torno a la vida cotidiana de la parroquia: desde noticias locales y eventos en Vargas hasta recomendaciones prácticas sobre transporte, comercios o lugares para comer. También se habla de la dinámica urbana, como el tráfico en horas pico o la oferta de actividades en playas y espacios públicos cercanos. Los participantes suelen compartir información útil, como cambios en rutas de autobuses, horarios de mercados o alertas sobre cortes de servicios. Aunque el tono es informal, predomina el interés por mantenerse al tanto de lo que ocurre en la zona y resolver dudas sobre movilidad, trámites o opciones de ocio. La sala sirve como punto de referencia para quienes buscan conectar con el día a día de Catia La Mar, sin importar si su vínculo con el lugar es permanente o temporal."
+    "intro": "Catia La Mar, parroquia de Vargas en La Guaira, sufrió el fuerte terremoto del 24 de junio de 2026, que dejó derrumbes y graves daños en la zona costera.",
+    "about": "Catia La Mar es una parroquia del municipio Vargas, situada en la región capital del estado La Guaira, frente al Mar Caribe. Con una superficie aproximada de 38 kilómetros cuadrados, alberga urbanizaciones como La Esperanza, El Piache y Marapa Marina, y playas conocidas como Costa Dorada, Playa La Zorra y Puerto Viejo. El clima es árido, con escasas lluvias y temperaturas calurosas suavizadas por las brisas marinas.\n\nFundada oficialmente en 1874 bajo el nombre de Olivares, la localidad fue rebautizada el 26 de enero de 1966 por el Concejo Municipal del Distrito Federal, renombrándola como Catia La Mar. Según el censo de 2011, la parroquia contaba con 85.054 habitantes, cifra que ascendió a 112.444 en estimaciones de 2023. Su economía se basa en el comercio, el turismo y el transporte, destacando el puerto pesquero La Zorra, que comercializa el 30% de la producción piscícola del estado, y una zona industrial con fábricas de pasta, harinas y cemento. El 24 de junio de 2026, la zona sufrió uno de los impactos más dramáticos del terremoto, con derrumbes en complejos residenciales y una grave escasez de recursos de rescate.",
+    "aboutTitle": "Puerto pesquero La Zorra y la industria de pasta de Catia La Mar"
   },
   {
     "slug": "vitarte",
@@ -172,8 +176,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de Vitarte, localidad obrera y casco histórico de Ate en Lima, declarada Patrimonio Cultural de la Nación en 1990.",
-    "about": "Vitarte es la capital y casco histórico del distrito de Ate, en Lima (Perú). Destaca por su pasado industrial y su relevancia en la historia laboral del país. En 1871 se construyó la Fábrica Textil de Vitarte, impulsada por Carlos López Aldana, y en 1896 se registró aquí la primera huelga obrera del Perú. Desde el 15 de marzo de 1990, su zona histórica es Patrimonio Cultural de la Nación.\n\nEn el Chat de Vitarte se reúnen vecinos y personas interesadas en la historia local. Los temas incluyen el día a día en el distrito, su legado industrial y eventos culturales. Es un espacio para quienes viven en Vitarte o sienten curiosidad por su papel en la formación de la Lima moderna, especialmente su conexión con el movimiento obrero y la industria textil."
+    "intro": "Vitarte, capital del distrito de Ate en la ciudad de Lima, Perú, es un barrio obrero y Patrimonio Cultural de la Nación desde 1990.",
+    "about": "Vitarte es una localidad, capital y casco histórico del distrito de Ate, en la ciudad de Lima, capital del Perú. La zona es famosa por ser un barrio obrero y ser la capital del distrito de Ate. En 1871, se construye la Fábrica Textil de Vitarte por Carlos López Aldana.​ En 1896, se realizó la primera huelga de obreros en el Perú.​​​​​ El 13 de febrero de 1951, la capital del distrito pasó del pueblo de Ate al pueblo de Vitarte, lo que dio origen a que el distrito sea llamado «Ate Vitarte». La localidad cuenta con varios lugares de interés, como la Plaza de armas de Vitarte, la Municipalidad distrital de Ate, el Centro Cultural de Ate y el Parque 26 de Mayo. También es conocida por su Centro educativo emblemático, el Colegio Edelmira del Pando, fundada en 1961.\n\n La zona es Patrimonio Cultural de la Nación desde el 15 de marzo de 1990, lo que refleja su importancia histórica y cultural en el país.",
+    "aboutTitle": "Vitarte, un barrio obrero en el corazón de Lima"
   },
   {
     "slug": "comas",
@@ -201,8 +206,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Comas, distrito de Lima. Aquí se gestionan trámites municipales como licencias de funcionamiento y matrimonio civil en línea.",
-    "about": "Comas es uno de los distritos de la provincia de Lima, Perú. Limita con Carabayllo al norte, San Juan de Lurigancho al este, Independencia al sur y Los Olivos y Puente Piedra al oeste. Su municipalidad ofrece servicios en línea como pagos, consulta de expedientes y trámites como licencias de edificación o matrimonios civiles.\n\nEn el Chat de Comas entran vecinos que comentan obras municipales, amnistías tributarias como la de julio o eventos locales. También se habla de participación vecinal, normativas urbanas y gestiones cotidianas, desde el ITSE hasta el registro tributario. Es un espacio para quienes viven o trabajan en el distrito y buscan información sobre su municipio."
+    "intro": "Comas, distrito limeño que limita al norte con Carabayllo y al este con San Juan de Lurigancho, destaca por su ubicación en el valle del río Chillón.",
+    "about": "Comas es uno de los cuarenta y tres distritos que conforman la provincia de Lima, en el departamento homónimo del Perú. El distrito se sitúa en el valle de Carabayllo, en la parte baja del río Chillón. Limita al norte con el distrito de Carabayllo; al este con el distrito de San Juan de Lurigancho; al sur con el distrito de Independencia; y al oeste con los distritos de Los Olivos y Puente Piedra. Su posición geográfica lo convierte en una zona de transición entre la zona costera y la sierra.\n\nEn la época prehispánica el territorio formó parte del extenso señorío llamado Culli, Colli o Collec, más tarde castellanizado como Collique. Según Fray Domingo de Santo Tomás, el término colliruna significa “diligente”, y Diego González Holguín lo describe como “mucho brío y esfuerzo por el trabajo, diligente e incansable”. En el cerro Choquen y el cerro Collique se ubicaron dos fuertes militares que defendían el señorío, que contaba con extensos campos de cultivo y manantiales de agua. El señorío de Colli comprendía desde el litoral hasta la actual Santa Rosa de Quives, y sus habitantes rechazaban los ataques enemigos gracias a sus fortalezas. La presencia de la cultura Huari a partir del año 600 también dejó huellas en la zona, aunque en el valle del Chillón no se ha encontrado un centro administrativo y religioso de la magnitud de Cajamarquilla, lo que sugiere un control indirecto del valle.",
+    "aboutTitle": "Comas y el valle del río Chillón: historia y límites"
   },
   {
     "slug": "villa-el-salvador",
@@ -230,8 +236,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat para vecinos, estudiantes y trabajadores de Villa El Salvador, distrito limeño junto al Pacífico. Noticias locales, transporte y vida diaria.",
-    "about": "Villa El Salvador es un distrito de Lima, Perú, en la zona sur de la capital. Limita con San Juan de Miraflores, Villa María del Triunfo, Lurín y el océano Pacífico. Su territorio mezcla áreas urbanas con zonas costeras donde se desarrollan actividades económicas y sociales.\n\nEn el Chat de Villa El Salvador participan residentes, trabajadores y estudiantes que buscan información práctica. Los temas habituales incluyen eventos locales, servicios públicos, transporte, comercios y negocios de la zona. También se comparten novedades sobre proyectos municipales o iniciativas vecinales que impactan en el día a día. La sala es un espacio para quienes tienen vínculos con el distrito, ya sea por residencia, trabajo o estudios."
+    "intro": "Villa El Salvador, un distrito de Lima Sur con una superficie de 35,46 km², es el tercer distrito con menor extensión en la zona.",
+    "about": "Villa El Salvador es un distrito ubicado en la provincia de Lima, en el Perú. Limita al norte con el distrito de San Juan de Miraflores, al este con el distrito de Villa María del Triunfo, al sur con el distrito de Lurín y al oeste con el océano Pacífico y el distrito de Chorrillos. El nombre del distrito fue propuesto por el monseñor Luis Bambarén, quien tomó el nombre de 'Villa' por ser un lugar poblado y distinguido de otros lugares, y 'El Salvador' en homenaje a Jesucristo.\n\nEl distrito nació como un asentamiento humano en mayo de 1971, cuando un grupo de pobladores invadió unos terrenos erizados ubicados en Pamplona, distrito de San Juan de Miraflores. Luego de varios días de negociaciones con el gobierno revolucionario, los pobladores fueron reubicados en unos arenales situados a 25 kilómetros al sur de Lima, denominándose 'Pueblo Joven Villa El Salvador'.",
+    "aboutTitle": "Historia y creación de Villa El Salvador"
   },
   {
     "slug": "limon-costa-rica",
@@ -351,34 +358,6 @@ export const CITIES_GENERADAS: Place[] = [
     ],
     "intro": "Sala de chat de Hidalgo (Michoacán), municipio que plantó 3 mil arbolitos en El Mirador y reparte apoyos sociales.",
     "about": "Hidalgo es un municipio de Michoacán, México. Su gobierno municipal, encabezado por Jeovana Alcántar, organiza actividades como la reforestación de 3 mil arbolitos en El Mirador (Llano del Ejido) y la entrega de apoyos sociales a través de la Dirección de Desarrollo Social. También ha impulsado eventos como el Primer Congreso Internacional de Tecnologías Emergentes 2025.\n\nEn la sala de chat de Hidalgo se reúnen vecinos y visitantes para hablar de la vida local, desde las obras públicas y los programas municipales hasta las iniciativas de desarrollo urbano. Es un espacio para quienes quieren estar al tanto de las actividades del ayuntamiento o conectar con gente de la zona."
-  },
-  {
-    "slug": "lima-metropolitana",
-    "name": "Lima Metropolitana",
-    "kind": "ciudad",
-    "icon": "💬",
-    "users": 170,
-    "votes": 276,
-    "activity": "Alta",
-    "parentName": "Perú",
-    "parentSlug": "peru",
-    "provincia": "Provincia de Lima",
-    "regionSlug": "provincia-de-lima",
-    "channels": [
-      "peru",
-      "latinoamerica",
-      "chatzona"
-    ],
-    "related": [
-      "peru",
-      "lima",
-      "callao",
-      "amistad",
-      "amor"
-    ],
-    "intro": "Chat de Lima Metropolitana: conecta con usuarios de la zona urbana más grande del Perú, la 32.ª mayor área metropolitana del mundo con 11,3 millones.",
-    "aboutTitle": "Lima-Callao, la 32.ª mayor área metropolitana del mundo",
-    "about": "El área metropolitana de Lima-Callao agrupa los distritos de la provincia de Lima y la provincia constitucional del Callao, constituyendo la zona urbana más extensa y poblada del país. Según el INEI, en 2023 cuenta con una población estimada de 11,3 millones de habitantes, lo que la sitúa como una de las cinco mayores en Latinoamérica y la 32.ª mayor área metropolitana en todo el mundo. Su carácter de megaciudad la convierte en un punto neurálgico para la actividad económica, cultural y social del Perú.\n\nLa sala de chat de Lima Metropolitana reúne a residentes, estudiantes y visitantes que comparten información sobre la vida cotidiana, noticias locales, eventos culturales y temas de interés general. Los participantes discuten la dinámica de la ciudad, sus desafíos y oportunidades, intercambiando opiniones y experiencias que reflejan la diversidad de la gran comunidad limeña."
   },
   {
     "slug": "palermo-colombia",
@@ -523,9 +502,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Maipú, la segunda comuna más poblada de Chile con 503.635 habitantes, ubicada en el sector surponiente de Santiago, conecta con vecinos y temas locales",
-    "aboutTitle": "Maipú: segunda comuna más poblada de Chile",
-    "about": "Chat de Maipú es una sala de conversación online dedicada a la comuna de Maipú, en el sector surponiente de la ciudad de Santiago, Chile. Según el censo de 2024, Maipú cuenta con 503.635 habitantes, lo que la convierte en la segunda comuna más poblada del país después de Puente Alto. La comuna forma parte de la provincia de Santiago y pertenece a la Región Metropolitana. Su ubicación al suroeste del centro de Santiago le otorga una identidad urbana marcada por barrios residenciales y actividades comerciales.\n\nEn la sala de chat los participantes discuten temas como la vida cotidiana en Maipú, servicios municipales, transporte, eventos locales y cuestiones de seguridad. Se unen residentes, estudiantes, comerciantes y personas interesadas en la zona, intercambiando información, avisos y opiniones. La conversación se mantiene abierta y respetuosa, facilitando la conexión entre vecinos que buscan compartir experiencias y estar al día con lo que ocurre en su comunidad."
+    "intro": "Maipú, segunda comuna más poblada de Chile, con 503.635 habitantes según el censo de 2024, ubicada en el sector surponiente de la ciudad de Santiago.",
+    "aboutTitle": "Maipú, la cuna de la independencia chilena",
+    "about": "Maipú es una comuna ubicada en la provincia de Santiago, dentro de la región Metropolitana de Santiago. El nombre de la comuna proviene de una derivación de la palabra «Maipo» (del mapudungun: maypun, lugar arado). En 1891, con la Ley de Comuna Autónoma, las tierras fueron llamadas «Maipú» y se llevó a cabo la creación de la Municipalidad de Maipú. La comuna es conocida por ser el lugar de la batalla de Maipú, el 5 de abril de 1818, considerada un momento clave en la consolidación de la independencia de Chile. La Capilla de la Victoria, iniciada en 1818 y finalizada en 1892, y posteriormente reconstruida después de un terremoto en 1906, es otro de sus puntos destacados. En 1942, se decidió construir un grandioso santuario en Maipú para honrar a la Virgen del Carmen."
   },
   {
     "slug": "florencio-varela-argentina",

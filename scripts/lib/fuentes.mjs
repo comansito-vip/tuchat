@@ -68,6 +68,60 @@ export async function traerWebOficial(url, { timeoutMs = 20_000 } = {}) {
  * Resumen de Wikipedia en español. Es el respaldo cuando la cola no trae
  * extracto, no la fuente principal.
  */
+/**
+ * El artículo ENTERO en texto plano, no el resumen.
+ *
+ * El endpoint `/page/summary/` devuelve solo la entradilla: entre 120 y 500
+ * caracteres. Con eso el generador no puede escribir 200 palabras sin
+ * inventarse la mitad, y el verificador —con razón— tira la ficha. Se vio al
+ * rehacer las salas de agosto: Los Mochis llegaba con 120 caracteres de fuente
+ * y Ate con cero.
+ *
+ * Afecta a mucho más que al rehacer: las 1.739 entradas de la cola que vienen
+ * de los censos de 5.000 y 4.000 no traen extracto propio y dependen de esta
+ * llamada. `prop=extracts&explaintext` devuelve el artículo completo, que suele
+ * pasar de los 5.000 caracteres, y de paso resuelve redirecciones.
+ */
+async function traerArticuloCompleto(titulo) {
+  const url = "https://es.wikipedia.org/w/api.php?action=query&format=json&formatversion=2"
+    + "&prop=extracts|pageprops&explaintext=1&redirects=1&titles=" + titulo;
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20_000) });
+    if (!res.ok) return null;
+    const pagina = (await res.json())?.query?.pages?.[0];
+    if (!pagina || pagina.missing) return null;
+    // Una página de desambiguación no describe ninguna localidad concreta.
+    if (pagina.pageprops && "disambiguation" in pagina.pageprops) return null;
+    const texto = String(pagina.extract ?? "").trim();
+    return texto.length > 200 ? texto : null;
+  } catch {
+    return null;
+  } finally {
+    await dormir(200);
+  }
+}
+
+/**
+ * Títulos alternativos para un topónimo que a secas lleva a la desambiguación.
+ *
+ * «Ate» es un distrito de Lima y también un montón de cosas más, así que el
+ * título pelado devuelve la página de desambiguación y la localidad se queda sin
+ * fuente. Wikipedia en español desambigua casi siempre con paréntesis, y de vez
+ * en cuando con el nombre administrativo delante.
+ */
+function titulosAlternativos(nombre, contexto) {
+  const partes = String(contexto).split(/\s+/).filter((p) => p.length > 3);
+  const region = partes[0];
+  const pais = partes[partes.length - 1];
+  const candidatos = [
+    pais && `${nombre} (${pais})`,
+    region && region !== pais && `${nombre} (${region})`,
+    `Distrito de ${nombre}`,
+    `Municipio de ${nombre}`,
+  ].filter(Boolean);
+  return [...new Set(candidatos)].map((t) => encodeURIComponent(t.replace(/ /g, "_")));
+}
+
 export async function traerWikipedia(nombre, contexto = "", urlArticulo = null) {
   // Si la cola trae la URL del artículo, el título sale de ahí. Adivinarlo a
   // partir del nombre manda a la página de desambiguación en cuanto el topónimo
@@ -83,17 +137,31 @@ export async function traerWikipedia(nombre, contexto = "", urlArticulo = null) 
     });
     if (!res.ok) return null;
     const data = await res.json();
-    if (data.type === "disambiguation" || !data.extract) return null;
+    if (data.type === "disambiguation" || !data.extract) {
+      // El título pelado lleva a la desambiguación: se prueban las formas con
+      // paréntesis antes de darse por vencido. Solo cuando se adivinó el
+      // título; si venía de Wikidata, apunta a la página buena y no hay nada
+      // que buscar.
+      if (urlArticulo) return null;
+      for (const alt of titulosAlternativos(nombre, contexto)) {
+        const texto = await traerArticuloCompleto(alt);
+        if (texto) return texto;
+      }
+      return null;
+    }
     // Con la URL del artículo no hace falta comprobar nada más: viene de
     // Wikidata y apunta a ESTA localidad. La comprobación de abajo solo tiene
     // sentido cuando el título se ha adivinado.
-    if (urlArticulo) return data.extract;
+    // El resumen ya sirve para descartar homónimos y desambiguaciones; para el
+    // TEXTO se prefiere el artículo entero, que es lo que da de comer al
+    // generador. Si esa segunda llamada falla, se sigue con el resumen.
+    if (urlArticulo) return (await traerArticuloCompleto(titulo)) ?? data.extract;
     // Un resumen que no menciona ni la región ni el país casi siempre es de otro
     // homónimo: hay decenas de "San Miguel" repartidos por el continente.
     const pistas = contexto.toLowerCase().split(/\s+/).filter((p) => p.length > 3);
     const texto = `${data.extract} ${data.description ?? ""}`.toLowerCase();
     if (pistas.length && !pistas.some((p) => texto.includes(p))) return null;
-    return data.extract;
+    return (await traerArticuloCompleto(titulo)) ?? data.extract;
   } catch {
     return null;
   } finally {

@@ -1419,6 +1419,51 @@
    "slug": "tarimbaro",
    "razon": "sin fuente utilizable",
    "fecha": "2026-08-16"
+  },
+  {
+   "slug": "puente-alto",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 541 (line 3 column 427)",
+   "fecha": "2026-08-18"
+  },
+  {
+   "slug": "limon-costa-rica",
+   "razon": "rechazada tras corrección: La ficha afirma que Limón es una localidad de la Provincia de Limón, Costa Rica, información que no aparece en el material de origen.",
+   "fecha": "2026-08-18"
+  },
+  {
+   "slug": "chorrillos",
+   "razon": "fraseo calcado de comas: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "general-escobedo",
+   "razon": "controles de calidad: aboutTitle de 73 caracteres (debe estar entre 25 y 70); about de 98 palabras (mínimo 100)",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "hidalgo-michoacan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "lima-metropolitana",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "palermo-colombia",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "ate",
+   "razon": "fraseo calcado de comas: \"es uno de los cuarenta y tres\"",
+   "fecha": "2026-08-19"
+  },
+  {
+   "slug": "heroica-matamoros",
+   "razon": "fraseo calcado de apodaca: \"la segunda ciudad mas poblada del estado\"",
+   "fecha": "2026-08-19"
   }
  ]
 }
