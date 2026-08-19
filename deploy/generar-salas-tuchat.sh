@@ -65,7 +65,7 @@ else
 fi
 npx tsx scripts/cron/salas-termino.mjs --lote 3
 
-if [ -z "$(git status --porcelain src/data data/localidades data/terminos)" ]; then
+if [ -z "$(git status --porcelain src/data data/localidades data/terminos public/llms.txt)" ]; then
   echo "[$(date -u +%FT%TZ)] ninguna sala nueva superó los controles"
   exit 0
 fi
@@ -75,7 +75,7 @@ fi
 npm test
 
 git -c user.name="tuchat-bot" -c user.email="bot@tuchat.org" \
-    commit -q -m "chore(salas): goteo diario de salas de localidad y de término" -- src/data data/localidades data/terminos
+    commit -q -m "chore(salas): goteo diario de salas de localidad y de término" -- src/data data/localidades data/terminos public/llms.txt
 
 PUSHED=0
 for intento in 1 2 3; do

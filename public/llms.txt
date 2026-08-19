@@ -1,7 +1,7 @@
 # TuChat
 
 > Portal de chat global en español, sin registro: salas por países, ciudades y
-> temáticas (2547 salas propias · ~4900 páginas en el sitemap), con
+> temáticas (2721 salas propias · 3300 páginas en el sitemap), con
 > webchat en tiempo real, verticales temáticos, rankings por votos, resultados
 > deportivos en vivo, noticias, tiempo y loterías. Cubre España, toda
 > Hispanoamérica y ciudades del mundo con comunidad hispana.
@@ -11,14 +11,14 @@
 - Cada sala tiene una landing SEO en `/chat/{slug}` y enlaza al webchat con sus canales IRC.
 
 ## Catálogo completo
-- [/llms-full.txt](/llms-full.txt): volcado en texto plano de las 2547 salas —nombre, URL,
+- [/llms-full.txt](/llms-full.txt): volcado en texto plano de las 2721 salas —nombre, URL,
   provincia/comunidad/país, canales IRC reales y descripción propia de cada una— para
   responder sin tener que rastrear las páginas una a una. Este fichero es el índice; ese
   es el contenido.
 
 ## Salas de chat (`/chat/{slug}`)
 - Por país: [España](/chat/espana), [México](/chat/mexico), [Argentina](/chat/argentina), [Colombia](/chat/colombia), [Venezuela](/chat/venezuela), y 25 países más (índice completo en [/chat](/chat)).
-- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (1996 ciudades: en España, los 893 municipios de más de 8.000 habitantes —cobertura completa del padrón, las 17 comunidades autónomas y sus áreas metropolitanas—; en Argentina y Colombia, cobertura casi completa de localidades de más de 15.000 habitantes agrupadas por provincia/departamento; en el resto de Hispanoamérica, capitales de provincia/estado, grandes urbes, el conurbano y el interior del Cono Sur, el Caribe hispano y una amplia diáspora en EE.UU. y Canadá). Cada sala de municipio tiene contenido propio verificado (fiestas, patrimonio, geografía, industria local), no una plantilla con el nombre cambiado.
+- Por ciudad: [Madrid](/chat/madrid), [Barcelona](/chat/barcelona), [Buenos Aires](/chat/buenos-aires), [Bogotá](/chat/bogota), [Miami](/chat/miami), [Houston](/chat/houston), [Toronto](/chat/toronto)… (2096 ciudades: en España, los 893 municipios de más de 8.000 habitantes —cobertura completa del padrón, las 17 comunidades autónomas y sus áreas metropolitanas—; en Argentina y Colombia, cobertura casi completa de localidades de más de 15.000 habitantes agrupadas por provincia/departamento; en el resto de Hispanoamérica, capitales de provincia/estado, grandes urbes, el conurbano y el interior del Cono Sur, el Caribe hispano y una amplia diáspora en EE.UU. y Canadá). Cada sala de municipio tiene contenido propio verificado (fiestas, patrimonio, geografía, industria local), no una plantilla con el nombre cambiado.
 - Por temática: [Amor](/chat/amor), [Amistad](/chat/amistad), [Ligar](/chat/ligar), [LGTBI](/chat/lgtbi), [Música](/chat/musica), [Videojuegos](/chat/videojuegos)…
 - Por franja de edad: escalera abierta ([Mayores de 20](/chat/mas-de-20), [+25](/chat/mas-de-25), [+30](/chat/mas-de-30), [+40](/chat/mas-de-40), [+50](/chat/mas-de-50), [+60](/chat/mas-de-60)) y franjas cerradas ([De 18 a 25](/chat/de-18-a-25), [30-40](/chat/de-30-a-40), [40-50](/chat/de-40-a-50), [50-60](/chat/de-50-a-60), [60-70](/chat/de-60-a-70)).
 
@@ -35,7 +35,7 @@
 
 ## Otras secciones
 - [Ranking de salas](/ranking): más votadas, con desglose por temática, país y ciudad.
-- [Noticias](/noticias): 337 columnas de divulgación y tendencia en nueve categorías (actualidad, deportes, tecnología, IA, cultura, viajes, salud, economía y entretenimiento). La portada muestra las 48 más recientes; el archivo completo se recorre por categoría en `/noticias/{categoria}`.
+- [Noticias](/noticias): 497 columnas de divulgación y tendencia en nueve categorías (actualidad, deportes, tecnología, IA, cultura, viajes, salud, economía y entretenimiento). La portada muestra las 48 más recientes; el archivo completo se recorre por categoría en `/noticias/{categoria}`.
 - [Horóscopo](/horoscopo): predicción por signo (Aries, Tauro, Géminis…); landing propia por signo en `/horoscopo/{signo}`.
 - [El tiempo](/tiempo): índice de la previsión por países; landing por localidad en `/tiempo/{ciudad}` (1.965 municipios con coordenadas verificadas, previsión a 5 días de Open-Meteo actualizada cada hora). Solo se publican las localidades con datos reales.
 - [Loterías](/loterias): índice de sorteos por país; landing en `/loterias/{pais}`. Solo países con lista de sorteos verificada (los resultados de España se leen del servicio oficial de Loterías y Apuestas del Estado).
@@ -48,4 +48,4 @@
 
 ## Recursos
 - Sitemap: https://www.tuchat.org/sitemap.xml
-- Última actualización: 2026-07
+- Última actualización: 2026-08

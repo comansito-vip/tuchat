@@ -15,7 +15,7 @@
  * estimaciones del catálogo y en un volcado sin contexto se leerían como datos
  * medidos.
  */
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import {
   getCountries,
@@ -131,3 +131,46 @@ const salas = paises.length + ciudades.length + tematicas.length;
 console.log(
   `llms-full.txt generado: ${salas} salas · ${(texto.length / 1024 / 1024).toFixed(2)} MB · ${lineas.length} líneas`,
 );
+
+/**
+ * Refresca las cifras de `public/llms.txt`.
+ *
+ * Ese fichero es el índice que lee un modelo antes de decidir qué visitar, y su
+ * prosa está escrita a mano y merece la pena conservarla. Lo que se pudre son
+ * los números: el 2026-08-19 anunciaba «2547 salas · ~4900 páginas» cuando eran
+ * 2.721 y 3.311, y «337 columnas» de noticias cuando había 497. Un índice que
+ * miente sobre su propio tamaño es justo lo que no se le quiere dar a un motor
+ * de respuesta.
+ *
+ * Se sustituyen SOLO los números, anclados a las palabras que los rodean, para
+ * no tocar una coma del texto. Lo que no encaje se deja como está y se avisa.
+ */
+const INDICE = join(process.cwd(), "public", "llms.txt");
+if (existsSync(INDICE)) {
+  const sitemap = join(process.cwd(), "public", "sitemap-0.xml");
+  const urls = existsSync(sitemap)
+    ? (readFileSync(sitemap, "utf-8").match(/<loc>/g) ?? []).length
+    : null;
+
+  const sustituciones: Array<[RegExp, string]> = [
+    [/\d[\d.]* salas propias/g, `${salas} salas propias`],
+    [/las \d[\d.]* salas/g, `las ${salas} salas`],
+    [/\(\d[\d.]* ciudades:/g, `(${ciudades.length} ciudades:`],
+    [/\d[\d.]* columnas de divulgación/g, `${getNews().length} columnas de divulgación`],
+    [/Última actualización: \d{4}-\d{2}/g, `Última actualización: ${new Date().toISOString().slice(0, 7)}`],
+  ];
+  if (urls) sustituciones.push([/~[\d.]* páginas en el sitemap/g, `${urls} páginas en el sitemap`]);
+
+  let indice = readFileSync(INDICE, "utf-8");
+  const sinTocar: string[] = [];
+  for (const [busca, pone] of sustituciones) {
+    if (!busca.test(indice)) { sinTocar.push(String(busca)); continue; }
+    indice = indice.replace(busca, pone);
+  }
+  writeFileSync(INDICE, indice, "utf-8");
+  console.log(
+    `llms.txt actualizado: ${salas} salas · ${ciudades.length} ciudades · ${getNews().length} noticias` +
+    (urls ? ` · ${urls} URLs en el sitemap` : " · sitemap no encontrado, esa cifra se deja"),
+  );
+  if (sinTocar.length) console.log(`  aviso: no encajaron ${sinTocar.length} patrón(es), revisar public/llms.txt`);
+}

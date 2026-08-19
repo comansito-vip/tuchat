@@ -876,3 +876,19 @@ Groq: HT
 [2026-08-19T04:36:30.373Z]   ✗ corrientes-provincia-de-corrientes: Todos los proveedores LLM fallaron:
 Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
 Groq: HT
+[2026-08-19T08:04:31.804Z] a rehacer: 75 · lote de hoy: 25
+[2026-08-19T08:05:04.854Z]   ✓ puente-alto (Chile) — escribió Groq, verificó NVIDIA
+[2026-08-19T08:07:16.781Z]   ✓ limon-costa-rica (Costa Rica) — escribió Groq, verificó NVIDIA
+[2026-08-19T08:10:49.317Z]   ✓ chorrillos (Perú) — escribió Gemini, verificó Groq
+[2026-08-19T08:14:27.650Z]   ✓ general-escobedo (México) — escribió Gemini, verificó Groq
+[2026-08-19T08:21:41.097Z]   ✓ hidalgo-michoacan (México) — escribió Gemini, verificó Groq
+[2026-08-19T08:26:34.331Z]   ✗ palermo-colombia: Todos los proveedores LLM fallaron:
+Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per 
+Groq: HT
+[2026-08-19T08:31:25.646Z]   ✓ ate (Perú) — escribió Gemini, verificó Groq
+[2026-08-19T08:35:25.150Z]   ✓ heroica-matamoros (México) — escribió Gemini, verificó NVIDIA
+[2026-08-19T08:38:27.556Z]   ✗ corrientes-provincia-de-corrientes: controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 106 caracteres (debe estar entre 110 y 160)
+[2026-08-19T08:38:48.169Z]   ✗ simon-bolivar-anzoategui: sin fuente utilizable
+[2026-08-19T08:42:30.432Z]   ✓ la-florida (Chile) — escribió Gemini, verificó Groq
+[2026-08-19T08:46:12.340Z]   ✓ santo-domingo-oeste (República Dominicana) — escribió Gemini, verificó Groq
+[2026-08-19T08:46:35.802Z]   ✗ santa-catarina: sin fuente utilizable
