@@ -3163,5 +3163,180 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de Piedad, municipio de Michoacán que encabeza la Zona Metropolitana Pénjamo-La Piedad, con 261.450 habitantes en 2020 y una extensión de 271 km².",
     "aboutTitle": "La Piedad, un municipio con riqueza histórica y cultural",
     "about": "El municipio de La Piedad es uno de los 113 municipios que conforman el estado de Michoacán de Ocampo, situado al noroeste, en los límites con Jalisco y Guanajuato, y su cabecera municipal es La Piedad de Cabadas. Cuenta con una extensión de 271 km², temperatura media anual de 17 °C y clima templado, veranos calurosos y lluvias de junio a septiembre, con una estación invernal poco definida. Limita al noroeste con Degollado (Jalisco), al norte con Pénjamo (Guanajuato), al oriente con Numarán, al sur con Zináparo, Churintzio y Ecuandureo, y al occidente con Yurécuaro. En el centro destaca la plaza principal con un kiosco de cantería y el Santuario del Señor de La Piedad; también se encuentran el puente Cavadas de piedra del siglo XIX, el templo de San Francisco, el Santuario de Guadalupe y el templo de la Purísima Concepción, el más antiguo, de finales del siglo XVII, que originalmente albergó al santo patrón San Sebastián y hoy forma parte del barrio La Purísima, donde está la Escuela de Artes, antes hospital civil. A 17 km se ubica la cascada El Salto, de 21 m de altura y 130 m de ancho, en el cauce del río Lerma, y a similar distancia la reserva Cerro Grande."
+  },
+  {
+    "slug": "cabos",
+    "name": "Cabos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 240,
+    "activity": "Alta",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-paz-mexico",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Cabos, un destino turístico en la península de Baja California, México, con 351,111 habitantes y 3,750.90 km2 de expansión territorial.",
+    "aboutTitle": "Un destino turístico en la península de Baja California",
+    "about": "Cabos es un municipio ubicado en el extremo sur del estado mexicano de Baja California Sur. La cabecera municipal es San José del Cabo y la ciudad más importante es Cabo San Lucas, a 32 km de la cabecera. La ubicación geográfica del municipio es: norte 23° 40', sur 22° 52'; este 109° 24', oeste 110° 07'. Se localiza en el extremo sur de la península de Baja California, a 220 km al sur de La Paz. El clima es desértico semiseco, caluroso en verano y templado en invierno; con una temperatura promedio anual de 26 °C. Aunque la precipitación pluvial es escasa, oficialmente la temporada de lluvias se extiende a partir del mes de junio y concluye en octubre; sin embargo, las lluvias tienden a concentrarse durante agosto y septiembre."
+  },
+  {
+    "slug": "othon-p-blanco",
+    "name": "Othón P. Blanco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 148,
+    "votes": 251,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Quintana Roo",
+    "regionSlug": "quintana-roo",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chetumal",
+      "orange-walk",
+      "belize-city",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Othón P. Blanco, municipio de Quintana Roo con 18.760 km² de extensión territorial y frontera internacional con Belice.",
+    "aboutTitle": "El municipio de Othón P. Blanco en Quintana Roo",
+    "about": "Othón P. Blanco es un municipio ubicado en el estado de Quintana Roo, México, y es el más extenso del estado, representando el 36.9% del territorio estatal. Ocupa toda la zona sur del estado y limita al norte con el municipio de Bacalar, al oeste con el municipio de Calakmul del estado de Campeche y al sur con Belice. El municipio es conocido por ser el lugar donde se encuentra el Banco Chinchorro, un atolón formado por cayos y arrecifes ubicado en el mar Caribe frente a las costas de Mahahual, y que es famoso como destino turístico de buceo. El nombre del municipio es en honor a Othón Pompeyo Blanco Núñez de Cáceres, colonizador de la región y fundador de Payo Obispo. La ubicación geográfica del municipio lo hace atractivo para los turistas que buscan disfrutar de la belleza natural de la región."
+  },
+  {
+    "slug": "jalapa",
+    "name": "Jalapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 218,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Jalapa",
+    "regionSlug": "departamento-de-jalapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "villa-nueva",
+      "mixco",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jalapa, cabecera departamental del Departamento de Jalapa en Guatemala, es una ciudad con una rica historia y un clima templado.",
+    "aboutTitle": "La Morena Climatológica de Oriente",
+    "about": "Jalapa es una ciudad ubicada a 100 km de la Veracruz, en el valle que rodea el volcán Jumay. El clima es templado, sin frío extremo ni calor excesivo durante todo el año, por lo que se le conoce como «La Morena Climatológica de Oriente». La ciudad es sede de la Gobernación departamental y del Centro Universitario de Sur-Oriente de la Universidad de San Carlos, fundado en enero de 1978. Jalapa fue uno de los municipios originales del Estado de Guatemala después de la Independencia en 1821 y posteriormente se convirtió en la cabecera del Departamento de Jalapa, creado el 24 de noviembre de 1873. La ciudad tiene una rica historia, ya que fue parte del distrito de Chiquimula y luego se convirtió en la sede del circuito homónimo en el distrito N.º4 Chiquimula para la impartición de justicia por medio del sistema de juicios de jurados. La ciudad es un importante centro político y educativo en la región."
+  },
+  {
+    "slug": "lurin-provincia-de-lima",
+    "name": "Lurín",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 230,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lurín es un distrito de la provincia de Lima, en el Perú, con una rica historia que se remonta a los paleolíticos superiores.",
+    "aboutTitle": "Historia y ubicación de Lurín",
+    "about": "El distrito de Lurín es uno de los cuarenta y tres distritos que conforman la provincia de Lima, ubicada en el departamento homónimo, en el Perú. Limita al norte con los distritos de Villa El Salvador, Villa María del Triunfo y Pachacámac; al este, también con el distrito de Pachacámac; al sur, con el distrito de Punta Hermosa; y al oeste, con el océano Pacífico.\n\nEn este valle, que hoy lo conocemos como valle de Lurín, se encontraba el templo del dios creador, como lo denominaron las culturas preincas, que luego fue conquistado por el Imperio incaico que anexo su dominio al imperio Incaico, respetando sus creencias y mejorando el templo que hoy lo conocemos como restos o sitio arqueológico de Pachacámac, en el distrito de Lurín."
+  },
+  {
+    "slug": "joyabaj",
+    "name": "Joyabaj",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 196,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mixco",
+      "solola",
+      "antigua-guatemala",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Joyabaj es un municipio del departamento de Quiché en Guatemala, fundado en el siglo XVI, específicamente alrededor de 1549.",
+    "aboutTitle": "Historia y cultura en el municipio de Quiché",
+    "about": "Joyabaj es un municipio del departamento de Quiché, en la República de Guatemala. Fue fundado alrededor del año 1549 como una de las reducciones o «pueblos de indios», por los frailes dominicos del convento de Sacapulas. Esta fundación fue parte de un proceso de reorganización territorial y religiosa llevado a cabo por la colonización española en la región. Los frailes dominicos desempeñaron un papel crucial en la creación de estas reducciones, que tenían como objetivo reagrupar a la población indígena en asentamientos más grandes y organizados, facilitando así la evangelización y la administración colonial. La ubicación de Joyabaj en el departamento de Quiché la convierte en un punto de interés histórico y cultural, reflejando la compleja interacción entre la cultura maya prehispánica y la influencia española en la región."
+  },
+  {
+    "slug": "morales-guatemala",
+    "name": "Morales",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Izabal",
+    "regionSlug": "departamento-de-izabal",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-barrios",
+      "santa-rosa-de-copan",
+      "san-pedro-sula",
+      "villanueva-honduras",
+      "choloma",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Morales, en Izabal, Guatemala, está a 55 km de Puerto Barrios y marcó la inauguración del tramo Zacapa‑Puerto Barrios del Ferrocarril del Norte el 22‑nov‑1896.",
+    "aboutTitle": "Morales y su legado ferroviario y bananero en Izabal",
+    "about": "Morales es un municipio del departamento de Izabal, situado en la región nor‑oriente de Guatemala. Se localiza a 55 km de Puerto Barrios y a 244 km de la Ciudad de Guatemala. Limita al norte con el lago de Izabal, al oeste con Los Amates, al este con Puerto Barrios y al sur con la República de Honduras. Con una superficie de 1.295 km², el municipio agrupa nueve aldeas y cincuenta y seis caseríos.\n\nEl municipio lleva el nombre de Próspero Morales, exministro de Guerra y Fomento. El 22 de noviembre de 1896 se inauguró el tramo de Zacapa a Puerto Barrios del Ferrocarril del Norte, impulsando la explotación industrial y comercial de la zona. En 1920 el presidente Carlos Herrera creó el municipio tras el desarrollo generado por la United Fruit Company, que recibió una amplia concesión territorial y estableció plantaciones bananeras tanto en Morales como en Los Amates. La cabecera municipal se divide en los sectores de Morales y Bananera, este último fue el centro operacional de la compañía bananera."
   }
 ];
