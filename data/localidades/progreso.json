@@ -123,7 +123,14 @@
   "jalapa",
   "lurin-provincia-de-lima",
   "joyabaj",
-  "morales-guatemala"
+  "morales-guatemala",
+  "bahia-de-banderas",
+  "silao-de-la-victoria",
+  "ixtlahuaca",
+  "pachacamac-provincia-de-lima",
+  "rio-bravo",
+  "chamula",
+  "costa"
  ],
  "descartadas": [
   {
@@ -2395,6 +2402,151 @@
    "slug": "chamula",
    "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 334 (line 3 column 237)",
    "fecha": "2026-08-21"
+  },
+  {
+   "slug": "puente-piedra-provincia-de-lima",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "guaymas",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "margaritas",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "zarate-provincia-de-buenos-aires",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "playas-de-rosarito",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "ciudad-hidalgo",
+   "razon": "controles de calidad: intro/meta de 166 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "el-mante",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "vichada",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "campana-argentina",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "malacatan",
+   "razon": "controles de calidad: intro/meta de 216 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "acambaro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 671 (line 3 column 553)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "usulutan-norte",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "centla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 397 (line 3 column 213)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "yautepec",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 375 (line 3 column 175)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "tarimbaro",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "lago-agrio",
+   "razon": "rechazada tras corrección: La afirmación de que la economía local se centra en la extracción petrolera no está respaldada por el material de origen",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "villa-victoria",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "olanchito",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 77 caracteres (debe estar entre 110 y 160); about de 44 palabras (mínimo 100)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "autonomo-atures",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "san-juan-bautista-tuxtepec",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 747 (line 3 column 592)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "azua",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "tocumen",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "mayari",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "presidente-peron",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "mejia",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 945 (line 5 column 40)",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "pena",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "lo-espejo",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "la-costa",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-08-22"
+  },
+  {
+   "slug": "rosarito",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1203 (line 3 column 1032)",
+   "fecha": "2026-08-22"
   }
  ]
 }
