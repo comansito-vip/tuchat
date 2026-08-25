@@ -3806,5 +3806,63 @@
   "intro": "San Juan Opico, un distrito de El Salvador ubicado a 42 kilómetros de San Salvador, capital de la república, en la región central del país.",
   "aboutTitle": "Ubicación y contexto de San Juan Opico",
   "about": "San Juan Opico es un distrito de El Salvador, perteneciente al municipio de La Libertad Centro, del departamento de La Libertad. Se encuentra ubicado en la región central del país, a 42 kilómetros de San Salvador, capital de la república de El Salvador. Su ubicación geográfica lo sitúa en un lugar estratégico, lo que ha permitido su crecimiento y desarrollo a lo largo de los años. San Juan Opico forma parte de la historia y la cultura de El Salvador, y su gente es conocida por su hospitalidad y tradiciones. La región central del país es rica en historia y cultura, y San Juan Opico no es la excepción. Su proximidad a la capital, San Salvador, también lo convierte en un lugar atractivo para aquellos que buscan una combinación de vida rural y urbana."
+ },
+ {
+  "slug": "guaymas",
+  "name": "Guaymas",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 134,
+  "votes": 217,
+  "activity": "Media",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Sonora",
+  "regionSlug": "sonora",
+  "channels": [
+   "sonora",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "ciudad-obregon",
+   "hermosillo",
+   "sonora",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Guaymas, un municipio sonorense con 156.863 habitantes y una rica historia en la costa del golfo de California.",
+  "aboutTitle": "Heroica Guaymas, un municipio sonorense con una rica historia",
+  "about": "Guaymas es un municipio ubicado en el sur del estado de Sonora, en la costa del golfo de California. Fue nombrado municipio por primera vez el 31 de octubre de 1825 y su cabecera y localidad más habitada es la ciudad y puerto de Heroica Guaymas. El municipio tiene una superficie de 7.945,6 km² y un producto interno bruto per cápita de USD 11.808. La ciudad de Guaymas tiene un título de Heroica, concedido en 1935 por la acción de armas del 13 de julio de 1854, en la defensa del puerto frente a la invasión francesa. La ciudad también es conocida por su historia, que incluye la batalla de Guaymas en 1854, donde el ejército mexicano derrotó a los soldados franceses comandados por el conde Gaston de Raousset-Boulbon.\n\nGuaymas es un importante centro económico y turístico en la región, con una variedad de industrias y actividades que atraen a visitantes y residentes. La ciudad también cuenta con una rica cultura y una historia rica, que se refleja en sus monumentos y edificios históricos."
+ },
+ {
+  "slug": "el-mante",
+  "name": "El Mante",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 130,
+  "votes": 218,
+  "activity": "Media",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Tamaulipas",
+  "regionSlug": "tamaulipas",
+  "channels": [
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "panuco",
+   "tampico",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "El Mante, municipio de Tamaulipas, México, con una rica historia y evolución desde sus humildes comienzos en la sierra de Cucharas.",
+  "aboutTitle": "El Mante, un municipio con historia en Tamaulipas",
+  "about": "El municipio de El Mante es uno de los cuarenta y tres municipios que conforman las divisiones administrativas del estado de Tamaulipas, ubicado en el noreste de México. Se encuentra en la parte sur del estado, y su cabecera municipal, así como su localidad más grande, es Ciudad Mante. Esta ciudad no solo es el centro administrativo del municipio, sino también el corazón de su vida económica y social. La congregación de Palcuay, situada en la sierra de Cucharas, perteneció en tiempos del Nuevo Santander a la entonces ciudad de Horcasitas, pero en 1821, con el nacimiento de la villa de Morelos, pasó a pertenecer a esa municipalidad, junto con el resto de las antiguas porciones del Abra. La evolución de El Mante desde sus humildes comienzos hasta convertirse en un municipio formal es un testimonio de la capacidad de adaptación y resiliencia de sus habitantes. La historia y el desarrollo del municipio están estrechamente ligados a la de su cabecera, Ciudad Mante."
  }
 ]
