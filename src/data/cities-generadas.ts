@@ -3874,5 +3874,35 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "El Mante, municipio de Tamaulipas, México, con una rica historia y evolución desde sus humildes comienzos en la sierra de Cucharas.",
     "aboutTitle": "El Mante, un municipio con historia en Tamaulipas",
     "about": "El municipio de El Mante es uno de los cuarenta y tres municipios que conforman las divisiones administrativas del estado de Tamaulipas, ubicado en el noreste de México. Se encuentra en la parte sur del estado, y su cabecera municipal, así como su localidad más grande, es Ciudad Mante. Esta ciudad no solo es el centro administrativo del municipio, sino también el corazón de su vida económica y social. La congregación de Palcuay, situada en la sierra de Cucharas, perteneció en tiempos del Nuevo Santander a la entonces ciudad de Horcasitas, pero en 1821, con el nacimiento de la villa de Morelos, pasó a pertenecer a esa municipalidad, junto con el resto de las antiguas porciones del Abra. La evolución de El Mante desde sus humildes comienzos hasta convertirse en un municipio formal es un testimonio de la capacidad de adaptación y resiliencia de sus habitantes. La historia y el desarrollo del municipio están estrechamente ligados a la de su cabecera, Ciudad Mante."
+  },
+  {
+    "slug": "usulutan-norte",
+    "name": "Usulután Norte",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Usulután",
+    "regionSlug": "departamento-de-usulutan",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "usulutan",
+      "san-miguel",
+      "san-vicente",
+      "soyapango",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Usulután Norte es un municipio de El Salvador ubicado en la región norte del Departamento de Usulután, con una población estimada de 108.523 habitantes.",
+    "aboutTitle": "El municipio de Usulután Norte",
+    "about": "Usulután Norte es uno de los 44 municipios de El Salvador. Se encuentra ubicado en la región norte del Departamento de Usulután. El municipio tiene una extensión de 551.69 km² y se organiza en nueve distritos: Alegría, Berlín, El Triunfo, Estanzuelas, Jucuapa, Mercedes Umaña, Nueva Granada, San Buenaventura y Santiago de María. Estos distritos ofrecen una variedad de paisajes y comunidades, lo que contribuye a la riqueza cultural y geográfica del municipio. La ubicación de Usulután Norte en la región norte del departamento le proporciona una conexión estratégica con otras áreas del país, lo que facilita el intercambio de bienes y servicios."
   }
 ];
