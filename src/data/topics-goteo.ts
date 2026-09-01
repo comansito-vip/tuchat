@@ -55,7 +55,8 @@ export const TOPICS_GOTEO: Place[] = [
       "chatear",
       "sin-registro",
       "amistad",
-      "webchat"
+      "webchat",
+      "anonimo"
     ],
     "intro": "Chat online significa dos cosas a la vez: que funciona en el navegador y que al otro lado hay alguien conectado ahora. Las dos se cumplen.",
     "aboutTitle": "Se abre en el navegador y hay gente dentro",
@@ -87,5 +88,84 @@ export const TOPICS_GOTEO: Place[] = [
     "intro": "Escribir «chat Santiago» no dice de cuál: hay uno en Chile, otro en Galicia, otro en la República Dominicana y varios más. Esta página separa.",
     "aboutTitle": "Seis ciudades, un nombre y un apóstol",
     "about": "El nombre viene de Sant Iago, la forma medieval de Santiago apóstol, y se repartió por el mundo hispano con la costumbre de bautizar cada fundación con el santo del día o con el patrón de quien fundaba. De ahí que hoy haya media docena de Santiagos con sala propia y ninguno tenga más derecho que los demás al nombre a secas. El de Compostela es el final del Camino y la capital de Galicia, una ciudad de piedra mojada donde el casco viejo cabe entero a pie. El de Chile es la capital del país, fundada en 1541 por Pedro de Valdivia, con la cordillera cerrando el horizonte los días en que el aire deja verla. Santiago de los Caballeros es la segunda ciudad dominicana y el corazón del Cibao. Santiago de Cuba fue capital de la isla antes que La Habana y todavía se comporta como si lo fuera. Y en Argentina, el Santiago del noroeste fue el primer asentamiento español que no llegó a despoblarse nunca. Si sabes cuál buscas, los enlaces de aquí abajo llevan a cada sala; si llegaste por casualidad, ya sabes por qué se llaman todas igual."
+  },
+  {
+    "slug": "chateamos",
+    "name": "Chateamos",
+    "kind": "tematica",
+    "icon": "💬",
+    "users": 191,
+    "votes": 263,
+    "activity": "Media",
+    "parentName": "Amistad",
+    "parentSlug": "amistad",
+    "channels": [
+      "chatea",
+      "chatear",
+      "amistad",
+      "chatzona"
+    ],
+    "related": [
+      "chatear",
+      "conocergente",
+      "terra",
+      "latinchat",
+      "amistad"
+    ],
+    "intro": "Chateamos fue uno de aquellos portales de webchat de los 2000 y todavía se busca por su nombre. Esto es lo que hay hoy donde estaba.",
+    "aboutTitle": "El nombre aguantó más que el portal",
+    "about": "Conviene decirlo antes que nada: esto no es aquel Chateamos ni tiene relación con quien lo llevaba. Es la misma advertencia que lleva la sala de Terra, y por el mismo motivo, que es no hacerle creer a nadie que ha vuelto a un sitio que ya no está. Lo que sí se puede contar es por qué el nombre sigue apareciendo en el buscador dos décadas después. Chateamos era una de esas puertas de entrada de la primera web en español, cuando chatear significaba abrir una página con la lista de salas y elegir una; el nombre, que no es más que el verbo en primera persona del plural, se quedó pegado a la costumbre y mucha gente lo sigue tecleando por inercia, como quien busca su viejo portal de correo. De aquella época quedan pocos datos verificables y aquí no se van a inventar. Lo que queda de verdad es la costumbre: entrar escribiendo un apodo, sin cuenta, y caer en una sala donde ya hay conversación. Eso funciona igual que entonces, y es todo lo que esta página promete."
+  },
+  {
+    "slug": "dominicano",
+    "name": "Dominicano",
+    "kind": "tematica",
+    "icon": "🇩🇴",
+    "users": 213,
+    "votes": 287,
+    "activity": "Alta",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "republica-dominicana",
+      "santo-domingo",
+      "santiago-de-los-caballeros",
+      "latinos",
+      "latinchat-republica-dominicana"
+    ],
+    "intro": "Dominicanos de la isla y de fuera en la misma sala: Santo Domingo, Santiago, Nueva York y Madrid escribiendo a la vez y a distinta hora.",
+    "aboutTitle": "De la isla a Alto Manhattan, misma sala",
+    "about": "La conversación dominicana no cabe entera en la isla y esta sala lo nota enseguida. Escribe gente del Distrito Nacional, de Santiago y del Cibao, y escribe también la que se fue: Nueva York —donde Washington Heights lleva medio siglo hablando dominicano—, Madrid, San Juan, Miami. Como cada uno está en una franja horaria distinta, la sala nunca se queda del todo quieta. El habla se reconoce en dos mensajes: el «qué lo qué» de saludo, el «vaina» que sirve para cualquier cosa, la costumbre de comerse las eses al final de palabra hasta cuando se escribe. Los temas dan vueltas alrededor de lo de siempre y no hace falta forzarlos: el dembow y quién manda este mes, la bachata de toda la vida, el colmado como institución social, el béisbol invernal con las Águilas y el Licey partiendo familias. También sale lo otro, lo de la luz que se va, lo del pasaje y lo de mandar dinero a casa, que se habla con menos épica y más detalle. Se entra escribiendo un apodo, sin cuenta ni datos, y se saluda a la sala antes de meterse en cualquier conversación."
+  },
+  {
+    "slug": "anonimo",
+    "name": "Anónimo",
+    "kind": "tematica",
+    "icon": "🕶️",
+    "users": 229,
+    "votes": 296,
+    "activity": "Alta",
+    "parentName": "Amistad",
+    "parentSlug": "amistad",
+    "channels": [
+      "chat",
+      "amistad",
+      "chatzona"
+    ],
+    "related": [
+      "sin-registro",
+      "desconocidos",
+      "chatear",
+      "online",
+      "omegle"
+    ],
+    "intro": "Anónimo aquí quiere decir sin cuenta, sin correo y sin foto: entras con un apodo inventado y nadie sabe de ti más que lo que tú cuentes.",
+    "aboutTitle": "Un apodo inventado y nada más detrás",
+    "about": "El anonimato de un chat de texto es concreto y conviene entenderlo bien, porque protege mucho en una dirección y nada en la contraria. Hacia los demás usuarios protege del todo: nadie ve tu nombre, tu correo, tu edad ni tu cara, porque no hay ficha que rellenar, y el apodo con el que entras se puede cambiar mañana sin dejar rastro de que eras el mismo. Eso es lo que la gente busca cuando escribe «chat anónimo»: hablar de algo sin que quede pegado a su nombre, contar lo que no se cuenta en el grupo del trabajo, preguntar lo que da vergüenza preguntar. Hacia la sala, en cambio, el anonimato tiene un límite sano: hay moderación, y a quien acosa, spamea o entra a incordiar se le echa aunque no se sepa quién es. Lo que de verdad rompe el anonimato es uno mismo. Casi siempre se cae por lo mismo: el nick de siempre reutilizado en todas partes, la foto que se manda por privado en un impulso, el detalle que identifica sin querer. Lo demás lo hace la costumbre: no dar el teléfono el primer día y desconfiar de quien lo pide."
   }
 ];
