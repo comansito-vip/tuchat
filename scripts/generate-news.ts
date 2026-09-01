@@ -54,7 +54,7 @@ const CATEGORIES = [
 ] as const;
 
 const ITEMS_PER_CATEGORY = 2;
-const ANTHROPIC_MODEL = "claude-opus-4-8";
+const ANTHROPIC_MODEL = "claude-sonnet-5";
 const OPENAI_MODEL = "gpt-4o";
 
 interface GeneratedItem {
@@ -124,7 +124,7 @@ function parseJsonArray(text: string): GeneratedItem[] {
     }));
 }
 
-/** Claude (Anthropic Messages API). Sin temperature/budget_tokens (rechazados en Opus 4.8). */
+/** Claude (Anthropic Messages API). Sin temperature/budget_tokens (rechazados en Opus 4.8; se mantiene igual con Sonnet). */
 async function callClaude(category: string): Promise<GeneratedItem[]> {
   const key = process.env.ANTHROPIC_API_KEY;
   if (!key) throw new Error("ANTHROPIC_API_KEY no definida");

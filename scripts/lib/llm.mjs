@@ -30,7 +30,10 @@ export const PROVEEDORES = [
   { nombre: "Groq", env: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", modelo: "openai/gpt-oss-120b" },
   { nombre: "Cerebras", env: "CEREBRAS_API_KEYS", base: "https://api.cerebras.ai/v1", modelo: "gpt-oss-120b" },
   { nombre: "Mistral", env: "MISTRAL_API_KEYS", base: "https://api.mistral.ai/v1", modelo: "mistral-large-latest" },
-  { nombre: "NVIDIA", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "meta/llama-3.1-70b-instruct" },
+  // meta/llama-3.1-70b-instruct salió del catálogo de NVIDIA (410 Gone, detectado
+  // el 2026-09-01 desde generate-news.ts pero sin propagar aquí); reemplazado por
+  // meta/llama-3.2-90b-vision-instruct, comprobado con llamada real.
+  { nombre: "NVIDIA", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "meta/llama-3.2-90b-vision-instruct" },
   // Segunda entrada sobre la MISMA cuenta de NVIDIA, con un modelo de otra
   // familia. No es un proveedor más: es la forma de tener dos modelos
   // independientes cuando el resto de la cadena está sin cuota.

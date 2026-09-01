@@ -242,10 +242,12 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
     call: (key, room) => callOpenAICompatible("https://api.mistral.ai/v1", "mistral-large-latest", key, room),
   },
   {
+    // meta/llama-3.1-70b-instruct dio 410 Gone el 2026-09-01; reemplazado por
+    // meta/llama-3.2-90b-vision-instruct, comprobado con llamada real.
     name: "NVIDIA",
     envVar: "NVIDIA_API_KEYS",
     call: (key, room) =>
-      callOpenAICompatible("https://integrate.api.nvidia.com/v1", "meta/llama-3.1-70b-instruct", key, room),
+      callOpenAICompatible("https://integrate.api.nvidia.com/v1", "meta/llama-3.2-90b-vision-instruct", key, room),
   },
   { name: "Gemini", envVar: "GEMINI_API_KEYS", call: callGemini },
   {

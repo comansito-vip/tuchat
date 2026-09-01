@@ -30,7 +30,10 @@ const PROVIDERS = [
   { name: "Groq", envVar: "GROQ_API_KEYS", base: "https://api.groq.com/openai/v1", models: ["openai/gpt-oss-120b", "qwen/qwen3.6-27b"] },
   { name: "Cerebras", envVar: "CEREBRAS_API_KEYS", base: "https://api.cerebras.ai/v1", models: ["gpt-oss-120b", "zai-glm-4.7", "gemma-4-31b"] },
   { name: "Mistral", envVar: "MISTRAL_API_KEYS", base: "https://api.mistral.ai/v1", models: ["mistral-large-latest", "mistral-small-latest"] },
-  { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", models: ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.1-70b-instruct"] },
+  // meta/llama-3.1-70b-instruct dio 410 Gone el 2026-09-01; reemplazado por
+  // meta/llama-3.2-90b-vision-instruct (comprobado con llamada real), que es el
+  // que ya usan generate-news.ts y scripts/lib/llm.mjs.
+  { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", models: ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.2-90b-vision-instruct"] },
   { name: "Gemini", envVar: "GEMINI_API_KEYS", base: "https://generativelanguage.googleapis.com/v1beta/openai", models: ["gemini-3.5-flash", "gemini-flash-latest"] },
   { name: "Cohere", envVar: "COHERE_API_KEYS", base: "https://api.cohere.ai/compatibility/v1", models: ["command-a-03-2025"] },
   // openai/gpt-oss-20b:free dejó de ser gratis el 2026-09-01 ("This model is
