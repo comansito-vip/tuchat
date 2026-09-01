@@ -234,7 +234,7 @@ const promptAjustar = (loc, ficha, problemas) => `Ajusta la longitud de esta fic
 QUÉ HAY QUE AJUSTAR:
 ${problemas.map((p) => "- " + p).join("\n")}
 
-Si hay que alargar, desarrolla lo que YA dice el texto (de qué se habla en la sala, quién entra, a qué horas se anima) — no metas datos nuevos sobre la localidad.
+Si hay que alargar, desarrolla con más detalle los datos reales que YA aparecen en el texto (provincia, comarca, localidades vecinas, población, algún rasgo geográfico o histórico ya mencionado) — no metas datos nuevos sobre la localidad. NUNCA describas quién entra a la sala, de qué se habla o el ambiente: eso no tiene fuente y está prohibido más arriba, aunque parezca la forma más fácil de ganar longitud.
 
 FICHA ACTUAL:
 ${JSON.stringify({ intro: ficha.intro, about: ficha.about }, null, 1)}
