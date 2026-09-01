@@ -3904,5 +3904,63 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Usulután Norte es un municipio de El Salvador ubicado en la región norte del Departamento de Usulután, con una población estimada de 108.523 habitantes.",
     "aboutTitle": "El municipio de Usulután Norte",
     "about": "Usulután Norte es uno de los 44 municipios de El Salvador. Se encuentra ubicado en la región norte del Departamento de Usulután. El municipio tiene una extensión de 551.69 km² y se organiza en nueve distritos: Alegría, Berlín, El Triunfo, Estanzuelas, Jucuapa, Mercedes Umaña, Nueva Granada, San Buenaventura y Santiago de María. Estos distritos ofrecen una variedad de paisajes y comunidades, lo que contribuye a la riqueza cultural y geográfica del municipio. La ubicación de Usulután Norte en la región norte del departamento le proporciona una conexión estratégica con otras áreas del país, lo que facilita el intercambio de bienes y servicios."
+  },
+  {
+    "slug": "tocumen",
+    "name": "Tocumen",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Panamá",
+    "parentSlug": "panama",
+    "provincia": "Provincia de Panamá",
+    "regionSlug": "provincia-de-panama",
+    "channels": [
+      "panama",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-miguelito",
+      "panama",
+      "ciudad-de-panama",
+      "arraijan",
+      "la-chorrera",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tocumen es un corregimiento perteneciente al distrito de Panamá, situado específicamente en la zona este del área metropolitana de la Ciudad de Panamá.",
+    "aboutTitle": "Tocumen en el área metropolitana de Panamá",
+    "about": "Tocumen es un corregimiento del distrito de Panamá, en Panamá. Esta demarcación se encuentra ubicada en la zona este del área metropolitana de la Ciudad de Panamá. Su posición geográfica lo sitúa como una pieza clave dentro de la organización territorial del distrito de Panamá, extendiéndose por la zona este de la capital. Al formar parte del área metropolitana de la Ciudad de Panamá, este corregimiento comparte la dinámica urbana y administrativa de la región este. La ubicación de Tocumen en el distrito de Panamá define su relación con el resto de los corregimientos que integran la zona este de la metrópoli. Esta zona este del área metropolitana de la Ciudad de Panamá alberga a Tocumen como uno de sus sectores principales dentro de la estructura del distrito de Panamá. La configuración de este corregimiento en la zona este permite que se integre plenamente en el desarrollo del distrito de Panamá y en el crecimiento general del área metropolitana de la Ciudad de Panamá, manteniendo siempre su identidad como corregimiento panameño situado en el oriente de la capital."
+  },
+  {
+    "slug": "sayaxche",
+    "name": "Sayaxché",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 145,
+    "votes": 245,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Petén",
+    "regionSlug": "departamento-de-peten",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "flores",
+      "coban",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sayaxché es un municipio del departamento de Petén en Guatemala con una población de 99.787 habitantes y una superficie de 3.904 kilómetros cuadrados.",
+    "aboutTitle": "Sayaxché y los vestigios de Ceibal y Aguateca",
+    "about": "Sayaxché, cuyo nombre en q'ek'chi significa horqueta de ceiba, es un municipio situado en el departamento de Petén, Guatemala. Fue creado el 4 de diciembre de 1929 por decreto del general Lázaro Chacón, dejando de ser una aldea de La Libertad para ser ascendido a municipio el 30 de diciembre del mismo año. La cabecera municipal posee un clima tropical según la clasificación de Köppen.\n\nEl territorio ocupa el 10,89% del departamento de Petén y cuenta con una organización política compuesta por ocho aldeas, ciento cuarenta caseríos, cuatro fincas, cuatro asentamientos y cinco cooperativas. Entre sus aldeas destacan Rancho Alegre, El Pato y Tierra Blanca. El municipio alberga vestigios arqueológicos como Ceibal, Aguateca, Dos Pilas y Cancuén, además de atractivos naturales como el parque nacional El Rosario, San Juan Acul y la laguna Petexbatún."
   }
 ];
