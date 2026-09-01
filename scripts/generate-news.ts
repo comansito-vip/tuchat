@@ -248,7 +248,10 @@ const PROVIDERS: { name: string; envVar?: string; call: (c: string) => Promise<G
   { name: "Cerebras", envVar: "CEREBRAS_API_KEYS", call: makeOpenAICompatibleCaller("Cerebras", "CEREBRAS_API_KEYS", "https://api.cerebras.ai/v1", ["gpt-oss-120b", "zai-glm-4.7", "gemma-4-31b"]) },
   { name: "Mistral", envVar: "MISTRAL_API_KEYS", call: makeOpenAICompatibleCaller("Mistral", "MISTRAL_API_KEYS", "https://api.mistral.ai/v1", ["mistral-large-latest", "mistral-small-latest"]) },
   // llama-3.3-70b da 503 por saturación a ratos; nemotron aguanta mejor y va primero.
-  { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", call: makeOpenAICompatibleCaller("NVIDIA", "NVIDIA_API_KEYS", "https://integrate.api.nvidia.com/v1", ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.3-70b-instruct"]) },
+  // llama-3.3-70b-instruct salió del catálogo de NVIDIA (ya no aparece en /v1/models)
+  // el 2026-09-01; el reemplazo probado con llamada real —sí devuelve contenido— es
+  // llama-3.2-90b-vision-instruct.
+  { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", call: makeOpenAICompatibleCaller("NVIDIA", "NVIDIA_API_KEYS", "https://integrate.api.nvidia.com/v1", ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.2-90b-vision-instruct"]) },
   // gemini-2.0-flash devuelve 429 con las 4 claves de la red (el free tier del
   // modelo viejo ya no existe) y gemini-2.5-flash da 404 "no longer available to
   // new users": el que responde hoy es gemini-3.5-flash.
@@ -257,8 +260,11 @@ const PROVIDERS: { name: string; envVar?: string; call: (c: string) => Promise<G
   // Slugs :free vigentes verificados contra /models el 2026-08-06. Los que había
   // aquí antes (gpt-oss-120b:free, qwen3-next-80b:free, llama-3.3-70b:free) ya no
   // existen como gratuitos y devolvían 404 "use the paid slug instead".
+  // openai/gpt-oss-20b:free tampoco es gratis desde el 2026-09-01 (la API responde
+  // "This model is unavailable for free. The paid version is available now"); se
+  // quita de la lista en vez de sustituirse porque nemotron-3-super-120b-a12b:free
+  // ya estaba aquí abajo como alternativa vigente.
   { name: "OpenRouter", envVar: "OPENROUTER_API_KEYS", call: makeOpenAICompatibleCaller("OpenRouter", "OPENROUTER_API_KEYS", "https://openrouter.ai/api/v1", [
-    "openai/gpt-oss-20b:free",
     "google/gemma-4-31b-it:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
     "nvidia/nemotron-3-nano-30b-a3b:free",

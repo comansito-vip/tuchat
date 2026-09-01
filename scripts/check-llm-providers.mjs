@@ -33,7 +33,10 @@ const PROVIDERS = [
   { name: "NVIDIA", envVar: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", models: ["nvidia/nemotron-3-super-120b-a12b", "meta/llama-3.1-70b-instruct"] },
   { name: "Gemini", envVar: "GEMINI_API_KEYS", base: "https://generativelanguage.googleapis.com/v1beta/openai", models: ["gemini-3.5-flash", "gemini-flash-latest"] },
   { name: "Cohere", envVar: "COHERE_API_KEYS", base: "https://api.cohere.ai/compatibility/v1", models: ["command-a-03-2025"] },
-  { name: "OpenRouter", envVar: "OPENROUTER_API_KEYS", base: "https://openrouter.ai/api/v1", models: ["openai/gpt-oss-20b:free", "google/gemma-4-31b-it:free", "nvidia/nemotron-3-super-120b-a12b:free"] },
+  // openai/gpt-oss-20b:free dejó de ser gratis el 2026-09-01 ("This model is
+  // unavailable for free. The paid version is available now"); se quita de la
+  // lista porque nemotron-3-super-120b-a12b:free ya figuraba como alternativa.
+  { name: "OpenRouter", envVar: "OPENROUTER_API_KEYS", base: "https://openrouter.ai/api/v1", models: ["google/gemma-4-31b-it:free", "nvidia/nemotron-3-super-120b-a12b:free"] },
   { name: "HuggingFace", envVar: "HUGGINGFACE_API_KEYS", base: "https://router.huggingface.co/v1", models: ["meta-llama/Llama-3.3-70B-Instruct"] },
 ];
 

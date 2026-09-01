@@ -250,11 +250,13 @@ const PROVIDERS: { name: string; envVar: string; call: ProviderCall }[] = [
   { name: "Gemini", envVar: "GEMINI_API_KEYS", call: callGemini },
   {
     // Slug :free vigente: el de llama-3.3-70b dejó de existir como gratuito y
-    // devolvía 404 con las cuatro claves.
+    // devolvía 404 con las cuatro claves. gpt-oss-20b:free lo siguió el
+    // 2026-09-01 ("This model is unavailable for free. The paid version is
+    // available now"); nemotron-3-super-120b-a12b:free sí está en /v1/models.
     name: "OpenRouter",
     envVar: "OPENROUTER_API_KEYS",
     call: (key, room) =>
-      callOpenAICompatible("https://openrouter.ai/api/v1", "openai/gpt-oss-20b:free", key, room),
+      callOpenAICompatible("https://openrouter.ai/api/v1", "nvidia/nemotron-3-super-120b-a12b:free", key, room),
   },
   {
     name: "HuggingFace",

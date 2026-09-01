@@ -49,7 +49,10 @@ export const PROVEEDORES = [
   { nombre: "NVIDIA-Gemma", env: "NVIDIA_API_KEYS", base: "https://integrate.api.nvidia.com/v1", modelo: "google/gemma-4-31b-it" },
   { nombre: "Gemini", env: "GEMINI_API_KEYS", base: "https://generativelanguage.googleapis.com/v1beta/openai", modelo: "gemini-3.5-flash" },
   { nombre: "HuggingFace", env: "HUGGINGFACE_API_KEYS", base: "https://router.huggingface.co/v1", modelo: "meta-llama/Llama-3.3-70B-Instruct" },
-  { nombre: "OpenRouter", env: "OPENROUTER_API_KEYS", base: "https://openrouter.ai/api/v1", modelo: "openai/gpt-oss-20b:free" },
+  // openai/gpt-oss-20b:free dejó de ser gratis el 2026-09-01 ("This model is
+  // unavailable for free. The paid version is available now"); reemplazado por
+  // nemotron-3-super-120b-a12b:free, vigente en /v1/models de OpenRouter.
+  { nombre: "OpenRouter", env: "OPENROUTER_API_KEYS", base: "https://openrouter.ai/api/v1", modelo: "nvidia/nemotron-3-super-120b-a12b:free" },
 ];
 
 const clavesDe = (env) => (process.env[env] ?? "").split(",").map((k) => k.trim()).filter(Boolean);
