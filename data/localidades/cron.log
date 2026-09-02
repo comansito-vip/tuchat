@@ -1334,3 +1334,56 @@ Groq: HT
 [2026-09-02T04:38:24.391Z]   ✗ baralt: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
 [2026-09-02T04:38:24.392Z] demasiados intentos fallidos, se corta el lote
 [2026-09-02T04:38:24.437Z] publicadas 11 salas · acumuladas 148 · quedan 3250 en cola
+[2026-09-02T07:30:46.952Z] a rehacer: 50 · lote de hoy: 50
+[2026-09-02T07:35:43.195Z]   ✗ samana-rd: rechazada tras corrección: Afirma que el turismo es la principal actividad económica del municipio, mientras que la fuente sólo indica que el turismo es una de las principales actividades económicas, no la única o principal.
+[2026-09-02T07:38:11.952Z]   ✓ lo-barnechea (Chile) — escribió Mistral, verificó NVIDIA
+[2026-09-02T07:50:51.963Z]   ✗ palermo-colombia: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-09-02T07:57:10.476Z]   ✓ corrientes-provincia-de-corrientes (Argentina) — escribió Gemini, verificó Groq
+[2026-09-02T08:09:40.949Z]   ✗ simon-bolivar-anzoategui: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-09-02T08:22:00.209Z]   ✗ santa-catarina: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-09-02T08:34:52.964Z]   ✗ escobar: rechazada tras corrección: La ficha afirma que Belén de Escobar está en el "partido homónimo", pero la fuente indica que pertenece al partido de Escobar, que no lleva el mismo nombre que la ciudad (no es homónimo).
+[2026-09-02T08:41:26.886Z]   ✓ turmero (Venezuela) — escribió Mistral, verificó Gemini
+[2026-09-02T08:53:52.571Z]   ✗ gregorio-de-laferrere: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-09-02T09:00:18.748Z]   ✓ monclova (México) — escribió Gemini, verificó Groq
+[2026-09-02T09:06:46.167Z]   ✓ marino (Venezuela) — escribió Gemini, verificó Groq
+[2026-09-02T09:13:14.681Z]   ✓ mara (Venezuela) — escribió Gemini, verificó Mistral
+[2026-09-02T09:21:05.683Z]   ✓ arroyo-naranjo (Cuba) — escribió Gemini, verificó NVIDIA
+[2026-09-02T09:23:52.636Z]   ✗ guacara: fraseo calcado de anaco: "es la capital del municipio homonimo en"
+[2026-09-02T09:30:30.701Z]   ✗ cuautla: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-09-02T09:36:50.210Z]   ✓ lujan-de-cuyo (Argentina) — escribió Gemini, verificó Groq
+[2026-09-02T09:43:10.432Z]   ✓ la-guaira (Venezuela) — escribió Gemini, verificó Mistral
+[2026-09-02T09:49:38.585Z]   ✓ paez-venezuela (Venezuela) — escribió Gemini, verificó Groq
+[2026-09-02T10:02:05.708Z]   ✗ ciudad-acuna: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-09-02T10:08:32.150Z]   ✓ milpa-alta (México) — escribió Gemini, verificó Groq
+[2026-09-02T10:14:54.621Z]   ✗ nacajuca: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-09-02T10:16:53.804Z]   ✗ unare: rechazada tras corrección: La ficha menciona 'Unare, Bolívar, Venezuela' como localidad, pero el material de origen no respalda que exista una localidad con ese nombre en el estado Bolívar. El río Unare recorre Anzoátegui y Guá
+[2026-09-02T10:25:21.204Z]   ✓ jutiapa-guatemala (Guatemala) — escribió Mistral, verificó NVIDIA
+[2026-09-02T10:26:35.690Z]   ✗ naguanagua: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 738 (line 3 column 569)
+[2026-09-02T10:36:04.397Z]   ✓ villa-alemana (Chile) — escribió NVIDIA, verificó Groq
+[2026-09-02T10:39:01.033Z]   ✓ momostenango (Guatemala) — escribió Mistral, verificó Groq
+[2026-09-02T10:45:18.981Z]   ✓ carupano (Venezuela) — escribió Gemini, verificó Mistral
+[2026-09-02T10:51:59.560Z]   ✓ chichicastenango (Guatemala) — escribió Gemini, verificó NVIDIA
+[2026-09-02T10:53:33.787Z]   ✓ quilpue (Chile) — escribió NVIDIA, verificó Groq
+[2026-09-02T10:58:53.266Z]   ✗ colina-chile: controles de calidad: intro/meta de 166 caracteres (debe estar entre 110 y 160)
+[2026-09-02T11:05:26.195Z]   ✓ villa-madero (Argentina) — escribió Gemini, verificó Groq
+[2026-09-02T11:06:31.914Z]   ✓ apatzingan-de-la-constitucion (México) — escribió NVIDIA, verificó Mistral
+[2026-09-02T11:08:16.330Z]   ✗ la-lisa: rechazada tras corrección: La ficha menciona dos cifras de población distintas para el mismo municipio (130.969 y 123.152) sin aclarar que corresponden a diferentes conteos o años, lo que puede generar confusión. La fuente solo
+[2026-09-02T11:11:12.754Z]   ✗ yaritagua: controles de calidad: intro/meta de 175 caracteres (debe estar entre 110 y 160)
+[2026-09-02T11:13:06.320Z]   ✓ santa-lucia-cotzumalguapa (Guatemala) — escribió Mistral, verificó NVIDIA
+[2026-09-02T11:17:00.412Z]   ✓ quininde (Ecuador) — escribió NVIDIA, verificó Gemini
+[2026-09-02T11:17:52.579Z]   ✗ almoloya-de-juarez: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 425 (line 3 column 277)
+[2026-09-02T11:18:51.947Z]   ✗ porlamar: controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 161 caracteres (debe estar entre 110 y 160)
+[2026-09-02T11:31:28.372Z]   ✓ majes (Perú) — escribió NVIDIA, verificó Gemini
+[2026-09-02T11:34:26.017Z]   ✓ palma-soriano (Cuba) — escribió NVIDIA, verificó Groq
+[2026-09-02T11:39:00.214Z]   ✓ totonicapan (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-09-02T11:39:27.595Z]   ✓ uribia (Colombia) — escribió Mistral, verificó NVIDIA
+[2026-09-02T11:41:42.976Z]   ✓ coronel (Chile) — escribió NVIDIA, verificó Groq
+[2026-09-02T11:50:55.746Z]   ✓ comitan-de-dominguez (México) — escribió NVIDIA, verificó Mistral
+[2026-09-02T11:53:10.706Z]   ✓ iguala (México) — escribió Mistral, verificó NVIDIA
+[2026-09-02T11:54:00.190Z]   ✗ tinaquillo: fraseo calcado de anaco: "es la capital del municipio homonimo en"
+[2026-09-02T11:55:04.433Z]   ✗ huaral: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1020 (line 5 column 47)
+[2026-09-02T11:55:07.900Z]   ✗ moran: sin fuente utilizable
+[2026-09-02T11:56:11.442Z]   ✗ catacamas: controles de calidad: muletillas de IA: gran variedad de
+[2026-09-02T12:00:15.124Z]   ✓ socopo (Venezuela) — escribió NVIDIA, verificó Gemini
+[2026-09-02T12:00:15.150Z] quedan 21 fichas por rehacer (21 al final de la cola)
+[2026-09-02T12:00:15.151Z] publicadas 29 salas · acumuladas 148 · quedan 21 en cola

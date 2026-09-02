@@ -159,7 +159,8 @@
   "el-seibo",
   "buin",
   "nahuala",
-  "evita"
+  "evita",
+  "majes"
  ],
  "descartadas": [
   {
@@ -3150,6 +3151,111 @@
   {
    "slug": "baralt",
    "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "samana-rd",
+   "razon": "rechazada tras corrección: Afirma que el turismo es la principal actividad económica del municipio, mientras que la fuente sólo indica que el turismo es una de las principales actividades económicas, no la única o principal.",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "palermo-colombia",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "simon-bolivar-anzoategui",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "santa-catarina",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "escobar",
+   "razon": "rechazada tras corrección: La ficha afirma que Belén de Escobar está en el \"partido homónimo\", pero la fuente indica que pertenece al partido de Escobar, que no lleva el mismo nombre que la ciudad (no es homónimo).",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "gregorio-de-laferrere",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "guacara",
+   "razon": "fraseo calcado de anaco: \"es la capital del municipio homonimo en\"",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "cuautla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "ciudad-acuna",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "nacajuca",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "unare",
+   "razon": "rechazada tras corrección: La ficha menciona 'Unare, Bolívar, Venezuela' como localidad, pero el material de origen no respalda que exista una localidad con ese nombre en el estado Bolívar. El río Unare recorre Anzoátegui y Guá",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "naguanagua",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 738 (line 3 column 569)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "colina-chile",
+   "razon": "controles de calidad: intro/meta de 166 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "la-lisa",
+   "razon": "rechazada tras corrección: La ficha menciona dos cifras de población distintas para el mismo municipio (130.969 y 123.152) sin aclarar que corresponden a diferentes conteos o años, lo que puede generar confusión. La fuente solo",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "yaritagua",
+   "razon": "controles de calidad: intro/meta de 175 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "almoloya-de-juarez",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 425 (line 3 column 277)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "porlamar",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto; intro/meta de 161 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "tinaquillo",
+   "razon": "fraseo calcado de anaco: \"es la capital del municipio homonimo en\"",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "huaral",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1020 (line 5 column 47)",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "moran",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-09-02"
+  },
+  {
+   "slug": "catacamas",
+   "razon": "controles de calidad: muletillas de IA: gran variedad de",
    "fecha": "2026-09-02"
   }
  ]

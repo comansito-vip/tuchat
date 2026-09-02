@@ -568,9 +568,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Conecta con Corrientes, capital del Nordeste argentino fundada en 1588, donde se habla de su costanera con desfibriladores y el certamen 'Jacinto Mamuh'.",
-    "aboutTitle": "Corrientes: costanera cardioprotegida y el certamen 'Jacinto Mamuh'",
-    "about": "Corrientes, fundada en 1588 por Juan Torres de Vera y Aragón, es la capital de la provincia homónima y un eje administrativo y cultural del Nordeste argentino. Destacan proyectos como la costanera cardioprotegida, con desfibriladores instalados en colaboración con el Rotary Club, y eventos como el certamen interbarrios 'Jacinto Mamuh', que en ediciones recientes ha llegado a barrios como San Gerónimo. La ciudad equilibra su patrimonio histórico con iniciativas modernas, desde obras de desagüe hasta alianzas con la provincia para impulsar turismo y cultura.\n\nEn la sala de chat de Corrientes se comentan las novedades locales: obras municipales, eventos interbarrios, gestiones del ayuntamiento o detalles de la costanera. Participan vecinos que buscan información, correntinos que viven fuera y mantienen el vínculo, y quienes simplemente quieren charlar sobre la ciudad."
+    "intro": "Corrientes, la ciudad más antigua del Nordeste argentino, destaca por sus fiestas de carnaval y su ubicación a orillas del río Paraná.",
+    "aboutTitle": "Corrientes y la Fiesta Nacional del Chamamé",
+    "about": "Corrientes es la capital y el principal centro administrativo, social y económico de su provincia homónima, en Argentina. Fundada el 3 de abril de 1588 por Juan Torres de Vera y Aragón bajo el nombre de Ciudad de Vera, destaca como la localidad más antigua de la región del Nordeste argentino. Su ubicación geográfica se sitúa a orillas de un recodo del río Paraná, a unos 50 kilómetros aguas abajo de su confluencia con el río Paraguay y aproximadamente a 1.150 kilómetros de la desembocadura en el Río de la Plata. El municipio comprende también un conjunto de islas, entre las que se encuentran Pelón, Talar, Meza, Hernández, Noguera, Platero, Cabral, de la Palomera, Latorre y Pindó. El nombre original de Siete Corrientes alude a las siete penínsulas de su costa que generan fuertes corrientes de agua.\n\nLa administración pública constituye su actividad principal, complementada por su rol como centro universitario y de salud. El puente General Manuel Belgrano conecta la ciudad con Barranqueras y Resistencia, en la provincia del Chaco, facilitando el tránsito diario de miles de personas. La comunicación terrestre se realiza principalmente a través de la Ruta Nacional 12, disponiendo además de un puerto y del aeropuerto con código CNQ. En el aspecto cultural, la ciudad es reconocida por sus fiestas de carnaval y por la Fiesta Nacional del Chamamé, un evento que se celebra con éxito a mediados de enero desde la década de 1980."
   },
   {
     "slug": "simon-bolivar-anzoategui",
@@ -866,9 +866,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Turmero, la localidad capital del municipio Santiago Mariño, a 102 km de Caracas y con 211.010 habitantes según el Censo 2011.",
-    "aboutTitle": "Turmero, capital del municipio Santiago Mariño, a 102 km de Caracas",
-    "about": "Turmero es la capital del Municipio Santiago Mariño, situada en la Región Central de Venezuela y formando parte del Área metropolitana de Maracay. Con una población de 211.010 habitantes según el censo de 2011, se ubica a 102 km de la capital, Caracas, y destaca por su posición estratégica dentro del estado Aragua. La localidad combina zonas residenciales con actividades comerciales y es un punto de referencia para los habitantes de la zona norte del país.\\n\\nEn la sala de chat de Turmero los usuarios conversan sobre la vida cotidiana de la ciudad, eventos locales, noticias del municipio y temas de interés general. Participan residentes, jóvenes y adultos que buscan compartir opiniones, preguntar sobre servicios municipales o simplemente intercambiar ideas sobre la cultura y el día a día en Turmero."
+    "intro": "Turmero, capital de Santiago Mariño en Aragua, alberga la Iglesia Nuestra Señora de La Candelaria (1620) y el sendero a Chuao por el Topo Buena Vista.",
+    "aboutTitle": "Turmero y el sendero a Chuao por el Topo Buena Vista",
+    "about": "Turmero es la capital del municipio Santiago Mariño, en el estado Aragua, Venezuela. Pertenece al Área metropolitana de Maracay y se sitúa a 102 km de Caracas. Según el censo de 2011, su población alcanza los 211.010 habitantes. Fundada como parroquia eclesiástica el 27 de noviembre de 1620, su origen está ligado a la construcción de la Iglesia Nuestra Señora de La Candelaria, ordenada por el rey Felipe II de España. Aunque se menciona a Pedro Villacastín como fundador, no hay documentos que lo respalden.\n\nEl clima es cálido durante todo el año. Entre sus puntos de interés destacan el Pico El Cenizo, el Cerro El Picacho y el balneario Pozo El Indio en la zona agraria de Guayabita. También se encuentra el sendero Turmero-Chuao, que parte de Pedregal hacia las faldas del Topo Buena Vista, y el zoológico Leslie Pantin de Paya. La ciudad cuenta con emisoras como Radio Estrella (98.7 FM) y medios digitales como Aragua Press."
   },
   {
     "slug": "gregorio-de-laferrere",
@@ -922,9 +922,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Monclova, la Capital del Acero, reúne a residentes de la ciudad de 237.169 habitantes para conversar sobre su historia, cultura y actualidad.",
-    "aboutTitle": "Monclova, la Capital del Acero y su industria siderúrgica",
-    "about": "Monclova está situada en la región central del estado de Coahuila, al norte de México, a una altitud de 600 metros sobre el nivel del mar y con una densidad de 146.1 hab/km². Con una población de 237.169 habitantes, la ciudad destaca por ser la mayor productora de acero de México y Latinoamérica, lo que le valió el sobrenombre de La Capital del Acero. Su zona metropolitana, integrada por los municipios de Frontera, Castaños y San Buenaventura, supera los 374.247 habitantes, consolidando un importante polo industrial y comercial.\n\nEn la sala \"Chat de Monclova\" se discuten temas cotidianos y de interés local: la vida en la zona industrial, eventos culturales, noticias municipales y el desarrollo urbano que impulsa la administración. Participan moncloveños de distintas edades, trabajadores del sector siderúrgico, estudiantes y personas que buscan información sobre servicios municipales. El intercambio se centra en la experiencia de vivir en una ciudad marcada por la producción de acero, su identidad y los retos de su crecimiento."
+    "intro": "Accede al Chat de Monclova, la destacada Capital del Acero en Coahuila, una ciudad del norte de México que llegó a registrar 237.169 habitantes en 2020.",
+    "aboutTitle": "Monclova, la Capital del Acero en el estado de Coahuila",
+    "about": "Monclova es una ciudad situada en la región central del estado de Coahuila, en el norte de México, a una altitud de 600 metros sobre el nivel del mar. En el año 2020, su población urbana alcanzaba alrededor de 237.169 habitantes, cifra que se eleva a cerca de 374.247 personas al sumar los municipios de Frontera, Castaños y San Buenaventura, que configuran su zona metropolitana.\n\nEsta localidad destaca históricamente por haber sido la capital de Coahuila y Texas. Con el paso del tiempo, la antigua región agrícola se transformó en un polo de desarrollo industrial. Su relevancia en la producción metalúrgica le otorgó el sobrenombre de La Capital del Acero, al registrar la mayor producción de este material en todo México y Latinoamérica. En la actualidad, figura entre las cinco urbes con mayor desarrollo comercial, industrial y financiero del país, además de poseer la mayor productividad laboral a nivel nacional.\n\nEl origen de su nombre se remonta a la expansión del imperio romano, en alusión al general romano Clovio, quien combatió a las tropas de Viriato en el siglo II a. C. en la actual provincia de Sevilla, España. Posteriormente, el 20 de septiembre de 1617, el rey Felipe III emitió un decreto relacionado con esta denominación que evoca el término de origen latino para referirse a la región de Clovio."
   },
   {
     "slug": "carlos-manuel-de-cespedes",
@@ -1039,9 +1039,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Mariño, municipio del estado Aragua en Venezuela, con 497 km² y 224.880 habitantes, es la segunda población más grande del estado.",
-    "aboutTitle": "Santiago Mariño: el segundo municipio más poblado de Aragua",
-    "about": "Chat de Mariño es la sala destinada a los habitantes y simpatizantes del municipio de Santiago Mariño, situado al norte del estado Aragua, Venezuela. El municipio forma parte de los 18 que integran Aragua, cuenta con una superficie de 497 km² y alberga a 224.880 personas, lo que lo convierte en el segundo municipio más poblado de la entidad. Su capital es la ciudad de Turmero, centro administrativo y comercial que reúne los servicios principales del territorio.\n\nEn la sala se comentan noticias locales, la agenda de eventos y las problemáticas cotidianas que afectan a la comunidad. Los usuarios comparten información sobre el mercado semanal, las actividades culturales y cualquier novedad que interese a los residentes de Turmero y de los alrededores. La conversación es abierta, sin filtros, y permite a vecinos y a personas interesadas intercambiar opiniones, organizar encuentros y mantenerse al día con lo que ocurre en el municipio."
+    "intro": "Conecta en el chat de Mariño, el segundo municipio más poblado del estado Aragua con una población de 224.880 habitantes según el censo de 2023.",
+    "aboutTitle": "Turmero y la historia del municipio de Santiago Mariño",
+    "about": "Santiago Mariño es uno de los 18 municipios que integran el estado Aragua, en el norte de Venezuela. Con una extensión territorial de 497 kilómetros cuadrados, este municipio registra una población de 224.880 habitantes de acuerdo con los datos del censo de 2023, lo que lo sitúa como el segundo municipio más poblado de Aragua. Su capital se encuentra en la ciudad de Turmero. Geográficamente, limita por el norte con el mar Caribe, mientras que por el sur colinda con los municipios de Sucre, José Ángel Lamas y Francisco Linares Alcántara. Al este limita con Tovar y Bolívar, y por el oeste limita con el municipio Girardot.\n\nLa evolución histórica de este territorio comenzó hacia 1650 bajo la figura de la Parroquia de La Candelaria, bajo jurisdicción de Valencia. En 1812, Turmero se incorporó al Departamento de Los Valles de Aragua como Cantón. Tras la separación de Aragua de la provincia de Caracas en 1848, el cantón de Turmero quedó conformado por las parroquias de Turmero y San Mateo. Posteriormente, el 3 de enero de 1891, se decretó la división territorial que dio origen al Distrito Mariño, estableciendo su cabecera en Turmero. Tras varias modificaciones territoriales en 1936 y la posterior separación de los municipios de Santa Cruz y Cagua en 1943 para dar origen al Distrito Sucre, el territorio consolidó su estructura."
   },
   {
     "slug": "mara",
@@ -1071,9 +1071,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Mara: la sala para conversar sobre el municipio zuliés, uno de los 21 que forman Zulia y cuya capital es San Rafael del El Moján.",
-    "aboutTitle": "Mara y su capital San Rafael del El Moján",
-    "about": "Mara es uno de los 21 municipios que conforman al estado Zulia, en Venezuela. Forma parte del Área metropolitana de Maracaibo y su capital es San Rafael del El Moján. El municipio cuenta con iniciativas como el Plan Quirúrgico Nacional, que el 9 de diciembre de 2023 benefició a niños y niñas en el Hospital I San Rafael de Mara, y la entrega de 45 transformadores que mejoraron el suministro eléctrico a 500 familias en cinco parroquias.\n\nEn la sala Chat de Mara los usuarios comparten información sobre la vida cotidiana del municipio, desde eventos locales y servicios municipales hasta temas de salud, educación y comercio. Participan residentes de San Rafael del El Moján, vecinos de las parroquias y personas interesadas en la zona metropolitana de Maracaibo que buscan intercambiar experiencias y estar al día con las noticias del ayuntamiento. También se discuten los resultados del Congreso Historiográfico marense y las iniciativas de la alcaldía, como la nueva estación policial en La Sierrita y los programas de distribución de alimentos a comunidades indígenas."
+    "intro": "Mara es un municipio del estado Zulia que forma parte del Área metropolitana de Maracaibo y tiene su capital en San Rafael del El Moján.",
+    "aboutTitle": "Historia de Mara y sus orígenes junto al río Limón",
+    "about": "Mara es uno de los 21 municipios que integran el estado Zulia, en Venezuela, y forma parte del Área metropolitana de Maracaibo junto a las localidades de Maracaibo, San Francisco y Jesús Enrique Lossada. Su capital es San Rafael del El Moján. Los primeros habitantes de este territorio fueron las etnias wayú, asentadas en las llanuras desérticas, y añú, quienes construían sus viviendas sobre palafitos en la salida del río Limón.\n\nLa historia administrativa de la zona registra que la Guajira se integró a la Provincia de Maracaibo en 1792. Tras pertenecer a los cantones de Maracaibo y Perijá en 1856, y constituirse como Departamento San Rafael en 1874, la región experimentó varios cambios territoriales. El 12 de enero de 1887 se creó finalmente el distrito Mara, integrado por los municipios de San Rafael y Ricaurte. Esta creación fue posible por las gestiones de don F. Ignacio Chacín y el diputado Jesús María Portillo. Aunque el gobernador de la sección Zulia, Gregorio Fidel Méndez, decretó su erección oficial para el 6 de febrero, la instalación formal del concejo municipal ocurrió el 7 de febrero de 1887 a las 7:00 p. m., bajo la presidencia de Sixto de Vicente."
   },
   {
     "slug": "arroyo-naranjo",
@@ -1100,9 +1100,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Arroyo Naranjo, municipio que representa el 11 % del territorio de la provincia de La Habana, Cuba.",
-    "aboutTitle": "Arroyo Naranjo, un municipio con tradición agrícola",
-    "about": "Arroyo Naranjo es un municipio ubicado en la provincia de La Habana, Cuba. Tiene una extensión territorial de 83 km², lo que representa el 11 % del total del territorio de la provincia. Esta localidad dedica un 36 % de sus tierras a uso agrícola, mientras que el resto se destina a otras actividades no agrícolas.\n\nEn la sala de chat de Arroyo Naranjo, los usuarios pueden conversar sobre temas relacionados con la vida en este municipio, compartir experiencias y conocimientos sobre la agricultura y las actividades económicas de la zona. La sala es un espacio abierto para que los residentes y visitantes de Arroyo Naranjo se conecten y compartan ideas."
+    "intro": "Arroyo Naranjo, municipio de la provincia de La Habana con 204.434 habitantes, alberga Expocuba, el recinto ferial más grande de Cuba.",
+    "aboutTitle": "El municipio de las canteras de San Miguel y el recinto de Expocuba",
+    "about": "Arroyo Naranjo representa el 11 % del territorio de la provincia de La Habana, en Cuba. Con una extensión de 83 kilómetros cuadrados, cuenta con 8.225 hectáreas de tierra, de las cuales destina el 36 % al uso agrícola, mientras que un 7 % está ocupado por agua. Su población estimada en el año 2017 alcanzaba los 204.434 habitantes, con una densidad poblacional de 2.300 habitantes por kilómetro cuadrado, de los cuales el 52 % son mujeres.\n\nFundado en 1845, se convirtió pronto en un pueblo de tránsito de mercancías y pasajeros entre La Habana y Santiago de las Vegas. Su historia destaca por las aguas medicinales de El Cacahual y por sus canteras de piedra de San Miguel, fundamentales para la expansión constructiva de La Habana. En el ámbito cultural, cuenta con la Biblioteca Municipal Manuel Cofiño, tres Casas de la Cultura y la Galería José Cecilio Hernández Cárdenas. Además, dispone de seis cines y tres salas de video. En su territorio se localiza Expocuba, el recinto ferial más grande de la isla, que funciona como sede permanente de exposiciones del desarrollo económico y social."
   },
   {
     "slug": "boyeros",
@@ -1340,9 +1340,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Luján de Cuyo, cabecera del departamento homónimo en Mendoza. Conecta a los vecinos desde que fue declarada ciudad en 1949.",
-    "aboutTitle": "Luján de Cuyo: de pueblo a ciudad desde 1949",
-    "about": "Luján de Cuyo es la ciudad cabecera del departamento del mismo nombre en la provincia de Mendoza, Argentina. Forma parte del Gran Mendoza y fue reconocida como ciudad en 1949, adoptando su nombre actual en 1964. Su ubicación la convierte en un punto clave dentro de la región cuyana. En el Chat de Luján de Cuyo se reúnen vecinos, trabajadores y visitantes para hablar de la vida cotidiana, los proyectos locales y lo que define a la zona. Entran desde jóvenes que buscan planes hasta residentes de toda la vida que comparten noticias o recuerdos de cómo ha cambiado la ciudad desde que dejó de llamarse simplemente Luján. También se comentan temas relacionados con el departamento, desde trámites municipales hasta eventos que organizan las distintas localidades que lo integran."
+    "intro": "Luján de Cuyo es una ciudad de Mendoza que destaca por sus bodegas de renombre mundial y el Dique Potrerillos, rodeado por las villas del Cordón del Plata.",
+    "aboutTitle": "Viñedos y las cumbres del Cordón del Plata en Mendoza",
+    "about": "Luján de Cuyo, cabecera del departamento homónimo en la provincia de Mendoza, forma parte del Gran Mendoza. Declarada ciudad en 1949 y renombrada con su denominación actual en 1964, tiene como eje principal la Avenida San Martín. Esta vía conecta al norte con el departamento Godoy Cruz y aloja al club departamental Luján Sport Club. Hacia el sur, tras cruzar el puente sobre el Río Mendoza, la avenida se convierte en la Ruta Provincial 15, atravesando distritos como Perdriel, Agrelo y Ugarteche.\n\nLa zona cuenta con un gran atractivo turístico gracias a sus viñedos, fincas, sitios históricos y bodegas de renombre mundial. Al oeste, en el distrito de Potrerillos, se ubica el Dique Potrerillos. En esta misma área de montaña se encuentran villas pintorescas como Las Vegas, El Salto o Piedras Blancas, cercanas al Cordón del Plata. Asimismo, la localidad de Vallecitos alberga la pista de esquí más antigua de la provincia y sirve de acceso a importantes cerros de la cordillera como El Plata, Rincón, Franke y San Bernardo."
   },
   {
     "slug": "la-guaira",
@@ -1370,9 +1370,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de La Guaira, la ciudad portuaria venezolana situada a 30 km de Caracas, ofrece un espacio para conversar sobre su vida, cultura y actualidad.",
-    "aboutTitle": "Puerto marítimo de La Guaira a 30 km de Caracas",
-    "about": "La Guaira es una ciudad y puerto marítimo de Venezuela, capital del municipio Vargas y del estado La Guaira. Se sitúa en la Región Capital, a 30 km de la capital del país, Caracas. Como principal punto de entrada al país por el mar, el puerto de La Guaira alberga actividad comercial, de cruceros y de pesca, conectando la costa con el interior. La ciudad combina la dinamismo portuario con la vida cotidiana de sus habitantes, y su ubicación estratégica la vincula directamente con la metrópolis caraqueña, facilitando el flujo de personas y mercancías.\n\nIn la sala de chat de La Guaira los residentes, visitantes y amantes de la zona comparten información sobre el puerto, el tráfico marítimo, eventos locales y la vida cotidiana. Se discuten temas como la pesca, el turismo, la cultura popular, noticias municipales y oportunidades de empleo, así como problemas urbanos y proyectos de mejora. Jóvenes y adultos participan para intercambiar opiniones, organizar actividades recreativas y mantenerse al día con la comunidad, creando un espacio de conversación que refleja la diversidad y el dinamismo de la ciudad portuaria."
+    "intro": "La Guaira es una ciudad y puerto marítimo de Venezuela, capital del estado homónimo, situada a solo 30 kilómetros de distancia de Caracas.",
+    "aboutTitle": "El histórico puerto de San Pedro de La Guaira",
+    "about": "La Guaira es una ciudad y puerto marítimo de Venezuela, capital del municipio Vargas y del estado La Guaira. Esta localidad se sitúa en la Región Capital, a una distancia de 30 kilómetros de Caracas. Los orígenes de su territorio se remontan a los aborígenes arauacos y posteriormente a los caribes, quienes se asentaron en estas costas del litoral central. Antes de la colonización, la zona conformó la nación Tarma, extendida entre Puerto Maya y los Valles del Tuy.\n\nAntiguamente conocida como Huaira, su fundación formal bajo el nombre de San Pedro de La Guaira se sitúa el 29 de junio de 1589, en el día de San Pedro y San Pablo. El acto fue realizado por el gobernador Diego Osorio y su secretario Simón Bolívar, ancestro de Simón Bolívar, aunque ya en 1580 el contador Diego Ruiz de Vallejo mencionaba el puerto en una carta al rey Felipe II. Poco después de su fundación, la población sufrió la toma de piratas neerlandeses, un conflicto en el que el cacique Guaicamacuto también intervino atacando por sorpresa a corsarios ingleses."
   },
   {
     "slug": "paez-venezuela",
@@ -1400,9 +1400,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Páez, la sala de conversación del municipio de Portuguesa que lleva el nombre del caudillo José Antonio Páez y menciona la Ruta del Aseo del 22/04/2026.",
-    "aboutTitle": "Fiesta de la Luz y Ruta del Aseo en el municipio Páez",
-    "about": "Chat de Páez es la sala de conversación dedicada al municipio de Páez, en el estado Portuguesa de Venezuela. El municipio lleva el nombre del militar y político venezolano José Antonio Páez, según la Wikipedia. La administración municipal destaca iniciativas como “La Fiesta de la Luz”, “La Fiesta del Agua”, el programa “Una Cancha para Todos”, el “Plan Cero Huecos” y la “Ruta del Hidrojet”. Además, el 22 de abril de 2026 se realizó la Ruta del Aseo, una acción de limpieza que quedó registrada en la página oficial de la alcaldía.\n\nEn la sala los residentes, jóvenes y comerciantes de Páez comparten noticias del día, discuten los avances de los proyectos municipales y organizan encuentros virtuales para apoyar la comunidad. Se habla de la situación de los servicios públicos, de la sustitución del transformador de 75 KV en la comunidad Andrés Eloy Blanco y de la mejora de la infraestructura vial. El chat también sirve como espacio para intercambiar información sobre eventos culturales, como la Fiesta de la Luz, y para coordinar la participación en iniciativas vecinales."
+    "intro": "Páez es un municipio del norte de Portuguesa, en Venezuela, que cuenta con una población de 202.232 habitantes y tiene su capital en Acarigua.",
+    "aboutTitle": "El municipio de Páez y sus parroquias en Portuguesa",
+    "about": "Páez es un municipio ubicado en la parte norte del Estado Portuguesa, en los límites con el estado Cojedes, dentro de Venezuela. Debe su nombre al militar y político venezolano José Antonio Páez y abarca una superficie de 425 kilómetros cuadrados. Su capital es Acarigua, y el territorio se organiza administrativamente en cuatro parroquias: Acarigua, Payara, Pimpinela y Ramón Peraza.\n\nSegún los datos del censo de población y vivienda de 2021, este municipio cuenta con 202.232 habitantes, lo que equivale al 20,21 % de la población total del estado Portuguesa. El municipio registra una densidad poblacional de 475,84 habitantes por kilómetro cuadrado, con una distribución demográfica compuesta por un 49,64 % de hombres y un 51,36 % de mujeres. En cuanto a las viviendas, existen 49.497 unidades habitacionales en el territorio, que albergan a 45.373 núcleos familiares, de los cuales 18.510 tienen a una mujer como cabeza de familia. En el ámbito de los servicios y las telecomunicaciones, más del 95 % de los hogares cuenta con al menos un aparato de televisión, más de la mitad dispone de aire acondicionado, un 17 % tiene acceso a internet y una cuarta parte posee una computadora. El municipio cuenta además con el canal regional de televisión Urbano Televisión."
   },
   {
     "slug": "anaco",
@@ -1549,9 +1549,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Milpa Alta: espacio para conversar sobre la demarcación situada en el extremo sudoriental de la Ciudad de México, con 228 km² de reserva ambiental.",
-    "aboutTitle": "Milpa Alta y su reserva ambiental de 228 km²",
-    "about": "Milpa Alta es una de las dieciséis demarcaciones de la Ciudad de México y se encuentra situada en el extremo sudoriental de la entidad federativa. Está en las estribaciones de la sierra de Ajusco‑Chichinauhtzin, que separa al estado de Morelos de la capital, y cuenta con una superficie de 228 kilómetros cuadrados, lo que la convierte en la segunda demarcación más extensa y una importante reserva ambiental del centro del país.\n\nEn la sala de chat de Milpa Alta los usuarios comparten información sobre la vida en la zona, la conservación de sus ecosistemas, tradiciones locales y actividades cotidianas. Participan residentes, estudiantes y personas interesadas en la cultura y el medio ambiente de la demarcación, intercambiando opiniones y preguntas sin necesidad de horarios específicos."
+    "intro": "Milpa Alta, situada al sur de la Ciudad de México, produce el 80% del nopal que se consume en el país y cuenta con un importante patrimonio histórico.",
+    "aboutTitle": "El cultivo del nopal y la historia revolucionaria de Milpa Alta",
+    "about": "Milpa Alta es una de las dieciséis demarcaciones de la Ciudad de México, situada en el extremo sudoriental, en las estribaciones de la sierra de Ajusco-Chichinauhtzin. Con una superficie de 228 kilómetros cuadrados, representa la segunda demarcación más grande de la capital y funciona como una destacada reserva ambiental. Su origen se compone de doce pueblos que se remontan a la época prehispánica, cuando los chichimecas fundaron Malacachtépec Momoxco. Tras la conquista española en 1529, la localidad recibió el nombre de La Asunción de Milpa Alta. Durante la Revolución mexicana, este territorio destacó como un bastión del Ejército Libertador del Sur de Emiliano Zapata.\n\nEn la actualidad, la economía local se sostiene principalmente gracias al cultivo del nopal, introducido de forma masiva en la década de los setenta. Este lugar provee el 80% del nopal que se consume en todo México, sirviendo además como centro de distribución y procesamiento para elaborar desde dulces hasta jabones. Asimismo, se ha recuperado el cultivo del amaranto, que estuvo prohibido durante la época colonial. Entre su patrimonio arquitectónico e histórico sobresalen el templo de Nuestra Señora de la Asunción de Villa Milpa Alta, el Cuartel Zapatista y la Iglesia de San Pablo Apóstol en San Pablo Oztotepec. En sus pueblos se celebran eventos tradicionales como la Feria Nacional del Mole y el Festival de los Globos de Papel."
   },
   {
     "slug": "nacajuca",
@@ -1696,9 +1696,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Conecta con la sala de chat de Jutiapa, el municipio más poblado del departamento homónimo en Guatemala, que cuenta con una población de 167.049 habitantes.",
-    "aboutTitle": "Hablar sobre el desfile hípico y la gastronomía de Jutiapa",
-    "about": "Jutiapa es un municipio y la capital del departamento homónimo, situado a 125 kilómetros de la Ciudad de Guatemala, en la región sur-oriente del país. Con una extensión de 620 kilómetros cuadrados y una población aproximada de 167.049 habitantes, constituye el municipio más poblado de su departamento. La localidad destaca por su actividad en agricultura y ganadería, su Centro Histórico y tradiciones locales como el desfile hípico, la temporada de elotes y la gastronomía típica de sus ferias patronales.\n\nEn esta sala de chat se reúnen residentes del municipio y personas de otros puntos del departamento de Jutiapa para conversar y compartir experiencias. Los usuarios entran para hablar sobre las actividades del municipio, intercambiar opiniones sobre la producción ganadera o la agricultura local, y comentar detalles de las ferias patronales y eventos tradicionales. Es un espacio de comunicación directa y sencilla para quienes desean mantener el contacto con la actualidad y la cultura de este municipio guatemalteco."
+    "intro": "Jutiapa, cabecera de este departamento de Guatemala, destaca por su Feria Ganadera Nacional en noviembre y por albergar a más de 50.000 xincas.",
+    "aboutTitle": "La Feria Ganadera Nacional y la mayor comunidad xinca de Guatemala",
+    "about": "Jutiapa es la cabecera del departamento homónimo en Guatemala, situada a 125 km de la Ciudad de Guatemala en la región sur-oriente del país. Con una extensión de 620 km², es el municipio más poblado de su departamento, con alrededor de 167.049 habitantes en 2022. Su clima varía entre templado en invierno y cálido en verano, y cuenta con cinco carreteras que la conectan con otros municipios y departamentos. La ciudad comenzó como una villa en 1847 y se convirtió en cabecera departamental en 1852, recibiendo el título de ciudad el 15 de septiembre de 1878. Jutiapa es conocida por sus fiestas titulares: del 22 al 24 de julio en honor a San Cristóbal y, especialmente, la Feria Ganadera Nacional, que se celebra del 10 al 16 de noviembre. Su población es mayoritariamente ladina (63,95%), pero destaca por ser el municipio con la mayor concentración de xincas en Guatemala, con 50.320 personas que se identifican como parte de esta etnia, además de otras comunidades indígenas y garífunas."
   },
   {
     "slug": "naguanagua",
@@ -1758,9 +1758,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Villa Alemana, ciudad de la Región de Valparaíso, para conocer a personas de la ciudad y su área metropolitana.",
-    "aboutTitle": "Villa Alemana en el Gran Valparaíso",
-    "about": "Villa Alemana es una comuna y ciudad ubicada en la provincia de Marga Marga, Región de Valparaíso. Junto con otras comunas, integra el área metropolitana del Gran Valparaíso. La ciudad tiene una ubicación estratégica en la zona central de Chile. En el chat de Villa Alemana, podrás conocer y hablar con personas de la ciudad y sus alrededores. Es un espacio para compartir experiencias, intereses y opiniones sobre la vida en Villa Alemana y su región. Puedes hablar sobre temas como la cultura local, eventos y actividades en la ciudad, o simplemente conocer a personas con intereses similares. En este entorno, podrás encontrar personas que comparten tus pasatiempos o que tienen intereses similares. Además, es un lugar ideal para conocer a personas que viven en la ciudad y sus alrededores, y que pueden ofrecer recomendaciones o consejos sobre lugares para visitar o actividades para realizar en la zona. En general, el chat de Villa Alemana es un espacio acogedor y relajado, donde podrás establecer conexiones con personas de la ciudad y su región."
+    "intro": "Villa Alemana es una comuna y ciudad de la provincia de Marga Marga, en la Región de Valparaíso, conocida como la Ciudad de la Eterna Juventud.",
+    "aboutTitle": "La Ciudad de la Eterna Juventud",
+    "about": "Villa Alemana es una comuna y ciudad ubicada en la provincia de Marga Marga, dentro de la Región de Valparaíso, en la zona central de Chile. Junto con otras comunas de la zona, integra el área metropolitana del Gran Valparaíso. La fundación de la ciudad tuvo lugar el 4 de noviembre de 1894, mientras que la actual comuna fue creada posteriormente en el año 1933. Esta localidad es ampliamente conocida bajo el nombre de la Ciudad de la Eterna Juventud debido a su clima benigno, y también recibe el apelativo de la Ciudad de los Molinos por la gran cantidad de casas quintas que históricamente necesitaban extraer agua subterránea mediante molinos de viento. Por otra parte, la ciudad se encuentra oficialmente hermanada con la ciudad palestina de Belén desde el año 2006. El origen del nombre de Villa Alemana se debe directamente a la promesa que realizó su fundador, don Buenaventura Joglar Amandi, quien se comprometió a nombrar al lugar según la nacionalidad de los primeros compradores de los sitios, que resultaron ser alemanes."
   },
   {
     "slug": "momostenango",
@@ -1789,9 +1789,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Momostenango, un municipio del departamento de Totonicapán en el altiplano occidental de Guatemala, popular destino turístico.",
-    "aboutTitle": "Conversaciones en el altiplano occidental",
-    "about": "Momostenango es un municipio del departamento de Totonicapán en el altiplano occidental de la República de Guatemala. Su cabecera municipal se encuentra a una altitud de 2204 m s. n. m. y es uno de los destinos turísticos más visitados del país. La sala de chat de Momostenango es un espacio para discutir temas relacionados con la cultura, la historia y la vida diaria de la localidad. Los participantes pueden compartir sus experiencias y conocimientos sobre la región, así como discutir temas de interés general. La sala es un espacio abierto para que todos los interesados en Momostenango se conecten y compartan ideas, creando un ambiente de intercambio y aprendizaje mutuo."
+    "intro": "Momostenango, en el altiplano guatemalteco a 2204 m, es la «muralla de ídolos» por su nombre náhuatl y su origen en Ojer Tinamit, a 8 km del centro actual.",
+    "aboutTitle": "Momostenango y su origen en Ojer Tinamit, a 8 km del centro",
+    "about": "Momostenango es un municipio del departamento de Totonicapán, en el altiplano occidental de Guatemala. Su cabecera municipal se encuentra a 2204 metros sobre el nivel del mar. El nombre proviene del náhuatl y significa «muralla de ídolos». Originalmente, el poblado estaba en Ojer Tinamit («Pueblo Viejo»), a ocho kilómetros de su ubicación actual, donde se fundó a mediados del siglo XVI. En 1590 se estableció el convento de Santiago Momostenango, parte de la Provincia del Santísimo Nombre de Jesús.\n\nTras la Independencia de Centroamérica en 1821, fue uno de los municipios originales del departamento Sololá/Suchitepéquez. En 1838 formó parte del efímero Estado de Los Altos, un intento secesionista de los criollos liberales del occidente guatemalteco que fue aplastado en 1840 por el general Rafael Carrera. En 1872 se creó el departamento de Quiché a partir de territorios de Sololá/Suchitepéquez y Totonicapán/Huehuetenango."
   },
   {
     "slug": "carupano",
@@ -1818,9 +1818,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Carúpano, la ciudad sucrense con uno de los puertos más antiguos de América Latina y una población de 138.798 habitantes.",
-    "aboutTitle": "El puerto histórico de Carúpano y sus parroquias",
-    "about": "Carúpano es una ciudad del estado Sucre, Venezuela, situada en la costa al noreste de la región, a 120 km de Cumaná y a unos 500 km de Caracas. Es un centro de pesca relevante para el país y contó con uno de los puertos más antiguos de América Latina. Administrativamente se divide en dos parroquias, Santa Catalina y Santa Rosa, y en total cinco si se considera todo el municipio.\n\nEn la sala de chat de Carúpano los usuarios intercambian información sobre la actividad pesquera, eventos locales y la vida cotidiana del municipio. Participan residentes, emigrantes y personas interesadas en la zona que buscan compartir noticias, conversar sobre la historia del puerto y debatir sobre el desarrollo económico y cultural de la ciudad."
+    "intro": "Carúpano es una ciudad del estado Sucre que cuenta con 138.798 habitantes y destaca como un importante centro pesquero con un puerto histórico.",
+    "aboutTitle": "El histórico puerto y la pesca en Carúpano",
+    "about": "Carúpano es la segunda ciudad más grande del estado Sucre, en Venezuela, y se sitúa en la costa noreste de la región. Se localiza a 120 kilómetros de la capital, Cumaná, y a unos 500 kilómetros de Caracas. Según el censo de 2011, cuenta con una población de 138.798 habitantes. Geográficamente, el municipio se compone de cinco parroquias, destacando Santa Catalina y Santa Rosa en el área urbana. Esta localidad destaca como un relevante centro de pesca nacional y albergó en su día uno de los puertos más antiguos de toda América Latina.\n\nLa fundación de este asentamiento se remonta al 23 de diciembre de 1647, cuando el obispo fray Damián López de Haro erigió una capilla bajo la advocación de Santa Cruz en el núcleo de Carúpano-Arriba, dentro de la provincia de Nueva Andalucía. El nombre de la ciudad proviene del término indígena Karú-Pana, que se traduce como casa de tierra o tierra que tiene casa en el lenguaje de los uainimanes. En la actualidad, la economía local se apoya en sus funciones como centro administrativo, educativo y de salud, así como en la comercialización de productos agrícolas y pesqueros del municipio Bermúdez."
   },
   {
     "slug": "chichicastenango",
@@ -1849,9 +1849,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Entra a la sala de chat de Chichicastenango, el municipio de Quiché donde se redactó el histórico libro sagrado maya quiché Popol Vuh.",
-    "aboutTitle": "La sala de chat del municipio donde se redactó el Popol Vuh",
-    "about": "El municipio de Santo Tomás Chichicastenango se sitúa al sur del departamento de Quiché, en Guatemala, a una distancia de 18 kilómetros de la cabecera departamental y a 145 kilómetros de la ciudad de Guatemala. Al ser la mayoría de su población de origen indígena de la etnia quiché, esta localidad destaca como un importante centro turístico gracias a su mercado local. Además, cuenta con una gran relevancia histórica y cultural, ya que en este territorio se encontró y redactó el Popol Vuh, el libro sagrado de los mayas quiché que explica el origen de la humanidad y que está declarado como Libro Nacional de Guatemala. En la sala de chat de Chichicastenango se reúnen vecinos de este municipio y personas interesadas en su cultura y en su conocido mercado local. Los usuarios de este canal conversan sobre la vida cotidiana en el departamento de Quiché, comparten información para visitantes que planean viajar a la localidad y comentan aspectos de la tradición quiché y la historia del Popol Vuh. Es un espacio de comunicación directa para quienes habitan en la zona o desean mantener el contacto con esta comunidad guatemalteca desde el extranjero."
+    "intro": "Chichicastenango, municipio de Quiché en Guatemala, es el lugar de origen del Popol vuh, el libro sagrado de los mayas quiché sobre la humanidad.",
+    "aboutTitle": "El municipio de Quiché donde se encontró el sagrado Popol vuh",
+    "about": "Santo Tomás Chichicastenango, cuyo nombre en náhuatl significa muralla de ortigas y que honra a su santo patrono Tomás Apóstol, es un municipio situado al sur del departamento de Quiché, en Guatemala. Se localiza a 18 kilómetros de la cabecera departamental y a 145 kilómetros de la ciudad de Guatemala. La mayor parte de sus habitantes pertenece a la etnia indígena quiché. La localidad destaca a nivel internacional por su mercado local, que la convierte en un reconocido centro turístico.\n\nHistóricamente, este lugar posee una gran relevancia cultural ya que en él se encontró y redactó el Popol vuh, el libro sagrado de los mayas quiché que narra el origen de la humanidad. Esta obra, declarada Libro Nacional de Guatemala y Patrimonio Cultural Intangible de la Nación, se celebra cada 30 de mayo y fue traducida al castellano por el fraile Francisco Ximénez cuando el municipio era una doctrina de la orden de los dominicos. Durante su pasado administrativo, perteneció a Sololá y al efímero Estado de Los Altos, hasta que en 1872 se integró en el recién creado departamento de Quiché. Además, en 1935 sus paisajes sirvieron como escenario para la filmación de escenas de la película de Hollywood Las Nuevas Aventuras de Tarzán."
   },
   {
     "slug": "quilpue",
@@ -1879,9 +1879,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Quilpué, la comuna chilena capital de la Provincia de Marga Marga y parte del Gran Valparaíso, conecta a los vecinos de esta localidad.",
-    "aboutTitle": "Quilpué, capital de la Provincia de Marga Marga en el Gran Valparaíso",
-    "about": "Quilpué es una comuna y ciudad de la Región de Valparaíso. Es la capital de la Provincia de Marga Marga y forma parte del área metropolitana del Gran Valparaíso, que incluye a Valparaíso, Viña del Mar, Concón y Villa Alemana. En la sala de chat de Quilpué los residentes se reúnen para intercambiar información sobre la vida local, el transporte y las actividades de la zona. La conversación gira en torno a la organización de la comunidad y la participación en iniciativas vecinales, creando un espacio de diálogo abierto y directo para quien quiera conocer o aportar al entorno de la ciudad. Los usuarios también comparten avisos, recomendaciones de servicios y opiniones sobre el desarrollo de la localidad, manteniendo el contacto y la comunicación entre los vecinos. Esta plataforma digital facilita que las personas compartan sus experiencias cotidianas, resuelvan dudas comunes sobre trámites locales, difundan eventos comunitarios o conversen sobre temas de interés general para la población. De esta manera, el chat se convierte en una herramienta útil de comunicación diaria para quienes habitan en la capital provincial o tienen interés en interactuar con su gente, permitiendo estrechar lazos entre los miembros de la comunidad y favorecer la cooperación mutua en el día a día."
+    "intro": "Quilpué, ciudad chilena de la Región de Valparaíso, es conocida como la «Ciudad del Sol» por su clima benigno y prodigioso.",
+    "aboutTitle": "La Ciudad del Sol en la Región de Valparaíso",
+    "about": "Quilpué es una comuna y ciudad chilena perteneciente a la Región de Valparaíso, capital de la Provincia de Marga Marga. Junto a las comunas de Valparaíso, Viña del Mar, Concón y Villa Alemana, integra el área metropolitana del Gran Valparaíso. Geográficamente está asentada sobre las cuencas de los esteros Quilpué, Marga Marga y Puangue, y pertenecen a ella subterritorios como El Belloto, en el área urbana, o Colliguay, en la zona rural.\n\nLa ciudad es conocida como la «Ciudad del Sol» por su clima benigno y prodigioso. Su nombre tiene varias teorías sobre su origen y significado, aunque la traducción oficial es «donde abundan especialmente las tórtolas». La ciudad es el tercer municipio más poblado de la región, por detrás de las comunas de Viña del Mar y Valparaíso, y sus principales actividades económicas son la industria manufacturera, el comercio, el rubro inmobiliario y la enseñanza."
   },
   {
     "slug": "colina-chile",
@@ -1970,9 +1970,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Villa Madero, la ciudad del partido de La Matanza en la provincia de Buenos Aires, ubicada totalmente en el Gran Buenos Aires, conecta a sus vecinos.",
-    "aboutTitle": "Villa Madero: ciudad del Gran Buenos Aires en La Matanza",
-    "about": "Villa Madero es una localidad del partido de La Matanza, situada en la provincia de Buenos Aires y forma parte integral del Gran Buenos Aires. Su entorno urbano combina residencias, comercios y espacios de actividad típicos de la zona metropolitana, ofreciendo a sus habitantes una vida cercana a los servicios de la capital sin perder su identidad de barrio. \n\nEn la sala de chat de Villa Madero los residentes intercambian información sobre el día a día, como el tránsito, eventos locales, actividades deportivas y asuntos de la comunidad. Participan vecinos, jóvenes y adultos que buscan compartir experiencias, resolver dudas y mantener el vínculo vecinal, creando un espacio de conversación directa y práctica para la zona."
+    "intro": "El Chat de Villa Madero te conecta con esta localidad de La Matanza, en Buenos Aires, que tiene 132.905 habitantes y limita con la Capital Federal.",
+    "aboutTitle": "Historia de Villa Madero y los Tapiales de Altolaguirre",
+    "about": "Villa Madero, también llamada Ciudad Madero, es una localidad ubicada en el partido de La Matanza, en la provincia de Buenos Aires, Argentina. Está situada en el Gran Buenos Aires y limita con la Ciudad Autónoma de Buenos Aires, así como con Tapiales, La Tablada y Ciudad Celina. Según el censo de 2010, cuenta con una población de 132.905 habitantes, lo que la convierte en la novena localidad más poblada de su partido. Para comunicarse con la capital y otras zonas, dispone de accesos como la Avenida General Paz, la Autopista Riccheri, la Avenida Boulogne Sur Mer, la Avenida San Martín, la Avenida Intendente Esteban Crovara y la Línea Belgrano Sur.\n\nEl territorio estuvo habitado originalmente por los querandíes, un pueblo seminómada que permaneció en la zona hasta la llegada de los españoles. En 1615, Hernando Arias de Saavedra otorgó las tierras al conquistador Pedro Gutiérrez. Más tarde, en 1775, la chacra pasó a Martín José de Altolaguirre, quien mandó construir tapias de tierra y plantas de cactus para dividir el campo, dando origen al nombre de los Tapiales de Altolaguirre. En octubre de 1808, la propiedad fue vendida a Francisco Ramos Mejía y María Antonia Segurola."
   },
   {
     "slug": "apatzingan-de-la-constitucion",
@@ -1999,9 +1999,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Apatzingán de la Constitución, la ciudad más poblada de la Tierra Caliente con 102 362 habitantes según el Censo 2020, es la sala de chat local.",
-    "aboutTitle": "Tierra Caliente: la ciudad fundadora de 1617",
-    "about": "Apatzingán de la Constitución es la cabecera del municipio homónimo, situada en la región de Tierra Caliente, Michoacán. Fue fundada en 1617 por monjes franciscanos y agustinos y obtuvo el rango de ciudad en 1883. Según el Censo 2020 del INEGI, cuenta con 102 362 habitantes, lo que la convierte en la cuarta ciudad más poblada del estado y la más habitada de la zona de Tierra Caliente.\n\nEn la sala de chat los usuarios comentan temas cotidianos de la vida en Apatzingán: eventos municipales, noticias locales, la actividad del ayuntamiento en Av. Constitución de 1814 #1 y la agenda cultural. Participan residentes, jóvenes, empresarios y visitantes que buscan intercambiar información, organizar encuentros y compartir experiencias sobre la ciudad y sus alrededores."
+    "intro": "Apatzingán de la Constitución, ciudad mexicana ubicada en el estado de Michoacán de Ocampo, con una población de 102.362 habitantes.",
+    "aboutTitle": "La ciudad de la Constitución en la Tierra Caliente",
+    "about": "Apatzingán de la Constitución es una ciudad mexicana ubicada en el estado de Michoacán de Ocampo. Fue fundada en 1617 por monjes franciscanos y agustinos, y permaneció como un pueblo hasta 1883, fecha en que oficialmente se le concedió el rango de ciudad. La región de Apatzingán produce grandes cantidades de limón, papaya, toronja, carambolo, etc., algunos de los cuales se exportan al extranjero. El clima de la ciudad es semiseco muy cálido y cálido.\n\nLa ciudad tiene un significado histórico importante, ya que en ella se firmó la primera constitución mexicana el 22 de octubre de 1814, por José María Morelos y Pavón. El nombre de la ciudad proviene del purépecha y significa 'donde está levantado el templo del dios Apahtzï' o por extensión, 'donde está levantado el templo del dios de la muerte'."
   },
   {
     "slug": "palo-negro",
@@ -2118,9 +2118,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Santa Lucía Cotzumalguapa, municipio del departamento de Escuintla en Guatemala para conversar sobre la vida cotidiana, cultura y tradiciones del lugar.",
-    "aboutTitle": "El municipio de Escuintla",
-    "about": "Santa Lucía Cotzumalguapa es un municipio del departamento de Escuintla en la República de Guatemala, con una extensión territorial de 432 km² y una altura entre 380 y 2.770 pies sobre el nivel del mar. La distancia a la cabecera departamental es 34 km, y a la Ciudad de Guatemala es 90 km. En el chat de Santa Lucía Cotzumalguapa los usuarios, tanto residentes como visitantes, intercambian opiniones sobre la vida diaria, la cultura local y las tradiciones del lugar. Compartiendo experiencias personales, hacen consultas sobre servicios, discuten eventos y ofrecen apoyo mutuo. La conversación incluye referencias a la historia del municipio, su variada geografía y la proximidad a los centros urbanos señalados. La sala está disponible en todo momento para quien desee participar, sin restricciones de horario, convirtiéndose en un punto de encuentro virtual para la comunidad. Los participantes pueden también compartir fotografías y recomendaciones sobre lugares de interés dentro del municipio."
+    "intro": "Santa Lucía Cotzumalguapa, en Escuintla, alberga la zona arqueológica Cotzumalhuapa con vestigios mayas en 432 km² y altitudes de 380 a 2.770 pies.",
+    "aboutTitle": "Cotzumalhuapa: azúcar, arqueología y el río de las comadrejas",
+    "about": "Santa Lucía Cotzumalguapa es un municipio del departamento de Escuintla, en la región sur de Guatemala. Ocupa una superficie de 432 km² y su terreno varía entre los 380 y los 2.770 pies sobre el nivel del mar. Se sitúa a 34 km de la cabecera departamental, Escuintla, y a 90 km de la Ciudad de Guatemala. El nombre del municipio combina el de su patrona, Santa Lucía de Siracusa, con el término náhuatl Cotzumalguapa, que significa «río de las comadrejas» o «río del arcoíris». Durante el período colonial, fue un convento y doctrina franciscana, y en 1754 pasó a ser curato secular. Su economía se basa en la agricultura, destacando la producción de azúcar, café, hule y frutas tropicales como el banano. Además, es un centro educativo importante en la zona, con presencia de sedes universitarias y centros de formación técnica."
   },
   {
     "slug": "quininde",
@@ -2146,9 +2146,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Únete al Chat de Quinindé, la sala de chat de la ciudad de Rosa Zárate, cabecera cantonal de la Provincia de Esmeraldas en Ecuador.",
-    "aboutTitle": "La vida en Quinindé: Malecón 2030 y más",
-    "about": "Quinindé es un cantón ecuatoriano ubicado en la Región Costa, con una población total de alrededor de 150.000 habitantes. La ciudad de Rosa Zárate es su cabecera cantonal y concentra gran parte de la población. En esta sala de chat, los usuarios pueden discutir sobre temas de interés local, como el progreso de la ciudad y las obras en marcha, como el Malecón 2030.\n\nEn este espacio, también se pueden encontrar personas que buscan información sobre la ciudad, su historia y su cultura. Los usuarios pueden compartir sus experiencias y conocimientos sobre Quinindé, y conectarse con otros que compartan intereses similares."
+    "intro": "Quinindé, ciudad ecuatoriana en la provincia de Esmeraldas, con una población de 31.120 habitantes según el censo de 2022.",
+    "aboutTitle": "Quinindé, ciudad en la confluencia de los ríos Blanco y Quinindé",
+    "about": "Quinindé, también conocida como Rosa Zárate, es una ciudad ecuatoriana ubicada en la provincia de Esmeraldas, en la Región Litoral de Ecuador. Se encuentra asentada sobre una extensa llanura, en la confluencia de los ríos Blanco y Quinindé, a una altitud de 85 m s. n. m. La ciudad tiene un clima lluvioso tropical con una temperatura promedio de 27 °C.\n\nLa ciudad de Quinindé es un importante centro administrativo, económico, financiero y comercial de la provincia de Esmeraldas. Sus actividades principales son la agricultura, la ganadería y el comercio. La palma africana se introdujo en la región en 1953, y desde entonces ha sido un cultivo importante en la zona."
   },
   {
     "slug": "almoloya-de-juarez",
@@ -2323,9 +2323,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Distrito de Majes, provincia de Caylloma, departamento de Arequipa, Perú. Conoce a personas de la zona y entra en la conversación.",
-    "aboutTitle": "Conversación en el sur del Perú",
-    "about": "El Distrito de Majes es uno de los veinte distritos que conforman la provincia de Caylloma, ubicada en el departamento de Arequipa, en el sur del Perú. Es un lugar con una rica historia y cultura propia. En la sala de chat de Distrito de Majes, podrás conocer a personas de la zona y unirte a la conversación sobre temas de interés local y general. Los usuarios de la sala son personas de diferentes edades y procedencias, pero todos comparten el interés por conocer y compartir experiencias sobre la vida en el Distrito de Majes.\n\nEn la sala de chat, podrás hablar sobre noticias locales, eventos culturales, deportes, y mucho más. También podrás hacer preguntas y obtener respuestas de personas que conocen bien la zona. La sala es un espacio abierto y acogedor para todos los que deseen conocer y compartir sobre el Distrito de Majes."
+    "intro": "Majes, distrito de Caylloma en Arequipa (Perú), creado en 1999. Su capital, El Pedregal, surgió tras irrigar la pampa desértica que ocupaba la zona hasta 1981.",
+    "aboutTitle": "Majes, un distrito en crecimiento",
+    "about": "Majes es un distrito de la provincia de Caylloma, en el departamento de Arequipa, al sur del Perú. Fue creado el 21 de diciembre de 1999 durante el gobierno de Alberto Fujimori, y su capital es el centro poblado El Pedregal. Hasta 1981, la zona era un desierto, pero la irrigación de la pampa alta permitió el asentamiento humano y el desarrollo de actividades como la agricultura y la ganadería. El distrito alberga el Estadio Almirante Miguel Grau, sede de la Liga Distrital de Fútbol de Majes. Caylloma, una de las ocho provincias de Arequipa, limita con otras como Castilla y Condesuyos. La transformación de la pampa desértica en tierras productivas marcó el crecimiento de la zona."
   },
   {
     "slug": "guasdualito",
@@ -2413,9 +2413,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Palma Soriano, la ciudad cabecera en la provincia de Santiago de Cuba, situada al pie de la Carretera Central, en los márgenes del río Cauto.",
-    "aboutTitle": "Palma Soriano, ciudad en las márgenes del río Cauto",
-    "about": "Palma Soriano es una ciudad ubicada en la provincia de Santiago de Cuba, en el sureste de la isla. Su territorio abarca 845 km² y supera los 120 mil habitantes, lo que la convierte en uno de los centros poblados más relevantes de la zona. La urbe se sitúa al pie de la Carretera Central, sobre las márgenes del río Cauto, y está próxima a la confluencia con el río Yarayabo, ofreciendo un entorno natural caracterizado por la presencia de ambos cauces. En la sala de chat dedicada a Palma Soriano, los participantes pueden abordar la historia local, la cultura popular y los aspectos cotidianos que definen a sus residentes. El espacio permite compartir experiencias, anécdotas y conocimientos sobre la región, favoreciendo un intercambio continuo entre los propios habitantes y los usuarios que sienten interés por la ciudad. Tanto los residentes como los visitantes virtuales pueden unirse a la conversación, plantear preguntas, debatir tradiciones y ampliar su comprensión del lugar. El diálogo se mantiene activo, ofreciendo una plataforma para aprender y profundizar en la identidad de Palma Soriano."
+    "intro": "Palma Soriano, ciudad ubicada en la provincia de Santiago de Cuba, con una población de más de 120 mil habitantes en 2020.",
+    "aboutTitle": "Palma Soriano, ciudad en las orillas del río Cauto",
+    "about": "Palma Soriano es un municipio-ciudad del sureste de Cuba, situada en la provincia de Santiago de Cuba. Ocupa 845 km², mientras que el municipio se extiende por 1872 km². La ciudad se encuentra ubicada en las orillas del río Cauto.\n\nFue fundada en el año 1775, mediante la donación que realizara a la Iglesia católica la señora De los Llamos y Rizo, quien ofreció para su fundación los terrenos de la hacienda Cauto Garzón. El desarrollo de Palma fue incrementándose con la llegada de poderosos hacendados a mediados de 1800, y entre ellos se destacaron el Marqués de la Candelaria de Yarayabo, poseedor de enormes extensiones de tierra, al igual que familias acomodadas, que residían en la ciudad y mantenían prósperos cultivos de caña y café, centrales azucareros, comercios, acueductos, etc."
   },
   {
     "slug": "totonicapan",
@@ -2444,9 +2444,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Totonicapán, la sala para conversar sobre la cabecera ubicada a 201 km de la Ciudad de Guatemala, donde el 98 % de sus habitantes son de etnia quiché.",
-    "aboutTitle": "Totonicapán: a 201 km del centro de Guatemala y su población quiché",
-    "about": "Totonicapán es la cabecera del departamento homónimo, situada a 201 km de la Ciudad de Guatemala en la zona alta del país. Según datos del censo, el 98 % de la población pertenece a la etnia quiché y en 2002 la cabecera municipal contaba con 14.524 habitantes, mientras que el resto se reparte entre aldeas y caseríos del área rural. La localidad conserva su nombre náhuatl, atotonilco, que significa “en el lugar del agua caliente”.\n\nEn la sala de chat de Totonicapán los usuarios comparten información sobre la vida cotidiana, tradiciones y eventos locales, así como temas de interés general. Participan residentes del municipio, personas originarias que viven fuera de la zona y curiosos que desean conocer más sobre la cultura quiché y la dinámica de este enclave guatemalteco."
+    "intro": "Totonicapán, departamento guatemalteco en la región sur-occidental, con raíces quichés y legado colonial como segunda provincia del señorío Quiché.",
+    "aboutTitle": "Totonicapán, un departamento con una rica historia",
+    "about": "Totonicapán es un departamento de Guatemala situado en la región sur-occidental del país. Su nombre, de origen náhuatl, combina «totonilco» (agua caliente) y «pan» (arriba), que se interpreta como «arriba en el agua caliente». Durante la época precolombina, el territorio fue la segunda provincia en importancia del señorío Quiché.\n\nEn el período colonial, formó parte del corregimiento de Totonicapán. En 1820, la revuelta indígena liderada por Atanasio Tzul contra autoridades peninsulares y criollas fue sofocada por milicianos ladinos. Tras la Independencia de Centroamérica en 1821, el departamento quedó integrado en la división Totonicapán/Huehuetenango. En 1838, la ciudad de Totonicapán tuvo un papel clave en la creación del Estado de Los Altos, reconocido por el Congreso de la República Federal de Centro América."
   },
   {
     "slug": "charallave",
@@ -2507,9 +2507,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Uribia, la sala donde conversan residentes y visitantes del municipio norte de La Guajira, famosa por ser la capital indígena de Colombia.",
-    "aboutTitle": "Uribia, la capital indígena de Colombia y su vida cotidiana",
-    "about": "Uribia es un municipio colombiano situado en el extremo norte del departamento de La Guajira. La localidad se destaca por ser la \"capital indígena de Colombia\". La alcaldía ofrece transparencia y acceso a la información pública, así como trámites y servicios en línea para la ciudadanía. En la sala de chat de Uribia se intercambian opiniones sobre la vida cotidiana, la cultura wayuu, eventos locales y los servicios que brinda la administración municipal. Participan habitantes del municipio, personas interesadas en la región y quienes siguen de cerca las noticias de la zona. Los temas giran en torno a la tradición indígena, la economía local, la información de trámites, la participación ciudadana y los eventos que se anuncian en el calendario de eventos. También se comenta sobre los proyectos en ejecución, los objetivos de desarrollo sostenible y los sitios de interés que aparecen en los directorios municipales. La conversación refleja la diversidad de la zona y la importancia de los mecanismos de participación para el desarrollo del territorio."
+    "intro": "Uribia, municipio wayúu en La Guajira colombiana, es la «capital indígena de Colombia» desde 1935 y puerta al Cabo de La Vela y Punta Gallinas.",
+    "aboutTitle": "Uribia y el resguardo wayúu de la Alta Guajira",
+    "about": "Uribia es el municipio más septentrional de Colombia, ubicado en la península de La Guajira. Refundado el 1 de marzo de 1935 como parte de un plan de integración nacional, su nombre rinde homenaje al líder liberal Rafael Uribe Uribe. La localidad es reconocida como la «capital indígena de Colombia» por ser el centro administrativo del gran resguardo wayúu, que abarca la Alta y Media Guajira y donde esta etnia ha vivido desde tiempos precolombinos.\n\nEl territorio, marcado por el desierto guajiro, alberga dos de los paisajes más representativos de la región: el Cabo de La Vela y Punta Gallinas. Cada año, Uribia celebra el Festival de la Cultura Wayúu, uno de los eventos culturales más destacados de La Guajira, junto a las fiestas patronales de la Inmaculada Concepción de María y el aniversario de su fundación, que se conmemora el 1 de marzo."
   },
   {
     "slug": "coronel",
@@ -2536,9 +2536,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Coronel, la sala en línea para la comuna del Biobío, situada a 30 km al sur de Concepción y con 279 km² de territorio. Únete y conversa.",
-    "aboutTitle": "Coronel: 30 km al sur de Concepción y 279 km² de territorio",
-    "about": "Coronel es una comuna de la zona sur de Chile, perteneciente a la provincia de Concepción, en la Región del Biobío. Se ubica en el Centro Geográfico de Chile Continental, a 30 km al sur del centro de la capital regional, Concepción, y forma, junto a Lota, el extremo sur del área metropolitana del Gran Concepción. La comuna abarca una superficie total de 279 km², de los cuales 99 km² corresponden a zona urbana y 180 km² a territorio rural.\n\nEn la sala de chat de Coronel los residentes, estudiantes y visitantes intercambian opiniones sobre la vida cotidiana, la actividad industrial del puerto, los eventos locales y la relación con la gran ciudad de Concepción. Se comentan noticias del municipio, el desarrollo de la zona rural y las iniciativas culturales, mientras que tanto jóvenes como adultos encuentran un espacio para compartir experiencias y organizar encuentros. También se discuten temas de transporte, la conectividad ferroviaria y los proyectos de mejora urbana, y se comparte información sobre los servicios municipales y los comercios locales."
+    "intro": "Coronel, comuna de la Región del Biobío, ubicada exactamente en el Centro Geográfico de Chile Continental, a 30 km al sur del centro de Concepción.",
+    "aboutTitle": "Coronel, centro geográfico de Chile Continental",
+    "about": "Coronel es una comuna de la zona sur de Chile, perteneciente a la provincia de Concepción, Región del Biobío. La comuna limita al norte con las comunas de San Pedro de la Paz, Chiguayante y Hualqui; al sur con las comunas de Lota y Santa Juana; al este con la comuna de Hualqui, y al oeste con el océano Pacífico.\n\nLa isla Santa María forma parte de la comuna, que es representada en ella por un delegado municipal. La zona geográfica actualmente delimitada como Coronel poseía tierras arenosas, llanuras con ciénagas cercadas por redes montañosas, y una vegetación y bosques que la cubrían hasta llegar muy cerca de la costa."
   },
   {
     "slug": "comitan-de-dominguez",
@@ -2565,9 +2565,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Comitán de Domínguez, la sala donde residentes y visitantes conversan sobre la ciudad conocida como Comitán de las Flores y su historia.",
-    "aboutTitle": "Comitán de las Flores y su legado histórico",
-    "about": "Comitán de Domínguez es una ciudad mexicana ubicada en el estado de Chiapas y capital del municipio del mismo nombre. Tradicionalmente conocida como Comitán de las Flores, lleva el apellido Domínguez en honor a Belisario Domínguez Palencia, mártir de la Libre Expresión y originario de esta ciudad. En la sala de chat de Comitán de Domínguez los usuarios comparten información sobre la vida cotidiana, eventos locales y cualquier tema de interés para la comunidad. Participan residentes, estudiantes y visitantes que consultan sobre servicios municipales, comentan la historia de la localidad o intercambian opiniones sobre cultura, educación y turismo. El tono de la conversación se mantiene respetuoso y abierto, y también se abordan cuestiones relacionadas con empleo y desarrollo económico de la zona. En la conversación también aparecen preguntas sobre salud pública, transporte, gastronomía típica y tradiciones locales. Los miembros suelen intercambiar recomendaciones de lugares para comer, datos sobre festividades y consejos para quienes se trasladan a la ciudad."
+    "intro": "Comitán de Domínguez es una ciudad mexicana situada en el estado de Chiapas, cabecera del municipio homónimo y cuna de personajes de relevancia histórica.",
+    "aboutTitle": "La ciudad de Comitán de las Flores",
+    "about": "Comitán de Domínguez es una ciudad mexicana situada en el estado de Chiapas, cabecera del municipio homónimo. Tradicionalmente es conocida como Comitán de las Flores, pero ostenta el apellido Domínguez en honor a Belisario Domínguez Palencia, mártir de la Libre Expresión, originario de esta ciudad. Etimológicamente, Comitán viene del náhuatl Komitl-tlan, que significa lugar de alfareros, cuyo término fue castellanizado luego de la conquista. También ostentó el nombre maya Balún Canán, que significa lugar de las nueve estrellas e inspiró la novela homónima de Rosario Castellanos. La ciudad se caracteriza por su variedad de estilos arquitectónicos como son el neoclásico, barroco y el neogótico. Es reconocida históricamente por ser el sitio donde se inició la independencia de Chiapas y Centroamérica. Su población es predominantemente ladina e indígena, pertenecientes a las etnias tojolabal y tseltal, y cuenta con una rica historia y tradiciones mayenses, preservadas por las comunidades nativas de la región."
   },
   {
     "slug": "iguala",
@@ -2597,9 +2597,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Iguala de la Independencia: conecta con residentes de la ciudad ubicada a 190 km de la Ciudad de México, en un valle rodeado por nueve montañas.",
-    "aboutTitle": "Iguala de la Independencia, valle rodeado por nueve montañas",
-    "about": "Iguala de la Independencia es una ciudad mexicana ubicada en la región norte del estado de Guerrero, a 190 kilómetros de la Ciudad de México. Es la cabecera del municipio homónimo y se sitúa en un valle rodeado por nueve montañas, lo que le confiere un entorno natural distintivo dentro del estado.\n\nEn la sala de chat de Iguala de la Independencia los usuarios comparten noticias locales, eventos culturales y opiniones sobre la vida cotidiana en la ciudad. Participan residentes, estudiantes y personas vinculadas al municipio que buscan intercambiar información, resolver dudas y mantener el vínculo con su comunidad. La conversación suele girar en torno a temas como la actividad del mercado, la gestión municipal y las tradiciones que se celebran en la zona. Además, se discuten oportunidades de empleo, proyectos de desarrollo urbano y la forma en que la administración local comunica sus servicios a través de la página oficial."
+    "intro": "Iguala de la Independencia, en Guerrero, es la única ciudad citada en el Himno Nacional Mexicano y donde se confeccionó la primera Bandera de México en 1821.",
+    "aboutTitle": "Iguala, cuna de la Bandera de México y citada en el Himno Nacional",
+    "about": "Iguala de la Independencia es una ciudad del norte del estado de Guerrero, a 190 kilómetros de la Ciudad de México. Se ubica en un valle rodeado por nueve montañas y es la tercera localidad más poblada de la entidad, con 132.854 habitantes según el censo de 2020. Su nombre proviene del náhuatl *yohualcehuatl*, que significa 'donde serena la noche'.\n\nEl 24 de febrero de 1821, Agustín de Iturbide proclamó aquí el Plan de Iguala, que reconoció la independencia de México y unió a los ejércitos insurgente y realista en el Ejército Trigarante. Ese mismo día, el sastre José Magdaleno Ocampo confeccionó la primera Bandera de México, cuyos colores —blanco, verde y rojo— simbolizan religión, independencia y unión. Por este hecho, Iguala es considerada la cuna del lábaro patrio y alberga el Museo del Lábaro Patrio, con una colección de banderas históricas. Además, es la única ciudad mencionada en el Himno Nacional Mexicano y fue la primera capital de Guerrero en 1849."
   },
   {
     "slug": "pochuta",
@@ -2807,9 +2807,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Sala de chat de Socopó, un importante centro financiero y económico de Venezuela, situada en el estado Barinas y capital del municipio Antonio José de Sucre.",
-    "aboutTitle": "Centro financiero y económico de Barinas",
-    "about": "Socopó es una ciudad venezolana, capital del municipio Antonio José de Sucre, situado en el estado Barinas. Dentro de la región se reconoce como un importante centro financiero y económico del país, lo que genera un flujo constante de actividades comerciales y profesionales. La sala de chat de Socopó reúne a usuarios que desean intercambiar opiniones y experiencias. En ella se tratan temas vinculados a la economía y la finanza, desde la evolución de los mercados locales hasta la gestión de negocios familiares. También se comparten reflexiones sobre la vida cotidiana en la ciudad, lo que permite a los participantes comparar su día a día con el de otros residentes. Además, la conversación abarca la cultura y la historia de Socopó, facilitando el intercambio de recuerdos, tradiciones y datos históricos. La comunidad está abierta a quienes buscan hacer amigos, ampliar su red de contactos o simplemente conversar con gente nueva interesada en la zona."
+    "intro": "Socopó, un importante centro financiero y económico en Venezuela, nació ilegalmente en 1954 en el estado Barinas.",
+    "aboutTitle": "Socopó, un centro financiero y económico en Barinas",
+    "about": "Socopó es una ciudad ubicada en el estado Barinas, Venezuela, y es considerada un importante centro financiero y económico en la región. La ciudad nació ilegalmente en 1954, cuando un grupo de personas lideradas por el valenciano Ronny Raciny y su socio Stiben Corro decidieron establecerse en la zona.\n\nLa ciudad se encuentra ubicada en el piedemonte andino-llanero, cerca del Parque Nacional, y su nombre se debe a un cacique indígena llamado Socopó, perteneciente a la tribu de arahuacos que habitaba en la zona. A lo largo de su historia, Socopó ha enfrentado desafíos, incluyendo la quema de chozas y ranchos por parte de los Organismos de Seguridad del Estado, pero ha logrado crecer y convertirse en un importante centro económico."
   },
   {
     "slug": "ixcan",
@@ -2986,9 +2986,9 @@ export const CITIES_GENERADAS: Place[] = [
       "amistad",
       "amor"
     ],
-    "intro": "Chat de Lo Barnechea: conecta con vecinos de la comuna que cubre el 48 % de la superficie de la provincia de Santiago y comparte la vida local.",
-    "aboutTitle": "Lo Barnechea: la comuna que cubre el 48 % de la provincia de Santiago",
-    "about": "Lo Barnechea es una comuna situada en el sector nororiente de la provincia de Santiago, en la Región Metropolitana de Chile. Limita al norte con Los Andes de la región de Valparaíso, al oeste con Colina, al suroeste con Vitacura y Huechuraba, al sur con Las Condes y al este con San José de Maipo. La zona se desarrolló alrededor del antiguo poblado rural de Lo Barnechea y abarca un 48 % de la superficie de la provincia, albergando barrios como La Dehesa, Los Trapenses, El Arrayán, el Pueblo de Lo Barnechea, La Ermita y el Cerro 18. En la sala de chat de Lo Barnechea los participantes conversan sobre la vida cotidiana de la comuna: actividades culturales, eventos de naturaleza, servicios municipales, oportunidades de emprendimiento local y temas de vecindario. La comunidad es heterogénea, con familias de ingresos altos y medio‑altos en La Dehesa, Los Trapenses y El Arrayán, y familias de ingresos medio‑bajos y bajos en el Pueblo de Lo Barnechea, La Ermita y el Cerro 18, lo que genera un intercambio diverso y cercano."
+    "intro": "Lo Barnechea, comuna del nororiente de Santiago, ocupa el 48% de la provincia con zonas residenciales y el histórico Pueblo de Lo Barnechea desde el siglo XIX.",
+    "aboutTitle": "Lo Barnechea: el pueblo que resiste a la conurbación de Santiago",
+    "about": "Lo Barnechea es una comuna de la Región Metropolitana de Santiago, ubicada en el sector nororiente de la provincia. Limita al norte con Los Andes, al oeste con Colina, al suroeste con Vitacura y Huechuraba, al sur con Las Condes y al este con San José de Maipo. Su territorio abarca casi la mitad de la superficie provincial, combinando áreas urbanas con paisajes naturales.\n\nSu historia se remonta a miles de años, con ocupación de culturas prehispánicas como la Llolleo, Bato y Aconcagua. Los habitantes originarios, llamados huaicoches, vivían en zonas propensas a huaicos o aluviones, fenómenos comunes en la región. El Pueblo de Lo Barnechea, fundado en el siglo XIX, ha resistido la expansión urbana del Gran Santiago. Hoy, la comuna alberga sectores de ingresos altos como La Dehesa y Los Trapenses, junto a áreas de menores recursos como el Cerro 18 y La Ermita."
   },
   {
     "slug": "ahome",
