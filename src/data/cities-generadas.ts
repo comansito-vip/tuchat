@@ -4079,5 +4079,338 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "La Grita, capital del municipio Jáuregui en el estado Táchira: a orillas del río Grita, en el Valle del Espíritu Santo andino.",
     "aboutTitle": "A orillas del río Grita, en los Andes venezolanos",
     "about": "La Grita es una ciudad venezolana, capital del municipio Jáuregui, en el estado Táchira, con 88.450 habitantes sobre los 454 kilómetros cuadrados que ocupa el municipio en su conjunto. Está situada a orillas del río Grita, del que toma directamente el nombre, dentro de un valle andino conocido como Valle del Espíritu Santo. Ese valle, y el propio río que lo recorre y le presta su nombre, son los dos rasgos geográficos que más se asocian a La Grita como capital del municipio Jáuregui, dentro de un estado, Táchira, que se identifica sobre todo con su paisaje de montaña andina, muy marcado en toda esta zona."
+  },
+  {
+    "slug": "yautepec",
+    "name": "Yautepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 145,
+    "votes": 235,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Morelos",
+    "regionSlug": "morelos",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "emiliano-zapata-edomex",
+      "cuernavaca",
+      "juchitepec",
+      "ozumba-de-alzate",
+      "amecameca",
+      "morelos",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yautepec, municipio de Morelos con 105.780 habitantes, destaca por su arquitectura virreinal y ruinas prehispánicas en la región Tierra Grande.",
+    "aboutTitle": "Arquitectura virreinal y ruinas prehispánicas de Yautepec",
+    "about": "Yautepec es uno de los 36 municipios que integran el estado de Morelos, México, y forma parte de la región Tierra Grande. Con una población de cerca de 105.780 habitantes, se sitúa en la zona norte del estado. Limita al norte con los municipios de Tepoztlán, Tlayacapan y Atlatlahucan, al sur con Tlaltizapán y Ayala, al oriente con Cuautla y al poniente con Jiutepec y Emiliano Zapata. El nombre proviene de los vocablos náhuatl yautli, la planta de pericón, y tepe‑tl, cerro, lo que significa “el cerro del pericón”. Aunque el cerro del Tenayo está cerca del centro, el nombre se refiere al cerro situado al poniente, donde abundan las flores de pericón.\n\nEl municipio es un importante destino turístico gracias a sus construcciones del periodo virreinal y a las ruinas arqueológicas del periodo prehispánico, como los hallazgos en el cerro de Atlihuayán y las nueve pirámides del juego de pelota descubiertas en Itzamatitlán. La historia local incluye la presencia de pobladores de origen olmeca y la participación en conflictos prehispánicos, como el ataque de 1389 contra los Tlahuicas. Durante la conquista, el señor de México sometió Yautepec y, al llegar los españoles, la región estaba bajo el liderazgo de Tizapapalotzin, quien ofreció resistencia."
+  },
+  {
+    "slug": "tarimbaro",
+    "name": "Tarímbaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 230,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "celaya",
+      "irapuato",
+      "uruapan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tarímbaro, en Michoacán, se destaca por su nombre purépecha que significa “lugar de sauces”, y está a 12 km de la capital del estado.",
+    "aboutTitle": "Tarímbaro: origen purépecha y su historia colonial",
+    "about": "Tarímbaro es la cabecera del municipio homónimo, situada en Michoacán, México. Se ubica a 19°47′38″N 101°10′37″O, a 1.870 metros sobre el nivel del mar, a 12 km de Morelia, la capital del estado. Su nombre proviene del purépecha y significa “lugar de sauces”. El vocablo Tarhímu se traduce como «sauce». En la época prehispánica el valle perteneció a la princesa tarasca Doña Beatriz de Castilleja Inaguatzín (1535‑1594), hija de Francisco de Castilleja y María Inaguitzin, hermana de Don Antoni Huitziméngari. Tras la conquista, Carlos V confirmó la propiedad en 1545. Los primeros pobladores llegaron bajo la guía de Doña Beatriz desde el cerro de San Miguel, hoy llamado cerro de Quinceo. Los franciscanos fundaron un templo donde se venera una imagen de la Virgen de la Escalera, promovida por Fray Juan Reina en 1757. Tarímbaro obtuvo la categoría de municipio el 10 de diciembre de 1831, perdió y recuperó su condición en 1894 y el 26 de febrero de 1930."
+  },
+  {
+    "slug": "lago-agrio",
+    "name": "Lago Agrio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 181,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Sucumbíos",
+    "regionSlug": "sucumbios",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valle-del-guamuez",
+      "puerto-asis",
+      "orito",
+      "villagarzon",
+      "ipiales",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lago Agrio, cantón ubicado en la provincia de Sucumbíos, Ecuador, con una superficie de 3128 km² y una población de 105.044 habitantes según el censo del 2022.",
+    "aboutTitle": "Lago Agrio, un cantón en la Amazonia ecuatoriana",
+    "about": "Lago Agrio es un cantón ubicado en la provincia de Sucumbíos, Ecuador. Su cabecera cantonal es la ciudad de Nueva Loja, lugar donde se agrupa gran parte de su población total. El cantón tiene una superficie de 3128 km² y una altura de 300 m s. n. m. Limita al norte con Colombia, al sur con la provincia de Orellana, al este con el cantón Cuyabeno y al oeste con el cantón Cascales.\n\nEl cantón tiene un clima tropical (húmedo) con temperaturas que oscilan entre los 37 a 39 grados celsius y máximas precipitaciones en verano. La hidrografía del cantón se caracteriza por la presencia de innumerables ríos, entre los que se destacan el río Aguarico, El Eno, El Conejo, El Dureno y El Teteye."
+  },
+  {
+    "slug": "autonomo-atures",
+    "name": "Autónomo Atures",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 146,
+    "votes": 249,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Amazonas",
+    "regionSlug": "amazonas",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-carreno",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Autónomo Atures, municipio del estado Amazonas en Venezuela, con una superficie de 4500 km² y una población de 135.000 habitantes.",
+    "aboutTitle": "El río Orinoco y la historia de Autónomo Atures",
+    "about": "El Municipio Autónomo Atures es uno de los 7 municipios que conforman el estado Amazonas en Venezuela. Su capital es Puerto Ayacucho, la cual también es la capital del estado y sede de los poderes públicos del estado. El nombre de Autónomo Atures proviene de los primeros pobladores de la región y de los rápidos del río Orinoco que interrumpen la navegación en esa zona, conocidos como 'raudales de Atures'. La historia de Autónomo Atures se remonta a 1748, cuando el padre jesuita Francisco González fundó la misión de Juan Nepomuceno de Atures en el sitio llamado El Raudal. En ese momento, la misión tenía 520 indios de diferentes etnias, como Piaroas, Macos, Cuacas, Maipures, Abanes, Parenes, Guaipuinabes y Yavaranas."
+  },
+  {
+    "slug": "presidente-peron",
+    "name": "Presidente Perón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-vicente-misiones",
+      "lomas-de-zamora",
+      "lanus",
+      "quilmes",
+      "brandsen",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Presidente Perón, partido bonaerense creado en 1993 con cabecera en Guernica, limita con San Vicente y Florencio Varela a 37 km de Buenos Aires por la Ruta 16.",
+    "aboutTitle": "Guernica, cabecera del partido creado en 1993 por ley 11.480",
+    "about": "Presidente Perón es uno de los 135 partidos de la provincia de Buenos Aires. Su territorio fue desmembrado en 1993 de San Vicente, Florencio Varela y Esteban Echeverría, y tiene como única ciudad cabecera a Guernica, donde se ubica el Palacio Municipal en la calle Crisólogo Larralde 241. El partido lleva el nombre del expresidente Juan Domingo Perón, fallecido en 1974, y forma parte del aglomerado urbano del Gran Buenos Aires.\n\nSe encuentra a 37 km de la Ciudad Autónoma de Buenos Aires, conectado a través de las rutas provinciales 16, 58 y 210. En cuanto a su geografía, registra baja sismicidad, habiéndose registrado el último movimiento significativo en 1888, y está atravesada por las subfallas de los ríos Paraná y de la Plata. El partido incluye barrios como Panamérica, Parque Las Naciones, La Yaya y Santa Rosa de Lima. Cuenta con áreas de gestión municipal dedicadas a salud, desarrollo social y medio ambiente, las cuales operan centros de atención primaria y programas de prevención contra enfermedades como el dengue, zika y chikungunya."
+  },
+  {
+    "slug": "pena",
+    "name": "Peña",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 211,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Yaracuy",
+    "regionSlug": "yaracuy",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barquisimeto",
+      "san-felipe",
+      "acarigua",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Peña, municipio del suroeste de Yaracuy (Venezuela), cuenta con 140.256 habitantes y una extensión de 510 km² repartidos en San Andrés y Yaritagua.",
+    "aboutTitle": "Peña, un municipio venezolano con economía agrícola",
+    "about": "Peña es uno de los 14 municipios que integran el estado Yaracuy, situado en la zona suroeste de Venezuela. Este territorio ocupa una superficie total de 510 km², los cuales se encuentran organizados administrativamente en dos parroquias: San Andrés y Yaritagua. En cuanto a su actividad económica, el municipio presenta un modelo mixto que combina el sector comercial con la agricultura. Entre los cultivos que destacan en la producción local se encuentran el maíz, el pimentón, la caña de azúcar y el tomate. A pesar de que su ubicación geográfica sugiere un potencial favorable para el desarrollo regional, el crecimiento industrial de Peña se ha visto limitado. Este estancamiento es consecuencia directa de la crisis económica que atraviesa Venezuela, así como de la escasez de oportunidades laborales y educativas para su población de 140.256 habitantes."
+  },
+  {
+    "slug": "la-costa",
+    "name": "La Costa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 213,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-clemente-del-tuyu",
+      "pinamar-divisadero",
+      "general-juan-madariaga",
+      "villa-gesell",
+      "dolores",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Costa, un partido costero de la provincia de Buenos Aires, Argentina, ubicado en la quinta sección electoral de la provincia.",
+    "aboutTitle": "La Costa, un municipio costero en la provincia de Buenos Aires",
+    "about": "La Costa es uno de los 135 partidos que componen la provincia argentina de Buenos Aires. Forma parte de la quinta sección electoral de la provincia de Buenos Aires y se encuentra ubicado en la costa atlántica. El partido cubre todo el borde oriental del cabo San Antonio, limita al norte con la Bahía de Samborombón; al sur, con el partido de Pinamar; al oeste, con el partido de General Lavalle y al este, con el mar Argentino. La cabecera del municipio es la localidad de Mar del Tuyú, que cuenta con servicios estándares para el turista y es virtualmente una localidad satélite de la vecina Santa Teresita. La ciudad de San Bernardo del Tuyu es la urbe más importante de todo el municipio en cuanto a desarrollo edilicio, urbanístico y comercial."
+  },
+  {
+    "slug": "el-seibo",
+    "name": "El Seibo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 221,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "El Seibo",
+    "regionSlug": "el-seibo",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "higuey",
+      "la-romana",
+      "san-pedro-de-macorris",
+      "punta-cana",
+      "santo-domingo-este",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Seibo, municipio fundado en 1502 en la provincia homónima, es una de las primeras ciudades de República Dominicana. Su nombre proviene del jefe taíno Seebo.",
+    "aboutTitle": "El Seibo, una ciudad con historia y producción de cacao",
+    "about": "El Seibo es un municipio de República Dominicana ubicado en la provincia del mismo nombre, una de las primeras del país. Fundado en 1502 por el conquistador español Juan de Esquivel, su origen se remonta a la época colonial. La economía local gira en torno al cacao, siendo la segunda provincia productora nacional con unos 132.000 quintales anuales. Además, en la zona se elabora el mabí, una bebida refrescante hecha con tallos de bejuco indio y azúcar de caña. El nombre de la ciudad proviene de Seebo, un jefe taíno que gobernaba como subcacique bajo la autoridad del cacique Cayacoha, de la cercana Higuey."
+  },
+  {
+    "slug": "buin",
+    "name": "Buin",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 201,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "quillota",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Buin, comuna y ciudad de la Región Metropolitana a 35 km al sur de Santiago por la Ruta Panamericana, fundada en 1844 bajo el gobierno de Manuel Bulnes Prieto.",
+    "aboutTitle": "La batalla de los puentes de Buin y su fundación en 1844",
+    "about": "Buin es una comuna y ciudad de la Región Metropolitana de Santiago, situada a 35 km al sur de la capital. Se accede por la Ruta Panamericana o la Autopista del Maipo y pertenece a la provincia de Maipo. Forma parte del Distrito Electoral N° 30 junto a Calera de Tango, Paine y San Bernardo. Fundada oficialmente el 14 de febrero de 1844 durante el gobierno de Manuel Bulnes Prieto, su creación incluyó la donación de terrenos para una plaza, una iglesia y la casa consistorial. El origen de su nombre es incierto: algunas teorías lo vinculan al río Buin en Perú, mientras que otras lo relacionan con el mapudungun *huimn* ('hallarse en un lugar'). Limita al norte con San Bernardo, al este con Pirque, al sur con Paine y al oeste con Isla de Maipo. Actualmente, Buin forma parte del área metropolitana de Santiago, integrada en la conurbación del sector sur de la región."
+  },
+  {
+    "slug": "nahuala",
+    "name": "Nahualá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 182,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Sololá",
+    "regionSlug": "departamento-de-solola",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "quetzaltenango",
+      "mazatenango",
+      "san-marcos-guatemala",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nahualá, municipio de Sololá (Guatemala), abarca 4.518 km² y su nombre en quiché evoca 'aguas encantadas' o 'agua de los espíritus'.",
+    "aboutTitle": "Nahualá y el significado de sus 'aguas encantadas'",
+    "about": "Nahualá es un municipio del departamento de Sololá, en la región occidental de Guatemala. Su nombre, de origen quiché, se traduce localmente como 'aguas encantadas' o 'agua de los espíritus', aunque los académicos lo vinculan a raíces náhuatl y mayas: *nawal* ('mago' o 'espíritu') y *ja’* ('agua'). Los residentes rechazan interpretaciones como 'agua de los brujos'. Se ubica a 29 km de la cabecera departamental, Sololá, y su territorio ocupa 4.518 km².\n\nEn 1872, tras la creación del departamento de Quiché durante la Revolución Liberal, Nahualá pasó a depender administrativamente de Totonicapán. La zona estuvo habitada desde el período Preclásico, según estudios arqueológicos realizados en los años 70. Limita con otros municipios del altiplano guatemalteco, dentro de una comarca marcada por su herencia cultural y paisajes montañosos."
+  },
+  {
+    "slug": "evita",
+    "name": "Evita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moron",
+      "lomas-de-zamora",
+      "lanus",
+      "argentina",
+      "buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "María Eva Duarte de Perón, conocida como Evita, fue actriz y política argentina, primera dama entre 1946 y 1952.",
+    "aboutTitle": "Evita y el legado de la abanderada de los humildes",
+    "about": "María Eva Duarte de Perón, apodada Evita, fue actriz y política argentina. Ejerció como primera dama desde 1946 hasta su muerte en 1952, durante los mandatos de su esposo, el presidente Juan Domingo Perón. Figura destacada del peronismo en las décadas de 1940 y 1950, impulsó la lucha contra la pobreza, la desigualdad económica y la oligarquía de los grandes terratenientes. Defendió los derechos de trabajadores, mujeres, niños, ancianos y sectores vulnerables. Su dedicación al servicio público le valió el apelativo de «la abanderada de los humildes». Tras los gobiernos peronistas, los golpes militares prohibieron su mención durante veinte años, generando controversias que persisten."
   }
 ];
