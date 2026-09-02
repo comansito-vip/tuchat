@@ -30512,24 +30512,6 @@
  },
  {
   "origen": "pais5k",
-  "pais": "Uruguay",
-  "paisSlug": "uruguay",
-  "nombre": "Centurion",
-  "slug": "centurion",
-  "poblacion": 236580,
-  "region": "Departamento de Cerro Largo",
-  "regionSlug": "departamento-de-cerro-largo",
-  "wikipedia": "https://es.wikipedia.org/wiki/Centurion_(Sud%C3%A1frica)",
-  "extracto": null,
-  "webOficial": null,
-  "gentilicio": null,
-  "coords": {
-   "lat": -25.860277777,
-   "lon": 28.189444444
-  }
- },
- {
-  "origen": "pais5k",
   "pais": "Argentina",
   "paisSlug": "argentina",
   "nombre": "Departamento Luján de Cuyo",

@@ -5560,5 +5560,21 @@
    "lat": 8.011666666,
    "lon": -67.121111111
   }
+ },
+ {
+  "origen": "pais5k",
+  "pais": "Uruguay",
+  "paisSlug": "uruguay",
+  "nombre": "Centurion",
+  "slug": "centurion",
+  "poblacion": 236580,
+  "region": "Departamento de Cerro Largo",
+  "regionSlug": "departamento-de-cerro-largo",
+  "wikipedia": null,
+  "extracto": null,
+  "webOficial": null,
+  "gentilicio": null,
+  "coords": null,
+  "razon_descarte": "dato corrupto: wikipedia y coordenadas apuntaban a Centurion, Sudafrica, no a ninguna localidad de Uruguay; poblacion declarada (236.580) no es plausible para el departamento de Cerro Largo"
  }
 ]
