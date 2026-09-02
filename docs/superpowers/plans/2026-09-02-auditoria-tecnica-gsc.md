@@ -63,18 +63,32 @@ estrategia mobile (la que manda para el ranking):
 | `/` (home) | 2,1 s | 0 | 10 ms | 0,99 |
 | `/chat` (listado) | 1,8 s | 0,057 | 80 ms | 0,99 |
 | `/chat/palermo-colombia` (ciudad pequeña) | 2,1 s | 0 | 20 ms | 0,99 |
-| `/chat/barcelona` (ciudad grande) | **4,2 s** | 0 | 40 ms | 0,82 |
-| `/noticias` (hub) | **4,5 s** | 0 | 0 ms | 0,84 |
+| `/chat/barcelona` (ciudad grande) | 2,1 s | 0 | — | 0,99 |
+| `/noticias` (hub) | sin medir (ver abajo) | — | — | — |
 
-**Patrón real**: home, listado general y ciudades pequeñas están en zona "Good" (LCP
-&lt;2,5s). Las páginas con más contenido/tarjetas (una ciudad grande con muchas salas
-relacionadas, el hub de noticias con su grid de imágenes) caen a "Needs improvement"
-(LCP 4,2-4,5s). El desglose de `lcp-breakdown-insight` en Barcelona muestra un TTFB
-mínimo (~2 ms) — el origen no es el cuello, es el trabajo de render/pintado con más
-contenido en pantalla. CLS se mantiene en 0 salvo el listado (0,057, todavía dentro de
-"Good" &lt;0,1). No se profundizó más en la causa exacta (qué recurso concreto es el
-elemento LCP) — queda como pista para quien quiera perseguirlo, no es urgente porque el
-cuello del sitio sigue siendo rastreo, no velocidad.
+**REMEDIDO el mismo día: el 4,2s de Barcelona era ruido de una sola pasada.**
+Repetido dos veces más y salió 2,1s ambas (score 0,99), con el mismo desglose de LCP
+(`lcp-breakdown-insight`: TTFB ~2ms + render delay ~207ms, nada que explique 4 segundos).
+Lección: con PSI, no dar un hallazgo de "Needs improvement" por bueno sin repetir la
+medición al menos una vez — la variabilidad entre ejecuciones puede ser de segundos
+enteros sin que cambie nada real en el sitio.
+
+**`/noticias` no se pudo medir: PageSpeed Insights falla con error 500 de Lighthouse
+de forma consistente** (4 intentos: mobile y desktop, con y sin filtro de categoría,
+todos `"Lighthouse returned error: Something went wrong"`). Comprobado que el fallo NO
+es del sitio: `curl` a la URL responde 200, 242 KB, 1,4 s, HTML bien formado — 48
+`<img>` con `next/image` en modo `fill`, solo la primera (destacada) sin `loading="lazy"`
+(correcto, es la candidata a LCP), las otras 47 en lazy. No hay indicio de nada roto en
+el código. Se deja documentado como fallo de la herramienta (PSI/Lighthouse), no del
+sitio — reintentar en otra sesión antes de investigar más a fondo.
+
+**Patrón real (corregido):** todas las páginas medibles —home, listado general, ciudad
+pequeña y ciudad grande— están en zona "Good" (LCP ~1,8-2,1s, score Lighthouse 0,99).
+CLS se mantiene en 0 salvo el listado (0,057, todavía dentro de "Good" &lt;0,1). No hay
+ningún problema real de rendimiento en las páginas que se pudieron medir. La única
+incógnita es `/noticias`, que no se pudo medir por el fallo de herramienta ya descrito
+arriba — no hay ninguna señal (curl, HTML, imágenes) de que el sitio tenga un problema
+ahí, así que no se trata como hallazgo hasta poder medirlo de verdad.
 
 ## 5. Vídeo
 
@@ -88,8 +102,8 @@ cuello del sitio sigue siendo rastreo, no velocidad.
 
 ## Prioridades recomendadas (sin aplicar, a decidir)
 
-1. ~~Conseguir una API key de PageSpeed Insights~~ — **hecho el 2026-09-02**, el usuario la dio y ya está en `.env.local`. Core Web Vitals medidos (sección 4).
-2. **Opcional, bajo impacto**: perfilar por qué las páginas de ciudad grande (`/chat/barcelona`, LCP 4,2s) y el hub de noticias (`/noticias`, LCP 4,5s) caen a "Needs improvement" en mobile mientras home/listado/ciudad pequeña están en "Good" — probablemente el volumen de tarjetas/imágenes en pantalla. No es urgente: el cuello del sitio es rastreo, no velocidad, y ninguna está en zona "Poor" (&gt;4s solo por poco).
+1. ~~Conseguir una API key de PageSpeed Insights~~ — **hecho el 2026-09-02**, el usuario la dio y ya está en `.env.local`. Core Web Vitals medidos (sección 4): todo en zona "Good", sin problema real de rendimiento.
+2. **Reintentar medir `/noticias`** en otra sesión (PSI le da 500 de forma consistente por ahora) antes de investigar nada — puede que sea un problema temporal de la herramienta, no del sitio.
 3. Nada más es urgente a nivel técnico: sitemap sano, robots.txt correcto, rich results (breadcrumbs) funcionando en todo lo indexado, sin vídeo que auditar.
 4. El único frente que sigue abierto es el ya conocido: **más rastreo/indexación**, no algo que un cambio técnico vaya a resolver (ya se descartó contenido y enlazado interno). Seguir con el monitoreo periódico de Search Console (próxima remedida ya agendada 20-25 de septiembre).
 5. Opcional, bajo impacto: investigar por qué `/chat/madrid` (alto volumen esperado) no está indexada mientras `/chat/barcelona` y `/chat/mexico` sí — no hay patrón obvio por tamaño de ciudad, podría valer una inspección puntual más adelante si el patrón se repite en un muestreo más grande.
