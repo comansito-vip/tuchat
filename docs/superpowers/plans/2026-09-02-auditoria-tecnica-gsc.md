@@ -48,15 +48,33 @@ Dos sitemaps enviados, ambos sanos:
 
 `mobileUsabilityVerdict` sale `VERDICT_UNSPECIFIED` en las 13 — Google retiró el informe independiente de Usabilidad móvil en 2023 (lo sustituyó por Core Web Vitals), así que este campo ya no se rellena; no es un fallo de la sonda ni del sitio.
 
-## 4. Core Web Vitals — NO MEDIDO, limitación de esta sesión
+## 4. Core Web Vitals — MEDIDO (actualizado 2026-09-02, tras conseguir API key)
 
-No se pudo obtener ni datos de campo (CrUX) ni de laboratorio:
-- **PageSpeed Insights API**: sin API key configurada en ningún proyecto de la red, la cuota compartida sin key se agotó a la primera URL (`429 Quota exceeded... Queries per day`).
-- **Lighthouse local**: CLI instalado (`npx lighthouse` responde) pero no hay Chrome/Chromium disponible en este entorno (`Unable to connect to Chrome`).
+El usuario dio una API key propia de PageSpeed Insights (guardada en `.env.local` como
+`PAGESPEED_API_KEY`, potencialmente reutilizable en el resto de proyectos de la red).
+Con ella, PSI responde con datos de laboratorio (Lighthouse); **no hay datos de campo
+(CrUX) todavía** — `loadingExperience` viene vacío en todas las URLs probadas porque el
+origen no tiene tráfico real suficiente en los últimos 28 días que Chrome pueda agregar
+(coherente con las 38 clics/90 días medidos en la sección 1). Datos de laboratorio,
+estrategia mobile (la que manda para el ranking):
 
-Lo único que hay de referencia es TTFB medido en sesiones anteriores desde el VPS: **0,11-0,14 s con la Cache Rule de Cloudflare activa** (memoria `project_production_deploy`), que es un buen indicio indirecto pero no sustituye a LCP/INP/CLS reales.
+| URL | LCP | CLS | TBT | Lighthouse Performance |
+|---|---:|---:|---:|---:|
+| `/` (home) | 2,1 s | 0 | 10 ms | 0,99 |
+| `/chat` (listado) | 1,8 s | 0,057 | 80 ms | 0,99 |
+| `/chat/palermo-colombia` (ciudad pequeña) | 2,1 s | 0 | 20 ms | 0,99 |
+| `/chat/barcelona` (ciudad grande) | **4,2 s** | 0 | 40 ms | 0,82 |
+| `/noticias` (hub) | **4,5 s** | 0 | 0 ms | 0,84 |
 
-**Recomendación para desbloquear esto**: crear una API key gratuita de Google Cloud (PageSpeed Insights API, cuota generosísima con key) y guardarla en algún `.env` de la red, o revisar el informe "Core Web Vitals" directamente en el panel de Search Console — es una vista agregada que solo existe ahí, la API nunca la expone.
+**Patrón real**: home, listado general y ciudades pequeñas están en zona "Good" (LCP
+&lt;2,5s). Las páginas con más contenido/tarjetas (una ciudad grande con muchas salas
+relacionadas, el hub de noticias con su grid de imágenes) caen a "Needs improvement"
+(LCP 4,2-4,5s). El desglose de `lcp-breakdown-insight` en Barcelona muestra un TTFB
+mínimo (~2 ms) — el origen no es el cuello, es el trabajo de render/pintado con más
+contenido en pantalla. CLS se mantiene en 0 salvo el listado (0,057, todavía dentro de
+"Good" &lt;0,1). No se profundizó más en la causa exacta (qué recurso concreto es el
+elemento LCP) — queda como pista para quien quiera perseguirlo, no es urgente porque el
+cuello del sitio sigue siendo rastreo, no velocidad.
 
 ## 5. Vídeo
 
@@ -70,7 +88,8 @@ Lo único que hay de referencia es TTFB medido en sesiones anteriores desde el V
 
 ## Prioridades recomendadas (sin aplicar, a decidir)
 
-1. **Conseguir una API key de PageSpeed Insights** (gratis, 5 minutos en Google Cloud Console) para poder medir Core Web Vitals de verdad en la próxima auditoría — ahora mismo es un punto ciego real.
-2. Nada más es urgente a nivel técnico: sitemap sano, robots.txt correcto, rich results (breadcrumbs) funcionando en todo lo indexado, sin vídeo que auditar.
-3. El único frente que sigue abierto es el ya conocido: **más rastreo/indexación**, no algo que un cambio técnico vaya a resolver (ya se descartó contenido y enlazado interno). Seguir con el monitoreo periódico de Search Console (próxima remedida ya agendada 20-25 de septiembre).
-4. Opcional, bajo impacto: investigar por qué `/chat/madrid` (alto volumen esperado) no está indexada mientras `/chat/barcelona` y `/chat/mexico` sí — no hay patrón obvio por tamaño de ciudad, podría valer una inspección puntual más adelante si el patrón se repite en un muestreo más grande.
+1. ~~Conseguir una API key de PageSpeed Insights~~ — **hecho el 2026-09-02**, el usuario la dio y ya está en `.env.local`. Core Web Vitals medidos (sección 4).
+2. **Opcional, bajo impacto**: perfilar por qué las páginas de ciudad grande (`/chat/barcelona`, LCP 4,2s) y el hub de noticias (`/noticias`, LCP 4,5s) caen a "Needs improvement" en mobile mientras home/listado/ciudad pequeña están en "Good" — probablemente el volumen de tarjetas/imágenes en pantalla. No es urgente: el cuello del sitio es rastreo, no velocidad, y ninguna está en zona "Poor" (&gt;4s solo por poco).
+3. Nada más es urgente a nivel técnico: sitemap sano, robots.txt correcto, rich results (breadcrumbs) funcionando en todo lo indexado, sin vídeo que auditar.
+4. El único frente que sigue abierto es el ya conocido: **más rastreo/indexación**, no algo que un cambio técnico vaya a resolver (ya se descartó contenido y enlazado interno). Seguir con el monitoreo periódico de Search Console (próxima remedida ya agendada 20-25 de septiembre).
+5. Opcional, bajo impacto: investigar por qué `/chat/madrid` (alto volumen esperado) no está indexada mientras `/chat/barcelona` y `/chat/mexico` sí — no hay patrón obvio por tamaño de ciudad, podría valer una inspección puntual más adelante si el patrón se repite en un muestreo más grande.
