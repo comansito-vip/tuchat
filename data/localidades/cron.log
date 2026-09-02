@@ -1287,3 +1287,10 @@ Groq: HT
 [2026-09-01T03:31:13.789Z]   ✗ rubio: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
 [2026-09-01T03:31:13.809Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-09-01T03:31:13.981Z] publicadas 2 salas · acumuladas 133 · quedan 3265 en cola
+[2026-09-02T00:36:51.484Z] cola: 5 · lote de hoy: 5
+[2026-09-02T00:36:53.390Z]   ✓ olanchito (Honduras) — escribió manual, verificó Groq
+[2026-09-02T00:37:09.989Z]   ✓ mayari (Cuba) — escribió manual, verificó Groq
+[2026-09-02T00:37:15.038Z]   ✓ upata (Venezuela) — escribió manual, verificó Groq
+[2026-09-02T00:37:20.049Z]   ✓ la-grita (Venezuela) — escribió manual, verificó Groq
+[2026-09-02T00:38:11.493Z]   ✗ tacambaro: No se pudo extraer JSON de la respuesta del LLM: Unexpected token 'q', ..."ultural", que no est"... is not valid JSON
+[2026-09-02T00:38:11.509Z] publicadas 4 salas · acumuladas 137 · quedan 1 en cola

@@ -51,6 +51,17 @@ const arg = (n, d) => {
 const LOTE = Number(arg("lote", 12));
 const SECO = process.argv.includes("--seco");
 const MODO_REHACER = process.argv.includes("--rehacer");
+/**
+ * `--manual <ruta.json>`: en vez de pedirle la redacción a la cadena de LLM
+ * gratuitos, la trae de un fichero `{ [slug]: { intro, about } }` ya escrito
+ * (por ejemplo, por el propio asistente en una sesión interactiva). Sigue
+ * pasando por TODO lo demás sin cambios: `esDivisionAdministrativa`, la
+ * verificación adversarial con un proveedor distinto, `revisarFicha`,
+ * `HORARIOS_INVENTADOS`, el índice de fraseo repetido y la escritura final.
+ * Solo cambia quién escribe el primer borrador; quién lo vigila es el mismo.
+ */
+const MANUAL_RUTA = arg("manual", null);
+const MANUAL = MANUAL_RUTA ? JSON.parse(readFileSync(MANUAL_RUTA, "utf-8")) : null;
 
 // Tres intentos por localidad antes de abandonarla, y solo cuentan los fallos
 // por CONTENIDO: que la cadena de LLMs esté saturada no dice nada del pueblo.
@@ -476,6 +487,7 @@ async function main() {
     : cola
         .filter((l) => l.slug && !hechas.has(l.slug) && !abandonadas.has(l.slug)
           && !yaSlug.has(l.slug) && !yaLocalidad.has(identidad(l)))
+        .filter((l) => !MANUAL || Object.prototype.hasOwnProperty.call(MANUAL, l.slug))
         .sort((a, b) => puntuar(b) - puntuar(a));
 
   // Una ficha que se está rehaciendo no puede competir consigo misma en el
@@ -554,8 +566,11 @@ async function main() {
         continue;
       }
 
-      const gen = await completar(SISTEMA, promptGenerar(loc, material), { maxTokens: TOKENS_FICHA });
-      let ficha = extraeJSON(gen.texto);
+      const manualFicha = MANUAL && MANUAL[loc.slug];
+      const gen = manualFicha
+        ? { proveedor: "manual" }
+        : await completar(SISTEMA, promptGenerar(loc, material), { maxTokens: TOKENS_FICHA });
+      let ficha = manualFicha ?? extraeJSON(gen.texto);
       if (!ficha.intro || !ficha.about) { descarta("la ficha no trae intro o about"); continue; }
 
       // Verificación adversarial con un proveedor DISTINTO: el que escribió

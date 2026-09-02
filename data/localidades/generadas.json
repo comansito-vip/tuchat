@@ -3952,5 +3952,122 @@
   "intro": "Sayaxché es un municipio del departamento de Petén en Guatemala con una población de 99.787 habitantes y una superficie de 3.904 kilómetros cuadrados.",
   "aboutTitle": "Sayaxché y los vestigios de Ceibal y Aguateca",
   "about": "Sayaxché, cuyo nombre en q'ek'chi significa horqueta de ceiba, es un municipio situado en el departamento de Petén, Guatemala. Fue creado el 4 de diciembre de 1929 por decreto del general Lázaro Chacón, dejando de ser una aldea de La Libertad para ser ascendido a municipio el 30 de diciembre del mismo año. La cabecera municipal posee un clima tropical según la clasificación de Köppen.\n\nEl territorio ocupa el 10,89% del departamento de Petén y cuenta con una organización política compuesta por ocho aldeas, ciento cuarenta caseríos, cuatro fincas, cuatro asentamientos y cinco cooperativas. Entre sus aldeas destacan Rancho Alegre, El Pato y Tierra Blanca. El municipio alberga vestigios arqueológicos como Ceibal, Aguateca, Dos Pilas y Cancuén, además de atractivos naturales como el parque nacional El Rosario, San Juan Acul y la laguna Petexbatún."
+ },
+ {
+  "slug": "olanchito",
+  "name": "Olanchito",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 120,
+  "votes": 197,
+  "activity": "Media",
+  "parentName": "Honduras",
+  "parentSlug": "honduras",
+  "provincia": "Departamento de Yoro",
+  "regionSlug": "departamento-de-yoro",
+  "channels": [
+   "honduras",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "la-ceiba",
+   "roatan",
+   "juticalpa",
+   "honduras",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Olanchito, en el departamento de Yoro: la Ciudad Cívica de Honduras, cuna de escritores, dramaturgos y pintores.",
+  "aboutTitle": "La Ciudad Cívica de la República de Honduras",
+  "about": "Olanchito es una ciudad y municipio del departamento de Yoro, en Honduras, conocida en el país como la Ciudad Cívica de la República. Ese nombre se lo puso el profesor Max Sorto Batres, y se sostiene sobre todo por la tradición de Olanchito como cuna de escritores, dramaturgos y pintores hondureños a lo largo de su historia. Esa vinculación con la cultura y las letras es lo que más se asocia a Olanchito dentro del departamento de Yoro, por encima de otros rasgos de la ciudad, y es también el origen del título con el que se la conoce en el resto del país."
+ },
+ {
+  "slug": "mayari",
+  "name": "Mayarí",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 122,
+  "votes": 199,
+  "activity": "Media",
+  "parentName": "Cuba",
+  "parentSlug": "cuba",
+  "provincia": "Provincia de Holguín",
+  "regionSlug": "provincia-de-holguin",
+  "channels": [
+   "cuba",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "holguin",
+   "santiago-de-cuba",
+   "guantanamo",
+   "bayamo",
+   "cuba",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Mayarí, municipio de Holguín (Cuba): montañas, el río Mayarí y el salto de agua más alto del país, situado en un valle del nororiente cubano.",
+  "aboutTitle": "El salto de agua más alto de Cuba",
+  "about": "Mayarí es un municipio y ciudad situada en la provincia de Holguín, en la zona nororiental de Cuba. La cabecera municipal se encuentra asentada en un valle rodeado de montañas, lo que confiere al entorno un relieve predominantemente accidentado. El territorio municipal se caracteriza por una densa red hidrográfica: el río Mayarí atraviesa la zona, alimentando las bahías de Nipe y Levisa que se encuentran en sus proximidades. Dentro de este marco natural destaca el salto de agua más alto de la isla, ubicado en el mismo municipio y reconocido por su altura. La combinación de valle, cordilleras y corrientes fluviales ha condicionado tanto la actividad agrícola como la forma de asentamiento de la población local. La población del municipio se distribuye principalmente en la zona urbana de la ciudad y en pequeñas poblaciones dispersas en los valles y laderas. Este contexto geográfico e histórico convierte a Mayarí en un punto de referencia dentro de la provincia de Holguín por su paisaje montañoso y sus recursos hídricos."
+ },
+ {
+  "slug": "upata",
+  "name": "Upata",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 112,
+  "votes": 197,
+  "activity": "Media",
+  "parentName": "Venezuela",
+  "parentSlug": "venezuela",
+  "provincia": "Bolívar",
+  "regionSlug": "bolivar",
+  "channels": [
+   "venezuela",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "ciudad-guayana",
+   "venezuela",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Upata, capital del municipio Piar, en el interior del estado Bolívar: la tercera ciudad de la región de Guayana por población.",
+  "aboutTitle": "La tercera ciudad del estado Bolívar en población",
+  "about": "Upata es una ciudad venezolana situada en el interior del estado Bolívar. Es la capital del municipio Piar y ocupa el tercer puesto en número de habitantes de todo el estado, y de la región de Guayana en conjunto, por detrás únicamente de las dos ciudades más grandes de la zona. Esa posición —tercera en población de todo un estado y de toda una región— es la que mejor sitúa a Upata dentro de Bolívar: ni es la capital estatal ni la segunda ciudad, pero tampoco es una cabecera municipal más, sino la tercera fuerza demográfica de una región tan extensa como Guayana."
+ },
+ {
+  "slug": "la-grita",
+  "name": "La Grita",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 129,
+  "votes": 221,
+  "activity": "Media",
+  "parentName": "Venezuela",
+  "parentSlug": "venezuela",
+  "provincia": "Táchira",
+  "regionSlug": "tachira",
+  "channels": [
+   "venezuela",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "san-cristobal",
+   "cucuta",
+   "villa-del-rosario",
+   "el-vigia",
+   "los-patios",
+   "venezuela",
+   "amistad",
+   "amor"
+  ],
+  "intro": "La Grita, capital del municipio Jáuregui en el estado Táchira: a orillas del río Grita, en el Valle del Espíritu Santo andino.",
+  "aboutTitle": "A orillas del río Grita, en los Andes venezolanos",
+  "about": "La Grita es una ciudad venezolana, capital del municipio Jáuregui, en el estado Táchira, con 88.450 habitantes sobre los 454 kilómetros cuadrados que ocupa el municipio en su conjunto. Está situada a orillas del río Grita, del que toma directamente el nombre, dentro de un valle andino conocido como Valle del Espíritu Santo. Ese valle, y el propio río que lo recorre y le presta su nombre, son los dos rasgos geográficos que más se asocian a La Grita como capital del municipio Jáuregui, dentro de un estado, Táchira, que se identifica sobre todo con su paisaje de montaña andina, muy marcado en toda esta zona."
  }
 ]

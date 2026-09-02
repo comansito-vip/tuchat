@@ -144,7 +144,11 @@
   "el-mante",
   "usulutan-norte",
   "tocumen",
-  "sayaxche"
+  "sayaxche",
+  "olanchito",
+  "mayari",
+  "upata",
+  "la-grita"
  ],
  "descartadas": [
   {
@@ -3006,6 +3010,11 @@
    "slug": "rubio",
    "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
    "fecha": "2026-09-01"
+  },
+  {
+   "slug": "tacambaro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Unexpected token 'q', ...\"ultural\", que no est\"... is not valid JSON",
+   "fecha": "2026-09-02"
   }
  ]
 }
