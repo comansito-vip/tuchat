@@ -4699,5 +4699,35 @@
   "intro": "Palpalá, en la provincia argentina de Jujuy: cabecera de su propio departamento, a 13 km de San Salvador de Jujuy.",
   "aboutTitle": "Cabecera departamental a 13 km de San Salvador de Jujuy",
   "about": "Palpalá es una ciudad argentina, cabecera del departamento que lleva su mismo nombre, en la provincia de Jujuy. Está ubicada a 13 kilómetros al sudeste de San Salvador de Jujuy, la ciudad capital de la provincia, y a una altitud de 1.125 metros sobre el nivel del mar. Esa cercanía con la capital provincial, sumada a su condición de cabecera departamental propia, es lo que mejor sitúa a Palpalá dentro de la geografía de Jujuy: ni forma parte de la capital, ni está lejos de ella, sino justo en su periferia inmediata hacia el sudeste, a una altitud considerable dentro del relieve de la provincia."
+ },
+ {
+  "slug": "gomez-palacio",
+  "name": "Gómez Palacio",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 158,
+  "votes": 253,
+  "activity": "Alta",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Durango",
+  "regionSlug": "durango",
+  "channels": [
+   "durango",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "torreon",
+   "matamoros",
+   "durango",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Gómez Palacio, en Durango: parte de la Comarca Lagunera junto a Torreón, la décima zona metropolitana más poblada de México.",
+  "aboutTitle": "Parte de la décima zona metropolitana de México",
+  "about": "Gómez Palacio es una ciudad mexicana del estado de Durango que, junto con las vecinas Ciudad Lerdo, Torreón, Matamoros y Francisco I. Madero, forma la Comarca Lagunera. Esa zona metropolitana conjunta es la décima más poblada de todo México, con 1.434.283 habitantes repartidos entre las cinco ciudades que la componen. Ser una de las cinco ciudades que suman esa décima posición nacional, en vez de destacar solo por su propia población en solitario, es el rasgo que mejor sitúa a Gómez Palacio dentro del mapa urbano mexicano: ninguna de las cinco alcanzaría ese puesto por separado, y juntas forman una de las grandes conurbaciones del norte del país."
  }
 ]

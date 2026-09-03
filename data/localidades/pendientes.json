@@ -61196,5 +61196,23 @@
    "lat": 19.9696,
    "lon": -97.762
   }
+ },
+ {
+  "origen": "am20k",
+  "pais": "México",
+  "paisSlug": "mexico",
+  "nombre": "Gómez Palacio",
+  "slug": "gomez-palacio",
+  "poblacion": 342286,
+  "region": "Durango",
+  "regionSlug": "durango",
+  "wikipedia": "https://es.wikipedia.org/wiki/Gómez_Palacio",
+  "extracto": "Gómez Palacio es una ciudad mexicana ubicada en el estado de Durango, que en conjunto con las vecinas ciudades de Ciudad Lerdo, Torreón, Matamoros y Francisco I. Madero conforma la Comarca Lagunera, la cual es la décima zona metropolitana más poblada de México con 1 434 283 habitantes.",
+  "webOficial": "https://www.gomezpalacio.gob.mx/",
+  "gentilicio": null,
+  "coords": {
+   "lat": 25.5725,
+   "lon": -103.4945
+  }
  }
 ]
