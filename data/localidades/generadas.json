@@ -4402,5 +4402,302 @@
   "intro": "María Eva Duarte de Perón, conocida como Evita, fue actriz y política argentina, primera dama entre 1946 y 1952.",
   "aboutTitle": "Evita y el legado de la abanderada de los humildes",
   "about": "María Eva Duarte de Perón, apodada Evita, fue actriz y política argentina. Ejerció como primera dama desde 1946 hasta su muerte en 1952, durante los mandatos de su esposo, el presidente Juan Domingo Perón. Figura destacada del peronismo en las décadas de 1940 y 1950, impulsó la lucha contra la pobreza, la desigualdad económica y la oligarquía de los grandes terratenientes. Defendió los derechos de trabajadores, mujeres, niños, ancianos y sectores vulnerables. Su dedicación al servicio público le valió el apelativo de «la abanderada de los humildes». Tras los gobiernos peronistas, los golpes militares prohibieron su mención durante veinte años, generando controversias que persisten."
+ },
+ {
+  "slug": "el-estor",
+  "name": "El Estor",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 126,
+  "votes": 215,
+  "activity": "Media",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "provincia": "Departamento de Izabal",
+  "regionSlug": "departamento-de-izabal",
+  "channels": [
+   "guatemala",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "puerto-barrios",
+   "chiquimula",
+   "santa-rosa-de-copan",
+   "coban",
+   "guatemala",
+   "amistad",
+   "amor"
+  ],
+  "intro": "El Estor, en el departamento de Izabal, Guatemala: el segundo municipio más grande, solo por detrás de Livingston.",
+  "aboutTitle": "El segundo municipio más grande de Izabal, tras Livingston",
+  "about": "El Estor es un municipio del departamento de Izabal, en el nor-oriente de Guatemala, a 121 kilómetros de Puerto Barrios y a 319 kilómetros de la capital del país. Es el segundo municipio más grande de todo Izabal, superado únicamente por Livingston, lo que le da un peso territorial considerable dentro del departamento. Esa combinación de tamaño y distancia respecto a los dos grandes centros urbanos de referencia —Puerto Barrios en la costa y la capital en el interior— es lo que mejor sitúa a El Estor dentro de la geografía de Izabal: un municipio grande, pero alejado de los núcleos urbanos más consolidados del departamento."
+ },
+ {
+  "slug": "santa-barbara-del-zulia",
+  "name": "Santa Bárbara del Zulia",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 114,
+  "votes": 188,
+  "activity": "Media",
+  "parentName": "Venezuela",
+  "parentSlug": "venezuela",
+  "provincia": "Zulia",
+  "regionSlug": "zulia",
+  "channels": [
+   "zulia",
+   "venezuela",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "el-vigia",
+   "tibu",
+   "merida-venezuela",
+   "zulia",
+   "venezuela",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Santa Bárbara del Zulia: parroquia del municipio Colón, conurbada con San Carlos del Zulia, en el estado Zulia.",
+  "aboutTitle": "Conurbada con San Carlos del Zulia, capital del municipio Colón",
+  "about": "Santa Bárbara de Zulia es una parroquia del municipio Colón, en el estado Zulia, Venezuela. Forma una conurbación junto con San Carlos del Zulia, la capital de ese mismo municipio, lo que significa que ambas poblaciones han crecido hasta quedar unidas urbanísticamente, sin una frontera clara entre una y otra. Esa condición de parroquia conurbada con la capital municipal, más que una localidad independiente y separada, es el dato clave para entender la posición de Santa Bárbara del Zulia dentro del municipio Colón, en el estado Zulia venezolano, pegada por completo al núcleo urbano de la capital de ese mismo municipio."
+ },
+ {
+  "slug": "sahuayo",
+  "name": "Sahuayo",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 108,
+  "votes": 174,
+  "activity": "Media",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Michoacán",
+  "regionSlug": "michoacan",
+  "channels": [
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "jamay",
+   "la-barca",
+   "ocotlan",
+   "chapala",
+   "atotonilco-el-alto",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Sahuayo, en Michoacán: la ciudad que Pedro Infante llamó «la médula de la hembra mexicana», con nombre náhuatl de vasija-tortuga.",
+  "aboutTitle": "La médula de la hembra mexicana, según Pedro Infante",
+  "about": "Sahuayo de Morelos es una ciudad del estado de Michoacán de Ocampo, en el centro-occidente de México, y cabecera del municipio de Sahuayo. El actor y cantante Pedro Infante la llamó «la médula de la hembra mexicana», una frase que se sigue asociando a la ciudad hasta hoy. Su nombre viene del náhuatl tzacuatlayotl, formado por la unión de tzacuatl, que significa «vasija», y ayotl, que significa «tortuga»: en conjunto, una vasija con forma de tortuga. Ese origen del nombre, poco habitual entre las ciudades michoacanas, es uno de los datos que más se repite al presentar a Sahuayo fuera de la región."
+ },
+ {
+  "slug": "san-jose-iturbide",
+  "name": "San José Iturbide",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 109,
+  "votes": 181,
+  "activity": "Media",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "channels": [
+   "guanajuato",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "celaya",
+   "guanajuato",
+   "irapuato",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "San José Iturbide, al noreste de Guanajuato: su nombre une al santo patrono y al primer emperador de México, y forma parte del municipio homónimo.",
+  "aboutTitle": "Un nombre entre un santo patrono y un emperador",
+  "about": "San José Iturbide es una ciudad situada en el noreste del estado de Guanajuato y constituye la cabecera del municipio homónimo. Su denominación combina dos referencias históricas: por un lado el santo patrono José de Nazaret, y por otro el primer emperador de México, Agustín de Iturbide. Esta unión de raíces religiosas y políticas otorga a la localidad una identidad singular dentro de la zona. El topónimo refleja la influencia de la época de la independencia y la tradición católica que ha marcado la historia local. La ciudad se encuentra en una zona de relieve suavemente ondulado, característica del norte de Guanajuato, y forma parte del entramado de poblaciones que integran la región noreste del estado. La presencia de ambos nombres en el mismo lugar resalta la convivencia de la fe y la memoria histórica en el desarrollo urbano y cultural de San José Iturbide."
+ },
+ {
+  "slug": "yuriria",
+  "name": "Yuriria",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 108,
+  "votes": 184,
+  "activity": "Media",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "channels": [
+   "guanajuato",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "morelia",
+   "celaya",
+   "irapuato",
+   "guanajuato",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Yuriria, en el sur del estado mexicano de Guanajuato: Pueblo Mágico desde 2012, cabecera de su propio municipio.",
+  "aboutTitle": "Pueblo Mágico desde 2012, en el sur de Guanajuato",
+  "about": "Yuriria es una localidad mexicana, cabecera del municipio que lleva su mismo nombre, situada en el sur del estado de Guanajuato. En 2012 fue incluida en el programa turístico Pueblos Mágicos, el mismo reconocimiento que reciben localidades mexicanas por su valor histórico y cultural. Esa distinción, sumada a su condición de cabecera municipal, es de los pocos datos verificables con los que se puede describir hoy a Yuriria dentro del sur de Guanajuato, un estado con varias localidades reconocidas dentro de ese mismo programa turístico nacional, entre las que se cuenta también esta misma cabecera municipal desde hace más de una década."
+ },
+ {
+  "slug": "huanchaco",
+  "name": "Huanchaco",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 139,
+  "votes": 229,
+  "activity": "Media",
+  "parentName": "Perú",
+  "parentSlug": "peru",
+  "provincia": "Departamento de La Libertad",
+  "regionSlug": "departamento-de-la-libertad",
+  "channels": [
+   "peru",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "trujillo",
+   "peru",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Huanchaco, balneario histórico del departamento de La Libertad: capital de distrito en la provincia de Trujillo.",
+  "aboutTitle": "Capital de distrito y balneario histórico a la vez",
+  "about": "Huanchaco es una ciudad y balneario histórico peruano, capital del distrito que lleva su mismo nombre, dentro de la provincia de Trujillo, en el departamento de La Libertad. Según la estimación y proyección del INEI para 2020, su población alcanzaba los 87.192 habitantes. Esa doble condición —capital de distrito y balneario histórico a la vez— es la que mejor resume el lugar que ocupa Huanchaco dentro de la provincia de Trujillo, distinto de otros distritos de la misma provincia que no tienen ese carácter costero e histórico combinado, y es también lo que explica que se le identifique tanto por su papel administrativo como por su tradición de balneario."
+ },
+ {
+  "slug": "guines",
+  "name": "Güines",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 139,
+  "votes": 230,
+  "activity": "Media",
+  "parentName": "Cuba",
+  "parentSlug": "cuba",
+  "provincia": "provincia de Mayabeque",
+  "regionSlug": "provincia-de-mayabeque",
+  "channels": [
+   "cuba",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "cuba",
+   "la-habana",
+   "matanzas",
+   "cardenas",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Güines, a orillas del río Mayabeque: fundada en 1735, hoy el mayor núcleo urbano de la provincia de Mayabeque.",
+  "aboutTitle": "El primer núcleo urbano de la provincia de Mayabeque",
+  "about": "La ciudad de San Francisco Javier y San Julián de los Güines, conocida simplemente como Güines, está a 54 kilómetros al sur de La Habana, a orillas del río Mayabeque, en una de las llanuras más fértiles de Cuba. Se fundó en 1735 junto a su iglesia, la de San Julián. Perteneció hasta 2010 a la provincia de La Habana, y desde el 1 de enero de 2011 forma parte de la nueva provincia de Mayabeque, de la que es el primer núcleo urbano en población y el segundo municipio en importancia, después de la capital provincial, San José de las Lajas."
+ },
+ {
+  "slug": "banes",
+  "name": "Banes",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 133,
+  "votes": 233,
+  "activity": "Media",
+  "parentName": "Cuba",
+  "parentSlug": "cuba",
+  "provincia": "Provincia de Holguín",
+  "regionSlug": "provincia-de-holguin",
+  "channels": [
+   "cuba",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "holguin",
+   "santiago-de-cuba",
+   "guantanamo",
+   "bayamo",
+   "cuba",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Banes, en el extremo norte de la provincia cubana de Holguín: litoral, playas, bahías y mucha historia acumulada.",
+  "aboutTitle": "El extremo norte de la provincia de Holguín",
+  "about": "Banes es una ciudad y uno de los 14 municipios que forman la provincia de Holguín, en Cuba, situado en su extremo septentrional. El municipio se distingue sobre todo por su litoral, con playas y bahías que marcan buena parte de su paisaje, además de por su historia y su patrimonio cultural acumulado a lo largo del tiempo. Esa combinación de costa y patrimonio es lo que más se destaca de Banes dentro del conjunto de municipios que forman la provincia de Holguín, junto a otros municipios costeros del mismo extremo norte de la provincia, con los que comparte ese mismo perfil de litoral y bahías recortadas en la costa."
+ },
+ {
+  "slug": "ilo",
+  "name": "Ilo",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 142,
+  "votes": 243,
+  "activity": "Media",
+  "parentName": "Perú",
+  "parentSlug": "peru",
+  "provincia": "Departamento de Moquegua",
+  "regionSlug": "departamento-de-moquegua",
+  "channels": [
+   "peru",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "moquegua",
+   "peru",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Ilo, en el departamento de Moquegua, Perú: capital de su provincia, a orillas del Pacífico, con 69.376 habitantes.",
+  "aboutTitle": "A orillas del Pacífico, entre el río Osmore y punta Coles",
+  "about": "Ilo es una ciudad peruana, capital del distrito y de la provincia que llevan su mismo nombre, en el departamento de Moquegua. Está situada en el suroeste del país, a orillas del océano Pacífico, al sur de la desembocadura del río Osmore y al norte de punta Coles. Se encuentra a 92 kilómetros de la ciudad de Moquegua, y según el censo de 2025 cuenta con una población estimada de 69.376 habitantes. Esa combinación de capital provincial y ciudad costera, entre un río y una punta que le dan nombre a su entorno geográfico inmediato, define bien la posición de Ilo dentro de Moquegua."
+ },
+ {
+  "slug": "palpala",
+  "name": "Palpalá",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 120,
+  "votes": 206,
+  "activity": "Media",
+  "parentName": "Argentina",
+  "parentSlug": "argentina",
+  "provincia": "Provincia de Jujuy",
+  "regionSlug": "provincia-de-jujuy",
+  "channels": [
+   "argentina",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "jujuy",
+   "el-carmen",
+   "monterrico",
+   "general-guemes",
+   "fraile-pintado",
+   "argentina",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Palpalá, en la provincia argentina de Jujuy: cabecera de su propio departamento, a 13 km de San Salvador de Jujuy.",
+  "aboutTitle": "Cabecera departamental a 13 km de San Salvador de Jujuy",
+  "about": "Palpalá es una ciudad argentina, cabecera del departamento que lleva su mismo nombre, en la provincia de Jujuy. Está ubicada a 13 kilómetros al sudeste de San Salvador de Jujuy, la ciudad capital de la provincia, y a una altitud de 1.125 metros sobre el nivel del mar. Esa cercanía con la capital provincial, sumada a su condición de cabecera departamental propia, es lo que mejor sitúa a Palpalá dentro de la geografía de Jujuy: ni forma parte de la capital, ni está lejos de ella, sino justo en su periferia inmediata hacia el sudeste, a una altitud considerable dentro del relieve de la provincia."
  }
 ]
