@@ -175,13 +175,53 @@ export const TOPICS_ADULTOS: Place[] = [
     slug: "cornudos", name: "Cornudos", kind: "tematica", icon: "🦌",
     users: 88, votes: 146, activity: "Media",
     parentSlug: "erotico", parentName: "Erótico",
-    // #parejas va junto a #cornudos porque es donde está de verdad la gente del
-    // fetiche: la sala propia se llena a ratos y la de parejas sostiene la
-    // conversación el resto del tiempo. (#infieles no existe en la red y lo
-    // quitaba ya el saneado de canales-saneado.ts.)
-    channels: ["cornudos", "parejas", "sexo_casadas", "chatzona"],
+    // #parejas y #swingers van junto a #cornudos porque es donde está de
+    // verdad la gente del fetiche: la sala propia se llena a ratos y las otras
+    // dos sostienen la conversación el resto del tiempo. (#infieles no existe
+    // en la red y lo quitaba ya el saneado de canales-saneado.ts.)
+    channels: ["cornudos", "swingers", "parejas", "chatzona"],
     related: ["infieles", "sexo_casadas", "erotico", "adultos", "sexo"],
     intro: "Chat cuckold en español: fantasía de compartir pareja, humillación consentida y charla sobre un fetiche que mueve más gente de la que parece.",
     about: "El fetiche cuckold —el cornudo consentido, el que disfruta viendo o sabiendo que su pareja está con otro— tiene más seguidores de los que se admiten en voz alta, y esta sala es su espacio propio. Se habla de fantasías, de parejas que ya lo practican y de curiosos que quieren entender de dónde viene esa atracción antes de decidir si es lo suyo. Hay matices dentro del propio fetiche —desde la simple fantasía hablada hasta arreglos reales entre parejas— y aquí se distinguen sin juzgar ninguno. Consentimiento y comunicación entre todos los implicados, siempre por delante.",
+  },
+  {
+    slug: "cornudos-liberales", name: "Cornudos liberales", kind: "tematica", icon: "🔑",
+    users: 62, votes: 104, activity: "Media",
+    parentSlug: "erotico", parentName: "Erótico",
+    channels: ["cornudos", "swingers", "parejas", "chatzona"],
+    related: ["cornudos", "parejas-liberales", "parejas", "sexo", "erotico"],
+    aboutTitle: "El fetiche cornudo dentro del ambiente liberal",
+    intro: "El cornudo consentido dentro del ambiente liberal: clubs, fiestas y parejas que ya viven el fetiche fuera de la pantalla, no solo hablado.",
+    about: "Hay quien vive el fetiche cornudo solo como fantasía hablada, y hay quien lo lleva a las fiestas y clubs del ambiente liberal, donde la fantasía pasa a ser un arreglo real entre dos personas. Esta sala es para ese segundo grupo: parejas que ya frecuentan clubs liberales y quieren compartir experiencias concretas, gente que se plantea dar el salto de la fantasía a la práctica y prefiere preguntar antes sin exponerse, y curiosos del ambiente que se cruzan con este fetiche en una fiesta y no acaban de entender qué acaban de presenciar. Se habla de normas de club, de cómo se negocia un límite delante de terceros y de la diferencia entre jugar en una fiesta y hacerlo en la intimidad de la pareja. Consentimiento explícito entre todos los implicados, siempre, sobre todo cuando hay más gente delante.",
+  },
+  {
+    slug: "parejas-online", name: "Parejas online", kind: "tematica", icon: "🤝",
+    users: 70, votes: 118, activity: "Media",
+    parentSlug: "contactos", parentName: "Contactos",
+    channels: ["cornudos", "swingers", "parejas", "chatzona"],
+    related: ["parejas", "parejas-liberales", "contactos", "amistad", "erotico"],
+    aboutTitle: "Amistad entre parejas, sin filtro sexual",
+    intro: "Parejas que se conocen entre sí sin el filtro sexual por delante: planes conjuntos, amistad de a cuatro y compañía real más allá de la pantalla.",
+    about: "No todas las parejas que buscan a otras parejas online buscan lo mismo, y aquí el punto de partida es la amistad, no una escena. Se organizan cenas entre dos parejas que se acaban de conocer, viajes compartidos, planes de fin de semana y esa complicidad poco habitual de que cada miembro de la pareja tenga con quién hablar además de con la suya propia. Entran parejas jóvenes recién mudadas de ciudad que todavía no conocen a nadie, parejas con hijos que buscan otras familias con las que quedar, y parejas que ya no salen tanto pero les gusta seguir conociendo gente nueva. Nada de segundas intenciones forzadas: si surge algo más entre alguien, surge solo, pero no es el punto de partida de esta sala.",
+  },
+  {
+    slug: "cornudos-hispano", name: "Cornudos hispano", kind: "tematica", icon: "🌎",
+    users: 55, votes: 92, activity: "Media",
+    parentSlug: "erotico", parentName: "Erótico",
+    channels: ["cornudos", "swingers", "parejas", "hispano", "chatzona"],
+    related: ["cornudos", "cornudos-liberales", "parejas", "latinoamerica", "erotico"],
+    aboutTitle: "El fetiche cornudo en español, país a país",
+    intro: "El fetiche cornudo en español desde cualquier país: España, México, Argentina o Colombia, la misma fantasía contada con acentos distintos.",
+    about: "El fetiche cornudo no entiende de fronteras, y esta sala reúne a quien lo vive o lo fantasea desde cualquier país de habla hispana. Un español compara notas con un mexicano, una pareja argentina explica cómo llaman ellos a lo que en España se dice de otra forma, y alguien desde Colombia pregunta si esto que siente tiene nombre en algún otro sitio. Cambian las palabras y las costumbres del ambiente liberal de cada país, pero la fantasía de fondo es la misma en cualquier acento. Consentimiento y respeto por delante, se hable como se hable y desde donde se hable.",
+  },
+  {
+    slug: "cornudos-irc", name: "Cornudos IRC", kind: "tematica", icon: "💻",
+    users: 48, votes: 80, activity: "Media",
+    parentSlug: "erotico", parentName: "Erótico",
+    channels: ["cornudos", "swingers", "parejas", "chatzona"],
+    related: ["cornudos", "cornudos-liberales", "parejas", "erotico", "sexo"],
+    aboutTitle: "Un canal real de IRC, no una sala de relleno",
+    intro: "Cornudos por IRC: canal real y activo, no una sala de relleno. Conéctate igual que llevas años haciéndolo, sin registro.",
+    about: "Para quien busca «cornudos irc» porque quiere saber si esto es un canal de verdad y no una sala inventada para rellenar una web: sí, es un canal real, con la misma gente que llevaba tiempo ahí antes de que existiera esta página. Se entra igual que a cualquier canal IRC de toda la vida: se elige un nick y ya está, sin registrarte, sin dar un correo, sin nada que instalar aparte del propio navegador. Quien viene de mIRC o de otro cliente de IRC reconoce el formato al segundo; quien nunca ha usado IRC lo aprende en el mismo minuto en que entra. El canal mantiene su conversación habitual sobre el fetiche cornudo, esté quien esté conectado desde esta página o desde cualquier otro cliente.",
   },
 ];

@@ -91,7 +91,7 @@ export const LGTBI_CHANNELS = [
 export const ADULT_CHANNELS = [
   "sexo", "canalsexo", "cibersexo", "porno", "relatos-eroticos", "sexo_casadas",
   "sumisas", "cornudos", "bdsm", "trio", "nudismo", "liberales", "casados",
-  "mazmorra", "lescontactos", "sexomadrid",
+  "mazmorra", "lescontactos", "sexomadrid", "swingers",
 ] as const;
 
 /** Red y portales hermanos. */
