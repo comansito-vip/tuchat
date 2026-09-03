@@ -19,7 +19,7 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
-import { detectarMuletillas, aperturaNormalizada } from "../src/lib/content/muletillas";
+import { detectarMuletillas, detectarIdiomaAjeno, aperturaNormalizada } from "../src/lib/content/muletillas";
 // La foto de cada pieza la decide el mismo módulo que usa la web. El script
 // llevaba su propia copia de la tabla y ya se habían desincronizado: le faltaban
 // las categorías `ia` y `entretenimiento`, así que esas piezas nacían con la foto
@@ -295,7 +295,16 @@ function passesQualityBar(item: GeneratedItem): boolean {
   // son sus pilares") que era la entradilla disfrazada de titular y que Google
   // habría cortado a la mitad en el resultado.
   if (item.title.length > 110) return false;
-  return detectarMuletillas(`${item.title} ${item.excerpt} ${item.body}`).length === 0;
+  if (detectarMuletillas(`${item.title} ${item.excerpt} ${item.body}`).length > 0) return false;
+  // El prompt pide español, pero el proveedor de respaldo a veces deriva a
+  // francés a media frase ("plutôt" se coló en cinco piezas publicadas sin que
+  // nada lo detectara). Se descarta y se reporta la señal, no se traduce a mano.
+  const idioma = detectarIdiomaAjeno(`${item.title} ${item.excerpt} ${item.body}`);
+  if (idioma.length > 0) {
+    console.warn(`  ✗ descartada por idioma (no parece español: "${idioma[0]}"): ${item.title.slice(0, 60)}`);
+    return false;
+  }
+  return true;
 }
 
 async function generateCategory(category: string): Promise<GeneratedItem[]> {

@@ -90,6 +90,77 @@ export const CONECTORES_DE_RELLENO = [
   "vale la pena mencionar",
 ] as const;
 
+/**
+ * Señales de que un texto NO está en español, pese a que el prompt lo pedía en
+ * español. Nació porque "plutôt" se coló en varias noticias publicadas (el
+ * modelo de respaldo derrapó a francés a media frase) y nada lo comprobaba: el
+ * verificador de calidad exigía longitud y ausencia de muletillas, pero ningún
+ * paso miraba el idioma.
+ *
+ * No es un detector de idioma completo, y no hace falta que lo sea: basta una
+ * señal para descartar la pieza, y una lista corta evita los falsos positivos
+ * con nombres propios extranjeros o préstamos que sí llevan tilde española
+ * ("café", "élite").
+ *
+ * Dos señales, cada una suficiente por sí sola:
+ *  1. Diacríticos que el español no usa NUNCA (ô, û, î, ç) en una palabra que
+ *     no es nombre propio (no empieza en mayúscula): así "François" citado en
+ *     una pieza en español no cuenta, pero "plutôt" sí.
+ *  2. Un conector o adverbio francés/inglés frecuente, de una lista corta y
+ *     deliberadamente distintiva (nada de palabras de 2-3 letras que puedan
+ *     colisionar con español).
+ */
+const DIACRITICOS_NO_ESPANOL = /[ôûîç]/;
+
+const PALABRAS_DELATORAS_NO_ES = [
+  // Francés
+  "plutôt",
+  "néanmoins",
+  "cependant",
+  "toutefois",
+  "également",
+  "notamment",
+  "aujourd'hui",
+  "d'ailleurs",
+  // Inglés
+  "however",
+  "nevertheless",
+  "moreover",
+  "furthermore",
+  "although",
+  "therefore",
+  "whereas",
+] as const;
+
+function patronDelatora(palabra: string): RegExp {
+  // El apóstrofo puede llegar recto (') o tipográfico (’) según el proveedor.
+  return new RegExp(`\\b${palabra.replace(/'/g, "['’]")}\\b`, "i");
+}
+
+/**
+ * Palabras/expresiones que delatan que el texto (o parte de él) no está en
+ * español. Vacío si no hay señales.
+ */
+export function detectarIdiomaAjeno(texto: string): string[] {
+  // Set para no repetir la misma señal dos veces: una palabra como "plutôt"
+  // dispara tanto el escaneo de diacríticos como la lista de delatoras, y son
+  // la misma señal, no dos.
+  const hits = new Set<string>();
+
+  for (const palabra of texto.split(/\s+/)) {
+    const limpia = palabra.replace(/^[«»"'“”().,;:¿?¡!]+|[«»"'“”().,;:¿?¡!]+$/g, "");
+    if (!limpia || !DIACRITICOS_NO_ESPANOL.test(limpia)) continue;
+    const esNombrePropio = /^[A-ZÀ-Ý]/.test(limpia);
+    if (!esNombrePropio) hits.add(limpia.toLowerCase());
+  }
+
+  for (const delatora of PALABRAS_DELATORAS_NO_ES) {
+    if (patronDelatora(delatora).test(texto)) hits.add(delatora);
+  }
+
+  return [...hits];
+}
+
 /** Minúsculas, sin tildes ni puntuación: para comparar texto de forma estable. */
 export function normalizarTexto(s: string): string {
   return s

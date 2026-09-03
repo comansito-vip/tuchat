@@ -27,7 +27,7 @@
 import { getCities, getCountries, getTopics, roomTitle, getNews } from "../../src/data/index";
 import { buildFaq, roomBullets, aboutLead } from "../../src/app/chat/[slug]/copy";
 import type { Place } from "../../src/data/types";
-import { detectarMuletillas, aperturaNormalizada } from "../../src/lib/content/muletillas";
+import { detectarMuletillas, detectarIdiomaAjeno, aperturaNormalizada } from "../../src/lib/content/muletillas";
 
 const VERBOSE = process.argv.includes("--verbose");
 const MAX = (() => {
@@ -293,6 +293,17 @@ console.log("\n## 8. Noticias");
   const sinCuerpo = news.filter((n) => !n.body || n.body.split(/\s+/).length < 150);
   if (sinCuerpo.length) aviso(`${sinCuerpo.length} noticias con menos de 150 palabras de cuerpo: ${sinCuerpo.slice(0, 6).map((n) => n.slug).join(", ")}`);
   else ok("todas las noticias pasan de 150 palabras");
+
+  // El generador ya descarta por idioma antes de escribir (ver
+  // scripts/generate-news.ts), pero esto es lo que audita lo YA publicado: es
+  // como se detectó "plutôt" colado en varias piezas antes de que existiera esa
+  // barrera.
+  const idiomaAjeno = news.flatMap((n) =>
+    detectarIdiomaAjeno(`${n.title} ${n.excerpt} ${n.body ?? ""}`).map((señal) => `${n.slug} ("${señal}")`),
+  );
+  if (idiomaAjeno.length)
+    aviso(`${idiomaAjeno.length} señal(es) de idioma no español en noticias: ${idiomaAjeno.slice(0, 8).join(", ")}${idiomaAjeno.length > 8 ? "…" : ""}`);
+  else ok("noticias sin señales de otro idioma");
 }
 
 console.log(`\n══ ${avisos} aviso(s) ══\n`);
