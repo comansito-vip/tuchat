@@ -61214,5 +61214,24 @@
    "lat": 25.5725,
    "lon": -103.4945
   }
+ },
+ {
+  "origen": "es8k",
+  "pais": "España",
+  "paisSlug": "espana",
+  "nombre": "La Oliva",
+  "slug": "la-oliva",
+  "poblacion": 30022,
+  "region": "Las Palmas",
+  "regionSlug": "las-palmas",
+  "comunidad": "Canarias",
+  "wikipedia": "https://es.wikipedia.org/wiki/La_Oliva",
+  "extracto": "La Oliva es una localidad y municipio español perteneciente a la isla de Fuerteventura, en la provincia de Las Palmas, comunidad autónoma de Canarias. Está situado en el norte de la isla e incluye en su término municipal al islote de Lobos, siendo el segundo municipio más extenso de Canarias y el segundo más poblado de la isla, tras Puerto del Rosario. Fue la capital insular desde 1834, sustituyendo a Betancuria, hasta el traslado de la capitalidad en 1860 a la ciudad de Puerto del Rosario.",
+  "webOficial": "http://www.laoliva.es",
+  "gentilicio": null,
+  "coords": {
+   "lat": 28.616666666,
+   "lon": -13.933333333
+  }
  }
 ]

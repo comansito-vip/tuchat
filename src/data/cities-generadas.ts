@@ -4739,5 +4739,37 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Gómez Palacio, en Durango: parte de la Comarca Lagunera junto a Torreón, la décima zona metropolitana más poblada de México.",
     "aboutTitle": "Parte de la décima zona metropolitana de México",
     "about": "Gómez Palacio es una ciudad mexicana del estado de Durango que, junto con las vecinas Ciudad Lerdo, Torreón, Matamoros y Francisco I. Madero, forma la Comarca Lagunera. Esa zona metropolitana conjunta es la décima más poblada de todo México, con 1.434.283 habitantes repartidos entre las cinco ciudades que la componen. Ser una de las cinco ciudades que suman esa décima posición nacional, en vez de destacar solo por su propia población en solitario, es el rasgo que mejor sitúa a Gómez Palacio dentro del mapa urbano mexicano: ninguna de las cinco alcanzaría ese puesto por separado, y juntas forman una de las grandes conurbaciones del norte del país."
+  },
+  {
+    "slug": "la-oliva",
+    "name": "La Oliva",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "España",
+    "parentSlug": "espana",
+    "provincia": "Las Palmas",
+    "regionSlug": "las-palmas",
+    "channels": [
+      "las_palmas",
+      "españa",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-del-rosario",
+      "antigua",
+      "pajara",
+      "tuineje",
+      "yaiza",
+      "las-palmas",
+      "espana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Oliva, en Fuerteventura: capital insular entre 1834 y 1860, hoy el segundo municipio más extenso de Canarias.",
+    "aboutTitle": "Capital insular de Fuerteventura entre 1834 y 1860",
+    "about": "La Oliva es una localidad y municipio español de la isla de Fuerteventura, en la provincia de Las Palmas, dentro de la comunidad autónoma de Canarias. Está situada en el norte de la isla, y su término municipal incluye el islote de Lobos, lo que la convierte en el segundo municipio más extenso de todo el archipiélago canario y el segundo más poblado de Fuerteventura, por detrás de Puerto del Rosario. Fue capital insular desde 1834, cuando sustituyó a Betancuria en ese papel, hasta 1860, año en que la capitalidad se trasladó precisamente a Puerto del Rosario, la misma localidad que hoy la supera en población."
   }
 ];
