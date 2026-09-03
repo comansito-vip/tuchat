@@ -58,9 +58,18 @@ export function buildRoomCrumbs(place: Place): Crumb[] {
  * se prerenderiza y no debe bailar entre builds), pero dos salas vecinas no
  * comparten el molde sintáctico.
  */
+/**
+ * Con multiplicador 31 y solo 2-3 variantes, `hashSlug % 3` degenera: como
+ * 31 ≡ 1 (mod 3), el resto no dependía de la POSICIÓN de cada carácter, solo
+ * de la suma de sus códigos. Los 43 slugs "-provincia" comparten ese sufijo
+ * de 11 caracteres, así que muchos caían en la misma variante y `variante()`
+ * dejaba de variar nada para ese lote — justo lo que este fichero existe
+ * para evitar. Sumar `i` rompe la periodicidad sin cambiar qué variante le
+ * tocaba a ningún slug que no comparta el problema.
+ */
 function hashSlug(slug: string): number {
   let h = 0;
-  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i) + i) >>> 0;
   return h;
 }
 
@@ -346,12 +355,19 @@ function leadTematica(place: Place): string | null {
   // por canal. Un dato inventado en 500 páginas es peor que una frase menos.
   if (principal) {
     const todos = [principal, ...otros].map((c) => `#${c}`);
+    // Seis variantes y no tres: con solo tres, cualquier lote de decenas de
+    // salas con el mismo número de canales (el caso habitual, 2 o 3) repetía
+    // la misma frase en más de 10 páginas sin que el molde cambiara nada más
+    // que el nombre — pasó con las 43 provincias españolas.
     partes.push(
       variante(
         [
           `Al entrar, la sala abre ${enumerar(todos)} en el servidor.`,
           `Detrás de ${place.name} están los canales ${enumerar(todos)}.`,
           `La sala vuelca sobre ${enumerar(todos)}, todos con el mismo nick.`,
+          `${place.name} conecta con ${enumerar(todos)} nada más entrar.`,
+          `El acceso de ${place.name} pasa por ${enumerar(todos)}.`,
+          `Un solo nick basta para ${enumerar(todos)}, los canales de esta sala.`,
         ],
         place.slug,
       ),
@@ -403,10 +419,30 @@ export function roomBullets(place: Place): string[] {
       place.kind === "tematica"
         ? `el canal que comparten las salas de su categoría`
         : `el canal que comparten las salas de la zona`;
+    // Sin variar esta frase, cualquier lote de salas con el mismo número de
+    // canales (2-3, lo habitual en temáticas y en pueblos sin canal propio)
+    // caía siempre en el mismo molde exacto: pasó con 36 salas de golpe al
+    // añadir las 43 provincias españolas, todas con esa misma forma.
     bullets.push(
       propio
-        ? `Entras al canal propio de la sala, #${principal}${resto}`
-        : `Entras a #${principal}, ${compartido}${resto}`,
+        ? variante(
+            [
+              `Entras al canal propio de la sala, #${principal}${resto}`,
+              `El canal de esta sala es #${principal}${resto}`,
+              `Esta sala tiene canal propio: #${principal}${resto}`,
+            ],
+            place.slug,
+          )
+        : variante(
+            [
+              `Entras a #${principal}, ${compartido}${resto}`,
+              `Se conecta a #${principal}, ${compartido}${resto}`,
+              `El acceso es por #${principal}, ${compartido}${resto}`,
+              `La sala usa #${principal}, ${compartido}${resto}`,
+            ],
+            place.slug,
+            1,
+          ),
     );
   }
 
