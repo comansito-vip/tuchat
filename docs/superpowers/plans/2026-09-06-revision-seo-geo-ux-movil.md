@@ -40,7 +40,8 @@ Cloudflare purgada, y **remedido en producción con PSI móvil**:
 
 \* un aviso `link-in-text-block` (enlace en párrafo distinguible solo por
 color) en la línea "También por su otro nombre"; corregido con subrayado
-permanente en la tercera tanda. `llms.txt` en producción dice ya "3591
+permanente en la tercera tanda (`061dc28`, desplegada 07:41 UTC): `/chat`
+remedido después da **Perf. 0,95 · A11y 1,0 · SEO 1,0**, TBT 230 ms, LCP 1,7 s. `llms.txt` en producción dice ya "3591
 páginas en el sitemap" y `/chat/temas` está en el sitemap.
 
 Verificación de la primera: `tsc` limpio, `eslint` limpio en los ficheros tocados, **532 tests
