@@ -4771,5 +4771,38 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "La Oliva, en Fuerteventura: capital insular entre 1834 y 1860, hoy el segundo municipio más extenso de Canarias.",
     "aboutTitle": "Capital insular de Fuerteventura entre 1834 y 1860",
     "about": "La Oliva es una localidad y municipio español de la isla de Fuerteventura, en la provincia de Las Palmas, dentro de la comunidad autónoma de Canarias. Está situada en el norte de la isla, y su término municipal incluye el islote de Lobos, lo que la convierte en el segundo municipio más extenso de todo el archipiélago canario y el segundo más poblado de Fuerteventura, por detrás de Puerto del Rosario. Fue capital insular desde 1834, cuando sustituyó a Betancuria en ese papel, hasta 1860, año en que la capitalidad se trasladó precisamente a Puerto del Rosario, la misma localidad que hoy la supera en población."
+  },
+  {
+    "slug": "acambaro",
+    "name": "Acámbaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 139,
+    "votes": 244,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "morelia",
+      "atlacomulco-de-fabela",
+      "irapuato",
+      "valle-de-bravo",
+      "guanajuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Acámbaro, ciudad de Guanajuato, obtuvo el título de Villa el 18 de julio de 1827 y conserva su origen purépecha como 'Lugar de Maguey'.",
+    "aboutTitle": "Acámbaro: origen purépecha y título de Villa (18 de julio de 1827)",
+    "about": "Acámbaro es una ciudad mexicana en el estado de Guanajuato, cabecera del municipio homónimo. Los primeros asentamientos datan del período preclásico, pero su integración directa a la Irechekua o Nación P'urhépecha se sitúa en el siglo XV, cuando recibió el nombre actual. Durante la época colonial se consolidó como una importante República de Indios y formó parte de la Provincia que, junto a Yuririapúndaro, dependía de la Alcaldía Mayor de Celaya.\n\nEn el siglo XIX, tras la independencia, Acámbaro pasó a ser Jefatura Política y el 18 de julio de 1827 el pueblo recibió el título de Villa, manteniéndolo hasta su proclamación como ciudad y cabecera municipal. El topónimo proviene del idioma P'urhépecha; su interpretación correcta es “En el Maguey” o “Lugar de Maguey”, según explican los maestros Tatá Mateo González y Naná Elvia Tomás. La región fue habitada por linajes otomíes provenientes de Dandhó (Huichapan) en alianza con los purépechas para defender la frontera nororiental de la Irechekua."
   }
 ];
