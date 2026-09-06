@@ -50,6 +50,14 @@ cabeceras nuevas, FAQ con "2.800"/"2.100", los tres enlaces a `/chat#paises`,
 `id="paises"` presente en `/chat`, foto de la noticia con `alt`, un solo
 `gtag/js`. Sale a producción con el deploy automático de las 05:30 UTC.
 
+**Cuarta tanda ("lo del título y demás, arreglado también")**
+
+| # | Hallazgo | Corrección |
+|---|---|---|
+| 10 | Cron `generar-terminos-tuchat.sh` redundante y saltándose a diario. | Retirado del crontab del VPS por SSH, con copia previa en `/home/ubuntu/crontab.bak.2026-09-06`. Quedan los cuatro crons de tuchat: noticias 05:00, deploy 05:30, salas 01:30 y rehacer 02:30 UTC. |
+| 11 | Title y description de la home heredados: el único title del top 10 sin "sin registro" ni "en español", y una description que hablaba de "registrar tu nick" en un sitio cuya promesa es no registrarse. | Title: **"Chat gratis en español sin registro · Chatear y hacer amigos"** (60 car.). Description: "Chat gratis en español sin registro: elige un nick y entra. Salas por países, ciudades y temáticas para chatear, hacer amigos y ligar, con Latinchat incluido." (158 car.). Se conservan "amigos" y "Latinchat", los términos con tracción real en GSC. |
+| 12 | Todos los contadores ("9.062 usuarios conectados", "1.240 online", "N hablando ahora" en cada sala) eran sumas de un campo escrito a mano. | **Medida real de la red IRC**: `scripts/irc-muestra.mjs` se conecta a `irc.chatzona.org`, pide LIST y LUSERS y guarda usuarios por canal y totales en `data/irc-muestra.json` (portado del cron de canales de estoeschat, que ya sortea el antibot de la red). El cron de salas del VPS lo lanza cada noche antes de commitear. `src/lib/irc-muestra.ts` resuelve los conectados de cada sala por su primer canal propio (el de red, #chatzona, solo si es el único) y la web enseña la cifra **con su hora** ("234 en el canal a las 21:26", "6.477 conectados a las 21:26"); si un canal no está en la muestra, no se inventa nada ("Canal compartido con su zona"). El campo `users` queda solo como peso editorial de ordenación. Primera muestra: 6.477 usuarios en la red, 532 canales, #amistad 1.102, #mexico 818, #madrid 234. |
+
 ## 2. Search Console — estado hoy (2026-06-05 → 2026-09-03)
 
 | Ventana | Impresiones | Clics | Posición media |
@@ -137,13 +145,8 @@ seguridad completas (HSTS, nosniff, frame-options, referrer, permissions).
 
 - ~~`/chat` pesa 861 KB~~ y ~~`alt=""` en las banderas~~: corregidos en la
   segunda tanda (filas 8 y 9 de la sección 1).
-- **"9.062 usuarios conectados" / "1.240 online"** en hero, sidebar y
-  tarjetas: son sumas del campo `users` estático de las fichas, no una
-  medida. Se deja como está (es diseño de producto), pero conviene saber que
-  es un dato inventado que aparece en la primera pantalla y en el `H1` de
-  cada sala ("N hablando ahora"): si Google o un evaluador humano lo
-  contrasta con un webchat con 3 personas, es una señal de calidad en
-  contra. Si se quiere corregir de raíz, la fuente real es el servidor IRC.
+- ~~"9.062 usuarios conectados" / "1.240 online"~~: corregido en la cuarta
+  tanda (sección 1b): ahora son medidas reales de la red IRC.
 - **`info@chatzona.org`** como contacto en `/contacto`, en la FAQ de `/chat`
   y en el `Organization` JSON-LD. Es el correo real del operador, así que no
   se toca; pero es la única mención explícita de otro dominio de la red en

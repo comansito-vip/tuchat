@@ -128,7 +128,9 @@ export function SearchInput({ size = "lg" }: { size?: "lg" | "md" }) {
           >
             <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={18} />
             <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">{r.n}</span>
-            <span className="shrink-0 text-xs text-muted">{r.u.toLocaleString("es")} online</span>
+            {r.u !== undefined && (
+              <span className="shrink-0 text-xs text-muted">{r.u} en el canal</span>
+            )}
           </li>
         ))}
       </ul>

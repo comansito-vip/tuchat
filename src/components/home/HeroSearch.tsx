@@ -4,6 +4,7 @@ import { SearchInput } from "@/components/ui/SearchInput";
 import { NickInput } from "@/components/ui/NickInput";
 import { RoomCard } from "./RoomCard";
 import { getCountries, getCities, getRooms } from "@/data";
+import { horaMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
 
 const QUICK_LINKS = [
   { label: "España", slug: "espana" },
@@ -19,12 +20,14 @@ export function HeroSearch() {
   const countries = getCountries();
   const cities = getCities();
   const rooms = getRooms();
-  const totalUsers = rooms.reduce((sum, r) => sum + r.users, 0);
+  // Usuarios reales de la red IRC en la última muestra (antes: suma de un
+  // campo escrito a mano que no medía nada).
+  const enRed = usuariosRed();
 
   const stats = [
     { value: countries.length + "+", label: "Países" },
     { value: cities.length + "+", label: "Ciudades" },
-    { value: totalUsers.toLocaleString("es"), label: "Usuarios conectados" },
+    ...(enRed !== null ? [{ value: miles(enRed), label: `Conectados a las ${horaMuestra()}` }] : []),
     { value: "Top 10", label: "Ranking diario" },
   ];
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { clsx } from "clsx";
-import { cityFlag, getRooms, getRanking } from "@/data";
+import { cityFlag, getRanking } from "@/data";
+import { horaMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
 import { LiveDot, TrophyIcon, WeatherIcon, StarIcon, ChevronIcon } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { Card } from "@/components/ui/Card";
@@ -24,24 +25,24 @@ function WidgetLabel({ children }: { children: React.ReactNode }) {
 }
 
 export function Sidebar() {
-  const rooms = getRooms();
   const ranking = getRanking().slice(0, 5);
-  const totalOnline = rooms.reduce((sum, r) => sum + r.users, 0);
+  // Medida real de la red IRC, con su hora (ver lib/irc-muestra).
+  const enRed = usuariosRed();
 
   return (
     <div className="space-y-4">
       {/* Online ahora */}
-      <Widget className="flex items-center gap-3">
-        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-live/10 text-live">
-          <LiveDot />
-        </span>
-        <div>
-          <div className="font-extrabold text-ink">
-            {totalOnline.toLocaleString("es")}
+      {enRed !== null && (
+        <Widget className="flex items-center gap-3">
+          <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-live/10 text-live">
+            <LiveDot />
+          </span>
+          <div>
+            <div className="font-extrabold text-ink">{miles(enRed)}</div>
+            <div className="text-xs text-muted">personas en la red a las {horaMuestra()}</div>
           </div>
-          <div className="text-xs text-muted">personas online ahora</div>
-        </div>
-      </Widget>
+        </Widget>
+      )}
 
       {/* Top ranking */}
       <Widget>

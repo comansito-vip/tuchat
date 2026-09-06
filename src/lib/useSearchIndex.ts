@@ -16,7 +16,7 @@ export interface IndexRoom {
   /** nombre de la bandera */
   fn?: string;
   /** usuarios online */
-  u: number;
+  u?: number;
 }
 
 /**

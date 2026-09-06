@@ -78,9 +78,9 @@ export function ChatSearch() {
               >
                 <Flag emoji={r.i} flagSrc={r.f} name={r.fn} size={20} />
                 <span className="min-w-0 flex-1 truncate font-medium text-ink">{r.n}</span>
-                <span className="shrink-0 text-xs text-muted">
-                  {r.u.toLocaleString("es")} online
-                </span>
+                {r.u !== undefined && (
+                  <span className="shrink-0 text-xs text-muted">{r.u} en el canal</span>
+                )}
               </Link>
             </li>
           ))}

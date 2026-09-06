@@ -3,6 +3,7 @@ import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { NickInput } from "@/components/ui/NickInput";
 import { getAnimeBySlug } from "@/lib/anime-series";
+import { conectados, horaMuestra, miles } from "@/lib/irc-muestra";
 
 // Los tonos de arranque son 600/700, no 500: con un 500 ni el texto blanco puro
 // llega a 3:1 en el borde claro del gradiente (sky-500 daba 2.77:1, amber-500
@@ -50,6 +51,8 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
   const anime = getAnimeBySlug(place.slug);
   const gradient = GRADIENT_SLUG[place.slug] ?? GRADIENT_KIND[place.kind];
   const flag = cityFlag(place);
+  // Medida real del canal en la última muestra IRC, no el campo `users`.
+  const gente = conectados(place);
   return (
     <section
       className={`relative mt-4 overflow-hidden rounded-2xl px-5 py-7 text-white shadow-lg shadow-blue/20 sm:px-8 sm:py-9${
@@ -99,7 +102,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
               <span className="text-emerald-300">
                 <LiveDot />
               </span>
-              {place.users.toLocaleString("es")} hablando ahora
+              {gente !== null ? `${miles(gente)} conectados a las ${horaMuestra()}` : "Sin registro, entra con tu nick"}
             </span>
             <span className="rounded-full bg-black/20 px-2.5 py-1 text-xs font-medium text-white">
               {KIND_LABEL[place.kind]}

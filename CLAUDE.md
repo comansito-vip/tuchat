@@ -46,30 +46,23 @@ tener `/tarot`, `/horoscopo`, `/ranking`, `/anime` ya construidos. El
 diagnóstico es autoridad/rastreo del dominio, no falta de páginas — no crear
 contenido nuevo para intentar arreglarlo, ya se descartó esa vía en agosto.
 
-### Pendientes más importantes (ordenados, revisado 2026-09-06)
+### Pendientes más importantes (ordenados, revisado 2026-09-06 noche)
 
-Informe de la última pasada (SEO/GEO/UX móvil, con correcciones aplicadas):
+Informe de la última pasada (SEO/GEO/UX móvil, cuatro tandas de correcciones):
 `docs/superpowers/plans/2026-09-06-revision-seo-geo-ux-movil.md`.
 
-1. **Decisión del cliente**: el título de la home ("Chat gratis de amigos,
-   chatear en España y Latinchat") es el único del top 10 de las SERPs de
-   "chat gratis…" sin "sin registro" ni "en español". Está fijado a
-   propósito por el cliente (comentario en `layout.tsx`); no tocarlo sin que
-   lo pida, pero es la palanca on-page más grande que queda.
-2. Retirar a mano en el VPS el cron `generar-terminos-tuchat.sh` (03:00 UTC):
-   redundante con las salas de término de `generar-salas-tuchat.sh` y lleva
-   desde el 2026-09-02 saltándose cada día por "pipeline ocupado". El entorno
-   bloquea editar el crontab por SSH; el comando está en el informe.
-3. Los contadores "N usuarios conectados / hablando ahora" son sumas de un
-   campo estático, no una medida. Decidir si se conectan al IRC real.
+Todo lo de la lista anterior está resuelto: rebase del VPS, idioma en la
+curación, `/chat` partido en `/chat/temas` (PSI móvil 0,72 → 0,95), `alt` en
+todas las banderas y escudos, cron `generar-terminos` retirado del VPS, title
+y description de la home reescritos (2026-09-06, a petición del cliente), y
+los contadores de usuarios pasan a ser **medida real de la red IRC**
+(`scripts/irc-muestra.mjs` → `data/irc-muestra.json`, lanzado por el cron de
+salas; `src/lib/irc-muestra.ts`). El campo `users` de las fichas ya es solo
+peso de ordenación: no volver a enseñarlo como cifra.
 
-Resueltos desde la lista anterior: el rebase roto del VPS (desapareció solo,
-crons publicando con normalidad los días 4 y 5), la comprobación de idioma
-en la curación (`515fc6e`), el peso de `/chat` (partido en `/chat/temas`:
-PSI móvil 0,72 → 0,97, TBT 1.440 → 130 ms; home 0,84 → 0,97) y
-los `alt` vacíos: todas las banderas llevan "Bandera de {lugar}" y los
-escudos "Escudo del {equipo}"; en listados donde la bandera va dentro del
-enlace, poner `aria-label` con el nombre para que el nombre accesible no
-sea "Bandera de X X" (ver `CityList`).
+1. Vigilar en GSC (2026-09-20/25) el efecto del nuevo title: "chat gratis
+   org" (pos 14,5), `/chat` (pos 5,6) y las consultas "sin registro".
+2. La muestra IRC la toma el cron de salas a las 01:30 UTC (03:30 en España):
+   si las cifras salen bajas, mover la toma a las 21:00-23:00 UTC.
 
 Próxima remedida de GSC: 2026-09-20/25.

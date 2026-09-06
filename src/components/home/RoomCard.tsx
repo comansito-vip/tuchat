@@ -5,6 +5,7 @@ import { buttonClasses } from "@/components/ui/Button";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { cityFlag, type Place } from "@/data";
+import { conectados, horaMuestra, miles } from "@/lib/irc-muestra";
 
 const TILE_BG: Record<string, string> = {
   amor: "bg-amor/12", amistad: "bg-amistad/12", lgtbi: "bg-amor/12",
@@ -18,6 +19,8 @@ const TILE_BG: Record<string, string> = {
 export function RoomCard({ place }: { place: Place }) {
   const tileBg = TILE_BG[place.slug] ?? "bg-blue/8";
   const flag = cityFlag(place);
+  // Medida real del canal, no el campo `users` de la ficha (ver lib/irc-muestra).
+  const gente = conectados(place);
 
   return (
     <Card className="flex h-full flex-col gap-3 p-4 transition-all hover:border-blue hover:shadow-md hover:shadow-blue/10">
@@ -40,7 +43,7 @@ export function RoomCard({ place }: { place: Place }) {
           <LiveDot />
         </span>
         <span className="min-w-0 flex-1 truncate">
-          {place.users.toLocaleString("es")} hablando ahora
+          {gente !== null ? `${miles(gente)} en el canal a las ${horaMuestra()}` : "Canal compartido con su zona"}
         </span>
         {place.tag && (
           <span className="shrink-0">

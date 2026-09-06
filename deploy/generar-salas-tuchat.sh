@@ -65,7 +65,12 @@ else
 fi
 npx tsx scripts/cron/salas-termino.mjs --lote 3
 
-if [ -z "$(git status --porcelain src/data data/localidades data/terminos public/llms.txt)" ]; then
+# Foto real de la red IRC (usuarios por canal y totales) para los contadores de
+# la web. Si la red no responde, se queda la muestra anterior: no es motivo
+# para no publicar las salas del día.
+node scripts/irc-muestra.mjs || echo "[$(date -u +%FT%TZ)] sin muestra IRC hoy, se mantiene la anterior"
+
+if [ -z "$(git status --porcelain src/data data/localidades data/terminos data/irc-muestra.json public/llms.txt)" ]; then
   echo "[$(date -u +%FT%TZ)] ninguna sala nueva superó los controles"
   exit 0
 fi
@@ -75,7 +80,7 @@ fi
 npm test
 
 git -c user.name="tuchat-bot" -c user.email="bot@tuchat.org" \
-    commit -q -m "chore(salas): goteo diario de salas de localidad y de término" -- src/data data/localidades data/terminos public/llms.txt
+    commit -q -m "chore(salas): goteo diario de salas de localidad y de término" -- src/data data/localidades data/terminos data/irc-muestra.json public/llms.txt
 
 PUSHED=0
 for intento in 1 2 3; do

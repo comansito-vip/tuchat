@@ -3,6 +3,7 @@ import { getPlace, type Place } from "@/data";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { VoteButton } from "@/components/room/VoteButton";
+import { conectados, horaMuestra, miles } from "@/lib/irc-muestra";
 
 function kindLabel(kind: Place["kind"]): string {
   if (kind === "pais") return "País";
@@ -17,6 +18,8 @@ function countryValue(place: Place): string | null {
 }
 
 export function RoomInfoPanel({ place }: { place: Place }) {
+  // Medida real del canal en la última muestra IRC, no el campo `users`.
+  const gente = conectados(place);
   const otherChannels = place.channels.filter((ch) => ch !== place.slug);
   const country = countryValue(place);
   // Comunidad autónoma de la ciudad: da un enlace interno ciudad → comunidad
@@ -31,7 +34,9 @@ export function RoomInfoPanel({ place }: { place: Place }) {
       <NickInput canal={place.slug} placeholder="Tu nick..." />
       <p className="mt-2 mb-4 flex items-center justify-center gap-1.5 text-xs text-muted">
         <span className="inline-block h-2 w-2 rounded-full bg-active" aria-hidden="true" />
-        {place.users.toLocaleString("es")} personas hablando ahora
+        {gente !== null
+          ? `${miles(gente)} personas en el canal (medido a las ${horaMuestra()})`
+          : "Canal compartido con salas vecinas"}
       </p>
 
       <h2 className="mb-4 border-t border-line pt-4 text-sm font-semibold uppercase tracking-wide text-muted">

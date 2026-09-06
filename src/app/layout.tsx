@@ -22,19 +22,23 @@ const bricolage = Bricolage_Grotesque({
   display: "swap",
 });
 
-// Meta description original de la home, pedida explícitamente por el cliente
-// para mantener continuidad con lo que ya tenía indexado Google (no tocar
-// sin que lo pida él: es una decisión de negocio, no un descuido de copy).
+// Title y description de la home reescritos el 2026-09-06 a petición del
+// cliente: hasta entonces se mantenían los literales heredados ("Chat gratis de
+// amigos, chatear en España y Latinchat" / "…pudiendo registrar tu nick…") por
+// continuidad con el indexado antiguo. Eran los únicos del top 10 de las SERPs
+// de "chat gratis…" sin "sin registro" ni "en español", y la descripción
+// contradecía la promesa central del sitio (hablaba de registrar el nick).
+// Se conservan "amigos" y "Latinchat", que son los términos con tracción real
+// en Search Console ("chat amigos org", "latin chat org").
 const DESCRIPTION =
-  "Chat gratis en español en la comunidad de tuchat, busca hacer amigos online, ligar y chatear con gente pudiendo registrar tu nick y tus salas de chat.";
+  "Chat gratis en español sin registro: elige un nick y entra. Salas por países, ciudades y temáticas para chatear, hacer amigos y ligar, con Latinchat incluido.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.tuchat.org"),
-  // El "default" es el <title> real de la home (no usa el sufijo "· TuChat":
-  // el texto pedido por el cliente para mantener el indexado ya existente en
-  // Google es literal). El "template" sigue aplicando al resto de páginas,
-  // que ya ponen su propio title.
-  title: { default: "Chat gratis de amigos, chatear en España y Latinchat", template: "%s · TuChat" },
+  // El "default" es el <title> real de la home, sin el sufijo "· TuChat" (60
+  // caracteres justos: cabe entero en la SERP). El "template" sigue aplicando
+  // al resto de páginas, que ya ponen su propio title.
+  title: { default: "Chat gratis en español sin registro · Chatear y hacer amigos", template: "%s · TuChat" },
   description: DESCRIPTION,
   // Sin title/description aquí: Next los deriva del title/description de cada
   // página, dando og:title y og:description propios por landing.

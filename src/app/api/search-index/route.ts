@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
 import { cityFlag } from "@/data";
+import { conectados } from "@/lib/irc-muestra";
 
 export const runtime = "nodejs";
 // Estático: el índice se hornea en build y se sirve como un fichero más. Antes
@@ -28,7 +29,8 @@ export async function GET() {
       i: flag.icon,
       // Omitido cuando no hay bandera: era "$undefined" en casi todas las filas.
       ...(flag.flagSrc ? { f: flag.flagSrc, fn: flag.name } : {}),
-      u: p.users,
+      // Conectados reales del canal en la última muestra; se omite si no hay.
+      ...(conectados(p) !== null ? { u: conectados(p)! } : {}),
     };
   });
 

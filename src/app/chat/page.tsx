@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getMergedCountries, getMergedCities } from "@/data/merged";
 import { cityFlag, getRegionsOfCountry } from "@/data";
 import { getTopicCatalog } from "@/lib/topic-groups";
+import { conectados, miles } from "@/lib/irc-muestra";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
@@ -137,9 +138,11 @@ export default async function ChatIndexPage() {
                   {citiesOfCountry.length > 0 && (
                     <span className="text-xs text-muted">· {citiesOfCountry.length} ciudades</span>
                   )}
-                  <span className="ml-auto shrink-0 text-xs text-muted">
-                    {country.users.toLocaleString("es")} online
-                  </span>
+                  {conectados(country) !== null && (
+                    <span className="ml-auto shrink-0 text-xs text-muted">
+                      {miles(conectados(country)!)} en el canal
+                    </span>
+                  )}
                 </div>
                 {/* min-h-[40px]: los chips eran de 26px de alto, muy por debajo de
                     los 44px que pide la guía táctil de Apple, y son la vía de
