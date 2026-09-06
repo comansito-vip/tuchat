@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { clsx } from "clsx";
 import { cityFlag, getRanking } from "@/data";
-import { horaMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
+import { cuandoMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
 import { LiveDot, TrophyIcon, WeatherIcon, StarIcon, ChevronIcon } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { Card } from "@/components/ui/Card";
@@ -39,7 +39,7 @@ export function Sidebar() {
           </span>
           <div>
             <div className="font-extrabold text-ink">{miles(enRed)}</div>
-            <div className="text-xs text-muted">personas en la red a las {horaMuestra()}</div>
+            <div className="text-xs text-muted">personas en la red {cuandoMuestra()}</div>
           </div>
         </Widget>
       )}

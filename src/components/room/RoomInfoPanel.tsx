@@ -3,7 +3,7 @@ import { getPlace, type Place } from "@/data";
 import { Card } from "@/components/ui/Card";
 import { NickInput } from "@/components/ui/NickInput";
 import { VoteButton } from "@/components/room/VoteButton";
-import { conectados, horaMuestra, miles } from "@/lib/irc-muestra";
+import { conectados, cuandoMuestra, miles } from "@/lib/irc-muestra";
 
 function kindLabel(kind: Place["kind"]): string {
   if (kind === "pais") return "País";
@@ -35,7 +35,7 @@ export function RoomInfoPanel({ place }: { place: Place }) {
       <p className="mt-2 mb-4 flex items-center justify-center gap-1.5 text-xs text-muted">
         <span className="inline-block h-2 w-2 rounded-full bg-active" aria-hidden="true" />
         {gente !== null
-          ? `${miles(gente)} personas en el canal (medido a las ${horaMuestra()})`
+          ? `${miles(gente)} personas en el canal (medido ${cuandoMuestra()})`
           : "Canal compartido con salas vecinas"}
       </p>
 

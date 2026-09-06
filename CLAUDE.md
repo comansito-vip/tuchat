@@ -62,7 +62,12 @@ peso de ordenación: no volver a enseñarlo como cifra.
 
 1. Vigilar en GSC (2026-09-20/25) el efecto del nuevo title: "chat gratis
    org" (pos 14,5), `/chat` (pos 5,6) y las consultas "sin registro".
-2. La muestra IRC la toma el cron de salas a las 01:30 UTC (03:30 en España):
-   si las cifras salen bajas, mover la toma a las 21:00-23:00 UTC.
+2. **La red IRC tiene vetada (G-line "VPN") la IP del VPS `164.132.107.97`**,
+   así que el cron de salas no puede tomar la muestra IRC desde allí. Hay que
+   eximir esa IP en el servidor IRC (es red propia). Hasta entonces, refrescar
+   la muestra desde este equipo: `node scripts/irc-muestra.mjs` y commitear
+   `data/irc-muestra.json`. Si la muestra es de otro día, la web ya lo indica
+   con la fecha. Cuando funcione desde el VPS: la toma es a las 01:30 UTC
+   (03:30 en España); si sale baja, moverla a las 21:00-23:00 UTC.
 
 Próxima remedida de GSC: 2026-09-20/25.

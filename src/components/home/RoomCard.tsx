@@ -5,7 +5,7 @@ import { buttonClasses } from "@/components/ui/Button";
 import { ChatIcon, LiveDot } from "@/components/ui/icons";
 import { Flag } from "@/components/ui/Flag";
 import { cityFlag, type Place } from "@/data";
-import { conectados, horaMuestra, miles } from "@/lib/irc-muestra";
+import { conectados, cuandoMuestra, miles } from "@/lib/irc-muestra";
 
 const TILE_BG: Record<string, string> = {
   amor: "bg-amor/12", amistad: "bg-amistad/12", lgtbi: "bg-amor/12",
@@ -43,7 +43,7 @@ export function RoomCard({ place }: { place: Place }) {
           <LiveDot />
         </span>
         <span className="min-w-0 flex-1 truncate">
-          {gente !== null ? `${miles(gente)} en el canal a las ${horaMuestra()}` : "Canal compartido con su zona"}
+          {gente !== null ? `${miles(gente)} en el canal ${cuandoMuestra()}` : "Canal compartido con su zona"}
         </span>
         {place.tag && (
           <span className="shrink-0">

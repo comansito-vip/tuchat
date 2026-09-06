@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { conectados, horaMuestra, miles, usuariosEnCanal, usuariosRed } from "./irc-muestra";
+import { conectados, cuandoMuestra, fechaMuestra, horaMuestra, miles, usuariosEnCanal, usuariosRed } from "./irc-muestra";
 import { getPlace } from "@/data";
 
 describe("muestra IRC", () => {
@@ -22,6 +22,13 @@ describe("muestra IRC", () => {
     expect(conectados(getPlace("madrid")!)).toBe(usuariosEnCanal("madrid"));
     expect(conectados({ channels: ["chatzona"] })).toBe(usuariosEnCanal("chatzona"));
     expect(conectados({ channels: ["canal-inexistente-xyz", "chatzona"] })).toBeNull();
+  });
+
+  it("cuándo: solo la hora si la muestra es de hoy, con fecha si es de otro día", () => {
+    const tomada = new Date(fechaMuestra());
+    expect(cuandoMuestra(tomada)).toBe(`a las ${horaMuestra()}`);
+    const tresDiasDespues = new Date(tomada.getTime() + 3 * 86_400_000);
+    expect(cuandoMuestra(tresDiasDespues)).toMatch(/^el \d{1,2} [a-z]{3,4} a las \d{2}:\d{2}$/);
   });
 
   it("hora en formato HH:MM y miles con punto", () => {

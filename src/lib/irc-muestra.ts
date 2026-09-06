@@ -69,6 +69,22 @@ export function horaMuestra(): string {
   }).format(new Date(MUESTRA.tomada));
 }
 
+/**
+ * "a las 21:26" si la muestra es de hoy (hora española); "el 6 sep a las
+ * 21:26" si es de otro día. Una cifra de anteayer presentada como "a las
+ * 21:26" sería mentir con la hora, que es justo lo que este módulo evita.
+ */
+export function cuandoMuestra(ahora: Date = new Date()): string {
+  const dia = (d: Date) =>
+    new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(d);
+  const tomada = new Date(MUESTRA.tomada);
+  if (dia(tomada) === dia(ahora)) return `a las ${horaMuestra()}`;
+  const fecha = new Intl.DateTimeFormat("es-ES", { timeZone: "Europe/Madrid", day: "numeric", month: "short" })
+    .format(tomada)
+    .replace(".", "");
+  return `el ${fecha} a las ${horaMuestra()}`;
+}
+
 /** Fecha ISO de la muestra, por si hay que enseñar que es de otro día. */
 export function fechaMuestra(): string {
   return MUESTRA.tomada;

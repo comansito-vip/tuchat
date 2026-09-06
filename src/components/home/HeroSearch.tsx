@@ -4,7 +4,7 @@ import { SearchInput } from "@/components/ui/SearchInput";
 import { NickInput } from "@/components/ui/NickInput";
 import { RoomCard } from "./RoomCard";
 import { getCountries, getCities, getRooms } from "@/data";
-import { horaMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
+import { cuandoMuestra, miles, usuariosRed } from "@/lib/irc-muestra";
 
 const QUICK_LINKS = [
   { label: "España", slug: "espana" },
@@ -27,7 +27,7 @@ export function HeroSearch() {
   const stats = [
     { value: countries.length + "+", label: "Países" },
     { value: cities.length + "+", label: "Ciudades" },
-    ...(enRed !== null ? [{ value: miles(enRed), label: `Conectados a las ${horaMuestra()}` }] : []),
+    ...(enRed !== null ? [{ value: miles(enRed), label: `Conectados ${cuandoMuestra()}` }] : []),
     { value: "Top 10", label: "Ranking diario" },
   ];
 
