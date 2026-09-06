@@ -15,7 +15,7 @@ export function RelatedRooms({ slugs }: { slugs: string[] }) {
             href={`/chat/${place.slug}`}
             className="inline-flex items-center gap-1.5 rounded-full border border-line bg-card px-3 py-1.5 text-sm text-blue-dark hover:border-blue"
           >
-            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={16} /> {place.name}
+            <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={16} /> {place.name}
           </Link>
         );
       })}

@@ -52,7 +52,8 @@ function transformEntry(config, path) {
     return { ...base, changefreq: "daily", priority: 1.0 };
   }
   if (
-    path === "/horoscopo" || path === "/tarot" || path === "/anime" || path === "/ranking"
+    path === "/horoscopo" || path === "/tarot" || path === "/anime" || path === "/ranking" ||
+    path === "/chat/temas"
   ) {
     return { ...base, changefreq: "daily", priority: 0.8 };
   }

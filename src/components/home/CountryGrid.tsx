@@ -19,7 +19,8 @@ export function CountryGrid() {
           <h3 className="mb-3 font-bold text-ink">{continent.title}</h3>
           <div className="flex flex-wrap gap-1.5">
             {continent.places.map((place) => {
-              const icon = getPlace(place.slug)?.icon ?? "";
+              const pais = getPlace(place.slug);
+              const icon = pais?.icon ?? "";
               const city = topCity(place.slug);
               return (
                 <span key={place.slug} className="inline-flex items-center">
@@ -27,7 +28,7 @@ export function CountryGrid() {
                     href={`/chat/${place.slug}`}
                     className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-muted transition-colors hover:bg-brand/6 hover:text-ink"
                   >
-                    <Flag emoji={icon} size={17} />
+                    <Flag emoji={icon} name={pais?.name ?? place.name} size={17} />
                     {place.name}
                   </Link>
                   {city && (
@@ -35,7 +36,7 @@ export function CountryGrid() {
                       href={`/chat/${city.slug}`}
                       className="inline-flex items-center gap-1 rounded-lg px-2 py-1.5 text-xs text-muted transition-colors hover:bg-brand/6 hover:text-ink"
                     >
-                      <Flag emoji={cityFlag(city).icon} flagSrc={cityFlag(city).flagSrc} size={13} />
+                      <Flag emoji={cityFlag(city).icon} flagSrc={cityFlag(city).flagSrc} name={cityFlag(city).name} size={13} />
                       {city.name}
                     </Link>
                   )}

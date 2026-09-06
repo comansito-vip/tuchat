@@ -56,20 +56,22 @@ Informe de la última pasada (SEO/GEO/UX móvil, con correcciones aplicadas):
    "chat gratis…" sin "sin registro" ni "en español". Está fijado a
    propósito por el cliente (comentario en `layout.tsx`); no tocarlo sin que
    lo pida, pero es la palanca on-page más grande que queda.
-2. Retirar el cron `generar-terminos-tuchat.sh` (03:00 UTC): redundante con
-   las salas de término de `generar-salas-tuchat.sh` y lleva desde el
-   2026-09-02 saltándose cada día por "pipeline ocupado".
-3. `/chat` pesa 861 KB de HTML (979 enlaces, 478 KB de payload RSC) y tarda
-   5,7 s en ser interactiva en móvil. Sacar "Más salas temáticas" (645
-   chips) a su propia página o cargar los grupos bajo demanda.
+2. Retirar a mano en el VPS el cron `generar-terminos-tuchat.sh` (03:00 UTC):
+   redundante con las salas de término de `generar-salas-tuchat.sh` y lleva
+   desde el 2026-09-02 saltándose cada día por "pipeline ocupado". El entorno
+   bloquea editar el crontab por SSH; el comando está en el informe.
+3. Remedir `/chat` y `/chat/temas` en PSI móvil tras el deploy del 2026-09-06
+   (objetivo TTI < 3,5 s). `/chat` pasó de 979 a 458 enlaces al sacar las 645
+   temáticas a `/chat/temas` (agrupado en `src/lib/topic-groups.ts`).
 4. Los contadores "N usuarios conectados / hablando ahora" son sumas de un
    campo estático, no una medida. Decidir si se conectan al IRC real.
 
 Resueltos desde la lista anterior: el rebase roto del VPS (desapareció solo,
 crons publicando con normalidad los días 4 y 5), la comprobación de idioma
-en la curación (`515fc6e`), y el `alt=""` de las banderas, que se cierra
-**sin acción**: van pegadas al nombre en el mismo enlace, un `alt`
-descriptivo lo duplicaría en el lector de pantalla, y Lighthouse
-Accessibility ya da 1,0.
+en la curación (`515fc6e`), el peso de `/chat` (partido en `/chat/temas`) y
+los `alt` vacíos: todas las banderas llevan "Bandera de {lugar}" y los
+escudos "Escudo del {equipo}"; en listados donde la bandera va dentro del
+enlace, poner `aria-label` con el nombre para que el nombre accesible no
+sea "Bandera de X X" (ver `CityList`).
 
 Próxima remedida de GSC: 2026-09-20/25.

@@ -49,7 +49,7 @@ export function RankingTable({ ranking }: { ranking?: Place[] }) {
                   href={`/chat/${place.slug}`}
                   className="inline-flex items-center gap-2 font-semibold text-ink hover:text-blue transition-colors"
                 >
-                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={18} />
+                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={18} />
                   {place.name}
                 </Link>
               </td>

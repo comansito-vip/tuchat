@@ -8,7 +8,9 @@ const DESKTOP_COUNT = 48;
 const MOBILE_COUNT = 24;
 
 // Si dos ciudades homónimas entran en el top (Barcelona ES/VE, Mérida…), el
-// lector de pantalla necesita distinguir los links; la bandera es decorativa.
+// lector de pantalla necesita distinguir los links. El aria-label va siempre:
+// la bandera lleva alt ("Bandera de Comunidad de Madrid") y sin él el nombre
+// accesible del enlace sería "Bandera de Comunidad de Madrid Madrid".
 function dupNames(cities: ReturnType<typeof getCities>) {
   const count: Record<string, number> = {};
   for (const c of cities) count[c.name] = (count[c.name] ?? 0) + 1;
@@ -23,7 +25,7 @@ export function CityList() {
   const label = (city: (typeof cities)[number]) =>
     dupes.has(city.name) && city.parentName
       ? `${city.name} (${city.parentName})`
-      : undefined;
+      : city.name;
 
   return (
     <>
@@ -38,7 +40,7 @@ export function CityList() {
               aria-label={label(city)}
               className="flex items-center gap-1.5 py-2 text-sm text-muted transition-colors hover:text-blue"
             >
-              <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
+              <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={14} />
               <span className="min-w-0 flex-1 truncate">{city.name}</span>
             </Link>
           );
@@ -56,7 +58,7 @@ export function CityList() {
               aria-label={label(city)}
               className="flex items-center gap-1.5 break-inside-avoid py-1 text-sm text-muted transition-colors hover:text-blue"
             >
-              <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
+              <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={14} />
               <span className="min-w-0 flex-1 truncate">{city.name}</span>
             </Link>
           );

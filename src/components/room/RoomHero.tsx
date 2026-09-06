@@ -79,7 +79,7 @@ export function RoomHero({ place, h1 }: { place: Place; h1?: string }) {
         >
           {/* Misma representación que el icono pequeño de abajo (Flag): evita
               mostrar dos estilos gráficos distintos de la misma bandera. */}
-          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={130} />
+          <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={130} />
         </div>
       )}
 

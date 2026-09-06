@@ -20,7 +20,17 @@ cabecera, y el estado del VPS por SSH (solo lectura).
 | 6 | En la home, las 4 salas de "Salas más activas" volvían a salir en la fila siguiente, "Todas las salas" (12 tarjetas que incluían esas 4). En móvil: ocho tarjetas para ver cuatro salas, y una cabecera que decía "todas" con 12 de 2.831. | La segunda fila excluye las cuatro de arriba y pasa a llamarse "Más salas con gente". |
 | 7 | La noticia destacada de la home mostraba un **bloque gris vacío 16:9** con solo la categoría dentro ("Subtle image placeholder"), cuando la misma noticia abre `/noticias` con su foto propia. | Se pinta la foto propia (`/img/noticias/...`), lazy, `alt` = titular, con la categoría superpuesta como en `/noticias`. |
 
-Verificación: `tsc` limpio, `eslint` limpio en los ficheros tocados, **532 tests
+**Segunda tanda, a petición del cliente ("haz lo de /chat, mejora todos los alt")**
+
+| # | Hallazgo | Corrección |
+|---|---|---|
+| 8 | `/chat` pesaba 861 KB con 979 enlaces (645 eran chips de temáticas) y tardaba 5,7 s en ser interactiva en móvil. | Las temáticas agrupadas salen a **`/chat/temas`** (página propia: title, H1, breadcrumbs, FAQ, JSON-LD, prioridad 0,8 en el sitemap, citada en `llms.txt`). En `/chat` queda un chip por categoría con su recuento (56 chips) enlazando al bloque correspondiente. La lógica de agrupado vive en `src/lib/topic-groups.ts`, compartida por las dos páginas y con tests propios (ninguna temática se pierde ni se repite). Medido en `next dev`: **458 enlaces (−53 %) y 215 KB de marcado sin scripts (antes ~380 KB)**; el peso final en producción se remide tras el deploy. |
+| 9 | Banderas con `alt=""` en todo el sitio (163 en la home, 226 en `/chat`, 7 de 8 en cada sala) y escudos de equipo sin `alt` en `/deportes`. | Todas las banderas llevan ahora `alt="Bandera de {país/comunidad}"` (RoomCard, CityList, RankingTable, Sidebar, CountryGrid, RelatedRooms, hero de sala, tarjetas de país y región de `/chat`) y los escudos `alt="Escudo del {equipo}"`. En `CityList` el enlace lleva siempre `aria-label` con el nombre de la ciudad para que el nombre accesible no sea "Bandera de Comunidad de Madrid Madrid". **0 imágenes con alt vacío** en home, `/chat`, `/chat/temas`, `/chat/madrid` y `/deportes`. |
+
+Verificación de la segunda tanda: `tsc` y `eslint` limpios, **535 tests en verde
+(47 ficheros)**, HTML renderizado con `next dev` en el puerto 3118.
+
+Verificación de la primera: `tsc` limpio, `eslint` limpio en los ficheros tocados, **532 tests
 en verde (46 ficheros)**, y HTML comprobado con `next dev` en el puerto 3117:
 cabeceras nuevas, FAQ con "2.800"/"2.100", los tres enlaces a `/chat#paises`,
 `id="paises"` presente en `/chat`, foto de la noticia con `alt`, un solo
@@ -111,23 +121,8 @@ seguridad completas (HSTS, nosniff, frame-options, referrer, permissions).
 
 **Lo que no se ha corregido y por qué:**
 
-- **`/chat` pesa 861 KB de HTML y tarda 5,7 s en ser interactiva en móvil.**
-  Es la segunda página del dominio en impresiones y la que mejor posiciona
-  (5,6). El coste no es de imágenes ni de JS externo: son 979 enlaces (30
-  países con sus regiones + 645 temáticas agrupadas en `<details>`), y Next
-  duplica todo ese árbol en el payload RSC inline. Reducirlo de verdad
-  significa sacar "Más salas temáticas" (645 chips) a su propia página o
-  cargar los grupos colapsados bajo demanda, y eso es una decisión de
-  estructura del catálogo, no un retoque. La corrección de `gtag` le quita
-  ya ~730 ms de hilo principal. Queda como pendiente principal de
-  rendimiento.
-- **`alt=""` en las banderas** (163 en la home, 226 en `/chat`, 7 de 8 en
-  `/chat/madrid`): se cierra el pendiente **sin acción**. Todas van pegadas al
-  nombre del país/ciudad en el mismo enlace; con `alt` descriptivo el lector
-  de pantalla diría "Bandera de Madrid, Madrid" en cada uno de los 979
-  enlaces de `/chat`, y Lighthouse Accessibility ya da 1,0 precisamente por
-  esto. La única bandera que sí lleva `alt` ("Bandera de Comunidad de
-  Madrid", la del hero) es la que no tiene texto al lado. Es lo correcto.
+- ~~`/chat` pesa 861 KB~~ y ~~`alt=""` en las banderas~~: corregidos en la
+  segunda tanda (filas 8 y 9 de la sección 1).
 - **"9.062 usuarios conectados" / "1.240 online"** en hero, sidebar y
   tarjetas: son sumas del campo `users` estático de las fichas, no una
   medida. Se deja como está (es diseño de producto), pero conviene saber que
@@ -169,7 +164,15 @@ lo que Google ya rankea.
   ocupado; se salta" el 2, 3, 4 y 5 de septiembre a las 03:15 UTC): choca
   con el lock de `generar-salas-rehacer` (03:15 del día 5). Como
   `generar-salas-tuchat.sh` ya genera las tres salas de término en su pasada,
-  este cron es redundante y nunca ha llegado a ejecutarse. Retirarlo.
+  este cron es redundante y nunca ha llegado a ejecutarse. **Se intentó
+  retirarlo por SSH y el entorno bloqueó la edición del crontab** (cambio de
+  estado en producción). Queda para ejecutar a mano en el VPS, con copia
+  previa:
+
+  ```bash
+  crontab -l > /home/ubuntu/crontab.bak.2026-09-06
+  crontab -l | grep -v 'generar-terminos-tuchat' | grep -v 'salas de término' | crontab -
+  ```
 - El servidor va **muy cargado durante los crons**: los logs registran CPU
   98-99 % y RAM 93-98 % en las pasadas de noticias y deploy. No se ha lanzado
   ningún deploy manual por eso: el de las 05:30 UTC publicará esta pasada.
@@ -178,10 +181,12 @@ lo que Google ya rankea.
 
 1. **Decisión del cliente**: título de la home sin "sin registro" ni "en
    español" cuando los 10 primeros de la SERP lo llevan (sección 3).
-2. Retirar el cron `generar-terminos-tuchat.sh` (03:00/03:15 UTC): redundante
-   y lleva cuatro días sin ejecutarse por el lock.
-3. `/chat`: sacar "Más salas temáticas" (645 chips) a su propia página o
-   cargar los grupos colapsados bajo demanda; objetivo TTI < 3,5 s en móvil.
+2. Retirar el cron `generar-terminos-tuchat.sh` a mano en el VPS (comando en
+   la sección 6): redundante y lleva cuatro días sin ejecutarse por el lock.
+3. Remedir `/chat` y `/chat/temas` en PSI móvil tras el deploy de las 05:30
+   UTC: objetivo TTI < 3,5 s. Si sigue alto, el siguiente escalón es servir
+   las banderas pequeñas como `<img>` plano (el `srcset` de `next/image`
+   añade ~250 bytes por bandera y hay 226 en `/chat`).
 4. Contadores de usuarios "en vivo" que no lo son (sección 4): decidir si se
    conectan al IRC real o se reformulan.
 5. Remedida de GSC: 2026-09-20/25, como estaba. Revisar entonces si el

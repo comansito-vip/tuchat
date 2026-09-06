@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
-import { getMergedCountries, getMergedCities, getMergedTopics } from "@/data/merged";
-import { SLUGS_APODO } from "@/data/topics-apodos";
-import { cityFlag, getAgeTopics, getPrimaryTopics, getRegions, getRegionsOfCountry } from "@/data";
+import { getMergedCountries, getMergedCities } from "@/data/merged";
+import { cityFlag, getRegionsOfCountry } from "@/data";
+import { getTopicCatalog } from "@/lib/topic-groups";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { RoomCard } from "@/components/home/RoomCard";
 import { ChatSearch } from "@/components/chat/ChatSearch";
@@ -64,76 +64,23 @@ function construirFaq(salas: number, ciudades: number, paises: number) {
 }
 
 export default async function ChatIndexPage() {
-  const [countries, cities, topics] = await Promise.all([
+  const [countries, cities, catalogo] = await Promise.all([
     getMergedCountries(),
     getMergedCities(),
-    getMergedTopics(),
+    getTopicCatalog(),
   ]);
+  const { primaryTopics, groups, propiasDelPais, apodosDelPais, totalEnGrupos } = catalogo;
 
-  const all = [...countries, ...cities, ...topics];
+  const all = [...countries, ...cities, ...primaryTopics, ...groups.flatMap((g) => g.items)];
   const FAQ = construirFaq(all.length, cities.length, countries.length);
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
   // El catálogo para el buscador ya NO viaja en el HTML: ChatSearch lo pide a
   // /api/search-index al enfocar el input. Serializarlo aquí metía ~858 KB de
   // payload en cada visita a /chat, se usara el buscador o no.
-
-  // Temáticas: destacar las principales como tarjetas y agrupar el resto por
-  // su categoría padre (fútbol, salud, hobbies...) en vez de una única nube
-  // de 423 chips sin clasificar, donde era imposible encontrar nada.
-  const primarySet = new Set(getPrimaryTopics().map((t) => t.slug));
-  // Las comunidades autónomas ya se navegan desde la tarjeta de España en
-  // "Países y ciudades": repetirlas aquí como temáticas solo añade ruido.
-  const regionSet = new Set(getRegions().map((r) => r.slug));
-  const ageSet = new Set(getAgeTopics().map((t) => t.slug));
-  // Las salas cuyo padre es un PAÍS (argentinos→argentina, rebelión→chile…) no
-  // son una categoría temática: su grupo duplicaba en "Más salas temáticas" un
-  // país que ya encabeza su propia tarjeta arriba. Se cuelgan de esa tarjeta.
-  const countrySet = new Set(countries.map((c) => c.slug));
-  const primaryTopics = topics.filter((t) => primarySet.has(t.slug));
-  const restTopics = topics.filter((t) => !primarySet.has(t.slug) && !regionSet.has(t.slug));
-  const grouped = new Map<string, { name: string; slug?: string; items: typeof restTopics }>();
-  // `bcn`, `illes-balears`, `gdl`… son otro nombre de una sala que ya sale en la
-  // misma tarjeta. Se separan para no pintarlas en la misma fila que su gemela.
-  const esApodo = (slug: string) => SLUGS_APODO.includes(slug);
-  const propiasDelPais = new Map<string, typeof restTopics>();
-  const apodosDelPais = new Map<string, typeof restTopics>();
-  const conPadre = restTopics.filter((t) => t.parentSlug);
-  const sinPadre = restTopics.filter((t) => !t.parentSlug);
-  for (const t of conPadre) {
-    const key = t.parentSlug!;
-    if (countrySet.has(key)) {
-      const destino = esApodo(t.slug) ? apodosDelPais : propiasDelPais;
-      if (!destino.has(key)) destino.set(key, []);
-      destino.get(key)!.push(t);
-      continue;
-    }
-    if (!grouped.has(key)) grouped.set(key, { name: t.parentName ?? key, slug: key, items: [] });
-    grouped.get(key)!.items.push(t);
-  }
-  // Dedupe: una temática que ya encabeza su propio grupo (Latinchat con sus 23
-  // salas, Gay Latino con las suyas…) no debe repetirse como chip suelto dentro
-  // de su grupo padre —salía dos veces en la misma sección, una como chip y
-  // otra como cabecera de grupo justo debajo—. Se queda solo como grupo.
-  const groupKeys = new Set(grouped.keys());
-  for (const g of grouped.values()) {
-    g.items = g.items.filter((t) => !groupKeys.has(t.slug));
-  }
-  // Huérfanas: las salas de edad forman su propio grupo; los hubs de categoría
-  // (religión, hobbies...) ya encabezan su grupo con enlace, no van a "Otras".
-  const edad: typeof restTopics = [];
-  const huerfanas: typeof restTopics = [];
-  for (const t of sinPadre) {
-    if (ageSet.has(t.slug)) edad.push(t);
-    else if (!grouped.has(t.slug)) huerfanas.push(t);
-  }
-  if (edad.length) grouped.set("edades", { name: "Por edades", items: edad });
-  // Por gente conectada, no por número de salas: ordenar por cardinalidad subía
-  // Fútbol (73 equipos) y Erótico y hundía Amor, Ligar o Amistad, que son la
-  // intención dominante de quien llega aquí.
-  const usersOf = (g: { items: typeof restTopics }) =>
-    g.items.reduce((sum, t) => sum + t.users, 0);
-  const topicGroups = [...grouped.values()].sort((a, b) => usersOf(b) - usersOf(a));
-  if (huerfanas.length) topicGroups.push({ name: "Otras temáticas", items: huerfanas });
+  //
+  // Y las 645 salas temáticas tampoco: esta página pesaba 861 KB con 979
+  // enlaces y tardaba 5,7 s en ser interactiva en móvil. Aquí va un chip por
+  // categoría; el listado completo vive en /chat/temas.
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-6">
@@ -180,9 +127,7 @@ export default async function ChatIndexPage() {
                 <div className="flex items-center gap-2">
                   {/* Flag y no el emoji crudo: en Windows los emoji-bandera no se
                       renderizan y salían las letras del país ("ES"). */}
-                  {/* Sin name: el nombre del país va en el enlace de al lado y el
-                      lector lo repetía ("Bandera de España. España"). */}
-                  <Flag emoji={country.icon} flagSrc={country.flagSrc} size={22} />
+                  <Flag emoji={country.icon} flagSrc={country.flagSrc} name={country.name} size={22} />
                   <Link
                     href={`/chat/${country.slug}`}
                     className="font-semibold text-ink hover:text-blue"
@@ -206,7 +151,7 @@ export default async function ChatIndexPage() {
                       href={`/chat/${r.slug}`}
                       className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
                     >
-                      <Flag emoji={r.icon} flagSrc={r.flagSrc} size={14} />
+                      <Flag emoji={r.icon} flagSrc={r.flagSrc} name={r.name} size={14} />
                       {r.name}
                     </Link>
                   ))}
@@ -218,7 +163,7 @@ export default async function ChatIndexPage() {
                         href={`/chat/${c.slug}`}
                         className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
                       >
-                        <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={14} />
+                        <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={14} />
                         {c.name}
                       </Link>
                     );
@@ -283,50 +228,27 @@ export default async function ChatIndexPage() {
         </div>
       </section>
 
-      {/* Más salas temáticas, agrupadas por categoría (fútbol, salud, hobbies...) */}
-      {topicGroups.length > 0 && (
+      {/* Más salas temáticas: un chip por categoría con su recuento; cada uno
+          lleva a su bloque dentro de /chat/temas, donde están las 645 salas. */}
+      {groups.length > 0 && (
         <section className="mt-10">
-          <SectionTitle>Más salas temáticas</SectionTitle>
-          <div className="mt-4 space-y-3">
-            {topicGroups.map((g, i) => (
-              <details
-                key={g.slug ?? g.name}
-                // Los 4 primeros (los de más gente conectada) abiertos: con los 50
-                // grupos colapsados, llegar a una sala costaba un clic de más y en
-                // móvil obligaba a re-scrollear tras cada despliegue.
-                open={i < 4}
-                className="group rounded-xl border border-line bg-card"
+          <SectionTitle
+            href="/chat/temas"
+            cta="Ver todas"
+            description={`${totalEnGrupos} salas más, repartidas en ${groups.length} categorías: fútbol por equipos, salud, hobbies, religión, edades…`}
+          >
+            Más salas temáticas
+          </SectionTitle>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {groups.map((g) => (
+              <Link
+                key={g.anchor}
+                href={`/chat/temas#${g.anchor}`}
+                className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-card px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
               >
-                <summary className="flex min-h-[48px] cursor-pointer items-center justify-between gap-3 px-5 py-3 font-semibold text-ink hover:text-blue">
-                  <h3 className="text-base font-semibold">
-                    {g.name}
-                    <span className="ml-2 font-normal text-muted">· {g.items.length}</span>
-                  </h3>
-                  <span className="text-muted transition-transform group-open:rotate-180" aria-hidden="true">▼</span>
-                </summary>
-                <div className="flex flex-wrap gap-2 px-4 pb-4 pt-2">
-                  {/* El enlace al hub sale del <summary>: dentro, tocar el nombre
-                      navegaba y tocar 3px al lado desplegaba — ambiguo en táctil. */}
-                  {g.slug && (
-                    <Link
-                      href={`/chat/${g.slug}`}
-                      className="inline-flex min-h-[40px] items-center rounded-full bg-blue/10 px-3 py-2 text-sm font-semibold text-blue transition-colors hover:bg-blue/20"
-                    >
-                      Ver {g.name} →
-                    </Link>
-                  )}
-                  {g.items.map((p) => (
-                    <Link
-                      key={p.slug}
-                      href={`/chat/${p.slug}`}
-                      className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-line bg-bg px-3 py-2 text-sm text-ink transition-colors hover:border-blue hover:text-blue"
-                    >
-                      <span aria-hidden="true">{p.icon}</span>
-                      {p.name}
-                    </Link>
-                  ))}
-                </div>
-              </details>
+                {g.name}
+                <span className="text-muted">· {g.items.length}</span>
+              </Link>
             ))}
           </div>
         </section>

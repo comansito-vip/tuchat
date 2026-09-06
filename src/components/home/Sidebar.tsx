@@ -63,7 +63,7 @@ export function Sidebar() {
                   <span className="w-4 shrink-0 text-center text-xs font-bold text-muted">
                     {i + 1}
                   </span>
-                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} size={18} />
+                  <Flag emoji={flag.icon} flagSrc={flag.flagSrc} name={flag.name} size={18} />
                   <span className="min-w-0 flex-1 truncate text-sm font-medium text-ink">
                     {room.name}
                   </span>
