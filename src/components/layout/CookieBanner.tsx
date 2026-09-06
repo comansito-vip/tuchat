@@ -73,7 +73,7 @@ export function CookieBanner() {
           Usamos cookies analíticas para entender cómo se usa el sitio. Puedes
           aceptarlas o rechazarlas.{" "}
           <Link href="/legal/cookies" className="text-blue hover:underline">
-            Más información
+            Más información sobre cookies
           </Link>
           .
         </p>

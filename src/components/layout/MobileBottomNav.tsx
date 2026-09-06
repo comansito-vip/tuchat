@@ -38,8 +38,9 @@ const NAV_ITEMS = [
   },
   {
     label: "Países",
-    href: "/chat/espana",
-    activeOn: "/chat/espana" as const,
+    // Índice de países en /chat, no la sala de España (ver NavLinks).
+    href: "/chat#paises",
+    activeOn: "exact" as const,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
         <circle cx="10" cy="10" r="7.5" stroke="currentColor" strokeWidth="1.5" />

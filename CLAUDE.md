@@ -46,21 +46,30 @@ tener `/tarot`, `/horoscopo`, `/ranking`, `/anime` ya construidos. El
 diagnóstico es autoridad/rastreo del dominio, no falta de páginas — no crear
 contenido nuevo para intentar arreglarlo, ya se descartó esa vía en agosto.
 
-### Pendientes más importantes (ordenados)
+### Pendientes más importantes (ordenados, revisado 2026-09-06)
 
-1. **Crítico**: `/var/www/tuchat.org` en el VPS quedó con un `git rebase`
-   sin resolver desde el 2026-09-03 (choque entre un cron automático y
-   pushes manuales desde este equipo). Hasta que alguien ejecute a mano
-   `git rebase --abort` en el VPS, el próximo choque similar volverá a
-   perder un día entero de contenido sin publicar (pasó hoy: se perdieron
-   el goteo de 50 localidades y las noticias del día).
-2. Rehacer las localidades y noticias del 2026-09-03 perdidas por el
-   incidente anterior.
-3. Revisar si el cron `generar-terminos-tuchat.sh` (03:00 UTC) es redundante
-   con las salas de término que ya genera `generar-salas-tuchat.sh` (01:30).
-4. Añadir comprobación de idioma a la curación de noticias: se coló una
-   palabra en francés ("plutôt") en una noticia publicada el 2026-09-02.
-5. `alt` vacío en 6 de 8 imágenes muestreadas en `/chat/madrid` — backlog
-   conocido, confirmado con dato fresco.
+Informe de la última pasada (SEO/GEO/UX móvil, con correcciones aplicadas):
+`docs/superpowers/plans/2026-09-06-revision-seo-geo-ux-movil.md`.
+
+1. **Decisión del cliente**: el título de la home ("Chat gratis de amigos,
+   chatear en España y Latinchat") es el único del top 10 de las SERPs de
+   "chat gratis…" sin "sin registro" ni "en español". Está fijado a
+   propósito por el cliente (comentario en `layout.tsx`); no tocarlo sin que
+   lo pida, pero es la palanca on-page más grande que queda.
+2. Retirar el cron `generar-terminos-tuchat.sh` (03:00 UTC): redundante con
+   las salas de término de `generar-salas-tuchat.sh` y lleva desde el
+   2026-09-02 saltándose cada día por "pipeline ocupado".
+3. `/chat` pesa 861 KB de HTML (979 enlaces, 478 KB de payload RSC) y tarda
+   5,7 s en ser interactiva en móvil. Sacar "Más salas temáticas" (645
+   chips) a su propia página o cargar los grupos bajo demanda.
+4. Los contadores "N usuarios conectados / hablando ahora" son sumas de un
+   campo estático, no una medida. Decidir si se conectan al IRC real.
+
+Resueltos desde la lista anterior: el rebase roto del VPS (desapareció solo,
+crons publicando con normalidad los días 4 y 5), la comprobación de idioma
+en la curación (`515fc6e`), y el `alt=""` de las banderas, que se cierra
+**sin acción**: van pegadas al nombre en el mismo enlace, un `alt`
+descriptivo lo duplicaría en el lector de pantalla, y Lighthouse
+Accessibility ya da 1,0.
 
 Próxima remedida de GSC: 2026-09-20/25.

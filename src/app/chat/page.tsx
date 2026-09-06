@@ -29,14 +29,28 @@ const crumbs = [
   { name: "Chat", url: "/chat" },
 ];
 
-const FAQ = [
+// Redondeo a la centena por debajo: "más de 2.800" sigue siendo verdad cuando
+// el goteo diario añade salas, y no hay que retocar el texto en cada build.
+// Punto de millar a mano: en CLDR el español no agrupa los números de cuatro
+// cifras, así que toLocaleString("es") daba "2800" junto al "8.000" del resto
+// del texto.
+function centenas(n: number) {
+  return String(Math.floor(n / 100) * 100).replace(/\B(?=(\d{3})+$)/g, ".");
+}
+
+// Las cifras salen del catálogo, no de un literal: la respuesta decía "más de
+// 2.500 salas" y "casi 2.000 ciudades" cuando había 2.831 y 2.156 —un índice
+// que se queda corto sobre su propio tamaño es justo lo que no se le quiere
+// dar ni a Google ni a un motor de respuestas.
+function construirFaq(salas: number, ciudades: number, paises: number) {
+  return [
   {
     q: "¿Cómo puedo chatear gratis sin registro?",
     a: "Entra en cualquier sala, escribe un nick de invitado y pulsa 'Entrar'. No necesitas email, contraseña ni descargar ninguna aplicación. El acceso es gratuito e instantáneo.",
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 2.500 salas: por país (España, México, Argentina…), por ciudad (Madrid, Barcelona, Buenos Aires… y casi 2.000 ciudades en total, incluidos los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.",
+    a: `TuChat tiene más de ${centenas(salas)} salas: por país (España, México, Argentina… ${paises} países), por ciudad (Madrid, Barcelona, Buenos Aires… más de ${centenas(ciudades)} ciudades en total, incluidos los 893 municipios españoles de más de 8.000 habitantes) y por temática (amor, ligar, deportes, música, anime…). Cada sala conecta con canales IRC activos.`,
   },
   {
     q: "¿El chat funciona en el móvil?",
@@ -46,7 +60,8 @@ const FAQ = [
     q: "¿Hay moderación en las salas de chat?",
     a: "Sí. Todas las salas cuentan con operadores que aplican las normas de convivencia. Puedes reportar cualquier abuso desde la propia sala o escribiéndonos a info@chatzona.org.",
   },
-];
+  ];
+}
 
 export default async function ChatIndexPage() {
   const [countries, cities, topics] = await Promise.all([
@@ -56,6 +71,7 @@ export default async function ChatIndexPage() {
   ]);
 
   const all = [...countries, ...cities, ...topics];
+  const FAQ = construirFaq(all.length, cities.length, countries.length);
   const topRooms = [...all].sort((a, b) => b.users - a.users).slice(0, 20);
   // El catálogo para el buscador ya NO viaja en el HTML: ChatSearch lo pide a
   // /api/search-index al enfocar el input. Serializarlo aquí metía ~858 KB de
@@ -136,8 +152,9 @@ export default async function ChatIndexPage() {
         </Suspense>
       </div>
 
-      {/* Países y ciudades — visibles sin clics */}
-      <section className="mt-10">
+      {/* Países y ciudades — visibles sin clics. El id es el destino del
+          enlace "Países" de las tres navegaciones. */}
+      <section id="paises" className="mt-10 scroll-mt-20">
         <SectionTitle>Países y ciudades</SectionTitle>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {countries.map((country) => {

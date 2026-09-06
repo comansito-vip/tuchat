@@ -6,7 +6,10 @@ import { clsx } from "clsx";
 
 const NAV_ITEMS = [
   { label: "Chat", href: "/chat", activeOn: "/chat" },
-  { label: "Países", href: "/chat/espana", activeOn: "/chat/espana" },
+  // Al índice de países, no a la sala de España: con "Países" → /chat/espana
+  // cada página del sitio pasaba ese texto de ancla a una sala concreta y quien
+  // buscaba México o Argentina aterrizaba en España.
+  { label: "Países", href: "/chat#paises", activeOn: "/chat#paises" },
   { label: "Deportes", href: "/deportes", activeOn: "/deportes" },
   { label: "Tarot", href: "/tarot", activeOn: "/tarot" },
   { label: "Anime", href: "/anime", activeOn: "/anime" },

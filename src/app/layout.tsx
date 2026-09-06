@@ -111,11 +111,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </FooterSlot>
         <MobileBottomNav />
         <CookieBanner />
+        {/* lazyOnload, no afterInteractive: gtag.js son 152 KB y era el script
+            que más hilo principal comía en móvil (300-730 ms según la página,
+            medido con PSI el 2026-09-06). Cargarlo tras el evento load no pierde
+            la página vista y saca ese coste de la ventana que mide TBT/INP. */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HGL7W7NRDJ"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());

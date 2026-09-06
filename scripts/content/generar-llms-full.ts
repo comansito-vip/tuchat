@@ -159,7 +159,10 @@ if (existsSync(INDICE)) {
     [/\d[\d.]* columnas de divulgación/g, `${getNews().length} columnas de divulgación`],
     [/Última actualización: \d{4}-\d{2}/g, `Última actualización: ${new Date().toISOString().slice(0, 7)}`],
   ];
-  if (urls) sustituciones.push([/~[\d.]* páginas en el sitemap/g, `${urls} páginas en el sitemap`]);
+  // "~?": el texto llevó una tilde de aproximación hasta que la primera pasada
+  // la sustituyó por la cifra exacta; sin el opcional, la segunda pasada ya no
+  // encajaba y el número se quedó congelado (decía 3300 con 3581 URLs reales).
+  if (urls) sustituciones.push([/~?\d[\d.]* páginas en el sitemap/g, `${urls} páginas en el sitemap`]);
 
   let indice = readFileSync(INDICE, "utf-8");
   const sinTocar: string[] = [];

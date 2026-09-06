@@ -32,14 +32,27 @@ const HUBS = [
   { href: "/anime", icon: "🎌", title: "Anime", desc: "Salas por serie y comunidad" },
 ];
 
-const FAQ = [
+// Redondeo a la centena por debajo: "más de 2.800" sigue siendo verdad cuando
+// el goteo diario añade salas, y no hay que retocar el texto en cada build.
+// Punto de millar a mano: en CLDR el español no agrupa los números de cuatro
+// cifras, así que toLocaleString("es") daba "2800" junto al "8.000" del resto
+// del texto.
+function centenas(n: number) {
+  return String(Math.floor(n / 100) * 100).replace(/\B(?=(\d{3})+$)/g, ".");
+}
+
+// Las cifras salen del catálogo, no de un literal: la respuesta decía "más de
+// 2.500 salas" y "casi 2.000 ciudades" cuando había 2.831 y 2.156, y llms.txt
+// daba otras distintas. La misma verdad en la home, en /chat y en llms.txt.
+function construirFaq(salas: number, ciudades: number, paises: number) {
+  return [
   {
     q: "¿Cómo entro al chat gratis sin registro?",
     a: "Solo tienes que elegir una sala, escribir un nick de invitado y pulsar «Entrar al chat». No hay registro, correo ni contraseña: el acceso es inmediato y funciona desde el móvil y el ordenador.",
   },
   {
     q: "¿Cuántas salas de chat hay disponibles?",
-    a: "TuChat tiene más de 2.500 salas: por países (España, México, Argentina y 30 países en total), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y casi 2.000 ciudades, incluidos los 893 municipios españoles de más de 8.000 habitantes), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).",
+    a: `TuChat tiene más de ${centenas(salas)} salas: por países (España, México, Argentina y ${paises} países en total), por ciudades (Madrid, Barcelona, Buenos Aires, Ciudad de México y más de ${centenas(ciudades)} ciudades, incluidos los 893 municipios españoles de más de 8.000 habitantes), y por temáticas (amor, amistad, ligar, deportes, música, anime y más).`,
   },
   {
     q: "¿Es seguro chatear en TuChat?",
@@ -62,12 +75,23 @@ const FAQ = [
     q: "¿El chat en línea funciona sin descargar nada?",
     a: "Sí. Es un chat en línea que corre dentro del navegador: no hay programa que instalar ni complemento que activar, y da igual el sistema operativo. Se abre la sala, se escribe el nick y ya se está dentro, tanto desde el ordenador como desde el móvil.",
   },
-];
+  ];
+}
 
 export default async function HomePage() {
   const allRooms = await getMergedAll();
+  const FAQ = construirFaq(
+    allRooms.length,
+    allRooms.filter((r) => r.kind === "ciudad").length,
+    allRooms.filter((r) => r.kind === "pais").length,
+  );
   const rooms = [...allRooms].sort((a, b) => b.users - a.users).slice(0, 12);
   const hotRooms = rooms.filter((r) => r.tag === "Popular").slice(0, 4);
+  // Las cuatro salas calientes ya tienen su bloque justo encima: repetirlas en
+  // la fila siguiente era enseñar la misma tarjeta dos veces a un scroll de
+  // distancia (en móvil, ocho tarjetas para ver cuatro salas).
+  const hotSlugs = new Set(hotRooms.map((r) => r.slug));
+  const moreRooms = rooms.filter((r) => !hotSlugs.has(r.slug));
 
   return (
     <main>
@@ -99,13 +123,13 @@ export default async function HomePage() {
             </section>
           )}
 
-          {/* Todas las salas top */}
+          {/* Resto de salas con más gente (sin las cuatro de arriba) */}
           <section>
             <SectionTitle href="/chat" cta="Ver todas">
-              Todas las salas
+              Más salas con gente
             </SectionTitle>
             <div className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 no-scrollbar sm:grid sm:grid-cols-3 sm:overflow-visible">
-              {rooms.map((p) => (
+              {moreRooms.map((p) => (
                 <div key={p.slug} className="min-w-[160px] shrink-0 snap-start sm:min-w-0">
                   <RoomCard place={p} />
                 </div>

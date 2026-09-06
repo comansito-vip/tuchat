@@ -10,7 +10,7 @@ const GROUPS: { heading: string; links: { label: string; href: string }[] }[] = 
     heading: "Explorar",
     links: [
       { label: "Todas las salas", href: "/chat" },
-      { label: "Países", href: "/chat/espana" },
+      { label: "Países", href: "/chat#paises" },
       { label: "Ciudades", href: "/chat/madrid" },
       { label: "Temáticas", href: "/chat/amor" },
       { label: "Ranking", href: "/ranking" },
