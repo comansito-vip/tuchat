@@ -72,7 +72,7 @@ export function CookieBanner() {
         <p className="text-sm text-muted">
           Usamos cookies analíticas para entender cómo se usa el sitio. Puedes
           aceptarlas o rechazarlas.{" "}
-          <Link href="/legal/cookies" className="text-blue hover:underline">
+          <Link href="/legal/cookies" className="text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
             Más información sobre cookies
           </Link>
           .

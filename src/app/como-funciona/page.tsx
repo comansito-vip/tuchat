@@ -80,7 +80,7 @@ export default function ComoFuncionaPage() {
         <ol className="ml-5 list-decimal space-y-2">
           <li>
             Elige la sala en{" "}
-            <Link href="/chat" className="font-semibold text-blue hover:underline">
+            <Link href="/chat" className="font-semibold text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
               el listado completo
             </Link>
             : por ciudad si buscas gente cerca, por temática si te interesa más el tema que la
@@ -146,15 +146,15 @@ export default function ComoFuncionaPage() {
 
       <p className="mt-8 text-sm text-muted">
         ¿Algo que no queda claro?{" "}
-        <Link href="/contacto" className="font-semibold text-blue hover:underline">
+        <Link href="/contacto" className="font-semibold text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
           Escríbenos
         </Link>
         . Para las condiciones de uso y el tratamiento de datos están el{" "}
-        <Link href="/legal/aviso-legal" className="font-semibold text-blue hover:underline">
+        <Link href="/legal/aviso-legal" className="font-semibold text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
           aviso legal
         </Link>{" "}
         y la{" "}
-        <Link href="/legal/privacidad" className="font-semibold text-blue hover:underline">
+        <Link href="/legal/privacidad" className="font-semibold text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
           política de privacidad
         </Link>
         .

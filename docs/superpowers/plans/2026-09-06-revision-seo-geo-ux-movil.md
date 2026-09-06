@@ -28,7 +28,20 @@ cabecera, y el estado del VPS por SSH (solo lectura).
 | 9 | Banderas con `alt=""` en todo el sitio (163 en la home, 226 en `/chat`, 7 de 8 en cada sala) y escudos de equipo sin `alt` en `/deportes`. | Todas las banderas llevan ahora `alt="Bandera de {país/comunidad}"` (RoomCard, CityList, RankingTable, Sidebar, CountryGrid, RelatedRooms, hero de sala, tarjetas de país y región de `/chat`) y los escudos `alt="Escudo del {equipo}"`. En `CityList` el enlace lleva siempre `aria-label` con el nombre de la ciudad para que el nombre accesible no sea "Bandera de Comunidad de Madrid Madrid". **0 imágenes con alt vacío** en home, `/chat`, `/chat/temas`, `/chat/madrid` y `/deportes`. |
 
 Verificación de la segunda tanda: `tsc` y `eslint` limpios, **535 tests en verde
-(47 ficheros)**, HTML renderizado con `next dev` en el puerto 3118.
+(47 ficheros)**, HTML renderizado con `next dev` en el puerto 3118. Desplegado
+a mano con `deploy-tuchat.sh` (deploy OK 07:32 UTC, `47d97d9`), caché de
+Cloudflare purgada, y **remedido en producción con PSI móvil**:
+
+| URL | Perf. antes → después | TBT antes → después | Hilo principal | SEO | A11y | Enlaces | alt vacíos |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `/` | 0,84 → **0,97** | 570 ms → **150 ms** | 3,4 s → 1,5 s | 1,0 | 1,0 | 301 | 159 → **0** |
+| `/chat` | 0,72 → **0,97** | 1.440 ms → **130 ms** | 6,9 s → 1,9 s | 1,0 | 0,97* | 979 → **459** | 226 → **0** |
+| `/chat/temas` (nueva) | — → **0,97** | — → **110 ms** | 1,5 s | 1,0 | 1,0 | 650 | 0 |
+
+\* un aviso `link-in-text-block` (enlace en párrafo distinguible solo por
+color) en la línea "También por su otro nombre"; corregido con subrayado
+permanente en la tercera tanda. `llms.txt` en producción dice ya "3591
+páginas en el sitemap" y `/chat/temas` está en el sitemap.
 
 Verificación de la primera: `tsc` limpio, `eslint` limpio en los ficheros tocados, **532 tests
 en verde (46 ficheros)**, y HTML comprobado con `next dev` en el puerto 3117:
@@ -183,12 +196,8 @@ lo que Google ya rankea.
    español" cuando los 10 primeros de la SERP lo llevan (sección 3).
 2. Retirar el cron `generar-terminos-tuchat.sh` a mano en el VPS (comando en
    la sección 6): redundante y lleva cuatro días sin ejecutarse por el lock.
-3. Remedir `/chat` y `/chat/temas` en PSI móvil tras el deploy de las 05:30
-   UTC: objetivo TTI < 3,5 s. Si sigue alto, el siguiente escalón es servir
-   las banderas pequeñas como `<img>` plano (el `srcset` de `next/image`
-   añade ~250 bytes por bandera y hay 226 en `/chat`).
-4. Contadores de usuarios "en vivo" que no lo son (sección 4): decidir si se
+3. Contadores de usuarios "en vivo" que no lo son (sección 4): decidir si se
    conectan al IRC real o se reformulan.
-5. Remedida de GSC: 2026-09-20/25, como estaba. Revisar entonces si el
+4. Remedida de GSC: 2026-09-20/25, como estaba. Revisar entonces si el
    patrón "org" (pos 14,5) ha entrado en top 10 y si `/chat` (pos 5,6) gana
    impresiones tras el enlace "Países".

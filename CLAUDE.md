@@ -60,15 +60,13 @@ Informe de la última pasada (SEO/GEO/UX móvil, con correcciones aplicadas):
    redundante con las salas de término de `generar-salas-tuchat.sh` y lleva
    desde el 2026-09-02 saltándose cada día por "pipeline ocupado". El entorno
    bloquea editar el crontab por SSH; el comando está en el informe.
-3. Remedir `/chat` y `/chat/temas` en PSI móvil tras el deploy del 2026-09-06
-   (objetivo TTI < 3,5 s). `/chat` pasó de 979 a 458 enlaces al sacar las 645
-   temáticas a `/chat/temas` (agrupado en `src/lib/topic-groups.ts`).
-4. Los contadores "N usuarios conectados / hablando ahora" son sumas de un
+3. Los contadores "N usuarios conectados / hablando ahora" son sumas de un
    campo estático, no una medida. Decidir si se conectan al IRC real.
 
 Resueltos desde la lista anterior: el rebase roto del VPS (desapareció solo,
 crons publicando con normalidad los días 4 y 5), la comprobación de idioma
-en la curación (`515fc6e`), el peso de `/chat` (partido en `/chat/temas`) y
+en la curación (`515fc6e`), el peso de `/chat` (partido en `/chat/temas`:
+PSI móvil 0,72 → 0,97, TBT 1.440 → 130 ms; home 0,84 → 0,97) y
 los `alt` vacíos: todas las banderas llevan "Bandera de {lugar}" y los
 escudos "Escudo del {equipo}"; en listados donde la bandera va dentro del
 enlace, poner `aria-label` con el nombre para que el nombre accesible no

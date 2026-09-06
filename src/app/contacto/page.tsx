@@ -93,7 +93,7 @@ export default function ContactoPage() {
             Para chatear no pedimos correo, teléfono ni nombre real, así que normalmente no hay nada
             tuyo que borrar. Si aun así quieres ejercer tus derechos de acceso, rectificación o
             supresión, escribe a la misma dirección: el detalle está en la{" "}
-            <Link href="/legal/privacidad" className="font-semibold text-blue hover:underline">
+            <Link href="/legal/privacidad" className="font-semibold text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
               política de privacidad
             </Link>
             .

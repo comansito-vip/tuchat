@@ -205,7 +205,9 @@ export default async function ChatIndexPage() {
                     {(apodosDelPais.get(country.slug) ?? []).map((t, i) => (
                       <span key={t.slug}>
                         {i > 0 && " · "}
-                        <Link href={`/chat/${t.slug}`} className="text-blue hover:underline">
+                        {/* Subrayado fijo: dentro de un párrafo, el color solo no distingue el
+                            enlace (aviso link-in-text-block de Lighthouse en móvil). */}
+                        <Link href={`/chat/${t.slug}`} className="text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
                           {t.name}
                         </Link>
                       </span>

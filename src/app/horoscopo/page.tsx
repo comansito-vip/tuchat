@@ -111,7 +111,7 @@ export default function HoroscopoIndexPage() {
                 .filter((s) => s.element === el)
                 .map((s, i, arr) => (
                   <span key={s.slug}>
-                    <Link href={`/horoscopo/${s.slug}`} className="text-blue hover:underline">
+                    <Link href={`/horoscopo/${s.slug}`} className="text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
                       {s.name}
                     </Link>
                     {i < arr.length - 1 ? ", " : "."}
@@ -137,7 +137,7 @@ export default function HoroscopoIndexPage() {
                 .filter((s) => s.quality === q)
                 .map((s, i, arr) => (
                   <span key={s.slug}>
-                    <Link href={`/horoscopo/${s.slug}`} className="text-blue hover:underline">
+                    <Link href={`/horoscopo/${s.slug}`} className="text-blue underline decoration-blue/40 underline-offset-2 hover:decoration-blue">
                       {s.name}
                     </Link>
                     {i < arr.length - 1 ? ", " : "."}
