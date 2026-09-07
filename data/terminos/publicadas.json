@@ -156,5 +156,85 @@
   "intro": "Anónimo aquí quiere decir sin cuenta, sin correo y sin foto: entras con un apodo inventado y nadie sabe de ti más que lo que tú cuentes.",
   "aboutTitle": "Un apodo inventado y nada más detrás",
   "about": "El anonimato de un chat de texto es concreto y conviene entenderlo bien, porque protege mucho en una dirección y nada en la contraria. Hacia los demás usuarios protege del todo: nadie ve tu nombre, tu correo, tu edad ni tu cara, porque no hay ficha que rellenar, y el apodo con el que entras se puede cambiar mañana sin dejar rastro de que eras el mismo. Eso es lo que la gente busca cuando escribe «chat anónimo»: hablar de algo sin que quede pegado a su nombre, contar lo que no se cuenta en el grupo del trabajo, preguntar lo que da vergüenza preguntar. Hacia la sala, en cambio, el anonimato tiene un límite sano: hay moderación, y a quien acosa, spamea o entra a incordiar se le echa aunque no se sepa quién es. Lo que de verdad rompe el anonimato es uno mismo. Casi siempre se cae por lo mismo: el nick de siempre reutilizado en todas partes, la foto que se manda por privado en un impulso, el detalle que identifica sin querer. Lo demás lo hace la costumbre: no dar el teléfono el primer día y desconfiar de quien lo pide."
+ },
+ {
+  "slug": "terra-usa",
+  "name": "Terra USA",
+  "kind": "tematica",
+  "icon": "🗽",
+  "users": 187,
+  "votes": 259,
+  "activity": "Media",
+  "parentName": "Terra",
+  "parentSlug": "terra",
+  "channels": [
+   "usa",
+   "terra",
+   "latinos",
+   "chatzona"
+  ],
+  "related": [
+   "terra",
+   "latinosusa",
+   "latinos",
+   "houston",
+   "miami"
+  ],
+  "intro": "«Terra chat usa» se sigue buscando desde Miami, Houston y Nueva York. Es el hueco que dejó aquel chat entre los latinos de Estados Unidos.",
+  "aboutTitle": "El hueco que dejó Terra entre los latinos de EE. UU.",
+  "about": "Esta sala no pertenece a Terra ni tiene relación con la empresa, y decirlo primero es lo mínimo. Dicho eso, la búsqueda existe y es tozuda: miles de personas siguen escribiendo el nombre desde Estados Unidos años después de que aquello cerrara. Tiene sentido. Para mucha gente que emigró a finales de los noventa y en los dos mil, aquel chat fue la manera barata de seguir hablando en español a diario cuando alrededor todo era inglés, y ese hábito no se pierde. Lo que hay hoy en su lugar es una sala de hispanohablantes en Estados Unidos: gente de Miami, de Houston, de Nueva York, de Los Ángeles y de ciudades más pequeñas donde ser el único que habla español es lo normal. La franja horaria hace su trabajo: cuando en Madrid es medianoche aquí es media tarde, y la sala tiene movimiento a horas en que la parte europea de la red duerme. Se cruzan acentos de todo el continente, se mezcla el spanglish sin que nadie corrija, y salen los temas de la vida de allí, del papeleo a la cuenta del médico. Se entra con un apodo y sin registro."
+ },
+ {
+  "slug": "dominacion",
+  "name": "Dominación",
+  "kind": "tematica",
+  "icon": "⛓️",
+  "users": 164,
+  "votes": 231,
+  "activity": "Media",
+  "parentName": "BDSM",
+  "parentSlug": "bdsm",
+  "channels": [
+   "bdsm",
+   "mazmorra",
+   "sumisas"
+  ],
+  "related": [
+   "bdsm",
+   "mazmorra",
+   "adultos",
+   "sexo",
+   "hot"
+  ],
+  "intro": "Dominación y sumisión con las reglas por delante: qué se acuerda antes, qué es un límite duro y para qué sirve la palabra de seguridad.",
+  "aboutTitle": "Lo que se acuerda antes de empezar",
+  "about": "La dominación es la mitad de una pareja de roles, y sin la otra mitad no significa nada: alguien dirige porque alguien ha decidido ceder, y esa decisión se toma antes, hablando, con la cabeza fría. Esa conversación previa es el noventa por ciento de lo que aquí se comenta. Se acuerda qué prácticas entran y cuáles no, se marcan los límites duros —lo que no se toca ni en mitad de una escena— y los blandos, se fija una palabra de seguridad que corta todo en el momento en que se pronuncia, y se decide si el trato dura una escena o se extiende a una relación con normas. Después viene lo que casi nadie cuenta y sostiene lo demás: el rato de calma al terminar, bajar del sitio donde uno estaba, comprobar cómo está el otro. Quien confunde esto con hacer daño a alguien sin su permiso se equivoca de sitio y suele durar poco en la sala. Escriben veteranos que llevan años en la escena y gente que llega con curiosidad y más dudas que experiencia; a los segundos se les responde sin condescendencia, que es como se aprende. Mayores de edad."
+ },
+ {
+  "slug": "santa-cruz",
+  "name": "Santa Cruz",
+  "kind": "tematica",
+  "icon": "✝️",
+  "users": 158,
+  "votes": 219,
+  "activity": "Media",
+  "parentName": "Latinoamérica",
+  "parentSlug": "latinoamerica",
+  "channels": [
+   "bolivia",
+   "tenerife",
+   "canarias",
+   "chatzona"
+  ],
+  "related": [
+   "santa-cruz-de-la-sierra",
+   "santa-cruz-de-tenerife",
+   "santa-cruz-de-la-palma",
+   "bolivia",
+   "canarias"
+  ],
+  "intro": "Hay varias Santa Cruz y no se parecen en nada: la de la Sierra en Bolivia, la de Tenerife, la de La Palma. Aquí se aclara cuál buscas.",
+  "aboutTitle": "De la Sierra a Tenerife, cuál es la tuya",
+  "about": "El nombre se repitió por una costumbre fundacional: plantar una cruz al tomar posesión del sitio y bautizarlo con ella. Por eso hay Santa Cruz en media docena de países y ninguna es la Santa Cruz. La de la Sierra es hoy la ciudad más grande de Bolivia y su motor económico, una ciudad de llano y calor organizada en anillos concéntricos, con un carácter camba que los propios bolivianos distinguen del de las tierras altas en cuanto alguien abre la boca. La de Tenerife es capital de provincia y comparte con Las Palmas la capitalidad de Canarias, un arreglo que allí se explica con paciencia y fuera se entiende regular; tiene puerto grande, carnaval de los que se preparan todo el año y una relación difícil con el viento. La de La Palma es pequeña, colonial y con balcones de madera, y su nombre completo lleva además el de la isla para no confundirse con la anterior. Cada una tiene su sala, con su gente y su canal, y los enlaces de abajo llevan a la que corresponda."
  }
 ]
