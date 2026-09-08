@@ -247,5 +247,80 @@ export const TOPICS_GOTEO: Place[] = [
     "intro": "Hay varias Santa Cruz y no se parecen en nada: la de la Sierra en Bolivia, la de Tenerife, la de La Palma. Aquí se aclara cuál buscas.",
     "aboutTitle": "De la Sierra a Tenerife, cuál es la tuya",
     "about": "El nombre se repitió por una costumbre fundacional: plantar una cruz al tomar posesión del sitio y bautizarlo con ella. Por eso hay Santa Cruz en media docena de países y ninguna es la Santa Cruz. La de la Sierra es hoy la ciudad más grande de Bolivia y su motor económico, una ciudad de llano y calor organizada en anillos concéntricos, con un carácter camba que los propios bolivianos distinguen del de las tierras altas en cuanto alguien abre la boca. La de Tenerife es capital de provincia y comparte con Las Palmas la capitalidad de Canarias, un arreglo que allí se explica con paciencia y fuera se entiende regular; tiene puerto grande, carnaval de los que se preparan todo el año y una relación difícil con el viento. La de La Palma es pequeña, colonial y con balcones de madera, y su nombre completo lleva además el de la isla para no confundirse con la anterior. Cada una tiene su sala, con su gente y su canal, y los enlaces de abajo llevan a la que corresponda."
+  },
+  {
+    "slug": "bdsm-espana",
+    "name": "BDSM España",
+    "kind": "tematica",
+    "icon": "🖤",
+    "users": 172,
+    "votes": 238,
+    "activity": "Media",
+    "parentName": "BDSM",
+    "parentSlug": "bdsm",
+    "channels": [
+      "bdsm",
+      "españa",
+      "mazmorra"
+    ],
+    "related": [
+      "bdsm",
+      "dominacion",
+      "mazmorra",
+      "adultos"
+    ],
+    "intro": "La escena BDSM española tiene sus propios códigos, sus quedadas y su vocabulario. Aquí se habla de eso entre gente que la conoce de dentro.",
+    "aboutTitle": "Cómo funciona la escena española por dentro",
+    "about": "En España la escena está más viva de lo que parece desde fuera, pero es discreta por costumbre y se mueve casi toda por el boca a oreja. Madrid y Barcelona concentran los locales y las fiestas privadas; Valencia, Bilbao, Sevilla y Zaragoza tienen grupos más pequeños que se juntan con menos frecuencia y más confianza. La puerta de entrada habitual no es un club sino un munch: una quedada informal en un bar cualquiera, a plena luz, vestidos de calle y sin que pase nada, pensada justo para conocerse antes de plantearse otra cosa. Quien pregunte aquí por dónde empezar va a recibir esa respuesta antes que ninguna otra. También se habla de lo práctico y poco glamuroso: cómo se dice que no sin dar explicaciones, qué se pregunta antes de quedar con un desconocido, cómo detectar al que confunde el consentimiento con un trámite. El vocabulario es el de la escena en español, con sus mezclas del inglés, y a quien llega sin él se le traduce sin hacerle sentir de fuera. Sala para mayores de edad y con moderación."
+  },
+  {
+    "slug": "lesbianas-espana",
+    "name": "Lesbianas España",
+    "kind": "tematica",
+    "icon": "🇪🇸",
+    "users": 198,
+    "votes": 271,
+    "activity": "Alta",
+    "parentName": "Lesbianas",
+    "parentSlug": "lesbianas",
+    "channels": [
+      "lesbianas",
+      "españa",
+      "el_rincon_les"
+    ],
+    "related": [
+      "lesbianas",
+      "lgtbi",
+      "espana"
+    ],
+    "intro": "Mujeres que buscan mujeres en toda España: Madrid y Barcelona concentran el ambiente, y del resto del mapa se habla aquí con más detalle.",
+    "aboutTitle": "El mapa lésbico español no es solo Madrid",
+    "about": "España lleva desde 2005 con el matrimonio igualitario y eso cambió lo legal, pero el mapa social sigue siendo desigual y esta sala lo refleja. En Madrid y en Barcelona hay ambiente propio, locales que aguantan y agenda casi todas las semanas. En Valencia, Bilbao, Sevilla o Zaragoza hay grupos y fiestas de las que hay que enterarse, porque no están a la vista. Y en una ciudad de provincias o en un pueblo, lo normal sigue siendo no conocer a nadie más, que es exactamente lo que trae a mucha gente a un chat. De eso se habla aquí sin dramatizarlo: de salir del armario en un sitio donde todo el mundo se conoce, de la doble vida que algunas mantienen con la familia, de lo raro que es no tener referentes cerca. Y se habla también de lo demás, que es la mayor parte del tiempo: series, trabajo, viajes, quedadas, ligoteo y la conversación tonta de un martes. Es una sala de mujeres, con moderación y sin curiosos, que es la condición para que la conversación sea la que es."
+  },
+  {
+    "slug": "lesbianas-mexico",
+    "name": "Lesbianas México",
+    "kind": "tematica",
+    "icon": "🇲🇽",
+    "users": 189,
+    "votes": 256,
+    "activity": "Alta",
+    "parentName": "Lesbianas",
+    "parentSlug": "lesbianas",
+    "channels": [
+      "lesbianas",
+      "mexico",
+      "el_rincon_les"
+    ],
+    "related": [
+      "lesbianas",
+      "lesbianas-espana",
+      "mexico",
+      "cdmx",
+      "lgtbi"
+    ],
+    "intro": "Chicas de la CDMX, Guadalajara, Monterrey y de estados donde el ambiente no existe: la sala lésbica mexicana, con su horario y su acento.",
+    "aboutTitle": "De la Zona Rosa a los estados sin ambiente",
+    "about": "México aprobó el matrimonio igualitario estado por estado y tardó años en completar el mapa, así que la experiencia depende muchísimo de dónde vivas, y eso se nota en cuanto la conversación arranca. En la Ciudad de México hay barrio, agenda y una marcha del orgullo enorme en junio; Guadalajara tiene escena propia desde hace tiempo y Monterrey se mueve más de puertas adentro. En muchos estados no hay nada parecido a un ambiente y lo que hay es un grupo de WhatsApp y poco más. La sala junta las dos realidades, y las chicas de ciudad grande acaban explicándole a alguien de un pueblo cómo se organizaron ellas. Se habla de la familia, que en México pesa y a la vez sostiene, del trabajo, de las series que todo el mundo está viendo y de a quién se le hace caso en redes este mes. También de ligue, sin prisa. La sala es de mujeres y está moderada; el horario del centro de México marca las horas fuertes, y por la noche se cruza con las chicas que escriben desde España."
   }
 ];
