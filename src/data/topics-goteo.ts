@@ -290,6 +290,7 @@ export const TOPICS_GOTEO: Place[] = [
     ],
     "related": [
       "lesbianas",
+      "lesbianas-barcelona",
       "lgtbi",
       "espana"
     ],
@@ -322,5 +323,82 @@ export const TOPICS_GOTEO: Place[] = [
     "intro": "Chicas de la CDMX, Guadalajara, Monterrey y de estados donde el ambiente no existe: la sala lésbica mexicana, con su horario y su acento.",
     "aboutTitle": "De la Zona Rosa a los estados sin ambiente",
     "about": "México aprobó el matrimonio igualitario estado por estado y tardó años en completar el mapa, así que la experiencia depende muchísimo de dónde vivas, y eso se nota en cuanto la conversación arranca. En la Ciudad de México hay barrio, agenda y una marcha del orgullo enorme en junio; Guadalajara tiene escena propia desde hace tiempo y Monterrey se mueve más de puertas adentro. En muchos estados no hay nada parecido a un ambiente y lo que hay es un grupo de WhatsApp y poco más. La sala junta las dos realidades, y las chicas de ciudad grande acaban explicándole a alguien de un pueblo cómo se organizaron ellas. Se habla de la familia, que en México pesa y a la vez sostiene, del trabajo, de las series que todo el mundo está viendo y de a quién se le hace caso en redes este mes. También de ligue, sin prisa. La sala es de mujeres y está moderada; el horario del centro de México marca las horas fuertes, y por la noche se cruza con las chicas que escriben desde España."
+  },
+  {
+    "slug": "lesbianas-barcelona",
+    "name": "Lesbianas Barcelona",
+    "kind": "tematica",
+    "icon": "🏳️‍🌈",
+    "users": 181,
+    "votes": 247,
+    "activity": "Media",
+    "parentName": "Lesbianas",
+    "parentSlug": "lesbianas",
+    "channels": [
+      "lesbianas",
+      "barcelona",
+      "el_rincon_les"
+    ],
+    "related": [
+      "lesbianas",
+      "lesbianas-espana",
+      "barcelona",
+      "cataluna"
+    ],
+    "intro": "Barcelona tiene ambiente lésbico repartido entre el Eixample y Gràcia, y una parte que va por asociaciones. De eso se habla en esta sala.",
+    "aboutTitle": "Entre el Eixample y Gràcia, y lo que va por libre",
+    "about": "El ambiente LGTBI de Barcelona se concentra en la parte del Eixample que todo el mundo llama Gaixample, pero lo lésbico nunca ha estado del todo ahí: se ha movido siempre entre unos pocos locales, las fiestas que cambian de sitio cada temporada y una red de asociaciones y espacios feministas con bastante peso en la ciudad. Gràcia aporta la otra mitad, más de barrio y menos de noche. Quien llega de fuera —y a Barcelona llega muchísima gente de fuera— suele tardar en encontrar el hilo, y eso es justo lo que se pregunta aquí: dónde hay algo esta semana, qué queda de las fiestas de siempre, si el Pride de julio compensa o es mejor lo pequeño. Se escribe en catalán y en castellano según le salga a cada una, sin que nadie lo señale. Y la mitad de la conversación no va del ambiente en absoluto: va del alquiler imposible, del trabajo, de la última serie y de quedar para tomar algo un jueves. Sala de mujeres, moderada, con gente de la ciudad y del área metropolitana."
+  },
+  {
+    "slug": "madrid-amistad",
+    "name": "Amistad Madrid",
+    "kind": "tematica",
+    "icon": "🐻",
+    "users": 206,
+    "votes": 279,
+    "activity": "Alta",
+    "parentName": "Amistad",
+    "parentSlug": "amistad",
+    "channels": [
+      "madrid",
+      "amistad",
+      "amigos",
+      "chatzona"
+    ],
+    "related": [
+      "madrid",
+      "amistad",
+      "amigos",
+      "madrid-comunidad"
+    ],
+    "intro": "Hacer amigos en Madrid teniendo treinta o cuarenta años cuesta más de lo que parece. Esta sala es para eso y no para ligar disimulando.",
+    "aboutTitle": "Los grupos de Madrid vienen ya cerrados",
+    "about": "Madrid está llena de gente que llegó de otro sitio, y aun así hacer amigos aquí pasado cierto punto tiene fama de difícil. El motivo es prosaico: los grupos vienen hechos de la universidad, del pueblo o del primer trabajo, quedan entre semana a horas imposibles y se ven cada vez menos según se van repartiendo por la corona metropolitana. Al que llega nuevo, o al que se queda sin grupo tras una ruptura o una mudanza, le toca empezar de cero con treinta y muchos, que es cuando menos práctica se tiene. Esta sala existe para eso, y la diferencia con las de ligar es deliberada: aquí se viene a hacer amigos, y quien lo usa de tapadera para otra cosa se nota al segundo mensaje. Se hablan planes concretos —una exposición, una caña en Malasaña, subir al Cerro del Tío Pío a ver el atardecer, escaparse a la sierra un sábado—, se cruzan quejas de Cercanías y de precios, y se organizan quedadas cuando sale gente suficiente. Escriben tanto madrileños de siempre como recién llegados de toda España y de fuera."
+  },
+  {
+    "slug": "boliviano",
+    "name": "Boliviano",
+    "kind": "tematica",
+    "icon": "🇧🇴",
+    "users": 167,
+    "votes": 229,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "la-paz",
+      "santa-cruz-de-la-sierra",
+      "cochabamba",
+      "latinos"
+    ],
+    "intro": "Collas y cambas en la misma sala, que en Bolivia ya es media conversación. Gente de La Paz, El Alto, Santa Cruz, Cochabamba y de fuera.",
+    "aboutTitle": "Collas y cambas escribiendo en la misma sala",
+    "about": "Bolivia se cuenta a sí misma partida en dos mitades que se pican con gusto: el occidente andino de La Paz, El Alto, Oruro y Potosí, y el oriente llano de Santa Cruz y el Beni. Colla y camba son los apodos, se usan con más humor que otra cosa y no hay conversación boliviana larga que no acabe pasando por ahí. En medio queda Cochabamba, que presume de estar en el valle y de comer mejor que nadie, y a la que las dos mitades acusan de arrimarse a la que convenga. En la sala se nota el acento en cómo se escribe, con el «pues» al final de la frase y los diminutivos que allá se usan para todo. Los temas van de lo cotidiano —el tráfico de La Paz, el teleférico que cambió la ciudad, el calor cruceño— a lo que se habla cuando alguien escribe desde España, Argentina o Brasil, que son destinos de mucha gente que se fue. Se entra con un apodo, sin registro, y las horas fuertes son las de la noche boliviana."
   }
 ];
