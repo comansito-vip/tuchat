@@ -81,6 +81,22 @@ export const COUNTRIES: Place[] = [
       "De Arica a Punta Arenas, un país tan largo que apenas cabe en el mapa: nortinos del desierto de Atacama, santiaguinos del barrio Italia, sureños de Temuco y chilotes de la isla conectan en una sala donde el po aparece al final de cada mensaje. Se habla del Superclásico Colo-Colo contra Universidad de Chile con devoción de tribuna, del pisco sour como patrimonio que no se comparte con nadie, y de los precios que suben como la cordillera del fondo. El acento rápido y cantadito es inconfundible incluso por escrito.",
   },
   {
+    slug: "brasil",
+    name: "Brasil",
+    kind: "pais",
+    icon: "🇧🇷",
+    users: 280,
+    votes: 420,
+    activity: "Media",
+    channels: ["brasil", "latinoamerica", "chatzona"],
+    related: ["argentina", "uruguay", "paraguay", "amistad", "amor", "musica"],
+    aboutTitle: "Fla-Flu, Choque-Rei y portuñol en la misma sala",
+    intro:
+      "El único país lusófono de la lista: cariocas de Río, paulistas de São Paulo y bahianos que meten el samba hasta al escribir. El portuñol se entiende igual.",
+    about:
+      "Brasil es el único país de esta lista que no habla español, y aun así entra al chat con gente de sobra: brasileños que se defienden en portuñol, hispanohablantes instalados en Río o São Paulo, y vecinos de Argentina, Uruguay y Paraguay acostumbrados a cruzar la frontera para comprar barato o trabajar del otro lado, como el uruguayo de Rivera que pasa a Santana do Livramento sin ver una sola aduana. Se distingue rápido quién es carioca de Río, quién es paulista de São Paulo y quién es mineiro de Belo Horizonte o baiano de Salvador, cada uno defendiendo su acento sin pedir permiso. El fútbol reparte identidad antes que la selección: el Fla-Flu entre Flamengo y Fluminense en Río, el Choque-Rei entre Corinthians y Palmeiras en São Paulo, y el recordatorio constante de los cinco mundiales. El Carnaval marca el calendario del año entero mucho antes de que llegue febrero, y la feijoada de sábado es casi obligación. Entra también quien viene de la Amazonía, que en Brasil es media mapa y media noticia.",
+  },
+  {
     slug: "peru",
     name: "Perú",
     kind: "pais",
@@ -478,6 +494,7 @@ export const CONTINENTS: { title: string; places: { name: string; slug: string }
       { name: "Bolivia", slug: "bolivia" },
       { name: "Paraguay", slug: "paraguay" },
       { name: "Uruguay", slug: "uruguay" },
+      { name: "Brasil", slug: "brasil" },
     ],
   },
   {
