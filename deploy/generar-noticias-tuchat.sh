@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generación diaria de noticias de tuchat.org, en el VPS.
+# Generación de noticias de tuchat.org, en el VPS.
 #
 # Sustituye al workflow de GitHub Actions: Actions quedó bloqueado por facturación
 # en los repos privados y se decidió (2026-08-06) que cada web genere en su propio
@@ -11,8 +11,16 @@
 # que está versionado: sin push, el `git reset --hard origin/main` del deploy
 # borraría lo generado.
 #
-# Corre a las 05:00 UTC; deploy-tuchat.sh a las 05:30 recoge el commit y
-# reconstruye. Los dos usan flock, y con media hora de separación no se solapan.
+# Corre a las 05:00 UTC lunes/miércoles/viernes (cron del VPS); deploy-tuchat.sh
+# a las 05:30 recoge el commit y reconstruye. Los dos usan flock, y con media
+# hora de separación no se solapan.
+#
+# 2026-09-09: bajado de diario a L-X-V y de 9 categorías × 2 piezas por pasada
+# (hasta 18/día) a 1 categoría × 1 pieza (scripts/generate-news.ts,
+# CATEGORIES_PER_RUN/ITEMS_PER_CATEGORY), como mucho 3 noticias/semana. Groq y
+# Cerebras usan las MISMAS claves en toda la red de sitios y Groq tiene un tope
+# duro de 200.000 tokens/día por organización, compartido entre todos: cada
+# noticia que tuchat no genera libera cuota para el resto.
 set -e
 # Lock COMPARTIDO con deploy-tuchat.sh: ambos manipulan el mismo checkout.
 #

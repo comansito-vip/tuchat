@@ -53,7 +53,16 @@ const CATEGORIES = [
   "Entretenimiento",
 ] as const;
 
-const ITEMS_PER_CATEGORY = 2;
+const ITEMS_PER_CATEGORY = 1;
+// 2026-09-09: antes generaba las 9 categorías enteras cada pasada (hasta 18
+// piezas/día con ITEMS_PER_CATEGORY=2, corriendo a diario = decenas por semana).
+// Groq y Cerebras usan las MISMAS claves en toda la red de sitios y Groq tiene
+// un tope duro de 200.000 tokens/día por organización, compartido entre todos:
+// cada noticia que tuchat no genera libera cuota para el resto. Ahora solo se
+// procesa UNA categoría por pasada (la que lleva más tiempo sin pieza nueva) y
+// el cron pasó de diario a lunes/miércoles/viernes: como mucho 1 noticia nueva
+// por pasada, 3/semana.
+const CATEGORIES_PER_RUN = 1;
 const ANTHROPIC_MODEL = "claude-sonnet-5";
 const OPENAI_MODEL = "gpt-4o";
 
@@ -384,8 +393,22 @@ async function main() {
   const { NEWS: existing } = (await import(pathToFileURL(out).href)) as { NEWS: NewsItem[] };
   const existingSlugs = new Set(existing.map((n) => n.slug));
 
+  // Rotación: procesa las categorías que llevan más tiempo sin pieza nueva
+  // primero, para que las 9 se vayan cubriendo por turno en vez de siempre
+  // las mismas. Categoría sin ninguna pieza aún → va la primera.
+  const lastDateByCategory = new Map<string, string>(CATEGORIES.map((c) => [c, ""]));
+  for (const item of existing) {
+    if (item.date > (lastDateByCategory.get(item.category) ?? "")) {
+      lastDateByCategory.set(item.category, item.date);
+    }
+  }
+  const categoriesToRun = [...CATEGORIES]
+    .sort((a, b) => (lastDateByCategory.get(a)! < lastDateByCategory.get(b)! ? -1 : 1))
+    .slice(0, CATEGORIES_PER_RUN);
+  console.log(`  Categoría(s) de hoy: ${categoriesToRun.join(", ")}`);
+
   const fresh: NewsItem[] = [];
-  for (const category of CATEGORIES) {
+  for (const category of categoriesToRun) {
     const items = await generateCategory(category);
     items.forEach((it, idx) => {
       let slug = slugify(it.title) || `${slugify(category)}-${idx}`;
