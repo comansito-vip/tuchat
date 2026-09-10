@@ -290,6 +290,7 @@ export const TOPICS_GOTEO: Place[] = [
     ],
     "related": [
       "lesbianas",
+      "lesbianas-madrid",
       "lesbianas-barcelona",
       "lgtbi",
       "espana"
@@ -342,6 +343,7 @@ export const TOPICS_GOTEO: Place[] = [
     "related": [
       "lesbianas",
       "lesbianas-espana",
+      "lesbianas-madrid",
       "barcelona",
       "cataluna"
     ],
@@ -368,6 +370,7 @@ export const TOPICS_GOTEO: Place[] = [
     "related": [
       "madrid",
       "amistad",
+      "madrid-conocer-gente",
       "amigos",
       "madrid-comunidad"
     ],
@@ -400,5 +403,84 @@ export const TOPICS_GOTEO: Place[] = [
     "intro": "Collas y cambas en la misma sala, que en Bolivia ya es media conversación. Gente de La Paz, El Alto, Santa Cruz, Cochabamba y de fuera.",
     "aboutTitle": "Collas y cambas escribiendo en la misma sala",
     "about": "Bolivia se cuenta a sí misma partida en dos mitades que se pican con gusto: el occidente andino de La Paz, El Alto, Oruro y Potosí, y el oriente llano de Santa Cruz y el Beni. Colla y camba son los apodos, se usan con más humor que otra cosa y no hay conversación boliviana larga que no acabe pasando por ahí. En medio queda Cochabamba, que presume de estar en el valle y de comer mejor que nadie, y a la que las dos mitades acusan de arrimarse a la que convenga. En la sala se nota el acento en cómo se escribe, con el «pues» al final de la frase y los diminutivos que allá se usan para todo. Los temas van de lo cotidiano —el tráfico de La Paz, el teleférico que cambió la ciudad, el calor cruceño— a lo que se habla cuando alguien escribe desde España, Argentina o Brasil, que son destinos de mucha gente que se fue. Se entra con un apodo, sin registro, y las horas fuertes son las de la noche boliviana."
+  },
+  {
+    "slug": "lesbianas-madrid",
+    "name": "Lesbianas Madrid",
+    "kind": "tematica",
+    "icon": "💜",
+    "users": 184,
+    "votes": 251,
+    "activity": "Media",
+    "parentName": "Lesbianas",
+    "parentSlug": "lesbianas",
+    "channels": [
+      "lesbianas",
+      "madrid",
+      "el_rincon_les"
+    ],
+    "related": [
+      "lesbianas",
+      "lesbianas-espana",
+      "lesbianas-barcelona",
+      "madrid",
+      "lgtbi"
+    ],
+    "intro": "Chueca es sobre todo ambiente de chicos y en Madrid eso se nota. Lo lésbico va por otro lado, y esta sala sirve para encontrarlo.",
+    "aboutTitle": "Lo lésbico de Madrid no está donde lo buscas",
+    "about": "Cualquiera que llegue a Madrid buscando ambiente acaba en Chueca, y quien busque ambiente lésbico se va a encontrar con que el barrio es sobre todo de chicos. No es una queja nueva: los locales de mujeres siempre han sido pocos, han durado menos y han estado repartidos, y buena parte de la vida lésbica de la ciudad pasa por fiestas que se mueven de sitio, por asociaciones y por grupos que se organizan por su cuenta. Por eso la pregunta más repetida en esta sala es dónde hay algo esta semana, y por eso se responde entre varias. La otra mitad de la conversación es la de siempre, la que no tiene nada de temática: el trabajo, el piso compartido, la familia que lo lleva mejor o peor, la serie del momento, quedar para un vermú el domingo. Escribe gente del centro, de los barrios y de la corona sur y este, que en Madrid es media región. El Orgullo de julio ocupa la sala entera unos días y luego todo vuelve a su sitio. Sala de mujeres y moderada."
+  },
+  {
+    "slug": "ecuatoriano",
+    "name": "Ecuatoriano",
+    "kind": "tematica",
+    "icon": "🇪🇨",
+    "users": 173,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ecuador",
+      "quito",
+      "guayaquil",
+      "cuenca",
+      "latinos"
+    ],
+    "intro": "Costeños y serranos se pican en cuanto entran, y esa es media sala. Gente de Quito, Guayaquil, Cuenca y de la emigración en España.",
+    "aboutTitle": "Quito y Guayaquil, la vieja discusión",
+    "about": "En Ecuador la primera pregunta no es de dónde eres sino si eres de la costa o de la sierra, y la respuesta ordena el resto de la conversación. Guayaquil habla rápido, alarga las vocales y presume de puerto y de comida; Quito va más pausado, usa el «dale» y el diminutivo para todo y devuelve la broma con calma. Cuenca queda aparte, orgullosa de lo suyo, y el Oriente y Galápagos aparecen menos porque hay menos gente escribiendo desde allí. Encima de eso se cruza el quichua que se cuela en el castellano de la sierra con palabras que ya nadie percibe como prestadas. La otra mitad de la sala escribe desde fuera: Ecuador fue uno de los países que más gente mandó a España a principios de los dos mil, y en Madrid, Murcia o Barcelona hay ecuatorianos de segunda generación que entran a hablar el idioma de casa. Eso reparte las horas y hace que la sala tenga movimiento incluso cuando en el país es de madrugada. Se entra con un apodo y sin registro."
+  },
+  {
+    "slug": "madrid-conocer-gente",
+    "name": "Conocer Gente Madrid",
+    "kind": "tematica",
+    "icon": "🗺️",
+    "users": 194,
+    "votes": 264,
+    "activity": "Alta",
+    "parentName": "Conocer Gente",
+    "parentSlug": "conocergente",
+    "channels": [
+      "madrid",
+      "conocer-gente",
+      "amistad",
+      "chatzona"
+    ],
+    "related": [
+      "madrid",
+      "conocergente",
+      "madrid-amistad",
+      "madrid-comunidad",
+      "conocerpersonas"
+    ],
+    "intro": "En Madrid la gente que conoces depende del barrio y de la hora a la que salgas. Esta sala junta las dos mitades de la ciudad y su corona.",
+    "aboutTitle": "Madrid cambia según el barrio y la hora",
+    "about": "Madrid funciona por zonas y por horarios, y quien lleve poco tiempo lo descubre tarde. No es lo mismo el norte que el sur, ni el centro que la corona, ni salir un jueves que un sábado; una ciudad donde media población viene de fuera reparte a la gente por donde encontró piso, no por donde le gustaría vivir, y eso condiciona a quién acaba conociendo. Esta sala sirve para saltarse esa geografía: escribe gente de Vallecas y de Chamberí, de Alcalá, de Getafe, de Móstoles y de Alcorcón, y también quien acaba de aterrizar y todavía no sabe qué línea de Cercanías le conviene. Se pregunta lo práctico —qué barrio para vivir, dónde se sale sin arruinarse, qué hacer un domingo que no sea el Rastro— y se conoce gente por el camino, que es de lo que va la sala. A diferencia de la de amistad, aquí no se busca necesariamente un grupo fijo: mucha conversación empieza y acaba en el mismo rato y no pasa nada. Se entra con un apodo, sin cuenta, y sin decir dónde vives."
   }
 ];
