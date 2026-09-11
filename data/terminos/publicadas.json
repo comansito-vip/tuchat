@@ -472,5 +472,84 @@
   "intro": "En Madrid la gente que conoces depende del barrio y de la hora a la que salgas. Esta sala junta las dos mitades de la ciudad y su corona.",
   "aboutTitle": "Madrid cambia según el barrio y la hora",
   "about": "Madrid funciona por zonas y por horarios, y quien lleve poco tiempo lo descubre tarde. No es lo mismo el norte que el sur, ni el centro que la corona, ni salir un jueves que un sábado; una ciudad donde media población viene de fuera reparte a la gente por donde encontró piso, no por donde le gustaría vivir, y eso condiciona a quién acaba conociendo. Esta sala sirve para saltarse esa geografía: escribe gente de Vallecas y de Chamberí, de Alcalá, de Getafe, de Móstoles y de Alcorcón, y también quien acaba de aterrizar y todavía no sabe qué línea de Cercanías le conviene. Se pregunta lo práctico —qué barrio para vivir, dónde se sale sin arruinarse, qué hacer un domingo que no sea el Rastro— y se conoce gente por el camino, que es de lo que va la sala. A diferencia de la de amistad, aquí no se busca necesariamente un grupo fijo: mucha conversación empieza y acaba en el mismo rato y no pasa nada. Se entra con un apodo, sin cuenta, y sin decir dónde vives."
+ },
+ {
+  "slug": "bdsm-madrid",
+  "name": "BDSM Madrid",
+  "kind": "tematica",
+  "icon": "🔗",
+  "users": 161,
+  "votes": 224,
+  "activity": "Media",
+  "parentName": "BDSM",
+  "parentSlug": "bdsm",
+  "channels": [
+   "bdsm",
+   "madrid",
+   "sexomadrid"
+  ],
+  "related": [
+   "bdsm",
+   "bdsm-espana",
+   "dominacion",
+   "mazmorra",
+   "madrid"
+  ],
+  "intro": "Madrid concentra la mayor parte de la escena BDSM española: locales, munches y fiestas privadas. Aquí se comparte quién organiza qué y cuándo.",
+  "aboutTitle": "Dónde está de verdad la escena madrileña",
+  "about": "De todas las ciudades españolas, Madrid es donde más cosas pasan y también donde más fácil es no enterarse de ninguna. La escena se reparte entre unos pocos locales estables, fiestas privadas que se organizan por invitación y quedadas informales en bares corrientes, los munches, que son la puerta de entrada razonable para quien no conoce a nadie: se va vestido de calle, se toma algo, se charla y ahí acaba la cosa. Quien pregunte en esta sala por dónde empezar va a recibir esa recomendación antes que cualquier dirección. Lo demás que se habla es lo práctico de una escena en una ciudad grande: cómo se contrasta a alguien antes de quedar, por qué la primera vez se queda en sitio público, qué grupos llevan años funcionando y cuáles duran dos meses. También se comenta lo que no se comenta fuera, que es lo difícil de compaginar todo esto con un trabajo, una familia y un horario normal. Sala de mayores de edad, moderada, con gente de Madrid capital y de la comunidad."
+ },
+ {
+  "slug": "gay-guatemala",
+  "name": "Gay Guatemala",
+  "kind": "tematica",
+  "icon": "🇬🇹",
+  "users": 152,
+  "votes": 212,
+  "activity": "Media",
+  "parentName": "Gay Latino",
+  "parentSlug": "gaylatino",
+  "channels": [
+   "gay",
+   "guatemala",
+   "chatzona"
+  ],
+  "related": [
+   "gaylatino",
+   "guatemala",
+   "ciudad-de-guatemala",
+   "gay",
+   "guatemalteco"
+  ],
+  "intro": "El ambiente guatemalteco es pequeño y discreto, entre la zona 1 y la zona 4 de la capital. Sala para hablarlo con quien lo vive de cerca.",
+  "aboutTitle": "Un ambiente pequeño y sin ganas de ruido",
+  "about": "Guatemala no tiene matrimonio igualitario y la vida gay del país se mueve con una discreción que a quien escribe desde España le cuesta entender hasta que se lo explican. La escena existe, pero es reducida y se concentra en la capital, entre la zona 1 y la zona 4, con locales que abren y cierran y una agenda que circula de boca en boca más que en carteles. Antigua tiene su propio ambiente, más pequeño y muy marcado por el turismo. Fuera de ahí, en cabeceras departamentales y pueblos, lo normal es no conocer a nadie que esté fuera del armario, y por eso una sala de texto hace un trabajo que en otros países ya no hace: es el único sitio donde se puede hablar sin que te vea nadie conocido. Aquí se habla de eso —de la familia, de la iglesia, del trabajo, de a quién se le cuenta y a quién no— y también de lo corriente, que ocupa más rato. Escribe gente de la capital, de Quetzaltenango, de Antigua y de la diáspora en Estados Unidos y México."
+ },
+ {
+  "slug": "gente-barcelona",
+  "name": "Gente Barcelona",
+  "kind": "tematica",
+  "icon": "🏙️",
+  "users": 179,
+  "votes": 243,
+  "activity": "Media",
+  "parentName": "Conocer Gente",
+  "parentSlug": "conocergente",
+  "channels": [
+   "barcelona",
+   "conocer-gente",
+   "amistad",
+   "chatzona"
+  ],
+  "related": [
+   "barcelona",
+   "conocergente",
+   "cataluna",
+   "amistad",
+   "conocerpersonas"
+  ],
+  "intro": "Barcelona es una ciudad de paso y eso se nota al intentar conocer gente: mucha llega, mucha se va. Esta sala junta a los que están ahora.",
+  "aboutTitle": "Una ciudad donde casi todos acaban de llegar",
+  "about": "Barcelona tiene una particularidad que condiciona todo lo demás: una parte enorme de quien vive allí no nació allí y una parte parecida se irá en dos o tres años. Erasmus, gente que viene por trabajo, nómadas de portátil, estudiantes de máster y catalanes del resto del país que suben a la capital. Eso hace que sea fácil conocer gente y difícil que la amistad se asiente, y es la queja más repetida de quien lleva un par de años. La sala junta a los que están ahora mismo: los del barrio de toda la vida y los que llegaron en septiembre. Las preguntas que más se repiten son prácticas: en qué barrio buscar habitación, si merece la pena cruzar a Hospitalet o a Badalona por el alquiler, y a qué se apunta uno para no pasar el invierno solo. Las fiestas de barrio dan mucho juego, sobre todo las de Gràcia en agosto, que convierten media ciudad en calle. Se escribe en catalán y en castellano según a quién le toque, sin traducciones ni discusiones sobre el idioma. Se entra con un apodo y sin registro."
  }
 ]
