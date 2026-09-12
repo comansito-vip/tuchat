@@ -173,7 +173,8 @@
   "palpala",
   "gomez-palacio",
   "la-oliva",
-  "acambaro"
+  "acambaro",
+  "huaral"
  ],
  "descartadas": [
   {
@@ -3470,6 +3471,26 @@
    "slug": "yaritagua",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
    "fecha": "2026-09-11"
+  },
+  {
+   "slug": "santa-catarina",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
+   "fecha": "2026-09-12"
+  },
+  {
+   "slug": "cuautla",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
+   "fecha": "2026-09-12"
+  },
+  {
+   "slug": "unare",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
+   "fecha": "2026-09-12"
+  },
+  {
+   "slug": "yaritagua",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
+   "fecha": "2026-09-12"
   }
  ]
 }

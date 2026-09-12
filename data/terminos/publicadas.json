@@ -551,5 +551,80 @@
   "intro": "Barcelona es una ciudad de paso y eso se nota al intentar conocer gente: mucha llega, mucha se va. Esta sala junta a los que están ahora.",
   "aboutTitle": "Una ciudad donde casi todos acaban de llegar",
   "about": "Barcelona tiene una particularidad que condiciona todo lo demás: una parte enorme de quien vive allí no nació allí y una parte parecida se irá en dos o tres años. Erasmus, gente que viene por trabajo, nómadas de portátil, estudiantes de máster y catalanes del resto del país que suben a la capital. Eso hace que sea fácil conocer gente y difícil que la amistad se asiente, y es la queja más repetida de quien lleva un par de años. La sala junta a los que están ahora mismo: los del barrio de toda la vida y los que llegaron en septiembre. Las preguntas que más se repiten son prácticas: en qué barrio buscar habitación, si merece la pena cruzar a Hospitalet o a Badalona por el alquiler, y a qué se apunta uno para no pasar el invierno solo. Las fiestas de barrio dan mucho juego, sobre todo las de Gràcia en agosto, que convierten media ciudad en calle. Se escribe en catalán y en castellano según a quién le toque, sin traducciones ni discusiones sobre el idioma. Se entra con un apodo y sin registro."
+ },
+ {
+  "slug": "chapin",
+  "name": "Chapín",
+  "kind": "tematica",
+  "icon": "🇬🇹",
+  "users": 148,
+  "votes": 206,
+  "activity": "Media",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "channels": [
+   "guatemala",
+   "latinos"
+  ],
+  "related": [
+   "guatemala",
+   "ciudad-de-guatemala",
+   "antigua-guatemala",
+   "gay-guatemala",
+   "latinos"
+  ],
+  "intro": "Chapín es como se llaman entre ellos los guatemaltecos, y funciona de contraseña: quien lo escribe ya ha dicho de dónde es.",
+  "aboutTitle": "La contraseña con la que se reconocen",
+  "about": "Chapín es el gentilicio que los guatemaltecos usan entre ellos, y funciona como contraseña: quien lo escribe en la sala se identifica sin decir de dónde es. El país tiene una mezcla lingüística poco común, con más de veinte idiomas mayas vivos junto al castellano, y eso deja huella incluso en cómo escribe alguien que solo habla español. El voseo es general, el «cabal» sirve para decir que sí y para cerrar cualquier frase, y el «pues» al final se cuela solo. La conversación reparte entre lo de dentro y lo de fuera: la capital con sus zonas numeradas, Xela como segunda ciudad con su propio orgullo, Antigua con los turistas, la costa y las cabeceras departamentales. Y la otra mitad son los que se fueron, sobre todo a Estados Unidos, que entran a horas raras y mantienen la sala despierta cuando en Guatemala todo el mundo duerme. Salen los temas de siempre, del fútbol a la política, y en noviembre no se libra nadie de discutir el fiambre y los barriletes de Sumpango. Se entra con un apodo, sin registro."
+ },
+ {
+  "slug": "cubanos",
+  "name": "Cubanos",
+  "kind": "tematica",
+  "icon": "🇨🇺",
+  "users": 196,
+  "votes": 268,
+  "activity": "Alta",
+  "parentName": "Cuba",
+  "parentSlug": "cuba",
+  "channels": [
+   "cuba",
+   "latinos"
+  ],
+  "related": [
+   "cuba",
+   "la-habana",
+   "santiago-de-cuba",
+   "latinchat-cuba",
+   "latinos"
+  ],
+  "intro": "Cubanos de la isla y de fuera: La Habana, Santiago, Hialeah y Madrid escribiendo a la vez, con el «asere» de contraseña.",
+  "aboutTitle": "El asere que abre cualquier conversación",
+  "about": "Basta leer un rato para saber de dónde escribe cada quien: el «qué bolá» abre, el «asere» sirve igual para llamar a un amigo que para rellenar, y el «tremendo» se le pone delante a cualquier sustantivo. Escribe gente de La Habana y del Oriente —que no se llevan del todo bien y lo dicen con humor—, y escribe la que se fue: Hialeah y todo el condado de Miami, Madrid, Ciudad de México, Moscú. Entre unos husos y otros la sala rara vez se queda del todo callada. Los temas no hay que forzarlos. Industriales parte a la isla por la mitad cada temporada de béisbol y no admite término medio. El reguetón cubano tiene sus propias reglas y su propia discusión sobre quién manda este año. Y luego está lo cotidiano de verdad: el apagón, la cola, el paquete semanal que reparte series sin internet, lo que cuesta la conexión y lo que cuesta llamar a casa. Se habla sin épica y con detalle, que es como se habla de lo que se vive. Para escribir basta con inventarse un nombre; no hay registro que rellenar."
+ },
+ {
+  "slug": "terra-republica-dominicana",
+  "name": "Terra República Dominicana",
+  "kind": "tematica",
+  "icon": "🌴",
+  "users": 168,
+  "votes": 234,
+  "activity": "Media",
+  "parentName": "Terra",
+  "parentSlug": "terra",
+  "channels": [
+   "republica_dominicana",
+   "latinos"
+  ],
+  "related": [
+   "terra",
+   "republica-dominicana",
+   "latinchat-republica-dominicana",
+   "santo-domingo",
+   "dominicano"
+  ],
+  "intro": "El chat de Terra fue la puerta de entrada de media isla a internet. Esto no es Terra, pero sí lo que queda de aquella costumbre.",
+  "aboutTitle": "De los cibercafés de Santo Domingo a hoy",
+  "about": "Aviso antes de nada: la marca Terra no está detrás de esto y nadie de aquella empresa tiene que ver. Aclarado, la búsqueda sigue viva y su explicación es muy dominicana. A principios de los dos mil casi nadie tenía internet en casa, y lo que había eran cibercafés: se pagaba la hora, se abría aquel chat y se salía con tres conversaciones empezadas. Para toda una generación esa fue la primera vez que habló con un desconocido por escrito. De aquello sobrevive el hábito y no el logotipo: teclear un apodo y aparecer donde la charla ya lleva rato. Ahora se hace desde el móvil y en datos, que es lo que cambió de verdad la isla. Por aquí pasan capitaleños, cibaeños y unos cuantos que escriben desde el norte, a la hora en que en la isla ya cerró todo."
  }
 ]
