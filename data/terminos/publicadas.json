@@ -626,5 +626,55 @@
   "intro": "El chat de Terra fue la puerta de entrada de media isla a internet. Esto no es Terra, pero sí lo que queda de aquella costumbre.",
   "aboutTitle": "De los cibercafés de Santo Domingo a hoy",
   "about": "Aviso antes de nada: la marca Terra no está detrás de esto y nadie de aquella empresa tiene que ver. Aclarado, la búsqueda sigue viva y su explicación es muy dominicana. A principios de los dos mil casi nadie tenía internet en casa, y lo que había eran cibercafés: se pagaba la hora, se abría aquel chat y se salía con tres conversaciones empezadas. Para toda una generación esa fue la primera vez que habló con un desconocido por escrito. De aquello sobrevive el hábito y no el logotipo: teclear un apodo y aparecer donde la charla ya lleva rato. Ahora se hace desde el móvil y en datos, que es lo que cambió de verdad la isla. Por aquí pasan capitaleños, cibaeños y unos cuantos que escriben desde el norte, a la hora en que en la isla ya cerró todo."
+ },
+ {
+  "slug": "telegram-guatemala",
+  "name": "Telegram Guatemala",
+  "kind": "tematica",
+  "icon": "✈️",
+  "users": 154,
+  "votes": 216,
+  "activity": "Media",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "channels": [
+   "guatemala",
+   "latinos"
+  ],
+  "related": [
+   "guatemala",
+   "chapin",
+   "ciudad-de-guatemala",
+   "telegram-cuba",
+   "latinos"
+  ],
+  "intro": "Quien busca grupos de Telegram de Guatemala choca siempre con lo mismo: hay que dar el número de teléfono. Aquí no se pide ninguno.",
+  "aboutTitle": "Sin dar el número a nadie, que es la diferencia",
+  "about": "Conviene ser claro desde la primera línea: esto no es Telegram, no hay grupos de Telegram aquí y nadie va a pasar un enlace de invitación. Lo que hay es una alternativa a lo que la gente busca cuando teclea eso. Casi siempre busca dos cosas: hablar con guatemaltecos y hacerlo ya, sin trámite. El problema de la primera opción lo sabe cualquiera que lo haya intentado: para entrar a un grupo hace falta una cuenta, y para la cuenta hace falta un número de teléfono, que queda visible o semivisible según cómo esté configurado el perfil de cada quien. En un país donde la gente prefiere no exponerse, eso frena a mucha. Aquí se escribe un apodo y se entra, sin número, sin correo y sin instalar nada. Los grupos, además, se caen: el que estaba lleno hace medio año hoy está muerto o lo cerraron, y los enlaces que circulan por ahí llevan a ninguna parte. Un canal de IRC con años dentro no depende de que su administrador siga con ganas."
+ },
+ {
+  "slug": "telegram-cuba",
+  "name": "Telegram Cuba",
+  "kind": "tematica",
+  "icon": "📡",
+  "users": 161,
+  "votes": 224,
+  "activity": "Media",
+  "parentName": "Cuba",
+  "parentSlug": "cuba",
+  "channels": [
+   "cuba",
+   "latinos"
+  ],
+  "related": [
+   "cuba",
+   "cubanos",
+   "latinchat-cuba",
+   "telegram-guatemala",
+   "latinos"
+  ],
+  "intro": "En Cuba Telegram se usa porque gasta pocos datos, y los datos se pagan caros. Esto es texto puro en el navegador, que gasta menos todavía.",
+  "aboutTitle": "Lo que pesa un mensaje cuando los datos cuestan",
+  "about": "Esto no es Telegram ni tiene grupos de Telegram, y decirlo primero evita que nadie pierda el tiempo. Pero la búsqueda tiene una razón muy cubana detrás y merece respuesta. Telegram se extendió en la isla por un motivo práctico antes que por moda: consume poco, funciona con conexiones malas y no se cae cuando la señal va y viene. Cuando cada megabyte se paga, eso importa más que cualquier función. Una sala de texto en el navegador va todavía más ligera: no hay vídeo, no hay autoplay, no hay que descargar una aplicación ni actualizarla, y la página abre igual en un teléfono viejo. Basta inventarse un nombre: ni cuenta, ni correo, ni número de teléfono. Lo que se encuentra dentro es lo que se busca al entrar a un grupo cubano: gente de La Habana, del Oriente y de la diáspora, hablando de lo suyo a la hora en que puede conectarse. Y no depende de que un administrador siga pagando el grupo ni de que el enlace de invitación siga vivo."
  }
 ]
