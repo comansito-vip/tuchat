@@ -3491,6 +3491,11 @@
    "slug": "yaritagua",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 402 {\"detail\":\"Check your subscription on https://admin.mistral.ai/subscription\"} Mistral: HTTP 402 {\"detail\":\"Check your subscript",
    "fecha": "2026-09-12"
+  },
+  {
+   "slug": "unare",
+   "razon": "rechazada tras corrección: Confusión de localidad: la ficha se presenta como 'Unare, Bolívar, Venezuela', pero el material de origen sitúa el río Unare en la parte central de Venezuela, recorriendo los estados Anzoátegui y Guár",
+   "fecha": "2026-09-14"
   }
  ]
 }
