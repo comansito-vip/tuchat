@@ -1617,3 +1617,7 @@ Groq: HT
 [2026-09-14T02:01:33.950Z]   ✓ yaritagua (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
 [2026-09-14T02:01:33.965Z] quedan 1 fichas por rehacer (1 al final de la cola)
 [2026-09-14T02:01:33.965Z] publicadas 3 salas · acumuladas 161 · quedan 1 en cola
+[2026-09-14T02:30:06.790Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-09-14T02:30:06.845Z] a rehacer: 1 · lote de hoy: 12
+[2026-09-14T02:38:23.986Z]   ✗ unare: rechazada tras corrección: Confusión de localidad: la ficha es para Unare, Bolívar, Venezuela, pero el material de origen describe el río Unare que recorre Anzoátegui y Guárico.
+[2026-09-14T02:38:23.986Z] lote sin resultados: no se escribe nada
