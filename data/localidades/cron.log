@@ -1621,3 +1621,7 @@ Groq: HT
 [2026-09-14T02:30:06.845Z] a rehacer: 1 · lote de hoy: 12
 [2026-09-14T02:38:23.986Z]   ✗ unare: rechazada tras corrección: Confusión de localidad: la ficha es para Unare, Bolívar, Venezuela, pero el material de origen describe el río Unare que recorre Anzoátegui y Guárico.
 [2026-09-14T02:38:23.986Z] lote sin resultados: no se escribe nada
+[2026-09-15T01:30:05.782Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-09-15T01:30:05.841Z] a rehacer: 1 · lote de hoy: 20
+[2026-09-15T01:34:12.554Z]   ✗ unare: rechazada tras corrección: La ficha menciona que Unare es una zona de la cuenca del río Unare, lo que no se menciona en la fuente original. La fuente solo menciona que el río Unare es un río de la cuenca hidrográfica en la part
+[2026-09-15T01:34:12.555Z] lote sin resultados: no se escribe nada
