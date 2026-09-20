@@ -1661,3 +1661,8 @@ Groq: HT
 [2026-09-19T02:30:05.904Z] a rehacer: 1 · lote de hoy: 12
 [2026-09-19T02:38:33.570Z]   ✗ unare: rechazada tras corrección: Confunde la localidad: la ficha es para Unare, Bolívar, pero el material de origen describe el río Unare en Anzoátegui y Guárico.
 [2026-09-19T02:38:33.571Z] lote sin resultados: no se escribe nada
+[2026-09-20T01:30:06.123Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-09-20T01:30:06.189Z] a rehacer: 1 · lote de hoy: 20
+[2026-09-20T01:43:57.166Z]   ✓ unare (Venezuela) — escribió Groq, verificó Gemini
+[2026-09-20T01:43:57.177Z] quedan 0 fichas por rehacer (0 al final de la cola)
+[2026-09-20T01:43:57.178Z] publicadas 1 salas · acumuladas 161 · quedan 0 en cola
