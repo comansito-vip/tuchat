@@ -33,6 +33,14 @@ const nextConfig: NextConfig = {
     // Sin `remotePatterns` a propósito: no queda ninguna imagen fuera de
     // tuchat.org. Volver a añadir un host aquí es volver a regalar el tráfico
     // de imagen —y la atribución en Google Images— a un tercero.
+    //
+    // Next 15+ sirve /_next/image con Content-Disposition: attachment por
+    // defecto (protección genérica contra dominios remotos no fiables). No
+    // aplica aquí: sin remotePatterns, todas las fotos son propias. Con
+    // "attachment" Google Imágenes no puede mostrar la foto como resultado —
+    // detectado en la auditoría de red del 23-sep-2026 (mismo bug en
+    // chatcamara.com, chatamigos.org y tarotgratuito.net).
+    contentDispositionType: "inline",
   },
   /**
    * Caché de las imágenes que se sirven tal cual desde `public/`.
