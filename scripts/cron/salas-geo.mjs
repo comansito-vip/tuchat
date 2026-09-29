@@ -340,7 +340,7 @@ function canalesDe(loc, canalesParaCiudad) {
  * la que nadie enlaza huele exactamente a página puerta. Las vecinas se sacan
  * por distancia, que es la relación que un lector reconoce como legítima.
  */
-function relacionadasDe(loc, situadas, existe) {
+function relacionadasDe(loc, situadas, existe, ciudades = []) {
   const vecinas = [];
   if (loc.coords) {
     const cerca = situadas
@@ -352,7 +352,18 @@ function relacionadasDe(loc, situadas, existe) {
     vecinas.push(...cerca.map((c) => c.slug));
   }
   const cola = [loc.regionSlug, loc.paisSlug, "amistad", "amor"].filter(Boolean);
-  return [...new Set([...vecinas, ...cola])]
+  // El slug de la región puede ser el de una CIUDAD de otro país: el estado
+  // venezolano de Trujillo se llama `trujillo`, que es la sala de Trujillo de
+  // Perú, y la provincia dominicana `san-cristobal` es la sala de San Cristóbal
+  // de Venezuela. Si el país de la sala tiene una ciudad con ese nombre, se
+  // quería esa. Boconó y Villa Altagracia caían aquí, `data.test.ts` rechazaba
+  // el lote entero cada noche y el goteo repetía las mismas 50 del 21 al 29-sep.
+  const local = (slug) => {
+    const c = ciudades.find((p) => p.slug === slug);
+    if (!c || c.parentSlug === loc.paisSlug) return slug;
+    return ciudades.find((p) => p.parentSlug === loc.paisSlug && p.name === c.name)?.slug ?? slug;
+  };
+  return [...new Set([...vecinas, ...cola].map(local))]
     // Nunca a sí misma: en las capitales de provincia el regionSlug coincide
     // con el slug de la ciudad y la sala se enlazaba a sí misma.
     .filter((s) => s !== loc.slug)
@@ -430,6 +441,7 @@ async function main() {
   const publicadas = [...getCountries(), ...getCities(), ...getTopics()];
   const indice = indexar(publicadas, CITY_COORDS);
   const yaSlug = new Set(publicadas.map((p) => p.slug));
+  const ciudadesPublicadas = publicadas.filter((p) => p.kind === "ciudad");
   // Y también por identidad de la localidad, no solo por slug: "palermo" y
   // "palermo-colombia" son slugs distintos del mismo pueblo de Huila, y las dos
   // salas se publicaron el 2026-08-06 porque el filtro solo miraba el slug. El
@@ -625,7 +637,7 @@ async function main() {
         continue;
       }
 
-      loc.related = relacionadasDe(loc, situadas, (s) => yaSlug.has(s));
+      loc.related = relacionadasDe(loc, situadas, (s) => yaSlug.has(s), ciudadesPublicadas);
       // Al rehacer solo cambia el TEXTO. Los números de sala, los canales y las
       // vecinas se conservan tal cual estaban: recalcularlos exigiría la
       // población y las coordenadas, que `generadas.json` no guarda, y además
