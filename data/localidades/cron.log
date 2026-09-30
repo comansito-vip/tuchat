@@ -1669,3 +1669,81 @@ Groq: HT
 [2026-09-20T02:30:05.033Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
 [2026-09-20T02:30:05.071Z] a rehacer: 0 · lote de hoy: 12
 [2026-09-20T02:30:05.071Z] lote sin resultados: no se escribe nada
+[2026-09-30T01:30:05.623Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-09-30T01:30:05.637Z] cola: 3239 · lote de hoy: 50
+[2026-09-30T01:37:00.822Z]   ✓ margaritas (México) — escribió Groq, verificó Gemini
+[2026-09-30T01:44:58.658Z]   ✓ centla (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T01:52:04.455Z]   ✓ villa-victoria (México) — escribió Groq, verificó Gemini
+[2026-09-30T02:05:28.765Z]   ✓ lo-espejo (Chile) — escribió Groq, verificó Gemini
+[2026-09-30T02:18:52.768Z]   ✓ rosarito (México) — escribió Groq, verificó Gemini
+[2026-09-30T02:23:49.595Z]   ✓ bocono (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T02:31:44.126Z]   ✓ caucagua (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-09-30T02:38:26.378Z]   ✓ el-fuerte (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T02:45:36.936Z]   ✗ tihuatlan: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T02:59:01.553Z]   ✗ francisco-de-orellana: rechazada tras corrección: La frase 'situada entre los ríos Napo y Coca' no está respaldada por el material de origen.
+[2026-09-30T03:05:46.082Z]   ✓ siguatepeque (Honduras) — escribió Groq, verificó OpenRouter
+[2026-09-30T03:12:34.187Z]   ✓ rubio (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-09-30T03:26:11.590Z]   ✗ san-martin-jilotepeque: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T03:39:45.798Z]   ✓ santiago-ixcuintla (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T03:52:24.282Z]   ✗ patzcuaro: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-09-30T04:00:26.538Z]   ✗ itaugua: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T04:07:22.033Z]   ✗ chulucanas-peru: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-09-30T04:20:18.026Z]   ✓ ciudad-evita (Argentina) — escribió Groq, verificó OpenRouter
+[2026-09-30T04:26:55.720Z]   ✓ jalpa-de-mendez (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T04:33:34.578Z]   ✓ agua-prieta (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T04:44:53.745Z]   ✓ tumeremo (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-09-30T04:58:25.548Z]   ✓ penaflor (Chile) — escribió Groq, verificó OpenRouter
+[2026-09-30T05:11:22.054Z]   ✓ tocoa (Honduras) — escribió Groq, verificó OpenRouter
+[2026-09-30T05:19:36.392Z]   ✓ baralt (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-09-30T05:32:42.936Z]   ✗ san-jose-pinula: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T05:46:36.931Z]   ✓ cantaura (Venezuela) — escribió Groq, verificó Gemini
+[2026-09-30T05:54:09.495Z]   ✓ villa-hermosa (República Dominicana) — escribió Groq, verificó OpenRouter
+[2026-09-30T06:07:16.316Z]   ✗ minga-guazu: rechazada tras corrección: cerca de la frontera con Brasil; Con el paso del tiempo, la colonia adoptó el nombre actual, Minga Guazú, y obtuvo la condición de municipio y ciudad dentro del departamento.; Desde su fundación, el c
+[2026-09-30T06:23:37.432Z]   ✓ caborca (México) — escribió OpenRouter, verificó Groq
+[2026-09-30T06:30:22.759Z]   ✓ cozumel (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T06:36:35.036Z]   ✓ maravatio (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T06:50:13.194Z]   ✗ berisso: fraseo calcado de ezeiza: "cabecera del partido homonimo en la provincia"
+[2026-09-30T07:03:29.139Z]   ✓ tecoman (México) — escribió Groq, verificó OpenRouter
+[2026-09-30T07:10:52.779Z]   ✓ cintalapa (México) — escribió Groq, verificó Gemini
+[2026-09-30T07:24:02.704Z]   ✓ jilotepec-estado-de-mexico (México) — escribió Groq, verificó Gemini
+[2026-09-30T07:37:07.363Z]   ✓ maiquetia (Venezuela) — escribió Groq, verificó Gemini
+[2026-09-30T07:43:38.545Z]   ✓ jaguey-grande (Cuba) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T07:47:42.675Z]   ✓ consolacion-del-sur (Cuba) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T07:48:02.692Z]   ✗ yoro: es una división administrativa, no una localidad
+[2026-09-30T07:55:12.838Z]   ✗ tucupita: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-09-30T08:05:24.749Z]   ✗ artemisa: rechazada tras corrección: El material de origen habla exclusivamente de la mitología griega y no menciona en ningún momento que exista un municipio, una provincia o una localidad llamada Artemisa en Cuba.
+[2026-09-30T08:18:46.816Z]   ✓ guasave (México) — escribió Groq, verificó Gemini
+[2026-09-30T08:26:05.994Z]   ✗ tafi-viejo: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T08:26:26.973Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T08:39:41.912Z]   ✓ mante (México) — escribió Groq, verificó Gemini
+[2026-09-30T08:46:34.159Z]   ✗ ciudad-mante: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T08:56:53.510Z]   ✓ chiguayante (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T09:03:30.772Z]   ✓ salina-cruz (México) — escribió Groq, verificó Gemini
+[2026-09-30T09:16:20.387Z]   ✓ villa-altagracia (República Dominicana) — escribió Groq, verificó Gemini
+[2026-09-30T09:29:10.816Z]   ✗ concepcion-tutuapa: rechazada tras corrección: Se menciona al 'Instituto Nacional de Estadística', dato que no aparece en el texto de origen.; Se afirma que el territorio tiene un 'relieve variado', lo cual no está respaldado por la fuente.; Se in
+[2026-09-30T09:36:13.924Z]   ✓ tila (México) — escribió Groq, verificó Gemini
+[2026-09-30T09:44:15.438Z]   ✗ la-piedad-de-cabadas: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T09:58:38.429Z]   ✓ cotorro (Cuba) — escribió Groq, verificó Gemini
+[2026-09-30T10:05:16.670Z]   ✗ la-trinitaria: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T10:11:59.481Z]   ✗ trinitaria: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T10:18:47.581Z]   ✗ pastaza-pastaza: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-09-30T10:32:33.864Z]   ✓ yerba-buena (Argentina) — escribió Groq, verificó Gemini
+[2026-09-30T10:38:54.740Z]   ✓ nueva-concepcion-guatemala (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-09-30T10:53:25.242Z]   ✓ comonfort (México) — escribió Groq, verificó Gemini
+[2026-09-30T11:00:07.521Z]   ✗ la-canada: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T11:06:51.018Z]   ✗ tacana: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T11:13:41.851Z]   ✗ ita: No se pudo extraer JSON de la respuesta del LLM
+[2026-09-30T11:27:06.361Z]   ✓ panzos (Guatemala) — escribió Groq, verificó Gemini
+[2026-09-30T11:34:00.403Z]   ✓ tecate (México) — escribió Groq, verificó Gemini
+[2026-09-30T11:48:49.957Z]   ✗ san-cristobal-verapaz: rechazada tras corrección: Se afirma que Cobán es la capital del departamento y que la Ciudad de Guatemala es la capital nacional, datos concretos que no figuran en el material de origen.
+[2026-09-30T11:55:36.984Z]   ✓ comitancillo (Guatemala) — escribió Groq, verificó Gemini
+[2026-09-30T12:09:25.981Z]   ✗ heroica-cardenas: rechazada tras corrección: La ficha sitúa las incursiones de los piratas ingleses en el siglo XVIII, cuando el material de origen indica que ocurrieron entre 1680 y 1689 (siglo XVII).
+[2026-09-30T12:16:18.278Z]   ✓ livingston (Guatemala) — escribió Groq, verificó Gemini
+[2026-09-30T12:22:52.279Z]   ✗ nueva-guinea: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:29:22.455Z]   ✗ el-empalme: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:36:22.133Z]   ✗ cotui: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:43:01.856Z]   ✗ nagua: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:49:39.738Z]   ✗ huajuapan-de-leon: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:56:32.384Z]   ✗ ancon-provincia-de-lima: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-09-30T12:56:32.384Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
+[2026-09-30T12:56:32.452Z] publicadas 43 salas · acumuladas 204 · quedan 3196 en cola

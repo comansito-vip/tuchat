@@ -4804,5 +4804,1282 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Acámbaro, ciudad de Guanajuato, obtuvo el título de Villa el 18 de julio de 1827 y conserva su origen purépecha como 'Lugar de Maguey'.",
     "aboutTitle": "Acámbaro: origen purépecha y título de Villa (18 de julio de 1827)",
     "about": "Acámbaro es una ciudad mexicana en el estado de Guanajuato, cabecera del municipio homónimo. Los primeros asentamientos datan del período preclásico, pero su integración directa a la Irechekua o Nación P'urhépecha se sitúa en el siglo XV, cuando recibió el nombre actual. Durante la época colonial se consolidó como una importante República de Indios y formó parte de la Provincia que, junto a Yuririapúndaro, dependía de la Alcaldía Mayor de Celaya.\n\nEn el siglo XIX, tras la independencia, Acámbaro pasó a ser Jefatura Política y el 18 de julio de 1827 el pueblo recibió el título de Villa, manteniéndolo hasta su proclamación como ciudad y cabecera municipal. El topónimo proviene del idioma P'urhépecha; su interpretación correcta es “En el Maguey” o “Lugar de Maguey”, según explican los maestros Tatá Mateo González y Naná Elvia Tomás. La región fue habitada por linajes otomíes provenientes de Dandhó (Huichapan) en alianza con los purépechas para defender la frontera nororiental de la Irechekua."
+  },
+  {
+    "slug": "margaritas",
+    "name": "Margaritas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Margaritas, municipio chiapaneco con 428 localidades, destaca por su comercio minorista y su ubicación en la Meseta Comiteca Tojolabal.",
+    "aboutTitle": "Comercio y servicios en Las Margaritas, Chiapas",
+    "about": "El municipio de Las Margaritas es uno de los 124 municipios del estado mexicano de Chiapas, está localizado en la zona sureste del estado y su cabecera es la localidad de Las Margaritas. Limita al noreste con Ocosingo, al noroeste con Chanal, al norte con Altamirano, al sur con La Independencia, al suroeste con Comitán de Domínguez y al sureste con La Trinitaria y Maravilla Tenejapa. En el censo de 2020 el municipio de Las Margaritas contaba con 428 localidades.\n\nEn 2010 el municipio tenía un total de 17 unidades de atención de la salud, con 106 personas como personal médico. Contaba con 200 escuelas de nivel preescolar, 257 primarias, 58 secundarias, 8 bachilleratos, 7 escuelas de formación para el trabajo y 126 escuelas primarias indígenas. Las principales actividades económicas son el comercio minorista, la prestación de servicios generales no gubernamentales y, en menor medida, la fabricación de productos manufacturados."
+  },
+  {
+    "slug": "centla",
+    "name": "Centla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 238,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tabasco",
+    "regionSlug": "tabasco",
+    "channels": [
+      "tabasco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "tabasco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Centla, municipio de Tabasco, abarca 3 093 km², equivalentes al 10,8 % del estado, y cuenta con la cabecera portuaria de Frontera.",
+    "aboutTitle": "Centla: territorio de 3 093 km² en la ribera del Usumacinta",
+    "about": "Centla se sitúa en la región del río Usumacinta, dentro de la subregión de los Pantanos de Tabasco. Su cabecera municipal es la ciudad y puerto de Frontera y la entidad está dividida en tres villas, cuatro poblados, 63 rancherías, 41 ejidos, 25 colonias, ocho fraccionamientos y 23 sectores. La extensión del municipio es de 3 093 km², lo que representa el 10,8 % del territorio estatal, situándolo en el cuarto lugar por superficie en Tabasco. El nombre proviene del náhuatl Cin‑tla, que significa “en el maizal”.\n\nEn la época prehispánica la zona estuvo habitada por los mayas chontales y, al llegar los españoles, Juan de Grijalva descubrió el río el 7 de junio de 1518, nombrándolo entonces río Tabasco y más tarde Grijalva. El 12 de marzo de 1519 Hernán Cortés desembarcó en la Punta de los Palmares y se dirigió al poblado de Potonchan, donde la recepción fue hostil. En la actualidad, el gobierno municipal ha ejecutado 197 obras con una inversión superior a $326 millones, entre ellas 17 proyectos de pavimentación que benefician a más de 21 920 habitantes, y el Centro UNETE brinda terapias físicas a personas con discapacidad."
+  },
+  {
+    "slug": "villa-victoria",
+    "name": "Villa Victoria",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-tlalcilalcalpan",
+      "san-antonio-acahualco",
+      "valle-de-bravo",
+      "zinacantepec",
+      "san-pablo-autopan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Victoria es un municipio rural del Estado de México con 425.555 km², reconocido por aportar agua potable al Valle de Toluca y a la Ciudad de México.",
+    "aboutTitle": "Villa Victoria: fuente clave de agua para el Valle de Toluca",
+    "about": "Villa Victoria es uno de los 125 municipios que conforman el Estado de México y se caracteriza por su entorno predominantemente rural. Situado en el oeste del estado, el municipio ocupa una superficie de 425.555 kilómetros cuadrados y se asienta en el Valle de Quencio. Limita al noroeste con San José del Rincón, al norte con San Felipe del Progreso, al este con Almoloya de Juárez, al sur con Amanalco y al suroeste y oeste con Villa de Allende. Entre sus recursos naturales destaca un importante cuerpo de agua que recarga la red de suministro potable del Valle de Toluca y de la Ciudad de México, lo que lo convierte en una zona estratégica para la captación de recursos hídricos.\n\nSegún el Censo de Población y Vivienda de 2010, Villa Victoria contaba con 94 369 habitantes, lo que daba una densidad de 221.76 habitantes por kilómetro cuadrado. En el censo de 2020 el municipio reunía 108 localidades. Políticamente, forma parte del distrito electoral local 10, con cabecera en Valle de Bravo, y del distrito electoral federal 9, cuya cabecera es San Felipe del Progreso."
+  },
+  {
+    "slug": "lo-espejo",
+    "name": "Lo Espejo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 198,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "quillota",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lo Espejo, comuna del sur de Santiago, tiene una superficie de 7 km² y está ubicada completamente dentro del área urbana de la capital.",
+    "aboutTitle": "El origen del nombre Lo Espejo y su historia en el sur de Santiago",
+    "about": "Lo Espejo es una comuna situada en el sector sur de la ciudad de Santiago, capital de Chile. Se encuentra totalmente dentro del área urbana y ocupa una superficie total de 7 km². En la época de la conquista el valle donde hoy está la comuna estaba habitado por el pueblo picunche, que hablaba mapudungún y formaba parte del Imperio inca. Según el padre Alonso de Ovalle, las casas indígenas se construían con varas clavadas en la tierra, cubiertas de paja y con puertas de los mismos materiales, con interiores modestos de barro, madera y cueros de animal. El cacique de la zona era Millacura, quien figuró entre los veinte jefes locales cuando Pedro de Valdivia fundó Santiago. Tras la conquista, Pedro de Valdivia repartió las tierras en encomiendas. En 1692 el gobernador Tomás Marín de Poveda trajo al general Pedro Gutiérrez de Espejo, quien en 1700 adquirió una hacienda que dio nombre al sector; en ocho años sus predios alcanzaron miles de hectáreas. Sus descendientes vendieron la zona a un cubano que inició la plantación de extensos viñedos. El nombre Lo Espejo se mantuvo y hoy forma parte de la comuna de Maipú."
+  },
+  {
+    "slug": "rosarito",
+    "name": "Rosarito",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California",
+    "regionSlug": "baja-california",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tijuana",
+      "san-diego",
+      "ensenada",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rosarito, en Baja California, es la cabecera municipal de Playas de Rosarito y destaca por sus regatas y torneos de voleibol en la playa.",
+    "aboutTitle": "Deportes de playa y regatas en Rosarito",
+    "about": "Rosarito, previamente Huacuatay (Wakuataay “Casa grande”), es la cabecera municipal del municipio de Playas de Rosarito, estado de Baja California, en el extremo noroccidental de México, frontera con Estados Unidos y parte de la Zona Metropolitana de Tijuana por su cercanía y lazos socioeconómicos. Los primeros pobladores fueron grupos seminómadas kumiai, parte del tronco yumanos, que utilizaban la zona como refugio estival. Durante la época misional recibió el nombre de Misión de San Arcángel de la Frontera.\n\nLa ciudad se destaca por la gran cantidad de eventos deportivos y de espectáculos en la playa: torneos de voleibol, atletismo, carreras de motocross y bicicleta de montaña, y tradicionales regatas de veleros que atraen a vacacionistas de ambos lados de la frontera. El nombre Rosarito se deriva de “El Rosario”, asignado a finales del siglo XVIII. El primer explorador europeo, Juan Rodríguez Cabrillo, llegó en 1542 tras seis días de navegación, y en 1602 Sebastián Vizcaíno cartografió la costa."
+  },
+  {
+    "slug": "bocono",
+    "name": "Boconó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 193,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Trujillo",
+    "regionSlug": "trujillo",
+    "channels": [
+      "trujillo",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "trujillo-venezuela",
+      "valera",
+      "guanare",
+      "barinas",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Boconó, municipio del estado Trujillo, cuenta con 100 240 habitantes según la estimación del INE 2015 y atrae alrededor de un millón de turistas al año.",
+    "aboutTitle": "Boconó: capital agro‑turística del Ande Trujillano",
+    "about": "Boconó es una localidad y municipio situado al sureste del estado Trujillo, en Venezuela. Es el segundo municipio del estado en población y de importancia económica, y alberga la alcaldía del municipio homónimo. La ciudad se ha convertido en la capital turística y agroeconómica de Trujillo, con una población urbana y rural de 100 240 habitantes según la estimación del INE 2015. Su economía se basa en la producción agrícola de maíz, leguminosas, caña de azúcar, café y frutales, así como en la cría de cerdos, aves de corral y abejas, apoyada por un sistema de riego que favorece los cultivos en las laderas andinas.\n\nBoconó figura como el tercer destino más solicitado por turistas de la región andina y está a unas ocho horas por carretera de Caracas. Cuenta con aeropuerto y terminal terrestre de pasajeros, y recibe alrededor de un millón de visitantes al año, especialmente durante Carnaval, Semana Santa y Navidad. La ciudad ha evolucionado hacia un entorno urbano con intenso comercio, tráfico constante, parques, avenidas bien cuidadas y una iglesia de gran tamaño que destaca en su paisaje."
+  },
+  {
+    "slug": "caucagua",
+    "name": "Caucagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 136,
+    "votes": 237,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Miranda",
+    "regionSlug": "miranda",
+    "channels": [
+      "miranda",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guarenas",
+      "venezuela",
+      "caracas",
+      "los-teques",
+      "san-juan-de-los-morros",
+      "miranda",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Caucagua, capital del Municipio Acevedo en Miranda, lleva el nombre cumanagoto que significa 'aguas impetuosas' y tiene 87.371 habitantes (censo 2023).",
+    "aboutTitle": "Caucagua: la encrucijada cumanagota de cacao y rutas",
+    "about": "Caucagua es una ciudad del estado Miranda, capital del Municipio Acevedo, situada en una zona estratégica entre Caracas, Barlovento, Oriente y los Valles del Tuy. Su nombre proviene de una raíz cumanagota y significa «aguas impetuosas». Según el censo de 2023, la población alcanza los 87.371 habitantes. Fundada originalmente como Valle de Araguata alrededor de 1690, fue refundada con el nombre de Caucagua en 1752 y, en 1784, el obispo Mariano Martí le otorgó el título de Nuestra Señora del Valle de la Santa Cruz de Caucagua. Durante la época colonial la economía giró en torno a la producción de cacao, con grandes haciendas que consolidaron la zona como un núcleo agrícola de exportación. En la actualidad, además de seguir cultivando cacao, la ciudad ha visto asentarse industrias en su periferia, manteniendo su carácter de encrucijada comercial y de servicios para las localidades vecinas. Esta función de enlace refuerza su papel como centro de servicios para las localidades vecinas, que acuden a Caucagua en busca de atención sanitaria, educativa y comercial."
+  },
+  {
+    "slug": "el-fuerte",
+    "name": "El Fuerte",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 198,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sinaloa",
+    "regionSlug": "sinaloa",
+    "channels": [
+      "sinaloa",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sinaloa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Fuerte, municipio de Sinaloa fundado el 8 de abril de 1915, cuenta con 97.536 habitantes y está situado a orillas del río del mismo nombre.",
+    "aboutTitle": "El Fuerte: río, historia y sus siete sindicaturas",
+    "about": "El Fuerte es un municipio situado en la parte norte del estado de Sinaloa, México, y su cabecera, la ciudad homónima, se ubica a la orilla del río El Fuerte. Según el censo de 2010, la población total del municipio era de 97.536 habitantes, con una ligera mayoría masculina (49.693 hombres y 47.843 mujeres). Aproximadamente un 15 % de sus habitantes son indígenas mayos, lo que refleja la presencia de comunidades originarias en la zona.\n\nEl municipio se constituyó el 8 de abril de 1915; al año siguiente, 1916, se le segregaron los territorios que hoy forman los municipios de Ahome y Choix, manteniendo su extensión actual sin cambios. En 2020 el municipio contaba con 371 localidades y está organizado en siete sindicaturas: Mochicahui, Charay, San Blas, Tehueco, Tetaroba, Chinobampo y Jahuara II. Limita al norte con el estado de Sonora, al sur con el municipio de Sinaloa, al poniente con Ahome y al oriente con Choix."
+  },
+  {
+    "slug": "siguatepeque",
+    "name": "Siguatepeque",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 242,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Comayagua",
+    "regionSlug": "departamento-de-comayagua",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "comayagua",
+      "villanueva-honduras",
+      "honduras",
+      "tegucigalpa",
+      "el-progreso",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Siguatepeque, en el departamento de Comayagua, se ubica a 1.200 m s.n.m. entre Tegucigalpa y San Pedro Sula, a 114 km y 139 km respectivamente.",
+    "aboutTitle": "Siguatepeque: cerro de las mujeres bellas y su ubicación estratégica",
+    "about": "Siguatepeque es un municipio y ciudad del departamento de Comayagua, Honduras. Está situado al norte de la Reserva biológica de Montecillos, en la meseta central del país, a 114 km de Tegucigalpa y 139 km de San Pedro Sula. La altitud varía entre 1.000 y 1.200 m s.n.m., con una media de 1.200 m. Su superficie es de 392.2 km² y sus coordenadas son 14° 36′ 0″ N, 87° 49′ 60″ O. El nombre proviene del náhuatl cihualtepetl, \"el cerro de las mujeres bellas\".\n\nEn su origen habitaban pobladores de la etnia lenca, que utilizaban casas de paja en la ribera de los riachuelos Guique y Guaratoro. El 7 de diciembre de 1537 el adelantado Alonso de Cáceres recorrió el poblado con sus tropas españolas. Hoy la ciudad cuenta con un peaje operado por la empresa COVI en la entrada, que regula el acceso a la carretera hacia Intibucá y el lago de Yojoa."
+  },
+  {
+    "slug": "rubio",
+    "name": "Rubio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 221,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Táchira",
+    "regionSlug": "tachira",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal",
+      "villa-del-rosario",
+      "los-patios",
+      "cucuta",
+      "el-zulia",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rubio, capital del municipio Junín en Táchira, Venezuela, nació en 1794 como «La Ciudad Pontálida» y destaca por sus numerosos puentes.",
+    "aboutTitle": "Rubio: la ciudad pontálida y su patrimonio histórico",
+    "about": "Rubio es una ciudad venezolana situada en el suroeste del estado Táchira, a 825 m sobre el nivel del mar y capital del municipio Junín. Fue fundada en 1794 por Gervasio Rubio bajo el nombre de «La Ciudad Pontálida», y hoy se la conoce como la ciudad pontálida por la gran cantidad de puentes que la atraviesan. Según estimaciones de 2023, su población ronda los 89 528 habitantes. En sus inicios la economía se sustentó en la producción de café, pero actualmente depende del sector terciario y de actividades agropecuarias locales.\n\nEn 1883 se inició en La Petrolia la primera explotación petrolera de Venezuela, realizada por la Compañía Nacional Minera Petrolía del Táchira, y el pozo inaugural recibió el nombre de Salvador. La presencia de numerosos hospitales, oficinas bancarias y centros educativos le ha valido el apodo de ciudad educadora de Venezuela. Entre sus atractivos destaca la Iglesia de Santa Bárbara, de estilo neogótico y construida con ladrillos de arcilla fabricados en la zona, así como la Plaza Bolívar, la Plaza Gervasio Rubio y la Plaza Urdaneta. La oferta radial incluye emisoras como Bramonense FM 91.7, Radio Nacional de Venezuela 96.9 FM, Kania 97.3 FM, Tiuna FM 104.7 y Dinámica 105.5."
+  },
+  {
+    "slug": "santiago-ixcuintla",
+    "name": "Santiago Ixcuintla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 179,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nayarit",
+    "regionSlug": "nayarit",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tepic",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santiago Ixcuintla, ciudad de Nayarit, lleva un nombre náhuatl que significa “lugar de muchos perros” y su historia data de 1530.",
+    "aboutTitle": "Historia y origen del nombre de Santiago Ixcuintla",
+    "about": "Santiago Ixcuintla es la cabecera del municipio homónimo en el estado de Nayarit, México. Su nombre proviene del náhuatl itzcuintlan, que significa “lugar de muchos perros”, aludiendo a la abundancia canina de la zona prehispánica. La ciudad fue explorada por Francisco Cortés de San Buenaventura en 1530 y, al año siguiente, llegó el conquistador Nuño Beltrán de Guzmán. En 1569 se fundó el Convento de Nuestra Señora de la Asunción en Sentispac y, en 1603, el Convento de San Cristóbal en Ixcuintla, consolidando la presencia religiosa. Durante el siglo XIX, en 1846 se reconoció a Sentispac como cabecera del Séptimo Cantón de Jalisco; en 1860 la localidad vivió combates entre liberales y las fuerzas coras de Manuel Lozada; en 1878 pasó a ser cabecera de uno de los tres partidos del Distrito Militar de Tepic; en 1885 se convirtió en prefectura del nuevo territorio federal y en 1886 formó parte de los seis partidos del Territorio de Tepic. En 1910 el régimen porfirista le otorgó la categoría de ciudad por su importancia comercial, y ese mismo año llegó la vía férrea a Yago."
+  },
+  {
+    "slug": "ciudad-evita",
+    "name": "Ciudad Evita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moron",
+      "lomas-de-zamora",
+      "lanus",
+      "argentina",
+      "buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Evita, en La Matanza, zona oeste del Gran Buenos Aires, fue declarada lugar histórico nacional en 1997.",
+    "aboutTitle": "Río Matanza y la historia de Ciudad Evita",
+    "about": "Ciudad Evita es una localidad del partido de La Matanza, en la provincia de Buenos Aires, que forma parte del aglomerado urbano del Gran Buenos Aires y se ubica en la zona oeste. Nació en la década de 1950 y ha tenido varios cambios de nombre: entre 1955 y 1973 se llamó Ciudad General Belgrano, en 1976 pasó a ser Ciudad General Martín Miguel de Güemes y en 1983 recuperó el nombre original, que se mantiene hasta hoy. En 1997 fue declarada lugar histórico nacional.\n\nGeográficamente se sitúa a unos 21 km del Palacio del Congreso y a 6 km del Aeropuerto de Ezeiza, delimitada al este por el río Matanza, al noreste por la Ruta 4 (Camino de Cintura), al oeste por la avenida Crovara y al sur por la avenida Cristianía y los Bosques de Ezeiza. Su superficie es de 22,278 km² y está dividida en cinco circunscripciones que concentran instituciones como el busto de Evita, la escuela Dr. Mariano Etchegaray, la Escuela de Gendarmería Nacional “General Martín de Güemes”, el Club de Leones, la Delegación Municipal, el Registro Civil y el restaurante El Mangrullo, entre otros."
+  },
+  {
+    "slug": "jalpa-de-mendez",
+    "name": "Jalpa de Méndez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tabasco",
+    "regionSlug": "tabasco",
+    "channels": [
+      "tabasco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "centla",
+      "agua-dulce",
+      "las-choapas",
+      "tabasco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jalpa de Méndez, municipio de Tabasco con 369,6 km² (1,5 % del estado), se ubica en la región del río Grijalva y cuenta con 22 ejidos y 35 rancherías.",
+    "aboutTitle": "Jalpa de Méndez: entre el río Grijalva y la historia colonial",
+    "about": "Jalpa de Méndez es un municipio del estado de Tabasco, situado en la región del río Grijalva y dentro de la subregión del Centro. Su cabecera municipal lleva el mismo nombre y la demarcación incluye 22 ejidos, 35 rancherías, 6 poblados, un fraccionamiento, cuatro colonias urbanas, una colonia rural, seis congregaciones y una villa. Con una superficie de 369,6 km², representa el 1,5 % del territorio estatal y ocupa el decimocuarto lugar en extensión.\n\nEl nombre proviene del náhuatl Xal‑pan o Shal‑pan, que significa “sobre la arena”, y se le añadió el apellido Méndez en honor al coronel Gregorio Méndez Magaña, héroe tabasqueño. En la época colonial la zona fue una de las poblaciones más importantes de la Chontalpa y, alrededor de 1550, ya albergaba varias familias españolas. En 1665 existían doce pueblos asentados y, en el siglo XIX, el municipio cedió territorios que hoy forman los municipios de Comalcalco y Paraíso."
+  },
+  {
+    "slug": "agua-prieta",
+    "name": "Agua Prieta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 207,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Agua Prieta, Sonora, alberga 91 029 habitantes y se sitúa a 380,20 km de Hermosillo, en la frontera con Douglas, Arizona.",
+    "aboutTitle": "Fundación y origen del nombre de Agua Prieta",
+    "about": "Agua Prieta es una ciudad mexicana del noreste de Sonora, a 380,20 km de la capital estatal, Hermosillo, y limita con Douglas, Arizona, formando una zona metropolitana binacional. Según el Censo 2020, la población es de 91 029 habitantes, lo que la convierte en la séptima ciudad más poblada del estado. Fue fundada en 1899 y recibió el título de ciudad en 1942. El nombre proviene del ópata Ba'chicui, que significa ‘Agua Oscura’, al referirse al agua que se tornaba oscura por el terreno del lugar.\n\nA finales del siglo XIX, trabajadores de la compañía minera Phelps and Dodge Copper Co. llegaron para la fundición en Douglas, lo que impulsó la construcción de una vía férrea desde Nacozari a Douglas. Este enlace atrajo a pobladores de Fronteras, Esqueda, Bacerac, Bavispe y otras comunidades, consolidando un asentamiento permanente. En la zona existía un charco que formaba parte de un antiguo lago salado a 30 km al norte de Douglas, de donde proviene el antiguo nombre Bachicuy, ‘Agua que corre y mancha’."
+  },
+  {
+    "slug": "tumeremo",
+    "name": "Tumeremo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 139,
+    "votes": 239,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tumeremo, capital del municipio Sifontes en Bolívar, Venezuela, celebra su Carnaval iniciando el día 26 con la tradicional Ruta del Calipso.",
+    "aboutTitle": "Carnaval de Tumeremo y su Ruta del Calipso",
+    "about": "Tumeremo es una ciudad y parroquia civil que constituye la capital del Municipio Sifontes, en el Estado Bolívar, al este de Venezuela. Es el principal centro poblado del municipio, seguido por el Dorado de la Parroquia Dalla Costa y los centros de km 88, Santo Domingo, Ciudad Dorada, Las Claritas y Santa Lucía de Inaway en la Parroquia San Isidro. En 2023 pasó a ser la capital provisional del estado Guayana Esequiba, territorio reclamado por Venezuela y administrado de facto por Guyana. El territorio fue explorado y colonizado por los españoles, formando parte de la Provincia de Nueva Andalucía y Paria entre 1568 y 1777 y de la Capitanía General de Venezuela desde 1777. También perteneció a la Provincia de Guayana entre 1585 y 1864, y formó parte del Cantón Upata entre 1840 y 1875. Desde 1901 es parte del Estado Bolívar. La parroquia Tumeremo ocupa la parte más septentrional del municipio, con una superficie de 1 253 700 hectáreas (12 537 km²), siendo la más grande de las tres parroquias del territorio y superando la extensión de países como Catar o el Líbano. Las festividades carnestolendas inician el día 26 con un gran desfile de disfraces, carrozas y comparsas, dando apertura a las actividades con la tradicional Ruta del Calipso, en la que participan las seis mejores agrupaciones de calipso del sur del estado Bolívar, junto con cuatro escuelas de diablos, escuelas de fantasía, carnavales escolares, carrozas y disfraces."
+  },
+  {
+    "slug": "penaflor",
+    "name": "Peñaflor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 244,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lo-espejo",
+      "chile",
+      "santiago-de-chile",
+      "rancagua",
+      "san-antonio-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Peñaflor, comuna de la Región Metropolitana de Chile, pertenece a la provincia de Talagante y está situada a 37 km al suroeste del centro de Santiago.",
+    "aboutTitle": "Peñaflor: del río Mapocho a la marcha de 2019",
+    "about": "Peñaflor es una comuna y ciudad de la Región Metropolitana, ubicada en la provincia de Talagante y formando parte del sector surponiente de la conurbación de Santiago. Se sitúa a 37 kilómetros en dirección suroeste del centro de la capital y pertenece al distrito electoral N.º 14 y a la 7.ª circunscripción senatorial de Santiago poniente. Uno de sus sectores más conocidos es Malloco, punto de ingreso a la comuna desde Padre Hurtado.\n\nEn 1899 el geógrafo Francisco Solano Asta‑Buruaga la describió como una aldea, al igual que Luis Risopatrón en 1924. Antiguamente fue el balneario de Santiago, con el parque Trapiche y piscinas naturales; hoy esa tradición continúa en parques privados como El Idilio. El clima es mediterráneo de lluvia invernal (Csb) y la zona se ubica en las unidades geomorfológicas de la Cordillera de la costa y la Cuenca de Santiago, dentro de la cuenca del río Maipo y con presencia del río Mapocho. El 19 de octubre de 2019 se realizó la marcha más grande de la provincia, con aproximadamente 15.000 personas, desde la plaza de Peñaflor hasta la plaza de Malloco."
+  },
+  {
+    "slug": "tocoa",
+    "name": "Tocoa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 206,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Colón",
+    "regionSlug": "departamento-de-colon",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-ceiba",
+      "roatan",
+      "juticalpa",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tocoa, la ciudad más poblada del departamento de Colón en Honduras, funciona como el principal centro urbano de la región.",
+    "aboutTitle": "Tocoa, municipio más poblado y principal ciudad de Colón",
+    "about": "Tocoa es un municipio del departamento de Colón, en la República de Honduras. Es el municipio más poblado del departamento y se le considera la principal ciudad de Colón. Su condición de núcleo urbano le otorga un papel destacado en la región, concentrando servicios y actividades que atienden a la población local y a los habitantes de los municipios vecinos. La ubicación dentro del departamento lo sitúa como punto de referencia para el intercambio comercial y social en la zona norte del país. La historia de Tocoa está vinculada al desarrollo del territorio coloneño, y su crecimiento demográfico la ha convertido en un referente dentro del contexto hondureño. La comunidad local participa en la vida municipal y contribuye al dinamismo económico y cultural del área, manteniendo su posición como centro neurálgico del departamento de Colón. El municipio está gobernado por un alcalde y un consejo municipal que planifican el desarrollo local. En Tocoa se encuentran instituciones educativas que ofrecen enseñanza primaria y secundaria, así como centros de salud que brindan atención básica. Las vías de comunicación conectan a Tocoa con otras poblaciones del departamento, facilitando el tránsito de personas y mercancías. La actividad económica se basa en la agricultura y el comercio local, que sustentan a la comunidad."
+  },
+  {
+    "slug": "baralt",
+    "name": "Baralt",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 201,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Zulia",
+    "regionSlug": "zulia",
+    "channels": [
+      "zulia",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valera",
+      "trujillo-venezuela",
+      "cabimas",
+      "bocono",
+      "zulia",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Baralt, zuliaña en la costa oriental del lago de Maracaibo, es conocido por el pozo Zumaque I descubierto el 31 de julio de 1914, que marcó inicio petrolero.",
+    "aboutTitle": "Pozo Zumaque I y la era petrolera de Baralt",
+    "about": "Baralt es un municipio del estado Zulia, situado en la costa oriental del lago de Maracaibo. Con una superficie aproximada de 2.816 km², en 2023 su población era de 81.017 habitantes. El territorio se caracteriza por un bosque seco tropical, prácticamente talado, y lleva el nombre del escritor, poeta, periodista e historiador Rafael María Baralt (1810-1860). El primer asentamiento fue realizado por indígenas Arawaks, y en 1576 fueron conducidos por los españoles a la Nueva Zamora de Maracaibo. En el siglo XX la zona, entonces parte del distrito Sucre, era aislada y su única vía de comunicación era el lago. La exploración petrolera comenzó en 1912 con la Caribbean Oil Company, y el 31 de julio de 1914 se descubrió petróleo en el pozo Zumaque I, generando más de 2.500 barriles diarios, marcando el inicio de la era petrolera venezolana. En 1916 se construyó la primera refinería del país en San Timoteo. Los campos Barúa (1948) y Motatán (1952) ampliaron la producción. El distrito Baralt se creó el 3 de abril de 1948, con San Timoteo como capital. El desarrollo petrolero ha definido la economía de Barult, aunque la zona también conserva actividades agrícolas y pesqueras tradicionales. La historia de la región refleja la transición de un territorio indígena a una pieza clave del sector energético nacional, manteniendo su identidad vinculada al lago y a la figura de Rafael María Baralt."
+  },
+  {
+    "slug": "cantaura",
+    "name": "Cantaura",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 207,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Anzoátegui",
+    "regionSlug": "anzoategui",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-tigre",
+      "barcelona-venezuela",
+      "puerto-la-cruz",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cantaura, capital de Pedro María Freites en Anzoátegui, Venezuela, se asienta al norte, entre la cordillera de la Costa y la Mesa de Guanipa.",
+    "aboutTitle": "Cantaura, capital histórica entre la Costa y la Mesa de Guanipa",
+    "about": "Cantaura es una parroquia venezolana que funciona como capital del municipio Pedro María Freites, en el estado Anzoátegui. Se localiza al norte del país, entre la cordillera de la Costa y la Mesa de Guanipa, con coordenadas 09° 18’ 40” N y 64° 21’ 34” O. En su núcleo urbano la altitud varía entre 251 y 262 metros sobre el nivel del mar, según la zona de la Plaza Bolívar o la Plaza Guevara.\n\nEl origen de la población se remonta a la época colonial; aparece en mapas como Chamariapa en 1778 y como Cantaura en 1889. Fue fundada en 1740 como pueblo de indios de Nuestra Señora de la Candelaria de Chamariapa por el fraile Fernando Jiménez. El nombre proviene del término caribe “kamariapo”, asociado al árbol Bombax Ceiba. Limita al norte con Santa Rosa de Ocopi y Anaco, al este con el estado Monagas, al sur con San Tomé, El Tigre y Guanipa, y al oeste con San Joaquín y Santa Ana. En la historia reciente destaca la Masacre de Cantaura."
+  },
+  {
+    "slug": "villa-hermosa",
+    "name": "Villa Hermosa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 239,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "La Romana",
+    "regionSlug": "la-romana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-romana",
+      "higuey",
+      "san-pedro-de-macorris",
+      "punta-cana",
+      "santo-domingo-este",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Hermosa, municipio de La Romana en República Dominicana, nació el 21 de julio de 2004 y cuenta con 117 445 habitantes según el censo 2022.",
+    "aboutTitle": "Río Cumayasa y la fundación de Villa Hermosa",
+    "about": "Villa Hermosa es un municipio de la provincia de La Romana, en la República Dominicana. Fue fundado el 21 de julio de 2004 mediante la Ley n.º 201-04, y antes de su elevación municipal se conocía como «Los Mulos» por el uso del animal como medio de transporte. Sus primeras autoridades fueron elegidas el 16 de mayo de 2006 y tomaron posesión el 16 de agosto del mismo año. Según el Censo Nacional de 2022, la población total asciende a 117 445 habitantes, de los cuales 57 949 son hombres y 59 496 mujeres, con una densidad de 1000 habitantes por kilómetro cuadrado. El 98,32 % de la población, es decir unos 115 473 residentes, vive en la zona urbana.\n\nEl clima de Villa Hermosa es templado y cálido, con una temperatura media anual de 26 °C y lluvias escasas que aumentan en mayo y junio; en diciembre y enero la temperatura oscila entre 19 y 22 °C, llegando a 18 °C en la madrugada. El único río del municipio es el Cumayasa y sus costas se bañan en el Mar Caribe. La economía se sustenta principalmente en el sector servicios, donde operan pequeños y medianos negocios como centros de electrónica, hoteles, cabañas, colegios, transportes, ferreterías, panaderías, salones de belleza y supermercados."
+  },
+  {
+    "slug": "caborca",
+    "name": "Caborca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Caborca, municipio de Sonora con 341 localidades y cabecera en Heroica Caborca, fundado en 1890 y situado en el desierto de Sonora.",
+    "aboutTitle": "Heroica Caborca: cabecera y corazón del desierto de Sonora",
+    "about": "Caborca es uno de los 72 municipios del estado de Sonora, situado en la zona noroeste de la entidad dentro del desierto de Sonora. Según el Censo de 2020, su población alcanza los 89 122 habitantes y su territorio abarca 165 721,84 km², lo que lo posiciona como el tercer municipio más extenso de Sonora y el 19.º del país. Fue decretado municipio en 1890 y su cabecera es la ciudad de Heroica Caborca, la localidad más habitada entre las 341 que integran su territorio, entre las que también figuran Plutarco Elías Calles, El Diamante, El Coyote, Desemboque, Puerto Lobos y San Francisquito. Limita al sur y sureste con Pitiquito, al este con Altar, al noroeste con Puerto Peñasco y General Plutarco Elías Calles, y al noreste con el Condado de Pima, en Arizona, Estados Unidos. Sus coordenadas extremas van de 30° 3′ a 31° 45′ de latitud norte y de 112° 6′ a 113° 8′ de longitud oeste, con una altitud que oscila entre 1 y 2 500 metros sobre el nivel del mar. El municipio es conocido localmente como «La Perla del Desierto»."
+  },
+  {
+    "slug": "cozumel",
+    "name": "Cozumel",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 199,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Quintana Roo",
+    "regionSlug": "quintana-roo",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "playa-del-carmen",
+      "cancun",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cozumel, la isla caribeña de Quintana Roo que recibe cruceros desde 1968, destaca por sus manglares, arrecifes de coral y la Reserva Ecológica de Punta Sur.",
+    "aboutTitle": "Reserva Ecológica de Punta Sur y los arrecifes de Cozumel",
+    "about": "Cozumel es uno de los once municipios que forman el estado de Quintana Roo, México, y su cabecera es la localidad de San Miguel de Cozumel. El municipio comprende la isla del mismo nombre y los asentamientos continentales de Calica y Xel‑Há.\n\nLa isla caribeña acoge cruceros desde 1968 y está mayoritariamente declarada reserva de la biosfera por la UNESCO. Su territorio está dominado por bosques de manglares y áreas naturales abiertas, con una fauna abundante que rodea los extensos arrecifes de coral. Entre los atractivos más emblemáticos destacan la Reserva Ecológica de Punta Sur, el Faro del extremo sur, el Parque Marino de los Arrecifes y Chankanaab, todos reconocidos por el buceo y el submarinismo. En el centro se sitúa el yacimiento arqueológico de San Gervasio, testimonio de la presencia maya. Las investigaciones indican que los primeros pobladores llegaron alrededor del siglo II a. C., seguidos por oleadas mayas del siglo III y del siglo VIII procedentes de Petén, Tabasco y Campeche."
+  },
+  {
+    "slug": "maravatio",
+    "name": "Maravatío",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "villa-victoria",
+      "celaya",
+      "morelia",
+      "valle-de-bravo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Maravatío, municipio del noreste de Michoacán, cuenta con 89.311 habitantes y una altitud de 2.018 m, ofreciendo clima templado y rica historia.",
+    "aboutTitle": "Maravatío: ‘lugar precioso’ y su clima templado de montaña",
+    "about": "Maravatío es uno de los 113 municipios que integran el estado de Michoacán, cuya cabecera municipal lleva el nombre de Maravatío de Ocampo y forma parte de la región socioeconómica 4 Oriente. El nombre Maravatío se interpreta como ‘lugar precioso’. El municipio obtuvo la categoría oficial en 1831, incorporando en aquel momento las municipalidades de Taximaroa, Hidalgo e Irimbo; en 1837, al reorganizarse el estado como departamento, el territorio abarcó los partidos de Zitácuaro, Zinapécuaro y el propio Maravatío.\n\nSituado en el noreste de Michoacán, el municipio cubre una superficie aproximada de 698 km² y limita al norte con el estado de Guanajuato y los municipios de Epitacio Huerta y Contepec, al este con Contepec, Tlalpujahua y Senguio, al sur con Senguio, Irimbo y Hidalgo, y al oeste con Hidalgo, Zinapécuaro y nuevamente Guanajuato. La cabecera se halla a 19°53′38″N 100°25′48″O, a una altitud de 2.018 m sobre el nivel del mar. El clima es templado subhúmedo de montaña (Cwb), con máximas de 28 °C en verano y mínimas de 2 °C en invierno. Según el censo de 2020, la población total es de 89.311 habitantes, lo que supone un crecimiento promedio del 1,1 % anual entre 2010 y 2020 y una densidad de 129 hab/km². En 2010 el municipio estaba clasificado como de grado bajo de vulnerabilidad social, con el 23,77 % de su población en situación de vulnerabilidad."
+  },
+  {
+    "slug": "tecoman",
+    "name": "Tecomán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Colima",
+    "regionSlug": "colima",
+    "channels": [
+      "colima",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "colima",
+      "cihuatlan",
+      "los-cabos",
+      "zapotiltic",
+      "ciudad-guzman",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tecomán, ciudad de Colima, obtuvo el título de Heroica Ciudad el 27 de enero de 2017 y destaca por su producción agrícola y pesquera en el valle de Tecomán.",
+    "aboutTitle": "Escudo y tradición agrícola de Tecomán",
+    "about": "Tecomán es una ciudad mexicana situada en el estado de Colima, capital del municipio homónimo, y se ubica en el valle de Tecomán. Es la cuarta ciudad más poblada del estado y, junto con el municipio de Armería, forma la zona metropolitana de Tecomán, que alcanzó alrededor de 143.931 habitantes en 2020. El 27 de enero de 2017 el H. Congreso del Estado otorgó el título de Heroica Ciudad en reconocimiento a la valentía de sus pobladores durante la conquista. El nombre proviene del náhuatl, combinando tecol o tecolli (abuelo) y man (lugar), lo que significa “el lugar de nuestros abuelos”. El escudo muestra un listón dorado con la leyenda \"El hombre labora para su desarrollo\", un velero deportivo, un pez que alude al turismo y la pesca, una palmera que representa la agricultura, un toro que simboliza la ganadería y una instalación industrial que refleja la transformación de materias primas. También aparecen dos iguanas, fauna nativa, y los productos agrícolas principales: coco, limón, plátano, aguacate y mango. La ciudad se autodenomina \"Ciudad del Occidente de México\" y alberga el Instituto de la Feria del Limón, que destaca la importancia del cultivo del limón en la región."
+  },
+  {
+    "slug": "cintalapa",
+    "name": "Cintalapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "durango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cintalapa, municipio de Chiapas a 77 km de Tuxtla Gutiérrez, destaca por la Feria de La Candelaria 2026 y su ubicación en la región de los Valles Zoque.",
+    "aboutTitle": "Feria de La Candelaria y la riqueza natural de Cintalapa",
+    "about": "Cintalapa es uno de los 124 municipios que conforman el estado de Chiapas y se sitúa a 77 km de la capital, Tuxtla Gutiérrez. El nombre proviene del náhuatl y significa “agua en el subsuelo”. Sus coordenadas son 16° 39′ N y 93° 44′ W, y se ubica a 540 m sobre el nivel del mar, dentro de la región socioeconómica II Valles Zoque. Limita al este con Jiquipilas, al noreste con Ocozocoautla de Espinosa, al norte con Tecpatán, al noroeste con Santa María, al sur con Arriaga, al suroeste con Santo Domingo Zanatepec y San Pedro Tapanatepec (Oaxaca) y al oeste con San Miguel Chimalapa (Oaxaca). La Sierra Madre de Chiapas atraviesa el municipio en dirección sureste, mientras que el 70 % de su superficie es plana y el resto semiplano. Dentro de su territorio forman parte las reservas naturales Selva El Ocote y La Sepultura.\n\nLa vegetación combina maderas finas como caoba, cedro y guapinol en las zonas montañosas, y especies de pino y encino en áreas más frescas; en llanuras y lomas se encuentran brasil, tepézcohite y pompo flor. Actualmente seis centros madereros aprovechan estas especies. Cada año el municipio celebra la Feria de La Candelaria 2026, una de sus principales manifestaciones culturales."
+  },
+  {
+    "slug": "jilotepec-estado-de-mexico",
+    "name": "Jilotepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 219,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-teresa",
+      "coyotepec",
+      "atlacomulco-de-fabela",
+      "tequixquiac",
+      "tepotzotlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jilotepec, municipio del Estado de México, situado en la zona central y montañosa, fue declarado Pueblo Mágico el 27 de septiembre de 2024.",
+    "aboutTitle": "El Cerro de los Jilotes y la Presa de Danxho en Jilotepec",
+    "about": "Jilotepec es uno de los 125 municipios del Estado de México, ubicado en la zona central y montañosa de la entidad. Limita con los municipios de Polotitlán, Aculco, Timilpan, Chapa de Mota, Villa del Carbón, Soyaniquilpan y con el Estado de Hidalgo. Su cabecera municipal es la localidad de Jilotepec de Molina Enríquez, la más poblada del municipio. El topónimo proviene del náhuatl xilotl (jilote), tepetl (cerro) y el sufijo c (en), y se interpreta como “en el cerro de los jilotes”. El 27 de septiembre de 2024 fue incluido en el programa Pueblos Mágicos, reconocimiento que subraya su valor histórico y turístico. Entre sus atractivos destacan el Museo Muji, la Plaza Central, la Presa de Danxho y el Parque El Llano, que reflejan la arquitectura colonial y los paisajes naturales. El clima templado y el entorno montañoso favorecen la agricultura y actividades al aire libre. La historia prehispánica muestra la presencia de otomíes y la posterior dominación azteca, con episodios como la campaña de Acamapichtli en 1379 y la guerra de Ahuitzotl en 1487."
+  },
+  {
+    "slug": "maiquetia",
+    "name": "Maiquetía",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Estado La Guaira",
+    "regionSlug": "estado-la-guaira",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "caracas",
+      "los-teques",
+      "guarenas",
+      "caucagua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Maiquetía, a 37 km northwest suburb of Caracas, hosts Venezuela’s main international airport, Simón Bolívar, founded in 1670.",
+    "aboutTitle": "Maiquetía: puerto entre el Caribe y la cordillera costera",
+    "about": "Maiquetía es una de las once parroquias que integran el municipio Vargas del estado La Guaira, situada en el litoral central de Venezuela entre el mar Caribe y las estribaciones de la cordillera de la costa. Se ubica a aproximadamente 37 km al noroeste de Caracas. Fundada el 20 de enero de 1670 bajo el nombre de «San Sebastián de Maiquetía», la localidad tomó su nombre de la combinación de un santo cristiano y un indígena local. La ciudad ganó relevancia comercial por albergar el Aeropuerto Internacional Simón Bolívar, el más importante del país, aunque hoy el aeropuerto se encuentra en la parroquia Urimare manteniendo el nombre de Maiquetía. En 1998 pasó a formar parte del Territorio Federal Vargas y en 1999 al entonces llamado Estado Vargas. El Consejo Legislativo aprobó la Ley de División Político Territorial del Estado La Guaira, consolidando sus límites actuales. Maiquetía sufrió los devastadores efectos de las lluvias torrenciales que inundaron el estado Vargas."
+  },
+  {
+    "slug": "jaguey-grande",
+    "name": "Jagüey Grande",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 189,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de Matanzas",
+    "regionSlug": "provincia-de-matanzas",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cardenas",
+      "matanzas",
+      "cienfuegos",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jagüey Grande, municipio de la provincia de Matanzas en Cuba, cuenta con una población de 60.391 habitantes y fue fundado el 25 de junio de 1857.",
+    "aboutTitle": "El Central azucarero “Australia” y la fundación de Jagüey Grande",
+    "about": "Jagüey Grande es un municipio de la provincia de Matanzas, Cuba, con una extensión territorial de 881,86 km² y una población aproximada de 60.391 habitantes. Se divide en cuatro consejos populares: San José de Marcos, Agramonte, Torriente y Australia. La economía local es mayoritariamente agrícola y destaca el central azucarero llamado Central “Australia”, principal motor productivo del área.\n\nFundada el 25 de junio de 1857, la ciudad fue testigo del Alzamiento de Jagüey Grande a inicios de 1869, durante la Guerra de los Diez Años. Durante ese conflicto el poblado sufrió varios ataques y quemas por el general mambí Henry Reeve y los coroneles Cecilio González Blanco y Carlos Agüero García. El 25 de diciembre de 1895, las fuerzas de Máximo Gómez y Antonio Maceo cruzaron la zona en su marcha hacia el occidente, y el poeta José Martí también recorrió sus calles. En abril de 1961, la localidad participó en movilizaciones contra la invasión de Bahía de Cochinos. A pesar de la reorganización administrativa de 1976, Jagüey Grande siguió formando parte de la provincia de Matanzas."
+  },
+  {
+    "slug": "consolacion-del-sur",
+    "name": "Consolación del Sur",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Pinar del Río",
+    "regionSlug": "provincia-de-pinar-del-rio",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pinar-del-rio",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Consolación del Sur, fundada en 1690, es una ciudad de Pinar del Río (Cuba) productora de arroz y tabaco. En 2017 la población superó los 88.000 habitantes.",
+    "aboutTitle": "Arroz, tabaco y la Atenas de Vueltabajo: Consolación del Sur",
+    "about": "Consolación del Sur es una ciudad y municipio situado en la provincia de Pinar del Río, Cuba. Fundada en 1690, la localidad también se la conoce como la Atenas de Vueltabajo. Su economía se basa principalmente en la agricultura, destacando el arroz y el tabaco como los cultivos más importantes de la zona. La zona geográfica del municipio favorece el cultivo de arroz y tabaco, al igual que ocurre en toda la provincia de Pinar del Río. El territorio municipal se extiende sobre 1.112 km². En 2017 el municipio contaba con 88 564 habitantes y abarca una superficie de 1.112 km². Administrativamente se divide en trece consejos populares, entre los que se encuentran Alonso de Rojas, Arroyo Colorado, Ceja de Herradura, Colmenar, Entronque de Herradura, Herradura, Jaguas, Lajas, Legua, Leña, Puerta de Golpe, Palenque y Pilotos. Según datos de 2017, la población era de 88 564 habitantes, aproximadamente. Estos consejos populares constituyen la estructura administrativa del municipio."
+  },
+  {
+    "slug": "guasave",
+    "name": "Guasave",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 198,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sinaloa",
+    "regionSlug": "sinaloa",
+    "channels": [
+      "sinaloa",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-fuerte",
+      "sinaloa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guasave, ciudad de Sinaloa, se ubica en la baja cuenca del río Petatlán y celebra su fundación de más de 400 años.",
+    "aboutTitle": "Guasave y la baja cuenca del río Petatlán",
+    "about": "Guasave es una ciudad mexicana situada en el estado de Sinaloa y cabecera del municipio homónimo. Fue fundada hace más de 400 años y se la considera la frontera norte de Mesoamérica con Aridoamérica. El nombre proviene del cahita y se traduce como “heredad en el agua”.\n\nSe ha debatido el significado del topónimo; algunos autores lo asocian con “cementera” o “milpa en cerco”, pero la interpretación más documentada es “heredad‑con‑agua”. Los antecedentes prehispánicos del municipio revelan que su territorio, ubicado en la baja cuenca del río Petatlán, también llamado río Sinaloa desde 1583 por Pedro de Montoya, fue escenario de una cultura agrícola avanzada del período Azteca II, extendida en una superficie de aproximadamente 20 000 hectáreas. La economía tradicional se basa en la agricultura; los pobladores cultivaban maíz y frijol simultáneamente. En el río Petatlán practicaban la pesca de bagre, lisa y mojarra, y complementaban su dieta con la caza de venados, jabalíes, conejos y pumas."
+  },
+  {
+    "slug": "mante",
+    "name": "Mante",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "panuco",
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mante, ciudad de Tamaulipas a 110 km al sur de Ciudad Victoria, tiene 79.515 habitantes y mantiene viva la tradición huasteca con música y danza.",
+    "aboutTitle": "Mante: capital del municipio El Mante y su clima tropical",
+    "about": "Ciudad Mante, conocida localmente como “El Mante”, es la cabecera del municipio homónimo en la zona sur del estado de Tamaulipas. Se ubica a 110 kilómetros en línea recta al sur de la capital estatal, Ciudad Victoria, y según el censo del INEGI de 2020, cuenta con 79.515 habitantes. El nombre proviene del huasteco, donde “mán” significa amarillo y “te’” árbol, aludiendo al zapote amarillo que da nombre a la localidad. Mante está situada en la zona rural del estado, dentro de la región noreste de México. El gobierno municipal ofrece zonas Wi‑Fi gratuito en diferentes puntos de la ciudad. El clima es cálido húmedo tropical, con temperaturas que alcanzan entre 40 y 46 °C en junio y julio, y pueden descender hasta –5 °C en invierno, mientras la precipitación anual ronda los 1.000 milímetros. La cultura huasteca se refleja en sus festividades a lo largo del año, que incluyen música, danza y gastronomía típica, atrayendo a locales y visitantes."
+  },
+  {
+    "slug": "chiguayante",
+    "name": "Chiguayante",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Biobío",
+    "regionSlug": "region-del-biobio",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "concepcion",
+      "los-angeles-chile",
+      "chillan",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chiguayante, ciudad de la Región del Biobío, forma parte del Gran Concepción y su nombre mapuche significa 'sol entre neblina'.",
+    "aboutTitle": "Chiwayantü: 'sol entre neblina', el nombre mapuche de Chiguayante",
+    "about": "Chiguayante es una ciudad y comuna chilena situada en la provincia de Concepción, dentro de la Región del Biobío, en la zona centro‑sur del país. Integra el distrito N°20 y pertenece a la 10.ª circunscripción senatorial de la región. Forma parte del área metropolitana de Gran Concepción, lo que la vincula estrechamente a la dinámica urbana del sur de Chile. El topónimo proviene del mapudungun Chiwayantü, que significa 'sol entre neblina'. El 4 de marzo de 1819 Bernardo O’Higgins decretó la creación del camino público de Concepción a Hualqui, incorporando la zona a la división política del país. En 1845 un nuevo decreto la incluyó en la subdelegación de Concepción, y el 7 de octubre de 1925 el decreto supremo N.º 740 estableció la comuna, nombrando a Walter Schaub como primer alcalde. Tras una breve supresión en 1927, la comunidad volvió a organizarse en 1990 con la creación del Comité Procomuna, y el 28 de junio de 1996 la Ley N.º 19.461 restituyó la comuna de forma definitiva."
+  },
+  {
+    "slug": "salina-cruz",
+    "name": "Salina Cruz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 184,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Salina Cruz, ciudad portuaria del Istmo de Tehuantepec en Oaxaca, cuenta con una refinería y es uno de los diez puertos más importantes de México.",
+    "aboutTitle": "Puerto industrial de Salina Cruz y su legado histórico",
+    "about": "Salina Cruz es una ciudad y puerto del estado de Oaxaca, ubicado en el Istmo de Tehuantepec, al sureste de México. Con una población municipal de 84,438 habitantes según el censo de 2020, la ciudad presenta una edad media de 28 años, con hombres de 27 y mujeres de 29 años. Su economía está dominada por la industria: alberga una refinería, un astillero, varias salineras y constituye uno de los diez puertos más importantes del país.\n\nFundada durante el Porfiriato, la actual Salina Cruz fue poblada por inmigrantes chinos, sirios, filipinos, italianos e ingleses, lo que le dio un carácter cosmopolita. Antes de esa época la zona era una aldea pesquera y productora de sal, con arribos esporádicos de embarcaciones de origen asiático. En 1907 Porfirio Díaz inauguró el puerto moderno, consolidando a Salina Cruz como el principal centro industrial del estado de Oaxaca. Hoy la ciudad sigue siendo el eje industrial de Oaxaca, impulsando el comercio marítimo y la producción de energía."
+  },
+  {
+    "slug": "villa-altagracia",
+    "name": "Villa Altagracia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 231,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San Cristóbal",
+    "regionSlug": "san-cristobal",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-rd",
+      "santo-domingo-este",
+      "bani",
+      "republica-dominicana",
+      "santo-domingo",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Altagracia, municipio de San Cristóbal en República Dominicana, destaca por la Terraza de hormigón de 1926, la primera plaza hotel de la zona.",
+    "aboutTitle": "La Terraza de hormigón, primera plaza hotel de Villa Altagracia (1926)",
+    "about": "Villa Altagracia es un municipio de la República Dominicana ubicado en la provincia de San Cristóbal. Se asienta en una zona de tierras fértiles bañadas por ríos, arroyos y cañadas, lo que favoreció la llegada de los primeros pobladores, mayormente procedentes de San Cristóbal y en menor medida del Cibao. Los ríos y cañadas arrastraban oro sedimentario, lo que atrajo a colonos y comerciantes. El paso de caravanas comerciales hacia Santo Domingo y el servicio de correo a caballo convertían al territorio en una ruta estratégica. El territorio sirvió como paso obligado para el tránsito de caravanas hacia la capital.\n\nLa economía inicial se basó en la agricultura de subsistencia, la búsqueda de oro en los arroyos y cañadas y pequeños comercios. Las viviendas eran construidas con barro, tablas de manacla, techos de yerba y yagua y suelos de tierra. En 1926 Ulises Henríquez erigió la Terraza de hormigón, la primera plaza hotel de la comunidad, con habitaciones, caballeriza, comedor y área de intercambio comercial, marcando un hito en el desarrollo local."
+  },
+  {
+    "slug": "tila",
+    "name": "Tila",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 241,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "centla",
+      "jalpa-de-mendez",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tila, en Chiapas, ocupa 800.68 km², equivalentes al 1.09 % del estado, y está atravesada por ríos como el Chinal y el Pabuchil.",
+    "aboutTitle": "Ríos y relieve de Tila, Chiapas",
+    "about": "Tila es uno de los 124 municipios que integran el estado de Chiapas, cuya cabecera municipal es la villa homónima. Se sitúa en el centro‑norte del estado, dentro de la región socioeconómica XIV Tuliján Tseltal Chol, y sus coordenadas extremas van de 17° 09' a 17° 35' de latitud norte y de 92° 19' a 92° 40' de longitud oeste. La altitud del territorio varía entre los 0 y los 2 200 metros sobre el nivel del mar y su superficie total es de 800.68 kilómetros cuadrados, lo que representa el 1.09 % del área estatal.\n\nEl municipio limita al noreste con Salto de Agua, al este con Tumbalá, al sureste con Yajalón, al suroeste con Simojovel, al oeste con Sabanilla y al norte y noroeste con el estado de Tabasco, concretamente con los municipios de Tacotalpa y Macuspana. Forma parte de la cuenca del río Grijalva‑Tuxtla Gutiérrez, estando incluido en las subcuencas de los ríos Macuspana, Puxcatán, Shumulá, Tulijá y Chacté; entre sus corrientes más relevantes se encuentran el Río Chinal, el Río Pabuchil, el Arroyo Jolnishtie, el Río Limar, el Río Grande, el Arroyo Chulum y el Arroyo Yobsibaquil. El suelo predominante es Luvisol (69.09 %) y la roca más abundante es la caliza (67.78 %)."
+  },
+  {
+    "slug": "cotorro",
+    "name": "Cotorro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 210,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de La Habana",
+    "regionSlug": "provincia-de-la-habana",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuba",
+      "la-habana",
+      "matanzas",
+      "cardenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cotorro, municipio del extremo sur de La Habana, celebra su fundación el 25 de enero 1733 bajo el nombre de Santa María del Rosario.",
+    "aboutTitle": "Fundación de Santa María del Rosario (25‑enero‑1733) en Cotorro",
+    "about": "Cotorro es un municipio ubicado en el extremo sur de la provincia de La Habana, Cuba. Su origen se remonta al siglo XVI, cuando la zona formaba parte del corral llamado Jiaraco, que luego fue parcelado. A principios del siglo XVIII, José de Bayona y Chacón, conde de Casa Bayona, heredó treinta y cuatro caballerías del Corral de Jiaraco y del ingenio “Quiebra Hacha”. En 1727 los esclavos del ingenio se sublevaron y la revuelta fue sofocada con violencia. El conde, enfermo y postrado, fue curado por un esclavo que le reveló las propiedades del manantial “La Mina”; como agradecimiento, el conde le concedió la libertad y prometió fundar una ciudad. El 23 de marzo de 1728 envió una carta al rey Felipe V solicitando autorización, que fue concedida. La fundación oficial de Santa María del Rosario se celebró el 25 de enero de 1733, fecha que marca el origen del municipio. Ese mismo año se eligieron las primeras autoridades y se establecieron treinta familias. Entre 1760 y 1766 se construyó la actual parroquia monumental, que sigue en pie como referencia histórica del lugar."
+  },
+  {
+    "slug": "yerba-buena",
+    "name": "Yerba Buena",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Tucumán",
+    "regionSlug": "provincia-de-tucuman",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tucuman",
+      "lules",
+      "famailla",
+      "monteros",
+      "termas-de-rio-hondo",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yerba Buena, municipio tucumano incluido entre las 10 mejores ciudades para vivir según CONICET, destaca por su alta calidad de vida y desarrollo urbano.",
+    "aboutTitle": "Campus norteño y reservas de Horco Molle en Yerba Buena",
+    "about": "Yerba Buena es una localidad y municipio de la provincia de Tucumán, situada al oeste de la capital provincial, San Miguel de Tucumán, y es la cabecera del departamento homónimo. Forma parte del conglomerado urbano de Gran San Miguel de Tucumán y destaca por su alto desarrollo y urbanización, con numerosos shoppings y comercios de marcas regionales, nacionales e importadas. La zona se caracteriza por una población predominantemente de clase media alta y alta, que elige vivir aquí por la calidad de vida y la menor congestión respecto a la capital.\n\nEn su territorio se encuentran los estudios de Canal 10, el Aero Club Tucumán, la Escuela de Agricultura y Sacarotecnia dependiente de la UNT, el Tucumán Rugby Club y el Jockey Club de Tucumán. Además, la reserva experimental de Horco Molle y el campus central de la Universidad del Norte Santo Tomás de Aquino, recién terminada de construir en la zona norte, aportan valor educativo y ambiental. Yerba buena fue elegida por un ranking realizado por el centro de investigación del CONICET como una de las 10 mejores ciudades para vivir de Argentina, situándola al mismo nivel que Mendoza, Ushuaia, Villa La Angostura y San Isidro."
+  },
+  {
+    "slug": "nueva-concepcion-guatemala",
+    "name": "Nueva Concepción",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Escuintla",
+    "regionSlug": "departamento-de-escuintla",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "escuintla",
+      "solola",
+      "antigua-guatemala",
+      "quetzaltenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Concepción, en Escuintla, Guatemala, celebra su fiesta patronal el 8 de diciembre y cuenta con los ríos Coyolate y Madre Vieja que lo riegan.",
+    "aboutTitle": "Río Coyolate y la fiesta del 8 de diciembre en Nueva Concepción",
+    "about": "Nueva Concepción es un municipio del departamento de Escuintla, en la región sur‑central de Guatemala. Su origen se remonta a un parcelamiento agrario creado durante la Reforma Agraria del presidente Jacobo Arbenz, cuando tierras que pertenecían a la compañía frutera estadounidense United Fruit Company fueron expropiadas y destinadas a la población. El acuerdo gubernativo del 15 de febrero de 1974 elevó el territorio, que comprende 554 km², a la categoría de municipio, separándolo de los 892 km² del vecino Tiquisate. Las parcelas fueron diseñadas en una cuadrícula de 1 000 por 250 metros, y la cabecera municipal conserva este trazado, con la carretera principal situada fuera del núcleo urbano.\n\nEl clima es cálido tropical y la zona está irrigada por nueve ríos, entre los que destacan el Coyolate y el Madre Vieja, además de veintidós zanjones, cuatro quebradas, cuatro lagunetas, un estero y la barra del Coyolate. Administrativamente, el municipio cuenta con un pueblo, tres barrios, seis colonias, veinte aldeas, ciento treinta y seis caseríos, sesenta y cinco fincas y cinco haciendas. Cada 8 de diciembre celebra su fiesta titular en honor a la Virgen de la Concepción."
+  },
+  {
+    "slug": "comonfort",
+    "name": "Comonfort",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "guanajuato",
+      "irapuato",
+      "maravatio",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Comonfort, municipio de Guanajuato, fue declarado Pueblo Mágico el 11 de octubre de 2018 y forma parte de la Zona Metropolitana de Celaya.",
+    "aboutTitle": "Comonfort: Pueblo Mágico y su historia colonial",
+    "about": "Comonfort es un municipio del estado de Guanajuato, cuya cabecera municipal lleva el mismo nombre y forma parte de la Zona Metropolitana de Celaya. Según el censo de 2020 cuenta con 130 localidades.\n\nEl origen del asentamiento se remonta al 1 de enero de 1562, cuando don Francisco de Velasco elevó a villa al pueblo de Chamacuero para proteger a los habitantes de los ataques chichimecas, entre los que destacaban los pame. En 1591 la población adoptó el nombre de San Francisco de Chamacuero y el primer núcleo ordenado se estableció en el barrio de San Agustín. El 7 de noviembre de 1861 se declaró municipio y el 9 de noviembre de 1874, por iniciativa de don Ignacio Bernal, el estado lo rebautizó como Chamacuero de Comonfort en homenaje al presidente Ignacio Comonfort; actualmente se conoce simplemente como Comonfort. El 11 de octubre de 2018, Comonfort fue nombrado Pueblo Mágico, convirtiéndose en el sexto municipio del estado con este reconocimiento. El gobierno municipal se rige por los artículos 106 y 107 de la Constitución Política del Estado, que establecen la autonomía del municipio y la organización del ayuntamiento."
+  },
+  {
+    "slug": "panzos",
+    "name": "Panzós",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 237,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "coban",
+      "santa-rosa-de-copan",
+      "puerto-barrios",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Panzós es un municipio del departamento de Alta Verapaz, en Guatemala, con 62 125 habitantes según el censo oficial de 2002.",
+    "aboutTitle": "Panzós, municipio de Alta Verapaz en Guatemala",
+    "about": "Panzós es un municipio del departamento de Alta Verapaz, en la República de Guatemala. Según el censo oficial de 2002, la población del municipio era de 62 125 habitantes. Como entidad municipal, Panzós está integrado en la estructura administrativa del país, dependiente del gobierno departamental de Alta Verapaz y del gobierno nacional guatemalteco. La demografía reflejada por el censo de 2002 muestra la dimensión de la comunidad a comienzos del siglo XXI. El municipio comparte la historia y la cultura propias de la región de Alta Verapaz, caracterizada por su diversidad étnica y su entorno natural. La información disponible se limita a estos datos básicos, sin entrar en detalles sobre la distribución interna de la población o las competencias específicas de la administración local. Panzós se sitúa en el territorio del departamento, contribuyendo al entramado de municipios que conforman la unidad política del país. La autoridad municipal, elegida por los habitantes, representa al municipio en los órganos de gobierno departamental y nacional. La población registrada en 2002 constituye una referencia para estudios demográficos posteriores."
+  },
+  {
+    "slug": "tecate",
+    "name": "Tecate",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California",
+    "regionSlug": "baja-california",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tijuana",
+      "rosarito",
+      "san-diego",
+      "ensenada",
+      "mexicali",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tecate, de Baja California, recibió el sello de Pueblo Mágico en 2012; su clima mediterráneo y su altitud de 525 m la hacen atractiva para turismo y comercio.",
+    "aboutTitle": "Clima mediterráneo y patrimonio Pueblo Mágico de Tecate",
+    "about": "Tecate es una ciudad mexicana en el estado de Baja California, cabecera del municipio homónimo. Se sitúa en el noroeste del municipio, justo en la frontera con Estados Unidos, a una altura media de 525 m sobre el nivel del mar y con una superficie de 81.05 km². En 2012 recibió la etiqueta turística «Pueblo mágico» otorgada por la Secretaría de Turismo. El nombre proviene del kumiai ʼIitekat, que se interpreta como “árbol cortado”, aunque existen otras versiones que lo relacionan con “piedra cortada”, “agua limpia” o “lugar donde gira el sol”.\n\nEl clima es mediterráneo, con precipitaciones anuales de 260 mm concentradas en invierno, primavera y otoño; los inviernos son frescos, con una temperatura media de 11 °C y ocasionalmente bajo cero, mientras que los veranos alcanzan los 30 °C con brisas nocturnas. La actividad económica incluye programas municipales como “Tu Negocio al 100”, que otorga hasta 10 000 pesos para la formalización de establecimientos. Entre los eventos recientes destaca el torneo de pádel “SUMANDO CORAZONES”, programado del 9 al 11 de octubre de 2026."
+  },
+  {
+    "slug": "comitancillo",
+    "name": "Comitancillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "huehuetenango",
+      "tapachula",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Comitancillo es un municipio del departamento de San Marcos, Guatemala, con una población proyectada de 80.612 habitantes para 2021, según el censo de 2018.",
+    "aboutTitle": "Población proyectada de Comitancillo en 2021",
+    "about": "Comitancillo es un municipio del departamento de San Marcos, en la República de Guatemala. La entidad se reconoce oficialmente como municipio dentro de la estructura territorial guatemalteca y está incluida en los registros del departamento de San Marcos. Su ubicación geográfica corresponde al territorio del departamento de San Marcos.\n\nSegún el censo nacional de 2018, Comitancillo contaba con 78.157 habitantes. La proyección oficial para el año 2021 estimó una población de 80.612 habitantes, lo que indica un aumento de aproximadamente 2.455 personas en tres años. Estas cifras provienen del censo de 2018 y de la proyección publicada para 2021, y sirven como referencia demográfica para la planificación local. El crecimiento registrado refleja la dinámica poblacional del municipio en el periodo reciente. El censo de 2018 es la fuente oficial para la determinación de la población en ese año. La proyección para 2021 muestra una tendencia al alza en la población municipal."
+  },
+  {
+    "slug": "livingston",
+    "name": "Livingston",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 228,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Izabal",
+    "regionSlug": "departamento-de-izabal",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-barrios",
+      "san-pedro-sula",
+      "puerto-cortes",
+      "choloma",
+      "villanueva-honduras",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Livingston, municipio de Izabal en Guatemala, se distingue por su comunidad garífuna y platos típicos como el arroz con frijoles al coco.",
+    "aboutTitle": "Garífuna, gastronomía y puerto de Livingston en Izabal",
+    "about": "Livingston es un municipio guatemalteco del departamento de Izabal. Está poblado principalmente por habitantes de la etnia garífuna, que se situaron a mediados del siglo xviii, y constituye uno de los principales atractivos turísticos del país. Tras la Independencia de Centroamérica en 1821, Izabal pasó a ser un distrito dependiente del departamento de Verapaz y formó parte del circuito de Zacapa del Distrito №4 (Chiquimula) para la impartición de justicia. En el siglo XIX, casas comerciales inglesas establecieron rutas con puertos caribeños de Guatemala, Honduras y Nicaragua, y la zona vivió episodios de conflicto tras la expulsión de conservadores en 1829 y la pacificación lograda por el general Rafael Carrera en 1851.\n\nLa gastronomía de Livingston es única en la región; entre sus platos más representativos destacan el Rice and beans, arroz con frijoles que contiene coco, el tapado y el famoso pan de coco. Estos sabores reflejan la herencia garífuna y la influencia de las antiguas rutas comerciales del Caribe."
   }
 ];
