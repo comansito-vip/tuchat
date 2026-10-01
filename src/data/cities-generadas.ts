@@ -6081,5 +6081,1501 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Livingston, municipio de Izabal en Guatemala, se distingue por su comunidad garífuna y platos típicos como el arroz con frijoles al coco.",
     "aboutTitle": "Garífuna, gastronomía y puerto de Livingston en Izabal",
     "about": "Livingston es un municipio guatemalteco del departamento de Izabal. Está poblado principalmente por habitantes de la etnia garífuna, que se situaron a mediados del siglo xviii, y constituye uno de los principales atractivos turísticos del país. Tras la Independencia de Centroamérica en 1821, Izabal pasó a ser un distrito dependiente del departamento de Verapaz y formó parte del circuito de Zacapa del Distrito №4 (Chiquimula) para la impartición de justicia. En el siglo XIX, casas comerciales inglesas establecieron rutas con puertos caribeños de Guatemala, Honduras y Nicaragua, y la zona vivió episodios de conflicto tras la expulsión de conservadores en 1829 y la pacificación lograda por el general Rafael Carrera en 1851.\n\nLa gastronomía de Livingston es única en la región; entre sus platos más representativos destacan el Rice and beans, arroz con frijoles que contiene coco, el tapado y el famoso pan de coco. Estos sabores reflejan la herencia garífuna y la influencia de las antiguas rutas comerciales del Caribe."
+  },
+  {
+    "slug": "tihuatlan",
+    "name": "Tihuatlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 231,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "poza-rica-de-hidalgo",
+      "alamo",
+      "coatzintla",
+      "alto-lucero",
+      "tuxpam-de-rodriguez-cano",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tihuatlán, municipio veracruzano con 80.923 habitantes, es la capital del mueble del estado y se ubica a 60 m sobre el nivel del mar.",
+    "aboutTitle": "Tihuatlán, la capital del mueble de Veracruz",
+    "about": "Tihuatlán es un municipio del estado de Veracruz, situado en la región de la Huasteca Veracruzana. Según el último censo del INEGI (2010) la población total del municipio es de 80.923 habitantes, mientras que su cabecera homónima cuenta con 15.305 residentes. El municipio se ubica a 60 metros sobre el nivel del mar, en las coordenadas 18° 27′ N y 96° 21′ O. Limita al norte con los municipios de Álamo Temapache y Tuxpan, al este con Cazones, Poza Rica y Papantla, y al oeste con Castillo de Teayo y el estado de Puebla. Parte de la mancha urbana de Poza Rica, forma parte de la zona metropolitana de esa ciudad. Fue fundado en 1598 por el Sr. Rodrigo Zárate por orden del gobierno virreinal. El 30 de septiembre de 1920 la congregación se convirtió en municipio libre; en 1955 se introdujo la energía eléctrica bajo la presidencia municipal de Catarino Badillo Juárez, y el 1 de octubre de 1963 se elevó a la categoría de villa. Es conocido como la capital del mueble en Veracruz por concentrar el mayor número de mueblerías y carpinterías, y se le denomina el portón de oro de la Huasteca veracruzana por estar en la frontera de las culturas huasteca y totonaca."
+  },
+  {
+    "slug": "francisco-de-orellana",
+    "name": "Francisco de Orellana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 183,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Orellana",
+    "regionSlug": "orellana",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valle-del-guamuez",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Francisco de Orellana, cantón de la provincia homónima en Ecuador, tiene como cabecera a la ciudad de Coca, situada en plena selva amazónica.",
+    "aboutTitle": "Ríos Napo, Payamino y Coca en el cantón Francisco de Orellana",
+    "about": "El cantón Francisco de Orellana forma parte de la provincia de Orellana, en la región amazónica de Ecuador. Limita al norte con el cantón Joya de los Sachas, al sur con las provincias de Napo y Pastaza, al este con el cantón Aguarico y al oeste con el cantón Loreto. Su cabecera cantonal es la ciudad de Coca, donde se concentra gran parte de la población. La organización territorial comprende la parroquia urbana Coca y once parroquias rurales: Alejandro Labaka, Armenia, Dayuma, El Dorado, El Edén, García Moreno, Guayusa, Inés Arango, La Belleza, Nuevo Paraíso y Taracoa. El gobierno municipal se rige por la Constitución Política Nacional y está integrado por el alcalde, como autoridad ejecutiva, y el concejo cantonal, como órgano legislativo. El himno del cantón alaba la selva y menciona los ríos Napo, Payamino y Coca como guardianes del territorio, reflejando la estrecha relación entre la comunidad y sus recursos naturales."
+  },
+  {
+    "slug": "san-martin-jilotepeque",
+    "name": "San Martín Jilotepeque",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antigua-guatemala",
+      "mixco",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "villa-nueva",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Martín Jilotepeque, municipio de Chimaltenango, tiene 89.190 habitantes (censo 2018) y su nombre náhuatl significa “en el cerro de maíz tierno”.",
+    "aboutTitle": "Origen náhuatl y legado colonial de San Martín Jilotepeque",
+    "about": "San Martín Jilotepeque es un municipio del departamento de Chimaltenango, en la República de Guatemala. Según el censo oficial de 2018, tenía una población de 89.190 habitantes. El nombre combina la referencia al santo patrono, San Martín de Tours, y el término náhuatl «Jilotepeque», que significa “en el cerro de maíz tierno”, aludiendo al relieve local.\n\nDurante la época colonial la población formó parte de una doctrina de los frailes dominicos hasta 1754, cuando pasó al clero secular. Tras los terremotos de Santa Marta de 1773, varias familias desplazadas de la ciudad de Santiago de los Caballeros de Guatemala se establecieron allí. Tras la independencia de Centroamérica en 1821, San Martín Jilotepeque fue uno de los municipios originales del Estado de Guatemala, formalmente constituido en 1825 y asignado al circuito de San Juan Comalapa en el Distrito N.º 8 (Sacatepéquez) para la impartición de justicia mediante juicios de jurado. El terremoto de 1976 destruyó casi en su totalidad la localidad, que ha sido reconstruida desde entonces."
+  },
+  {
+    "slug": "itaugua",
+    "name": "Itauguá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 207,
+    "activity": "Media",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento Central",
+    "regionSlug": "departamento-central",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "capiata",
+      "san-lorenzo-paraguay",
+      "fernando-de-la-mora",
+      "luque",
+      "lambare",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Itauguá, a 30 km de Asunción, fue declarada capital del ñandutí en 2012 y cuenta con 93 213 habitantes según el censo de 2022.",
+    "aboutTitle": "Itauguá: capital del ñandutí y su vínculo con el lago Ypacaraí",
+    "about": "Itauguá es una ciudad y distrito del departamento Central de Paraguay, situada a unos 30 km de Asunción, con territorio que se extiende hacia la costa suroeste del lago Ypacaraí. Limita con los distritos de Areguá, Capiatá, Itá, Julián Augusto Saldívar, Pirayú y Ypacaraí. Según el censo paraguayo de 2022, su población asciende a 93 213 habitantes. La fundación se atribuye al gobernador Martín de Barúa en 1728, aunque la historiografía local discute la fecha exacta y el proceso de poblamiento. Entre sus patrimonios destacan la iglesia Nuestra Señora del Rosario y casas seriadas de época colonial.\n\nLa actividad económica combina comercio, industria, agropecuaria y artesanía; en el ámbito artesanal destaca la elaboración del ñandutí, tejido tradicional que llevó a la declaración de Itauguá como capital del ñandutí en 2012 mediante la ley 4591. La música, el folclore y las festividades religiosas forman parte del calendario cultural, y el entorno natural incluye el lago Ypacaraí y varios cursos de agua que rodean el distrito."
+  },
+  {
+    "slug": "san-jose-pinula",
+    "name": "San José Pinula",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Guatemala",
+    "regionSlug": "departamento-de-guatemala",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "villa-nueva",
+      "mixco",
+      "antigua-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San José Pinula, municipio guatemalteco a 22 km de la capital, se constituyó el 1 de octubre de 1886 y forma parte de las 20 ciudades más importantes del país.",
+    "aboutTitle": "San José Pinula: origen, límites y demografía",
+    "about": "San José Pinula es un municipio del Departamento de Guatemala, situado a 22 km de la capital. Se constituyó como municipio el 1 de octubre de 1886 y fue fundado por el expresidente Manuel Lisandro Barillas. Su nombre, que significa «Tierra del Pinol», proviene de la combinación de la palabra pipil «Pinul» (harina de pinole) y «Ha» (agua), aunque también se relaciona con la lengua indígena «Pancac», interpretada como «entre guayabas». Forma parte de las 20 ciudades más importantes de Guatemala. Actualmente el municipio forma parte de las 20 ciudades más importantes de Guatemala.\n\nLimita al norte con Palencia y la Ciudad de Guatemala, al sur con Santa Rosa de Lima (departamento de Santa Rosa), al este con Mataquescuintla (Jalapa) y al oeste con Santa Catarina Pinula y Fraijanes. Según el censo de 2002 la población era de 51.023 habitantes, con una densidad de 139 hab/km²; el 66 % vivía en zona urbana y el 33,5 % en zona rural, y el 3,8 % de los residentes se declaraba indígena, mayoritariamente kaqchiq."
+  },
+  {
+    "slug": "minga-guazu",
+    "name": "Minga Guazú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 142,
+    "votes": 231,
+    "activity": "Media",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Alto Paraná",
+    "regionSlug": "departamento-de-alto-parana",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-del-este",
+      "puerto-iguazu",
+      "wanda",
+      "eldorado",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Minga Guazú es un municipio y ciudad del Alto Paraná, Paraguay, a 13 km del microcentro de Ciudad del Este y parte de su área metropolitana.",
+    "aboutTitle": "Minga Guazú, fundada en 1958 como Colonia Presidente Stroessner",
+    "about": "Minga Guazú es un municipio y ciudad paraguaya situada en la zona central del departamento de Alto Paraná. La población se ubica a 13 km del microcentro de Ciudad del Este, integrándose al área metropolitana de esa ciudad. Su origen se remonta a 1958, cuando fue establecida como una colonia bajo el nombre de «Colonia Presidente Stroessner». Durante los primeros años la comunidad mantuvo esa denominación, que alude a la autoridad que dirigía el país en aquella época. Con el desarrollo de la zona y la expansión urbana, la colonia adoptó el nombre de Minga Guazú, conservando su condición de municipio y ciudad dentro del marco administrativo de Alto Paraná. La posición cercana a Ciudad del Este ha influido en su crecimiento, aunque la localidad sigue conservando su propia identidad dentro del contexto regional. El relato histórico de su fundación y cambio de nombre constituye una referencia clave para comprender su evolución y la organización de su población en los años iniciales."
+  },
+  {
+    "slug": "tucupita",
+    "name": "Tucupita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 210,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Delta Amacuro",
+    "regionSlug": "delta-amacuro",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-guayana",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tucupita, capital de Delta Amacuro, está a 110 km de la costa y celebra su fundación el 31 de julio de 1848; su historia incluye el auge petrolero.",
+    "aboutTitle": "Caño Mánamo, la puerta fluvial de Tucupita y su legado petrolero",
+    "about": "Tucupita, capital del estado Delta Amacuro, se localiza en la orilla oriental del caño Mánamo, a 110 km de la costa y a 717 km de Caracas. Fundada oficialmente el 31 de julio de 1848 por colonos provenientes de la Isla de Margarita, la ciudad sustituyó al asentamiento al que Sir Walter Raleigh describió como “Tucupity Village” en el siglo XVI. Fue declarada capital del Territorio Federal Delta el 24 de enero de 1888, aunque entre 1901 y 1905 perdió ese estatus a favor de San José de Amacuro, para recuperarlo posteriormente. El descubrimiento de petróleo en 1933 impulsó un fuerte crecimiento que se mantuvo hasta mediados de la década de 1960, dejando una huella en la economía local con refinerías, aserraderos y servicios administrativos que concentran el 84,0 % de la población municipal. En 1991 Delta Amacuro pasó a ser estado, reafirmando a Tucupita como capital regional. La ciudad combina la cultura ancestral de los waraos con la mestiza surgida tras la colonización, y para 2023 contaba con 130 532 habitantes."
+  },
+  {
+    "slug": "tafi-viejo",
+    "name": "Tafí Viejo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 143,
+    "votes": 247,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Tucumán",
+    "regionSlug": "provincia-de-tucuman",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tucuman",
+      "lules",
+      "famailla",
+      "monteros",
+      "termas-de-rio-hondo",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tafí Viejo, a 10 km de San Miguel de Tucumán, es conocida por el Festival Nacional del Limón. Fundada en 1900, la ciudad mantiene su tradición citrícola.",
+    "aboutTitle": "Capital del limón y su Festival en Tafí Viejo",
+    "about": "Tafí Viejo es una ciudad de la provincia de Tucumán, Argentina, ubicada a 10 km al noroeste de San Miguel de Tucumán y cabecera del departamento homónimo. Fue fundada en 1900 y cuenta con 85.548 habitantes, lo que la convierte en la segunda ciudad más grande de la provincia después del Gran San Miguel de Tucumán.\n\nEl nombre proviene del vocablo aimara Thaaui, que significa «lugar donde sopla aire frío», referencia a su posición a los pies de la Sierra de San Javier y a la diferencia térmica con la capital. La economía local está dominada por la citricultura; la ciudad es la capital nacional del limón y celebra cada año el Festival Nacional del Limón. Su desarrollo urbano estuvo ligado a los Talleres Ferroviarios de Tafí Viejo, considerados entre los más grandes del Cono Sur; obtuvieron el título de municipalidad el 2 de junio de 1939. El cierre de los talleres en 1980 supuso un duro golpe económico y social, y se reabrieron el 24 de enero de 1984, reactivando parte de la actividad industrial."
+  },
+  {
+    "slug": "concepcion-tutuapa",
+    "name": "Concepción Tutuapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 177,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "tapachula",
+      "solola",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Concepción Tutuapa, municipio del suroeste de Guatemala, proyecta 84.138 habitantes en 2021 según datos oficiales.",
+    "aboutTitle": "Crecimiento poblacional de Concepción Tutuapa (2018‑2021)",
+    "about": "Concepción Tutuapa es un municipio del departamento de San Marcos, situado en el suroeste de la República de Guatemala. Como entidad administrativa, forma parte de la estructura política del país y está incluida dentro de los municipios que componen el departamento de San Marcos. Su posición geográfica en el suroeste del territorio nacional lo ubica dentro de la zona centroamericana de Guatemala.\n\nSegún el censo nacional realizado en 2018, Concepción Tutuapa registró una población de 80.161 habitantes. Las proyecciones oficiales para el año 2021 estiman que el número de residentes ascendió a 84.138, lo que indica un crecimiento demográfico entre ambos períodos. Estos datos demográficos reflejan la tendencia de aumento poblacional en el municipio y aportan una referencia cuantitativa para la planificación local y regional. La información proviene de los registros oficiales de población, que sirven como base para la evaluación de la evolución social y económica de la localidad."
+  },
+  {
+    "slug": "la-piedad-de-cabadas",
+    "name": "La Piedad de Cabadas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 144,
+    "votes": 247,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arandas",
+      "la-barca",
+      "atotonilco-el-alto",
+      "jamay",
+      "ocotlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Piedad de Cabadas, en Michoacán, cuenta con 87.042 habitantes (Censo 2020) y es la quinta ciudad más poblada del estado.",
+    "aboutTitle": "Parroquia del Señor de La Piedad, símbolo histórico de La Piedad",
+    "about": "La Piedad de Cabadas es la cabecera del municipio de La Piedad, situado en el estado de Michoacán, México. Según el Censo de 2020, la localidad cuenta con 87.042 habitantes, lo que la convierte en la quinta ciudad más poblada del estado. Su zona metropolitana forma la 60.ª área metropolitana más poblada de México, con 261.450 habitantes. El nombre de La Piedad proviene de la devoción popular a la imagen venerada en la Parroquia del Señor de La Piedad, un templo del siglo XVIII, y en 1871 se le asignó el nombre actual en memoria del sacerdote José María Cavadas.\n\nLos hallazgos arqueológicos, como fragmentos de cerámica, obsidiana tallada y petroglifos, demuestran la presencia humana en la región desde épocas remotas, especialmente en la comunidad de Zaragoza y en sitios como Potrerillos y Cerro del Muerto. Investigaciones recientes confirman que, en época prehispánica, existió un asentamiento purépecha sedentario y agrícola en el área, descartándose la presencia de tribus chichimecas o nómadas guamares en la zona actual de La Piedad."
+  },
+  {
+    "slug": "la-trinitaria",
+    "name": "La Trinitaria",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 199,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "concepcion-tutuapa",
+      "huehuetenango",
+      "queretaro",
+      "san-marcos-guatemala",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Trinitaria, municipio chiapaneco a 162 km de Tuxtla Gutiérrez, celebra la feria de la Santísima Trinidad, su principal fiesta patronal.",
+    "aboutTitle": "La Trinitaria, Chiapas: historia, geografía y entorno natural",
+    "about": "El municipio de La Trinitaria forma parte de los 124 municipios de Chiapas y se sitúa a 162 km de la capital estatal, Tuxtla Gutiérrez. Sus coordenadas extremas son 16°13' de latitud norte al norte y 15°45' al sur, mientras que la longitud varía entre 91°22' y 92°13' oeste. Limita al norte con La Independencia y Las Margaritas, al este con Huehuetenango (Guatemala), al sur con Frontera Comalapa y al oeste con Socoltenango, Tzimol y Comitán de Domínguez. En tiempos prehispánicos la zona se llamaba Zapaluta y en 1911 el gobernador chiapaneco Flavio Guillén decretó que la futura cabecera municipal se llamara La Trinitaria, nombre que se conserva por la feria anual en honor a la Santísima Trinidad. Los habitantes locales, los tojolabales, la conocen como \"Tierra de plátanos\". El clima de La Trinitaria es semicálido subhúmedo con lluvias en verano y la vegetación predominante corresponde a bosque de pino‑encino. Dentro del municipio se encuentra el parque nacional Lagunas de Montebello, famoso por sus lagunas y las cavernas del Puente de Dios, y el área natural Lagos de Colón, también visitada por sus lagunas y cascadas. La zona se extiende sobre 60.22 km² y está a 40 km de la cabecera municipal por la carretera La Trinitaria‑Lagos de Montebello."
+  },
+  {
+    "slug": "pastaza-pastaza",
+    "name": "Pastaza",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 208,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Pastaza",
+    "regionSlug": "pastaza",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "latacunga",
+      "ambato",
+      "sangolqui",
+      "riobamba",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pastaza, el cantón más extenso de Ecuador con 19 727 km² y 82.754 habitantes, destaca por su diversidad indígena y la capital Puyo.",
+    "aboutTitle": "Pastaza: el cantón más extenso y su diversidad indígena",
+    "about": "Pastaza es una entidad territorial subnacional ecuatoriana perteneciente a la provincia homónima. Su cabecera cantonal es la ciudad de Puyo, que concentra gran parte de los 82.754 habitantes registrados en el censo de 2022. Con una superficie de 19.727 km² y una densidad de apenas 3,14 hab/km², el cantón es el más extenso del país, superando a 21 de las 24 provincias en extensión territorial.\nEn su territorio conviven siete nacionalidades e identidades indígenas —shuar, achuar, shiwiar, kichwa, andwa, sapara y waodani— que mantienen sus tradiciones y formas de organización. Administrativamente, Pastaza se divide en catorce parroquias, entre ellas la urbana Puyo y rurales como Canelos, Diez de agosto, Fátima o Río Tigre. Limita al norte con los cantones de Santa Clara, Arajuno y Mera, al sur y este con el Perú y la provincia de Morona Santiago, y al oeste con el cantón Mera y Morona Santiago. El alcalde Germán Flores Meza ejerce el mandato 2023‑2027. Además, ocupa el undécimo lugar entre los cantones con menor densidad poblacional."
+  },
+  {
+    "slug": "tacana",
+    "name": "Tacaná",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "concepcion-tutuapa",
+      "san-marcos-guatemala",
+      "tapachula",
+      "huehuetenango",
+      "quetzaltenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tacaná, municipio fronterizo de San Marcos en Guatemala, cuenta con 82.079 habitantes y se sitúa a 2.242 m sobre el nivel del mar, bajo el volcán Tacaná.",
+    "aboutTitle": "Tacaná y el volcán que lo domina en la frontera guatemalteco‑mexicana",
+    "about": "Tacaná es un municipio del departamento de San Marcos, situado en la frontera con México y al pie del volcán que lleva su nombre. Con una extensión de 302 km², su altitud promedio es de 2.242 m s.n.m. y la cabecera municipal disfruta de un clima templado (Köppen Cwb). Según el censo oficial de 2018, la población asciende a 82.079 habitantes. Durante la época colonial fue una doctrina de los frailes mercedarios y, tras la entrega de sus reducciones al clero secular en 1754, pasó a formar parte del curato de Cuilco.\n\nTras la independencia de Centroamérica en 1821, Asunción Tacaná se incorporó al Estado de Los Altos, aprobado por el Congreso de la República Federal de Centroamérica en 1838. Las constantes revueltas campesinas culminaron en 1840 cuando el general Rafael Carrera recuperó la región para Guatemala. La frontera con México quedó establecida en 1896 mediante el Tratado Herrera‑Mariscal, suscrito por el presidente Justo Rufino Barrios en 1882, lo que supuso la pérdida guatemalteca de cerca de 10.300 km². En 2005 la zona sufrió graves daños por la tormenta Stan."
+  },
+  {
+    "slug": "ita",
+    "name": "Itá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento Central",
+    "regionSlug": "departamento-central",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "itaugua",
+      "capiata",
+      "san-lorenzo-paraguay",
+      "fernando-de-la-mora",
+      "luque",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Itá, situada a 37 km de Asunción en el Departamento Central, fue fundada en 1539 y se reconoce como la ciudad del cántaro y la miel, con 69 049 habitantes.",
+    "aboutTitle": "Itá, la ciudad del cántaro y la miel",
+    "about": "Itá se ubica a 37 km de Asunción, en el Departamento Central de Paraguay, y se accede por la Ruta D027 que se enlaza con la Ruta PY01. Fundada en 1539 por el gobernador Domingo Martínez de Irala, la fecha tradicional de su fundación es el 3 de febrero, día de San Blás, patrono de la localidad. El 24 de mayo de 1884 se convirtió en distrito. Según el censo de 2022, la población es de 69 049 habitantes. El topónimo Itá proviene de una expresión guaraní que significa «grupo», aunque otra versión lo asocia con la palabra para piedra. La ciudad es conocida como la capital de la cerámica y como la ciudad del cántaro y la miel. Durante la reducción franciscana, el fraile Tomás de Aquino enseñó a las mujeres locales la elaboración de cántaros de barro, aprovechando la abundancia de arcilla del territorio; al mismo tiempo se desarrolló la producción de miel de caña, favorecida por la presencia de cultivos de caña de azúcar. Entre sus barrios destacan San Blas (antiguo y original), Sportivo, Cerro Corá, San Antonio y Villa Rossana I."
+  },
+  {
+    "slug": "san-cristobal-verapaz",
+    "name": "San Cristóbal Verapaz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 237,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "san-martin-jilotepeque",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Cristóbal Verapaz, municipio de Alta Verapaz en Guatemala, está a unos 29 km de Cobán y forma parte del bosque lluvioso de clima oceánico.",
+    "aboutTitle": "Bosque lluvioso y territorio Poqomchi' de San Cristóbal Verapaz",
+    "about": "San Cristóbal Verapaz es un municipio guatemalteco que depende administrativamente del departamento de Alta Verapaz. Se encuentra dentro de la zona conocida como Bosque lluvioso de clima oceánico, una área natural que cubre gran parte del territorio de la región. La población del municipio está situada a una distancia aproximada de 29 kilómetros de la cabecera departamental, la ciudad de Cobán, y a unos 210 kilómetros de la capital del país, la Ciudad de Guatemala. En cuanto a la composición lingüística, San Cristóbal Verapaz forma parte del territorio lingüístico Poqomchi', una de las lenguas que se hablan en la zona. Estos datos sitúan al municipio como un punto geográfico relevante dentro del entramado de Alta Verapaz y del bosque lluvioso guatemalteco. Esta ubicación intermedia permite que el municipio mantenga relaciones tanto con la cabecera departamental como con la capital nacional, sin estar demasiado alejado de ninguno de los dos centros urbanos. El entorno natural del Bosque lluvioso de clima oceánico confiere al territorio una cobertura forestal característica de la región alta del país."
+  },
+  {
+    "slug": "nueva-guinea",
+    "name": "Nueva Guinea",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 195,
+    "activity": "Media",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Región Autónoma de la Costa Caribe Sur",
+    "regionSlug": "region-autonoma-de-la-costa-caribe-sur",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bluefields",
+      "nicaragua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Guinea es el municipio más poblado de la Región Autónoma de la Costa Caribe Sur y se destaca por su desarrollo dentro de Nicaragua.",
+    "aboutTitle": "Griterías de Nueva Guinea: tradición y celebración en diciembre",
+    "about": "Nueva Guinea es un municipio de la Región Autónoma de la Costa Caribe Sur, en Nicaragua, y el más poblado de la región autónoma. Se reconoce como uno de los municipios más desarrollados de la zona. Entre sus localidades se encuentran Nueva Guinea, Verdún, Jerusalén, Los Ángeles, Yolaina, La Esperanza y Río Plata, así como El Paraisito, Santa Rosa, La Unión y muchas otras que aparecen en el registro municipal. Algunas de estas localidades comparten territorio con municipios vecinos, como Bluefields y El Rama.\n\nEn diciembre de 2025 la comunidad celebró la tradicional Gritería, un evento que llenó el Parque Central de fe y alegría. En el mismo mes se inauguró una unidad policial en la colonia Naciones Unidas y se anunció el mejoramiento y ampliación del sistema de agua potable en la colonia El Verdún, reflejando el compromiso municipal con la seguridad y los servicios básicos. El municipio forma parte de la estructura administrativa de la Costa Caribe Sur y colabora con la alcaldía para impulsar proyectos locales."
+  },
+  {
+    "slug": "cotui",
+    "name": "Cotuí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Sánchez Ramírez",
+    "regionSlug": "sanchez-ramirez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "la-vega",
+      "moca",
+      "republica-dominicana",
+      "santo-domingo",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cotuí, municipio cabecera de la provincia de Sánchez Ramírez en la República Dominicana, con una población de 84.193 habitantes.",
+    "aboutTitle": "Cotuí, la ciudad de oro y plata en la República Dominicana",
+    "about": "Cotuí es un municipio de la República Dominicana, situado en la provincia de Sánchez Ramírez. Su nombre proviene de la comunidad taína ubicada alrededor de la mina de oro y plata explotada por los conquistadores españoles en el siglo XVI. Su nombre, escrito antiguamente Cotuy o Cotoy, era el nombre de la comunidad taína ubicada alrededor de la mina de oro y plata explotada por los conquistadores españoles a partir de la primera década del siglo XVI. La ciudad de Cotuí fue fundada oficialmente en 1505 por Rodrigo Trillo de Mexía, durante el gobierno de Nicolás de Ovando, en el lugar que ocupaba una población indígena. Los Padres Jerónimos luego la separaron de dicha jurisdicción y la establecieron como centro de explotación minera con el nombre de La Mejorada del Cotuí, también llamada Los Mineros en la segunda década del siglo XVI. En 1533, Cotuí adquirió categoría de villa y comenzó a conocerse como La Mejorada Villa del Cotuí. Un fuerte terremoto asoló la villa en 1562 y fue trasladada a su ubicación actual, al suroeste de la Sierra de Yamasá y próxima al río Yuna. La población urbana del municipio ha ido creciendo a lo largo de los años, pasando de 1036 habitantes en 1920 a 54.609 habitantes en 2022, según el Censo de Población y Vivienda."
+  },
+  {
+    "slug": "nagua",
+    "name": "Nagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "María Trinidad Sánchez",
+    "regionSlug": "maria-trinidad-sanchez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "cotui",
+      "moca",
+      "la-vega",
+      "santiago-de-los-caballeros",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nagua es un municipio de la República Dominicana situado en la provincia de María Trinidad Sánchez, ubicado en la desembocadura del río Nagua.",
+    "aboutTitle": "Río Nagua y la historia del municipio",
+    "about": "Nagua se localiza en el nordeste de la costa de la península de Samaná, en la carretera que lleva de Puerto Plata al municipio de Samaná. Antes de la creación de la provincia María Trinidad Sánchez en 1959, su territorio formaba parte de la provincia Samaná. El municipio fue fundado en la desembocadura del río Nagua bajo el nombre de Boca de Nagua. Mediante la ley del congreso nacional n.º 1154 del 24 de agosto de 1938, se designó el nombre de Villa Julia Molina como homenaje a la madre de Rafael Trujillo, denominación que fue suprimida posteriormente por el de María Trinidad Sánchez tras la caída del dictador. Fue proclamada municipio oficialmente mediante la Ley 1526 del Congreso Nacional, promulgada el 27 de junio de 1938. El 4 de agosto de 1946, un maremoto destruyó la comunidad de Matanzas, dejándola sepultada bajo el agua y provocando numerosas muertes. A consecuencia de este tsunami y de su situación geográfica, el poblado se convirtió en poco tiempo en un núcleo de población amplio y desarrollado."
+  },
+  {
+    "slug": "ancon-provincia-de-lima",
+    "name": "Ancón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 184,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "callao",
+      "peru",
+      "lima",
+      "huacho",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ancón, distrito de la provincia de Lima, se encuentra a 43 km al norte del centro histórico de la capital peruana y es famoso por su balneario histórico.",
+    "aboutTitle": "El complejo arqueológico de Ancón y su balneario histórico",
+    "about": "Ancón es uno de los cuarenta y tres distritos que forman la provincia de Lima, en el departamento homónimo del Perú. Limita al norte con Aucallama (provincia de Huaral), al noreste con Huamantanga (provincia de Canta), al este con Carabayllo, al sur con Puente Piedra y Ventanilla (provincia constitucional del Callao), al suroeste con Santa Rosa y al oeste con el océano Pacífico. Se sitúa a 43 kilómetros al norte del centro histórico de Lima y es reconocido como balneario histórico. La palabra Ancón significa ensenada y constituye la capital y único núcleo urbano del distrito, el más septentrional y extenso de la provincia.\n\nEl origen de Ancón se remonta a hace unos 4.000 años, cuando la civilización Ancón‑Supe estableció un pueblo de pescadores en la zona. Durante la época colonial el asentamiento fue conocido como “Pueblo de Pescadores de Lancón”. En sus territorios se encuentra el complejo arqueológico de Ancón, donde en 1870 se descubrieron las primeras tumbas de una gran necrópolis. Las excavaciones revelaron tres períodos culturales: una fase muy antigua con influencia de Chavín de Huántar, una intermedia de la Cultura Huaura y una reciente dominada por las culturas Chancay e Inca. En 1959 el arqueólogo Jorge C. Muelle halló restos precerámicos bajo las capas del sitio."
+  },
+  {
+    "slug": "baracoa",
+    "name": "Baracoa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de Guantánamo",
+    "regionSlug": "provincia-de-guantanamo",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guantanamo",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Baracoa, la ciudad primada de Cuba, fundada en 1511 por Diego Velázquez, es un destino turístico en auge gracias a su belleza natural y rica historia.",
+    "aboutTitle": "La ciudad primada de Cuba y su rica historia",
+    "about": "Baracoa es una ciudad y municipio situados en la provincia de Guantánamo, Cuba. Fue fundada el 15 de agosto de 1511 con el nombre de Nuestra Señora de la Asunción de Baracoa por el conquistador español Diego Velázquez. Es el más antiguo asentamiento de la Isla después de la llegada de los colonizadores españoles y de ahí debe su nombre de Ciudad Primada.\n\nLa ciudad está situada entre los ríos Macaguanigua y Miel, y cuenta con atracciones naturales como el río Toa, marcado por numerosas cascadas, y el Yunque, una elevación que debe su nombre a la similitud con la pieza que usan los herreros. La ciudad también conserva la Cruz de la Parra, símbolo de la cristianidad, que trajera Cristóbal Colón en su primer viaje."
+  },
+  {
+    "slug": "fray-bartolome-de-las-casas",
+    "name": "Fray Bartolomé de las Casas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 208,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "san-cristobal-verapaz",
+      "flores",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fray Bartolomé de las Casas, fundado en 1980 por el presidente Fernando Lucas García, queda a 110 km de Cobán y economía se basa en cultivo de palma africana.",
+    "aboutTitle": "Fray Bartolomé de las Casas y su cultivo de palma africana",
+    "about": "Fray Bartolomé de las Casas es un municipio del departamento de Alta Verapaz, en la República de Guatemala, fundado en 1980 a instancias del presidente Fernando Romeo Lucas García en la región de Sebol. Se encuentra al norte del departamento, a 110 kilómetros de la cabecera departamental, Cobán, y a 325 kilómetros de la Ciudad de Guatemala; por la ruta Guatemala‑Río Dulce‑Cadenas‑Chahal‑Fray Bartolomé la distancia es de 420 kilómetros. La superficie del municipio asciende a 1.229 kilómetros cuadrados, equivalentes a 122.906 hectáreas. Su cabecera municipal presenta clima tropical (clasificación Köppen Af) y está situada en la vertiente que drena hacia el río La Pasión, lo que genera escasez de fuentes de agua en la zona oriental.\n\nLa topografía combina tierras altas sedimentarias con afloraciones calcáreas, montañas escarpadas, sumideros, cavernas y mogotes; la zona plana ocupa la parte central y noroccidental, mientras que el sur se caracteriza por la sierra de Chamá. La actividad comercial principal es el cultivo de palma africana, que sustenta la economía local. Limita al norte con los municipios de Sayaxché y San Luis (El Petén), al noreste con San Luis, al este con Chahal y al sur con Santa María Cahabón y San Pedro Carchá."
+  },
+  {
+    "slug": "nebaj",
+    "name": "Nebaj",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 194,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "concepcion-tutuapa",
+      "solola",
+      "san-cristobal-verapaz",
+      "quetzaltenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nebaj, municipio del Quiché en Guatemala, se sitúa a 254 km de la Ciudad de Guatemala y forma parte del triángulo Ixil.",
+    "aboutTitle": "Nebaj y el triángulo Ixil: historia y cultura",
+    "about": "Santa María Nebaj es un municipio del departamento de Quiché, en la República de Guatemala. Se ubica en la Franja Transversal del Norte, a 254 kilómetros de la Ciudad de Guatemala y a 91 kilómetros de la cabecera departamental de Quiché, por medio de la carretera departamental Quiché 3 y 6, asfaltada y transitable durante todo el año. Forma parte del área conocida como el triángulo Ixil, junto a Cotzal y Chajul, donde el idioma ixil se habla con variantes locales. El topónimo Nebaj proviene del ixil naab'a', que significa “lugar donde nace el agua”, y en documentos antiguos apareció escrito como “Nabah”.\n\nEn los alrededores del pueblo se halló una pieza de jade del sitio arqueológico Xe'Baj, prueba de la presencia milenaria de la cultura ixil. La mitología ixil señala la zona como cuna del cultivo del maíz, que según algunos investigadores se cultivaba ya en el año 3500 a. C. Estos vestigios reflejan la larga tradición agrícola y artesanal que caracteriza a Nebaj."
+  },
+  {
+    "slug": "tacambaro",
+    "name": "Tacámbaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 228,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "uruapan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tacámbaro, Heroica Tacámbaro de Codallos, es Pueblo Mágico de Michoacán desde 2012 y lleva el título de ciudad heroica desde 2011.",
+    "aboutTitle": "Tacámbaro de Codallos: Pueblo Mágico y Ciudad Heroica",
+    "about": "Tacámbaro de Codallos, conocida oficialmente como Heroica Tacámbaro de Codallos, es una localidad del estado de Michoacán de Ocampo. Se sitúa en el centro geográfico del estado y funciona como cabecera municipal del municipio que lleva su mismo nombre. En 2011 recibió el título de ciudad heroica, conmemorando 146 años desde la gesta heroica del general Nicolás de Régules, episodio que marcó la historia local. Un año después, en 2012, fue incorporada al programa de Pueblos Mágicos de México, reconocimiento que destaca su valor cultural e histórico. La condición de cabecera municipal la sitúa como núcleo administrativo de la zona circundante. Tanto el título de ciudad heroica como la designación de Pueblo Mágico forman parte de la identidad de Tacámbaro y subrayan su relevancia dentro de la región central de Michoacán. Desde 2012, Tacámbaro forma parte del catálogo de Pueblos Mágicos, lo que le brinda reconocimiento a nivel nacional. El estatus de ciudad heroica, concedido en 2011, sigue siendo un elemento distintivo de su identidad histórica."
+  },
+  {
+    "slug": "motozintla",
+    "name": "Motozintla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tacana",
+      "tapachula",
+      "concepcion-tutuapa",
+      "san-marcos-guatemala",
+      "queretaro",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Motozintla, en la Sierra Madre de Chiapas, fue declarada ciudad el 10 de agosto de 1954 y su nombre significa 'ladera de las ardillas'.",
+    "aboutTitle": "Río Motozintla-Mazapa y la fundación como ciudad el 10 de agosto",
+    "about": "Motozintla es un municipio de Chiapas, México, situado en la Sierra Madre de Chiapas. Sus coordenadas son 15° 22' N y 92° 15' W y ocupa 782.5 km², lo que representa el 1.03% del territorio estatal. Limita al norte con Siltepec, al oeste con Escuintla y Huixtla, al sur con Tuzantán y Tapachula, y al este con el departamento guatemalteco de San Marcos, además de Mazapa de Madero y El Porvenir al noreste. La población total asciende a 17.501 habitantes. El topónimo proviene del náhuatl Mototl, Zintl y tla, traducido como “ladera de las ardillas”. En sus cercanías se han hallado piezas arqueológicas de la cultura mochó, conservadas en el museo Pompilio Montesinos de la casa de la cultura. Motozintla de Mendoza está a 1260 metros de altitud. Los ríos Huixtla y Motozintla-Mazapa atraviesan el municipio, acompañados de arroyos como Las Cabañas, Llano Grande y Negro."
+  },
+  {
+    "slug": "grecia",
+    "name": "Grecia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 185,
+    "activity": "Media",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "cartago",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Grecia, el tercer cantón de la provincia de Alajuela en Costa Rica, con una economía diversificada y una rica historia.",
+    "aboutTitle": "La ciudad más limpia de América Latina",
+    "about": "Grecia es el tercer cantón de la provincia de Alajuela, en Costa Rica. Se ubica a 45 km de la capital San José y a 30 km de la ciudad de Alajuela. La economía de Grecia es diversificada, con una producción agrícola de café y caña de azúcar, y presencia de actividades industriales relacionadas con estos cultivos.\n\nAdemás, Grecia es parte de la ruta turística de la región occidental del Valle Central de Costa Rica, dada la existencia en el cantón de balnearios, cataratas, zonas protegidas y el templo católico de Nuestra Señora de las Mercedes, que es patrimonio histórico-arquitectónico de Costa Rica. En 1989, la ciudad de Grecia fue declarada la ciudad más limpia de América Latina."
+  },
+  {
+    "slug": "toa-baja",
+    "name": "Toa Baja",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 142,
+    "votes": 241,
+    "activity": "Media",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bayamon",
+      "puerto-rico",
+      "san-juan",
+      "guaynabo",
+      "trujillo-alto",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Toa Baja, municipio del norte de Puerto Rico, alberga el histórico Fortín San Juan de la Cruz del siglo XVII en la Isla de Cabras.",
+    "aboutTitle": "Ríos La Plata, Cocal y Hondo y el Fortín San Juan de la Cruz",
+    "about": "Toa Baja es un municipio situado en el área norte del Estado Libre Asociado de Puerto Rico. Según el censo de 2010 cuenta con 89.609 habitantes y forma parte del área metropolitana que incluye a San Juan, Bayamón, Guaynabo, Cataño, Carolina y Trujillo Alto. Limita al este con Bayamón, al oeste con Dorado, al sur con Toa Alta y al norte con el Océano Atlántico.\n\nEl territorio está regado por los ríos La Plata, Cocal y Hondo. El nombre proviene del vocablo taíno “toa”, que significa madre y hacía referencia al río La Plata, mientras que “baja” alude a sus extensas llanuras. La fundación tradicional se sitúa en 1745, año en que se estableció la pila bautismal y la primera partida parroquial. En la Isla de Cabras, dentro de la bahía de San Juan, se conserva el Fortín San Juan de la Cruz, un fuerte costero del siglo XVII incluido en el Sitio Histórico Nacional de San Juan."
+  },
+  {
+    "slug": "rioja-departamento-de-san-martin",
+    "name": "Rioja",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moyobamba",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rioja, ciudad del Alto Mayo en San Martín, Perú, fue fundada en 1782 como Santo Toribio de la Nueva Rioja y destaca por sus cascadas y gastronomía.",
+    "aboutTitle": "Cascadas, cuevas y patrimonio histórico de Rioja, San Martín",
+    "about": "Rioja es una ciudad peruana ubicada en el valle del Alto Mayo, al norte del departamento de San Martín. Fue fundada como Santo Toribio de la Nueva Rioja en 1782 y hoy es capital del distrito y la provincia homónimos. Según el censo de 2017 cuenta con 22 080 habitantes, cifra que refleja su crecimiento en la región.\n\nEl entorno natural de Rioja destaca por sus cascadas, cuevas y zonas arqueológicas, lo que la convierte en un destino para el turismo de aventura. La gastronomía local es reconocida por su variedad y sabor. El nombre de la ciudad se lo sugirió el fundador Juan José Martínez de Pinillos y Larios, originario de Nestares, La Rioja (España), y su etimología se relaciona con diferentes teorías sobre ríos y tierras de riachuelos. Antes de la llegada de los españoles, el área estuvo habitada por tribus como los Uquihua, Yorongos, Iranari, Nijaque, Toé, Avisados, Soritor y Yantaló, cuyos apellidos aún perduran."
+  },
+  {
+    "slug": "juchitan-de-zaragoza",
+    "name": "Juchitán de Zaragoza",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 195,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juchitán de Zaragoza, ciudad ubicada en el estado de Oaxaca, México, conocida por su tradición cultural zapoteca y fiestas tradicionales llamadas «velas».",
+    "aboutTitle": "La tradición cultural zapoteca en Juchitán de Zaragoza",
+    "about": "La Heroica Ciudad de Juchitán de Zaragoza es una ciudad ubicada en el estado de Oaxaca, México. Es la receptora de la tradición cultural zapoteca y es conocida por sus fiestas tradicionales, llamadas «velas», y los sones istmeños. Su nombre proviene del náhuatl Ixtaxochiltlán, que significa «Lugar de las Flores Blancas». La ciudad fue fundada en 1880 por grupos migratorios de distintos municipios y comunidades de distintas etnias indígenas, mixes y zoques.\n\nLa historia de Juchitán está relacionada con su ubicación geopolítica, que la coloca como centro de comunicaciones y lugar de paso para los pueblos y pequeñas ciudades del Istmo de Tehuantepec. En 2017, la ciudad sufrió los efectos del terremoto de Chiapas, y es hasta la fecha una de las poblaciones más afectadas."
+  },
+  {
+    "slug": "jiquipilco",
+    "name": "Jiquipilco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 201,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xonacatlan",
+      "san-andres-cuexcontitlan",
+      "san-pablo-autopan",
+      "san-jose-guadalupe-otzacatipan",
+      "san-mateo-otzacatipan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jiquipilco, conocido como la capital mexiquense del pulque, es un municipio del Estado de México ubicado al noroeste del Valle de Toluca.",
+    "aboutTitle": "La capital mexiquense del pulque",
+    "about": "Jiquipilco es uno de los 125 municipios del Estado de México y se encuentra ubicado al noroeste del Valle de Toluca. El municipio produce el 40% de pulque del Estado de México desde 1873, lo que lo ha llevado a ser considerado como la capital mexiquense del pulque. Cada año, en el tercer viernes de marzo al tercer sábado de dicho mes, se lleva a cabo la Expo. Feria Del Pulque en honor a esta bebida ancestral.\n\nEn 1274, los otomíes se asentaron en Jiquipilco, fascinados por la variedad de flora y fauna del valle. En la serranía había maguey en abundancia, planta que utilizaban para obtener agujas para coser su vestimenta y con la fibra de esta planta elaboraban ayates, sogas, calzado, morrales y más."
+  },
+  {
+    "slug": "uspantan",
+    "name": "Uspantán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 206,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "nebaj",
+      "san-cristobal-verapaz",
+      "coban",
+      "san-martin-jilotepeque",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Uspantán, municipio del departamento de Quiché en Guatemala, habitado en la época precolombina por el pueblo uspanteko.",
+    "aboutTitle": "Uspantán, en la sierra de los Cuchumatanes",
+    "about": "Uspantán es un municipio del departamento de Quiché en la República de Guatemala. Fue habitado en la época precolombina por el pueblo uspanteko. Cuando los españoles e indígenas tlaxcaltecas y cholultecas invadieron Guatemala en la década de 1520, Uspantán y otros poblados indígenas ixiles y uspantekos resistieron varios años a la conquista gracias a su ubicación en la sierra de los Cuchumatanes y a la ferocidad de sus guerreros.\n\nLuego de la Independencia de Centroamérica en 1821, Uspantán fue parte del departamento de Sololá/Suchitepéquez hasta que el 12 de agosto de 1872, el gobierno de facto del presidente provisorio Miguel García Granados creó el departamento de Quiché, al que ha pertenecido desde entonces. En el siglo XX, estuvo incluido dentro de la Franja Transversal del Norte creada por el gobierno de Carlos Arana Osorio en 1970, y a raíz del descubrimiento de petróleo en su subsuelo, estuvo en medio de los más aguerridos combates entre el Ejército Guerrillero de los Pobres y el Ejército de Guatemala entre 1978 y 1983. El Ejército de Guatemala aplicó la política de tierra arrasada en la región para eliminar a los militantes guerrilleros y aprovechar los recursos petroleros, aunque la inestabilidad impidió su explotación. Campesinos de Uspantán, con la colaboración del embajador Máximo Cajal, intentaron ocupar la Embajada de España en Guatemala para llamar la atención internacional; el gobierno del general Fernando Romeo Lucas tomó las instalaciones por la fuerza, provocando la muerte de los ocupantes."
+  },
+  {
+    "slug": "huechuraba",
+    "name": "Huechuraba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región Metropolitana de Santiago",
+    "regionSlug": "region-metropolitana-de-santiago",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "santiago-de-chile",
+      "quillota",
+      "vina-del-mar",
+      "rancagua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huechuraba, comuna del norte de Santiago, se divide por los cerros Punta Mocha y La Región y fue cruzada por Pedro de Valdivia en 1540.",
+    "aboutTitle": "Huechuraba: de la acequia histórica al desarrollo industrial",
+    "about": "Huechuraba es una comuna situada en la zona norte de la ciudad de Santiago, capital de Chile. Limita al oriente con Vitacura y Lo Barnechea, al poniente con Quilicura, al sur con Recoleta y Conchalí, y al norte con Colina, específicamente los sectores de Chamisero y Chicureo. El nombre proviene del mapudungún wechun raüwe, que significa lugar de greda en lo alto, y la comuna está dividida en dos por los cerros Punta Mocha y La Región.\n\nLa zona tiene una ocupación humana milenaria. Los incas estuvieron presentes durante casi un siglo y, antes de la llegada de los españoles, los Promaucaes habitaban el valle, llamando a la zona Conchalí, lugar de estiércol en quechua. En 1540, Pedro de Valdivia arribó, cruzando el valle de Huechuraba, y la primera acequia conocida de la zona lleva su nombre. Durante la colonia, la zona se dedicó a la agricultura para abastecer a Santiago, y a mediados del siglo pasado surgió un desarrollo industrial a lo largo del río Mapocho, cercano a la línea férrea que une Santiago con Valparaíso."
+  },
+  {
+    "slug": "chalchuapa",
+    "name": "Chalchuapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Santa Ana",
+    "regionSlug": "departamento-de-santa-ana",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-ana",
+      "ahuachapan",
+      "sonsonate",
+      "santa-tecla",
+      "apopa",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chalchuapa, a 13 km al oeste de Santa Ana y 78 km de San Salvador, pertenece al municipio de Santa Ana Oeste, en departamento de Santa Ana, y se eleva a 720 m.",
+    "aboutTitle": "Chalchuapa: ciudad de 720 m de altitud a 13 km de Santa Ana",
+    "about": "Chalchuapa es una ciudad y distrito que forma parte del municipio de Santa Ana Oeste, en el departamento de Santa Ana, ubicado en la zona occidental de El Salvador. Se sitúa a 13 km al oeste de la ciudad de Santa Ana y a 78 km de la capital, San Salvador, a una elevación de 720 m sobre el nivel del mar. Con una superficie total de 165,76 km², el territorio combina entornos rurales y urbanos. El uso del suelo está dominado por áreas rurales, que representan el 98 % del total (162,27 km²), mientras que el área urbana municipal constituye apenas el 2 % (3,31 km²). Esta distribución refleja una predominancia de actividades agrícolas y ganaderas en la mayor parte del distrito, con un núcleo urbano reducido que concentra los servicios municipales y comerciales. La configuración geográfica y la altitud confieren a Chalchuapa un clima templado y favorecen la producción de cultivos tradicionales de la región. La combinación de su ubicación estratégica, su extensión territorial y la clara división entre zona rural y urbana define la dinámica del distrito."
+  },
+  {
+    "slug": "pedro-brand",
+    "name": "Pedro Brand",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 199,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia Santo Domingo",
+    "regionSlug": "provincia-santo-domingo",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-rd",
+      "santo-domingo-este",
+      "bani",
+      "cotui",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Pedro Brand, municipio de la provincia de Santo Domingo en la República Dominicana, situado en la zona más septentrional de la provincia.",
+    "aboutTitle": "Pedro Brand, municipio septentrional de Santo Domingo",
+    "about": "Pedro Brand es un municipio de la República Dominicana situado en la provincia de Santo Domingo, siendo el más septentrional de la misma. Su fundación se remonta a los albores del siglo XIX, cuando el minero californiano Peter Dorse Brand llegó atraído por los yacimientos auríferos en las márgenes de los ríos Haina e Isabela que atraviesan la comunidad. Brand adquirió gran parte del territorio que hoy se conoce como Los Corozos y lo nombró con su apellido, convirtiendo parte de la finca en cocotero, lo que dio origen al nombre popular de El Coco de Pedro Brand. Administrativamente, al crearse la provincia de Santo Domingo en 2001 la zona pasó de ser una sección a distrito municipal de Santo Domingo Oeste mediante la Ley n.º 163‑01, y el 31 de enero de 2005 se elevó a municipio mediante la Ley n.º 64‑05. En las últimas décadas la población creció de 47 199 habitantes según el censo de 2002 a 92 973 en el Censo Nacional de Población y Vivienda de 2022, con 46 147 hombres y 46 826 mujeres. Aproximadamente el 82 66% de los 92 973 habitantes, unos 76 856, viven en áreas urbanas, mientras que la población rural es de 16 117 habitantes."
+  },
+  {
+    "slug": "comondu",
+    "name": "Comondú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Comondú, municipio de Baja California Sur, con 12.547,3 km² de superficie, está en la zona central del estado y limita al norte con Loreto y al sur con La Paz.",
+    "aboutTitle": "Comondú, un municipio con 12.547,3 kilómetros cuadrados de extensión",
+    "about": "El municipio de Comondú es uno de los cinco municipios en que se encuentra dividido el estado mexicano de Baja California Sur, ubicado en la zona central de dicho estado y en la región de la península de Baja California. Comondú colinda al norte con el municipio de Loreto y al sur con el municipio de La Paz. Su territorio se encuentra dividido en dos subprovincias geológicas denominadas Llanos de Magdalena y Sierras volcánicas y mesetas. La sierra de la Giganta, que es el nombre local con el que se conoce al sistema que recorre como columna vertebral a toda la península de Baja California, llega a alcanzar una altitud máxima de 1680 metros sobre el nivel del mar en los límites municipales de Comondú y Loreto. El Organismo Operador del Sistema de Agua Potable, Alcantarillado y Saneamiento de Comondú (OOSAPAS) informa a la ciudadanía sobre fallas en el servicio de agua potable debido a lluvias y apagados preventivos."
+  },
+  {
+    "slug": "yaguachi",
+    "name": "Yaguachi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 138,
+    "votes": 240,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "milagro",
+      "guayaquil",
+      "babahoyo",
+      "daule",
+      "cuenca",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yaguachi, cantón de la provincia del Guayas en Ecuador, con su cabecera en la ciudad de Yaguachi Nuevo y situado al centro‑este de la provincia.",
+    "aboutTitle": "Yaguachi, un cantón del Guayas",
+    "about": "Yaguachi es un cantón de la provincia del Guayas, en la República del Ecuador, cuya cabecera cantonal es la ciudad de Yaguachi Nuevo. El territorio se sitúa en el centro‑este de la provincia y limita al norte con los cantones Samborondón y Jujan, al sur con el cantón Naranjito, al este con los cantones de Milagro, Marcelino Maridueña y El Triunfo, y al oeste con Durán y Samborondón. En cuanto a su organización administrativa, el cantón cuenta con una parroquia urbana, San Jacinto de Yaguachi, y tres parroquias rurales: General Pedro J. Montero, Virgen de Fátima y Yaguachi Viejo, también conocida como Cone. Estas divisiones forman la estructura local que gestiona los asuntos municipales y la vida comunitaria. El cantón forma parte de la conurbación de Guayaquil y está relacionado con otras ciudades de Ecuador y la provincia del Guayas. En los enlaces externos se encuentra la página del Gobierno Autónomo Descentralizado Provincial del Guayas dedicada a los cantones, donde Yaguachi dispone de información institucional."
+  },
+  {
+    "slug": "samborondon",
+    "name": "Samborondón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 218,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "yaguachi",
+      "milagro",
+      "babahoyo",
+      "daule",
+      "guayaquil",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Samborondón, ciudad ecuatoriana del Guayas con 72.425 habitantes, se sitúa a orillas del río Babahoyo y es conocida como la Capital Ecuestre del Ecuador.",
+    "aboutTitle": "Samborondón y el río Babahoyo, cuna de la Capital Ecuestre",
+    "about": "Samborondón es una ciudad ecuatoriana situada en el centro sur de la región litoral del Ecuador, en la orilla derecha del río Babahoyo, a 9 m sobre el nivel del mar. Con una población de 72.425 habitantes según el censo de 2022, forma parte del área metropolitana de Guayaquil y pertenece al cantón homónimo, siendo la quinta urbe más grande de la provincia del Guayas. Su clima es tropical lluvioso, con una temperatura media de 25 °C.\n\nLa economía local se sustenta en el comercio, la ganadería y la agricultura, actividades que aprovechan la fértil llanura que rodea la ciudad. Por su arraigada tradición caballista, Samborondón es llamada la Capital Ecuestre del Ecuador por su tradición caballista y la constante actividad equina. Además, el conglomerado de la conurbación alberga a 3.618.450 habitantes, ocupando la primera posición entre las conurbaciones del país. La ciudad también destaca por su escudo, creado en 1959 y aprobado en 1977, y por su bandera de franjas amarilla y verde que simbolizan la gloria y la exuberante agricultura."
+  },
+  {
+    "slug": "guigue",
+    "name": "Güigüe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 195,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Carabobo",
+    "regionSlug": "carabobo",
+    "channels": [
+      "carabobo",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valencia-venezuela",
+      "maracay",
+      "puerto-cabello",
+      "san-juan-de-los-morros",
+      "los-teques",
+      "carabobo",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Güigüe, capital del municipio Carlos Arvelo en Carabobo, se sitúa al sur del Lago de Valencia y cuenta con una población estimada de 81.920 habitantes en 2016.",
+    "aboutTitle": "Güigüe: capital de Carlos Arvelo y su historia colonial",
+    "about": "Güigüe es la capital del municipio Carlos Arvelo, en el estado Carabobo, Venezuela. La ciudad se ubica al sur del Lago de Valencia y, según estimaciones de 2016, alberga 81.920 habitantes. El nombre proviene del término indígena caribe «UIUE», que alude a un hacha, una piedra de centella o al rayo, una referencia a los contornos del lago Tacarigua o Valencia.\n\nAunque no existen documentos que fijen la fecha exacta de su fundación, el obispo Mariano Martí anotó el 3 de mayo de 1724 como fecha de referencia en un documento que menciona el valle de Nuestra Señora del Rosario de Güigüe; Don Torcuato Manzo Núñez, por su parte, sitúa el origen en 1747. Cerca del poblado se hallaba el Centro de Recepción El Trompillo, construido en 1947 sobre una antigua hacienda; el recinto podía alojar hasta 2.500 personas y ofrecía alojamiento, alimentación y asistencia médica a los inmigrantes que llegaban por Puerto Cabello y La Guaira. En la actualidad la actividad comercial se concentra en el centro de Güigüe, donde predominan supermercados, abastos, comercios de mercancía seca y panaderías; los comerciantes nacionales se sitúan en la periferia del pueblo. No existe una actividad."
+  },
+  {
+    "slug": "patzun",
+    "name": "Patzún",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 194,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "san-martin-jilotepeque",
+      "antigua-guatemala",
+      "mixco",
+      "escuintla",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Patzún, municipio del departamento de Chimaltenango, Guatemala, con una población de 71.790 habitantes y situado a 2.213 metros sobre el nivel del mar.",
+    "aboutTitle": "Patzún, el lugar de los girasoles silvestres",
+    "about": "Patzún es un municipio del departamento de Chimaltenango, en el interior de Guatemala. Según las estimaciones oficiales para el año 2022, la población total asciende a 71.790 habitantes. De ese total, el 94,8 % se identifica como indígena perteneciente a la etnia Kaqchikel, mientras que el 5,2 % restante corresponde a población ladina o mestiza. El territorio municipal comprende una superficie de 124 km² y se sitúa a una altitud aproximada de 2.213 metros sobre el nivel del mar, lo que le confiere un clima de montaña. El topónimo Patzún proviene del idioma Kaqchikel; la raíz «pa» indica lugar y «tzun», deformada en «so», alude a una especie de girasol silvestre, de ahí la posible traducción «el lugar de los girasoles silvestres». Esta denominación refleja la relación histórica del asentamiento con la flora local. La combinación de una población mayoritariamente Kaqchikel, una ubicación geográfica elevada y una extensión territorial moderada caracteriza a Patzún dentro del contexto del departamento de Chimaltenango."
+  },
+  {
+    "slug": "muzquiz",
+    "name": "Múzquiz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 139,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Múzquiz, municipio mexicano situado en el norte del país, en el estado de Coahuila de Zaragoza, con una población de 69.102 habitantes.",
+    "aboutTitle": "Múzquiz, un municipio en la Sierra Madre Oriental",
+    "about": "El municipio de Múzquiz se encuentra ubicado en el norte del país, en el estado de Coahuila de Zaragoza. Fue fundado como un presidio español en 1725 y originalmente se llamaba Santa Rosa María del Sacramento. El nombre actual es en honor al militar Melchor Múzquiz, nacido en 1790 en su territorio y que llegó a ser presidente de México en 1832. \n\nEl municipio ocupa la parte centro‑norte del estado y es el segundo en cuanto a extensión territorial, con una superficie total de 8128.9 km². Está atravesado por la Sierra Madre Oriental y cuenta con varias sierras y valles, como la Sierra del Carmen y el Valle de Santa Rosa. Además, en el municipio nacen el río San Juan y el río Álamos. \n\nEl relieve combina llanuras, sierras y valles, generando una gran diversidad de ecosistemas. Los ríos San Juan y Álamos nacen dentro del municipio y forman parte de la red fluvial de la región."
+  },
+  {
+    "slug": "salama",
+    "name": "Salamá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 138,
+    "votes": 238,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Baja Verapaz",
+    "regionSlug": "departamento-de-baja-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-verapaz",
+      "coban",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Salamá, municipio de Baja Verapaz a 150 km de la capital guatemalteca, celebra la feria de San Mateo del 17 al 21 de septiembre.",
+    "aboutTitle": "Salamá: río de Tablas y la feria de San Mateo en septiembre",
+    "about": "Salamá es un municipio del departamento de Baja Verapaz, Guatemala, situado a unos 150 km de la Ciudad de Guatemala y a aproximadamente mil metros sobre el nivel del mar. Su nombre proviene del quiché “Tz'alam Ha”, que significa “Río de Tablas” o “Tablas sobre el agua”. Fue fundada entre 1550 y 1560 por los dominicos españoles y funcionó como doctrina bajo su cuidado hasta que en 1754 el clero secular asumió la administración. Tras la independencia, Salamá pasó a ser uno de los municipios originales del Estado de Guatemala en 1825, formando parte del departamento de Verapaz. En 1829, tras la expulsión de los dominicos por las fuerzas de Francisco Morazán, la hacienda de San Jerónimo fue otorgada a ciudadanos británicos para su usufructo. El municipio está integrado por ciento cuarenta y seis comunidades urbanas y rurales; la aldea más poblada es San Rafael Chilasco, conocida por albergar una de las cascadas más altas de Centroamérica. Convive entre achíes y ladinos. Salamá se distingue por la limpieza de sus calles y parques, y su feria titular en honor a San Mateo Apóstol se celebra del 17 al 21 de septiembre, con actividades culturales, folklóricas y religiosas que atraen a visitantes."
+  },
+  {
+    "slug": "placetas",
+    "name": "Placetas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Villa Clara",
+    "regionSlug": "provincia-de-villa-clara",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-clara-cuba",
+      "sancti-spiritus",
+      "cienfuegos",
+      "ciego-de-avila",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Placetas, la Villa de los Laureles en Villa Clara, fue fundada el 9 septiembre 1861 y celebra en diciembre la Jornada de la Cultura Placeteña.",
+    "aboutTitle": "Placetas y la Jornada de la Cultura en diciembre",
+    "about": "Placetas es una ciudad y municipio de Cuba situada en la zona central de la isla, en la provincia de Villa Clara. Conocida como \"La Villa de los Laureles\" por sus laureles silvestres, su casco urbano está atravesado por la Carretera Central, que pasa junto al parque central Rafael Casallas Monteagudo, convirtiéndola en parada frecuente de viajeros hacia la costa norte de la provincia. Fue fundada el 9 de septiembre de 1861 debido al auge de los ingenios azucareros, bajo la iniciativa del español José Martínez‑Fortún y Erlés, marqués de Placetas y propietario del ingenio San Andrés. El crecimiento económico llevó a que el 1 de enero de 1879 se constituyera como municipio, se declarara villa en 1881 y alcanzara la categoría de ciudad en 1925.\n\nDurante la guerra de los Diez Años, el gobierno español erigió un fuerte en el lugar, alrededor del cual se asentaron vecinos y desplazados de Guaracabulla tras su destrucción en 1869. Hasta 1990 la localidad celebraba sus carnavales en julio, y en la tercera semana de diciembre se lleva a cabo la Jornada de la Cultura Placeteña, una de sus festividades más representativas. Limita al noreste con Remedios, al sur con Manicaragua y comparte frontera con Cabaiguán y Fomento, situándose cerca de la provincia de Sancti Spíritus."
+  },
+  {
+    "slug": "pangoa-departamento-de-junin",
+    "name": "Pangoa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 184,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Junín",
+    "regionSlug": "departamento-de-junin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huancayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pangoa, un distrito en el departamento de Junín, Perú, con una rica historia colonial y un clima tropical asequible.",
+    "aboutTitle": "Pangoa, un distrito en el valle del río Sonomoro",
+    "about": "Pangoa es un distrito ubicado en la provincia de Satipo, departamento de Junín, en el centro del Perú. Su nombre proviene de la voz asháninca pangá, que se refiere al río que cruza por allí. La historia colonial de Pangoa se remonta a la intervención de los misioneros franciscanos, jesuitas y dominicos, quienes se establecieron en labores misionales en la margen izquierda del río Perené, río Satipo y río Mazamari. El valle del río Sonomoro fue el primer bastión establecido por los franciscanos, quienes enviaron al padre Manuel de Biedma Gallardo para establecer contacto con los lugareños en 1673.\n\nEl clima tropical de Pangoa es asequible, con una humedad que favorece el crecimiento de plantas herbáceas y la fertilidad de sus tierras. Aunque no se tienen fechas y lugares precisos sobre la ubicación de los primeros pobladores del sector, la historia colonial ha establecido referencias textuales desde la intervención de los misioneros."
+  },
+  {
+    "slug": "cabudare",
+    "name": "Cabudare",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 216,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Lara",
+    "regionSlug": "lara",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barquisimeto",
+      "acarigua",
+      "san-felipe",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cabudare, capital del municipio Palavecino en Lara, destaca por el Centro Comercial Traki, el más grande de Venezuela, y su Estadio Metropolitano",
+    "aboutTitle": "Cabudare: entre el Valle del Turbio y el Parque Nacional Terepaima",
+    "about": "Cabudare es la capital del municipio Palavecino, en el estado Lara, y forma parte del área metropolitana de Barquisimeto. Fue fundada el 27 de enero de 1817 por Mariano Martí y se sitúa entre el valle del Turbio, al norte, y el parque nacional Terepaima, al sur. El suelo de tipo 1, altamente aprovechable para cultivos que demandan abundante agua y nutrientes, ha convertido a la zona en uno de los acuíferos más importantes del país, aunque actualmente se encuentra en grave peligro por la expansión urbana.\n\nLa economía local combina la agricultura de caña de azúcar, la cría y faenado de ganado bovino y la industria del cuero. La arteria principal es la Av. Intercomunal Barquisimeto‑Acarigua, que enlaza las troncal 01 y 04, mientras que la Av. Hermano Nectario María, conocida como la Ribereña, bordea el río Turbio. Cabudare alberga el Centro Comercial Traki, el más grande de Venezuela, el Estadio Metropolitano de Lara, la Universidad Fermín Toro, la Universidad Yacambú, el Hospital Internacional de Barquisimeto y la Clínica IDB Cabudare, convirtiéndose en un nodo clave para el transporte de mercancías entre los llanos del sur y el norte‑noroccidente del país."
+  },
+  {
+    "slug": "santa-maria-cahabon",
+    "name": "Santa María Cahabón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fray-bartolome-de-las-casas",
+      "coban",
+      "san-cristobal-verapaz",
+      "salama",
+      "chiquimula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cahabón, municipio del departamento de Alta Verapaz, Guatemala, conocido por la producción de maderas preciosas como caoba y cedro.",
+    "aboutTitle": "Cahabón, un municipio de Alta Verapaz",
+    "about": "Cahabón es un municipio del departamento de Alta Verapaz, situado al norte de Guatemala. El nombre proviene del río Cahabón. La economía local se apoya en la explotación de maderas preciosas, entre ellas caoba y cedro. Las fiestas patronales se celebran del 1 al 8 de septiembre. Tras la conquista pacífica de la Verapaz, los frailes dominicos establecieron doctrinas y conventos en la zona; en 1754 entregaron sus reducciones al clero secular y las doctrinas pasaron a ser curatos, situación que se mantuvo hasta la Independencia de Centroamérica. En 1825 Cahabón fue uno de los municipios originales del Estado de Guatemala, cuya cabecera era Cobán. La Constitución de aquel año lo incluyó en el Circuito del mismo nombre, dentro del Distrito N.º 5 de Verapaz, y en esa época también se le conocía como Cajavon. En 1970 fue incorporado a la Franja Transversal del Norte por el gobierno de Carlos Arana Osorio. El clima de la cabecera municipal es tropical (clasificación Af). Limita al norte con Fray Bartolomé de las Casas, al sur con Senahú, al este con El Estor (Izabal) y al oeste con San Pedro Carchá y Lanquín."
+  },
+  {
+    "slug": "sosua",
+    "name": "Sosúa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 136,
+    "votes": 229,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Puerto Plata",
+    "regionSlug": "puerto-plata",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "moca",
+      "san-francisco-de-macoris",
+      "la-vega",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sosúa, municipio de la República Dominicana, con una rica historia bananera y un legado judío. Ubicado en la Provincia de Puerto Plata.",
+    "aboutTitle": "Sosúa, una historia de banano y refugio",
+    "about": "Sosúa es un municipio de la República Dominicana, situado en la Provincia de Puerto Plata. A principios del siglo XX, la United Fruit Company estableció una plantación de banano en la tierra escasamente poblada que rodea Sosúa. La plantación de la United Fruit Company tenía más de 1.5 millones de bananos y en el año 1900 se exportaron 230,000 racimos a Estados Unidos.\n\nLa región floreció gracias a la industria bananera, pero la exportación de banano disminuyó debido a malas condiciones climáticas y del suelo. La United Fruit Company cerró las operaciones bananeras en 1916, dejando atrás varias casas y edificios. En 1938, Rafael Leónidas Trujillo compró la propiedad para acoger a judíos que huían de Europa. Los primeros colonos judíos llegaron en 1940 y se establecieron en Sosúa."
+  },
+  {
+    "slug": "poptun",
+    "name": "Poptún",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 211,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Petén",
+    "regionSlug": "departamento-de-peten",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fray-bartolome-de-las-casas",
+      "flores",
+      "santa-maria-cahabon",
+      "san-ignacio",
+      "puerto-barrios",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Poptún, municipio de Petén, tiene la base Kaibiles zona 23, una pista ligera y la Finca Ixobel; está a 100 km de Flores y su clima ronda 25‑30 °C.",
+    "aboutTitle": "Base Kaibiles y la Finca Ixobel: Poptún, Petén",
+    "about": "Poptún es un municipio del sur del departamento de Petén, en Guatemala. Se comunica con la cabecera departamental, Flores, mediante una carretera asfaltada de 100 km y está a 380 km de la Ciudad de Guatemala. El clima es tropical, con temperaturas que oscilan entre 25 °C y 30 °C la mayor parte del año. Limita al norte con Dolores, al sur con San Luis, al este con la zona de adyacencia y al oeste con Sayaxché. Desde 1989, la zona militar 23 en Poptún ha sido la base del grupo élite «kaibiles», unidad de operaciones especiales del ejército guatemalteco. El municipio también dispone principalmente de una pista de aterrizaje para aeronaves ligeras, lo que facilita el acceso aéreo. Actualmente, al sur se encuentra la Finca Ixobel, cuyas cuevas son un atractivo turístico local. La administración municipal está a cargo de un concejo integrado por alcalde, síndicos y concejales, conforme al código municipal guatemalteco."
+  },
+  {
+    "slug": "chisec",
+    "name": "Chisec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 213,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "fray-bartolome-de-las-casas",
+      "san-cristobal-verapaz",
+      "santa-maria-cahabon",
+      "uspantan",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chisec, municipio del departamento de Alta Verapaz, en el norte de Guatemala, de la Franja Transversal del Norte y rodeado por Sayaxché, Cobán e Ixcán.",
+    "aboutTitle": "Chisec, un municipio con economía basada en la palma africana",
+    "about": "Chisec es un municipio ubicado en el norte de Guatemala, dentro del departamento de Alta Verapaz, y forma parte de la Franja Transversal del Norte desde 1970, una zona de desarrollo agropecuario. El idioma más utilizado por la población es el q'eqchi', una lengua maya, aunque el español, lengua oficial del país, se emplea como segunda lengua en la administración y la educación. La economía local se basa en la agricultura, destacándose los extensos cultivos de palma africana destinados a la producción de aceite, y en la extracción de hidrocarburos, pues en el municipio de Rubelsanto operan pozos petroleros de la empresa francesa PERENCO. El topónimo «Chisec» proviene de las raíces Q'ekch'i Chi y Sec, que significan «hoja cortante y lacerante», aludiendo a la vegetación característica de la zona. El municipio presenta un clima tropical, con temperaturas cálidas durante gran parte del año y una marcada temporada de lluvias. Geográficamente, Chisec está rodeado por los municipios de Sayaxché, Benemérito de las Américas, Cobán, San Pedro Carchá, Raxruhá e Ixcán, lo que le confiere una posición estratégica dentro de la región."
+  },
+  {
+    "slug": "necocli",
+    "name": "Necoclí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 208,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Antioquia",
+    "regionSlug": "antioquia",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "turbo",
+      "san-pedro-de-uraba",
+      "apartado",
+      "valencia-cordoba",
+      "carepa",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Necoclí, municipio de Antioquia, Colombia, fundado en 1509 y conocido por ser el lugar de nacimiento del futbolista Juan Guillermo Cuadrado.",
+    "aboutTitle": "Necoclí, municipio de Antioquia",
+    "about": "Necoclí es uno de los once municipios que forman parte de la subregión de Urabá, localizado en el departamento de Antioquia, Colombia. Limita por el norte con el mar Caribe y con el municipio de San Juan de Urabá, por el este con el municipio de Arboletes, por el sur con el distrito de Turbo y por el oeste con el mar Caribe. Su cabecera municipal dista 391 kilómetros de la ciudad de Medellín, capital del departamento de Antioquia.\n\nEl municipio posee una extensión de 1.361 kilómetros cuadrados, y es el más antiguo de Antioquia. Es conocido por ser el lugar de nacimiento del futbolista colombiano Juan Guillermo Cuadrado. La historia de Necoclí comienza con los conquistadores españoles y los indígenas aborígenes. Puerta de entrada de los ibéricos a Antioquia y habitada durante esos tiempos por la etnia de los Kunas, la región posee una fuerte tradición histórica y un alto valor sociocultural."
+  },
+  {
+    "slug": "purisima-del-rincon",
+    "name": "Purísima del Rincón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 191,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lagos-de-moreno",
+      "arandas",
+      "san-miguel-el-alto",
+      "san-juan-de-los-lagos",
+      "jalostotitlan",
+      "guanajuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Purísima del Rincón, con 95.415 habitantes (2025), forma parte de la Zona Metropolitana de León y su escudo muestra un árbol de lima y a San Juan Bautista.",
+    "aboutTitle": "Escudo y zona metropolitana de Purísima del Rincón",
+    "about": "El municipio de Purísima del Rincón es uno de los 46 municipios que conforman el estado de Guanajuato en México. Cuenta con una población total de 95,415 habitantes según el conteo del INEGI en el año 2025. Su cabecera municipal es la ciudad de Purísima de Bustos, bautizada en honor a Hermenegildo Bustos, conocido como el milagro pictórico del siglo XIX. Limita al noreste con el municipio de León, al oeste con San Diego de Alejandría (Jalisco), al sur con Manuel Doblado y al este con San Francisco del Rincón. Junto con San Francisco del Rincón, León y Silao, forma la Zona Metropolitana de León, que concentra 1 791 869 habitantes y ocupa el puesto número 6 entre las zonas metropolitanas más pobladas de México.\n\nEl municipio se comunica con León a través del Ecobulevar y forma parte del corredor industrial que se extiende desde los límites con Jalisco hasta Celaya, en Querétaro. El escudo municipal está dividido en tres partes: en la esquina superior izquierda aparece un árbol de lima que recuerda el primer asentamiento llamado Mil azahares en la actual Purísima de Bustos; en la esquina superior derecha figura San Juan Bautista, en honor al asentamiento de San Juan del bosque fundado en 1603; y en la parte inferior se muestra la Purísima Concepción, patrona del municipio. La leyenda latina “Honor et Virtud labor”, traducida como “El trabajo es honor y virtud”, constituye su lema, y la fecha inscrita en el escudo corresponde a la fundación de San Juan del Bosque."
+  },
+  {
+    "slug": "jacona",
+    "name": "Jacona",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 237,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-barca",
+      "la-piedad-de-cabadas",
+      "jamay",
+      "uruapan",
+      "ocotlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Jacona de Plancarte, ciudad mexicana y cabecera del municipio, situada en la vertiente norte de la sierra de Patamban a 1.580 metros de altitud.",
+    "aboutTitle": "Jacona en el Eje Neovolcánico",
+    "about": "Jacona de Plancarte, conocida simplemente como Jacona, es una ciudad mexicana que funciona como cabecera del municipio homónimo, situado en el estado de Michoacán de Ocampo. La localidad se encuentra en la zona noroeste del estado, concretamente en la vertiente norte de la sierra de Patamban, una cadena montañosa que forma parte del amplio Eje Neovolcánico, zona geológica de gran relevancia en México. La altitud de Jacona es de 1.580 metros sobre el nivel del mar, lo que le confiere una posición elevada dentro del relieve regional. Como centro administrativo del municipio, la ciudad concentra los servicios públicos y las instituciones locales que atienden a la población circundante. Su ubicación estratégica en la vertiente norte de la sierra permite una conexión natural con otras poblaciones de la región y forma parte del entramado de asentamientos que se desarrollan a lo largo del Eje Neovolcánico. La denominación oficial de la entidad es Jacona de Plancarte, aunque en el uso cotidiano se prefiere la forma abreviada Jacona."
   }
 ];

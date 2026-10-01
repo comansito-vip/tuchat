@@ -1747,3 +1747,87 @@ Groq: HT
 [2026-09-30T12:56:32.384Z]   ✗ ancon-provincia-de-lima: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-09-30T12:56:32.384Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-09-30T12:56:32.452Z] publicadas 43 salas · acumuladas 204 · quedan 3196 en cola
+[2026-10-01T01:30:05.892Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-01T01:30:05.901Z] cola: 3196 · lote de hoy: 50
+[2026-10-01T01:41:51.747Z]   ✓ tihuatlan (México) — escribió Groq, verificó Gemini
+[2026-10-01T01:54:53.080Z]   ✓ francisco-de-orellana (Ecuador) — escribió Groq, verificó Gemini
+[2026-10-01T02:02:00.704Z]   ✓ san-martin-jilotepeque (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-01T02:13:18.483Z]   ✗ patzcuaro: fraseo calcado de moyobamba: "fue una de las primeras ciudades fundadas"
+[2026-10-01T02:19:24.784Z]   ✓ itaugua (Paraguay) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-01T02:32:30.027Z]   ✗ chulucanas-peru: rechazada tras corrección: La ficha indica que Chulucanas fue fundado el 27 de junio de 1937, pero según el material de origen, esta fecha se refiere a la creación del distrito de Chulucanas, no a su fundación.; La ficha dice q
+[2026-10-01T02:46:07.708Z]   ✓ san-jose-pinula (Guatemala) — escribió Groq, verificó HuggingFace
+[2026-10-01T02:59:12.579Z]   ✓ minga-guazu (Paraguay) — escribió Groq, verificó Gemini
+[2026-10-01T03:06:04.639Z]   ✗ berisso: fraseo calcado de gregorio-de-laferrere: "km del acceso mas cercano a la"
+[2026-10-01T03:06:24.656Z]   ✗ yoro: es una división administrativa, no una localidad
+[2026-10-01T03:13:07.675Z]   ✓ tucupita (Venezuela) — escribió Groq, verificó HuggingFace
+[2026-10-01T03:25:05.855Z]   ✗ artemisa: rechazada tras corrección: La ficha trata sobre la deidad mitológica, pero se presenta como una ficha de la localidad de Artemisa (Cuba), inventando un vínculo entre la ciudad y la diosa que no figura en el material de origen.
+[2026-10-01T03:32:30.075Z]   ✓ tafi-viejo (Argentina) — escribió Groq, verificó HuggingFace
+[2026-10-01T03:32:50.884Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-01T03:39:24.689Z]   ✗ ciudad-mante: fraseo calcado de mante: "en la zona sur del estado de"
+[2026-10-01T03:46:39.086Z]   ✓ concepcion-tutuapa (Guatemala) — escribió Groq, verificó HuggingFace
+[2026-10-01T03:50:51.987Z]   ✓ la-piedad-de-cabadas (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-01T04:03:45.446Z]   ✓ la-trinitaria (México) — escribió Groq, verificó HuggingFace
+[2026-10-01T04:16:31.304Z]   ✗ trinitaria: fraseo calcado de la-trinitaria: "a la santisima trinidad los habitantes locales"
+[2026-10-01T04:23:01.973Z]   ✓ pastaza-pastaza (Ecuador) — escribió Groq, verificó HuggingFace
+[2026-10-01T04:35:44.448Z]   ✗ la-canada: rechazada tras corrección: La fecha de fundación del municipio es el 8 de diciembre de 1752, cuando en realidad la fuente indica que la fecha oficial de fundación del municipio es el 8 de diciembre de 1752, pero como Nuestra Se
+[2026-10-01T04:39:46.264Z]   ✓ tacana (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-01T04:49:04.348Z]   ✓ ita (Paraguay) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-01T05:00:17.584Z]   ✓ san-cristobal-verapaz (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-01T05:15:29.862Z]   ✗ heroica-cardenas: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-01T05:22:26.482Z]   ✓ nueva-guinea (Nicaragua) — escribió Groq, verificó HuggingFace
+[2026-10-01T05:23:56.753Z]   ✗ el-empalme: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T05:29:13.492Z]   ✓ cotui (República Dominicana) — escribió NVIDIA, verificó HuggingFace
+[2026-10-01T05:32:48.498Z]   ✓ nagua (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-01T05:34:09.083Z]   ✗ huajuapan-de-leon: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 392 (line 3 column 242)
+[2026-10-01T05:37:04.770Z]   ✓ ancon-provincia-de-lima (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-01T05:40:08.182Z]   ✗ san-pedro-pinula: rechazada tras corrección: Se menciona 'la división administrativa del país' y 'la normativa y a la gestión del gobierno municipal y a la coordinación con las autoridades del departamento de Jalapa' sin que la fuente lo respald
+[2026-10-01T05:44:32.151Z]   ✗ riberalta: controles de calidad: la intro empieza con un imperativo de folleto
+[2026-10-01T05:49:32.228Z]   ✓ baracoa (Cuba) — escribió NVIDIA, verificó HuggingFace
+[2026-10-01T05:50:10.787Z]   ✓ fray-bartolome-de-las-casas (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-01T05:51:32.537Z]   ✓ nebaj (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-01T05:53:11.308Z]   ✓ tacambaro (México) — escribió Groq, verificó NVIDIA
+[2026-10-01T05:57:14.777Z]   ✓ motozintla (México) — escribió Groq, verificó NVIDIA
+[2026-10-01T06:01:31.827Z]   ✓ grecia (Costa Rica) — escribió NVIDIA, verificó HuggingFace
+[2026-10-01T06:06:14.203Z]   ✗ zacapu: controles de calidad: la intro empieza con un imperativo de folleto
+[2026-10-01T06:07:54.235Z]   ✗ jocotan: rechazada tras corrección: Se menciona la 'vida cotidiana de sus habitantes' en la ficha, lo que implica una descripción de la gente y su comportamiento, que no está respaldada por la fuente.
+[2026-10-01T06:09:02.296Z]   ✓ toa-baja (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-01T06:09:38.520Z]   ✓ rioja-departamento-de-san-martin (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-01T06:10:00.237Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-01T06:12:50.914Z]   ✓ juchitan-de-zaragoza (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T06:17:20.027Z]   ✓ jiquipilco (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T06:19:43.186Z]   ✓ uspantan (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T06:22:28.655Z]   ✗ silao: fraseo calcado de silao-de-la-victoria: "proviene del purepecha tzinacua que significa lugar"
+[2026-10-01T06:24:47.660Z]   ✓ huechuraba (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-01T06:30:27.426Z]   ✓ chalchuapa (El Salvador) — escribió Groq, verificó NVIDIA
+[2026-10-01T06:34:24.006Z]   ✓ pedro-brand (República Dominicana) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T06:36:53.522Z]   ✗ coyuca-de-benitez: rechazada tras corrección: Se menciona el Océano Pacífico, que no está en el material de origen; Se repite información innecesariamente y se hace una descripción más larga de lo necesario, pero el principal problema es la inven
+[2026-10-01T06:46:01.562Z]   ✓ comondu (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T06:49:14.876Z]   ✗ pocito: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T06:49:36.029Z]   ✗ departamento-pocito: es una división administrativa, no una localidad
+[2026-10-01T06:54:50.981Z]   ✓ yaguachi (Ecuador) — escribió NVIDIA, verificó HuggingFace
+[2026-10-01T06:55:38.612Z]   ✓ samborondon (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-01T07:00:01.538Z]   ✗ pinos: controles de calidad: la intro empieza con un imperativo de folleto; about de 94 palabras (mínimo 100)
+[2026-10-01T07:01:33.470Z]   ✗ palin: rechazada tras corrección: Departamento de Guatemala es incorrecto, el municipio de Palín se encuentra en el departamento de Escuintla; La ficha describe a Palín como un municipio industrial del departamento de Guatemala, cuand
+[2026-10-01T07:06:09.212Z]   ✓ guigue (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-01T07:08:02.399Z]   ✗ san-miguel-norte: rechazada tras corrección: La ficha describe la organización y la gestión de los distritos como unidades básicas de organización local, lo que no se menciona en el material de origen.; La ficha menciona la ubicación estratégica
+[2026-10-01T07:10:21.434Z]   ✓ patzun (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T07:15:36.721Z]   ✓ muzquiz (México) — escribió NVIDIA, verificó Gemini
+[2026-10-01T07:17:07.300Z]   ✓ salama (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-01T07:22:59.344Z]   ✗ villa-tunari: controles de calidad: muletillas de IA: amplia variedad de
+[2026-10-01T07:24:07.149Z]   ✓ placetas (Cuba) — escribió Groq, verificó NVIDIA
+[2026-10-01T07:28:56.409Z]   ✗ barranca-peru: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T07:30:28.544Z]   ✗ gibara: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T07:34:59.157Z]   ✗ montecristi: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T07:39:38.002Z]   ✓ pangoa-departamento-de-junin (Perú) — escribió NVIDIA, verificó Gemini
+[2026-10-01T07:40:46.191Z]   ✓ cabudare (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-01T07:44:41.874Z]   ✓ santa-maria-cahabon (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-01T07:49:21.764Z]   ✗ hato-mayor: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-01T07:53:57.574Z]   ✓ sosua (República Dominicana) — escribió NVIDIA, verificó Gemini
+[2026-10-01T07:56:56.503Z]   ✗ bruzual-venezuela: rechazada tras corrección: La ficha afirma que Bruzual es capital del municipio Muñoz en el estado Apure, Venezuela, pero no se menciona el estado Yaracuy en el material de origen, lo que sugiere que la ficha está describiendo 
+[2026-10-01T08:00:49.776Z]   ✓ poptun (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-01T08:06:25.119Z]   ✗ distrito-de-ilo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-01T08:11:00.996Z]   ✓ chisec (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-10-01T08:15:24.674Z]   ✓ necocli (Colombia) — escribió NVIDIA, verificó Gemini
+[2026-10-01T08:16:03.426Z]   ✓ purisima-del-rincon (México) — escribió Groq, verificó NVIDIA
+[2026-10-01T08:22:38.556Z]   ✓ jacona (México) — escribió NVIDIA, verificó Gemini
+[2026-10-01T08:22:38.577Z] publicadas 50 salas · acumuladas 254 · quedan 3146 en cola

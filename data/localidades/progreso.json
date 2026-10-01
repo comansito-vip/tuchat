@@ -217,7 +217,57 @@
   "panzos",
   "tecate",
   "comitancillo",
-  "livingston"
+  "livingston",
+  "tihuatlan",
+  "francisco-de-orellana",
+  "san-martin-jilotepeque",
+  "itaugua",
+  "san-jose-pinula",
+  "minga-guazu",
+  "tucupita",
+  "tafi-viejo",
+  "concepcion-tutuapa",
+  "la-piedad-de-cabadas",
+  "la-trinitaria",
+  "pastaza-pastaza",
+  "tacana",
+  "ita",
+  "san-cristobal-verapaz",
+  "nueva-guinea",
+  "cotui",
+  "nagua",
+  "ancon-provincia-de-lima",
+  "baracoa",
+  "fray-bartolome-de-las-casas",
+  "nebaj",
+  "tacambaro",
+  "motozintla",
+  "grecia",
+  "toa-baja",
+  "rioja-departamento-de-san-martin",
+  "juchitan-de-zaragoza",
+  "jiquipilco",
+  "uspantan",
+  "huechuraba",
+  "chalchuapa",
+  "pedro-brand",
+  "comondu",
+  "yaguachi",
+  "samborondon",
+  "guigue",
+  "patzun",
+  "muzquiz",
+  "salama",
+  "placetas",
+  "pangoa-departamento-de-junin",
+  "cabudare",
+  "santa-maria-cahabon",
+  "sosua",
+  "poptun",
+  "chisec",
+  "necocli",
+  "purisima-del-rincon",
+  "jacona"
  ],
  "descartadas": [
   {
@@ -3694,6 +3744,161 @@
    "slug": "ancon-provincia-de-lima",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-09-30"
+  },
+  {
+   "slug": "patzcuaro",
+   "razon": "fraseo calcado de moyobamba: \"fue una de las primeras ciudades fundadas\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "chulucanas-peru",
+   "razon": "rechazada tras corrección: La ficha indica que Chulucanas fue fundado el 27 de junio de 1937, pero según el material de origen, esta fecha se refiere a la creación del distrito de Chulucanas, no a su fundación.; La ficha dice q",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "berisso",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"km del acceso mas cercano a la\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "yoro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "artemisa",
+   "razon": "rechazada tras corrección: La ficha trata sobre la deidad mitológica, pero se presenta como una ficha de la localidad de Artemisa (Cuba), inventando un vínculo entre la ciudad y la diosa que no figura en el material de origen.",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "ciudad-mante",
+   "razon": "fraseo calcado de mante: \"en la zona sur del estado de\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "trinitaria",
+   "razon": "fraseo calcado de la-trinitaria: \"a la santisima trinidad los habitantes locales\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "la-canada",
+   "razon": "rechazada tras corrección: La fecha de fundación del municipio es el 8 de diciembre de 1752, cuando en realidad la fuente indica que la fecha oficial de fundación del municipio es el 8 de diciembre de 1752, pero como Nuestra Se",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "heroica-cardenas",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "el-empalme",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "huajuapan-de-leon",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 392 (line 3 column 242)",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "san-pedro-pinula",
+   "razon": "rechazada tras corrección: Se menciona 'la división administrativa del país' y 'la normativa y a la gestión del gobierno municipal y a la coordinación con las autoridades del departamento de Jalapa' sin que la fuente lo respald",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "riberalta",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "zacapu",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "jocotan",
+   "razon": "rechazada tras corrección: Se menciona la 'vida cotidiana de sus habitantes' en la ficha, lo que implica una descripción de la gente y su comportamiento, que no está respaldada por la fuente.",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "silao",
+   "razon": "fraseo calcado de silao-de-la-victoria: \"proviene del purepecha tzinacua que significa lugar\"",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "coyuca-de-benitez",
+   "razon": "rechazada tras corrección: Se menciona el Océano Pacífico, que no está en el material de origen; Se repite información innecesariamente y se hace una descripción más larga de lo necesario, pero el principal problema es la inven",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "pocito",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "departamento-pocito",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "pinos",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto; about de 94 palabras (mínimo 100)",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "palin",
+   "razon": "rechazada tras corrección: Departamento de Guatemala es incorrecto, el municipio de Palín se encuentra en el departamento de Escuintla; La ficha describe a Palín como un municipio industrial del departamento de Guatemala, cuand",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "san-miguel-norte",
+   "razon": "rechazada tras corrección: La ficha describe la organización y la gestión de los distritos como unidades básicas de organización local, lo que no se menciona en el material de origen.; La ficha menciona la ubicación estratégica",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "villa-tunari",
+   "razon": "controles de calidad: muletillas de IA: amplia variedad de",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "barranca-peru",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "gibara",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "montecristi",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "hato-mayor",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "bruzual-venezuela",
+   "razon": "rechazada tras corrección: La ficha afirma que Bruzual es capital del municipio Muñoz en el estado Apure, Venezuela, pero no se menciona el estado Yaracuy en el material de origen, lo que sugiere que la ficha está describiendo ",
+   "fecha": "2026-10-01"
+  },
+  {
+   "slug": "distrito-de-ilo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-01"
   }
  ]
 }
