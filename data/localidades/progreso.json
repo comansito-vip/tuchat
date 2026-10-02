@@ -267,7 +267,57 @@
   "chisec",
   "necocli",
   "purisima-del-rincon",
-  "jacona"
+  "jacona",
+  "patzcuaro",
+  "chulucanas-peru",
+  "ciudad-mante",
+  "la-canada",
+  "riberalta",
+  "jocotan",
+  "pinos",
+  "barranca-peru",
+  "montecristi",
+  "hato-mayor",
+  "bruzual-venezuela",
+  "distrito-de-ilo",
+  "chicacao",
+  "los-salias",
+  "ixtlahuacan-de-los-membrillos",
+  "villa-guerrero",
+  "puruandiro",
+  "heroica-caborca",
+  "manaure",
+  "zihuatanejo",
+  "marcos-paz",
+  "zona-bananera",
+  "ypane",
+  "ramos-arizpe",
+  "olmos",
+  "villa-corzo",
+  "san-francisco-el-alto",
+  "los-amates",
+  "purulha",
+  "jocotitlan",
+  "jiquilpan",
+  "sabinas",
+  "san-pedro-soloma",
+  "mulege",
+  "metapan",
+  "guamuchil",
+  "temascalcingo-de-jose-maria-velasco",
+  "apaseo-el-alto",
+  "camotan",
+  "cortazar",
+  "san-juan-ostuncalco",
+  "la-democracia-departamento-de-huehuetenango",
+  "etchojoa",
+  "barberena",
+  "salitre",
+  "los-polvorines",
+  "san-juan-comalapa",
+  "banda-de-shilcayo",
+  "cubulco",
+  "el-triunfo-ecuador"
  ],
  "descartadas": [
   {
@@ -3899,6 +3949,226 @@
    "slug": "distrito-de-ilo",
    "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
    "fecha": "2026-10-01"
+  },
+  {
+   "slug": "berisso",
+   "razon": "fraseo calcado de gregorio-de-laferrere: \"en la provincia de buenos aires argentina\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "yoro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "artemisa",
+   "razon": "rechazada tras corrección: La ficha describe a la diosa Artemisa de manera más detallada que la fuente original, agregando información que no se encuentra en la fuente, como la iconografía y la literatura que la muestra como un",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "la ficha no trae intro o about",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "trinitaria",
+   "razon": "controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "heroica-cardenas",
+   "razon": "fraseo calcado de santa-catarina: \"es una ciudad mexicana ubicada en el\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "el-empalme",
+   "razon": "rechazada tras corrección: La ficha menciona 'la Conurbación de Quevedo' en el contexto de la estructura del cantón, pero no está respaldado por el material de origen.; La ficha describe la estructura de gestión autónoma de ser",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "huajuapan-de-leon",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "san-pedro-pinula",
+   "razon": "rechazada tras corrección: La ficha repite información y utiliza un lenguaje más extenso y complejo que la fuente original, lo que no es un problema en sí mismo, pero también incluye algunas frases que no aportan información ad",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "zacapu",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "silao",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "coyuca-de-benitez",
+   "razon": "fraseo calcado de cotoca: \"la convierte en un lugar atractivo para\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "pocito",
+   "razon": "rechazada tras corrección: La ficha menciona que Pocito es una entidad de población española, pero el material de origen no respalda que la ficha se refiera a la localidad de Pocito en la Provincia de San Juan, Argentina. La fi",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "departamento-pocito",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "palin",
+   "razon": "rechazada tras corrección: El departamento de Palín es incorrecto. Según el material de origen, Palín se encuentra en el departamento de Escuintla, no en el departamento de Guatemala.",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "san-miguel-norte",
+   "razon": "rechazada tras corrección: Se menciona 'la República de El Salvador', que no está en el material de origen; Se describe la estructura administrativa y la planificación de recursos, que no está en el material de origen; Se menci",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "villa-tunari",
+   "razon": "controles de calidad: muletillas de IA: amplia variedad de; intro/meta de 108 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "gibara",
+   "razon": "rechazada tras corrección: Se describe a Gibara como un punto de referencia en la zona oriental del país, lo que no se encuentra en la fuente original.; Se describe a Gibara como un lugar de interés histórico y paisajístico, lo",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "san-pedro-ayampuc",
+   "razon": "rechazada tras corrección: La ficha describe a la gente de la sala (no está en la fuente); La ficha describe la interacción entre los municipios (no está en la fuente); La ficha describe la conservación de tradiciones y saberes",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "usulutan-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 751 (line 1 column 752)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "cuilco",
+   "razon": "fraseo calcado de tacana: \"frontera con mexico quedo establecida en 1896\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "dolores-hidalgo",
+   "razon": "fraseo calcado de santa-catarina: \"es una ciudad mexicana ubicada en el\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "zacapa",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "perene-departamento-de-junin",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 490 (line 3 column 371)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "caripito",
+   "razon": "rechazada tras corrección: La ficha describe la identidad cultural de los habitantes de Caripito, lo que no se menciona en el material de origen.; La ficha menciona que la actividad de los tanqueros generó empleo en la zona, lo",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "chiquimulilla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 513 (line 3 column 310)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "santo-domingo-tehuantepec",
+   "razon": "rechazada tras corrección: Descripción detallada de la función administrativa de la ciudad y su posición geográfica, que no se menciona en el material de origen; Uso de la frase 'punto de referencia' que no se encuentra en el m",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "zacatecoluca",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "siuna",
+   "razon": "rechazada tras corrección: La ficha menciona la zona norte del país, lo que no se encuentra en el material de origen.; Se describe la economía y la actividad económica de la localidad, lo que no se encuentra en el material de o",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "tiquisate",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 793 (line 3 column 667)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "pelileo",
+   "razon": "fraseo calcado de lago-agrio: \"es un canton ubicado en la provincia\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "fraijanes",
+   "razon": "fraseo calcado de san-jose-pinula: \"un municipio del departamento de guatemala situado\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "tajumulco",
+   "razon": "rechazada tras corrección: La ficha menciona que el volcán 'ocupa el puesto 24.º entre los volcanes más prominentes del planeta', cuando la fuente original dice que es el 24º volcán más prominente del mundo, lo que no necesaria",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "yurimaguas",
+   "razon": "rechazada tras corrección: La ficha menciona la 'zona baja de la cuenca amazónica', que no está presente en el material de origen.",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "quezaltepeque-el-salvador",
+   "razon": "controles de calidad: aboutTitle genérico: \"Quezaltepeque, un distrito cafetalero en La Libertad\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "tenosique",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 433 (line 3 column 291)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "puerto-penasco",
+   "razon": "controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "morrope-departamento-de-lambayeque",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 408 (line 3 column 293)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "zaraza",
+   "razon": "fraseo calcado de guasdualito: \"la ciudad tiene una rica historia que\"",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "manicaragua",
+   "razon": "rechazada tras corrección: La ficha describe a Manicaragua como una entidad con competencia administrativa propia de un municipio y un núcleo urbano con el mismo nombre, lo que no está respaldado por la fuente original.; La fic",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "santa-catarina-ixtahuacan",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "yura",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 256 (line 1 column 257)",
+   "fecha": "2026-10-02"
+  },
+  {
+   "slug": "siquisique",
+   "razon": "fraseo calcado de bahia-de-banderas: \"la historia y la cultura de la\"",
+   "fecha": "2026-10-02"
   }
  ]
 }

@@ -7577,5 +7577,1508 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Chat de Jacona de Plancarte, ciudad mexicana y cabecera del municipio, situada en la vertiente norte de la sierra de Patamban a 1.580 metros de altitud.",
     "aboutTitle": "Jacona en el Eje Neovolcánico",
     "about": "Jacona de Plancarte, conocida simplemente como Jacona, es una ciudad mexicana que funciona como cabecera del municipio homónimo, situado en el estado de Michoacán de Ocampo. La localidad se encuentra en la zona noroeste del estado, concretamente en la vertiente norte de la sierra de Patamban, una cadena montañosa que forma parte del amplio Eje Neovolcánico, zona geológica de gran relevancia en México. La altitud de Jacona es de 1.580 metros sobre el nivel del mar, lo que le confiere una posición elevada dentro del relieve regional. Como centro administrativo del municipio, la ciudad concentra los servicios públicos y las instituciones locales que atienden a la población circundante. Su ubicación estratégica en la vertiente norte de la sierra permite una conexión natural con otras poblaciones de la región y forma parte del entramado de asentamientos que se desarrollan a lo largo del Eje Neovolcánico. La denominación oficial de la entidad es Jacona de Plancarte, aunque en el uso cotidiano se prefiere la forma abreviada Jacona."
+  },
+  {
+    "slug": "patzcuaro",
+    "name": "Pátzcuaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "morelia",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pátzcuaro, Michoacán, es Pueblo Mágico y su nombre, Tzacapu‑Hamúcutin‑Pásquaro, significa ‘donde están las piedras (los dioses)’.",
+    "aboutTitle": "El significado del nombre Tzacapu‑Hamúcutin‑Pásquaro",
+    "about": "Pátzcuaro es una localidad del estado de Michoacán, México, y cabecera del municipio homónimo. Forma parte del programa turístico Pueblos Mágicos y en la antigüedad formó parte del señorío de los uacúsechas, la tierra de los purépechas. Su nombre aparece registrado en la Relación de Michoacán como Tzacapu‑Hamúcutin‑Pásquaro, con el significado de ‘donde están las piedras (los dioses) a la entrada de donde se hace la negrura’, interpretación que también se traduce como ‘La puerta del cielo’. Fundada alrededor del año 1300, la tradición atribuye su origen a Curatame y su posterior conversión en centro religioso y ceremonial a cargo de Tariácuri. En 1522, al llegar los españoles, la capital del reino purépecha se había trasladado a Tzintzuntzan, quedando en Pátzcuaro sólo un reducido centro ceremonial. Los purépechas consideraban los lagos la puerta de entrada a su cielo, el inframundo, donde las almas de los muertos eran guiadas por una nutria. Actualmente, el gobierno municipal está presidido por el Ing. Julio Alberto Arreola Vázquez, según la información del sitio oficial del ayuntamiento."
+  },
+  {
+    "slug": "chulucanas-peru",
+    "name": "Chulucanas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Piura",
+    "regionSlug": "departamento-de-piura",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "piura",
+      "sullana",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chulucanas, distrito de Morropón en Piura, nació el 27 de junio de 1937 y destaca por su Catedral de 1970 y el cerro arqueológico Vicus a 7 km.",
+    "aboutTitle": "Catedral de Chulucanas y el Cerro Vicus, símbolos históricos",
+    "about": "Chulucanas es uno de los diez distritos que integran la provincia de Morropón, en el departamento de Piura, norte del Perú, y forma parte de la Diócesis de Chulucanas. El distrito fue creado mediante Ley 8174 del 27 de junio de 1937 durante el gobierno del Presidente Óscar R. Benavides, y su capital, la ciudad homónima, se sitúa a 92 metros sobre el nivel del mar. Según el censo de 2007 la población de la capital era de 36 613 habitantes con 8 777 viviendas, mientras que el distrito totaliza 76 205 personas distribuidas en 18 858 viviendas y 126 centros poblados, entre los que destacan Talandracas, San Pedro, Charanal, Campanas, Chililique Alto, Platanal Bajo, Río Seco Alto, Río Seco Bajo, San Francisco de Paccha y Sancor.\n\nEntre los atractivos turísticos, la Catedral de Chulucanas, conocida como la Sagrada Familia, se construyó en 1965 y se inauguró en 1970, sustituyendo al templo de adobe de 1820. Su fachada moderna de estilo norteamericano incluye una torre de 15 metros con tres campanas y una cruz de 3 metros, y en su interior se conservan esculturas y cuadros de los siglos XIX y XX, así como una estatua a tamaño natural del Papa Juan Pablo II. A 7 kilómetros de la ciudad se alza el cerro arqueológico Vicus, a 179 metros de altitud, cerca del río Ñacara, y pertenece a la cultura del mismo nombre según estudios de 1964."
+  },
+  {
+    "slug": "ciudad-mante",
+    "name": "Ciudad Mante",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "panuco",
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Mante, conocida como El Mante, se ubica a 110 km al sur de Ciudad Victoria y cuenta con 79.515 habitantes según el censo 2020.",
+    "aboutTitle": "Clima tropical y origen huasteco de Ciudad Mante",
+    "about": "Ciudad Mante es una localidad situada en la zona rural del estado de Tamaulipas, en la región noreste de México. Es la cabecera del municipio de El Mante y se encuentra en la parte sur del estado, a una distancia de 110 kilómetros en línea recta al sur de la capital estatal, Ciudad Victoria. Localmente se la conoce simplemente como “El Mante”, lo que a veces genera confusión porque el mismo nombre se usa tanto para el municipio como para la cabecera municipal. El nombre proviene del idioma tének, donde \"mán\" significa amarillo y \"te'\" árbol, aludiendo al zapote amarillo típico de la zona.\n\nSegún el censo del INEGI de 2020, la ciudad cuenta con 79.515 habitantes. El clima es cálido húmedo tropical, con temperaturas que alcanzan entre 40 y 46 °C en junio y julio y descienden hasta -5 °C en invierno; la precipitación anual ronda los 1.000 mm y los vientos predominantes provienen del este y sureste. La vida local refleja la rica herencia huasteca mediante música, danza y gastronomía, celebrada en diversas festividades a lo largo del año."
+  },
+  {
+    "slug": "la-canada",
+    "name": "La Cañada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Zulia",
+    "regionSlug": "zulia",
+    "channels": [
+      "zulia",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maracaibo",
+      "cabimas",
+      "albania",
+      "barrancas",
+      "maicao",
+      "zulia",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Cañada de Urdaneta, municipio zuliano con 92.463 habitantes, celebra su fundación oficial el 8 de diciembre de 1752.",
+    "aboutTitle": "Fundación del 8 de diciembre y obras de repavimentación en La Cañada",
+    "about": "La Cañada de Urdaneta es un municipio del estado Zulia, en la costa oeste del lago de Maracaibo y forma parte del área metropolitana de Maracaibo. Su superficie es de aproximadamente 2 040 km² y, según datos de 2023, cuenta con 92 463 habitantes; la capital municipal es Concepción. El nombre proviene de la orden de 1742 del teniente coronel Francisco Miguel Collado, quien mandó construir un camino para el levante de ganado. Ya en 1535 el padre Vicente de Requejada describió las costas del lago, y en 1717 se fundó un poblado en la desembocadura del río Palmar llamado Nuestra Señora de la Concepción del Naranjo, que fue destruido en 1720. Nuevas fundaciones se produjeron en 1736 y 1752, y el 8 de diciembre de 1752 los padres capuchinos fundaron un pueblo llamado Nuestra Señora de la Inmaculada Concepción, también conocido como partido de La Cañada, fecha aceptada como la fundación oficial del municipio.\n\nEn los últimos años la alcaldía ha impulsado obras de infraestructura vial, como la repavimentación de la Av. 1 y Calle 1A en la parroquia Concepción, sector Parral del Norte, con una inversión de 100 millones de bolívares, 550 toneladas de asfalto y fondos del Fondo de Compensación Interterritorial. Además, se están mejorando calles y avenidas en las parroquias El Carmelo, Potreritos, Concepción, Chiquinquirá y Andrés Bello, con un total de 1 500 toneladas de material, según comunicados municipales de 2017."
+  },
+  {
+    "slug": "riberalta",
+    "name": "Riberalta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 138,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento del Beni",
+    "regionSlug": "departamento-del-beni",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Riberalta, capital de la provincia Vaca Díez (Beni), se ubica en la confluencia de los ríos Beni y Madre de Dios y cuenta con 110.302 habitantes.",
+    "aboutTitle": "Confluencia del Beni y Madre de Dios, corazón amazónico de Riberalta",
+    "about": "Riberalta es la capital y la ciudad más poblada de la provincia Vaca Díez, dentro del departamento del Beni, en el norte de la Amazonía boliviana. Con una población de 110.302 habitantes, se ubica en la cuenca amazónica, situada en la confluencia de los ríos Beni y Madre de Dios, lo que la convierte en un importante nodo fluvial. La ciudad también es conocida como la capital amazónica del país y lleva cuatro nombres históricos: La Cruz, Barranca Colorada, Ribera Alta y Riberalta.\n\nEl desarrollo de Riberalta estuvo marcado por la fiebre del caucho a finales del siglo XIX, cuando se fundó la primera factoría comercial en la zona. La ciudad alberga varias instituciones de educación superior, como la Universidad Autónoma del Beni, la Universidad de la Amazonía Boliviana, la Escuela Militar de Ingeniería, la Escuela Superior de Formación de Maestros Riberalta y el Instituto Tecnológico Superior de la Amazonía. Además, en sus cercanías se encuentran restos arqueológicos precolombinos, como los terraplenes de la cultura hidráulica de las Lomas de los llanos de Moxos y la fortaleza incaica de Fortaleza Victoria."
+  },
+  {
+    "slug": "jocotan",
+    "name": "Jocotán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 210,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-rosa-de-copan",
+      "santa-ana",
+      "ahuachapan",
+      "apopa",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jocotán, Santiago Jocotán, es un municipio de 148 km² en el triángulo norte del departamento de Chiquimula, Guatemala, con más de 75 000 habitantes.",
+    "aboutTitle": "Jocotán, el Hijo Predilecto de Oriente en el norte de Chiquimula",
+    "about": "Jocotán, también conocido como Santiago Jocotán o El Hijo Predilecto de Oriente, se ubica en la región Oriental de la República de Guatemala, dentro del departamento de Chiquimula. El municipio ocupa una superficie de 148 km², una extensión que comprende tanto el núcleo urbano como zonas rurales dispersas alrededor. Su posición estratégica en el triángulo norte de Chiquimula lo sitúa próximo a la frontera con Honduras, lo que ha favorecido históricamente intercambios culturales y económicos con la vecina nación. Con una población que supera los 75 000 habitantes, la demografía de Jocotán refleja una comunidad numerosa en comparación con otros municipios de la zona. La localidad forma parte de la red de asentamientos del oriente guatemalteco y mantiene vínculos con otras poblaciones del departamento, aunque el texto original no especifica nombres concretos de localidades vecinas. El municipio, bajo el nombre oficial de Santiago Jocotán, conserva su identidad histórica y geográfica dentro del contexto nacional, destacándose por su tamaño territorial y su considerable número de habitantes."
+  },
+  {
+    "slug": "pinos",
+    "name": "Pinos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 219,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Zacatecas",
+    "regionSlug": "zacatecas",
+    "channels": [
+      "zacatecas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-luis-potosi",
+      "aguascalientes",
+      "encarnacion-de-diaz",
+      "lagos-de-moreno",
+      "zacatecas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pinos, municipio de Zacatecas con 72.241 habitantes, 3.152 kilómetros cuadrados de superficie y 297 localidades.",
+    "aboutTitle": "Pinos, un municipio en el sureste de Zacatecas",
+    "about": "El municipio de Pinos se sitúa en el extremo sureste del estado de Zacatecas, limitando con los estados de Jalisco, Guanajuato y San Luis Potosí. Su relieve varía entre los 1.900 y los 3.000 metros sobre el nivel del mar, lo que le confiere una topografía montañosa. Según el Censo de Población y Vivienda 2020 del Instituto Nacional de Estadística y Geografía, la población total asciende a 72.241 habitantes distribuidos en 297 localidades. La extensión territorial del municipio cubre 3.152 kilómetros cuadrados. En materia educativa, Pinos cuenta con una oferta que incluye instituciones de nivel preescolar, básico, medio, medio‑superior y superior, atendiendo a la demanda de la población local. La combinación de su ubicación fronteriza, la diversidad de asentamientos y la disponibilidad de servicios educativos caracteriza al municipio dentro de la región. El número de localidades, que supera los doscientos noventa, refleja la dispersión de la población en áreas rurales."
+  },
+  {
+    "slug": "barranca-peru",
+    "name": "Barranca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 185,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huacho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Barranca, distrito ubicado en la provincia de Barranca, departamento de Lima, en la costa central del Perú.",
+    "aboutTitle": "Barranca, ciudad en la costa central del Perú",
+    "about": "El distrito de Barranca es uno de los cinco que conforman la provincia de Barranca, ubicada en el departamento de Lima en la costa central del Perú. Limita por el norte con el distrito de Pativilca; por el este con el departamento de Ancash; por el sur con los distritos de Supe y Supe Puerto; y, por el oeste con el océano Pacífico.\n\nLa localidad era llamada “Guamanmayo” en la época preincaica, que en quechua significa “Gavilán del río”. Los conquistadores lo rebautizaron con el nombre de San Ildefonso de Barranca, por la asistencia de numerosos barrancos que se descuelgan sobre las riberas del río Pativilca. El Municipio de Barranca fue creado en el año 1823."
+  },
+  {
+    "slug": "montecristi",
+    "name": "Montecristi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Manabí",
+    "regionSlug": "provincia-de-manabi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "manta",
+      "portoviejo",
+      "daule",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Montecristi, ciudad manabita de 71.066 habitantes, destaca por ser la cuna de Eloy Alfaro y su clima seco tropical de 25 °C en promedio.",
+    "aboutTitle": "Montecristi: cuna de Eloy Alfaro y centro comercial de Manabí",
+    "about": "Montecristi es una ciudad ecuatoriana, cabecera cantonal del cantón Montecristi, tercera urbe más grande y poblada de la provincia de Manabí. Se sitúa en el centro de la región litoral, a 140 m sobre el nivel del mar, con clima seco tropical y temperatura promedio de 25 °C. En el censo de 2022 su población era de 71.066 habitantes, lo que la ubica como la vigésima segunda ciudad más poblada del país.\n\nEs conocida como la “Cuna de Alfaro” porque el 25 de junio de 1842 nació allí Eloy Alfaro, líder de la revolución liberal ecuatoriana. Forma parte del área metropolitana de Manabí Centro; su actividad económica, social y comercial está vinculada a Portoviejo y Manta, funcionando como ciudad dormitorio para miles de trabajadores que se desplazan diariamente. El conglomerado alberga a 790.960 habitantes y ocupa la cuarta posición entre las conurbaciones del Ecuador. Sus principales actividades son el comercio, el transporte y el turismo. El nombre proviene de un señor apellidado Criste, que construyó su casa en la cima del monte, originando el topónimo Montecristi."
+  },
+  {
+    "slug": "hato-mayor",
+    "name": "Hato Mayor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Hato Mayor",
+    "regionSlug": "hato-mayor",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-pedro-de-macorris",
+      "la-romana",
+      "higuey",
+      "santo-domingo-este",
+      "punta-cana",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hato Mayor es un municipio de la República Dominicana fundado alrededor del año 1520 por Francisco Dávila, situado en la provincia homónima.",
+    "aboutTitle": "Historia y fundación de Hato Mayor",
+    "about": "Hato Mayor es un municipio de la República Dominicana situado en la provincia homónima, en la región este del país. Su nombre proviene del hecho de que en sus tierras se creó un hato. El municipio se ubica a 35 kilómetros de la provincia de San Pedro de Macorís y a 110 kilómetros de la ciudad de Santo Domingo. Fue fundado hacia el año 1520 por Francisco Dávila, quien como Tesorero Real y Regidor Perpetuo de La Española estableció el Mayorazgo de los Dávila el 23 de agosto de 1554 en Santo Domingo, con la presencia de su sobrino Gaspar Dávila. La hacienda colonial se dedicaba a la ganadería y la agricultura y, tras pasar por varios herederos, en 1746 Don Antonio Coca y Landeche Vevers, administrador perpetuo del mayorazgo, fundó el pueblo de Hato Mayor al erigir una ermita dedicada a Nuestra Señora de las Mercedes. Hasta julio de 1843 la localidad formaba una sección dependiente de la común y provincia de El Seibo; durante la ocupación haitiana pasó a ser comuna y obtuvo registro civil. El 9 de junio de 1845 perdió el estatus de comuna según la ley n.º 40 y volvió a ser puesto militar de El Seibo. Finalmente, el 13 de octubre de 1848 el presidente Manuel Jiménez proclamó en común el pueblo de Hato Mayor del Rey mediante el decreto n.º 174 del Consejo Conservador."
+  },
+  {
+    "slug": "bruzual-venezuela",
+    "name": "Bruzual",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 229,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Yaracuy",
+    "regionSlug": "yaracuy",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-felipe",
+      "barquisimeto",
+      "acarigua",
+      "valencia-venezuela",
+      "puerto-cabello",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Bruzual, una ciudad en el estado Apure de Venezuela con una población de 7.914 habitantes según el censo de 2018.",
+    "aboutTitle": "Bruzual, ciudad en el estado Apure",
+    "about": "Bruzual, también conocida como Manga Angulera en su fundación, es una ciudad del estado Apure, Venezuela. Fue fundada frente al río Apure, sobre lo que fue un hato, y para 1800 ya había crecido lo suficiente como para ser elevada a categoría de centro poblado de importancia relativa. Actualmente constituye un paso estratégico para llegar a otras ciudades como Guasdualito, Elorza y a poblaciones menores de la zona. Como capital del municipio Muñoz, concentra la administración local y los servicios municipales. El municipio cubre un área de 1.778 km², lo que le otorga una extensión considerable dentro de la región. Según el censo de 2018, la población total de Bruzual es de 7.914 habitantes."
+  },
+  {
+    "slug": "distrito-de-ilo",
+    "name": "Distrito de Ilo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 181,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Moquegua",
+    "regionSlug": "departamento-de-moquegua",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moquegua",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Distrito de Ilo, ubicado en la provincia de Ilo, departamento de Moquegua en el Sur del Perú, con una superficie de 295,6 km².",
+    "aboutTitle": "Distrito de Ilo en el departamento de Moquegua",
+    "about": "El distrito de Ilo es uno de los tres que conforman la provincia de Ilo, situada en el departamento de Moquegua, en el sur del Perú. Desde el punto de vista administrativo, el distrito depende de la autoridad provincial de Ilo y de la gobernación departamental de Moquegua, integrándose en el sistema de gobierno local del país. En el plano eclesiástico, forma parte de la diócesis de Tacna y Moquegua, que a su vez está adscrita a la arquidiócesis de Arequipa, autoridad que supervisa varias parroquias de la zona sur. La superficie total del territorio asciende a 295,6 km², lo que le otorga una extensión territorial notable dentro de la provincia. Según el censo nacional de 2007, la población residente era de 59.132 habitantes, cifra que subraya la relevancia demográfica del distrito en el contexto provincial. Cada año el distrito celebra la fiesta de San Pedro, conmemorando al santo patrono de la localidad."
+  },
+  {
+    "slug": "chicacao",
+    "name": "Chicacao",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 228,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Suchitepéquez",
+    "regionSlug": "departamento-de-suchitepequez",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "solola",
+      "quetzaltenango",
+      "antigua-guatemala",
+      "escuintla",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chicacao, municipio de Suchitepéquez en Guatemala, contaba con 49.956 habitantes en el censo de 2002 y fue elevado a municipio el 5 de marzo de 1889.",
+    "aboutTitle": "Chicacao: municipio de 216 km² con clima tropical",
+    "about": "Chicacao es un municipio del sur-occidente de Guatemala, perteneciente al departamento de Suchitepéquez. Con una población aproximada de 49.956 habitantes según el censo de 2002 y una extensión territorial de 216 km², se ubica a 17 km de la cabecera departamental Mazatenango. La cabecera municipal presenta un clima tropical según la clasificación de Köppen (Am) y el municipio se divide en treinta y dos centros poblados, dos aldeas, nueve caseríos y veintiún cantones. El origen del topónimo no está claro, aunque una versión lo relaciona con los términos «Chi» y «Cacao», que significarían entre cacao. Históricamente, la zona fue una aldea del municipio de Atitlán en Sololá y formó parte del efímero Estado de Los Altos entre 1838 y 1840. Fue elevado a municipio de ese departamento el 5 de marzo de 1889, convirtiéndose en el segundo municipio más poblado de Suchitepéquez. Limita al norte con Santa Clara La Laguna, San Juan La Laguna, San Pedro La Laguna y Santiago Atitlán."
+  },
+  {
+    "slug": "los-salias",
+    "name": "Los Salias",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 227,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Miranda",
+    "regionSlug": "miranda",
+    "channels": [
+      "miranda",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-teques",
+      "venezuela",
+      "caracas",
+      "guarenas",
+      "san-juan-de-los-morros",
+      "miranda",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Salias, municipio de Miranda a 14 km de Caracas, tiene 104.846 habitantes (censo 2023) y destaca por el Mirador El Faro con vistas a la capital.",
+    "aboutTitle": "Los Salias: Mirador El Faro y la Capilla de la Virgen de Candelaria",
+    "about": "Los Salias es uno de los 21 municipios que conforman el estado Miranda, con su capital en San Antonio de los Altos. Situado al noroeste del estado, se ubica a unos 14 kilómetros de Caracas y limita al norte con el Distrito Capital, al sur con el municipio Guaicaipuro, al este con Baruta y al oeste con Carrizal. Con una superficie de 51 km² y una elevación máxima de 1.729 metros sobre el nivel del mar en los Altos de Pipe, el municipio fue fundado en 1982 mediante la Gaceta Oficial del estado Miranda y cuenta con una sola parroquia, San Antonio de los Altos. Su nombre rinde honor a los hermanos Salias, próceres de la independencia de Venezuela en el siglo XIX. En el ámbito económico, la sede principal del Instituto Venezolano de Investigaciones Científicas y el INTEVEP, ubicados en el sector Altos de Pipe, son de los mayores empleadores de la zona. El turismo se concentra en lugares como el Mirador El Faro, la Capilla de la Virgen de Candelaria, cuya versión nueva se inauguró en 2006 tras derrumbarse la anterior en 1992, y la fábrica de Arte Murano en el caserío Potrerito, donde se moldean vidrios de colores. Otros atractivos son el casco del pueblo, el casco central de Los Castores, el embalse La Mariposa y Loma Quintana, el punto más alto de los Altos Mirandinos."
+  },
+  {
+    "slug": "ixtlahuacan-de-los-membrillos",
+    "name": "Ixtlahuacán de los Membrillos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 174,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Jalisco",
+    "regionSlug": "jalisco",
+    "channels": [
+      "jalisco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chapala",
+      "san-jose-del-castillo",
+      "las-pintitas",
+      "hacienda-santa-fe",
+      "lomas-del-sur",
+      "jalisco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ixtlahuacán de los Membrillos, un municipio jalisciense con una extensión territorial de 184.32 kilómetros cuadrados.",
+    "aboutTitle": "Ixtlahuacán de los Membrillos, un municipio jalisciense",
+    "about": "Ixtlahuacán de los Membrillos es un municipio ubicado en el centro del estado de Jalisco, en la región del mismo nombre. Está directamente al norte del Lago de Chapala y forma parte de la Zona Metropolitana de Guadalajara. El municipio tiene una extensión territorial de 184.32 kilómetros cuadrados y colinda con los municipios de Jocotepec, Juanacatlán, Chapala y Tlajomulco de Zúñiga.\n\nEl clima de Ixtlahuacán de los Membrillos se clasifica como semiseco con invierno y primavera secos, y semicálido sin estación invernal definida. La temperatura media anual es de 19.8 °C, y tiene una precipitación media anual de 797.9 milímetros. En cuanto a eventos culturales, se celebró el Día de Muertos en 2023 y 2025."
+  },
+  {
+    "slug": "villa-guerrero",
+    "name": "Villa Guerrero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 140,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ixtapan-de-la-sal",
+      "tenango-de-arista",
+      "santiago-tlacotepec",
+      "capulhuac-de-mirafuentes",
+      "san-jorge-pueblo-nuevo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Guerrero, en el Estado de México con 67 929 habitantes, destaca como principal productor de flores del país, conocido como el Paraíso de las Flores.",
+    "aboutTitle": "Villa Guerrero, el Paraíso de las Flores del Estado de México",
+    "about": "Villa Guerrero es un municipio del Estado de México, situado en la zona sur del estado con una superficie de 210,535 km². Su cabecera municipal lleva el mismo nombre y limita al norte con Tenango del Valle, al este con Tenancingo y Zumpahuacán, al sur con Ixtapan de la Sal y al oeste con Coatepec Harinas; en el norte comparte territorio con la reserva federal del Nevado de Toluca. Según el censo de 2015 la población total asciende a 67 929 habitantes, lo que refleja su carácter principalmente rural.\n\nLa economía de Villa Guerrero gira en torno a la floricultura; el municipio es el principal productor de flores de México y lleva el sobrenombre internacional de “Paraíso de las Flores”. El clima templado, los suelos fértiles y la abundante agua proveniente del volcán Xinantécatl favorecen la gran diversidad de cultivos florales. El origen del nombre se remonta a la época prehispánica, cuando la población se llamaba Tecualoyan, que significa “Lugar donde hay fieras devoradoras”. El 20 de abril de 1867, bajo el gobierno interino del coronel Germán Contreras, se cambió a Villa Guerrero en honor a los habitantes que apoyaron a la patria durante la Guerra de Reforma. El escudo municipal muestra a un jaguar u ocelote con una figura humana entre sus fauces, aludiendo a esa antigua denominación."
+  },
+  {
+    "slug": "puruandiro",
+    "name": "Puruándiro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 183,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "patzcuaro",
+      "irapuato",
+      "celaya",
+      "uruapan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puruándiro, cabecera del municipio homónimo en Michoacán, destaca por sus aguas termales y su balneario Los Arcos, con fundación en el año 1522.",
+    "aboutTitle": "Aguas termales y balneario Los Arcos en Puruándiro",
+    "about": "Puruándiro es la cabecera del municipio homónimo, situada al norte del estado de Michoacán, dentro de la Región Bajío. La ciudad fue fundada en 1522 por el encomendero español Juan de Villaseñor y Orozco. Su nombre proviene del purépecha «Purhuandirhu», que significa “lugar del agua donde reposa el fuego”, “lugar de aguas termales” o “donde hierve el agua”, referencia a las abundantes fuentes termales que rodean el asentamiento. Entre los atractivos locales destacan el balneario de aguas termales Los Arcos, los vestigios de un acueducto colonial y los jardines históricos Lázaro Cárdenas y Morelos, este último con bustos de José María Morelos y Benito Juárez.\n\nLa economía de Puruándiro se apoya en la agricultura y la ganadería, aprovechando la zona del Bajío, y en la industria del calzado, que ha sido un pilar económico desde el siglo XIX. La ciudad conserva la Pila del Agua Potable “Mariano de la Piedra”, que durante mucho tiempo abasteció de este recurso a la población, además de otras pilas de agua como «La Sirena» y «El Moro»."
+  },
+  {
+    "slug": "heroica-caborca",
+    "name": "Heroica Caborca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 185,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "magdalena",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Heroica Caborca, también conocida como La Perla del Desierto, es una ciudad mexicana ubicada en el estado de Sonora, con una rica historia y cultura.",
+    "aboutTitle": "Caborca, ciudad histórica del desierto de Sonora",
+    "about": "Heroica Caborca es una ciudad mexicana situada en el noroeste del estado de Sonora, en la zona del desierto de Sonora. Fue fundada el 18 de diciembre de 1692 por el misionero jesuita Eusebio Francisco Kino en un asentamiento indígena ubicado al pie del Cerro Prieto. La ciudad es conocida como La Perla del Desierto y tiene una rica historia y cultura. La región de Caborca, en su época precolombina, se cree que fue habitada por grupos indígenas de la cultura Hohokam, que dejaron un profuso testimonio de su paso a través de petroglifos en lugares como el cerro La Proveedora y Cerro Prieto. La ciudad se ubica a 220 kilómetros de la frontera con los Estados Unidos en Heroica Nogales, a 177 kilómetros de la costa en el golfo de California en Puerto Peñasco y a 282 kilómetros de la capital del estado Hermosillo. Estos tres puntos de referencia subrayan la posición estratégica de Caborca entre la frontera norte, la costa del Golfo de California y la capital estatal."
+  },
+  {
+    "slug": "manaure",
+    "name": "Manaure",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "La Guajira",
+    "regionSlug": "la-guajira",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maicao",
+      "riohacha",
+      "albania",
+      "barrancas",
+      "fonseca",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Manaure, «la novia blanca de Colombia», es un municipio del departamento de La Guajira, en el norte del país, famoso por sus extensas salinas marítimas.",
+    "aboutTitle": "La novia blanca de Colombia",
+    "about": "Manaure es un municipio ubicado en el departamento de La Guajira, en el extremo norte de Colombia. Su cabecera municipal concentra la mayor concentración de población dentro del desierto de La Guajira y alberga las salinas marítimas más extensas e importantes del país, recurso fundamental para la economía local. El nombre proviene del resplandor del cacique Manaure, líder de la tribu caquetío que habitaba la zona al momento de la llegada de los conquistadores. Según los registros, el cacique se convirtió al catolicismo en 1527, adoptando el nombre de santo. La presencia de las salinas ha marcado la historia de la localidad, convirtiéndola en un punto de referencia para la extracción de sal en la región. Además, su posición geográfica dentro del desierto le confiere un paisaje árido caracterizado por dunas y vegetación escasa, mientras que la proximidad al mar permite la actividad salina. La comunidad mantiene viva la memoria de su pasado indígena y colonial a través de los nombres y fechas que se conservan en la toponimia local."
+  },
+  {
+    "slug": "zihuatanejo",
+    "name": "Zihuatanejo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 237,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "melchor-ocampo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zihuatanejo, ciudad y puerto mexicano en la región de la Costa Grande, con 67.408 habitantes según el censo de 2010.",
+    "aboutTitle": "Zihuatanejo, ciudad y puerto en la Costa Grande",
+    "about": "Zihuatanejo es una ciudad y puerto mexicano situado en el suroeste del estado de Guerrero, dentro de la región de la Costa Grande. Se localiza a 354 km de la capital estatal, Chilpancingo, a 255 km del puerto de Acapulco y a 482 km de la Ciudad de México. Es cabecera del municipio de Zihuatanejo de Azueta y funciona como capital regional de la Costa Grande.\n\nLa ciudad se consolidó como un centro pesquero y portuario, y a partir de la segunda mitad del siglo XX experimentó un impulso turístico con el desarrollo de Ixtapa, que complementó su vocación como destino de playa y contribuyó a su crecimiento económico y demográfico. Durante el Virreinato de Nueva España, Zihuatanejo surgió como un pequeño asentamiento pesquero, y en sus alrededores se establecieron haciendas."
+  },
+  {
+    "slug": "marcos-paz",
+    "name": "Marcos Paz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 188,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merlo",
+      "moron",
+      "canuelas",
+      "lomas-de-zamora",
+      "lanus",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Marcos Paz, partido del centro‑este de la provincia de Buenos Aires, parte del Gran Buenos Aires, con complejo penitenciario federal (2001).",
+    "aboutTitle": "Historia y ubicación de Marcos Paz",
+    "about": "Marcos Paz es uno de los 135 partidos de la provincia argentina de Buenos Aires, situado en el centro-este de la misma. Su cabecera es la ciudad de Marcos Paz. Forma parte del aglomerado urbano conocido como Gran Buenos Aires, ubicándose en la zona oeste del mismo. El partido tiene un complejo penitenciario de alta seguridad, dependiente del Servicio Penitenciario Federal, inaugurado en el año 2001. La historia de Marcos Paz se remonta a 1745, cuando el maestre de campo Juan de San Martín y Gutiérrez fundó un fortín en el actual territorio, entonces parte del pago de La Matanza. El pueblo de Marcos Paz fue finalmente fundado por Juan Feijoó en 1871 sobre la línea del ferrocarril que corría entre Merlo y Lobos. En 1877 sus vecinos peticionaron al gobierno de la provincia la creación del nuevo partido Marcos Paz y el 25 de octubre de 1878 se dio curso a lo solicitado creándose el partido de Marcos Paz con tierras de Merlo, La Matanza y General Las Heras."
+  },
+  {
+    "slug": "zona-bananera",
+    "name": "Zona Bananera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 207,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Magdalena",
+    "regionSlug": "magdalena",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "aracataca",
+      "el-reten",
+      "fundacion",
+      "cienaga",
+      "santa-marta",
+      "magdalena",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Zona Bananera, un municipio del departamento de Magdalena en el norte de Colombia. Su población supera los 56.000 habitantes.",
+    "aboutTitle": "Ríos y balnearios de Zona Bananera",
+    "about": "Zona Bananera es un municipio del departamento de Magdalena en el norte de Colombia. Su territorio es mayoritariamente de relieve plano y contiene los ríos Frío, Sevilla y Tucurinca. La economía del municipio se basa en la agricultura, con cultivos de banano y palma africana, así como en la ganadería y la agroindustria. También es conocido por sus balnearios, como el de El Túnel en el río Frío y el de Corregimiento de Tucurinca. El municipio celebra varias festividades a lo largo del año, como las Fiestas patronales de la virgen del carmen de Orihueca el 16 de julio, el Cumpleaños de Sevilla el 7 de agosto y el Encuentro Regional de Teatro de la Zona Bananera en Riofrío el 31 de agosto."
+  },
+  {
+    "slug": "ypane",
+    "name": "Ypané",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 211,
+    "activity": "Media",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento Central",
+    "regionSlug": "departamento-central",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fernando-de-la-mora",
+      "san-lorenzo-paraguay",
+      "capiata",
+      "lambare",
+      "luque",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ypané es una ciudad paraguaya del departamento Central, fundada el 23 de marzo de 1538 y conocida como la Ciudad Histórica, situada a 22 km de Asunción.",
+    "aboutTitle": "Ypané: Ciudad Histórica a 22 km de Asunción",
+    "about": "Ypané es una ciudad paraguaya ubicada en el departamento Central, a unos 22 km al norte de la capital, Asunción. La localidad está integrada en la red vial nacional gracias a la Ruta PY01, la principal carretera que conecta Asunción con el interior del país, y a la Ruta D027, que sirve como acceso complementario y facilita el tránsito local. Fundada el 23 de marzo de 1538, Ypané conserva una larga tradición histórica que le ha valido el sobrenombre de Ciudad Histórica, en referencia a su patrimonio arquitectónico y a los acontecimientos que marcaron su origen en la época colonial. A lo largo de los siglos, la ciudad ha mantenido su identidad como núcleo urbano del centro del Paraguay, conservando la referencia a su fecha de fundación en documentos oficiales y en la memoria colectiva de sus habitantes. La combinación de su ubicación estratégica, la proximidad a la capital y la presencia de dos rutas principales la convierten en un punto de referencia dentro del departamento Central."
+  },
+  {
+    "slug": "ramos-arizpe",
+    "name": "Ramos Arizpe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 229,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "saltillo",
+      "monterrey",
+      "guadalupe-nuevo-leon",
+      "allende",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ramos Arizpe, ciudad de Coahuila, México, a 10 km de Saltillo y 1 380 m s.n.m., industria automotriz, planta de General Motors y otras naves industriales.",
+    "aboutTitle": "Ramos Arizpe, ciudad industrial de Coahuila",
+    "about": "Ramos Arizpe es una ciudad y cabecera municipal del municipio del mismo nombre en el estado de Coahuila, México. Es una de las ciudades progresistas del estado, con una gran actividad industrial que ha marcado un ámbito importante en la región. La ciudad se localiza en el valle del municipio de Saltillo, a una altitud de 1380 m s. n. m., aproximadamente a 10 km de la ciudad de Saltillo. Las principales actividades económicas de Ramos Arizpe son la industria automotriz, con la planta de ensamble y estampado de General Motors, y otras naves industriales pertenecientes a conglomerados extranjeros. La ciudad recibe su nombre en honor a Miguel Ramos Arizpe (1775-1843), nacido en esta ciudad y quien fuera representante de la Nueva España en las Cortes de Cádiz. Jugó un rol importante durante la creación y promulgación de la Constitución de Cádiz que regiría a la Nueva España en su etapa final y el México independiente hasta 1824."
+  },
+  {
+    "slug": "olmos",
+    "name": "Olmos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 212,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "jaen-peru",
+      "chulucanas-peru",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Olmos es un distrito del norte del Perú, con la mayor extensión territorial de la provincia de Lambayeque, situado en el Departamento de Lambayeque.",
+    "aboutTitle": "Olmos, un distrito con rica historia y vasta extensión",
+    "about": "Olmos es un distrito ubicado en el norte del Perú, en la provincia de Lambayeque, Departamento de Lambayeque. Es el distrito con más extensión territorial de la provincia de Lambayeque. El nombre de Olmos proviene de la abundancia de árboles de la variedad algarrobo que existían en Lluró, primer pueblo fundado en aquellos tiempos y cuyos árboles eran muy parecidos a los olmos de España. Durante la época colonial, los españoles constituyeron dos encomiendas, Olmos y Santovélico, bajo la administración del partido de Piura. En 1544, el virrey Blasco Núñez de Vela reconoció la Comunidad Indígena de Olmos. La historia de Olmos se remonta a la época prehispánica, cuando los pobladores del actual Olmos tuvieron una fuerte influencia de los tallanes y, en menor grado, de otras culturas desarrolladas en el extremo norte del Perú. Es probable que en una determinada época histórica existiera algún nexo con la cultura Moche, Lambayeque, Sican y Sipán, desarrolladas en el ámbito de la actual Región Lambayeque."
+  },
+  {
+    "slug": "villa-corzo",
+    "name": "Villa Corzo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 179,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "durango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Corzo es un municipio mexicano ubicado en la depresión central del estado de Chiapas, dentro de la Región de la Fraylesca.",
+    "aboutTitle": "Villa Corzo: historia, geografía y fiesta del 5 de noviembre",
+    "about": "Villa Corzo es un municipio de Chiapas que forma parte de la Región de la Fraylesca. Se sitúa en la depresión central del estado, entre los 15°50′ y 16°26′ de latitud norte y los 92°51′ y 93°37′ de longitud oeste, con un relieve que combina la Sierra Madre y la depresión central. Con una superficie de 4.026,70 km², representa el 48% de la región Frailesca y el 5,32% de la superficie estatal, y se encuentra a 580 m de altitud. En el censo de 2020 el municipio contaba con 1.250 localidades.\n\nEn la época prehispánica el territorio perteneció al cacicazgo de los chiapanecas; durante la colonia lo dominaron los frailes dominicos, que fundaron haciendas denominadas Frailescas. El 5 de noviembre de 1873, el gobernador del Estado, Pantaleón Domínguez, promulgó el decreto que declara pueblo del Estado a la congregación de familias residentes en el terreno La Trinidad, bajo la denominación de Trinidad de la Ley. Posteriormente, el 3 de noviembre de 1893, el nombre cambió a Villa Corzo en honor al benemérito Ángel Albino Corzo."
+  },
+  {
+    "slug": "san-francisco-el-alto",
+    "name": "San Francisco El Alto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 236,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Totonicapán",
+    "regionSlug": "departamento-de-totonicapan",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "solola",
+      "san-marcos-guatemala",
+      "huehuetenango",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Francisco El Alto, Totonicapán, Guatemala, celebra su fiesta patronal el 4 de octubre y conserva el nombre indígena Chuisiguán, ‘lugar en el precipicio’.",
+    "aboutTitle": "Fiesta patronal de San Francisco El Alto el 4 de octubre",
+    "about": "San Francisco El Alto es un municipio del departamento de Totonicapán, situado en la región sur‑occidental de Guatemala. El nombre combina la devoción a su santo patrono, San Francisco de Asís, con la referencia a su posición en la cima de una colina empinada, razón por la que los conquistadores lo llamaron «El Alto». Antes de la llegada española, el poblado se conocía como «Chuisiguán», término kʼicheʼ que significa ‘lugar en el precipicio’. \n\nLa comunidad celebra su fiesta titular el 4 de octubre, día dedicado al santo patrono. En 1820 sus habitantes participaron en la revuelta indígena encabezada por Atanasio Tzul contra los tributos excesivos, una insurrección que fue sofocada por milicianos ladinos de San Carlos Sija. Tras la independencia de Centroamérica en 1821, San Francisco pasó del departamento de Totonicapán/Huehuetenango al Estado de Los Altos en 1838, y en 1840 el general Rafael Carrera reincorporó la zona a Guatemala. La reorganización liberal de 1872 creó el nuevo departamento de Quiché, pero San Francisco El Alto quedó nuevamente dentro de Totonicapán, donde permanece hoy."
+  },
+  {
+    "slug": "los-amates",
+    "name": "Los Amates",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Izabal",
+    "regionSlug": "departamento-de-izabal",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jocotan",
+      "santa-rosa-de-copan",
+      "chiquimula",
+      "puerto-barrios",
+      "san-pedro-sula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Amates, municipio de Izabal a 92 km de Puerto Barrios, lleva su nombre por dos árboles de amate y está a 6 km del sitio arqueológico de Quiriguá.",
+    "aboutTitle": "Los Amates y su cercanía al sitio arqueológico de Quiriguá",
+    "about": "Los Amates es un municipio del Departamento de Izabal, situado a 92 km de Puerto Barrios y a 201 km de la Ciudad de Guatemala. Su nombre proviene de dos árboles de amate que existían en la zona y la cabecera municipal se encuentra a sólo 6 km del Centro Arqueológico de Quiriguá, uno de los más importantes de la civilización maya. El poblado se localiza en una zona históricamente inhóspita y retirada, razón por la cual, tras la independencia de Centroamérica en 1821, todo el departamento fue asignado a un distrito dependiente de Verapaz y formó parte del circuito judicial de Zacapa, perteneciente al Distrito N.º 4 (Chiquimula).\n\nEn abril de 1920, cuando el Partido Unionista derrocó al presidente Manuel Estrada Cabrera, la United Fruit Company enfrentó una huelga en sus plantaciones bananeras de Morales y Los Amates sin contar con la represión del antiguo dictador. Ante la falta de apoyo unionista, la compañía respaldó el golpe de Estado del general José María Orellana en 1921, que sofocó a los sindicatos y restableció la producción bananera. La Franja Transversal del Norte, creada en 1970 mediante el Decreto 60‑70, incluyó a todo Izabal como zona de desarrollo agrario. Originalmente el poblado se llamó «Cielito Lindo» por los colonos provenientes de San Agustín Acasaguastlán."
+  },
+  {
+    "slug": "purulha",
+    "name": "Purulhá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 246,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Baja Verapaz",
+    "regionSlug": "departamento-de-baja-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "villa-nueva",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Purulhá, un municipio del departamento de Baja Verapaz en Guatemala, ubicado en el Corredor Biológico del Bosque Nuboso.",
+    "aboutTitle": "Purulhá, un municipio en el Corredor Biológico del Bosque Nuboso",
+    "about": "Purulhá es un municipio del departamento de Baja Verapaz en la República de Guatemala, ubicado en el centro norte del país en la región conocida como «Corredor Biológico del Bosque Nuboso». La producción cafetalera de Purulhá era transportado por medio del Ferrocarril Verapaz, el cual fue fundado el 15 de enero de 1894 entre el puerto fluvial de Panzós y el paraje de Pancajché, de treinta millas de extensión.\n\nLa familia Thomae se estableció en Purulhá aprovechando las concesiones que les dieron los gobiernos liberales de Justo Rufino Barrios, Manuel Lisandro Barillas Bercián y José María Reina Barrios; tras su llegada a la Verapaz, Mauricio Thomae fue adquiriendo fincas en la región y en Purulhá específicamente se hizo de las fincas San Isidro en 1889, Nueva Aguas en 1900 y Panzal en 1902."
+  },
+  {
+    "slug": "jocotitlan",
+    "name": "Jocotitlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 223,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "san-pablo-autopan",
+      "san-andres-cuexcontitlan",
+      "san-francisco-tlalcilalcalpan",
+      "xonacatlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Jocotitlán, municipio del Estado de México, uno de los 125 del estado, declarado ciudad heroica número 40 del país y Pueblo con Encanto en 2021.",
+    "aboutTitle": "Jocotitlán, Pueblo con Encanto",
+    "about": "El municipio de Jocotitlán forma parte de los ciento veinticinco municipios que integran el Estado de México, en territorio nacional mexicano. En 2013 recibió el reconocimiento oficial de ciudad heroica, obteniendo el número 40 a nivel nacional y convirtiéndose en la segunda localidad con este título dentro del propio estado. La cabecera municipal lleva el nombre de Heroica Ciudad de Jocotitlán; en 2021, precisamente el 30 de agosto, el Gobierno del Estado de México la declaró Pueblo con Encanto, resaltando su valor histórico y cultural. El topónimo original, Xocotitlan, proviene del náhuatl y se traduce como «lugar entre los frutos agridulces», «lugares entre los tejocotes» o «lugar entre árboles de tejocote». Evidencias arqueológicas indican que, durante el Periodo clásico, entre los años 200 y 600 d. C., ya existía una población sedentaria dedicada a la agricultura y establecida en contacto directo con la gran civilización de Teotihuacán. Estos antecedentes subrayan la importancia histórica de Jocotitlán dentro de la región."
+  },
+  {
+    "slug": "jiquilpan",
+    "name": "Jiquilpan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 216,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jamay",
+      "ocotlan",
+      "la-barca",
+      "chapala",
+      "tamazula-de-gordiano",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jiquilpan, municipio del noroeste de Michoacán, está a 145 km de Guadalajara y destaca por su industria artesanal de tequila y mezcal.",
+    "aboutTitle": "Industria artesanal de tequila y mezcal en Jiquilpan",
+    "about": "Jiquilpan se encuentra ubicado en el noroeste del estado de Michoacán, México, a 145 km de Guadalajara, 210 km de Morelia y a 524 km de la Ciudad de México, por la carretera nacional número 15. El nombre proviene del náhuatl xiuhquilitl ‘planta tintórea’ y pan ‘lugar’, y en purépecha se conocía como Huanimban, ‘lugar de huanitas’. Durante la época prehispánica Xiquilpan fue un centro cultural, agrícola y comercial importante, con vestigios arqueológicos del Otero, y fue conquistada en 1450 por los sucesores del irecha Tariácuri. En 1522 llegó Cristóbal de Olid a conquistar la zona y los franciscanos establecieron la evangelización, construyendo templo y convento.\n\nLos habitantes se dedican principalmente a la agricultura, ganadería y cultivo de hortalizas, además de producir derivados de la leche. Existe industria del tequila y del mezcal artesanal. El municipio es considerado la capital política de la Ciénega de Chapala, sede del distrito electoral 4 y forma parte de la región 1 Lerma-Chapala y del Bajío zamorano."
+  },
+  {
+    "slug": "sabinas",
+    "name": "Sabinas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 228,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sabinas es una ciudad de Coahuila fundada como villa en 1878, erigida como municipio en 1906 y constituida en ciudad a partir del 12 de septiembre de 1942.",
+    "aboutTitle": "Río Sabinas y su origen histórico",
+    "about": "Sabinas es una ciudad mexicana, cabecera del municipio homónimo, situada en el noreste del estado de Coahuila, en el norte del país. Fue fundada en 1878 cuando colonos provenientes principalmente de Ramos Arizpe solicitaron al Gobierno del Estado sitios de ganado mayor y la concesión para aprovechar el agua del río Sabinas. El 26 de diciembre de 1878 pidieron una concesión de tierras al gobernador. En 1906 se erigió el municipio a la villa de Sabinas y el 31 de agosto de 1942 el gobernador constitucional interino Jesús Fuentes Dávila expidió el decreto que la constituye en ciudad a partir del 12 de septiembre de 1942. El nombre de la villa proviene del río Sabinas, llamado así por la abundante vegetación de sabinos que bordea sus riberas, árboles también conocidos como Taxodium huegelii. El río recibió ese nombre en 1590 por el paso del explorador Gaspar Castaño de Sosa. El 3 de diciembre de 1883 el Ferrocarril Internacional Mexicano inició el servicio de trenes a la localidad, que tomó el nombre de Estación Sabinas."
+  },
+  {
+    "slug": "san-pedro-soloma",
+    "name": "San Pedro Soloma",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Huehuetenango",
+    "regionSlug": "departamento-de-huehuetenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "san-francisco-el-alto",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "solola",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Pedro Soloma, municipio del departamento de Huehuetenango en Guatemala, sufrió graves daños por el terremoto de San Perfecto de 1902.",
+    "aboutTitle": "Historia colonial y toponimia de San Pedro Soloma",
+    "about": "San Pedro Soloma es un municipio situado en el departamento de Huehuetenango, en la región nor‑occidente de la República de Guatemala. Formó parte del territorio que, tras la independencia de Centroamérica en 1821, quedó bajo la jurisdicción del circuito de Totonicapam, distrito número 9, para la impartición de justicia. En 1838 se integró al breve Estado de Los Altos, proyecto liberal que fue recuperado por el general Rafael Carrera en 1840. Durante la época colonial el lugar albergó el convento y doctrina de San Pedro de Solomá, administrado por los frailes mercedarios hasta su entrega al clero secular en 1754. En 1770 el arzobispo Pedro Cortés y Larraz realizó una visita pastoral al curato, que entonces formaba parte de los once curatos de la Provincia y Alcaldía Mayor de Totonicapam. En 1902 el terremoto de San Perfecto dañó severamente el poblado, obligando a la comunidad a reconstruir gran parte de sus viviendas. Entre 1960 y 1996, la proximidad con el departamento de Quiché hizo que San Pedro Soloma experimentara los efectos de la guerra civil guatemalteca. El topónimo del municipio combina la devoción al Apóstol Pedro con la raíz náhuatl «zolomizah», que significa inquietud, y con «zol» o «zolli», que alude a la codorniz."
+  },
+  {
+    "slug": "mulege",
+    "name": "Mulegé",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 202,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mulegé, municipio de Baja California Sur, cubre 33.092 km² entre los paralelos 26° 24’ y 28° 01’ N; es el segundo municipio más grande de México.",
+    "aboutTitle": "Mulegé, un municipio de gran extensión en Baja California Sur",
+    "about": "Mulegé es uno de los cinco municipios en los que se divide el estado mexicano de Baja California Sur. Su cabecera municipal es Santa Rosalía y las ciudades más pobladas son su cabecera, Guerrero Negro y Mulegé. El municipio de Mulegé se ubica entre los paralelos 26° 24’ y 28° 01’ de latitud norte; los meridianos 111° 33’ y 115° 14’ de longitud oeste; altitud entre 1 y 1,900 m. Colinda al norte con el Océano Pacífico, el estado de Baja California y el Golfo de California (Mar de Cortés); al este con el Golfo de California (Mar de Cortés) y el municipio de Loreto; al sur con los municipios de Loreto, Comondú y el Océano Pacífico; al oeste con el Océano Pacífico. El punto más elevado del municipio es el volcán Las Tres Vírgenes, con 1940 metros sobre el nivel del mar. El municipio de Mulegé tiene una totalidad de 459 localidades, y es el segundo municipio más grande del país, solo detrás de San Quintín."
+  },
+  {
+    "slug": "metapan",
+    "name": "Metapán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 196,
+    "activity": "Media",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Santa Ana",
+    "regionSlug": "departamento-de-santa-ana",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-ana",
+      "chiquimula",
+      "jocotan",
+      "ahuachapan",
+      "apopa",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Metapán, ciudad del departamento de Santa Ana en El Salvador, con una extensión territorial de 668.36 km² y límite al norte con Guatemala.",
+    "aboutTitle": "Metapán, el distrito con mayor superficie territorial de El Salvador",
+    "about": "Metapán es una ciudad y un distrito del municipio de Santa Ana Norte en el departamento de Santa Ana de la zona occidental de El Salvador. Es la segunda ciudad más grande del departamento de Santa Ana. El origen del topónimo de Metapán proviene del idioma náhuat que proviene de ‘met’ (agave o maguey) y de ‘apán’ (río), por lo que el significado completo es «Río de agaves o magueyes». Metapán tiene una extensión territorial de 668.36 km², lo cual lo convierte en el distrito con la superficie territorial más extensa del país. El distrito limita al norte con la República de Guatemala, al este con los distritos de Citalá y La Palma; al sur con los distritos de Agua Caliente, Nueva Concepción, Santa Rosa Guachipilín, Masahuat, Texistepeque y San Antonio Pajonal; y al oeste con la República de Guatemala. Su posición estratégica lo convierte en un punto de enlace entre El Salvador y Guatemala."
+  },
+  {
+    "slug": "guamuchil",
+    "name": "Guamúchil",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sinaloa",
+    "regionSlug": "sinaloa",
+    "channels": [
+      "sinaloa",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "culiacan",
+      "sinaloa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guamúchil, quinta ciudad más grande de Sinaloa y cabecera del municipio de Salvador Alvarado, destaca por su rápido crecimiento y su historia desde 1533.",
+    "aboutTitle": "Guamúchil: ciudad del Valle del Évora y su río Mocorito",
+    "about": "Guamúchil es una ciudad del estado de Sinaloa, México, y ocupa el puesto de quinta ciudad más grande de la entidad. Es la cabecera del municipio de Salvador Alvarado y forma parte de la región conocida como el valle del Évora, que también incluye a los municipios de Mocorito, Angostura y parte de Badiraguato. La economía local se basa en actividades terciarias y la ciudad ha experimentado un rápido crecimiento en los últimos años, consolidándose como un centro de servicios para la zona circundante.\n\nSegún las crónicas, el 4 de junio de 1533 una expedición al mando del capitán Diego de Guzmán partió de Culiacán hacia el norte y el 29 de ese mes descubrió el poblado que los cronistas llamaron Xuamucheleb, hoy Guamúchil. El soldado encontró alrededor de mil indígenas y rebautizó el lugar como San Pedro de Guamúchil, en honor al santo del día del descubrimiento. En esa época se identificó el río Mocorito, que fue nombrado por Sebastián del Évora, quien recibió el apellido del río como encomendero del Valle del Évora. Entre 1533 y 1540 la localidad sirvió como cabecera de la encomienda, pero en 1584 la comunidad indígena destruyó la encomienda. La Cédula del rey Felipe V del 30 de octubre de 1692 anuló la encomienda y la zona pasó a ser una posta militar."
+  },
+  {
+    "slug": "temascalcingo-de-jose-maria-velasco",
+    "name": "Temascalcingo de José María Velasco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 192,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "jocotitlan",
+      "san-pablo-autopan",
+      "san-francisco-tlalcilalcalpan",
+      "san-andres-cuexcontitlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Temascalcingo de José María Velasco, cabecera del Municipio de Temascalcingo en el Estado de México, con 14.091 habitantes según el censo de 2020.",
+    "aboutTitle": "Temascalcingo de José María Velasco, un lugar con raíces prehispánicas",
+    "about": "Temascalcingo de José María Velasco es una localidad mexicana ubicada en el Estado de México, específicamente en la región de la Cuenca de México. Es la cabecera del Municipio de Temascalcingo, que se encuentra rodeado de localidades vecinas como San Pedro Arriba, San Pedro Abajo y Santiago Acutzilapan. El nombre Temascalcingo proviene del náhuatl temazcalli, un baño termal prehispánico con propiedades medicinales, y de la partícula calli, que denota un objeto pequeño. De forma que Temascalcingo puede traducirse como «Lugar del pequeño temazcal». El sufijo José María Velasco hace referencia al pintor del siglo XIX José María Velasco Gómez Obregón, nativo de la localidad, lo que refleja la importancia cultural y artística de la zona. La población de Temascalcingo de José María Velasco asciende a 14.091 habitantes según el censo de 2020."
+  },
+  {
+    "slug": "apaseo-el-alto",
+    "name": "Apaseo el Alto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 191,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "irapuato",
+      "temascalcingo-de-jose-maria-velasco",
+      "guanajuato",
+      "puruandiro",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Apaseo el Alto, en Guanajuato, destaca como la principal productora nacional de granada y por su tradición de talla en madera, atrayendo cientos de turistas.",
+    "aboutTitle": "Talla en madera y producción de granada en Apaseo el Alto",
+    "about": "Apaseo el Alto es una localidad del estado mexicano de Guanajuato y funciona como la cabecera del municipio que lleva su mismo nombre. La comunidad destaca por su actividad cultural principal, la talla en madera, una práctica artesanal que se manifiesta en numerosos eventos y exposiciones que, año tras año, atraen a cientos de turistas interesados en apreciar esta habilidad manual. Además, Apaseo el Alto ostenta el título de principal productora de granada a nivel nacional, lo que subraya su relevancia en el ámbito agrícola del país. Estos dos pilares – la artesanía de la madera y la producción de granada – definen la identidad de Apaseo el Alto y contribuyen a su reconocimiento tanto a nivel estatal como nacional. La combinación de su riqueza artesanal y su producción frutícola forma parte del carácter distintivo de la localidad. Esta dualidad entre arte y agricultura es apreciada tanto por residentes como por visitantes."
+  },
+  {
+    "slug": "camotan",
+    "name": "Camotán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 219,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jocotan",
+      "chiquimula",
+      "metapan",
+      "los-amates",
+      "santa-rosa-de-copan",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Camotán, municipio del departamento de Chiquimula, Guatemala, tiene 29 aldeas y 78 caseríos y forma parte de la región del triángulo Norte.",
+    "aboutTitle": "Camotán: municipio del triángulo Norte con 29 aldeas y 78 caseríos",
+    "about": "Camotán, también llamado Chinan Is en la lengua ch’orti’, es un municipio guatemalteco que depende del departamento de Chiquimula. Se ubica dentro de la región conocida como el triángulo Norte, una zona del oriente del país que agrupa a varios departamentos. La entidad administrativa está compuesta por la cabecera municipal y por una serie de asentamientos rurales que forman su territorio. Camotán forma parte de la República de Guatemala, cuyo sistema político divide el territorio en departamentos y municipios.\n\nEl municipio está organizado en veintinueve aldeas y setenta y ocho caseríos, unidades de población que constituyen la base de la organización territorial en la zona. Esta distribución muestra una estructura descentralizada, donde cada aldea y cada caserío mantiene su propia dinámica dentro del marco municipal. La cabecera municipal actúa como centro de coordinación para los servicios y la gestión pública que atiende a toda la población del municipio. Estas unidades locales suelen estar vinculadas por la economía agrícola y el intercambio de productos dentro del municipio."
+  },
+  {
+    "slug": "cortazar",
+    "name": "Cortazar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 212,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "apaseo-el-alto",
+      "irapuato",
+      "guanajuato",
+      "puruandiro",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cortazar, en Guanajuato, fundada en 1721 como San José de los Amoles y renombrada en honor a Luis Cortazar y Rábago, héroe de la Independencia de México.",
+    "aboutTitle": "Cortazar, ciudad con una rica historia en Guanajuato",
+    "about": "Cortazar es una localidad del estado mexicano de Guanajuato y es la cabecera del municipio de Cortazar. La ciudad fue fundada el 5 de mayo de 1721 por la Orden franciscana con el nombre de San José de los Amoles. En 1811, Luis Cortazar y Rábago sublevó a la población en favor de la Independencia de México. En 1857, el Congreso del Estado de Guanajuato renombró la población como Villa de Cortazar en honor al líder insurgente. La ciudad cuenta con una rica historia, con la construcción del Ayuntamiento y de la Iglesia de San José en 1874, y la inauguración del Puente Colgante de Cortazar en 1922 por el presidente Álvaro Obregón. En 1928, la villa fue elevada a la categoría de ciudad. Desde entonces, la ciudad ha conservado su patrimonio colonial, destacando el edificio del Ayuntamiento y la iglesia como ejemplos de la arquitectura del siglo XIX, mientras el puente colgante sigue siendo un símbolo de la ingeniería de la época."
+  },
+  {
+    "slug": "san-juan-ostuncalco",
+    "name": "San Juan Ostuncalco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "san-francisco-el-alto",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "chicacao",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Juan Ostuncalco es una villa del departamento de Quetzaltenango, situada a 14 km de la ciudad de Quetzaltenango y a 212 km de la Ciudad de Guatemala.",
+    "aboutTitle": "San Juan Ostuncalco: villa a 14 km de Quetzaltenango",
+    "about": "San Juan Ostuncalco está catalogado oficialmente como villa dentro del departamento de Quetzaltenango, una de las unidades administrativas de la República de Guatemala. Su situación geográfica la coloca a tan solo catorce kilómetros al norte‑oeste de la ciudad de Quetzaltenango, que funge como capital departamental, lo que le permite estar estrechamente vinculada a los servicios, mercados y redes de transporte de esa urbe. Al mismo tiempo, la villa se encuentra a doscientos doce kilómetros de la Ciudad de Guatemala, distancia que la sitúa en el interior suroccidental del país y la hace accesible mediante las principales vías que conectan la zona alta guatemalteca con el resto del territorio. Como entidad local, San Juan Ostuncalco forma parte del entramado municipal del departamento, y su condición de villa implica una organización administrativa propia, con autoridades locales que gestionan asuntos de orden público, desarrollo urbano y actividades comunitarias. La proximidad a la ciudad de Quetzaltenango favorece la interacción económica y cultural, mientras que la ubicación a varios cientos de kilómetros de la capital nacional subraya su carácter de población intermedia dentro del contexto guatemalteco."
+  },
+  {
+    "slug": "la-democracia-departamento-de-huehuetenango",
+    "name": "La Democracia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 221,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Huehuetenango",
+    "regionSlug": "departamento-de-huehuetenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-pedro-soloma",
+      "huehuetenango",
+      "san-marcos-guatemala",
+      "san-francisco-el-alto",
+      "san-juan-ostuncalco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Democracia, municipio del departamento de Huehuetenango, Guatemala, con una extensión territorial de 136 km² y una población aproximada de 58 004 habitantes.",
+    "aboutTitle": "La Democracia, un municipio con historia y tradición",
+    "about": "La Democracia es un municipio del departamento de Huehuetenango de la región nor-occidente de la República de Guatemala. Formó parte del municipio de La Libertad hasta que los pobladores de la aldea Camojallito reclamaron el territorio para que fuera un municipio independiente y fue fundado oficialmente el 13 de junio de 1924. Adoptó ese nombre como símbolo de la libre voluntad y autodeterminación de sus pobladores.\n\nEl municipio cuenta con un total de 152 centros poblados sin incluir la cabecera municipal, y una población aproximada de gente ladina con un total porcentaje del 54% de la población total, y el 46% es de gente de raza indígena, mayoritariamente de etnia mam."
+  },
+  {
+    "slug": "etchojoa",
+    "name": "Etchojoa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 182,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-obregon",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Etchojoa, municipio sonorense en la costa del Golfo de California, situado en la zona del valle del Mayo, con 61.309 habitantes.",
+    "aboutTitle": "Etchojoa, en la costa del Golfo de California",
+    "about": "El Municipio de Etchojoa es uno de los setenta y dos municipios que integran el estado mexicano de Sonora. Está situado en el extremo sur del estado, en la zona del valle del Mayo y a orillas del Golfo de California, lo que le confiere una posición estratégica entre la zona interior y la costa. Su cabecera municipal y núcleo poblacional principal es el pueblo de Etchojoa, donde se concentra la mayor parte de los 61.309 habitantes registrados en el Censo de Población y Vivienda 2020 realizado por el Instituto Nacional de Estadística y Geografía (INEGI). El municipio fue creado oficialmente el 15 de octubre de 1909, fecha en la que se estableció como entidad administrativa independiente. Desde entonces, la demografía ha permanecido estable, manteniéndose dentro del rango medio de los municipios sonorenses. La ubicación en el valle del Mayo y la proximidad al Golfo de California influyen en las condiciones climáticas y en la actividad económica de la zona, caracterizada por su vinculación con los recursos naturales de la región."
+  },
+  {
+    "slug": "barberena",
+    "name": "Barberena",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 228,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-nueva",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "escuintla",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Barberena, municipio de Santa Rosa en Guatemala, nació el 20 de diciembre de 1879 y ocupa 294 km² de territorio, situado en el oriente del país.",
+    "aboutTitle": "Barberena: historia, territorio y clima tropical",
+    "about": "Barberena es un municipio del departamento de Santa Rosa, ubicado en el oriente de Guatemala. Antiguamente se conocía como «Corral de Piedra» y durante la época colonial funcionó como doctrina de los frailes mercedarios. Tras la independencia de Centroamérica en 1821, el poblado fue incorporado al Circuito de Cuajiniquilapa para la impartición de justicia en el Distrito 3.º (Mita). El municipio de Barberena propiamente dicho fue creado por un Acuerdo Gubernativo del 20 de diciembre de 1879. Cuando el terremoto de 1913 destruyó la cabecera de Cuilapa, Barberena sirvió como capital interina del departamento de Santa Rosa hasta 1920. La cabecera municipal abarca 294 km² y se organiza en cincuenta y cuatro fincas, quince aldeas, setenta y siete caseríos, cincuenta barrios y cuatro colonias. El clima es tropical (clasificación Aw). Limita con los municipios de Santa Rosa por todos sus lados, excepto al oeste, donde colinda con el departamento de Escuintla. El gobierno local está a cargo de un Concejo Municipal, según la legislación vigente desde 1985."
+  },
+  {
+    "slug": "salitre",
+    "name": "Salitre",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 202,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "daule",
+      "babahoyo",
+      "milagro",
+      "guayaquil",
+      "quevedo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Salitre, también conocida como la 'Capital montuvia del Ecuador', se encuentra a 42 km de Guayaquil en la provincia del Guayas.",
+    "aboutTitle": "La Capital montuvia del Ecuador",
+    "about": "Salitre es una ciudad ubicada en el centro-este de la provincia del Guayas, en la República del Ecuador. Fue fundada en 1846 por Francisco Franco, quien construyó la primera casa a orillas del río Vinces en la Bocana. La ciudad fue elevada a la categoría de cantón el 27 de noviembre de 1959 con el nombre de Urbina Jado, en honor al superbanquero Francisco Urbina Jado, pero posteriormente retomó el nombre de Salitre, que era el más común entre sus habitantes.\n\nSalitre es conocida como la 'Capital montuvia del Ecuador'. La ciudad tiene una rica historia y ha sido influenciada por la cultura montuvia. Aunque no se menciona en el material de origen, es probable que la ciudad celebre fiestas y eventos relacionados con esta cultura."
+  },
+  {
+    "slug": "los-polvorines",
+    "name": "Los Polvorines",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 180,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tigre",
+      "san-isidro",
+      "moron",
+      "merlo",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Polvorines, ciudad del conurbano bonaerense, celebra su aniversario el 17 de diciembre, fecha en que se decretó su estación de tren en 1908.",
+    "aboutTitle": "Origen militar y aniversario de la estación en Los Polvorines",
+    "about": "Los Polvorines es una ciudad del partido de Malvinas Argentinas, situada en la zona norte‑centro del segundo cordón del conurbano bonaerense, en la provincia de Buenos Aires, Argentina. La localidad se encuentra rodeada por la Ruta Provincial 24, la Ruta Provincial 23 y la Ruta Provincial 8, limitando con San Miguel, José C. Paz, Campo de Mayo, Villa de Mayo, Ingeniero Pablo Nogués, Grand Bourg y Malvinas Argentinas.\n\nSu origen está ligado a la estación de tren que lleva su nombre, parte de la actual Línea Belgrano Norte. La estación fue creada por decreto el 17 de diciembre de 1908, fecha que se considera simbólicamente el aniversario de la ciudad, y comenzó a funcionar al año siguiente. El nombre de Los Polvorines proviene de los depósitos de municiones instalados por el Ejército Argentino a comienzos del siglo XX en el área militar de Campo de Mayo, conocidos inicialmente como Sargento Cabral y luego como la Compañía de Municiones 601."
+  },
+  {
+    "slug": "san-juan-comalapa",
+    "name": "San Juan Comalapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antigua-guatemala",
+      "mixco",
+      "solola",
+      "villa-nueva",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Juan Comalapa, un municipio del departamento de Chimaltenango en Guatemala, con 55.508 habitantes según el censo de 2018.",
+    "aboutTitle": "San Juan Comalapa, Chimaltenango",
+    "about": "San Juan Comalapa es un municipio guatemalteco situado en el departamento de Chimaltenango. Según el censo de población realizado en 2018, la entidad contaba con 55.508 habitantes. La cifra corresponde al registro oficial más reciente disponible y sitúa a San Juan Comalapa como una de las localidades más pobladas dentro de su departamento. El municipio forma parte de la organización política de la República de Guatemala y está bajo la administración departmental de Chimaltenango. La población registrada en 2018 refleja la dimensión demográfica del asentamiento en ese año, sin incluir variaciones posteriores. Como unidad administrativa, San Juan Comalapa cuenta con los servicios y la infraestructura típicos de un municipio guatemalteco, gestionados por las autoridades locales. La información del censo de 2018 constituye la base para la planificación y el desarrollo local, ofreciendo una referencia clara sobre el número de habitantes que vivían en la zona en ese momento. La cifra se emplea para fines estadísticos y de gestión municipal, sirviendo como referencia para proyectos de desarrollo local."
+  },
+  {
+    "slug": "banda-de-shilcayo",
+    "name": "Banda de Shilcayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moyobamba",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Banda de Shilcayo, distrito ubicado en la provincia de San Martín, Perú, a 1 km de la capital Tarapoto y 618 km al noreste de Lima.",
+    "aboutTitle": "La Banda de Shilcayo, un distrito amazónico en San Martín",
+    "about": "El distrito de La Banda de Shilcayo se encuentra en la provincia de San Martín, en el Norte del Perú. Se eleva a 350 metros sobre el nivel del mar y limita al norte con la provincia de Lamas y al oeste con el distrito de Tarapoto. Considerado un distrito amazónico, tiene una superficie total de 285,68 km². La historia de La Banda de Shilcayo se remonta a la colonización de la margen izquierda del Río Shilcayo por parte de los Cumbazas, quienes tenían que cruzar o bandear este río para conseguir alimentos, de allí el nombre de La Banda de Shilcayo. El distrito fue fundado el 28 de noviembre de 1961.\n\nLa Banda de Shilcayo forma parte de la ciudad de Tarapoto, capital de la provincia de San Martín, que cuenta con una población de 108,049 habitantes según el censo de 2007."
+  },
+  {
+    "slug": "cubulco",
+    "name": "Cubulco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 219,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Baja Verapaz",
+    "regionSlug": "departamento-de-baja-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "purulha",
+      "coban",
+      "san-juan-comalapa",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cubulco, municipio de Baja Verapaz, se ubica a 49 km de la cabecera departamental y a 200 km de la Ciudad de Guatemala, conectado por carretera asfaltada.",
+    "aboutTitle": "Cubulco y la Vía de La Canoa: ubicación y accesos",
+    "about": "Cubulco, también llamado Santiago Cubulco, es un municipio del departamento de Baja Verapaz, en la República de Guatemala. Se sitúa a 49 kilómetros de la cabecera departamental y a 200 kilómetros de la Ciudad de Guatemala, y está comunicado por una carretera asfaltada que parte de la vía que conduce al Atlántico. Además, el acceso principal al municipio se realiza mediante una ruta de 132 kilómetros conocida como la «Vía de La Canoa». Esta vía atraviesa, en orden, San Juan Sacatepéquez, Rabinal, El Chol y Granados, ofreciendo una alternativa de conexión regional. Tanto la carretera asfaltada como la Vía de La Canoa permiten el enlace directo del municipio con otras poblaciones de la zona y con la capital nacional."
+  },
+  {
+    "slug": "el-triunfo-ecuador",
+    "name": "El Triunfo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 187,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "milagro",
+      "guayaquil",
+      "babahoyo",
+      "salitre",
+      "cuenca",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Triunfo, un cantón en la provincia del Guayas, Ecuador, con una economía basada en la producción agropecuaria.",
+    "aboutTitle": "El Triunfo, un cantón agropecuario en el Guayas",
+    "about": "El Triunfo es un cantón de la Provincia del Guayas en la República del Ecuador. Su territorio tiene una extensión de 405 km² y su población es de 50.060 habitantes, lo que indica una densidad poblacional típica de zona rural. El cantón se destaca en su producción agropecuaria, siendo su principal producto la caña de azúcar, con 22.000 hectáreas de cultivos que abastecen a los ingenios La Troncal 'Aztra', San Carlos, Valdez y La Familiar. Estas plantaciones representan la base económica del municipio y están distribuidas en gran parte del territorio cantonal. El cantón también cuenta con una hidrografía destacada, con el río Bulu Bulu como su caudaloso cauce principal, que nace de la unión de los ríos Estero Claro y Dos Bocas. El río atraviesa la zona aportando recursos hídricos para la agricultura y para el consumo local. El cantón mantiene también caminos rurales que conectan sus comunidades y facilitan el acceso a los mercados de la provincia."
   }
 ];

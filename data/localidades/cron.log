@@ -1831,3 +1831,100 @@ Groq: HT
 [2026-10-01T08:16:03.426Z]   ✓ purisima-del-rincon (México) — escribió Groq, verificó NVIDIA
 [2026-10-01T08:22:38.556Z]   ✓ jacona (México) — escribió NVIDIA, verificó Gemini
 [2026-10-01T08:22:38.577Z] publicadas 50 salas · acumuladas 254 · quedan 3146 en cola
+[2026-10-02T01:30:06.219Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-02T01:30:06.228Z] cola: 3146 · lote de hoy: 50
+[2026-10-02T01:30:57.339Z]   ✓ patzcuaro (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:31:33.359Z]   ✓ chulucanas-peru (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:33:33.536Z]   ✗ berisso: fraseo calcado de gregorio-de-laferrere: "en la provincia de buenos aires argentina"
+[2026-10-02T01:33:53.550Z]   ✗ yoro: es una división administrativa, no una localidad
+[2026-10-02T01:37:04.416Z]   ✗ artemisa: rechazada tras corrección: La ficha describe a la diosa Artemisa de manera más detallada que la fuente original, agregando información que no se encuentra en la fuente, como la iconografía y la literatura que la muestra como un
+[2026-10-02T01:37:25.316Z]   ✗ san-miguel-oeste: la ficha no trae intro o about
+[2026-10-02T01:38:03.376Z]   ✓ ciudad-mante (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:41:12.002Z]   ✗ trinitaria: controles de calidad: aboutTitle de 71 caracteres (debe estar entre 25 y 70)
+[2026-10-02T01:41:52.488Z]   ✓ la-canada (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:42:58.819Z]   ✗ heroica-cardenas: fraseo calcado de santa-catarina: "es una ciudad mexicana ubicada en el"
+[2026-10-02T01:44:29.114Z]   ✗ el-empalme: rechazada tras corrección: La ficha menciona 'la Conurbación de Quevedo' en el contexto de la estructura del cantón, pero no está respaldado por el material de origen.; La ficha describe la estructura de gestión autónoma de ser
+[2026-10-02T01:45:44.578Z]   ✗ huajuapan-de-leon: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-02T01:47:23.770Z]   ✗ san-pedro-pinula: rechazada tras corrección: La ficha repite información y utiliza un lenguaje más extenso y complejo que la fuente original, lo que no es un problema en sí mismo, pero también incluye algunas frases que no aportan información ad
+[2026-10-02T01:48:12.306Z]   ✓ riberalta (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:48:42.200Z]   ✗ zacapu: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-02T01:54:51.217Z]   ✓ jocotan (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T01:55:12.739Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-02T01:55:48.502Z]   ✗ silao: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-10-02T02:01:26.294Z]   ✗ coyuca-de-benitez: fraseo calcado de cotoca: "la convierte en un lugar atractivo para"
+[2026-10-02T02:06:13.085Z]   ✗ pocito: rechazada tras corrección: La ficha menciona que Pocito es una entidad de población española, pero el material de origen no respalda que la ficha se refiera a la localidad de Pocito en la Provincia de San Juan, Argentina. La fi
+[2026-10-02T02:06:34.039Z]   ✗ departamento-pocito: es una división administrativa, no una localidad
+[2026-10-02T02:08:56.524Z]   ✓ pinos (México) — escribió NVIDIA, verificó Groq
+[2026-10-02T02:14:34.362Z]   ✗ palin: rechazada tras corrección: El departamento de Palín es incorrecto. Según el material de origen, Palín se encuentra en el departamento de Escuintla, no en el departamento de Guatemala.
+[2026-10-02T02:17:37.937Z]   ✗ san-miguel-norte: rechazada tras corrección: Se menciona 'la República de El Salvador', que no está en el material de origen; Se describe la estructura administrativa y la planificación de recursos, que no está en el material de origen; Se menci
+[2026-10-02T02:19:05.553Z]   ✗ villa-tunari: controles de calidad: muletillas de IA: amplia variedad de; intro/meta de 108 caracteres (debe estar entre 110 y 160)
+[2026-10-02T02:23:18.157Z]   ✓ barranca-peru (Perú) — escribió NVIDIA, verificó Gemini
+[2026-10-02T02:26:20.885Z]   ✗ gibara: rechazada tras corrección: Se describe a Gibara como un punto de referencia en la zona oriental del país, lo que no se encuentra en la fuente original.; Se describe a Gibara como un lugar de interés histórico y paisajístico, lo
+[2026-10-02T02:26:51.117Z]   ✓ montecristi (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-02T02:31:04.103Z]   ✓ hato-mayor (República Dominicana) — escribió NVIDIA, verificó Gemini
+[2026-10-02T02:35:59.263Z]   ✓ bruzual-venezuela (Venezuela) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T02:38:36.022Z]   ✓ distrito-de-ilo (Perú) — escribió NVIDIA, verificó Groq
+[2026-10-02T02:43:52.296Z]   ✓ chicacao (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T02:47:01.692Z]   ✓ los-salias (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-02T02:49:03.699Z]   ✓ ixtlahuacan-de-los-membrillos (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T02:55:05.429Z]   ✗ san-pedro-ayampuc: rechazada tras corrección: La ficha describe a la gente de la sala (no está en la fuente); La ficha describe la interacción entre los municipios (no está en la fuente); La ficha describe la conservación de tradiciones y saberes
+[2026-10-02T02:56:01.330Z]   ✓ villa-guerrero (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T02:57:56.633Z]   ✗ usulutan-oeste: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 751 (line 1 column 752)
+[2026-10-02T03:01:28.751Z]   ✓ puruandiro (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:05:26.619Z]   ✓ heroica-caborca (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:07:31.635Z]   ✓ manaure (Colombia) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:09:29.278Z]   ✓ zihuatanejo (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:11:44.717Z]   ✗ cuilco: fraseo calcado de tacana: "frontera con mexico quedo establecida en 1896"
+[2026-10-02T03:14:50.409Z]   ✗ dolores-hidalgo: fraseo calcado de santa-catarina: "es una ciudad mexicana ubicada en el"
+[2026-10-02T03:18:06.249Z]   ✓ marcos-paz (Argentina) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:20:17.593Z]   ✓ zona-bananera (Colombia) — escribió NVIDIA, verificó Groq
+[2026-10-02T03:24:43.390Z]   ✓ ypane (Paraguay) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:29:00.446Z]   ✓ ramos-arizpe (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:32:17.413Z]   ✓ olmos (Perú) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:33:29.714Z]   ✗ zacapa: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-02T03:35:08.517Z]   ✗ perene-departamento-de-junin: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 490 (line 3 column 371)
+[2026-10-02T03:37:19.658Z]   ✓ villa-corzo (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:38:24.745Z]   ✓ san-francisco-el-alto (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:38:58.169Z]   ✓ los-amates (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:41:16.015Z]   ✓ purulha (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T03:48:08.082Z]   ✓ jocotitlan (México) — escribió NVIDIA, verificó Gemini
+[2026-10-02T03:50:15.700Z]   ✓ jiquilpan (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T03:52:39.804Z]   ✗ caripito: rechazada tras corrección: La ficha describe la identidad cultural de los habitantes de Caripito, lo que no se menciona en el material de origen.; La ficha menciona que la actividad de los tanqueros generó empleo en la zona, lo
+[2026-10-02T03:54:03.003Z]   ✗ chiquimulilla: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 513 (line 3 column 310)
+[2026-10-02T04:01:22.811Z]   ✓ sabinas (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T04:04:33.981Z]   ✓ san-pedro-soloma (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T04:06:06.538Z]   ✗ santo-domingo-tehuantepec: rechazada tras corrección: Descripción detallada de la función administrativa de la ciudad y su posición geográfica, que no se menciona en el material de origen; Uso de la frase 'punto de referencia' que no se encuentra en el m
+[2026-10-02T04:10:40.253Z]   ✗ zacatecoluca: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-02T04:17:05.453Z]   ✗ siuna: rechazada tras corrección: La ficha menciona la zona norte del país, lo que no se encuentra en el material de origen.; Se describe la economía y la actividad económica de la localidad, lo que no se encuentra en el material de o
+[2026-10-02T04:26:01.763Z]   ✓ mulege (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T04:27:37.527Z]   ✗ tiquisate: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 793 (line 3 column 667)
+[2026-10-02T04:32:19.597Z]   ✗ pelileo: fraseo calcado de lago-agrio: "es un canton ubicado en la provincia"
+[2026-10-02T04:37:12.379Z]   ✓ metapan (El Salvador) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T04:37:42.800Z]   ✓ guamuchil (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T04:39:36.053Z]   ✗ fraijanes: fraseo calcado de san-jose-pinula: "un municipio del departamento de guatemala situado"
+[2026-10-02T04:44:53.648Z]   ✓ temascalcingo-de-jose-maria-velasco (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T04:50:48.210Z]   ✗ tajumulco: rechazada tras corrección: La ficha menciona que el volcán 'ocupa el puesto 24.º entre los volcanes más prominentes del planeta', cuando la fuente original dice que es el 24º volcán más prominente del mundo, lo que no necesaria
+[2026-10-02T04:57:23.597Z]   ✓ apaseo-el-alto (México) — escribió Groq, verificó NVIDIA
+[2026-10-02T05:00:13.301Z]   ✗ yurimaguas: rechazada tras corrección: La ficha menciona la 'zona baja de la cuenca amazónica', que no está presente en el material de origen.
+[2026-10-02T05:04:40.763Z]   ✗ quezaltepeque-el-salvador: controles de calidad: aboutTitle genérico: "Quezaltepeque, un distrito cafetalero en La Libertad"
+[2026-10-02T05:06:09.287Z]   ✗ tenosique: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 433 (line 3 column 291)
+[2026-10-02T05:11:45.261Z]   ✗ puerto-penasco: controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-10-02T05:13:20.982Z]   ✗ morrope-departamento-de-lambayeque: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 408 (line 3 column 293)
+[2026-10-02T05:19:22.020Z]   ✗ zaraza: fraseo calcado de guasdualito: "la ciudad tiene una rica historia que"
+[2026-10-02T05:25:41.358Z]   ✗ manicaragua: rechazada tras corrección: La ficha describe a Manicaragua como una entidad con competencia administrativa propia de un municipio y un núcleo urbano con el mismo nombre, lo que no está respaldado por la fuente original.; La fic
+[2026-10-02T05:27:32.572Z]   ✓ camotan (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T05:32:26.637Z]   ✓ cortazar (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T05:35:32.901Z]   ✓ san-juan-ostuncalco (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T05:39:56.624Z]   ✓ la-democracia-departamento-de-huehuetenango (Guatemala) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T05:44:42.464Z]   ✓ etchojoa (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T05:52:02.072Z]   ✗ santa-catarina-ixtahuacan: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-02T05:53:05.969Z]   ✗ yura: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 256 (line 1 column 257)
+[2026-10-02T05:53:53.617Z]   ✓ barberena (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T05:58:04.394Z]   ✓ salitre (Ecuador) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T05:59:14.803Z]   ✓ los-polvorines (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-02T06:02:18.515Z]   ✓ san-juan-comalapa (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T06:06:45.173Z]   ✓ banda-de-shilcayo (Perú) — escribió NVIDIA, verificó OpenRouter
+[2026-10-02T06:09:49.771Z]   ✓ cubulco (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-02T06:14:59.515Z]   ✗ siquisique: fraseo calcado de bahia-de-banderas: "la historia y la cultura de la"
+[2026-10-02T06:19:38.462Z]   ✓ el-triunfo-ecuador (Ecuador) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-02T06:19:38.525Z] publicadas 50 salas · acumuladas 304 · quedan 3096 en cola
