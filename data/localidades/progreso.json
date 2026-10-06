@@ -417,7 +417,57 @@
   "valle-hermoso",
   "union",
   "talamanca",
-  "revenga"
+  "revenga",
+  "tiquisate",
+  "sipe-sipe",
+  "oxchuc",
+  "juanjui",
+  "rupa-rupa",
+  "9-de-julio",
+  "taxco-de-alarcon",
+  "canar",
+  "calpulalpan",
+  "humacao",
+  "tekax",
+  "pucarani",
+  "gualan",
+  "jerecuaro",
+  "mulukuku",
+  "cintalapa-de-figueroa",
+  "samaniego",
+  "apizaco",
+  "angol",
+  "masagua",
+  "san-pedro-pochutla",
+  "el-tambo-colombia",
+  "ocosingo",
+  "longchamps",
+  "puerto-lempira",
+  "zinapecuaro",
+  "trojes",
+  "cunen",
+  "cabo-rojo",
+  "quesada-costa-rica",
+  "juana-diaz",
+  "independencia-chiapas",
+  "ayutla",
+  "coto-brus",
+  "eloy-alfaro",
+  "sumpango",
+  "ilave",
+  "calera",
+  "la-tinta",
+  "santa-maria-huatulco",
+  "marcovia",
+  "la-asunta",
+  "nueva-gerona",
+  "guachochi",
+  "general-alvarado",
+  "parras",
+  "libertador-venezuela",
+  "montemorelos",
+  "rabinal",
+  "pedro-meoqui"
  ],
  "descartadas": [
   {
@@ -4884,6 +4934,476 @@
    "slug": "apizaco",
    "razon": "rechazada tras corrección: Se menciona que la ubicación central de Apizaco la convierte en un punto de referencia, lo que no se encuentra en el material de origen; Se describe la función de Apizaco como centro administrativo y ",
    "fecha": "2026-10-05"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "pocito",
+   "razon": "rechazada tras corrección: La ficha confunde la localidad de Pocito con otra homónima, ya que la fuente menciona una localidad en la provincia de Salamanca, España, mientras que la ficha se refiere a una localidad en la provinc",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "usulutan-oeste",
+   "razon": "rechazada tras corrección: La extensión territorial permite la coexistencia de áreas rurales y costeras, aunque la fuente no detalla actividades específicas; La organización en distritos facilita la gestión local y la prestació",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "morrope-departamento-de-lambayeque",
+   "razon": "rechazada tras corrección: La capital de Mórrope no se extiende sobre una superficie de 1.054 km², sino que el distrito tiene una superficie de 1.054 km².; No se menciona que el nombre de Mórrope signifique 'lugar de la iguana'",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "yura",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "bambamarca",
+   "razon": "rechazada tras corrección: La ficha describe la condición de capital y los servicios públicos que ofrece la ciudad, lo que no se menciona en el material de origen; La ficha menciona la relevancia administrativa y el carácter de",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "caranavi",
+   "razon": "rechazada tras corrección: La ficha describe a Caranavi como ubicada en el noroeste de Bolivia, lo que no se encuentra en el material de origen; La ficha menciona que Caranavi está en la zona sur del departamento, lo que no se ",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "aguacatan",
+   "razon": "fraseo calcado de san-mateo-ixtatan: \"un municipio del departamento de huehuetenango situado\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "yara",
+   "razon": "rechazada tras corrección: La ficha describe a la gente de la sala, lo cual no tiene fuente. (La frase 'de sus habitantes cubanos' implica que se está describiendo a la gente que entra en la sala, lo cual no está permitido.); L",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "los-andes-chile",
+   "razon": "fraseo calcado de talcahuano: \"de la zona central de chile ubicada\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "calkini",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 106 (line 1 column 107)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "nirgua",
+   "razon": "rechazada tras corrección: La ficha afirma que la ciudad concentra los principales servicios administrativos y comerciales y que es un referente para la comunidad, datos que no aparecen en el material de origen.",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "la-joya",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "balancan",
+   "razon": "fraseo calcado de jalpa-de-mendez: \"es un municipio del estado de tabasco\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "sicuani",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "guadalupe-y-calvo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "intibuca",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "chiapa-de-corzo",
+   "razon": "fraseo calcado de villa-hermosa: \"con una temperatura media anual de 26\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "jacobo-hunter-departamento-de-arequipa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "morazan-norte",
+   "razon": "rechazada tras corrección: La ficha menciona que la superficie se expresa en kilómetros cuadrados como unidad de medida oficial para los municipios salvadoreños, lo que no se menciona en el material de origen; La ficha dice que",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "chao",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "morona",
+   "razon": "rechazada tras corrección: La ficha describe a Morona, distrito peruano, pero la localidad es Morona, Ecuador, no el distrito peruano; La ficha describe la ubicación geográfica y la organización territorial del distrito peruano",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "adicora",
+   "razon": "rechazada tras corrección: Se menciona que el aeródromo se encuentra en el núcleo del poblado y que su localización corresponde a las mismas coordenadas que las del pueblo, lo que no se menciona en el material de origen; Se hac",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tarma",
+   "razon": "rechazada tras corrección: La ficha describe la ciudad de Tarma con detalles que no están presentes en el material de origen, como su posición geográfica dentro de la zona andina del departamento de Junín, su crecimiento sosten",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "loreto",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 521 (line 3 column 400)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "altagracia-de-orituco",
+   "razon": "rechazada tras corrección: La ficha menciona la 'Virgen de Altagracia' sin que la fuente la mencione; La ficha describe la infraestructura de la ciudad sin que la fuente la mencione; La ficha describe la función de la ciudad co",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "simojovel",
+   "razon": "fraseo calcado de tila: \"uno de los 124 municipios que integran\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "bolivar-estado-barinas",
+   "razon": "rechazada tras corrección: La ficha dice que 'la influencia de Simón Bolívar marcó el rumbo de varios países sudamericanos', 'consolidando su legado como uno de los principales artífices de la independencia en la región', 'Vene",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "valmore-rodriguez",
+   "razon": "rechazada tras corrección: Afirma que Valmore Rodríguez es un municipio en la provincia de Zulia, dato no presente en el material de origen.; Indica que el municipio lleva el nombre del periodista, información que tampoco apare",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tizimin",
+   "razon": "fraseo calcado de uman: \"cabecera del municipio homonimo segun el censo\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "san-miguel-ixtahuacan",
+   "razon": "rechazada tras corrección: La ficha proporciona información adicional no respaldada por el material de origen, como la explicación de las distancias en kilómetros y la descripción de la ubicación dentro del contexto departament",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "mi-peru-",
+   "razon": "rechazada tras corrección: La ficha menciona la población de 52 102 habitantes, pero el material de origen no proporciona esta información.; La ficha menciona la costa peruana, pero el material de origen no menciona la costa pe",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "huamantla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "uriangato",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 687 (line 3 column 556)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "nenton",
+   "razon": "rechazada tras corrección: Se menciona que Nentón está en la frontera con México, pero la fuente solo menciona que limita con México al norte y oeste, no que esté en la frontera.; Se menciona que la Ciudad de Guatemala está a 3",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cutervo",
+   "razon": "fraseo calcado de patzun: \"el nivel del mar lo que le\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "atacames",
+   "razon": "rechazada tras corrección: Uso de imperativo de folleto prohibido al inicio ('Conoce Atacames'); Uso de muletilla de IA prohibida ('un sinnúmero de')",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "pijijiapan",
+   "razon": "fraseo calcado de santiago-pinotepa-nacional: \"de la superficie total del estado y\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tucuru",
+   "razon": "fraseo calcado de senahu: \"es un municipio del departamento de alta\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "atzalan",
+   "razon": "rechazada tras corrección: La ficha describe la función de Atzalan como cabecera municipal y su relación con la zona metropolitana de Altotonga, lo que no está respaldado por el material de origen. También describe la dinámica ",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "sechura",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 430 (line 3 column 296)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "la-concordia-mexico",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 276 (line 3 column 143)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "boaco",
+   "razon": "rechazada tras corrección: La ficha describe la arquitectura de Boaco y su sobrenombre 'Ciudad de Dos Pisos' de manera más detallada que el material de origen.; La ficha menciona que la localidad 'concentra las funciones admini",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "villa-hayes",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación geográfica de Villa Hayes como 'en el centro del país', lo que no se menciona en el material de origen.; La ficha describe la industria metalúrgica en la zona, lo que no",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "santiago-papasquiaro",
+   "razon": "rechazada tras corrección: La ficha menciona Wikipedia como fuente, pero no está claro que la información provenga de allí; La información se repite innecesariamente, lo que puede ser considerado un problema de estilo, pero no ",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "sanare",
+   "razon": "fraseo calcado de calpulalpan: \"el nivel del mar en las estribaciones\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "mezquital",
+   "razon": "rechazada tras corrección: La ficha describe la vida cotidiana y las costumbres de los habitantes, lo que no se encuentra en la fuente.; La ficha menciona el uso del tepehuán en eventos comunitarios y el ámbito familiar, lo que",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "bejuma",
+   "razon": "fraseo calcado de tocuyito: \"en el estado carabobo dentro de la\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cuartel-v",
+   "razon": "rechazada tras corrección: La ficha describe la sala de chat de la localidad, lo que no tiene fuente. Se menciona que es un 'punto de referencia dentro de la región', lo que es una interpretación no respaldada por la fuente. Ta",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "garcia-de-hevia",
+   "razon": "fraseo calcado de maravatio: \"m sobre el nivel del mar el\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "san-pedro-mixtepec-distrito-22",
+   "razon": "fraseo calcado de general-zuazua: \"el municipio colinda al norte con los\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "carrillo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tenejapa",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 245 (line 3 column 114)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "general-villamil",
+   "razon": "fraseo calcado de quininde: \"es una ciudad ecuatoriana ubicada en la\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "quimistan",
+   "razon": "rechazada tras corrección: Se menciona que Quimistán es el municipio con más residentes, pero no se proporciona una cifra exacta en la fuente original; Se repite la información sobre la población de Quimistán de manera innecesa",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cuetzalan-del-progreso",
+   "razon": "controles de calidad: muletillas de IA: una experiencia unica; intro/meta de 76 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tacotalpa",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 347 (line 3 column 229)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "chaclacayo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 764 (line 3 column 652)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "del-nayar",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "buenavista-tomatlan",
+   "razon": "fraseo calcado de san-jose-villa-de-allende: \"es una localidad mexicana situada en el\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "chenalho",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 419 (line 3 column 294)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "jobabo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 395 (line 3 column 265)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "mataquescuintla",
+   "razon": "rechazada tras corrección: La ficha describe la organización territorial del municipio y su administración local, lo que no se menciona en el material de origen.; La ficha habla de la ubicación geográfica y la combinación de ár",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "achacachi",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 780 (line 3 column 568)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "waspan",
+   "razon": "rechazada tras corrección: El texto dice que Waspán es el municipio más grande de Nicaragua y Centroamérica, pero no menciona que sea el de mayor extensión en Centroamérica; La fuente no menciona que la lengua misquita sea la m",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "departamento-lavalle",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cuilapa",
+   "razon": "rechazada tras corrección: La ficha menciona que Cuilapa se sitúa en el extremo sureste del territorio nacional, lo que no se menciona en la fuente. También se menciona que la ubicación de Cuilapa le confiere una relevancia geo",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "cojutepeque",
+   "razon": "controles de calidad: intro/meta de 209 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "yecapixtla",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "buena-fe",
+   "razon": "fraseo calcado de quininde: \"es una ciudad ecuatoriana ubicada en la\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "monte-plata",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "puerto-villarroel",
+   "razon": "rechazada tras corrección: La ficha describe a la gente de la sala de chat, lo cual no está respaldado por la fuente.; La ficha repite información y agrega detalles que no están presentes en la fuente, como 'la presencia predom",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "departamento-junin",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "pabellon-de-arteaga",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "asientos",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "la-independencia",
+   "razon": "controles de calidad: muletillas de IA: gran variedad de",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "genova",
+   "razon": "controles de calidad: aboutTitle de 75 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "achocalla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "penco",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1099 (line 3 column 989)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "villa-montes",
+   "razon": "rechazada tras corrección: Se afirma que la ciudad se asienta 'en la margen occidental' del río Pilcomayo y que la quebrada Caiguamí la cruza 'de oeste a este', aportando datos de orientación geográfica que no figuran en el tex",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "chepen",
+   "razon": "fraseo calcado de huaral: \"capital del distrito y de la provincia\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "tlaxco",
+   "razon": "fraseo calcado de banda-de-shilcayo: \"sobre el nivel del mar y limita\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "jipijapa",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "zinacantan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 277 (line 3 column 173)",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "el-negrito",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "matina",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "vallenar",
+   "razon": "rechazada tras corrección: La ficha afirma que O’Higgins ordenó trazar la villa el 5 de enero de 1789 \"bajo el nombre de San Ambrosio de Vallenar\", pero la fuente indica que el nombre oficial San Ambrosio de Vallenar se adoptó ",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "baba",
+   "razon": "rechazada tras corrección: El texto menciona 'Nuestra Alcaldesa' como la alcaldesa actual, pero no se proporciona el nombre de la alcaldesa en el material de origen.; El texto menciona que el Vicealcalde, Patricio Almache, fue ",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "omoa",
+   "razon": "fraseo calcado de el-reten: \"limita al norte y al sur con\"",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "san-francisco-menendez",
+   "razon": "rechazada tras corrección: La frase 'Como parte del municipio de Ahuachapán Sur, el distrito forma parte de la estructura administrativa del departamento de Ahuachapán, que agrupa a varios municipios y distritos en la zona occi",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "bolivar-colombia",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-06"
+  },
+  {
+   "slug": "santiago-atitlan",
+   "razon": "fraseo calcado de santa-catarina-ixtahuacan: \"un municipio del departamento de solola situado\"",
+   "fecha": "2026-10-06"
   }
  ]
 }

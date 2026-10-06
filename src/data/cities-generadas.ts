@@ -12085,5 +12085,1472 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Revenga, municipio de Aragua con 56.604 habitantes, destaca por la Hacienda Santa Teresa y su tradición azucarera.",
     "aboutTitle": "Hacienda Santa Teresa y la tradición azucarera de Revenga",
     "about": "El municipio José Rafael Revenga, ubicado en el estado Aragua, Venezuela, ocupa una superficie de 192 km² y, según el censo de 2011, cuenta con 56.604 habitantes. Su capital es El Consejo y lleva el nombre del jurista José Rafael Revenga, ministro de Relaciones Exteriores y secretario privado de Simón Bolívar durante la visita a Caracas en 1827. La economía local se apoya fundamentalmente en la agricultura, especialmente en el cultivo de caña de azúcar, que ha dado paso a procesos de industrialización dedicados a la producción de ron y a la operación de centrales azucareros en la zona inmediata. Entre sus atractivos turísticos destacan el Casco Central con la Casa de la Cultura Poeta “Pedro Rafael Buznega”, la Iglesia de Nuestra Señora del Buen Consejo en la Plaza Bolívar y la Casa Parroquial en la Plaza Miranda. Un punto de referencia es la Hacienda Santa Teresa, conocida por los recorridos a sus bodegas de añejamiento de ron, el paseo en tren y sus instalaciones privadas que incluyen campo de golf, restaurante gourmet y zona de paint‑ball. Limita al norte con Tovar, al sur y oeste con José Félix Ribas, y al este con Santos Michelena y el estado Miranda."
+  },
+  {
+    "slug": "tiquisate",
+    "name": "Tiquisate",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 141,
+    "votes": 234,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Escuintla",
+    "regionSlug": "departamento-de-escuintla",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "solola",
+      "escuintla",
+      "quetzaltenango",
+      "antigua-guatemala",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tiquisate, municipio de Escuintla, Guatemala, se ubica a 79.2 km en línea recta de la Ciudad de Guatemala y entre las latitudes 14°00'‑14°22' Norte.",
+    "aboutTitle": "Ubicación geográfica y cabecera municipal de Tiquisate",
+    "about": "Tiquisate es un municipio del Departamento de Escuintla, en la República de Guatemala. Pertenece al territorio nacional y forma parte del departamento mencionado. Se sitúa en el paralelo 14, entre las latitudes 14° 00′ y 14° 22′ Norte y las longitudes 91° 30′ y 91° 16′ Oeste. La distancia en línea recta a la Ciudad de Guatemala, capital del país, es de 79.2 kilómetros. La cabecera municipal es la Villa de Pueblo Nuevo Tiquisate, descrita como una de las principales ciudades del departamento. Esa villa se encuentra a 145 kilómetros por carretera, en dirección suroeste, de la capital nacional, y a 90 kilómetros de la cabecera departamental de Escuintla, también al suroeste. Sus coordenadas exactas son 14° 17′ 18″ de latitud Norte y 91° 22′ 00″ de longitud Oeste, lo que permite ubicarla con precisión cartográfica. En conjunto, los datos de latitud, longitud y distancias permiten situar a Tiquisate dentro del mapa nacional de Guatemala. La ubicación entre esas latitudes y longitudes delimita su territorio dentro del departamento de Escuintla."
+  },
+  {
+    "slug": "sipe-sipe",
+    "name": "Sipe Sipe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 186,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de Cochabamba",
+    "regionSlug": "departamento-de-cochabamba",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quillacollo",
+      "cochabamba",
+      "sacaba",
+      "oruro",
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sipe Sipe, municipio del Valle Bajo en Cochabamba, está a 27 km al suroeste de la capital y a 2,5 km de la carretera que une Cochabamba y La Paz.",
+    "aboutTitle": "Ubicación estratégica de Sipe Sipe en el Valle Bajo",
+    "about": "Sipe Sipe es una pequeña ciudad y municipio boliviano situado en el Valle Bajo, dentro del departamento de Cochabamba. Pertenece a la provincia de Quillacollo y ocupa el segundo puesto en el orden de municipios de dicha provincia. La localidad se encuentra a 27 kilómetros al suroeste de la ciudad de Cochabamba, capital departamental, y está a apenas 2,5 kilómetros de la carretera que conecta Cochabamba con La Paz, lo que le otorga una posición estratégica entre la gran urbe y la principal vía interdepartamental. Su entorno se caracteriza por la ubicación en el Valle Bajo, lo que la diferencia de las zonas más elevadas de la región. Como municipio, Sipe Sipe combina la vida urbana de una pequeña ciudad con la proximidad a importantes corredores de transporte, lo que facilita el acceso a los servicios de la capital y a la ruta que enlaza con la sede del gobierno nacional boliviano."
+  },
+  {
+    "slug": "oxchuc",
+    "name": "Oxchuc",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 213,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Oxchuc, municipio chiapaneco de 54.932 habitantes, se extiende sobre 416 km² y su nombre tseltal significa “Tres Nudos”, reflejando su identidad cultural.",
+    "aboutTitle": "Oxchuc: municipio de los Tres Nudos en los Altos Tsotsil‑Tseltal",
+    "about": "Oxchuc es uno de los 124 municipios que conforman el estado de Chiapas, en el sur de México. Su nombre proviene del tseltal y se interpreta como “Tres Nudos”, referencia a la tradición local. Con una superficie aproximada de 416 km², limita al norte con Ocosingo y San Juan Cancuc, al este con Altamirano y Ocosingo, al sur con Chanal y Huixtán, y al oeste con Tenejapa y Huixtán. Forma parte de la región V‑Altos Tsotsil‑Tseltal y su clima, según la clasificación de Köppen, es Cwb, templado con invierno seco y veranos suaves.\n\nSegún el Censo de 2020, la población total del municipio es de 54 932 habitantes, lo que representa un crecimiento promedio del 2.5 % anual entre 2010 y 2020. La densidad era de 131,9 hab/km² y la distribución por sexo fue de 49.9 % hombres y 50.1 % mujeres. El 84 % de los mayores de 15 años (26 437 personas) estaba alfabetizado y prácticamente toda la población (54 054 personas) se reconocía como indígena. En 2020, el 62.2 % (34 641 personas) vivía en pobreza extrema. El municipio cuenta con 161 localidades, 12 unidades de atención de salud con 24 profesionales, 122 escuelas preescolares, 128 primarias y 26 secundarias."
+  },
+  {
+    "slug": "juanjui",
+    "name": "Juanjuí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juanjuí, capital de la provincia de Mariscal Cáceres en San Martín, se ubica a orillas del río Huallaga y destaca por su agricultura y la ruta a Gran Pajatén.",
+    "aboutTitle": "Juanjuí: río Huallaga y puerta al Gran Pajatén",
+    "about": "Juanjuí es una ciudad de la Selva peruana, capital del distrito homónimo y de la provincia de Mariscal Cáceres, en el departamento de San Martín. Está situada a orillas del río Huallaga, lo que marca su geografía y su desarrollo agrícola. Además de su destacada agricultura, Juanjuí es muy conocida por ser la puerta de entrada a las ruinas del Gran Pajatén y al Parque Nacional del Río Abiseo. Asimismo, la localidad destaca en el ámbito cultural por ser el último lugar donde se habla todavía el cholón. Como centro administrativo del distrito homónimo, la ciudad concentra las principales instituciones municipales y educativas. La actividad agrícola se extiende a lo largo de las riberas del Huallaga, donde el suelo fértil sustenta la producción local. El acceso a los sitios arqueológicos de Gran Pajatén y al Parque Nacional del Río Abiseo convierte a Juanjuí en punto de partida para el ecoturismo en la región. La preservación del cholón, lengua indígena que aún se habla en la zona, constituye un elemento distintivo del patrimonio cultural de la ciudad."
+  },
+  {
+    "slug": "rupa-rupa",
+    "name": "Rupa-Rupa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 175,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huánuco",
+    "regionSlug": "departamento-de-huanuco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huanuco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rupa-Rupa, distrito de la provincia Leoncio Prado, en Huánuco, Perú, con 428,58 km² y capital llamada Tingo María.",
+    "aboutTitle": "Rupa-Rupa: un distrito en el corazón del Perú",
+    "about": "El distrito de Rupa‑Rupa se sitúa en el centro del Perú, dentro de la provincia de Leoncio Prado, en el departamento de Huánuco. Con una superficie de 428,58 km², su capital es la ciudad de Tingo María, también conocida como la Ciudad de la Bella Durmiente. El distrito fue creado por Ley el 9 de septiembre de 1946, durante la presidencia de José Luis Bustamante y Rivero. En Rupa‑Rupa se celebra la Fiesta de San Juan el 24 de junio; la celebración incluye bailes alrededor de fogatas con conjuntos típicos. La Fiesta de San Juan reúne a los habitantes para bailar alrededor de fogatas con los conjuntos típicos del lugar. Entre los atractivos turísticos del distrito destacan el Jardín Botánico de Tingo María, el Mirador de la Cruz y la Cueva de las Lechuzas, los principales sitios de interés del área. Su territorio, de 428,58 km², se caracteriza por la presencia de áreas naturales que albergan dichos lugares, y la capital, Tingo María, funciona como eje administrativo del distrito."
+  },
+  {
+    "slug": "9-de-julio",
+    "name": "9 de Julio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tres-arroyos",
+      "coronel-pringles",
+      "punta-alta",
+      "bahia-blanca",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "9 de Julio, partido del noroeste de Buenos Aires, fundado en 1864 alrededor de la laguna Malcorra, destaca por su plaza España y el autódromo museo.",
+    "aboutTitle": "Laguna Malcorra y el origen militar de 9 de Julio",
+    "about": "9 de Julio es uno de los 135 partidos de la provincia de Buenos Aires, situado en el noroeste de la provincia. Su origen se remonta al campamento militar fundado el 27 de octubre de 1863 por el general Julio de Vedia alrededor de la laguna Malcorra. El 12 de febrero de 1864 el gobernador Mariano Saavedra decretó la fundación del pueblo y le dio el nombre de 9 de Julio, tal como quería su fundador. En el trazado original se prévieron 94 manzanas edificables y cinco plazas; actualmente solo conserva la plaza España. Ese mismo año la maestra Mercedes Vázquez de Labbe comenzó a dictar clases en la escuela de primeras letras y en 1865 el Poder Legislativo creó el partido de Nueve de Julio. En 1868 se erigió una primera capilla frente a la plaza Belgrano. Hoy el partido cuenta con el autódromo museo y en octubre de 2026 se realizó la Expo Rural, una muestra que combina propuestas educativas, ambientales, artísticas e inclusivas. Estas instituciones y eventos reflejan la evolución histórica y cultural de la localidad."
+  },
+  {
+    "slug": "taxco-de-alarcon",
+    "name": "Taxco de Alarcón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 189,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ixtapan-de-la-sal",
+      "emiliano-zapata-edomex",
+      "cuernavaca",
+      "tenango-de-arista",
+      "tejupilco-de-hidalgo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Taxco de Alarcón, Pueblo Mágico de Guerrero, está a 36 km de Iguala y 170 km de la Ciudad de México; su historia, arquitectura y platería lo hacen singular.",
+    "aboutTitle": "La ciudad de la platería y la historia",
+    "about": "Taxco de Alarcón es una ciudad mexicana ubicada en la parte norte del estado de Guerrero, en un área geográfica definida por montañas y cerros. Se encuentra a 36 km de la ciudad de Iguala, 135 km de la capital del estado, Chilpancingo, y a 170 km al suroeste de la Ciudad de México. La ciudad ha tenido un papel importante en la historia de México, ya que en 1821, en el Convento de San Bernardino de Siena de Taxco, se redactó el Plan de Iguala o de las Tres Garantías por Agustín de Iturbide, que posteriormente habría de firmar con Vicente Guerrero en la ciudad de Iguala, estableciendo la Independencia de México de España y unificando a los ejércitos insurgente y realista. La ciudad fue nombrada «Pueblo Mágico» de México en el año 2002, siendo la tercera localidad en recibir este nombramiento debido a la calidad de la platería, las construcciones coloniales y el paisaje circundante. Muchos de los edificios de Taxco son de estilo virreinal y datan de la época dorada, como por ejemplo el Templo de Santa Prisca, una iglesia de más de 250 años de antigüedad, construida en el estilo barroco novohispano, que es un icono de la localidad."
+  },
+  {
+    "slug": "canar",
+    "name": "Cañar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Cañar",
+    "regionSlug": "provincia-de-canar",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuenca",
+      "milagro",
+      "babahoyo",
+      "riobamba",
+      "guayaquil",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cañar, ciudad ecuatoriana con importantes hallazgos arqueológicos, es el cantón más grande de la provincia homónima y su cabecera lleva el mismo nombre.",
+    "aboutTitle": "Cañar, ciudad ecuatoriana con importantes hallazgos arqueológicos",
+    "about": "El Cantón Cañar está ubicado en la provincia homónima, Cañar, y es el cantón más grande de la provincia. Su cabecera cantonal es la ciudad de Cañar, conocida por sus importantes hallazgos arqueológicos en el Ecuador; el Complejo Arqueológico de Ingapirca es el sitio más destacado dentro de este patrimonio. La ciudad y el cantón se rigen por una municipalidad, conforme a lo establecido en la Constitución Política Nacional, que define la organización territorial del país. La Municipalidad de Cañar es una entidad de gobierno seccional que administra el cantón de forma autónoma al gobierno central, gestionando recursos y servicios locales. Administrativamente, el cantón se divide en doce parroquias: una urbana, correspondiente al núcleo de la ciudad, y once rurales que se extienden por el territorio cantonal. Las once parroquias rurales forman parte del tejido social del cantón y participan activamente en la gestión local. La cabecera urbana concentra la mayor parte de los servicios públicos del cantón."
+  },
+  {
+    "slug": "calpulalpan",
+    "name": "Calpulalpan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 188,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tlaxcala",
+    "regionSlug": "tlaxcala",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-rafael-tlanalapan",
+      "tulantongo",
+      "san-martin-texmelucan-de-labastida",
+      "texcoco-de-mora",
+      "san-miguel-coatlinchan",
+      "tlaxcala",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Calpulalpan, municipio de Tlaxcala situado a 2.580 m sobre el nivel del mar, es el único del estado que limita con tres entidades federativas.",
+    "aboutTitle": "Calpulalpan: frontera triple y relieve diverso",
+    "about": "Calpulalpan es un municipio del estado de Tlaxcala, su nombre proviene del náhuatl Calpol‑lálpan ‘en las casas o en las casonas’. Se ubica a 2.580 metros sobre el nivel del mar, en las estribaciones de la Sierra Nevada y a orillas del arroyo Calpulalpan. Sus coordenadas son 19°35′ N y 98°34′ O. Limita al norte con el estado de Hidalgo, al sur con Nanacamilpa, al oriente con Lázaro Cárdenas y al poniente con el Estado de México, siendo el único municipio de Tlaxcala que colinda con tres estados de la república mexicana. Pertenece al distrito electoral federal 3 de Tlaxcala.\n\nSegún el censo de 2010, la población es de 44.807 habitantes, con una densidad aproximada de 176 habitantes por km². El relieve se divide en 75 % de zonas planas, 15 % de zonas accidentadas donde se encuentran elevaciones como el monte Mal País y la cañada Coecillos, y 10 % de zonas semiplanas en el lomerío de las barrancas. En el censo de 2020 el municipio contaba con 75 localidades."
+  },
+  {
+    "slug": "humacao",
+    "name": "Humacao",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "caguas",
+      "carolina",
+      "trujillo-alto",
+      "guaynabo",
+      "bayamon",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Humacao, fundado en abril de 1722, es una ciudad costera del este de Puerto Rico conocida como la Ciudad Gris por su historia azucarera.",
+    "aboutTitle": "Los cognombres de Humacao: La Ciudad Gris y la Perla del Oriente",
+    "about": "Humacao es un municipio autónomo situado en la costa este de Puerto Rico, fundado en abril de 1722. Administrativamente está dividido en 12 barrios más el barrio‑pueblo, que concentra el centro administrativo. El municipio lleva varios cognomentos, entre ellos “La Ciudad Gris” por el humo de antiguas centrales azucareras, “La Perla del Oriente”, “La Capital del Este”, “Los Roe Huesos”, “La Ciudad de los Granos” y la abreviatura “La H”.\n\nEl escudo de Humacao combina oro, que representa el sol del este, y verde, que alude a la herencia taína y a la naturaleza tropical del valle. La corona con cinco torres recuerda la designación de ciudad al momento de su fundación y la realeza del cacique Jumacao. En el escudo aparecen tres grupos de tres flechas, símbolo de las guerras del siglo XVI, y un pequeño escudo que representa la iglesia Dulce Nombre de Jesús. El diseño actual fue obra de Roberto Brascochea Lota en 1975 y fue adoptado por la Asamblea Municipal en noviembre de ese año. La bandera municipal muestra tres franjas: oro en la parte superior, una franja roja central y verde en la inferior."
+  },
+  {
+    "slug": "tekax",
+    "name": "Tekax",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 211,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tekax, ciudad cabecera del municipio del mismo nombre en Yucatán, México, incluida en el programa turístico Pueblos Mágicos desde junio de 2023.",
+    "aboutTitle": "Tekax, una ciudad maya en Yucatán",
+    "about": "Tekax es una ciudad ubicada en el estado mexicano de Yucatán, a 115 km de la capital Mérida. Su nombre proviene del maya, Teʼ lugar, allí, allá y kʼáax, selva, monte. La región correspondiente al actual municipio de Tekax se considera ocupada desde la época precolombina, cuando inició el desarrollo de la cultura maya en la zona Puuc. Se encuentran sitios arqueológicos como Chacmultún, Canahaltún, Chunmul, Xkichmook, Chacchob y Chunconab, ejemplos del estilo Puuc.\n\nLa ciudad fue colonizada por el español Alfonso López en el siglo XVI y perteneció a la jurisdicción de los Tutul Xiu. Tekax fue incluido en el programa turístico Pueblos Mágicos desde el 26 de junio de 2023."
+  },
+  {
+    "slug": "pucarani",
+    "name": "Pucarani",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 191,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de La Paz",
+    "regionSlug": "departamento-de-la-paz",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "la-paz",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pucarani es una localidad y municipio de Bolivia, capital de la provincia de Los Andes en el departamento de La Paz, parte de la Región Metropolitana de La Paz.",
+    "aboutTitle": "Pucarani, capital de Los Andes en la Región Metropolitana de La Paz",
+    "about": "Pucarani es una localidad y municipio boliviano que ejerce la función de capital de la provincia de Los Andes. La provincia forma parte del departamento de La Paz, uno de los nueve departamentos que conforman el territorio nacional. Como capital provincial, Pucarani alberga las principales instituciones administrativas del territorio y sirve de referencia para la gestión pública del territorio. Además, el municipio está integrado en la Región Metropolitana de La Paz, conjunto de municipios que rodean la ciudad de La Paz y que comparten dinámicas urbanas y de planificación regional. La ubicación de Pucarani dentro de esta región implica su participación en los planes de desarrollo metropolitano y en la coordinación de servicios con la capital departamental. La denominación de Pucarani como localidad y municipio refleja la doble dimensión de su organización: por un lado, como núcleo poblacional donde se concentran actividades residenciales y comerciales; por otro, como entidad territorial con competencias propias en materia de gobierno local. Todo ello sitúa a Pucarani como un punto relevante dentro de la estructura administrativa de La Paz y de la zona andina boliviana."
+  },
+  {
+    "slug": "gualan",
+    "name": "Gualán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Zacapa",
+    "regionSlug": "departamento-de-zacapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-rosa-de-copan",
+      "puerto-barrios",
+      "coban",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Gualán, municipio de Zacapa en el oriente de Guatemala, está a 168 km de la Ciudad de Guatemala, tiene una extensión de 696 km² y supera los 45.000 habitantes.",
+    "aboutTitle": "Gualán, un municipio del oriente de Guatemala",
+    "about": "Gualán es un municipio ubicado en el oriente de la República de Guatemala, a 168 km de la Ciudad de Guatemala y a 36 km de la cabecera departamental de Zacapa. Su altitud es de 130 m s. n. m. y tiene una extensión territorial de 696 km², lo que representa el 25% de la extensión total del departamento de Zacapa. La población total del municipio sobrepasa los 45.000 habitantes, de los cuales el 49% es masculino, y el 51% femenino.\n\nEn 1897 se inauguró el tramo de San Agustín Acasaguastlán a Puerto Barrios del Ferrocarril del Norte, pasando por Gualán, lo que incrementó considerablemente la importancia económica del municipio. El ferrocarril quedó inconcluso por la caída del precio internacional del café y no se concluyó sino hasta 1908. En ese momento la importancia económica de Gualán se incrementó considerablemente y aún más cuando el gobierno del licenciado Manuel Estrada Cabrera dio el ferrocarril en concesión a la empresa estadounidense International Railways of Central America (IRCA), subsidiaria de la United Fruit Company (UFCO). El ferrocarril dejó de ser rentable para la compañía estadounidense en la década de 1950, cuando el gobierno liberacionista del coronel Carlos Castillo Armas terminó la construcción de la carretera al Atlántico, la que había iniciado el gobierno del coronel Jacobo Arbenz Guzmán precisamente para competir con el monopolio ferrocarrilero de la IRCA."
+  },
+  {
+    "slug": "jerecuaro",
+    "name": "Jerécuaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 203,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "atlacomulco-de-fabela",
+      "morelia",
+      "irapuato",
+      "valle-de-bravo",
+      "guanajuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jerécuaro, cabecera del municipio homónimo en el estado de Guanajuato, México, se localiza en el sureste de la entidad.",
+    "aboutTitle": "Jerécuaro, cabecera del municipio en el sureste de Guanajuato",
+    "about": "Jerécuaro se encuentra en el centro del municipio homónimo, en el sureste de Guanajuato. Se sitúa a 1967 metros sobre el nivel del mar y ocupa un área de 4.18 kilómetros cuadrados. El clima de la localidad es templado subhúmedo, con precipitaciones durante el verano. La temperatura media anual para el período 1951-2010 era de 17.6 grados Celsius. De acuerdo con el censo de 2020, había un total de 8011 habitantes, de los que 4268 eran mujeres y 3743, hombres. En dicho año, se contabilizaron 3181 viviendas, 3175 consideradas como particulares. La localidad se encuentra rodeada de otras poblaciones del municipio, y forma parte de la comarca sureste de Guanajuato."
+  },
+  {
+    "slug": "mulukuku",
+    "name": "Mulukukú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 198,
+    "activity": "Media",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Región Autónoma de la Costa Caribe Norte",
+    "regionSlug": "region-autonoma-de-la-costa-caribe-norte",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "matagalpa",
+      "jinotega",
+      "nicaragua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mulukukú, municipio creado el 20 de octubre de 2004, está en Región Autónoma de la Costa Caribe Norte, cerca del río Tuma y sobre vía que une Matagalpa y Siuna.",
+    "aboutTitle": "Mulukukú, un municipio en la Costa Caribe Norte",
+    "about": "Mulukukú es un municipio de la Región Autónoma de la Costa Caribe Norte en Nicaragua. Se encuentra ubicado cerca del río Tuma y sobre una vía estratégica que conecta el interior del país con la costa Caribe, especialmente entre Matagalpa y Siuna. El municipio se caracteriza por su clima tropical húmedo, con abundantes lluvias durante el año, y por una economía basada en la agricultura, la ganadería y el comercio local. El río Tuma aporta recursos hídricos que favorecen la actividad agrícola y la vida cotidiana de sus habitantes. La vía que atraviesa el municipio facilita el intercambio comercial entre Matagalpa y Siuna, consolidándolo como punto de paso esencial para el transporte de mercancías y personas. La ganadería se desarrolla en las áreas de pastizales que rodean la población, complementando la producción agrícola. Mulukukú ha tenido importancia histórica debido a su crecimiento durante la década de 1980 y su papel como punto clave de transporte y comunicación en la región. Fue creado el 20 de octubre de 2004 por decreto legislativo de la Asamblea Nacional de Nicaragua."
+  },
+  {
+    "slug": "cintalapa-de-figueroa",
+    "name": "Cintalapa de Figueroa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "durango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cintalapa de Figueroa, ciudad mexicana con 49.201 habitantes, es la séptima ciudad con mayor población del estado de Chiapas.",
+    "aboutTitle": "Cintalapa de Figueroa, ciudad de origen náhuatl en Chiapas",
+    "about": "Cintalapa de Figueroa es una ciudad mexicana ubicada en el estado de Chiapas, cabecera del municipio homónimo y del 14.º distrito de Chiapas. El nombre de Cintalapa es de origen náhuatl y quiere decir: 'agua en el subsuelo'. La primera cultura que se instaló en la región fue la Olmeca, como lo atestiguan numerosos vestigios arqueológicos. Durante el siglo XI o XII se asentaron en la zona los Toltecas; posteriormente fueron los zoques quienes ocuparon el territorio del municipio.\n\nLa ciudad se localiza en el este del municipio homónimo, en el oeste de Chiapas, cerca del límite con el municipio de Jiquipilas. Se encuentra dentro de un valle, a orillas de la sierra. Se encuentra a 577 m s. n. m. y cubre un área de 11.69 km²."
+  },
+  {
+    "slug": "samaniego",
+    "name": "Samaniego",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 177,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tuquerres",
+      "pasto",
+      "ipiales",
+      "tulcan",
+      "florencia-colombia",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Samaniego, municipio de Nariño fundado el 5 de junio de 1837, se ubica a 117 km al occidente de Pasto y cuenta con 765 km² de territorio montañoso.",
+    "aboutTitle": "Samaniego: historia, geografía y clima de 1450 m s.n.m.",
+    "about": "Samaniego es un municipio del departamento de Nariño, situado a 117 km al occidente de la ciudad de San Juan de Pasto. El territorio abarca 765 km² y se caracteriza por un relieve mayormente montañoso, con una altitud de 1 450 m sobre el nivel del mar. La temperatura media anual ronda los 22 °C y la precipitación media se sitúa en 1 314 mm, condiciones que favorecen la agricultura de subsistencia en la zona.\n\nEl origen de la población se remonta a las tribus Sacampués, Pacuales, Chuguldies, Chupsinanganes, Tabiles, Panganes y Abades, que dependían de la familia de los Pastos. El municipio fue fundado el 5 de junio de 1837 por don Simón Álvarez y, once años después, se erigió en distrito con la creación de la parroquia el 24 de abril de 1848. Tras la Reforma Constitucional de 1858 perdió el estatus de distrito, pero en 1864 la municipalidad de Túquerres lo restituyó, nombrando a don Manuel de J. Benavides como su dirigente."
+  },
+  {
+    "slug": "apizaco",
+    "name": "Apizaco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 210,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tlaxcala",
+    "regionSlug": "tlaxcala",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tlaxcala",
+      "moyotzingo",
+      "santa-ana-xalmimilulco",
+      "san-martin-texmelucan-de-labastida",
+      "sanctorum",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Apizaco, ciudad del centro de Tlaxcala, cuenta con 47 632 habitantes (2020) y es la cuarta más poblada del estado.",
+    "aboutTitle": "Apizaco, la cuarta ciudad más poblada de Tlaxcala",
+    "about": "Apizaco es una ciudad mexicana ubicada en el centro del estado de Tlaxcala. Es la cabecera municipal y el principal núcleo urbano del municipio que lleva el mismo nombre. Según el Instituto Nacional de Estadística y Geografía (INEGI), en el censo de 2020 la población de Apizaco alcanzó los 47 632 habitantes. Con esa cifra la localidad se sitúa como la cuarta ciudad más poblada del estado de Tlaxcala, después de San Pablo del Monte, Huamantla y Santa Ana Chiautempan. Como cabecera municipal, concentra la administración del municipio. El estado de Tlaxcala, situado en la región central de México, cuenta con una variedad de municipios, y el municipio de Apizaco lleva el mismo nombre que la ciudad que lo constituye. Apizaco forma parte de la zona central del estado. Se ubica en la zona geográfica conocida como la región central del estado, a una distancia razonable de otras poblaciones importantes de Tlaxcala."
+  },
+  {
+    "slug": "angol",
+    "name": "Angol",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 217,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de La Araucanía",
+    "regionSlug": "region-de-la-araucania",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-angeles-chile",
+      "temuco",
+      "concepcion",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Angol, capital de la provincia de Malleco en La Araucanía, se sitúa a 569 km al sur de Santiago y está atravesada por el río Vergara.",
+    "aboutTitle": "Río Vergara y la historia de Angol, capital de Malleco",
+    "about": "Angol es una ciudad y comuna de la zona sur de Chile, capital de la provincia de Malleco. Se encuentra al pie de la cordillera de Nahuelbuta y su principal acceso es la localidad de Huequén. El territorio está atravesado por el río Vergara, cruzado por los puentes Vergara I y Vergara II, que constituyen la única unión con la zona céntrica de la comuna. La ciudad está situada a 569 kilómetros al sur de Santiago, a 148 kilómetros al sureste de Concepción y a 142 kilómetros al norte de Temuco.\n\nLa fundación actual data del 7 de diciembre de 1862, después de varios intentos de asentamiento que incluyeron Los Confines de Angol en 1553, San Andrés de Los Infantes en 1560 y San Luis de Angol. En el mismo año de su fundación la Orden Franciscana estableció la misión San Buenaventura, que más tarde impulsó la creación de la Escuela Santa Ana en 1889, administrada por religiosas franciscanas."
+  },
+  {
+    "slug": "masagua",
+    "name": "Masagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Escuintla",
+    "regionSlug": "departamento-de-escuintla",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "escuintla",
+      "antigua-guatemala",
+      "villa-nueva",
+      "mixco",
+      "tiquisate",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Masagua, municipio del departamento de Escuintla en la zona sur‑central de Guatemala, lleva un nombre xinca que significa “lugar de la piña”.",
+    "aboutTitle": "El origen del nombre de Masagua",
+    "about": "Masagua es un municipio del departamento de Escuintla, ubicado en la región sur‑central de la República de Guatemala. El topónimo proviene del idioma xinca; según los estudios, «Masa Wa» se traduce como “lugar de la piña”. La hipótesis lingüística se apoya en la forma de pronunciar el nombre, que mantiene la ausencia del sonido «tl» típico de la raíz nahua «mazatl», lo que la hace más coherente con la etimología xinca. En el Lienzo de Quauhquechollan se representa un territorio con piñas y fosas, situado cerca de la zona pipil postclásica de Panatacat, dentro del actual Escuintla. Esa representación visual corrobora la interpretación xinca del origen del nombre. Además, la ubicación de Masagua dentro de la zona sur‑central le confiere una posición estratégica entre los asentamientos históricos de la región, y su denominación sigue siendo un referente de la herencia cultural indígena que se mantiene en la toponimia local actualmente."
+  },
+  {
+    "slug": "san-pedro-pochutla",
+    "name": "San Pedro Pochutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 232,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Pedro Pochutla, ubicada en el sur del estado de Oaxaca, es la cabecera municipal de uno de los quinientos setenta municipios que integran la entidad.",
+    "aboutTitle": "San Pedro Pochutla, cabecera municipal en Oaxaca",
+    "about": "San Pedro Pochutla es una ciudad situada en la zona sur del estado mexicano de Oaxaca y constituye la cabecera de uno de los quinientos setenta municipios que forman la entidad. Como cabecera municipal, la localidad alberga la sede del gobierno local, donde se concentran las oficinas administrativas que gestionan los asuntos públicos del municipio. La condición de cabecera implica que San Pedro Pochutla es el centro de referencia para la organización política y administrativa del municipio, sirviendo como punto de coordinación para los servicios que se prestan a la población del territorio municipal. En el marco de la división política de Oaxaca, cada uno de los quinientos setenta municipios cuenta con una cabecera que desempeña funciones similares, y San Pedro Pochutla ocupa ese papel en su demarcación. La ubicación al sur del estado sitúa a la ciudad dentro del conjunto de municipios que conforman la región sur de Oaxaca, compartiendo los mismos límites territoriales y la misma estructura institucional que caracteriza a los municipios oaxaqueños."
+  },
+  {
+    "slug": "el-tambo-colombia",
+    "name": "El Tambo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "popayan",
+      "santander-de-quilichao",
+      "florencia-colombia",
+      "jamundi",
+      "puerto-tejada",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Tambo, municipio del Cauca fundado el 15 de septiembre de 1641, está a 33 km de Popayán y sus cerros albergan antenas de INRAVISION.",
+    "aboutTitle": "Fundación y desarrollo de El Tambo desde 1641",
+    "about": "El Tambo es un municipio colombiano del Cauca, integrado al área metropolitana de Popayán, capital del departamento, a unos 33 km de distancia. El municipio se destaca por su riqueza en recursos naturales; sus montañas son la fuente de agua que abastece a miles de personas. Limita al norte con López de Micay, al sur con Patía, La Sierra y Argelia, al oriente con Morales, Cajibío, Popayán, Timbío y Rosas, y al occidente con Timbiquí. Presenta tres pisos térmicos —frío, medio y cálido— que favorecen una gran diversidad de cultivos.\n\nEn su relieve se encuentran elevaciones como los cerros de Altamira Don Alfonso, Mechengue, Napi, Pan de azúcar, Santana y Munchique, donde se ubican antenas de ayuda a la aeronavegación y de transmisión de telecomunicaciones del occidente colombiano, operadas por INRAVISION y Telecom. El Tambo fue fundado el 15 de septiembre de 1641, según documentos del Instituto de Investigaciones Históricas “José María Arboleda”. En 1890 la ley 89 creó las parcialidades de Chapa, Alto del Rey y La Cuchilla, y en 1914, mediante la ordenanza número 45, obtuvo la categoría de municipio."
+  },
+  {
+    "slug": "ocosingo",
+    "name": "Ocosingo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 225,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oxchuc",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ocosingo, ciudad del norte de Chiapas, México, con una población de 47.688 habitantes y un rico patrimonio cultural.",
+    "aboutTitle": "Ocosingo, ciudad del norte de Chiapas",
+    "about": "Ocosingo es una ciudad localizada en el norte del estado mexicano de Chiapas. Es cabecera del municipio homónimo, el más extenso de Chiapas por mucho, y la octava ciudad por población de Chiapas. La ciudad se encuentra emplazada en el Primer Valle De Ocosingo, en una zona de transición de las regiones fisiográficas Montañas del Norte de Chiapas, Meseta Central y Serranías de la Lacandonia. La ciudad de Ocosingo conserva testimonios de la época colonial en su centro histórico, como la Pila de Agua, Los Portales y la iglesia de San Jacinto de Polonia, sede del convento dominico que administraba Yajalón, San Martín Abasolo y otros poblados de la región Tseltal. Actualmente, la población es multicultural, con la predominancia del idioma español en las ciudades y del Tseltal en las comunidades. El nombre Ocosingo proviene de la expresión náhuatl 'Ocotzinco', que significa 'lugar del señor negro'. Su clima varía de cálido húmedo en verano a templado húmedo en invierno, con abundantes lluvias en la estación estival. Los paisajes fluviales incluyen la orilla del alto Jataté. Según el Censo de 2020, la población total era de 47 688 habitantes, con un crecimiento medio del 1.3 % anual entre 2010 y 2020."
+  },
+  {
+    "slug": "longchamps",
+    "name": "Longchamps",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 182,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lomas-de-zamora",
+      "lanus",
+      "san-vicente-misiones",
+      "quilmes",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Longchamps, localidad del Gran Buenos Aires a 29 km al sur de la capital, se fundó el 10 de agosto de 1910 con la apertura de su estación ferroviaria.",
+    "aboutTitle": "Fundación y legado del Hipódromo Longchamps",
+    "about": "Longchamps es una localidad ubicada en el partido de Almirante Brown, provincia de Buenos Aires, y forma parte del Gran Buenos Aires. Se sitúa a 29 km al sur de la ciudad de Buenos Aires, lo que la sitúa dentro del área metropolitana. Su nombre proviene del hipódromo francés del mismo nombre, inspiración que tuvo la Sociedad Hípica de Lomas de Zamora al abrir la pista de carreras de caballos. La fundación oficial se remonta al 10 de agosto de 1910, fecha en que se donó el terreno para la Estación Longchamps y se consideró el origen del pueblo.\n\nEn 1627 las tierras que hoy ocupan Longchamps formaban parte de la estancia “La Magdalena”, de 200 km², propiedad del capitán Francisco García Romero, y más tarde fueron adquiridas por el capitán Gaspar de Avellaneda. A comienzos del siglo XIX sus herederos fraccionaron la propiedad y en 1909 la viuda Luisa Carrere de Burzaco la vendió al Lomas Jockey Club, que destinó 129 ha a la creación de Villa Longchamps, reservó 7 ha para la futura estación y mantuvo 44 ha para el Hipódromo Longchamps, un aeródromo, un autódromo y un campo de ejercicios físicos. Henri Brégi realizó el vuelo histórico el domingo 6 de febrero de 1910 en el Hipódromo, y tras la cuarta carrera del 13 de febrero de 1913 el hipódromo fue destruido."
+  },
+  {
+    "slug": "puerto-lempira",
+    "name": "Puerto Lempira",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 207,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Gracias a Dios",
+    "regionSlug": "departamento-de-gracias-a-dios",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Lempira, capital del departamento de Gracias a Dios, se asienta a orillas de la laguna de Caratasca y es el municipio más extenso de Honduras.",
+    "aboutTitle": "Puerto Lempira: capital de Gracias a Dios y la laguna de Caratasca",
+    "about": "Puerto Lempira es un municipio y una ciudad de la República de Honduras. Asimismo, constituye la cabecera del departamento de Gracias a Dios. Se encuentra ubicado a las orillas de la laguna de Caratasca. Además, destaca por ser el municipio más extenso de Honduras. Puerto Lempira es un municipio y una ciudad de la República de Honduras. Asimismo, constituye la cabecera del departamento de Gracias a Dios. Se encuentra ubicado a las orillas de la laguna de Caratasca. Además, destaca por ser el municipio más extenso de Honduras. Puerto Lempira es un municipio y una ciudad de la República de Honduras. Asimismo, constituye la cabecera del departamento de Gracias a Dios. Se encuentra ubicado a las orillas de la laguna de Caratasca. Además, destaca por ser el municipio más extenso de Honduras. Puerto Lempira es un municipio y una ciudad de la República de Honduras. Asimismo, constituye la cabecera del departamento de Gracias a Dios. Se encuentra ubicado a las orillas de la laguna de Caratasca. Además, destaca por ser el municipio más extenso de Honduras."
+  },
+  {
+    "slug": "zinapecuaro",
+    "name": "Zinapécuaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 187,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "jerecuaro",
+      "celaya",
+      "atlacomulco-de-fabela",
+      "valle-de-bravo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zinapécuaro, municipio del noreste de Michoacán en la frontera con Guanajuato, mantiene desde 1850 la tradición de hornear pan en horno de tierra.",
+    "aboutTitle": "Zinapécuaro, un municipio michoacano con tradición panadera",
+    "about": "Zinapécuaro es un municipio ubicado en el noreste del estado de Michoacán, en los límites con el estado de Guanajuato. Su relieve está constituido por la sierra de San Andrés y los cerros del Pedrillo, Comalera, Cruz, Clavelina, Piojo, Monterrey, Mozo, Doncellas, Cuesta del Conejo y San Andrés, todos dentro del Eje Neovolcánico. El relieve montañoso, con la sierra de San Andrés y los cerros del Pedrillo, Comalera, Cruz, Clavelina, Piojo, Monterrey, Mozo, Doncellas, Cuesta del Conejo y San Andrés, forma parte del Eje Neovolcánico, lo que genera suelos fértiles para la agricultura. La economía del municipio se basa en la fabricación de pan en horno de tierra, alfarería, agricultura y ganadería. La fabricación de pan en Zinapécuaro es una tradición que data de 1850, y se caracteriza por el uso de levadura de pulque. La producción de pan, que utiliza levadura de pulque, sigue siendo una actividad distintiva del municipio. La alfarería es una actividad tradicional en la cabecera municipal. La agricultura y la ganadería también son importantes en la economía local, con cultivos de maíz, trigo, frijol, sorgo y hortalizas, y la cría de ganado bovino, caprino, porcino y avícola."
+  },
+  {
+    "slug": "trojes",
+    "name": "Trojes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 184,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de El Paraíso",
+    "regionSlug": "departamento-de-el-paraiso",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "danli",
+      "juticalpa",
+      "jinotega",
+      "esteli",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Trojes, municipio de El Paraíso en Honduras, alberga parte del Parque Nacional Patuca y el río Coco, frontera natural con Nicaragua.",
+    "aboutTitle": "Río Coco y el Parque Nacional Patuca en Trojes",
+    "about": "Trojes es un municipio del departamento de El Paraíso, Honduras. Se ubica en la zona oriental del país y limita al norte con Nicaragua, compartiendo la frontera junto a Tiote. También parte de su territorio comprende el Parque Nacional Patuca y por él discurre el Río Coco o Segovia, que marca el límite internacional. El clima es templado, también en general, con inviernos copiosos y veranos frescos.\n\nEl nombre proviene de los pobladores nicaragüenses que cultivaban tabaco y construían “trojas” para almacenarlo, de allí “Las Trojas” y luego “Las Trojes”. En 1960, el 18 de noviembre, la Corte Internacional de Justicia confirmó la soberanía hondureña sobre la zona mediante el Laudo de 1906, fijando la frontera hasta la desembocadura del río Coco. El 1 de septiembre de 1987 el asentamiento fue declarado oficialmente municipio, actualmente tras la solicitud presentada por el ciudadano Leonardo Zavala y el abogado Armando Aguilar Cruz."
+  },
+  {
+    "slug": "cunen",
+    "name": "Cunén",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 174,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "solola",
+      "coban",
+      "quetzaltenango",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cunén, un municipio del departamento de Quiché en Guatemala con una población de 47.250 habitantes según el censo de 2018.",
+    "aboutTitle": "Cunén, un municipio en la Sierra de los Cuchumatanes",
+    "about": "Cunén es un municipio del departamento de Quiché, en la República de Guatemala. Está ubicado en la Sierra de los Cuchumatanes a una altitud de 1827 m s. n. m. y tiene una extensión de 168 km². La mayoría de la población es de origen k'iche'. Durante la época colonial fue una doctrina del convento de Sacapulas, a cargo de los frailes dominicos hasta 1754.\n\n La fiesta titular, en honor de Nuestra Señora de Candelaria, se celebra desde el 30 de enero al 3 de febrero. La historia de Cunén también estuvo marcada por la resistencia a la conquista española en la década de 1520 y por los cruentos combates durante la Guerra Civil de Guatemala en los años 80."
+  },
+  {
+    "slug": "cabo-rojo",
+    "name": "Cabo Rojo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mayaguez",
+      "ponce",
+      "arecibo",
+      "bayamon",
+      "guaynabo",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cabo Rojo, municipio de Puerto Rico, es conocido como la Capital del Turismo y cuenta con playas como la de Boquerón y El Combate.",
+    "aboutTitle": "La Capital del Turismo en el suroeste de Puerto Rico",
+    "about": "Cabo Rojo es un municipio ubicado al extremo suroeste del Estado Libre Asociado de Puerto Rico. Limita al sur con el mar Caribe, al oeste con el canal de la Mona, al norte con Mayagüez y Hormigueros, y al este con Lajas, Hormigueros y San Germán. El Municipio de Cabo Rojo es el sexto más grande de Puerto Rico en extensión territorial y la segunda ciudad más grande en extensión del oeste de Puerto Rico, después de Mayagüez. El municipio es conocido también como Ciudad Mata con Hacha, Cuna de Betances, Cuna del Pirata Cofresí, Capital del Marisco y Ciudad Maravillosa. Cuenta con iconos culturales y paisajes como la Bahía de Boquerón, la estatua del Pirata Cofresí, las playas de Boquerón, El Combate, Buyé y Playuela (Playa Sucia), su Centro de Convenciones y el Bosque de Boquerón. Cabo Rojo está dividido en cinco distritos que incluyen ocho barrios y el centro cívico llamado Cabo Rojo Centro, ubicado a unos tres kilómetros de la costa suroeste. El gentilicio de sus habitantes es caborrojeño."
+  },
+  {
+    "slug": "quesada-costa-rica",
+    "name": "Quesada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 209,
+    "activity": "Media",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "puntarenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quesada, cabecera del cantón de San Carlos en Alajuela, es el principal centro ganadero y agrícola de la Región Huetar Norte.",
+    "aboutTitle": "Centro ganadero y agrícola de la Región Huetar Norte",
+    "about": "Quesada, conocida como Ciudad Quesada, es la cabecera del cantón de San Carlos, en la provincia de Alajuela, Costa Rica. Situada en la Región Huetar Norte, la ciudad se ha consolidado como principal centro comercial para las empresas ganaderas y agrícolas que operan en los alrededores, impulsando la economía regional. El nombre de la localidad proviene del apellido español Quesada, topónimo también presente en el municipio de Quesada en Jaén, y fue otorgado en honor a sus fundadores originales: Manuel Quesada Bastos, los hermanos Baltazar y Joaquín Quesada Rodríguez, y José María Quesada Ugalde. En 1914 el Congreso de Costa Rica reconoció también a Mercedes Quesada Quesada como miembro fundador mediante una ley de la República. Antes de la colonización, la zona estuvo habitada por botos y sirvió de refugio durante la conquista; el primer español en llegar fue Jerónimo de Retes y López de Ortega en 1640, fundando el pueblo de San Jerónimo de los Votos. En 1884 la familia Quesada reclamó tierras de las llanuras de San Carlos, inició la construcción de calles y formó el caserío llamado La Unión, dando paso a la inmigración de numerosas familias que poblaron la zona."
+  },
+  {
+    "slug": "juana-diaz",
+    "name": "Juana Díaz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ponce",
+      "arecibo",
+      "caguas",
+      "bayamon",
+      "guaynabo",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juana Díaz, municipio del sur de Puerto Rico fundado en 1798 y llamado “La Ciudad del Maví”, se asienta a la orilla del histórico río Jacaguas.",
+    "aboutTitle": "Río Jacaguas y la Fiesta de Reyes en Juana Díaz",
+    "about": "Juana Díaz es un municipio situado en la región Sur de Puerto Rico, a la orilla del histórico río Jacaguas. La villa, que empezó como aldea en 1582 según Fray Íñigo Abad y Lasierra, recibió su nombre en honor a Doña Juana Díaz, quien administró el hato del mismo nombre. El territorio también es conocido como “La Ciudad del Maví” y “La Ciudad de los Reyes y los Poetas”.\n\nA lo largo del siglo XVIII la población fue apodada el Versalles de Ponce por sus verdes campiñas y riachuelos. El primer negocio local consistió en la crianza de ganado vacuno y porcino y la siembra de frutos menores. El gobierno civil se formalizó el 25 de abril de 1798 y la parroquia se fundó en marzo de 1798 bajo la dirección de Don Tiburcio Rodríguez. Entre sus tradiciones destaca la Fiesta de Reyes, celebrada cada año, y la presencia de la Banda Escolar de Juana Díaz, reflejo de su vida cultural."
+  },
+  {
+    "slug": "independencia-chiapas",
+    "name": "Independencia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oxchuc",
+      "ocosingo",
+      "huehuetenango",
+      "queretaro",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Independencia, Chiapas, tiene una temperatura media anual de 21 °C; su territorio incluye el río Santo Domingo, afluente del Usumacinta.",
+    "aboutTitle": "Río Santo Domingo y la temperatura media de Independencia",
+    "about": "La Independencia es un municipio del oriente de Chiapas, México, cuya cabecera lleva el mismo nombre. Limita al norte y al este con Las Margaritas, al sur con Guatemala y los municipios de La Trinitaria, y al oeste con Comitán de Domínguez. Su territorio representa el 13.32 % de la superficie de la región Fronteriza y el 2.25 % del total estatal. La geografía combina llanuras del altiplano central con lomeríos y, hacia el este, terrenos accidentados que forman la transición a las Montañas del Oriente. El clima es semicálido subhúmedo, con una temperatura media anual de 21 °C y una precipitación de aproximadamente 1 000 mm al año, concentrada en el verano. Entre sus cauces destacan el río Santo Domingo, afluente del Usumacinta, y los ríos El Porvenir, Ibiltic, Latonchic, Matazan y San Juan. La vegetación incluye cupape, ciprés, pino y roble, mientras que la fauna cuenta con puma, venado, jabalí y diversas aves como el gavilán golondrino. Según el censo de 2020, el municipio alberga 120 localidades."
+  },
+  {
+    "slug": "ayutla",
+    "name": "Ayutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 215,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tapachula",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "mazatenango",
+      "tiquisate",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ayutla, un municipio del departamento de San Marcos en Guatemala con una población estimada de 45.401 habitantes.",
+    "aboutTitle": "Ayutla, un municipio fronterizo con México",
+    "about": "Ayutla es un municipio del departamento de San Marcos en Guatemala. Su cabecera municipal es la Ciudad Tecún Umán. Está ubicado en el suroeste del país. La frontera con México fue establecida en 1896, tras el Tratado Herrera-Mariscal que suscribiera el presidente Justo Rufino Barrios en 1882 con el gobierno de México.\n\nLa frontera con México ha influido en la historia y economía de Ayutla. En el pasado, se convirtió en un sitio estratégico para el narcotráfico y contrabando hacia México. El municipio cuenta con ocho aldeas, ocho caseríos, ocho barrios, cinco haciendas, tres fincas, cuatro cantones, y dos comunidades agrarias."
+  },
+  {
+    "slug": "coto-brus",
+    "name": "Coto Brus",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Puntarenas",
+    "regionSlug": "provincia-de-puntarenas",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "david-panama",
+      "bocas-del-toro",
+      "costa-rica",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El chat de Coto Brus te acerca al cantón 8 de la provincia de Puntarenas, en la Región Brunca, con cabecera en San Vito y llamado el río Coto y el valle Brus.",
+    "aboutTitle": "El origen del cantón entre el río Coto y el valle Brus",
+    "about": "Coto Brus es el cantón número 8 de la provincia de Puntarenas, en Costa Rica, y forma parte de la Región Brunca. Su cabecera es la ciudad de San Vito. Su nombre proviene de las investigaciones sobre el río Coto o Couto y el valle Brus o Brusi, una zona que estuvo habitada por un numeroso pueblo indígena.\n\nLa historia de la región comenzó a perfilarse hacia 1940 con el proyecto de construcción de la Carretera Interamericana. Hasta ese momento, muy pocas personas habitaban las montañas de Cañas Gordas. Tras la guerra de Coto en 1921 entre Costa Rica y Panamá, y el acuerdo fronterizo de 1944, la llegada de pobladores aumentó. Estos primeros habitantes se dedicaron a la agricultura de subsistencia debido a la falta de vías de comunicación, lo que imposibilitaba comercializar productos. Entre los primeros colonizadores de la década de 1940 en Sabalito se encuentran Benjamín Chavarría, Jesús Mondragón, Víctor Pineda y Manuel Sáenz."
+  },
+  {
+    "slug": "eloy-alfaro",
+    "name": "Eloy Alfaro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 200,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Esmeraldas",
+    "regionSlug": "provincia-de-esmeraldas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tumaco",
+      "esmeraldas",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Eloy Alfaro, cantón del norte de Esmeraldas, posee manglares de hasta 64 m y la Reserva Ecológica Manglares Cayapas‑Mataje, declarada en octubre de 1995.",
+    "aboutTitle": "Manglares de 64 m y la Reserva Ecológica Manglares Cayapas‑Mataje",
+    "about": "Eloy Alfaro es un cantón ubicado al norte de la provincia de Esmeraldas, en Ecuador. Su cabecera cantonal es la ciudad de Valdez, más conocida como Limones. Con una extensión de 4.302 km², el clima oscila entre los 20 y 35 °C, lo que favorece la presencia de manglares que pueden alcanzar hasta 64 metros de altura, considerados entre los más altos del mundo.\n\nTodo el territorio del cantón alberga una gran biodiversidad y está protegido por la Reserva Ecológica Cotacachi‑Cayapas y la Reserva Ecológica Manglares Cayapas‑Mataje, declarada en octubre de 1995. En sus límites fluyen los ríos Santiago, Onzole y Cayapas, que forman parte de la cuenca del río Santiago‑Cayapas. La economía local se basa en la ganadería, la agricultura, la pesca y el turismo, y la zona es conocida por sus manifestaciones culturales ancestrales y su gastronomía típica. Tras la creación del cantón Borbón en 2025, varias parroquias rurales, como Borbón, Maldonado, Selva Alegre, Playa de Oro, Atahualpa, Zapallo Grande, San Francisco de Onzole y Santo Domingo de Onzole, pasaron a formar parte de la nueva jurisdicción, mientras que en Eloy Alfaro se concentran poblaciones como La Tola, Pampanal de Bolívar y Santa Lucía de las Peñas."
+  },
+  {
+    "slug": "sumpango",
+    "name": "Sumpango",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Sacatepéquez",
+    "regionSlug": "departamento-de-sacatepequez",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antigua-guatemala",
+      "mixco",
+      "villa-nueva",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sumpango, municipio del departamento de Sacatepéquez en Guatemala, es conocido por su Festival de Barriletes Gigantes, que se celebra el 1 de noviembre.",
+    "aboutTitle": "Sumpango y su Festival de Barriletes Gigantes",
+    "about": "Sumpango es un municipio del departamento de Sacatepéquez en la República de Guatemala. Cuenta con un área de 55 kilómetros cuadrados y más de 45 mil personas habitan en la cabecera municipal y sus nueve aldeas. Su cabecera municipal es la ciudad del mismo nombre y su feria titular se realiza el 28 de agosto en honor a su santo patrono Agustín de Hipona.\n\nEl topónimo «Sumpango» proviene del vocablo náhuatl: «tzompantli», que significa «estantería para calaveras humanas dedicadas a los dioses». También es conocido a nivel nacional por su Festival de Barriletes Gigantes, el cual es un evento cultural que se celebra el 1 de noviembre de cada año, día en que se celebra a Todos los Santos."
+  },
+  {
+    "slug": "ilave",
+    "name": "Ilave",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 226,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Puno",
+    "regionSlug": "departamento-de-puno",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puno",
+      "juliaca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ilave, ciudad peruana y capital del distrito homónimo y de la provincia de El Collao, está ubicada en el departamento de Puno.",
+    "aboutTitle": "Ilave, capital de El Collao en el departamento de Puno",
+    "about": "Ilave es una ciudad peruana que actúa como capital del distrito homónimo y de la provincia de El Collao, y se encuentra en el departamento de Puno. Como capital tanto del distrito como de la provincia, la ciudad concentra la sede del gobierno local y provincial, lo que la convierte en el principal centro administrativo de la zona. La ubicación de Ilave dentro del departamento de Puno la inserta en la estructura política y territorial del país, formando parte de la red de municipios peruanos. En su función de capital, la ciudad alberga las instituciones encargadas de gestionar los asuntos públicos locales y provinciales, facilitando la coordinación entre las distintas demarcaciones. La condición de capital subraya la importancia de Ilave en la organización territorial del área, sirviendo como punto de referencia para la gestión pública y la atención a la población del distrito y de la provincia de El Collao."
+  },
+  {
+    "slug": "calera",
+    "name": "Calera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 220,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Zacatecas",
+    "regionSlug": "zacatecas",
+    "channels": [
+      "zacatecas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zacatecas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Calera, municipio zacatecano con 45.759 habitantes, se sitúa a 23°27′02″ N y 102°55′10″ O, y destaca por su industria aeroespacial de alta tecnología.",
+    "aboutTitle": "Calera, núcleo industrial aeroespacial de Zacatecas",
+    "about": "Calera es uno de los 58 municipios del estado de Zacatecas, y su cabecera municipal es la localidad de Víctor Rosales, conocida popularmente también como Calera. Con 45.759 habitantes según el Censo 2020, ocupa el quinto lugar en población del estado. El nombre proviene de una actividad histórica y apareció como Calera o La Calera en la Geografía del Estado de Zacatecas de Elías Amador (1894); en enero de 1901 se le añadió el nombre del benemérito Víctor Rosales, quedando Calera Víctor Rosales, y en 1964 se estableció que el municipio se llamaría Calera mientras la cabecera mantendría el nombre de Víctor Rosales.\n\nSituado en la región central del estado, a 23°27′02″ N y 102°55′10″ O, el municipio abarca 389 km² y limita al norte con Enrique Estrada y Fresnillo y al poniente con Fresnillo y Jerez. En 2020 contaba con 99 localidades. Desde 2009 su economía se diversificó hacia la manufactura aeroespacial de alta tecnología, con la instalación de plantas dedicadas al procesamiento de polímeros reforzados con fibra."
+  },
+  {
+    "slug": "la-tinta",
+    "name": "La Tinta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 199,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "gualan",
+      "chiquimula",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Catalina La Tinta, fundada el 14 agosto 1896 por Erwin Pablo Dieseldorf, conserva el recuerdo de la fábrica de añil que dio nombre al pueblo.",
+    "aboutTitle": "La Tinta: legado de la fábrica de añil y el ferrocarril Verapaz",
+    "about": "Santa Catalina La Tinta es un municipio del departamento de Alta Verapaz, ubicado en la zona conocida como Corredor Seco de Guatemala. El nombre «La Tinta» proviene de la fábrica de añil que operó en 1890, cuando una familia de origen alemán explotaba la hoja de jiquilite para producir un tinte azulado; los vestigios de esas piletas de piedra y cemento aún se observan en el Barrio La Línea, el Barrio Campo Nuevo y la Aldea Sacsuhá. La aldea fue fundada el 14 de agosto de 1896 por el alemán Erwin Pablo Dieseldorf, quien donó a sus trabajadores cuatro caballerías de terreno para el desarrollo del asentamiento.\n\nLa economía local se impulsó con la reforma liberal y la expansión cafetalera, reforzada por la construcción del ferrocarril Verapaz en la década de 1890. Tras décadas de gestión, La Tinta alcanzó la categoría de municipio en la década de 1990, y sigue."
+  },
+  {
+    "slug": "santa-maria-huatulco",
+    "name": "Santa María Huatulco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 202,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-pedro-pochutla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa María Huatulco, municipio costero del Pacífico en Oaxaca, pertenece al distrito de Pochutla y a la región Costa; es la agencia de Crucecita.",
+    "aboutTitle": "Turismo en Bahías de Huatulco",
+    "about": "Santa María Huatulco es un municipio ubicado en la costa del océano Pacífico, dentro del estado de Oaxaca, México. Pertenece al distrito de Pochutla y forma parte de la región Costa. El principal núcleo urbano del municipio es la agencia municipal de Crucecita, cuyo nombre proviene de la colonia centro de esa población y que está integrado en el desarrollo turístico conocido como Bahías de Huatulco. Cada año miles de turistas visitan la zona, atraídos por sus playas y servicios. El municipio cuenta con un aeropuerto internacional y con un muelle turístico internacional de cruceros, infraestructuras que facilitan la llegada de visitantes. Según el Censo de Población y Vivienda de 2010, la población total del municipio asciende a 38.629 habitantes. En cuanto a su geografía, el territorio limita al oeste y noroeste con el municipio de San Pedro Pochutla, al norte con San Mateo Piñas y Santiago Xanica, y al noreste y este con San Miguel del Puerto."
+  },
+  {
+    "slug": "marcovia",
+    "name": "Marcovia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 201,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Choluteca",
+    "regionSlug": "departamento-de-choluteca",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "choluteca",
+      "chinandega",
+      "honduras",
+      "tegucigalpa",
+      "san-miguel",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Marcovia, municipio del sur de Choluteca en Honduras, lleva el nombre del presidente Marco Aurelio Soto, quien la fundó en la vía entre Amapala y Choluteca.",
+    "aboutTitle": "Marcovia y el río Choluteca: origen y datos municipales",
+    "about": "Marcovia es un municipio del departamento de Choluteca, en la República de Honduras, situado en la parte suroeste del departamento y cuya cabecera se ubica en la ribera izquierda del río Choluteca. El nombre proviene del presidente Marco Aurelio Soto, quien al encontrar el lugar en la vía que llevaba de Amapala a Choluteca lo llamó “Marco‑Vía”. En 1882 el mismo presidente elevó la aldea, entonces conocida como Pueblo Nuevo, a municipio con el nombre de Marcovia. Según datos recientes, Marcovia cuenta con una población de 48,333 habitantes, de los cuales el 49 % son hombres y el 51 % mujeres, y casi el 48 % reside en la zona urbana. En 2013 la división política incluía 21 aldeas y 166 caseríos. Marco Aurelio Soto, nacido en Tegucigalpa el 13 de noviembre de 1846, gobernó Honduras entre 1876 y 1883 y falleció en París el 25 de febrero de 1908; durante su mandato impulsó la Reforma Liberal, la modernización del Estado, la educación laica y el desarrollo económico."
+  },
+  {
+    "slug": "la-asunta",
+    "name": "La Asunta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 169,
+    "activity": "Media",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de La Paz",
+    "regionSlug": "departamento-de-la-paz",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Asunta, municipio de Sud Yungas en La Paz, Bolivia, cuenta con 45.587 habitantes (censo 2024) y se sitúa a 745 m s.n.m.",
+    "aboutTitle": "Cascadas de hasta 400 m y ríos Boopí y Cotacajes en La Asunta",
+    "about": "La Asunta es una localidad y municipio de Bolivia, ubicado en la provincia de Sud Yungas, departamento de La Paz. Se sitúa a 745 m s.n.m. y está a 110 km de la ciudad de La Paz, capital del departamento. Según el censo de 2024, la población del municipio alcanza los 45.587 habitantes, habiéndose multiplicado casi por cuatro entre 1992 y 2024. El territorio presenta una topografía accidentada con cerros de pendientes pronunciadas. Los recursos hídricos del municipio están alimentados por innumerables cascadas de incluso 400 metros de altura, con grandes caudales, siendo los principales ríos el Boopí y el Cotacajes. El clima es cálido, con una temperatura promedio de 28 °C, mínimas de 19 °C en invierno y una humedad del 70 %; la precipitación anual ronda los 1.300 mm.\n\nLimita al suroeste con Chulumani e Irupana, al oeste con Coripata (Nor Yungas) y Caranavi, al norte con Palos Blancos, al este con Cocapata (Cochabamba) y al sur con Inquisivi. Desde La Paz, la carretera pavimentada Ruta 3 corre al este durante 60 kilómetros hasta Unduavi, desde donde se bifurca la Ruta 25, que continúa como camino rural sin pavimentar hacia el municipio."
+  },
+  {
+    "slug": "nueva-gerona",
+    "name": "Nueva Gerona",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 225,
+    "activity": "Media",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Isla de la Juventud",
+    "regionSlug": "isla-de-la-juventud",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pinar-del-rio",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Gerona, capital de la Isla de la Juventud, cuenta con un puerto pesquero y es sede de los clubes de béisbol y fútbol de la isla.",
+    "aboutTitle": "Nueva Gerona, capital de la Isla de la Juventud",
+    "about": "Nueva Gerona es una ciudad cubana, capital de la municipalidad especial de Isla de la Juventud. La ciudad está situada entre las Sierras de Caballos y Sierra de Casas, a unos 3 km de la desembocadura del Río las Casas, que es navegable hasta el mar Caribe. La ciudad fue fundada el 17 de diciembre de 1830 como Colonia Reina Amalia por orden del Gobernador español de Cuba, Francisco Dionisio Vives. El nombre actual de Nueva Gerona se puso en honor al Capitán General de Cuba, Francisco Dionisio Vives.\n\nLa ciudad se divide en los repartos de Centro, Abel Santamaría, Sierra Caballo, Nazareno, Saigón, Chacón y José Martí. Nueva Gerona se conecta con La Fe (o Santa Fe), la segunda población más importante de la isla, a través de la Autopista de la Isla de la Juventud. El estuario del Río Las Casas proporciona un punto de salida hacia la Isla de Cuba, desembarcando en Surgidero de Batabanó. La ciudad cuenta con el Hospital Municipal Héroes del Baire y dos policlínicos, así como con el principal puerto pesquero del municipio."
+  },
+  {
+    "slug": "guachochi",
+    "name": "Guachochi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 136,
+    "votes": 222,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guachochi, centro económico de la Sierra Tarahumara en Chihuahua, México, con una población de 50 180 habitantes.",
+    "aboutTitle": "Guachochi en la Sierra Tarahumara",
+    "about": "El Municipio de Guachochi se encuentra localizado en la Sierra Madre Occidental, que recibe el nombre local de Sierra Tarahumara. Su territorio se encuentra surcado por montañas y barrancas que hacen que su altitud fluctúa entre 400 y 2 900 metros sobre el nivel del mar. El área de influencia de la subcuenca Guachochi se encuentra ubicada en la Provincia Fisiográfica denominada Sierra Madre Occidental. Se distinguen seis unidades geomorfológicas, siendo el que tiene mayor predominancia la superficie de gran meseta con cañadas con 59.64 %, seguido de la sierra alta con cañones con 25.19 %; en menor proporción se encuentran valle abierto de montañas con mesetas, además de sierra baja. El municipio de Guachochi, en el suroeste del estado, tiene una extensión territorial de 6984.114 kilómetros cuadrados y sus coordenadas geográficas extrema son 26° 36' - 27° 42' de latitud norte y 106° 49' - 107° 51' de longitud oeste."
+  },
+  {
+    "slug": "general-alvarado",
+    "name": "General Alvarado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 198,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "miramar-el-marquesado",
+      "balcarce",
+      "mar-del-plata",
+      "santa-clara-del-mar",
+      "ayacucho-buenos-aires",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de General Alvarado, partido de la provincia de Buenos Aires con 45.526 habitantes, cabecera Miramar y límites con General Pueyrredón y el mar Argentino.",
+    "aboutTitle": "General Alvarado, un partido costero de Buenos Aires",
+    "about": "General Alvarado es uno de los 135 partidos de la provincia argentina de Buenos Aires. Se ubica al sudeste de la provincia, sobre las márgenes del mar Argentino, y su territorio se extiende a lo largo de la costa atlántica, ofreciendo acceso directo al océano. La ciudad cabecera es Miramar. Limita al noreste con el partido de General Pueyrredón, al noroeste con Balcarce, al sudoeste con Lobería y al sudeste con el propio mar Argentino. Forma parte de la Quinta Sección Electoral de la provincia de Buenos Aires, lo que determina su representación legislativa. El partido debe su nombre a Rudecindo Alvarado, militar que participó en las guerras por la independencia, llegó a ser Jefe del Regimiento de Granaderos a Caballo y alcanzó el rango de Mariscal del Perú. La población ha crecido de forma sostenida, pasando de 30.385 habitantes en 1991 a 45.526 en 2022, lo que supone un aumento de más de 15.000 personas en tres décadas."
+  },
+  {
+    "slug": "parras",
+    "name": "Parras",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 188,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "matamoros",
+      "saltillo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Parras, en Coahuila, México, es un municipio fundado en 1578. Cuenta con 45.401 habitantes y conserva una notable tradición histórica.",
+    "aboutTitle": "Parras, un municipio con historia en Coahuila",
+    "about": "El municipio de Parras es uno de los 38 municipios que conforman al estado mexicano de Coahuila. La región que abarca el municipio de Parras empezó a ser poblada en 1578, pero para 1587 la colonización empezó a ser más estable en la región. El 18 de febrero de 1598 Juan Agustín de Espinosa y el capitán Antón Martín Zapata fundan la villa de Santa María de las Parras, la cual poblaron con indígenas tlaxcaltecas. Esta villa formó parte de la Nueva Vizcaya, hasta que la Real Cédula del 21 de mayo de 1785 la incorporó a la provincia de Coahuila. El municipio se encuentra a una altitud promedio de 1,520 m s. n. m. y abarca un área de 10,523.86 km², lo que equivale a aproximadamente el 7 % de la superficie de su estado. Colinda al norte con el municipio de Cuatrociénegas, al este con los municipios de San Pedro, General Cepeda y Saltillo, al oeste con Viesca y al sur con el estado de Zacatecas."
+  },
+  {
+    "slug": "libertador-venezuela",
+    "name": "Libertador",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 210,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Monagas",
+    "regionSlug": "monagas",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-guayana",
+      "maturin",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Libertador, municipio de Monagas, cuenta con 61.450 habitantes en 2023 y superficie de 2.402 km²; su capital es Temblador y se autonomizó 27 septiembre 1994.",
+    "aboutTitle": "Libertador: Faja Petrolífera del Orinoco y la pesca del temblador",
+    "about": "El municipio Libertador es uno de los trece que integran el estado Monagas, en Venezuela. Con una superficie de 2.402 kilómetros cuadrados (927,4 mi²) y una población estimada en 61.450 habitantes para 2023, su capital es la población de Temblador. El territorio está dividido en cuatro parroquias: Chaguaramas, Las Alhuacas, Tabasca y Temblador, y obtuvo la autonomía municipal el 27 de septiembre de 1994, fecha en la que se separó del antiguo distrito Sotillo. Situado en la zona sur del estado, Libertador forma parte de la Faja Petrolífera del Orinoco, lo que le confiere una relevancia económica pese a que la ganadería extensiva sigue predominando. La capital, Temblador, se fundó a comienzos del siglo XX en el lugar conocido como “Paso Viejo” y creció rápidamente con la llegada de la industria petrolera. En sus ríos y caños abundan los temblador, peces de agua dulce capaces de generar descargas eléctricas; según la obra de Domingo Rogelio León, el temblador puede superar el metro de longitud y producir una carga suficiente para derribar a un caballo o una res."
+  },
+  {
+    "slug": "montemorelos",
+    "name": "Montemorelos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 176,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nuevo León",
+    "regionSlug": "nuevo-leon",
+    "channels": [
+      "nuevo_leon",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "allende",
+      "guadalupe-nuevo-leon",
+      "monterrey",
+      "saltillo",
+      "nuevo-leon",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Montemorelos, conocida como la Capital naranjera de México, es una ciudad ubicada en el estado de Nuevo León, a 82 km al sureste de Monterrey.",
+    "aboutTitle": "La Capital naranjera de México",
+    "about": "Montemorelos es una ciudad mexicana cabecera del municipio homónimo, en el estado de Nuevo León. Se encuentra a 342 m s. n. m., en la margen izquierda del río Pilón. La ciudad es conocida por ser un importante centro citrícola, lo que le ha valido el título de Capital naranjera de México o Capital Mundial de la Naranja. Dentro del campus se encuentra el reconocido centro médico, conocido popularmente como Hospital La Carlota.\n\nLa región serrana en la que se encuentra hoy Montemorelos se denomina la Gran Chichimeca. El núcleo principal del municipio se llamó antiguamente Villa de San Mateo del Pilón. En el área se han llevado a cabo labores arqueológicas a partir de 1960, y se han encontrado pocos elementos arqueológicos, como morteros, tinajas y petroglifos."
+  },
+  {
+    "slug": "rabinal",
+    "name": "Rabinal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 188,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Baja Verapaz",
+    "regionSlug": "departamento-de-baja-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "sumpango",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rabinal, municipio de Baja Verapaz, Guatemala, fundado el 25 de enero de 1538, es conocido por la obra literaria prehispánica Rabinal Achí.",
+    "aboutTitle": "Rabinal Achí y la historia de Rabinal",
+    "about": "Rabinal es un municipio del departamento de Baja Verapaz en la República de Guatemala. Fue fundado el 25 de enero de 1538, por Fray Bartolomé de las Casas, O.P. y Fray Pedro de Angulo, O.P. con el nombre de «San Pablo Rabinal». Ubicado en el centro norte del país, es famoso por el Rabinal Achí, obra literaria representativa de la cultura maya prehispánica. El municipio cuenta con veintiocho aldeas y cincuenta caseríos y está ubicado en una depresión de la Sierra de Chuacús. El escudo del municipio, diseñado por Héctor Efraín Ayala con Morales, representa aspectos importantes de la historia y tradiciones de Rabinal, como el libro que significa su historia y tradiciones, el laurel que significa el honor que se le da al pueblo de Rabinal, la cruz que habla de su acento religioso católico, el chinchin que manifiesta la artesanía del pueblo y la naranja que representa la productividad antigua."
+  },
+  {
+    "slug": "pedro-meoqui",
+    "name": "Pedro Meoqui",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 181,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pedro Meoqui, ciudad de Chihuahua a orillas del río San Pedro, cuenta con 23 140 habitantes (censo 2020) y su economía se basa principalmente en la agricultura.",
+    "aboutTitle": "Río San Pedro y la agricultura en Pedro Meoqui",
+    "about": "Pedro Meoqui es la cabecera municipal del municipio homónimo, ubicada en el estado de Chihuahua y asentada a orillas del río San Pedro. Según el censo de 2020 la ciudad cuenta con 23 140 habitantes y su principal actividad económica es la agricultura, que sustenta a gran parte de la población.\n\nFundada como pueblo de visita franciscana a inicios del siglo XVII, la población recibió el nombre de San Pablo y estuvo habitada por indígenas conchos, julimes, navichames y mezquites. Desde finales del siglo XVII hasta 1773 la zona estuvo bajo la autoridad de los presidios militares, año en que se estableció el Cuartel Militar de San Pablo. En 1864 el pueblo cambió su denominación para honrar al general Pedro Meoqui Mañón, quien había participado en la campaña de Puebla y en la Guerra de Reforma. En 1773 el coronel Hugo O’Conor trasladó la 4.ª Compañía Volante al llamado Puesto de San Pablo; en 1791 fue movida a Julimes y en 1794 regresó a Meoqui. En 1826 formó parte del partido de San Jerónimo y, en 1837, se incorporó a la subprefectura de Rosales, pasando diez años después al cantón Rosales. En 1886 el poblado se integró al Cantón de Meoqui y, entre 1887 y 1911, perteneció al Distrito Camargo."
   }
 ];

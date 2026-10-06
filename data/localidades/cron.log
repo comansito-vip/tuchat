@@ -2157,3 +2157,150 @@ Groq: HT
 [2026-10-05T11:11:27.143Z]   ✓ talamanca (Costa Rica) — escribió NVIDIA, verificó Groq
 [2026-10-05T11:12:25.107Z]   ✓ revenga (Venezuela) — escribió Groq, verificó NVIDIA
 [2026-10-05T11:12:25.171Z] publicadas 50 salas · acumuladas 404 · quedan 2986 en cola
+[2026-10-06T01:30:06.203Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-06T01:30:06.219Z] cola: 2982 · lote de hoy: 50
+[2026-10-06T01:30:07.704Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-06T01:30:29.405Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-06T01:32:27.754Z]   ✗ pocito: rechazada tras corrección: La ficha confunde la localidad de Pocito con otra homónima, ya que la fuente menciona una localidad en la provincia de Salamanca, España, mientras que la ficha se refiere a una localidad en la provinc
+[2026-10-06T01:35:02.662Z]   ✗ usulutan-oeste: rechazada tras corrección: La extensión territorial permite la coexistencia de áreas rurales y costeras, aunque la fuente no detalla actividades específicas; La organización en distritos facilita la gestión local y la prestació
+[2026-10-06T01:38:28.051Z]   ✓ tiquisate (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-06T01:39:57.679Z]   ✗ morrope-departamento-de-lambayeque: rechazada tras corrección: La capital de Mórrope no se extiende sobre una superficie de 1.054 km², sino que el distrito tiene una superficie de 1.054 km².; No se menciona que el nombre de Mórrope signifique 'lugar de la iguana'
+[2026-10-06T01:42:23.815Z]   ✗ yura: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T01:44:29.473Z]   ✗ bambamarca: rechazada tras corrección: La ficha describe la condición de capital y los servicios públicos que ofrece la ciudad, lo que no se menciona en el material de origen; La ficha menciona la relevancia administrativa y el carácter de
+[2026-10-06T01:46:32.114Z]   ✗ caranavi: rechazada tras corrección: La ficha describe a Caranavi como ubicada en el noroeste de Bolivia, lo que no se encuentra en el material de origen; La ficha menciona que Caranavi está en la zona sur del departamento, lo que no se 
+[2026-10-06T01:48:26.627Z]   ✗ aguacatan: fraseo calcado de san-mateo-ixtatan: "un municipio del departamento de huehuetenango situado"
+[2026-10-06T01:49:54.870Z]   ✗ yara: rechazada tras corrección: La ficha describe a la gente de la sala, lo cual no tiene fuente. (La frase 'de sus habitantes cubanos' implica que se está describiendo a la gente que entra en la sala, lo cual no está permitido.); L
+[2026-10-06T01:51:48.375Z]   ✗ los-andes-chile: fraseo calcado de talcahuano: "de la zona central de chile ubicada"
+[2026-10-06T01:53:07.923Z]   ✗ calkini: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 106 (line 1 column 107)
+[2026-10-06T01:59:13.179Z]   ✗ nirgua: rechazada tras corrección: La ficha afirma que la ciudad concentra los principales servicios administrativos y comerciales y que es un referente para la comunidad, datos que no aparecen en el material de origen.
+[2026-10-06T02:04:12.955Z]   ✗ la-joya: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T02:05:22.126Z]   ✗ balancan: fraseo calcado de jalpa-de-mendez: "es un municipio del estado de tabasco"
+[2026-10-06T02:11:11.871Z]   ✗ sicuani: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-06T02:11:32.693Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-06T02:16:38.531Z]   ✗ guadalupe-y-calvo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T02:16:58.549Z]   ✗ intibuca: es una división administrativa, no una localidad
+[2026-10-06T02:18:24.783Z]   ✗ chiapa-de-corzo: fraseo calcado de villa-hermosa: "con una temperatura media anual de 26"
+[2026-10-06T02:21:19.762Z]   ✓ sipe-sipe (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-06T02:22:46.850Z]   ✗ jacobo-hunter-departamento-de-arequipa: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T02:24:23.106Z]   ✗ morazan-norte: rechazada tras corrección: La ficha menciona que la superficie se expresa en kilómetros cuadrados como unidad de medida oficial para los municipios salvadoreños, lo que no se menciona en el material de origen; La ficha dice que
+[2026-10-06T02:24:53.024Z]   ✗ chao: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T02:26:09.110Z]   ✗ morona: rechazada tras corrección: La ficha describe a Morona, distrito peruano, pero la localidad es Morona, Ecuador, no el distrito peruano; La ficha describe la ubicación geográfica y la organización territorial del distrito peruano
+[2026-10-06T02:26:49.897Z]   ✓ oxchuc (México) — escribió Groq, verificó NVIDIA
+[2026-10-06T02:37:09.068Z]   ✗ adicora: rechazada tras corrección: Se menciona que el aeródromo se encuentra en el núcleo del poblado y que su localización corresponde a las mismas coordenadas que las del pueblo, lo que no se menciona en el material de origen; Se hac
+[2026-10-06T02:38:58.988Z]   ✗ tarma: rechazada tras corrección: La ficha describe la ciudad de Tarma con detalles que no están presentes en el material de origen, como su posición geográfica dentro de la zona andina del departamento de Junín, su crecimiento sosten
+[2026-10-06T02:44:16.203Z]   ✓ juanjui (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-06T02:45:38.496Z]   ✗ loreto: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 521 (line 3 column 400)
+[2026-10-06T02:48:21.525Z]   ✓ rupa-rupa (Perú) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T02:52:26.651Z]   ✗ altagracia-de-orituco: rechazada tras corrección: La ficha menciona la 'Virgen de Altagracia' sin que la fuente la mencione; La ficha describe la infraestructura de la ciudad sin que la fuente la mencione; La ficha describe la función de la ciudad co
+[2026-10-06T02:55:24.091Z]   ✗ simojovel: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-10-06T03:01:10.548Z]   ✗ bolivar-estado-barinas: rechazada tras corrección: La ficha dice que 'la influencia de Simón Bolívar marcó el rumbo de varios países sudamericanos', 'consolidando su legado como uno de los principales artífices de la independencia en la región', 'Vene
+[2026-10-06T03:07:19.131Z]   ✗ valmore-rodriguez: rechazada tras corrección: Afirma que Valmore Rodríguez es un municipio en la provincia de Zulia, dato no presente en el material de origen.; Indica que el municipio lleva el nombre del periodista, información que tampoco apare
+[2026-10-06T03:18:34.545Z]   ✓ 9-de-julio (Argentina) — escribió OpenRouter, verificó Groq
+[2026-10-06T03:19:35.514Z]   ✗ tizimin: fraseo calcado de uman: "cabecera del municipio homonimo segun el censo"
+[2026-10-06T03:24:59.399Z]   ✗ san-miguel-ixtahuacan: rechazada tras corrección: La ficha proporciona información adicional no respaldada por el material de origen, como la explicación de las distancias en kilómetros y la descripción de la ubicación dentro del contexto departament
+[2026-10-06T03:30:10.172Z]   ✓ taxco-de-alarcon (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-06T03:34:16.841Z]   ✓ canar (Ecuador) — escribió NVIDIA, verificó Groq
+[2026-10-06T03:41:37.279Z]   ✗ mi-peru-: rechazada tras corrección: La ficha menciona la población de 52 102 habitantes, pero el material de origen no proporciona esta información.; La ficha menciona la costa peruana, pero el material de origen no menciona la costa pe
+[2026-10-06T03:46:19.338Z]   ✗ huamantla: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T03:47:18.710Z]   ✗ uriangato: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 687 (line 3 column 556)
+[2026-10-06T03:48:55.276Z]   ✗ nenton: rechazada tras corrección: Se menciona que Nentón está en la frontera con México, pero la fuente solo menciona que limita con México al norte y oeste, no que esté en la frontera.; Se menciona que la Ciudad de Guatemala está a 3
+[2026-10-06T03:50:57.800Z]   ✗ cutervo: fraseo calcado de patzun: "el nivel del mar lo que le"
+[2026-10-06T03:59:16.645Z]   ✗ atacames: rechazada tras corrección: Uso de imperativo de folleto prohibido al inicio ('Conoce Atacames'); Uso de muletilla de IA prohibida ('un sinnúmero de')
+[2026-10-06T04:03:50.253Z]   ✗ pijijiapan: fraseo calcado de santiago-pinotepa-nacional: "de la superficie total del estado y"
+[2026-10-06T04:05:16.066Z]   ✓ calpulalpan (México) — escribió Groq, verificó NVIDIA
+[2026-10-06T04:06:32.448Z]   ✗ tucuru: fraseo calcado de senahu: "es un municipio del departamento de alta"
+[2026-10-06T04:12:18.141Z]   ✓ humacao (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-06T04:17:36.518Z]   ✗ atzalan: rechazada tras corrección: La ficha describe la función de Atzalan como cabecera municipal y su relación con la zona metropolitana de Altotonga, lo que no está respaldado por el material de origen. También describe la dinámica 
+[2026-10-06T04:19:12.563Z]   ✓ tekax (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T04:22:56.105Z]   ✗ sechura: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 430 (line 3 column 296)
+[2026-10-06T04:25:55.167Z]   ✗ la-concordia-mexico: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 276 (line 3 column 143)
+[2026-10-06T04:31:46.272Z]   ✓ pucarani (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-06T04:35:31.453Z]   ✗ boaco: rechazada tras corrección: La ficha describe la arquitectura de Boaco y su sobrenombre 'Ciudad de Dos Pisos' de manera más detallada que el material de origen.; La ficha menciona que la localidad 'concentra las funciones admini
+[2026-10-06T04:40:22.166Z]   ✓ gualan (Guatemala) — escribió NVIDIA, verificó OpenRouter
+[2026-10-06T04:46:03.218Z]   ✓ jerecuaro (México) — escribió NVIDIA, verificó Groq
+[2026-10-06T04:49:45.277Z]   ✓ mulukuku (Nicaragua) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T04:55:15.984Z]   ✗ villa-hayes: rechazada tras corrección: La ficha describe la ubicación geográfica de Villa Hayes como 'en el centro del país', lo que no se menciona en el material de origen.; La ficha describe la industria metalúrgica en la zona, lo que no
+[2026-10-06T05:04:55.811Z]   ✗ santiago-papasquiaro: rechazada tras corrección: La ficha menciona Wikipedia como fuente, pero no está claro que la información provenga de allí; La información se repite innecesariamente, lo que puede ser considerado un problema de estilo, pero no 
+[2026-10-06T05:07:28.803Z]   ✓ cintalapa-de-figueroa (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T05:14:39.378Z]   ✓ samaniego (Colombia) — escribió Groq, verificó OpenRouter
+[2026-10-06T05:17:59.782Z]   ✓ apizaco (México) — escribió Groq, verificó NVIDIA
+[2026-10-06T05:20:45.279Z]   ✗ sanare: fraseo calcado de calpulalpan: "el nivel del mar en las estribaciones"
+[2026-10-06T05:23:53.469Z]   ✓ angol (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-06T05:30:31.201Z]   ✗ mezquital: rechazada tras corrección: La ficha describe la vida cotidiana y las costumbres de los habitantes, lo que no se encuentra en la fuente.; La ficha menciona el uso del tepehuán en eventos comunitarios y el ámbito familiar, lo que
+[2026-10-06T05:35:29.565Z]   ✓ masagua (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-10-06T05:42:20.735Z]   ✗ bejuma: fraseo calcado de tocuyito: "en el estado carabobo dentro de la"
+[2026-10-06T05:45:36.323Z]   ✗ cuartel-v: rechazada tras corrección: La ficha describe la sala de chat de la localidad, lo que no tiene fuente. Se menciona que es un 'punto de referencia dentro de la región', lo que es una interpretación no respaldada por la fuente. Ta
+[2026-10-06T05:51:00.043Z]   ✗ garcia-de-hevia: fraseo calcado de maravatio: "m sobre el nivel del mar el"
+[2026-10-06T05:59:28.345Z]   ✗ san-pedro-mixtepec-distrito-22: fraseo calcado de general-zuazua: "el municipio colinda al norte con los"
+[2026-10-06T06:00:33.573Z]   ✗ carrillo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-06T06:06:18.881Z]   ✓ san-pedro-pochutla (México) — escribió NVIDIA, verificó Groq
+[2026-10-06T06:07:51.751Z]   ✗ tenejapa: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 245 (line 3 column 114)
+[2026-10-06T06:12:23.841Z]   ✗ general-villamil: fraseo calcado de quininde: "es una ciudad ecuatoriana ubicada en la"
+[2026-10-06T06:13:49.876Z]   ✓ el-tambo-colombia (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-06T06:16:08.151Z]   ✗ quimistan: rechazada tras corrección: Se menciona que Quimistán es el municipio con más residentes, pero no se proporciona una cifra exacta en la fuente original; Se repite la información sobre la población de Quimistán de manera innecesa
+[2026-10-06T06:19:38.705Z]   ✗ cuetzalan-del-progreso: controles de calidad: muletillas de IA: una experiencia unica; intro/meta de 76 caracteres (debe estar entre 110 y 160)
+[2026-10-06T06:21:30.556Z]   ✗ tacotalpa: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 347 (line 3 column 229)
+[2026-10-06T06:26:29.097Z]   ✓ ocosingo (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-06T06:29:06.754Z]   ✗ chaclacayo: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 764 (line 3 column 652)
+[2026-10-06T06:29:55.391Z]   ✓ longchamps (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-06T06:33:16.113Z]   ✗ del-nayar: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T06:38:42.577Z]   ✓ puerto-lempira (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-06T06:41:12.353Z]   ✗ buenavista-tomatlan: fraseo calcado de san-jose-villa-de-allende: "es una localidad mexicana situada en el"
+[2026-10-06T06:42:35.411Z]   ✗ chenalho: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 419 (line 3 column 294)
+[2026-10-06T06:43:41.556Z]   ✗ jobabo: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 395 (line 3 column 265)
+[2026-10-06T06:50:49.364Z]   ✓ zinapecuaro (México) — escribió NVIDIA, verificó OpenRouter
+[2026-10-06T06:53:37.894Z]   ✓ trojes (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-06T06:55:49.230Z]   ✗ mataquescuintla: rechazada tras corrección: La ficha describe la organización territorial del municipio y su administración local, lo que no se menciona en el material de origen.; La ficha habla de la ubicación geográfica y la combinación de ár
+[2026-10-06T06:57:06.291Z]   ✗ achacachi: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 780 (line 3 column 568)
+[2026-10-06T07:01:17.618Z]   ✓ cunen (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T07:03:56.496Z]   ✗ waspan: rechazada tras corrección: El texto dice que Waspán es el municipio más grande de Nicaragua y Centroamérica, pero no menciona que sea el de mayor extensión en Centroamérica; La fuente no menciona que la lengua misquita sea la m
+[2026-10-06T07:04:18.736Z]   ✗ departamento-lavalle: es una división administrativa, no una localidad
+[2026-10-06T07:09:56.574Z]   ✓ cabo-rojo (Puerto Rico) — escribió NVIDIA, verificó Gemini
+[2026-10-06T07:14:59.120Z]   ✓ quesada-costa-rica (Costa Rica) — escribió Groq, verificó NVIDIA
+[2026-10-06T07:19:48.763Z]   ✗ cuilapa: rechazada tras corrección: La ficha menciona que Cuilapa se sitúa en el extremo sureste del territorio nacional, lo que no se menciona en la fuente. También se menciona que la ubicación de Cuilapa le confiere una relevancia geo
+[2026-10-06T07:23:57.687Z]   ✗ cojutepeque: controles de calidad: intro/meta de 209 caracteres (debe estar entre 110 y 160)
+[2026-10-06T07:24:44.505Z]   ✗ yecapixtla: fraseo calcado de chulucanas-peru: "sobre el nivel del mar segun el"
+[2026-10-06T07:29:06.883Z]   ✗ buena-fe: fraseo calcado de quininde: "es una ciudad ecuatoriana ubicada en la"
+[2026-10-06T07:34:40.921Z]   ✗ monte-plata: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-06T07:36:28.764Z]   ✗ puerto-villarroel: rechazada tras corrección: La ficha describe a la gente de la sala de chat, lo cual no está respaldado por la fuente.; La ficha repite información y agrega detalles que no están presentes en la fuente, como 'la presencia predom
+[2026-10-06T07:36:49.896Z]   ✗ departamento-junin: es una división administrativa, no una localidad
+[2026-10-06T07:37:53.472Z]   ✓ juana-diaz (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-06T07:41:59.272Z]   ✗ pabellon-de-arteaga: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-06T07:46:03.967Z]   ✗ asientos: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T07:52:52.668Z]   ✗ la-independencia: controles de calidad: muletillas de IA: gran variedad de
+[2026-10-06T08:05:37.148Z]   ✓ independencia-chiapas (México) — escribió Groq, verificó Gemini
+[2026-10-06T08:10:05.972Z]   ✓ ayutla (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-06T08:18:20.421Z]   ✓ coto-brus (Costa Rica) — escribió Gemini, verificó Groq
+[2026-10-06T08:27:50.209Z]   ✓ eloy-alfaro (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-06T08:32:58.349Z]   ✗ genova: controles de calidad: aboutTitle de 75 caracteres (debe estar entre 25 y 70)
+[2026-10-06T08:35:45.016Z]   ✗ achocalla: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T08:37:01.507Z]   ✗ penco: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1099 (line 3 column 989)
+[2026-10-06T08:41:12.194Z]   ✓ sumpango (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-06T08:51:03.996Z]   ✗ villa-montes: rechazada tras corrección: Se afirma que la ciudad se asienta 'en la margen occidental' del río Pilcomayo y que la quebrada Caiguamí la cruza 'de oeste a este', aportando datos de orientación geográfica que no figuran en el tex
+[2026-10-06T09:03:45.466Z]   ✓ ilave (Perú) — escribió Groq, verificó Gemini
+[2026-10-06T09:05:08.074Z]   ✓ calera (México) — escribió Groq, verificó NVIDIA
+[2026-10-06T09:06:56.553Z]   ✓ la-tinta (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-06T09:13:36.736Z]   ✗ chepen: fraseo calcado de huaral: "capital del distrito y de la provincia"
+[2026-10-06T09:20:02.816Z]   ✓ santa-maria-huatulco (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-06T09:21:31.949Z]   ✓ marcovia (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-06T09:26:11.062Z]   ✓ la-asunta (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-06T09:30:39.795Z]   ✓ nueva-gerona (Cuba) — escribió NVIDIA, verificó Gemini
+[2026-10-06T09:36:02.633Z]   ✓ guachochi (México) — escribió NVIDIA, verificó Gemini
+[2026-10-06T09:41:10.779Z]   ✓ general-alvarado (Argentina) — escribió NVIDIA, verificó Gemini
+[2026-10-06T09:43:03.636Z]   ✗ tlaxco: fraseo calcado de banda-de-shilcayo: "sobre el nivel del mar y limita"
+[2026-10-06T09:47:31.356Z]   ✓ parras (México) — escribió NVIDIA, verificó Gemini
+[2026-10-06T09:52:08.818Z]   ✗ jipijapa: controles de calidad: la intro empieza con un imperativo de folleto
+[2026-10-06T09:55:15.376Z]   ✗ zinacantan: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 277 (line 3 column 173)
+[2026-10-06T09:58:41.486Z]   ✗ el-negrito: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T10:00:33.754Z]   ✗ matina: fraseo calcado de chulucanas-peru: "sobre el nivel del mar segun el"
+[2026-10-06T10:05:25.639Z]   ✗ vallenar: rechazada tras corrección: La ficha afirma que O’Higgins ordenó trazar la villa el 5 de enero de 1789 "bajo el nombre de San Ambrosio de Vallenar", pero la fuente indica que el nombre oficial San Ambrosio de Vallenar se adoptó 
+[2026-10-06T10:15:29.902Z]   ✗ baba: rechazada tras corrección: El texto menciona 'Nuestra Alcaldesa' como la alcaldesa actual, pero no se proporciona el nombre de la alcaldesa en el material de origen.; El texto menciona que el Vicealcalde, Patricio Almache, fue 
+[2026-10-06T10:17:58.336Z]   ✓ libertador-venezuela (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-06T10:21:58.364Z]   ✗ omoa: fraseo calcado de el-reten: "limita al norte y al sur con"
+[2026-10-06T10:26:35.282Z]   ✓ montemorelos (México) — escribió NVIDIA, verificó Gemini
+[2026-10-06T10:32:26.875Z]   ✓ rabinal (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-10-06T10:41:24.468Z]   ✗ san-francisco-menendez: rechazada tras corrección: La frase 'Como parte del municipio de Ahuachapán Sur, el distrito forma parte de la estructura administrativa del departamento de Ahuachapán, que agrupa a varios municipios y distritos en la zona occi
+[2026-10-06T10:46:25.490Z]   ✗ bolivar-colombia: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-06T10:47:22.316Z]   ✗ santiago-atitlan: fraseo calcado de santa-catarina-ixtahuacan: "un municipio del departamento de solola situado"
+[2026-10-06T10:48:06.052Z]   ✓ pedro-meoqui (México) — escribió Groq, verificó NVIDIA
+[2026-10-06T10:48:06.115Z] publicadas 50 salas · acumuladas 454 · quedan 2932 en cola
