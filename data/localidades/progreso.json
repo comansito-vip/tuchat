@@ -517,7 +517,57 @@
   "chicaman",
   "cumaribo",
   "tupiza",
-  "loma-bonita"
+  "loma-bonita",
+  "calkini",
+  "atacames",
+  "chaclacayo",
+  "jobabo",
+  "achacachi",
+  "cojutepeque",
+  "puerto-villarroel",
+  "pabellon-de-arteaga",
+  "achocalla",
+  "penco",
+  "zinacantan",
+  "baba",
+  "santiago-atitlan",
+  "cayambe",
+  "purisima-de-bustos",
+  "gonzalez",
+  "yepocapa",
+  "barranco-provincia-de-lima",
+  "elota",
+  "jimenez",
+  "tosagua",
+  "rocafuerte",
+  "sanarate",
+  "patulul",
+  "tome",
+  "juventino-rosas",
+  "morales-departamento-de-san-martin",
+  "concon",
+  "hopelchen",
+  "villa-bisono",
+  "mocache",
+  "nuevo-san-carlos",
+  "salas-departamento-de-ica",
+  "pajan",
+  "bolivar-provincia-de-manabi",
+  "bacalar",
+  "llallagua",
+  "pueblo-nuevo-colombia",
+  "suchiate",
+  "cayey",
+  "cerrillos-argentina",
+  "los-taques",
+  "ayotlan",
+  "san-blas",
+  "portales",
+  "tuchin",
+  "barbacoas",
+  "niquero",
+  "jiquipilas",
+  "imperial"
  ],
  "descartadas": [
   {
@@ -5819,6 +5869,306 @@
    "slug": "elota",
    "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
    "fecha": "2026-10-07"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "sicuani",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad combina su función de sede administrativa con la vida cotidiana de sus residentes, lo que no se encuentra en el material de origen.; La ficha describe la dinámica urban",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "tarma",
+   "razon": "rechazada tras corrección: Se menciona la abundancia de flora ornamental, pero no está en la fuente; Se menciona la diversidad de cultivos y actividades económicas, pero no está en la fuente; Se menciona la historia de Tarma, p",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "mi-peru-",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "cutervo",
+   "razon": "rechazada tras corrección: La zona alta de la sierra peruana; La posición geográfica de Cutervo la coloca dentro de la zona andina norteña del Perú; Como capital provincial, la ciudad concentra la administración local correspon",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "sechura",
+   "razon": "rechazada tras corrección: La ficha menciona que la sede del gobierno local se encuentra en la misma población y que concentra los servicios administrativos de la zona, lo que no está respaldado por el material de origen.",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "bejuma",
+   "razon": "rechazada tras corrección: La ficha describe la vegetación y el relieve de los Valles Altos de Carabobo, lo que no está explícitamente mencionado en el material de origen como una característica de Bejuma específicamente, sino ",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-pedro-mixtepec-distrito-22",
+   "razon": "fraseo calcado de maravatio: \"m sobre el nivel del mar el\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "carrillo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "tenejapa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "quimistan",
+   "razon": "rechazada tras corrección: Invención de datos sobre administración municipal, marco jurídico, gobierno departamental, agricultura, comercio local, vida comunitaria y proyectos de desarrollo local que no aparecen en el material ",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "cuetzalan-del-progreso",
+   "razon": "rechazada tras corrección: El término Cuetzalan proviene del náhuatl y hace referencia a las aves que habitaban las zonas bajas del municipio, donde la temperatura es más alta.; El municipio se ubica en la zona nor‑oriente del ",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "del-nayar",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 110 (line 1 column 111)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "chenalho",
+   "razon": "fraseo calcado de cintalapa: \"es uno de los 124 municipios que\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "mataquescuintla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "waspan",
+   "razon": "rechazada tras corrección: La ficha menciona 'Waspón' en lugar de 'Waspán', que es el nombre correcto según el material de origen.; La ficha afirma que la población del municipio 'continúan utilizando su lengua autóctona en la ",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "departamento-lavalle",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "cuilapa",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 130 (line 2 column 96)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "yecapixtla",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "monte-plata",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "departamento-junin",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "villa-montes",
+   "razon": "fraseo calcado de patzun: \"el nivel del mar lo que le\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "chepen",
+   "razon": "rechazada tras corrección: La ficha describe la importancia de la producción de arroz en la región y su impacto en la economía local, lo que no se menciona en la fuente original.; Se menciona que la ciudad concentra servicios p",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-francisco-menendez",
+   "razon": "rechazada tras corrección: Se menciona la 'región occidental de El Salvador', que no se encuentra en el material de origen; Se menciona la 'diversidad poblacional y cultural de la zona', que no se encuentra en el material de or",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "colotenango",
+   "razon": "fraseo calcado de san-ildefonso-ixtahuacan: \"un municipio del departamento de huehuetenango en\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "granadero-baigorria",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-juan-y-martinez",
+   "razon": "rechazada tras corrección: La ficha menciona que la vida cotidiana de los habitantes está centrada en torno a las plantaciones y a la cadena productiva del tabaco, lo que no se encuentra en el material de origen.",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "arena",
+   "razon": "fraseo calcado de union: \"la provincia de piura en el norte\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "ojocaliente",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación de Ojocaliente de manera excesiva y repetitiva, lo que puede considerarse un relleno inventado; La frase 'Esta posición geográfica la sitúa en la zona sureña del estado,",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "departamento-caucete",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "artigas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "acaxochitlan",
+   "razon": "fraseo calcado de ciudad-acuna: \"cabecera del municipio homonimo situada en el\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "hueyapan-de-ocampo",
+   "razon": "fraseo calcado de tihuatlan: \"es un municipio del estado de veracruz\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "el-asintal",
+   "razon": "fraseo calcado de coatepeque: \"es un municipio situado en el departamento\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "lota",
+   "razon": "rechazada tras corrección: El texto menciona que Lota celebra sus tradiciones con eventos como el Mes de la Patria y el rally, lo que implica que estos eventos son tradiciones de la localidad. Sin embargo, el material de origen",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "sonaguera",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 94 (line 2 column 60)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "comalcalco",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "jatibonico",
+   "razon": "rechazada tras corrección: La ficha menciona que Jatibonico se encuentra en la Provincia de Sancti Spíritus, pero la fuente no proporciona esta información y menciona que pertenecía a la antigua provincia de Camagüey. Además, l",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-cristobal-totonicapan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "bolivar-venezuela",
+   "razon": "fraseo calcado de bolivar-colombia: \"la economia de bolivar se basa en\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "el-charco",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 582 (line 3 column 461)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "nieva",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "pillaro",
+   "razon": "rechazada tras corrección: El material de origen no menciona que la cabecera, Santiago de Píllaro, concentra la mayor parte de la población.; El material de origen no menciona que el periodo 2023-2027 está dedicado a impulsar p",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "andahuaylas",
+   "razon": "rechazada tras corrección: La ficha menciona que la población de Andahuaylas se concentra en el centro urbano, donde se encuentran los principales servicios públicos, como la municipalidad, centros de salud y establecimientos e",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "jinotepe",
+   "razon": "rechazada tras corrección: Se inventa que es el principal centro administrativo de la zona; Se inventa que está situada en el centro sur del país; Se inventa que se asienta en una zona de transición entre la llanura del Pacífic",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "coyuca-de-catalan",
+   "razon": "rechazada tras corrección: La ficha describe la región de Tierra Caliente como 'caracterizada por condiciones climáticas cálidas', lo que no se menciona en el material de origen.; La ficha describe la ciudad como 'parte del pai",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "tactic",
+   "razon": "controles de calidad: aboutTitle de 21 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "velasco-ibarra",
+   "razon": "fraseo calcado de montecristi: \"funcionando como ciudad dormitorio para miles de\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "otavalo",
+   "razon": "fraseo calcado de quininde: \"un importante centro administrativo economico financiero y\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "teupasenti",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 314 (line 3 column 140)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "huamachuco",
+   "razon": "fraseo calcado de huanchaco: \"en el departamento de la libertad segun\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-pedro-necta",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 362 (line 6 column 3)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "ventanas",
+   "razon": "fraseo calcado de quininde: \"es una ciudad ecuatoriana ubicada en la\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "el-tocuyo",
+   "razon": "rechazada tras corrección: La ficha menciona que la ubicación estratégica de El Tocuyo la convirtió en punto de partida para la expansión del dominio español en la región, y su legado histórico se refleja en la arquitectura col",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "departamento-tupungato",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "rio-tambo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ':' after property name in JSON at position 1387 (line 4 column 585)",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "matiguas",
+   "razon": "fraseo calcado de tucuru: \"es un municipio que forma parte del\"",
+   "fecha": "2026-10-08"
+  },
+  {
+   "slug": "chambas",
+   "razon": "fraseo calcado de municipio-de-la-paz: \"lo convierte en el segundo municipio mas\"",
+   "fecha": "2026-10-08"
   }
  ]
 }

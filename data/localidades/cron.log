@@ -2430,3 +2430,116 @@ Groq: HT
 [2026-10-07T08:03:47.957Z]   ✗ elota: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
 [2026-10-07T08:12:30.837Z]   ✓ loma-bonita (México) — escribió NVIDIA, verificó Gemini
 [2026-10-07T08:12:30.971Z] publicadas 50 salas · acumuladas 504 · quedan 2870 en cola
+[2026-10-08T01:30:05.798Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-08T01:30:05.811Z] cola: 2857 · lote de hoy: 50
+[2026-10-08T01:30:06.729Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-08T01:30:28.501Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-08T01:32:21.743Z]   ✓ calkini (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T01:33:46.938Z]   ✗ sicuani: rechazada tras corrección: La ficha menciona que la ciudad combina su función de sede administrativa con la vida cotidiana de sus residentes, lo que no se encuentra en el material de origen.; La ficha describe la dinámica urban
+[2026-10-08T01:34:07.923Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-08T01:36:03.290Z]   ✗ tarma: rechazada tras corrección: Se menciona la abundancia de flora ornamental, pero no está en la fuente; Se menciona la diversidad de cultivos y actividades económicas, pero no está en la fuente; Se menciona la historia de Tarma, p
+[2026-10-08T01:37:50.714Z]   ✗ mi-peru-: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-08T01:40:17.005Z]   ✗ cutervo: rechazada tras corrección: La zona alta de la sierra peruana; La posición geográfica de Cutervo la coloca dentro de la zona andina norteña del Perú; Como capital provincial, la ciudad concentra la administración local correspon
+[2026-10-08T01:43:32.502Z]   ✓ atacames (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-08T01:51:06.305Z]   ✗ sechura: rechazada tras corrección: La ficha menciona que la sede del gobierno local se encuentra en la misma población y que concentra los servicios administrativos de la zona, lo que no está respaldado por el material de origen.
+[2026-10-08T01:54:43.134Z]   ✗ bejuma: rechazada tras corrección: La ficha describe la vegetación y el relieve de los Valles Altos de Carabobo, lo que no está explícitamente mencionado en el material de origen como una característica de Bejuma específicamente, sino 
+[2026-10-08T01:56:32.922Z]   ✗ san-pedro-mixtepec-distrito-22: fraseo calcado de maravatio: "m sobre el nivel del mar el"
+[2026-10-08T02:03:31.505Z]   ✗ carrillo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-08T02:11:04.599Z]   ✗ tenejapa: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-08T02:22:41.751Z]   ✗ quimistan: rechazada tras corrección: Invención de datos sobre administración municipal, marco jurídico, gobierno departamental, agricultura, comercio local, vida comunitaria y proyectos de desarrollo local que no aparecen en el material 
+[2026-10-08T02:30:10.179Z]   ✗ cuetzalan-del-progreso: rechazada tras corrección: El término Cuetzalan proviene del náhuatl y hace referencia a las aves que habitaban las zonas bajas del municipio, donde la temperatura es más alta.; El municipio se ubica en la zona nor‑oriente del 
+[2026-10-08T02:31:12.153Z]   ✓ chaclacayo (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-08T02:33:31.754Z]   ✗ del-nayar: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 110 (line 1 column 111)
+[2026-10-08T02:35:29.346Z]   ✗ chenalho: fraseo calcado de cintalapa: "es uno de los 124 municipios que"
+[2026-10-08T02:37:23.960Z]   ✓ jobabo (Cuba) — escribió Groq, verificó NVIDIA
+[2026-10-08T02:40:43.326Z]   ✗ mataquescuintla: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-08T02:43:43.094Z]   ✓ achacachi (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-08T02:51:48.492Z]   ✗ waspan: rechazada tras corrección: La ficha menciona 'Waspón' en lugar de 'Waspán', que es el nombre correcto según el material de origen.; La ficha afirma que la población del municipio 'continúan utilizando su lengua autóctona en la 
+[2026-10-08T02:52:09.513Z]   ✗ departamento-lavalle: es una división administrativa, no una localidad
+[2026-10-08T02:53:46.805Z]   ✗ cuilapa: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 130 (line 2 column 96)
+[2026-10-08T02:54:42.102Z]   ✓ cojutepeque (El Salvador) — escribió Groq, verificó NVIDIA
+[2026-10-08T02:55:36.908Z]   ✗ yecapixtla: fraseo calcado de chulucanas-peru: "sobre el nivel del mar segun el"
+[2026-10-08T02:56:54.657Z]   ✗ monte-plata: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-08T03:05:19.023Z]   ✓ puerto-villarroel (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:05:40.504Z]   ✗ departamento-junin: es una división administrativa, no una localidad
+[2026-10-08T03:15:04.702Z]   ✓ pabellon-de-arteaga (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:23:37.773Z]   ✓ achocalla (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:26:47.893Z]   ✓ penco (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:34:17.734Z]   ✗ villa-montes: fraseo calcado de patzun: "el nivel del mar lo que le"
+[2026-10-08T03:38:44.577Z]   ✗ chepen: rechazada tras corrección: La ficha describe la importancia de la producción de arroz en la región y su impacto en la economía local, lo que no se menciona en la fuente original.; Se menciona que la ciudad concentra servicios p
+[2026-10-08T03:40:18.743Z]   ✓ zinacantan (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:41:44.835Z]   ✓ baba (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:46:30.654Z]   ✗ san-francisco-menendez: rechazada tras corrección: Se menciona la 'región occidental de El Salvador', que no se encuentra en el material de origen; Se menciona la 'diversidad poblacional y cultural de la zona', que no se encuentra en el material de or
+[2026-10-08T03:48:08.771Z]   ✓ santiago-atitlan (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-08T03:55:37.590Z]   ✗ colotenango: fraseo calcado de san-ildefonso-ixtahuacan: "un municipio del departamento de huehuetenango en"
+[2026-10-08T04:02:21.842Z]   ✓ cayambe (Ecuador) — escribió Groq, verificó OpenRouter
+[2026-10-08T04:03:32.730Z]   ✗ granadero-baigorria: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-08T04:09:49.064Z]   ✗ san-juan-y-martinez: rechazada tras corrección: La ficha menciona que la vida cotidiana de los habitantes está centrada en torno a las plantaciones y a la cadena productiva del tabaco, lo que no se encuentra en el material de origen.
+[2026-10-08T04:13:10.501Z]   ✗ arena: fraseo calcado de union: "la provincia de piura en el norte"
+[2026-10-08T04:19:22.370Z]   ✗ ojocaliente: rechazada tras corrección: La ficha describe la ubicación de Ojocaliente de manera excesiva y repetitiva, lo que puede considerarse un relleno inventado; La frase 'Esta posición geográfica la sitúa en la zona sureña del estado,
+[2026-10-08T04:19:43.284Z]   ✗ departamento-caucete: es una división administrativa, no una localidad
+[2026-10-08T04:27:00.497Z]   ✗ artigas: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-08T04:36:31.728Z]   ✗ acaxochitlan: fraseo calcado de ciudad-acuna: "cabecera del municipio homonimo situada en el"
+[2026-10-08T04:46:10.681Z]   ✓ purisima-de-bustos (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T04:51:07.888Z]   ✓ gonzalez (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-08T04:54:01.523Z]   ✗ hueyapan-de-ocampo: fraseo calcado de tihuatlan: "es un municipio del estado de veracruz"
+[2026-10-08T05:07:07.374Z]   ✗ el-asintal: fraseo calcado de coatepeque: "es un municipio situado en el departamento"
+[2026-10-08T05:10:39.448Z]   ✗ lota: rechazada tras corrección: El texto menciona que Lota celebra sus tradiciones con eventos como el Mes de la Patria y el rally, lo que implica que estos eventos son tradiciones de la localidad. Sin embargo, el material de origen
+[2026-10-08T05:14:16.563Z]   ✗ sonaguera: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 94 (line 2 column 60)
+[2026-10-08T05:21:14.017Z]   ✗ comalcalco: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-08T05:24:24.662Z]   ✓ yepocapa (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-08T05:26:10.032Z]   ✓ barranco-provincia-de-lima (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-08T05:28:30.002Z]   ✗ jatibonico: rechazada tras corrección: La ficha menciona que Jatibonico se encuentra en la Provincia de Sancti Spíritus, pero la fuente no proporciona esta información y menciona que pertenecía a la antigua provincia de Camagüey. Además, l
+[2026-10-08T05:36:24.832Z]   ✗ san-cristobal-totonicapan: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-08T05:40:41.016Z]   ✓ elota (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-08T05:43:04.490Z]   ✓ jimenez (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T05:46:38.759Z]   ✓ tosagua (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-08T05:48:33.373Z]   ✓ rocafuerte (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-08T05:54:06.850Z]   ✗ bolivar-venezuela: fraseo calcado de bolivar-colombia: "la economia de bolivar se basa en"
+[2026-10-08T05:57:42.563Z]   ✗ el-charco: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 582 (line 3 column 461)
+[2026-10-08T05:58:17.246Z]   ✗ nieva: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-08T06:00:51.595Z]   ✗ pillaro: rechazada tras corrección: El material de origen no menciona que la cabecera, Santiago de Píllaro, concentra la mayor parte de la población.; El material de origen no menciona que el periodo 2023-2027 está dedicado a impulsar p
+[2026-10-08T06:10:08.059Z]   ✓ sanarate (Guatemala) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-10-08T06:15:57.132Z]   ✓ patulul (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-08T06:22:33.101Z]   ✓ tome (Chile) — escribió Groq, verificó OpenRouter
+[2026-10-08T06:26:03.865Z]   ✗ andahuaylas: rechazada tras corrección: La ficha menciona que la población de Andahuaylas se concentra en el centro urbano, donde se encuentran los principales servicios públicos, como la municipalidad, centros de salud y establecimientos e
+[2026-10-08T06:31:55.554Z]   ✓ juventino-rosas (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T06:37:22.399Z]   ✓ morales-departamento-de-san-martin (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-08T06:40:41.279Z]   ✓ concon (Chile) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-08T06:42:29.204Z]   ✓ hopelchen (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T06:52:34.062Z]   ✗ jinotepe: rechazada tras corrección: Se inventa que es el principal centro administrativo de la zona; Se inventa que está situada en el centro sur del país; Se inventa que se asienta en una zona de transición entre la llanura del Pacífic
+[2026-10-08T06:57:04.047Z]   ✓ villa-bisono (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-08T07:01:00.896Z]   ✗ coyuca-de-catalan: rechazada tras corrección: La ficha describe la región de Tierra Caliente como 'caracterizada por condiciones climáticas cálidas', lo que no se menciona en el material de origen.; La ficha describe la ciudad como 'parte del pai
+[2026-10-08T07:03:33.846Z]   ✓ mocache (Ecuador) — escribió NVIDIA, verificó Groq
+[2026-10-08T07:09:48.122Z]   ✓ nuevo-san-carlos (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-08T07:14:48.734Z]   ✗ tactic: controles de calidad: aboutTitle de 21 caracteres (debe estar entre 25 y 70)
+[2026-10-08T07:18:53.169Z]   ✓ salas-departamento-de-ica (Perú) — escribió NVIDIA, verificó Groq
+[2026-10-08T07:25:18.065Z]   ✓ pajan (Ecuador) — escribió NVIDIA, verificó Gemini
+[2026-10-08T07:32:00.368Z]   ✓ bolivar-provincia-de-manabi (Ecuador) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-08T07:33:59.916Z]   ✗ velasco-ibarra: fraseo calcado de montecristi: "funcionando como ciudad dormitorio para miles de"
+[2026-10-08T07:37:08.833Z]   ✓ bacalar (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T07:41:26.172Z]   ✗ otavalo: fraseo calcado de quininde: "un importante centro administrativo economico financiero y"
+[2026-10-08T07:45:52.072Z]   ✓ llallagua (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-08T07:50:34.707Z]   ✓ pueblo-nuevo-colombia (Colombia) — escribió NVIDIA, verificó Gemini
+[2026-10-08T07:51:49.170Z]   ✗ teupasenti: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 314 (line 3 column 140)
+[2026-10-08T07:58:32.301Z]   ✓ suchiate (México) — escribió NVIDIA, verificó Gemini
+[2026-10-08T07:59:41.624Z]   ✓ cayey (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:06:01.334Z]   ✓ cerrillos-argentina (Argentina) — escribió NVIDIA, verificó Gemini
+[2026-10-08T08:11:56.774Z]   ✗ huamachuco: fraseo calcado de huanchaco: "en el departamento de la libertad segun"
+[2026-10-08T08:12:45.773Z]   ✓ los-taques (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:13:30.657Z]   ✗ san-pedro-necta: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 362 (line 6 column 3)
+[2026-10-08T08:15:41.197Z]   ✓ ayotlan (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-10-08T08:23:45.291Z]   ✗ ventanas: fraseo calcado de quininde: "es una ciudad ecuatoriana ubicada en la"
+[2026-10-08T08:25:36.052Z]   ✓ san-blas (México) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:26:49.425Z]   ✓ portales (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:28:30.602Z]   ✓ tuchin (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:36:02.824Z]   ✗ el-tocuyo: rechazada tras corrección: La ficha menciona que la ubicación estratégica de El Tocuyo la convirtió en punto de partida para la expansión del dominio español en la región, y su legado histórico se refleja en la arquitectura col
+[2026-10-08T08:39:29.406Z]   ✓ barbacoas (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:39:50.721Z]   ✗ departamento-tupungato: es una división administrativa, no una localidad
+[2026-10-08T08:40:27.812Z]   ✓ niquero (Cuba) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:40:54.011Z]   ✗ rio-tambo: No se pudo extraer JSON de la respuesta del LLM: Expected ':' after property name in JSON at position 1387 (line 4 column 585)
+[2026-10-08T08:47:28.894Z]   ✗ matiguas: fraseo calcado de tucuru: "es un municipio que forma parte del"
+[2026-10-08T08:54:57.520Z]   ✓ jiquipilas (México) — escribió NVIDIA, verificó Gemini
+[2026-10-08T08:57:07.146Z]   ✗ chambas: fraseo calcado de municipio-de-la-paz: "lo convierte en el segundo municipio mas"
+[2026-10-08T08:59:37.125Z]   ✓ imperial (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-08T08:59:37.197Z] publicadas 50 salas · acumuladas 554 · quedan 2807 en cola
