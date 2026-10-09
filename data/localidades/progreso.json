@@ -567,7 +567,57 @@
   "barbacoas",
   "niquero",
   "jiquipilas",
-  "imperial"
+  "imperial",
+  "tenejapa",
+  "monte-plata",
+  "granadero-baigorria",
+  "bolivar-venezuela",
+  "tactic",
+  "velasco-ibarra",
+  "otavalo",
+  "teupasenti",
+  "rio-tambo",
+  "jose-mariano-jimenez",
+  "patzicia",
+  "huetamo",
+  "alto-baudo",
+  "parque-cousino",
+  "cauquenes",
+  "durazno",
+  "exaltacion-de-la-cruz",
+  "heroica-ciudad-de-tlaxiaco",
+  "huejutla-de-reyes",
+  "zacualpa",
+  "matias-romero",
+  "la-troncal",
+  "cordillera",
+  "parral",
+  "placilla-de-penuelas",
+  "naranjal",
+  "nueva-santa-rosa",
+  "las-cruces",
+  "jose-maria-morelos",
+  "palmares",
+  "guerrero",
+  "chilchota",
+  "nuevitas",
+  "melchor-muzquiz",
+  "la-mata-republica-dominicana",
+  "empalme",
+  "la-arena",
+  "bolivar-monagas",
+  "contla-de-juan-cuamatzi",
+  "itakyry",
+  "santos-michelena",
+  "achaguas",
+  "hatillo-pr",
+  "caibarien",
+  "zacatelco",
+  "funes",
+  "ciudad-del-plata",
+  "aguada",
+  "heroica-ciudad-de-cananea",
+  "copan-ruinas"
  ],
  "descartadas": [
   {
@@ -6169,6 +6219,356 @@
    "slug": "chambas",
    "razon": "fraseo calcado de municipio-de-la-paz: \"lo convierte en el segundo municipio mas\"",
    "fecha": "2026-10-08"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "sicuani",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación geográfica de Sicuani como 'en la región sur del país' y 'en la zona sur del Perú', lo que no se encuentra en el material de origen. Además, se describe el papel de la c",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "sechura",
+   "razon": "rechazada tras corrección: Se describe a la ciudad como 'capital regional del arte y la cultura del norte peruano', cuando la fuente solo menciona que es 'Capital regional del arte y la cultura' sin especificar la región; Se me",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cuetzalan-del-progreso",
+   "razon": "rechazada tras corrección: La ficha menciona que la designación como Pueblo Mágico 'ha aumentado su visibilidad a nivel nacional', lo que no se menciona en el material de origen.; La ficha describe el clima y la geografía del m",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "del-nayar",
+   "razon": "rechazada tras corrección: La ficha agrega información no presente en la fuente, como la descripción detallada de la ubicación y la importancia del municipio, así como la mención a la diversidad de ecosistemas y el patrimonio n",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "chenalho",
+   "razon": "fraseo calcado de cintalapa: \"es uno de los 124 municipios que\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "mataquescuintla",
+   "razon": "rechazada tras corrección: La ficha afirma que Mataquescuintla se sitúa entre los municipios más extensos dentro de la entidad departamental, lo que no está respaldado por la fuente.",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cuilapa",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación de Cuilapa de manera más detallada que la fuente original, pero no es una invención. Sin embargo, la frase 'En los documentos oficiales el municipio aparece identificado",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "colotenango",
+   "razon": "fraseo calcado de san-ildefonso-ixtahuacan: \"un municipio del departamento de huehuetenango en\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "san-juan-y-martinez",
+   "razon": "rechazada tras corrección: La actividad tabacalera caracteriza el paisaje y la economía local, y la zona es conocida por su producción de tabaco, elemento importante del sector agrícola cubano; La organización administrativa cu",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "arena",
+   "razon": "fraseo calcado de union: \"la provincia de piura en el norte\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "ojocaliente",
+   "razon": "rechazada tras corrección: La ficha menciona 'referencia regional', 'identidad territorial', 'zona central del estado', 'eje norte-sur del territorio estatal', 'gestión local', 'documentos y mapas oficiales' sin respaldo en la ",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "departamento-caucete",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "artigas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "acaxochitlan",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "hueyapan-de-ocampo",
+   "razon": "fraseo calcado de centla: \"en la epoca prehispanica la zona estuvo\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "el-asintal",
+   "razon": "fraseo calcado de tucuru: \"es un municipio que forma parte del\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "lota",
+   "razon": "rechazada tras corrección: La ficha menciona un desfile cívico-militar celebrado el 14 de septiembre de 2026, pero la fuente solo menciona que Lota vivió un desfile cívico-militar en septiembre de 2026, sin especificar la fecha",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "sonaguera",
+   "razon": "rechazada tras corrección: Se describe la economía de la localidad de manera más detallada que en el material de origen, incluyendo aspectos como la posición geográfica y la productividad de los suelos, que no están presentes e",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "comalcalco",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "jatibonico",
+   "razon": "rechazada tras corrección: La ficha menciona que Jatibonico pertenece a la Provincia de Sancti Spíritus, lo cual no se menciona en el material de origen. La ficha también describe la historia y evolución de Jatibonico de manera",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "san-cristobal-totonicapan",
+   "razon": "rechazada tras corrección: La ficha describe la zona geográfica en la que se encuentra el municipio, lo que no está respaldado por el material de origen.; La ficha menciona que el municipio está reconocido como entidad municipa",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "el-charco",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "nieva",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "pillaro",
+   "razon": "rechazada tras corrección: La ficha menciona que la población 'alberga' a 42.497 habitantes, lo que no es exactamente lo mismo que decir que la población es de 42.497 habitantes.; La ficha agrega detalles adicionales sobre la d",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "andahuaylas",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad se ubica en la zona sur del país, lo que no se encuentra en el material de origen.",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "jinotepe",
+   "razon": "rechazada tras corrección: La ficha menciona la ubicación geográfica detallada de Jinotepe (al norte con Managua, al este con Masaya, al sur con Granada y al oeste con Rivas), lo que no se encuentra en el material de origen.; L",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "coyuca-de-catalan",
+   "razon": "rechazada tras corrección: Forma parte de la región de Tierra Caliente, conocida por su clima cálido y su relieve característico.; La proximidad al río Balsas ha condicionado históricamente la ocupación del territorio y el desa",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "huamachuco",
+   "razon": "rechazada tras corrección: La ficha menciona que Huamachuco se encuentra en el norte del país, lo que no está respaldado por el material de origen.",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "san-pedro-necta",
+   "razon": "rechazada tras corrección: La ficha describe la posición geográfica y el clima del municipio, lo que no se menciona en el material de origen; La ficha describe la normativa y la organización administrativa del municipio, lo que",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "ventanas",
+   "razon": "fraseo calcado de montecristi: \"se situa en el centro de la\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "el-tocuyo",
+   "razon": "rechazada tras corrección: La ficha menciona que El Tocuyo fue un punto de referencia administrativa y comercial para los asentamientos circundantes, lo que no está respaldado por la fuente.; La ficha menciona que la ciudad ha ",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "departamento-tupungato",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "matiguas",
+   "razon": "rechazada tras corrección: La ficha menciona la 'zona norte de Nicaragua', la 'estructura administrativa nicaragüense', la 'organización territorial propia de los municipios nicaragüenses', la 'comunidad de localidades que inte",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "chambas",
+   "razon": "rechazada tras corrección: La frase 'La combinación de una amplia extensión territorial y una población moderada caracteriza a Chambas dentro del contexto provincial.' es una invención que no está respaldada por la fuente.; La ",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "puebloviejo-ecuador",
+   "razon": "fraseo calcado de baba: \"es uno de los trece cantones que\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "segundo-frente",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación geográfica de Piloto del Medio como 'situada en la Sierra Cristal', lo que no se menciona en el material de origen. La ficha también menciona que 'Piloto del Medio sirvi",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "somoto",
+   "razon": "rechazada tras corrección: La ficha menciona que la Carretera Panamericana 'atraviesa el país de norte a sur', lo que no se encuentra en el material de origen.; La ficha afirma que 'La Carretera Panamericana que pasa por Somoto",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cumbal",
+   "razon": "fraseo calcado de samaniego: \"es un municipio del departamento de narino\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "pedro-moncayo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "yajalon",
+   "razon": "fraseo calcado de tila: \"uno de los 124 municipios que integran\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "santa-rosalia-de-camargo",
+   "razon": "rechazada tras corrección: La ficha describe a la localidad con detalles que no están en la fuente, como la concentración de autoridades municipales y la organización administrativa local, y la proximidad a los ríos favoreciend",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "tlahuapan",
+   "razon": "rechazada tras corrección: El material de origen no menciona la ubicación geográfica en el centro-oeste como una ventaja para la conexión con otras localidades de la región.; No se menciona la participación en iniciativas estat",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "mazamari",
+   "razon": "rechazada tras corrección: La ficha menciona que la población se asienta en la zona de transición entre la sierra y la selva, lo que no se menciona en el material de origen.; La ficha afirma que la presencia de la base de entre",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "raxruha",
+   "razon": "rechazada tras corrección: Se menciona que 'Las distancias se expresan en kilómetros, lo que permite situar con precisión su localización dentro del territorio guatemalteco' sin que haya una fuente que lo respalde.; Se menciona",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "penjamo",
+   "razon": "inventa cuándo se anima la sala",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "guiria",
+   "razon": "rechazada tras corrección: La ficha describe a la gente de la sala y su actividad, lo que no tiene fuente en el material de origen.; La ficha describe la distribución de la población, los barrios, la planificación urbana, los c",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "acevedo",
+   "razon": "fraseo calcado de palermo-colombia: \"c segun la proyeccion del dane para\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "departamento-san-carlos",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "villamontes",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "temascal",
+   "razon": "rechazada tras corrección: La ficha menciona que la ubicación de Temascal está en la zona de transición entre la Sierra Madre del Sur y la llanura del Istmo, lo que no se menciona en el material de origen.; La ficha describe a ",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "todos-santos-cuchumatan",
+   "razon": "fraseo calcado de san-mateo-ixtatan: \"un municipio del departamento de huehuetenango situado\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "salcedo",
+   "razon": "fraseo calcado de villa-altagracia: \"un municipio de la republica dominicana ubicado\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cananea",
+   "razon": "rechazada tras corrección: Se menciona 'la Heroica Ciudad de Cananea' en el párrafo 'about', pero en el material de origen solo se menciona 'la Heroica Ciudad de Cananea' en el contexto de 'su cabecera municipal y localidad más",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "nueva-rosita",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "pichanaqui",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "guayaramerin",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "ciudad-melchor-muzquiz",
+   "razon": "rechazada tras corrección: La ficha menciona que el presidio se estableció en 1739, pero la fuente no proporciona esta información.; La ficha menciona que la localidad conserva su legado histórico y su posición estratégica en l",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "ancud",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "juan-rodriguez-clara",
+   "razon": "fraseo calcado de tihuatlan: \"es un municipio del estado de veracruz\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "san-raymundo",
+   "razon": "rechazada tras corrección: El territorio de San Raymundo pertenece al departamento homónimo y se sitúa en la zona central del país, lo que le confiere una posición geográfica privilegiada dentro de la República.; Al estar en el",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "cajibio",
+   "razon": "fraseo calcado de bolivar-venezuela: \"sobre el nivel del mar el territorio\"",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "champerico",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 208 (line 1 column 209)",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "puriscal",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 747 (line 3 column 585)",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "doctor-juan-eulogio-estigarribia",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "viacha",
+   "razon": "rechazada tras corrección: Se menciona que la urbe se sitúa a una altitud media de 3 860 m sobre el nivel del mar, pero la fuente solo dice 's. n. m.' sin especificar que sea sobre el nivel del mar.; Se menciona que la ciudad d",
+   "fecha": "2026-10-09"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-09"
   }
  ]
 }

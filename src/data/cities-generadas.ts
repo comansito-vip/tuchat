@@ -16528,5 +16528,1461 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Imperial, distrito de Cañete (Lima, Perú), tiene una superficie de 53,16 km² y el 15 de noviembre de 1909 se le otorgó la categoría de distrito.",
     "aboutTitle": "Imperial: historia, geografía y clima del distrito limeño",
     "about": "Imperial es uno de los dieciséis distritos que conforman la provincia de Cañete, en el departamento de Lima, Perú, y pertenece a la Prelatura de Yauyos. Según la Ley N.º 1170 del 15 de noviembre de 1909, se le otorgó la categoría de distrito y su capital es el propio pueblo de Imperial. El 30 de enero de 1910, a las tres y media de la tarde, se inauguró el nuevo municipio y tomó juramento el alcalde electo Pedro Vicente Arteaga, quien dirigió el distrito desde su fundación. Según el censo de 1993, la población era de 30 654 habitantes, de los cuales más de 28 000 vivían en zona urbana, y la superficie total es de 53,16 km².\n\nEn sus alrededores se encuentra la Fortaleza de Ungará, último vestigio de la cultura Huarco, y antiguas haciendas que rodean extensas áreas de cultivo. La actividad comercial es destacada en la localidad. El clima es variado: en invierno las noches pueden bajar a 13 °C, mientras que en verano las temperaturas llegan a 29 °C, con un máximo registrado de 32,5 °C en 2011, considerándose un clima muy cálido."
+  },
+  {
+    "slug": "tenejapa",
+    "name": "Tenejapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 205,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tenejapa, municipio chiapaneco con 48.162 habitantes, obtuvo su categoría municipal el 23 de noviembre de 1922 y su nombre significa 'río calcáreo'.",
+    "aboutTitle": "Tenejapa: río calcáreo, categoría municipal desde 1922 y región Altos",
+    "about": "Tenejapa es uno de los ciento veinticuatro municipios que conforman el estado mexicano de Chiapas y su cabecera es el propio pueblo de Tenejapa. De acuerdo con los resultados del Censo de Población y Vivienda 2020, publicado por el Instituto Nacional de Estadística y Geografía (INEGI), la población total del municipio asciende a 48.162 habitantes, de los que 23.308 son hombres y 24.854 mujeres. El topónimo proviene del castellano y se traduce como “río calcáreo”. El municipio está integrado por sesenta y seis localidades distintas. En el ámbito de la planeación, desde 1983 Tenejapa se ubica dentro de la Región II Altos. La entidad obtuvo la categoría de municipio el 23 de noviembre de 1922, fecha que marcó su organización administrativa y su reconocimiento oficial dentro del territorio chiapaneco. La clasificación como municipio se formalizó mediante decreto publicado el 23 de noviembre de 1922. Desde entonces, Tenejapa ha mantenido su estatus administrativo dentro de Chiapas."
+  },
+  {
+    "slug": "monte-plata",
+    "name": "Monte Plata",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 221,
+    "activity": "Media",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Monte Plata",
+    "regionSlug": "monte-plata",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santo-domingo-este",
+      "san-cristobal-rd",
+      "san-pedro-de-macorris",
+      "san-francisco-de-macoris",
+      "bani",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Monte Plata, capital de la provincia homónima en la República Dominicana, celebra cada 19 de enero la entrada de toros a la Virgen de Altagracia.",
+    "aboutTitle": "Ríos Ozama y Yabacao y las fiestas de enero en Monte Plata",
+    "about": "Monte Plata es un municipio de la República Dominicana y capital de la provincia homónima. Se sitúa en la parte sur‑central de la isla, funcionando como núcleo administrativo de la zona. El municipio fue fundado el 27 de abril de 1605 por habitantes de Monte Cristi y Puerto Plata, tras las Devastaciones de Osorio; Baltasar López de Castro los recibió en el territorio donde se estableció Monte Plata. En su entorno geográfico destaca la sierra de Yamasá al oeste y, al noreste, los Haitises con pequeñas colinas. Los ríos Ozama y Yabacao atraviesan el municipio, acompañados de cauces como el Comate, Yamasá, Mijo, Boya, Socoa, Aras, Sabita y Guanuma. Las festividades locales incluyen la entrada de toros a la Virgen de Altagracia el 19 de enero, seguida de atabales y ramos los días 20 y 21 de enero, y la celebración del santo patrón San Antonio de Padua el 13 de junio."
+  },
+  {
+    "slug": "granadero-baigorria",
+    "name": "Granadero Baigorria",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 212,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rosario",
+      "arroyo-seco",
+      "carcarana",
+      "casilda",
+      "villa-constitucion",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Granadero Baigorria, ubicada a 10 km al norte de Rosario y en la margen derecha del río Paraná, es la segunda localidad más poblada del conurbano rosarino.",
+    "aboutTitle": "Granadero Baigorria: la ciudad ribereña del río Paraná",
+    "about": "Granadero Baigorria, antes llamado Pueblo Paganini, es una ciudad del departamento Rosario, en la provincia de Santa Fe, Argentina. Se sitúa en la margen derecha del río Paraná, a 10 km al norte del microcentro de Rosario, y forma parte del conurbano rosarino, siendo la segunda localidad más poblada de esa zona. Su origen data de 1884, cuando Lisandro Paganini destinó parte de sus tierras para la instalación de una estación del Ferrocarril Central Argentino; la estación se inauguró el 15 de noviembre de 1886 y dio nombre al naciente pueblo.\n\nEl trazado oficial se aprobó en 1889 y el primer loteo urbano comprendió los actuales barrios Centro y San Miguel. En 1915 se creó la Comisión de Fomento y, en 1950, una ley provincial cambió el nombre a Granadero Baigorria en homenaje al héroe de la batalla de San Lorenzo. Según el censo de 2022, la población alcanza los 44.098 habitantes, lo que representa un crecimiento del 19,7 % respecto al censo de 2010. El Barrio Paraíso, limitado por Urquiza, Rosario, Av. San Martín y el río, recibió su nombre por un árbol de paraíso que se encontraba detrás del cartel de la inmobiliaria que vendía los terrenos."
+  },
+  {
+    "slug": "bolivar-venezuela",
+    "name": "Bolívar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 180,
+    "activity": "Media",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Miranda",
+    "regionSlug": "miranda",
+    "channels": [
+      "miranda",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guarenas",
+      "venezuela",
+      "caracas",
+      "los-teques",
+      "san-juan-de-los-morros",
+      "miranda",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bolívar, municipio de Miranda con 42 597 habitantes (censo 2023), abarca 131 km² de planicie y el río Tuy, y celebra los Diablos Danzantes.",
+    "aboutTitle": "Río Tuy y la fiesta de los Diablos Danzantes en Bolívar (Miranda)",
+    "about": "Simón Bolívar es uno de los veintiún municipios autónomos del estado Miranda, situado en la parte suroeste de la entidad. Está dividido en dos parroquias, San Antonio de Yare y San Francisco de Yare, siendo esta última la capital. Con una superficie de 131 km² y una población de 42 597 habitantes según el censo de 2023, el municipio se separó en 1989 del entonces Distrito Lander. El relieve es predominantemente llano, con elevaciones que no superan los 250 m sobre el nivel del mar. El territorio está atravesado por el río Tuy, uno de los principales cursos de agua del centro‑norte del país, y alberga los embalses Lagartijo y Quebrada Seca, esenciales para el abastecimiento hídrico. El clima cálido y húmedo sustenta selvas y sabanas. La economía se basa en cultivos de cacao, caña de azúcar, maíz y café, además de la ganadería bovina, ovina y porcina y la avicultura. Destacan también industrias de plásticos, pinturas, lácteos y electrodomésticos. En el ámbito cultural, el municipio celebra la tradición de los Diablos Danzantes, una festividad patrimonial con gran atractivo turístico."
+  },
+  {
+    "slug": "tactic",
+    "name": "Tactic",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 179,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "villa-nueva",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tactic, municipio de Alta Verapaz, Guatemala, conmemora el 2 de julio, fecha en que se realizaron los primeros bautismos en 1545.",
+    "aboutTitle": "Tactic: la Tierra del Durazno y su fiesta del 2 de julio",
+    "about": "Tactic es un municipio del departamento de Alta Verapaz, en la región del bosque lluvioso subtropical de Guatemala. Su nombre proviene del poqomchí' y significa “Tierra del Durazno”. El pueblo se asienta en un amplio valle rodeado de altas montañas, donde la constante neblina genera un clima muy lluvioso, frío y a menudo ventiscas. Según el censo de 2018, la población era de 38 052 habitantes. La colonización pacífica se dio mediante las Capitulaciones de Tezulutlán, lideradas por fray Bartolomé de las Casas y otros dominicos; el 2 de julio de 1545 se celebraron los primeros bautismos de la localidad. En 1638 formó parte de la doctrina dominica de la Verapaz y, tras las Reformas Borbónicas de 1754, pasó al curato secular. Tras la independencia de Centroamérica en 1821, Tactic quedó como uno de los municipios originales del Estado de Guatemala en 1825, dentro del departamento de Verapaz con cabecera en Cobán; en 1877 se incorporó a Alta Verapaz. A finales del siglo XIX llegaron colonos alemanes, que establecieron una comunidad unida; en 1892 los viajeros Anne y Alfred Percival Maudslay describieron a Tactic como un pueblecito de paso entre Cobán y el puerto de Panzós, sin posada, y mencionaron al finquero alemán Thomae."
+  },
+  {
+    "slug": "velasco-ibarra",
+    "name": "Velasco Ibarra",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 181,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quevedo",
+      "babahoyo",
+      "portoviejo",
+      "daule",
+      "santo-domingo-ecuador",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Velasco Ibarra, conocida como El Empalme, cuenta con 41.778 habitantes y se sitúa a 74 m sobre el nivel del mar en la llanura costera de Guayas.",
+    "aboutTitle": "El Empalme: nombre por el cruce vial Guayaquil‑Daule‑Quevedo",
+    "about": "Velasco Ibarra, también llamada El Empalme, es la séptima urbe más grande y poblada de la provincia de Guayas, con 41.778 habitantes según el censo de 2022. Se ubica al centro de la región litoral del Ecuador, a una altitud de 74 m s. n. m., y presenta un clima lluvioso tropical con una temperatura promedio de 25,2 °C. Forma parte del área metropolitana de Quevedo, funcionando como \"ciudad dormitorio\" para miles de trabajadores que se desplazan diariamente por vía terrestre. Su economía se sustenta en el comercio, la agricultura y la ganadería, siendo uno de los principales centros administrativos, financieros y comerciales del norte de Guayas.\n\nEl origen del nombre \"El Empalme\" proviene del cruce de vías creado por el plan vial Guayaquil‑Daule‑Quevedo, que facilitó el paso hacia Guayas, Manabí y Los Ríos. El 27 de mayo de 1961 fecha de parroquialización del recinto El Empalme, se le dio al poblado el nombre de \"Velasco Ibarra\". La ciudad nació a mediados del siglo XX alrededor de la carretera E30 construida bajo el gobierno de Galo Plaza Lasso, consolidándose como un núcleo urbano de rápido crecimiento demográfico."
+  },
+  {
+    "slug": "otavalo",
+    "name": "Otavalo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 213,
+    "activity": "Media",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Imbabura",
+    "regionSlug": "provincia-de-imbabura",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ibarra",
+      "ecuador",
+      "quito",
+      "sangolqui",
+      "tulcan",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Otavalo, capital intercultural del Ecuador, alberga el mercado artesanal indígena más grande de Sudamérica, La Plaza de Ponchos, y cuenta con 41.718 habitantes.",
+    "aboutTitle": "Otavalo y su mercado artesanal La Plaza de Ponchos",
+    "about": "Otavalo, también conocida como San Luis de Otavalo, es la cabecera cantonal del Cantón Otavalo y la segunda urbe más grande y poblada de la Provincia de Imbabura. Se sitúa al norte de la Región interandina del Ecuador, en la hoya del río Chota y está atravesada por el río Tejar, a 2.550 metros sobre el nivel del mar. El clima es andino, con una temperatura media de 16 °C. Según el censo de 2022, la población es de 41.718 habitantes, lo que la coloca como la trigésima séptima ciudad más poblada del país. Forma parte del área metropolitana de Ibarra, con un conglomerado que supera los 280.000 habitantes.\n\nLa ciudad es conocida como la \"Capital Intercultural del Ecuador\" por su riqueza cultural e histórica y por ser el origen del pueblo quichua de los otavalos. Los otavalos son reconocidos por su habilidad textil y comercial, lo que dio origen al mercado artesanal indígena más grande de Sudamérica, llamado \"La Plaza de Ponchos\". El comercio, la agricultura, la ganadería y el turismo son las principales actividades económicas. Sus orígenes datan del siglo XVI, y ha sido un importante centro administrativo, económico, financiero y comercial de Imbabura."
+  },
+  {
+    "slug": "teupasenti",
+    "name": "Teupasenti",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 204,
+    "activity": "Media",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de El Paraíso",
+    "regionSlug": "departamento-de-el-paraiso",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "danli",
+      "honduras",
+      "tegucigalpa",
+      "juticalpa",
+      "comayagua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Teupasenti, municipio de El Paraíso en Honduras, está a 580 m s.n.m. en las riveras del Río Jalán y es el cuarto mayor productor de café del país.",
+    "aboutTitle": "Río Jalán y la producción cafetalera de Teupasenti",
+    "about": "Teupasenti es un municipio del departamento de El Paraíso, situado a 580 metros sobre el nivel del mar en las riveras del Río Jalán. Su nombre proviene de una lengua mexicana y significa “Templo Respetado” o “Lugar del Templo Venerado”, una denominación vinculada a la leyenda del primer cacique indígena Teopateti. El territorio presenta cerros, montañas y pequeños valles, y se localiza entre los meridianos 86 y 30 oeste y los paralelos 14º 09' y 14º 30' norte. El clima es mayormente cálido, con temperaturas que oscilan entre 24 °C y 32 °C. En su historia, el 1 de octubre de 1859 el presidente José Santos Guardiola concedió a Teupasenti el título de municipio, después de haber sido una aldea del Departamento de Olancho desde al menos 1636 y parte de la parroquia de Danlí en 1791.\n\nLa economía local se sustenta en la agricultura; el café es el principal producto y posiciona a Teupasenti como el cuarto municipio más productor de café de Honduras. También se cultivan maíz, frijol, tomate y chile dulce, y la ganadería, aunque presente, se mantiene a pequeña escala. En los últimos años la producción de plátano ha generado empleo en varios caseríos, diversificando las fuentes de ingreso de la comunidad."
+  },
+  {
+    "slug": "rio-tambo",
+    "name": "Río Tambo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 218,
+    "activity": "Media",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Junín",
+    "regionSlug": "departamento-de-junin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Río Tambo, distrito de Junín creado el 29 de enero de 1943, alberga la mayor población asháninka de la Amazonía peruana.",
+    "aboutTitle": "Río Tambo: Gran Nación Asháninka y sus puertos",
+    "about": "Río Tambo es uno de los nueve distritos que integran la provincia de Satipo, en el departamento de Junín, Perú. Abarca una superficie de 10 350 km² y se fundó el 29 de enero de 1943 mediante la Ley N° 9801. Su capital es la localidad de Puerto Prado, situada a 362 metros sobre el nivel del mar, con 1 929 residentes y alrededor de 2 000 viviendas. Entre los centros urbanos destacan también Puerto Ocopa, con 915 habitantes, y Poyeni, con 1 666 habitantes. El 80 % de la población pertenece a las etnias amazónicas asháninka, kakinte y machiguenga, por lo que el distrito es conocido como la “Gran nación asháninka”. Dentro de la estructura eclesiástica, Río Tambo forma parte del Vicariato apostólico de San Ramón. En el ámbito rural se encuentran los poblados Anapate (247 habitantes), Cana Edén (1 100 habitantes), Oviri (368 habitantes), San Antonio de Cheni (658 habitantes), Tsoroja (366 habitantes) y Víctor Raúl Haya de la Torre (167 habitantes)."
+  },
+  {
+    "slug": "jose-mariano-jimenez",
+    "name": "José Mariano Jiménez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "José Mariano Jiménez, conocida como la tierra de las Aguas Termales, es la primera ciudad al entrar por la parte sur del estado de Chihuahua.",
+    "aboutTitle": "Río Florido y la tierra de las Aguas Termales de José Mariano Jiménez",
+    "about": "José Mariano Jiménez es una ciudad del estado de Chihuahua, ubicada en el extremo sureste de la entidad, en el Bolsón de Mapimí, cerca de la frontera con Durango. Conocida como la tierra de las Aguas Termales por los numerosos yacimientos termales que posee. Fue fundada el 4 de enero de 1753 por el capitán Bernardo Antonio Bustamante y Tagle como presidio militar de Santa María de las Caldas del valle de Guajoquilla. El nombre cambió a Villa de Jiménez el 28 de octubre de 1826 en honor a José Mariano Jiménez, héroe de la independencia fusilado en 1811, y en 1898 obtuvo el grado de ciudad. Los primeros colonizadores españoles llegaron desde Santa Bárbara, Parral y el Valle de San Bartolomé (actual Valle de Allende) en 1643, estableciendo la Hacienda de Dolores de Guajoquilla a orillas del Río Florido bajo la dirección del capitán Diego de Zubía. Tras la sublevación de los indios tobosos en 1644 la zona fue abandonada, repoblada en 1652 y nuevamente deshabitada en 1671 antes de la fundación definitiva en 1753. A finales del siglo XIX llegó el ferrocarril México‑Ciudad Juárez, convirtiendo a la población en un importante nudo ferroviario y centro de comunicaciones, lo que la convirtió en uno de los principales focos de actividad durante la Revolución mexicana."
+  },
+  {
+    "slug": "patzicia",
+    "name": "Patzicía",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 162,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antigua-guatemala",
+      "solola",
+      "mixco",
+      "villa-nueva",
+      "escuintla",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Patzicía, municipio del departamento de Chimaltenango en Guatemala, tiene 40.848 habitantes y se ubica a 2.130 m sobre el nivel del mar, en una zona de 44 km².",
+    "aboutTitle": "Patzicía: municipio de 44 km² en Chimaltenango",
+    "about": "Patzicía es un municipio del departamento de Chimaltenango, Guatemala. Tiene 40.848 habitantes (2022). Su extensión territorial es de 44 km² y está a 2.130 metros sobre el nivel del mar. Actualmente, el gobierno municipal está regulado y también por diversas leyes de la República que determinan su organización y tributos. Según el artículo 254 de la Constitución Política de Guatemala, el gobierno municipal es ejercido por un concejo municipal. El Código Municipal, de carácter ordinario, dispone en su artículo 9 que el concejo es el órgano colegiado superior de deliberación y decisión de los asuntos municipales y, según el artículo 33, le corresponde con exclusividad el ejercicio del gobierno del municipio. El concejo se integra con el alcalde, los síndicos y los concejales, electos directamente por sufragio universal y secreto para un período de cuatro años, pudiendo ser reelectos, y tiene su sede en la circunscripción de la cabecera municipal."
+  },
+  {
+    "slug": "huetamo",
+    "name": "Huetamo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 189,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tejupilco-de-hidalgo",
+      "morelia",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huetamo es una ciudad de Michoacán situada en la región de Tierra Caliente, cerca del río Balsas y de la frontera con el estado de Guerrero.",
+    "aboutTitle": "Huetamo y el río Balsas en la región de Tierra Caliente",
+    "about": "Huetamo de Núñez es una ciudad del estado mexicano de Michoacán y la cabecera del municipio homónimo. La localidad se ubica en la comarca de Tierra Caliente, una zona reconocida por su clima cálido y su relieve llano. Situada casi en la frontera con el estado de Guerrero, Huetamo se encuentra a escasa distancia del río Balsas, cuyo cauce delimita ambos estados. El río actúa como límite natural y constituye una referencia geográfica importante para la zona. Como centro administrativo, la ciudad concentra las dependencias municipales y sirve de punto de referencia dentro de la región. Su nombre completo, Huetamo de Núñez, se emplea en documentos oficiales, aunque en el uso cotidiano suele abreviarse a Huetamo. La posición estratégica de la población, entre la frontera estatal y el principal cauce fluvial, la sitúa como un enclave relevante en la configuración territorial de la zona de Tierra Caliente. La cercanía al río facilita actividades agrícolas en los alrededores y ha influido históricamente en el desarrollo de la población. El entorno natural alrededor del cauce presenta una vegetación típica de la región de Tierra Caliente."
+  },
+  {
+    "slug": "alto-baudo",
+    "name": "Alto Baudó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 214,
+    "activity": "Media",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Chocó",
+    "regionSlug": "choco",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quibdo",
+      "istmina",
+      "ciudad-bolivar-antioquia",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Alto Baudó, municipio del Chocó, está a 80 km al sur de Quibdó; su cabecera, Pie de Pató, a 50 m s.n.m., cubre 1.532 km² y tiene historia minera.",
+    "aboutTitle": "Alto Baudó: valle del río Baudó y la cabecera Pie de Pató",
+    "about": "Alto Baudó es un municipio del departamento de Chocó, Colombia, situado en el valle del río Baudó. Su cabecera municipal, Pie de Pató, está a 50 m sobre el nivel del mar y a 80 km al sur de Quibdó, la capital departamental. El municipio abarca una superficie de 1.532 km². En la cabecera viven 1.569 habitantes y en el sector rural 15.450, la mayor parte asentada en la ribera del río, principal medio de transporte y subsistencia.\n\nLa zona estuvo habitada hace aproximadamente 2.300 años por cazadores y pescadores sedentarios que también practicaban la agricultura. Con la llegada de los europeos, la población indígena incluía a los Kunas, Chocoes y Noanamáes. Durante la colonia española se explotó la minería de oro y platino mediante mano de obra esclava traída por comerciantes portugueses y holandeses, mientras a los indígenas se les encomendó la agricultura.\n\nLa población actual fue fundada por colonos buscadores de minerales hacia la segunda mitad del siglo XIX. Alto Baudó se separó del municipio de Bajo Baudó el 1 de enero de 1959, tras una ordenanza del 25 de noviembre de 1958. En su territorio existen varios resguardos indígenas, mayormente de la etnia Emberá, como Agua Clara, Bella Luz y Río Amporá."
+  },
+  {
+    "slug": "parque-cousino",
+    "name": "Parque Cousiño",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 190,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Parque Cousiño, antigua comuna del antiguo departamento de Santiago, registró 40.634 habitantes en el censo de 1907, antes de su supresión en 1928.",
+    "aboutTitle": "Historia y supresión de la antigua comuna de Parque Cousiño",
+    "about": "Parque Cousiño fue una de las comunas que integró el antiguo departamento de Santiago, en la provincia de Santiago. La comuna fue creada por decreto del 22 de diciembre de 1891, con el territorio de las Subdelegaciones 26.° y 27.° urbanas y 8.° rural, y en el censo de 1907 contaba con una población de 40.634 habitantes. \n\nLa entidad dejó de existir tras la supresión mediante el Decreto con Fuerza de Ley N.º 8.583 del 30 de diciembre de 1927, dictado por el presidente Carlos Ibáñez del Campo como parte de una reforma político‑administrativa, que anexó su territorio a la comuna de Santiago. La supresión se hizo efectiva a contar del 1 de febrero de 1928, fecha en la que Parque Cousiño dejó de ser una comuna autónoma."
+  },
+  {
+    "slug": "cauquenes",
+    "name": "Cauquenes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 169,
+    "activity": "Media",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Maule",
+    "regionSlug": "region-del-maule",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "linares",
+      "chillan",
+      "talca",
+      "concepcion",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cauquenes, ciudad del Maule a 355 km de Santiago, cuenta con 42.798 habitantes (censo 2024) y es capital de la provincia homónima.",
+    "aboutTitle": "Cauquenes: la ciudad del río Maule y su legado prehispánico",
+    "about": "Cauquenes es una ciudad y comuna de la Región del Maule, situada en la zona central de Chile. Con una población de 42.798 habitantes según el censo de 2024, se ubica a 355 kilómetros (221 millas) de Santiago y es capital de la Provincia de Cauquenes. Limita al norte con Empedrado y San Javier, al sur con Cobquecura, Quirihue, Ninhue y San Carlos, al oeste con Chanco y Pelluhue, y al este con Parral y Retiro.\n\nEl nombre Cauquenes proviene de los indígenas del mismo nombre citados por Alonso de Ercilla en La Araucana, y está ligado al vocablo mapuche cauqueñ, que aludía al pato de agua dulce. La zona prehispánica muestra evidencia de ocupación desde el Periodo Arcaico (9000‑300 a.C.), reflejando actividades de horticultura y alfarería. Tras la reforma electoral de 2015, Cauquenes forma parte del distrito electoral 18 y de la circunscripción 9° de la región del Maule."
+  },
+  {
+    "slug": "durazno",
+    "name": "Durazno",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 204,
+    "activity": "Media",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Durazno",
+    "regionSlug": "departamento-de-durazno",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Durazno, capital del departamento homónimo, se ubica en el centro de Uruguay a orillas del río Yí, fundado en 1821 por Fructuoso Rivera.",
+    "aboutTitle": "Río Yí y la historia de Durazno, capital del centro uruguayo",
+    "about": "Durazno es la capital del Departamento de Durazno, situada en el centro de Uruguay. Se localiza en la margen izquierda del río Yí, afluente del río Negro, y en la confluencia de las rutas nacionales 5 y 14. La ciudad nació como Villa San Pedro del Durazno, fundada por Fructuoso Rivera en 1821 en honor al emperador Pedro I de Brasil y IV de Portugal. En 1773 ya existía un pequeño rancherío en el Paso del Durazno dedicado a la extracción de cueros.\n\nRivera la declaró capital nacional poco después de la independencia, y el 19 de diciembre de 1831 el presidente informó que la fundación respondía a la necesidad de reunir familias dispersas y crear una barrera contra incursiones indígenas. El trazado urbano se organizó en cuadrícula, con manzanas abiertas y ubicación en tierras altas ventiladas. El río Yí cruzaba la ciudad mediante el puente sumergible conocido hoy como el “Puente Viejo”."
+  },
+  {
+    "slug": "exaltacion-de-la-cruz",
+    "name": "Exaltación de la Cruz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 185,
+    "activity": "Media",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-antonio-de-areco",
+      "san-andres-de-giles",
+      "tigre",
+      "mercedes",
+      "merlo",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Exaltación de la Cruz, partido de la provincia de Buenos Aires, tiene su cabecera en Capilla del Señor, a 82 km de la capital federal.",
+    "aboutTitle": "Historia y fiesta de la Exaltación de la Santa Cruz",
+    "about": "Exaltación de la Cruz es uno de los 135 partidos que conforman la provincia de Buenos Aires, cuya cabecera es la localidad de Capilla del Señor, situada a 82 km de la Ciudad de Buenos Aires. El territorio se remonta a la época de la fundación de la capital, cuando en 1580 Don Juan de Garay, proveniente de Asunción del Paraguay, refundó la ciudad para asegurar la comunicación entre Asunción y Santa Fe con España.\n\nEn 1614 la Compañía de Jesús se instaló en las actuales áreas de Exaltación de la Cruz y Zárate, iniciando la explotación ganadera y fundando un puerto y un colegio. Más tarde, en 1730 Don Francisco Casco de Mendoza construyó una capilla a orillas del Arroyo de la Cruz, que el 14 de septiembre fue elevada a Viceparroquia, fecha que se celebra como la festividad de la Exaltación de la Santa Cruz. Entre 1750 y 1760 se consolidó el pueblo de la Capilla del Señor y, en 1784, el Cabildo ordenó la creación del Partido de la Cañada de la Cruz, antigua denominación del distrito."
+  },
+  {
+    "slug": "heroica-ciudad-de-tlaxiaco",
+    "name": "Heroica Ciudad de Tlaxiaco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 197,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Heroica Ciudad de Tlaxiaco, en la Mixteca Alta de Oaxaca, destaca por su clima templado, bosques de pino y encino, y una economía centrada en el comercio.",
+    "aboutTitle": "Elevación a Ciudad y tradición del juego de pelota en Tlaxiaco",
+    "about": "Heroica Ciudad de Tlaxiaco se ubica en el noroeste del estado de Oaxaca, dentro de la Mixteca Alta. El nombre proviene del náhuatl tlach(tli) ‘juego de pelota’ y quiahuitl ‘lluvia’, y significa “sitio donde llueve en la cancha del juego de pelota”; en mixteco se conoce como Ndijiinu, ‘buena vista’. El clima es predominantemente templado y la vegetación está compuesta por bosques de pino y encino. Su principal actividad económica es el comercio. Los estudios indican que el asentamiento inicial data de alrededor del 400 a.C., durante el Preclásico tardío, y fue codiciado por los mexicas por su posición estratégica entre Coixtlahuaca y Tututepec. El 7 de octubre de 1884 se elevó de villa a ciudad, hecho que el ayuntamiento celebra cada año, marcando más de ciento cuarenta años de historia. En la actualidad la ciudad acoge la 6.ª fecha del Campeonato Estatal de Motos de Trabajo, Doble Propósito, Enduro y Motocross."
+  },
+  {
+    "slug": "huejutla-de-reyes",
+    "name": "Huejutla de Reyes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 208,
+    "activity": "Media",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Hidalgo",
+    "regionSlug": "hidalgo",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tantoyuca",
+      "cerro-azul",
+      "naranjos",
+      "alamo",
+      "alto-lucero",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huejutla de Reyes, en Hidalgo, lleva el significado náhuatl de 'Lugar donde abundan los sauces' y promociona la Feria Integral de Seguridad.",
+    "aboutTitle": "Sauces y la Feria Integral de Seguridad en Huejutla de Reyes",
+    "about": "Huejutla de Reyes es la cabecera municipal del mismo nombre, ubicada en el estado de Hidalgo, México. Su topónimo proviene del náhuatl wexotl ‘sauz’ y -tlah ‘lugar donde abunda’, por lo que su significado es ‘Lugar donde abundan los sauces’. Fundada por los huastecos bajo el nombre de Ixtlacuaxotla, la población recibió la influencia de los toltecas en el año 619 y, antes de 1407, estuvo aliada al Señorío de Metztitlán. En 1486 fue conquistada por Ahuízotl y, en 1544, Juan Eustaquio dirigió la construcción del convento de Huejutla.\n\nDurante la Independencia, el 30 de mayo de 1811 se aprehendieron a un capitán insurgente y sus acompañantes; más tarde, en 1824 Huejutla pasó a formar parte del Estado de México. En la guerra con Estados Unidos, en mayo de 1847 se trasladaron 200 prisioneros estadounidenses a la ciudad y el 10 de junio las fuerzas estadounidenses avanzaron sobre ella. Actualmente, el municipio promociona la Feria Integral de Seguridad."
+  },
+  {
+    "slug": "zacualpa",
+    "name": "Zacualpa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 177,
+    "activity": "Media",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "patzicia",
+      "mixco",
+      "antigua-guatemala",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zacualpa, municipio del departamento de Quiché en Guatemala, tiene 40.003 habitantes y cubre 336 km², con clima templado Csb según Köppen.",
+    "aboutTitle": "Zacualpa: clima templado y legado colonial del convento de Sacapulas",
+    "about": "Zacualpa es un municipio del departamento de Quiché, situado en la zona norte de Guatemala. Su territorio abarca 336 km² y, según el censo de 2018, cuenta con 40.003 habitantes en 2021. La cabecera municipal presenta un clima templado (clasificación Csb). Geográficamente, está rodeado mayormente por municipios quicheanecos: al norte colinda con Concepción, en el departamento de Sololá, y con San Andrés Sajcabajá; al noreste, este, sur y suroeste limita con Joyabaj, y al oeste con Chiché.\n\nDurante la época colonial, entre 1638 y 1754, Zacualpa formó parte de la doctrina administrada por el convento de Sacapulas bajo los frailes dominicos. Tras la entrega de esas doctrinas al clero secular, el municipio se incorporó al nuevo departamento de Quiché cuando este fue creado el 12 de agosto de 1872 por el presidente provisional Miguel García Granados. En años recientes, entre octubre de 2015 y junio de 2016, el exalcalde Ernesto Calachij Riz y su hijo, el alcalde electo Ernesto Calachij Gutiérrez, fueron detenidos por varios delitos, incluido el lavado de dinero."
+  },
+  {
+    "slug": "matias-romero",
+    "name": "Matías Romero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "acayucan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Matías Romero, ciudad oaxaqueña del istmo de Tehuantepec, se convirtió en ciudad el 3 de junio de 1950 y conserva la histórica estación de ferrocarril.",
+    "aboutTitle": "Estación de ferrocarril y legado histórico de Matías Romero",
+    "about": "Matías Romero Avendaño es una ciudad del estado de Oaxaca, situada en el istmo de Tehuantepec, casi al centro de la región. Limita al norte y al este con Veracruz, al este con Santa María Chimalapa, al sur con El Barrio de la Soledad, y al oeste con San Juan Mazatlón, San Juan Guichicovi, Santa María Petapa y al noroeste con San Juan Cotzocón. Fue originalmente parte del municipio de Santa María Petapa y, hasta 1906, llevaba el nombre de Rincón Antonio. En ese año adoptó el nombre de Matías Romero en honor al político oaxaqueño Matías Romero Avendaño.\n\nDurante el gobierno de Porfirio Díaz se inició la construcción del ferrocarril transístmico que conectó los puertos de Coatzacoalcos y Salina Cruz, impulsando el crecimiento de la ciudad. El gremio ferrocarrilero llegó a ser el más grande, y se erigieron un teatro, un hospital y una unidad deportiva bajo la dirección del Sindicato de Trabajadores Ferrocarrileros de la República Mexicana. La localidad fue elevada a categoría de ciudad el 3 de junio de 1950. Hoy conserva la estación de ferrocarril y varias casas de campo de estilo inglés, testimonios de su primera época."
+  },
+  {
+    "slug": "la-troncal",
+    "name": "La Troncal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Cañar",
+    "regionSlug": "provincia-de-canar",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "milagro",
+      "cuenca",
+      "guayaquil",
+      "babahoyo",
+      "daule",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Troncal, ciudad de la provincia de Cañar con 39.600 habitantes, se sitúa a 80 m s.n.m. y goza de clima tropical lluvioso con temperatura media de 22,6 °C.",
+    "aboutTitle": "Estero Culebrillas y la producción azucarera en La Troncal",
+    "about": "La Troncal es la cabecera cantonal del Cantón La Troncal y la urbe más grande y poblada de la Provincia de Cañar. Se localiza al centro sur de la región interandina del Ecuador, en una extensa llanura, atravesada por el estero Culebrilllas, a una altitud de 80 m sobre el nivel del mar. Según el censo de 2022, cuenta con 39.600 habitantes, lo que la sitúa como la cuadragésima ciudad más poblada del país, y forma parte del área metropolitana El Triunfo‑La Troncal, cuya conurbación supera los 90.000 residentes.\n\nFundada a mediados del siglo XX, La Troncal experimentó un rápido crecimiento demográfico impulsado por su ubicación estratégica y la producción azucarera, convirtiéndose en uno de los principales centros económicos, financieros y comerciales de Cañar. Sus actividades principales incluyen la producción de azúcar, el comercio y la agricultura. El clima es monzónico (Am), con temperaturas altas y lluvias constantes durante todo el año, y presenta dos períodos bien diferenciados: un invierno lluvioso y cálido de diciembre a junio y un “verano” más fresco y seco entre julio y noviembre."
+  },
+  {
+    "slug": "cordillera",
+    "name": "Cordillera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cordillera, comuna chilena de la provincia de Valparaíso, con 39.533 habitantes según el censo de 1907, integrada antes en el departamento de Valparaíso.",
+    "aboutTitle": "Cordillera, una comuna histórica de Valparaíso",
+    "about": "Cordillera fue una de las comunas que integró el antiguo departamento de Valparaíso, dentro de la provincia homónima. Su territorio fue organizado por decreto del 22 de diciembre de 1891, tomando como base la zona de las Subdelegaciones 3.° a 7.°. La comuna mantuvo su existencia hasta la reforma político‑administrativa impulsada por el presidente Carlos Ibáñez del Campo, que mediante el Decreto con Fuerza de Ley N.º 8.583 del 30 de diciembre de 1927 ordenó su supresión y la anexión de su territorio a la comuna de Valparaíso. La medida quedó en vigor a partir del 1 de febrero de 1928, fecha en la que dejó de existir como entidad autónoma. El decreto de 1891 estableció los límites precisos, delimitando el área que comprendía los pueblos y tierras agrícolas que hoy forman parte del sector norte de la ciudad de Valparaíso. Durante su breve existencia, la comuna contó con una población que, según el censo de 1907, ascendía a 39.533 habitantes. Tras la supresión, los habitantes pasaron a formar parte del municipio de Valparaíso, integrándose en sus estructuras municipales."
+  },
+  {
+    "slug": "parral",
+    "name": "Parral",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 224,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Maule",
+    "regionSlug": "region-del-maule",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "linares",
+      "cauquenes",
+      "chillan",
+      "talca",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Parral, ciudad y comuna ubicada en la Región del Maule, Chile, conocida por ser cuna del Premio Nobel de Literatura, Pablo Neruda.",
+    "aboutTitle": "Parral, cuna del Premio Nobel Pablo Neruda",
+    "about": "Parral es una ciudad y comuna ubicada en la Región del Maule, en la zona central de Chile. Su ubicación geográfica es a 42 kilómetros al sur de Linares y a 62 kilómetros al norte de Chillán. Limita al norte con las comunas de Longaví, Retiro y Colbún, al oeste, con la comuna de Cauquenes, al sur con las comunas de Ñiquén y San Fabián, de la Región de Ñuble y al este, con la comuna de San Fabián. El río más importante de la comuna es el Perquilauquén.\n\nLa ciudad es conocida por ser cuna del Premio Nobel de Literatura, Pablo Neruda. Durante la época colonial, la actual comuna era la parte más meridional de la denominada 'Isla del Maule', llamada así por estar rodeada de las aguas de los ríos Perquilauquén, Loncomilla y Maule y, asimismo, por las nieves de las cumbres andinas."
+  },
+  {
+    "slug": "placilla-de-penuelas",
+    "name": "Placilla de Peñuelas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Valparaíso",
+    "regionSlug": "region-de-valparaiso",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "vina-del-mar",
+      "valparaiso",
+      "quillota",
+      "san-antonio-chile",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Placilla de Peñuelas, ciudad de la Región de Valparaíso, está a 100 km de Santiago y a 335 m sobre el nivel del mar, a solo 11 km del centro portuario.",
+    "aboutTitle": "Placilla de Peñuelas: a 100 km de Santiago y 335 m s.n.m.",
+    "about": "Placilla de Peñuelas es una ciudad chilena situada en la comuna de Valparaíso, dentro de la Región de Valparaíso. La localidad forma parte del territorio nacional de Chile y se encuentra a una distancia de 100 kilómetros de la capital, Santiago. Su posición geográfica la sitúa a 11 kilómetros del plan, es decir, del centro de la ciudad puerto de Valparaíso, lo que la coloca en un punto intermedio entre la capital y el puerto. La altitud de Placilla de Peñuelas es de 335 metros sobre el nivel del mar, característica que define su entorno topográfico. Como asentamiento urbano, la ciudad mantiene la denominación de ciudad y está integrada en la estructura administrativa de la comuna de Valparaíso. La referencia a la Región de Valparaíso indica su pertenencia a la zona costera del país, aunque la propia localidad se ubica en el interior a una elevación moderada. Estos datos geográficos describen la ubicación y las condiciones básicas de Placilla de Peñuelas."
+  },
+  {
+    "slug": "naranjal",
+    "name": "Naranjal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 224,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-troncal",
+      "milagro",
+      "guayaquil",
+      "cuenca",
+      "machala",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Naranjal, ciudad de Guayas, Ecuador, se ubica entre los ríos Chacaycu y Bucay a 25 m sobre el nivel del mar y cuenta con 39.323 habitantes según el censo 2010.",
+    "aboutTitle": "Naranjal: entre los ríos Chacaycu y Bucay, cuna agrícola de Guayas",
+    "about": "Naranjal, también conocida como San José de Naranjal, es una ciudad de la provincia de Guayas, Ecuador, situada en una extensa llanura al sur de la región litoral. Se encuentra entre los ríos Chacaycu y Bucay, a 25 m sobre el nivel del mar, y registra un clima tropical lluvioso con una temperatura media de 22,5 °C. Según el censo de 2010 la población era de 39.323 habitantes, lo que la convierte en la novena urbe más poblada de Guayas y la cuadragésima primera del país. La economía local se sustenta principalmente en la agricultura, la ganadería y el comercio, actividades que se han ido consolidando desde mediados del siglo XIX.\n\nDurante la época colonial el crecimiento fue limitado, pero su posición estratégica facilitó los contactos entre la Costa y la Sierra, convirtiéndose en un punto relevante en la lucha independentista. Fue una de las primeras poblaciones que se unieron a la revolución del 9 de octubre de 1820 y, el 15 de ese mismo mes, proclamó la independencia del cantón bajo la participación de José María Andrade y otros líderes. Tras la creación de la República, permaneció como parroquia rural del cantón Guayaquil; a partir de 1950 se impulsó la producción de banano y otras cosechas. El cantón Naranjal obtuvo su autonomía mediante decreto del 7 de noviembre de 1960, publicado en el Registro oficial N° 85 el 13 de diciembre de 1950."
+  },
+  {
+    "slug": "nueva-santa-rosa",
+    "name": "Nueva Santa Rosa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-nueva",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "antigua-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Santa Rosa, municipio del sur‑oriente guatemalteco, se sitúa a 1.001,25 m s.n.m y cuenta con 38.331 habitantes según el censo 2018.",
+    "aboutTitle": "Volcán de Jumaytepeque y la altitud de Nueva Santa Rosa",
+    "about": "Nueva Santa Rosa es un municipio del departamento de Santa Rosa, situado en la región sur‑oriente de Guatemala. Conocido también como Villa de Nueva Santa Rosa, Ciudad de Futuro o La Nueva de Oriente, se ubica a 1.001,25 metros sobre el nivel del mar y ocupa 67 kilómetros cuadrados. Según el Censo Nacional de Población y Vivienda 2018, su población asciende a 38.331 habitantes. El municipio se sitúa a 30 kilómetros de la cabecera departamental Cuilapa y a 75 kilómetros de la Ciudad de Guatemala, en coordenadas 14°22′50″ de latitud y 90°17′10″ de longitud, según el Instituto Geográfico Nacional.\n\nEn su relieve destacan el Volcán de Jumaytepeque, que alcanza los 1.815,11 metros sobre el nivel del mar, y el cerro Buena Vista con 1.845 metros. Otros accidentes son el cerro del Chupadero y el cerro Chicón. El clima es tropical tipo Aw. Administrativamente, es uno de los municipios más pequeños del departamento, superado solo por San Rafael Las Flores, Santa Cruz Naranjo, San Juan Tecuaco y Santa Rosa de Lima. Las fincas Trapichito y Brito fueron separadas el 25 de enero de 1934 por acuerdo del gobierno de Jorge Ubico, pasando a formar parte de Santa Cruz Naranjo."
+  },
+  {
+    "slug": "las-cruces",
+    "name": "Las Cruces",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Petén",
+    "regionSlug": "departamento-de-peten",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "flores",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Cruces, municipio del departamento de Petén en Guatemala, fundado el 22 de noviembre de 2011, destaca por su historia y geografía única.",
+    "aboutTitle": "Las Cruces, un municipio con historia y geografía única",
+    "about": "Las Cruces es un municipio del departamento de Petén, República de Guatemala. Fue fundado el 22 de noviembre de 2011, al separarse del municipio de La Libertad, Petén. La fundación se remonta a hace aproximadamente 45 años, cuando cuatro familias – Vásquez, Guerra, León y Peraza, junto a Becerra – se establecieron y eligieron el nombre en honor al Día de la Cruz, celebrado el 3 de mayo. Según la tradición oral, el nombre proviene de tres cruces de madera encontradas por los primeros pobladores, posiblemente dejadas por chicleros. La institución FYDEP propuso el nombre Miralvalle, inspirado en un cine fundado por don Carlos Espino en la colina de entrada, pero la comunidad mantuvo Las Cruces. Geográficamente, el municipio se sitúa a 16° 38’ 10” N y 90° 11’ 02” O, a unos 130 msnm. Limita al norte, noreste y este con La Libertad, al oeste con Ocosingo, México, y al sur con Sayaxché. En 2017 se reportó un aumento de la actividad de bandas criminales por su proximidad a la frontera mexicana."
+  },
+  {
+    "slug": "jose-maria-morelos",
+    "name": "José María Morelos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Quintana Roo",
+    "regionSlug": "quintana-roo",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de José María Morelos, municipio fronterizo con Yucatán y Campeche en el estado de Quintana Roo, México, municipio sin salida al mar.",
+    "aboutTitle": "Historia y economía de José María Morelos",
+    "about": "José María Morelos es uno de los once municipios que conforman el estado mexicano de Quintana Roo. A diferencia de los demás, es el único municipio del estado que no cuenta con una franja marítima, es decir, es un municipio sin salida al mar. Su territorio abarca una superficie de 6.739 km² y está organizado en sesenta y cuatro comunidades distribuidas a lo largo de la zona interior. La economía local se basa principalmente en actividades agropecuarias; entre ellas se destacan la agricultura de subsistencia, la apicultura, la silvicultura y la ganadería, que constituyen los pilares productivos de la región. Desde tiempos prehispánicos el área estuvo habitada por poblaciones mayas, como lo atestiguan restos arqueológicos y la tradición oral. Tras la conquista española, la presencia indígena continuó y, en la época independiente, los habitantes participaron en el levantamiento armado conocido como la Guerra de Castas, ocurrido en 1847, que marcó un episodio importante de la historia local."
+  },
+  {
+    "slug": "palmares",
+    "name": "Palmares",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "puntarenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Palmares, cantón número 7 y el más pequeño de la provincia de Alajuela en Costa Rica, famoso por sus Fiestas Populares en enero.",
+    "aboutTitle": "Palmares, un cantón de tradición y fiestas",
+    "about": "Palmares es el cantón número 7 de la provincia de Alajuela, Costa Rica, y es el cantón más pequeño de la provincia. Ubicado en la zona occidental del Valle Central, adquiere el título de cantón el 30 de julio de 1888. Limita al norte y al oeste con San Ramón, al sur con Atenas y al este con el cantón de Naranjo. Su cabecera es la homónima ciudad de Palmares.\n\nLas Fiestas Populares de Palmares, que se celebran cada año en el mes de enero, son de gran impacto a nivel nacional, siendo visitadas por alrededor de un millón de personas durante las dos semanas que duran los festejos. El nombre Palmares viene de un lugar donde existe una plantación de palmeras, y durante muchos años pudo verse gran cantidad de palmas sembradas a los lados de la ruta principal de acceso a la ciudad. Durante la época precolombina, la zona estuvo habitada por los amerindios katapas del Reino Huetar Occidental, bajo la autoridad de Garabito y la sacerdotisa Naruyib. Se estima que alrededor de 500 habitantes vivían en el valle en 1611, reduciéndose a 27 personas en 1713."
+  },
+  {
+    "slug": "guerrero",
+    "name": "Guerrero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "guerrero",
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guerrero, municipio de Chihuahua en la Sierra Madre Occidental, ocupa 5.603,60 km², lo que equivale al 2,27 % del territorio estatal.",
+    "aboutTitle": "Escudo y territorio de Guerrero, Chihuahua",
+    "about": "Guerrero es uno de los 67 municipios que conforman el estado de Chihuahua y su cabecera lleva el mismo nombre. Se sitúa en el oeste del territorio, dentro de la Sierra Madre Occidental, limitando al norte con Namiquipa y Matachí, al oeste con Temósachi y Ocampo, al sur con Bocoyna y Carichí, y al este con Bachíniva, Cuauhtémoc y Cusihuiriachi. Su extensión territorial es de 5,603.60 km², la cual representa el 2.27 % del total del territorio de Chihuahua.\n\nEl escudo municipal se diseñó tras un concurso realizado entre 1989 y 1992, bajo la gobernación de Fernando Baeza Meléndez. El ganador fue Octavio Contreras Pérez, originario del poblado de Miñaca. En su interior aparecen dos líneas diagonales que simbolizan la carretera Pedernales‑Santo Tomás y la vía férrea La Junta‑Yepachi, además del ferrocarril Chihuahua al Pacífico. Dos pinos representan la Sierra Madre Occidental y el agua que desciende al Valle del Papigochi, retenida por la presa “Abrahám González Casavantes”. El templo y el libro aluden a la religión católica y a la educación, mientras que la cabeza del indio Tarahumara rinde homenaje a Gabriel Teporame, conocido como el Teporaca en béisbol."
+  },
+  {
+    "slug": "chilchota",
+    "name": "Chilchota",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 166,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "la-barca",
+      "jamay",
+      "ocotlan",
+      "atotonilco-el-alto",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Chilchota, localidad del noroeste de Michoacán y cabecera del municipio homónimo, con 8.280 habitantes y una superficie de 2.78 km².",
+    "aboutTitle": "Chilchota, localidad en el noroeste de Michoacán",
+    "about": "Chilchota es una localidad ubicada en el noroeste del estado de Michoacán y funciona como cabecera del municipio homónimo. El nombre Chilchota se interpreta como ‘lugar de chiles’, una acepción que comparte tanto la lengua purépecha como el náhuatl, reflejando la herencia lingüística de la zona. Con 8.280 habitantes distribuidos en una superficie de 2.78 km², la población mantiene una economía centrada en la elaboración de productos panificados y en la producción de ‘azahares’, ornamentos y accesorios que se emplean en trajes de novia, comunión y bautismo. Estos azahares son confeccionados de forma artesanal y representan una tradición vinculada a la identidad cultural local."
+  },
+  {
+    "slug": "nuevitas",
+    "name": "Nuevitas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 226,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Camagüey",
+    "regionSlug": "provincia-de-camaguey",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "camaguey",
+      "las-tunas",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nuevitas, ciudad portuaria en la provincia de Camagüey, Cuba, con un importante centro agroindustrial y pesquero.",
+    "aboutTitle": "Nuevitas, centro agroindustrial y pesquero de Camagüey",
+    "about": "Nuevitas es un municipio y una ciudad portuaria situada en la zona norte de la provincia de Camagüey, en Cuba. La localidad se asienta en la bahía que lleva su nombre, la bahía de Nuevitas, cuya ubicación estratégica la convierte en uno de los puertos más relevantes del país para el tráfico marítimo de la región. Gracias a esa posición, el puerto desempeña un papel clave en el comercio, facilitando la exportación e importación de productos tanto agrícolas como pesqueros. El municipio se reconoce también como uno de los principales centros agroindustriales de Cuba; la actividad agroindustrial abarca la transformación y el procesamiento de productos cultivados en la zona circundante, lo que refuerza su importancia económica. Paralelamente, la pesca constituye otro pilar de la economía local, con flotas que operan en las aguas de la bahía y aportan a la oferta de productos del mar. Además, la historia de Nuevitas está estrechamente vinculada al desarrollo industrial del oriente cubano, reflejando en su arquitectura y en su evolución urbana la influencia de los proyectos industriales que marcaron la región durante el siglo XX."
+  },
+  {
+    "slug": "melchor-muzquiz",
+    "name": "Melchor Múzquiz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Melchor Múzquiz, una localidad del estado mexicano de Coahuila fundada en 1737 como Santa Rosa de Lima",
+    "aboutTitle": "Ciudad Melchor Múzquiz, en el nacimiento del río Sabinas",
+    "about": "Melchor Múzquiz es una localidad del estado mexicano de Coahuila. Fue fundada en 1737 bajo el nombre de Santa Rosa de Lima, por orden del virrey Juan Antonio de Vizarrón. Tres años después, en 1740, la población fue trasladada a su ubicación actual, en el nacimiento del río Sabinas, cuyas aguas nacen en la zona. El nombre de la población rinde homenaje a Melchor Múzquiz, presidente de México en 1832 y oriundo de la localidad. La localidad obtuvo la categoría de ciudad en 1925 y fue renombrada como Ciudad Melchor Múzquiz, en consonancia con su nuevo estatus jurídico. Actualmente, es la cabecera del municipio de Múzquiz y concentra la administración local. Como cabecera municipal, la ciudad sirve de centro de servicios para las comunidades circundantes. Desde su reconocimiento como ciudad, mantiene su nombre en honor al presidente nacido allí. La ubicación en el valle del Sabinas favoreció su desarrollo agrícola y comercial a lo largo del siglo XX."
+  },
+  {
+    "slug": "la-mata-republica-dominicana",
+    "name": "La Mata (República Dominicana)",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Sánchez Ramírez",
+    "regionSlug": "sanchez-ramirez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "la-vega",
+      "moca",
+      "monte-plata",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Mata, municipio de Sánchez Ramírez en República Dominicana, se convirtió en municipio el 7 de agosto de 2002 y destaca por su producción de arroz.",
+    "aboutTitle": "De hato ganadero a municipio: la evolución agrícola de La Mata",
+    "about": "La Mata es un municipio de la provincia de Sánchez Ramírez, República Dominicana. En la primera mitad del siglo XVIII el lugar era un hato ganadero propiedad de Juan Adames y la señora Isabel Minaya, según Fray Cipriano de Utrera. Durante la Restauración existía un pequeño caserío llamado El Higüero o Higüerito, situado en el Camino Real Cotuí‑La Vega. En 1908 se produjo una conspiración contra el presidente Ramón Cáceres que fracasó tras una explosión accidental que mató al hijo de Cirilo de los Santos, principal conspirador.\n\nA partir de los primeros años de la década de 1950, la inauguración de los canales de riego impulsó una superproducción de arroz y la instalación de factorías de arroz y una fábrica moderna de espaguetis, atrayendo a inmigrantes de San Juan de la Maguana y Monte Cristi. El crecimiento económico culminó con la elevación de Villa La Mata a municipio el 7 de agosto de 2002, mediante la Ley n.º 115‑02. Samuel Hazard, dibujante y escritor norteamericano, describió en 1871 el camino al poblado flanqueado por bellas palmeras."
+  },
+  {
+    "slug": "empalme",
+    "name": "Empalme",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 235,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-obregon",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Empalme, ciudad del suroeste de Sonora, también conocida como la 'Ciudad Jardín', con una población de 51.431 habitantes",
+    "aboutTitle": "Empalme, la Ciudad Jardín del suroeste de Sonora",
+    "about": "Empalme es una ciudad ubicada en el suroeste del estado de Sonora, al sur del Desierto de Sonora, limitando también con la costa del golfo de California. La ciudad es la localidad más habitada del municipio homónimo y también es la cabecera municipal de este. Según el Censo de Población y Vivienda realizado en 2020 por el Instituto Nacional de Estadística y Geografía (INEGI), tiene una población de 51.431 habitantes.\n\nLa ciudad se fundó el 15 de septiembre de 1905 cuando se construía un entronque entre las dos vías del ferrocarril de Sonora y el del Pacífico, formando el antiguo Ferrocarril Cananea-Río Yaqui-Pacífico. Su nombre se da después de haber sido llamado en sus primeros años 'Junction', unión en español, interpretándolo también como Empalme, gracias al empalme de las dos vías férreas antes mencionadas."
+  },
+  {
+    "slug": "la-arena",
+    "name": "La Arena",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Piura",
+    "regionSlug": "departamento-de-piura",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "piura",
+      "sullana",
+      "talara",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Arena, distrito piurano fundado el 15 de junio de 1920, destaca por su suelo arenoso y la Villa que lleva su nombre.",
+    "aboutTitle": "Historia y territorio del distrito de La Arena",
+    "about": "El distrito de La Arena forma parte de la provincia de Piura, una de las diez que integran el departamento homónimo en el norte del Perú. Limita al norte y noreste con el distrito de Cura Mori, al oeste, suroeste y sur con La Unión, con el distrito de El Tallán y al este con Cura Mori nuevamente. Pertenece a la arquidiócesis de Piura.\n\nEl nombre de La Arena proviene del carácter arenoso de su suelo, elemento que aún se percibe en la zona. Durante gran parte de su historia estuvo adscrita a la comunidad de Catacaos, cuyos pobladores buscaron nuevas tierras y se enfrentaron a los inmensos arenales para fundar sus viviendas. El distrito se creó oficialmente mediante el Decreto Ley N° 4134 del 15 de junio de 1920, y su primer alcalde fue Sixto Zapata Meléndez, quien gobernó entre 1920 y 1923. La Villa del mismo nombre es la capital del distrito, que también comprende los caseríos de Nuevo Montegrande, Vichayal, Pampa de los Silvas, Casaraná, Alto de los Castillos, Penal, Chato Chico, Chato Grande, Río Viejo, Casa Grande, Loma Negra, Alto de la Cruz, Alto de los Mores y diversas haciendas."
+  },
+  {
+    "slug": "bolivar-monagas",
+    "name": "Bolívar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Monagas",
+    "regionSlug": "monagas",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maturin",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bolívar, municipio del estado Monagas en Venezuela, cuenta con una superficie de 358 km² y su capital es Caripito, destacada por la explotación petrolera.",
+    "aboutTitle": "Río San Juan y la tradición petrolera de Bolívar",
+    "about": "Bolívar es un municipio del estado Monagas, situado en el oriente de Venezuela. Su capital es la población de Caripito y su historia está marcada por la explotación petrolera y el intercambio comercial fluvial a través del río San Juan. Por decreto del 16 de enero de 1896 se creó el municipio Colón del distrito Piar, y el 19 de enero de 1940 se estableció el distrito Bolívar, designándose Caripito como capital. El 27 de julio de 2025 Junior Ortíz fue elegido alcalde del municipio. El territorio cubre 358 km² y se caracteriza por un clima tropical de bosque lluvioso y sabana, con temperaturas entre 26 °C y 35 °C. Entre sus cauces destacan el río Caripe, que nace en la serranía del Turimiquire y forma balnearios como La Bomba y Valle Solo, y el río San Miguel, ambos afluentes del río San Juan, que drena la zona hacia el Golfo de Paria."
+  },
+  {
+    "slug": "contla-de-juan-cuamatzi",
+    "name": "Contla de Juan Cuamatzi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tlaxcala",
+    "regionSlug": "tlaxcala",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tlaxcala",
+      "sanctorum",
+      "santa-ana-xalmimilulco",
+      "cuautlancingo",
+      "acajete",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Contla de Juan Cuamatzi, municipio de Tlaxcala donde se gestó el primer movimiento armado de la Revolución Mexicana.",
+    "aboutTitle": "Contla de Juan Cuamatzi, cuna de la Revolución Mexicana",
+    "about": "Contla de Juan Cuamatzi es uno de los 60 municipios del estado de Tlaxcala, México. Se localiza al centro, aproximadamente a 9 kilómetros de la ciudad de Tlaxcala de Xicohténcatl. El nombre proviene de dos significados: del vocablo náhuatl comitl que significa vasija, y se integra con la terminación tla que en conjunto se interpreta como 'lugar de ollas o lugar de vasijas'.\n\nEl municipio es conocido como San Bernardino Contla, en honor al Santo Patrono de esta localidad. La feria, o fiestas patronales, se celebran el 20 de mayo en honor al patrón del pueblo San Bernardino de Siena. Además, se afirma que en Contla se rindió culto a Huehueteotl, que quiere decir 'Dios viejo del fuego'."
+  },
+  {
+    "slug": "itakyry",
+    "name": "Itakyry",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Alto Paraná",
+    "regionSlug": "departamento-de-alto-parana",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-del-este",
+      "puerto-iguazu",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Itakyry es un municipio del departamento de Alto Paraná, situado sobre el arroyo homónimo a 435 km de Asunción y conectado por la Ruta PY02 a Ciudad del Este.",
+    "aboutTitle": "Itakyry: arroyo homónimo y conexión vía Ruta PY02",
+    "about": "Itakyry es un municipio paraguayo del departamento de Alto Paraná. Según los datos oficiales, ocupa la quinta posición en número de habitantes dentro del departamento, situándose detrás de los cuatro distritos que forman el conurbano del Gran Ciudad del Este. El núcleo urbano se asienta a orillas del arroyo Itakyry, que le da el mismo nombre al asentamiento. La población se ubica a aproximadamente 435 km de la capital nacional, Asunción, y a una distancia menor de la zona metropolitana de Ciudad del Este. En materia de comunicaciones, Itakyry está enlazado con la Ruta Nacional PY02, arteria que conduce directamente a Ciudad del Este y que constituye la principal vía de acceso hacia el este del país. Además, la carretera PY07 parte del municipio y se dirige hacia el norte, proporcionando una salida adicional hacia otras áreas de Alto Paraná. Estas conexiones facilitan tanto el tránsito de residentes como el flujo de mercancías entre Itakyry y los principales centros urbanos de la región."
+  },
+  {
+    "slug": "santos-michelena",
+    "name": "Santos Michelena",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Aragua",
+    "regionSlug": "aragua",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-teques",
+      "san-juan-de-los-morros",
+      "bolivar-venezuela",
+      "venezuela",
+      "caracas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santos Michelena, municipio de Aragua, Venezuela, con 220 km², 54.392 habitantes, capital Las Tejerías, creado en 1904 y nombrado por Santos Michelena.",
+    "aboutTitle": "Ríos y valles de Santos Michelena",
+    "about": "Santos Michelena es un municipio ubicado en el estado Aragua, Venezuela. Tiene una superficie de 220 km² y una población de 54.392 habitantes. La capital es Las Tejerías y está dividido en 2 parroquias. El municipio limita con el estado Miranda por el Norte y por el Este, con el Municipio San Sebastián por el Sur y con los municipios Ribas y Rafael Revenga por el Oeste. La temperatura promedio es de entre 20 °C y 22 °C en la montaña y 24 °C en la parte central del Valle. El municipio pertenece a la cuenca del Mar Caribe y cuenta con ríos como el Tuy, el Cagua y el Caño Amarillo.\n\nEl municipio fue creado en 1904 durante la presidencia de Cipriano Castro, pero su nombre fue cambiado posteriormente en honor a Santos Michelena, un político venezolano que desempeñó un papel importante en la organización de las relaciones exteriores y la Hacienda Pública nacional."
+  },
+  {
+    "slug": "achaguas",
+    "name": "Achaguas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Apure",
+    "regionSlug": "apure",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-fernando-de-apure",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Achaguas, capital del municipio homónimo en el estado Apure, está a 80 km de San Fernando de Apure y cuenta con 42.983 habitantes según el censo de 2018.",
+    "aboutTitle": "Achaguas: capital municipal a 80 km de San Fernando de Apure",
+    "about": "Achaguas es una ciudad del estado Apure, situada en la zona occidental del país y constituye la sede administrativa del municipio que lleva el mismo nombre. La localidad se ubica a una distancia de 80 kilómetros de San Fernando de Apure, que es la capital estatal, lo que la sitúa en una posición estratégica dentro de la región. Según el censo oficial realizado por el Instituto Nacional de Estadística en 2018, la parroquia urbana de Achaguas registró una población de 42.983 habitantes, cifra que refleja su relevancia demográfica dentro del municipio. La condición de capital municipal otorga a Achaguas funciones de gestión pública y servicios para la población circundante, consolidándose como el núcleo principal de la zona. Además, su ubicación geográfica dentro del estado Apure la vincula a la red de comunicaciones y transporte que conecta con otras localidades del territorio llanero, facilitando el intercambio de bienes y personas. Todo ello convierte a Achaguas en un punto de referencia importante en el contexto administrativo y poblacional de Apure."
+  },
+  {
+    "slug": "hatillo-pr",
+    "name": "Hatillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arecibo",
+      "mayaguez",
+      "ponce",
+      "bayamon",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hatillo, municipio de Puerto Rico fundado el 30 de junio de 1823 por don Agustín Ruiz Miranda, es uno de los 78 municipios y limita al norte con el Atlántico.",
+    "aboutTitle": "Hatillo, municipio de Puerto Rico",
+    "about": "Hatillo es uno de los 78 municipios que conforman el Estado Libre Asociado de Puerto Rico y está dividido en diez barrios: Aibonito, Bayaney, Buena Vista, Campo Alegre, Capáez, Carrizales, Hatillo, Corcovado, Naranjito y Pueblo, este último alberga el centro administrativo. Limita al norte con el océano Atlántico, al este con Arecibo, al sur con Utuado y al oeste con Camuy y Lares. Fue fundado el 30 de junio de 1823 por don Agustín Ruiz Miranda, quien entregó diez cuerdas de terreno bajo la condición de construir edificios públicos y calles anchas; su primer alcalde fue don Francisco Martínez. En el primer año la población era de 910 habitantes y al año siguiente ascendió a 2.663 distribuidos entre la zona urbana y los barrios. En 1892 llegó la línea férrea del Ferrocarril de Circunvalación de Puerto Rico, y en 1902 la ley de Consolidación de Ciertos Términos Municipales modificó sus límites anexándolo temporalmente a Camuy."
+  },
+  {
+    "slug": "caibarien",
+    "name": "Caibarién",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Villa Clara",
+    "regionSlug": "provincia-de-villa-clara",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-clara-cuba",
+      "sancti-spiritus",
+      "ciego-de-avila",
+      "cienfuegos",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Caibarién, conocida como «La Villa Blanca», es una ciudad y municipio de Cuba ubicada en la zona central de la isla.",
+    "aboutTitle": "Caibarién, La Villa Blanca",
+    "about": "Caibarién es una ciudad y municipio cubano situada en la zona central de la isla y forma parte de la provincia de Villa Clara. El topónimo proviene del lenguaje aborigen; los documentos de la época de la conquista española ya registran el nombre, escrito como Caybarien, lo que indica la continuidad del asentamiento prehispánico. La localidad lleva también el sobrenombre de «La Villa Blanca», referencia que aparece en fuentes históricas y que se ha mantenido en la tradición local. Como centro urbano, Caigarién combina su origen indígena con la influencia colonial española, reflejada en la toponimia y en la arquitectura que se conserva. El municipio abarca tanto el núcleo urbano como áreas rurales circundantes, y su población se distribuye en torno a actividades vinculadas al mar y a la agricultura, según los registros oficiales. La posición geográfica en la zona central le otorga una ubicación estratégica dentro de Villa Clara, conectando con otras poblaciones de la región."
+  },
+  {
+    "slug": "zacatelco",
+    "name": "Zacatelco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tlaxcala",
+    "regionSlug": "tlaxcala",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sanctorum",
+      "cuautlancingo",
+      "tlaxcala",
+      "santiago-momoxpan",
+      "santa-ana-xalmimilulco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zacatelco, cabecera del Municipio de Zacatelco en el estado de Tlaxcala, es la quinta ciudad más poblada del estado con una población de 45 717 habitantes.",
+    "aboutTitle": "Zacatelco, corazón del corredor industrial Puebla-Tlaxcala",
+    "about": "Zacatelco es una ciudad mexicana ubicada al sur del estado de Tlaxcala. Es la quinta ciudad más poblada del estado con una población de 45 717 habitantes, según el censo de población y vivienda de 2020. La ciudad se encuentra en el corredor turístico «Cacaxtla-Xochitécatl» y en el corredor industrial «Puebla-Tlaxcala», siendo este el cuarto corredor poblacional más importante del país.\n\nLa ciudad es conocida por la Bebida de Cacao, declarada en 2014 Patrimonio Cultural Inmaterial por el Congreso del Estado de Tlaxcala. Además, en 2017 acogió el primer Encuentro Intermunicipal para la Preservación del Agua. Zacatelco tiene una rica historia, habiendo sido fundada el 1 de diciembre de 1529 por Agustín de Castañeda y siendo sede del III distrito electoral federal desde 1997."
+  },
+  {
+    "slug": "funes",
+    "name": "Funes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "granadero-baigorria",
+      "rosario",
+      "carcarana",
+      "casilda",
+      "arroyo-seco",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Funes, conocida como el «Jardín de la Provincia» en Santa Fe, cuenta con 38.274 habitantes y se sitúa en el área metropolitana del Gran Rosario.",
+    "aboutTitle": "Funes: el Jardín de la Provincia y su Villa Navideña",
+    "about": "Funes es una ciudad de la provincia de Santa Fe, Argentina, fundada en 1875 y declarada ciudad en 1991. Con 38.274 habitantes según el censo de 2022, se ubica a 15 km al oeste del microcentro de Rosario, a 170 km al sur de la capital provincial, a 310 km al norte de Buenos Aires y a 400 km al sureste de Córdoba. El municipio forma parte del Gran Rosario, mayormente dentro del departamento Rosario y con una pequeña porción en San Lorenzo. El clima es templado pampeano y la ciudad es conocida como el «Jardín de la Provincia». Una extensa arboleda y el suelo elevado le otorgan particulares condiciones ambientales que son altamente requeridas en la búsqueda de nuevas residencias.\n\nLa población es mayoritariamente de clase media y registra el más bajo porcentaje de población con necesidades básicas insatisfechas. Entre los proyectos y eventos locales se encuentran el Mercado Don Bosco, la propuesta gratuita Funes Vibra y el Salón del Automóvil. Asimismo, el 21 de septiembre de 2026 se lanzó la convocatoria a marcas para participar de la Villa Navideña. La localidad cuenta también con un sistema de monitoreo continuo y seguridad para la protección de sus ciudadanos."
+  },
+  {
+    "slug": "ciudad-del-plata",
+    "name": "Plata",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de San José",
+    "regionSlug": "departamento-de-san-jose",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "las-piedras",
+      "uruguay",
+      "montevideo",
+      "ciudad-de-la-costa",
+      "magdalena-buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Plata, ciudad uruguaya del departamento de San José, situada en la desembocadura del río Santa Lucía y del Río de la Plata, con humedales y costas.",
+    "aboutTitle": "Ciudad del Plata, entre el río Santa Lucía y el Río de la Plata",
+    "about": "Ciudad del Plata es una localidad uruguaya del departamento de San José, ubicada en el extremo sureste del mismo y perteneciente al municipio homónimo. Forma parte del área metropolitana y es uno de los principales centros urbanos del departamento. La ciudad se sitúa sobre la desembocadura del río Santa Lucía en el Río de la Plata, integrando la llanura costera del sur del país y presentando un relieve bajo. En su territorio se encuentran humedales, bañados, playas, islas y diversos cursos de agua que conforman un paisaje natural de gran valor ambiental. El entorno está determinado por la confluencia del río Santa Lucía y el Río de la Plata, creando una zona de transición entre ambientes fluviales y costeros con extensas áreas de humedales, canales y vegetación adaptada a suelos inundables. Los Humedales del Santa Lucía, presentes en la cuenca baja del río, incluyen bañados, pajonales, juncales, monte ribereño y cursos de agua, y cumplen funciones de regulación hídrica, retención de sedimentos y conservación de biodiversidad, albergando aves residentes y migratorias, peces, anfibios, reptiles y mamíferos. La extensa costa sobre el Río de la Plata combina playas arenosas y sectores de vegetación costera; entre las más destacadas están la playa Pascual, la playa Penino y la playa Santa."
+  },
+  {
+    "slug": "aguada",
+    "name": "Aguada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mayaguez",
+      "hatillo-pr",
+      "arecibo",
+      "ponce",
+      "bayamon",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aguada, municipio costero de Puerto Rico, se fundó como pueblo en 1508 bajo el nombre de San Francisco de la Aguada y cuenta con el río Culebrinas.",
+    "aboutTitle": "Río Culebrinas y la historia colonial de Aguada",
+    "about": "Aguada es un municipio costero situado al noroeste del Estado Libre Asociado de Puerto Rico. Limita al norte con el océano Atlántico, al sur con Añasco, al noreste con Aguadilla, al este con Moca y al oeste con Rincón. Su principal cuerpo de agua es el río Culebrinas y está dividido en 18 barrios, entre ellos el barrio Pueblo, centro administrativo y comercial.\n\nEl pueblo se estableció en 1508 bajo el nombre de San Francisco de la Aguada y recibió el título de Villa en 1778, quedando conocido como Villa de San Francisco de la Aguada. Según la tradición, fue aquí donde el almirante Cristóbal Colón desembarcó en 1493 y donde los barcos realizaban la llamada “la aguada” para reabastecerse antes de continuar sus travesías. Entre los visitantes de la época destacan el almirante Vicente Yáñez Pinzón en 1499, Fray Bartolomé de las Casas y Fray Alonso de Espinar en 1502, y Juan Ponce de León. En 1511 el rey de España ordenó la construcción de un monasterio en el barrio Espinal, concluido en 1516, cuando los primeros ocho padres franciscanos llegaron para implantar el cristianismo."
+  },
+  {
+    "slug": "heroica-ciudad-de-cananea",
+    "name": "Heroica Ciudad de Cananea",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 168,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "nogales-veracruz",
+      "magdalena",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Heroica Ciudad de Cananea, la ciudad del cobre en Sonora, alberga 38,113 habitantes y se sitúa a 297 km de la capital estatal, Hermosillo.",
+    "aboutTitle": "Cananea: la capital del cobre y su industria minera",
+    "about": "Heroica Ciudad de Cananea es una ciudad minera situada en el norte del estado de Sonora, en la Sierra Madre Occidental. Según el INEGI 2020, la población asciende a 38,113 habitantes. Se ubica a 297 km de Hermosillo, a 146 km de la frontera con Estados Unidos en Heroica Nogales, a 550 km de Ciudad Obregón, a 409 km de Puerto Peñasco y a 432 km de Heroica Guaymas. Fundada oficialmente en el siglo XVII, recibió la categoría de mineral en 1760 tras el descubrimiento de yacimientos. El territorio originalmente habitado por pimas fue descrito por el padre Eusebio Kino como un asentamiento tranquilo merodeado por apaches.\n\nEl cobre es el mineral más explotado, razón por la que la ciudad es conocida como \"La ciudad del cobre\" y constituye el centro minero más importante del país. A lo largo de los años la Compañía Minera de Cananea ha operado bajo nombres como Buenavista del cobre y Minera María. Además de la minería, la industria maquiladora está presente con empresas como Standex Electronics, Stewart Connectors System y CsCables."
+  },
+  {
+    "slug": "copan-ruinas",
+    "name": "Copán Ruinas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 137,
+    "votes": 240,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Copán",
+    "regionSlug": "departamento-de-copan",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-rosa-de-copan",
+      "chiquimula",
+      "santa-ana",
+      "apopa",
+      "puerto-barrios",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Copán Ruinas, municipio hondureño fundado el 1 de enero de 1893, destaca por sus ruinas mayas y una población de 39.485 habitantes en 2015.",
+    "aboutTitle": "Ruinas mayas y agricultura de subsistencia en Copán Ruinas",
+    "about": "Copán Ruinas es un municipio del departamento de Copán, en el occidente de Honduras, cuyo nombre alude al importante sitio arqueológico maya que lo rodea. La localidad se originó a partir de una aldea cercana al complejo de Copán y fue oficialmente creada el primero de enero de 1893 bajo la administración del general Ponciano Leiva Madrid, nombrándose a Indalecio Guerra como su primer alcalde. El centro administrativo y político lleva el mismo nombre que el municipio y constituye el punto de referencia para la zona.\n\nEn 2015 la población del municipio alcanzó los 39.485 habitantes, mayoritariamente distribuidos en áreas rurales. La economía se basa en la agricultura de subsistencia, con cultivos de maíz, café y frijol. Según el Programa de Naciones Unidas para el Desarrollo, el índice de desarrollo humano de Copán Ruinas en 2003 fue de 0,503, ubicándolo en la posición 244 del país, con una tasa de analfabetismo del 60,8 % y un nivel de desnutrición del 55,1 %."
   }
 ];

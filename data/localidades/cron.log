@@ -2543,3 +2543,126 @@ Groq: HT
 [2026-10-08T08:57:07.146Z]   ✗ chambas: fraseo calcado de municipio-de-la-paz: "lo convierte en el segundo municipio mas"
 [2026-10-08T08:59:37.125Z]   ✓ imperial (Perú) — escribió Groq, verificó NVIDIA
 [2026-10-08T08:59:37.197Z] publicadas 50 salas · acumuladas 554 · quedan 2807 en cola
+[2026-10-09T01:30:06.305Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-09T01:30:06.317Z] cola: 2793 · lote de hoy: 50
+[2026-10-09T01:30:07.908Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-09T01:30:29.789Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-09T01:32:41.447Z]   ✗ sicuani: rechazada tras corrección: La ficha describe la ubicación geográfica de Sicuani como 'en la región sur del país' y 'en la zona sur del Perú', lo que no se encuentra en el material de origen. Además, se describe el papel de la c
+[2026-10-09T01:33:02.211Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-09T01:35:35.247Z]   ✗ sechura: rechazada tras corrección: Se describe a la ciudad como 'capital regional del arte y la cultura del norte peruano', cuando la fuente solo menciona que es 'Capital regional del arte y la cultura' sin especificar la región; Se me
+[2026-10-09T01:37:38.072Z]   ✓ tenejapa (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T01:39:11.988Z]   ✗ cuetzalan-del-progreso: rechazada tras corrección: La ficha menciona que la designación como Pueblo Mágico 'ha aumentado su visibilidad a nivel nacional', lo que no se menciona en el material de origen.; La ficha describe el clima y la geografía del m
+[2026-10-09T01:40:42.620Z]   ✗ del-nayar: rechazada tras corrección: La ficha agrega información no presente en la fuente, como la descripción detallada de la ubicación y la importancia del municipio, así como la mención a la diversidad de ecosistemas y el patrimonio n
+[2026-10-09T01:41:55.508Z]   ✗ chenalho: fraseo calcado de cintalapa: "es uno de los 124 municipios que"
+[2026-10-09T01:43:28.894Z]   ✗ mataquescuintla: rechazada tras corrección: La ficha afirma que Mataquescuintla se sitúa entre los municipios más extensos dentro de la entidad departamental, lo que no está respaldado por la fuente.
+[2026-10-09T01:45:39.091Z]   ✗ cuilapa: rechazada tras corrección: La ficha describe la ubicación de Cuilapa de manera más detallada que la fuente original, pero no es una invención. Sin embargo, la frase 'En los documentos oficiales el municipio aparece identificado
+[2026-10-09T01:49:24.648Z]   ✓ monte-plata (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-09T01:50:18.085Z]   ✗ colotenango: fraseo calcado de san-ildefonso-ixtahuacan: "un municipio del departamento de huehuetenango en"
+[2026-10-09T01:50:50.561Z]   ✓ granadero-baigorria (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-09T01:54:05.212Z]   ✗ san-juan-y-martinez: rechazada tras corrección: La actividad tabacalera caracteriza el paisaje y la economía local, y la zona es conocida por su producción de tabaco, elemento importante del sector agrícola cubano; La organización administrativa cu
+[2026-10-09T01:55:36.710Z]   ✗ arena: fraseo calcado de union: "la provincia de piura en el norte"
+[2026-10-09T01:57:09.122Z]   ✗ ojocaliente: rechazada tras corrección: La ficha menciona 'referencia regional', 'identidad territorial', 'zona central del estado', 'eje norte-sur del territorio estatal', 'gestión local', 'documentos y mapas oficiales' sin respaldo en la 
+[2026-10-09T01:57:30.083Z]   ✗ departamento-caucete: es una división administrativa, no una localidad
+[2026-10-09T01:58:42.329Z]   ✗ artigas: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T01:59:38.978Z]   ✗ acaxochitlan: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-09T02:00:32.874Z]   ✗ hueyapan-de-ocampo: fraseo calcado de centla: "en la epoca prehispanica la zona estuvo"
+[2026-10-09T02:02:30.405Z]   ✗ el-asintal: fraseo calcado de tucuru: "es un municipio que forma parte del"
+[2026-10-09T02:04:04.095Z]   ✗ lota: rechazada tras corrección: La ficha menciona un desfile cívico-militar celebrado el 14 de septiembre de 2026, pero la fuente solo menciona que Lota vivió un desfile cívico-militar en septiembre de 2026, sin especificar la fecha
+[2026-10-09T02:06:32.053Z]   ✗ sonaguera: rechazada tras corrección: Se describe la economía de la localidad de manera más detallada que en el material de origen, incluyendo aspectos como la posición geográfica y la productividad de los suelos, que no están presentes e
+[2026-10-09T02:07:05.061Z]   ✗ comalcalco: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-10-09T02:10:21.459Z]   ✗ jatibonico: rechazada tras corrección: La ficha menciona que Jatibonico pertenece a la Provincia de Sancti Spíritus, lo cual no se menciona en el material de origen. La ficha también describe la historia y evolución de Jatibonico de manera
+[2026-10-09T02:13:04.191Z]   ✗ san-cristobal-totonicapan: rechazada tras corrección: La ficha describe la zona geográfica en la que se encuentra el municipio, lo que no está respaldado por el material de origen.; La ficha menciona que el municipio está reconocido como entidad municipa
+[2026-10-09T02:16:02.251Z]   ✓ bolivar-venezuela (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:23:43.618Z]   ✗ el-charco: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T02:24:26.530Z]   ✗ nieva: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-09T02:27:18.188Z]   ✗ pillaro: rechazada tras corrección: La ficha menciona que la población 'alberga' a 42.497 habitantes, lo que no es exactamente lo mismo que decir que la población es de 42.497 habitantes.; La ficha agrega detalles adicionales sobre la d
+[2026-10-09T02:29:24.902Z]   ✗ andahuaylas: rechazada tras corrección: La ficha menciona que la ciudad se ubica en la zona sur del país, lo que no se encuentra en el material de origen.
+[2026-10-09T02:31:36.342Z]   ✗ jinotepe: rechazada tras corrección: La ficha menciona la ubicación geográfica detallada de Jinotepe (al norte con Managua, al este con Masaya, al sur con Granada y al oeste con Rivas), lo que no se encuentra en el material de origen.; L
+[2026-10-09T02:34:19.160Z]   ✗ coyuca-de-catalan: rechazada tras corrección: Forma parte de la región de Tierra Caliente, conocida por su clima cálido y su relieve característico.; La proximidad al río Balsas ha condicionado históricamente la ocupación del territorio y el desa
+[2026-10-09T02:36:42.227Z]   ✓ tactic (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:37:16.703Z]   ✓ velasco-ibarra (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:38:40.401Z]   ✓ otavalo (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:39:28.501Z]   ✓ teupasenti (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:40:49.275Z]   ✗ huamachuco: rechazada tras corrección: La ficha menciona que Huamachuco se encuentra en el norte del país, lo que no está respaldado por el material de origen.
+[2026-10-09T02:42:02.010Z]   ✗ san-pedro-necta: rechazada tras corrección: La ficha describe la posición geográfica y el clima del municipio, lo que no se menciona en el material de origen; La ficha describe la normativa y la organización administrativa del municipio, lo que
+[2026-10-09T02:42:37.467Z]   ✗ ventanas: fraseo calcado de montecristi: "se situa en el centro de la"
+[2026-10-09T02:44:10.302Z]   ✗ el-tocuyo: rechazada tras corrección: La ficha menciona que El Tocuyo fue un punto de referencia administrativa y comercial para los asentamientos circundantes, lo que no está respaldado por la fuente.; La ficha menciona que la ciudad ha 
+[2026-10-09T02:44:30.931Z]   ✗ departamento-tupungato: es una división administrativa, no una localidad
+[2026-10-09T02:48:44.322Z]   ✓ rio-tambo (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:52:06.590Z]   ✗ matiguas: rechazada tras corrección: La ficha menciona la 'zona norte de Nicaragua', la 'estructura administrativa nicaragüense', la 'organización territorial propia de los municipios nicaragüenses', la 'comunidad de localidades que inte
+[2026-10-09T02:53:54.858Z]   ✗ chambas: rechazada tras corrección: La frase 'La combinación de una amplia extensión territorial y una población moderada caracteriza a Chambas dentro del contexto provincial.' es una invención que no está respaldada por la fuente.; La 
+[2026-10-09T02:54:48.322Z]   ✗ puebloviejo-ecuador: fraseo calcado de baba: "es uno de los trece cantones que"
+[2026-10-09T02:56:33.238Z]   ✗ segundo-frente: rechazada tras corrección: La ficha describe la ubicación geográfica de Piloto del Medio como 'situada en la Sierra Cristal', lo que no se menciona en el material de origen. La ficha también menciona que 'Piloto del Medio sirvi
+[2026-10-09T02:57:42.851Z]   ✓ jose-mariano-jimenez (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T02:59:03.378Z]   ✓ patzicia (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:04:50.722Z]   ✓ huetamo (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:07:11.237Z]   ✓ alto-baudo (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:08:01.543Z]   ✓ parque-cousino (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:10:24.724Z]   ✗ somoto: rechazada tras corrección: La ficha menciona que la Carretera Panamericana 'atraviesa el país de norte a sur', lo que no se encuentra en el material de origen.; La ficha afirma que 'La Carretera Panamericana que pasa por Somoto
+[2026-10-09T03:10:58.195Z]   ✗ cumbal: fraseo calcado de samaniego: "es un municipio del departamento de narino"
+[2026-10-09T03:15:36.038Z]   ✗ pedro-moncayo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T03:16:44.042Z]   ✓ cauquenes (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:17:43.546Z]   ✗ yajalon: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-10-09T03:18:40.309Z]   ✓ durazno (Uruguay) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:20:59.803Z]   ✗ santa-rosalia-de-camargo: rechazada tras corrección: La ficha describe a la localidad con detalles que no están en la fuente, como la concentración de autoridades municipales y la organización administrativa local, y la proximidad a los ríos favoreciend
+[2026-10-09T03:22:08.291Z]   ✗ tlahuapan: rechazada tras corrección: El material de origen no menciona la ubicación geográfica en el centro-oeste como una ventaja para la conexión con otras localidades de la región.; No se menciona la participación en iniciativas estat
+[2026-10-09T03:23:27.241Z]   ✗ mazamari: rechazada tras corrección: La ficha menciona que la población se asienta en la zona de transición entre la sierra y la selva, lo que no se menciona en el material de origen.; La ficha afirma que la presencia de la base de entre
+[2026-10-09T03:24:04.491Z]   ✓ exaltacion-de-la-cruz (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:25:32.703Z]   ✓ heroica-ciudad-de-tlaxiaco (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:27:42.495Z]   ✗ raxruha: rechazada tras corrección: Se menciona que 'Las distancias se expresan en kilómetros, lo que permite situar con precisión su localización dentro del territorio guatemalteco' sin que haya una fuente que lo respalde.; Se menciona
+[2026-10-09T03:28:18.794Z]   ✗ penjamo: inventa cuándo se anima la sala
+[2026-10-09T03:29:18.662Z]   ✓ huejutla-de-reyes (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:30:48.473Z]   ✓ zacualpa (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:32:03.002Z]   ✗ guiria: rechazada tras corrección: La ficha describe a la gente de la sala y su actividad, lo que no tiene fuente en el material de origen.; La ficha describe la distribución de la población, los barrios, la planificación urbana, los c
+[2026-10-09T03:32:37.403Z]   ✗ acevedo: fraseo calcado de palermo-colombia: "c segun la proyeccion del dane para"
+[2026-10-09T03:32:58.943Z]   ✗ departamento-san-carlos: es una división administrativa, no una localidad
+[2026-10-09T03:33:37.187Z]   ✓ matias-romero (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:34:30.098Z]   ✗ villamontes: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T03:35:46.576Z]   ✗ temascal: rechazada tras corrección: La ficha menciona que la ubicación de Temascal está en la zona de transición entre la Sierra Madre del Sur y la llanura del Istmo, lo que no se menciona en el material de origen.; La ficha describe a 
+[2026-10-09T03:36:20.614Z]   ✗ todos-santos-cuchumatan: fraseo calcado de san-mateo-ixtatan: "un municipio del departamento de huehuetenango situado"
+[2026-10-09T03:37:06.366Z]   ✓ la-troncal (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-09T03:44:58.758Z]   ✗ salcedo: fraseo calcado de villa-altagracia: "un municipio de la republica dominicana ubicado"
+[2026-10-09T03:50:21.625Z]   ✓ cordillera (Chile) — escribió NVIDIA, verificó Gemini
+[2026-10-09T03:55:03.236Z]   ✗ cananea: rechazada tras corrección: Se menciona 'la Heroica Ciudad de Cananea' en el párrafo 'about', pero en el material de origen solo se menciona 'la Heroica Ciudad de Cananea' en el contexto de 'su cabecera municipal y localidad más
+[2026-10-09T03:59:27.897Z]   ✓ parral (Chile) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:02:04.328Z]   ✓ placilla-de-penuelas (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-09T04:02:46.751Z]   ✓ naranjal (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-09T04:03:57.531Z]   ✓ nueva-santa-rosa (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-09T04:04:18.878Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-10-09T04:08:41.850Z]   ✓ las-cruces (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:13:01.879Z]   ✓ jose-maria-morelos (México) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:17:37.306Z]   ✓ palmares (Costa Rica) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:18:07.679Z]   ✓ guerrero (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T04:23:04.708Z]   ✗ nueva-rosita: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T04:27:26.949Z]   ✗ pichanaqui: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T04:30:14.039Z]   ✓ chilchota (México) — escribió NVIDIA, verificó Groq
+[2026-10-09T04:31:33.431Z]   ✗ guayaramerin: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T04:35:39.065Z]   ✓ nuevitas (Cuba) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:44:01.578Z]   ✓ melchor-muzquiz (México) — escribió NVIDIA, verificó Gemini
+[2026-10-09T04:48:56.901Z]   ✗ ciudad-melchor-muzquiz: rechazada tras corrección: La ficha menciona que el presidio se estableció en 1739, pero la fuente no proporciona esta información.; La ficha menciona que la localidad conserva su legado histórico y su posición estratégica en l
+[2026-10-09T04:57:42.737Z]   ✗ ancud: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-09T05:00:47.406Z]   ✓ la-mata-republica-dominicana (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-09T05:06:20.146Z]   ✗ juan-rodriguez-clara: fraseo calcado de tihuatlan: "es un municipio del estado de veracruz"
+[2026-10-09T05:11:25.077Z]   ✗ san-raymundo: rechazada tras corrección: El territorio de San Raymundo pertenece al departamento homónimo y se sitúa en la zona central del país, lo que le confiere una posición geográfica privilegiada dentro de la República.; Al estar en el
+[2026-10-09T05:15:47.751Z]   ✓ empalme (México) — escribió NVIDIA, verificó Gemini
+[2026-10-09T05:17:07.531Z]   ✓ la-arena (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-09T05:18:08.283Z]   ✗ cajibio: fraseo calcado de bolivar-venezuela: "sobre el nivel del mar el territorio"
+[2026-10-09T05:22:17.603Z]   ✓ bolivar-monagas (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-09T05:26:42.833Z]   ✓ contla-de-juan-cuamatzi (México) — escribió NVIDIA, verificó Gemini
+[2026-10-09T05:28:55.075Z]   ✓ itakyry (Paraguay) — escribió Groq, verificó NVIDIA
+[2026-10-09T05:33:41.070Z]   ✓ santos-michelena (Venezuela) — escribió NVIDIA, verificó Gemini
+[2026-10-09T05:38:13.957Z]   ✗ champerico: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 208 (line 1 column 209)
+[2026-10-09T05:39:24.606Z]   ✗ puriscal: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 747 (line 3 column 585)
+[2026-10-09T05:45:07.364Z]   ✓ achaguas (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-09T05:49:30.293Z]   ✓ hatillo-pr (Puerto Rico) — escribió NVIDIA, verificó Gemini
+[2026-10-09T05:51:36.004Z]   ✗ doctor-juan-eulogio-estigarribia: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-09T05:54:04.032Z]   ✓ caibarien (Cuba) — escribió NVIDIA, verificó Gemini
+[2026-10-09T05:58:26.909Z]   ✓ zacatelco (México) — escribió NVIDIA, verificó Gemini
+[2026-10-09T06:07:01.012Z]   ✗ viacha: rechazada tras corrección: Se menciona que la urbe se sitúa a una altitud media de 3 860 m sobre el nivel del mar, pero la fuente solo dice 's. n. m.' sin especificar que sea sobre el nivel del mar.; Se menciona que la ciudad d
+[2026-10-09T06:07:23.390Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-10-09T06:12:30.621Z]   ✓ funes (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-09T06:17:30.572Z]   ✓ ciudad-del-plata (Uruguay) — escribió NVIDIA, verificó Gemini
+[2026-10-09T06:18:15.069Z]   ✓ aguada (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-09T06:19:42.290Z]   ✓ heroica-ciudad-de-cananea (México) — escribió Groq, verificó NVIDIA
+[2026-10-09T06:20:26.893Z]   ✓ copan-ruinas (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-09T06:20:27.129Z] publicadas 50 salas · acumuladas 604 · quedan 2743 en cola
