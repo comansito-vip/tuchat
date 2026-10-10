@@ -617,7 +617,57 @@
   "ciudad-del-plata",
   "aguada",
   "heroica-ciudad-de-cananea",
-  "copan-ruinas"
+  "copan-ruinas",
+  "del-nayar",
+  "artigas",
+  "el-charco",
+  "ventanas",
+  "somoto",
+  "pedro-moncayo",
+  "mazamari",
+  "acevedo",
+  "villamontes",
+  "todos-santos-cuchumatan",
+  "salcedo",
+  "cananea",
+  "ancud",
+  "juan-rodriguez-clara",
+  "cajibio",
+  "champerico",
+  "puriscal",
+  "bolivar-aragua",
+  "san-juan-cancuc",
+  "dibulla",
+  "guira-de-melena",
+  "lampa",
+  "villaflores",
+  "paracho-de-verduzco",
+  "progreso",
+  "progreso-de-castro",
+  "villa-gonzalez",
+  "bagua-grande",
+  "alausi",
+  "cajabamba",
+  "manuel-doblado",
+  "villa-allende",
+  "dagua",
+  "chemax",
+  "san-miguel-chicaj",
+  "chicomuselo",
+  "taxisco",
+  "lepaera",
+  "ario",
+  "muisne",
+  "santiago-juxtlahuaca",
+  "coatepec-harinas",
+  "piendamo",
+  "zacatepec",
+  "osa",
+  "berriozabal",
+  "san-carlos-sija",
+  "graneros",
+  "guayubin",
+  "sensuntepeque"
  ],
  "descartadas": [
   {
@@ -6569,6 +6619,356 @@
    "slug": "charagua-pueblo",
    "razon": "sin fuente utilizable",
    "fecha": "2026-10-09"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "chenalho",
+   "razon": "fraseo calcado de cintalapa: \"es uno de los 124 municipios que\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "sonaguera",
+   "razon": "rechazada tras corrección: La ficha menciona que la zona 'concentra la actividad agrícola del territorio', lo que no está respaldado por la fuente.; La ficha afirma que la producción de naranjas 'es reconocida a nivel nacional'",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-cristobal-totonicapan",
+   "razon": "fraseo calcado de san-sebastian-huehuetenango: \"la republica de guatemala forma parte de\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "nieva",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "pillaro",
+   "razon": "rechazada tras corrección: La ficha indica que hay una única parroquia urbana llamada 'Píllaro Ciudad Nueva', pero el material de origen indica que hay dos parroquias urbanas: Píllaro y Ciudad Nueva.; La ficha afirma que hay oc",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "andahuaylas",
+   "razon": "rechazada tras corrección: Se inventa que Andahuaylas es el núcleo urbano principal de la zona; Se inventa que concentra la sede de la municipalidad; Se inventa que es centro de referencia para la gestión pública; Se inventa qu",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "jinotepe",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "coyuca-de-catalan",
+   "razon": "rechazada tras corrección: La ficha menciona el clima cálido característico de la región, la vida cotidiana y la economía local, lo que no está respaldado por el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "huamachuco",
+   "razon": "rechazada tras corrección: La ficha incluye información adicional no respaldada por la fuente, como 'Al ser sede de la capital provincial, Huamachuco desempeña funciones administrativas correspondientes al nivel distrital y pro",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-pedro-necta",
+   "razon": "rechazada tras corrección: Se incluye información adicional sobre la organización territorial del país, el registro oficial de municipios guatemaltecos y la denominación oficial, que no se encuentran en el material de origen.; ",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "el-tocuyo",
+   "razon": "rechazada tras corrección: La ficha menciona que 'Su ubicación en la zona centroccidental la convirtió en un referente para los movimientos de expansión territorial de la época', lo que no se encuentra en el material de origen;",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "departamento-tupungato",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "matiguas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "chambas",
+   "razon": "rechazada tras corrección: La ficha afirma que es el segundo más extenso 'solo detrás de Ciego de Ávila', pero el material de origen no especifica cuál es el municipio que ocupa el primer lugar.; La frase 'por encima de la mayo",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "puebloviejo-ecuador",
+   "razon": "fraseo calcado de baba: \"el alcalde elegido por sufragio directo en\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "segundo-frente",
+   "razon": "rechazada tras corrección: La ficha menciona que la unidad formó parte de la estructura militar que operó en la zona oriental del país durante los últimos meses del conflicto, lo que no está respaldado por el material de origen",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "cumbal",
+   "razon": "fraseo calcado de palermo-colombia: \"dentro de su jurisdiccion estan los centros\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "yajalon",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "santa-rosalia-de-camargo",
+   "razon": "rechazada tras corrección: La ficha describe la función administrativa y económica de la ciudad y su relevancia para la región, lo que no está respaldado por la fuente original.; La ficha menciona la presencia de los ríos favor",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tlahuapan",
+   "razon": "rechazada tras corrección: La ficha menciona que la población se dedica principalmente a actividades agrícolas y ganaderas, típicas de la región centro-oeste de Puebla, lo que no se encuentra en el material de origen.; La ficha",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "raxruha",
+   "razon": "rechazada tras corrección: La frase 'Al encontrarse a esa distancia de Cobán, la cabecera departamental, y a 330 kilómetros de la capital nacional, Raxruhá mantiene una conexión geográfica con los principales centros administra",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "penjamo",
+   "razon": "rechazada tras corrección: La ficha menciona que 'se ubica en la zona suroeste de la entidad y funciona como centro administrativo del municipio', lo que no se encuentra en el material de origen. También se menciona 'la presenc",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "guiria",
+   "razon": "rechazada tras corrección: La ficha menciona la ubicación geográfica de Güiria en la zona oriental del país, lo que no se menciona en el material de origen; La ficha describe la infraestructura de la ciudad, incluyendo oficinas",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "departamento-san-carlos",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "temascal",
+   "razon": "rechazada tras corrección: Se inventan datos no presentes en la fuente sobre documentos oficiales, dependencias del gobierno municipal, el origen de la denominación de la presa y registros del estado de Oaxaca.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "nueva-rosita",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "pichanaqui",
+   "razon": "rechazada tras corrección: La ficha menciona la 'Selva Alta' como ubicación geográfica de Pichanaqui, lo que no se encuentra en el material de origen.; La ficha describe la economía local, incluyendo la producción de café y fru",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "guayaramerin",
+   "razon": "rechazada tras corrección: Invención: El material de origen no menciona el clima tropical ni las lluvias.; Invención: El material de origen no menciona actividades de navegación ni pesca artesanal.; Invención: El material de or",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "ciudad-melchor-muzquiz",
+   "razon": "fraseo calcado de jacona: \"cabecera del municipio homonimo situado en el\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-raymundo",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación central como una ventaja para la conexión con vías de comunicación y centros urbanos, lo que no se menciona en el material de origen.; La ficha atribuye un 'reconocimien",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "doctor-juan-eulogio-estigarribia",
+   "razon": "rechazada tras corrección: Invención: El texto afirma que la producción de alimentos genera empleo y dinamiza la actividad comercial local, datos que no figuran en el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "viacha",
+   "razon": "rechazada tras corrección: La frase 'lo que la sitúa en la zona alta del territorio boliviano' no está respaldada por el material de origen.; La frase 'La combinación de estas infraestructuras de transporte permite el desplazam",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tumbala",
+   "razon": "fraseo calcado de tila: \"uno de los 124 municipios que integran\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-pedro-jocopilas",
+   "razon": "rechazada tras corrección: Invención: Se afirma que es un municipio del altiplano guatemalteco y que su territorio se organiza en pequeñas poblaciones dispersas, datos que no figuran en el material de origen.; Invención: Se men",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "cariari",
+   "razon": "fraseo calcado de naranjal: \"la economia local se sustenta principalmente en\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "jalapa-mexico",
+   "razon": "fraseo calcado de jalpa-de-mendez: \"es un municipio del estado de tabasco\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "patia",
+   "razon": "rechazada tras corrección: Uso del término 'total cantonal' para referirse a la población del Departamento del Cauca, dato que no figura en la fuente.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "obispos",
+   "razon": "rechazada tras corrección: El texto 'constituyen una de sus actividades principales' y 'Estas actividades agrícolas aportan al desarrollo económico de la zona' no está respaldado por el material de origen, que solo menciona que",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "chilibre",
+   "razon": "rechazada tras corrección: La frase 'lo que la sitúa en la zona periférica de la capital' no está respaldada por el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "gaspar-hernandez",
+   "razon": "rechazada tras corrección: Se afirma que el municipio recibe la influencia del clima tropical marítimo, dato climático que no figura en el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "el-oro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "nauta",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "bilwi",
+   "razon": "rechazada tras corrección: El nombre propio 'Bilwi' y las explicaciones sobre su uso cotidiano u oficial no figuran en la fuente de origen.; Afirmaciones sobre la infraestructura (centros de salud, establecimientos educativos) ",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "bochil",
+   "razon": "rechazada tras corrección: El material de origen no menciona que Chiapas esté en el sureste/sur de México.; El material de origen no menciona que el gobernador Raymundo E. Enríquez 'impulsó su organización administrativa'.; Afi",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "acaponeta",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "comapa",
+   "razon": "fraseo calcado de la-llagosta: \"lo que lo convierte en uno de\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "salvatierra",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tecuala",
+   "razon": "rechazada tras corrección: La ficha menciona que la población se sitúa en la zona interior del estado, aunque forma parte del entorno demográfico de la región costera del Pacífico, lo cual no se menciona en el material de orige",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "satipo",
+   "razon": "fraseo calcado de huaral: \"es una ciudad peruana que funciona como\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "juncos",
+   "razon": "rechazada tras corrección: Nombre propio incorrecto: la ficha dice 'Complejo Deportivo Josué Elevidito González' cuando la fuente indica 'Complejo Deportivo Josué Elevadito González'.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "la-macarena",
+   "razon": "rechazada tras corrección: Añade que el río Caño Cristales es 'conocido por sus colores', información que no aparece en el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "guadalupe-victoria-durango",
+   "razon": "rechazada tras corrección: Afirma que Guadalupe Victoria es un municipio de Durango nombrado en honor al personaje histórico, información que no aparece en el material de origen (el texto fuente solo describe la biografía del p",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tocache",
+   "razon": "rechazada tras corrección: La intro indica que Tocache está en la 'provincia de San Martín', cuando la fuente especifica que pertenece a la provincia homónima (provincia de Tocache) del departamento de San Martín.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "guayama",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "huitzuco-de-los-figueroa",
+   "razon": "rechazada tras corrección: La ficha describe la organización de la gestión pública y la coordinación de actividades dentro del territorio municipal, lo que no se menciona en el material de origen; La ficha describe la topografí",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "general-heliodoro-castillo",
+   "razon": "rechazada tras corrección: La ficha ubica el municipio en el 'sureste de Guerrero', mientras que la fuente especifica que está en el 'sureste de México'.; Afirma que Chilpancingo es 'la capital del estado', dato que no aparece ",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "huehuetan",
+   "razon": "rechazada tras corrección: Incluye una URL específica (http://www.huehuetan.gob.mx/) que no figura en el material de origen.",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "tomatlan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-juan-cotzal",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-miguel-acatan",
+   "razon": "fraseo calcado de cuilco: \"un municipio del departamento de huehuetenango ubicado\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "salinas-departamento-de-canelones",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "altamirano",
+   "razon": "fraseo calcado de simojovel: \"censo de poblacion y vivienda 2020 la\"",
+   "fecha": "2026-10-10"
+  },
+  {
+   "slug": "viru",
+   "razon": "fraseo calcado de chota: \"la capital tanto del distrito como de\"",
+   "fecha": "2026-10-10"
   }
  ]
 }
