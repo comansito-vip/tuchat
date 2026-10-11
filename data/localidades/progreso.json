@@ -667,7 +667,57 @@
   "san-carlos-sija",
   "graneros",
   "guayubin",
-  "sensuntepeque"
+  "sensuntepeque",
+  "matiguas",
+  "santa-rosalia-de-camargo",
+  "tlahuapan",
+  "raxruha",
+  "temascal",
+  "nueva-rosita",
+  "guayaramerin",
+  "ciudad-melchor-muzquiz",
+  "san-raymundo",
+  "doctor-juan-eulogio-estigarribia",
+  "viacha",
+  "san-pedro-jocopilas",
+  "cariari",
+  "patia",
+  "obispos",
+  "chilibre",
+  "gaspar-hernandez",
+  "el-oro",
+  "bochil",
+  "salvatierra",
+  "tecuala",
+  "juncos",
+  "tocache",
+  "guayama",
+  "salinas-departamento-de-canelones",
+  "altamirano",
+  "dorado",
+  "santa-cruz-verapaz",
+  "tempoal",
+  "simon-planas",
+  "champoton",
+  "guamote",
+  "san-andres-itzapa",
+  "tarimoro",
+  "guama",
+  "temascaltepec-de-gonzalez",
+  "talanga",
+  "san-bernardo-del-viento",
+  "coamo",
+  "naranjito-ecuador",
+  "ocotal",
+  "canete",
+  "mala",
+  "centenario",
+  "chietla",
+  "san-lazaro",
+  "la-blanca",
+  "atiquizaya",
+  "majagual",
+  "san-jose-poaquil"
  ],
  "descartadas": [
   {
@@ -6969,6 +7019,306 @@
    "slug": "viru",
    "razon": "fraseo calcado de chota: \"la capital tanto del distrito como de\"",
    "fecha": "2026-10-10"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "nieva",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles; aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "jinotepe",
+   "razon": "fraseo calcado de tocoa: \"facilitando el transito de personas y mercancias\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "san-pedro-necta",
+   "razon": "rechazada tras corrección: La ficha incluye información que no figura en el material de origen: relieve montañoso, clima templado/fresco, actividades agrícolas, programas de desarrollo impulsados por la gobernación e iniciativa",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "puebloviejo-ecuador",
+   "razon": "fraseo calcado de baba: \"es uno de los trece cantones que\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "segundo-frente",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "cumbal",
+   "razon": "fraseo calcado de samaniego: \"es un municipio del departamento de narino\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "yajalon",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "penjamo",
+   "razon": "rechazada tras corrección: Se afirman hechos que el material de origen no menciona, como que su actividad comercial atrae a consumidores de municipios vecinos o que la ciudad cuenta con infraestructura de servicios.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "guiria",
+   "razon": "rechazada tras corrección: Menciona el nombre propio 'Instituto Nacional de Estadística', el cual no aparece en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "departamento-san-carlos",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "pichanaqui",
+   "razon": "rechazada tras corrección: El texto afirma que 'Pichanaqui sigue creciendo lentamente', información sobre su evolución demográfica que no figura en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tumbala",
+   "razon": "fraseo calcado de tila: \"de los 124 municipios que integran el\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "jalapa-mexico",
+   "razon": "fraseo calcado de jalpa-de-mendez: \"es un municipio del estado de tabasco\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "nauta",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "bilwi",
+   "razon": "rechazada tras corrección: Bilwi es un municipio y una ciudad de Nicaragua; Bilwi es un municipio y una ciudad de la República de Nicaragua. Se sitúa en la zona norte del país, en la costa del mar Caribe; Al combinar la condici",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "acaponeta",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "comapa",
+   "razon": "fraseo calcado de san-juan-sacatepequez: \"de guatemala su nombre proviene del nahuatl\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "satipo",
+   "razon": "rechazada tras corrección: Menciona el 'río Satipo', dato (río/nombre propio) que no aparece en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "la-macarena",
+   "razon": "fraseo calcado de quesada-costa-rica: \"antes de la colonizacion la zona estuvo\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "guadalupe-victoria-durango",
+   "razon": "rechazada tras corrección: La afirmación 'periodo en el que se consolidó la institucionalidad de la naciente república' no está respaldada por el material de origen.; El texto indica que Guadalupe Victoria es un municipio de Du",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "huitzuco-de-los-figueroa",
+   "razon": "rechazada tras corrección: La ficha afirma que está 'ubicado en la zona norte del país', lo cual es falso y no está en la fuente (la fuente indica que pertenece a la 'región Norte del estado').",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "general-heliodoro-castillo",
+   "razon": "controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "huehuetan",
+   "razon": "fraseo calcado de bochil: \"ademas wikimedia commons alberga una categoria multimedia\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tomatlan",
+   "razon": "rechazada tras corrección: La ficha afirma que el topónimo proviene del náhuatl, dato que no consta en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "san-juan-cotzal",
+   "razon": "fraseo calcado de piendamo: \"la poblacion se reparte entre la cabecera\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "san-miguel-acatan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "viru",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "azogues",
+   "razon": "fraseo calcado de samborondon: \"en el centro sur de la region\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "camiri",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "huarmaca",
+   "razon": "rechazada tras corrección: Se inventa que Huarmaca alberga la administración local, concentra servicios públicos básicos, la sede del gobierno local, que es una comunidad estable, rural o que contribuye a la diversidad cultural",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "catarina",
+   "razon": "fraseo calcado de comitancillo: \"es un municipio del departamento de san\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "miahuatlan-de-porfirio-diaz",
+   "razon": "rechazada tras corrección: El material de origen no menciona datos sobre el relieve (montañas y valles) ni sobre la actividad económica (comercio, servicios, agricultura de subsistencia).",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "gigante",
+   "razon": "fraseo calcado de palermo-colombia: \"es un municipio colombiano situado en el\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "la-concordia-ecuador",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "chancay",
+   "razon": "rechazada tras corrección: Añade que la cifra de población proviene de un 'censo', dato que no figura en la fuente.; Menciona la 'costa del Pacífico', un nombre propio/geográfico que no aparece en el material de origen.; Incluy",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "challapata",
+   "razon": "fraseo calcado de san-jose-villa-de-allende: \"concentra la administracion local y sirve como\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tetla-de-la-solidaridad",
+   "razon": "fraseo calcado de camotan: \"municipal actua como centro de coordinacion para\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "otumba",
+   "razon": "rechazada tras corrección: Afirma que el municipio se ubica en una «zona de relieve bajo» y en la «zona norte del Estado de México», datos geográficos no presentes en el material de origen.; Añade explicaciones sobre competenci",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tangancicuaro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "vinces",
+   "razon": "fraseo calcado de samborondon: \"la quinta urbe mas grande de la\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "camoapa",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "cuencame",
+   "razon": "rechazada tras corrección: Invención de datos no respaldados por la fuente: 'identidad regional propia', 'concentra la administración local', 'punto de referencia para los pobladores', 'posición estratégica', 'aspectos económic",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tenosique-de-pino-suarez",
+   "razon": "rechazada tras corrección: La afirmación de que el río Usumacinta es 'una de las principales arterias fluviales del sureste mexicano' no figura en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "ocuilan",
+   "razon": "fraseo calcado de jilotepec-estado-de-mexico: \"es uno de los 125 municipios del\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "macuelizo",
+   "razon": "rechazada tras corrección: Aparece la cifra de 'quince' departamentos de Nicaragua, dato que no está en el material de origen.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "curacavi",
+   "razon": "rechazada tras corrección: Error en el nombre propio del límite de la comuna: la ficha dice 'Maipo' mientras que el material de origen indica 'Maipú'.",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "la-huacana",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "huacana",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "yauco",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "tepeji-del-rio-de-ocampo",
+   "razon": "fraseo calcado de momostenango: \"el nivel del mar el nombre proviene\"",
+   "fecha": "2026-10-11"
+  },
+  {
+   "slug": "caldono",
+   "razon": "fraseo calcado de dibulla: \"dentro de su jurisdiccion se encuentran centros\"",
+   "fecha": "2026-10-11"
   }
  ]
 }

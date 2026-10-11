@@ -2789,3 +2789,116 @@ Groq: HT
 [2026-10-10T13:30:05.749Z]   ✓ guayubin (República Dominicana) — escribió Groq, verificó NVIDIA-Gemma
 [2026-10-10T13:42:51.026Z]   ✓ sensuntepeque (El Salvador) — escribió Groq, verificó Gemini
 [2026-10-10T13:42:51.140Z] publicadas 50 salas · acumuladas 654 · quedan 2677 en cola
+[2026-10-11T01:30:05.549Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-11T01:30:05.561Z] cola: 2667 · lote de hoy: 50
+[2026-10-11T01:30:07.097Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-11T01:30:28.836Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-11T01:30:49.469Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-11T01:43:52.436Z]   ✗ nieva: controles de calidad: cifra de 5+ dígitos sin separador de miles; aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-10-11T01:56:48.115Z]   ✗ jinotepe: fraseo calcado de tocoa: "facilitando el transito de personas y mercancias"
+[2026-10-11T02:09:35.373Z]   ✗ san-pedro-necta: rechazada tras corrección: La ficha incluye información que no figura en el material de origen: relieve montañoso, clima templado/fresco, actividades agrícolas, programas de desarrollo impulsados por la gobernación e iniciativa
+[2026-10-11T02:22:15.501Z]   ✓ matiguas (Nicaragua) — escribió Groq, verificó Gemini
+[2026-10-11T02:28:52.598Z]   ✗ puebloviejo-ecuador: fraseo calcado de baba: "es uno de los trece cantones que"
+[2026-10-11T02:35:28.652Z]   ✗ segundo-frente: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-11T02:48:16.244Z]   ✗ cumbal: fraseo calcado de samaniego: "es un municipio del departamento de narino"
+[2026-10-11T03:00:36.450Z]   ✗ yajalon: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-11T03:12:32.443Z]   ✓ santa-rosalia-de-camargo (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T03:19:12.400Z]   ✓ tlahuapan (México) — escribió Groq, verificó Gemini
+[2026-10-11T03:30:59.931Z]   ✓ raxruha (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T03:43:51.735Z]   ✗ penjamo: rechazada tras corrección: Se afirman hechos que el material de origen no menciona, como que su actividad comercial atrae a consumidores de municipios vecinos o que la ciudad cuenta con infraestructura de servicios.
+[2026-10-11T03:56:48.638Z]   ✗ guiria: rechazada tras corrección: Menciona el nombre propio 'Instituto Nacional de Estadística', el cual no aparece en el material de origen.
+[2026-10-11T03:57:10.059Z]   ✗ departamento-san-carlos: es una división administrativa, no una localidad
+[2026-10-11T04:08:13.408Z]   ✓ temascal (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T04:08:34.380Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-10-11T04:15:11.644Z]   ✓ nueva-rosita (México) — escribió Groq, verificó Gemini
+[2026-10-11T04:27:58.987Z]   ✗ pichanaqui: rechazada tras corrección: El texto afirma que 'Pichanaqui sigue creciendo lentamente', información sobre su evolución demográfica que no figura en el material de origen.
+[2026-10-11T04:40:52.293Z]   ✓ guayaramerin (Bolivia) — escribió Groq, verificó Gemini
+[2026-10-11T04:54:46.991Z]   ✓ ciudad-melchor-muzquiz (México) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:01:31.457Z]   ✓ san-raymundo (Guatemala) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:08:10.664Z]   ✓ doctor-juan-eulogio-estigarribia (Paraguay) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:14:52.979Z]   ✓ viacha (Bolivia) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:15:16.250Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-10-11T05:22:18.072Z]   ✗ tumbala: fraseo calcado de tila: "de los 124 municipios que integran el"
+[2026-10-11T05:28:58.159Z]   ✓ san-pedro-jocopilas (Guatemala) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:29:19.124Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-10-11T05:35:59.112Z]   ✓ cariari (Costa Rica) — escribió Groq, verificó OpenRouter
+[2026-10-11T05:48:12.878Z]   ✗ jalapa-mexico: fraseo calcado de jalpa-de-mendez: "es un municipio del estado de tabasco"
+[2026-10-11T05:52:32.955Z]   ✓ patia (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T05:59:10.726Z]   ✓ obispos (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-10-11T06:06:00.841Z]   ✓ chilibre (Panamá) — escribió Groq, verificó OpenRouter
+[2026-10-11T06:12:35.690Z]   ✓ gaspar-hernandez (República Dominicana) — escribió Groq, verificó OpenRouter
+[2026-10-11T06:19:25.601Z]   ✓ el-oro (México) — escribió Groq, verificó OpenRouter
+[2026-10-11T06:26:51.002Z]   ✗ nauta: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-11T06:40:13.846Z]   ✗ bilwi: rechazada tras corrección: Bilwi es un municipio y una ciudad de Nicaragua; Bilwi es un municipio y una ciudad de la República de Nicaragua. Se sitúa en la zona norte del país, en la costa del mar Caribe; Al combinar la condici
+[2026-10-11T06:51:05.797Z]   ✓ bochil (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T07:02:11.581Z]   ✗ acaponeta: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-10-11T07:12:49.914Z]   ✗ comapa: fraseo calcado de san-juan-sacatepequez: "de guatemala su nombre proviene del nahuatl"
+[2026-10-11T07:25:37.856Z]   ✓ salvatierra (México) — escribió Groq, verificó Gemini
+[2026-10-11T07:37:12.367Z]   ✓ tecuala (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T07:49:32.673Z]   ✗ satipo: rechazada tras corrección: Menciona el 'río Satipo', dato (río/nombre propio) que no aparece en el material de origen.
+[2026-10-11T08:01:27.255Z]   ✓ juncos (Puerto Rico) — escribió Groq, verificó Gemini
+[2026-10-11T08:13:21.285Z]   ✗ la-macarena: fraseo calcado de quesada-costa-rica: "antes de la colonizacion la zona estuvo"
+[2026-10-11T08:26:08.535Z]   ✗ guadalupe-victoria-durango: rechazada tras corrección: La afirmación 'periodo en el que se consolidó la institucionalidad de la naciente república' no está respaldada por el material de origen.; El texto indica que Guadalupe Victoria es un municipio de Du
+[2026-10-11T08:38:55.291Z]   ✓ tocache (Perú) — escribió Groq, verificó Gemini
+[2026-10-11T08:49:18.719Z]   ✓ guayama (Puerto Rico) — escribió Groq, verificó Gemini
+[2026-10-11T09:02:04.227Z]   ✗ huitzuco-de-los-figueroa: rechazada tras corrección: La ficha afirma que está 'ubicado en la zona norte del país', lo cual es falso y no está en la fuente (la fuente indica que pertenece a la 'región Norte del estado').
+[2026-10-11T09:15:11.313Z]   ✗ general-heliodoro-castillo: controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-10-11T09:15:32.125Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-10-11T09:18:45.569Z]   ✗ huehuetan: fraseo calcado de bochil: "ademas wikimedia commons alberga una categoria multimedia"
+[2026-10-11T09:29:33.969Z]   ✗ tomatlan: rechazada tras corrección: La ficha afirma que el topónimo proviene del náhuatl, dato que no consta en el material de origen.
+[2026-10-11T09:37:35.291Z]   ✗ san-juan-cotzal: fraseo calcado de piendamo: "la poblacion se reparte entre la cabecera"
+[2026-10-11T09:44:24.815Z]   ✗ san-miguel-acatan: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-11T09:57:11.041Z]   ✓ salinas-departamento-de-canelones (Uruguay) — escribió Groq, verificó Gemini
+[2026-10-11T10:06:29.169Z]   ✓ altamirano (México) — escribió Groq, verificó NVIDIA
+[2026-10-11T10:21:06.915Z]   ✗ viru: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-11T10:32:10.882Z]   ✓ dorado (Puerto Rico) — escribió Groq, verificó Gemini
+[2026-10-11T10:44:56.609Z]   ✓ santa-cruz-verapaz (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-11T10:51:37.738Z]   ✓ tempoal (México) — escribió Groq, verificó Gemini
+[2026-10-11T10:58:36.099Z]   ✓ simon-planas (Venezuela) — escribió Groq, verificó Gemini
+[2026-10-11T11:12:21.116Z]   ✓ champoton (México) — escribió Groq, verificó Gemini
+[2026-10-11T11:25:10.440Z]   ✓ guamote (Ecuador) — escribió Groq, verificó Gemini
+[2026-10-11T11:31:50.268Z]   ✗ azogues: fraseo calcado de samborondon: "en el centro sur de la region"
+[2026-10-11T11:43:22.444Z]   ✗ camiri: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-11T11:56:14.267Z]   ✓ san-andres-itzapa (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-11T12:09:10.296Z]   ✓ tarimoro (México) — escribió Groq, verificó Gemini
+[2026-10-11T12:20:10.457Z]   ✗ huarmaca: rechazada tras corrección: Se inventa que Huarmaca alberga la administración local, concentra servicios públicos básicos, la sede del gobierno local, que es una comunidad estable, rural o que contribuye a la diversidad cultural
+[2026-10-11T12:26:43.483Z]   ✗ catarina: fraseo calcado de comitancillo: "es un municipio del departamento de san"
+[2026-10-11T12:39:38.784Z]   ✗ miahuatlan-de-porfirio-diaz: rechazada tras corrección: El material de origen no menciona datos sobre el relieve (montañas y valles) ni sobre la actividad económica (comercio, servicios, agricultura de subsistencia).
+[2026-10-11T12:52:27.270Z]   ✓ guama (Cuba) — escribió Groq, verificó Gemini
+[2026-10-11T12:59:13.484Z]   ✗ gigante: fraseo calcado de palermo-colombia: "es un municipio colombiano situado en el"
+[2026-10-11T13:05:59.876Z]   ✗ la-concordia-ecuador: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-11T13:17:12.302Z]   ✗ chancay: rechazada tras corrección: Añade que la cifra de población proviene de un 'censo', dato que no figura en la fuente.; Menciona la 'costa del Pacífico', un nombre propio/geográfico que no aparece en el material de origen.; Incluy
+[2026-10-11T13:30:13.203Z]   ✗ challapata: fraseo calcado de san-jose-villa-de-allende: "concentra la administracion local y sirve como"
+[2026-10-11T13:42:59.842Z]   ✗ tetla-de-la-solidaridad: fraseo calcado de camotan: "municipal actua como centro de coordinacion para"
+[2026-10-11T13:55:46.695Z]   ✗ otumba: rechazada tras corrección: Afirma que el municipio se ubica en una «zona de relieve bajo» y en la «zona norte del Estado de México», datos geográficos no presentes en el material de origen.; Añade explicaciones sobre competenci
+[2026-10-11T13:56:07.732Z]   ✗ tangancicuaro: es una división administrativa, no una localidad
+[2026-10-11T13:56:28.506Z]   ✗ soteapan: sin fuente utilizable
+[2026-10-11T14:10:12.785Z]   ✗ vinces: fraseo calcado de samborondon: "la quinta urbe mas grande de la"
+[2026-10-11T14:22:57.802Z]   ✓ temascaltepec-de-gonzalez (México) — escribió Groq, verificó Gemini
+[2026-10-11T14:33:44.425Z]   ✓ talanga (Honduras) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-11T14:44:27.493Z]   ✗ camoapa: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-11T14:55:01.042Z]   ✗ cuencame: rechazada tras corrección: Invención de datos no respaldados por la fuente: 'identidad regional propia', 'concentra la administración local', 'punto de referencia para los pobladores', 'posición estratégica', 'aspectos económic
+[2026-10-11T15:07:57.829Z]   ✗ tenosique-de-pino-suarez: rechazada tras corrección: La afirmación de que el río Usumacinta es 'una de las principales arterias fluviales del sureste mexicano' no figura en el material de origen.
+[2026-10-11T15:14:36.233Z]   ✓ san-bernardo-del-viento (Colombia) — escribió Groq, verificó Gemini
+[2026-10-11T15:28:06.480Z]   ✓ coamo (Puerto Rico) — escribió Groq, verificó Gemini
+[2026-10-11T15:34:56.800Z]   ✓ naranjito-ecuador (Ecuador) — escribió Groq, verificó Gemini
+[2026-10-11T15:47:42.577Z]   ✓ ocotal (Nicaragua) — escribió Groq, verificó Gemini
+[2026-10-11T15:54:18.953Z]   ✓ canete (Chile) — escribió Groq, verificó Gemini
+[2026-10-11T15:58:33.273Z]   ✗ ocuilan: fraseo calcado de jilotepec-estado-de-mexico: "es uno de los 125 municipios del"
+[2026-10-11T16:11:27.534Z]   ✓ mala (Perú) — escribió Groq, verificó Gemini
+[2026-10-11T16:18:03.727Z]   ✓ centenario (Argentina) — escribió Groq, verificó Gemini
+[2026-10-11T16:30:52.781Z]   ✓ chietla (México) — escribió Groq, verificó Gemini
+[2026-10-11T16:43:49.442Z]   ✗ macuelizo: rechazada tras corrección: Aparece la cifra de 'quince' departamentos de Nicaragua, dato que no está en el material de origen.
+[2026-10-11T16:50:33.120Z]   ✓ san-lazaro (Chile) — escribió Groq, verificó Gemini
+[2026-10-11T17:03:26.213Z]   ✗ curacavi: rechazada tras corrección: Error en el nombre propio del límite de la comuna: la ficha dice 'Maipo' mientras que el material de origen indica 'Maipú'.
+[2026-10-11T17:16:37.797Z]   ✓ la-blanca (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-11T17:29:21.586Z]   ✗ la-huacana: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-11T17:43:49.110Z]   ✗ huacana: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-11T17:50:27.801Z]   ✓ atiquizaya (El Salvador) — escribió Groq, verificó Gemini
+[2026-10-11T17:50:48.779Z]   ✗ chignautla: sin fuente utilizable
+[2026-10-11T17:57:20.889Z]   ✗ yauco: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-11T18:11:09.789Z]   ✗ tepeji-del-rio-de-ocampo: fraseo calcado de momostenango: "el nivel del mar el nombre proviene"
+[2026-10-11T18:25:12.728Z]   ✗ caldono: fraseo calcado de dibulla: "dentro de su jurisdiccion se encuentran centros"
+[2026-10-11T18:31:56.261Z]   ✓ majagual (Colombia) — escribió Groq, verificó Gemini
+[2026-10-11T18:38:47.985Z]   ✓ san-jose-poaquil (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-11T18:38:48.316Z] publicadas 50 salas · acumuladas 704 · quedan 2617 en cola
