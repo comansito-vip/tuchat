@@ -2978,3 +2978,136 @@ Groq: HT
 [2026-10-12T12:25:10.326Z]   ✗ las-mercedes: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-10-12T12:25:10.341Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-10-12T12:25:11.180Z] publicadas 26 salas · acumuladas 730 · quedan 2583 en cola
+[2026-10-13T01:30:05.852Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-13T01:30:05.863Z] cola: 2577 · lote de hoy: 50
+[2026-10-13T01:30:07.109Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-13T01:30:28.880Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-13T01:30:49.637Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-13T01:43:55.215Z]   ✗ yajalon: rechazada tras corrección: Coordenada errónea: indica '17°06′ de latitud sur' cuando la fuente indica 'al sur 17°06' de latitud' (latitud norte).; Rango de temperaturas mínimas incorrecto: afirma que oscilan entre 9 °C y 21 °C,
+[2026-10-13T01:44:16.229Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-10-13T01:44:39.511Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-10-13T01:45:00.223Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-10-13T01:57:20.820Z]   ✗ jalapa-mexico: fraseo calcado de jalpa-de-mendez: "es un municipio del estado de tabasco"
+[2026-10-13T02:08:39.466Z]   ✓ nauta (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T02:09:00.181Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-10-13T02:19:53.780Z]   ✗ san-juan-cotzal: rechazada tras corrección: La ficha indica que los pobladores fueron presionados para cultivar café en fincas de los funcionarios de gobierno, mientras que la fuente indica que fueron presionados para cortar café.
+[2026-10-13T02:28:52.703Z]   ✗ san-miguel-acatan: rechazada tras corrección: La ficha afirma que la delimitación territorial está establecida por la legislación guatemalteca, dato que no figura en el material de origen.
+[2026-10-13T02:35:29.293Z]   ✗ viru: fraseo calcado de huaral: "es una ciudad peruana que funciona como"
+[2026-10-13T02:42:53.980Z]   ✗ miahuatlan-de-porfirio-diaz: fraseo calcado de challapata: "concentra la administracion local y sirve de"
+[2026-10-13T02:49:38.674Z]   ✗ gigante: controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)
+[2026-10-13T02:56:19.769Z]   ✓ chancay (Perú) — escribió Groq, verificó OpenRouter
+[2026-10-13T02:56:40.792Z]   ✗ tangancicuaro: es una división administrativa, no una localidad
+[2026-10-13T02:57:01.594Z]   ✗ soteapan: sin fuente utilizable
+[2026-10-13T03:06:27.516Z]   ✗ camoapa: rechazada tras corrección: El municipio de Comalapa ha sido escrito erróneamente como Comarapa
+[2026-10-13T03:19:23.884Z]   ✗ cuencame: fraseo calcado de julian-augusto-saldivar: "lo que le otorga una posicion estrategica"
+[2026-10-13T03:32:34.021Z]   ✓ ocuilan (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T03:44:29.260Z]   ✗ macuelizo: rechazada tras corrección: La ficha indica que Macuelizo pertenece al departamento de Santa Bárbara, Honduras, mientras que el material de origen indica que es un municipio del departamento de Nueva Segovia en Nicaragua.
+[2026-10-13T03:57:34.104Z]   ✗ curacavi: fraseo calcado de buin: "una comuna y ciudad de la region"
+[2026-10-13T04:06:28.731Z]   ✗ la-huacana: rechazada tras corrección: La ficha afirma que la localidad se sitúa en el sur de Michoacán y que tiene un relieve moderado, datos que no aparecen en el material de origen.
+[2026-10-13T04:06:49.648Z]   ✗ chignautla: sin fuente utilizable
+[2026-10-13T04:18:09.315Z]   ✗ tepeji-del-rio-de-ocampo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T04:28:18.935Z]   ✗ san-juan-evangelista: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-10-13T04:31:57.938Z]   ✓ timbio (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T04:39:47.109Z]   ✗ san-martin-sacatepequez: rechazada tras corrección: Invención: el texto afirma que la ubicación brinda una 'posición estratégica entre la capital departamental y la capital nacional', dato no presente en la fuente.; Invención: menciona que 'los servici
+[2026-10-13T04:44:55.074Z]   ✓ caripe (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T04:52:48.335Z]   ✗ julio-antonio-mella: rechazada tras corrección: Confusión de entidad: la ficha describe a la persona (Julio Antonio Mella) en lugar de a la localidad (municipio de Julio Antonio Mella, Santiago de Cuba).
+[2026-10-13T04:56:55.435Z]   ✗ villa-riva: fraseo calcado de yaguate: "de noviembre de 2022 el municipio registro"
+[2026-10-13T05:03:48.570Z]   ✓ medio-atrato (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T05:08:32.948Z]   ✗ chimbarongo: fraseo calcado de graneros: "ubicada en la region del libertador general"
+[2026-10-13T05:12:30.191Z]   ✗ puyo: fraseo calcado de chone: "ciudad mas poblada del pais y la"
+[2026-10-13T05:19:37.227Z]   ✗ nicoya: rechazada tras corrección: La ficha incluye una frase textual de la web municipal ('esta semana estamos colocando las vigas...') que no es un dato histórico o geográfico, sino una actualización temporal irrelevante para una fic
+[2026-10-13T05:27:02.177Z]   ✓ arcelia (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T05:34:30.037Z]   ✓ urdaneta-ecuador (Ecuador) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T05:46:05.658Z]   ✗ guna-yala: rechazada tras corrección: La comarca está reconocida como entidad política dentro de la República de Panamá y conserva la organización sociocultural de sus habitantes, quienes mantienen sus tradiciones y formas de vida en el t
+[2026-10-13T05:54:19.796Z]   ✓ las-mercedes (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:03:57.324Z]   ✗ la-oroya: rechazada tras corrección: La ficha menciona que la ciudad es un enlace hacia el 'noreste' del país, mientras que la fuente indica rutas separadas hacia el 'Norte y hacia el Este
+[2026-10-13T06:13:38.422Z]   ✓ taguasco (Cuba) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:17:37.563Z]   ✗ rioverde: fraseo calcado de atacames: "es un canton de la provincia de"
+[2026-10-13T06:21:40.203Z]   ✓ camuy (Puerto Rico) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:25:32.491Z]   ✓ ticul (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:34:30.422Z]   ✓ olaya-herrera (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:41:34.313Z]   ✗ puerto-escondido-colombia: rechazada tras corrección: Invención: El material de origen no menciona que el festival del bullerengue se celebre 'cada año' ni que sea una 'celebración que reúne a la comunidad cada año'.
+[2026-10-13T06:45:10.194Z]   ✓ villarino (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T06:48:56.521Z]   ✗ departamento-malargue: fraseo calcado de cotorro: "ubicado en el extremo sur de la"
+[2026-10-13T06:52:56.827Z]   ✗ silvia: fraseo calcado de cajibio: "de energia electrica los presta la compania"
+[2026-10-13T07:02:03.359Z]   ✓ bruzual-anzoategui (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T07:09:10.820Z]   ✓ pocoata (Bolivia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T07:16:49.810Z]   ✗ putla-villa-de-guerrero: rechazada tras corrección: La ficha afirma que la localidad actúa como 'centro administrativo', 'centro de referencia', 'núcleo organizativo' y que concentra 'la sede del gobierno local y las dependencias administrativas', dato
+[2026-10-13T07:20:38.688Z]   ✓ santa-rita-paraguay (Paraguay) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T07:29:14.377Z]   ✗ inza: rechazada tras corrección: El texto afirma que los jesuitas iniciaron la construcción de una iglesia en 1737 y que 'ocho años después, en 1783', el asentamiento recibió el nombre de Inzá. La diferencia entre 1737 y 1783 es de 4
+[2026-10-13T07:36:15.848Z]   ✓ tinaco (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T07:44:19.254Z]   ✗ nueva-italia-de-ruiz: rechazada tras corrección: La ficha afirma que la población implica una 'mayor disponibilidad de servicios y una mayor participación en los procesos locales', dato que no figura en el material de origen.; La ficha afirma que la
+[2026-10-13T07:51:46.533Z]   ✗ raimondi: rechazada tras corrección: La fecha (1833-1912) no aparece en el material de origen; El nombre de la cátedra (Geografía y Ciencias Naturales) no aparece en el material de origen; La obra 'Atlas Geográfico del Perú' no aparece e
+[2026-10-13T07:59:03.209Z]   ✗ ojuelos-de-jalisco: fraseo calcado de jilotepec-estado-de-mexico: "es uno de los 125 municipios del"
+[2026-10-13T08:07:04.357Z]   ✓ aguacaliente (Costa Rica) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T08:14:01.982Z]   ✗ nagarote: fraseo calcado de colina-chile: "de la zona el origen del nombre"
+[2026-10-13T08:22:11.986Z]   ✓ curanilahue (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T08:30:37.679Z]   ✗ actopan-mexico: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T08:37:39.780Z]   ✓ chiche (Guatemala) — escribió Groq, verificó OpenRouter
+[2026-10-13T08:44:55.345Z]   ✗ monsefu: rechazada tras corrección: La cifra de población 24 567 no utiliza el punto separador de miles obligatorio (24.567)
+[2026-10-13T08:52:58.238Z]   ✓ panamericano (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:01:38.300Z]   ✗ jose-antonio-paez: rechazada tras corrección: El material de origen describe a una persona (José Antonio Páez Herrera), pero no menciona ninguna localidad, población o zona que lleve su nombre.
+[2026-10-13T09:08:51.150Z]   ✓ ortega (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:13:53.222Z]   ✓ fajardo (Puerto Rico) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:21:47.569Z]   ✓ huixtla (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:29:19.290Z]   ✗ cabaiguan: rechazada tras corrección: El texto añade interpretaciones y datos no presentes en la fuente como que el territorio 'combina áreas urbanas y rurales', que tiene una 'posición estratégica' o que su extensión refleja su 'particip
+[2026-10-13T09:37:00.617Z]   ✓ guapiles (Costa Rica) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:45:12.362Z]   ✓ nuevo-progreso (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T09:52:32.485Z]   ✗ angel-albino-corzo: fraseo calcado de villa-corzo: "que forma parte de la region de"
+[2026-10-13T10:04:51.457Z]   ✓ san-carlos-alzatate (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T10:17:49.411Z]   ✓ quintero (Chile) — escribió Groq, verificó Gemini
+[2026-10-13T10:21:46.161Z]   ✓ pichucalco (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T10:34:48.957Z]   ✗ hecelchakan: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-13T10:42:31.301Z]   ✓ caicara-del-orinoco (Venezuela) — escribió Groq, verificó Gemini
+[2026-10-13T10:55:21.654Z]   ✓ bayaguana (República Dominicana) — escribió Groq, verificó Gemini
+[2026-10-13T11:09:11.111Z]   ✓ san-german (Puerto Rico) — escribió Groq, verificó Gemini
+[2026-10-13T11:22:07.890Z]   ✗ santacruz: rechazada tras corrección: La afirmación de que el municipio 'constituye una zona de transición entre las áreas del interior y la zona occidental del departamento' no está respaldada por el material de origen.
+[2026-10-13T11:29:04.708Z]   ✗ turicato: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-13T11:33:15.771Z]   ✓ san-lucas-toliman (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T11:41:37.083Z]   ✗ ferrenafe: rechazada tras corrección: Menciona a Chiclayo y la capital Lambayeque como las ciudades más pobladas, datos que no aparecen en el material de origen.; Atribuye la actividad económica a la agricultura, la agroindustria y el com
+[2026-10-13T11:51:47.720Z]   ✗ paiwas: rechazada tras corrección: El texto incluye información no respaldada por la fuente sobre la organización política de Nicaragua (dos áreas autónomas, costa atlántica, jurisdicción de la autoridad autonómica regional) y detalles
+[2026-10-13T12:02:19.564Z]   ✗ tlatlaya: rechazada tras corrección: La frase 'La combinación de su extensión, su ubicación remota y su herencia cultural hacen de Tlatlaya un municipio singular dentro del Estado de México' es un cierre motivacional/superlativo hueco pr
+[2026-10-13T12:07:48.351Z]   ✗ la-mana: fraseo calcado de la-troncal: "es la cabecera cantonal del canton la"
+[2026-10-13T12:15:41.961Z]   ✗ chapa-de-mota: rechazada tras corrección: El texto afirma que fue fundado por los 'otomanes', cuando la fuente indica que fueron los 'Otomíes
+[2026-10-13T12:19:40.919Z]   ✓ amatenango-de-la-frontera (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T12:28:35.987Z]   ✓ calakmul (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T12:36:45.330Z]   ✓ santa-catarina-mita (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T12:48:14.225Z]   ✓ el-palmar (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T12:53:12.186Z]   ✗ nueva-imperial: fraseo calcado de el-seibo: "su origen se remonta a la epoca"
+[2026-10-13T13:02:48.961Z]   ✓ jalpatagua (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T13:10:17.816Z]   ✓ vilcun (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T13:14:58.546Z]   ✓ huautla-de-jimenez (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T13:26:48.790Z]   ✓ delicias- (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T13:36:21.114Z]   ✗ veinticuatro-de-mayo: rechazada tras corrección: El apellido del alcalde aparece como 'Cedeño Barberón' en la ficha, pero en la fuente es 'Cedeño Barberán'
+[2026-10-13T13:49:42.771Z]   ✗ canatlan: fraseo calcado de ixtlahuacan-de-los-membrillos: "es un municipio ubicado en el centro"
+[2026-10-13T13:53:44.200Z]   ✗ macuspana: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-13T13:54:17.193Z]   ✗ yurecuaro: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-13T14:06:07.055Z]   ✗ neira: fraseo calcado de olaya-herrera: "dentro de su jurisdiccion se encuentran los"
+[2026-10-13T14:15:01.938Z]   ✗ escarcega: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T14:24:09.321Z]   ✓ monjas (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T14:33:05.865Z]   ✓ rio-bravo-guatemala (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T14:33:27.240Z]   ✗ departamento-albardon: es una división administrativa, no una localidad
+[2026-10-13T14:41:07.688Z]   ✓ cuauhtemoc-mexico (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T14:50:21.936Z]   ✗ apaseo-el-grande: fraseo calcado de comitan-de-dominguez: "es una ciudad mexicana situada en el"
+[2026-10-13T14:57:10.305Z]   ✗ larrainzar: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-10-13T15:03:56.176Z]   ✗ changuinola: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T15:09:53.518Z]   ✓ saucillo (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T15:16:52.324Z]   ✗ pando: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T15:23:29.333Z]   ✗ tancitaro: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T15:30:11.948Z]   ✓ sabana-grande-de-boya (República Dominicana) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T15:39:50.882Z]   ✗ chanchamayo-departamento-de-junin: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-13T15:48:40.407Z]   ✗ san-juan-ixcoy: controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)
+[2026-10-13T15:56:38.033Z]   ✗ cambita-garabitos: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T16:07:29.873Z]   ✗ capitan-bermudez: rechazada tras corrección: Invención: el texto afirma que la capital provincial es 'la ciudad de Santa Fe' (la fuente solo dice 'capital provincial').; Invención: se añaden interpretaciones no presentes en la fuente como 'posic
+[2026-10-13T16:10:16.301Z]   ✓ san-antonio-ilotenango (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-13T16:16:48.816Z]   ✗ nopalucan: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T16:24:35.395Z]   ✗ jonuta: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T16:34:47.699Z]   ✗ escuinapa-de-hidalgo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T16:41:22.462Z]   ✗ roldan: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-13T16:44:32.141Z]   ✓ guaranda-ecuador (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-13T16:46:19.182Z]   ✗ felipe-carrillo-puerto: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-10-13T16:47:47.963Z]   ✗ melchor-de-mencos: rechazada tras corrección: La fecha de fundación, el 26 de abril de 1962, marca el inicio oficial de la entidad municipal.; La fecha de fundación, el 26 de abril de 1962, marca el inicio oficial de la entidad municipal.; En aqu
+[2026-10-13T16:51:19.472Z]   ✗ tepetlaoxtoc: rechazada tras corrección: La actividad agrícola y la elaboración de pulque siguen siendo rasgos característicos de la zona; El nombre de la comunidad honra a San Sebastián, patrón de la fiesta local
+[2026-10-13T16:54:04.970Z]   ✗ chalatenango: rechazada tras corrección: La ficha describe la zona urbana como 'donde se concentra la administración municipal', lo que no se menciona en el material de origen.; La ficha afirma que 'la mayoría de la superficie está destinada
+[2026-10-13T16:56:04.539Z]   ✓ pacanga-departamento-de-la-libertad (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-13T16:56:04.693Z] publicadas 50 salas · acumuladas 780 · quedan 2527 en cola

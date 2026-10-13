@@ -743,7 +743,57 @@
   "san-juan-bautista-paraguay",
   "rosamorada",
   "aragua-de-barcelona",
-  "tulum"
+  "tulum",
+  "nauta",
+  "chancay",
+  "ocuilan",
+  "timbio",
+  "caripe",
+  "medio-atrato",
+  "arcelia",
+  "urdaneta-ecuador",
+  "las-mercedes",
+  "taguasco",
+  "camuy",
+  "ticul",
+  "olaya-herrera",
+  "villarino",
+  "bruzual-anzoategui",
+  "pocoata",
+  "santa-rita-paraguay",
+  "tinaco",
+  "aguacaliente",
+  "curanilahue",
+  "chiche",
+  "panamericano",
+  "ortega",
+  "fajardo",
+  "huixtla",
+  "guapiles",
+  "nuevo-progreso",
+  "san-carlos-alzatate",
+  "quintero",
+  "pichucalco",
+  "caicara-del-orinoco",
+  "bayaguana",
+  "san-german",
+  "san-lucas-toliman",
+  "amatenango-de-la-frontera",
+  "calakmul",
+  "santa-catarina-mita",
+  "el-palmar",
+  "jalpatagua",
+  "vilcun",
+  "huautla-de-jimenez",
+  "delicias-",
+  "monjas",
+  "rio-bravo-guatemala",
+  "cuauhtemoc-mexico",
+  "saucillo",
+  "sabana-grande-de-boya",
+  "san-antonio-ilotenango",
+  "guaranda-ecuador",
+  "pacanga-departamento-de-la-libertad"
  ],
  "descartadas": [
   {
@@ -7575,6 +7625,406 @@
    "slug": "las-mercedes",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-10-12"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "yajalon",
+   "razon": "rechazada tras corrección: Coordenada errónea: indica '17°06′ de latitud sur' cuando la fuente indica 'al sur 17°06' de latitud' (latitud norte).; Rango de temperaturas mínimas incorrecto: afirma que oscilan entre 9 °C y 21 °C,",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "jalapa-mexico",
+   "razon": "fraseo calcado de jalpa-de-mendez: \"es un municipio del estado de tabasco\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "san-juan-cotzal",
+   "razon": "rechazada tras corrección: La ficha indica que los pobladores fueron presionados para cultivar café en fincas de los funcionarios de gobierno, mientras que la fuente indica que fueron presionados para cortar café.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "san-miguel-acatan",
+   "razon": "rechazada tras corrección: La ficha afirma que la delimitación territorial está establecida por la legislación guatemalteca, dato que no figura en el material de origen.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "viru",
+   "razon": "fraseo calcado de huaral: \"es una ciudad peruana que funciona como\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "miahuatlan-de-porfirio-diaz",
+   "razon": "fraseo calcado de challapata: \"concentra la administracion local y sirve de\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "gigante",
+   "razon": "controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tangancicuaro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "camoapa",
+   "razon": "rechazada tras corrección: El municipio de Comalapa ha sido escrito erróneamente como Comarapa",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "cuencame",
+   "razon": "fraseo calcado de julian-augusto-saldivar: \"lo que le otorga una posicion estrategica\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "macuelizo",
+   "razon": "rechazada tras corrección: La ficha indica que Macuelizo pertenece al departamento de Santa Bárbara, Honduras, mientras que el material de origen indica que es un municipio del departamento de Nueva Segovia en Nicaragua.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "curacavi",
+   "razon": "fraseo calcado de buin: \"una comuna y ciudad de la region\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "la-huacana",
+   "razon": "rechazada tras corrección: La ficha afirma que la localidad se sitúa en el sur de Michoacán y que tiene un relieve moderado, datos que no aparecen en el material de origen.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tepeji-del-rio-de-ocampo",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "san-juan-evangelista",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "san-martin-sacatepequez",
+   "razon": "rechazada tras corrección: Invención: el texto afirma que la ubicación brinda una 'posición estratégica entre la capital departamental y la capital nacional', dato no presente en la fuente.; Invención: menciona que 'los servici",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "julio-antonio-mella",
+   "razon": "rechazada tras corrección: Confusión de entidad: la ficha describe a la persona (Julio Antonio Mella) en lugar de a la localidad (municipio de Julio Antonio Mella, Santiago de Cuba).",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "villa-riva",
+   "razon": "fraseo calcado de yaguate: \"de noviembre de 2022 el municipio registro\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "chimbarongo",
+   "razon": "fraseo calcado de graneros: \"ubicada en la region del libertador general\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "puyo",
+   "razon": "fraseo calcado de chone: \"ciudad mas poblada del pais y la\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "nicoya",
+   "razon": "rechazada tras corrección: La ficha incluye una frase textual de la web municipal ('esta semana estamos colocando las vigas...') que no es un dato histórico o geográfico, sino una actualización temporal irrelevante para una fic",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "guna-yala",
+   "razon": "rechazada tras corrección: La comarca está reconocida como entidad política dentro de la República de Panamá y conserva la organización sociocultural de sus habitantes, quienes mantienen sus tradiciones y formas de vida en el t",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "la-oroya",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad es un enlace hacia el 'noreste' del país, mientras que la fuente indica rutas separadas hacia el 'Norte y hacia el Este",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "rioverde",
+   "razon": "fraseo calcado de atacames: \"es un canton de la provincia de\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "puerto-escondido-colombia",
+   "razon": "rechazada tras corrección: Invención: El material de origen no menciona que el festival del bullerengue se celebre 'cada año' ni que sea una 'celebración que reúne a la comunidad cada año'.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "departamento-malargue",
+   "razon": "fraseo calcado de cotorro: \"ubicado en el extremo sur de la\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "silvia",
+   "razon": "fraseo calcado de cajibio: \"de energia electrica los presta la compania\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "putla-villa-de-guerrero",
+   "razon": "rechazada tras corrección: La ficha afirma que la localidad actúa como 'centro administrativo', 'centro de referencia', 'núcleo organizativo' y que concentra 'la sede del gobierno local y las dependencias administrativas', dato",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "inza",
+   "razon": "rechazada tras corrección: El texto afirma que los jesuitas iniciaron la construcción de una iglesia en 1737 y que 'ocho años después, en 1783', el asentamiento recibió el nombre de Inzá. La diferencia entre 1737 y 1783 es de 4",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "nueva-italia-de-ruiz",
+   "razon": "rechazada tras corrección: La ficha afirma que la población implica una 'mayor disponibilidad de servicios y una mayor participación en los procesos locales', dato que no figura en el material de origen.; La ficha afirma que la",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "raimondi",
+   "razon": "rechazada tras corrección: La fecha (1833-1912) no aparece en el material de origen; El nombre de la cátedra (Geografía y Ciencias Naturales) no aparece en el material de origen; La obra 'Atlas Geográfico del Perú' no aparece e",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "ojuelos-de-jalisco",
+   "razon": "fraseo calcado de jilotepec-estado-de-mexico: \"es uno de los 125 municipios del\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "nagarote",
+   "razon": "fraseo calcado de colina-chile: \"de la zona el origen del nombre\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "actopan-mexico",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "monsefu",
+   "razon": "rechazada tras corrección: La cifra de población 24 567 no utiliza el punto separador de miles obligatorio (24.567)",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "jose-antonio-paez",
+   "razon": "rechazada tras corrección: El material de origen describe a una persona (José Antonio Páez Herrera), pero no menciona ninguna localidad, población o zona que lleve su nombre.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "cabaiguan",
+   "razon": "rechazada tras corrección: El texto añade interpretaciones y datos no presentes en la fuente como que el territorio 'combina áreas urbanas y rurales', que tiene una 'posición estratégica' o que su extensión refleja su 'particip",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "angel-albino-corzo",
+   "razon": "fraseo calcado de villa-corzo: \"que forma parte de la region de\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "hecelchakan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "santacruz",
+   "razon": "rechazada tras corrección: La afirmación de que el municipio 'constituye una zona de transición entre las áreas del interior y la zona occidental del departamento' no está respaldada por el material de origen.",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "turicato",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "ferrenafe",
+   "razon": "rechazada tras corrección: Menciona a Chiclayo y la capital Lambayeque como las ciudades más pobladas, datos que no aparecen en el material de origen.; Atribuye la actividad económica a la agricultura, la agroindustria y el com",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "paiwas",
+   "razon": "rechazada tras corrección: El texto incluye información no respaldada por la fuente sobre la organización política de Nicaragua (dos áreas autónomas, costa atlántica, jurisdicción de la autoridad autonómica regional) y detalles",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tlatlaya",
+   "razon": "rechazada tras corrección: La frase 'La combinación de su extensión, su ubicación remota y su herencia cultural hacen de Tlatlaya un municipio singular dentro del Estado de México' es un cierre motivacional/superlativo hueco pr",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "la-mana",
+   "razon": "fraseo calcado de la-troncal: \"es la cabecera cantonal del canton la\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "chapa-de-mota",
+   "razon": "rechazada tras corrección: El texto afirma que fue fundado por los 'otomanes', cuando la fuente indica que fueron los 'Otomíes",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "nueva-imperial",
+   "razon": "fraseo calcado de el-seibo: \"su origen se remonta a la epoca\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "veinticuatro-de-mayo",
+   "razon": "rechazada tras corrección: El apellido del alcalde aparece como 'Cedeño Barberón' en la ficha, pero en la fuente es 'Cedeño Barberán'",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "canatlan",
+   "razon": "fraseo calcado de ixtlahuacan-de-los-membrillos: \"es un municipio ubicado en el centro\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "macuspana",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "yurecuaro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "neira",
+   "razon": "fraseo calcado de olaya-herrera: \"dentro de su jurisdiccion se encuentran los\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "escarcega",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "departamento-albardon",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "apaseo-el-grande",
+   "razon": "fraseo calcado de comitan-de-dominguez: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "larrainzar",
+   "razon": "fraseo calcado de tila: \"uno de los 124 municipios que integran\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "changuinola",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "pando",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tancitaro",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "chanchamayo-departamento-de-junin",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "san-juan-ixcoy",
+   "razon": "controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "cambita-garabitos",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "capitan-bermudez",
+   "razon": "rechazada tras corrección: Invención: el texto afirma que la capital provincial es 'la ciudad de Santa Fe' (la fuente solo dice 'capital provincial').; Invención: se añaden interpretaciones no presentes en la fuente como 'posic",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "nopalucan",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "jonuta",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "escuinapa-de-hidalgo",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "roldan",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "felipe-carrillo-puerto",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "melchor-de-mencos",
+   "razon": "rechazada tras corrección: La fecha de fundación, el 26 de abril de 1962, marca el inicio oficial de la entidad municipal.; La fecha de fundación, el 26 de abril de 1962, marca el inicio oficial de la entidad municipal.; En aqu",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "tepetlaoxtoc",
+   "razon": "rechazada tras corrección: La actividad agrícola y la elaboración de pulque siguen siendo rasgos característicos de la zona; El nombre de la comunidad honra a San Sebastián, patrón de la fiesta local",
+   "fecha": "2026-10-13"
+  },
+  {
+   "slug": "chalatenango",
+   "razon": "rechazada tras corrección: La ficha describe la zona urbana como 'donde se concentra la administración municipal', lo que no se menciona en el material de origen.; La ficha afirma que 'la mayoría de la superficie está destinada",
+   "fecha": "2026-10-13"
   }
  ]
 }
