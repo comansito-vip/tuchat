@@ -23205,5 +23205,1489 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Pacanga, uno de los tres distritos de la provincia de Chepén en La Libertad, destaca por su historia preincaica y su ubicación en la Costa Norte del Perú.",
     "aboutTitle": "Pacanga: historia preincaica y la Huaca de las Estacas",
     "about": "Pacanga es uno de los tres distritos que integran la provincia de Chepén, en el departamento de La Libertad, en la Costa Norte del Perú. El nombre del distrito proviene de dos versiones populares: una sugiere que un molinero llamado Thompson, incapaz de pronunciar “Villa Pampas”, lo redujo a “Panhas‑Cangas”; la otra explica que los primeros agricultores llamaban “pacas” a los sacos y “angas” a las canastas con asas, y la fusión de ambos términos dio origen a Pacanga.\n\nEl territorio ha sido habitado desde hace aproximadamente 8 000 años y conserva vestigios de culturas preincaicas del II Intermedio Cultural, entre los que destacan la Huaca de las Estacas, el Cerro Colorado y la figura de la Sacerdotisa de Moro, relacionadas con la tradición mochica de los siglos XIII al XV. Asimismo, las civilizaciones Lambayeque y Chimú dejaron su huella, y durante el periodo inca Pacanga formó parte del Chinchaysuyo entre los siglos XIII y XVI d.C."
+  },
+  {
+    "slug": "san-juan-evangelista",
+    "name": "San Juan Evangelista",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 164,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "acayucan",
+      "isla",
+      "jaltipan-de-morelos",
+      "cosoleacaque",
+      "minatitlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Juan Evangelista, municipio veracruzano, celebra del 18 al 20 de marzo sus fiestas religiosas en honor a San José, su patrono.",
+    "aboutTitle": "Fiestas de San José y San Juan Evangelista en Veracruz",
+    "about": "San Juan Evangelista es un municipio del estado de Veracruz, ubicado en la zona Olmeca al sur de la entidad y con categoría semiurbana. La zona Olmeca, al sur del Estado, caracteriza al municipio. Sus coordenadas son 17°53’ de latitud norte y 95°08’ de longitud oeste, y se sitúa a 20 m sobre el nivel del mar. Forma parte de los 212 municipios de Veracruz y su cabecera es la localidad homónima. Limita al norte con Acayucan, al oeste con Juan Rodríguez Clara, al sur con Jesús Carranza y el estado de Oaxaca, y al este con Sayula de Alemán. El clima es cálido con lluvias regulares en temporada. Según el censo de 2020, el municipio cuenta con 245 localidades. Las fiestas religiosas se celebran del 18 al 20 de marzo en honor a San José, patrono de la congregación de Juanita, y del 24 al 31 de diciembre en honor a San Juan Evangelista, patrono del pueblo."
+  },
+  {
+    "slug": "san-martin-sacatepequez",
+    "name": "San Martín Sacatepéquez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "solola",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Martín Sacatepéquez, municipio del Quetzaltenango a 24 km de la ciudad, alberga 20.712 habitantes y está a 2.469 m.s.n.m., cerca de la Laguna de Chicabal.",
+    "aboutTitle": "San Martín Sacatepéquez y la Laguna de Chicabal",
+    "about": "San Martín Sacatepéquez, antes llamado San Martín Chile Verde, es un municipio del departamento de Quetzaltenango, en la República de Guatemala. Se sitúa a 24 km de la ciudad de Quetzaltenango y a 221 km de la Ciudad de Guatemala. Según el último censo, la población total asciende a 20.712 habitantes y la superficie del municipio cubre 100 km². La cabecera municipal se encuentra a 2.469 metros sobre el nivel del mar, lo que sitúa al núcleo urbano en una zona de considerable altitud. A unos 3,5 km al sur de la cabecera se halla la Laguna de Chicabal, un cuerpo de agua que posee gran valor cultural y ecológico para la comunidad local. La combinación de su ubicación, la altitud y la proximidad a la laguna caracteriza al municipio dentro del contexto del departamento. Estos elementos hacen de San Martín Sacatepéquez un territorio con identidad propia dentro de Quetzaltenango."
+  },
+  {
+    "slug": "julio-antonio-mella",
+    "name": "Julio Antonio Mella",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 232,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Santiago de Cuba",
+    "regionSlug": "provincia-de-santiago-de-cuba",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santiago-de-cuba",
+      "holguin",
+      "bayamo",
+      "guantanamo",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Julio Antonio Mella, municipio cubano de 33.667 habitantes en Santiago de Cuba, lleva el nombre del periodista y revolucionario asesinado en Ciudad de México.",
+    "aboutTitle": "Julio Antonio Mella, pueblo cubano y homónimo del líder revolucionario",
+    "about": "Julio Antonio Mella es una localidad situada en la provincia de Santiago de Cuba, en la zona oriental de la isla. Según los últimos datos disponibles, cuenta con 33.667 habitantes, lo que la sitúa como un municipio de tamaño medio dentro de la región. El nombre del municipio rinde homenaje al periodista, dirigente estudiantil y revolucionario comunista cubano Julio Antonio Mella, cuya figura histórica se mantiene viva precisamente a través de la denominación del pueblo. Mella, también conocido como Julio Antonio Mella McPartland, nació en Cuba y desarrolló una intensa actividad periodística y política antes de ser asesinado en la Ciudad de México. Fue uno de los fundadores y principales líderes del Partido Socialista Popular, organización que jugó un papel destacado en la historia política cubana. Su trayectoria, marcada por la defensa de los derechos estudiantiles y la lucha contra el imperialismo, y su trágico final, lo han convertido en un símbolo perdurable del movimiento revolucionario cubano del siglo XX."
+  },
+  {
+    "slug": "villa-riva",
+    "name": "Villa Riva",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Duarte",
+    "regionSlug": "duarte",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "la-vega",
+      "moca",
+      "santo-domingo-este",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Riva, municipio de Duarte en República Dominicana, adoptó su nombre el 12 de abril de 1890 y se extiende sobre 323 km² a orillas del río Yuna.",
+    "aboutTitle": "Villa Riva y el río Yuna: historia y territorio",
+    "about": "Villa Riva es un municipio de la República Dominicana situado en la provincia de Duarte. Limita al este con la Cordillera Septentrional y se asienta a orillas del río Yuna, lo que le confiere una posición estratégica en la zona oriental del país.\n\nA lo largo de su historia la población ha recibido varios nombres, entre ellos Río Abajo, Almacén del Yuna y San Antonio del Yuna, antes de que el 12 de abril de 1890 el Congreso Nacional le otorgara el nombre de Villa Riva en honor a Gregorio Riva, impulsor del ferrocarril Sánchez‑La Vega. El municipio dejó de formar parte de La Vega el 18 de junio de 1945 mediante la Ley No. 945 y pasó a integrarse en la provincia de Duarte. Con una superficie de 323 km², es uno de los más extensos de la Región del Cibao y, según el Censo Nacional de 2022, cuenta con 36 066 habitantes, de los cuales 18 678 son hombres y 17 388 mujeres."
+  },
+  {
+    "slug": "chimbarongo",
+    "name": "Chimbarongo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "curico",
+      "rancagua",
+      "talca",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chimbarongo, ciudad de la región de O'Higgins a 155 km al sur de Santiago, destaca por el embalse Convento Viejo, finalizado en 2008.",
+    "aboutTitle": "Embalse Convento Viejo y la niebla del Tinguiririca en Chimbarongo",
+    "about": "Chimbarongo es una ciudad y comuna de la provincia de Colchagua, en la región del Libertador General Bernardo O'Higgins, Chile. Se sitúa justo al sur del río Tinguiririca, a 155 km al sur de Santiago, en la zona central del país. Forma parte del distrito electoral N.º 16 y de la 8.ª circunscripción senatorial de O'Higgins. El nombre proviene del quechua \"chimpa\" (el otro lado) y del mapudungun \"rongo\" (niebla), interpretado como “niebla del otro lado” o “lugar entre nieblas”. Al sur de la ciudad se encuentra el embalse Convento Viejo, cuya construcción se completó en 2008 y amplió la zona de inundación de 700 a 3.000 hectáreas. La presencia inca en el valle central dejó huellas como la pirca, sustituyendo la quincha, y tradiciones como las ojotas y las chupallas. En la época colonial, Diego de Almagro y más tarde Pedro de Valdivia pasaron por la zona, aunque la fundación del asentamiento se dio como centro poblado entre Santiago, Chillán y Concepción."
+  },
+  {
+    "slug": "nicoya",
+    "name": "Nicoya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 198,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Guanacaste",
+    "regionSlug": "provincia-de-guanacaste",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "liberia",
+      "puntarenas",
+      "costa-rica",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nicoya, con 33.316 habitantes, es la primera ciudad colonial de Costa Rica y alberga la iglesia más antigua conservada del país.",
+    "aboutTitle": "Nicoya: la ciudad colonial a orillas del río Tempisque",
+    "about": "Nicoya es el distrito primero y ciudad cabecera del cantón homónimo, situada en la provincia de Guanacaste, Costa Rica. Con una población de 33.316 habitantes, se extiende sobre 310,66 km² y se ubica a 123 metros sobre el nivel del mar. La localidad está en la llanura hidrográfica baja del río Tempisque, en el centro geométrico de la península de Nicoya, y constituye el principal centro cultural de la región.\n\nFue la primera ciudad colonial de Costa Rica y conserva la iglesia de San Blas, la más antigua del país, erigida en torno a 1544. El nombre Nicoya proviene del náhuatl Nekokiaw, que significa \"el agua de ambos lados\". Según la página oficial del municipio, se está ejecutando un proyecto de ₡288 millones para asfaltar rutas cantonales en Nosara, una inversión que mejora la conectividad del cantón."
+  },
+  {
+    "slug": "guna-yala",
+    "name": "Guna Yala",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Panamá",
+    "parentSlug": "panama",
+    "provincia": "Guna Yala",
+    "regionSlug": "guna-yala",
+    "channels": [
+      "panama",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "panama",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guna Yala, comarca indígena panameña conocida antes como San Blas, tiene su capital en Gairgirgordub y limita con el mar Caribe al norte.",
+    "aboutTitle": "Guna Yala: la comarca de San Blas y sus fronteras caribeñas",
+    "about": "Guna Yala es una comarca indígena, habitada por la etnia guna. Hasta 1998 la región se llamó San Blas y, tras esa fecha, adoptó el nombre de Kuna Yala hasta 2010, cuando se oficializó el actual topónimo. Entre los nombres tradicionales que utilizan sus habitantes aparecen Dulenega, Yarsuid y Duleyala, variantes que reflejan la diversidad lingüística interna.\n\nLa capital administrativa de la comarca es Gairgirgordub, centro donde se concentran las instituciones locales. Geográficamente, Guna Yala está bordeada al norte por el mar Caribe, lo que le brinda una extensa costa marítima. Al sur limita con la provincia panameña de Darién y con la comarca indígena Emberá Wounnan, mientras que al este sus fronteras tocan la República de Colombia. Por el oeste se encuentra la provincia de Colón, que delimita el territorio en esa dirección. Esta ubicación estratégica sitúa a Guna Yala entre importantes corredores naturales y culturales de la región. Los límites orientales con Colombia hacen de la comarca una zona de frontera internacional."
+  },
+  {
+    "slug": "puerto-escondido-colombia",
+    "name": "Puerto Escondido",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Córdoba",
+    "regionSlug": "cordoba",
+    "channels": [
+      "cordoba",
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "monteria",
+      "cerete",
+      "lorica",
+      "san-antero",
+      "cienaga-de-oro",
+      "cordoba",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Escondido, Córdoba, Colombia, cuenta con 27 km de costa caribeña y celebra anualmente el festival del bullerengue, una tradición musical única.",
+    "aboutTitle": "Puerto Escondido y su festival del bullerengue en la costa caribeña",
+    "about": "Puerto Escondido es un municipio del departamento de Córdoba, Colombia, situado en el litoral del Mar Caribe. Con una extensión territorial de 423.2 km², el municipio posee 27 kilómetros de costa caribeña. Se ubica entre los paralelos 9°2′ y 3°53′ de latitud norte y los meridianos 76°3′ y 76°16′ de longitud occidental, extendiéndose hasta la boca del río Mangle al norte y alcanzando Punta Brava al occidente.\n\nEs reconocido por su festival del bullerengue, celebración que reúne a la comunidad en torno a la música tradicional. Dentro de su jurisdicción se encuentra la isla Tortuguilla, una pequeña isla coralina situada a unos 9 km de la costa, con una plataforma calcárea de aproximadamente 10 metros de profundidad. Puerto Escondido forma parte del área de influencia del gran Urabá y de la Subregión Costanera, limitando al norte con Moñitos y Lorica, al sur con Los Córdobas, al oriente con San Pelayo y Montería y al occidente con el Mar Caribe. Entre sus centros poblados destacan Arizal, Cristo Rey, El Pantano, El Silencio, Morindó Las Mujeres, San José de Canalete, San Luis, San Miguel, Santa Isabel, Villa Esther y Nuevo Horizonte. En 1854 se registró la presencia de los hermanos Casimiro, Máximo, José Blas y Nicomedes."
+  },
+  {
+    "slug": "cabaiguan",
+    "name": "Cabaiguán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Sancti Spíritus",
+    "regionSlug": "provincia-de-sancti-spiritus",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sancti-spiritus",
+      "santa-clara-cuba",
+      "ciego-de-avila",
+      "cienfuegos",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cabaiguán, municipio y ciudad del centro de Cuba (Sancti Spíritus), cuenta con 598,98 km² y limita con Yaguajay, Taguasco, Sancti Spíritus y el río Tuinucú.",
+    "aboutTitle": "Río Tuinucú y límites de Cabaiguán en la provincia de Sancti Spíritus",
+    "about": "Cabaiguán es una ciudad y municipio situado en el centro de la isla de Cuba, formando parte de la provincia de Sancti Spíritus. Su territorio abarca una superficie de 598,98 km². Limita al norte con el municipio de Yaguajay, al este con Taguasco, al sur con el propio municipio de Sancti Spíritus, mientras que el río Tuinucú constituye una frontera natural en esa dirección. Al suroeste colinda con Fomento y al oeste y noroeste con Placetas, perteneciente a la provincia de Villa Clara. La posición geográfica de Cabaiguán lo sitúa como punto de enlace entre varios municipios de la región central cubana, favoreciendo la comunicación y el intercambio de recursos. El entorno está marcado por la presencia del río Tuinucú, que influye en la configuración del paisaje y en las actividades agrícolas de la zona. La extensión territorial y la ubicación estratégica hacen de Cabaiguán un municipio relevante dentro de Sancti Spíritus y de la zona circundante."
+  },
+  {
+    "slug": "angel-albino-corzo",
+    "name": "Ángel Albino Corzo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "tapachula",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ángel Albino Corzo, municipio chiapaneco de 28 883 habitantes, se ubica en la Región de la Fraylesca y destaca por su café de altura.",
+    "aboutTitle": "Café de altura y historia de Ángel Albino Corzo",
+    "about": "Ángel Albino Corzo es uno de los 124 municipios del estado de Chiapas, ubicado en la Región de la Fraylesca. Su cabecera municipal es la localidad de Jaltenango de la Paz. Según el censo de población de 2000, cuenta con 28 883 habitantes. El municipio lleva el nombre del político y militar chiapaneco Ángel Albino Corzo, nacido el 1 de marzo de 1816 y fallecido en 1875, hijo de Francisco Corzo y María del Carmen Castillejos.\n\nLa altitud promedio de la cabecera es de 648 m sobre el nivel del mar. La economía se basa principalmente en la agricultura y en la producción de café de altura para exportación; en los últimos años los productores han intensificado el cultivo de café orgánico, que ha ganado mayor aceptación internacional. La ganadería también constituye una actividad importante.\n\nEl origen del municipio se remonta al 12 de octubre de 1925, cuando campesinos de Montecristo de Guerrero solicitaron tierras en la finca Jaltenango. El 19 de marzo de 1927 se asignaron tierras ejidales y particulares, y en 1933 se decretó oficialmente la creación del municipio bajo el nombre de Ángel Albino Corzo."
+  },
+  {
+    "slug": "tlatlaya",
+    "name": "Tlatlaya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tejupilco-de-hidalgo",
+      "ixtapan-de-la-sal",
+      "valle-de-bravo",
+      "tenango-de-arista",
+      "san-antonio-acahualco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tlatlaya es el municipio más extenso y sureño del Estado de México; su cabecera es el pueblo de Tlatlaya y la localidad más poblada es San Pedro Limón.",
+    "aboutTitle": "Tlatlaya: municipio más extenso del Estado de México",
+    "about": "Tlatlaya es uno de los 125 municipios del Estado de México, ubicado en el extremo suroeste de la entidad. Su cabecera municipal es el pueblo homónimo y la localidad más poblada es San Pedro Limón. Es el municipio con mayor extensión territorial del Estado y el más sureño; en su territorio se encuentra Nuevo Copaltepec, la población más alejada de la capital estatal. El topónimo proviene del náhuatl, compuesto por tlalli ‘tierra’, tletl ‘fuego’ y la partícula locativa –yan, lo que se interpreta como ‘Lugar de tierra de fuego’ o ‘Tierra que arde’. Según Cecilio Robelo, la raíz tlatla ‘arder’ con la partícula ya sugiere ‘lugar en que se quema’. Es importante señalar que la partícula locativa de abundancia es -tlan, no -yan, y suele traducirse como “entre” o “cerca”, mientras que -yan indica el lugar donde ocurre una acción impersonal. En el municipio se han identificado indicios de ocupación humana y urbanización durante el periodo mesoamericano, evidenciando presencia prehispánica."
+  },
+  {
+    "slug": "la-mana",
+    "name": "La Maná",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Cotopaxi",
+    "regionSlug": "provincia-de-cotopaxi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quevedo",
+      "latacunga",
+      "ambato",
+      "santo-domingo-ecuador",
+      "babahoyo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Maná, ciudad de 31.740 habitantes en Cotopaxi, se ubica a 200 msnm, es cruzada por el río San Pablo y tiene un clima monzónico con 21,2 °C promedio.",
+    "aboutTitle": "Río San Pablo y clima monzónico de La Maná",
+    "about": "La Maná es una ciudad ecuatoriana situada en el centro‑norte de la región interandina, en los flancos externos de la cordillera occidental de los Andes. Con una población de 31.740 habitantes según el censo de 2022, es la segunda urbe más grande de la provincia de Cotopaxi y la cuadragésima novena del país. La ciudad se ubica a 200 msnm y está atravesada por el río San Pablo. Su clima monzónico (Am) presenta temperaturas isotérmicas, con un promedio anual de 21,2 °C; el invierno pluvioso va de diciembre a junio y el verano más seco de julio a noviembre.\n\nLa Maná forma parte del área metropolitana de Quevedo y actúa como ciudad dormitorio para miles de trabajadores que viajan diariamente por vía terrestre. Las actividades principales son el comercio, la agricultura y la ganadería, lo que la convierte en uno de los centros administrativos, económicos y financieros más importantes de Cotopaxi. Su desarrollo demográfico acelerado desde principios del siglo XX la ha consolidado como núcleo urbano clave en la provincia."
+  },
+  {
+    "slug": "nueva-imperial",
+    "name": "Nueva Imperial",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de La Araucanía",
+    "regionSlug": "region-de-la-araucania",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "temuco",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Imperial, ciudad de la Araucanía en la provincia de Cautín, se sitúa a 35 km al oeste de Temuco y fue fundada en febrero de 1882.",
+    "aboutTitle": "Nueva Imperial, a 35 km al oeste de Temuco",
+    "about": "Nueva Imperial es una ciudad y comuna de Chile situada en la provincia de Cautín, dentro de la región de La Araucanía, zona sur del país. Se localiza en los territorios occidentales de la Depresión Intermedia y en las últimas estribaciones de la cordillera de Nahuelbuta, a unos 35 kilómetros al oeste de la ciudad de Temuco. La comuna de Cholchol se disgregó de Nueva Imperial después del censo de 2002. En sus orígenes el territorio estuvo vinculado a la antigua ciudad de La Imperial, fundada por Pedro de Valdivia en 1551 y abandonada en 1600 tras los conflictos de la Guerra de Arauco. La fundación de Nueva Imperial tuvo lugar en febrero de 1882, cuando el ministro de Guerra Carlos Castellón Larenas dirigió la expedición junto al coronel Gregorio Urrutia y 250 hombres. Desde entonces la localidad ha mantenido su vínculo con la historia de la ocupación de la Araucanía."
+  },
+  {
+    "slug": "veinticuatro-de-mayo",
+    "name": "Veinticuatro de mayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Manabí",
+    "regionSlug": "provincia-de-manabi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "portoviejo",
+      "manta",
+      "daule",
+      "quevedo",
+      "babahoyo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Veinticuatro de Mayo, en Manabí, tiene 28.846 habitantes, abarca 524 km² y su cabecera es Sucre; su alcalde (2023-2027) es el Ing. Ramón Vicente Cedeño Barberán",
+    "aboutTitle": "Límites y parroquias de Veinticuatro de Mayo",
+    "about": "Veinticuatro de Mayo es un cantón de la provincia de Manabí, Ecuador, con una población de 28.846 habitantes. Su cabecera cantonal es la ciudad de Sucre y la extensión total del territorio es de 524 km². Limita al norte con el cantón Santa Ana, al sur con Paján, al este con Santa Ana y Olmedo, y al oeste con Jipijapa. Administrado por el Ing. Ramón Vicente Cedeño Barberán para el periodo 2023‑2027, el cantón se organiza en cuatro parroquias: la urbana Sucre y las rurales Bellavista, Arq. Sixto Durán Ballén y Noboa. Según el Plan de Desarrollo y Ordenamiento Territorial 2011, la parroquia rural de Noboa agrupa 33 comunidades, entre ellas 32 campesinas y una cabecera parroquial, con una población de 6.722 habitantes en 2011. El gobierno autónomo del cantón promueve la participación ciudadana, la innovación y el desarrollo sostenible. El ente público se define como una entidad autónoma con capacidad política, administrativa y financiera, orientada a ofrecer servicios de calidad y a impulsar un desarrollo productivo, competitivo y solidario. Con una extensión de 524 km², el cantón abarca tanto la zona urbana de Sucre como extensas áreas rurales donde se distribuyen las parroquias de Bellavista, Arq. Sixto Durán Ballén y Noboa. Cada parroquia rural mantiene su propia organización comunitaria, siguiendo el esquema establecido por el Plan de Desarrollo y Ordenamiento Territorial 2011. La población total de 28.846 habitantes se reparte entre la cabecera y las áreas rurales, reflejando la distribución demográfica del cantón."
+  },
+  {
+    "slug": "macuspana",
+    "name": "Macuspana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tabasco",
+    "regionSlug": "tabasco",
+    "channels": [
+      "tabasco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "tabasco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Macuspana, ciudad tabasqueña a 45 km al este de Villahermosa, destaca por su intensa actividad petrolera y su ubicación en el margen izquierdo del río Puxcatán.",
+    "aboutTitle": "Río Puxcatán y la actividad petrolera de Macuspana",
+    "about": "Macuspana es una ciudad del estado de Tabasco, cabecera del municipio homónimo, situada a 45 km al este de Villahermosa, en el margen izquierdo del río Puxcatán y al pie de las estribaciones de la sierra. Con 31.435 habitantes, ocupa el quinto lugar en población del estado, detrás de Villahermosa, Heroica Cárdenas, Comalcalco y Tenosique de Pino Suárez. La economía local se sustenta en el comercio, los servicios y una intensa actividad petrolera, reflejada en instalaciones como el Complejo Procesador de Gas y Petroquímica Básica Ciudad Pemex y en campos como Fortuna Nacional, Tepetitán, Vernet y Sarlat.\n\nEl nombre Macuspana proviene del náhuatl Macui‑chapana, que significa \"lugar de las cinco barreduras o limpiezas\". Según el historiador José Narciso Rovirosa, la villa se fundó el 17 de febrero de 1665 cuando se halló una imagen del Señor de la Salud en la confluencia del arroyo Huapinol y el río Puxcatán, y el cura de Jalapa ordenó la construcción de la ermita del mismo nombre. En 1840 las fuerzas federalistas de Fernando Nicolás Maldonado tomaron la ciudad, y en 1848 el Congreso del Estado la elevó al rango de villa."
+  },
+  {
+    "slug": "apaseo-el-grande",
+    "name": "Apaseo el Grande",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 223,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "celaya",
+      "irapuato",
+      "guanajuato",
+      "morelia",
+      "atlacomulco-de-fabela",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Apaseo el Grande, ciudad de Guanajuato, adoptó su nombre actual el 22 de febrero de 1957 mediante el Decreto Número 64, reflejando su historia única.",
+    "aboutTitle": "Origen del nombre y escudo de Apaseo el Grande",
+    "about": "Apaseo el Grande es una ciudad mexicana del estado de Guanajuato, cabecera del municipio homónimo. Su nombre original, Apatzeo, fue registrado por el encomendero Hernán Pérez de Bocanegra y Córdoba y proviene de la lengua tarasca o purépecha con el significado de “Lugar de Comadrejas”. En lenguas indígenas también aparecen los nombres Andehe, que en otomí significa “junto al agua”, y Atlayahualco, de origen náhuatl y traducido como “junto a la laguna”.\n\nLa ciudad adoptó oficialmente el apelativo de Apaseo el Grande el 22 de febrero de 1957, cuando la Legislatura de Guanajuato publicó en el Periódico Oficial el Decreto Número 64 para evitar confusiones con el vecino Apaseo el Alto. El escudo municipal, diseñado en 1947 por Don José Estrella Vázquez y Don Ignacio Estrella Primo, muestra dos soles de oro de dieciséis rayos y una cruz latina en sable sobre fondo azul, simbolizando la unión de las razas indígena e hispana, y en sus cuarteles destaca la agricultura y la actividad humana."
+  },
+  {
+    "slug": "larrainzar",
+    "name": "Larráinzar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "macuspana",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Larráinzar, municipio chiapaneco del Altiplano Central a 2.200 m de altitud, conserva el nombre original Istacostoc y su cabecera es San Andrés Larráinzar.",
+    "aboutTitle": "Larráinzar: de Istacostoc a municipio de Los Altos",
+    "about": "Larráinzar es uno de los 124 municipios que forman el estado de Chiapas, situado en la región de Los Altos. Su cabecera es la ciudad de San Andrés Larráinzar, que surgió tras la llegada de los frailes dominicos a las tierras altas y recibió el nombre de San Andrés. El nombre original de Larráinzar era Istacostoc, que en náhuatl significa “caverna blanca”, y el actual fue dado en honor al político, abogado y diplomático Manuel Larráinzar. Antes de la conquista española, el territorio formaba parte de la nación tzotzil. A finales del siglo XVI ya se había convertido en cabecera. La población de Larráinzar participó activamente en 1869 en la rebelión encabezada por el líder chamula Pedro Díaz Cuscat. El 13 de febrero de 1934, el gobernador Victórico R. Grajales cambió la denominación del pueblo de San Andrés por la de Larráinzar, en homenaje a Manuel Larráinzar Piñero. El 23 de febrero de 1944, el gobernador Rafael Pascacio Gamboa lo elevó a municipio de segunda categoría. Geográficamente se sitúa en el Altiplano Central, con relieve montañoso y una altitud media de 2.200 m s.n.m. Limita al norte con El Bosque y Chalchihuitán, al este con Chenalhó, al sur con Chamula y al oeste con Bochil e Ixtapa. Según el censo de 2020, el municipio cuenta con 78 localidades."
+  },
+  {
+    "slug": "changuinola",
+    "name": "Changuinola",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "Panamá",
+    "parentSlug": "panama",
+    "provincia": "Provincia de Bocas del Toro",
+    "regionSlug": "provincia-de-bocas-del-toro",
+    "channels": [
+      "panama",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bocas-del-toro",
+      "david-panama",
+      "panama",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Changuinola, ciudad bananera de Bocas del Toro, fue constituida como distrito el 17 de abril de 1970 y hoy concentra la mayor población de la provincia.",
+    "aboutTitle": "Río Changuinola y la tradición bananera de la ciudad",
+    "about": "Changuinola es la ciudad principal de la provincia de Bocas del Toro, Panamá, y capital del distrito homónimo. Como centro bananero, concentra la mayor población de la provincia y funciona como punto de entrada para los turistas que llegan desde Costa Rica. Aunque no se considera un destino turístico, en sus alrededores se encuentran un centro comercial y varios restaurantes. El nombre proviene del río que atraviesa la zona; los españoles lo llamaron inicialmente Río Estrella por el brillo dorado de sus aguas, para luego pasar a llamarse Río Changuinola en honor a los indígenas changuinos.\n\nAlrededor de 1900 se iniciaron las plantaciones de banano, actividad que marcó el desarrollo económico de la zona. El distrito fue oficialmente creado el 17 de abril de 1970. Según el Instituto Nacional de Estadística, en 2023 la ciudad contaba con 6 136 habitantes, una superficie de 4,5 km² y una densidad de 1 367,8 habitantes por km². La población es mayoritariamente indígena (56,93 %), con presencia de mestizos (33,56 %) y afropanameños (9,51 %). El acceso se realiza por carretera, siguiendo la Carretera Interamericana desde la Ciudad de Panamá hasta Gualaca (404 km), continuando por Chiriquí Grande (98 km) y luego hacia Almirante tras pasar por la Represa Fortuna."
+  },
+  {
+    "slug": "pando",
+    "name": "Pando",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Canelones",
+    "regionSlug": "departamento-de-canelones",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-de-la-costa",
+      "las-piedras",
+      "uruguay",
+      "montevideo",
+      "minas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pando, ciudad del departamento de Canelones a 32 km de Montevideo, cuenta con el parque nacional Gral. Artigas y una escultura a Alfredo Zitarrosa (2016).",
+    "aboutTitle": "Pando: centro industrial, Parque Gral. Artigas y puente histórico",
+    "about": "Pando es una ciudad uruguaya del departamento de Canelones, situada a 32 km de Montevideo sobre la ruta 8 y formando parte del Área Metropolitana. Según el censo de 2023 cuenta con 31 191 habitantes y se ha consolidado como un importante centro comercial e industrial en la zona este del conurbano, con buenas comunicaciones tanto hacia la capital como hacia el resto del departamento.\n\nEn el centro se concentran comercios, la parroquia, la plaza y diversas instituciones educativas. Destacan el Club Urupan entre Wilson Ferreira Aldunate e Ituzaingó, el Club Atlético Cinco Esquinas fundado el 8 de noviembre de 1934 y el Centro Cultural Pando Concejal Alcides García Mallarine junto a la estación de tren. El Parque nacional Gral. Artigas, también llamado Parque Pando, ofrece espacios verdes, mientras que una escultura en homenaje al cantautor Alfredo Zitarrosa, obra de Alberto Morales Saravia, se inauguró el 1 de abril de 2016 en la avenida Artigas. La ciudad alberga el Puente de los Treinta y Tres, el primer puente carretero del país, y el Parque Científico y Tecnológico de Pando, creado por el artículo 251 de la Ley 18.362 de 2008 para impulsar la innovación."
+  },
+  {
+    "slug": "nopalucan",
+    "name": "Nopalucan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 207,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "acajete",
+      "san-salvador-el-seco",
+      "tepatlaxco-de-hidalgo",
+      "acatzingo",
+      "tepeaca",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nopalucan, municipio de Puebla, es reconocido por haber instalado la primera línea telegráfica de México en 1851.",
+    "aboutTitle": "Nopalucan y la primera línea telegráfica de México (1851)",
+    "about": "Nopalucan es un municipio del estado de Puebla, México. Su nombre proviene del náhuatl nopalli‑lotl‑can, que significa “lugar de la nopalera”. La cabecera es la ciudad de Nopalucan de la Granja y es reconocido por haber recibido en 1851 la primera línea telegráfica del país, iniciativa de Juan de la Granja.\n\nLos primeros asentamientos datan de 9.000 a.C., siendo la población más antigua conocida, y se establecieron definitivamente en el siglo XI. En 1531 formó parte del primer corregimiento de Tlaxcala y, dos años después, quedó como pueblo de encomienda; en 1600 se anexó a la alcaldía mayor de Tepeaca. La piedra fundacional de la iglesia de Santiago Apóstol se colocó en 1691 y la obra se concluyó en mayo de 1711; el obispo Juan Merlo de la Fuente nació allí en 1692. En el siglo XVI llegaron la Virgen de la Soledad y el Cristo Grande de la Preciosa Sangre, cuya llegada está rodeada de una leyenda sobre lluvias que impidieron su traslado. En 1789 los habitantes observaron una aurora boreal, y el 12 de agosto de 1814 nació María Antonia Bretón, esposa del primer presidente de México, Guadalupe Victoria. En 1831 Antonio López de Santa Anna pasó por el pueblo y solicitó al párroco apoyo contra los conservadores, petición que fue rechazada."
+  },
+  {
+    "slug": "escuinapa-de-hidalgo",
+    "name": "Escuinapa de Hidalgo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sinaloa",
+    "regionSlug": "sinaloa",
+    "channels": [
+      "sinaloa",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatlan",
+      "el-salto-jalisco",
+      "sinaloa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Escuinapa de Hidalgo, la sexta ciudad de Sinaloa, se sitúa a 50 km del límite con Nayarit y destaca por su vocación agrícola y pesquera.",
+    "aboutTitle": "Escuinapa de Hidalgo: historia, economía y el “último eslabón”",
+    "about": "Escuinapa de Hidalgo es la sexta ciudad en importancia del estado de Sinaloa y sirve como sede de gobierno del municipio de Escuinapa. Está localizada a 50 kilómetros del límite entre Sinaloa y Nayarit y posee una economía basada en la agricultura, la pesca y los servicios. Su centro histórico presenta una mezcla de edificios coloniales mexicanos y porfirianos, muchos de los cuales se encuentran en deterioro debido al desinterés del gobierno y la sociedad, lo que ha generado un debate sobre su posible rescate o remodelación. Por su ubicación como último municipio del estado, en ocasiones se le denomina “el último eslabón”. El nombre Escuinapa proviene del náhuatl itz‑cui‑na‑pan, compuesto de itzcuintli (perro), atl (agua) y pan (en), y significa “en el agua del perro” o “río de los perros”. Los primeros habitantes de la zona fueron descendientes de la azteca, que establecieron el poblado de Ahuchén y, tras enfrentarse a mosquitos, piratas y bandoleros, se trasladaron fundando Pueblo Viejo y posteriormente Izquinapa. En 1602 el poblado de Izquinapa contaba con apenas veinte vecinos, según los registros de la época."
+  },
+  {
+    "slug": "roldan",
+    "name": "Roldán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "carcarana",
+      "rosario",
+      "casilda",
+      "canada-de-gomez",
+      "arroyo-seco",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Roldán, ciudad de la provincia de Santa Fe, Argentina, con una rica historia que comienza con la llegada del ferrocarril en el siglo XIX.",
+    "aboutTitle": "Roldán, una ciudad con historia ferroviaria",
+    "about": "Roldán es una ciudad ubicada en la zona sudeste de la provincia de Santa Fe, Argentina, a 25 km al oeste de la ciudad de Rosario, en el departamento San Lorenzo. La ciudad surge por generación espontánea en tierras de privilegiada riqueza que antiguamente pertenecieron a los Jesuitas y más tarde adquiridas por el diputado provincial Felipe M. de Roldán en el siglo XIX.\n\nLa llegada del ferrocarril en el siglo XIX fue un punto de inflexión en el desarrollo de la zona, con la construcción y posterior inauguración el 1° de mayo de 1866 de la estación de ferrocarril en tierras de Roldán. La estación fue inicialmente llamada «Bernstadt» y luego se le cambió el nombre a simplemente Estación Roldán."
+  },
+  {
+    "slug": "felipe-carrillo-puerto",
+    "name": "Felipe Carrillo Puerto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Quintana Roo",
+    "regionSlug": "quintana-roo",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Felipe Carrillo Puerto, ciudad del estado mexicano de Quintana Roo, situada en el centro del estado y cabecera del municipio homónimo,",
+    "aboutTitle": "Felipe Carrillo Puerto, corazón de la zona maya",
+    "about": "Felipe Carrillo Puerto es una ciudad del estado mexicano de Quintana Roo, situada en el centro del estado, dentro de la zona maya. Fue fundada por los mayas bajo el nombre original Noj Kaaj Santa Cruz Xbalam Naj, que también se conoce como Chan Santa Cruz. A principios del siglo XX la población recibió el nombre de Santa Cruz de Bravo y mantuvo la condición de capital del Territorio de Quintana Roo hasta la década de 1920. En el núcleo urbano se encuentra el Santuario de la Cruz Parlante, una construcción de relevancia histórica. En 1930 la ciudad pasó a llamarse Felipe Carrillo Puerto, en honor al gobernador socialista de Yucatán del mismo nombre. Actualmente sigue siendo la cabecera del municipio homónimo y conserva evidentes huellas de su pasado maya y de su etapa como capital territorial, visibles en su arquitectura y en la toponimia local, y en sus tradiciones locales."
+  },
+  {
+    "slug": "melchor-de-mencos",
+    "name": "Melchor de Mencos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Petén",
+    "regionSlug": "departamento-de-peten",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-ignacio",
+      "belice",
+      "belmopan",
+      "flores",
+      "belize-city",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Melchor de Mencos, municipio en el departamento de Petén, Guatemala, fundado el 26 de abril de 1962 en la presidencia de Miguel Ydigoras Fuentes.",
+    "aboutTitle": "Melchor de Mencos, un municipio en Petén",
+    "about": "Melchor de Mencos es un municipio en el departamento de Petén en la República de Guatemala. Fue fundado el 26 de abril de 1962, cuando fungía como presidente de la República el general Miguel Ydigoras Fuentes. Tiene una población de 23.813 habitantes. Melchor de Mencos es una localidad que forma parte del departamento de Petén, en el norte de Guatemala. Es un municipio con una historia reciente, fundado en la década de 1960. Su ubicación geográfica lo sitúa en la comarca del norte del país, cerca de la frontera con México y Belice. La localidad es conocida por su proximidad a la Reserva de la Biosfera Maya y su conexión con las localidades vecinas. La historia de Melchor de Mencos se remonta a la época en que fue fundado, en la década de 1960, y desde entonces ha experimentado un crecimiento constante en términos de población y desarrollo económico. En la actualidad, es un municipio importante en el departamento de Petén, con una población que supera los 23.000 habitantes."
+  },
+  {
+    "slug": "chalatenango",
+    "name": "Chalatenango",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Chalatenango",
+    "regionSlug": "departamento-de-chalatenango",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "apopa",
+      "soyapango",
+      "mejicanos",
+      "el-salvador",
+      "san-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chalatenango, cabecera del departamento homónimo en El Salvador, cuenta con 30.679 habitantes según el censo de 2024 y una zona urbana de 0,75 km².",
+    "aboutTitle": "Chalatenango: cabecera del departamento y su división territorial",
+    "about": "Chalatenango es la cabecera del departamento de Chalatenango, en El Salvador. Según el censo del año 2024, la población total asciende a 30.679 habitantes, lo que lo sitúa como el distrito más poblado dentro del propio departamento. La demarcación territorial está organizada en 6 cantones, que a su vez agrupan 36 caseríos bajo la administración municipal. En términos de superficie, el municipio combina una zona rural de aproximadamente 131,05 km² con una zona urbana de 0,75 km², de modo que la mayor parte del territorio corresponde a áreas de carácter rural. Esta distribución implica que la densidad poblacional se concentra principalmente en el núcleo urbano, mientras que los cantones y caseríos se extienden por el entorno rural, manteniendo la actividad agrícola y ganadera típica de la región. La combinación de una población relativamente alta y una extensión urbana limitada confiere a Chalatenango una dinámica particular entre el desarrollo urbano y la vida rural del norte de El Salvador."
+  },
+  {
+    "slug": "olopa",
+    "name": "Olopa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-rosa-de-copan",
+      "santa-ana",
+      "chalatenango",
+      "apopa",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Olopa es un municipio del departamento de Chiquimula, situado en la zona oriental de la República de Guatemala, dentro de los 22 departamentos del país.",
+    "aboutTitle": "Olopa, municipio de Chiquimula y su población de 30.534",
+    "about": "Olopa es un municipio perteneciente al departamento de Chiquimula, ubicado en la República de Guatemala. Según los datos oficiales, la población de esta localidad se estima en 30.534 habitantes para el año 2022. Chiquimula es uno de los 22 departamentos que conforman Guatemala y se sitúa en la parte oriental del país, zona en la que Olopa desempeña un papel relevante dentro del territorio departamental. El municipio forma parte de las varias localidades que integran Chiquimula y se caracteriza por su población significativa en comparación con otras demarcaciones de la región. Su ubicación geográfica, en el interior del departamento, le confiere una posición estratégica que lo convierte en un punto de referencia dentro del área oriental guatemalteca. Por ello, Olopa es considerado un municipio importante tanto por su número de habitantes como por su contribución al desarrollo demográfico y social del departamento de Chiquimula. Su dinamismo demográfico influye en la planificación regional."
+  },
+  {
+    "slug": "colta",
+    "name": "Colta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Chimborazo",
+    "regionSlug": "chimborazo",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "riobamba",
+      "ambato",
+      "latacunga",
+      "babahoyo",
+      "la-mana",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Colta, cantón de la provincia de Chimborazo (Ecuador), a 3.212 m s.n.m., con la sede administrativa en Villa La Unión y a 18 km de Riobamba.",
+    "aboutTitle": "Colta, un cantón con historia y cultura en la provincia de Chimborazo",
+    "about": "Colta es un cantón de la provincia de Chimborazo en Ecuador, situado en una altitud promedio de 3.212 m s. n. m. La ciudad de Villa La Unión, sede administrativa del cantón, es considerada una de las ciudades más altas del país. La temperatura media es de 12 °C. La proximidad a la ciudad de Riobamba, a solo 18 km, hace de ella una ciudad turística importante. La ciudad tiene un rico patrimonio cultural, con personajes importantes en la historia del Ecuador, como Condorazo, Duchicela y el sabio Pedro Vicente Maldonado. La ciudad celebra sus 142 años con un programa oficial de fiestas en 2026. Colta también cuenta con una rica historia, ya que sobre su territorio se fundó la primera ciudad española en el Reino de los Shyri-Duchicela, con el nombre de Ciudad de Santiago de Quito, el 15 de agosto de 1534. La ciudad también es conocida por ser el lugar de origen de la Villa de Riobamba, que fue elevada a la categoría de Corregimiento con el nombre de Villa de Villar Don Pardo."
+  },
+  {
+    "slug": "vista-alegre",
+    "name": "Vista Alegre",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Ica",
+    "regionSlug": "departamento-de-ica",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Vista Alegre, distrito de la provincia de Nazca en el departamento de Ica, Perú, conocido por su clima seco y saludable, con una temperatura promedio de 19 °C.",
+    "aboutTitle": "Vista Alegre: un distrito con riqueza agrícola y minera",
+    "about": "Vista Alegre se encuentra ubicado a 451 km al sur de Lima, dentro de la provincia de Nazca, en el departamento de Ica. La localidad destaca por una abundante actividad agrícola, la crianza de ganados y una industria minera que extrae oro y hierro. Los campos agrícolas se benefician de la aridez, lo que permite cultivos resistentes, y la minería aporta empleo local. La zona está vinculada al resto del país por la carretera Panamericana, que la une al norte y al sur, y dispone de una ruta que continúa hacia Abancay y el Cusco, facilitando el acceso interregional. La geografía del distrito combina cerros, extensas dunas, pampas y ríos secos, creando un relieve contrastado que domina el horizonte. Este entorno produce un clima seco y saludable, con temperaturas moderadas que los habitantes consideran beneficiosas. A 26 km al sureste se sitúa el Cementerio de Chauchilla, un importante sitio turístico donde se conservan tumbas precolombinas, fardos funerarios y diversas piezas arqueológicas. El cementerio atrae a investigadores y visitantes interesados en la arqueología andina."
+  },
+  {
+    "slug": "planadas",
+    "name": "Planadas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 135,
+    "votes": 226,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Tolima",
+    "regionSlug": "tolima",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "neiva",
+      "chaparral",
+      "miranda",
+      "florida",
+      "campoalegre",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Planadas, un municipio colombiano ubicado en el departamento de Tolima, fundado en 1966 durante el gobierno de Carlos Lleras Restrepo.",
+    "aboutTitle": "Planadas, un municipio del Tolima con una rica historia",
+    "about": "Planadas es un municipio colombiano ubicado en el departamento de Tolima, a 231 km de Ibagué, la capital del departamento. Fue fundado en 1966 durante el gobierno de Carlos Lleras Restrepo. La historia de Planadas se remonta a la época prehispánica, cuando el territorio fue descubierto en 1538 por los soldados de la avanzada de Sebastián de Belalcázar. Los primitivos pobladores de la región fueron los indios Ataes, Cuiras, Guagua y Patae, de la tribu de los Paeces.\n\nEl poblamiento de la región comenzó a tomar forma en el siglo XX, cuando se estableció una colonia penal y agrícola en la región denominada Sur de Atá. Posteriormente, se creó la Inspección Departamental de Policía en el incipiente caserío, y en 1932, el misionero jesuita español Fermín Larrazábal aconsejó a un grupo de expedicionarios asentar un caserío en las riberas del río Atá."
+  },
+  {
+    "slug": "sorata",
+    "name": "Sorata",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de La Paz",
+    "regionSlug": "departamento-de-la-paz",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "la-paz",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sorata, localidad boliviana capital de Larecaja, se ubica a 150 km de La Paz y cuenta con 23 512 habitantes a 3 800 m de altitud.",
+    "aboutTitle": "Sorata, capital de Larecaja a 150 km de La Paz",
+    "about": "Sorata es una localidad de Bolivia que funciona como capital de la provincia de Larecaja. Según el censo del INE realizado en 2012, el municipio de Sorata cuenta con una población de 23 512 habitantes. La localidad está situada a aproximadamente 150 km de la ciudad de La Paz y su altitud promedio es de 3 800 metros sobre el nivel del mar. Estos datos provienen del último censo oficial realizado por el Instituto Nacional de Estadística de Bolivia. Sorata es la capital de la provincia de Larecaja dentro del territorio boliviano. La información disponible confirma que la distancia a La Paz y la altura son características de su ubicación. Todos los datos mencionados corresponden al registro del INE de 2012. La población de Sorata, según el censo de 2012, es de 23 512 personas. La altitud media de Sorata, según el mismo censo, es de 3 800 metros. La distancia de Sorata a La Paz es de aproximadamente 150 kilómetros."
+  },
+  {
+    "slug": "monte-patria",
+    "name": "Monte Patria",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Coquimbo",
+    "regionSlug": "region-de-coquimbo",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ovalle",
+      "la-serena",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Monte Patria, comuna cordillerana y fronteriza de la Región de Coquimbo, con una superficie territorial de 4.366,3 km² y 30.000 habitantes.",
+    "aboutTitle": "Monte Patria, comuna cordillerana y fronteriza",
+    "about": "Monte Patria es una comuna de la provincia de Limarí, en la Región de Coquimbo, Chile. Limita al norte con la comuna de Río Hurtado, al sur con la comuna de Combarbalá y la provincia de Choapa, al este con Argentina y al oeste con la comuna de Ovalle. La comuna cuenta con una fuerte dispersión geográfica y de ruralidad, con importantes áreas montañosas y altas pendientes.\n\nLa historia de Monte Patria se remonta a las culturas precolombinas de los pueblos del Molle y Diaguita, que se dedicaban a la recolección y cacería de los recursos naturales. Posteriormente, la llegada de los incas introdujo nuevos conocimientos en la alfarería y la agricultura, y cambió los hábitos trashumantes de los pueblos autóctonos. Con la conquista y asentamiento de los españoles en el siglo XVI, se introdujeron nuevas formas de vida y costumbres, como la creación de las instituciones de las encomiendas."
+  },
+  {
+    "slug": "namasigue",
+    "name": "Namasigüe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Choluteca",
+    "regionSlug": "departamento-de-choluteca",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "choluteca",
+      "chinandega",
+      "esteli",
+      "leon-nicaragua",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Namasigüe, municipio de Choluteca en Honduras, tiene 33.888 habitantes y su nombre, de origen amacihuar, significa “Agua de las Mujeres”.",
+    "aboutTitle": "Namasigüe: Agua de las Mujeres y su vínculo con el Golfo de Fonseca",
+    "about": "Namasigüe es un municipio del departamento de Choluteca, en el sur de Honduras, cuya denominación proviene del término amacihuar y significa “Agua de las Mujeres”. El nombre original es Amacihuarl en mexicano. El territorio municipal se extiende hasta el Golfo de Fonseca, situándose al sur del departamento. Según los registros históricos, en el recuento de población de 1791 ya figuraba como pueblo de Choluteca y, para el censo de 1887, había adquirido la categoría de municipio. Actualmente cuenta con 33.888 habitantes, con una distribución casi equilibrada entre hombres (50.5 %) y mujeres (49.5 %), y alrededor del 21.6 % de la población reside en la zona urbana, mientras el resto se reparte entre aldeas y caseríos. La división política incluye nueve aldeas y ciento cinco caseríos, según datos de 2013. Los datos demográficos corresponden a la información más reciente disponible para el municipio. El municipio forma parte del Golfo de Fonseca, una zona de influencia marítima de la región."
+  },
+  {
+    "slug": "municipio-consuelo",
+    "name": "Municipio Consuelo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San Pedro de Macorís",
+    "regionSlug": "san-pedro-de-macoris",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-pedro-de-macorris",
+      "la-romana",
+      "santo-domingo-este",
+      "higuey",
+      "san-cristobal-rd",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Municipio Consuelo, en la llanura costera del Caribe de San Pedro de Macorís, cuenta con el río Maguá como cuenca principal y 15 km navegables.",
+    "aboutTitle": "Río Maguá y la historia del Ingenio Consuelo",
+    "about": "Municipio Consuelo es una entidad municipal de la provincia de San Pedro de Macorís, en la región Este de la República Dominicana. Se asienta en la llanura costera del Caribe, la principal zona de relieve de la región sureste y la más variada en cuanto a capacidad de producción y cultivo de caña. Limita al norte y noreste con las provincias de Hato Mayor y El Seibo, al sur con la ciudad de San Pedro de Macorís, al este con el municipio Ramón Santana y al oeste con el río Maguá y el Batey Monte Coca.\n\nEl municipio posee dos cuencas: el Río Casuí, que va desde los Chicharrones hasta Cañada del Negro, y el Río Maguá, principal cuenca con 15 km navegables. Su origen se remonta a 1850, cuando era una pequeña aldea al lado del entonces caudaloso río Higuamo. En 1872 recibió el nombre de Agua Dulce por la fama de sus manantiales, y en 1881 se fundó el Ingenio Consuelo bajo la firma Padrón y Solaam y Cía., cuyo primer administrador fue Guillermo L. Bass, nacional norteamericano, que más tarde cedió la propiedad a su pariente Williams L. Bass."
+  },
+  {
+    "slug": "tenancingo-de-degollado",
+    "name": "Tenancingo de Degollado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 172,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ixtapan-de-la-sal",
+      "tenango-de-arista",
+      "capulhuac-de-mirafuentes",
+      "xalatlaco",
+      "santiago-tlacotepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tenancingo de Degollado, conocida como “la Estrella del Sur”, se ubica al sur del Estado de México, a una hora de Toluca y a dos de la Ciudad de México.",
+    "aboutTitle": "Tenancingo de Degollado, la Estrella del Sur del Estado de México",
+    "about": "Tenancingo de Degollado, también conocida como “la Estrella del Sur”, es una ciudad mexicana situada en la zona sur del Estado de México. El nombre oficial de la entidad es Tenancingo de Degollado. Es la cabecera municipal del municipio que lleva su mismo nombre y forma parte del territorio del Estado de México. La población se encuentra a aproximadamente una hora de Toluca y a dos horas de la Ciudad de México, lo que la coloca entre la capital estatal y la capital nacional. El 14 de marzo de 1887 la localidad fue elevada al rango de ciudad, hecho que marcó su consolidación administrativa. Desde entonces, Tenancingo de Degollado mantiene su denominación histórica y su condición de centro municipal. La ubicación al sur del Estado de México define su entorno geográfico y su vinculación con las comunidades circundantes. La referencia a “la Estrella del Sur” procede de la tradición local y se conserva en la identificación oficial del municipio."
+  },
+  {
+    "slug": "paijan-peru",
+    "name": "Paiján",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de La Libertad",
+    "regionSlug": "departamento-de-la-libertad",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "trujillo",
+      "cajamarca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paiján, distrito de La Libertad con una superficie de 79,32 km², fue fundado como Villa El Salvador de Paiján por el corregidor Diego de Mora.",
+    "aboutTitle": "Historia y límites del distrito de Paiján",
+    "about": "Paiján es un distrito del norte del Perú, integrado en la provincia de Ascope, dentro del departamento de La Libertad. Limita al norte con el distrito de Rázuri, al este con Casa Grande, al sur con Chocope y al oeste también con Rázuri; en la práctica, el límite occidental llega hasta el Océano Pacífico, donde la caleta de Malabrigo forma parte de su territorio. Con una superficie de 79,32 km², el distrito se encuentra bajo la jurisdicción eclesiástica de la arquidiócesis de Trujillo.\n\nEl nombre original, “Paycaem”, proviene de la lengua yunga y significa “Paraje de aguas y árboles”. Fue fundado por el corregidor Diego de Mora, que lo denominó Villa El Salvador de Paiján. El distrito se constituyó oficialmente el 10 de noviembre de 1900 mediante Ley del presidente Eduardo López de Romaña, y la Ley N.º 9689 del 12 de diciembre de 1942 le otorgó la categoría de ciudad. Según el censo de 2007, la población era de 28.194 habitantes; una estimación de 2011 indicó 26.347."
+  },
+  {
+    "slug": "sabanilla",
+    "name": "Sabanilla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "larrainzar",
+      "macuspana",
+      "villahermosa",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sabanilla es un municipio de Chiapas ubicado en el valle de las Montañas del Norte, con una población de 21.119 habitantes y clima semitropical.",
+    "aboutTitle": "Sabanilla y el valle de las Montañas del Norte",
+    "about": "Sabanilla es uno de los 124 municipios del estado de Chiapas, en el sureste mexicano. Se sitúa en el valle de las Montañas del Norte y cubre un área de 174.4 km². Sus límites administrativos incluyen el municipio de Tila y el estado de Tabasco al norte, Tila al este, Simojovel al sur y Huitiupán al oeste. El territorio cuenta con recursos hidrológicos formados por los ríos Sabanilla, Nava, Agua Blanca, Jubatiún, Morelia y Mazatán.\n\nLa historia de la localidad se remonta a la reducción realizada por el dominico Fray Lorenzo de la Nada hacia el año 1600. En aquel tiempo, el pueblo se dividía en Yok-lum, que en lengua Ch’ol significa pie de pueblo, y Jo-lum, que significa cabeza de pueblo. Entre sus celebraciones destaca la magna cabalgata en honor a San Francisco de Asís, patrono de Los Moyos. La cabecera municipal se organiza en 13 barrios, de los cuales Santa Rosa, barrio Centro, Jo-lum y barrio Juan Esponda se encuentran en zona de riesgo por su proximidad al río."
+  },
+  {
+    "slug": "mitu",
+    "name": "Mitú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Vaupés",
+    "regionSlug": "vaupes",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mitú, capital del Vaupés en Colombia, se ubica a orillas del río Vaupés, tiene 27 etnias indígenas y celebra su fundación el 1 de noviembre de 1935.",
+    "aboutTitle": "Río Vaupés y la fundación de Mitú (1935)",
+    "about": "Mitú es la capital del departamento del Vaupés, situada en la parte suroriental de Colombia y sobre la frontera con Brasil. El municipio se extiende predominantemente sobre la margen derecha del río Vaupés y ocupa cerca de 16.422 km² según el censo del DANE. La población se estima en aproximadamente 16.580 habitantes, entre los que conviven 27 etnias indígenas diferentes. Las temperaturas oscilan entre 25 y 30 °C y está a una distancia aproximada de 600 km por vía aérea al sur oriente de Bogotá. La economía local se basa en la pesca de distintas especies de peces y en la cosecha de frutos cultivados y silvestres.\n\nEl topónimo «Mitú» significa «paujil» o «pavo de monte» en lengua yeral. La ciudad fue fundada el 1 de noviembre de 1935 por Agustín Vásquez, Luis E. Chaves, Roberto Quigua, Bustamante, Ismael Perdomo, Gonzalo Arbeláez, Julio Mendoza, Luis Antonio Díaz, Josué Bernal, Pedro Restrepo y Leandro Pérez. Según un mito de los indígenas Tukano, los primeros habitantes llegaron a Mitú sobre una gigantesca canoa anaconda que los traía desde el Amazonas. Bajo su jurisdicción se encuentran centros poblados como Acaricuara, Camanaos, Doce de Octubre, Piramirí, Tapurucuara, Villa Fátima, Yapú y Yuruparí."
+  },
+  {
+    "slug": "tequisquiapan",
+    "name": "Tequisquiapan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Querétaro",
+    "regionSlug": "queretaro",
+    "channels": [
+      "queretaro",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "apaseo-el-grande",
+      "celaya",
+      "santa-teresa",
+      "tequixquiac",
+      "queretaro",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tequisquiapan es un Pueblo Mágico del estado de Querétaro fundado en 1551, situado en la región del Bajío y conocido por sus antiguas aguas termales.",
+    "aboutTitle": "Tequisquiapan: Pueblo Mágico y centro termal del Bajío",
+    "about": "Tequisquiapan es una ciudad localizada en México, considerada como Pueblo Mágico, situada en el Estado de Querétaro y cabecera del municipio homónimo. Fue fundada en 1551 y se encuentra en una antigua zona de aguas termales, recurso que ha marcado su desarrollo histórico y turístico. La urbe forma parte de la Zona Metropolitana de San Juan del Río y se ubica a 60 km al oriente de la ciudad de Santiago de Querétaro, capital del Estado, lo que la sitúa estratégicamente entre dos centros urbanos importantes. Además, integra la región del Bajío, una zona conocida por su productividad agrícola y su clima templado. Su posición geográfica en el Bajío la conecta con localidades vecinas de la zona y la convierte en un punto de referencia dentro del municipio, donde la administración local tiene su sede. El reconocimiento como Pueblo Mágico resalta su patrimonio cultural y natural, en especial las aguas termales que continúan atrayendo a visitantes."
+  },
+  {
+    "slug": "guapi",
+    "name": "Guapí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guapí es un municipio del litoral pacífico en el departamento del Cauca, Colombia, fundado en 1772 por colonos organizados por Manuel Valverde.",
+    "aboutTitle": "Guapí, el municipio del litoral pacífico y la feria del naidí",
+    "about": "Guapí se ubica en el litoral pacífico del departamento del Cauca, Colombia. Fue fundado en 1772 en el sitio denominado el Firme del Barro por varios colonos organizados por Manuel Valverde. La población se estima en 30.000 habitantes y sus actividades económicas principales son el comercio, la pesca artesanal, la minería y la agricultura. El municipio incluye la Isla Gorgona, un centro ecoturístico situado a 35 km de su costa.\n\nEn su historia destacan el paso de españoles en el siglo XVII en busca de oro y la presencia de los ríos Guapi, Napi, San Francisco y Guajuí. Fue capital de la antigua provincia del Micay y sufrió el terremoto de 1833, la Guerra de los Mil Días entre 1899 y 1902, y un incendio en 1914 que consumió la mitad de la población. Actualmente es cabecera del Circuito Judicial, de Registro y Notaría. Entre sus celebraciones destacan la fiesta de la Inmaculada Concepción el 8 de diciembre y la feria del naidí, que se celebra del 26 al 29 de diciembre."
+  },
+  {
+    "slug": "purificacion",
+    "name": "Purificación",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Tolima",
+    "regionSlug": "tolima",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guamo",
+      "espinal",
+      "flandes",
+      "melgar",
+      "girardot",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Purificación, municipio colombiano en el departamento del Tolima, con una rica historia que data de la llegada de Sebastián de Belalcázar en noviembre de 1538.",
+    "aboutTitle": "Purificación, un municipio con una rica historia en el Tolima",
+    "about": "Purificación es un municipio colombiano ubicado en el departamento del Tolima, distante 93 km de Ibagué. Fue fundado el 25 de mayo de 1664 por el encomendero Diego de Ospina Maldonado, quien recibió el mandato del Rey de España para establecer la «Villa de Purificación de Nuestra Señora». La villa jugó un papel importante en el desarrollo comercial del país durante el siglo XIX y comienzos del siglo XX debido a su ubicación al margen izquierdo del Río Magdalena, que era la principal vía de comunicación en ese momento.\n\nPurificación alcanzó un gran progreso y llegó a ser capital de la República de la Nueva Granada por decreto de 14 de abril de 1831, y también capital del Estado Soberano del Tolima, de acuerdo con el decreto de 12 de abril de 1861. Sin embargo, la población sufrió un gran incendio el 26 de agosto de 1896, que destruyó gran parte de la ciudad."
+  },
+  {
+    "slug": "el-factor",
+    "name": "El Factor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "María Trinidad Sánchez",
+    "regionSlug": "maria-trinidad-sanchez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-riva",
+      "san-francisco-de-macoris",
+      "moca",
+      "la-vega",
+      "santiago-de-los-caballeros",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Factor, municipio de la República Dominicana con 29.736 habitantes, está ubicado en la provincia de María Trinidad Sánchez, en la zona norte del país",
+    "aboutTitle": "La economía agrícola y ganadera de El Factor",
+    "about": "El Factor es un municipio de la República Dominicana situado en la provincia de María Trinidad Sánchez. Los primeros pobladores se establecieron en la zona atraídos por sus tierras fértiles, lo que dio origen a un asentamiento agrícola que ha mantenido esa vocación hasta la actualidad. La economía local se sustenta principalmente en la agricultura y la ganadería; entre los cultivos más habituales se encuentran el arroz, el cacao y el coco, mientras que la actividad ganadera se centra en la cría de ganado vacuno. El municipio ha experimentado un crecimiento poblacional sostenido: en el censo de 2002 la población era de 13.978 habitantes y, dos décadas después, en 2022 alcanzó los 29.736 habitantes, casi duplicando su número. Este incremento refleja tanto la expansión de la actividad agropecuaria como la incorporación de nuevos residentes que buscan aprovechar las oportunidades que brinda la zona y contribuyen al desarrollo regional y social."
+  },
+  {
+    "slug": "uyuni",
+    "name": "Uyuni",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de Potosí",
+    "regionSlug": "departamento-de-potosi",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Uyuni, ciudad boliviana al borde del Salar de Uyuni, el salar más grande del mundo, con una población de 20.958 habitantes.",
+    "aboutTitle": "Uyuni, la puerta al Salar de Uyuni",
+    "about": "Uyuni es un municipio y una ciudad intermedia al suroeste de Bolivia, capital de la provincia de Quijarro en el departamento de Potosí. La historia de la ciudad de Uyuni está vinculada a la construcción del ferrocarril hacia Antofagasta en el Océano Pacífico para la exportación de la plata y la vinculación territorial, impulsada por el presidente Aniceto Arce. Uyuni fue fundada el 11 de julio de 1889, durante el gobierno del presidente Aniceto Arce Ruiz. La ciudad de Uyuni es conocida por ser un centro turístico de la región, conectada con las principales ciudades del país por el aeropuerto Joya Andina. Además, Uyuni formó parte de la ruta de la competencia internacional automovilística Rally Dakar en los años 2014, 2015, 2016 y 2017."
+  },
+  {
+    "slug": "siquirres",
+    "name": "Siquirres",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Limón",
+    "regionSlug": "provincia-de-limon",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cartago",
+      "costa-rica",
+      "san-jose",
+      "heredia",
+      "alajuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Siquirres, ciudad cabecera del cantón de Siquirres en la provincia de Limón, Costa Rica, con una población de 29.644 habitantes.",
+    "aboutTitle": "Siquirres, ciudad cabecera del cantón",
+    "about": "Siquirres es el distrito primero y ciudad cabecera del cantón de Siquirres, en la provincia de Limón, de Costa Rica. El nombre Siquirres se deriva de la palabra nativa que significa rojizo coloreado. Siquirres fue creado el 19 de septiembre de 1911 por medio de Ley 11.\n\nLa ciudad se encuentra a 111 km de la capital de Costa Rica, la Ciudad de San José, y cuenta con un área de 184,21 km² y una altitud media de 62 m s. n. m. En el distrito se encuentra la mayor concentración demográfica del cantón y una de las mayores de la provincia."
+  },
+  {
+    "slug": "pueblo-nuevo-solistahuacan",
+    "name": "Pueblo Nuevo Solistahuacán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 226,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sabanilla",
+      "larrainzar",
+      "macuspana",
+      "villahermosa",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pueblo Nuevo Solistahuacán, municipio de Chiapas con 29.636 habitantes, cabecera, forma parte de los 124 municipios del estado y cuenta con 73 localidades.",
+    "aboutTitle": "Pueblo Nuevo Solistahuacán, Chiapas",
+    "about": "El Municipio de Pueblo Nuevo Solistahuacán es uno de los ciento veinticuatro municipios que integran el estado de Chiapas y su cabecera lleva el mismo nombre, Pueblo Nuevo Solistahuacán. El topónimo Solistahuacán proviene del náhuatl y se traduce como “Lugar de los que tienen armas de pedernal”, evidencia de la herencia indígena de la zona. Limita al norte con Amatán, al este con Huitiupán, al sur con Simojovel, San Andrés Duraznal, Jitotol, Rincón Chamula San Pedro e Ixhuatán, formando un conjunto de fronteras con ocho municipios vecinos. Según el censo de 2020, la población total asciende a 29.636 habitantes, de los cuales 14.432 son hombres y 15.204 mujeres, lo que indica una ligera mayoría femenina. El municipio está constituido por 73 localidades, que se distribuyen en áreas rurales y la cabecera; muchas de esas localidades son pequeños poblados con escasa densidad, mientras que la cabecera concentra la mayor parte de los residentes. Todas ellas fueron registradas en el último censo."
+  },
+  {
+    "slug": "donato-guerra",
+    "name": "Donato Guerra",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valle-de-bravo",
+      "san-antonio-acahualco",
+      "san-francisco-tlalcilalcalpan",
+      "tejupilco-de-hidalgo",
+      "zinacantepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Donato Guerra, municipio del Estado de México con una rica historia que data de la época prehispánica, cuando formó parte de la región de Malacatepec.",
+    "aboutTitle": "Donato Guerra, un municipio con raíces prehispánicas",
+    "about": "El municipio de Donato Guerra se encuentra dentro del Valle de Quencio y limita al norte con Villa de Allende, al oeste con Zitácuaro, al sur con Ixtapan del Oro y Valle de Bravo y al este con Amanalco de Becerra. Su nombre original era Malacatepec, que significa 'cerro del malacate', pero en 1880 se le cambió el nombre en honor al general Donato Guerra.\n\nDurante la época prehispánica, el territorio de Donato Guerra estuvo poblado por poblaciones mazahuas desde al menos 1168. Posteriormente, el territorio fue conquistado por el Imperio azteca y se convirtió en tributario de este hasta la conquista española. La colonia trajo la visita de evangelizadores, principalmente franciscanos, que construyeron la parroquia de La Asunción Malacatepec entre 1548 y 1550."
+  },
+  {
+    "slug": "turrialba",
+    "name": "Turrialba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Cartago",
+    "regionSlug": "provincia-de-cartago",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cartago",
+      "siquirres",
+      "costa-rica",
+      "san-jose",
+      "heredia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Turrialba, ciudad cabecera del cantón homónimo, situada en el valle del río en la provincia de Cartago, Costa Rica, fundada en 1867 por Jorge Álvarez Floyd.",
+    "aboutTitle": "Turrialba, ciudad cabecera del cantón homónimo en Cartago",
+    "about": "Turrialba es el distrito primero y ciudad cabecera del cantón homónimo de Turrialba, fundado en 1867 por Jorge Alvarez Floyd en la provincia de Cartago, de Costa Rica. La ciudad se encuentra ubicada en el valle que conforma el río. En el pasado, la ciudad fue un importante centro comercial gracias al ferrocarril, que transportaba banano, caña de azúcar y café desde las fincas del Caribe y del cantón. Sin embargo, con la inauguración de la Autopista Braulio Carrillo en 1987 y la cancelación del transporte por vía férrea en 1995, la ciudad entró en declive comercial. A pesar de esto, la ciudad sigue siendo un importante centro en la provincia de Cartago. La ciudad ha tenido un desarrollo significativo en términos de infraestructura, con la instalación del alumbrado eléctrico en 1912 y la cañería en 1900. La primera sesión del Concejo de Turrialba se llevó a cabo el 15 de septiembre de 1903, y en 1925 la villa fue elevada a la categoría de ciudad."
+  },
+  {
+    "slug": "montufar",
+    "name": "Montúfar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Carchi",
+    "regionSlug": "provincia-de-carchi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tulcan",
+      "ipiales",
+      "ibarra",
+      "tuquerres",
+      "pasto",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Montúfar, cantón en Ecuador, Carchi; capital San Gabriel, nombrada en 1883 por el arcángel, y lleva el nombre del coronel Carlos Montúfar desde 1905.",
+    "aboutTitle": "Montúfar, patrimonio nacional",
+    "about": "Montúfar es un cantón situado en el norte de Ecuador, dentro de la provincia de Carchi. Su capital, la ciudad de San Gabriel, recibió ese nombre en 1883 en honor al arcángel San Gabriel, guardián y protector de la localidad, sustituyendo la antigua denominación TUSA. El propio cantón adoptó el nombre de Montúfar el 27 de septiembre de 1905 para rendir homenaje al coronel Carlos Montúfar. La zona se considera una de las más bellas representaciones del patrimonio nacional.\n\nAdministrativamente, Montúfar se divide entre una parroquia urbana —San Gabriel— y cinco parroquias rurales: Chitán de Navarrete, Cristóbal Colón, Fernández Salvador, La Paz y Piartal. Cada una de estas parroquias conserva rasgos propios que contribuyen a la identidad del cantón. La distribución de la población entre la zona urbana y las áreas rurales refleja la organización tradicional de la región, con San Gabriel como centro administrativo y comercial. El conjunto de sus parroquias mantiene vivas tradiciones y costumbres que forman parte del legado cultural del norte quiteño."
+  },
+  {
+    "slug": "saba",
+    "name": "Sabá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Colón",
+    "regionSlug": "departamento-de-colon",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-ceiba",
+      "juticalpa",
+      "roatan",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Sabá, municipio del departamento de Colón, Honduras, con 370.9 km² de superficie, fundado en 1964 y cuyo nombre proviene del náhuatl.",
+    "aboutTitle": "Sabá, un municipio en el departamento de Colón",
+    "about": "Sabá es un municipio del departamento de Colón en la República de Honduras. Su nombre proviene del náhuatl y significa 'Roña', una enfermedad endémica que afectó a la región. En 1964, el municipio fue creado mediante un decreto ejecutivo; desde entonces se celebra el 4 de septiembre como día de independencia, con actos cívicos que recuerdan la autonomía alcanzada. La fundación supuso un hito importante, pues la comunidad se había opuesto a la conquista y logró consolidarse como un asentamiento más próspero que la cabecera municipal. En los años setenta surgieron cooperativas que impulsaron la producción agrícola y generaron empleo, desencadenando una explosión demográfica y un notable desarrollo económico. Ese impulso se tradujo en mejoras de infraestructura y servicios, reforzando la posición de Sabá dentro del departamento. El dinamismo económico continuó en las décadas siguientes, manteniendo una tendencia al alza en la actividad productiva y en la calidad de vida de sus habitantes."
+  },
+  {
+    "slug": "casacoima",
+    "name": "Casacoima",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Delta Amacuro",
+    "regionSlug": "delta-amacuro",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-guayana",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Casacoima, municipio del Estado Delta Amacuro en Venezuela, ubicado en la región del Delta del Orinoco, con una población de 29.555 habitantes.",
+    "aboutTitle": "Castillos de Guayana en Casacoima",
+    "about": "El Municipio Casacoima es uno de los 4 municipios que integran el Estado Delta Amacuro, Venezuela. Se tiene registro de que la Etnia Warao se instaló en el sitio alrededor del año 1790 cuando el territorio aún era una colonia española. Los españoles establecieron en el área los ahora llamados Castillos de Guayana para defender el Río Orinoco de las incursiones de Piratas y otras potencias coloniales. El Municipio Casacoima posee una superficie de 2.920,69 km² y limita al norte con el Municipio Tucupita y el estado Monagas, al sur con el estado Bolívar, al este con el Municipio Antonio Díaz y al oeste con el estado Bolívar y estado Monagas. Su capital es la localidad de Sierra Imataca, que es un importante centro administrativo y comercial de la región. La ubicación geográfica del municipio lo convierte en un lugar estratégico para el comercio y la comunicación entre los estados del oriente venezolano."
+  },
+  {
+    "slug": "casa-grande",
+    "name": "Casa Grande",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de La Libertad",
+    "regionSlug": "departamento-de-la-libertad",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "paijan-peru",
+      "trujillo",
+      "cajamarca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Casa Grande, un distrito en el departamento de La Libertad, Perú, conocido por su industria azucarera.",
+    "aboutTitle": "La industria azucarera de Casa Grande",
+    "about": "El distrito de Casa Grande se encuentra en la Provincia de Ascope, ubicada en el departamento de La Libertad en el Norte del Perú. Limita con varias provincias y distritos, y forma parte de la arquidiócesis de Trujillo.\n\nEn ganadería, el distrito se enfoca en la crianza de ovinos. La historia de Casa Grande se remonta a 1830, cuando las familias Unidas fundaron la localidad en la antigua Hacienda Oyague. A mediados del siglo XIX, el bávaro Luis V. Albrecht adquirió varias haciendas en el Valle de Chicama, incluyendo Casa Grande. Posteriormente, la industria azucarera se convirtió en una de las más importantes del país, con la fundación de la Sociedad Agrícola Casa Grande Ltda. en 1889."
   }
 ];
