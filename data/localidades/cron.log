@@ -3230,3 +3230,131 @@ Groq: HT
 [2026-10-14T08:02:48.516Z]   ✓ casacoima (Venezuela) — escribió NVIDIA, verificó NVIDIA-Gemma
 [2026-10-14T08:04:46.017Z]   ✓ casa-grande (Perú) — escribió NVIDIA, verificó NVIDIA-Gemma
 [2026-10-14T08:04:46.187Z] publicadas 50 salas · acumuladas 830 · quedan 2467 en cola
+[2026-10-15T01:30:06.239Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-15T01:30:06.253Z] cola: 2463 · lote de hoy: 50
+[2026-10-15T01:30:07.267Z]   ✗ san-miguel-oeste: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-15T01:30:29.397Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-15T01:30:50.719Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-15T01:31:12.088Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-10-15T01:31:35.369Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-10-15T01:31:56.645Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-10-15T01:32:17.240Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-10-15T01:32:38.512Z]   ✗ soteapan: sin fuente utilizable
+[2026-10-15T01:33:00.354Z]   ✗ chignautla: sin fuente utilizable
+[2026-10-15T01:41:41.157Z]   ✗ puyo: fraseo calcado de chone: "mas poblada del pais y la tercera"
+[2026-10-15T01:48:15.734Z]   ✓ la-oroya (Perú) — escribió Groq, verificó OpenRouter
+[2026-10-15T01:59:38.513Z]   ✗ rioverde: fraseo calcado de atacames: "es un canton de la provincia de"
+[2026-10-15T02:06:58.271Z]   ✓ departamento-malargue (Argentina) — escribió Groq, verificó OpenRouter
+[2026-10-15T02:14:16.788Z]   ✗ silvia: fraseo calcado de palermo-colombia: "dentro de su jurisdiccion estan los centros"
+[2026-10-15T02:24:55.803Z]   ✓ putla-villa-de-guerrero (México) — escribió Groq, verificó NVIDIA
+[2026-10-15T02:38:41.393Z]   ✓ inza (Colombia) — escribió Groq, verificó OpenRouter
+[2026-10-15T02:45:19.404Z]   ✗ nueva-italia-de-ruiz: fraseo calcado de santa-catarina: "es una ciudad mexicana ubicada en el"
+[2026-10-15T02:58:49.361Z]   ✗ raimondi: rechazada tras corrección: la institución académica más antigua de América; donde impartió materias relacionadas con la geografía y la botánica; La labor docente de Raimondi permitió la transmisión de sus métodos de investigaci
+[2026-10-15T03:06:40.113Z]   ✓ ojuelos-de-jalisco (México) — escribió Groq, verificó OpenRouter
+[2026-10-15T03:19:49.615Z]   ✓ nagarote (Nicaragua) — escribió Groq, verificó OpenRouter
+[2026-10-15T03:26:37.159Z]   ✓ actopan-mexico (México) — escribió Groq, verificó OpenRouter
+[2026-10-15T03:39:34.371Z]   ✓ monsefu (Perú) — escribió Groq, verificó OpenRouter
+[2026-10-15T03:52:46.209Z]   ✓ jose-antonio-paez (Venezuela) — escribió Groq, verificó OpenRouter
+[2026-10-15T04:02:42.408Z]   ✗ hecelchakan: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-15T04:16:11.167Z]   ✗ santacruz: rechazada tras corrección: El municipio limítrofe al este se denomina Túquerres, no Túqueres.; La ficha indica que Santacruz se sitúa en la zona montañosa del suroeste colombiano, dato que no aparece en el material de origen.
+[2026-10-15T04:23:43.747Z]   ✓ turicato (México) — escribió Groq, verificó OpenRouter
+[2026-10-15T04:36:19.264Z]   ✗ ferrenafe: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-15T04:49:15.832Z]   ✗ paiwas: fraseo calcado de tlahuapan: "como punto de referencia para la poblacion"
+[2026-10-15T05:02:36.158Z]   ✓ chapa-de-mota (México) — escribió Groq, verificó OpenRouter
+[2026-10-15T05:16:37.483Z]   ✗ canatlan: fraseo calcado de chisec: "lo que le confiere una posicion estrategica"
+[2026-10-15T05:29:49.841Z]   ✓ yurecuaro (México) — escribió Groq, verificó OpenRouter
+[2026-10-15T05:39:54.833Z]   ✗ neira: fraseo calcado de olaya-herrera: "dentro de su jurisdiccion se encuentran los"
+[2026-10-15T05:51:41.538Z]   ✗ escarcega: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-10-15T05:52:02.942Z]   ✗ departamento-albardon: es una división administrativa, no una localidad
+[2026-10-15T05:59:13.784Z]   ✗ tancitaro: fraseo calcado de chulucanas-peru: "sobre el nivel del mar segun el"
+[2026-10-15T06:06:16.657Z]   ✗ chanchamayo-departamento-de-junin: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-15T06:14:21.889Z]   ✗ san-juan-ixcoy: fraseo calcado de san-mateo-ixtatan: "un municipio del departamento de huehuetenango situado"
+[2026-10-15T06:27:59.981Z]   ✓ cambita-garabitos (República Dominicana) — escribió Groq, verificó OpenRouter
+[2026-10-15T06:41:21.013Z]   ✓ capitan-bermudez (Argentina) — escribió Groq, verificó OpenRouter
+[2026-10-15T06:54:55.927Z]   ✗ jonuta: fraseo calcado de jalpa-de-mendez: "es un municipio del estado de tabasco"
+[2026-10-15T07:06:01.736Z]   ✗ tepetlaoxtoc: fraseo calcado de san-jose-villa-de-allende: "es una localidad mexicana situada en el"
+[2026-10-15T07:23:37.452Z]   ✓ yabucoa (Puerto Rico) — escribió Groq, verificó OpenRouter
+[2026-10-15T07:30:14.953Z]   ✓ pichincha (Ecuador) — escribió Groq, verificó Gemini
+[2026-10-15T07:41:43.204Z]   ✗ villa-san-lorenzo: rechazada tras corrección: La ficha identifica la localidad como Villa San Lorenzo, Departamento de Tarija, Bolivia, pero el material de origen y el texto describen la ciudad de Salta, Argentina.
+[2026-10-15T07:52:20.426Z]   ✗ temascaltepec: rechazada tras corrección: La frase 'Esta etimología refleja la tradición prehispánica de la zona' no está respaldada por el material de origen.; La frase 'La diversidad de sus comunidades refleja la riqueza cultural de la regi
+[2026-10-15T07:59:59.557Z]   ✓ huatabampo (México) — escribió Groq, verificó Gemini
+[2026-10-15T08:10:59.903Z]   ✓ tuzantan (México) — escribió Groq, verificó Gemini
+[2026-10-15T08:15:17.541Z]   ✗ villa-comaltitlan: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-10-15T08:23:11.924Z]   ✓ jima-abajo (República Dominicana) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T08:32:50.605Z]   ✗ huanta: rechazada tras corrección: El texto añade información no respaldada por la fuente sobre la concentración de instituciones, su función como punto de referencia administrativa y la evocación de identidad ligada a la geografía.
+[2026-10-15T08:43:58.190Z]   ✗ quezaltepeque: fraseo calcado de zacapa: "forma parte de la mancomunidad de nor"
+[2026-10-15T08:51:05.306Z]   ✓ independencia-anzoategui (Venezuela) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T08:55:56.699Z]   ✗ coyutla: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-10-15T09:06:02.797Z]   ✗ badiraguato: fraseo calcado de del-nayar: "es uno de los veinte municipios que"
+[2026-10-15T09:12:44.309Z]   ✓ dulce-nombre-de-culmi (Honduras) — escribió Groq, verificó Gemini
+[2026-10-15T09:25:39.760Z]   ✓ conguaco (Guatemala) — escribió Groq, verificó Gemini
+[2026-10-15T09:38:29.152Z]   ✓ waslala (Nicaragua) — escribió Groq, verificó Gemini
+[2026-10-15T09:49:28.782Z]   ✓ motupe (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T09:56:07.938Z]   ✗ tena: fraseo calcado de huaquillas: "consolidandose como uno de los principales nucleos"
+[2026-10-15T10:02:50.426Z]   ✗ padre-abad: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-15T10:13:25.673Z]   ✗ alquizar: rechazada tras corrección: La frase 'en el occidente de la isla' no aparece en el material de origen.
+[2026-10-15T10:22:36.195Z]   ✗ chahal: rechazada tras corrección: Se añade información no respaldada por la fuente sobre la gestión de instituciones locales, el desarrollo de la zona, la actividad municipal y la participación de los habitantes en tareas cotidianas.
+[2026-10-15T10:29:32.951Z]   ✗ mollendo-departamento-de-arequipa: rechazada tras corrección: Invención: el texto afirma que la norma legal definió los límites administrativos del distrito hasta la actualidad, dato que no figura en el material de origen.
+[2026-10-15T10:36:52.495Z]   ✓ aldama (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T10:44:18.916Z]   ✗ uxpanapa: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-15T10:51:51.095Z]   ✗ la-masica: rechazada tras corrección: La ficha afirma que el municipio cuenta con órganos de gobierno propios según la legislación hondureña, dato que no figura en el material de origen.
+[2026-10-15T11:00:10.627Z]   ✗ pueblo-nuevo-vinas: fraseo calcado de san-carlos-alzatate: "en la region sur oriente de la"
+[2026-10-15T11:08:05.074Z]   ✗ arbieto: rechazada tras corrección: Se añade información no contenida en la fuente al describir el embalse La Angostura como 'una obra de infraestructura hidráulica'
+[2026-10-15T11:15:48.669Z]   ✓ quivican (Cuba) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T11:19:39.935Z]   ✗ madera: fraseo calcado de meoqui: "es un municipio del estado de chihuahua"
+[2026-10-15T11:27:13.740Z]   ✗ cotagaita: fraseo calcado de pucarani: "ejerce la funcion de capital de la"
+[2026-10-15T11:37:19.333Z]   ✓ aipe (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T11:42:05.824Z]   ✓ lazaro-cardenas-quintana-roo (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T11:50:44.563Z]   ✗ aragua: rechazada tras corrección: La cifra 2624 km² no incluye el punto separador de miles requerido por las normas de redacción (debe ser 2.624)
+[2026-10-15T11:58:53.089Z]   ✗ navolato: rechazada tras corrección: La ficha afirma que Navolato es el 'principal núcleo administrativo de la demarcación municipal', dato que no figura en la fuente.; La ficha afirma que Navolato se sitúa en la 'zona occidental del paí
+[2026-10-15T12:09:09.314Z]   ✗ monitos: fraseo calcado de san-bernardo-del-viento: "es un municipio colombiano del departamento de"
+[2026-10-15T12:19:32.901Z]   ✓ saraguro (Ecuador) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T12:25:26.789Z]   ✓ venustiano-carranza-mexico (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T12:29:40.380Z]   ✓ somotillo (Nicaragua) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T12:37:23.072Z]   ✓ reforma (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T12:49:33.088Z]   ✗ abasolo: rechazada tras corrección: La afirmación de que está situada en la región central del estado y en el centro del país no figura en el material de origen.
+[2026-10-15T12:59:49.933Z]   ✓ lircay (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T13:09:35.983Z]   ✓ barranquitas (Puerto Rico) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T13:22:14.005Z]   ✗ pedro-camejo: rechazada tras corrección: La ficha afirma que el nombre de Pedro Camejo fue adoptado por diversas localidades y monumentos, dato que no aparece en el material de origen.; Se incluyen afirmaciones no respaldadas por la fuente, 
+[2026-10-15T13:29:39.661Z]   ✗ pacasmayo: fraseo calcado de huaral: "que funciona como capital del distrito y"
+[2026-10-15T13:40:08.795Z]   ✗ tlachichuca: rechazada tras corrección: La frase 'Esta etimología refleja la referencia histórica al oficio artesanal en la zona' es una inferencia no respaldada por el material de origen.
+[2026-10-15T13:49:08.705Z]   ✗ tinguipaya: rechazada tras corrección: La ficha incluye información no presente en el material de origen, como la descripción de la gestión local y la infraestructura educativa y sanitaria.
+[2026-10-15T13:49:56.703Z]   ✓ sibanicu (Cuba) — escribió Groq, verificó NVIDIA
+[2026-10-15T13:53:10.356Z]   ✓ pucon (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-15T13:57:09.420Z]   ✗ yauri: rechazada tras corrección: La ficha menciona que Yauri está ubicada en el sur del país, lo que no se menciona en el material de origen.; La ficha describe la función de Yauri como centro administrativo y su impacto en la poblac
+[2026-10-15T13:58:47.243Z]   ✓ rosas-chiapas (México) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:00:07.193Z]   ✓ contamana (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:01:33.610Z]   ✓ acatenango (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:03:32.927Z]   ✓ mateare (Nicaragua) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:07:09.076Z]   ✗ inambari: fraseo calcado de tocache: "forma parte de la organizacion territorial del"
+[2026-10-15T14:07:29.093Z]   ✗ morovis: sin fuente utilizable
+[2026-10-15T14:09:55.687Z]   ✓ ciudad-ixtepec (México) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:19:08.302Z]   ✓ marcala (Honduras) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:21:51.235Z]   ✗ bagua-departamento-de-amazonas: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-15T14:22:52.087Z]   ✗ isnos: fraseo calcado de palermo-colombia: "c segun la proyeccion del dane para"
+[2026-10-15T14:26:18.065Z]   ✗ azangaro: rechazada tras corrección: Azángoro en lugar de Azángaro; la ciudad forma parte del entorno que rodea al lago, uno de los mayores cuerpos de agua de la zona; Su posición geográfica la sitúa dentro del territorio peruano y la co
+[2026-10-15T14:34:21.336Z]   ✗ longavi: rechazada tras corrección: La ficha menciona actividades económicas (agricultura, comercio) y elementos geográficos (valles, sierras, corredor del Maule) que no están presentes en la fuente de origen.
+[2026-10-15T14:35:20.529Z]   ✓ condega (Nicaragua) — escribió Groq, verificó NVIDIA
+[2026-10-15T14:39:14.195Z]   ✗ puerto-leguizamo: fraseo calcado de guamote: "el nivel del mar y la temperatura"
+[2026-10-15T14:39:34.212Z]   ✗ gran-sabana: es una división administrativa, no una localidad
+[2026-10-15T14:40:18.040Z]   ✗ coyaima: fraseo calcado de palermo-colombia: "dentro de su jurisdiccion estan los centros"
+[2026-10-15T14:42:07.337Z]   ✗ bonito-oriental: rechazada tras corrección: El río se llama Aguan, no Agan; No se menciona la 'posición estratégica' en la fuente; Se repite la información sobre el nombre del municipio de manera innecesaria y con pequeñas variaciones; No se me
+[2026-10-15T14:47:08.869Z]   ✗ jaramijo: rechazada tras corrección: El texto afirma que concentra los servicios municipales del cantón, que es un punto de referencia para los municipios circundantes y que tiene relevancia en la organización territorial, datos que no a
+[2026-10-15T14:53:57.325Z]   ✗ ciro-redondo: rechazada tras corrección: El material de origen describe a una persona, no al municipio de Ciro Redondo. Datos como la población (28.370 habitantes), la ubicación geográfica (provincia de Ciego de Ávila, centro de Cuba) y la a
+[2026-10-15T14:56:15.586Z]   ✗ montalvo: rechazada tras corrección: Dice que Montalvo está en la costa norte de Ecuador, lo que no se menciona en el material de origen; Dice que el Concejo Cantonal 'aprueba las normas locales, supervisa la gestión del ejecutivo y repr
+[2026-10-15T14:58:30.797Z]   ✗ san-jeronimo-guatemala: fraseo calcado de san-miguel-chicaj: "municipio del departamento de baja verapaz situado"
+[2026-10-15T15:01:09.864Z]   ✗ utuado: rechazada tras corrección: La cifra de población se escribe como 35.336, pero en la fuente aparece como 35 336 (el número no está literalmente en el material de origen).
+[2026-10-15T15:09:19.505Z]   ✗ mazatan: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-15T15:13:03.141Z]   ✓ cuitzeo-del-porvenir (México) — escribió Groq, verificó NVIDIA
+[2026-10-15T15:18:44.436Z]   ✗ ocoyucan: rechazada tras corrección: Invención: El material de origen no menciona que en Santa Clara Ocoyucan se encuentren las dependencias administrativas.; Invención: El material de origen no menciona al Instituto Nacional de Estadíst
+[2026-10-15T15:21:07.862Z]   ✓ tetela-de-ocampo (México) — escribió Groq, verificó NVIDIA
+[2026-10-15T15:26:47.142Z]   ✓ alotenango (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-15T15:32:28.185Z]   ✓ cabrican (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T15:41:27.646Z]   ✗ la-paz-centro-nicaragua: rechazada tras corrección: Invención: 'lo que marcó un hito administrativo en su historia'; Invención: 'presencia territorial significativa dentro de la región occidental del país'; Invención: 'Su origen colonial se refleja en 
+[2026-10-15T15:47:08.188Z]   ✓ lares (Puerto Rico) — escribió Groq, verificó NVIDIA-Gemma
+[2026-10-15T15:55:06.869Z]   ✗ guaimaca: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-15T15:56:03.953Z]   ✓ dajabon (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-15T15:57:26.245Z]   ✗ sayan: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-15T16:05:23.377Z]   ✗ san-felipe-jalapa-de-diaz: fraseo calcado de temascalcingo-de-jose-maria-velasco: "es una localidad mexicana ubicada en el"
+[2026-10-15T16:11:45.977Z]   ✓ el-toco (Chile) — escribió NVIDIA-Gemma, verificó Groq
+[2026-10-15T16:11:46.219Z] publicadas 50 salas · acumuladas 880 · quedan 2413 en cola
