@@ -893,7 +893,29 @@
   "cabrican",
   "lares",
   "dajabon",
-  "el-toco"
+  "el-toco",
+  "escarcega",
+  "villa-comaltitlan",
+  "huanta",
+  "tena",
+  "chahal",
+  "la-masica",
+  "madera",
+  "isnos",
+  "longavi",
+  "coyaima",
+  "san-jeronimo-guatemala",
+  "mazatan",
+  "ocoyucan",
+  "san-andres-sajcabaja",
+  "punceres",
+  "las-horquetas",
+  "nochistlan-de-mejia",
+  "huitiupan",
+  "motozintla-de-mendoza",
+  "tlalpujahua-de-rayon",
+  "vinales",
+  "tenares"
  ],
  "descartadas": [
   {
@@ -8830,6 +8852,326 @@
    "slug": "san-felipe-jalapa-de-diaz",
    "razon": "fraseo calcado de temascalcingo-de-jose-maria-velasco: \"es una localidad mexicana ubicada en el\"",
    "fecha": "2026-10-15"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "hecelchakan",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "ferrenafe",
+   "razon": "rechazada tras corrección: El texto afirma que conserva edificaciones y arquitectura coloniales, dato que no aparece en el material de origen.",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tancitaro",
+   "razon": "fraseo calcado de la-piedad-de-cabadas: \"segun el censo de 2020 la localidad\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "jonuta",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "villa-san-lorenzo",
+   "razon": "rechazada tras corrección: Confunde la localidad de Villa San Lorenzo del Departamento de Tarija, Bolivia con la homónima de la provincia de Salta, Argentina.",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "temascaltepec",
+   "razon": "fraseo calcado de coatepec-harinas: \"el gobierno del estado de mexico lo\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "quezaltepeque",
+   "razon": "fraseo calcado de san-martin-jilotepeque: \"para la imparticion de justicia mediante juicios\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "coyutla",
+   "razon": "fraseo calcado de pueblo-viejo: \"es uno de los 212 municipios que\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "badiraguato",
+   "razon": "fraseo calcado de del-nayar: \"es uno de los veinte municipios que\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "padre-abad",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "alquizar",
+   "razon": "fraseo calcado de minga-guazu: \"su condicion de municipio y ciudad dentro\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "mollendo-departamento-de-arequipa",
+   "razon": "fraseo calcado de majes: \"en el departamento de arequipa al sur\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "uxpanapa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "pueblo-nuevo-vinas",
+   "razon": "fraseo calcado de nueva-santa-rosa: \"departamento de santa rosa situado en la\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "arbieto",
+   "razon": "rechazada tras corrección: El texto menciona que la ubicación está en el altiplano, dato que no figura en el material de origen y que contradice la ubicación en el Valle Alto.; Se describe el relieve montañoso, la circulación e",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "cotagaita",
+   "razon": "rechazada tras corrección: La afirmación de que está situada en el sur del país no figura en el material de origen.; La afirmación de que el episodio marcó el inicio de la campaña libertadora en la región y es recordado como mo",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "aragua",
+   "razon": "fraseo calcado de aragua-de-barcelona: \"del estado y ocupa una superficie de\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "navolato",
+   "razon": "fraseo calcado de comitan-de-dominguez: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "monitos",
+   "razon": "fraseo calcado de san-bernardo-del-viento: \"es un municipio colombiano del departamento de\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "abasolo",
+   "razon": "fraseo calcado de salvatierra: \"localidad del estado mexicano de guanajuato cabecera\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "pedro-camejo",
+   "razon": "rechazada tras corrección: La ficha inventa detalles sobre la vida y carrera de Pedro Camejo que no están en la fuente: el mando sobre pequeñas unidades, el conocimiento de estrategias, el simbolismo de su transición de lealtad",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "pacasmayo",
+   "razon": "rechazada tras corrección: Invención: El texto menciona que es reconocida por sus 'extensas playas', que es el 'principal centro administrativo de la zona', que tiene una 'identidad ligada al litoral', que sus playas son 'frecu",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tlachichuca",
+   "razon": "rechazada tras corrección: La ficha incluye inferencias y comentarios sobre la ausencia de datos en la fuente ('Esta referencia al oficio sugiere una posible tradición artesanal', 'En la fuente consultada la sección de demograf",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tinguipaya",
+   "razon": "rechazada tras corrección: El texto menciona que la localidad funciona como 'centro administrativo', dato no presente en la fuente.; Afirma que el territorio incluye 'áreas rurales circundantes', dato no presente en la fuente.;",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "yauri",
+   "razon": "rechazada tras corrección: La ficha añade información no respaldada por el material de origen sobre la concentración de instituciones, el papel en la organización administrativa, la tradición histórica y cultural de la zona and",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "inambari",
+   "razon": "rechazada tras corrección: El texto añade datos no presentes en la fuente sobre la geografía ('caracterizado por su densa vegetación y alta biodiversidad') y sobre la cultura ('Estas comunidades conservan sus lenguas y costumbr",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "bagua-departamento-de-amazonas",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "azangaro",
+   "razon": "fraseo calcado de huaral: \"como capital del distrito y de la\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "puerto-leguizamo",
+   "razon": "rechazada tras corrección: Atribuye a Puerto Asís un límite al occidente de 16,35 km, cuando en el material de origen 16,35 km corresponde al límite al norte con el departamento del Caquetá (el límite con Puerto Asís es de 206,",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "gran-sabana",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "bonito-oriental",
+   "razon": "rechazada tras corrección: La frase 'La ubicación en la cuenca del Río Aguan influye en sus recursos hídricos' es una inferencia/invención, ya que el material de origen no menciona los recursos hídricos.",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "jaramijo",
+   "razon": "rechazada tras corrección: La ficha afirma que es la séptima urbe más poblada de la región litoral, cuando la fuente dice que es la séptima de la provincia de Manabí.; La ficha añade información no respaldada por la fuente sobr",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "ciro-redondo",
+   "razon": "rechazada tras corrección: La ficha afirma que su muerte ocurrió durante una ofensiva en la zona central de Cuba, dato que no figura en el material de origen.; La ficha menciona que su liderazgo lo convierte en figura destacada",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "montalvo",
+   "razon": "fraseo calcado de baba: \"es uno de los trece cantones que\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "utuado",
+   "razon": "rechazada tras corrección: El texto añade información no respaldada por el material de origen sobre la concentración de servicios públicos y actividad comercial en la sede municipal.; El texto inventa datos sobre la densidad po",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "la-paz-centro-nicaragua",
+   "razon": "rechazada tras corrección: La ficha afirma que hubo un 'cambio de nombre' y que la denominación original 'permaneció durante varios siglos', dato que no figura en el material de origen.",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "guaimaca",
+   "razon": "rechazada tras corrección: Invención: 'zona de la región central del país' (no figura en el material de origen); Invención: 'orígenes coloniales' (no figura en el material de origen)",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "sayan",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "san-felipe-jalapa-de-diaz",
+   "razon": "rechazada tras corrección: El texto añade información no respaldada por la fuente sobre señalización oficial, documentos, preferencias locales, ubicación en el territorio mexicano del sur, historia, cultura y dependencias admin",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "cuitlahuac",
+   "razon": "fraseo calcado de pueblo-viejo: \"es uno de los 212 municipios que\"",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "bocoyna",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "larreynaga",
+   "razon": "rechazada tras corrección: Dato no respaldado por la fuente: ubica el municipio en la 'zona occidental del país'.; Dato no respaldado por la fuente: afirma que la ciudad de León es la 'capital del departamento'.; Dato no respal",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "supe-departamento-de-lima",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "quiroga",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "luvianos",
+   "razon": "rechazada tras corrección: El año '2027' no aparece en el material de origen.; La cifra de miles '27 781' no utiliza el punto separador ('27.781').",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "veroes",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "periban",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "tuman",
+   "razon": "rechazada tras corrección: El texto afirma que Tumán está en una 'posición estratégica dentro de la zona norte del país', dato que no figura en el material de origen.; El texto afirma que Tumán se encuentra 'dentro del área de ",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "loreto-ecuador",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "coroico",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "santa-barbara-guatemala",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "julian-mellado",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "cachachi",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
+  },
+  {
+   "slug": "san-juan-guichicovi",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-16"
   }
  ]
 }
