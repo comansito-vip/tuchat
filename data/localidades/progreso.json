@@ -915,7 +915,57 @@
   "motozintla-de-mendoza",
   "tlalpujahua-de-rayon",
   "vinales",
-  "tenares"
+  "tenares",
+  "temascaltepec",
+  "aragua",
+  "pacasmayo",
+  "tinguipaya",
+  "inambari",
+  "bonito-oriental",
+  "guaimaca",
+  "bocoyna",
+  "larreynaga",
+  "supe-departamento-de-lima",
+  "luvianos",
+  "loreto-ecuador",
+  "julian-mellado",
+  "cachachi",
+  "tula",
+  "jauja",
+  "mulchen",
+  "las-zorras",
+  "estacion",
+  "ypacarai",
+  "ciudad-tecun-uman",
+  "castanos",
+  "nueva-concepcion-el-salvador",
+  "oratorio",
+  "nizao",
+  "ticuantepe",
+  "nava-mexico",
+  "fray-bentos",
+  "celendin",
+  "la-cruz-costa-rica",
+  "elorza",
+  "fortul",
+  "rocha",
+  "tamayo",
+  "los-cordobas",
+  "toribio",
+  "san-benito-abad",
+  "aguas-zarcas",
+  "lanquin",
+  "quilali",
+  "pantelho",
+  "balboa",
+  "pensilvania",
+  "ambo",
+  "colimes",
+  "rancho-grande",
+  "puerto-varas",
+  "villa-tapia",
+  "casillas",
+  "cruz-paredes"
  ],
  "descartadas": [
   {
@@ -9172,6 +9222,481 @@
    "slug": "san-juan-guichicovi",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-10-16"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "hecelchakan",
+   "razon": "fraseo calcado de hopelchen: \"es uno de los trece municipios del\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jonuta",
+   "razon": "fraseo calcado de tenosique: \"situado en la region del rio usumacinta\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "villa-san-lorenzo",
+   "razon": "rechazada tras corrección: Confunde la localidad con otra homónima: la ficha es para Villa San Lorenzo, Departamento de Tarija, Bolivia, pero el texto describe la Villa San Lorenzo de Salta, Argentina.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "padre-abad",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "mollendo-departamento-de-arequipa",
+   "razon": "fraseo calcado de tocache: \"es uno de los seis distritos que\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "uxpanapa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "pueblo-nuevo-vinas",
+   "razon": "fraseo calcado de nueva-santa-rosa: \"departamento de santa rosa situado en la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "arbieto",
+   "razon": "rechazada tras corrección: Invención: el material de origen no menciona que la zona esté caracterizada por relieve montañoso ni que se ubique en la cuenca del río Cochabamba; Invención: el material de origen no menciona que el ",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "cotagaita",
+   "razon": "fraseo calcado de pucarani: \"ejerce la funcion de capital de la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "navolato",
+   "razon": "fraseo calcado de comitan-de-dominguez: \"es una ciudad mexicana situada en el\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "monitos",
+   "razon": "fraseo calcado de san-bernardo-del-viento: \"es un municipio colombiano del departamento de\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "abasolo",
+   "razon": "fraseo calcado de tlacotepec-de-benito-juarez: \"la cabecera del municipio que lleva el\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "pedro-camejo",
+   "razon": "rechazada tras corrección: Afirma que Pedro Camejo es una localidad, dato no presente en la fuente.; Afirma que la localidad lleva el nombre del militar Negro Primero, dato no presente en la fuente.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tlachichuca",
+   "razon": "rechazada tras corrección: La frase 'La denominación refleja la tradición artesanal que ha caracterizado históricamente a la zona' es una invención no respaldada por el material de origen.; La afirmación de que 'concentra los s",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "yauri",
+   "razon": "fraseo calcado de huaral: \"es una ciudad peruana que funciona como\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "bagua-departamento-de-amazonas",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "azangaro",
+   "razon": "rechazada tras corrección: La ficha menciona la altitud en metros sobre el nivel del mar, pero la fuente original utiliza 'm s. n. m.'; La ficha describe el clima y su influencia en la altitud, lo que no se menciona en la fuent",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "puerto-leguizamo",
+   "razon": "fraseo calcado de olaya-herrera: \"dentro de su jurisdiccion se encuentran los\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "gran-sabana",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jaramijo",
+   "razon": "rechazada tras corrección: La ficha inventa datos sobre actividades económicas, servicios públicos, organización local, desarrollo regional, clima tropical y cercanía a playas que no figuran en el material de origen.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "ciro-redondo",
+   "razon": "rechazada tras corrección: La ficha menciona que el Movimiento 26 de Julio estaba liderado por Fidel Castro, dato que no figura en el material de origen.; La ficha menciona que el movimiento triunfó en 1959, dato que no figura ",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "montalvo",
+   "razon": "rechazada tras corrección: La ficha afirma que los ediles del Concejo Cantonal 'representan a la población cantonal y participan en la toma de decisiones locales', información que no figura en el material de origen.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "utuado",
+   "razon": "rechazada tras corrección: La ficha añade información no respaldada por la fuente sobre el pueblo central ('alberga las oficinas municipales y los servicios básicos') y sobre la demografía ('presenta una dispersión poblacional ",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "la-paz-centro-nicaragua",
+   "razon": "rechazada tras corrección: La ficha incluye inferencias y relleno no respaldado por la fuente sobre 'importancia territorial', 'desarrollo administrativo', 'referencia en la región' y 'herencia colonial española'.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "sayan",
+   "razon": "rechazada tras corrección: El texto indica que Sayán es un distrito del 'norte' de la provincia de Huaura, dato que no aparece en el material de origen.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "san-felipe-jalapa-de-diaz",
+   "razon": "fraseo calcado de san-jose-villa-de-allende: \"es una localidad mexicana situada en el\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "cuitlahuac",
+   "razon": "fraseo calcado de ixhuatlan-de-madero: \"del estado de veracruz dentro de la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "quiroga",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "veroes",
+   "razon": "rechazada tras corrección: La fuente indica que el municipio está ubicado al 'noroeste del estado' (Yaracuy), no al 'noroeste del país'.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "periban",
+   "razon": "fraseo calcado de ixtlahuaca: \"metros sobre el nivel del mar limita\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tuman",
+   "razon": "rechazada tras corrección: Incluye información geográfica y territorial que no aparece en el material de origen, como la proximidad al mar, la presencia de la llanura costera y los corredores de transporte de la costa norte.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "coroico",
+   "razon": "rechazada tras corrección: Añade que la ciudad de La Paz es 'la sede del gobierno nacional', dato concreto que no figura en el material de origen.; En la intro se escribe '1088 km²' sin el punto separador de millares (debe ser ",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "santa-barbara-guatemala",
+   "razon": "fraseo calcado de alotenango: \"de combinar el santo del dia de\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "san-juan-guichicovi",
+   "razon": "fraseo calcado de jacona: \"cabecera del municipio homonimo situado en el\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "guacimo",
+   "razon": "fraseo calcado de guapiles: \"en 1879 durante la segunda administracion de\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "armeria",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "huancabamba",
+   "razon": "fraseo calcado de chota: \"capital tanto del distrito como de la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "el-congo",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación y la relación administrativa de El Congo de manera más detallada que la fuente original; La ficha repite información y agrega detalles que no están presentes en la fuent",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "munoz",
+   "razon": "rechazada tras corrección: El material de origen no menciona que la capital del municipio se llame Muñoz, sino que el municipio se llama Muñoz y su capital es Bruzual.; El material de origen no menciona que la medida presidenci",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "ramon-castilla",
+   "razon": "rechazada tras corrección: La fuente no menciona nombres de ríos específicos, pero la ficha describe la ubicación geográfica como 'dentro de la Amazonía peruana, una zona de gran biodiversidad', lo que podría considerarse una i",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "villa-el-carmen",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jujutla",
+   "razon": "rechazada tras corrección: La ficha describe la sala de chat y sus características, lo que no se encuentra en el material de origen. La frase 'La información disponible se centra exclusivamente en la configuración territorial d",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "guastatoya",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tecun-uman",
+   "razon": "fraseo calcado de comitancillo: \"es un municipio del departamento de san\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "higuerote",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jalpan-de-serra",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "cueramaro",
+   "razon": "rechazada tras corrección: La ficha describe la función de Cuerámaro como núcleo administrativo y su relación con el gobierno estatal, lo que no está respaldado por el material de origen.",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "sipacapa",
+   "razon": "rechazada tras corrección: La ficha menciona la producción artesanal y la economía local, pero el material de origen no respalda esta información.; La ficha describe la ubicación geográfica del municipio y su relieve montañoso,",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "departamento-sarmiento",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "huimanguillo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 367 (line 3 column 236)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "shinahota",
+   "razon": "rechazada tras corrección: Se describe la gente de la sala de chat; No hay fuente para la ubicación fluvial como punto de referencia en la zona del Chapare superior; No hay fuente para la administración del territorio, la estru",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "el-soberbio",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 611 (line 3 column 458)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "rio-ceballos",
+   "razon": "fraseo calcado de golfito: \"en la epoca precolombina el territorio estuvo\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jesus-carranza",
+   "razon": "fraseo calcado de pueblo-viejo: \"es uno de los 212 municipios que\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "pedernales-ecuador",
+   "razon": "fraseo calcado de quininde: \"es una ciudad ecuatoriana ubicada en la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "catamayo",
+   "razon": "fraseo calcado de la-mana: \"la segunda urbe mas grande de la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "miguel-aleman",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1013 (line 3 column 846)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "pueblo-bello",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "jayanca",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 652 (line 3 column 473)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "mapimi",
+   "razon": "fraseo calcado de pichucalco: \"a 1 300 metros sobre el nivel\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "puerto-morelos",
+   "razon": "fraseo calcado de yautepec: \"se situa en la zona norte del\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "acapetahua",
+   "razon": "fraseo calcado de guaymas: \"es un municipio ubicado en el sur\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "perla",
+   "razon": "fraseo calcado de venustiano-carranza-mexico: \"el estado de veracruz de ignacio de\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "san-luis-jilotepeque",
+   "razon": "controles de calidad: aboutTitle de 77 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "majagua",
+   "razon": "fraseo calcado de yaguachi: \"de la provincia y limita al norte\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "izamal",
+   "razon": "rechazada tras corrección: El nombre del municipio limitante al poniente aparece como \"Hoctón\" en la ficha, pero la fuente indica \"Hoctún\".",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "paute",
+   "razon": "rechazada tras corrección: La distribución demográfica refleja la concentración de la mayor parte de los habitantes en la zona urbana, mientras que el resto se ubica en áreas rurales del cantón.; La presencia de la administraci",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "santa-maria-ixhuatan",
+   "razon": "fraseo calcado de san-carlos-alzatate: \"en la region sur oriente de la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "morales-colombia",
+   "razon": "fraseo calcado de naranjal: \"la economia local se sustenta principalmente en\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "taisha",
+   "razon": "rechazada tras corrección: La ficha menciona 'sistemas fluviales característicos de la región', pero la fuente no proporciona esta información.; La ficha describe el entorno natural y la riqueza biológica, pero la fuente solo m",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "ayahualulco",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "patuca",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 1116 (line 3 column 967)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "mizque",
+   "razon": "rechazada tras corrección: Incluye la frase \"lo que la conecta indirectamente con la cuenca más amplia del país\", que no aparece en el material de origen",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "el-guabo",
+   "razon": "fraseo calcado de quininde: \"es una ciudad ecuatoriana ubicada en la\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "pitipo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "perez",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tecolutla",
+   "razon": "rechazada tras corrección: El texto añade datos concretos sobre la economía y actividades locales (turismo de veraneo, sector pesquero) no respaldados por el material de origen.; Añade detalles geográficos e históricos que no f",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "flavio-alfaro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "siquinala",
+   "razon": "rechazada tras corrección: Afirma que los sobrenombres aluden a la abundancia del cultivo de mango y a un peñón destacado en el paisaje, y que aparecen en documentos oficiales y guías turísticas; estos datos explicativos no est",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "teustepe",
+   "razon": "fraseo calcado de chajul: \"la cabecera municipal lleva el mismo nombre\"",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "nuevo-imperial",
+   "razon": "rechazada tras corrección: celebra festividades locales vinculadas al mar",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "buesaco",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "aucallama",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-17"
+  },
+  {
+   "slug": "san-jose-la-maquina",
+   "razon": "rechazada tras corrección: El texto afirma que el territorio se sitúa en la zona sur del país y en el área del Pacífico sur, datos que no figuran en la fuente.; El texto afirma que la población se dedica principalmente a la agr",
+   "fecha": "2026-10-17"
   }
  ]
 }

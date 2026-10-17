@@ -26826,5 +26826,1462 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Tenares, municipio de Hermanas Mirabal fundado en 1910 por Don Julián Javier, se convirtió en municipio en 1938 y aporta el 53 % de los impuestos provinciales.",
     "aboutTitle": "Historia y economía de Tenares, municipio pujante de Hermanas Mirabal",
     "about": "Tenares es un municipio de la provincia Hermanas Mirabal, República Dominicana. Fue fundado en 1910 por Don Julián Javier, quien dividió su finca de cacao en solares y calles. En sus primeros años el pueblo recibió los nombres de Arroyo Caña y Los Ranchos, luego pasó a llamarse Villa Luperón. Tras un conflicto de doce días se renombró Villa Tenares en honor a Olegario Tenares, prócer destacado de las Guerras de la Independencia y la Restauración. En 1938 la comunidad de Tenares es elevada a la categoría de municipio, conservando su nombre.\n\nSegún el Censo de Población y Vivienda de 2022, el municipio registra 28 942 habitantes, de los que 14 739 son hombres y 14 203 mujeres. Aproximadamente el 69,6 % (unos 20 136) vive en zonas rurales, mientras que el 30,4 % (cerca de 8 806) se concentra en áreas urbanas. El número total de viviendas es 13 078, de las cuales 2 720 estaban desocupadas y el promedio de personas por hogar es 2,8. Económicamente, Tenares es el municipio más pujante de la provincia, aportando cerca del 53 % de los impuestos provinciales."
+  },
+  {
+    "slug": "temascaltepec",
+    "name": "Temascaltepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 233,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valle-de-bravo",
+      "tejupilco-de-hidalgo",
+      "san-antonio-acahualco",
+      "san-francisco-tlalcilalcalpan",
+      "zinacantepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Temascaltepec, municipio del Estado de México, cuenta con 35.014 habitantes y fue nombrado Pueblo con Encanto el 14 de noviembre de 2008.",
+    "aboutTitle": "Temascaltepec, Pueblo con Encanto del Estado de México",
+    "about": "El municipio de Temascaltepec se sitúa en el sur del Estado de México y forma parte de los 125 municipios de la entidad. Con una superficie de 546,79 km² es el séptimo municipio más grande del estado y limita al este con Zinacantepec y Coatepec Harinas, al norte con Valle de Bravo y Amanalco de Becerra, al sur con Tejupilco, San Simón de Guerrero y Texcaltitlán, y al oeste con Zacazonapan. El nombre proviene del náhuatl “temazcalli”, recinto para baño de vapor, y “tepec”, cerro donde hay, aludiendo a un “cerro donde hay baños de vapor”. En el censo de 2020 el municipio constaba de 65 localidades. Según el censo de 2020, Temascaltepec alberga a 35.014 habitantes, distribuidos entre su cabecera, la localidad de Temascaltepec de Gonzales, y el resto de comunidades rurales. El 14 de noviembre de 2008 fue declarado Pueblo con Encanto por el Gobierno del Estado de México."
+  },
+  {
+    "slug": "aragua",
+    "name": "Aragua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Anzoátegui",
+    "regionSlug": "anzoategui",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-tigre",
+      "barcelona-venezuela",
+      "puerto-la-cruz",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aragua es un municipio del estado Anzoátegui, Venezuela, con 37.076 habitantes (censo 2023) y una superficie de 2.624 km², ubicado en la zona central.",
+    "aboutTitle": "Aragua, municipio central de Anzoátegui: superficie y parroquias",
+    "about": "Aragua es uno de los 21 municipios que integran el Estado Anzoátegui, situado en la zona central del estado. Según el censo de 2023 cuenta con 37.076 habitantes y ocupa una superficie de 2.624 km². El municipio está dividido en dos parroquias: Aragua de Barcelona y Cachipo, y su capital es la ciudad homónima de Aragua de Barcelona.\n\nLa organización política incluye un concejo municipal cuyo período actual abarca de 2021 a 2025. La información oficial se remite a la página de la Alcaldía, aunque el enlace está roto y solo se conserva en el Internet Archive. Aragua forma parte de la lista de municipios de Venezuela y su territorio se caracteriza por la distribución de población entre la capital y la parroquia rural de Cachipo. El municipio aparece en la lista de municipios de Venezuela y su página oficial de la Alcaldía se encuentra en Internet Archive debido a que el enlace directo está caído. El territorio está dividido en las parroquias de Aragua de Barcelona y Cachipo, que representan la zona urbana y la zona rural del municipio. El concejo municipal ejerce la autoridad local durante el período 2021‑2025."
+  },
+  {
+    "slug": "pacasmayo",
+    "name": "Pacasmayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de La Libertad",
+    "regionSlug": "departamento-de-la-libertad",
+    "channels": [
+      "pacasmayo",
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "trujillo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pacasmayo, ciudad costera del departamento de La Libertad en Perú, se ubica en el km 681 de la Panamericana Norte, a 118 km de Trujillo y 106 km de Chiclayo.",
+    "aboutTitle": "Pacasmayo: puerto balneario entre Trujillo y Chiclayo",
+    "about": "Pacasmayo es una ciudad y balneario peruano, capital del distrito y de la provincia homónimos, situada en el departamento de La Libertad. Se localiza en el kilómetro 681 de la carretera Panamericana Norte, lo que la sitúa prácticamente a mitad de camino entre Trujillo y Chiclayo, a 118 km de la primera y a 106 km de la segunda. Su posición costera le confiere playas que atraen a visitantes de la zona norte del país.\n\nLa ubicación estratégica de Pacasmayo en la principal vía de comunicación del norte peruano ha favorecido su desarrollo económico, basado en actividades vinculadas al turismo, la pesca y el comercio. Al ser capital provincial, concentra los servicios administrativos y educativos de la región, y su cercanía a dos grandes centros urbanos le permite beneficiarse de flujos de gente y mercancías. La combinación de entorno marítimo y accesibilidad por carretera convierte a Pacasmayo en un punto de referencia para quienes transitan entre Trujillo y Chiclayo."
+  },
+  {
+    "slug": "tinguipaya",
+    "name": "Tinguipaya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de Potosí",
+    "regionSlug": "departamento-de-potosi",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "potosi",
+      "sucre",
+      "bolivia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tinguipaya, localidad del departamento de Potosí en Bolivia, cuenta con 27.200 habitantes y forma parte de la provincia de Frías.",
+    "aboutTitle": "Tinguipaya, municipio de la provincia de Frías en Potosí",
+    "about": "Tinguipaya es una localidad y municipio de Bolivia, ubicado en la provincia de Frías del departamento de Potosí. Su asiento es la localidad homónima, lo que significa que la cabecera municipal lleva el mismo nombre que el territorio que administra.\n\nEl municipio de Tinguipaya registra una población de 27.200 habitantes, según los datos oficiales. Esta cifra corresponde al conjunto de habitantes que residen tanto en la zona urbana de la cabecera como en las áreas rurales que forman parte del municipio. Como entidad administrativa, Tinguipaya forma parte de la organización territorial boliviana, estando subordinado al gobierno departamental de Potosí y a la autoridad provincial de Frías. Como municipio, Tinguipaya está incluido en la estructura administrativa que organiza el territorio boliviano en departamentos y provincias. La provincia de Frías, a la que pertenece, es una de las divisiones del departamento de Potosí. La población de 27.200 habitantes refleja la dimensión demográfica del municipio en el contexto de la región. Tinguipaya mantiene la misma denominación tanto para la entidad municipal como para su cabecera, práctica común en la organización local."
+  },
+  {
+    "slug": "inambari",
+    "name": "Inambari",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Madre de Dios",
+    "regionSlug": "departamento-de-madre-de-dios",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Inambari, distrito amazónico del Departamento de Madre de Dios, se creó el 26 de diciembre de 1912 y acoge a la etnia Harakmbet.",
+    "aboutTitle": "Inambari: distrito amazónico y hogar de la etnia Harakmbet",
+    "about": "El distrito de Inambari pertenece a la Provincia de Tambopata, en el Departamento de Madre de Dios, Perú. Pertenece a la Región de Madre de Dios. Fue creado el 26 de diciembre de 1912 mediante la Ley Nº 1782, durante la presidencia de Guillermo Billinghurst. Administrativamente forma parte de la estructura del país y, en el ámbito eclesiástico, está incluido en el Vicariato Apostólico de Puerto Maldonado. Situado en la Amazonía peruana, el territorio de Inambari está habitado por la etnia Harakmbet, también conocida como grupo Amarakaeri. Este conjunto comprende varios subgrupos, entre los que se encuentran los Amarakaeri, arasaeri, huachipaeri, kisamberi, pukirieri, sapiteri y toyoeri. La presencia de estas comunidades indígenas constituye una parte importante del perfil demográfico del distrito. Inambari es uno de los tres distritos que integran la provincia de Tambopata y comparte su ubicación dentro de la región de Madre de Dios, una zona caracterizada por su extensión amazónica."
+  },
+  {
+    "slug": "bonito-oriental",
+    "name": "Bonito Oriental",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Colón",
+    "regionSlug": "departamento-de-colon",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "roatan",
+      "la-ceiba",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bonito Oriental, municipio de Colón en Honduras, se fundó el 28 de abril de 1987 y está ubicado en la llanura costera del Caribe, cruzado por el Río Bonito.",
+    "aboutTitle": "Río Bonito y la fundación de Bonito Oriental",
+    "about": "Bonito Oriental es un municipio del departamento de Colón, situado en la llanura costera del Mar Caribe y dentro de la cuenca del Río Aguan. El territorio también es cruzado por el Río Bonito. Según una de las teorías sobre su toponimia, el nombre surgió cuando el misionero Manuel de Jesús Subirana, al trasladar pobladores de Olancho a la zona, comentó que el lugar era “bonito”; la denominación “Oriental” hace referencia a su posición en la zona oriental del país. El municipio se constituyó oficialmente el 28 de abril de 1987, fecha en la que dejó de ser una aldea dependiente de Trujillo y pasó a la administración del ingeniero José Azcona del Hoyo. En 2009 contaba con 55 caseríos; para 2013 el número aumentó a 120 caseríos distribuidos en 10 aldeas, reflejando su crecimiento demográfico y organizativo. El municipio forma parte del departamento de Colón, en la zona oriental del país."
+  },
+  {
+    "slug": "guaimaca",
+    "name": "Guaimaca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Francisco Morazán",
+    "regionSlug": "departamento-de-francisco-morazan",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "danli",
+      "honduras",
+      "tegucigalpa",
+      "juticalpa",
+      "comayagua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guaimaca, municipio de Francisco Morazán, Honduras, se fundó en 1682 como Santa Rosa de Guaimaca a la margen izquierda del río Jalan.",
+    "aboutTitle": "El Valle de Guaimaca y el río Jalan",
+    "about": "Guaimaca es un municipio del departamento de Francisco Morazán, en la República de Honduras. Su nombre proviene del náhuatl y significa “Lugar de Grandes Amates”, aludiendo a la presencia histórica de árboles de amate de gran tamaño en la zona. El municipio se ubica en el Valle de Guaimaca, a la margen izquierda del río Jalan, lo que ha sido un elemento geográfico relevante en su desarrollo. Fue fundado en 1682 bajo el nombre de Santa Rosa de Guaimaca. En 1873 recibió la categoría de municipio y, según la División Política Territorial de 1889, formó parte del Distrito de Cedros. En el primer recuento de población realizado en 1971 se registró como Villa de Guaimaca, integrada al Curato de Cantarranas. A lo largo del siglo XIX pasó de ser una villa dentro del curato a un municipio con autonomía administrativa. Según datos de 2013, la entidad comprende trece aldeas y ciento cuarenta y cinco caseríos. La toponimia y la evolución administrativa reflejan la herencia indígena y los cambios institucionales en la historia local."
+  },
+  {
+    "slug": "bocoyna",
+    "name": "Bocoyna",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bocoyna, municipio serrano de Chihuahua a 2.400 m s.n.m., destaca por ser la cuna del Río Conchos, el más importante del estado.",
+    "aboutTitle": "El origen del Río Conchos y la Sierra Madre en Bocoyna",
+    "about": "Bocoyna es uno de los 67 municipios que forman el estado de Chihuahua y se sitúa en plena Sierra Madre Occidental, a una altitud promedio de 2.400 m s.n.m., lo que lo convierte en una de las poblaciones más elevadas del estado. Limita al norte con Guerrero, al este con Carichí, al sur con Guachochi, al suroeste con Urique y al oeste con Maguarichi.\n\nEl relieve del municipio está completamente surcado por la sierra, alcanzando cimas superiores a los 2.900 m s.n.m. Hidrológicamente, la Divisora continental atraviesa su territorio, separando las cuencas del Pacífico y del Atlántico. En su territorio nace el más importante río del estado de Chihuahua, el Río Conchos, y también el Río Papigochi, que más tarde se convierte en el Río Yaqui en Sonora. Además, se encuentra el Lago de Arareco. El clima se divide entre semifrío subhúmedo con lluvias veraniegas y una zona templada subhúmeda en el suroeste; los inviernos son fríos con intensas nevadas y los veranos cortos y templados."
+  },
+  {
+    "slug": "larreynaga",
+    "name": "Larreynaga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de León",
+    "regionSlug": "departamento-de-leon",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "leon-nicaragua",
+      "chinandega",
+      "ciudad-sandino",
+      "esteli",
+      "nicaragua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Larreynaga es un municipio del departamento de León, Nicaragua; su cabecera, Malpaisillo, se encuentra a 30 km de la ciudad de León.",
+    "aboutTitle": "Larreynaga y su cabecera Malpaisillo, a 30 km de León",
+    "about": "Larrey­naga es un municipio del departamento de León, en la República de Nicaragua. La cabecera municipal es la localidad de Malpaisillo, situada a treinta kilómetros de la ciudad de León, capital del departamento. Según la información disponible, el municipio forma parte de la organización territorial nicaragüense y está bajo la jurisdicción del gobierno departamental de León. La proximidad de Malpaisillo a la capital departamental facilita el acceso a servicios, instituciones y mercados que se concentran en la ciudad de León. En la fuente consultada no se especifica la población ni otros indicadores socioeconómicos del municipio, por lo que esos datos no pueden incluirse. El territorio de Larreynaga se administra a través del ayuntamiento municipal, cuyo funcionamiento se rige por la legislación nacional. Como entidad local, el municipio contribuye a la diversidad de comunidades que integran el departamento de León y forma parte del entramado administrativo de la República de Nicaragua."
+  },
+  {
+    "slug": "supe-departamento-de-lima",
+    "name": "Supe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huacho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Supe, distrito de la provincia de Barranca en Lima, se extiende sobre 516,28 km² y está a 186 km al norte de la capital peruana.",
+    "aboutTitle": "Supe: historia, playa Caleta Vidal y su independencia",
+    "about": "Supe es uno de los cinco distritos que conforman la provincia de Barranca, en el departamento de Lima, Perú. Con una superficie de 516,28 km², representa el 38 % del territorio barranquino y su capital es la localidad homónima, situada a 186 km al norte de la ciudad de Lima. Administrativamente pertenece a la diócesis de Huacho y forma parte del Gobierno Regional de Lima‑Provincias.\n\nEl distrito se creó el 2 de enero de 1857 durante el gobierno del presidente Ramón Castilla. En la plaza central, el 5 de abril de 1819, patriotas locales proclamaron el grito de libertad, impulsados por figuras como Juan Francisco Vidal La Hoz, considerado el primer soldado del Perú. Supe destaca también por su patrimonio arqueológico, ya que la zona agrícola donde se asienta tuvo actividad humana hace unos 5 000 años. La playa principal, Caleta Vidal, atrae a residentes y visitantes por sus olas y arenas limpias, ofreciendo un entorno costero cercano al mar."
+  },
+  {
+    "slug": "luvianos",
+    "name": "Luvianos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tejupilco-de-hidalgo",
+      "valle-de-bravo",
+      "temascaltepec",
+      "san-antonio-acahualco",
+      "san-francisco-tlalcilalcalpan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Luvianos, municipio del Estado de México creado el 1 de enero 2002, cuenta con 27 781 habitantes y una superficie de 703 km².",
+    "aboutTitle": "Luvianos: municipio joven de la Tierra Caliente y 25 años de historia",
+    "about": "Luvianos es uno de los 125 municipios del Estado de México. Se constituyó el 1 de enero 2002 al separarse del extenso municipio de Tejupilco, convirtiéndose en una entidad joven dentro de la región. Su superficie es de 703,0 km² y la cabecera municipal se localiza en la población de Villa Luvianos. Limita al norte con Otzoloapan y Zacazonapan, al sur con el estado de Guerrero, al este con Tejupilco y al oeste con Michoacán, lo que le otorga una posición estratégica en la zona conocida como la Tierra Caliente.\n\nEl territorio conserva vestigios de los antiguos otomíes, tecos y matlazincas, como figurillas de piedra y petroglifos hallados en la Sierra de Nanchititla, la Sierra del Encanto y la Peña del Águila. En la época mexica, Axayácatl conquistó la zona entre 1475 y 1476, estableciendo presidios en localidades cercanas. El ayuntamiento celebra 25 años de historia como municipio, reforzando el sentido de comunidad y la preservación de sus raíces."
+  },
+  {
+    "slug": "loreto-ecuador",
+    "name": "Loreto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Orellana",
+    "regionSlug": "orellana",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Loreto, cantón de Orellana, se sitúa en la cuenca del río Napo, ocupa 2.146,35 km² de territorio amazónico y está entre 320 y 3.732 m sobre el nivel del mar.",
+    "aboutTitle": "Loreto: cuenca del río Napo y clima tropical húmedo",
+    "about": "El cantón de Loreto está ubicado al sureste de la capital de Ecuador, en la provincia de Orellana. Su capital es la ciudad homónima y forma parte de la cuenca del río Napo. Con una superficie de 2.146,35 km², el territorio se divide en cinco parroquias rurales y una urbana que constituye la cabecera cantonal; la zona rural representa el 96,6 % de la superficie total. Limita al norte con los cantones El Chaco y Francisco Orellana, al sur con el cantón Tena (provincia del Napo), al este con el cantón Francisco de Orellana y al oeste con los cantones Quijos, Tena y Archidona. La altitud varía entre 320 y 3.732 m sobre el nivel del mar, alcanzando su punto más alto en la cumbre del volcán Sumaco.\n\nEl relieve del cantón es irregular y se caracteriza por ondulaciones, colinas y barrancos. Se describen cuatro grupos de relieve: la vertiente andina baja en la cordillera occidental, el piedemonte de colinas redondeadas, la cuenca amazónica colinada, y la cuenca amazónica baja y plana alrededor de los ríos Suno y Huataraco. El clima es tropical húmedo, con precipitaciones anuales de 3.000 a 4.800 mm y una humedad relativa del 85 % al 95 %. La época lluviosa se extiende de marzo a julio y la temperatura promedio es de 25 °C."
+  },
+  {
+    "slug": "julian-mellado",
+    "name": "Julián Mellado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Guárico",
+    "regionSlug": "guarico",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-juan-de-los-morros",
+      "los-teques",
+      "maracay",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Julián Mellado, municipio bolivariano de Guárico con 2.983 km² y capital en El Sombrero, destaca por su agricultura como principal actividad económica.",
+    "aboutTitle": "Límites y agricultura del municipio Julián Mellado",
+    "about": "El municipio bolivariano Julián Mellado forma parte de los quince municipios del estado Guárico, en Venezuela. Su capital es la población de El Sombrero y el territorio abarca 2.983 km². Según estimaciones de 2010, la población alcanzaba los 32.803 habitantes. La organización administrativa se divide en dos parroquias, El Sombrero y Sosa, y la agricultura constituye el principal factor económico del municipio. Limita al norte con el municipio Juan Germán Roscio y el estado Aragua, al sur con el municipio Francisco de Miranda, al oeste con el municipio Ortiz, y al este mantiene un conflicto limítrofe con Aragua; según la posición de Guárico, el límite oriental se fija por el río Memo, aunque Aragua no lo reconoce. En su historia política han ocupado la alcaldía cinco personas, distribuidas en ocho períodos consecutivos, y el concejo municipal ejerce su mandato para el periodo 2021‑2025. El desacuerdo sobre la frontera oriental ha generado dos versiones oficiales, una guariquense que sitúa el límite en el río Memo y otra aragüeña que lo ubica en otra posición."
+  },
+  {
+    "slug": "cachachi",
+    "name": "Cachachi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cajamarca",
+    "regionSlug": "departamento-de-cajamarca",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cajamarca",
+      "trujillo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cachachi, distrito cajamarquino fundado el 11 de febrero de 1855, cubre 820.81 km² en la Sierra Septentrional a 3 275 m sobre el nivel del mar.",
+    "aboutTitle": "Río Cajamarquino, límite noreste del distrito de Cachachi",
+    "about": "El distrito de Cachachi, uno de los cuatro distritos de la provincia de Cajabamba, está situado en la Sierra Septentrional del departamento de Cajamarca, a 3 275 m sobre el nivel del mar. Fue creado mediante Ley del 11 de febrero de 1855, en el gobierno del Presidente Ramón Castilla, y cubre una superficie de 820.81 km², lo que representa el 45.4 % del territorio cajabambino. Según el censo de 2007, la población era de 24 305 habitantes, casi un tercio del total provincial.\n\nLimita al norte con los distritos de Pedro Gálvez y Jesús, marcados por los cerros Mogol, Camandela, Collotán Chico, Collotán Grande, Pajonal y Aripita, y al noreste con Eduardo Villanueva de la provincia de San Marcos, separado por el río Cajamarquino. Al sur colinda con Usquil y Sanagorán del Departamento de La Libertad, mientras que al este limita con Condebamba y Cajabamba, delimitado por el río Condebamba (Huamachuquino). Al oeste se encuentran los distritos de Cospán, Sayapullo, Gran Chimú y Huaranchal, delimitados por la cordillera occidental. Entre sus centros poblados destacan Algamarca, Araqueda, Chuquibamba, Calluan, Cholocal y Tabacal."
+  },
+  {
+    "slug": "tula",
+    "name": "Tula",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tula, fundada el 22 de julio de 1617, es la ciudad más antigua de Tamaulipas y destaca por su artesanía de cuera y su arquitectura porfiriana.",
+    "aboutTitle": "Tula: fundación del 22 de julio de 1617 y la cuera tradicional",
+    "about": "Tula es municipio del noreste de Tamaulipas, México, situado a 22°59′ N y 99°43′ O, a 1.175 m s.n.m. Limita al norte con Bustamante, Palmillas y Jaumave, al este con Jaumave y Ocampo, y al sur y oeste con San Luis Potosí, concretamente con el municipio de Guadalcázar. El municipio comprende 102 localidades distribuidas en ocho pequeñas regiones; entre las más relevantes están la cabecera municipal, Ciudad Tula, Lázaro Cárdenas, Mamaleón, La Tapona, Miguel Hidalgo, Magdaleno Cedillo, Santa Ana de Nahola, Congregación Cieneguilla y Colonia Agraria Cruces. La cabecera cuenta con 17 barrios, entre los más antiguos el Divisadero, Las Piedras, El Jicote y La Pila.\n\nLa ciudad fue fundada el 22 de julio de 1617 por el fraile franciscano Juan Bautista de Mollinedo, lo que la convierte en la localidad más antigua de Tamaulipas; recibió categoría de ciudad en 1835 y, entre diciembre de 1846 y febrero de 1847, albergó brevemente la capital estatal. Destaca por la cuera, vestimenta típica originaria de Tula, y por su arquitectura del periodo porfiriano. El clima es saludable y la zona marca el límite natural de dos ecosistemas. Entre sus personajes ilustres nació Carmen Romero Rubio, segunda esposa de Porfirio Díaz. En el ámbito turístico se encuentra el Cuizillo, una pirámide prehispánica."
+  },
+  {
+    "slug": "jauja",
+    "name": "Jauja",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Junín",
+    "regionSlug": "departamento-de-junin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huancayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jauja, fundada el 25 de abril de 1534 por Francisco Pizarro, es la primera capital del Perú y se sitúa a 3.390 m sobre el nivel del mar.",
+    "aboutTitle": "Jauja: primera capital del Perú y ciudad a 3.390 m s.n.m.",
+    "about": "Jauja es una ciudad peruana que constituye la capital del distrito y de la provincia homónimos, ambos integrados en el departamento de Junín. Se localiza en el centro del país, en la cabecera norte del valle del Mantaro, lo que la sitúa en una zona estratégica del interior. La ciudad forma parte de la lista de las ciudades más altas del Perú; su plaza de armas está a 3.390 m sobre el nivel del mar. Fue fundada el 25 de abril de 1534 por Francisco Pizarro sobre un asentamiento ya poblado, con la finalidad de que sirviera como capital de los territorios conquistados. Por esa razón se la considera la «primera capital del Perú» y mantuvo esa condición durante un año, hasta la fundación de Lima, conservando en su historia una relevancia temprana. Esta ubicación la convierte en un referente dentro del territorio nacional. El breve periodo como capital subraya su papel en la historia del país."
+  },
+  {
+    "slug": "mulchen",
+    "name": "Mulchén",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Biobío",
+    "regionSlug": "region-del-biobio",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-angeles-chile",
+      "temuco",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mulchén, comuna del Biobío en Chile, fue fundada el 28 de diciembre de 1861 y se sitúa a 32 km al sur de Los Ángeles, rodeada por los ríos Bureo y Mulchén.",
+    "aboutTitle": "Ríos Bureo y Mulchén, la vida entre llanos del Biobío",
+    "about": "Mulchén es una comuna chilena situada en la Región del Biobío, Provincia de Biobío, en la zona central del país. La localidad se asienta en una planicie rodeada por los ríos Bureo y Mulchén, a 32 kilómetros al sur de Los Ángeles, capital provincial. Con una superficie de 1.917 kilómetros cuadrados, la población ronda los 31 000 habitantes según datos aproximados.\n\nEl nombre proviene del mapudungún, donde \"Molchen\" combina \"molu\" (guerrero), \"che\" (gente) y \"ñanku\" (aguilucho o halcón), traducido como \"Halcón Guerrero\". La fundación oficial se remonta al 28 de diciembre de 1861, cuando el teniente coronel Cornelio Saavedra Rodríguez tomó posesión del terreno cedido por los úlmenes Huentruman y Ninpay. Ese mismo año se erigió un fuerte que dio origen al asentamiento, que obtuvo categoría de Departamento el 13 de octubre de 1875 y, poco después, el título de ciudad el 30 de noviembre del mismo año. Geomorfológicamente, la zona pertenece al llano central con morrenas, conos y la presencia de una cordillera volcánica activa."
+  },
+  {
+    "slug": "las-zorras",
+    "name": "Las Zorras",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Zorras, antigua comuna del antiguo departamento de Valparaíso, contaba con 27.431 habitantes según el censo de 1907.",
+    "aboutTitle": "Historia y supresión de la comuna de Las Zorras (1891‑1928)",
+    "about": "Las Zorras fue una de las comunas que integró el antiguo departamento de Valparaíso, en la provincia homónima. Según el censo de 1907, la población alcanzó los 27.431 habitantes, lo que refleja su dimensión en la primera mitad del siglo XX. Su territorio se organizó mediante decreto del 22 de diciembre de 1891, tomando como base las subdelegaciones 1.º, 2.º y 20.º, y quedó delimitado dentro del marco administrativo de la región.\n\nLa existencia de la comuna llegó a su fin con el Decreto con Fuerza de Ley N.º 8.583, firmado el 30 de diciembre de 1927 por el presidente Carlos Ibáñez del Campo, como parte de una reforma político‑administrativa que anexó su territorio a la comuna de Valparaíso. La supresión se hizo efectiva a contar del 1 de febrero de 1928, fecha en la que Las Zorras dejó de figurar como entidad autónoma y pasó a formar parte del extenso territorio valparaisino."
+  },
+  {
+    "slug": "estacion",
+    "name": "Estación",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 185,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Estación, antigua comuna del departamento de Santiago, registró 27.387 habitantes en el censo de 1907 y fue suprimida en 1928.",
+    "aboutTitle": "Historia de la antigua comuna de Estación (Santiago)",
+    "about": "Estación fue una de las comunas que integró el antiguo departamento de Santiago, en la provincia de Santiago. La comuna se organizó por decreto del 22 de diciembre de 1891, a partir del territorio de las Subdelegaciones 13.° y 2.° urbanas, y en el censo de 1907 contaba con 27.387 habitantes. \n\nLa existencia de la comuna finalizó cuando fue suprimida mediante el Decreto con Fuerza de Ley N.º 8.583 del 30 de diciembre de 1927, dictado por el presidente Carlos Ibáñez del Campo como parte de una reforma político‑administrativa, anexando su territorio a la comuna de Santiago. La supresión se hizo efectiva a contar del 1 de febrero de 1928."
+  },
+  {
+    "slug": "ypacarai",
+    "name": "Ypacaraí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 134,
+    "votes": 223,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento Central",
+    "regionSlug": "departamento-central",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "capiata",
+      "san-lorenzo-paraguay",
+      "luque",
+      "fernando-de-la-mora",
+      "lambare",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ypacaraí, en el Departamento Central de Paraguay, celebra cada año el Festival del lago de Ypacaraí, uno de los eventos culturales más representativos.",
+    "aboutTitle": "Festival del lago de Ypacaraí y su entorno natural",
+    "about": "Ypacaraí es una ciudad ubicada en el departamento Central del Paraguay, conocida como la «ciudad del folclore». Se sitúa en las cercanías de la cordillera de Ybytypanemá, que forma parte de la cordillera de los Altos, próxima al lago Ypacaraí. El nombre proviene del guaraní y significa literalmente «lago del señor», aunque en el contexto se interpreta como «lago del español». La población se originó a finales del siglo XVII como parte de las compañías de Itauguá bajo el nombre de «Guazú Virá», y más tarde pasó a llamarse «Tacuaral». El 27 de marzo de 1864 se inauguró la extensión de la línea férrea hasta la estación de Guazú Virá, denominada «Estación Tacuaral», lo que impulsó el crecimiento del asentamiento.\n\nCada año la ciudad celebra el Festival del lago de Ypacaraí, uno de los eventos culturales más representativos del país. Entre los primeros pobladores de la antigua Tacuaral se encuentran nombres como John Elias Edwards, William Edwards, Abel Caballero, Timoteo Ruttia y Francisco Mena, entre muchos otros que contribuyeron al desarrollo local."
+  },
+  {
+    "slug": "ciudad-tecun-uman",
+    "name": "Ciudad Tecún Umán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tapachula",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "mazatenango",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Tecún Umán, en San Marcos, Guatemala, se ubica a orillas del río Suchiate y destaca por el puente internacional Dr. Rodolfo Robles, inaugurado en 1974.",
+    "aboutTitle": "Puente Dr. Rodolfo Robles y el río Suchiate en Ciudad Tecún Umán",
+    "about": "Ciudad Tecún Umán es una población guatemalteca del Departamento de San Marcos, situada en el extremo occidental del país, justo en la frontera con México. Se encuentra a orillas del río Suchiate, que la separa de la ciudad mexicana de Ciudad Hidalgo, y cuenta con el puente internacional Dr. Rodolfo Robles y otro puente ferroviario que cruzan el río, facilitando el tránsito entre ambos lados.\n\nEl origen del asentamiento se remonta a la época prehispánica, cuando los Kichés lo llamaban “Ayutekat”, un lugar acuoso de la costa de Petatayub. Durante el Virreinato fue cabecera del Curato de Soconusco y, tras la independencia, pasó a ser aldea del municipio de Mariscal (Soconusco). En 1882, bajo la administración del general Justo Rufino Barrios, se incorporó al Departamento de San Marcos como Puerto Fluvial de Ayutla. El 23 de febrero de 1960, por Decreto Presidencial, la cabecera municipal adoptó el nombre de Ciudad Tecún Umán, y en 1974 se inauguró el puente internacional «Dr. Rodolfo Robles», que impulsó el crecimiento demográfico de la zona."
+  },
+  {
+    "slug": "castanos",
+    "name": "Castaños",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Castaños, ciudad del estado de Coahuila, con una rica historia que se remonta a 1674, cuando fue fundada por Antonio Balcárcel Rivadeneira y Sotomayor.",
+    "aboutTitle": "Castaños, ciudad con una rica historia en Coahuila",
+    "about": "Castaños es una ciudad situada en el centro del estado de Coahuila y cabecera del municipio homónimo. Forma parte de la Zona Metropolitana de Monclova. En 2015 la población era de 28.068 habitantes. En 1582 los conquistadores Luis de Carvajal y de la Cueva y Gaspar Castaño de Sosa incursionaron en la zona. El pueblo se fundó el 22 de noviembre de 1674 por Antonio Balcárcel Rivadeneira y Sotomayor y obtuvo la condición de villa en 1916. En 1811, en Acatita de Baján, fueron aprehendidos los principales caudillos de la independencia Miguel Hidalgo, Ignacio Allende y Juan Aldama; posteriormente fueron trasladados a Chihuahua, donde fueron ejecutados. La vía férrea conectó a Castaños con Piedras Negras desde 1884. El 10 de julio de 1913 se libró la batalla de Bocatoche, en la que triunfaron las fuerzas federales. El 26 de enero de 1916 el municipio se constituyó independiente y el 8 de febrero de 1990 se erigió como ciudad. Según el censo de 2020, la población ascendía a 29.128 habitantes."
+  },
+  {
+    "slug": "nueva-concepcion-el-salvador",
+    "name": "Nueva Concepción",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Chalatenango",
+    "regionSlug": "departamento-de-chalatenango",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-ana",
+      "apopa",
+      "mejicanos",
+      "soyapango",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Concepción, distrito del departamento de Chalatenango en El Salvador, con 27.209 habitantes y 257,49 km2 de extensión territorial.",
+    "aboutTitle": "Nueva Concepción, el distrito más extenso de Chalatenango",
+    "about": "Nueva Concepción es un distrito del departamento de Chalatenango, ubicado al norte de la región central de El Salvador. Según el censo oficial de 2024, cuenta con 27.209 habitantes, lo que lo coloca en el segundo puesto del departamento por número de residentes, sólo por detrás del distrito más poblado. La superficie del distrito alcanza los 257,49 km², lo que lo convierte en el de mayor extensión dentro de Chalatenango. Se sitúa a 47,8 kilómetros del municipio de Chalatenango, cabecera departamental, y a 70 kilómetros de San Salvador, la capital de la República. Estas distancias le otorgan una posición estratégica entre la zona norte y el centro del país. El territorio abarca tanto áreas rurales como núcleos urbanos, y su densidad poblacional refleja la distribución típica de la zona. La ubicación geográfica permite el acceso a vías de comunicación que enlazan con los distritos vecinos, facilitando el intercambio económico y social dentro del departamento."
+  },
+  {
+    "slug": "oratorio",
+    "name": "Oratorio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 227,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "villa-nueva",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Oratorio, municipio de Santa Rosa en Guatemala, está a 78 km de la capital y celebra su fiesta titular del 27 feb al 3 marzo en honor a la Sagrada Familia.",
+    "aboutTitle": "Fiesta de la Sagrada Familia y la Feria de El Soyate en Oratorio",
+    "about": "Oratorio es un municipio del Departamento de Santa Rosa, Guatemala, ubicado a 78 km de la Ciudad de Guatemala sobre la Ruta CA-8 con dirección hacia El Salvador. La economía local se basa en la agricultura; los habitantes cultivan maíz y frijol para autoconsumo, y producen café comercialmente entre noviembre y febrero, además de arroz, maicillo, caña y otros cultivos menores. La ganadería tiene menor peso en la actividad productiva.\n\nLa fiesta titular se celebra del 27 de febrero al 3 de marzo, dedicada a la Sagrada Familia. Otra celebración destacada es la feria de la Finca El Soyate, que del 13 al 15 de enero honra al Cristo Negro de Esquipulas y se mantiene desde 1957, una de las ferias más antiguas del municipio. En 2016, el exalcalde Abel Sandoval fue detenido el 3 de junio por lavado de dinero y otros delitos, tras haber ocupado la alcaldía durante cuatro períodos y haber sido diputado del Congreso entre 2004 y 2008. El municipio está compuesto por 1 pueblo, 22 aldeas, 32 caseríos, 86 fincas y 4 parajes, entre los que se encuentran La Pastoría, La Providencia, La Ceibilla y La Canoa."
+  },
+  {
+    "slug": "nizao",
+    "name": "Nizao",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Peravia",
+    "regionSlug": "peravia",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bani",
+      "san-cristobal-rd",
+      "santo-domingo-este",
+      "barahona",
+      "san-pedro-de-macorris",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nizao, municipio de Peravia en la República Dominicana, está en la desembocadura del río Nizao y fue elevado a municipio el 14 de abril de 1988.",
+    "aboutTitle": "Río Nizao y la historia azucarera de Nizao",
+    "about": "Nizao es un municipio de la provincia de Peravia, situado en la esquina sureste y en la desembocadura del río Nizao, que le da nombre tras la nitaína Niza. Es el segundo municipio de la provincia y forma parte del litoral caribeño dominicano.\n\nLa historia del lugar se remonta al siglo XVI, cuando Diego Colón fundó un ingenio azucarero y plantaciones a orillas del río. Durante la época colonial la economía giraba en torno al azúcar y el trabajo era realizado por esclavos africanos, quienes se rebelaron contra los españoles. Nizao pasó a ser distrito municipal el 1 de enero de 1945 y se convirtió en municipio el 14 de abril de 1988 mediante la Ley n.º 28‑88. Según el Censo de 2022, la población total era de 32 191 habitantes, de los cuales el 56,5 % (aprox. 18 189) vivía en áreas urbanas. La agricultura, antes centrada en el arroz, la cebolla y el ají, ha disminuido por la emigración y el crecimiento urbano; hoy el motoconcho y el comercio son actividades predominantes."
+  },
+  {
+    "slug": "ticuantepe",
+    "name": "Ticuantepe",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de Managua",
+    "regionSlug": "departamento-de-managua",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "masaya",
+      "nicaragua",
+      "managua",
+      "ciudad-sandino",
+      "tipitapa",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ticuantepe, municipio del departamento de Managua en Nicaragua, fue fundado en 1974 y su nombre proviene del náhuatl ‘cerro de los jaguares’.",
+    "aboutTitle": "El significado del nombre Ticuantepe: cerro de los jaguares",
+    "about": "Ticuantepe es un municipio perteneciente al departamento de Managua, ubicado en la República de Nicaragua, cuya fundación tuvo lugar en el año 1974. La denominación de esta localidad se eligió en honor al antiguo señorío nahua precolombino de Tekwantepek, el cual se situaba en lo que actualmente constituye el departamento de Managua. De acuerdo con lo registrado por el conquistador e historiador español Gonzalo Fernández de Oviedo y Valdés, este señorío precolombino era militarmente fuerte y destacó por ser uno de los últimos señoríos en caer ante el avance de los conquistadores españoles y de los tlaxcaltecas. Desde el punto de vista lingüístico, el término Tekwantepek proviene de la combinación de las palabras en náhuat tēkwani, que se traduce como jaguar, y tepek, cuyo significado es cerro, haciendo que la traducción literal del nombre sea cerro de los jaguares. La valiente y duradera resistencia sostenida por Tekwantepek frente a los conquistadores y los tlaxcaltecas constituyó la principal inspiración para que los fundadores del municipio decidieran nombrar esta zona en honor a dicho señorío."
+  },
+  {
+    "slug": "nava-mexico",
+    "name": "Nava",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nava, localidad del estado de Coahuila en México, es la cabecera municipal del municipio que lleva su mismo nombre.",
+    "aboutTitle": "Nava, cabecera del municipio homónimo en Coahuila",
+    "about": "Nava es una localidad del estado mexicano de Coahuila. Como entidad administrativa, forma parte de la división política de Coahuila y se reconoce oficialmente como población habitada dentro del territorio nacional. Además, Nava es la cabecera del municipio de Nava, lo que define su posición dentro de esa demarcación. Al compartir nombre con el municipio, la localidad mantiene una identificación directa con la demarcación homónima. Esta condición de cabecera municipal otorga a Nava importancia administrativa dentro de la entidad. La condición de administración municipal en Nava la posiciona dentro de la organización territorial en el municipio homónimo. Como cabecera, la localidad de Nava constituye un punto de referencia administrativo dentro de la demarcación correspondiente. Aunque la información disponible es escasa, su designación oficial como cabecera del municipio de Nava confirma su función formal en la organización territorial del estado de Coahuila."
+  },
+  {
+    "slug": "fray-bentos",
+    "name": "Fray Bentos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Río Negro",
+    "regionSlug": "departamento-de-rio-negro",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "gualeguaychu",
+      "gualeguay",
+      "concepcion-del-uruguay",
+      "paysandu",
+      "colon-entre-rios",
+      "uruguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fray Bentos, capital del departamento de Río Negro, Uruguay, fue fundada el 16 de abril de 1859 como Villa Independencia y tomó su nombre actual en 1900.",
+    "aboutTitle": "Fray Bentos: capital de Río Negro fundada como Villa Independencia",
+    "about": "Fray Bentos es una ciudad situada en Uruguay, donde ejerce la función de capital del departamento de Río Negro. Dentro de la estructura territorial del país, esta población se constituye como la cabecera departamental de Río Negro, centralizando la actividad administrativa de esta jurisdicción uruguaya. Aunque el origen de la población es previo a su registro legal, la fundación oficial de la localidad se sitúa el 16 de abril de 1859. En esa primera etapa de su historia institucional, el asentamiento fue bautizado con el nombre de Villa Independencia. La localidad conservó dicha denominación oficial a lo largo de las décadas finales del siglo XIX. Posteriormente, en el año 1900, la población modificó su nombre original para adoptar la denominación actual de Fray Bentos. Desde dicho cambio en el año 1900, la ciudad ha conservado el nombre de Fray Bentos y su condición de capital del departamento de Río Negro."
+  },
+  {
+    "slug": "celendin",
+    "name": "Celendín",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cajamarca",
+    "regionSlug": "departamento-de-cajamarca",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cajamarca",
+      "cachachi",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Celendín, ciudad peruana en el departamento de Cajamarca, fundada en 1796 por colonos españoles y portugueses de origen judío.",
+    "aboutTitle": "Celendín, ciudad en el valle del río Grande",
+    "about": "Celendín es una ciudad peruana, capital del distrito y de la provincia homónimos, ubicada en el departamento de Cajamarca. La ciudad fue fundada en 1796 a iniciativa del obispo de Trujillo, Baltasar Martínez Compañón, por colonos españoles (gallegos) y portugueses de origen judío quienes la situaron en el lado centrooccidental del valle del río Grande, sobre una planicie de especiales condiciones. El valle del río Grande, que cruza la zona, brinda recursos hídricos que favorecen la agricultura en la planicie. Posteriormente fue oficializada su creación mediante una real cédula de 1802. Su diseño se caracteriza por el trazo de calles amplias y rectas con manzanas ajedrezadas, al estilo colonial español. El trazado conserva la cuadrícula original, lo que facilita la circulación y el ordenamiento de los lotes. Esta planificación refleja la influencia de la normativa urbana española del siglo XVIII y ha permanecido como rasgo distintivo de la ciudad actual."
+  },
+  {
+    "slug": "la-cruz-costa-rica",
+    "name": "La Cruz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Guanacaste",
+    "regionSlug": "provincia-de-guanacaste",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rivas",
+      "liberia",
+      "granada-nicaragua",
+      "masaya",
+      "costa-rica",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Cruz, cantón de la provincia de Guanacaste, Costa Rica, con el principal puesto fronterizo con Nicaragua, situada a 60 km al norte de Liberia.",
+    "aboutTitle": "La Cruz, un cantón fronterizo en Guanacaste",
+    "about": "La Cruz es un cantón ubicado en la provincia de Guanacaste, Costa Rica, y es uno de los más septentrionales de la República. Limita al norte con Nicaragua y es donde se encuentra el principal puesto fronterizo con este país, llamado Peñas Blancas. Su cabecera es la homónima ciudad de La Cruz, situada alrededor de 60 km al norte de Liberia, capital de la provincia y a 16 km de dicha frontera.\n\nEl origen del nombre de La Cruz se remonta a la época en que los arrieros transportaban ganado de Nicaragua a Esparza, cuando uno de ellos cayó muerto al perseguir una res que se había escapado de la manada, y sus compañeros colocaron una cruz de palos rollizos sobre su sepultura. Posteriormente, esa cruz sirvió de referencia a los arrieros que por allí pasaban, para hacer un descanso en el sitio y a la vez contar el ganado, antes de proseguir su viaje a su destino final."
+  },
+  {
+    "slug": "elorza",
+    "name": "Elorza",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Apure",
+    "regionSlug": "apure",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Elorza, capital del Municipio Rómulo Gallegos en Apure, está a 95 m sobre el nivel del mar en la orilla del río Arauca y tiene 26 596 habitantes (censo 2018).",
+    "aboutTitle": "Elorza y el río Arauca, capital agrícola de los Llanos",
+    "about": "Elorza es la capital del Municipio Rómulo Gallegos, perteneciente al estado Apure, y forma parte de la región de Los Llanos Venezolanos. Con 26 596 habitantes según el censo de 2018, la ciudad se sitúa a 95 m sobre el nivel del mar, a orillas del río Arauca, en una llanura propicia para las labores agrícolas. Sus coordenadas son 7° 3' 35\" N y 69° 29' 48\" O, y el código de área es 240, con código postal 7011.\n\nEn el pasado, Elorza compartió su casco urbano con la vecina República de Colombia; la zona venezolana, al este, recibió el nombre de Elorza en honor al prócer Andrés Elorza, mientras que la zona occidental se denominó El Viento. El 10 de marzo de 1866 la Asamblea Legislativa de Apure determinó el cambio de nombre, y el 12 del mismo mes se ejecutó la decisión. La ciudad está conectada por carreteras que la enlazan con Mantecal, Bruzual, La Trinidad de Orichuna y Guasdualito, dispone de puertos fluviales a través del Arauca y cuenta con un aeropuerto que garantiza la comunicación aérea."
+  },
+  {
+    "slug": "fortul",
+    "name": "Fortul",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Arauca",
+    "regionSlug": "arauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "saravena",
+      "tame",
+      "arauquita",
+      "paz-de-ariporo",
+      "malaga-santander",
+      "arauca",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fortul, municipio del departamento de Arauca en Colombia, con 25.379 habitantes, fundado el 7 de enero de 1920 y conocido por su Festival de Colonias",
+    "aboutTitle": "Festival de Colonias en Fortul",
+    "about": "Fortul es uno de los siete municipios que conforman el departamento colombiano de Arauca. Limita al norte con Saravena, al sur con Tame, al este con Arauquita y al oeste con Güicán, lo que le sitúa en una posición estratégica dentro de la región. Fue fundado el 7 de enero de 1920 y desde entonces ha desarrollado una economía basada en la prestación de servicios básicos primarios, la venta de bienes y la transformación de materias primas. Entre sus actividades productivas destacan la ganadería, la agricultura y la elaboración de queso doble crema, productos que representan fuentes importantes de ingreso para los habitantes. La cultura local refleja la diversidad de sus pobladores, muchos de los cuales llegaron durante la colonización de las tierras y provienen de distintas partes del país, aportando una mezcla de tradiciones. Cada año se celebra el Festival de Colonias, evento en el que la comunidad muestra los atributos de sus regiones de origen, reforzando los lazos culturales y la identidad del municipio."
+  },
+  {
+    "slug": "rocha",
+    "name": "Rocha",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Rocha",
+    "regionSlug": "departamento-de-rocha",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maldonado",
+      "punta-del-este",
+      "minas",
+      "uruguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rocha, ciudad uruguaya capital del departamento homónimo, se ubica en las orillas del arroyo de Rocha y es punto clave para acceder a los balnearios atlánticos.",
+    "aboutTitle": "Rocha: capital del departamento y su historia colonial",
+    "about": "Rocha es la capital del departamento homónimo en Uruguay y se sitúa a orillas del arroyo que lleva su nombre. Las primeras familias asentadas provinieron de Galicia y del Principado de Asturias, llegando en vapor que tuvo que desembarcar en las costas de Maldonado antes de instalarse de forma transitoria bajo la supervisión de la Real Hacienda. En un informe de 1791, Don Rafael Pérez del Puerto propuso la creación de uno o dos pueblos para esas familias, y el 22 de noviembre de 1793 se eligió el emplazamiento que hoy corresponde a cuarenta chacras y al bolsón llamado Rincón de los Barrios. La capilla de Nuestra Señora de los Remedios se fundó el 23 de noviembre de 1794 bajo la dirección del cura de San Carlos, Manuel de Amenedeo Montenegro. El trazado original siguió la normativa de la época, con cien cuadras de 100 varas de lado subdivididas en solares. Hoy la ciudad actúa como nodo de transporte para los numerosos balnearios que el departamento de Rocha ofrece a lo largo de la costa atlántica."
+  },
+  {
+    "slug": "tamayo",
+    "name": "Tamayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Bahoruco",
+    "regionSlug": "bahoruco",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "republica-dominicana",
+      "santo-domingo",
+      "bani",
+      "nizao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tamayo, en Bahoruco, domina el valle de Neiba al borde del río Yaque del Sur y registra una temperatura media anual de 30,3 °C.",
+    "aboutTitle": "Tamayo y el río Yaque del Sur: geografía y clima",
+    "about": "Tamayo es un municipio de la República Dominicana situado en la provincia de Bahoruco. Se ubica en la parte este del valle de Neiba, a la orilla occidental del río Yaque del Sur, que constituye el límite natural con el municipio de Vicente Noble, perteneciente a Barahona. La posición geográfica le otorga una relevancia dentro del valle y una estrecha relación con el cauce del Yaque del Sur.\n\nEl clima del municipio es desértico (BWhw), con precipitaciones inferiores a los 470 mm anuales y una temperatura media anual de 30,3 °C. Los meses más frescos son diciembre a marzo, con mínimas promedio de 19‑20 °C y registros absolutos de 16 °C. Según el Censo de 2022, Tamayo cuenta con 30 666 habitantes, de los cuales el 70,30 % vive en áreas urbanas, y ha experimentado un crecimiento del 32,27 % desde 2002. La zona se pobló en el siglo XVIII por familias de Cambronal, Jarabacoa, Neiba, Azua y El Cercado. Originalmente llamado «Hatico», fue devastado por la gran inundación del río Yaque del Sur en 1908; la primera casa de madera de la nueva población la construyó el general Joaquín Campos."
+  },
+  {
+    "slug": "los-cordobas",
+    "name": "Los Córdobas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Córdoba",
+    "regionSlug": "cordoba",
+    "channels": [
+      "cordoba",
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "monteria",
+      "cerete",
+      "san-pedro-de-uraba",
+      "lorica",
+      "valencia-cordoba",
+      "cordoba",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Los Córdobas, municipio colombiano ubicado al norte del departamento de Córdoba, a 57 km de la capital departamental Montería.",
+    "aboutTitle": "Los Córdobas, un municipio con raíces chocoanas",
+    "about": "Los Córdobas es un municipio colombiano ubicado al norte del departamento de Córdoba, a 57 km de la capital departamental, Montería. La economía del municipio se basa en actividades primarias como la ganadería, la agricultura y la pesca, aunque en los últimos años se ha visto un crecimiento en la actividad turística. La historia de Los Córdobas comienza con una familia Córdoba, liderada por Pablo Córdoba, que en 1862 fue gestora de la erección del poblado. La familia era de procedencia chocoana y recorría el litoral intercambiando mercancías por productos de la tierra y semillas de tagua, palma que produce la materia prima denominada marfil vegetal. El municipio incluye, además de la cabecera, los centros poblados de Buenavista, El Ébano, El Guáimaro, Jalisco, La Aponderancia, La Salada, Morindó Santana, Nuevo Nariño, Puerto Rey y Santa Rosa de La Caña. El 6 de junio de 1963, mediante la Ordenanza n.º 0006, se declaró a Los Córdobas como municipio del Departamento de Córdoba, y su primer alcalde fue Jesús María Zapata, quien tomó posesión el 2 de agosto."
+  },
+  {
+    "slug": "toribio",
+    "name": "Toribío",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 181,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santander-de-quilichao",
+      "miranda",
+      "puerto-tejada",
+      "florida",
+      "jamundi",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Toribío es un municipio del departamento de Cauca situado a 1.800 m s.n.m. y 19 °C, cuya historia registra más de 600 ataques de guerrillas.",
+    "aboutTitle": "Toribío: municipio de 1.800 m con historia de conflicto armado",
+    "about": "Toribío es un municipio colombiano ubicado en el departamento de Cauca. La cabecera municipal se sitúa a 02º57'29\" de latitud norte y 76º16'17\" de longitud oeste, a una altitud de 1.800 m.s.n.m. y presenta una temperatura de 19 °C.\n\nCuenta con la vía principal totalmente pavimentada desde Santander de Quilichao hasta la cabecera municipal. Sus vías secundarias y terciarias se encuentran en muy mal estado debido a la fuerte ola invernal de noviembre-diciembre de 2011. Toribío tiene parte del área de páramo protegida por el gobierno como parque natural.\n\nA mediados de 2011 a 2013, el municipio fue afectado por asaltos de guerrillas presentes en la zona, lo que provocó una reducción en todos los sentidos al sitio. Desde los años 1980, ha contabilizado más de 600 ataques de guerrillas izquierdistas en el marco del conflicto interno colombiano, provocando la muerte de 41 personas y 600 heridos. El ataque más violento fue perpetrado por el 6º Frente de las FARC el 8 de julio de 2011, cuando un bus escalera bomba destruyó la estación de policía cercana al mercado a las diez de la mañana, causando al menos tres muertos y setenta heridos. Los nasa, que suman unas 115.000 personas en el norte de Cauca, exigen tener el control de sus territorios."
+  },
+  {
+    "slug": "san-benito-abad",
+    "name": "San Benito Abad",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Sucre",
+    "regionSlug": "sucre",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos",
+      "chinu",
+      "sahagun",
+      "magangue",
+      "sampues",
+      "sucre",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de San Benito Abad, municipio colombiano del departamento de Sucre en la región Caribe, situado en el valle del río San Jorge.",
+    "aboutTitle": "La Basílica Menor del Señor de los Milagros en San Benito Abad",
+    "about": "San Benito Abad, también conocido como La Villa de San Benito, es un municipio colombiano del departamento de Sucre, ubicado en la región Caribe colombiana. En su cabecera municipal se encuentra la Basílica Menor del Señor de los Milagros, uno de los lugares de devoción y peregrinación más visitados de Colombia, que convierte a la localidad en un importante centro religioso del departamento. En la época precolombina, el territorio del municipio de San Benito Abad estuvo poblado por los indígenas Finzenúes, quienes en el valle del río San Jorge construyeron una extensa y compleja red de canales que cubrieron un área de más de 500.000 ha, demostrando un avanzado manejo del agua para la agricultura. Algunas investigaciones históricas demuestran que las naciones malibúes y zenúes, que se disputaban el territorio guerreando entre sí, tenían un lugar de adoración llamado Tacasuán, muy cercano a las ciénagas de Machado o de San Benito, y que allí se rendía tributo a una deidad hermafrodita llamada Ninha-Thi."
+  },
+  {
+    "slug": "aguas-zarcas",
+    "name": "Aguas Zarcas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 233,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "puntarenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aguas Zarcas, un distrito de la provincia de Alajuela en Costa Rica, conocido por sus aguas termales y su campo volcánico.",
+    "aboutTitle": "Aguas Zarcas, un distrito volcánico",
+    "about": "Aguas Zarcas es el cuarto distrito del cantón de San Carlos, en la provincia de Alajuela, de Costa Rica. Está ubicado en la región septentrional del país y limita con los distritos de Cutris al norte, La Palmera al oeste, Pital y Venecia al este, y el cantón de Sarchí al sur. Su cabecera, la ciudad de Aguas Zarcas, está situada a 16,6 km al noreste de Quesada, y 88,4 km al noroeste de San José, la capital de la nación.\n\nEl nombre de Aguas Zarcas proviene de las aguas termales de manantial, que tienen un color turquesa debido a la cantidad de azufre que contiene el río Aguas Zarcas. El distrito cuenta con un área de 185,7 km² y una altitud media de 489 m s. n. m. Rodeando el área urbana de Aguas Zarcas, se encuentran un cerro y ocho lomas que son los remanentes de los conos volcánicos del campo volcánico de Aguas Zarcas."
+  },
+  {
+    "slug": "lanquin",
+    "name": "Lanquín",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Alta Verapaz",
+    "regionSlug": "departamento-de-alta-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coban",
+      "chiquimula",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lanquín es un municipio de Alta Verapaz, Guatemala, conocido por sus atractivos de Semuc Champey y las grutas de Lanquín.",
+    "aboutTitle": "Lanquín, tierra de las grutas y Semuc Champey",
+    "about": "Lanquín es un municipio situado en el departamento de Alta Verapaz, en la República de Guatemala. El origen de su nombre proviene del término cholano o choltí «lakin», que se traduce al español como «oriente» o «este», por lo que el topónimo significa «pueblo oriental». En el ámbito geográfico, la cabecera municipal presenta un clima tropical categorizado como Af según la clasificación de Köppen. El territorio municipal limita al norte, noroeste, oeste y suroeste con San Pedro Carchá, municipio que también colinda por el sur junto con Senahú. Hacia el sureste limita nuevamente con Senahú, mientras que al este se ubica el municipio de Cahabón. Entre los lugares más destacados del municipio se encuentran las grutas de Lanquín y Semuc Champey, considerados dos de los principales sitios turísticos de toda Guatemala. La administración local está organizada mediante un concejo municipal compuesto por un alcalde, síndicos y concejales, elegidos por sufragio universal para un período de cuatro años."
+  },
+  {
+    "slug": "quilali",
+    "name": "Quilalí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de Nueva Segovia",
+    "regionSlug": "departamento-de-nueva-segovia",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jinotega",
+      "esteli",
+      "matagalpa",
+      "danli",
+      "nicaragua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quilalí, un municipio del departamento de Nueva Segovia en Nicaragua, fundado en 1920 y conocido por ser el escenario de la lucha de Sandino.",
+    "aboutTitle": "Quilalí, escenario de la lucha de Sandino",
+    "about": "Quilalí es un municipio del departamento de Nueva Segovia, ubicado en la República de Nicaragua. Fundado en 1920, el núcleo poblacional se caracteriza por ser pequeño pero de gran belleza, con un entorno que combina paisajes rurales y atractivos turísticos que los visitantes describen como increíbles. La comunidad se reconoce por la amabilidad y empatía de sus habitantes, rasgos que se perciben en la cotidianidad del pueblo. Un elemento distintivo al llegar a Quilalí es el rótulo de gran tamaño que anuncia “Escenario de la lucha de Sandino”, recordatorio visible de su papel histórico durante la revolución nicaragüense. Ese mismo legado histórico convierte al municipio en un punto de referencia para quienes estudian la lucha revolucionaria de Nicaragua, ya que la localidad fue escenario de episodios relevantes de la contienda liderada por Augusto César Sandino. En la actualidad, Quilalí mantiene viva esa memoria y sigue siendo mencionado por su historia y por la importancia que tuvo en la construcción del movimiento revolucionario nacional."
+  },
+  {
+    "slug": "pantelho",
+    "name": "Pantelhó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 181,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pantelhó, municipio chiapaneco cuyo nombre tsotsil significa 'Puente del río', se ubica a 1056 m sobre el nivel del mar.",
+    "aboutTitle": "Puente del río y clima de Pantelhó",
+    "about": "Pantelhó es uno de los 124 municipios del estado de Chiapas, situado en la Región V Altos Tsotsil‑Tseltal. Su cabecera lleva el mismo nombre y se ubica a 17°00'20\" N, 92°28'08\" O, a 1056 m sobre el nivel del mar, con una superficie de 192,4 km² que representa el 0.26 % del territorio estatal. El topónimo proviene del tsotsil y significa “Puente del río”. Limita al norte con Simojovel y Yajalón, al este con Chilón y Sitalá, al sur con San Juan Cancuc y Chenalhó, y al oeste con Chenalhó, Chalchihuitán y Simojovel. Los climas existentes son: Cálido húmedo con lluvias abundantes de verano (61.95 %), Cálido subhúmedo con lluvias de verano, más húmedo (3.58 %), Semicálido húmedo con lluvias abundantes de verano (25.73 %) y Semicálido húmedo con lluvias todo el año (8.75 %). La precipitación media anual se sitúa entre 1200 y 1700 mm. En los meses de mayo a octubre, las temperaturas mínimas promedio se distribuyen entre 12 y 21 °C y las máximas entre 21 y 34.5 °C; de noviembre a abril, las mínimas varían de 6 a 18 °C y las máximas de 18 a 30 °C."
+  },
+  {
+    "slug": "balboa",
+    "name": "Balboa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "florencia-colombia",
+      "popayan",
+      "pasto",
+      "tuquerres",
+      "mocoa",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Balboa, municipio del Cauca conocido como el Balcón del Patía, se ubica entre 550 y 3 500 m de altitud en la cordillera occidental.",
+    "aboutTitle": "Balboa, el Balcón del Patía y su historia municipal",
+    "about": "Balboa, municipio del Cauca, se sitúa en el flanco este de la cordillera occidental de los Andes y abarca una superficie de 402,83 km². El territorio comprende cuatro pisos térmicos: muy frío entre 3 000 y 3 500 m, frío entre 2 000 y 3 000 m, medio entre 1 300 y 2 000 m y cálido entre 550 y 1 300 m. Desde su posición elevada se observa la extensión del Valle del Patía, de ahí su apodo de Balcón del Patía. La colonización del territorio inició en 1912 por Sixto Girón, Rubén Sánchez, Manuel Joaquín y José David Chicaiza. Inicialmente formó parte del corregimiento de Patía; el 15 de septiembre de 1967 se reconoció como municipio mediante la Ordenanza n.º 001 de la Asamblea Departamental del Cauca. Los predios Luna y Las Palmas fueron donados por Escritura Pública No. 24 del 17 de marzo de 1965. Balboa pertenece a la subregión Sur, junto a Patía, Bolívar, Sucre, Argelia, Almaguer, Mercaderes, Florencia y San Sebastián, y está a 151 km de Popayán. En el área, el 32,31 % se dedica a labores agropecuarias, mientras que el 48,36 % está en pastos sin ningún manejo y rastrojo."
+  },
+  {
+    "slug": "pensilvania",
+    "name": "Pensilvania",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Caldas",
+    "regionSlug": "caldas",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fresno-tolima",
+      "mariquita",
+      "sonson",
+      "honda",
+      "manizales",
+      "caldas",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pensilvania, municipio de Caldas, Colombia, se fundó el 3 de febrero de 1866, a unas cuatro horas de Manizales.",
+    "aboutTitle": "Fundación y origen de Pensilvania, Caldas",
+    "about": "Pensilvania es un municipio colombiano ubicado en el departamento de Caldas. Se sitúa a aproximadamente cuatro horas del terminal de transporte terrestre de Manizales y no dispone de aeropuerto propio. Antes de la llegada de los europeos, la zona estuvo habitada por los indígenas Pantágoras, descendientes de los Caribes, cuyo dominio se extendía unos 4000 km hasta las riberas de los ríos Guarinó y La Miel, en un territorio propicio para la minería y la pesca.\n\nEn la década de 1540‑1550 varios expedicionarios españoles, entre ellos Baltasar Maldonado y Álvaro de Mendoza, intentaron colonizar la región sin éxito, dejando el área deshabitada durante 300 años. En 1860 un grupo de comerciantes antioqueños, liderado por Isidro Mejía y Manuel Antonio Jaramillo, llegó desde la zona conocida como Antioquia la Grande, estableciéndose en lo que entonces se describía como “Las Tenebrosas selvas de Sonsón”. El proceso de colonización culminó con la creación legal del Corregimiento de Pensilvania, solicitada por Isidro Mejía al presidente del Estado Soberano de Antioquia, Pedro Justo Berrío, y la fundación oficial del municipio el 3 de febrero de 1866."
+  },
+  {
+    "slug": "ambo",
+    "name": "Ambo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huánuco",
+    "regionSlug": "departamento-de-huanuco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huanuco",
+      "cerro-de-pasco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La ciudad de Ambo, situada en el Departamento de Huánuco, Perú, es la capital del distrito de Ambo y se encuentra a 2.064 metros sobre el nivel del mar.",
+    "aboutTitle": "Ambo, capital del distrito",
+    "about": "Ambo es la capital del distrito homónimo, que forma parte de la provincia de Ambo en el Departamento de Huánuco, bajo la administración del Gobierno Regional de Huánuco. Desde la perspectiva eclesiástica, el distrito pertenece a la diócesis de Huánuco, sufragánea de la arquidiócesis de Huancayo. El distrito fue creado mediante la Ley N.º 1598 el 21 de octubre de 1912, durante el gobierno del presidente Guillermo Billinghurst Angulo. Su superficie es de 288,8 km² y la ciudad se sitúa a 2.064 metros sobre el nivel del mar. Las festividades locales incluyen la celebración de la Virgen del Carmen en julio, Santa Rosa de Lima en agosto y el Señor de los Milagros en octubre. Entre 2019 y 2022, el alcalde fue David Antonio Herrera Yumpe, del partido Avanza País – Partido de Integración Social, y el concejo municipal estuvo compuesto por representantes de los mismos partidos y de otras formaciones como Cambiemos x Huánuco, Podemos por el Progreso del Perú y Acción Popular. El distrito cuenta con una categoría multimedia en Wikimedia Commons y está vinculada a la Región Huánuco y a la organización territorial del Perú."
+  },
+  {
+    "slug": "colimes",
+    "name": "Colimes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "daule",
+      "babahoyo",
+      "portoviejo",
+      "guayaquil",
+      "milagro",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Colimes, cantón del Guayas en Ecuador, cuenta con 25.167 habitantes y se sitúa a 85 km al norte de Guayaquil, ofreciendo historia desde 1534.",
+    "aboutTitle": "La iglesia Santa Rosa y la tradición cafetalera de Colimes",
+    "about": "Colimes es un cantón de la provincia del Guayas, Ecuador, cuya cabecera lleva el mismo nombre. Fue descubierto en 1534 por Pedro de Alvarado durante sus intentos de conquista y, siglos después, se fundó en 1916 con la construcción de la iglesia católica Santa Rosa de Colimes, situada en el centro del cantón.\n\nCon una población total de 25.167 habitantes y una superficie de 755 km², Colimes se encuentra a 85 km al norte de Guayaquil. Su historia incluye la incorporación a la parroquia civil del cantón Daule en 1862, el paso a Balzar en 1903 y la cantonización oficial el 29 de abril de 1988, bajo el presidente León Febres Cordero. En la época precolonial la zona estuvo habitada por la tribu “colimas”, parte de la cultura Manteña Huancavilca, y durante la colonia sirvió de punto de entrada y salida para pueblos de Manabí. Destacan la hacienda Etelvina, propiedad de la familia Santistevan, donde se elaboraban productos de café y cacao, y el primer sacerdote Fray Leandro Fierro."
+  },
+  {
+    "slug": "rancho-grande",
+    "name": "Rancho Grande",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de Matagalpa",
+    "regionSlug": "departamento-de-matagalpa",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jinotega",
+      "matagalpa",
+      "quilali",
+      "esteli",
+      "nicaragua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rancho Grande, municipio de Matagalpa a 214 km de Managua, cuenta con 43.352 habitantes y una historia marcada por intentos de cambiar su nombre.",
+    "aboutTitle": "Montañas y fronteras de Rancho Grande, Matagalpa",
+    "about": "Rancho Grande es un municipio del departamento de Matagalpa, en el norte de Nicaragua, situado a 214 kilómetros de la capital, Managua. Limita al norte con El Cuá, al sur con Río Blanco y Matiguás, al este con Waslala y al oeste con El Tuma‑La Dalia. En su territorio se encuentran elevaciones como el macizo de Peñas Blancas, la montaña de Las Carpas, El Pájaro y Cerro Grande.\n\nSegún la última cifra disponible, la población de Rancho Grande asciende a 43.352 habitantes, de los cuales el 51.4 % son hombres y el 48.6 % mujeres, y casi el 20.6 % vive en zona urbana. La comunidad surgió alrededor de un refugio de paja construido para viajeros que cruzaban la región; con el tiempo se consolidó como asentamiento agropecuario. En 1979 se propuso cambiar su nombre a Fernando Herrera, pero la denominación oficial se mantuvo hasta que en 1989 se le otorgó el estatus de municipio bajo el nombre de Rancho Grande. El organismo holandés Novib colaboró en la construcción de asentamientos y en la mejora de la infraestructura social básica. El clima es tropical de sabana de altura, con variaciones según la altitud."
+  },
+  {
+    "slug": "puerto-varas",
+    "name": "Puerto Varas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Los Lagos",
+    "regionSlug": "region-de-los-lagos",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-montt",
+      "osorno",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Varas, ciudad del sur de Chile fundada el 27 de junio de 1853, destaca por su arquitectura alemana y su ubicación a 22 km al norte de Puerto Montt.",
+    "aboutTitle": "Puerto Varas y su legado alemán a orillas del lago Llanquihue",
+    "about": "Puerto Varas es una ciudad y comuna situada en la zona sur de Chile, en la provincia de Llanquihue, región de Los Lagos. Se ubica a 22 km al norte de Puerto Montt y, junto a la comuna homónima y la de Llanquihue, forma un conjunto urbano a 12 km de distancia. La ciudad nació durante la colonización alemana; el 27 de junio de 1853, mediante un Decreto Supremo del Ministerio de Interior, se inició el poblamiento de la cuenca del lago Llanquihue con inmigrantes provenientes de diversas regiones de Alemania. Los primeros 212 colonos llegaron a fines de 1853, asentándose en el sector de La Fábrica y estableciendo familias como Bittner, Von Bischofshausen y Gebauer. Este legado se refleja en el patrimonio arquitectónico y en la gastronomía local, con claras influencias alemanas. La ciudad ha destacado históricamente por su relación con el turismo, aprovechando el paisaje del lago Llanquihue y los atractivos naturales de la zona."
+  },
+  {
+    "slug": "villa-tapia",
+    "name": "Villa Tapia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Hermanas Mirabal",
+    "regionSlug": "hermanas-mirabal",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-vega",
+      "moca",
+      "san-francisco-de-macoris",
+      "santiago-de-los-caballeros",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Tapia, municipio de Hermanas Mirabal, cuenta con 26.159 habitantes y se destaca como importante zona productora de plátano en el valle de la Vega Real.",
+    "aboutTitle": "Villa Tapia: origen, agricultura y datos demográficos",
+    "about": "Villa Tapia es un municipio de la República Dominicana, situado en la provincia de Hermanas Mirabal. Fue fundada originalmente con el nombre de “La Jagua” y el 18 de abril de 1968 recibió el nombre actual en honor al general restaurador Doroteo Antonio Tapia Calderón. La sección de La Jagua se elevó a Distrito Municipal el 16 de agosto de 1952 y, tras la ley 293 del 18 de abril de 1968, pasó a ser municipio. El primer ayuntamiento se constituyó el 16 de septiembre de 1970.\n\nSegún el Censo Nacional de 2022, Villa Tapia cuenta con 26.159 habitantes, de los cuales 13.511 son hombres y 12.648 mujeres, y aproximadamente el 76 % de la población vive en áreas rurales. La economía local se sustenta principalmente en la agricultura; el municipio destaca por su producción de plátano, favorecida por las fértiles tierras del valle de la Vega Real. El municipio forma parte de la región norte del país y mantiene una tradición agrícola arraigada."
+  },
+  {
+    "slug": "casillas",
+    "name": "Casillas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oratorio",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "villa-nueva",
+      "mixco",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Casillas, municipio del noreste de Santa Rosa, alberga la laguna de Ayarza y celebra su feria del 12 al 16 de enero en honor al Cristo Negro de Esquipulas.",
+    "aboutTitle": "Laguna de Ayarza y la feria del Cristo Negro en Casillas",
+    "about": "Casillas es un municipio situado al noreste del departamento de Santa Rosa, en el oriente de Guatemala. Limita al norte con Mataquescuintla (Jalapa), al sur con Nueva Santa Rosa, al este con Jutiapa y al oeste con Santa Rosa de Lima. Su cabecera municipal lleva el mismo nombre.\n\nEl territorio abarca 14 kilómetros cuadrados y se encuentra a 1 409 m sobre el nivel del mar, con una orografía que varía entre 967 m y 2 172 m. El clima es cálido‑templado (Köppen Aw) y en él se localiza la laguna de Ayarza. Esta zona climática favorece el cultivo de hortalizas y la producción de caña de azúcar. La economía local se basa en la producción de maíz, frijol, papas y caña de azúcar, además de la ganadería bovina, porcina y avícola, y la elaboración doméstica de panela. El patrono del municipio es el Cristo Negro de Esquipulas y la feria titular se celebra del 12 al 16 de enero."
+  },
+  {
+    "slug": "cruz-paredes",
+    "name": "Cruz Paredes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Estado Barinas",
+    "regionSlug": "estado-barinas",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barinas",
+      "trujillo-venezuela",
+      "guanare",
+      "valera",
+      "merida-venezuela",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cruz Paredes, municipio del noroeste de Barinas, cuenta con 28.272 habitantes y una superficie de 778 km² según el censo 2011.",
+    "aboutTitle": "Río Santo Domingo y la historia de Cruz Paredes",
+    "about": "Cruz Paredes es un municipio del estado Barinas, situado al noroeste de Barinas y conformado por una superficie de 778 km². Según el censo de 2011, la población alcanza los 28.272 habitantes y su capital es la población de Barrancas, que también da nombre a una de sus parroquias. El territorio estuvo habitado, posiblemente desde el siglo XV, por grupos indígenas conocidos como los aborígenes Barrancas, y fue descrito por el explorador alemán Jorge Spira durante una expedición a las riberas del río Santo Domingo. Durante las Guerras de Independencia la zona sirvió de refugio y, más tarde, la Guerra Federal provocó la destrucción de numerosas chozas. El decreto 567 de Guzmán Blanco instauró la primera escuela rural, consolidando la vida comunitaria. El municipio obtuvo autonomía el 15 de diciembre de 1990, gracias a la iniciativa de ciudadanos como Carmen de Mendoza, Alexis Mendoza y la Dra. Zulay Salas. Actualmente se divide en tres parroquias: Barrancas, El Socorro y Masparrit."
   }
 ];
