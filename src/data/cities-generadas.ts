@@ -28283,5 +28283,1486 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Cruz Paredes, municipio del noroeste de Barinas, cuenta con 28.272 habitantes y una superficie de 778 km² según el censo 2011.",
     "aboutTitle": "Río Santo Domingo y la historia de Cruz Paredes",
     "about": "Cruz Paredes es un municipio del estado Barinas, situado al noroeste de Barinas y conformado por una superficie de 778 km². Según el censo de 2011, la población alcanza los 28.272 habitantes y su capital es la población de Barrancas, que también da nombre a una de sus parroquias. El territorio estuvo habitado, posiblemente desde el siglo XV, por grupos indígenas conocidos como los aborígenes Barrancas, y fue descrito por el explorador alemán Jorge Spira durante una expedición a las riberas del río Santo Domingo. Durante las Guerras de Independencia la zona sirvió de refugio y, más tarde, la Guerra Federal provocó la destrucción de numerosas chozas. El decreto 567 de Guzmán Blanco instauró la primera escuela rural, consolidando la vida comunitaria. El municipio obtuvo autonomía el 15 de diciembre de 1990, gracias a la iniciativa de ciudadanos como Carmen de Mendoza, Alexis Mendoza y la Dra. Zulay Salas. Actualmente se divide en tres parroquias: Barrancas, El Socorro y Masparrit."
+  },
+  {
+    "slug": "hecelchakan",
+    "name": "Hecelchakán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Campeche",
+    "regionSlug": "campeche",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "campeche",
+      "merida-mexico",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hecelchakán, en Campeche con 31.917 habitantes, cubre 1,331.99 km² y su nombre maya Helelchakán significa 'Sabana del descanso', al norte del estado y Calkiní.",
+    "aboutTitle": "Extensión territorial y origen del nombre de Hecelchakán",
+    "about": "Hecelchakán es uno de los trece municipios del estado de Campeche, México. Su nombre proviene del maya yucateco Helelchakán, que se traduce como “Sabana del descanso”. La cabecera municipal lleva el mismo nombre y se sitúa en la zona norte del estado, limitando al norte con los municipios de Calkiní y Dzitbalché, al sur con Tenabo, al sureste con Hopelchén y al oeste con el Golfo de México. El territorio abarca 1,331.99 km², lo que representa el 2.34 % del área estatal, y presenta una topografía prácticamente plana con una suave inclinación descendente de sur a norte. El suelo es predominantemente calcáreo, lo que impide la retención superficial del agua; por ello no existen ríos ni cuerpos de agua permanentes y la población depende de pozos que alcanzan el nivel freático.\n\nEl clima de Hecelchakán se clasifica como cálido subhúmedo, con lluvias concentradas en el verano. La temperatura media anual supera los 26 °C y la precipitación promedio oscila entre 1,000 y 1,100 mm, reduciéndose a menos de 1,000 mm en la zona costera. La mayor parte de la vegetación corresponde a selva, donde se practican sistemas de agricultura nómada que rotan entre distintos puntos del interior municipal. Entre los árboles más comunes se encuentran el chicozapote, el palo de tinte, la caoba y el ciricote."
+  },
+  {
+    "slug": "quiroga",
+    "name": "Quiroga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "uruapan",
+      "irapuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quiroga, en Michoacán, se sitúa a 45 km de la capital del estado a 2.076 m de altitud y cuenta con 15.249 habitantes según el censo 2020.",
+    "aboutTitle": "Monumentos y origen histórico de Quiroga, Michoacán",
+    "about": "Quiroga es una población del norte del estado de Michoacán, cabecera municipal del municipio homónimo. Se encuentra a una distancia de 45 km de la capital del estado, en la ubicación 19°39′50″N 101°31′30″O, a una altitud de 2.076 m. Con una superficie de 3.55 km², la densidad poblacional en 2020 era de 4.299 habitantes por km² y la población total alcanzó los 15.249 habitantes, con un crecimiento promedio anual de 0,34 % entre 2010 y 2020. La mayor parte de sus habitantes (93,6 %) profesa la religión católica y la tasa de analfabetismo entre mayores de 15 años es de 4,71 %. El nivel educativo promedio supera los ocho años, aunque en 2010 se registraron 6.240 personas sin educación básica y 6.781 sin acceso a la salud. Entre sus edificios patrimoniales destacan la Parroquia de San Diego de Alcalá, el Templo de la Inmaculada Concepción, la Capilla de San Miguel y la Capilla de San Vicente de Padua. El origen del nombre se remonta al siglo XVI, cuando el asentamiento se llamaba San Diego Cocupao, una denominación que alude a un “caserío sobre una loma”."
+  },
+  {
+    "slug": "veroes",
+    "name": "Veroes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Yaracuy",
+    "regionSlug": "yaracuy",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-felipe",
+      "puerto-cabello",
+      "valencia-venezuela",
+      "barquisimeto",
+      "maracay",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Veroes, municipio de Yaracuy con acceso al mar mediante un corredor de 5 km; su capital Farriar está a 40 m s.n.m. y supera los 25 000 habitantes datos 2007.",
+    "aboutTitle": "Veroes: municipio costero con corredor marítimo de 5 km",
+    "about": "Veroes es uno de los catorce municipios que integran el estado Yaracuy, situado al noroeste y limitado al oeste por un estrecho corredor marítimo de unos 5 km que le brinda el único acceso directo al mar de la entidad. Con una superficie de 1 059 km², es el segundo municipio más extenso del estado. Se estima que para 2007 su población sobrepasa los 25 000 habitantes. El municipio está compuesto por las parroquias de El Guayabo y Farriar, cuya capital, la ciudad de Farriar, se encuentra a 40 metros sobre el nivel del mar, 246 metros por debajo de San Felipe y 1 841 metros por debajo del Cerro Negro, punto más alto de Yaracuy. Desde la época colonial la mayoría de sus habitantes son de origen africano, descendientes de los esclavos que trabajaron en plantaciones de cacao y caña de azúcar. En 1730 el zambo Andresote lideró una revuelta en el valle del río Yaracuy, apoyado por esclavos, negros libres, hacendados criollos y contrabandistas holandeses. El gobernador Sebastián García de la Torre dirigió la campaña que culminó el 11 de febrero de 1732, obligando a Andresote a huir a Curazao. El municipio se constituyó formalmente en 1909."
+  },
+  {
+    "slug": "armeria",
+    "name": "Armería",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 198,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Colima",
+    "regionSlug": "colima",
+    "channels": [
+      "colima",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "colima",
+      "cihuatlan",
+      "el-grullo",
+      "zapotiltic",
+      "autlan-de-navarro",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Armería, municipio colimense de 27 226 habitantes, ocupa 408,38 km² en el sur del estado y está cruzado por el río Armería, su cauce principal.",
+    "aboutTitle": "Río Armería y la costa del Pacífico en el sur de Colima",
+    "about": "Armería se encuentra en el sur del estado de Colima, limitando al norte con Coquimatlán, al este con Tecomán, al oeste con Manzanillo y al sur con el océano Pacífico. Su cabecera municipal está situada en las coordenadas 18°56′13″N 103°57′54″O, en el palacio municipal. El municipio abarca una superficie de 408,38 km², lo que representa el 6,3 % del territorio estatal. Entre sus relieves destacan los cerros San Buenaventura, El Escorpión, El Zacate, El Jabalí, El Tepalcate y el cerro Escaltitán. El principal cauce hídrico es el río Armería, complementado por canales de riego como Periquillos, La Cañita, Independencia y Cuyutlán.\n\nEl clima de la zona es cálido subhúmedo con lluvias en verano; el 56,2 % del municipio presenta este tipo climático, mientras que el 43,8 % tiene clima semiseco muy cálido. La temperatura media anual es de 26 °C y la precipitación media anual alcanza los 700 mm, concentrándose en julio, agosto y septiembre. Según el censo de 2020, Armería cuenta con 27 226 habitantes, 13 940 hombres y 13 686 mujeres, distribuidos en 8 224 viviendas particulares. El grado promedio de escolaridad de la población de 15 años y más es de 7,8 años y el municipio comprende 82 localidades."
+  },
+  {
+    "slug": "ramon-castilla",
+    "name": "Ramón Castilla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Loreto",
+    "regionSlug": "departamento-de-loreto",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "leticia",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ramón Castilla, distrito del Loreto creado el 2 de julio de 1943, alberga comunidades Ticuna, Du‑ûgü y Yagua en la Amazonía peruana.",
+    "aboutTitle": "Distrito de Ramón Castilla, fundado en 1943, en la Amazonía de Loreto",
+    "about": "El distrito de Ramón Castilla es uno de los cinco que forman la provincia de Mariscal Ramón Castilla, situada en el departamento de Loreto, en el nororiente del Perú. Fue creado mediante Ley n.º 9815 del 2 de julio de 1943, lo que marcó su formalización administrativa dentro de la Amazonía peruana. Su territorio forma parte de la vasta región amazónica, caracterizada por una biodiversidad abundante y una geografía de selvas y ríos.\n\nEn este distrito habitan grupos étnicos del conjunto Ticuna y la comunidad autodenominada Du‑ûgü, así como el grupo Yagua, conocido localmente como Yihamwo. Estas poblaciones mantienen sus tradiciones y modos de vida en estrecha relación con el entorno natural. En la información disponible no se especifican festividades concretas para el distrito, por lo que no se pueden señalar celebraciones oficiales con fecha determinada."
+  },
+  {
+    "slug": "jujutla",
+    "name": "Jujutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 133,
+    "votes": 235,
+    "activity": "Baja",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Ahuachapán",
+    "regionSlug": "departamento-de-ahuachapan",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "sonsonate",
+      "santa-ana",
+      "santa-tecla",
+      "mejicanos",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jujutla es un distrito del municipio de Ahuachapán Sur, en el departamento de Ahuachapán, El Salvador, y limita al norte con Concepción de Ataco.",
+    "aboutTitle": "Límites y ubicación de Jujutla en Ahuachapán",
+    "about": "Jujutla es un distrito del municipio de Ahuachapán Sur, situado en el departamento de Ahuachapán, El Salvador. Su territorio forma parte de la zona sur del país y está bajo la administración municipal de Ahuachapán Sur. Limita al norte con el distrito de Concepción de Ataco, al oeste con los distritos de San Francisco Menéndez y Tacuba, y al sur y al este con Acajutla y Guaymango. Estas fronteras definen su entorno inmediato y las vías de acceso a los municipios vecinos. La posición geográfica de Jujutla le permite conectar con distintas áreas del departamento, facilitando el intercambio de recursos y la movilidad de sus habitantes. El distrito conserva una organización territorial clara, con límites bien establecidos que favorecen la planificación local y la relación con las comunidades colindantes. Los distritos limítrofes, Concepción de Ataco, San Francisco Menéndez, Tacuba, Acajutla y Guaymango, forman una red de comunas que interactúan en el marco administrativo del departamento."
+  },
+  {
+    "slug": "huimanguillo",
+    "name": "Huimanguillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tabasco",
+    "regionSlug": "tabasco",
+    "channels": [
+      "tabasco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "las-choapas",
+      "agua-dulce",
+      "nanchital-de-lazaro-cardenas-del-rio",
+      "coatzacoalcos",
+      "tabasco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huimanguillo, cabecera municipal de Tabasco a 67 km de Villahermosa, cuenta con 26.000 habitantes y una historia que data de 1680.",
+    "aboutTitle": "Huimanguillo y el desvío del río Mezcalapa hacia el Grijalva",
+    "about": "Huimanguillo es la cabecera municipal del municipio homónimo, el más grande por extensión territorial del estado de Tabasco. Está situada a 67 km de Villahermosa, capital del estado, y forma parte de las seis concentraciones urbanas más importantes de la entidad, con una población de 26.000 habitantes según el INEGI en 2020. El nombre proviene del diminutivo de Huimango, derivado del náhuatl Uei-man-co, que significa “lugar del cacique principal”. Los primeros asentamientos datan de 1680, cuando habitantes del pueblo nahua Huimango, huyendo de ataques piratas, se establecieron en la margen izquierda del río Mezcalapa.\n\nPosteriormente, recurrentes inundaciones obligaron a trasladar la población a su ubicación actual. La fundación española exacta es desconocida, aunque en 1579 los indígenas fueron encomendados a Teodora Manuel. En 1770 los habitantes desviaron el cauce del río Mezcalapa hacia un brazo del río Grijalva para evitar a los corsarios. El Ayuntamiento de Huimanguillo 2024‑2027 impulsa obras de pavimentación y rehabilitación de caminos, programas de justicia social, salud municipal y reforestación para recuperar áreas naturales."
+  },
+  {
+    "slug": "el-soberbio",
+    "name": "El Soberbio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Misiones",
+    "regionSlug": "provincia-de-misiones",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "obera",
+      "puerto-rico-misiones",
+      "montecarlo",
+      "jardin-america",
+      "eldorado",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Soberbio, ciudad de Misiones a orillas del río Uruguay, limita con la villa brasileña de Porto Soberbo y conserva la herencia polaca y alemana.",
+    "aboutTitle": "El Soberbio y su frontera fluvial con Porto Soberbo",
+    "about": "El Soberbio es una ciudad de la provincia de Misiones, cabecera del departamento Guaraní. Se sitúa a orillas del río Uruguay, limitando con la pequeña villa brasileña de Porto Soberbo (Rio Grande del Sur). Según el censo de 2010, cuenta con 5.065 habitantes.\n\nLa zona se pobló inicialmente por los guaraníes y, a partir de mediados de la década de 1890 hasta 1950, recibió una intensa ola de inmigrantes europeos, principalmente polacos y alemanes, que ingresaron a través de Brasil bajo un programa de colonización privado. Los primeros asentamientos incluyeron jangaderos brasileños que manejaban las grandes balsas de troncos, conocidas como “jangadas”, y familias criollas que huyeron del general brasileño Prestes. Los hermanos Natalio y Julio Ongay fueron los primeros propietarios de tierras adquiridas en remate; en 1946 contrataron a Arguro Henn, quien llegó navegando el río Uruguay desde Alba Posse para iniciar la explotación forestal. Durante gran parte de su historia, la economía local giró en torno a la extracción de yerba mate silvestre y la industria maderera, con el río Uruguay como principal vía de transporte de mercaderías en chatas tiradas por lanchas de madera. Hoy la comunidad mantiene la influencia de sus raíces polacas y alemanas en sus tradiciones y arquitectura."
+  },
+  {
+    "slug": "rio-ceballos",
+    "name": "Río Ceballos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-argentina",
+      "jesus-maria-colonia-caroya-sinsacate",
+      "villa-carlos-paz-san-antonio-de-arredondo-villa-rio-icho-cruz",
+      "malagueno",
+      "alta-gracia",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Río Ceballos, ciudad de Córdoba a 35 km al norte de la capital y al pie de las Sierras Chicas, es reconocido como importante destino turístico.",
+    "aboutTitle": "Río Ceballos: al pie de las Sierras Chicas y su ruta turística",
+    "about": "Río Ceballos es una ciudad de la provincia de Córdoba, perteneciente al Departamento Colón. Se encuentra ubicada al pie de las Sierras Chicas, 35 km al norte de la capital provincial, y forma parte del Gran Córdoba. El acceso principal es por la RP E 53, pasando el aeropuerto y recorriendo 17 km hacia el norte, o bien por la ruta RP E57 desde la Ciudad de Córdoba, atravesando Villa Allende, Mendiolaza y Unquillo. La avenida San Martín, que cruza el arroyo homónimo, concentra casi toda la actividad comercial y termina al pie del embalse del Dique La Quebrada, consolidando a la ciudad como un importante destino turístico.\n\nEl territorio estuvo habitado por los pueblos originarios sanavirones y comechingones, evidencia confirmada por hallazgos arqueológicos. Durante la época colonial las tierras formaron parte de mercedes otorgadas por la Corona española y fueron conocidas como Estancia San Isidro e Isquitipe. La zona fue atravesada por expediciones de Jerónimo Luis de Cabrera y, a lo largo de los siglos XIX y XX, experimentó un importante desarrollo vinculado al."
+  },
+  {
+    "slug": "miguel-aleman",
+    "name": "Miguel Alemán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "reynosa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Miguel Alemán, municipio fronterizo del estado de Tamaulipas, cuenta con el Río Bravo y la presa Marte R. Gómez de 2.406 millones de m³.",
+    "aboutTitle": "Río Bravo y la presa Marte R. Gómez en Miguel Alemán",
+    "about": "El municipio de Miguel Alemán es uno de los cuarenta y tres municipios de Tamaulipas y se encuentra ubicado en el noroeste del estado, en la frontera con Texas, Estados Unidos. Su cabecera municipal, la ciudad homónima, está situada a 26°23′30″ de latitud norte y 99°3′39″ de longitud oeste, a una altitud de 92 metros sobre el nivel del mar. El municipio abarca una extensión territorial de 660.49 kilómetros cuadrados, lo que representa el 0.62 % del total estatal.\n\nLa superficie del municipio es plana, con una suave pendiente de oeste a este que permite desalojar las corrientes superficiales que se presentan en la época de lluvias. El Río Bravo constituye su principal recurso hidrológico, cruzando el municipio de oeste a este en la parte norte del territorio, mientras que la presa Marte R. Gómez posee una capacidad de almacenamiento de 2.406 millones de metros cúbicos. Mediante el programa Abuelito Consentido se entrega un apoyo económico trimestral para ayudar a cubrir las necesidades básicas de las personas adultas mayores del municipio. Durante las fiestas patrias se registró un saldo blanco."
+  },
+  {
+    "slug": "jayanca",
+    "name": "Jayanca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jayanca, distrito del norte peruano, forma parte de los doce que integran la provincia de Lambayeque y pertenece a la Diócesis de Chiclayo.",
+    "aboutTitle": "Historia preinca y leyenda de los fundadores de Jayanca",
+    "about": "Jayanca es un distrito del norte del Perú, ubicado en el departamento de Lambayeque y forma parte de la provincia homónima. Según la información oficial, el distrito de Jayanca es uno de los doce que conforman la provincia de Lambayeque y, en el plano eclesiástico, depende de la Diócesis de Chiclayo.\n\nEl origen de Jayanca se pierde en el tiempo; la crónica recogida por Enrique Brünning a partir del relato de Miguel Cabello de Balboa menciona al mítico fundador mochica Ñaimlap, cuyo sastre Llapchillully lideró un ejército hasta el valle que hoy lleva el nombre de Jayanca. Investigaciones señalan una presencia preinca, atribuyendo los primeros habitantes a la cultura Chavín de Huántar, que establecieron los primeros asentamientos rurales en los fértiles valles de Jayanca, Salas y Motupe. El nombre primitivo Sarayoq, palabra yunga que significa “gran productor” o “despensa de cereales”, refleja la tradición agrícola del territorio. En el siglo XVII el topónimo apareció como Iaianca en el manuscrito Arte de la lengua yunga (1644) de Fernando de la Carrera Daza, y el cronista Inca Garcilaso de la Vega alude a la forma Sayanca como futuro absoluto de la región."
+  },
+  {
+    "slug": "majagua",
+    "name": "Majagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Ciego de Ávila",
+    "regionSlug": "provincia-de-ciego-de-avila",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciego-de-avila",
+      "sancti-spiritus",
+      "santa-clara-cuba",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Majagua, municipio del suroeste de la provincia de Ciego de Ávila, Cuba, con una superficie de 541,5 km², limita al norte con Florencia y Ciro Redondo.",
+    "aboutTitle": "Majagua, un municipio de sabanas tropicales",
+    "about": "Majagua es un municipio de la zona central de Cuba, fundado en 1906. Se localiza en el suroeste de la provincia de Ciego de Ávila y limita con los municipios de Florencia y Ciro Redondo al norte, La Sierpe al sur, Ciego de Ávila y Venezuela al este, y Jatibonico al oeste. Su ubicación al oeste de la Trocha y su condición de región fronteriza entre las antiguas provincias de Camagüey y Las Villas han influido en la cultura del territorio, que se caracteriza por asentamientos de isleños dedicados al cultivo de frutos menores, tabaco y ganadería. El clima de Majagua es de sabanas tropicales, con vientos estacionales y calmos, y una temperatura media anual entre 25 °C y 26 °C. La proximidad a la Trocha dejó huellas en la disposición de los poblados y en algunos rasgos arquitectónicos. Las tradiciones isleñas se reflejan en la vida cotidiana y en la gastronomía local. Los vientos estacionales aportan la humedad necesaria para los cultivos, manteniendo la productividad agrícola durante todo el año."
+  },
+  {
+    "slug": "izamal",
+    "name": "Izamal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Izamal, municipio yucateco, se ubica entre Chichén Itzá a 75 km y Mérida a 65 km, famoso por sus vestigios arqueológicos y coloniales.",
+    "aboutTitle": "Izamal: la puerta arqueológica entre Chichén Itzá y Mérida",
+    "about": "El municipio de Izamal, cuyo nombre maya Itzmal significa “rocío del cielo”, se encuentra en la zona central‑norte de la península de Yucatán y su cabecera es la ciudad homónima. Está situado entre Chichén Itzá (75 km) y Mérida (65 km), dos importantes polos turísticos, y está unido a ambos por excelentes carreteras. Tradicionalmente la economía se basó en la agricultura de henequén, la agroindustria henequenera y la ganadería, complementada con la elaboración de artesanías y la confección de ropa. En los últimos años la actividad turística ha crecido, impulsada por los vestigios arqueológicos y los monumentos coloniales de la cabecera. En la época del México independiente, alrededor de 1840, Izamal formó uno de los cinco departamentos de Yucatán, junto a Mérida, Tekax, Valladolid y Campeche. Limita al norte con Tekal de Venegas, Tepakán y Tekantó; al sur con Xocchel, Kantunil y Sudzal; al oriente con Tunkás; y al poniente con Hoctún. El censo de 2020 registró 31 localidades dentro del municipio."
+  },
+  {
+    "slug": "paute",
+    "name": "Paute",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Azuay",
+    "regionSlug": "azuay",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuenca",
+      "milagro",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paute, única parroquia urbana del cantón en Azuay, Ecuador, alberga 9.850 habitantes según el censo 2010 y ocupa 49,79 km².",
+    "aboutTitle": "Paute, la parroquia urbana del cantón en Azuay",
+    "about": "Paute es un pequeño pueblo situado en la provincia de Azuay, al sur de Ecuador, y constituye la única parroquia urbana del cantón que lleva su mismo nombre. Como sede del gobierno cantonal, la localidad concentra la administración del territorio y sirve de referencia para los municipios vecinos. La parroquia cubre una superficie de 49,79 km². Según el censo de 2010, la población total era de 9.850 habitantes, de los que 7.226 residían en la zona urbana de Paute. Estos datos reflejan la dimensión reducida pero significativa de la comunidad, que combina funciones administrativas con la vida cotidiana de sus residentes. Su posición como único núcleo urbano del cantón la convierte en el principal punto de concentración de servicios públicos, educación y comercio local. La delimitación territorial de 49,79 km² incluye tanto la zona urbana como áreas rurales circundantes, lo que permite una gestión integrada del territorio. A pesar de su población reducida, Paute mantiene una identidad propia dentro de Azuay, y su historia como sede cantonal se remonta a la organización administrativa del territorio."
+  },
+  {
+    "slug": "morales-colombia",
+    "name": "Morales",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 207,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santander-de-quilichao",
+      "popayan",
+      "jamundi",
+      "puerto-tejada",
+      "miranda",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Morales, municipio del Cauca a 41 km de Popayán, fue fundado el 7 de octubre de 1806 y su economía se basa en la agricultura.",
+    "aboutTitle": "Morales, su origen agrícola y su fundación del siglo XIX",
+    "about": "Morales es un municipio del Cauca ubicado a 41 km de Popayán. Su economía se sustenta principalmente en la agricultura, lo que le confiere una marcada identidad rural. El municipio fue fundado el 7 de octubre de 1806 por Luis Jerónimo Morales y Juan Manuel Morales. El 27 de septiembre de 1806, un grupo de beneméritos liderados por Juan Manuel Morales de Figueroa, Juan de Rivera Torrea, Manuel María Charria, Carlos de Velasco y Joaquín Bautista adquirieron los terrenos que se convertirían en la viceparroquia de San Antonio de Padua del Ático, pagando sesenta pesos al señor Juan Antonio Torres. El contrato de compraventa indica que el pago se realizó en plata corriente y que la tierra quedó destinada al beneficio y culto del Santo Patrón. El distrito se formalizó mediante el Decreto Ordenanza n.º 121 de 7 de octubre de 1852, emitido por la Cámara de Provincia de Popayán, consolidando la entidad administrativa que hoy conocemos como Morales."
+  },
+  {
+    "slug": "taisha",
+    "name": "Taisha",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Morona Santiago",
+    "regionSlug": "morona-santiago",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Taisha, ciudad situada en la región amazónica de Morona Santiago, es la cabecera cantonal del cantón homónimo y se ubica cerca de la frontera peruana.",
+    "aboutTitle": "Taisha, cabecera cantonal en la Amazonía ecuatoriana",
+    "about": "Taisha es una ciudad ecuatoriana situada en la región amazónica del país. Se ubica en el suroriente de Ecuador, dentro de la provincia de Morona Santiago. La localidad constituye la cabecera cantonal del cantón Taisha, desempeñando la función administrativa principal para la zona. Su posición geográfica la coloca en plena Amazonía ecuatoriana, a escasa distancia de la frontera con Perú. Esta cercanía al límite internacional la sitúa en una zona estratégica del territorio nacional. Como centro de referencia del cantón, Taisha concentra los servicios municipales y representa el núcleo urbano de la población circundante. La ciudad forma parte del territorio amazónico ecuatoriano, compartiendo las características propias de la región. Su ubicación permite el acceso a los recursos y a la red de comunicaciones que conectan a las comunidades de la zona suroriental del país. El cantón Taisha, del cual es la cabecera, forma parte de la provincia de Morona Santiago."
+  },
+  {
+    "slug": "patuca",
+    "name": "Patuca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Olancho",
+    "regionSlug": "departamento-de-olancho",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "juticalpa",
+      "danli",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Patuca es un municipio del departamento de Olancho en Honduras, con una superficie de 635.10 km²; su nombre proviene del Río Patuca.",
+    "aboutTitle": "Patuca: origen del nombre y fundación como municipio",
+    "about": "Patuca es un municipio del departamento de Olancho, en la República de Honduras, que lleva el nombre del cercano Río Patuca, cuya denominación en lengua nativa significa “Lugar del juego de azar”. La cabecera municipal lleva el nombre de Froylán Turcios, poeta y periodista olanchano nacido en 1874, y el asentamiento también es llamado popularmente Nueva Palestina por los primeros pobladores cristianos que compararon la fertilidad de la zona con la Tierra Prometida. Patuca es el municipio de más reciente creación en Olancho.\n\nEl 29 de mayo de 1992, durante el gobierno del presidente Rafael Leonardo Callejas, Patuca fue elevado a municipio gracias al impulso de su fundador Joaquín Rosales Barralaga. En la década de 1960 Rosales, oriundo de San Francisco de la Paz, se dedicaba al cultivo de café y a la ganadería, y describió el territorio como habitado por zambos y la tribu Mosquitia, sin carreteras y con caminos de herradura que requerían diez días o más para llegar a Juticalpa. Motivado por la creencia de que el Río Patuca contenía oro, organizó una expedición invitando a su primo Julio Zúñiga, aunque el viaje fracasó en su primer intento."
+  },
+  {
+    "slug": "nuevo-imperial",
+    "name": "Nuevo Imperial",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 168,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chincha-alta",
+      "pisco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Nuevo Imperial, capital del distrito homónimo en la provincia de Cañete del departamento de Lima, ubicado en la costa central del Perú.",
+    "aboutTitle": "Nuevo Imperial en la provincia de Cañete",
+    "about": "Nuevo Imperial es una ciudad menor peruana ubicada en la costa central del Perú. Es la capital del distrito homónimo perteneciente a la provincia de Cañete del departamento de Lima. La provincia de Cañete se encuentra en la región de Lima y limita con otras provincias y distritos, pero no se dispone de información específica sobre las localidades vecinas de Nuevo Imperial. La ciudad se encuentra en una zona geográfica caracterizada por su costa y su ubicación en el departamento de Lima, pero no se dispone de información adicional sobre su historia o rasgos geográficos destacados. La población de la ciudad no se especifica en el material proporcionado, por lo que no se puede proporcionar información detallada sobre su tamaño o características demográficas. En general, la información disponible sobre Nuevo Imperial es limitada y no permite una descripción más detallada de la ciudad."
+  },
+  {
+    "slug": "buesaco",
+    "name": "Buesaco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pasto",
+      "florencia-colombia",
+      "tuquerres",
+      "mocoa",
+      "villagarzon",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Buesaco, municipio de Nariño, está a 40 km al norte de Pasto. Su nombre proviene de los buisacos, etnia que habitó la zona antes de la llegada de los españoles.",
+    "aboutTitle": "Buesaco, un municipio en la ruta de la independencia",
+    "about": "Buesaco es un municipio colombiano ubicado en el departamento de Nariño, a 40 km al norte de la ciudad de Pasto. Su nombre se debe a los buisacos, etnia que formaba parte de los quillacingas, quienes habitaron el territorio a la llegada de los conquistadores españoles. El municipio limita con varios municipios y departamentos, incluyendo San Lorenzo, Arboleda, Albán y El Tablón al norte, y Pasto y el departamento de Putumayo al sur. La historia de Buesaco es rica y compleja, con varias fechas mencionadas como posibles fechas de fundación, incluyendo 1618, 1677 y 1761. Sin embargo, se coincide en que los fundadores fueron Martín García Casanzola y Bartolomé García. En el cañón del río Juanambú, al norte del municipio, se libró la batalla de Juanambú en 1814, en la que el General Antonio Nariño venció al general realista Melchor Aymerich durante su Campaña del Sur. El municipio se sitúa en la zona norte del departamento y conserva vestigios de su historia colonial."
+  },
+  {
+    "slug": "san-jose-la-maquina",
+    "name": "San José La Máquina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 181,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Suchitepéquez",
+    "regionSlug": "departamento-de-suchitepequez",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "quetzaltenango",
+      "solola",
+      "san-marcos-guatemala",
+      "escuintla",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San José La Máquina, municipio número 338 de Guatemala, se fundó el 12 de febrero de 2014 tras separarse del municipio de Cuyotenango.",
+    "aboutTitle": "San José La Máquina, municipio 338 fundado en 2014",
+    "about": "San José La Máquina es un municipio del departamento de Suchitepéquez, ubicado en la República de Guatemala. Como unidad administrativa forma parte de la organización territorial del país y está reconocido oficialmente como entidad local. En el registro nacional aparece con el número 338, lo que lo identifica dentro del sistema de municipios guatemaltecos. El municipio se constituyó de manera formal el 12 de febrero de 2014, fecha en la que se llevó a cabo su segregación del municipio de Cuyotenango. A partir de ese momento adquirió la condición de demarcación independiente y empezó a gestionar sus asuntos municipales con autonomía. La creación de San José La Máquina supuso la puesta en marcha de una administración propia, con competencias locales y responsabilidad directa sobre los servicios que corresponde atender en su territorio. Desde su fundación, el municipio ha mantenido su estatus como entidad administrativa dentro de Suchitepéquez, respetando los marcos legales que regulan la organización territorial de Guatemala."
+  },
+  {
+    "slug": "calvas",
+    "name": "Calvas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Loja",
+    "regionSlug": "loja",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "loja",
+      "duran",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Calvas es un cantón de la provincia de Loja, Ecuador, su nombre proviene del río Calvas, que sirve de frontera con Perú.",
+    "aboutTitle": "Río Calvas, frontera natural con Perú en el cantón de Loja",
+    "about": "Calvas es un cantón situado en la provincia de Loja, en el sur de Ecuador. Como entidad territorial subnacional, forma parte de la organización político‑administrativa del país y está ubicado en una zona fronteriza. El nombre del cantón proviene del río Calvas, el mismo cauce que sirve de frontera con Perú. Esta coincidencia entre el nombre del cantón y el del río constituye el origen etimológico de la demarcación. Dentro de la provincia de Loja, Calvas depende administrativamente del gobierno provincial y se integra en el sistema de cantones que constituye la división interna del Ecuador. La presencia del río como límite con el vecino suramericano ha influido históricamente en la delimitación territorial y en la relación bilateral. El cantón mantiene su carácter fronterizo y su identidad vinculada al cauce fluvial que le dio nombre. Esta posición geográfica le confiere una importancia estratégica en la demarcación de la frontera sur del país. La coincidencia entre el nombre del cantón y el del río refuerza la identidad local y la referencia cartográfica de la zona."
+  },
+  {
+    "slug": "yungay-departamento-de-ancash",
+    "name": "Yungay",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 162,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Áncash",
+    "regionSlug": "departamento-de-ancash",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huaraz",
+      "chimbote",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yungay, de Áncash fundado el 4 de agosto de 1540, celebra el Señor de Mayo y la Virgen de la Merced; su capital es la ciudad conocida como Yungay Hermosura.",
+    "aboutTitle": "Fundación de Yungay y sus fiestas tradicionales en Áncash",
+    "about": "Yungay es uno de los ocho distritos que integran la Provincia de Yungay, en el Departamento de Áncash, bajo la administración del Gobierno Regional de Áncash, Perú. La capital del distrito es la ciudad de Yungay, conocida como Yungay Hermosura, fundada el 4 de agosto de 1540. El distrito se constituyó oficialmente mediante Ley del 28 de octubre de 1904, durante el gobierno del presidente José Pardo y Barreda. El patrono del distrito es Santo Domingo de Guzmán y las fiestas más celebradas son el Señor de Mayo y la Virgen de la Merced, que se realizan anualmente. En el periodo 2023‑2026 la municipalidad está encabezada por el alcalde José Ántonio Romero Jara, quien cuenta con los regidores Gilbert Eologio Vargas Huerta, Yaneth Fátima Figueroa Montañez, Bartolomé Román Mallqui Rosales, Lys Yanett Dionisio Arteaga, Santos Román Calvo Florentino, Porfidia Soledad Bailón Huerta, Pilar Fabiola De La Cruz Moreno, Walter Emilio Lino Huerta y Nora Erminia Zelaya Andagua."
+  },
+  {
+    "slug": "san-sebastian-coatan",
+    "name": "San Sebastián Coatán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 225,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Huehuetenango",
+    "regionSlug": "departamento-de-huehuetenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "solola",
+      "tapachula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de San Sebastián Coatán, municipio del departamento de Huehuetenango, a 107 km de la cabecera departamental y 377 km de la capital de Guatemala.",
+    "aboutTitle": "San Sebastián Coatán en Huehuetenango",
+    "about": "San Sebastián Coatán es un municipio del departamento de Huehuetenango en la región noroccidente de Guatemala. Se encuentra a una distancia de 107 km de la cabecera departamental Huehuetenango y a 377 km de la ciudad capital Guatemala.\n\nEn cuanto a sus límites, el municipio de San Sebastián Coatán se encuentra rodeado por otros municipios del departamento de Huehuetenango, como San Mateo Ixtatán y Nentón al norte, San Rafael La Independencia y Santa Eulalia al este, San Miguel Acatán y Nentón al oeste, y San Miguel Acatán y San Rafael La Independencia al sur. Esta configuración geográfica sitúa a San Sebastián Coatán entre varios municipios vecinos."
+  },
+  {
+    "slug": "puerto-escondido-mexico",
+    "name": "Puerto Escondido",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 162,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Escondido, la ciudad más poblada de la costa oaxaqueña, destaca por su clima cálido subhúmedo y una temperatura media anual de 27 °C.",
+    "aboutTitle": "Puerto Escondido: puerto histórico y destino turístico",
+    "about": "Puerto Escondido es una ciudad y puerto mexicano perteneciente al estado de Oaxaca, situada a unos 800 km al sureste de la Ciudad de México y a 290 km de Oaxaca de Juárez, entre Acapulco y Huatulco, en la Región Costa. Con clima cálido subhúmedo y una temperatura media anual de 27 °C, la localidad se ha convertido en la ciudad más poblada de la costa oaxaqueña y uno de los principales destinos turísticos del estado.\n\nEl nombre original de la bahía era “Bahía de la Mujer Oculta” y después “Bahía de la Escondida”, según la leyenda del pirata Andrew Drake, supuesto hermano de Francis Drake, que ancló allí y buscó a una joven mixteca llamada “La Escondida”. A principios del siglo XX la población, entonces conocida como Punta Escondida, era un pequeño pueblo de pescadores cuyo puerto servía para la exportación de café, y la localidad sufría una grave falta de agua potable."
+  },
+  {
+    "slug": "santa-lucia-la-reforma",
+    "name": "Santa Lucía La Reforma",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 198,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Totonicapán",
+    "regionSlug": "departamento-de-totonicapan",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "solola",
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Lucía La Reforma, municipio de Totonicapán, celebra su fiesta titular el 13 de diciembre en honor a Santa Lucía mártir.",
+    "aboutTitle": "Fiesta titular de Santa Lucía el 13 de diciembre",
+    "about": "Santa Lucía La Reforma es un municipio del departamento de Totonicapán, en la región sur‑occidente de Guatemala. Tiene una superficie de 136 km² y se sitúa a 45 km al norte de la cabecera departamental de Totonicapán. Limita al norte con San Pedro Jocopilas (Quiché) y Malacatancito (Huehuetenango), al sur con Santa María Chiquimula y Momostenango, al este con San Antonio Ilotenango y San Pedro Jocopilas, y al oeste con San Bartolo y Momostenango. Originariamente una aldea del municipio de Santa María Chiquimula, fue elevado a municipio el 12 de octubre de 1904 por el gobierno del licenciado Manuel Estrada Cabrera. El municipio se divide en siete aldeas y doce caseríos. Celebra dos fiestas religiosas: la fiesta titular en honor a Santa Lucía mártir el 13 de diciembre y la del Cristo Negro de Esquipulas el 21 de enero. Los municipios están regulados por diversas leyes de la República, con la normativa principal vigente desde 1985. El gobierno municipal está a cargo de un Concejo Municipal."
+  },
+  {
+    "slug": "yolombo",
+    "name": "Yolombó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Antioquia",
+    "regionSlug": "antioquia",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "amalfi",
+      "barbosa",
+      "santa-rosa-de-osos",
+      "girardota",
+      "marinilla",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yolombó, municipio antioqueño a 108 km de Medellín, destaca por su producción de caña de azúcar y café, y por la novela costumbrista \"La Marquesa de Yolombó\".",
+    "aboutTitle": "Caña de azúcar, café y la novela \"La Marquesa de Yolombó\" en Antioquia",
+    "about": "Yolombó es un municipio de la subregión nordeste del departamento de Antioquia, ubicado a 108 kilómetros de la ciudad de Medellín y a 1.450 metros sobre el nivel del mar. Con una extensión de 941 km², limita al norte con Yalí y Amalfi, al occidente con Gómez Plata y Santa Rosa de Osos, al sur con Santo Domingo, Cisneros, San Roque y Maceo, y al oriente con Puerto Berrío y Remedios. El cerro Cancharazo, de 1.800 metros de altura, es el punto más alto de la zona, y su clima templado‑cálido favorece la actividad al aire libre de sus habitantes.\n\nLa economía de Yolombó se basa principalmente en la caña de azúcar y el café, cultivos que aprovechan la fertilidad del suelo y la altitud. El municipio es conocido también por su vínculo literario y musical: la novela costumbrista de Tomás Carrasquilla titulada \"La Marquesa de Yolombó\" y la canción “De Yolombó” de Los Cantores de Chipuco. Además, bajo su jurisdicción se encuentran los corregimientos El Rubí, La Floresta y Villa Nueva, que forman parte de su organización política‑administrativa."
+  },
+  {
+    "slug": "alfredo-baquerizo-moreno",
+    "name": "Alfredo Baquerizo Moreno",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 227,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "babahoyo",
+      "milagro",
+      "guayaquil",
+      "daule",
+      "quevedo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Alfredo Baquerizo Moreno, cantón guayerense a 60 km de Guayaquil, cuenta con 218 km² de territorio y ríos como el Jujan que alimentan su agricultura.",
+    "aboutTitle": "Ríos Amarillo, Jujan y la agricultura de Alfredo Baquerizo Moreno",
+    "about": "El cantón Alfredo Baquerizo Moreno es una entidad subnacional de la provincia del Guayas, en Ecuador. Con una extensión de 218 km² y una población aproximada de 25 179 habitantes, lleva el nombre del presidente guayaquileño Alfredo Baquerizo, quien gobernó el país entre 1916 y 1920. Su cabecera cantonal es la localidad de Alfredo Baquerizo Moreno, conocida también como Jujan, y se sitúa a 60 km de la ciudad capital provincial, Guayaquil. El territorio está asentado a 9 metros sobre el nivel del mar y la temperatura oscila entre 24 °C y 25 °C.\n\nLos ríos Amarillo, Jujan y Chilintomo forman una red hidrográfica que riega las campiñas del cantón, favoreciendo la producción de arroz, café, cacao, banano y diversas frutas tropicales. Entre los sectores más importantes se encuentra el recinto Tres Postes, que destaca dentro del ámbito local. La actividad agrícola constituye la base económica de la zona, aprovechando tanto la fertilidad del suelo como el clima templado. El cantón forma parte de la región noroeste del Guayas y mantiene vínculos estrechos con los cantones limítrofes."
+  },
+  {
+    "slug": "cabrera",
+    "name": "Cabrera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "María Trinidad Sánchez",
+    "regionSlug": "maria-trinidad-sanchez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "moca",
+      "la-vega",
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cabrera es un municipio dominicano de María Trinidad Sánchez, con atractivos naturales como la playa El Diamante y el Parque Nacional Cabo Francés Viejo.",
+    "aboutTitle": "Cabrera y su costa nordeste",
+    "about": "Cabrera es un municipio de la República Dominicana, situado en la provincia de María Trinidad Sánchez. Debe su nombre al héroe de la restauración de la república José Cabrera Gómez, quien falleció en 1884. El municipio se encuentra en la costa nordeste del país, a tres horas y media de Santo Domingo, la capital nacional. La ubicación de Cabrera es estratégica en el nordeste dominicano, a tan solo 115 kilómetros del Banco de la Plata. Ese banco marino, junto al Banco de la Navidad y la Bahía de Samaná, forman el Área Protegida o Santuario marino de protección de las ballenas Yubartas o Jorobadas. La superficie total del santuario alcanza 19,438 millas cuadradas, lo que lo convierte en el área protegida más extensa del país. Estos datos subrayan la importancia ecológica de la zona y su vínculo con la actividad pesquera y turística de la región. Cabrera continúa desarrollándose como comunidad costera."
+  },
+  {
+    "slug": "vista-hermosa-colombia",
+    "name": "Vista Hermosa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Departamento del Meta",
+    "regionSlug": "departamento-del-meta",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "granada-meta",
+      "san-martin",
+      "acacias",
+      "villavicencio",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Vista Hermosa es un municipio colombiano del sur del Meta, fundado el 13 de abril de 1964 y ubicado a 145 km de Villavicencio.",
+    "aboutTitle": "Vista Hermosa, un municipio en el sur del Meta",
+    "about": "Vista Hermosa es un municipio colombiano situado en el sur del departamento del Meta, a 145 km de Villavicencio, la capital departamental. Fue fundado el 13 de abril de 1964 por los colonos inmigrantes Ramón Elías Arroyave, Pedro Enrique Angulo, Ernesto Oliveros y Cristóbal Loaiza. La colonización de las Sabanas de San Juan de Arama, donde se incluye el territorio que hoy se conoce como Vista Hermosa, se inicia en la conquista, en 1537, con la llegada de Don Nicolás de Federman a las sabanas donde hoy se encuentra el municipio de San Juan de Arama. La región ha tenido varios nombres a lo largo de la historia, como “Nuestra Señora de la Fragua”, “San Juan de los Llanos” y “Concepción de Arama”. En junio de 1845, por Decreto de la Provincia de Bogotá, se le cambió el nombre a “San Juan de Arama”. Vista Hermosa es un municipio del Meta."
+  },
+  {
+    "slug": "atenas",
+    "name": "Atenas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "puntarenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Atenas, cantón 5 de Alajuela en el Valle Central de Costa Rica, fue catalogada por National Geographic como la ciudad con el mejor clima del mundo.",
+    "aboutTitle": "Río Grande y la tradición de los boyeros en Atenas",
+    "about": "Atenas es el cantón número 5 de la provincia de Alajuela, Costa Rica, situado en el occidente del Valle Central. La cabecera del cantón lleva el mismo nombre, Atenas, y la unidad territorial se divide en ocho distritos, de los cuales cinco forman parte de la Gran Área Metropolitana. El territorio que hoy ocupa Atenas fue conocido originalmente como Sabana Larga y funcionó como sesteo para los boyeros que transportaban el grano de oro del café hacia el puerto de Puntarenas. En 1960 la revista National Geographic lo describió como “La ciudad con el mejor clima del Mundo”, reconocimiento que ha perdurado en la percepción nacional. El nombre del cantón proviene de la capital griega, Atenas, y su historia precolombina está marcada por la presencia de los huetares, quienes habitaban ranchos cónicos cerca de los ríos Grande, Cacao y Cajón. Durante la conquista, el área estuvo bajo el dominio del rey Garabito y, en 1561, el capitán Antonio Álvarez Pereyra exploró la región alrededor del Río Grande y las faldas del Monte del Aguacate."
+  },
+  {
+    "slug": "arriaga",
+    "name": "Arriaga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "durango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Arriaga, ciudad chiapaneca conocida como la Ciudad de los Vientos, destaca por su activo comercio y el Parque Eólico Arriaga que aprovecha sus fuertes vientos.",
+    "aboutTitle": "Parque Eólico y la Ciudad de los Vientos de Arriaga",
+    "about": "Arriaga es una ciudad al suroeste del estado de Chiapas, México, conocida por su activo comercio y por los fuertes vientos que le valieron el apodo de «Ciudad de los Vientos». En el municipio funciona el Parque Eólico Arriaga, instalado para aprovechar esa corriente constante. Los habitantes, a los que coloquialmente se les llama «come tierra», viven rodeados de polvo suspendido durante los meses de enero y febrero, fenómeno que refleja el origen de su nombre náhuatl.\n\nEl topónimo original de la localidad es Jalisco, derivado del náhuatl Xallixco, que combina las raíces xalli ‘arena’, ixtli ‘cara o superficie’ y -co ‘lugar’, y se traduce como «lugar arenoso» o «frente al arenado». El nombre actual rinde homenaje al jurisconsulto mexicano Ponciano Arriaga, según el decreto del gobernador interino José Inés Cano que elevó la villa a municipio. Durante la conquista española existió un campamento llamado “La Gironda”, que dio origen a la primera congregación familiar en el valle. En 1904 la línea del Ferrocarril Panamericano llegó a la zona, marcando un impulso decisivo para el comercio regional."
+  },
+  {
+    "slug": "piribebuy",
+    "name": "Piribebuy",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Cordillera",
+    "regionSlug": "departamento-de-cordillera",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "capiata",
+      "san-lorenzo-paraguay",
+      "fernando-de-la-mora",
+      "luque",
+      "lambare",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Piribebuy, ciudad histórica del Departamento de Cordillera, está a 73 km de Asunción y se ubica en la ruta Rogelio R. Benítez que conecta la PY02 y la PY01.",
+    "aboutTitle": "Ruta Rogelio R. Benítez y su enlace entre PY02 y PY01",
+    "about": "Piribebuy es una ciudad histórica situada en el Departamento de Cordillera, a 73 kilómetros de la capital, Asunción. Se encuentra estratégicamente ubicada sobre la ruta Rogelio R. Benítez, una vía que enlaza la Ruta PY02, en su kilómetro 63, con la Ruta PY01, en su kilómetro 64. Esta carretera, que lleva el nombre del militar y político paraguayo Rogelio R. Benítez, atraviesa la zona y constituye el principal corredor de acceso a la localidad. La posición de Piribebuy dentro del departamento la sitúa entre otras poblaciones de la región, aunque el texto original no menciona nombres específicos de localidades vecinas. Como núcleo urbano con relevancia histórica, la ciudad conserva su carácter tradicional y su ubicación a pocos minutos de la ruta principal facilita la conexión con el resto del país. La distancia de 73 km a Asunción la coloca dentro del radio de influencia de la capital, manteniendo a la vez una identidad propia dentro de la Cordillera."
+  },
+  {
+    "slug": "guamal",
+    "name": "Guamal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Magdalena",
+    "regionSlug": "magdalena",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-banco",
+      "chimichagua",
+      "magangue",
+      "pailitas",
+      "chiriguana",
+      "magdalena",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Guamal, municipio localizado en la margen oriental del río Magdalena, con una extensión de 554 km² y una temperatura promedio de 37 °C.",
+    "aboutTitle": "Guamal, municipio en la margen oriental del río Magdalena",
+    "about": "Guamal es un municipio localizado en la margen oriental del brazo de Mompós, del río Magdalena, en la subregión sur del departamento del Magdalena, Colombia. Se encuentra a 330 kilómetros de Santa Marta. Su territorio es plano, aunque rodeado en su zona oriental por la ciénaga de Chilloa.\n\nLa conexión principal del municipio, con el resto de la región, es la vía nacional 78, conocida como: Transversal de la Depresión Momposina, que lo comunica con poblaciones aledañas como El Banco y Mompox. Guamal cuenta con la Semana Santa de tradición religiosa que conmemora la pasión, muerte y resurrección de Jesucristo con actos y procesiones que se realizan desde la noche del Jueves Santo, Viernes de Dolores hasta el Sábado Santo, con la participación de más de mil nazarenos."
+  },
+  {
+    "slug": "choconta",
+    "name": "Chocontá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ubate",
+      "gachancipa",
+      "la-mesa",
+      "tocancipa",
+      "zipaquira",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chocontá, a 75 km de Bogotá, cuenta con 22 veredas y fue conocida como Ciudad Satélite por antenas instaladas entre 1970 y 1981.",
+    "aboutTitle": "Chocontá: Ciudad Satélite y productora de fresas en el altiplano",
+    "about": "Chocontá es un municipio del departamento de Cundinamarca, situado sobre el altiplano Cundiboyacense a 75 km al noreste de Bogotá y conectado por la Troncal Central del Norte (Ruta Nacional 55). La cabecera municipal se ubica a 2 689 m sobre el nivel del mar y presenta un clima templado con una temperatura media anual de 12 °C y abundantes lluvias durante todo el año. El territorio está dividido en 22 veredas.\n\nEl municipio es uno de los principales productores de fresas de Cundinamarca y de Colombia, y es conocido como la «Ciudad Satélite de Colombia» porque entre 1970 y 1981 se instalaron allí antenas satelitales que, hasta principios del siglo XXI, manejaron el 50 % de las telecomunicaciones del país. Entre sus atractivos turísticos destacan la Represa del Sisga, el cerro del Choque, los monolitos de Hatofiero y balnearios de aguas termales con propiedades medicinales. En la guerra civil de 1854, Chocontá sirvió como sede presidencial de la República de la Nueva Granada, cuando el general Tomás Herrera asumió la presidencia."
+  },
+  {
+    "slug": "unquillo",
+    "name": "Unquillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rio-ceballos",
+      "cordoba-argentina",
+      "malagueno",
+      "villa-carlos-paz-san-antonio-de-arredondo-villa-rio-icho-cruz",
+      "jesus-maria-colonia-caroya-sinsacate",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Unquillo, ciudad del Gran Córdoba, situada a 28 km de la ciudad de Córdoba, en el departamento Colón, provincia de Córdoba, Argentina, con 25.276 habitantes.",
+    "aboutTitle": "Unquillo, ciudad en las Sierras Chicas",
+    "about": "Unquillo es una ciudad del Gran Córdoba, en el departamento Colón, provincia de Córdoba, Argentina. Se encuentra ubicada en los faldeos orientales de las Sierras Chicas. La ciudad se desarrolla a la vera de arroyos que se nutren de numerosas vertientes serranas. En la zona céntrica los arroyos Cabana y Las Ensenadas confluyen originando el arroyo Unquillo, que atraviesa la ciudad. La ciudad de Unquillo se caracteriza por primaveras muy secas con balance hídrico negativo. Las precipitaciones, concentradas en el periodo estival, alcanzan un promedio anual de hasta 800 mm. Durante la época invernal se registran excepcionalmente nieve y granizo. El origen del nombre es incierto; se ha sugerido una combinación del quechua unco (sanguijuela) e illa (diminutivo español), que daría «sanguijuela pequeña». Otra hipótesis lo relaciona con el término prehispánico untillo, que designaba la paja de las ciénagas. Se ubica a unos 28 km de la ciudad de Córdoba. El clima presenta primaveras muy secas y precipitaciones concentradas en el verano, con un promedio anual de hasta 800 mm."
+  },
+  {
+    "slug": "sandona",
+    "name": "Sandoná",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pasto",
+      "tuquerres",
+      "buesaco",
+      "ipiales",
+      "tulcan",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sandoná, un municipio colombiano en el departamento de Nariño, con una rica historia y una ubicación estratégica a 48 kilómetros de San Juan de Pasto.",
+    "aboutTitle": "Historia y ubicación de Sandoná",
+    "about": "Sandoná es un municipio colombiano ubicado en el departamento de Nariño. Su cabecera municipal se sitúa sobre la meseta de Paltapamba, hoy meseta de Sandoná, a una altitud de 1848 metros sobre el nivel del mar, al pie de la cascada de Belén. En la época prehispánica, el territorio del actual municipio de Sandoná fue habitado por los indígenas quillasingas, cuya voz proviene del quechua killa ‘luna’ y singa ‘nariz’, literalmente, ‘nariz de luna’. Con el proceso de colonización, las tierras y los indígenas fueron entregados a los encomenderos, quienes se comprometían a enseñarles español y el adoctrinamiento. \n\nLa Orden de la Inmaculada Concepción poseía la antigua hacienda de Sandoná, que alcanzó una extensión de 114 kilómetros cuadrados. Sin embargo, en 1863, el Gobierno nacional expropió esta tierra al amparo de la Ley de Bienes de Manos Muertas de 1861. Posteriormente, el general Tomás Cipriano de Mosquera donó 49 hectáreas a los indígenas de Sandoná para fundar el poblado en el lugar llamado Los Llanos de Sandoná, hoy Sandoná."
+  },
+  {
+    "slug": "patacamaya",
+    "name": "Patacamaya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Bolivia",
+    "parentSlug": "bolivia",
+    "provincia": "Departamento de La Paz",
+    "regionSlug": "departamento-de-la-paz",
+    "channels": [
+      "bolivia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bolivia",
+      "la-paz",
+      "oruro",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Patacamaya, ciudad y municipio de Bolivia ubicado en la provincia de Aroma, departamento de La Paz, a 98 km de la capital y 131 km de Oruro.",
+    "aboutTitle": "Patacamaya, ciudad y municipio en la provincia de Aroma",
+    "about": "Patacamaya es una pequeña ciudad y municipio de Bolivia, ubicado en la provincia de Aroma del departamento de La Paz. Según el censo oficial de 2012, el municipio cuenta con una población total de 22.858 habitantes, de los cuales 11.249 residen en la cabecera urbana, lo que la convierte en la capital municipal más poblada de la provincia de Aroma. La ciudad se sitúa a una altitud promedio de 3.800 metros sobre el nivel del mar, característica de la zona altiplánica del país. Forma parte de la Ruta Nacional 1, una carretera de doble vía que atraviesa Patacamaya y conecta la capital La Paz con la ciudad de Oruro. Gracias a esta vía, la localidad está a 98 km de La Paz, sede de gobierno, y a 131 km de Oruro, importante centro minero. Estos datos reflejan la posición estratégica de Patacamaya dentro del corredor de transporte del altiplano boliviano y su desarrollo regional."
+  },
+  {
+    "slug": "san-jeronimo-departamento-de-apurimac",
+    "name": "San Jerónimo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Apurímac",
+    "regionSlug": "departamento-de-apurimac",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "abancay",
+      "ayacucho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Jerónimo, distrito de Andahuaylas fundado el 21 de junio de 1825, está a 2 km de la capital provincial, tiene unos 15.750 habitantes y 2.965 m de altitud.",
+    "aboutTitle": "San Jerónimo: distrito histórico de Andahuaylas a 2 km de la capital",
+    "about": "San Jerónimo es uno de los veinte distritos que integran la provincia de Andahuaylas, en el departamento de Apurímac, bajo la administración del Gobierno regional de Apurímac. El distrito se ubica a apenas 2 kilómetros de la capital provincial, Andahuaylas, y se asienta a 2.965 metros sobre el nivel del mar. Cuenta con una población aproximada de 15.750 habitantes.\n\nEl distrito fue creado el 21 de junio de 1825 por el libertador José de San Martín, aunque una investigación realizada en 2009 confirmó esa fecha como la oficial. En años anteriores los festejos de su aniversario coincidían con los del distrito de Talavera de la Reyna y la provincia de Andahuaylas. Algunos documentos señalan que la población pudo haber surgido entre 1533 y 1539 bajo la iniciativa de Francisco Pizarro y con la anuencia del Jefe Chanka Huasco, inicialmente como parroquia. El nombre del distrito honra a San Jerónimo, el mayor Doctor de la Iglesia, y forma parte de la diócesis de Abancay, que a su vez pertenece a la arquidiócesis del Cuzco."
+  },
+  {
+    "slug": "santa-maria-tonameca",
+    "name": "Santa María Tonameca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-escondido-mexico",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa María Tonameca, un pueblo en el estado de Oaxaca, México, conocido por sus comunidades en la playa de Mazunte, San Agustinillo y La Ventanilla.",
+    "aboutTitle": "Santa María Tonameca, un pueblo en la región La Costa",
+    "about": "Santa María Tonameca es un pueblo localizado al sur de México, en el estado de Oaxaca, a 268 km de la capital estatal, Oaxaca de Juárez. Forma parte del distrito de Pochutla, que se sitúa al este de la región conocida como La Costa. El municipio se extiende sobre una zona rural caracterizada por su relieve costero y por albergar tres comunidades playeras: Mazunte, San Agustinillo y La Ventanilla, muy citadas por su entorno natural.\n\nEn Mazunte se encuentra el Centro Nacional de la Tortuga, una instalación que combina un acuario con un centro de investigación dedicado al estudio y la protección de las tortugas marinas. El mismo complejo acoge también centros de conservación de mariposas e iguanas, que trabajan en la preservación de la biodiversidad local y en programas educativos. Estas instalaciones refuerzan la reputación del municipio como punto de referencia para la conservación de especies y el ecoturismo en la costa oaxaqueña."
+  },
+  {
+    "slug": "atuntaqui",
+    "name": "Atuntaqui",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 224,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Imbabura",
+    "regionSlug": "provincia-de-imbabura",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ibarra",
+      "ecuador",
+      "quito",
+      "tulcan",
+      "sangolqui",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Atuntaqui, cabecera cantonal del Cantón Antonio Ante, es una ciudad ecuatoriana conocida como 'Capital de la Moda' por su importante producción textil.",
+    "aboutTitle": "Atuntaqui, la 'Capital de la Moda'",
+    "about": "Atuntaqui, también conocida como Santa Marta de Atuntaqui, es una ciudad ecuatoriana que se localiza al norte de la Región interandina del Ecuador, en la hoya del río Chota, a una altitud de 2405 m s. n. m. y con un clima andino de 16 °C en promedio. Es uno de los principales núcleos urbanos de la provincia y uno de los más importantes centros administrativos, económicos, financieros y comerciales de Imbabura. Las actividades económicas principales de la ciudad son la industria textil, el comercio y la agricultura. En la madrugada del 16 de agosto de 1868, un terremoto devastó la ciudad y la provincia, quedando prácticamente destruida."
+  },
+  {
+    "slug": "puerto-quito",
+    "name": "Puerto Quito",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Pichincha",
+    "regionSlug": "pichincha",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santo-domingo-ecuador",
+      "ecuador",
+      "quito",
+      "esmeraldas",
+      "sangolqui",
+      "pichincha",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Quito, cantón del noroccidente de Pichincha, es el único de la provincia que no limita con el Distrito Metropolitano de Quito.",
+    "aboutTitle": "Puerto Quito: el cantón sin frontera con Quito",
+    "about": "Puerto Quito es un cantón ecuatoriano situado en el noroccidente de la provincia de Pichincha. Su cabecera cantonal lleva el mismo nombre y concentra gran parte de la población del cantón. El territorio cuenta con atractivos destinos turísticos que resaltan la riqueza natural de la zona. Una característica singular es que es el único cantón de Pichincha que no limita con el Distrito Metropolitano de Quito. Según la Constitución Política Nacional, la organización territorial del cantón se basa en una municipalidad. La Municipalidad de Puerto Quito está estructurada bajo la separación de poderes: el poder ejecutivo lo representa el alcalde, mientras que el poder legislativo lo conforman los miembros del concejo cantonal. El alcalde ejerce la máxima autoridad administrativa y política del cantón y preside el cabildo. Esta estructura garantiza la gestión local conforme a los principios constitucionales. Como entidad de gobierno seccional, la municipalidad se encarga de la administración del cantón y de la ejecución de políticas locales. Esta organización permite una coordinación entre el poder ejecutivo y el legislativo para atender las necesidades de la comunidad."
+  },
+  {
+    "slug": "ayaviri-departamento-de-puno",
+    "name": "Ayaviri",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Puno",
+    "regionSlug": "departamento-de-puno",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "juliaca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ayaviri, capital del distrito homónimo en Puno, cuenta con una población de 25.057 habitantes y su nombre proviene del quechua 'lazo del cadáver'.",
+    "aboutTitle": "Ayaviri: origen del nombre y legado preincaico",
+    "about": "Ayaviri es una ciudad peruana capital del distrito homónimo y de la provincia de Melgar, en el departamento de Puno. Según el censo de 2017, sus habitantes ascendían a 25.057. Fundada como San Francisco de Ayaviri, la denominación actual proviene del quechua aya wiri, que se traduce como “lazo del cadáver”. La localidad se sitúa en la zona altoandina del sur del país.\n\nLos estudios arqueológicos indican presencia humana en la zona desde hace aproximadamente diez mil años, según el dr. Walter Tapia y los análisis de Sergio Chávez y la Dra. Karen Mohr en el sitio Q'elloq'aq'a. En Ayaviri se han encontrado restos de las culturas Caluyo, Pucará, Tiwanaco y los reinos altiplánicos collas. Excavaciones no profesionales indican la presencia de pobladores de Maucallacta en Ñuñoa, Umachiri y Macari, y en la necrópolis de Tinajani de Ayaviri. Los vestigios de Chijnarapi, en Orurillo, comprenden una necrópolis, petroglifos, andenerías y trazos de una población antigua. Los trabajos de Jorge Calero y Mildred Fernández ofrecen un cuadro cronológico de la ocupación de las distintas culturas en la zona. Durante la época inca, el territorio fue sometido por Lloque Yupanqui después de una dura resistencia, como relatan los Comentarios Reales de Garcilaso de la Vega."
+  },
+  {
+    "slug": "alamos",
+    "name": "Álamos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-obregon",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Álamos, municipio sonorense de 24.976 habitantes y 6.426,22 km², fue fundado como municipio independiente en 1813 y hoy su PIB per cápita alcanza USD 6.800.",
+    "aboutTitle": "Álamos: patrimonio histórico y comunidad indígena en Sonora",
+    "about": "Álamos es un municipio situado en la zona sureste del estado de Sonora, México, y su cabecera es el pueblo mágico que lleva el mismo nombre. Con una población de 24.976 habitantes según el censo 2020 y una superficie de 6.426,22 km², es el sexto municipio más extenso del estado y cuenta con un PIB per cápita de USD 6.800 y un índice de desarrollo humano de 0.7560.\n\nEl territorio se pobló a finales del siglo XVII tras el descubrimiento de minas de plata, y en sus primeros años se conoció como Real de Los Frayles o Real de la Limpia Concepción de los Álamos. En 1687 el jesuita Francisco Eusebio Kino transitó por la zona, y en la década de 1720 se erigió la segunda iglesia bajo la iniciativa del padre Aragón, reemplazada a finales del siglo XVIII por la actual Parroquia de la Purísima Concepción, construida entre 1786 y 1821. Además, el municipio alberga comunidades indígenas guarijías y mayas, como Mesa Colorada, Guajaray y Bavícora, y localidades como San Bernardo y Los Tanques."
+  },
+  {
+    "slug": "jitotol",
+    "name": "Jitotol",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huimanguillo",
+      "villahermosa",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jitotol es un municipio de Chiapas, cuyo nombre en náhuatl significa 'lugar de la lengua hermosa', ubicado al norte del estado en la región VII De Los Bosques.",
+    "aboutTitle": "Entre los ríos Isidro Cuculhó, Del Rosario y Jitotol",
+    "about": "El municipio de Jitotol se sitúa al norte del estado mexicano de Chiapas. Abarca una superficie de 235,40 km², lo que representa el 10% del territorio de la región socioeconómica VII De Los Bosques. Geográficamente limita con municipios como Pueblo Nuevo Solistahuacán al norte, Bochil al sur, Rayón al noroeste, Pantepec al oeste y Simojovel y El Bosque al este. Su territorio está formado en un 95% por terrenos accidentados y se compone de suelos luvisol, nitosol y feozem, destinados principalmente al uso pecuario y forestal. La hidrografía local incluye los ríos Isidro Cuculhó, Del Rosario y Jitotol. El clima es templado subhúmedo con lluvias abundantes en verano que alcanzan una precipitación media de 1.800 milímetros al año. Entre sus recursos naturales destaca la vegetación de selva alta, con especies como caoba, cedro, ceiba y pino, además de una fauna que alberga armadillos, jabalíes, boas y zopilotes rey. Las tradiciones del municipio comprenden la fiesta de Carnaval y las celebraciones en honor a San Juan, la Santa Cruz y el día de Muertos. Como centros turísticos destacan las Cascadas de San Martín, Cabañas Siempre Verde y el Centro ecoturístico Na’Mut."
+  },
+  {
+    "slug": "ascension",
+    "name": "Ascensión",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-paso",
+      "ciudad-juarez",
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ascensión, municipio fronterizo de Chihuahua, cuenta con una extensión de 12.870,81 km² y registra la temperatura más fría de México, -29 °C.",
+    "aboutTitle": "Los ríos Casas Grandes y Santa María en Ascensión",
+    "about": "Ascensión es uno de los 67 municipios de Chihuahua, ubicado en la zona norte del estado y colindando directamente con la frontera de Estados Unidos, limitando con los condados de Luna, Doña Ana y Hidalgo en Nuevo México. Al sur limita con los municipios de Buenaventura y Nuevo Casas Grandes, al este con Juárez y al sureste con Ahumada. Con una superficie de 12.870,81 km², representa el 4,45 % del territorio estatal, lo que lo convierte en el cuarto municipio más extenso de Chihuahua y el decimoséptimo a nivel nacional.\n\nEl relieve es mayormente plano, formando parte del Desierto de Chihuahua y de los Médanos de Samalayuca, aunque se intercalan pequeñas serranías. La hidrografía se reparte entre la cuenca del río Casas Grandes en el oeste y la del río Santa María en el este, cuyas aguas sólo alcanzan las lagunas de Guzmán y Santa María en periodos de lluvias intensas. El clima es árido extremo, con temperaturas que oscilan entre 44 °C y los -29 °C, esta última registrada en Rancho los Lamentos y considerada la más fría de México."
+  },
+  {
+    "slug": "pinillos",
+    "name": "Pinillos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guamal",
+      "magangue",
+      "el-banco",
+      "san-marcos",
+      "chimichagua",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pinillos, municipio de Bolívar en la Isla de Santa Bárbara, se asienta a dos kilómetros de la desembocadura del Cauca en el Magdalena.",
+    "aboutTitle": "Pinillos y la desembocadura del Cauca en el río Magdalena",
+    "about": "Pinillos es un municipio colombiano del departamento de Bolívar, ubicado en la Isla de Santa Bárbara, en la zona conocida como La Mojana bolivarense. La cabecera municipal se sitúa sobre la margen derecha del río Magdalena, a dos kilómetros de la desembocadura del río Cauca. Limita al norte con Santa Cruz de Mompox y San Fernando, al sur con Tiquisio y Achí, al oriente con Altos del Rosario y Barranco de Loba, y al occidente con Magangué.\n\nEl nombre actual proviene de 1846, cuando el arzobispo Juan Fernández de Sotomayor y Picón recomendó cambiar “Las Playas de Pueblo Nuevo” por Pinillos, en honor al comerciante español Pedro Martínez de Pinillos. El clima es cálido tropical, con temperatura media de 32 °C, y gran parte del territorio está rodeado por ciénagas, lo que lo convierte en una llanura inundable. La economía se basa en la agricultura (yuca, plátano, maíz, arroz, cocos y mangos), la ganadería, que cuenta con 20 000 cabezas de ganado bovino, y la pesca. Durante el verano se accede a los corregimientos en motocicleta por jarillones ribereños; en la temporada de lluvias la comunicación depende de ríos, cañadas y ciénagas que recorren el territorio municipal."
+  },
+  {
+    "slug": "mauroa",
+    "name": "Mauroa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Falcón",
+    "regionSlug": "falcon",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cabimas",
+      "maracaibo",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mauroa, municipio del estado Falcón, con tres parroquias y capital en Mene de Mauroa, destaca por su historia petrolífera y agrícola desde el siglo XX.",
+    "aboutTitle": "Mauroa, un municipio con raíces petrolíferas y agrícolas",
+    "about": "Mauroa es uno de los veinticinco municipios que conforman el Estado Falcón, en Venezuela. La entidad está dividida en tres parroquias y su cabecera municipal es la localidad de Mene de Mauroa. Antes de la llegada de los europeos, el territorio estaba habitado por la tribu indígena Caquetía Narhuaca. En 1726 los colonizadores españoles fundaron la población de Casigua, que llegó a ser la más importante del sector occidental de la antigua región de Curiana, hoy parte del estado de Falcón. La capital, Mene de Mauroa, se estableció en 1918 coincidiendo con el inicio de intensas actividades mineras y de extracción petrolífera. La explotación estuvo a cargo de la compañía británica British Control Oil File Limited, que empleó a alrededor de tres mil trabajadores durante un periodo de tres años. Posteriormente, la crisis del sector petrolero obligó al municipio a reconvertir su economía, orientándola hacia la agricultura de regadío y la ganadería, actividades que siguen siendo fundamentales para la población local."
+  },
+  {
+    "slug": "hunucma",
+    "name": "Hunucmá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "izamal",
+      "hecelchakan",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hunucmá, cabecera del municipio del mismo nombre en el estado de Yucatán, cuenta con una población de 24.910 habitantes y un puerto principal en Sisal.",
+    "aboutTitle": "Hunucmá, cabecera del municipio en Yucatán",
+    "about": "Hunucmá es una población de México en el estado de Yucatán, situada en el norponiente de la península de Yucatán. El vocablo Hunucmá significa etimológicamente en lengua maya, 'agua de Ciénega'. Se desconocen los datos exactos sobre la fundación de la ciudad de Hunucmá, pero se sabe que antes de la conquista de Yucatán la región perteneció a la provincia de Ah Canul. En 1571, la villa fue ocupada y saqueada por piratas franceses que habían desembarcado en el puerto de Sisal.\n\nEl municipio de Hunucmá cuenta con un gobierno municipal que se rige por un plan municipal de desarrollo y una gaceta municipal que informa sobre las actividades y decisiones del ayuntamiento. El ayuntamiento también ofrece servicios públicos como seguridad pública, ecología, servicios públicos y desarrollo urbano."
+  },
+  {
+    "slug": "flores-costa-cuca",
+    "name": "Flores Costa Cuca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos-guatemala",
+      "mazatenango",
+      "quetzaltenango",
+      "san-jose-la-maquina",
+      "tapachula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Flores Costa Cuca, municipio de 24.888 habitantes en Quetzaltenango, se ubica a 540 m de altitud y a 60 km de la cabecera departamental.",
+    "aboutTitle": "Altitud, historia cafetalera y fiesta de Flores Costa Cuca",
+    "about": "Flores Costa Cuca es un municipio del departamento de Quetzaltenango, ubicado a 60 km de la ciudad de Quetzaltenango y a 216 km de la Ciudad de Guatemala. Con una altitud de 540 metros sobre el nivel del mar, su territorio abarca 63 km² y alberga a 24.888 habitantes según el censo de 2018. La población se reparte en un 61 % de adultos entre 15 y 64 años, un 22 % de niños y adolescentes de 5 a 14 años, un 10 % de menores de 5 años y un 7 % de adultos mayores. Étnicamente, el 96 % se identifica como no indígena y el 4 % como indígena.\n\nTras la independencia de Centroamérica, la zona se colonizó intensamente cuando la exportación de añil cayó y surgió la producción de grana, cultivo que predominó hasta la Reforma Liberal de 1871. Con la decadencia de la grana, el café se impuso como principal actividad agrícola, transformando la economía local. El territorio que hoy comprende Flores Costa Cuca formó parte del municipio de Morazán creado en 1881 y, al año siguiente, pasó a llamarse Franklin antes de obtener su autonomía municipal."
+  },
+  {
+    "slug": "aquila",
+    "name": "Aquila",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 156,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-cabos",
+      "armeria",
+      "colima",
+      "melchor-ocampo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aquila, municipio del suroeste de Michoacán, se sitúa a 200 m sobre el nivel del mar y cuenta con los ríos Aquila y Ostula que nutren su economía ganadera.",
+    "aboutTitle": "Ríos Aquila y Ostula y la Sierra Madre del Sur",
+    "about": "Aquila es un municipio del suroeste de Michoacán, situado a 200 metros sobre el nivel del mar y localizado entre las coordenadas 18°36′ N y 103°30′ O. Forma parte de los 113 municipios del estado y se encuentra a aproximadamente 271 km al suroeste de la capital, Morelia. El nombre Aquila proviene del náhuatl y significa ‘aplanadores’ o ‘bruñidores’.\\n\\nEn la época prehispánica la zona pertenecía al reino mexica; bajo la dominación española se instaló una alcaldía mayor para la recaudación de tributos. Tras la independencia pasó a ser tenencia del municipio de Coalcomán y en 1910 adquirió estatus de municipio con la localidad como cabecera. El territorio se integra en la Sierra Madre del Sur, donde destacan las sierras de Cachán, Maquilí y Parota, y cerros como Las Ratas, Mancira, El Orcón y El Orconcito. Sus recursos hídricos incluyen los ríos Aquila, Ostula, El Cuilalá, El Cachán y El Huahua. El clima es tropical con lluvias en verano, temperatura media anual de 27 °C y precipitación media de 604.8 mm. Las actividades económicas principales son la ganadería, la silvicultura y la agricultura."
   }
 ];

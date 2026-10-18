@@ -965,7 +965,57 @@
   "puerto-varas",
   "villa-tapia",
   "casillas",
-  "cruz-paredes"
+  "cruz-paredes",
+  "hecelchakan",
+  "quiroga",
+  "veroes",
+  "armeria",
+  "ramon-castilla",
+  "jujutla",
+  "huimanguillo",
+  "el-soberbio",
+  "rio-ceballos",
+  "miguel-aleman",
+  "jayanca",
+  "majagua",
+  "izamal",
+  "paute",
+  "morales-colombia",
+  "taisha",
+  "patuca",
+  "nuevo-imperial",
+  "buesaco",
+  "san-jose-la-maquina",
+  "calvas",
+  "yungay-departamento-de-ancash",
+  "san-sebastian-coatan",
+  "puerto-escondido-mexico",
+  "santa-lucia-la-reforma",
+  "yolombo",
+  "alfredo-baquerizo-moreno",
+  "cabrera",
+  "vista-hermosa-colombia",
+  "atenas",
+  "arriaga",
+  "piribebuy",
+  "guamal",
+  "choconta",
+  "unquillo",
+  "sandona",
+  "patacamaya",
+  "san-jeronimo-departamento-de-apurimac",
+  "santa-maria-tonameca",
+  "atuntaqui",
+  "puerto-quito",
+  "ayaviri-departamento-de-puno",
+  "alamos",
+  "jitotol",
+  "ascension",
+  "pinillos",
+  "mauroa",
+  "hunucma",
+  "flores-costa-cuca",
+  "aquila"
  ],
  "descartadas": [
   {
@@ -9697,6 +9747,431 @@
    "slug": "san-jose-la-maquina",
    "razon": "rechazada tras corrección: El texto afirma que el territorio se sitúa en la zona sur del país y en el área del Pacífico sur, datos que no figuran en la fuente.; El texto afirma que la población se dedica principalmente a la agr",
    "fecha": "2026-10-17"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "cuitlahuac",
+   "razon": "fraseo calcado de ixtlahuaca: \"metros sobre el nivel del mar limita\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "periban",
+   "razon": "fraseo calcado de ixtlahuaca: \"metros sobre el nivel del mar limita\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tuman",
+   "razon": "rechazada tras corrección: La ficha menciona la provincia de Chiclayo, pero la fuente dice que es la provincia de Chiclayo, dentro del departamento de Lambayeque, sin embargo, en la ficha se repite Lambayeque como si fuera part",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "coroico",
+   "razon": "rechazada tras corrección: La ficha describe la vegetación y la calidad de vida de los habitantes, que no se mencionan en el material de origen.; La ficha describe la ubicación estratégica de Coroico como un punto de paso impor",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "santa-barbara-guatemala",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "san-juan-guichicovi",
+   "razon": "fraseo calcado de santiago-juxtlahuaca: \"la cabecera del municipio homonimo ubicada en\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "guacimo",
+   "razon": "fraseo calcado de matina: \"del canton homonimo situado en la provincia\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "huancabamba",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad está 'a orillas del río Huancabamba', lo que no es exacto según la fuente que dice 'en la margen derecha del río Huancabamba'.; La ficha afirma que la ciudad 'forma par",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "el-congo",
+   "razon": "rechazada tras corrección: La ficha describe la estructura administrativa y la ubicación geográfica de El Congo de manera detallada, pero el material de origen solo menciona que El Congo es un distrito del municipio de Santa An",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "munoz",
+   "razon": "fraseo calcado de libertad-venezuela: \"de 2015 el presidente nicolas maduro declaro\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "villa-el-carmen",
+   "razon": "rechazada tras corrección: El texto añade información no respaldada por la fuente sobre registros municipales, documentos locales, memoria colectiva, normativa del departamento, asentamientos organizados, archivos oficiales, id",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "guastatoya",
+   "razon": "rechazada tras corrección: La ficha describe la ubicación de Guastatoya en relación con la región que conecta la capital con los municipios del este guatemalteco, lo que no se menciona en la fuente.; La ficha describe el papel ",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tecun-uman",
+   "razon": "rechazada tras corrección: La ficha incluye información adicional que no se encuentra en el material de origen, como la descripción de la zona montañosa de las Tierras Altas y la acción militar en los valles de Pachah, que no e",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "higuerote",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "jalpan-de-serra",
+   "razon": "rechazada tras corrección: La ficha describe a Jalpan de Serra como 'el núcleo poblacional de la zona', lo que no se encuentra en el material de origen; La ficha describe la posición geográfica como 'una zona de transición entr",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "cueramaro",
+   "razon": "rechazada tras corrección: La población local se organiza alrededor del centro administrativo, donde se concentran las dependencias municipales y los servicios públicos básicos.; La ubicación de Cuerámaro dentro de Guanajuato l",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "sipacapa",
+   "razon": "rechazada tras corrección: La ficha describe a la gente de la sala (habitantes que hablan español y sipakapense); La ficha incluye información adicional no respaldada por la fuente (la ubicación geográfica, la dualidad idiomáti",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "departamento-sarmiento",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "shinahota",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "jesus-carranza",
+   "razon": "fraseo calcado de san-juan-evangelista: \"un municipio del estado de veracruz ubicado\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "pedernales-ecuador",
+   "razon": "fraseo calcado de general-villamil: \"es una ciudad ecuatoriana y cabecera cantonal\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "catamayo",
+   "razon": "fraseo calcado de la-mana: \"la segunda urbe mas grande de la\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "pueblo-bello",
+   "razon": "controles de calidad: aboutTitle de 75 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "mapimi",
+   "razon": "fraseo calcado de pichucalco: \"a 1 300 metros sobre el nivel\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "puerto-morelos",
+   "razon": "fraseo calcado de hecelchakan: \"en la zona norte del estado limitando\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "acapetahua",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 272 (line 3 column 172)",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "perla",
+   "razon": "rechazada tras corrección: La ficha dice 'La Perla es un municipio de Veracruz, México, con una población de 23.648 habitantes y una extensión territorial de 138.299 kilómetros cuadrados', pero la fuente dice que la extensión t",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "san-luis-jilotepeque",
+   "razon": "rechazada tras corrección: La ficha afirma que tras la reforma liberal de 1871 San Luis Jilotepeque fue incorporado al departamento de Jalapa el 24 de noviembre de 1873 bajo el gobierno de Justo Rufino Barrios, pero la fuente m",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "santa-maria-ixhuatan",
+   "razon": "fraseo calcado de nueva-santa-rosa: \"departamento de santa rosa situado en la\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "ayahualulco",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "mizque",
+   "razon": "rechazada tras corrección: La ficha describe la influencia del río Mizque en el entorno natural y las actividades de la población, lo que no se menciona en el material de origen; Se menciona que la ubicación en el valle permite",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "el-guabo",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "pitipo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "perez",
+   "razon": "rechazada tras corrección: La fecha fundacional se fija el 10 de julio de 1886, cuando Eduardo Pérez y María Pérez escribieron las tierras a Carlos Casado del Alisal para la construcción del Ferrocarril Oeste Santafesino.; La e",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tecolutla",
+   "razon": "rechazada tras corrección: La ficha describe la relación de la localidad con el entorno marítimo y su identidad vinculada al mar y a las tradiciones indígenas, lo que no está mencionado en la fuente.",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "flavio-alfaro",
+   "razon": "fraseo calcado de veinticuatro-de-mayo: \"de la provincia de manabi ecuador con\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "siquinala",
+   "razon": "rechazada tras corrección: La ficha describe a la fiesta titular como una 'manifestación cultural' y una 'tradición establecida en la comunidad', lo que no está respaldado por la fuente.; La ficha repite información de la fuent",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "teustepe",
+   "razon": "rechazada tras corrección: Se han inventado detalles sobre la estructura administrativa y la organización política de Nicaragua que no están presentes en el material de origen.; Se han agregado frases que no aportan información",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "aucallama",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "san-juan-atitan",
+   "razon": "rechazada tras corrección: Se inventan detalles geográficos no presentes en la fuente (áreas montañosas y valles).; Se inventan detalles sobre su estructura administrativa, política, social y económica que no figuran en el mate",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "puerto-piritu",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "chichiquila",
+   "razon": "fraseo calcado de tlacotepec-de-benito-juarez: \"constituye la cabecera del municipio que lleva\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "siltepec",
+   "razon": "fraseo calcado de angel-albino-corzo: \"124 municipios del estado de chiapas ubicado\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "comendador",
+   "razon": "controles de calidad: la intro empieza con un imperativo de folleto",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "cuajinicuilapa",
+   "razon": "rechazada tras corrección: Incluye el nombre propio geográfico 'Pacífico mexicano', que no aparece en el material de origen.; Afirma que 'el núcleo urbano se sitúa en el interior del territorio', dato que no está en la fuente.;",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "vegueta",
+   "razon": "rechazada tras corrección: La ficha menciona 'zona costera del litoral nacional', 'dimensión demográfica del centro poblado en el contexto de la provincia de Huaura', 'entorno geográfico característico de esa zona', 'los último",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "el-quetzal",
+   "razon": "fraseo calcado de el-tumbador: \"suroeste del pais dentro del departamento de\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "treinta-y-tres",
+   "razon": "rechazada tras corrección: Dato no respaldado por la fuente: afirma que está 'situada en el interior del país'. El material de origen solo menciona que es una ciudad y cabeza de Departamento de Uruguay.; Dato no respaldado por ",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "nueva-cajamarca",
+   "razon": "rechazada tras corrección: Menciona 'actividades agrícolas y turísticas' sin respaldo en el material de origen.; Afirma que se ubica en la 'Amazonía peruana' y 'zona norte del país', datos geográficos que no están en la fuente.",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "carahue",
+   "razon": "fraseo calcado de puerto-varas: \"es una ciudad y comuna situada en\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "batabano",
+   "razon": "fraseo calcado de quivican: \"2010 formo parte de la extinta provincia\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "balao",
+   "razon": "controles de calidad: muletillas de IA: gran variedad de",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "suchiapa",
+   "razon": "rechazada tras corrección: La ficha menciona 'Río de Las Hojas' que no está en el material de origen, solo se menciona en el título de una noticia del Ayuntamiento de Suchiapa, pero no se describe en la sección de geografía del",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "axapusco",
+   "razon": "fraseo calcado de ojuelos-de-jalisco: \"es uno de los ciento veinticinco municipios\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "paraiso-mexico",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "solano",
+   "razon": "fraseo calcado de municipio-de-la-paz: \"lo convierte en el segundo municipio mas\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "la-iguala",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 608 (line 3 column 447)",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "roberto-payan",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "tinogasta",
+   "razon": "rechazada tras corrección: Se afirman datos geográficos e infraestructurales no contenidos en la fuente: la mención a la cordillera, que es un punto intermedio entre centros urbanos del norte y del sur, y su posición estratégic",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "magui-payan",
+   "razon": "fraseo calcado de dibulla: \"dentro de su jurisdiccion se encuentran centros\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "pichari",
+   "razon": "rechazada tras corrección: La ficha describe la vida cotidiana de los habitantes y la influencia del río en la vida cotidiana, lo que no se menciona en el material de origen.; La ficha describe la interacción entre las poblacio",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "jachal",
+   "razon": "rechazada tras corrección: La ficha describe la localidad como un 'punto de referencia dentro del valle, reconocido por su entorno agrícola', lo que no se encuentra en el material de origen.",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "departamento-jachal",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "peto",
+   "razon": "fraseo calcado de tekax: \"una ciudad ubicada en el estado mexicano\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "cuatro-canadas",
+   "razon": "rechazada tras corrección: La localidad se ubica a 101 km al noreste de Santa Cruz de la Sierra, capital departamental, lo que la sitúa en la zona de transición entre la llanura oriental y los valles cercanos.; Como municipio, ",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "imaza",
+   "razon": "rechazada tras corrección: Esta posición geográfica le otorga una función estratégica como punto de enlace entre la Amazonía peruana y la frontera ecuatoriana, favoreciendo la interacción entre ambas regiones.; Dentro del depar",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "otuzco",
+   "razon": "rechazada tras corrección: La ficha menciona 'elementos coloniales con rasgos típicos de la sierra' y 'papel como sede de la autoridad provincial' sin que la fuente lo respalde; La ficha describe la arquitectura y la gestión pú",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "mamporal",
+   "razon": "rechazada tras corrección: Añade datos geográficos y contextuales no presentes en la fuente ('al norte del país', 'durante la época colonial').",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "sigsig",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "ixchiguan",
+   "razon": "fraseo calcado de concepcion-tutuapa: \"municipio del departamento de san marcos situado\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "montalban",
+   "razon": "fraseo calcado de san-ignacio-guazu: \"antes de la llegada europea la zona\"",
+   "fecha": "2026-10-18"
+  },
+  {
+   "slug": "pedro-carbo",
+   "razon": "fraseo calcado de nicoya: \"cabecera del canton homonimo situada en la\"",
+   "fecha": "2026-10-18"
   }
  ]
 }
