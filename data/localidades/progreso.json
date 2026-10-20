@@ -1015,7 +1015,34 @@
   "mauroa",
   "hunucma",
   "flores-costa-cuca",
-  "aquila"
+  "aquila",
+  "santa-barbara-guatemala",
+  "san-juan-guichicovi",
+  "pedernales-ecuador",
+  "puerto-morelos",
+  "acapetahua",
+  "tecolutla",
+  "flavio-alfaro",
+  "puerto-piritu",
+  "comendador",
+  "la-iguala",
+  "jachal",
+  "peto",
+  "montalban",
+  "pedro-carbo",
+  "anta",
+  "monte-cristi",
+  "tapacari",
+  "el-corpus",
+  "las-cabras",
+  "aibonito",
+  "las-yayas-de-viajama",
+  "tamahu",
+  "saquisili",
+  "hualqui",
+  "echarate-departamento-de-cusco",
+  "el-bosque",
+  "tocopilla"
  ],
  "descartadas": [
   {
@@ -10172,6 +10199,511 @@
    "slug": "pedro-carbo",
    "razon": "fraseo calcado de nicoya: \"cabecera del canton homonimo situada en la\"",
    "fecha": "2026-10-18"
+  },
+  {
+   "slug": "san-miguel-oeste",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "periban",
+   "razon": "fraseo calcado de ixtlahuaca: \"metros sobre el nivel del mar limita\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "coroico",
+   "razon": "rechazada tras corrección: El texto incluye información no respaldada por la fuente: 'punto de referencia para quienes se desplazan entre el altiplano y los Yungas' y 'la carretera bioceánica facilita el tránsito vehicular entr",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "guacimo",
+   "razon": "rechazada tras corrección: La frase 'Hoy el distrito conserva su carácter agrícola y su vínculo histórico con el ferrocarril y el árbol que le dio nombre' no tiene respaldo en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "huancabamba",
+   "razon": "rechazada tras corrección: Se incluyen inferencias y datos no presentes en el material de origen sobre el relieve ('relieve montañoso de la sierra andina', 'transición entre la zona alta y los valles fluviales'), la geografía (",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "el-congo",
+   "razon": "rechazada tras corrección: La ficha inventa detalles sobre la administración, gestión de servicios básicos, obras públicas, normativa de desarrollo, rasgos geográficos, climáticos, actividades agrícolas y participación comunita",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "munoz",
+   "razon": "fraseo calcado de libertad-venezuela: \"de 2015 el presidente nicolas maduro declaro\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "villa-el-carmen",
+   "razon": "rechazada tras corrección: Invención de datos: la fuente no menciona que el nombre alternativo aparezca en 'documentos locales' ni que refleje una 'referencia histórica particular'.; Invención de datos: la fuente no menciona la",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "guastatoya",
+   "razon": "rechazada tras corrección: Se inventa que alberga la administración del departamento y funciona como centro de referencia para los municipios.; Se inventa que el departamento de El Progreso es uno de los veintidós departamentos",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tecun-uman",
+   "razon": "rechazada tras corrección: Se incluyen interpretaciones y datos no presentes en la fuente como 'símbolo de la defensa del pueblo indígena', 'episodio decisivo en la expansión del dominio español', 'legado de valentía' o 'import",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "higuerote",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "jalpan-de-serra",
+   "razon": "rechazada tras corrección: El texto inventa que la localidad concentra los servicios públicos, la administración local, la actividad administrativa, el registro civil, la tesorería, la atención ciudadana y que sirve de enlace p",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "cueramaro",
+   "razon": "rechazada tras corrección: La ficha inventa datos sobre el centro administrativo, la relación histórica con la cultura purépecha, la influencia de cuerpos de agua, los recursos para los primeros habitantes y la memoria del ento",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "sipacapa",
+   "razon": "rechazada tras corrección: La ficha añade información no respaldada por la fuente sobre la naturaleza del sipakapense (lengua indígena propia de la comunidad local), la transmisión intergeneracional, la continuidad de tradicion",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "departamento-sarmiento",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "shinahota",
+   "razon": "rechazada tras corrección: Invención: 'zona oriental del territorio departamental'; Invención: 'formando parte de la cuenca hidrográfica de este último'; Invención: 'paisajes de ribera y una vegetación típica de la zona alta de",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "jesus-carranza",
+   "razon": "rechazada tras corrección: La frase 'un hallazgo arqueológico que sitúa a la zona entre los principales sitios prehispánicos' no está respaldada por el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "catamayo",
+   "razon": "fraseo calcado de otavalo: \"y la segunda urbe mas grande y\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "pueblo-bello",
+   "razon": "rechazada tras corrección: La frase 'mantiene sus costumbres, artes y lengua en pleno esplendor' contiene datos (artes y lengua) que no aparecen en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "mapimi",
+   "razon": "fraseo calcado de pichucalco: \"a 1 300 metros sobre el nivel\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "perla",
+   "razon": "fraseo calcado de loreto-ecuador: \"sobre el nivel del mar alcanzando su\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "san-luis-jilotepeque",
+   "razon": "controles de calidad: aboutTitle de 76 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "santa-maria-ixhuatan",
+   "razon": "fraseo calcado de nueva-santa-rosa: \"departamento de santa rosa situado en la\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "ayahualulco",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "mizque",
+   "razon": "rechazada tras corrección: Invención: se afirma que la ciudad alberga instituciones administrativas que gestionan la provincia.; Invención: se describe su posición respecto a centros urbanos grandes, áreas rurales y enlaces con",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "el-guabo",
+   "razon": "fraseo calcado de ventanas: \"el nivel del mar y con un\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "pitipo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "perez",
+   "razon": "fraseo calcado de granadero-baigorria: \"del departamento rosario en la provincia de\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "siquinala",
+   "razon": "rechazada tras corrección: Invención de datos no respaldados por la fuente: 'comparte la historia y la cultura de la zona', 'manteniendo vivas sus costumbres y tradiciones', 'se inscribe en el calendario litúrgico', 'constituye",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "teustepe",
+   "razon": "rechazada tras corrección: El texto incluye inferencias y comentarios editoriales no presentes en la fuente (acceso rápido a servicios, centro político y económico, gestión de asuntos locales, comentarios sobre la disponibilida",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "aucallama",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "san-juan-atitan",
+   "razon": "rechazada tras corrección: La ficha incluye datos no respaldados por el material de origen sobre la estructura administrativa (22 departamentos, alcalde, concejo, planes de desarrollo y bases de datos gubernamentales).",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "chichiquila",
+   "razon": "fraseo calcado de tlacotepec-de-benito-juarez: \"constituye la cabecera del municipio que lleva\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "siltepec",
+   "razon": "fraseo calcado de salama: \"sobre el nivel del mar su nombre\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "cuajinicuilapa",
+   "razon": "fraseo calcado de san-jose-villa-de-allende: \"es una localidad mexicana situada en el\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "vegueta",
+   "razon": "fraseo calcado de mazamari: \"como capital del distrito homonimo ubicado en\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "el-quetzal",
+   "razon": "rechazada tras corrección: La ficha menciona que el municipio tiene un 'paisaje montañoso' y un 'clima templado', datos que no aparecen en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "treinta-y-tres",
+   "razon": "rechazada tras corrección: La afirmación de que la ciudad está 'ubicada en la zona oriental del país' no aparece en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "nueva-cajamarca",
+   "razon": "rechazada tras corrección: La ficha inventa detalles sobre la organización administrativa, la concentración de servicios, la atención de observadores regionales y la búsqueda de reforzar su papel como centro administrativo, dat",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "carahue",
+   "razon": "rechazada tras corrección: La ficha afirma que la entrada al oriente conduce al antiguo puerto, pero el material de origen indica que es el camino de cuatro varas de ancho el que comunica el lado poniente con el río y antiguo p",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "batabano",
+   "razon": "rechazada tras corrección: El texto afirma que Batabanó constituye el punto más al sur de la provincia de Mayabeque, dato que no figura en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "balao",
+   "razon": "controles de calidad: muletillas de IA: gran variedad de",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "suchiapa",
+   "razon": "fraseo calcado de san-juan-evangelista: \"m sobre el nivel del mar forma\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "axapusco",
+   "razon": "rechazada tras corrección: El texto afirma que el reconocimiento de Pueblo con Encanto 'destaca su valor histórico y paisajístico', dato que no figura en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "paraiso-mexico",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "solano",
+   "razon": "fraseo calcado de municipio-de-la-paz: \"lo convierte en el segundo municipio mas\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "roberto-payan",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tinogasta",
+   "razon": "fraseo calcado de cabaiguan: \"el entorno esta marcado por la presencia\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "magui-payan",
+   "razon": "rechazada tras corrección: El texto menciona que el municipio configura 'un territorio de variada topografía', dato que no figura en el material de origen.; El texto afirma que los centros poblados 'forman parte del entramado s",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "pichari",
+   "razon": "rechazada tras corrección: La frase 'generan una zona de interacción entre las dos provincias' no está respaldada por el material de origen.; La afirmación de que 'concentra la sede municipal encargada de la gestión administrat",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "departamento-jachal",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "cuatro-canadas",
+   "razon": "rechazada tras corrección: La mención a la región de los llanos del Chaco no aparece en el material de origen.; La afirmación sobre el entorno predominantemente rural no está respaldada por la fuente.; La información sobre la a",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "imaza",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "otuzco",
+   "razon": "rechazada tras corrección: Se afirma que es 'centro administrativo local', dato no presente en la fuente.; Se menciona que la devoción es un 'elemento importante de la identidad cultural y religiosa de la comunidad', dato no pr",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "mamporal",
+   "razon": "rechazada tras corrección: La frase 'concentrando la administración local' no está respaldada por el material de origen.; La frase 'reconocida por su papel en la historia regional' no está respaldada por el material de origen.;",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "sigsig",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "ixchiguan",
+   "razon": "fraseo calcado de comitancillo: \"del departamento de san marcos en la\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "palenque-ecuador",
+   "razon": "fraseo calcado de urdaneta-ecuador: \"uno de los trece cantones que integran\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "gutierrez-zamora",
+   "razon": "fraseo calcado de pueblo-viejo: \"es uno de los 212 municipios que\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "huaquechula",
+   "razon": "rechazada tras corrección: La ficha afirma que la localidad 'alberga las dependencias del gobierno local' y que 'desempeña la función administrativa principal', datos que no figuran en el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "obispo-ramos-de-lora",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "soto-la-marina",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "casma",
+   "razon": "rechazada tras corrección: Se añaden detalles sobre el entorno natural (escasa vegetación, paisaje de arena y rocas) que no figuran en el material de origen.; Se afirma que es sede administrativa de ambas entidades, dato no pre",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "acora-departamento-de-puno",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "venustiano-carranza-michoacan",
+   "razon": "rechazada tras corrección: Confusión de entidad: el material de origen describe a una persona (el político Venustiano Carranza), pero la ficha lo presenta como una localidad (Venustiano Carranza, Michoacán, México), dato que no",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "jiquilpan-de-juarez",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "vicente-guerrero",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "freire",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "el-retorno",
+   "razon": "fraseo calcado de guamote: \"el nivel del mar y la temperatura\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "piriapolis-departamento-de-maldonado",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "yunguyo",
+   "razon": "fraseo calcado de la-oroya: \"es una ciudad peruana situada en el\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "amatan",
+   "razon": "fraseo calcado de cananea: \"es un municipio situado en el norte\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "ixtacamaxtitlan",
+   "razon": "fraseo calcado de tlacotepec-de-benito-juarez: \"la cabecera del municipio que lleva el\"",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "sanchez",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "balsapuerto",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "zaruma",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "puerto-guzman",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "juayua",
+   "razon": "rechazada tras corrección: Afirma que la población de 2024 muestra la 'continuidad del crecimiento poblacional', una evolución demográfica que no está respaldada por el material de origen.",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "las-margaritas",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "pedernales",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "nueva-paz",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "tangamandapio",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "taulabe",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "orotina",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "urubamba-departamento-de-cusco",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "pueblo-nuevo-venezuela",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "cajaruro",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
+  },
+  {
+   "slug": "machachi",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-20"
   }
  ]
 }
