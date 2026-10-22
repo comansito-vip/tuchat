@@ -30559,5 +30559,821 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Tocopilla, ciudad costera del Norte Grande chileno, capital de su provincia y punto clave entre Iquique y Antofagasta, destaca por su puerto histórico.",
     "aboutTitle": "Puerto histórico y legado minero de Tocopilla",
     "about": "Tocopilla es una ciudad y comuna del Norte Grande de Chile, ubicada en la Región de Antofagasta. Es la capital de la provincia homónima y se sitúa a medio camino entre las grandes urbes de Iquique y Antofagasta, lo que la convierte en un punto estratégico del litoral.\n\nFundada como caleta en 1843 por el francés Domingo Latrille Loustauneau, entonces cónsul en Cobija, la localidad se desarrolló alrededor de la actividad minera y del puerto que servía al guano y al cobre. En 1870 se iniciaron los primeros embarques de salitre del Cantón Toco y, al año siguiente, Bolivia la designó como “Puerto Menor”. Estas primeras etapas sentaron las bases de una economía vinculada al mineral y al comercio marítimo.\n\nDurante la época hispánica, el territorio formó parte del corregimiento de Copiapó de la Capitanía General de Chile. Documentos de 1777 hacen referencia a la zona dentro de la jurisdicción chilena, y mapas de la Armada española de 1792 y de Andrés Baleato de 1793 sitúan el límite norte del país en la desembocadura del río Loa, que pasa cerca de la región."
+  },
+  {
+    "slug": "villa-el-carmen",
+    "name": "Villa El Carmen",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de Managua",
+    "regionSlug": "departamento-de-managua",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-sandino",
+      "nicaragua",
+      "managua",
+      "masaya",
+      "tipitapa",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa El Carmen, municipio de Managua fundado el 15 de septiembre de 1907, conserva el nombre histórico Villa Carlos Fonseca.",
+    "aboutTitle": "Fundación y nombre histórico de Villa El Carmen",
+    "about": "Villa El Carmen es un municipio del departamento de Managua, en la República de Nicaragua. Fue fundado el 15 de septiembre de 1907 y, además de su nombre oficial, es conocido extraoficialmente como Villa Carlos Fonseca, una denominación que refleja parte de su historia local. Como entidad municipal, forma parte del marco administrativo del departamento de Managua y está integrada en la organización territorial del país. La administración local se encarga de gestionar los asuntos públicos de la comunidad, siguiendo la normativa nacional y departamental. Su origen a principios del siglo XX le otorga una trayectoria histórica dentro de la región, y la doble nomenclatura sigue presente en documentos y referencias oficiales, lo que distingue al municipio dentro del conjunto de municipios nicaragüenses. Aunque la información disponible se centra en su fundación, nombre y ubicación, estos elementos son clave para identificar a Villa El Carmen en el contexto nacional. Su identidad sigue vigente en la actualidad."
+  },
+  {
+    "slug": "pueblo-bello",
+    "name": "Pueblo Bello",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cesar",
+    "regionSlug": "cesar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "valledupar",
+      "la-paz-cesar",
+      "el-copey",
+      "agustin-codazzi",
+      "bosconia",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pueblo Bello, municipio del Cesar en Colombia, se alza a 1.200 m sobre la Sierra Nevada de Santa Marta y destaca por su gastronomía indígena reconocida en 2020.",
+    "aboutTitle": "Pueblo Bello: la puerta cultural de la Sierra Nevada",
+    "about": "Pueblo Bello es uno de los 25 municipios que conforman el Departamento del Cesar, ubicado en un estrecho valle de montaña sobre un altiplano de la Sierra Nevada de Santa Marta a 1.200 m de altitud. Es un importante centro de abasto para la población indígena de la Sierra y atrae turistas tanto del Cesar como de otras regiones por albergar la capital de la Cultura Arhuaca, Nabusímake, donde se preservan las tradiciones y la identidad de este pueblo. La gastronomía local, declarada con derechos de autor en 2020, constituye un motor económico ligado al desarrollo turístico del municipio.\n\nDentro de su división político‑administrativa, además de la cabecera, Pueblo Bello incluye centros poblados como La Caja, Las Minas de Iracal, Nabusimake (San Sebastián de Rábago), Nuevo Colón, Palmarito y La Honda. Su historia remonta la fundación de San Sebastián de Rábago en 1750 con la llegada de 23 familias españolas, reducidas a cuatro en 1756, y la lucha de los arhuacos en 1916 para que un inspector indígena representara sus intereses ante el gobierno nacional."
+  },
+  {
+    "slug": "el-guabo",
+    "name": "El Guabo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 207,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de El Oro",
+    "regionSlug": "provincia-de-el-oro",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "machala",
+      "duran",
+      "tumbes",
+      "cuenca",
+      "loja",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Guabo, ciudad de la provincia de El Oro en Ecuador, cuenta con 26.635 habitantes y es conocida como \"La Perla Orense\".",
+    "aboutTitle": "El Guabo: la Perla Orense a orillas del río Jubones",
+    "about": "El Guabo es una ciudad ecuatoriana, cabecera cantonal del Cantón El Guabo y la quinta urbe más grande y poblada de la Provincia de El Oro. Se sitúa al sur de la región litoral, en una extensa llanura a 15 m sobre el nivel del mar, con un clima tropical cuya temperatura media ronda los 25 °C. Con 26.635 habitantes según el censo de 2022, ocupa la quincuagésima séptima posición entre las ciudades más pobladas del país y forma parte del área metropolitana de Machala, funcionando como ciudad dormitorio para miles de trabajadores que se desplazan diariamente a la capital cantonal.\n\nSu origen se remonta al siglo XVIII, cuando un pequeño asentamiento surgió a orillas del río Jubones y los primeros pobladores cultivaban cacao, ganadería y pesca. El nombre proviene de la época colonial, cuando las canoas que llegaban al puerto eran amarradas a un árbol de guabo (Inga feuilleei). A mediados del siglo XX, la producción agropecuaria impulsó un rápido crecimiento demográfico, consolidando a El Guabo como uno de los principales centros administrativos, económicos, financieros y comerciales de la provincia, con la agricultura y el comercio como actividades predominantes."
+  },
+  {
+    "slug": "siltepec",
+    "name": "Siltepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "tapachula",
+      "san-marcos-guatemala",
+      "huehuetenango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Siltepec, municipio de Chiapas a 1.580 m s.n.m., celebra la fiesta de San Isidro Labrador el 15 de mayo, nombre que significa “Cerro de los caracoles”.",
+    "aboutTitle": "Siltepec: origen náhuatl, altitud y fiesta de San Isidro",
+    "about": "Siltepec es uno de los 124 municipios del estado de Chiapas, situado en la región de la Sierra Madre de Chiapas a 1 580 metros sobre el nivel del mar. La gran variación de pendientes del territorio ofrece numerosos paisajes escénicos y una geografía montañosa que caracteriza a la zona. El origen del nombre proviene del náhuatl y significa “Cerro de los caracoles”. Fue fundado bajo el nombre de San Isidro Siltepeque; el 9 de marzo de 1887, mediante decreto del gobernador José María Ramírez, se erigió como pueblo y cabecera municipal. En 1931 y 1934 se modificaron varias agencias municipales, entre ellas La Frailesca, Santa Ana, La Cascada, Capitán Luis Vidal y Ángel Díaz. La fiesta patronal, dedicada a San Isidro Labrador, se celebra cada 15 de mayo, manteniendo viva la tradición religiosa introducida tras la llegada de los españoles. Según la tradición familiar y testimonios de ancianos, la fundación del poblado se sitúa a principios del siglo XVIII. Los pobladores actuales conservan costumbres comitecas."
+  },
+  {
+    "slug": "cuajinicuilapa",
+    "name": "Cuajinicuilapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guerrero",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cuajinicuilapa, cabecera municipal de la Costa Chica de Guerrero, está a 295 km de Chilpancingo y limita con Oaxaca, situándose en una zona del estado.",
+    "aboutTitle": "Cuajinicuilapa: cabecera municipal en la Costa Chica de Guerrero",
+    "about": "Cuajinicuilapa es una localidad mexicana del estado de Guerrero y, simultáneamente, la cabecera del municipio homónimo. Se ubica dentro de la Costa Chica, la franja costera del sur del estado, y actúa como centro administrativo para los pueblos y asentamientos que integran el municipio. La población se encuentra a 295 kilómetros de Chilpancingo de los Bravo, capital estatal, lo que la coloca en la zona sur del país. Limita directamente con el estado de Oaxaca, lo que le otorga una posición geográfica estratégica dentro de la región. Como núcleo municipal, Cuajinicuilapa concentra los servicios de gobierno local y sirve de referencia para las comunidades vecinas. Su ubicación en la Costa Chica la sitúa en una zona de influencia que combina aspectos costeros y montañosos, aunque el propio texto no detalla la topografía. La cercanía a la frontera estatal favorece intercambios culturales y comerciales con localidades oaxaqueñas, reforzando su papel relevante en el entramado social y económico del sur de Guerrero."
+  },
+  {
+    "slug": "batabano",
+    "name": "Batabanó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de Mayabeque",
+    "regionSlug": "provincia-de-mayabeque",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuba",
+      "la-habana",
+      "matanzas",
+      "cardenas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Batabanó, municipio del sur y oeste de Mayabeque, Cuba, limita al sur con el Golfo de Batabanó, al norte con San José de las Lajas y al este con Melena del Sur.",
+    "aboutTitle": "Batabanó y su frontera con el Golfo de Batabanó",
+    "about": "Batabanó is a municipality in the province of Mayabeque, situated in the southern and western part of the province, on the southern coast of Cuba. Until 2010 it belonged to the former province of La Habana. It borders to the north with the municipality of San José de las Lajas, to the east with Melena del Sur, to the west with Quivicán, and to the south with the Gulf of Batabanó, which gives it a maritime frontier. The Gulf of Batabanó is part of the Caribbean Sea and defines its coastal character. The municipality's position between inland towns and the Gulf shapes its economic and social links. The area is part of the historical region of western Cuba and retains ties to its previous administrative affiliation. Its territory includes coastal zones and inland rural zones, typical of the province. Al norte, la frontera colinda con San José de las Lajas; al este, con Melena del Sur; y al oeste, con Quivicán. Antes de la reorganización administrativa de 2010, Batabanó pertenecía a la provincia de La Habana."
+  },
+  {
+    "slug": "obispo-ramos-de-lora",
+    "name": "Obispo Ramos de Lora",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Mérida",
+    "regionSlug": "merida",
+    "channels": [
+      "merida",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-vigia",
+      "merida-venezuela",
+      "valera",
+      "merida",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Obispo Ramos de Lora, municipio merideño de 383 km², celebra su origen el 15 de diciembre de 1966 y lleva el nombre del obispo Juan Ramos de Lora.",
+    "aboutTitle": "Planicie aluvial del Lago de Maracaibo y origen del municipio",
+    "about": "El Municipio Obispo Ramos de Lora forma parte de los 23 municipios del estado Mérida, en Venezuela, y abarca una superficie de 383 km². Según estimaciones del INE para 2012, su población era de 34 873 habitantes. La capital es la población de Santa Elena de Arenales y la división territorial incluye tres parroquias: Eloy Paredes, San Rafael de Alcázar y Santa Elena de Arenales. El nombre del municipio rinde homenaje al obispo Juan Ramos de Lora.\n\nSu origen administrativo se remonta al 15 de diciembre de 1966, cuando se creó el Distrito Andrés Bello tras la separación del Distrito Campo Elías. En 1988 se constituyó como Municipio Autónomo Obispo Ramos de Lora y, tras la reforma de 1992, adoptó definitivamente su denominación actual. El 29 de junio de 1998 se creó la parroquia San Rafael de Alcázar, subdividiendo la anterior Santa Elena de Arenales. Geográficamente, la mayor parte del territorio se asienta sobre una planicie aluvial del Lago de Maracaibo, con una zona más reducida en el pie de la cordillera andina. El estado Mérida mantiene una reclamación histórica sobre una zona fronteriza con Zulia, comprendida entre los ríos Mucujepe y Frío, que forma parte del municipio Sucre de Zulia."
+  },
+  {
+    "slug": "ixtacamaxtitlan",
+    "name": "Ixtacamaxtitlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "libres",
+      "chignahuapan",
+      "zaragoza-puebla",
+      "zacatlan",
+      "tlaxcala",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ixtacamaxtitlán, localidad de Puebla, México, es la cabecera; su nombre proviene del náhuatl ixtlahuatl (blanco), camachtli (boca) y titlán (lugar rodeado).",
+    "aboutTitle": "Origen náhuatl del nombre de Ixtacamaxtitlán",
+    "about": "Ixtacamaxtitlán es una localidad del estado mexicano de Puebla y la cabecera del municipio que lleva su mismo nombre, lo que la sitúa como centro administrativo de la demarcación. Forma parte de la entidad federativa de Puebla, en el territorio de México. \n\nEl topónimo Ixtacamaxtitlán proviene de los términos en náhuatl: ixtlahuatl, que significa “blanco”, camachtli, que se traduce como “boca”, y titlán, que indica “lugar rodeado”. La combinación de estos componentes sugiere una referencia geográfica, aunque la fuente no especifica el significado exacto del nombre completo. En la documentación disponible no se indica otro dato concreto sobre su historia o actividades económicas."
+  },
+  {
+    "slug": "sanchez",
+    "name": "Sánchez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Samaná",
+    "regionSlug": "samana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "santo-domingo-este",
+      "san-pedro-de-macorris",
+      "la-vega",
+      "moca",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sánchez, en la península de Samaná, se ubica a 34 km de Samaná y 36 km de Nagua; su historia data del 31 de mayo de 1886 y destaca el Pico Las Cañitas de 546 m.",
+    "aboutTitle": "Pico Las Cañitas y la fundación de Sánchez",
+    "about": "Sánchez es un municipio de la República Dominicana situado en la parte sudoccidental de la península de Samaná. Se localiza a 34 km de la capital de la provincia, Samaná, y a 36 km de Nagua, entre la provincia María Trinidad Sánchez y la propia Samaná. El relieve es irregular y cenagoso, con el río Gran Estero marcando históricamente el límite entre Samaná y Matanzas (actual Nagua). Al pie de la cordillera de Samaná se alza el Pico Las Cañitas, que alcanza los 546 m de altura.\n\nEl origen del asentamiento se remonta a poco después de 1824, cuando el pirata español Joaquín Hernández, radicado en Puerto Rico, fundó la aldea de Las Cañitas. El municipio, antes conocido como Las Cañitas, obtuvo la categoría municipal el 31 de mayo de 1886 mediante la Ley n.º 2453. Según el Censo de 2022, la población total era de 25 413 habitantes, de los cuales el 55,76 % vivía en áreas rurales (aprox. 14 172 personas) y el 44,23 % en la zona urbana. El clima es tropical, con una estación seca que puede prolongarse varias semanas y temperaturas máximas promedio de 30‑31 °C entre junio y octubre."
+  },
+  {
+    "slug": "nueva-paz",
+    "name": "Nueva Paz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "provincia de Mayabeque",
+    "regionSlug": "provincia-de-mayabeque",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "matanzas",
+      "batabano",
+      "cardenas",
+      "cuba",
+      "la-habana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Paz, municipio de Mayabeque, Cuba, se extiende sobre 503 km² en el sur‑oriente de la provincia y su costa toca el Golfo de Batabanó.",
+    "aboutTitle": "Extensión y límites de Nueva Paz en Mayabeque",
+    "about": "Nueva Paz es uno de los once municipios que conforman la provincia de Mayabeque, en la isla de Cuba. Se sitúa en la zona sur y en el extremo oriente de la provincia, lo que le coloca entre varios entes territoriales. Al este limita con la provincia de Matanzas, al norte con el municipio de Madruga, al oeste con San Nicolás y al sur su territorio se abre al Golfo de Batabanó. La superficie del municipio es de 503 kilómetros cuadrados, una extensión que combina zonas rurales y costeras. Su posición geográfica le otorga una ubicación estratégica dentro de Mayabeque, sirviendo de enlace entre la provincia vecina y los municipios limítrofes. La presencia del Golfo en su límite sur define parte de su paisaje, caracterizado por una costa que forma parte de la cuenca del Golfo de Batabanó. Esta situación favorece la interacción con los municipios colindantes y con la provincia de Matanzas, contribuyendo a la cohesión territorial de la zona."
+  },
+  {
+    "slug": "tangamandapio",
+    "name": "Tangamandapio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 207,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-barca",
+      "jamay",
+      "ocotlan",
+      "uruapan",
+      "atotonilco-el-alto",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tangamandapio, localidad de Michoacán a 165 km al oeste de Morelia, destaca por su nombre purépecha que significa ‘tronco seco que se mantiene en pie’.",
+    "aboutTitle": "Tangamandapio: origen purépecha y ubicación a 165 km de Morelia",
+    "about": "Tangamandapio, también conocida como Santiago Tangamandapio, es una localidad situada en la zona suroeste de México, dentro del estado de Michoacán. Se localiza a 165 km al oeste de Morelia, la capital del estado. Las coordenadas que la identifican son 19°57' de latitud norte y 102°26' de longitud occidental. El nombre proviene del idioma purépecha y su significado literal es ‘tronco seco que se mantiene en pie’. Esta denominación refleja el origen lingüístico del lugar. La comunidad forma parte del territorio rural michoacano y su posición geográfica la sitúa en el interior del estado, a una distancia de 165 km de la capital estatal. La información disponible indica que el topónimo es de origen purépecha y conserva ese sentido descriptivo. Los datos geográficos y etimológicos son los que aparecen en los registros oficiales de la entidad. Esta información es útil para quienes consultan la ubicación y origen del nombre de la población."
+  },
+  {
+    "slug": "taulabe",
+    "name": "Taulabé",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 170,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Comayagua",
+    "regionSlug": "departamento-de-comayagua",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "comayagua",
+      "villanueva-honduras",
+      "el-progreso",
+      "santa-rosa-de-copan",
+      "san-pedro-sula",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Taulabé es un municipio del departamento de Comayagua, en la República de Honduras, cuyo nombre proviene de las lenguas lencas.",
+    "aboutTitle": "Origen lenca del nombre de Taulabé",
+    "about": "Taulabé es un municipio del departamento de Comayagua, en la República de Honduras. El topónimo proviene de las lenguas lencas, lo que indica su origen lingüístico. En la documentación oficial del país, Taulabé figura como una de las unidades municipales que conforman el territorio hondureño. Como entidad política, está incluida en la lista de municipios que integran el departamento de Comayagua, según la división administrativa de Honduras. Su denominación se conserva en los registros cartográficos y administrativos, manteniendo la referencia al legado de la lengua lenca. La etimología del nombre se asocia a la lengua lenca, una de las familias lingüísticas que existieron en el territorio antes de la colonización. El uso del topónimo Taulabé se mantiene en los documentos oficiales y en la cartografía nacional, mostrando la continuidad del legado lingüístico. Así, el municipio lleva, en su nombre, una alusión a la cultura indígena que habitó la zona local."
+  },
+  {
+    "slug": "orotina",
+    "name": "Orotina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puntarenas",
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "san-jose",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Orotina, noveno cantón de Alajuela, cuenta con la iglesia de Santo Domingo de Guzmán, erigida en 1905, y la Banda Comunal, reconocida nacionalmente.",
+    "aboutTitle": "Iglesia de Santo Domingo de Guzmán y la Banda Comunal de Orotina",
+    "about": "Orotina es el noveno cantón de la provincia de Alajuela, en Costa Rica, y forma parte de la Región Pacífico Central. El cantón está dividido en cinco distritos y su cabecera es la ciudad homónima. En la ciudad se encuentra la iglesia de Santo Domingo de Guzmán, construida en 1905, y un parque con monumentos dedicados al patriota cubano José Martí y al rey indígena Garabito. La Banda Comunal de Orotina ha recibido varios reconocimientos a nivel nacional e internacional, siendo una expresión cultural destacada. El topónimo proviene de un error de denominación entre los ríos Aranjuez y Guacimal; la zona fue conocida como Gurutiña o Gurutina, nombres que evolucionaron a Orotina. Una leyenda local también asocia el nombre con el rey Orontes. En la época precolombina el territorio estuvo habitado por los huetares, cuyo rey Garabito se asentó en el Valle de Coyoche, luego llamado Valle de la Cruz, y por los orotiñas, gobernados por el cacique chorotega Gurutina. El descubridor de la región fue el conquistador español Gil González Dávila, quien la recorrió en 1522."
+  },
+  {
+    "slug": "elias-soplin-vargas",
+    "name": "Elías Soplín Vargas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 165,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moyobamba",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Elías Soplín Vargas, distrito de San Martín, destaca por el centro turístico TioYacu y la Iglesia Pentecostes Misionera, la mayor evangélica de la región.",
+    "aboutTitle": "Río TioYacu y la Iglesia Pentecostes Misionera en Elías Soplín Vargas",
+    "about": "Elías Soplín Vargas es uno de los ocho distritos que conforman la provincia de Rioja, en el departamento de San Martín, norte del Perú. La capital del distrito, Segunda Jerusalén, se sitúa a 975 m sobre el nivel del mar. El distrito tiene 13 156 habitantes, de los cuales el 80 % profesa la fe cristiana evangélica, y registra un crecimiento anual del 10 %. La economía se apoya en la producción de cemento, con la planta Cementos Selva, y en la agroindustria, destacando los molinos de arroz y la producción de agua de mesa Vital TioYacu. Entre los atractivos turísticos se encuentran el nacimiento del río TioYacu, las cascadas de Urcuchaqui y la Iglesia Pentecostes Misionera‑Segunda Jerusalén, la iglesia más grande de la región San Martín y la más grande del Perú entre las iglesias evangélicas. El centro turístico TioYacu brinda acceso a pozas y cascadas naturales, ideales para el baño y el ecoturismo."
+  },
+  {
+    "slug": "rioblanco",
+    "name": "Rioblanco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Tolima",
+    "regionSlug": "tolima",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chaparral",
+      "pradera",
+      "florida",
+      "miranda",
+      "palmira",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rioblanco, municipio de Tolima, limita al norte con Chaparral y al sur con Planadas, y alberga parte del Parque Nacional Natural Nevado del Huila.",
+    "aboutTitle": "Rioblanco y el Parque Nacional Natural Nevado del Huila",
+    "about": "Rioblanco es un municipio colombiano ubicado en el departamento de Tolima. Limita por el norte con el municipio de Chaparral, al sur con Planadas, al este con Ataco y al oeste con el departamento del Valle del Cauca. Forma parte de la ecorregión del macizo colombiano y alberga importantes corredores biológicos, entre los que destacan los Parques Nacionales Naturales Nevado del Huila y Las Hermosas, ambos declarados áreas de manejo especial. La gestión territorial está a cargo de la Corporación para el Desarrollo y Social CORPES Centro Oriente, que tiene jurisdicción en varios departamentos de la región central del país.\n\nEn el periodo de las postrimerías del siglo pasado la zona de Rioblanco estuvo marcada por la extracción de caucho y quina, recursos de alto valor comercial. Según relatos locales, en 1897 las riberas del Río Mendarco estaban semi‑descubiertas, extendiéndose desde el sitio “El Mesón” hasta la desembocadura del torrentoso Saldaña, donde los habitantes combinaban la agricultura con la explotación del caucho. Estas actividades dieron forma a la historia temprana del municipio y dejaron huellas en la cultura local."
+  },
+  {
+    "slug": "marsella",
+    "name": "Marsella",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Risaralda",
+    "regionSlug": "risaralda",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "dosquebradas",
+      "pereira",
+      "santa-rosa-de-cabal",
+      "chinchina",
+      "la-virginia",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Marsella, Risaralda, se ubica a 33 km al noroeste de Pereira y celebra sus fiestas aniversarias del 18 al 20 de julio, del Paisaje Cultural Cafetero UNESCO.",
+    "aboutTitle": "Río Cauca y las fiestas de julio en Marsella",
+    "about": "Marsella es un municipio del departamento de Risaralda, situado a 33 km al noroeste de Pereira, la capital departamental. Su territorio es montañoso y está atravesado por los ríos Cauca y San Francisco, lo que le confiere una importante riqueza hídrica. Forma parte del Paisaje Cultural Cafetero, declarado Patrimonio de la Humanidad por la UNESCO, y su economía se sustenta principalmente en la agricultura, destacándose el cultivo de café, plátano, cítricos y cacao. Entre sus atractivos turísticos destacan la Casa de la Cultura, que celebró su 50 aniversario como centro de promoción artística, el Jardín Botánico Alejandro Humboldt y el cementerio Jesús María Estrada, conocido por su arquitectura gótica y barroca. Fundada en 1860 bajo el nombre de \"Villa Rica de Segovia\" y luego \"Segovia\", la población pasó a llamarse Marsella el 8 de abril de 1915. Sus fundadores fueron Pedro Pineda y María Gregoria Muñoz, acompañados de José Bedoya, Pedro Castaño, Estanislao Obando, Luis Betancur, Felipe Otálvaro y Félix Toro. Las fiestas más representativas son las aniversarias, que se celebran del 18 al 20 de julio, y las del Amor y la Amistad, que tienen lugar en noviembre."
+  },
+  {
+    "slug": "ipala",
+    "name": "Ipala",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-ana",
+      "ahuachapan",
+      "santa-rosa-de-copan",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ipala, municipio de Chiquimula en Guatemala, cuenta con 24.024 habitantes y destaca por su volcán con cráter‑laguna y la fiesta de San Ildefonso en enero.",
+    "aboutTitle": "Volcán de Ipala y la laguna del cráter, corazón del municipio",
+    "about": "Ipala es un municipio del departamento de Chiquimula, Guatemala, con una población de 24.024 habitantes según el censo oficial de 2018. El territorio abarca 228 km² y la cabecera se sitúa a 832 m sobre el nivel del mar. El nombre proviene del idioma xinca, donde «Ipala» significa baño o tina, aludiendo a la laguna que se encuentra en la cumbre del volcán homónimo. El municipio fue elevado a categoría de municipio el 11 de octubre de 1825 y está clasificado como de segunda categoría.\n\nEntre sus atractivos destaca el volcán de Ipala, cuyo cráter alberga una laguna de aguas tranquilas. La fiesta titular se celebra en enero en honor a San Ildefonso. Administrativamente, Ipala se divide en un pueblo, treinta y una aldeas, cuarenta y nueve caseríos y cuatro fincas. La población es mayoritariamente adulta: el 70,33 % supera los 15 años, mientras que el 24,55 % tiene entre 6 y 15 años. El clima es templado (clasificación Aw), con una estación lluviosa conocida como invierno y una seca como verano."
+  },
+  {
+    "slug": "caazapa",
+    "name": "Caazapá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Caazapá",
+    "regionSlug": "departamento-de-caazapa",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villarrica-paraguay",
+      "coronel-oviedo",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Caazapá, ciudad del Paraguay, fue fundada en 1607 por el fraile Luis de Bolaños y se encuentra a 230 km de Asunción, capital del departamento homónimo.",
+    "aboutTitle": "Fundación franciscana y ubicación de Caazapá",
+    "about": "Caazapá es un municipio y ciudad histórica del Paraguay que ejerce como capital del Departamento de Caazapá. Se sitúa al oeste del departamento, a 230 kilómetros de la capital nacional, Asunción. La fundación se remonta al año 1607, cuando el fraile franciscano Luis de Bolaños estableció allí una reducción bajo la denominación de San José de Tebicuary; poco tiempo después la reducción pasó a llamarse San José de Caazapá. En el marco de la Gobernación del Río de la Plata, la reducción de Caazapá llegó a ser la más importante de la región, concentrando la actividad religiosa franciscana. El nombre actual, Caazapá, proviene de la denominación original de la misión y ha perdurado hasta la actualidad. La ciudad conserva su carácter histórico, reflejando la huella de la misión franciscana que dio origen a la población. Actualmente sigue siendo el centro administrativo del departamento y mantiene su vinculación con la historia colonial del país."
+  },
+  {
+    "slug": "laguna-salada",
+    "name": "Laguna Salada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Valverde",
+    "regionSlug": "valverde",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "moca",
+      "la-vega",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Laguna Salada, municipio de Valverde, República Dominicana, atraviesa la Autopista Duarte y fue escenario de combates de la guerra restauradora en 1863.",
+    "aboutTitle": "Autopista Duarte y la guerra restauradora en Laguna Salada",
+    "about": "Laguna Salada es un municipio de la provincia de Valverde, en la República Dominicana. La Autopista Duarte comunica el territorio de este a oeste. Formó parte de la Línea Noroeste y participó en la guerra restauradora. En 1863, el brigadier español Manuel Buceta fue interceptado por los generales dominicanos Benito Monción y Pedro Pimentel; en el breve combate resultó herido Monción. El 22 de agosto de 1863, en el lugar conocido como La Barranquita, los generales Gaspar Polanco y Pedro Pimentel volvieron a detener a la columna española, liberando a numerosos compatriotas. El 3 de julio de 1916, ochenta hombres procedentes de Mao, Hato Nuevo, Pretiles, Guayacanes, Maizal y Laguna Salada, bajo las órdenes del general Carlos Daniel, se congregaron en el Cerro de la Barranquita para enfrentar a los marines norteamericanos. En el cerro permanece un monumento que recuerda la acción, aunque hoy se encuentra abandonado. Otros episodios locales incluyen la Sabana de los Chávez, escenario de enfrentamientos internos, y la estancia del general Máximo Gómez en la casa de Jesús Domínguez, donde se reunieron patriotas para planear la liberación de Cuba."
+  },
+  {
+    "slug": "pespire",
+    "name": "Pespire",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Choluteca",
+    "regionSlug": "departamento-de-choluteca",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "choluteca",
+      "honduras",
+      "tegucigalpa",
+      "san-miguel",
+      "danli",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pespire, municipio de Choluteca en Honduras, cuenta con 24.159 habitantes y su nombre proviene del Río de las Piritas Pequeñas.",
+    "aboutTitle": "Río Pespire y la Iglesia San Francisco de Asís",
+    "about": "Pespire es un municipio del departamento de Choluteca (coordenadas 13°35′00″N 87°22′00″O). Su nombre proviene del término indígena que significa “Río de las Piritas Pequeñas”; según los habitantes locales también se asocia al canto del pájaro pespire (tapera naevia). El origen del nombre combina Petztli, que significa agua o río, y Li, también alude al agua, mientras que ‘Piritas’ era un mineral amarillo brillante que se relacionaba con la piedra. El municipio recibió categoría en 1794 por la Corona española y el 18 de febrero de 1929 se le concedió el título de ciudad.\n\nCon una población de 24.159 habitantes, el 49,6 % son hombres y el 50,4 % mujeres; casi el 14,8 % vive en la zona urbana. La división política incluye 11 aldeas y 212 caseríos (censo 2013). Los servicios disponibles abarcan agua potable, energía eléctrica, bancos, centros y tiendas comerciales, clínicas médicas y dentales, centros educativos, farmacias, hospedaje, iglesias, mercados, restaurantes, seguridad, transporte, telefonía móvil, veterinaria, cable y cooperativa. El centro histórico conserva calles empedradas, una alcaldía de madera y la Iglesia Católica San Francisco de Asís, fundada en 1900 y conocida por sus tres cúpulas. Otros atractivos son el Parque Central, el Hotel Palmeras, el Centro Comercial La Placita de Aitor, el Cerro El Bañadero, el Cerro de La Cruz y el Río Pespire, un balneario de aguas dulces."
+  },
+  {
+    "slug": "atoyac",
+    "name": "Atoyac",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 225,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-veracruz",
+      "fortin-de-las-flores",
+      "ixtaczoquitlan",
+      "huatusco",
+      "coscomatepec-de-bravo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Atoyac, municipio del centro de Veracruz, lleva un nombre náhuatl que significa “en el agua que corre”, aludiendo a su río.",
+    "aboutTitle": "Atoyac: río, heráldica y puente de piedra del siglo XVII",
+    "about": "Atoyac es un municipio ubicado en el centro del estado de Veracruz, México, cuya cabecera lleva el mismo nombre. El nombre de este municipio deriva de los vocablos náhuatl alt y toyahul o a-toya-k, que pueden interpretarse como “en el agua que corre” o corriente de agua, referencia al río Atoyac que atraviesa la zona. En su escudo aparecen la frase “Atoyac lugar junto al río”, un ingenio azucarero, el plan de San Ricardo fechado el 14 de julio de 1910, un langostino sobre la cascada del río, frutas tropicales, una iglesia, puentes y túneles ferrocarrileros. Históricamente la región estuvo habitada por la cultura Totonaca y, para el año 800, formaba parte del Señorío de Tototlan; luego fue conquistada por los aztecas y quedó bajo el señorío de Cuauhtochco. Durante la conquista española se produjo un mestizaje entre indígenas, negros y españoles, mientras la población nativa sufrió una fuerte explotación. En el siglo XVII los españoles levantaron un famoso puente de piedra, que ha sido reconstruido en diversas ocasiones, subrayando la importancia de los cruces fluviales para la comunidad."
+  },
+  {
+    "slug": "maimon",
+    "name": "Maimón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Monseñor Nouel",
+    "regionSlug": "monsenor-nouel",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "republica-dominicana",
+      "santo-domingo",
+      "san-francisco-de-macoris",
+      "la-vega",
+      "san-cristobal-rd",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Maimón, municipio de Monseñor Nouel en República Dominicana, cuenta con 23.885 habitantes y se ubica entre los ríos Maimón, La Leonora, Yuna y Zinc.",
+    "aboutTitle": "Maimón: valle entre ríos y montañas de Monseñor Nouel",
+    "about": "Maimón es un municipio de la República Dominicana ubicado en la provincia de Monseñor Nouel. Según el Censo de Población y Vivienda de 2022 cuenta con 23 885 habitantes, de los cuales el 49,1 % son hombres y el 50,9 % mujeres. El territorio se asienta en un pequeño valle rodeado de montañas como la loma de La Peguera, Loma Mala, La Lomita y Loma Siete Cabezas, y está delimitado al oeste por el municipio de Piedra Blanca en el kilómetro 5 de la carretera que los une, al este por la provincia de Sánchez Ramírez a lo largo del río Zinc y al norte por el río Yuna.\n\nAntes de la llegada de los europeos, los pueblos originarios se establecieron cerca de Maimón, en el sitio conocido como El Pino a orillas del río Maimón. En el siglo XX, el 17 de agosto de 1925 se erigió la Sección de Maimón como distrito municipal dependiente de Cotuí, pero el 29 de enero de 1932 perdió esa categoría y volvió a ser sección. Con la creación de la provincia Monseñor Nouel el 22 de septiembre de 1982, Maimón y el poblado de Piedra Blanca pasaron a formar parte de la nueva división territorial. A principios de la década de los noventa, la construcción de la presa de Hatillo y la extracción de oro en los campos de los Cacaos provocaron una importante emigración hacia el municipio."
+  },
+  {
+    "slug": "quesada-guatemala",
+    "name": "Quesada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Jutiapa",
+    "regionSlug": "departamento-de-jutiapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "ipala",
+      "santa-ana",
+      "villa-nueva",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quesada, municipio de Jutiapa en Guatemala, celebra su feria del 26 al 30 de noviembre en honor a Santa Catalina de Alejandría.",
+    "aboutTitle": "Feria titular de Santa Catalina en Quesada (noviembre)",
+    "about": "Quesada es un municipio del departamento de Jutiapa, en la región sur‑oriente de Guatemala. Se sitúa a 18 km al oeste de la cabecera departamental Jutiapa y a 104 km de la Ciudad de Guatemala. El municipio posee una extensión territorial de 84 km² y está formado por 19 aldeas y 23 caseríos. Su origen se remonta a 1740, cuando la hacienda «Santa Catarina Quesada» fue concedida al señor Domingo López Urruela, originario de Quesada, Jaén, Andalucía, España; el nombre combina la alusión a su pueblo natal y a la patrona de Jaén. El 18 de junio de 1897 Quesada fue declarado oficialmente municipio del departamento. Cada año, del 26 al 30 de noviembre, se celebra la feria titular en honor a Santa Catalina de Alejandría, patrona del municipio. La toponimia incluye un error histórico: en la Constitución de 1825 apareció como «Quezada», corrección que se logró mediante el acuerdo gubernativo 197‑1956 tras la petición de los vecinos. Quesada se encuentra entre el norte de Jalpatagua, al este de San José Acatempa, al oeste de la cabecera departamental y al sur de Casillas, municipio de Santa Rosa."
+  },
+  {
+    "slug": "fantino",
+    "name": "Fantino",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 216,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Sánchez Ramírez",
+    "regionSlug": "sanchez-ramirez",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "maimon",
+      "la-vega",
+      "moca",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fantino, municipio de Sánchez Ramírez en República Dominicana, cuenta con 23.780 habitantes y celebra su renombre oficial el 26 de febrero de 1952.",
+    "aboutTitle": "Historia y agricultura de Fantino, Sánchez Ramírez",
+    "about": "Fantino es un municipio dominicano situado en la provincia de Sánchez Ramírez. Sus orígenes se remontan a asentamientos agrícolas que explotaban tierras comuneras para el corte de madera y cultivos de cacao, café, arroz y frutos menores. En sus inicios la población se conocía como «La Piña» o «Piña Vieja», aprovechando su posición geográfica para el comercio con áreas vecinas. El nombre actual honra al sacerdote italiano Giovanni Francesco Fantino Falco, quien llegó al país en 1899 y fundó el colegio San Sebastián en 1903. En su honor, el 26 de febrero de 1952, al crearse la provincia de Sánchez Ramírez, el gobierno rebautizó «La Piña» como Fantino, elevándolo a distrito municipal.\n\nSegún el Censo de 2022, Fantino cuenta con 23.780 habitantes, de los cuales 11.918 son hombres y 11.862 mujeres, y aproximadamente el 56,80 % de la población vive en zonas rurales, alrededor de 13.506 personas. La economía del municipio está dominada por la agricultura, destacándose como uno de los mayores productores de arroz del país, gracias a sus condiciones geográficas favorables."
+  },
+  {
+    "slug": "ortiz",
+    "name": "Ortíz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Guárico",
+    "regionSlug": "guarico",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-juan-de-los-morros",
+      "maracay",
+      "valencia-venezuela",
+      "los-teques",
+      "puerto-cabello",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ortíz, municipio de Guárico, cuenta con cuatro parroquias y celebra su historia desde la autonomía de 1848 hasta hoy.",
+    "aboutTitle": "Parroquias y origen del nombre de Ortiz en Guárico",
+    "about": "El municipio Ortiz forma parte de los quince municipios que integran el estado Guárico, en Venezuela, y está subdividido en cuatro parroquias: Ortiz, San Francisco de Tiznados, San José de Tiznados y San Lorenzo de Tiznados, que deben su nombre al río Tiznados. El topónimo proviene de un cacique indígena que habitó la zona, aunque también se menciona la posible influencia de un colono español llamado Ortiz a finales del siglo XV.\n\nFundada a finales del siglo XVII como parroquia civil de San Sebastián de los Reyes, Ortiz pasó de pertenecer al antiguo estado Aragua a incorporarse a Guárico tras un tratado territorial. Alcanzó la autonomía en 1848 como cantón, fue capital del estado entre 1874 y 1881 y recuperó su autonomía municipal el 4 de febrero de 1989. El escritor Miguel Otero Silva ambientó en Ortiz su novela Casas Muertas, publicada por Editorial Losada en 1955, retratando la vida de un pueblo amenazado por la fiebre amarilla y el caudillismo."
+  },
+  {
+    "slug": "santa-apolonia",
+    "name": "Santa Apolonia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 223,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "antigua-guatemala",
+      "mixco",
+      "villa-nueva",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Apolonia, municipio de Chimaltenango en Guatemala, cuenta con 23.751 habitantes y celebra sus fiestas patronales en febrero en honor a santa protectora.",
+    "aboutTitle": "Fiestas patronales de febrero en Santa Apolonia, Chimaltenango",
+    "about": "Santa Apolonia es un municipio del departamento de Chimaltenango, en la República de Guatemala. Con una superficie de 96 km² y situada a 2 310 m sobre el nivel del mar, la cabecera municipal presenta un clima templado de tipo Cwb según la clasificación de Köppen. En el censo oficial de 2018 la población se contabilizó en 23.751 habitantes en 2022. El municipio está rodeado exclusivamente por localidades del mismo departamento: al norte limita con Tecpán y San José Poaquil, al noreste con San José Poaquil, al sur, suroeste y oeste con Tecpán, al este con San José Poaquil y San Juan Comalapa, y al sureste con San Juan Comalapa.\n\nDurante la época precolombina la zona formó parte del Reino kaqchiquel y, tras la conquista española, quedó incorporada a la parroquia de Tecpán. Tras la independencia de Centroamérica en 1821, Santa Apolonia fue asignada al circuito de Comalapa dentro del Distrito N.º 9 (Sacatepéquez) para la impartición de justicia mediante juicios de jurado. El nombre del municipio honra a Santa Apolonia de Alejandría, patrona del poblado, y sus fiestas patronales se celebran en el mes de febrero en su honor."
+  },
+  {
+    "slug": "quebradillas",
+    "name": "Quebradillas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arecibo",
+      "mayaguez",
+      "ponce",
+      "bayamon",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quebradillas, municipio del norte de Puerto Rico, cuenta con ocho barrios y su centro administrativo es Quebradillas Pueblo, a orillas del Atlántico.",
+    "aboutTitle": "Historia y geografía de Quebradillas, Puerto Rico",
+    "about": "Quebradillas es un municipio del Estado Libre Asociado de Puerto Rico situado en la costa norte, frente al océano Atlántico. Limita al este con Camuy, al sur con San Sebastián y al oeste con Isabela. El municipio se compone de ocho barrios, y su núcleo administrativo es Quebradillas Pueblo, que concentra la mayor parte de la actividad urbana.\n\nEn 1823 Quebradillas se independizó y al año siguiente se construyó la Casa del Rey. La iglesia parroquial, dedicada a San Rafael Arcángel, se terminó en 1828 bajo la dirección del reverendo Padre Manuel Valdez, su primer párroco. La iglesia de San Rafael Arcángel es considerada una de las más espaciosas del archipiélago. El impulso inicial provino de Felipe Ruis, quien donó nueve cuerdas de su finca para la construcción de la iglesia y la Casa del Rey. El primer alcalde fue Felipe Ruis, elegido por los vecinos del antiguo Hato de la Tuna. A principios del siglo XX, la Asamblea Legislativa aprobó en 1902 una ley que anexó el municipio a Camuy; la unión permaneció hasta 1905, cuando la legislación devolvió la autonomía municipal."
   }
 ];
