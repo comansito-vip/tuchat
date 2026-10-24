@@ -31375,5 +31375,60 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Quebradillas, municipio del norte de Puerto Rico, cuenta con ocho barrios y su centro administrativo es Quebradillas Pueblo, a orillas del Atlántico.",
     "aboutTitle": "Historia y geografía de Quebradillas, Puerto Rico",
     "about": "Quebradillas es un municipio del Estado Libre Asociado de Puerto Rico situado en la costa norte, frente al océano Atlántico. Limita al este con Camuy, al sur con San Sebastián y al oeste con Isabela. El municipio se compone de ocho barrios, y su núcleo administrativo es Quebradillas Pueblo, que concentra la mayor parte de la actividad urbana.\n\nEn 1823 Quebradillas se independizó y al año siguiente se construyó la Casa del Rey. La iglesia parroquial, dedicada a San Rafael Arcángel, se terminó en 1828 bajo la dirección del reverendo Padre Manuel Valdez, su primer párroco. La iglesia de San Rafael Arcángel es considerada una de las más espaciosas del archipiélago. El impulso inicial provino de Felipe Ruis, quien donó nueve cuerdas de su finca para la construcción de la iglesia y la Casa del Rey. El primer alcalde fue Felipe Ruis, elegido por los vecinos del antiguo Hato de la Tuna. A principios del siglo XX, la Asamblea Legislativa aprobó en 1902 una ley que anexó el municipio a Camuy; la unión permaneció hasta 1905, cuando la legislación devolvió la autonomía municipal."
+  },
+  {
+    "slug": "soto-la-marina",
+    "name": "Soto la Marina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Soto la Marina, poblada en Tamaulipas desde el 3 de septiembre de 1750, se estableció junto al arroyo Marina Vieja tras una breve estancia en el río Nueces.",
+    "aboutTitle": "Historia y entorno del Río Nueces en Soto la Marina",
+    "about": "Soto la Marina es una población del estado de Tamaulipas, México, cabecera del municipio homónimo. Fue fundada el 3 de septiembre de 1750 por Don José de Escandón, bajo la advocación de Nuestra Señora de la Consolación y los santos mártires Celedonio y Emeterio. El nombre proviene de la localidad cántabra natal de Escandón y del patronazgo de los mártires de Santander. Las primeras cuarenta y ocho familias criollas, reclutadas por Pedro González de Paredes y Roque de la Barrera, llegaron tras una larga caravana; inicialmente se les ordenó fundar la villa a orillas del río Nueces, donde permanecieron un tiempo y murieron algunos, entre ellos Pedro González. Posteriormente la población se estableció en un lugar inmediato a un arroyo de buena agua, actualmente llamado Marina Vieja. La villa se caracterizó por la pobreza y la dependencia del pastoreo, ya que los pobladores no sabían cultivar la tierra. En sus inicios la comunidad contaba con doscientos veinticinco habitantes, entre soldados de cuera y milicianos que defendían la zona de incursiones indígenas. En 1757, José Tienda de Cuervo y Agustín López de la Cámara Alta fueron comisionados para examinar las poblaciones fundadas por Escandón en el Nuevo Santander."
+  },
+  {
+    "slug": "freire",
+    "name": "Freire",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de La Araucanía",
+    "regionSlug": "region-de-la-araucania",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "temuco",
+      "valdivia",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Freire, comuna de Cautín en La Araucanía, surgió con el Fuerte de Freire fundado el 7 de diciembre de 1882, a 7 km del fuerte y 25 km de Temuco.",
+    "aboutTitle": "Fuerte de Freire y su desarrollo histórico en Araucanía",
+    "about": "Freire es una comuna de la provincia de Cautín, en la Región de La Araucanía, sur de Chile. Durante el gobierno del general Manuel Bulnes, Bernardo Philippi y Vicente Pérez Rosales fueron encargados de atraer inmigrantes alemanes para colonizar el sur del país. El plan cobró mayor relevancia tras la guerra del Pacífico, cuando el gobierno de Domingo Santa María envió tropas bajo el mando del coronel Gregorio Urrutia para incorporar el territorio al sur del río Biobío a la soberanía chilena. En noviembre de 1882 el Ejército de La Frontera se concentró en Temuco para consolidar la línea del Cautín y contener la resistencia mapuche; el 20 de noviembre una expedición destinada a refundar Villarrica se detuvo en Mahuidache y llegó el 7 de diciembre al sitio donde se fundó el Fuerte de Freire, en honor al director supremo Ramón Freire. El colonizador alemán Juan Schleyer trazó el pueblo a 7 km del fuerte y a 25 km de Temuco; el plano fue aprobado el 21 de noviembre de 1885 y la comuna se constituyó el 17 de marzo de 1919. En 1900 comenzó a operar el ferrocarril, y en 1907 se inauguró la primera escuela bajo la dirección de Onofre Colina. El primer automóvil llegó en 1914, adquirido por Juan de la Fuente. En 1917 se instaló una oficina de la Compañía de Teléfonos, que permaneció hasta 1973, y la oficina de telégrafo comercial funcionó de 1918 a 1940. Estas infraestructuras marcaron un avance significativo en la historia local."
   }
 ];
