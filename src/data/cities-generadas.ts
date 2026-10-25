@@ -31430,5 +31430,124 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Freire, comuna de Cautín en La Araucanía, surgió con el Fuerte de Freire fundado el 7 de diciembre de 1882, a 7 km del fuerte y 25 km de Temuco.",
     "aboutTitle": "Fuerte de Freire y su desarrollo histórico en Araucanía",
     "about": "Freire es una comuna de la provincia de Cautín, en la Región de La Araucanía, sur de Chile. Durante el gobierno del general Manuel Bulnes, Bernardo Philippi y Vicente Pérez Rosales fueron encargados de atraer inmigrantes alemanes para colonizar el sur del país. El plan cobró mayor relevancia tras la guerra del Pacífico, cuando el gobierno de Domingo Santa María envió tropas bajo el mando del coronel Gregorio Urrutia para incorporar el territorio al sur del río Biobío a la soberanía chilena. En noviembre de 1882 el Ejército de La Frontera se concentró en Temuco para consolidar la línea del Cautín y contener la resistencia mapuche; el 20 de noviembre una expedición destinada a refundar Villarrica se detuvo en Mahuidache y llegó el 7 de diciembre al sitio donde se fundó el Fuerte de Freire, en honor al director supremo Ramón Freire. El colonizador alemán Juan Schleyer trazó el pueblo a 7 km del fuerte y a 25 km de Temuco; el plano fue aprobado el 21 de noviembre de 1885 y la comuna se constituyó el 17 de marzo de 1919. En 1900 comenzó a operar el ferrocarril, y en 1907 se inauguró la primera escuela bajo la dirección de Onofre Colina. El primer automóvil llegó en 1914, adquirido por Juan de la Fuente. En 1917 se instaló una oficina de la Compañía de Teléfonos, que permaneció hasta 1973, y la oficina de telégrafo comercial funcionó de 1918 a 1940. Estas infraestructuras marcaron un avance significativo en la historia local."
+  },
+  {
+    "slug": "palenque-ecuador",
+    "name": "Palenque",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Los Ríos",
+    "regionSlug": "los-rios",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "babahoyo",
+      "daule",
+      "quevedo",
+      "milagro",
+      "guayaquil",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Palenque, cantón ecuatoriano de Los Ríos, alberga 26.221 habitantes y se extiende sobre 579,63 km²; conoce su ubicación, límites y administración municipal.",
+    "aboutTitle": "Límites y territorio del cantón Palenque en Los Ríos",
+    "about": "Palenque es un cantón de la provincia de Los Ríos, Ecuador, y uno de los trece cantones que la integran. Su cabecera cantonal es la ciudad de Palenque. Según datos, su población es de 26.221 habitantes y su superficie 579.63 km², lo que lo sitúa como el duodécimo cantón más poblado de la provincia. Limita al noroeste con Balzar, al norte y noreste con Mocache, y al suroeste, sur y sureste con Vinces.\n\nEl gobierno municipal de Palenque se rige por los artículos 253 y 264 de la Constitución y por el Código Orgánico de Organización Territorial, Autonomía y Descentralización (COOTAD). El poder ejecutivo está a cargo del alcalde Jordy Carriel, electo para el período 2023‑2027, quien posee voto dirimente en el concejo cantonal. El vicealcalde, seleccionado entre los concejales, complementa la administración. El alcalde y el vicealcalde cumplen un mandato de cuatro años y pueden ser reelegidos. El cargo de alcalde se elige por sufragio directo en una sola vuelta electoral, sin fórmulas ni binomios. El Gobierno Autónomo Municipal del Cantón Palenque actúa como entidad seccional autónoma respecto al gobierno central. El municipio gestiona áreas como planificación, finanzas, servicios municipales y turismo, y publica sus ordenanzas y planes de contratación en la página oficial."
+  },
+  {
+    "slug": "el-retorno",
+    "name": "El Retorno",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 226,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Guaviare",
+    "regionSlug": "guaviare",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-jose-del-guaviare",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Retorno, municipio del Guaviare a 420 km de Bogotá, es la capital ganadera del departamento y cuenta con 22.975 habitantes.",
+    "aboutTitle": "El Retorno, la capital ganadera del Guaviare",
+    "about": "El Retorno es un municipio colombiano situado en el departamento del Guaviare, en la región amazónica. Se ubica a 420 km de Bogotá y se extiende sobre una superficie de 1.017 km². La cabecera municipal está a 245 metros sobre el nivel del mar y la temperatura promedio es de 25 °C. Según el censo, la población total asciende a 22.975 habitantes, de los cuales 11.684 viven en el área urbana y 11.291 en la zona rural; la comunidad indígena cuenta con aproximadamente 730 personas. El territorio está dividido en 75 veredas, cinco resguardos indígenas y tres centros poblados.\n\nLa economía gira en torno a la ganadería, razón por la cual el municipio es denominada la capital ganadera del departamento, y a la explotación del caucho. El Retorno se fundó como municipio el 14 de noviembre de 1968, producto de procesos de colonización del siglo XX. El acceso se realiza por vía terrestre desde San José del Guaviare, mediante la Ruta Nacional 75, y por vía fluvial desde Puerto Inírida a través del río Caño Grande."
+  },
+  {
+    "slug": "piriapolis-departamento-de-maldonado",
+    "name": "Piriápolis",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Maldonado",
+    "regionSlug": "departamento-de-maldonado",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "maldonado",
+      "punta-del-este",
+      "minas",
+      "ciudad-de-la-costa",
+      "uruguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Piriápolis, municipio uruguayo del departamento de Maldonado, tiene cerca de 24.000 habitantes, superficie de 192 km² y fue creado el 15 de marzo de 2010.",
+    "aboutTitle": "Piriápolis: municipio costero creado en 2010 y su territorio",
+    "about": "El municipio actualmente de Piriápolis es uno de los ocho municipios que conforman el departamento de Maldonado, Uruguay. Fue creado por la Ley N.º 18.653 el 15 de marzo de 2010. Se sitúa en la zona suroeste del departamento y abarca una superficie de 192 km², lo que representa el 4 % del territorio departamental. Según datos, alberga alrededor de 24 000 habitantes, equivalentes al 11,12 % de la población total de Maldonado.\n\nDentro de sus límites se encuentran localidades como Barra de Portezuelo, La Capuera, Ocean Park, Playa Grande y Punta Colorada, entre otras. La jurisdicción territorial quedó establecida por el Decreto N.º 3862 del 11 de febrero de 2010 y, tras la ampliación del Decreto N.º 3909 del 2 de diciembre de 2014, el municipio se divide en los distritos electorales DCB Piriápolis y DCG La Capuera. La autoridad municipal está compuesta por el Concejo Municipal, integrado por el alcalde y cuatro concejales."
+  },
+  {
+    "slug": "zaruma",
+    "name": "Zaruma",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de El Oro",
+    "regionSlug": "provincia-de-el-oro",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "machala",
+      "duran",
+      "loja",
+      "cuenca",
+      "tumbes",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zaruma, la ‘Sultana de El Oro’, es Pueblo Mágico desde 2019 y está en la lista indicativa de la UNESCO desde 1998.",
+    "aboutTitle": "Zaruma: Sultana de El Oro y Pueblo Mágico del Ecuador",
+    "about": "Zaruma, oficialmente Villa del Cerro de Oro de San Antonio de Zaruma, es la cabecera cantonal del cantón Zaruma, en la provincia de El Oro, Ecuador. La localidad ha recibido varios reconocimientos oficiales: en 1977 obtuvo el título de Ciudad de Interés Turístico Nacional, en 1990 se le concedió el estatus de Patrimonio Cultural del Estado Ecuatoriano y en 2019 fue declarada Pueblo Mágico del Ecuador. Desde 1998 Zaruma figura en la lista indicativa de la UNESCO para ser declarada Patrimonio Cultural de la Humanidad. Popularmente se le conoce como la Sultana de El Oro. Los títulos recibidos reflejan la relevancia de su patrimonio y su historia. Esta combinación de atributos ha llevado a que la localidad sea incluida en la lista indicativa de la UNESCO desde 1998. El título de Ciudad de Interés Turístico Nacional fue otorgado en 1977. El reconocimiento como Patrimonio Cultural del Estado Ecuatoriano se dio en 1990. La designación como Pueblo Mágico del Ecuador se realizó en 2019."
   }
 ];
