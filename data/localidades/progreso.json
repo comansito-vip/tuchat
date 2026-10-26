@@ -1075,7 +1075,11 @@
   "palenque-ecuador",
   "el-retorno",
   "piriapolis-departamento-de-maldonado",
-  "zaruma"
+  "zaruma",
+  "jiquilpan-de-juarez",
+  "puerto-guzman",
+  "juayua",
+  "pedernales"
  ],
  "descartadas": [
   {
@@ -11572,6 +11576,141 @@
    "slug": "cajaruro",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-10-25"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "huaquechula",
+   "razon": "fraseo calcado de tlacotepec-de-benito-juarez: \"en la division administrativa del estado de\"",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "casma",
+   "razon": "rechazada tras corrección: El texto añade información geográfica, climática y socioeconómica que no está presente en la fuente original (detalles sobre el clima con temperaturas moderadas, escasa vegetación, suelo aluvial, duna",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "acora-departamento-de-puno",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "venustiano-carranza-michoacan",
+   "razon": "rechazada tras corrección: La afirmación de que su gestión presidencial se caracterizó por la consolidación o búsqueda de un 'orden constitucional' tras años de conflicto no figura en el material de origen.",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "vicente-guerrero",
+   "razon": "rechazada tras corrección: El material de origen es una biografía de una persona, no contiene ninguna información sobre una localidad en Puebla, México. Toda la información geográfica y la relación del nombre con una población ",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "yunguyo",
+   "razon": "rechazada tras corrección: El material de origen no menciona que Yunguyo cumpla funciones administrativas, que sea un centro de servicios públicos, que esté en la zona altiplánica, que esté en la región andina ni que tenga acti",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "balsapuerto",
+   "razon": "fraseo calcado de echarate-departamento-de-cusco: \"el punto de vista eclesiastico pertenece al\"",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "las-margaritas",
+   "razon": "rechazada tras corrección: Error en el nombre propio de la localidad en el intro ('Las Margaridas' en lugar de 'Las Margaritas').; El material de origen no menciona que se celebre la 'fiesta de Santa Margarita' (solo indica que",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "urubamba-departamento-de-cusco",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "pueblo-nuevo-venezuela",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "cajaruro",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "machachi",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "canelones",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
+  },
+  {
+   "slug": "caraz",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-26"
   }
  ]
 }

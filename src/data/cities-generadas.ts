@@ -31549,5 +31549,125 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Zaruma, la ‘Sultana de El Oro’, es Pueblo Mágico desde 2019 y está en la lista indicativa de la UNESCO desde 1998.",
     "aboutTitle": "Zaruma: Sultana de El Oro y Pueblo Mágico del Ecuador",
     "about": "Zaruma, oficialmente Villa del Cerro de Oro de San Antonio de Zaruma, es la cabecera cantonal del cantón Zaruma, en la provincia de El Oro, Ecuador. La localidad ha recibido varios reconocimientos oficiales: en 1977 obtuvo el título de Ciudad de Interés Turístico Nacional, en 1990 se le concedió el estatus de Patrimonio Cultural del Estado Ecuatoriano y en 2019 fue declarada Pueblo Mágico del Ecuador. Desde 1998 Zaruma figura en la lista indicativa de la UNESCO para ser declarada Patrimonio Cultural de la Humanidad. Popularmente se le conoce como la Sultana de El Oro. Los títulos recibidos reflejan la relevancia de su patrimonio y su historia. Esta combinación de atributos ha llevado a que la localidad sea incluida en la lista indicativa de la UNESCO desde 1998. El título de Ciudad de Interés Turístico Nacional fue otorgado en 1977. El reconocimiento como Patrimonio Cultural del Estado Ecuatoriano se dio en 1990. La designación como Pueblo Mágico del Ecuador se realizó en 2019."
+  },
+  {
+    "slug": "jiquilpan-de-juarez",
+    "name": "Jiquilpan de Juárez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jamay",
+      "la-barca",
+      "ocotlan",
+      "chapala",
+      "tamazula-de-gordiano",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jiquilpan de Juárez, ciudad michoacana, fue inscrita en el Programa Federal de Pueblos Mágicos el 27 de noviembre de 2012 y celebra su historia prehispánica.",
+    "aboutTitle": "El legado histórico y cultural de Jiquilpan de Juárez",
+    "about": "Jiquilpan de Juárez es una ciudad situada en el noroeste del estado de Michoacán y constituye la cabecera del municipio homónimo. Fue inscrita en el Programa Federal de Pueblos Mágicos el 27 de noviembre de 2012. El topónimo Jiquilpan proviene de los vocablos nahuas Xiuquilpan, Xiquilpan o Xiquilpa, interpretados como ‘lugar de plantas tintóreas o de añil’, mientras que en lengua purépecha se conocía como Huanimban, ‘lugar de huanitas’, árboles de flor en forma de maíz tostado.\n\nDurante la época prehispánica el asentamiento fue un importante centro cultural, agrícola y comercial, como lo evidencian los vestigios arqueológicos de El Otero. Fue conquistada en 1450 por los sucesores del irecha Tariácuri y, tras la llegada de Cristóbal de Olid en 1522, pasó a formar parte del dominio español. En 1598 una cédula encargó a Luis Carrillo de Guzmán la fundación de congregaciones franciscanas, que construyeron el templo y el convento y fundaron el primer hospital alrededor de 1549 bajo la dirección del fray Alonso de Pineda. En los siglos XVII y XVIII se establecieron cofradías, la localidad se convirtió en Alcaldía Mayor y luego en subdelegación, y en 1822 ya contaba con curato secular y ayuntamiento constitucional."
+  },
+  {
+    "slug": "puerto-guzman",
+    "name": "Puerto Guzmán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Putumayo",
+    "regionSlug": "putumayo",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villagarzon",
+      "mocoa",
+      "puerto-asis",
+      "orito",
+      "valle-del-guamuez",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Guzmán, municipio del Putumayo fundado en 1975 y elevado a categoría municipal en 1994, está a 48 km de Mocoa.",
+    "aboutTitle": "Puerto Guzmán: el joven municipio del Putumayo a 48 km de Mocoa",
+    "about": "Puerto Guzmán es un municipio colombiano situado en el sur del país, dentro del departamento del Putumayo. La población se localiza a 48 km de la capital departamental, Mocoa. Sus orígenes se remontan al año 1975, fecha en la que se fundó la comunidad. En 1992 dejó de formar parte del municipio de Mocoa y fue reconocido como entidad separada; dos años después, en 1994, alcanzó la categoría de municipio, consolidando su autonomía administrativa. Por su fecha de creación, se considera uno de los municipios más jóvenes del Putumayo. La cabecera municipal constituye el núcleo principal del territorio y, bajo su jurisdicción, se encuentran varios centros poblados que forman la división político‑administrativa local. La proximidad a Mocoa facilita la relación con la capital departamental y el acceso a servicios administrativos. En conjunto, estos elementos describen la evolución institucional y la organización territorial de Puerto Guzmán. Así se consolida su papel dentro del Putumayo."
+  },
+  {
+    "slug": "juayua",
+    "name": "Juayúa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 132,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "El Salvador",
+    "parentSlug": "el-salvador",
+    "provincia": "Departamento de Sonsonate",
+    "regionSlug": "departamento-de-sonsonate",
+    "channels": [
+      "el_salvador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "sonsonate",
+      "santa-ana",
+      "santa-tecla",
+      "apopa",
+      "el-salvador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juayúa, distrito de Sonsonate Norte en El Salvador, forma parte de la Ruta de las Flores y cuenta con 24.344 habitantes según el censo 2024.",
+    "aboutTitle": "Juayúa, enclave de la Ruta de las Flores en Sonsonate",
+    "about": "Juayúa es un distrito del municipio de Sonsonate Norte, situado en el departamento de Sonsonate, al occidente de El Salvador. Su ubicación lo incluye dentro del territorio que conforma la Ruta de las Flores, un recorrido turístico que reúne a varios pueblos de la zona para promover su patrimonio natural y cultural. \n\nCon una población de 24.344 habitantes según el censo oficial de 2024, Juayúa combina la vida rural con la actividad turística derivada de su participación en la Ruta de las Flores, lo que le permite recibir visitantes interesados en conocer los paisajes y la oferta local del occidente salvadoreño."
+  },
+  {
+    "slug": "pedernales",
+    "name": "Pedernales",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Pedernales",
+    "regionSlug": "pedernales",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pedernales, capital de su provincia en el suroeste dominicano, registró en el Censo de 2002 una población total de 13 805 habitantes.",
+    "aboutTitle": "Pedernales: frontera con Haití y cruce a Anse-à-Pitre",
+    "about": "Pedernales es la capital administrativa de la provincia homónima, situada en el suroeste de la República Dominicana. Al encontrarse en la frontera, el municipio cuenta con un cruce que enlaza con la ciudad haitiana de Anse-à-Pitre.\n\nSegún el Censo de 2002, el municipio tenía una población total de 13 805 habitantes, de los que 6 941 eran hombres y 6 864 mujeres, y el 74,89 % vivía en áreas urbanas. El Censo Nacional de 2022 registró 24 423 habitantes, 12 451 hombres y 11 972 mujeres, con 20 784 residentes en la zona urbana (85,1 % del total) y representando aproximadamente el 71,1 % de la población provincial. El municipio se fundó en 1927 bajo la iniciativa del gobierno de Horacio Vásquez, que creó una colonia agrícola bajo la protección de la Virgen de la Altagracia. En 1934 se erigió la primera fortaleza militar, y en 1937 se construyó la carretera Oviedo‑Pedernales. Fue elevado a Distrito Municipal en 1938 y a Municipio en 1947; la provincia de Pedernales se creó en diciembre de 1957."
   }
 ];
