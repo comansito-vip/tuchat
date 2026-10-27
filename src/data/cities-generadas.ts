@@ -31669,5 +31669,208 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Pedernales, capital de su provincia en el suroeste dominicano, registró en el Censo de 2002 una población total de 13 805 habitantes.",
     "aboutTitle": "Pedernales: frontera con Haití y cruce a Anse-à-Pitre",
     "about": "Pedernales es la capital administrativa de la provincia homónima, situada en el suroeste de la República Dominicana. Al encontrarse en la frontera, el municipio cuenta con un cruce que enlaza con la ciudad haitiana de Anse-à-Pitre.\n\nSegún el Censo de 2002, el municipio tenía una población total de 13 805 habitantes, de los que 6 941 eran hombres y 6 864 mujeres, y el 74,89 % vivía en áreas urbanas. El Censo Nacional de 2022 registró 24 423 habitantes, 12 451 hombres y 11 972 mujeres, con 20 784 residentes en la zona urbana (85,1 % del total) y representando aproximadamente el 71,1 % de la población provincial. El municipio se fundó en 1927 bajo la iniciativa del gobierno de Horacio Vásquez, que creó una colonia agrícola bajo la protección de la Virgen de la Altagracia. En 1934 se erigió la primera fortaleza militar, y en 1937 se construyó la carretera Oviedo‑Pedernales. Fue elevado a Distrito Municipal en 1938 y a Municipio en 1947; la provincia de Pedernales se creó en diciembre de 1957."
+  },
+  {
+    "slug": "machachi",
+    "name": "Machachi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Pichincha",
+    "regionSlug": "pichincha",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sangolqui",
+      "ecuador",
+      "quito",
+      "latacunga",
+      "santo-domingo-ecuador",
+      "pichincha",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Machachi, conocida como la Capital del Chagra, se sitúa a 2.945 m s.n.m. en la hoya del río Guayllabamba, rodeada por varios volcanes.",
+    "aboutTitle": "Machachi y el Valle de los 9 Volcanes",
+    "about": "Machachi es una ciudad ecuatoriana, cabecera cantonal del Cantón Mejía, cuarta urbe más grande de la provincia de Pichincha. Se localiza al centro‑norte de la Región interandina del Ecuador, en la hoya del río Guayllabamba, a 2.945 m s.n.m., rodeada por el Atacazo, el Pasochoa, el volcán Rumiñahui y el volcán Corazón. Su clima andino tiene una temperatura promedio de 14 °C. Es conocida como “La Capital del Chagra” y forma parte del área metropolitana de Quito, funcionando como ciudad dormitorio para miles de trabajadores que viajan a la capital.\n\nSegún el censo de 2022, Machachi cuenta con 24.188 habitantes, lo que la sitúa como la sexagésima ciudad más poblada del país y la segunda conurbación del Ecuador con 2.889.703 habitantes en total. La economía local se basa en la producción de agua mineral, la agricultura, la ganadería y el transporte. Además, el valle es llamado “Valle de los 9 Volcanes” por la cercanía de los volcanes que lo rodean."
+  },
+  {
+    "slug": "maxcanu",
+    "name": "Maxcanú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "campeche",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Maxcanú, a 65 km west of Mérida on Federal Highway 180, is a Yucatán town where 90 % of residents speak Maya and agriculture thrives.",
+    "aboutTitle": "Agricultura y herencia maya en Maxcanú, Yucatán",
+    "about": "Maxcanú es una pequeña ciudad del estado de Yucatán, cabecera del municipio homónimo, situada a unos 65 kilómetros al oeste de Mérida, sobre la Carretera Federal 180. La población es mayoritariamente indígena; alrededor del 90 % habla la lengua maya. Su nombre proviene del maya y significa “la barba de Kanul”, aunque también se interpreta como una composición que alude a “cuatro monos”.\n\nLa economía local se basa en la agricultura, destacando cultivos como la jícama, el maíz, el chile habanero, la sábila y la papaya maradol. Históricamente, Maxcanú formó parte del cacicazgo de Ah Canul y, tras la Conquista, fue encomienda de José Domingo Pardío con 256 indios en 1734. El 28 de abril de 1914 recibió el título de Ciudad por decreto, aunque poco después volvió a ser Villa. El municipio cubre 913.405 km² según datos oficiales."
+  },
+  {
+    "slug": "quillabamba",
+    "name": "Quillabamba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cusco",
+    "regionSlug": "departamento-de-cusco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "abancay",
+      "cusco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quillabamba, capital de la provincia La Convención en Cusco, se ubica a 1.050 m s.n.m. y se estima que su población alcanzará 61.119 habitantes en 2024.",
+    "aboutTitle": "Quillabamba: capital de La Convención a 1.050 m sobre el nivel del mar",
+    "about": "Quillabamba es una ciudad peruana situada en el departamento del Cusco. Es la capital del distrito de Santa Ana y, simultáneamente, la capital de la provincia de La Convención. La urbe se encuentra a 1.050 metros sobre el nivel del mar, lo que determina sus características topográficas. Según el Instituto Nacional de Estadística e Informática (INEI), el censo de 2011 registró en Quillabamba una población de 35.422 habitantes. Las proyecciones demográficas estiman que para el año 2024 la ciudad alcanzará los 61.119 residentes, lo que refleja un crecimiento sostenido en las últimas décadas. Esta información permite conocer la dimensión demográfica del centro urbano y su evolución reciente. La ubicación de Quillabamba dentro del territorio cusqueño la convierte en un punto de referencia administrativo para la provincia de La Convención. Su condición de capital provincial implica la concentración de servicios públicos y administrativos para los habitantes de la zona. Además, la ciudad mantiene vínculos estrechos con otras localidades de la provincia de La Convención."
+  },
+  {
+    "slug": "puerto-bermudez",
+    "name": "Puerto Bermúdez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Pasco",
+    "regionSlug": "departamento-de-pasco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Bermúdez, distrito de Oxapampa en Pasco, lleva el nombre del presidente Remigio Morales Bermúdez (1890‑1894) y limita al norte con Huánuco.",
+    "aboutTitle": "Puerto Bermúdez y la Vía del Pichis: historia y límites",
+    "about": "Puerto Bermúdez es un distrito de la provincia de Oxapampa, departamento de Pasco, en el centro de Perú. Limita al norte con Huánuco, al este con Ucayali, al sur con Junín y al oeste entre los ríos Palcazú y Pichis. Forma parte del Vicariato apostólico de San Ramón. Su nombre rinde homenaje al presidente Remigio Morales Bermúdez (1890-1894), quien concluyó la vía de penetración al río Pichis, y fue acortado por los lugareños de Puerto Morales Bermúdez a Puerto Bermúdez.\n\nLas primeras referencias al valle de los ríos Pichis y Pachitea datan de 1726, cuando franciscanos llegaron a evangelizar a los pueblos originarios. En 1742 la zona fue escenario de la rebelión indígena liderada por Juan Santos Atahualpa, que expulsó a los colonizadores casi un siglo. A fines del siglo XIX se consolidó como punto de descanso para mestizos, colonos caucheros y aventureros que explotaban la selva. En 1890 se ordenó la construcción de la Vía del Pichis, obra iniciada en 1891 bajo la dirección de los ingenieros Capelo y Pérez para conectar el Perú con la selva atlántica."
+  },
+  {
+    "slug": "el-tejar-guatemala",
+    "name": "El Tejar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 216,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chimaltenango",
+    "regionSlug": "departamento-de-chimaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antigua-guatemala",
+      "mixco",
+      "villa-nueva",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Tejar, municipio de Chimaltenango, Guatemala, tiene 19 492 habitantes y su nombre proviene de la producción de tejas en la época colonial.",
+    "aboutTitle": "Tejas tradicionales y clima templado de El Tejar, Chimaltenango",
+    "about": "El Tejar es un municipio del departamento de Chimaltenango, Guatemala, con una extensión territorial de 144 km² y una altitud de 1.765 metros sobre el nivel del mar. Según el censo de 2018, cuenta con 19 492 habitantes. Su clima es templado, clasificado como Csb en la tipología de Köppen. El topónimo «El Tejar» proviene de la buena calidad de teja elaborada en el lugar durante la colonia española, utilizada en la construcción de la antigua capital de Santiago de los Caballeros de Guatemala.\n\nEl poblado aparece con este nombre en el testamento de Bartolomé de Archila en 1567. Tras la Independencia de Centroamérica en 1821, San Lucas Sacatepéquez y El Tejar se combinaron en el poblado de San Lucas Tejar y formaron parte de los distritos originales del Estado de Guatemala al ser fundado en 1825. En esa época pertenecían al departamento de Sacatepéquez/Chimaltenango, cuya cabecera era Antigua Guatemala, y fueron asignados al circuito de Chimaltenango en el distrito N.º 8 (Sacatepéquez) para la administración de justicia. Sus colindancias incluyen a Chimaltenango al norte y oeste, San Juan Sacatepéquez al norte y este, y a los municipios de Parramos, Sumpango y Santo Domingo Xenacoj al sur y este."
+  },
+  {
+    "slug": "arismendi",
+    "name": "Arismendi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Estado Barinas",
+    "regionSlug": "estado-barinas",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-fernando-de-apure",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Arismendi, municipio barinés de mayor extensión con 7.209 km² y 23.727 habitantes, destaca por sus llanuras de sabana y su rica hidrografía.",
+    "aboutTitle": "Arismendi: el municipio más extenso de Barinas y su historia colonial",
+    "about": "Arismendi es uno de los doce municipios que conforman el estado Barinas, en Venezuela. Con una superficie de 7 209 km², es el municipio barinés de mayor extensión y cuenta con 23 727 habitantes según el censo de 2011. Su capital lleva el mismo nombre, Arismendi, y aunque es el más alejado de la capital estatal, se sitúa como el más cercano al centro geográfico del país. El relieve es prácticamente plano, formado por llanuras de sabana y una abundante hidrografía que caracteriza al territorio.\n\nEl origen del municipio se remonta a la segunda mitad del siglo XVII. La zona se desarrolló alrededor de la hacienda Ave María Sanchera, que en 1874 donó tierras para crear la parroquia. La población inicial incluía 78 casas, 584 habitaciones, un templo, casa municipal, cárcel, cementerio y escuelas federales y municipales, impulsando una actividad comercial vinculada al agropecuario. En el municipio se encuentran poblados históricos como San Antonio, fundado en 1760 por un mulato natural de la Villa de San Carios, y La Unión, establecida a finales del siglo XVIII bajo el nombre de Nuestra Señora de la Paz de la Unión. Guadarrama se asentó a orillas del río Portuguesa en 1810."
+  },
+  {
+    "slug": "la-reforma",
+    "name": "La Reforma",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 158,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "mazatenango",
+      "tapachula",
+      "solola",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Reforma, municipio guatemalteco del departamento de San Marcos, cuenta con 23.717 habitantes y su economía se sustenta principalmente en el cultivo del café.",
+    "aboutTitle": "Cerro de Sacuchún y la producción de café en La Reforma",
+    "about": "La Reforma, municipio del departamento de San Marcos, Guatemala, lleva ese nombre en honor a la Reforma Liberal de 1871. Según el censo de 2018, la población proyectada para 2021 era de 23.717 habitantes. La mayoría de sus habitantes son mames, que conservan el idioma mam junto al español, y conviven entre ritos católicos y prácticas religiosas precolombinas.\n\nEl territorio se asienta en las faldas del Cerro de Sacuchún, ramal de la Sierra Madre, y también incluye el Cerro Alto y la Loma de Tigre, lo que favorece su fertilidad y la precipitación suficiente para la agricultura. La principal fuente de ingresos del municipio es el cultivo del café. Entre los ríos que rodean la zona destacan el Canoj, que delimita al nororiente con El Quetzal, el Chisná, el Ixtal al poniente y el Canopá, utilizado históricamente para generar electricidad y ahora para riego. El clima es templado y cálido, adecuado para la producción cafetalera."
   }
 ];
