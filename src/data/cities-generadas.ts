@@ -31872,5 +31872,149 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "La Reforma, municipio guatemalteco del departamento de San Marcos, cuenta con 23.717 habitantes y su economía se sustenta principalmente en el cultivo del café.",
     "aboutTitle": "Cerro de Sacuchún y la producción de café en La Reforma",
     "about": "La Reforma, municipio del departamento de San Marcos, Guatemala, lleva ese nombre en honor a la Reforma Liberal de 1871. Según el censo de 2018, la población proyectada para 2021 era de 23.717 habitantes. La mayoría de sus habitantes son mames, que conservan el idioma mam junto al español, y conviven entre ritos católicos y prácticas religiosas precolombinas.\n\nEl territorio se asienta en las faldas del Cerro de Sacuchún, ramal de la Sierra Madre, y también incluye el Cerro Alto y la Loma de Tigre, lo que favorece su fertilidad y la precipitación suficiente para la agricultura. La principal fuente de ingresos del municipio es el cultivo del café. Entre los ríos que rodean la zona destacan el Canoj, que delimita al nororiente con El Quetzal, el Chisná, el Ixtal al poniente y el Canopá, utilizado históricamente para generar electricidad y ahora para riego. El clima es templado y cálido, adecuado para la producción cafetalera."
+  },
+  {
+    "slug": "pueblo-nuevo-venezuela",
+    "name": "Pueblo Nuevo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Falcón",
+    "regionSlug": "falcon",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "punto-fijo",
+      "coro",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pueblo Nuevo, capital del municipio Falcón en Venezuela, se sitúa al noreste de la península de Paraguaná, cerca del Golfo de Venezuela y el mar Caribe.",
+    "aboutTitle": "Pueblo Nuevo, capital del municipio Falcón y historia administrativa",
+    "about": "Pueblo Nuevo es la capital del municipio Falcón, situado en el estado homónimo de Venezuela. La localidad se ubica al noreste de la península de Paraguaná, en la zona costera del Golfo de Venezuela y del mar Caribe. Forma parte de la parroquia Pueblo Nuevo, que constituye el núcleo urbano del municipio.\n\nHasta el 12 de diciembre de 1969, Pueblo Nuevo fue la capital de la península de Paraguaná; con la creación del Distrito Carirubana pasó a ser capital del residual Distrito Falcón. La reforma municipal promulgada el 31 de diciembre de 1989, y vigente desde el 2 de enero de 1990, transformó el Distrito Falcón en el Municipio Autónomo Falcón, manteniendo a Pueblo Nuevo como sede administrativa.\n\nLos límites del municipio incluyen al norte y al este el Golfo de Venezuela y el mar Caribe, mientras que al sur se extienden desde Punta Grande hasta Punta de Médón Blanco en el istmo. Dentro de su jurisdicción se encuentran varias parroquias rurales, entre ellas Adaure, Adícora, Baraived, Buena Vista, Jadacaquiva, El Vínculo, El Hato y Moruy."
+  },
+  {
+    "slug": "ometepec",
+    "name": "Ometepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guerrero",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ometepec, cabecera municipal de Guerrero, está situada a 287 km de Chilpancingo y pertenece a la Costa Chica, de la región.",
+    "aboutTitle": "Ometepec, la cabecera de la Costa Chica a 287 km de Chilpancingo",
+    "about": "Ometepec es una localidad mexicana del estado de Guerrero y a su vez cabecera del municipio homónimo. La localidad se sitúa a 287 kilómetros de la capital del estado, Chilpancingo de los Bravo. Al estar ubicada a esa distancia, Ometepec se encuentra alejada de la capital estatal. Ometepec forma parte de la región de Costa Chica de dicha entidad. Su posición dentro de la Costa Chica la asocia a esa región del estado. La pertenencia a la Costa Chica sitúa a Ometepec en la zona conocida como Costa Chica dentro de Guerrero. El municipio que la rodea lleva el mismo nombre que la cabecera, Ometepec. Esta coincidencia nominal refleja la práctica de nombrar al municipio con el nombre de su principal población. Como cabecera municipal, Ometepec concentra los servicios administrativos del municipio que lleva su mismo nombre. En resumen, Ometepec es la cabecera municipal, está a 287 kilómetros de Chilpancingo y pertenece a la Costa Chica del estado de Guerrero."
+  },
+  {
+    "slug": "paraguari",
+    "name": "Paraguarí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Paraguarí",
+    "regionSlug": "departamento-de-paraguari",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "capiata",
+      "san-lorenzo-paraguay",
+      "fernando-de-la-mora",
+      "luque",
+      "lambare",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paraguarí, capital del departamento homónimo, está a 66 km de Asunción y se comunica por la Ruta PY01, ofreciendo una ubicación estratégica en Paraguay.",
+    "aboutTitle": "Paraguarí, capital a 66 km de Asunción y eje de la Ruta PY01",
+    "about": "Paraguarí es una ciudad paraguaya que funciona como capital del departamento homónimo. La localidad se sitúa a una distancia de 66 kilómetros de Asunción, la capital nacional, lo que permite un acceso rápido mediante la carretera nacional PY01, la principal vía que enlaza ambas ciudades. La Ruta PY01 atraviesa Paraguarí, facilitando el tránsito de personas y mercancías entre el centro del país y la zona sur. Como centro administrativo del departamento, la ciudad concentra los servicios públicos que atienden a la población del área circundante. Su posición estratégica la convierte en un punto de referencia para los viajeros que se desplazan entre Asunción y otras localidades del interior. Además, la presencia de la carretera nacional refuerza su papel como nodo de conexión dentro del territorio paraguayo. Esta ubicación favorece la interacción entre la capital y el interior, facilitando desplazamientos tanto de particulares como de mercancías. El flujo constante de viajeros refuerza la importancia de Paraguarí como punto de apoyo logístico en la red vial nacional."
+  },
+  {
+    "slug": "santa-maria-colotepec",
+    "name": "Santa María Colotepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 213,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa María Colotepec es una localidad del estado de Oaxaca, México, cabecera del municipio homónimo, y se sitúa a 48 m de altitud.",
+    "aboutTitle": "Santa María Colotepec, cabecera municipal a 48 m de altitud en Oaxaca",
+    "about": "Santa María Colotepec es una localidad del estado de Oaxaca, en México, y funciona como cabecera del municipio que lleva el mismo nombre. La población se ubica a 48 metros sobre el nivel del mar, lo que le otorga una altitud moderada dentro de la región. Como núcleo administrativo, concentra los servicios municipales y representa el centro de la organización local, donde se gestionan los asuntos de la comunidad. Su posición en el sur de México y su condición de cabecera municipal la convierten en un punto de referencia para los habitantes del municipio y en el lugar donde se concentran las actividades relacionadas con la gestión pública. La información disponible se limita a su condición de localidad, su papel como cabecera y su altitud de 48 m. En ausencia de datos adicionales, se destaca su relevancia como sede de la autoridad municipal y como elemento geográfico dentro del estado de Oaxaca."
+  },
+  {
+    "slug": "hatonuevo",
+    "name": "Hatonuevo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "La Guajira",
+    "regionSlug": "la-guajira",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barrancas",
+      "albania",
+      "fonseca",
+      "san-juan-del-cesar",
+      "riohacha",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hatonuevo, municipio de La Guajira fundado el 24 de octubre de 1840 por Blas Amaya, cuenta con 24.916 habitantes y una temperatura media de 34 °C.",
+    "aboutTitle": "Hatonuevo: entre la Serranía del Perijá y la Sierra Nevada",
+    "about": "Hatonuevo es un municipio colombiano situado al sur del departamento de La Guajira, entre la Serranía del Perijá y las estribaciones de la Sierra Nevada de Santa Marta, a 87 km de Riohacha. Ocupa 2.490 km², lo que representa el 1,20 % de la superficie departamental, y se sitúa a 225 m sobre el nivel del mar. Según el censo de 2015, su población es de 24.916 habitantes y la temperatura media anual ronda los 34 °C.\n\nFundado el 24 de octubre de 1840 por el molinero Blas Amaya, el poblado obtuvo la categoría de municipio el 9 de noviembre de 1994, fue anulado el 5 de noviembre de 1998 y restituido en 1999 mediante la ordenanza 001. Limita al norte con Riohacha, Albania y Maicao, al este con Albania y el estado Zulia de Venezuela, al sur y al oeste con Barrancas. Dentro de su jurisdicción se encuentran los resguardos indígenas wayú El Cerro, Lomamato, Yaguarito y Cañabrava. El servicio eléctrico lo presta Air‑e, del grupo EPM, y el gas natural lo distribuye Gases de La Guajira."
   }
 ];
