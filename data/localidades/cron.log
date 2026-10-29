@@ -4263,3 +4263,140 @@ Groq: HT
 [2026-10-28T04:57:03.833Z]   ✗ coihueco: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-10-28T04:57:03.834Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-10-28T04:57:04.156Z] publicadas 5 salas · acumuladas 1078 · quedan 2106 en cola
+[2026-10-29T01:30:06.070Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-10-29T01:30:06.081Z] cola: 2103 · lote de hoy: 50
+[2026-10-29T01:30:07.781Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-10-29T01:30:28.496Z]   ✗ tezonapa: sin fuente utilizable
+[2026-10-29T01:30:49.336Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-10-29T01:31:15.729Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-10-29T01:31:36.608Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-10-29T01:31:57.697Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-10-29T01:32:18.529Z]   ✗ soteapan: sin fuente utilizable
+[2026-10-29T01:32:39.337Z]   ✗ chignautla: sin fuente utilizable
+[2026-10-29T01:32:59.339Z]   ✗ morovis: sin fuente utilizable
+[2026-10-29T01:33:20.446Z]   ✗ tehuipango: sin fuente utilizable
+[2026-10-29T01:33:41.292Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-10-29T01:34:02.256Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-10-29T01:34:23.068Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-10-29T01:41:32.376Z]   ✓ las-margaritas (México) — escribió Groq, verificó Gemini
+[2026-10-29T01:51:10.502Z]   ✗ caraz: rechazada tras corrección: Dato no respaldado por la fuente: 'importante puerto de la costa' para describir a Chimbote (el texto de origen solo menciona 'Chimbote').; Dato no respaldado por la fuente: 'sin variaciones bruscas' 
+[2026-10-29T01:52:38.956Z]   ✗ tambogrande: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-29T01:53:00.110Z]   ✗ omealca: sin fuente utilizable
+[2026-10-29T01:54:10.203Z]   ✗ jose-crespo-y-castillo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T01:54:51.481Z]   ✗ campoverde: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T01:55:29.450Z]   ✗ mezcalapa: fraseo calcado de las-cruces: "de noviembre de 2011 al separarse del"
+[2026-10-29T01:56:12.596Z]   ✗ tepalcatepec: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-10-29T01:57:05.676Z]   ✗ rio-negro: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)
+[2026-10-29T01:58:48.596Z]   ✗ san-juan-cotzocon: fraseo calcado de san-jose-villa-de-allende: "es una localidad mexicana situada en el"
+[2026-10-29T01:59:09.425Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-10-29T02:01:01.788Z]   ✓ tecali-de-herrera (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:03:40.258Z]   ✗ canas: fraseo calcado de guapiles: "es el distrito primero y la ciudad"
+[2026-10-29T02:05:05.072Z]   ✗ benemerito-de-las-americas: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-10-29T02:07:44.588Z]   ✗ eusebio-ayala: rechazada tras corrección: La ficha describe la trayectoria y legado de Eusebio Ayala, pero no se relaciona con la localidad de Eusebio Ayala, Departamento de Cordillera, Paraguay. La ficha debería hablar sobre la localidad, no
+[2026-10-29T02:09:56.092Z]   ✓ tapiales (Argentina) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:10:54.759Z]   ✓ coihueco (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:11:46.759Z]   ✗ tototlan: fraseo calcado de poncitlan: "del estado de jalisco situado en la"
+[2026-10-29T02:15:24.150Z]   ✓ bauta (Cuba) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:16:12.948Z]   ✓ coripata (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:20:08.313Z]   ✗ canalete: fraseo calcado de olaya-herrera: "dentro de su jurisdiccion se encuentran los"
+[2026-10-29T02:32:18.414Z]   ✗ colquiri: rechazada tras corrección: Afirma que estar a 70 km de Oruro "la sitúa en el sur del país", dato geográfico que no aparece en el material de origen.
+[2026-10-29T02:38:54.400Z]   ✓ sucua (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:39:32.300Z]   ✓ vega-baja (Puerto Rico) — escribió Groq, verificó NVIDIA
+[2026-10-29T02:42:16.372Z]   ✗ manlio-fabio-altamirano: rechazada tras corrección: La ficha describe la práctica de nombrar poblaciones en honor a figuras históricas relevantes para la región, lo que no se menciona en el material de origen.; La ficha hace referencia a la falta de da
+[2026-10-29T02:42:47.729Z]   ✗ dabajuro: es una división administrativa, no una localidad
+[2026-10-29T02:55:48.575Z]   ✗ naguabo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-29T03:03:16.296Z]   ✗ rio-hondo: fraseo calcado de catarina: "independencia de centroamerica en 1821 quedo asignado"
+[2026-10-29T03:09:53.094Z]   ✓ teorama (Colombia) — escribió Groq, verificó Gemini
+[2026-10-29T03:18:40.890Z]   ✗ yantzaza: rechazada tras corrección: Se menciona que la ciudad es un punto de referencia para el comercio y la vida cotidiana de la zona, lo que no se encuentra en la fuente original; Se menciona que la temperatura es agradable durante t
+[2026-10-29T03:21:37.855Z]   ✗ lajas: rechazada tras corrección: El Festival de Chiringas y Tigüeros de Lajas no se inició en 1883, sino que se celebró por primera vez en 1883, en el contexto del centenario de la fundación de Lajas.
+[2026-10-29T03:23:01.250Z]   ✓ doctor-mora (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T03:27:59.989Z]   ✓ collipulli (Chile) — escribió Groq, verificó NVIDIA
+[2026-10-29T03:37:13.196Z]   ✓ tobati (Paraguay) — escribió Groq, verificó Gemini
+[2026-10-29T03:38:46.879Z]   ✗ la-cruz-de-rio-grande: rechazada tras corrección: La ficha menciona 'Región Autónoma de la Costa Caribe Sur' en lugar de 'Región Autónoma del Arlantico Sur', que es la denominación utilizada en el material de origen. También omite la 'l' en 'Arlantic
+[2026-10-29T03:39:39.785Z]   ✓ irupana (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-29T03:43:48.947Z]   ✗ la-huerta: fraseo calcado de ocuilan: "uno de los 125 municipios que integran"
+[2026-10-29T03:50:25.621Z]   ✗ huerta: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-29T03:54:50.900Z]   ✗ namiquipa: fraseo calcado de saucillo: "es uno de los 67 municipios del"
+[2026-10-29T03:56:21.299Z]   ✗ puerto-viejo: fraseo calcado de guapiles: "es el distrito primero y la ciudad"
+[2026-10-29T03:58:52.799Z]   ✗ ozuluama-de-mascarenas: rechazada tras corrección: La ficha menciona que la localidad concentra la sede de la autoridad local y representa el centro administrativo del municipio, lo que no está respaldado por el material de origen.; La ficha menciona 
+[2026-10-29T04:02:07.892Z]   ✓ motul (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T04:07:32.243Z]   ✗ campo-quijano: rechazada tras corrección: La ficha describe la diversidad de actividades productivas y culturales que se desarrollan en la zona, lo que no está respaldado por el material de origen.; La ficha menciona la ubicación estratégica 
+[2026-10-29T04:08:23.531Z]   ✗ acatic: fraseo calcado de choconta: "el municipio es uno de los principales"
+[2026-10-29T04:09:12.343Z]   ✗ pajapita: fraseo calcado de nuevo-progreso: "de san marcos situado en la region"
+[2026-10-29T04:11:47.978Z]   ✗ marcona: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T04:12:30.260Z]   ✓ bacum (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T04:19:42.377Z]   ✗ abreus: rechazada tras corrección: La ficha menciona que Abreus está situado en la zona central del territorio cubano, lo que no se menciona en el material de origen.; La ficha describe la estructura administrativa y la gestión local d
+[2026-10-29T04:27:04.219Z]   ✗ ixhuatlan-del-cafe: rechazada tras corrección: El texto afirma que la denominación 'del Café' refleja la tradición agrícola de la zona, dato que no aparece ni se respalda en el material de origen.
+[2026-10-29T04:36:47.913Z]   ✗ puerto-concordia: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-29T04:41:14.129Z]   ✗ soledad-atzompa: rechazada tras corrección: La ficha describe la Sierra de Zongolica como una cadena montañosa que forma parte de la región de las Grandes Montañas Veracruzanas, lo que no se menciona en el material de origen.; La ficha menciona
+[2026-10-29T04:43:28.203Z]   ✓ porongo (Bolivia) — escribió Groq, verificó NVIDIA
+[2026-10-29T04:52:23.822Z]   ✗ aiquile: rechazada tras corrección: El material de origen no menciona que la altitud de Aiquile es de 2.250 metros, sino que es la altura registrada en el centro del pueblo.; La ficha menciona que Sucre es la capital constitucional del 
+[2026-10-29T04:54:18.289Z]   ✓ tamiahua (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T04:54:57.494Z]   ✗ oxkutzcab: fraseo calcado de mante: "segun el censo del inegi de 2020"
+[2026-10-29T04:55:18.306Z]   ✗ ocotepeque: es una división administrativa, no una localidad
+[2026-10-29T04:56:27.751Z]   ✓ achi (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-29T04:56:47.768Z]   ✗ huaytara: sin fuente utilizable
+[2026-10-29T04:59:08.001Z]   ✓ frontera-mexico (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T05:06:30.974Z]   ✓ mochumi (Perú) — escribió NVIDIA, verificó Gemini
+[2026-10-29T05:09:06.575Z]   ✓ huixtan (México) — escribió NVIDIA, verificó Groq
+[2026-10-29T05:12:13.782Z]   ✗ yaguachi-nuevo: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 488 (line 3 column 354)
+[2026-10-29T05:17:08.535Z]   ✗ dabeiba: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T05:19:43.471Z]   ✗ playas-del-rosario: rechazada tras corrección: La fuente no menciona que la comunidad dependa de Villahermosa para servicios y actividades cotidianas.; La fuente no menciona que la comunidad conserve su propia identidad como villa.; La fuente no m
+[2026-10-29T05:21:39.486Z]   ✓ buchivacoa (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-10-29T05:22:25.764Z]   ✓ la-democracia-guatemala (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-29T05:23:02.229Z]   ✓ puerto-aventuras (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T05:27:31.562Z]   ✗ xicotencatl: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T05:36:04.067Z]   ✗ malacatancito: fraseo calcado de concepcion-tutuapa: "de la republica de guatemala como entidad"
+[2026-10-29T05:39:48.349Z]   ✗ nazca: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T05:42:02.082Z]   ✗ caracollo: rechazada tras corrección: El texto incluye información adicional que no se encuentra en el material de origen, como la definición de municipio en el marco de la organización territorial boliviana y la administración compartida
+[2026-10-29T05:47:33.910Z]   ✗ paltas: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-29T05:50:55.428Z]   ✗ guanajay: rechazada tras corrección: La frase 'En el año 1879, cuando se creó la provincia de Pinar del Río, Guanajay era considerado el núcleo urbano de mayor relevancia tanto en términos económicos como poblacionales dentro de la regió
+[2026-10-29T05:57:05.115Z]   ✗ naolinco: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T05:58:18.679Z]   ✓ ataco (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-29T06:05:02.853Z]   ✓ camilo-ponce-enriquez (Ecuador) — escribió Groq, verificó Gemini
+[2026-10-29T06:13:07.024Z]   ✓ san-jose-ojetenam (Guatemala) — escribió NVIDIA, verificó Gemini
+[2026-10-29T06:16:19.060Z]   ✗ uncia: rechazada tras corrección: La ficha menciona que la localidad se sitúa en la región alta del altiplano, lo que no se encuentra en la fuente original.; La ficha describe la ubicación geográfica de Uncía como un entorno montañoso
+[2026-10-29T06:21:29.758Z]   ✓ zepita (Perú) — escribió Groq, verificó NVIDIA
+[2026-10-29T06:32:30.265Z]   ✗ tizapan-el-alto: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T06:33:46.628Z]   ✓ ojinaga (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T06:41:28.410Z]   ✗ baron: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-10-29T06:45:35.463Z]   ✗ rio-santiago: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T06:48:29.317Z]   ✓ san-juan-bautista-valle-nacional (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T06:50:15.145Z]   ✓ isla-mujeres (México) — escribió NVIDIA, verificó Groq
+[2026-10-29T06:52:06.196Z]   ✓ ocampo (México) — escribió NVIDIA, verificó Groq
+[2026-10-29T06:57:58.062Z]   ✗ patapo: rechazada tras corrección: La ficha menciona que la población se encuentra en la zona costera norte del país, lo que no se encuentra en el material de origen.; Se menciona que la ubicación dentro del Lambayeque lo sitúa cerca d
+[2026-10-29T07:03:59.682Z]   ✗ santa-isabel-de-las-lajas: No se pudo extraer JSON de la respuesta del LLM
+[2026-10-29T07:09:45.443Z]   ✗ sardinata: fraseo calcado de teorama: "es un municipio del departamento de norte"
+[2026-10-29T07:16:57.333Z]   ✓ tlacolula-de-matamoros (México) — escribió Groq, verificó Gemini
+[2026-10-29T07:18:59.989Z]   ✓ arteaga (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T07:22:18.585Z]   ✗ acosta-costa-rica: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 703 (line 3 column 550)
+[2026-10-29T07:23:11.353Z]   ✓ mutata (Colombia) — escribió Groq, verificó NVIDIA
+[2026-10-29T07:27:39.965Z]   ✓ san-antonio-la-paz (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-29T07:32:21.251Z]   ✗ doctor-juan-leon-mallorquin: rechazada tras corrección: 'la historia reciente y la ubicación geográfica hacen de Doctor Juan León Mallorquín un punto de referencia dentro del Alto Paraná' es una invención, no está respaldado por el material de origen; 'el 
+[2026-10-29T07:41:08.725Z]   ✗ puente-nacional-estado-de-veracruz: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-10-29T07:49:16.259Z]   ✗ coipa: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T07:50:37.308Z]   ✓ macas (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-29T07:55:18.913Z]   ✗ yahualica-de-gonzalez-gallo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-10-29T08:01:58.335Z]   ✓ aysen (Chile) — escribió Groq, verificó Gemini
+[2026-10-29T08:02:51.842Z]   ✓ diriomo (Nicaragua) — escribió Groq, verificó NVIDIA
+[2026-10-29T08:10:39.833Z]   ✓ saavedra (Argentina) — escribió Gemini, verificó Groq
+[2026-10-29T08:11:18.091Z]   ✓ el-tortuguero (Nicaragua) — escribió Groq, verificó NVIDIA
+[2026-10-29T08:23:59.803Z]   ✗ el-doncello: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-10-29T08:25:18.177Z]   ✗ ignacio-escudero: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T08:32:12.712Z]   ✓ el-colegio (Colombia) — escribió Groq, verificó Gemini
+[2026-10-29T08:33:07.138Z]   ✗ yauli: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-10-29T08:36:11.295Z]   ✗ abangares: fraseo calcado de palmares: "la epoca precolombina la zona estuvo habitada"
+[2026-10-29T08:37:06.680Z]   ✓ bahia-de-caraquez (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-10-29T08:45:17.748Z]   ✓ guazacapan (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-10-29T08:45:57.063Z]   ✗ copainala: fraseo calcado de pichucalco: "de los 124 municipios del estado de"
+[2026-10-29T08:48:18.976Z]   ✗ arteaga-michoacan: fraseo calcado de sensuntepeque: "a una altitud de 820 m sobre"
+[2026-10-29T08:48:40.162Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-10-29T08:49:35.553Z]   ✗ huejucar: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 319 (line 3 column 200)
+[2026-10-29T08:52:45.535Z]   ✗ mezquitic: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 521 (line 3 column 342)
+[2026-10-29T08:55:14.868Z]   ✓ muelle-de-los-bueyes (Nicaragua) — escribió Groq, verificó NVIDIA
+[2026-10-29T09:00:43.241Z]   ✓ timbiqui (Colombia) — escribió NVIDIA, verificó Gemini
+[2026-10-29T09:03:49.812Z]   ✓ imbert (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-10-29T09:09:01.352Z]   ✓ tiquisio (Colombia) — escribió NVIDIA, verificó Gemini
+[2026-10-29T09:13:31.103Z]   ✓ pahuatlan (México) — escribió Groq, verificó NVIDIA
+[2026-10-29T09:18:55.663Z]   ✓ taminango (Colombia) — escribió NVIDIA, verificó Gemini
+[2026-10-29T09:18:55.782Z] publicadas 50 salas · acumuladas 1128 · quedan 2053 en cola

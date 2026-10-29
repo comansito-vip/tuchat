@@ -1091,7 +1091,57 @@
   "ometepec",
   "paraguari",
   "santa-maria-colotepec",
-  "hatonuevo"
+  "hatonuevo",
+  "las-margaritas",
+  "tecali-de-herrera",
+  "tapiales",
+  "coihueco",
+  "bauta",
+  "coripata",
+  "sucua",
+  "vega-baja",
+  "teorama",
+  "doctor-mora",
+  "collipulli",
+  "tobati",
+  "irupana",
+  "motul",
+  "bacum",
+  "porongo",
+  "tamiahua",
+  "achi",
+  "frontera-mexico",
+  "mochumi",
+  "huixtan",
+  "buchivacoa",
+  "la-democracia-guatemala",
+  "puerto-aventuras",
+  "ataco",
+  "camilo-ponce-enriquez",
+  "san-jose-ojetenam",
+  "zepita",
+  "ojinaga",
+  "san-juan-bautista-valle-nacional",
+  "isla-mujeres",
+  "ocampo",
+  "tlacolula-de-matamoros",
+  "arteaga",
+  "mutata",
+  "san-antonio-la-paz",
+  "macas",
+  "aysen",
+  "diriomo",
+  "saavedra",
+  "el-tortuguero",
+  "el-colegio",
+  "bahia-de-caraquez",
+  "guazacapan",
+  "muelle-de-los-bueyes",
+  "timbiqui",
+  "imbert",
+  "tiquisio",
+  "pahuatlan",
+  "taminango"
  ],
  "descartadas": [
   {
@@ -12083,6 +12133,426 @@
    "slug": "coihueco",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-10-28"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "caraz",
+   "razon": "rechazada tras corrección: Dato no respaldado por la fuente: 'importante puerto de la costa' para describir a Chimbote (el texto de origen solo menciona 'Chimbote').; Dato no respaldado por la fuente: 'sin variaciones bruscas' ",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tambogrande",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "jose-crespo-y-castillo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "campoverde",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "mezcalapa",
+   "razon": "fraseo calcado de las-cruces: \"de noviembre de 2011 al separarse del\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tepalcatepec",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "rio-negro",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or ']' after array element in JSON at position 102 (line 1 column 103)",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "san-juan-cotzocon",
+   "razon": "fraseo calcado de san-jose-villa-de-allende: \"es una localidad mexicana situada en el\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "canas",
+   "razon": "fraseo calcado de guapiles: \"es el distrito primero y la ciudad\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "benemerito-de-las-americas",
+   "razon": "fraseo calcado de tila: \"uno de los 124 municipios que integran\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "eusebio-ayala",
+   "razon": "rechazada tras corrección: La ficha describe la trayectoria y legado de Eusebio Ayala, pero no se relaciona con la localidad de Eusebio Ayala, Departamento de Cordillera, Paraguay. La ficha debería hablar sobre la localidad, no",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tototlan",
+   "razon": "fraseo calcado de poncitlan: \"del estado de jalisco situado en la\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "canalete",
+   "razon": "fraseo calcado de olaya-herrera: \"dentro de su jurisdiccion se encuentran los\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "colquiri",
+   "razon": "rechazada tras corrección: Afirma que estar a 70 km de Oruro \"la sitúa en el sur del país\", dato geográfico que no aparece en el material de origen.",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "manlio-fabio-altamirano",
+   "razon": "rechazada tras corrección: La ficha describe la práctica de nombrar poblaciones en honor a figuras históricas relevantes para la región, lo que no se menciona en el material de origen.; La ficha hace referencia a la falta de da",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "dabajuro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "naguabo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "rio-hondo",
+   "razon": "fraseo calcado de catarina: \"independencia de centroamerica en 1821 quedo asignado\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "yantzaza",
+   "razon": "rechazada tras corrección: Se menciona que la ciudad es un punto de referencia para el comercio y la vida cotidiana de la zona, lo que no se encuentra en la fuente original; Se menciona que la temperatura es agradable durante t",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "lajas",
+   "razon": "rechazada tras corrección: El Festival de Chiringas y Tigüeros de Lajas no se inició en 1883, sino que se celebró por primera vez en 1883, en el contexto del centenario de la fundación de Lajas.",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "la-cruz-de-rio-grande",
+   "razon": "rechazada tras corrección: La ficha menciona 'Región Autónoma de la Costa Caribe Sur' en lugar de 'Región Autónoma del Arlantico Sur', que es la denominación utilizada en el material de origen. También omite la 'l' en 'Arlantic",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "la-huerta",
+   "razon": "fraseo calcado de ocuilan: \"uno de los 125 municipios que integran\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "huerta",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "namiquipa",
+   "razon": "fraseo calcado de saucillo: \"es uno de los 67 municipios del\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "puerto-viejo",
+   "razon": "fraseo calcado de guapiles: \"es el distrito primero y la ciudad\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "ozuluama-de-mascarenas",
+   "razon": "rechazada tras corrección: La ficha menciona que la localidad concentra la sede de la autoridad local y representa el centro administrativo del municipio, lo que no está respaldado por el material de origen.; La ficha menciona ",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "campo-quijano",
+   "razon": "rechazada tras corrección: La ficha describe la diversidad de actividades productivas y culturales que se desarrollan en la zona, lo que no está respaldado por el material de origen.; La ficha menciona la ubicación estratégica ",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "acatic",
+   "razon": "fraseo calcado de choconta: \"el municipio es uno de los principales\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "pajapita",
+   "razon": "fraseo calcado de nuevo-progreso: \"de san marcos situado en la region\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "marcona",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "abreus",
+   "razon": "rechazada tras corrección: La ficha menciona que Abreus está situado en la zona central del territorio cubano, lo que no se menciona en el material de origen.; La ficha describe la estructura administrativa y la gestión local d",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "ixhuatlan-del-cafe",
+   "razon": "rechazada tras corrección: El texto afirma que la denominación 'del Café' refleja la tradición agrícola de la zona, dato que no aparece ni se respalda en el material de origen.",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "puerto-concordia",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "soledad-atzompa",
+   "razon": "rechazada tras corrección: La ficha describe la Sierra de Zongolica como una cadena montañosa que forma parte de la región de las Grandes Montañas Veracruzanas, lo que no se menciona en el material de origen.; La ficha menciona",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "aiquile",
+   "razon": "rechazada tras corrección: El material de origen no menciona que la altitud de Aiquile es de 2.250 metros, sino que es la altura registrada en el centro del pueblo.; La ficha menciona que Sucre es la capital constitucional del ",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "oxkutzcab",
+   "razon": "fraseo calcado de mante: \"segun el censo del inegi de 2020\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "ocotepeque",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "yaguachi-nuevo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 488 (line 3 column 354)",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "dabeiba",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "playas-del-rosario",
+   "razon": "rechazada tras corrección: La fuente no menciona que la comunidad dependa de Villahermosa para servicios y actividades cotidianas.; La fuente no menciona que la comunidad conserve su propia identidad como villa.; La fuente no m",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "xicotencatl",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "malacatancito",
+   "razon": "fraseo calcado de concepcion-tutuapa: \"de la republica de guatemala como entidad\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "nazca",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "caracollo",
+   "razon": "rechazada tras corrección: El texto incluye información adicional que no se encuentra en el material de origen, como la definición de municipio en el marco de la organización territorial boliviana y la administración compartida",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "paltas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "guanajay",
+   "razon": "rechazada tras corrección: La frase 'En el año 1879, cuando se creó la provincia de Pinar del Río, Guanajay era considerado el núcleo urbano de mayor relevancia tanto en términos económicos como poblacionales dentro de la regió",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "naolinco",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "uncia",
+   "razon": "rechazada tras corrección: La ficha menciona que la localidad se sitúa en la región alta del altiplano, lo que no se encuentra en la fuente original.; La ficha describe la ubicación geográfica de Uncía como un entorno montañoso",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "tizapan-el-alto",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "baron",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "rio-santiago",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "patapo",
+   "razon": "rechazada tras corrección: La ficha menciona que la población se encuentra en la zona costera norte del país, lo que no se encuentra en el material de origen.; Se menciona que la ubicación dentro del Lambayeque lo sitúa cerca d",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "santa-isabel-de-las-lajas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "sardinata",
+   "razon": "fraseo calcado de teorama: \"es un municipio del departamento de norte\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "acosta-costa-rica",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 703 (line 3 column 550)",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "doctor-juan-leon-mallorquin",
+   "razon": "rechazada tras corrección: 'la historia reciente y la ubicación geográfica hacen de Doctor Juan León Mallorquín un punto de referencia dentro del Alto Paraná' es una invención, no está respaldado por el material de origen; 'el ",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "puente-nacional-estado-de-veracruz",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "coipa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "yahualica-de-gonzalez-gallo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "el-doncello",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "ignacio-escudero",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "yauli",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "abangares",
+   "razon": "fraseo calcado de palmares: \"la epoca precolombina la zona estuvo habitada\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "copainala",
+   "razon": "fraseo calcado de pichucalco: \"de los 124 municipios del estado de\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "arteaga-michoacan",
+   "razon": "fraseo calcado de sensuntepeque: \"a una altitud de 820 m sobre\"",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "huejucar",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 319 (line 3 column 200)",
+   "fecha": "2026-10-29"
+  },
+  {
+   "slug": "mezquitic",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 521 (line 3 column 342)",
+   "fecha": "2026-10-29"
   }
  ]
 }
