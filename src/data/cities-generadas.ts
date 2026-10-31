@@ -34737,5 +34737,389 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Langue, municipio del departamento de Valle en la República de Honduras, destaca por su historia desde 1591 y su cultura indígena lenca.",
     "aboutTitle": "Langue: un pueblo antiguo del departamento de Valle",
     "about": "Langue es un municipio del departamento de Valle en la República de Honduras. La denominación “Langue” proviene tanto del náhuatl como del lenca y se interpreta como “Lugar de las Canas y Carrizos”. Con una superficie de 136,1 km², el municipio se compone de 216 localidades, 5 aldeas y otros 216 caseríos, distribuidos a lo largo del territorio. La población se asienta en un entorno caracterizado por la presencia de ríos y llanuras que favorecen el cultivo de caña y carrizo, recursos que dieron origen al nombre. La historia local se remonta al año 1591, cuando se renovó el título del terreno dedicado a Nuestra Señora de Candelaria y se estableció el pueblo bajo la advocación de San Antonio de Langue. En aquella época la comunidad indígena se organizó en cuatro sedes principales: Los Amates, Nuestra Señora de Caridad, Ozacualpa de Langua y Tique, que también se conoce como el pueblo viejo. Estos núcleos conservan vestigios de la arquitectura colonial y de las tradiciones lencas que siguen presentes en la vida cotidiana del municipio."
+  },
+  {
+    "slug": "canalete",
+    "name": "Canalete",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Córdoba",
+    "regionSlug": "cordoba",
+    "channels": [
+      "cordoba",
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "monteria",
+      "cerete",
+      "san-pedro-de-uraba",
+      "valencia-cordoba",
+      "lorica",
+      "cordoba",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Canalete, municipio cordobés de Colombia, tiene 483 km² de territorio y fue fundado en 1952, elevándose a municipio en 1979.",
+    "aboutTitle": "Bandera tricolor y el florisanto, símbolos de Canalete",
+    "about": "Canalete es un municipio del norte de Colombia, ubicado en el departamento de Córdoba. Su extensión territorial es de 483 km², equivalentes a 48.000 hectáreas, lo que representa el 1,5 % del área departamental. Fue fundado en 1952 y obtuvo la categoría de municipio el 2 de marzo de 1979, después de haber sido creado jurídicamente mediante la ordenanza 029 de la asamblea de Córdoba en 1978 y segregado de Los Córdobas y Montería el 2 de febrero de 1979; su primer alcalde fue José María Roqueme Muñoz.\n\nEl municipio está dividido en la cabecera y varios centros poblados, entre los que se encuentran Buenos Aires (Las Pavas), Cadillo, El Guineo, El Limón, El Tomate, Popayán, Sisevan, Quebrada de Urango y Tierradentro. La bandera municipal presenta cuatro cuadrados de igual medida en colores amarillo, naranja y verde, simbolizando la riqueza, la alegría y la esperanza de los canaletenses. El árbol municipal es el florisanto, considerado símbolo de pureza y constancia en la región."
+  },
+  {
+    "slug": "rio-hondo",
+    "name": "Río Hondo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 170,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Zacapa",
+    "regionSlug": "departamento-de-zacapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-rosa-de-copan",
+      "coban",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Río Hondo, municipio de Zacapa en Guatemala, cuenta con 422 km² de territorio, equivalentes al 15,68 % del departamento y una altitud de 184,91 m.",
+    "aboutTitle": "Río Hondo: territorio de 422 km² y ruta CA-9",
+    "about": "Río Hondo es un municipio del noreste de Guatemala, situado en el kilómetro 137 de la carretera CA-9 que une la capital con el Atlántico y a 184.91 metros sobre el nivel del mar. Su latitud es 15° 2′ 36″ N y su longitud 89° 35′ 6″ O. La extensión territorial del municipio es de 422 km², lo cual representa un 15.68% del departamento de Zacapa y un 0.39% de la extensión territorial de Guatemala. La población estimada se sitúa en 17,667 habitantes, distribuidos en treinta y tres aldeas y trece caseríos, entre los que destaca la Aldea El Rosario, ubicadas tanto en el valle del río Motagua como en las faldas de la Sierra de Las Minas, que atraviesa el término municipal. Originalmente la cabecera se llamaba «Candelaria de Río Hondo», en honor a Nuestra Señora de Candelaria, y el nombre actual hace referencia al río que cruza la zona. Durante la colonia, Río Hondo se estableció a orillas de la ruta comercial que conectaba el puerto de Omoa con la ciudad de Guatemala mediante el río Motagua y el transporte en piraguas y yuntas."
+  },
+  {
+    "slug": "pajapita",
+    "name": "Pajapita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tapachula",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "mazatenango",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pajapita, municipio del sur‑occidente de Guatemala, cuenta con 23 171 habitantes y una extensión de 84 km², con clima tropical tipo Am.",
+    "aboutTitle": "Pajapita, clima tropical y frontera con Coatepeque (Quetzaltenango)",
+    "about": "Pajapita es un municipio del departamento de San Marcos, en la región sur‑occidente de Guatemala. Según el censo de 2018, su población se sitúa en 23 171 habitantes en 2021, con un 49 % de hombres y un 51 % de mujeres. El 99,10 % de sus residentes se identifican como ladinos y el 1 % como indígenas mayas. Con una superficie de 84 km², la cabecera municipal presenta un clima tropical de tipo Am. Limita al norte con Catarina y El Tumbador, al este con Nuevo Progreso, al sur y sureste con Coatepeque del departamento de Quetzaltenango, al oeste con Ayutla y al noroeste nuevamente con Catarina.\n\nEl gobierno municipal se rige por el código municipal guatemalteco, que establece al Concejo Municipal como el órgano colegiado superior de deliberación y decisión de los asuntos locales. Este concejo ejerce la administración del municipio con exclusividad, conforme al artículo 33 del citado código, y funciona dentro del marco de la legislación nacional vigente desde 1985."
+  },
+  {
+    "slug": "xicotencatl",
+    "name": "Xicoténcatl",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 131,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Xicoténcatl, municipio de Tamaulipas fundado el 15 de marzo de 1751 a orillas del río Guayalejo, cuenta con 154 localidades según el censo 2020.",
+    "aboutTitle": "Río Guayalejo y el Festival Internacional de Xicoténcatl",
+    "about": "Xicoténcatl es uno de los 43 municipios de Tamaulipas y su cabecera lleva el mismo nombre. Según el censo de 2020 cuenta con 154 localidades. Fue fundado el 15 de marzo de 1751 a orillas del río Guayalejo, cuando alrededor de 100 familias llegaron bajo el mando del capitán Nicolás Álvarez y se estableció la villa de Escandón, en honor a José de Escandón Helguera. Posteriormente se trasladó río abajo por los continuos ataques de los indios janambres y pisones. En el municipio se registró el arranque con éxito del XXII Festival Internacional y se informó que Xantolo en Xicoténcatl fue todo un éxito. La alcaldesa es la Lic. Mariela López Sosa, quien respalda la educación. El gobierno municipal incluye organigrama, gabinete y cabildo, y dispone de direcciones municipales y servicios de turismo. La plataforma nacional de transparencia está disponible para la rendición de cuentas. El periodo municipal actual cubre de 2024 a 2027."
+  },
+  {
+    "slug": "paltas",
+    "name": "Paltas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Loja",
+    "regionSlug": "loja",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "loja",
+      "duran",
+      "machala",
+      "tumbes",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paltas, pueblo preincaico del sur de Ecuador en la provincia de Loja, estuvo poblado por unas 100.000 personas antes de la conquista inca.",
+    "aboutTitle": "Historia preincaica y vínculo con los bracamoros en Paltas",
+    "about": "Paltas es un pueblo situado en el sur de Ecuador, dentro de la provincia de Loja. Los paltas son un pueblo preincaico que vive en el sur de Ecuador, concretamente en la actual provincia de Loja. Son pueblos originarios de la Amazonia emparentados con los bracamoros. La denominación 'Paltas' hace referencia a este grupo indígena que habitó la zona desde tiempos remotos.\n\nSe estima que el pueblo palta antes de la invasión inca tenía unas 100.000 personas, lo que indica una importante presencia demográfica en la época precolombina. Este dato sitúa a Paltas como una de las comunidades más pobladas de la región antes de la llegada de los incas. Hoy, el nombre sigue identificando al asentamiento que forma parte de la provincia de Loja.\n\nLos paltas, al pertenecer a la Amazonia, comparten rasgos culturales con los bracamoros, otro grupo indígena de la zona. La estimación de 100.000 habitantes antes de la conquista inca subraya la relevancia demográfica del pueblo en la época prehispánica."
+  },
+  {
+    "slug": "yahualica-de-gonzalez-gallo",
+    "name": "Yahualica de González Gallo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Jalisco",
+    "regionSlug": "jalisco",
+    "channels": [
+      "jalisco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tepatitlan-de-morelos",
+      "jalostotitlan",
+      "teocaltiche",
+      "san-miguel-el-alto",
+      "zapotlanejo",
+      "jalisco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yahualica de González Gallo, municipio de Jalisco en la región Altos Sur, celebra la Caravana Yahualica Produce.",
+    "aboutTitle": "La Caravana Yahualica Produce y la historia del templo de Yahualica",
+    "about": "Yahualica de González Gallo es un municipio de Jalisco, México, situado en la región Altos Sur y formado parte de la macrorregión del Bajío Occidente. El topónimo original, “Ayahuallican” o “Yahualican”, significa “Lugar dentro del redondel”, aludiendo a la forma circular que recuerdan los montes que rodean el poblado.\n\nLa zona estuvo habitada por los tecuexes, que en 1165 combatieron contra los aztecas y defendieron su territorio. Antes de la llegada de los peninsulares, la comunidad era gobernada por una cacica llamada Yahualican. En abril de 1530 Cristóbal de Oñate llegó a Yahualican y fue recibido con presentes de fruta y caza. En el paso malo del pueblo Pedro de Alvarado sufrió la caída que le causó la muerte. La primera referencia documental a Yahualica data de 1582 y menciona hechos entre 1540 y 1550. En 1661 se fundó la cofradía y el hospital de la Limpia Concepción, y la construcción del templo comenzó en 1542 para concluir en 1717. Recientemente, la localidad participó en el Certamen Señorita Turismo Región de los Altos 2019, lanzó la Caravana Yahualica Produce y será sede del Consejo Regulador del Chile de Yahualica."
+  },
+  {
+    "slug": "arteaga-michoacan",
+    "name": "Arteaga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 185,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "melchor-ocampo",
+      "los-cabos",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Arteaga, municipio de Michoacán al sur del estado, a 189 km al suroeste de Morelia, con una superficie de 3 454,71 km² (5,87 % del territorio estatal).",
+    "aboutTitle": "Geografía y biodiversidad de Arteaga",
+    "about": "El municipio de Arteaga se ubica al sur del estado de Michoacán, a unos 189 kilómetros al suroeste de la capital, Morelia. Su superficie es de 3 454,71 km², lo que representa el 5,87 % del territorio estatal. El suelo del municipio se formó en el periodo mesozoico y está destinado principalmente a actividades ganaderas, forestales y agrícolas. La ganadería se desarrolla en extensas áreas de pastizales, la silvicultura aprovecha los bosques mixtos y la agricultura cultiva los suelos fértiles de la región. La vegetación corresponde a bosque mixto, donde predominan especies arbóreas como cuéramo, pino, encino, cedro y ceiba, y frutales como zapote, mango, huizache, parota y temezquite. En la fauna silvestre se encuentran nutrias, armadillos, conejos, zorros, cacomixtles, mapaches, tlacuaches, así como aves como paloma y tórtola. Estas características naturales definen el entorno de Arteaga, combinando la producción agropecuaria con la conservación de ecosistemas forestales típicos del entorno regional y su diversidad."
+  },
+  {
+    "slug": "abai",
+    "name": "Abaí",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Paraguay",
+    "parentSlug": "paraguay",
+    "provincia": "Departamento de Caazapá",
+    "regionSlug": "departamento-de-caazapa",
+    "channels": [
+      "paraguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villarrica-paraguay",
+      "coronel-oviedo",
+      "paraguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Abaí, municipio del Caazapá a 258 km de Asunción, celebra su fundación el 4 de octubre de 1960 y destaca la empresa Tupã Renda como principal productora.",
+    "aboutTitle": "Tupã Renda, la principal productora de Abaí",
+    "about": "Abaí es un municipio y ciudad del Paraguay ubicado en la zona nororiental del Departamento de Caazapá, a 258 km de la capital, Asunción. La localidad se originó a principios del siglo XX cuando Giuseppe “Jose” Fassardi fundó una pequeña comunidad que, tras varias décadas de crecimiento, fue declarada municipio el 4 de octubre de 1960, desvinculándose del municipio de San Juan Nepomuceno.\n\nEl territorio de Abaí se divide en dos áreas claramente diferenciadas. En la zona baja se concentran la mayoría de las compañías locales, mientras que la zona alta alberga a la empresa más conocida, “Tupã Renda”, principal productora distrital. Entre las compañías que operan en el distrito se encuentran Santa Catalina, San Sebastián (Centro), San Valentín, Borda Guasú, San Miguel, Santa Rosa, San Agustín – Arroyo Morotî, Piray, Torín, San Antonio y San Pablo, entre otras. También forman parte del tejido productivo San Lorenzo (Chaquira), Santa Cruz, Kapi'itindy, Oro Ku'i 1 y 2, Tuna, Tarumá, Aratiku, kilómetro 10, kilómetro 7, km 18 María Auxiliadora, Gasparkue, Emilianore, Francisco Pablo, San Marcos, Espíritu Santo, Corazón de Jesús, San Francisco, Santa Teresa, Paulista, Cantina Cue y Nueva Esperanza."
+  },
+  {
+    "slug": "charo",
+    "name": "Charo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "celaya",
+      "valle-de-bravo",
+      "uruapan",
+      "atlacomulco-de-fabela",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Charo, municipio de Michoacán fundado en 1455 por los pirindas, conserva su nombre originario que significa ‘tierra del Rey Niño’.",
+    "aboutTitle": "Charo: fundación pirinda y la iglesia agustina de 1550",
+    "about": "Charo es uno de los 113 municipios de Michoacán, México. Su cabecera lleva el mismo nombre. Fue fundada en 1455 por los pirindas y elevada a pueblo por Guadalupe Victoria en 1825. El topónimo proviene del matlatzinca y significa “tierra del Rey Niño”. La zona estuvo habitada por matlatzincas aliados de los purépechas, conocidos como “señores de la red”.\nEn 1550 la orden de los agustinos erigió convento e iglesia, que permanecieron bajo su cuidado hasta 1758, cuando pasó al clero secular. Fray Diego de Basalenque trabajó allí, redactando obras como su “Arte y Diccionario de la Lengua Matlaltzinga”. Durante la guerra de Independencia, el 20 de octubre de 1810 Hidalgo confirmó a Morelos como general en Charo. En el siglo XVI, Charo se constituyó como República de los Indios y corregimiento, y el 10 de diciembre de 1831 pasó a ser tenencia antes de recibir el rango municipal en 1930. La lengua matlatzinca se habló hasta 1932, año en que murió el último hablante fluido."
+  },
+  {
+    "slug": "roscio",
+    "name": "Roscio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Roscio es un municipio del estado Bolívar en Venezuela cuya capital es Guasipati, localidad conocida como La Tierra del Oro y La Tierra de los Zorros Guaches.",
+    "aboutTitle": "Roscio y su capital Guasipati, la Tierra del Oro",
+    "about": "Roscio es uno de los once municipios que integran el estado Bolívar, en Venezuela. Dentro de la organización territorial de este estado venezolano, el municipio cuenta con dos de las 47 parroquias existentes. La capital del municipio es Guasipati, una localidad que es reconocida bajo las denominaciones de La Tierra del Oro y La Tierra de los Zorros Guaches. La población del municipio es de 27.523 habitantes, distribuidos en un territorio que forma parte de la geografía del estado Bolívar. Roscio se encuentra ubicado en una zona que comparte fronteras con otros municipios del estado, y su capital, Guasipati, es un centro importante en la región. La historia y la cultura de Roscio están estrechamente ligadas a la del estado Bolívar y a la de Venezuela en general."
+  },
+  {
+    "slug": "encanada",
+    "name": "Encañada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cajamarca",
+    "regionSlug": "departamento-de-cajamarca",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cajamarca",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Encañada, distrito ubicado en el departamento de Cajamarca, al norte del Perú, con una superficie de 635.06 km² y una altitud de 3,098 m s. n. m.",
+    "aboutTitle": "La Encañada: un valle pintoresco en Cajamarca",
+    "about": "El distrito de La Encañada es uno de los doce que conforman la provincia de Cajamarca. Fue creado mediante Ley del 2 de enero de 1857, en el gobierno de Ramón Castilla. El distrito se encuentra en el departamento y provincia de Cajamarca al norte del Perú, y su territorio se extiende en una franja que corre en dirección sureste-noreste. La Encañada es un pintoresco valle, con una hermosa campiña, y sus imponentes lugares turísticos y agradables paisajes.\n\n La Encañada cuenta con restos arqueológicos como las ventanillas de Combayo, y la Iglesia del C P. El Rosario de Polloc, de arquitectura italiana. Además, se encuentra en construcción la catedral de la Encañada, también de arquitectura italiana."
+  },
+  {
+    "slug": "soritor",
+    "name": "Soritor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moyobamba",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Soritor, capital del distrito homónimo en San Martín, se sitúa a 883 m s.n.m. y cuenta con más de 31 540 habitantes (censo 2015).",
+    "aboutTitle": "Soritor: capital del distrito a 883 m de altitud",
+    "about": "Soritor es una localidad peruana situada en la región San Martín, dentro de la provincia de Moyobamba y del distrito que lleva su mismo nombre. La entidad constituye la capital del distrito de Soritor, ejerciendo la función administrativa principal para la zona. Se ubica a una altitud de 883 metros sobre el nivel del mar, lo que le sitúa en la zona de tierras altas de la región. Según los datos del censo de 2015, la población de Soritor era de aproximadamente 31 540 habitantes, cifra que refleja su dimensión demográfica en el contexto regional. El distrito de Soritor, del cual la población local forma la mayor concentración, está integrado dentro de la provincia de Moyobamba, que a su vez pertenece a la región San Martín. En 2015 se registró una población aproximada de 31 540 habitantes, consolidando a Soritor como uno de los centros poblados relevantes de la zona."
+  },
+  {
+    "slug": "san-bernardo-colombia",
+    "name": "San Bernardo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 213,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "florencia-colombia",
+      "pasto",
+      "mocoa",
+      "villagarzon",
+      "tuquerres",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Bernardo, municipio nariñense a 75 km de Pasto, se erigió en 1992 y destaca por su clima de 18 °C entre 1.800 y 3.200 m de altitud.",
+    "aboutTitle": "Río Mayo y la tradición gastronómica de San Bernardo",
+    "about": "San Bernardo es un municipio del departamento de Nariño, Colombia, ubicado a 75 kilómetros de San Juan de Pasto, la capital departamental. Fue erigido como municipio en 1992, después de formar parte de San José de Albán. El territorio se sitúa en la zona de influencia del macizo colombiano, entre los cerros Helechal y Pico Chaqué, y pertenece a la subregión del río Mayo, con cuencas que llegan al norte por el río Mayo y al sur por el río Juanambú.\n\nSu altitud varía entre 1.800 y 3.200 metros sobre el nivel del mar, lo que genera una temperatura promedio de 18 °C y permite la existencia de varios pisos térmicos. Limita al norte con los municipios de Belén y La Cruz, al oriente con Tablón de Gómez, al occidente con San Pedro de Cartago y al sur con San José de Albán. La gastronomía local incluye arepas de maíz trillado, mazamorra, envueltos, sopas, tacado de guineo con espinazo y dulce cortado. En 2019 la participación electoral alcanzó el 90,01 % en la elección de alcalde, situándose entre los diez municipios con menor abstencionismo del país."
   }
 ];

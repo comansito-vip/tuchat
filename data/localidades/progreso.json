@@ -1183,7 +1183,20 @@
   "pacaipampa",
   "rurrenabaque",
   "aguadas",
-  "langue"
+  "langue",
+  "canalete",
+  "rio-hondo",
+  "pajapita",
+  "xicotencatl",
+  "paltas",
+  "yahualica-de-gonzalez-gallo",
+  "arteaga-michoacan",
+  "abai",
+  "charo",
+  "roscio",
+  "encanada",
+  "soritor",
+  "san-bernardo-colombia"
  ],
  "descartadas": [
   {
@@ -13135,6 +13148,406 @@
    "slug": "el-arenal",
    "razon": "es una división administrativa, no una localidad",
    "fecha": "2026-10-30"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "rio-negro",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "san-juan-cotzocon",
+   "razon": "rechazada tras corrección: La ficha menciona la región mixe, que no se menciona en el material de origen. La ficha describe el relieve del entorno natural de la zona, que no se menciona en el material de origen. La ficha mencio",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "canas",
+   "razon": "fraseo calcado de guapiles: \"es el distrito primero y la ciudad\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "benemerito-de-las-americas",
+   "razon": "fraseo calcado de tenejapa: \"es uno de los ciento veinticuatro municipios\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "colquiri",
+   "razon": "rechazada tras corrección: Se menciona que la extracción de piedra pizarra es la actividad principal del municipio, pero la fuente solo dice que es la principal actividad económica, no necesariamente la única. También se repite",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "manlio-fabio-altamirano",
+   "razon": "rechazada tras corrección: La ficha describe la función de la localidad como cabecera municipal y su papel en la organización territorial, lo que no se encuentra en el material de origen. También se menciona la presencia de dep",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "dabajuro",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "naguabo",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "yantzaza",
+   "razon": "rechazada tras corrección: La ficha menciona que Yantzaza es la segunda ciudad más poblada de Zamora Chinchipe, pero la fuente solo menciona que es la segunda urbe más grande y poblada de la provincia, sin especificar si es la ",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "lajas",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "namiquipa",
+   "razon": "fraseo calcado de guerrero: \"es uno de los 67 municipios que\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "ozuluama-de-mascarenas",
+   "razon": "rechazada tras corrección: La ficha describe la condición de cabecera municipal y su rol administrativo, lo que no se menciona en el material de origen; La ficha menciona la organización territorial del país, lo que no se menci",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "marcona",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "abreus",
+   "razon": "rechazada tras corrección: La fecha de fundación está respaldada, pero no hay información sobre la industria, agricultura, servicios públicos, educativos y sanitarios, arquitectura, vida cotidiana, etc. en el material de origen",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "ixhuatlan-del-cafe",
+   "razon": "rechazada tras corrección: La ficha describe la función de cabecera municipal y su importancia en la estructura municipal veracruzana, lo que no se menciona en el material de origen; La ficha menciona que la zona central montañ",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "soledad-atzompa",
+   "razon": "rechazada tras corrección: La frase 'Como parte de Veracruz, Soledad Atzompa comparte la pertenencia administrativa y cultural del estado, estando integrada en la red de comunidades que habitan la Sierra de Zongolica y la zona ",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "aiquile",
+   "razon": "rechazada tras corrección: La ficha menciona que la altitud influye en el clima y las condiciones de vida de los habitantes, lo que no está respaldado por la fuente original.; La ficha describe la posición estratégica de Aiquil",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "oxkutzcab",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "ocotepeque",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "yaguachi-nuevo",
+   "razon": "fraseo calcado de pedro-carbo: \"en la provincia de guayas ecuador se\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "playas-del-rosario",
+   "razon": "rechazada tras corrección: La ficha dice que 'la denominación de villa indica su condición de asentamiento dentro del territorio tabasqueño', lo que no está respaldado por la fuente. La fuente solo menciona que forma parte de l",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "malacatancito",
+   "razon": "rechazada tras corrección: La frase 'Como entidad administrativa, Malacatancito forma parte del ordenamiento territorial guatemalteco y depende de las autoridades del departamento de Huehuetenango' es una invención, no está res",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "nazca",
+   "razon": "rechazada tras corrección: La ficha describe el relieve y la posición geográfica de Nazca de manera que no se encuentra en el material de origen, como 'el valle y el cauce del Aja configuran el relieve que rodea la población', ",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "caracollo",
+   "razon": "rechazada tras corrección: La ficha describe la proximidad y conexión con la capital departamental de manera que no está respaldada por la fuente; La ficha menciona que la localidad está incluida en los registros oficiales de l",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "guanajay",
+   "razon": "rechazada tras corrección: Añade afirmaciones no respaldadas por la fuente original, como que la localidad ha sido citada en documentos históricos y sus efectos o papel en el futuro entramado provincial de Artemisa en años post",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "naolinco",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "uncia",
+   "razon": "rechazada tras corrección: La ficha describe el entorno natural como 'montañoso' y menciona 'la diversidad cultural y las condiciones ambientales propias de la región andina del departamento de Potosí', lo que no se encuentra e",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "rio-santiago",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "patapo",
+   "razon": "rechazada tras corrección: La ficha menciona que Pátapo concentra la gestión administrativa local, albergando las oficinas municipales y sirviendo de referencia para la prestación de servicios públicos a la población del distri",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "santa-isabel-de-las-lajas",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "doctor-juan-leon-mallorquin",
+   "razon": "rechazada tras corrección: La distancia a Ciudad del Este y a Asunción sitúa al municipio a una posición intermedia que influye en su dinámica social y económica, aunque la información disponible se limita a los datos histórico",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "puente-nacional-estado-de-veracruz",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "coipa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "ignacio-escudero",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "yauli",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "abangares",
+   "razon": "fraseo calcado de golfito: \"en la epoca precolombina el territorio estuvo\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "copainala",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 353 (line 3 column 252)",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "mezquitic",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "barranca",
+   "razon": "rechazada tras corrección: La ficha menciona que 'La información disponible se limita a estos datos geográficos, administrativos y demográficos, y muestra que el territorio está organizado en varios centros poblados dentro de l",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "chalchihuitan",
+   "razon": "fraseo calcado de margaritas: \"es uno de los 124 municipios del\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "banos-ecuador",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "cura-mori",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "gualaquiza",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "pangua",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "colomi",
+   "razon": "rechazada tras corrección: La frase 'ofreciendo variedad de paisajes dentro del municipio' es una invención, ya que no se menciona en el material de origen.; La frase 'El relieve incluye colinas, llanuras y áreas serranas que m",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "mapiri",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "pedro-gual",
+   "razon": "fraseo calcado de los-salias: \"uno de los 21 municipios que conforman\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "pedro-galvez",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "juarez",
+   "razon": "fraseo calcado de chulucanas-peru: \"sobre el nivel del mar segun el\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "puerto-triunfo",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "cliza",
+   "razon": "rechazada tras corrección: La temperatura media registrada es de 25 °C, característica del clima de la zona.; El clima, con una temperatura media de 25 °C, se mantiene estable a lo largo del año.; La combinación de su extensión",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "carmelo-departamento-de-colonia",
+   "razon": "rechazada tras corrección: La frase 'El Concejo ejerce la función de gobierno local conforme a la normativa vigente' es una invención ya que no se menciona en el material de origen.",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "vicente-noble",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "chilca-departamento-de-lima",
+   "razon": "rechazada tras corrección: La ficha menciona que la localidad se encuentra a pocos kilómetros del mar, lo que no se encuentra en el material de origen; La ficha menciona que la población refleja el carácter de asentamiento urba",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "galeras",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 646 (line 3 column 476)",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "quepos",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "natales",
+   "razon": "fraseo calcado de la-oliva: \"lo que la convierte en el segundo\"",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "juli",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "orocovis",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "tecpatan",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "zarumilla",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "usquil",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
+  },
+  {
+   "slug": "almaguer",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-10-31"
   }
  ]
 }
