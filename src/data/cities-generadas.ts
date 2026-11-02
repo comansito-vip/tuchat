@@ -36604,5 +36604,1438 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Malinalco, Pueblo Mágico del Estado de México, se ubica a 84 km de la Ciudad de México y obtuvo su título el 22 de octubre de 2010.",
     "aboutTitle": "Malinalco, Pueblo Mágico a 84 km de la CDMX",
     "about": "Malinalco es un municipio del sur del Estado de México, a 65 kilómetros de Toluca y 84 kilómetros de la Ciudad de México. Forma parte de la Región Ixtapan y está integrado por 42 localidades, siendo la cabecera municipal, también llamada Malinalco, su principal centro urbano. Limita al norte con Joquicingo, Ocuilan, Zumpahuacán y Tenancingo, y al sureste con el estado de Morelos. Su ayuntamiento se constituyó el 1 de enero de 1826 y fue ratificado por el gobernador Melchor Múzquiz. \n\nEl municipio es conocido por su título de Pueblo Mágico, concedido el 22 de octubre de 2010, y por la cercanía al santuario de Chalma, importante lugar de peregrinaje católico que atrae a miles de visitantes. Malinalco destaca también por su nombre de origen náhuatl, que significa “lugar de las enredaderas”, y por la historia vinculada a la figura legendaria de Malinaxóchitl, la “Flor del zacate del carbonero”."
+  },
+  {
+    "slug": "santa-isabel-de-las-lajas",
+    "name": "Santa Isabel de las Lajas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 221,
+    "activity": "Baja",
+    "parentName": "Cuba",
+    "parentSlug": "cuba",
+    "provincia": "Provincia de Cienfuegos",
+    "regionSlug": "provincia-de-cienfuegos",
+    "channels": [
+      "cuba",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-clara-cuba",
+      "cienfuegos",
+      "sancti-spiritus",
+      "cardenas",
+      "cuba",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Isabel de las Lajas, con 21.826 habitantes y solo el 5,5 % de la población de Cienfuegos, destaca por su historia ligada a Benny Moré.",
+    "aboutTitle": "Santa Isabel de las Lajas: origen del nombre y legado de Benny Moré",
+    "about": "Santa Isabel de las Lajas, conocida históricamente como Lajas, lleva un nombre de origen hispano que combina la referencia a las lajas, piedras del suelo, cuya voz proviene del latín, con la figura religiosa de Santa Isabel. La población asciende a 21.826 habitantes, lo que supone apenas el 5,5 % de la población total de la provincia de Cienfuegos, y su superficie cubre 429,8 km². Limita al norte y al oeste con la provincia de Villa Clara, al sur con los municipios de Cumanayagua y Palmira, y al oeste nuevamente con Rodas y Palmira. Estos contornos geográficos definen su ubicación dentro de la provincia de Cienfuegos y su relación con las regiones vecinas. El municipio quedó inmortalizado por su hijo ilustre, Benny Moré, el Bárbaro del Ritmo, quien lo menciona en una de sus canciones, reforzando su vínculo con la cultura cubana. El nombre completo, Santa Isabel de las Lajas, refleja esa combinación de geografía y religiosidad."
+  },
+  {
+    "slug": "galeras",
+    "name": "Galeras",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Sucre",
+    "regionSlug": "sucre",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "corozal",
+      "magangue",
+      "sampues",
+      "chinu",
+      "sincelejo",
+      "sucre",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Galeras, municipio de Sucre a 50 km de Sincelejo, celebra cada enero el Festival Folclórico de la Algarroba y la Muestra Anual de Cuadros Vivos.",
+    "aboutTitle": "Festival Folclórico de la Algarroba y Cuadros Vivos en Galeras",
+    "about": "Galeras es un municipio del departamento de Sucre, Colombia, situado en la subregión de Sabanas al norte del país. Se ubica a 50 km de Sincelejo, la capital departamental. Fue fundado como municipio el 24 de octubre de 1968 y su cabecera originalmente se llamó Nueva Granada. El topónimo hace referencia a su origen como lugar de engaleramiento o encierro de ganado. Dentro de su territorio se encuentran centros poblados como Abre El Ojo, Baraya y Puerto Franco, y veredas como Surban, Palmital y Los Leones.\n\nEl municipio es conocido por el Festival Folclórico de la Algarroba y la Muestra Anual de Cuadros Vivos, celebrados entre el 3 y el 8 de enero, y considerados patrimonio cultural del departamento. Galeras cuenta con una carretera asfaltada que lo enlaza con Sincé, San Juan de Betulia, Corozal y Sincelejo, y una carretera destapada hacia Magangué, Bolívar. El aeropuerto más cercano es Las Brujas, en Corozal, a 30 minutos de distancia."
+  },
+  {
+    "slug": "quepos",
+    "name": "Quepos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Puntarenas",
+    "regionSlug": "provincia-de-puntarenas",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cartago",
+      "costa-rica",
+      "san-jose",
+      "heredia",
+      "alajuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quepos, distrito costero de la provincia de Puntarenas en Costa Rica, destaca por su puerto del Pacífico y su proximidad al Parque Nacional Manuel Antonio.",
+    "aboutTitle": "Puerto de Quepos y su acceso al Parque Nacional Manuel Antonio",
+    "about": "Quepos es un distrito del cantón homónimo, ubicado en la provincia de Puntarenas, Costa Rica. Con una superficie de 236,05 km² y una altitud media de 5 m s.n.m., alberga a 21.531 habitantes según estimaciones de 2022. El municipio se sitúa a 60 km al sur de San José en línea recta y a 165 km por carretera, atravesando Atenas, Orotina, Tárcoles, Playa Jacó y Parrita. Su puerto es uno de los más importantes de la costa pacífica del país y constituye la puerta de acceso al Parque Nacional Manuel Antonio, a unos 7 km de distancia, lo que genera flujo turístico durante todo el año.\n\nEl distrito incluye barrios como Boca Vieja, Cocal, Colinas del Este e Inmaculada, y poblados como Anita, Bartolo, Cañitas, Manuel Antonio y Roncador. La economía local depende en gran medida del turismo, impulsado por las playas reconocidas del parque y los puestos de artesanía en la zona de entrada. Quepos mantiene una de las mayores densidades poblacionales del Pacífico Central costarricense, lo que refleja su papel como centro de servicios y actividades vinculadas al mar y al entorno natural."
+  },
+  {
+    "slug": "tecpatan",
+    "name": "Tecpatán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 170,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "las-choapas",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tecpatán, municipio del noroeste de Chiapas, destaca por la Presa Netzahualcóyotl (Presa Malpaso), una de las mayores represas de México.",
+    "aboutTitle": "Presa Malpaso y el río Grijalva en Tecpatán",
+    "about": "Tecpatán es uno de los 124 municipios del estado de Chiapas, situado en la zona noroeste del estado. Su cabecera es el propio pueblo de Tecpatán y limita al norte con Ostuacán, al noreste con Francisco León, al este con Ocotepec y Copainalá, al sur con Cintalapa y Ocozocoautla de Espinosa, y al noroeste con el estado de Veracruz, específicamente con Las Choapas. Con una extensión de 37.543 km², representa el 6.09 % del territorio chiapaneco. El topónimo proviene del náhuatl Tecpatlán, que combina “técpatl” (cuchillo de pedernal) y “‑tlan” (lugar donde abundan), traducido como “lugar donde abundan los cuchillos”.\n\nEl municipio se ubica dentro de la Región Grijalva‑Usumacinta, la mayor cuenca hidrológica de México. El río Grijalva, también llamado Río Grande de Chiapas, atraviesa el territorio de sur a norte y es la corriente principal. En su tramo norte, el agua está represada por la Presa Netzahualcóyotl, conocida como Presa Malpaso, la segunda mayor represa de México, que inunda una importante parte del municipio."
+  },
+  {
+    "slug": "tapalpa",
+    "name": "Tapalpa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Jalisco",
+    "regionSlug": "jalisco",
+    "channels": [
+      "jalisco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sayula",
+      "zacoalco-de-torres",
+      "ciudad-guzman",
+      "cocula",
+      "zapotiltic",
+      "jalisco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tapalpa, Pueblo Mágico de Jalisco, se ubica a 118 km de Guadalajara y cuenta con 442,15 km² de territorio en la Región Lagunas.",
+    "aboutTitle": "Tapalpa: Pueblo Mágico y su historia en la Región Lagunas",
+    "about": "Tapalpa es un municipio del estado de Jalisco, situado en la Región Lagunas a unos 118 kilómetros de Guadalajara. Su cabecera lleva el mismo nombre y ocupa 442,15 km². Según el II Conteo de Población y Vivienda, el municipio cuenta con 19 506 habitantes y su economía se basa principalmente en el sector primario.\n\nEl nombre proviene del náhuatl Tlapálpan, que significa «lugar de tierra de color» o «tierra alta». En su historia, Tapalpa formó parte del señorío de Tzaollan a Zula y luego del reino de Colima, participando en la Guerra del Salitre. La Secretaría de Turismo de México lo reconoce como Pueblo Mágico por su belleza y paisajes naturales. La conquista del poblado la realizó Alonso de Ávalos, quien incorporó Tapalpa, Juanacatlán y sus alrededores a la provincia de Ávalos bajo el dominio virreinal de la Nueva España. Posteriormente, la zona se integró al estado de Jalisco tras la independencia de México."
+  },
+  {
+    "slug": "degollado",
+    "name": "Degollado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Jalisco",
+    "regionSlug": "jalisco",
+    "channels": [
+      "jalisco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arandas",
+      "atotonilco-el-alto",
+      "la-barca",
+      "jamay",
+      "ocotlan",
+      "jalisco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Degollado, Jalisco, es la capital del labrado de cantera y se conoce como la puerta grande hacia Los Altos de Jalisco, a 130 km al oeste de Guadalajara.",
+    "aboutTitle": "Degollado: la puerta grande de los Altos y su cantera",
+    "about": "Degollado es un municipio del estado de Jalisco, situado en la región Ciénega, al sureste de la Región de los Altos. Con una superficie de 426.07 km² y una población de 21.226 habitantes según el censo de 2020, la mayor parte de sus residentes se dedican al sector primario. La localidad es conocida a nivel nacional e internacional por su labrado de cantera, actividad que le otorga el título de capital del labrado de cantera.\n\nFundado el 29 de julio de 1855 bajo el nombre de San Ignacio de los Encinos, el pueblo recibió el nombre de Degollado el 31 de diciembre de 1861 en honor al general Santos Degollado. Durante el periodo de 1861 a 1895 formó parte del 3.º Cantón de La Barca. Limita al norte con los municipios de Ayotlán y Jesús María. En 2025 se invitó a revisar el catálogo 2025 de Desarrollo Social, disponible en la oficina de Desarrollo Social en la calle 1ro de mayo, edificio Poder Joven."
+  },
+  {
+    "slug": "tabaconas",
+    "name": "Tabaconas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cajamarca",
+    "regionSlug": "departamento-de-cajamarca",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jaen-peru",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tabaconas, distrito de Cajamarca creado el 11 de febrero de 1855, celebra el 29 de septiembre la festividad de San Miguel.",
+    "aboutTitle": "Santuario Nacional Tabaconas Namballe: 32 000 ha de biodiversidad",
+    "about": "Tabaconas es uno de los siete distritos que integran la provincia de San Ignacio, en el norte del Perú, bajo la administración del Gobierno regional de Cajamarca. Según el censo de 2005, su población alcanza los 15 927 habitantes y se compone de los centros poblados de Churuyacu, Linderos, La Bermeja, Panchía, Guayabal, Tamborapa Pueblo y la comunidad campesina San Miguel de Tabaconas. La capital del distrito, también llamada Tabaconas, se sitúa a 1 892 metros sobre el nivel del mar.\n\nEl distrito fue creado mediante Ley del 11 de febrero de 1855, en el gobierno del Presidente Ramón Castilla, y forma parte del Vicariato Apostólico de Jaén. En el ámbito eclesiástico, Tabaconas depende del Vicariato Apostólico de San Francisco Javier, también conocido como Vicariato Apostólico de Jaén. Cada 29 de septiembre se celebra la festividad de San Miguel de Tabaconas. Entre sus atractivos turísticos destaca el Santuario Nacional Tabaconas Namballe, una zona protegida de aproximadamente 32 000 hectáreas que reúne bosques, páramos y lagunas bajo la gestión del SERNANP."
+  },
+  {
+    "slug": "guasipati",
+    "name": "Guasipati",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guasipati, capital del municipio Roscio en Bolívar, Venezuela, cuenta con 21 165 habitantes y está rodeada por los riachuelos Denguesito y Cunurí.",
+    "aboutTitle": "Guasipati y sus riachuelos Denguesito y Cunurí, afluentes del Miamo",
+    "about": "Guasipati es una ciudad del Estado Bolívar, en Venezuela, y ejerce como capital del municipio Roscio. Según datos del Instituto Nacional de Estadísticas, la población de Guasipati asciende a 21 165 habitantes. La localidad se ubica en las cercanías de los riachuelos Denguesito, situados al noroeste, y del Cunurí, al oeste; ambos son tributarios del río Miamo. Estos cursos de agua forman parte de la red hidrográfica de la zona y representan un referente geográfico para la comunidad. La posición geográfica de Guasipati, próxima a estos afluentes, ha sido descrita en los registros oficiales como un elemento del entorno natural de la población. Como cabecera municipal, Guasipati alberga las instituciones que gestionan el municipio Roscio. La información disponible se limita a los datos demográficos y a la ubicación de los riachuelos, sin referencias a actividades específicas ni a servicios adicionales. El censo mencionado corresponde al último recuento oficial disponible. Estos datos son los más recientes publicados por la autoridad estadística."
+  },
+  {
+    "slug": "yamaranguila",
+    "name": "Yamaranguila",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Intibucá",
+    "regionSlug": "departamento-de-intibuca",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "comayagua",
+      "santa-rosa-de-copan",
+      "san-miguel",
+      "san-vicente",
+      "usulutan",
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yamaranguila, en Intibucá, Honduras, se ubica a 1.772 m sobre el nivel del mar y registra una temperatura media anual de 17,9 °C, la más fría del país.",
+    "aboutTitle": "Ballet Folklórico Zabalanquira y Quebrada El Carrizal en Yamaranguila",
+    "about": "Yamaranguila es un municipio del departamento de Intibucá, Honduras, situado en el centro de la entidad y enclavado en la Cordillera del Sur a 1.772 m s.n.m. Su territorio es una gran faja de terreno quebrado que atraviesa la Quebrada El Carrizal, con bosques de pinos que se expanden cada año por la escasa actividad maderera. El nombre proviene del término “Zabalanquira”, que en la lengua de los pueblos locales significa “Agua de la pirámide”. En 1791 ya figuraba como población del Curato de Intibucá.\n\nEl clima es oceánico templado (Cfb) y subtropical (Cwb), con una temperatura media anual de 17,9 °C, lo que lo convierte en el poblado más frío de Honduras. La precipitación anual alcanza los 1.290 mm distribuidos en aproximadamente 160 días, siendo abril el mes más seco y agosto el más lluvioso. La comunidad mantiene viva la tradición cultural a través del Ballet Folklórico Zabalanquira, creado por jóvenes para rescatar la cultura hondureña."
+  },
+  {
+    "slug": "bellavista",
+    "name": "Bellavista",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bellavista, la Perla del Huallaga en San Martín, Perú, celebra su semana turística del 22 al 30 de agosto y se ubica a la margen izquierda del río Huallaga.",
+    "aboutTitle": "Huallaga y la semana turística de Bellavista",
+    "about": "Bellavista es un distrito del departamento de San Martín, Perú, y capital de la provincia homónima. Según el censo de 2000 la ciudad contaba con 18 600 habitantes. Fue creado mediante la Ley N.º 5215 el 15 de octubre de 1925, durante el gobierno de Augusto B. Leguía. El nombre actual sustituyó al original Anchoajo y, según la tradición, surgió al observar el bello panorama desde la colina que domina la zona. En el ámbito eclesiástico, Bellavista forma parte de la Prelatura de Moyobamba, bajo la jurisdicción de la arquidiócesis de Toledo en España.\n\nEl distrito se asienta a la margen izquierda del río Huallaga, que constituye la principal atracción turística por sus playas y paseos en canoa. La población local incluye a la etnia Quechua Lamista, autodenominada Llacuash. Entre sus festividades destacan Carnaval, Ceniza, Semana Santa, San Juan, Santa Rosa y Navidad. Del 22 al 30 de agosto se celebra la semana turística."
+  },
+  {
+    "slug": "andres-bello-miranda",
+    "name": "Andrés Bello",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Miranda",
+    "regionSlug": "miranda",
+    "channels": [
+      "miranda",
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guarenas",
+      "venezuela",
+      "caracas",
+      "los-teques",
+      "miranda",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Andrés Bello, municipio de Miranda con 23 127 habitantes; su capital es San José de Barlovento y cuenta con las parroquias Cumbo y San José de Barlovento.",
+    "aboutTitle": "San José de Barlovento: capital histórica del municipio Andrés Bello",
+    "about": "El municipio Andrés Bello es uno de los 21 municipios del estado Miranda, ubicado en la parte este costera del centro norte de Venezuela. Su capital es la ciudad de San José de Barlovento y está dividido en dos parroquias, Cumbo y San José de Barlovento. Con 23 127 habitantes y una superficie de 114 km², la densidad alcanza los 176,5 habitantes por km². El nombre del municipio honra al escritor caraqueño Andrés Bello. En sus orígenes formó parte del municipio Páez del estado Miranda (Río Chico) y en 1900 consiguió su constitución como pueblo; en 1982, mediante un decreto presidencial publicado en la Gaceta Oficial, obtuvo la autonomía municipal.\n\nSan José de Barlovento, fundada en 1846 por los inmigrantes españoles José Imas, Román Imas y su tío Pedro Oderiz, se asentó a orillas del camino real que conectaba con Río Chico. La avenida Intercomunal San José de Barlovento‑Río Chico es la principal vía del municipio, mientras que la calle Bolívar constituye la calle principal del centro. Según el censo de 2011, el municipio registró un índice de pobreza del 16,3 %, situándose como el primero de la subregión de Barlovento y el sexto con menores índices en Miranda."
+  },
+  {
+    "slug": "purranque",
+    "name": "Purranque",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Los Lagos",
+    "regionSlug": "region-de-los-lagos",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "osorno",
+      "puerto-montt",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Purranque, ciudad‑comuna del sur de Chile, cuenta con 20.988 habitantes y se ubica a 940 km al sur de Santiago, en la Región de Los Lagos.",
+    "aboutTitle": "Purranque: origen huilliche y la Villa Lo Burgos de 1911",
+    "about": "Purranque es una ciudad‑comuna de la zona sur de Chile con 20.988 habitantes, en la Provincia de Osorno, Región de Los Lagos. Se sitúa a 940 km al sur de Santiago y limita al norte con Río Negro, al oeste con el mar Chileno, al este con Puerto Octay y al sur con Fresia y Frutillar. El nombre proviene de la palabra huilliche \"Purranquil\", que significa \"Tierra de Carrizales\". En 1911, el 18 de abril, se fundó la Villa Lo Burgos por don Tomás Burgos Sotomayor, y la localidad creció junto a la estación de ferrocarril que enlazaba Osorno y Puerto Montt.\n\nEn la comuna se encuentra la aldea de Manquemapu, reconocida por su agricultura y vista al mar. La municipalidad ha impulsado obras como la construcción de la 4ª Compañía de Bomberos, la puesta en marcha del Hogar Protegido junto al Cementerio Municipal, la apertura de dos nuevos asfaltos y el inicio de la Posta Ponce, que mejorará la atención de salud local."
+  },
+  {
+    "slug": "concepcion-chiquirichapa",
+    "name": "Concepción Chiquirichapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "solola",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Concepción Chiquirichapa, municipio del departamento de Quetzaltenango, está a 13 km de la ciudad de Quetzaltenango y a 212 km de la Ciudad de Guatemala.",
+    "aboutTitle": "Arroyo de las cigarras y fiesta patronal en Concepción Chiquirichapa",
+    "about": "Concepción Chiquirichapa es un municipio de tercera categoría del departamento de Quetzaltenango, situado a 13 km de la ciudad de Quetzaltenango y a 212 km de la Ciudad de Guatemala, en el occidente de la República de Guatemala. El nombre combina la referencia religiosa a la Virgen de la Inmaculada Concepción con el término náhuatl «Chiquilichtl‑a‑pan», que significa “el arroyo de las cigarras o chicharras”. Durante la época colonial formó parte de la doctrina del convento de San Juan Ostuncalco, bajo la administración de frailes mercaderios, y en 1754 pasó a ser una parroquia del clero secular. Tras la independencia de Centroamérica en 1821 quedó bajo el circuito de Ostuncalco para la administración de justicia y, entre 1838 y 1840, formó parte del efímero Estado de Los Altos, recuperado posteriormente por el general Rafael Carrera. La proyección del censo de 2018 indica que la población alcanzó los 19 551 habitantes, con una densidad aproximada de 407 habitantes por kilómetro cuadrado, y que el número de habitantes había crecido desde los 15 912 registrados en 2002."
+  },
+  {
+    "slug": "heroica-ciudad-de-ejutla-de-crespo",
+    "name": "Heroica Ciudad de Ejutla de Crespo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Heroica Ciudad de Ejutla de Crespo es un municipio del centro de Oaxaca, uno de los 570 que conforman la entidad, con cabecera homónima.",
+    "aboutTitle": "Municipio central de Oaxaca: Heroica Ciudad de Ejutla de Crespo",
+    "about": "Heroica Ciudad de Ejutla de Crespo es un municipio situado en la zona central del estado de Oaxaca, México, y forma parte de los 570 municipios que lo integran. La cabecera municipal lleva el mismo nombre, Ejutla de Crespo, y concentra la administración del territorio. Dentro de su jurisdicción se encuentran localidades como Arrogante, Justo Benítez, Barranca Larga, La Ermita, La Escalera, Hacienda Vieja, Monte del Toro, La Noria de Ortiz, La Noria, Nuevo Venustiano Carranza, Los Ocotes, Rinconada de San Diego, San Joaquín, San José de las Huertas, San Juan Coatecas Bajas, San Juan Logolava, San Matías Chilazoa, Santa Cruz Nexila, Santa Martha Chichihualtepec, El Sauz, San Isidro del Camino, Zoritana, Yogoseve, Puga y Colmenares, La Cieneguilla, La Lobera, Peña Larga y El Copal. Todas estas comunidades forman parte del municipio y dependen administrativamente de la cabecera. El territorio municipal está organizado en torno a la sede de Ejutla de Crespo, que concentra los servicios públicos y la gestión local."
+  },
+  {
+    "slug": "paramonga",
+    "name": "Paramonga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huacho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paramonga, primer distrito agroindustrial del Perú, ubicado en la provincia de Barranca, departamento de Lima, en la Costa del Perú.",
+    "aboutTitle": "Paramonga, corazón agroindustrial de la Costa del Perú",
+    "about": "El distrito de Paramonga está situado en la provincia de Barranca, dentro del departamento de Lima, y forma parte de la Costa del Perú. Su reconocimiento proviene de ser el primer distrito agroindustrial del país, donde operan varias fábricas que transforman la caña de azúcar en derivados alimentarios y energéticos. Desde el punto de vista histórico, el territorio muestra evidencia de ocupación humana en el periodo formativo regional pre‑Chavín, alrededor del 2000 a. C. Los pobladores de aquella época se asentaron en el Valle Fortaleza, donde desarrollaron agricultura, produjeron cerámica y erigieron centros ceremoniales que reflejan la organización social de la zona. Estas huellas arqueológicas constituyen un importante referente para comprender la evolución cultural de la región."
+  },
+  {
+    "slug": "los-andes-colombia",
+    "name": "Los Andes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pasto",
+      "tuquerres",
+      "florencia-colombia",
+      "ipiales",
+      "tulcan",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Andes es un municipio colombiano ubicado en el departamento de Nariño, cuya cabecera municipal recibe el nombre de Sotomayor.",
+    "aboutTitle": "Los Andes: entre el río Patía, el río Guáitara y Cerro Negro",
+    "about": "Los Andes es un municipio colombiano del departamento de Nariño, fundado como tal el 11 de abril de 1911. La cabecera municipal de esta localidad es Sotomayor. La zona se sitúa en el ámbito del Nudo de los Pastos, punto geográfico donde se divide la Cordillera de los Andes en Colombia.\n\nEn el aspecto hidrográfico, la zona pertenece a la cuenca del río Patía e incluye el paso de los ríos Guáitara, Pacual, Patía, Sumbiambi y Cuembí. El relieve municipal presenta elevaciones destacadas en la Cordillera Occidental, entre las que se encuentran los Culuales en la vereda San Pedro, el páramo de Carrizal y Quebrada Honda, el Cerro Negro en Cordilleras Andinas y el Cerro Sotomayor, repartido entre las veredas Providencia, La Planada y San Juan. Asimismo, destacan las colinas de El Arenal, La Loma de Robles y San Antonio en la vereda La Loma, junto con el sector de Pangús, caracterizado por sus fuertes pendientes hacia las depresiones de los ríos Guáitara, Patía, Quebrada Honda y Piscoyaco."
+  },
+  {
+    "slug": "ovejas",
+    "name": "Ovejas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Sucre",
+    "regionSlug": "sucre",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "corozal",
+      "el-carmen-de-bolivar",
+      "sincelejo",
+      "since",
+      "san-jacinto",
+      "sucre",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ovejas, municipio sucrense del Caribe colombiano, celebra cada año el Festival Nacional de Gaitas y destaca como pionero nacional en exportación de tabaco.",
+    "aboutTitle": "Ovejas y su Festival Nacional de Gaitas",
+    "about": "Ovejas es un municipio del Caribe colombiano, ubicado en el departamento de Sucre. Se sitúa a 154 km al sudeste de Cartagena de Indias y a 41 km de Sincelejo, capital departamental. El territorio forma parte del sistema orográfico de los Montes de María. En 1776 el fundador Antonio de la Torre y Miranda le dio el nombre de San Francisco de Asís, pero los habitantes conservaron el nombre de la hacienda Ovejas, que perdura hasta hoy.\n\nLa economía local se destaca por la exportación de tabaco, actividad en la que Ovejas, junto con El Carmen de Bolívar, es pionero a nivel nacional. Cada año se celebra el Festival Nacional de Gaitas, una de las manifestaciones culturales más importantes del municipio. La comunicación terrestre se realiza principalmente por la carretera Troncal de Occidente, que enlaza con Sincelejo, Los Palmitos, Corozal y Morroa, y también permite el acceso a Cartagena, Barranquilla y los departamentos de Santander. Los aeropuertos más cercanos son el Aeropuerto Montemariano, en El Carmen de Bolívar, y el Aeropuerto de Corozal, que ofrece vuelos comerciales."
+  },
+  {
+    "slug": "el-cercado",
+    "name": "El Cercado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de San Juan",
+    "regionSlug": "provincia-de-san-juan",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "republica-dominicana",
+      "santo-domingo",
+      "la-vega",
+      "santiago-de-los-caballeros",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Cercado, municipio de la provincia de San Juan en República Dominicana, fue fundado en 1845 y está rodeado de montañas.",
+    "aboutTitle": "El Cercado: municipio fundado en 1845 rodeado de montañas",
+    "about": "El Cercado, también llamado localmente San Pedro de El Cercado, es un municipio situado en la provincia de San Juan, República Dominicana. Su nombre proviene de estar \"cercado\" por montañas. La comunidad fue fundada en 1845 por el presidente Pedro Santana, después de haber pertenecido al municipio de Bánica bajo el nombre de Sabana del Bohío. En 1888 se estableció la parroquia San Pedro Apóstol durante la visita pastoral del arzobispo Fernando Arturo de Meriño, quien fuera presidente entre 1880 y 1882. En el sector de Los Guineos, el Padre de la Patria Francisco del Rosario Sánchez fue capturado.\n\nSegún el censo de 2022, El Cercado cuenta con 17 987 habitantes, de los cuales 9 653 son hombres y 8 334 mujeres. Aproximadamente el 70,36 % de la población, unos 12 656 residentes, vive en áreas rurales, mientras que 5 331 habitan la zona urbana. El clima es templado, con máximas de 28‑30 °C de junio a octubre y mínimas de 16‑18 °C de diciembre a marzo, llegando a 14 °C en algunos casos. Los meses más lluviosos son mayo, agosto, septiembre y octubre, con precipitaciones entre 88 y 104 mm."
+  },
+  {
+    "slug": "nandaime",
+    "name": "Nandaime",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Nicaragua",
+    "parentSlug": "nicaragua",
+    "provincia": "Departamento de Granada",
+    "regionSlug": "departamento-de-granada",
+    "channels": [
+      "nicaragua",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "granada-nicaragua",
+      "masaya",
+      "rivas",
+      "nicaragua",
+      "managua",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nandaime, municipio de Granada, Nicaragua, se ubica a 67 km de Managua y su nombre significa 'lugar de abundantes arroyos'.",
+    "aboutTitle": "Arroyos abundantes y la cuna del General Estrada en Nandaime",
+    "about": "Nandaime es un municipio del departamento de Granada, en Nicaragua. Limita al norte con los municipios de Granada, Diriá y Diriomo, al sur con los municipios de Belén, Potosí y Buenos Aires, al este con el Lago Cocibolca y al oeste con los municipios de Santa Teresa y La Paz de Oriente. La cabecera municipal está ubicada a 67 kilómetros de la capital de Managua. El nombre proviene del origen chorotega \"nanda\" (arroyo) y \"ime\" (abundancia), lo que significa \"lugar de abundantes arroyos\".\n\nSegún registro histórico, los antiguos indígenas se asentaron primero frente a la Isla de Zapatera, lugar visitado por el conquistador Gil González Dávila en 1523. Un segundo asentamiento se ubicó en la ribera del río Manares y fue destruido por la erupción del volcán Mombacho en 1570, obligando a la población a trasladarse al sitio actual, atravesado por la carretera Panamaricana. Nandaime es reconocida a nivel nacional como \"La cuna del General José Dolores Estrada\", héroe de la Batalla de San Jacinto. En la época colonial la empresa Chocolat Valle Menier, una de las colecciones más selectas de Francia, mantuvo presencia entre 1867 y 1920."
+  },
+  {
+    "slug": "samaca",
+    "name": "Samacá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Boyacá",
+    "regionSlug": "boyaca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tunja",
+      "chiquinquira",
+      "ubate",
+      "barbosa-santander",
+      "paipa",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Samacá, municipio boyacense de la provincia del Centro, a 30 km de Tunja, ocupa el octavo lugar en población del departamento y destaca por su origen muisca.",
+    "aboutTitle": "Laguna de Cansicá y el origen muisca de Samacá",
+    "about": "Samacá es un municipio colombiano de la provincia del Centro, en el departamento de Boyacá. Se ubica a unos 30 km de la ciudad de Tunja y ocupa el octavo lugar en población del departamento. El nombre proviene del muysc cubun y combina los vocablos Sa (título de nobleza), Ma (nombre propio) y Ca (fortaleza o mansión de un soberano). En la época precolombina el territorio estaba asentado a orillas de la Laguna de Cansicá, que se extendía hasta el actual municipio de Cucaita y albergaba comunidades como los Patagüy, Foacá y Sáchica. Tras la orden del Zaque de Hunza, el cacique Boyacá organizó una avanzada que expulsó a los grupos locales y repartió la zona entre los actuales municipios de Samacá, Cucaita y Sora, mientras Tibaquirá quedó en una zona alta de Samacá. Estas raíces históricas forman parte del legado cultural del municipio. Hoy el municipio conserva vestigios de esa época en su arquitectura y tradiciones. La Laguna de Cansicá, aunque reducida, sigue siendo un referente histórico de la zona."
+  },
+  {
+    "slug": "chongoyape-departamento-de-lambayeque",
+    "name": "Chongoyape",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "cajamarca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chongoyape, distrito peruano ubicado en Chiclayo, fue fundado el 17 de junio de 1825 bajo el nombre de Santa Catalina de Chongoyape.",
+    "aboutTitle": "Reservas y patrimonio de Chongoyape: Tinajones y Chaparri",
+    "about": "El distrito de Chongoyape, uno de los veinte que integran la provincia de Chiclayo en Lambayeque, cubre una superficie de 712 km². Su capital, la ciudad homónima, se sitúa a 248 metros sobre el nivel del mar y a 60 km al este de la ciudad de Chiclayo. El distrito fue creado mediante Decreto s/n del 30 de julio de 1840, en el gobierno del Presidente Agustín Gamarra, y su fundación data del 17 de junio de 1825 bajo el nombre de Santa Catalina de Chongoyape, en honor a la esposa del hacendado donante. Muy cerca se encuentran el reservorio de Tinajones y la Central Hidroeléctrica de Carhuaquero.\n\nEn la Reserva Privada de Chaparri se mantiene en cautiverio a la Pava Aliblanca y al Oso de Anteojos, especies en vías de extinción, con el apoyo de la comunidad campesina. Entre los centros poblados urbanos destacan Chongoyape, Pampagrande y Cuculi, además de asentamientos rurales como Huaca Blanca, Zapotal-Tinajones y Juana Ríos."
+  },
+  {
+    "slug": "iriona",
+    "name": "Iriona",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Honduras",
+    "parentSlug": "honduras",
+    "provincia": "Departamento de Colón",
+    "regionSlug": "departamento-de-colon",
+    "channels": [
+      "honduras",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "honduras",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Iriona, municipio del departamento de Colón, Honduras, con una superficie de 3.861 km² y una población estimada de 22.455 habitantes en 2020.",
+    "aboutTitle": "Iriona, un municipio garífuna en el departamento de Colón",
+    "about": "Iriona es un municipio situado en el departamento de Colón, en la República de Honduras. Con una superficie de 3.861 km², el territorio abarca una diversidad de asentamientos rurales. El topónimo Iriona se forma a partir de los términos del idioma zambo “iri”, que significa espina, y “ona”, que indica una, de modo que el nombre se interpreta como “Una Espina”. En el siglo XIX, concretamente a finales de esa época, Iriona formaba parte de la aldea del municipio de Trujillo, antes de constituirse como entidad administrativa independiente. Actualmente la organización local comprende once aldeas y ciento setenta y cinco caseríos, distribuidos por todo el municipio. Según el censo oficial realizado en 2013, la población alcanzó los 21.204 habitantes. Tres años después, en julio de 2020, las proyecciones oficiales estimaron una cifra de 22.455 habitantes, lo que refleja un ligero crecimiento demográfico. Estos datos demográficos y territoriales sitúan a Iriona como una comunidad con una estructura poblacional dispersa y una historia vinculada a la expansión de los asentamientos coloniales en la zona norte del país."
+  },
+  {
+    "slug": "los-chiles",
+    "name": "Los Chiles",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 177,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Alajuela",
+    "regionSlug": "provincia-de-alajuela",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "liberia",
+      "puntarenas",
+      "alajuela",
+      "heredia",
+      "costa-rica",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Chiles, ciudad fronteriza con Nicaragua en la provincia de Alajuela, Costa Rica, cuenta con una población estimada de 20 546 habitantes en 2022.",
+    "aboutTitle": "La ciudad fronteriza de Los Chiles",
+    "about": "Los Chiles es el distrito primero y ciudad cabecera del cantón de Los Chiles, en la provincia de Alajuela, de Costa Rica. La ciudad se encuentra a una altitud de 43 metros sobre el nivel del mar en la llanura de San Carlos en el norte de Costa Rica, 14 kilómetros al sureste de San Carlos de Nicaragua.\n\nLa comunidad es también un centro de agricultura y pesca deportiva. El Río Frío, en el borde occidental de la ciudad, es un medio de comunicación muy importante para acceder a pequeños pueblos aledaños de ambas naciones. Los Chiles cuenta con un área de 503,61 km² y una altitud media de 43 m s. n. m."
+  },
+  {
+    "slug": "uribante",
+    "name": "Uribante",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Táchira",
+    "regionSlug": "tachira",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal",
+      "villa-del-rosario",
+      "el-vigia",
+      "los-patios",
+      "cucuta",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Uribante, municipio del Táchira con 1502 km² de extensión territorial, representa el 15% del espacio regional del estado venezolano.",
+    "aboutTitle": "Uribante, el municipio más extenso del Táchira",
+    "about": "El Municipio Uribante es uno de los veintinueve municipios que forman parte del Estado Táchira, región perteneciente a Los Andes de Venezuela. Su capital es la población de Pregonero, que funciona como cabecera municipal. La entidad tiene una extensión territorial de 1502 km², siendo el municipio más extenso del Táchira y cubriendo gran parte del relieve andino. La fundación de Pregonero, la capital de la entidad municipal, se atribuye a don Francisco de Borja y Mora, hecho ocurrido en la segunda mitad del siglo XVIII; la localidad conserva aún hoy rastros de la arquitectura colonial de esa época. Se trata de un municipio eminentemente montañoso, en cuyo seno se conservan los rasgos esenciales de la cultura andina, y sus paisajes se caracterizan por sierras, valles y ríos que forman el entramado natural típico de los Andes venezolanos."
+  },
+  {
+    "slug": "teopisca",
+    "name": "Teopisca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "tecpatan",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Teopisca es una ciudad del estado de Chiapas situada en los Altos de Chiapas, en la carretera Panamericana entre San Cristóbal y Comitán.",
+    "aboutTitle": "Teopisca en la Región Altos de Chiapas",
+    "about": "Teopisca es una ciudad del estado de Chiapas que se ubica en la región Altos de Chiapas, localizada en las coordenadas 16°32′33″N 92°28′19″O. El nombre de la localidad proviene de la lengua náhuatl, donde teo significa dios y pisque equivale a cosecha, traduciéndose como dios de la cosecha. La ciudad se sitúa en medio de San Cristóbal de las Casas y Comitán de Domínguez, estando prácticamente conurbada con el poblado de Amatenango del Valle, conocido por su artesanía local. En su historia, la población original se asentó en los picachos de Mispia y Chenecultie bajo el nombre de Ostuta. A raíz de una epidemia que mermó a los habitantes hace aproximadamente 400 años, 15 familias descendientes de españoles emigraron hacia el norte para refundar el sitio como Teopisque. En la actualidad, la vía de comunicación principal es la carretera Panamericana, cuyo trayecto se amplió de dos a cuatro carriles para conectar de forma estratégica con las ciudades vecinas. La economía local se basa de manera predominante en el sector del comercio, los servicios y el turismo, impulsada por proyectos de ecoturismo e inversión privada."
+  },
+  {
+    "slug": "castillo-de-teayo",
+    "name": "Castillo de Teayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "alamo",
+      "alto-lucero",
+      "poza-rica-de-hidalgo",
+      "tuxpam-de-rodriguez-cano",
+      "tuxpan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Castillo de Teayo, municipio de Veracruz con 18 663 habitantes, alberga la zona arqueológica homónima y está a 160 km de la capital del Estado.",
+    "aboutTitle": "Zona arqueológica de Castillo de Teayo y su origen náhuatl",
+    "about": "Castillo de Teayo es uno de los 212 municipios que conforman el estado de Veracruz de Ignacio de la Llave y está formado por 62 localidades, cuya cabecera lleva el mismo nombre. Se sitúa entre los paralelos 20°38′ y 20°50′ de latitud norte y los meridianos 97°34′ y 97°46′ de longitud oeste, a una altitud que oscila entre 60 y 400 metros. Con una superficie de 272 kilómetros cuadrados, representa el 0.38 % del territorio estatal y, según el censo de 2010, cuenta con 18 663 habitantes, lo que da una densidad de 68.6 habitantes por kilómetro cuadrado. El clima es cálido subhúmedo con lluvias en verano, con temperaturas que varían de 24 a 30 °C y precipitaciones entre 1 200 y 1 500 mm al año. El nombre proviene del náhuatl Te‑ayo‑k, que significa “tortuga sobre piedra”, y está ligado a la zona arqueológica de Castillo de Teayo, ubicada dentro del municipio. El municipio se constituyó oficialmente el 14 de diciembre de 1877 mediante el decreto 53, y se encuentra a aproximadamente 160 kilómetros por carretera de la capital del estado."
+  },
+  {
+    "slug": "calceta",
+    "name": "Calceta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Manabí",
+    "regionSlug": "provincia-de-manabi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "portoviejo",
+      "manta",
+      "quevedo",
+      "daule",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Calceta, cabecera del cantón Bolívar en Manabí, Ecuador, celebra su fundación parroquial desde el 22 de marzo de 1879.",
+    "aboutTitle": "Calceta: artesanías de paja mocora y fiesta del 22 de marzo",
+    "about": "Calceta es una ciudad ecuatoriana situada en la provincia de Manabí, donde ejerce como cabecera del cantón Bolívar. Su economía se sustenta principalmente en la agricultura, la ganadería, el comercio y la elaboración de artesanías con paja mocora y algodón.\n\nLos hallazgos arqueológicos en sus montañas, entre los que destacan petroglifos, objetos de cerámica y huesos, determinan que la zona fue residencia de los Caras. También se han hallado vestigios de culturas como Tosahuas, Machalilla, Chorrera, Valdivia y Guangala en comunidades como Mamey Colorado, Paraíso, Membrillo, Mocochal, Quiroga y en la propia Calceta. Calceta comenzó a formarse por el siglo XVII y recibió oleadas migratorias en el siglo XVIII, cuando la sequía obligaba a trasladarse desde Portoviejo y muchos hombres llegaron atraídos por la abundancia de caucho, tagua y maderas. José Miguel Zambrano, asentado a orillas del Río Carrizal, se dedicó a la transportación fluvial y a la artesanía, e introdujo el uso de las medias o calcetas, dando nombre a la ciudad. En 1878 fue considerada parroquia civil y el 22 de marzo de 1879 tuvo lugar su inauguración oficial."
+  },
+  {
+    "slug": "etzatlan",
+    "name": "Etzatlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Jalisco",
+    "regionSlug": "jalisco",
+    "channels": [
+      "jalisco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahualulco-de-mercado",
+      "ameca",
+      "tequila",
+      "tala",
+      "cocula",
+      "jalisco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Etzatlán, municipio de Jalisco con 20.011 habitantes y 1.400 m s.n.m., celebra la suspensión de labores municipales los 1 y 5 de mayo.",
+    "aboutTitle": "Etzatlán: historia, geografía y la suspensión de labores en mayo",
+    "about": "Etzatlán es un municipio situado en la Región Valles del estado de Jalisco, México. Se ubica entre los paralelos 20° 38’ 30’’ y 20° 58’ 15’’ de latitud norte y los meridianos 104° 03’ 00’’ y 104° 13’ 30’’ de longitud oeste, a una altitud de 1,400 metros sobre el nivel del mar. Con una superficie de 306.27 km2, limita al norte con Magdalena, al sur con Ameca y Ahualulco de Mercado, al este con San Juanito de Escobedo y al oeste con San Marcos y el estado de Nayarit. En 2020 su población era de 20,011 habitantes, de los que 48.9 % eran hombres y 51.1 % mujeres.\n\nAntes de la conquista española el territorio estuvo marcado por la figura del guerrero Goajotzin, temido por los habitantes locales. En 1524 los españoles, bajo el mando de Francisco Cortés de San Buenaventura, llegaron al señorío de Etzatlán, que entonces estaba gobernado por el cacique de Coyulán, y entregaron la encomienda a Juan de Escárcena y a Pedro de Villofrío. Nuño de Guzmán visitó la zona en 1530 y, en 1534, el convento fundado por el fraile Francisco Lorenzo comenzó sus obras. Según el sitio oficial del ayuntamiento, los días 1 y 5 de mayo del presente año se suspenderán las labores municipales."
+  },
+  {
+    "slug": "chilchotla",
+    "name": "Chilchotla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coscomatepec-de-bravo",
+      "huatusco",
+      "perote",
+      "coatepec",
+      "ciudad-serdan",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chilchotla, municipio de Puebla en la Sierra Madre Oriental, está a 109 km de la capital estatal y cuenta con 21.002 habitantes y clima templado húmedo.",
+    "aboutTitle": "Chilchotla: municipio pueblense en la Sierra Madre Oriental",
+    "about": "Chilchotla es un municipio del estado de Puebla, México. Según el censo de 2020, la población total asciende a 21.002 habitantes. El municipio se encuentra dentro de la Sierra Madre Oriental y forma parte de la tercera región económica de Puebla. La distancia a la ciudad de Puebla es de 109 km, lo que sitúa a Chilchotla en una posición intermedia entre la capital estatal y otras localidades de la sierra. La altitud media del territorio es de 2.460 metros sobre el nivel del mar, factor que influye en las condiciones climáticas, catalogadas como templado húmedo. Esta combinación de ubicación geográfica y altitud determina el entorno natural del municipio, caracterizado por un clima fresco y húmedo durante gran parte del año. La ubicación en la Sierra Madre Oriental también implica que el municipio forma parte de una zona montañosa del estado, con paisajes que reflejan la topografía de la sierra. En conjunto, los datos demográficos, geográficos y climáticos describen el contexto en el que se desarrolla la vida en Chilchotla."
+  },
+  {
+    "slug": "ciudad-miguel-aleman",
+    "name": "Ciudad Miguel Alemán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "reynosa",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Miguel Alemán, fundada el 11 de octubre de 1950, se ubica a orillas del Río Bravo en Tamaulipas y tiene 18.592 habitantes según el censo 2020.",
+    "aboutTitle": "Río Bravo y el puente internacional de Ciudad Miguel Alemán",
+    "about": "Ciudad Miguel Alemán, antes conocida como San Pedro de Roma, es una ciudad localizada en el estado mexicano de Tamaulipas y a orillas del Río Bravo. Según el censo del INEGI de 2020, la población asciende a 18.592 habitantes y la localidad forma parte de la zona fronteriza, colindando con la ciudad de Roma en Texas. Fue fundada el 11 de octubre de 1950 mediante el decreto Núm. 294 del Congreso del Estado, bajo la gobernación del General Raúl Gárate, y se constituyó como cabecera municipal al absorber la mitad de las familias del municipio de Mier.\n\nEl desarrollo de la ciudad se consolidó tras la construcción del puente internacional sobre el Río Bravo en 1927, lo que impulsó su crecimiento y le permitió adquirir la categoría de ciudad y de cabecera municipal. Entre sus monumentos destacan la entrada principal dedicada a Miguel Alemán Valdés, develada por su hijo Miguel Alemán Velasco, y los monumentos a Benito Juárez, un hemiciclo a Hidalgo y el antiguo palacio municipal. La localidad también alberga un museo local, aunque la información disponible es escasa."
+  },
+  {
+    "slug": "comapa-estado-de-veracruz",
+    "name": "Comapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huatusco",
+      "cordoba-veracruz",
+      "coscomatepec-de-bravo",
+      "fortin-de-las-flores",
+      "coatepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Comapa es un municipio del estado de Veracruz, México, cuya cabecera es la localidad homónima y de donde es originario el chile comapeño.",
+    "aboutTitle": "Comapa y el origen del chile comapeño",
+    "about": "Comapa es un municipio situado en el estado de Veracruz, México, cuya cabecera es la localidad homónima. De este lugar es originario el chile comapeño. La zona estuvo poblada desde la época prehispánica, conservando vestigios de asentamientos indígenas en terrenos escarpados. Alrededor del año 1155 se construyó en el emplazamiento actual un pueblo fortaleza de la cultura totonaca para defenderse contra el militarismo.\n\nTras la conquista, la Corona española concentró a los grupos indígenas en planicies o mesetas para facilitar la administración y la evangelización. En Comapa se construyó una iglesia dedicada a Santa María Magdalena, aunque el edificio actual es una reconstrucción del siglo XIX. El pueblo recibió un fundo legal de 600 varas medidas desde la pared de la iglesia para que los habitantes vivieran y produjeran ganancias para sus tributos. Las tierras restantes fueron concedidas a inmigrantes españoles mediante mercedes reales, lo que permitió la creación de haciendas y estancias, destacando la Hacienda de San José Acazónica en el siglo XVIII."
+  },
+  {
+    "slug": "zimatlan-de-alvarez",
+    "name": "Zimatlán de Álvarez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "heroica-ciudad-de-ejutla-de-crespo",
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zimatlán de Álvarez, municipio oaxaqueño en los Valles Centrales, posee una extensión de 354.924 km² y altitud que varía entre 1.400 y 3.100 metros.",
+    "aboutTitle": "División territorial y altitud de Zimatlán de Álvarez",
+    "about": "Zimatlán de Álvarez es uno de los 570 municipios del estado de Oaxaca y su cabecera lleva el mismo nombre. Se sitúa en la Región de los Valles Centrales y pertenece al Distrito de Zimatlán. Su territorio cubre 354.924 kilómetros cuadrados y se extiende entre los 1 400 y 3 100 metros sobre el nivel del mar, con coordenadas que oscilan entre 16° 34' y 16° 57' de latitud norte y 96° 45' y 97° 13' de longitud oeste. El municipio está dividido en cuatro secciones geográficas aisladas entre sí por áreas de otros municipios. La primera sección alberga la cabecera municipal y limita al norte con Trinidad Zaachila, al noreste con Ciénega de Zimatlán y Santa Catarina Quiané, al este con Santa Ana Zegache, al sur con San Pablo Huixtepec, al suroeste con San Bernardo Mixtepec, al oeste con Magdalena Mixtepec y al noroeste con Santa Inés del Monte. La segunda sección, situada al sur de la primera, limita al norte con San Pablo Huixtepec, al noreste con Santa Gertrudis, al sureste con Ocotlán de Morelos, al sur con Santa Ana Tlapacoyan y al oeste con Santa Cruz Mixtepec. La tercera sección se ubica al noroeste de la cabecera y colinda al norte con San Pablo Cuatro Venados, al este y al sur con Magdalena Mixtepec y al oeste con San Miguel Peras."
+  },
+  {
+    "slug": "chillanes",
+    "name": "Chillanes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 185,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "babahoyo",
+      "riobamba",
+      "milagro",
+      "ambato",
+      "guayaquil",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El cantón Chillanes, en la provincia de Bolívar, Ecuador, dedica el 90,16 % de su actividad a la agricultura, una de las áreas más fértiles del país.",
+    "aboutTitle": "Agricultura dominante y lucha histórica en Chillanes, Bolívar",
+    "about": "Chillanes es un cantón de la provincia de Bolívar, Ecuador. Limita al norte con el cantón San Miguel, al sur con General Elizalde (Bucay) del Guayas, al oeste con Babahoyo del Los Ríos y al este con Pallatanga del Chimborazo. Su territorio se caracteriza por su fertilidad y la presencia de cuatro pisos climáticos que favorecen la producción agrícola.\n\nLa economía de Chillanes es eminentemente agraria; el 90,16 % de su actividad se basa en la agricultura, predominando el minifundio como forma de tenencia de la tierra. Según el Sistema Integrado de Indicadores Sociales del Ecuador (SIISE), el 84,45 % de la población vive en situación de pobreza por necesidades básicas insatisfechas. La historia local está marcada por la lucha de personajes como Francisco Darío Vásquez, Ezequiel Guerrero Velasco, Agnelio Aguilar Moncayo, Eudoro Hinojosa Cardona, Eduardo Montenegro Guerrero, Luis Vallejo Estrella, Ulpiano Vallejo Estrella y Homero Villagómez Aguilar, quienes lucharon por llevar a Chillanes al grado de cantón."
+  },
+  {
+    "slug": "huancane",
+    "name": "Huancané",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Puno",
+    "regionSlug": "departamento-de-puno",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "juliaca",
+      "puno",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huancané, distrito del sureste peruano en el Departamento de Puno, cuenta con una población de 21.089 habitantes según datos del censo de 2007.",
+    "aboutTitle": "Huancané y la cultura Chiriwana a orillas del lago Titicaca",
+    "about": "Huancané es un distrito del sureste peruano, situado en el Departamento de Puno y forma parte de la provincia homónima. Según el censo de 2007, su población era de 21.089 habitantes. En la jerarquía eclesiástica pertenece a la Prelatura de Juli, dentro de la arquidiócesis de Arequipa. El nombre aimara del distrito es Wankani y es una de las ocho unidades que componen la provincia de Huancané.\n\nEl territorio se conoce tradicionalmente como tierra Chiriwana, aludiendo a la antigua cultura de los Chiriwanos que, según relatos locales, se desarrolló en la zona del lago Titicaca. El distrito se ubica a orillas del lago Titicaca, al este de la laguna de Arapa, y limita al norte con los distritos de Huatasani e Inchupalla, al este con Vilque Chico, al oeste con Taraco y al sur con las aguas del propio lago. En la historia local destaca la figura de Marano Pacco, considerado precursor de la liberación de los habitantes frente a los hacendados coloniales."
+  },
+  {
+    "slug": "vigas-de-ramirez",
+    "name": "Vigas de Ramírez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "perote",
+      "banderilla",
+      "xalapa",
+      "altotonga",
+      "coatepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Vigas de Ramírez, municipio de la zona centro de Veracruz, cuenta con 17 958 habitantes según el censo 2010 y clima templado‑húmedo.",
+    "aboutTitle": "Zona centro de Veracruz y la región de las Grandes Montañas",
+    "about": "Las Vigas de Ramírez es un municipio de Veracruz situado en la zona centro del estado, dentro de la región de las Grandes Montañas. Ocupa una superficie de 100.088 kilómetros cuadrados y sus coordenadas extremas van de 19° 33' a 19° 41' de latitud norte y de 97° 02' a 97° 10' de longitud oeste. La altitud del territorio oscila entre 3 140 y 1 700 metros sobre el nivel del mar. Limita al norte con Tatatila, al noreste con Tlacolulan, al sureste con Acajete, al suroeste con Perote y al noroeste con Villa Aldama y Las Minas.\n\nEl clima es templado‑húmedo, con una temperatura media de 18 °C y lluvias más intensas en verano y principios de otoño. Según el Censo de 2010, el municipio cuenta con 17 958 habitantes, de los que 8 889 son hombres y 9 069 mujeres. En el censo de 2020 se registraron 47 localidades. Políticamente, forma parte del distrito electoral local 9 de Veracruz, con cabecera en Perote, y del distrito electoral federal 9, con cabecera en Coatepec."
+  },
+  {
+    "slug": "villa-montellano",
+    "name": "Villa Montellano",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Puerto Plata",
+    "regionSlug": "puerto-plata",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "moca",
+      "la-vega",
+      "san-francisco-de-macoris",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Montellano es un municipio de Puerto Plata, República Dominicana, cuyo origen y desarrollo estuvieron ligados al antiguo Ingenio Providencia.",
+    "aboutTitle": "Villa Montellano y la historia del Ingenio Providencia",
+    "about": "Villa Montellano es un municipio de la República Dominicana situado en la provincia de Puerto Plata. El nombre de este poblado tiene su origen en el municipio de Montellano, ubicado en Sevilla, España. Aunque la zona contaba con pobladores desde principios del siglo XIX, fue a partir de 1918 cuando el municipio comenzó a experimentar un crecimiento continuo. Este desarrollo estuvo directamente vinculado a la industria azucarera y a la construcción del Ingenio Providencia. Los trabajos de edificación del ingenio comenzaron en 1918 empleando piezas provenientes de un ingenio de Puerto Rico y se extendieron durante aproximadamente cuatro años. La primera zafra de esta instalación se llevó a cabo en el año 1923. La demanda de mano de obra para las labores agrícolas y fabriles provocó un fenómeno migratorio desde diversas partes del país y localidades cercanas. En torno a la actividad azucarera se organizó el asentamiento humano. En 1918, el puertorriqueño Marcos Nolasco construyó una hilera de viviendas en línea, desde el mango hasta la esquina del corral, fabricadas originalmente en tabla de palmas para alojar a los trabajadores de mayor jerarquía del ingenio. En 2010, la población del municipio alcanzaba aproximadamente los 19.700 habitantes."
+  },
+  {
+    "slug": "colotlan",
+    "name": "Colotlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 159,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-hidalgo",
+      "zacatecas",
+      "teocaltiche",
+      "aguascalientes",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Colotlán se ubica en la región norte del estado de Jalisco y su nombre de origen náhuatl significa lugar de alacranes.",
+    "aboutTitle": "Municipio de Colotlán y el cerro de Santiago",
+    "about": "Colotlán es un municipio situado en la región norte del estado de Jalisco, en México. Abarca una superficie aproximada de 505 kilómetros cuadrados y se encuentra a una altitud de 1.720 metros sobre el nivel del mar. Limita con el estado de Zacatecas al noroeste y al sureste, y con el municipio de Totatiche al suroeste. Su nombre proviene del náhuatl, donde significa lugar de alacranes. Antes de la llegada de los españoles, la zona estuvo habitada por grupos indígenas como colotlecos, tepecanos, guachichiles, chilaquiles, zapotanos, nayaritis y zacatecas, integrados en el Señorío de Colotlán. En 1530 llegó el capitán Pedro Almíndez Chirino, y en 1540 se produjo la Guerra del Mixtón, en la que el cacique Zacatecas unió a varios grupos para resistir la incursión española refugiándose en el Cerro de Santiago. Más tarde, en 1546, Juan de Tolosa logró convencer a los líderes indígenas de aceptar la evangelización y la presencia militar. En el movimiento independentista, el 12 de noviembre de 1810 Marcos Escobedo, habitante del barrio de Tlaxcala, se pronunció a favor de Miguel Hidalgo."
+  },
+  {
+    "slug": "churubamba",
+    "name": "Churubamba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 188,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huánuco",
+    "regionSlug": "departamento-de-huanuco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huanuco",
+      "cerro-de-pasco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Churubamba es un distrito de Huánuco conocido por las momias de Papahuasi, el Bosque Unchog y la celebración del Carnaval Tinkuy.",
+    "aboutTitle": "Las momias de Papahuasi y el Carnaval Tinkuy en Churubamba",
+    "about": "El distrito de Churubamba es una de las once jurisdicciones de la provincia de Huánuco, situada en el departamento de Huánuco, en la región central del Perú. Fue creado por Ley un 4 de octubre durante el gobierno del presidente Augusto Leguía. Cuenta con una superficie de 552,2783 km² y su capital es el poblado de Churubamba. En el ámbito religioso, forma parte de la Diócesis de Huánuco.\n\nSu territorio alberga diversos atractivos históricos y naturales. En su museo de sitio se exhiben las momias de Papahuasi, mientras que el complejo arqueológico de Pachagoto se ubica en el caserío de Cochabamba, a 5 km de la reliquia de Shapa-lloucro. El Bosque Unchog destaca por ser un espacio húmedo y nublado que sirve de hábitat a aves raras y endémicas. Asimismo, la hacienda Santa Cruz posee casonas solariegas y en la hacienda de Yuncan se produce shacta, licor emblemático tradicional. En el caserío de Pacapucro se consume el mejor café de Huánuco. Entre sus festividades resalta el Carnaval Tinkuy, caracterizado por la guerra de naranjas y reconocido como patrimonio cultural, junto a la danza guerrera inca danka hatun puka wanka. La geografía del distrito incluye la laguna Yacamunancocha y el sitio de Las Chulpas."
+  },
+  {
+    "slug": "los-alamos",
+    "name": "Los Álamos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 215,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Biobío",
+    "regionSlug": "region-del-biobio",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-angeles-chile",
+      "concepcion",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Álamos, comuna de la Región del Biobío, Chile, se creó el 22 de diciembre de 1891; está a 25 km de Lebu, en la cuenca del río Trongol y junto a la Ruta 160.",
+    "aboutTitle": "Río Trongol y la Ruta 160 en Los Álamos",
+    "about": "Los Álamos es una comuna y ciudad chilena de la provincia de Arauco, en la Región del Biobío, situada en la cuenca del río Trongol, a la orilla de la Ruta 160, a 25 km de Lebu. Fue creada oficialmente el 22 de diciembre de 1891, separándose de la comuna de Lebu. La zona se encuentra entre la planicie marina y la cordillera de la costa, con clima mediterráneo de lluvia invernal (Csb) y variantes de altura e influencia costera.\n\nEl territorio alberga varios cuerpos de agua, entre los que destacan la laguna Antiguala y la laguna Lencan, y los ríos Caramavida, Curanilahue, Lebu, Pilpilco, Trongol y Tucapel. Los ecosistemas forestales incluyen bosque caducifolio templado costero con Nothofagus alpina y Persea lingue, bosque laurifolio con Aextoxicon punctatum y Laurelia sempervirens, bosque mixto mediterráneo‑templado con Nothofagus dombeyi y Nothofagus obliqua, y bosque resinoso con Araucaria araucana, todos catalogados en diferentes niveles de amenaza. Hasta 2022 la comuna cuenta con zonas de protección ambiental, aunque el texto está incompleto."
+  },
+  {
+    "slug": "jambalo",
+    "name": "Jambaló",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santander-de-quilichao",
+      "popayan",
+      "puerto-tejada",
+      "miranda",
+      "jamundi",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jambaló, municipio y resguardo indígena del Cauca, se ubica a 80 kilómetros al nororiente de Popayán y está poblado mayormente por comunidades nasa y misak.",
+    "aboutTitle": "Jambaló, municipio y resguardo indígena del Cauca",
+    "about": "Jambaló es a la vez municipio y resguardo indígena del departamento del Cauca, en el nororiente de Colombia. Se sitúa a 80 kilómetros de Popayán y limita al norte con Caloto y Toribío, al oriente con Páez, al sur con Silvia y al occidente con Caldono y Santander de Quilichao. La cabecera municipal, también llamada Jambaló, está en el extremo sur del territorio, pero la mayor parte de la población (89,3 %) vive en el área rural. La población es predominantemente indígena: el 97,7 % pertenece a las etnias nasa y misak, y alrededor de una tercera parte habla las lenguas nasa yuwe y namtrik.\n\nEl territorio se constituyó como resguardo indígena en 1702, cuando el cacique Juan Tama de la Estrella delimitó sus fronteras tras recibir el título del virrey de Quito. El 12 de julio de 1904, mediante la ordenanza número 38 de la Gobernación del Cauca, se erigió como municipio. La administración municipal se rige por un alcalde elegido cada cuatro años; en el periodo 2024‑2027 la alcaldesa es Lida Emilse Paz Labio. Como resguardo, la autoridad tradicional Ne'jwesx está integrada por seis gobernadores que representan las distintas zonas."
+  },
+  {
+    "slug": "quinsaloma",
+    "name": "Quinsaloma",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Los Ríos",
+    "regionSlug": "los-rios",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quevedo",
+      "babahoyo",
+      "ambato",
+      "latacunga",
+      "chillanes",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quinsaloma es un cantón de la provincia de Los Ríos creado el 20 de noviembre de 2007, tras ser parroquia de Ventanas desde 1979.",
+    "aboutTitle": "Fiesta patronal de noviembre y origen del cantón Quinsaloma",
+    "about": "Quinsaloma es uno de los 13 cantones que conforman la provincia de Los Ríos, ubicada en la región Costa del Ecuador. Su cabecera cantonal es la ciudad de Quinsaloma. Se trata de una entidad territorial cuya creación oficial se registró el 20 de noviembre de 2007 mediante su publicación en el Registro Oficial Nº 215. Con anterioridad a esta cantonización, Quinsaloma funcionó como parroquia perteneciendo a Ventanas desde el 15 de noviembre de 1979. La administración local se estructura mediante un gobierno municipal autónomo frente al gobierno central. Este organismo se rige por lo dispuesto en los artículos 253 y 264 de la Constitución Política y los artículos 1 y 16 de la Ley de Régimen Municipal. La función ejecutiva cantonal recae en la figura del alcalde, elegido mediante sufragio directo por un periodo de cuatro años, con posibilidad de reelección inmediata o sucesiva, quien ostenta voto dirimente en el concejo cantonal. Por su parte, el vicealcalde es designado entre los ediles tras la instalación del concejo. El municipio organiza su gestión pública a través de dependencias como Obras Públicas, Jefatura Ambiental, Acción Social, Registro de la Propiedad, Dirección Financiera, Comisaría y Secretaría General, gestionando además normativas locales y el Himno a Quinsaloma."
+  },
+  {
+    "slug": "pajacuaran",
+    "name": "Pajacuarán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-barca",
+      "jamay",
+      "ocotlan",
+      "atotonilco-el-alto",
+      "degollado",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pajacuarán, en Michoacán, se ubica a 1.520 m sobre el nivel del mar y su nombre, de origen chichimeca, significa ‘lugar de hongos’.",
+    "aboutTitle": "Pajacuarán: altitud, laguna y origen del nombre",
+    "about": "Pajacuarán es una población de la región Lerma‑Chapala, en el noroeste del estado de Michoacán. Se sitúa a una altitud de 1520 m sobre el nivel del mar y su topónimo, de origen chichimeca, se traduce como ‘lugar de hongos’. También se le relaciona con los vocablos purépechas paxakua (hongo comestible) y arhani (comer). \n\nEn la zona existió la laguna de Pajacuarán, alimentada por el río Duero, y los primeros asentamientos chichimecas se establecieron en una isla de esa laguna, posteriormente habitada por mexicas y purépechas. Durante la conquista el lugar fue sometido por Nuño de Guzmán. En 1530 el fraile Juan de Badías llegó y llamó al pueblo San Cristóbal Paxacuarán, perteneciendo a la parroquia de Ixtlán. En 1789 la población se trasladó del antiguo asentamiento insular a su ubicación actual, hoy conocido como Pueblo Viejo. En la guerra de independencia se produjeron enfrentamientos entre realistas e insurgentes. El 27 de noviembre de 1922 se creó el municipio de Pajacuarán, con la localidad como cabecera. Según el censo de 2020 cuenta con 10 988 habitantes, una superficie de 3,81 km² y una densidad de 2 884 hab/km²."
+  },
+  {
+    "slug": "cabildo",
+    "name": "Cabildo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 172,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Valparaíso",
+    "regionSlug": "region-de-valparaiso",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quillota",
+      "vina-del-mar",
+      "valparaiso",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cabildo, comuna de 19.388 habitantes en la Región de Valparaíso, se ubica a 180 km al norte de Santiago y a 140 km de la capital regional.",
+    "aboutTitle": "Cabildo: inicio del valle del río La Ligua y su historia ferroviaria",
+    "about": "Cabildo es una comuna de la provincia de Petorca, en la Región de Valparaíso, Chile. Según el censo de 2017 cuenta con 19.388 habitantes y ocupa una superficie de 1.455,3 km². Se sitúa a 180 kilómetros al norte de Santiago y a 140 km de Valparaíso, capital regional, y constituye el inicio del valle del río La Ligua, alimentado por numerosas quebradas que descienden de la Cordillera de la Costa.\n\nEl nombre proviene de las reuniones de los líderes indígenas, los cabildos, que se celebraban en el territorio. El municipio se constituyó en 1894, aunque la zona estuvo vinculada durante siglos a la Hacienda San José y a otras haciendas como La Higuera o El Ingenio. Ese mismo año se construyó una línea ferroviaria de 26 km que unió La Ligua con la estación de Cabildo; en 1913 la vía se amplió hasta Limáhuida, conectando al resto del norte chileno. En 1924 el geógrafo Luis Risopatrón describió a Cabildo como una ‘aldea’."
+  },
+  {
+    "slug": "mapastepec-chiapas",
+    "name": "Mapastepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "tapachula",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mapastepec, en la región Istmo-Costa de Chiapas, se fundó en 1486 y alberga partes de las reservas de biosfera El Triunfo y La Encrucijada.",
+    "aboutTitle": "Reservas de biosfera El Triunfo y La Encrucijada en Mapastepec",
+    "about": "Mapastepec es una localidad situada en el sur del estado de Chiapas, dentro de la región IX conocida como Istmo-Costa. Forma parte de los municipios que incluyen fragmentos de las reservas de la biosfera El Triunfo y La Encrucijada, áreas protegidas de gran riqueza natural. El nombre proviene de Mapachtépec, que significa “Cerro del mapache”, y su origen data de 1486 cuando se estableció como pueblo mame tributario bajo la autoridad mexica. \n\nEn el primer censo colonial de 1611 la población era de 265 habitantes. El 5 de julio de 1955 la localidad fue elevada a la categoría de villa mediante decreto del gobernador Efraín Aranda Osorio. En el siglo XVI llegaron españoles de Ciudad Real, y en 1545 los primeros religiosos se asentaron para evangelizar la zona. Una carta de 1574 menciona un “puerto seco” llamado mapastepeque y describe la producción de 400 cargas de cacao valoradas en 8.800 pesos, con planes de ampliar a 1.000 cargas por 22.000 pesos."
+  },
+  {
+    "slug": "canada-morelos",
+    "name": "Cañada Morelos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-mendoza",
+      "ciudad-serdan",
+      "palmarito-tochapan",
+      "tehuacan",
+      "rio-blanco",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cañada Morelos es un municipio del centro-oriente de Puebla cuya cabecera municipal es el pueblo de Morelos Cañada.",
+    "aboutTitle": "Cañada Morelos y la frontera de Puebla con Veracruz",
+    "about": "El municipio de Cañada Morelos se localiza en la parte centro-oriental del estado de Puebla y limita con el estado de Veracruz de Ignacio de la Llave. Posee una extensión territorial de 245.361 kilómetros cuadrados, que representan el 0,71 % de la superficie total del estado. Su altitud fluctúa entre 2.060 y 2.900 metros sobre el nivel del mar.\n\nSu cabecera municipal es el pueblo de Morelos Cañada. El municipio colinda al noreste con Esperanza, al norte y noroeste con Palmar de Bravo, al oeste con Tlacotepec de Benito Juárez, al suroeste con Tepanco de López y al sur y sureste con Chapulco. Asimismo, al este limita con el estado de Veracruz, en particular con los municipios de Aquila y Acultzingo.\n\nDe acuerdo con el censo de 2020, el municipio de Cañada Morelos contaba con 31 localidades. En el ámbito político y de representación legislativa, forma parte del Distrito Electoral Local 25 de Puebla, con cabecera en Tehuacán, y del Distrito Electoral Federal 4, con cabecera en la Ciudad de Ajalpan."
+  },
+  {
+    "slug": "santa-cruz-zenzontepec",
+    "name": "Santa Cruz Zenzontepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zimatlan-de-alvarez",
+      "heroica-ciudad-de-ejutla-de-crespo",
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Cruz Zenzontepec, municipio de Oaxaca, cuenta con 73 localidades y se rige por el sistema de usos y costumbres, según el censo de 2020.",
+    "aboutTitle": "Fronteras de Santa Cruz Zenzontepec con ocho municipios vecinos",
+    "about": "Santa Cruz Zenzontepec es uno de los 570 municipios del estado de Oaxaca, México, y su cabecera lleva el mismo nombre que el municipio. Según el censo de 2020, el municipio cuenta con 73 localidades. Geográficamente, el territorio colinda al norte con los municipios de Santiago Amoltepec y Santa María Zaniza; al este con Santo Domingo Teojomulco, San Jacinto Tlacotepec, Santiago Minas y San Juan Quiahije; al sur con Tataltepec de Valdés; y al oeste con Santiago Tetepec y Santiago Ixtayutla. Los municipios limítrofes son, por tanto, Santiago Amoltepec, Santa María Zaniza, Santo Domingo Teojomulco, San Jacinto Tlacotepec, Santiago Minas, San Juan Quiahije, Tataltepec de Valdés, Santiago Tetepec y Santiago Ixtayutla. El municipio se rige mediante el sistema de usos y costumbres, una forma tradicional de organización política presente en varias comunidades oaxaqueñas. Estos datos reflejan la composición administrativa y geográfica del municipio según la información oficial disponible del registro."
+  },
+  {
+    "slug": "cunco",
+    "name": "Cunco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de La Araucanía",
+    "regionSlug": "region-de-la-araucania",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "temuco",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cunco, comuna de la Araucanía, nació en 1883 y es conocida por el histórico aterrizaje de Luis Candelaria en 1918.",
+    "aboutTitle": "Cunco: historia del cruce andino y su patrimonio",
+    "about": "Cunco, cuyo nombre proviene del mapudungún y significa “agua clara”, es una comuna del sur de Chile situada en la Región de La Araucanía, provincia de Cautín. Se encuentra a 60 km al suroriente de Temuco y a 77 km de la frontera con Argentina, cerca del paso internacional Icalma. Sus centros urbanos son la ciudad homónima, Los Laureles, Choroico, Las Hortensias y Villa García. Forma parte del distrito electoral N.º 23 y de la 11.ª circunscripción senatorial de Araucanía.\n\nFundada por el coronel Gregorio Urrutia en 1883, la comuna quedó legalmente establecida el 20 de agosto de 1918. En la historia aeronáutica sudamericana destaca el 13 de abril de 1918, cuando el piloto argentino Luis Candelaria, tras un vuelo de dos horas y media y alcanzar los 4.000 m, logró el primer cruce de los Andes en avión. En 1998 se erigió un monumento binacional para conmemorar esa hazaña. El asentamiento nació como fuerte defensivo y se expandió con la llegada del ferrocarril a comienzos del siglo XX."
+  },
+  {
+    "slug": "recreo-provincia-de-santa-fe",
+    "name": "Recreo (provincia de Santa Fe)",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santa-fe",
+      "esperanza",
+      "parana",
+      "coronda",
+      "diamante",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Recreo, en la provincia de Santa Fe, se ubica a 17 km de la capital provincial y cuenta con 17.754 habitantes según el censo 2022.",
+    "aboutTitle": "Recreo, ciudad a 17 km de la capital santafesina",
+    "about": "Recreo es una ciudad del departamento La Capital, en la provincia de Santa Fe, situada a 17 km de la capital provincial, Santa Fe, y forma parte del Gran Santa Fe. Según el censo de 2022, la población asciende a 17.754 habitantes. La localidad se originó alrededor de la estación ferroviaria que se instaló en 1888 y recibió su nombre por ser, según la tradición local, un espacio de recreación al aire libre para las familias santafesinas. Fue fundada oficialmente en 1890; el 4 de enero de 1899 se creó la Comisión de Fomento y el 26 de agosto de 2005 se declaró ciudad. En sus inicios, el territorio acogió colonias como Crespo, aprobada el 14 de septiembre de 1885, y Aldao, fundada el 24 de octubre del mismo año, impulsadas por el proyecto de unir Santa Fe con Reconquista mediante una línea férrea.\n\nEl municipio tiene su sede en Avenida Mitre 1211 y cuenta con la Biblioteca Municipal José Miguel Chacón, el Polideportivo Municipal y diversos espacios recreativos. Desde la página oficial se ofrecen cursos, talleres y capacitaciones, así como una agenda de eventos populares y actividades de zoonosis y medio ambiente para la comunidad."
   }
 ];
