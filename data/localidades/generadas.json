@@ -38027,5 +38027,303 @@
   "intro": "Recreo, en la provincia de Santa Fe, se ubica a 17 km de la capital provincial y cuenta con 17.754 habitantes según el censo 2022.",
   "aboutTitle": "Recreo, ciudad a 17 km de la capital santafesina",
   "about": "Recreo es una ciudad del departamento La Capital, en la provincia de Santa Fe, situada a 17 km de la capital provincial, Santa Fe, y forma parte del Gran Santa Fe. Según el censo de 2022, la población asciende a 17.754 habitantes. La localidad se originó alrededor de la estación ferroviaria que se instaló en 1888 y recibió su nombre por ser, según la tradición local, un espacio de recreación al aire libre para las familias santafesinas. Fue fundada oficialmente en 1890; el 4 de enero de 1899 se creó la Comisión de Fomento y el 26 de agosto de 2005 se declaró ciudad. En sus inicios, el territorio acogió colonias como Crespo, aprobada el 14 de septiembre de 1885, y Aldao, fundada el 24 de octubre del mismo año, impulsadas por el proyecto de unir Santa Fe con Reconquista mediante una línea férrea.\n\nEl municipio tiene su sede en Avenida Mitre 1211 y cuenta con la Biblioteca Municipal José Miguel Chacón, el Polideportivo Municipal y diversos espacios recreativos. Desde la página oficial se ofrecen cursos, talleres y capacitaciones, así como una agenda de eventos populares y actividades de zoonosis y medio ambiente para la comunidad."
+ },
+ {
+  "slug": "orocovis",
+  "name": "Orocovis",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 106,
+  "votes": 191,
+  "activity": "Baja",
+  "parentName": "Puerto Rico",
+  "parentSlug": "puerto-rico",
+  "channels": [
+   "puerto_rico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "bayamon",
+   "guaynabo",
+   "ponce",
+   "caguas",
+   "puerto-rico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Orocovis, municipio de Puerto Rico, forma parte de los 78 municipios del Estado Libre Asociado y fue fundado en 1825 por don Juan Rivera de Santiago.",
+  "aboutTitle": "Historia y fundación de Orocovis en Puerto Rico",
+  "about": "Orocovis es uno de los setenta y ocho municipios que integran el Estado Libre Asociado de Puerto Rico. La entidad municipal se constituyó en 1825 cuando don Juan Rivera de Santiago realizó la fundación oficial del poblado, según el registro histórico. Desde entonces, Orocovis ha mantenido su condición de municipio dentro de la estructura administrativa puertorriqueña, apareciendo en documentos oficiales y en la cartografía del archipiélago. La fecha de fundación y el nombre del fundador son los datos más precisos que se conservan en los archivos, y siguen siendo referencia para la identidad local. El nombre Orocovis se conserva en los registros oficiales y aparece en los listados de municipios que forman la división política de Puerto Rico. Su fundación en el siglo XIX refleja la expansión de asentamientos durante la época colonial española. Don Juan Rivera de Santiago es recordado como el fundador que dio origen a la entidad municipal. Desde su creación, Orocovis ha sido mencionado en los censos y documentos que describen la organización territorial del archipiélago."
+ },
+ {
+  "slug": "cotaxtla",
+  "name": "Cotaxtla",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 129,
+  "votes": 220,
+  "activity": "Baja",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Estado de Veracruz",
+  "regionSlug": "estado-de-veracruz",
+  "channels": [
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "la-isla",
+   "valente-diaz",
+   "tierra-blanca",
+   "veracruz",
+   "jose-cardel",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Cotaxtla, población veracruzana situada a 50 m sobre el nivel del mar en la zona centro costera del Sotavento, con coordenadas 18°50′03″N 96°23′50″O.",
+  "aboutTitle": "Cotaxtla: cabecera municipal en la zona costera del Sotavento",
+  "about": "Cotaxtla es una población del estado mexicano de Veracruz situada en la zona centro costera del estado, dentro de la región conocida como Sotavento. La localidad constituye la cabecera del municipio homónimo, uno de los 212 municipios que conforman la entidad veracruzana. Se encuentra ubicada en las coordenadas 18°50′03″N 96°23′50″O y a una altitud de 50 metros sobre el nivel del mar. Su posición geográfica la sitúa en una zona costera que forma parte del litoral veracruzano, lo que la vincula estrechamente con el entorno natural y la dinámica de la región del Sotavento. Como centro administrativo municipal, Cotaxtla alberga las dependencias locales que gestionan los asuntos del municipio y sirve como punto de referencia para la población circundante. La comunidad mantiene su identidad dentro del contexto veracruzano, conservando los rasgos característicos de la zona centro costera. Las coordenadas indican su posición en el hemisferio norte y occidental, a 18 grados de latitud norte y 96 grados de longitud oeste. La altitud de 50 metros la sitúa por encima del nivel del mar, lo que la diferencia de otras poblaciones costeras más bajas."
+ },
+ {
+  "slug": "urique",
+  "name": "Urique",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 100,
+  "votes": 177,
+  "activity": "Baja",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Chihuahua",
+  "regionSlug": "chihuahua",
+  "channels": [
+   "chihuahua",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "chihuahua",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Urique, pueblo de Chihuahua en el extremo suroeste, está en el fondo de la Barranca de Urique, atravesada por el río homónimo y con clima cercano al tropical.",
+  "aboutTitle": "Barranca y río Urique, corazón del pueblo",
+  "about": "Urique es un pueblo del estado mexicano de Chihuahua, localizado en el extremo suroeste de la entidad. Se sitúa en la región de las barrancas, concretamente en el fondo de la llamada Barranca de Urique, un cañón profundo que atraviesa la zona. La barranca lleva el mismo nombre que el río que la forma, el río Urique, cuyas aguas discurren por el valle y dan forma al relieve. Debido a su baja altitud sobre el nivel del mar, el clima de Urique es cercano al tropical. Urique es la cabecera del municipio homónimo, donde se encuentran las oficinas administrativas municipales. La presencia del río y la configuración del cañón marcan el entorno natural del pueblo, que se desarrolla en un valle rodeado de paredes rocosas. La combinación de la ubicación en el fondo del cañón y la altitud reducida explica la influencia tropical en sus condiciones climáticas típicas de la región."
+ },
+ {
+  "slug": "santa-isabel",
+  "name": "Santa Isabel",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 128,
+  "votes": 212,
+  "activity": "Baja",
+  "parentName": "Ecuador",
+  "parentSlug": "ecuador",
+  "provincia": "Azuay",
+  "regionSlug": "azuay",
+  "channels": [
+   "ecuador",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "cuenca",
+   "machala",
+   "loja",
+   "duran",
+   "ecuador",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Santa Isabel, cantón del Azuay en Ecuador, cuenta con 771.41 km² de superficie y se fundó oficialmente el 20 de enero de 1945.",
+  "aboutTitle": "La cuenca del río Jubones y la biodiversidad de Santa Isabel",
+  "about": "Santa Isabel es un cantón ubicado al sur de la provincia del Azuay, en Ecuador. Su territorio abarca 771.41 km² y se sitúa a 74 km de la ciudad de Cuenca, dentro de la cuenca alta y media del río Jubones. La altitud varía entre los 100 y 4.000 metros sobre el nivel del mar, lo que genera tres zonas climáticas: la zona baja con clima cálido y seco en el Valle de Yunguilla, la zona media templada alrededor de la cabecera cantonal y la zona alta de páramo con clima frío, apto para la ganadería y la producción láctea.\n\nHistóricamente, el área estuvo habitada por los Cañaris y durante la colonia formó parte de la encomienda del Marqués Juan de Salinas, quien explotó las minas de oro del cerro Shiry. En 1930, la comunidad de Cañaribamba se reubicó en Chaguarurco, actual Santa Isabel, por una epidemia y dificultades económicas. El 20 de enero de 1945 se creó oficialmente el cantón bajo la presidencia de José María Velasco Ibarra. Administrativamente, el cantón comprende una parroquia urbana y cuatro rurales: Santa Isabel (Chaguarurco), Abdón Calderón (La Unión) conocida por su caña de azúcar, El Carmen de Pijilí con gran biodiversidad agrícola, San Pablo de Shaglli dedicada a la ganadería y lácteos, y San Salvador de Cañaribamba, importante por su pasado histórico."
+ },
+ {
+  "slug": "palestina-de-los-altos",
+  "name": "Palestina de Los Altos",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 131,
+  "votes": 229,
+  "activity": "Baja",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "provincia": "Departamento de Quetzaltenango",
+  "regionSlug": "departamento-de-quetzaltenango",
+  "channels": [
+   "guatemala",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "san-marcos-guatemala",
+   "quetzaltenango",
+   "mazatenango",
+   "huehuetenango",
+   "solola",
+   "guatemala",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Palestina de Los Altos, municipio de Quetzaltenango con 20.719 habitantes, se fundó el 18 de febrero de 1933 y está a 32 km de la cabecera departamental.",
+  "aboutTitle": "Fundación y ubicación de Palestina de Los Altos",
+  "about": "Palestina de Los Altos es un municipio del departamento de Quetzaltenango, situado a 32 km de la ciudad de Quetzaltenango y a 230 km de la Ciudad de Guatemala. Se ubica en la región de Los Altos, en la parte sur‑oeste del departamento, a 33 km de la cabecera departamental. Según el censo de 2022, cuenta con 20.719 habitantes y ocupa una superficie de 48 km². Fue instituido como municipio el 18 de febrero de 1933, separándolo del municipio de San Juan Ostuncalco.\n\nEl municipio se compone de un casco urbano, tres aldeas, treinta y seis caseríos y un cantón. Colinda con los departamentos de San Marcos y Quetzaltenango. Limita al norte con San Antonio Sacatepéquez y municipios del departamento de San Marcos, al sur con San Juan Ostuncalco, al este con Cajola, San Juan Ostuncalco y San Carlos Sija, y al oeste con San Pedro Sacatepéquez del departamento de San Marcos."
+ },
+ {
+  "slug": "panao",
+  "name": "Panao",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 121,
+  "votes": 212,
+  "activity": "Baja",
+  "parentName": "Perú",
+  "parentSlug": "peru",
+  "provincia": "Departamento de Huánuco",
+  "regionSlug": "departamento-de-huanuco",
+  "channels": [
+   "peru",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "huanuco",
+   "cerro-de-pasco",
+   "peru",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Panao, distrito de Huánuco en Perú, se extiende sobre 2.630 km² a orillas del río Huallaga y celebra cada año la tradicional Fiesta de San Juan.",
+  "aboutTitle": "Río Huallaga y la Fiesta de San Juan en Panao",
+  "about": "Panao es uno de los cuatro distritos que integran la provincia de Pachitea, en el departamento de Huánuco, en el centro del Perú. Según la jerarquía eclesiástica, pertenece a la Diócesis de Huánuco, dependiente de la arquidiócesis de Huancayo. Su capital es el poblado de Panao, una ciudad pintoresca que está a orillas del caudaloso río Huallaga y se sitúa a 301 metros sobre el nivel del mar. El distrito abarca una superficie de 2,630 km² y cuenta con varios cuerpos de agua, entre ellos el río Charamayo y las lagunas Balde Pozo, Yanacocha, Llama Corral y Queropozo.\n\nLa población del distrito se estima en 55 000 habitantes. Entre sus tradiciones destaca la Fiesta de San Juan, celebrada anualmente con actividades locales. En el ámbito municipal, entre 2011 y 2014 el alcalde fue Cayo Rojas Rivera y, más tarde, de 2015 a 2018, Juan Pablo Díaz Vega. La zona está bajo la autoridad religiosa del obispo Mons. Jaime Rodríguez Salazar. Estos elementos configuran la identidad geográfica y cultural de Panao."
+ },
+ {
+  "slug": "timana",
+  "name": "Timaná",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 97,
+  "votes": 171,
+  "activity": "Baja",
+  "parentName": "Colombia",
+  "parentSlug": "colombia",
+  "provincia": "Huila",
+  "regionSlug": "huila",
+  "channels": [
+   "colombia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "pitalito",
+   "garzon",
+   "la-plata-huila",
+   "puerto-rico-caqueta",
+   "popayan",
+   "colombia",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Timaná, la Villa de la Gaitana en el sur del Huila, está a 1.100 m s.n.m. en el valle del río Magdalena y produce 4.275 toneladas de café para el mercado.",
+  "aboutTitle": "Timaná: la Villa de la Gaitana y su café especial",
+  "about": "Timaná es un municipio colombiano, conocido como «La Villa de la Gaitana», y está localizado al sur del departamento del Huila. Yace en el valle montañoso del río Magdalena, en el Sur del Alto Magdalena, que corresponde a las estribaciones de la cordillera Oriental. Hace parte de la región Subsur del departamento. Su extensión territorial es de 182.5 km², su altura es de 1100 m s. n. m. y su temperatura promedio es de 24 °C. Cuenta con una población de 23.681 habitantes de acuerdo con proyección del DANE para año 2024. Fue capital de la Provincia de Timaná.\n\nSu economía está basada en el sector agrícola, con plantaciones de café que ocupan 2.850 hectáreas y generan una producción de 4.275 Toneladas (34.200 Cargas). Aproximadamente el 40 % de la producción se cataloga como café especial, lo que aporta rentabilidades adicionales a los productores. Además, el municipio explota ganado vacuno y produce productos lácteos. Según la etimología, el nombre proviene del quechua Tipana, que significaría “Tierra de canastos”, y en lengua Caribe se asocia a los ideogramas Timy (Lodo) y Ana (Lugar o territorio), aludiendo al tradicional trabajo en barro."
+ },
+ {
+  "slug": "rovira",
+  "name": "Rovira",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 111,
+  "votes": 193,
+  "activity": "Baja",
+  "parentName": "Colombia",
+  "parentSlug": "colombia",
+  "provincia": "Tolima",
+  "regionSlug": "tolima",
+  "channels": [
+   "colombia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "ibague",
+   "guamo",
+   "espinal",
+   "flandes",
+   "girardot",
+   "colombia",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Rovira, municipio del Tolima en Colombia, se asienta entre los ríos Coello y Cucuana y es conocido como el 'Encanto de manantiales' por su abundante agua.",
+  "aboutTitle": "Río Luisa y los manantiales que caracterizan a Rovira",
+  "about": "Rovira es un municipio del Tolima, Colombia, situado sobre la margen del río Luisa entre los ríos Coello y Cucuana. Se le conoce como “Encanto de manantiales” por la gran diversidad de fuentes hídricas que lo rodean. El nombre rinde homenaje a Custodio García Rovira. Dentro de su jurisdicción están la cabecera municipal y los centros poblados El Corazón, Guadualito, La Florida, La Luisa, La Selva, Los Andes (La Bella), Riomanso y San Pedro.\n\nLa fundación data de 1570, cuando los conquistadores Félix Montealegre, Juan de Dios Marroquín y Pedro Rodríguez establecieron un poblado llamado Miraflores en tierras del cacique Mi‑Ara‑Ka. En 1853 se elevó a distrito y el 13 de octubre de 1887 se confirmó su condición mediante el decreto número 650 bajo el gobierno del general Manuel Casabianca. La ordenanza número 5 del 2 de mayo de 1903 cambió el nombre a García Rovira, y en 1930 se simplificó a Rovira para evitar confusiones con la provincia homónima de Santander. El territorio presenta tres pisos térmicos: clima cálido (98 km²), medio (522 km²) y frío (480 km²). Su relieve combina llanuras (110 km²) y quebrados (990 km²), alimentados por numerosas cuencas hidrográficas."
+ },
+ {
+  "slug": "huanuni",
+  "name": "Huanuni",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 122,
+  "votes": 211,
+  "activity": "Baja",
+  "parentName": "Bolivia",
+  "parentSlug": "bolivia",
+  "provincia": "Departamento de Oruro",
+  "regionSlug": "departamento-de-oruro",
+  "channels": [
+   "bolivia",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "oruro",
+   "quillacollo",
+   "cochabamba",
+   "bolivia",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Huanuni, ciudad boliviana a 3.957 m s.n.m., cuenta con 20.336 habitantes y se ubica a 45 km de Oruro, en la Ruta Nacional 6.",
+  "aboutTitle": "Huanuni y su industria del estaño en el Altiplano boliviano",
+  "about": "Huanuni es una ciudad y municipio de Bolivia, capital de la provincia de Dalence, en el departamento de Oruro. Según el censo de 2012, el municipio tiene 24.677 habitantes y la zona urbana 20.336, situándose como el tercer municipio más poblado del departamento. La ciudad se encuentra a 3.957 metros sobre el nivel del mar, en las faldas del cerro Posokoni, y está a 45 km de Oruro y a 310 km de Potosí, formando parte de la Ruta Nacional 6. El territorio municipal limita al noroeste con Machacamarca, al norte con Oruro, al noreste con Bolívar (Cochabamba), al este con Caripuyo y Llallagua (Potosí), al sur con Antequera y al oeste con Poopó.\n\nLa economía de Huanuni gira en torno a los ricos yacimientos de estaño del cerro Posokoni, actividad que se desarrolló desde principios del siglo XX. El municipio fue creado por Ley el 15 de noviembre de 1912, durante la presidencia de Eliodoro Villazón. El clima es de alta montaña, con una temperatura media anual cercana a 9 °C y precipitaciones anuales de apenas 350 mm. La zona pertenece al Altiplano boliviano, en el extremo occidental de la Cordillera Azanaques, una sección de la Cordillera Central."
+ },
+ {
+  "slug": "metztitlan",
+  "name": "Metztitlán",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 115,
+  "votes": 193,
+  "activity": "Baja",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Hidalgo",
+  "regionSlug": "hidalgo",
+  "channels": [
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "pachuca",
+   "tequixquiac",
+   "huauchinango",
+   "reyes-acozac",
+   "santa-maria-ajoloapan",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Metztitlán, cabecera del municipio homónimo en Hidalgo, está ubicada en la Barranca de Metztitlán, declarada Reserva de la Biósfera en 2000.",
+  "aboutTitle": "La Barranca de Metztitlán, Reserva de la Biósfera",
+  "about": "Metztitlán es la cabecera municipal del municipio homónimo, en el estado de Hidalgo, México. Su nombre proviene del náhuatl metztli ‘luna’ y tlan ‘lugar’, lo que se traduce como ‘Lugar de luna’. Geográficamente se sitúa en la Sierra Baja, en la subprovincia del Carso Huasteco, a 1.302 metros sobre el nivel del mar, con coordenadas 20° 35′ 40.92″ N y 98° 45′ 50.92″ O.\n\nEl clima es seco semicálido, con una temperatura media anual de 20.2 °C y una precipitación anual de 437 mm, concentrada entre junio y septiembre. Hidrológicamente, la localidad forma parte de la cuenca del río Moctezuma y de la subcuenca del río Metztitlán. La zona está dentro de la Barranca de Metztitlán, declarada Reserva de la Biósfera el 27 de noviembre de 2000. En su patrimonio arquitectónico destaca el Antiguo convento La Comunidad, cuya construcción comenzó en 1537 y se abandonó en 1539 tras una inundación, y el Convento de los Santos Reyes, edificado por los agustinos en el siglo XVI con estilo plateresco."
  }
 ]
