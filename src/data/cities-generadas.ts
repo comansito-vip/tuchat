@@ -38335,5 +38335,1251 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Metztitlán, cabecera del municipio homónimo en Hidalgo, está ubicada en la Barranca de Metztitlán, declarada Reserva de la Biósfera en 2000.",
     "aboutTitle": "La Barranca de Metztitlán, Reserva de la Biósfera",
     "about": "Metztitlán es la cabecera municipal del municipio homónimo, en el estado de Hidalgo, México. Su nombre proviene del náhuatl metztli ‘luna’ y tlan ‘lugar’, lo que se traduce como ‘Lugar de luna’. Geográficamente se sitúa en la Sierra Baja, en la subprovincia del Carso Huasteco, a 1.302 metros sobre el nivel del mar, con coordenadas 20° 35′ 40.92″ N y 98° 45′ 50.92″ O.\n\nEl clima es seco semicálido, con una temperatura media anual de 20.2 °C y una precipitación anual de 437 mm, concentrada entre junio y septiembre. Hidrológicamente, la localidad forma parte de la cuenca del río Moctezuma y de la subcuenca del río Metztitlán. La zona está dentro de la Barranca de Metztitlán, declarada Reserva de la Biósfera el 27 de noviembre de 2000. En su patrimonio arquitectónico destaca el Antiguo convento La Comunidad, cuya construcción comenzó en 1537 y se abandonó en 1539 tras una inundación, y el Convento de los Santos Reyes, edificado por los agustinos en el siglo XVI con estilo plateresco."
+  },
+  {
+    "slug": "sardinal",
+    "name": "Sardinal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Guanacaste",
+    "regionSlug": "provincia-de-guanacaste",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "liberia",
+      "rivas",
+      "puntarenas",
+      "costa-rica",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sardinal, en Guanacaste, Costa Rica, cuenta con 21.099 habitantes y comparte su nombre con una tradicional embarcación de vela malagueña.",
+    "aboutTitle": "Sardinal, localidad costera de Guanacaste",
+    "about": "Sardinal es una localidad costera situada en la provincia de Guanacaste, Costa Rica. Según los datos oficiales, su población es de 21.099 habitantes. El nombre coincide con el término 'sardinal', que también se emplea para designar una embarcación de vela típica de la provincia de Málaga, en España. Esa embarcación estuvo presente en gran número en las costas malagueñas hasta los años 1940, cuando su uso comenzó a disminuir y, en la actualidad, ha desaparecido por completo. Además, 'sardinal' designa un arte de pesca tradicional que se practicó antiguamente en casi todas las costas de España y que también se extendió al norte de África. Este método de pesca formó parte de la actividad marítima de esas regiones durante muchos años. El sardinal era una embarcación de vela que operaba en la zona marítima de Málaga. Durante la primera mitad del siglo XX, la presencia del sardinal era notable en esas costas. Tras la década de 1940, la embarcación dejó de construirse y desapareció de la actividad pesquera. El arte de pesca sardinal utilizaba técnicas propias de la tradición marítima española. En el norte de África también se adoptó este método de pesca bajo el mismo nombre."
+  },
+  {
+    "slug": "bulnes",
+    "name": "Bulnes",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Ñuble",
+    "regionSlug": "region-de-nuble",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chillan",
+      "concepcion",
+      "los-angeles-chile",
+      "linares",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bulnes, comuna de la Región de Ñuble en Chile, se fundó en 1788 a orillas del río Larqui y está a 25 km de Chillán, su capital regional.",
+    "aboutTitle": "Río Larqui y la fundación de Bulnes (1788)",
+    "about": "Bulnes es una comuna ubicada en la provincia de Diguillín, perteneciente a la Región de Ñuble, en la zona central de Chile. Su capital, al igual que la de la provincia, es la ciudad de Bulnes. Se ubica a 25 km de Chillán, capital regional. Limita al norte con la comuna de Chillán Viejo, al sur con la comuna de Pemuco, al este con San Ignacio y al oeste con Quillón.\n\nLa comuna de Bulnes se originó en 1788 como un caserío y una capilla a orillas del río Larqui, inicialmente llamada Villa Santa Cruz del Larqui. En 1839 obtuvo el título de villa y pasó a llamarse Villa de la Santa Cruz de Bulnes, en honor al general Manuel Bulnes Prieto. El 23 de noviembre de 1849 un decreto gubernamental dividió el Departamento de Chillán, creando la 9ª subdelegación de Bulnes con límites en el río Larqui, el estero Agua Buena, el río Palpal y el río Itata. Finalmente, el 14 de enero de 1884 se promulgó una ley que dividió el Departamento de Chillán en tres nuevos departamentos, estableciendo los límites del Departamento de Bulnes al norte con el río Larqui y el estero Gauco, al sur con el río Diguillín."
+  },
+  {
+    "slug": "penuelas",
+    "name": "Peñuelas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Puerto Rico",
+    "parentSlug": "puerto-rico",
+    "channels": [
+      "puerto_rico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ponce",
+      "arecibo",
+      "mayaguez",
+      "bayamon",
+      "guaynabo",
+      "puerto-rico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Peñuelas, municipio autónomo de Puerto Rico en la costa sureña, se conoce como 'El Valle de los Flamboyanes' y celebra su fundación el 25 de agosto.",
+    "aboutTitle": "Peñuelas y su Valle de los Flamboyanes",
+    "about": "Peñuelas es un municipio autónomo del Estado Libre Asociado de Puerto Rico localizado en la costa sureña. También se le conoce como “El Valle de los Flamboyanes” o “La capital del güiro”. Limita al este con Ponce, al oeste con Guayanilla y al norte con Adjuntas. Sus residentes son los Peñolanos. El municipio se organiza en 12 barrios y el pueblo de Peñuelas, que funciona como centro administrativo y principal núcleo poblado.\n\nEl 25 de agosto de 1793 Diego de Alvarado fundó oficialmente Peñuelas. Para 1874 la población había crecido a 9.206 habitantes, según el censo de ese año, y contaba con cuatro carreteras principales, una iglesia de mampostería y la casa del Ayuntamiento que también albergaba cárcel, cuartel, cementerio y carnicería. El 5 de agosto de 1898 el ejército estadounidense invadió el municipio durante la guerra hispano‑americana. En 1902 la Asamblea Legislativa consolidó temporalmente los barrios con Ponce, pero en 1905 se revocó la medida y Peñuelas recuperó su condición municipal."
+  },
+  {
+    "slug": "padre-las-casas-rd",
+    "name": "Padre Las Casas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 198,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Azua",
+    "regionSlug": "provincia-de-azua",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "republica-dominicana",
+      "santo-domingo",
+      "barahona",
+      "la-vega",
+      "bani",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Padre Las Casas, ciudad y comuna de la Región de la Araucanía, Chile, pertenece a la provincia de Cautín y forma parte del área metropolitana de Temuco.",
+    "aboutTitle": "Padre Las Casas: ciudad de la Araucanía en la provincia de Cautín",
+    "about": "Padre Las Casas es una ciudad y comuna homónima situada en la zona sur de Chile. Se encuentra en la Región de la Araucanía, dentro de la provincia de Cautín, y forma parte del área metropolitana de Temuco. La denominación homónima indica que la población central y la división comunal comparten el mismo nombre, una práctica habitual en el país. Su posición dentro del sur chileno la ubica en el contexto geográfico de la Araucanía, mientras que su integración en la zona metropolitana de Temuco la conecta estrechamente con la capital regional. En el esquema administrativo chileno, la comuna depende tanto de la autoridad provincial de Cautín como de la autoridad regional de la Araucanía, lo que determina su marco de competencias y su relación con los organismos estatales. La pertenencia a estos niveles territoriales define su identidad y su papel dentro del conjunto de comunas que conforman el sur de Chile."
+  },
+  {
+    "slug": "pucusana",
+    "name": "Pucusana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 153,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Provincia de Lima",
+    "regionSlug": "provincia-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "lima",
+      "callao",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pucusana, distrito costero a 58 km al sur de Lima, destaca por su caleta pesquera y playas, y celebra su fundación el 22 de enero de 1943.",
+    "aboutTitle": "Pucusana: caleta pesquera y balneario a 58 km de Lima",
+    "about": "Pucusana es uno de los cuarenta y tres distritos que integran la provincia de Lima, en el departamento homónimo del Perú. Limita al norte con Santa María del Mar, al este con Chilca (provincia de Cañete) y al sur y oeste con el océano Pacífico. La localidad es una caleta de pescadores y balneario, situada a 58 kilómetros al sur de la ciudad de Lima y a 7 km de la carretera Panamericana Sur. El alcalde en ejercicio es Juan José Cuya Espinoza. El distrito fue creado mediante la Ley n.º 9782 el 22 de enero de 1943, durante el primer gobierno del presidente Manuel Prado Ugarteche. Según el antropólogo César Espinoza Fuentes, el nombre “Pucusana” combina la partícula quechua costeña “Pucu”, que significa rojo, con “sana”, de origen aimara, que alude a abundancia, haciendo referencia a los cerros rojizos que rodean la caleta. El término “Pucu” proviene del quechua costeño y se diferencia del “Puca” del quechua serrano; algunos autores lo relacionan con el sitio arqueológico de Puruchuco, aunque la interpretación más aceptada vincula ambas partículas al color rojo de los cerros. El quechua costeño, ahora desaparecido, recibió influencias del idioma Aru y del aimara, lo que se refleja en la composición del topónimo."
+  },
+  {
+    "slug": "quisqueya",
+    "name": "Quisqueya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San Pedro de Macorís",
+    "regionSlug": "san-pedro-de-macoris",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-pedro-de-macorris",
+      "santo-domingo-este",
+      "la-romana",
+      "higuey",
+      "san-cristobal-rd",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quisqueya es un municipio de la provincia de San Pedro de Macorís en la República Dominicana; allí se encuentra el ingenio fundado en 1892 por Juan de Castro.",
+    "aboutTitle": "Ríos Caño y Gengibral y el ingenio azucarero de Quisqueya",
+    "about": "Quisqueya es un municipio de la República Dominicana situado al noroeste de la provincia de San Pedro de Macorís. El territorio está cruzado por varios ríos, entre los que se encuentran el Caño, el Gengibral y Batey El Uno, y forma parte de las cuencas del río Higuamo y de sus afluentes. La economía local estuvo marcada históricamente por la industria azucarera. En 1892, el inmigrante cubano Juan de Castro fundó el ingenio Quisqueya en terrenos que entonces pertenecían a la común de San José de Los Llanos, convirtiéndose en el segundo ingenio del Distrito Marítimo de San Pedro de Macorís después del Ingenio Consuelo. Más tarde, el ingenio pasó a formar parte de la West Indies Sugar Company y, con el proceso de monopolización trujillista, quedó bajo control de esa estructura. Estas actividades influyeron en el desarrollo del municipio y en su identidad. El municipio está formado por un distrito municipal, cuyo nombre no se menciona en el material disponible. Los límites municipales no se describen en el documento."
+  },
+  {
+    "slug": "tado",
+    "name": "Tadó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Chocó",
+    "regionSlug": "choco",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "istmina",
+      "quibdo",
+      "la-virginia",
+      "anserma",
+      "andes",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tadó, municipio del Chocó, se extiende sobre 878 km² en la zona del Alto San Juan, a 75 m s.n.m. y con clima de 27‑28 °C.",
+    "aboutTitle": "Río San Juan y la historia colonial de Tadó",
+    "about": "Tadó es un municipio del departamento del Chocó, situado en la zona del Alto San Juan. Su superficie es de aproximadamente 878 km² y la cabecera municipal se ubica a 75 metros sobre el nivel del mar. La temperatura media oscila entre 27 °C y 28 °C. Está a 66 km de Quibdó y a 549 km de Bogotá. El territorio se sitúa a la margen izquierda del río San Juan y a la derecha del río Mungarrá. Limita al norte con los municipios de Cértegui y Bagadó, al sur con Río Iró, al occidente con Unión Panamericana y al oriente con el departamento de Risaralda. Además de la cabecera, Tadó tiene bajo su jurisdicción los siguientes centros poblados: Angostura, Carmelo, Corcobado, Gingarabá, Guarato, Manungará, Mumbú, Playa de Oro, Tabor y Tapón. En la zona se encuentran los resguardos indígenas Bochoromá, Brubatá, Mondo‑Mondocitó, Peñas del Olvido y Tarena. La fundación del poblado data del 19 de marzo de 1533, cuando la expedición española se instaló en la margen izquierda del río Pureto bajo el nombre de Monte Carmelo; en 1580 se trasladó al sitio conocido como “Pueblo Viejo”. En 1660 los franciscanos iniciaron la labor evangelizadora que dio origen a la iglesia católica del municipio."
+  },
+  {
+    "slug": "dos-de-mayo",
+    "name": "Dos de Mayo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Misiones",
+    "regionSlug": "provincia-de-misiones",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-rico-misiones",
+      "montecarlo",
+      "jardin-america",
+      "obera",
+      "eldorado",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Dos de Mayo, localidad de Misiones fundada en 1916, está situada sobre la Ruta Nacional 14 y tiene acceso a la Ruta Nacional 12 por la Ruta Provincial 11.",
+    "aboutTitle": "Ruta Nacional 14 y la historia de Dos de Mayo",
+    "about": "Dos de Mayo es una localidad de la Provincia de Misiones, ubicada sobre la Ruta Nacional 14 y con acceso a la Ruta Nacional 12 mediante la Ruta Provincial 11. Pertenece al Departamento Cainguás y limita con los municipios de Aristóbulo del Valle, Caraguatay, San Vicente, 25 de Mayo y Colonia Aurora. Además del núcleo urbano homónimo, el municipio incluye el Pueblo Illia y el barrio Bernardino Rivadavia. Su nombre recuerda el levantamiento español del 2 de mayo de 1808, elegido por el antiguo propietario Pedro Núñez.\n\nEn la década de 1940 Pedro Núñez todavía poseía la zona, que entonces era selva virgen con una picada que él mandó construir para unir las rutas 12 y 14, conocida hoy como ruta Provincial N.º 211. Ese mismo año el colono Alejandro Walsicow instaló un alojamiento para viajeros y el primer almacén general. Augusto Dombroski trajo el primer vehículo Ford A al pueblo y su familia dio nombre a la biblioteca local en honor a su hijo Ludovico Dombroski."
+  },
+  {
+    "slug": "biblian",
+    "name": "Biblián",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Cañar",
+    "regionSlug": "provincia-de-canar",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuenca",
+      "milagro",
+      "riobamba",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Biblián, cantón de Cañar (Ecuador), está a 2.608 m s.n.m., se fundó el 1 de agosto de 1944 y se caracteriza por su clima frío y húmedo y el río Burgay.",
+    "aboutTitle": "Río Burgay y la Fertilidad del Cantón Verde de Biblián",
+    "about": "Biblián es un cantón de la provincia de Cañar, Ecuador, con una población aproximada de 30.000 habitantes en 2009. Ocupa una superficie de 205,30 km² y se sitúa a una altitud media de 2.608 m s.n.m. en la zona septentrional de la hoya del Paute. El clima es frío y húmedo, con una temperatura media de 14 °C. Fue elevado a la categoría de cantón el 1 de agosto de 1944 por el doctor José María Velasco Ibarra, tras la revolución del 28 de mayo de ese año. El nombre Biblián proviene del idioma cayapa, donde BIB (U) significa “alerta” y LAN (U) “subir”. El cantón está atravesado por el río Burgay y sus afluentes Galuay, Cachi Tambo y Cashicay, lo que le confiere gran fertilidad y el apodo de “Cantón Verde del Austro Ecuatoriano”. Limita al norte con el cantón Cañar, al sur con Azogues y Déleg, al este con Cañar y al oeste con Azogues y Cañar. Administrativamente cuenta con una parroquia urbana, Biblián (66,7 km²), y cuatro rurales: Jerusalén, Nazón, San Francisco de Sageo y Turupamba."
+  },
+  {
+    "slug": "taretan",
+    "name": "Taretan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "morelia",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Taretan, municipio de Michoacán, fue capital estatal entre 1895 y 1897; su nombre tarasco significa “Donde está levantado un templo al Dios Viejo”.",
+    "aboutTitle": "Taretan: capital temporal de Michoacán (1895‑1897) y origen tarasco",
+    "about": "Taretan es uno de los 113 municipios del estado de Michoacán, cuya cabecera lleva el mismo nombre. El topónimo proviene del tarasco y se interpreta como “Donde está levantado un templo al Dios Viejo”, aludiendo a un antiguo santuario dedicado al dios engendrador de la cultura tarasca. La comunidad de Taretan forma parte de los asentamientos más antiguos con presencia sedentaria de los tarascos históricos, descendientes de los grupos que se establecieron en la región desde Sacapuan. A mediados del siglo XVI la evangelización de la población fue dirigida por el agustino fray Juan Bautista Moya, conocido como “Apóstol de Tierra Caliente” por sus supuestos milagros. Entre 1895 y 1897 el municipio se convirtió temporalmente en la capital del estado de Michoacán, periodo que marcó su protagonismo administrativo. Hoy el municipio conserva su identidad cultural, reflejada en el significado de su nombre y en la tradición histórica que mantiene viva la memoria de sus antiguos habitantes."
+  },
+  {
+    "slug": "las-terrenas",
+    "name": "Las Terrenas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Samaná",
+    "regionSlug": "samana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "quisqueya",
+      "santo-domingo-este",
+      "san-pedro-de-macorris",
+      "moca",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Terrenas, municipio samananero fundado en 1946, destaca por sus playas de arena blanca y su rápido crecimiento, con 25.696 habitantes en 2022.",
+    "aboutTitle": "Fundación y auge turístico de Las Terrenas",
+    "about": "Las Terrenas es un municipio de la provincia de Samaná, en la República Dominicana, situado en la costa norte del país. El nombre proviene del francés \"La terrienne\", que significa \"la terrateniente\". Fue fundado en 1946 por orden del presidente Rafael Leónidas Trujillo, que reubicó a familias pobres de Santo Domingo para convertirlas en campesinos y pescadores. Hasta 1989 la única vía que lo conectaba con Sánchez era una pista impracticable; la carretera se asfaltó ese año, facilitando el acceso. La llegada de la electricidad se produjo en 1994.\n\nEl 19 de septiembre de 1996 Las Terrenas se convirtió en municipio mediante la Ley n.º 18-96. Según el censo de 2022 la población asciende a 25.696 habitantes, con una distribución casi equitativa entre áreas urbanas y rurales y una tasa media anual de crecimiento del 2,63 % entre 2010 y 2022. El desarrollo turístico es la principal actividad económica; sus playas de arena blanca y aguas claras atraen a visitantes europeos, especialmente españoles, italianos, franceses y alemanes. El crecimiento demográfico también ha sido impulsado por la migración de extranjeros, que ha elevado la población un 85,25 % desde 2002."
+  },
+  {
+    "slug": "huehuetla",
+    "name": "Huehuetla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zaragoza-puebla",
+      "zacatlan",
+      "xicotepec-de-juarez",
+      "teziutlan",
+      "huauchinango",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huehuetla, en Puebla, celebra el 6 de agosto su Fiesta Patronal de San Salvador, una tradición totonaca que reúne a más del 89 % de población indígena.",
+    "aboutTitle": "Río Tehuancate y la Fiesta de San Salvador en Huehuetla",
+    "about": "Huehuetla es uno de los 217 municipios del estado de Puebla, ubicado en la zona de transición entre la Sierra norte de Puebla y la Sierra de Papantla. Según datos de 2010, la población indígena de habla totonaca ascendía a 1 764 habitantes, lo que representa alrededor del 89 % del total. El municipio se compone de la cabecera, la junta auxiliar de San Juan Ozelonacaxtla y diez comunidades, entre ellas Xonalpu, Francisco I. Madero, Kuwitchuchut, Cinco de Mayo, Chilocoyo el Carmen, Chilocoyo Guadalupe, Putaxcat, Lipuntahuaca, Leacaman y Putlunichuchut. El clima es semicálido subhúmedo con lluvias durante todo el año, favoreciendo el cultivo de diversos frutos y la observación de aves. En el sur de la cabecera discurre el río Tehuancate. Entre las actividades destacadas se encuentran la fabricación de velas adornadas y las danzas tradicionales. Las festividades más relevantes son la Fiesta Patronal de San Salvador el 6 de agosto, la celebración de la Virgen de la Natividad el 8 de septiembre, la del Divino Niño Jesús y la conmemoración de la Virgen de la Teja el 15 de noviembre en Xonalpu, donde se venera una imagen que, según la tradición, apareció en una teja."
+  },
+  {
+    "slug": "tocaima",
+    "name": "Tocaima",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-santuario",
+      "girardot",
+      "flandes",
+      "melgar",
+      "fusagasuga",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tocaima, Hidalga y Noble Villa del Alto Magdalena, está a 113 km al suroeste de Bogotá y es conocida como la Ciudad Salud por sus aguas termales.",
+    "aboutTitle": "Tocaima: Ciudad Salud y su historia colonial",
+    "about": "Tocaima es un municipio del departamento de Cundinamarca, ubicado en la Provincia del Alto Magdalena, a 113 km al suroeste de Bogotá. Se asienta a 400 m sobre el nivel del mar y mantiene una temperatura media anual de 27 °C. Gracias a sus aguas y fangos azufrados, el lugar lleva el epíteto de “Ciudad Salud de Colombia”, una denominación que destaca sus propiedades terapéuticas desde tiempos prehispánicos.\n\nEl nombre proviene de un guerrero de la tribu guacaná llamado Tocaima, venerado por su valentía. En 1544, el mariscal Hernán Venegas Carrillo fundó el asentamiento bajo el nombre de San Dionisio de los Caballeros de Tocaima. Cinco años después, el 7 de febrero de 1549, Carlos I concedió al pueblo el título de Hidalga y Noble Villa mediante Real Cédula. Las constantes inundaciones del río Pati obligaron al abandono del lugar en 1581; la población se restableció el 18 de marzo de 1621 por orden colonial."
+  },
+  {
+    "slug": "acoria",
+    "name": "Acoria",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huancavelica",
+    "regionSlug": "departamento-de-huancavelica",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huancavelica",
+      "huancayo",
+      "ayacucho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Acoria, distrito de la provincia de Huancavelica en los Andes centrales, destaca por ser uno de los de mayor superficie y por su población de 27.713 habitantes.",
+    "aboutTitle": "Acoria: agricultura y gran superficie en los Andes",
+    "about": "Acoria es un distrito ubicado en la provincia de Huancavelica, dentro del Departamento de Huancavelica, en la zona de los Andes centrales del Perú. Limita al norte con los distritos de Pampas y Colcabamba (Provincia de Tayacaja), al sur con Yauli y Paucará, al este con Anco y Andabamba, y al oeste con Palca. Con una población total de 27 713 habitantes, de los cuales aproximadamente 15 000 residen en la zona urbana y 12 700 en la zona rural, el distrito combina áreas pobladas y extensas zonas agrícolas.\n\nLas principales actividades económicas son la agricultura, la ganadería y el comercio, que sustentan a la mayoría de los habitantes. En la capital del distrito se encuentran instituciones educativas públicas de los tres niveles: el inicial N°110 Donatilda Serpa Peña, la primaria N°3613, el secundario José Galvez Egúsquiza y el Instituto tecnológico Señor de Acoria. Entre 2011 y 2014 el alcalde fue Armando Méndez Tapara, del Partido Democrático Somos Perú."
+  },
+  {
+    "slug": "donihue",
+    "name": "Doñihue",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 177,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rancagua",
+      "curico",
+      "chile",
+      "santiago-de-chile",
+      "san-antonio-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Doñihue, comuna del Libertador General Bernardo O'Higgins, cuenta con 20.887 habitantes y se sitúa al nororiente del río Cachapoal.",
+    "aboutTitle": "Doñihue y el río Cachapoal: historia y geografía",
+    "about": "Doñihue es una comuna de la zona central de Chile, ubicada en la región del Libertador General Bernardo O'Higgins, al nororiente del río Cachapoal, en la provincia homónima. Tiene una superficie de 88 km² y, según el censo de 2017, 20.887 habitantes. Los principales centros urbanos son Doñihue y Lo Miranda, y dentro del territorio se encuentran los sectores de Camarico, Rinconada de Doñihue, Plazuela, Chuchunco, California y Cerrillos.\n\nEl nombre proviene del mapudungun y significa “lugar donde hay arvejilla”. En la época prehispánica la zona formaba parte del granero y centro de aprovisionamiento del curaca de Copequén bajo dominio inca, con caminos curvos y un puente colgante de cuerda y mimbre sobre el río Cachapoal que conectaba con el poblado de Kuinco (actual Coínco). En el cerro Tren‑Tren se halló un santuario incaico con restos de cuatro niños y ofrendas, descubierto en 1988. A comienzos del siglo XVII la zona pasó a manos de encomenderos, destacando a Pedro de Miranda y Rueda, quien recibió la encomienda de Copequén en 1577."
+  },
+  {
+    "slug": "san-juan-ermita",
+    "name": "San Juan Ermita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-rosa-de-copan",
+      "santa-ana",
+      "ahuachapan",
+      "apopa",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Juan Ermita, municipio del departamento de Chiquimula en Guatemala, celebra su fiesta titular el 20 de diciembre en honor a San Juan Bautista.",
+    "aboutTitle": "Fiesta titular el 20 de diciembre y clima tropical en San Juan Ermita",
+    "about": "San Juan Ermita es un municipio del departamento de Chiquimula, en la región nor‑oriente de Guatemala. El nombre combina la referencia al santo católico San Juan Bautista y la palabra ermita, que según una hipótesis proviene de una pequeña ermita descubierta antes de construir la iglesia, o de la presencia de ermitaños. Los primeros pobladores fueron chortí; tras la conquista española, el asentamiento fue fundado en 1530. Hasta finales del siglo XVII, Quezaltepeque fue cabecera de curato para el clero secular y bajo su jurisdicción estaba la parroquia de La Ermita, antes de que los curas trasladaran su residencia a Esquipulas.\n\nEl municipio es el segundo más pequeño del departamento y está dividido en veintidós aldeas y veinte caseríos. La cabecera municipal presenta un clima tropical de tipo Aw según la clasificación de Köppen. Cada 20 de diciembre se celebra la fiesta titular en honor a su patrón San Juan el Bautista. La constitución de 1825 asignó a la entonces llamada «Hermita» al Circuito de Chiquimula dentro del Distrito N.º 4 para la impartición de justicia."
+  },
+  {
+    "slug": "bajo-baudo",
+    "name": "Bajo Baudó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Chocó",
+    "regionSlug": "choco",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "istmina",
+      "tado",
+      "quibdo",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bajo Baudó, municipio del Chocó en la costa pacífica sur, tiene como cabecera municipal a Pizarro y fue fundado el 8 de marzo de 1821.",
+    "aboutTitle": "El río Baudó y la fundación de Bajo Baudó (1821)",
+    "about": "Bajo Baudó es un municipio colombiano situado en el departamento de Chocó, en la costa pacífica sur. Su cabecera municipal es Pizarro. El topónimo Baudó, de origen Noanamá, significa «río de ir y venir», aludiendo a las mareas del Pacífico que en las bocas del Baudó en Pizarro pueden alcanzar hasta cuatro metros de diferencia entre flujo y reflujo. El municipio fue fundado el 8 de marzo de 1821 y se convirtió en municipio en 1825. La economía se basa principalmente en la agricultura; entre los cultivos anuales y semiperennes destacan el maíz, el plátano, la caña de azúcar y el arroz, mientras que en la fruticultura se encuentran el chontaduro, el borojó, el limón, el taparo, el guamo y el aguacate. En el territorio se encuentran áreas de vegetación natural herbácea, donde la intervención humana ha reducido el bosque primario, y zonas de vegetación arbórea abierta, producto de talas selectivas que dejan en pie árboles sin valor comercial actual."
+  },
+  {
+    "slug": "asuncion-nochixtlan",
+    "name": "Asunción Nochixtlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "zinacatepec",
+      "altepexi",
+      "ajalpan",
+      "tehuacan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Asunción Nochixtlán, ciudad de la Región Mixteca en Oaxaca, tiene su origen alrededor del 909 d.C. y fue refundada en 1527 bajo el nombre actual.",
+    "aboutTitle": "El legado de la cochinilla en Asunción Nochixtlán",
+    "about": "Asunción Nochixtlán es una ciudad del estado de Oaxaca, situada en la Región Mixteca y cabecera del distrito y municipio homónimos. Su nombre proviene del náhuatl *Nochiztli, tlan*, que significa ‘lugar de la grana o cochinilla’, y en mixteco se conoce como Ñuu Anduco, ‘pueblo viejo de la tierra negra’. Según la tradición oral y los códices, el asentamiento original, llamado Viejo Nochixtlán, fue fundado alrededor del año 909 d.C. por el dirigente Ndazahuidandaa como guarnición militar para proteger el valle de la Mixteca Alta. El poblado permaneció habitado hasta los años 1521‑1522, cuando epidemias de cólera, peste, sarampión y viruela provocaron su abandono. En 1527, Francisco de Orozco y un grupo de 59 mixtecos refundaron el asentamiento bajo el nombre de Asunción Nochixtlán, en honor a la Virgen de la Asunción. Durante la época colonial la localidad se destacó como importante centro comercial gracias al cultivo de la cochinilla, utilizada para producir un tinte rojo demandado en Europa, lo que la convirtió en punto estratégico en el camino de Puebla a Oaxaca. En 1812, tropas insurgentes de José María Morelos ocuparon la zona, y en 1863 se registraron nuevos movimientos militares en sus cercanías."
+  },
+  {
+    "slug": "sigchos",
+    "name": "Sigchos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Cotopaxi",
+    "regionSlug": "provincia-de-cotopaxi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "latacunga",
+      "santo-domingo-ecuador",
+      "sangolqui",
+      "ecuador",
+      "quito",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sigchos, cantón de Cotopaxi creado el 21 de julio de 1992, destaca por sus paisajes naturales y una población mayormente rural del 93,8 %.",
+    "aboutTitle": "Sigchos: cantonización el 21 de julio de 1992 y su paisaje natural",
+    "about": "Sigchos es uno de los siete cantones de la provincia de Cotopaxi, ubicada en el centro del Ecuador. La cantonización se produjo el 21 de julio de 1992 y su nombre proviene del cacique Sigchus de la tribu Sigchila, cuyo significado es “brazo de hierro”. El territorio destaca por paisajes naturales hermosos, ideales para caminar, montar a caballo o practicar senderismo, ofreciendo una vista panorámica que atrae a los visitantes.\n\nSegún el INEC, el cantón concentra el 93,8 % de su población en el área rural y presenta una pirámide poblacional ancha con predominio femenino (50,6 % frente a 49,4 % masculino). La tasa media de crecimiento anual fue de 1,1 % en el período 1990‑2001 y la población económicamente activa en 2001 ascendió a 7.766 habitantes. Los indicadores sociales muestran que el 93,84 % de la población vivía en situación de pobreza por necesidades básicas insatisfechas. En cuanto a servicios básicos, solo el 13 % de las viviendas dispone de alcantarillado, el 56,26 % cuenta con energía eléctrica y el 4,24 % tiene servicio telefónico."
+  },
+  {
+    "slug": "astrea",
+    "name": "Astrea",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cesar",
+    "regionSlug": "cesar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chimichagua",
+      "chiriguana",
+      "ariguani",
+      "bosconia",
+      "el-banco",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Astrea, municipio del Cesar, destaca por su producción artesanal de queso costeño y su importante actividad ganadera y piscícola.",
+    "aboutTitle": "Astrea, gran productor de queso costeño artesanal",
+    "about": "Astrea es un municipio colombiano situado en el noreste del país, dentro del departamento de Cesar. Limita al norte y al oeste con el municipio de Pijiño del Carmen, en el departamento de Magdalena, al norte también con El Paso, al sur con los municipios magdaleneros de San Sebastián de Buenavista y Guamal, y al este con Chimichagua. La villa se fundó el 4 de diciembre de 1931 bajo el nombre de San Martín de Arenas Blancas, en honor a su fundador Martin Mier. En 1935 su hijo envió una carta al alcalde de Chimichagua y al gobernador del Departamento de Magdalena denunciando problemas locales. Sus principales actividades son la ganadería, la agricultura y la piscicultura. Astrea es uno de los máximos productores de queso costeño artesanal de la zona y del departamento, y destaca en el comercio de ganado de ceba y levante. En agricultura es un importante productor de maíz amarillo, yuca y ahuyamas, entre otros alimentos."
+  },
+  {
+    "slug": "daireaux",
+    "name": "Daireaux",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 225,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "olavarria",
+      "san-carlos-de-bolivar",
+      "azul",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Daireaux, partido de la provincia de Buenos Aires con 18.422 habitantes, cambió su nombre en 1970 por Ley N.º 7613 en honor a los hermanos Daireaux.",
+    "aboutTitle": "Historia y economía agrícola del partido Daireaux",
+    "about": "Daireaux es uno de los 135 partidos de la provincia de Buenos Aires, ubicado en el interior de la misma y formando parte de la Sexta Sección Electoral. Antes llamado Partido de Caseros, la denominación se sustituyó por la de Daireaux mediante la Ley N.º 7613 del 25 de junio de 1970, en homenaje a los hermanos ganaderos y agricultores Emilio y Godofredo Daireaux. La autonomía del partido se alcanzó en 1910 gracias al italiano Pablo Guglieri, fundador de la ciudad cabecera que lleva el mismo nombre. La zona se caracteriza por una economía agrícola‑ganadera dentro de la región pampeana, con relieves de llanura levemente ondulada y formaciones medanosas hacia el oeste, sin pendientes pronunciadas.\n\nSegún el censo 2022, la población total del partido es de 18.422 personas, con 9.397 mujeres y 9.025 hombres, lo que da un índice de masculinidad de 96 hombres por cada 100 mujeres y una edad mediana de 35 años. Entre sus localidades destacan Daireaux (cabecera, 14.327 habitantes), Mouras Salazar (2.263 habitantes) y Arboledas (715 habitantes). Limita con los partidos de Bolívar, Coronel Suárez, Hipólito Yrigoyen, Trenque Lauquen, Guaminí, General La Madrid, Olavarría y Pehuajó."
+  },
+  {
+    "slug": "san-vicente-pacaya",
+    "name": "San Vicente Pacaya",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Escuintla",
+    "regionSlug": "departamento-de-escuintla",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-nueva",
+      "antigua-guatemala",
+      "escuintla",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Vicente Pacaya, municipio de Escuintla, Guatemala, celebra su fiesta patronal el 22 de enero y se ubica al pie del volcán Pacaya, volcán activo del país.",
+    "aboutTitle": "Volcán Pacaya y la fiesta del 22 de enero en San Vicente Pacaya",
+    "about": "San Vicente Pacaya es un municipio del departamento de Escuintla, situado en la región sur‑central de Guatemala. Su nombre combina la devoción al santo patrono San Vicente Mártir y la palabra náhuatl «pacaya», que significa palmito comestible, aludiendo a la especie chamaedorea costaricana. La cabecera municipal goza de clima templado (clasificación Csb) y se ubica a 25 km de la cabecera departamental de Escuintla.\n\nEl municipio se destaca por estar al pie del volcán Pacaya, uno de los volcanes más activos de Guatemala y principal atractivo turístico de la zona. Entre sus recursos hídricos fluyen ríos como el Michatoya, Los Manantiales, el Ojo de Agua, el Ojo de Agua de la Joya y Las Pilas, y permite el acceso a la laguna Calderas. Cada 22 de enero se celebra la fiesta titular en honor a San Vicente Mártir. Además, en 2015 San Vicente Pacaya sirvió como escenario de la película Ixcanul, que obtuvo numerosos galardones internacionales."
+  },
+  {
+    "slug": "filomeno-mata",
+    "name": "Filomeno Mata",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetla",
+      "xicotepec-de-juarez",
+      "huauchinango",
+      "coatzintla",
+      "zacatlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Filomeno Mata, a 800 m s.n.m., tiene 19 179 habitantes (censo 2020) y celebra en noviembre el Día de los Santos Difuntos y en diciembre la Virgen de Guadalupe.",
+    "aboutTitle": "Clima cálido y festividades de noviembre y diciembre en Filomeno Mata",
+    "about": "Filomeno Mata es un municipio de la región totonaca, situado en el centro del estado de Veracruz a unos 800 metros sobre el nivel del mar. Sus coordenadas son 20° 12' latitud norte y 97° 42' longitud oeste, y está dividido en diez localidades. Limita al norte con Coahuitlán, al este con Coyutla y Mecatlán, y al sur y al oeste con el estado de Puebla.\n\nSegún el censo del 2020, tiene una población de 19 179 habitantes, de los cuales 9 885 son mujeres y 9 294 hombres. El clima es principalmente cálido, con abundantes lluvias en verano y algunas a comienzos del otoño. Sus principales celebraciones son en noviembre y diciembre, con la conmemoración del Día de los Santos Difuntos y la de la Virgen de Guadalupe."
+  },
+  {
+    "slug": "union-cantinil",
+    "name": "Unión Cantinil",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Huehuetenango",
+    "regionSlug": "departamento-de-huehuetenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "tapachula",
+      "solola",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Unión Cantinil, municipio de Huehuetenango creado en 2005, tiene una extensión de 43 km² y está a 73 km de la cabecera departamental.",
+    "aboutTitle": "Toponimia, geografía y división política de Unión Cantinil",
+    "about": "Unión Cantinil es un municipio actualmente del departamento de Huehuetenango, en la región noroccidental de Guatemala. Con una superficie de 43 km², también se sitúa a 73 km de la cabecera departamental, Huehuetenango. Limita al norte con Petatán, al este con Todos Santos Cuchumatán, al oeste con San Antonio Huista y al sur con San Pedro Necta. Dentro de su territorio existen dieciséis aldeas, seis caseríos, trece cantones y dos sectores, que conforman su división política.\n\nEl nombre Cantinil proviene del término indígena «Cantigil», que significa «serpiente venenosa», y alude a una gran serpiente que, según la tradición, habitaba las cuevas y ríos del área, conocida como «Cantil de Agua». El municipio es uno de los más recientes del departamento, ya que fue categorizado como tal en el año 2005. Su gobierno local se ejerce a través de un Concejo Municipal, conforme a la normativa nacional que regula los municipios guatemaltecos."
+  },
+  {
+    "slug": "san-rafael-pie-de-la-cuesta",
+    "name": "San Rafael Pie de la Cuesta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos-guatemala",
+      "tapachula",
+      "quetzaltenango",
+      "mazatenango",
+      "huehuetenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Rafael Pie de la Cuesta, municipio de San Marcos, celebra su fiesta titular del 14 al 25 de octubre en honor a San Rafael Arcángel.",
+    "aboutTitle": "Fiesta titular de San Rafael Arcángel, del 14 al 25 de octubre",
+    "about": "San Rafael Pie de la Cuesta es un municipio del departamento de San Marcos, en la región sur‑occidente de Guatemala. Con una superficie de 60 km² y una población de 18.352 habitantes para 2021, según el censo de 2018, la densidad ronda los 306 habitantes por kilómetro cuadrado. El 22 % de sus residentes vive en la zona urbana y el 78 % en áreas rurales. La cabecera municipal se caracteriza por techos de tejas rojas y abundante arbolado, y su clima es tropical (clasificación Köppen Am). El poblado obtuvo la categoría de municipio el 4 de enero de 1850, aunque algunos documentos citan el 5 de enero como fecha de fundación. El nombre combina la referencia a su santo patrono, Rafael Arcángel, con la descripción geográfica de estar “pie de la cuesta”, situada en la llanura costera y considerada una de las zonas más calurosas del departamento. Cada año, del 14 al 25 de octubre, se celebra la fiesta titular en honor al patrón, con la elección de una reina de belleza. San Rafael Pie de la Cuesta se ubica a 27 km de la cabecera departamental de San Marcos y limita al norte con San Pablo y San Marcos, al sur con El Tumbador, y al este con Esquipulas Palo Gordo."
+  },
+  {
+    "slug": "san-jose-tenango",
+    "name": "San José Tenango",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tierra-blanca",
+      "tres-valles",
+      "zinacatepec",
+      "ajalpan",
+      "altepexi",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San José Tenango, municipio oaxaqueño de 144,17 km² en la Sierra de Flores Magón, cuenta con 18.102 habitantes según el censo 2020.",
+    "aboutTitle": "San José Tenango: municipio de la Sierra de Flores Magón",
+    "about": "San José Tenango es uno de los 570 municipios que integran el estado de Oaxaca y forma parte del distrito de Teotitlán, dentro de la Región Sierra de Flores Magón. El municipio tiene una superficie de 144,17 km². En el 2020, la población en San José Tenango fue de 18,102 habitantes (47.3% Hombres y 52.7% Mujeres), lo que representó una disminución del -2.03% respecto a 2010. En 2015, el 21.1% de la población se encontraba en situación de pobreza moderada, mientras que el 4.52% era vulnerable por carencias sociales y el 0.0026% por ingresos. En 2020, el 62.9% de los habitantes no contaba con sistema de alcantarillado, el 68% carecía de red de suministro de agua, el 2.59% no tenía baño y el 11.8% no disponía de energía eléctrica.\n\nSegún el censo de 2020, el municipio cuenta con 141 localidades. Para la elección de diputados locales al Congreso de Oaxaca y federales a la Cámara de Diputados, San José Tenango se integra en el distrito electoral local de 1 de Oaxaca, con cabecera en Acatlán de Pérez Figueroa, y en el distrito electoral federal 2 de Oaxaca, cuya cabecera es Teotitlán de Flores Magón. El presidente municipal entre 2019 y 2021 fue Hugo García Ríos."
+  },
+  {
+    "slug": "monte-cristo",
+    "name": "Monte Cristo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-argentina",
+      "malagueno",
+      "jesus-maria-colonia-caroya-sinsacate",
+      "villa-del-rosario-cordoba",
+      "villa-carlos-paz-san-antonio-de-arredondo-villa-rio-icho-cruz",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Monte Cristo, a 25 km satellite of Córdoba, es conocida por su soja, la fábrica de mosaicos Blangino (1966) y la fiesta patronal el 8 de diciembre.",
+    "aboutTitle": "Fábrica de Mosaicos Blangino y la soja de Monte Cristo",
+    "about": "Monte Cristo es una localidad del departamento Río Primero, en la provincia de Córdoba, Argentina, ubicada a veinticinco kilómetros de la ciudad de Córdoba sobre la ruta nacional 19. Según el censo de 2022 cuenta con 14.804 habitantes, lo que supone un crecimiento del 30 % respecto al censo de 2010. La población se caracteriza por ser una ciudad dormitorio, ya que muchos residentes viajan diariamente a la capital cordobesa para trabajar.\n\nLa economía de Monte Cristo está dominada por la actividad agropecuaria, siendo la soja el cultivo principal; la zona cuenta con numerosos silos, tambos y oficinas agrícolas. Destaca la Fábrica de Mosaicos Blangino, fundada en 1966 por un vecino de la localidad y que emplea a más de 300 familias, convirtiéndose en una de las empresas cordobesas más importantes a nivel nacional. En la zona rural, a tres kilómetros al este, se encuentra la estación Transformadora Malvinas Argentinas, que abastece con energía eléctrica al 46 % de la provincia mediante dos transformadores de trescientos megavatios. La fiesta patronal se celebra el 8 de diciembre en honor a la Inmaculada Concepción. El clima es templado con una estación muy seca y precipitaciones anuales de aproximadamente setecientos milímetros. La sismicidad de la región es frecuente pero de baja intensidad."
+  },
+  {
+    "slug": "loberia",
+    "name": "Lobería",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 158,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "balcarce",
+      "miramar-el-marquesado",
+      "tandil",
+      "benito-juarez",
+      "mar-del-plata",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lobería, partido de la provincia de Buenos Aires, celebra su fundación el 31 de enero de 1891. Es uno de los 135 partidos, ubicado sobre el mar Argentino.",
+    "aboutTitle": "Lobería: puerto del Mar Argentino y su Expo 2026",
+    "about": "Lobería es uno de los 135 partidos de la provincia de Buenos Aires, situado en el sur de la provincia sobre el mar Argentino. Su cabecera, la ciudad homónima, pertenece a la Quinta Sección Electoral. El territorio se organizó inicialmente en 1839 cuando el coronel Narciso del Valle creó el partido de la Lobería Grande. El 9 de septiembre de 1867 se creó la Primera Comisión Municipal y, el 31 de enero de 1891, se fundó el pueblo cabecera del partido. En 1979 la dictadura militar separó el puerto y la ciudad de Quequén y el balneario Costa Bonita, anexándolos al partido de Necochea. La economía local gira en torno a la agricultura; en la ciudad operan plantas de acopio de cereales y oleaginosas, fábricas de aceites de soja y girasol, y una fábrica de alimentos balanceados para ganado. También existen talleres de fabricación de implementos agrícolas y de elementos pretensados para la construcción. Entre los eventos recientes destacan la Expo Lobería 2026 y la celebración del 134 aniversario de Tamangueyú el 6 de octubre de 2026, así como el Aniversario de la Bandera de Lobería."
+  },
+  {
+    "slug": "oriental",
+    "name": "Oriental",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "libres",
+      "san-salvador-el-seco",
+      "ciudad-serdan",
+      "perote",
+      "acatzingo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Oriental, municipio de Puebla, se ubica a 2 360 m sobre el nivel del mar, cubre 298,52 km² y su condición de municipio libre se consolidó el 2 de julio de 1942.",
+    "aboutTitle": "Oriental, Puebla: legado del Ferrocarril Oriental y el cerro Pinto",
+    "about": "Oriental es uno de los 217 municipios del estado de Puebla, situado en el centro de México. Su nombre proviene de la antigua estación del Ferrocarril Oriental, que conectaba la Ciudad de México con el puerto de Veracruz, y se ubicó en la zona que hoy ocupa la cabecera municipal. El municipio se elevó a rango de pueblo el 29 de octubre de 1917 y, el 2 de julio de 1942, se convirtió en municipio libre. Con una superficie de 298,52 km², ocupa el puesto 30 entre las demarcaciones poblanas por sus dimensiones y limita al norte con Libres y Tepeyahualco, al este con San Nicolás Buenos Aires, al sureste con San Salvador el Seco y al oeste con San José Chiapa y el estado de Tlaxcala. Su altitud promedio es de 2 360 m s.n.m., presenta un clima templado‑semiseco con lluvias en verano y se localiza a 80 km de la ciudad de Puebla, accesible por la carretera federal 129. En el norte del municipio se alzan cerros que forman parte de la Sierra Norte de Puebla, destacando el cerro Pinto con 3 000 m s.n.m. y los Tres Cerros a 2 800 m s.n.m. Al sur, el relieve es plano, integrándose a los llanos de San Juan, una cuenca cerrada que forma parte de la llanura lacustre situada al norte del volcán Malintzin."
+  },
+  {
+    "slug": "platon-sanchez",
+    "name": "Platón Sánchez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tantoyuca",
+      "cerro-azul",
+      "naranjos",
+      "alamo",
+      "panuco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Platón Sánchez, municipio de la Huasteca Alta en Veracruz, cuenta con 18.053 habitantes y celebra su carnaval del 4 al 13 de febrero.",
+    "aboutTitle": "Carnaval de febrero y clima cálido de Platón Sánchez",
+    "about": "Platón Sánchez se ubica en la Huasteca Alta de Veracruz, a 60 m sobre el nivel del mar y con coordenadas 21°16′23.59″N 98°22′31.29″O. Es uno de los 212 municipios del estado y comprende 127 localidades, según el censo. El clima es cálido‑extremoso, con una temperatura media de 24,1 °C y periodos prolongados de sequía. La historia local está ligada a Rafael Platón Sánchez (1831–1867), quien participó en la Batalla de Puebla y en la sentencia de Maximiliano; el municipio adoptó su nombre en 1868 y el 22 de diciembre de 1958 se elevó a la categoría de Villa.\n\nEn Platón Sánchez se celebra del 4 al 13 de febrero la fiesta de carnaval; los días 1 y 2 de noviembre se conmemora el Xantolo y los 11 y 12 de diciembre se realizan fiestas religiosas en honor a la Virgen de Guadalupe."
+  },
+  {
+    "slug": "pantepec",
+    "name": "Pantepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 166,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xicotepec-de-juarez",
+      "alamo",
+      "poza-rica-de-hidalgo",
+      "coatzintla",
+      "filomeno-mata",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pantepec, municipio de la Sierra Norte de Puebla, tiene 18 528 habitantes según el censo de 2020 y su nombre proviene del náhuatl ‘bandera, cerro’.",
+    "aboutTitle": "Pantepec: origen nahua y su historia en la Sierra Norte",
+    "about": "Pantepec es un municipio de la Sierra Norte de Puebla. Su nombre proviene del náhuatl pantli y tepetl, que se traducen como ‘bandera, cerro’, y en la lengua tutunakú la cabecera se llama Kachikin. Según el censo de 2020, cuenta con 18 528 habitantes.\n\nFundado por grupos totonacas, tepehuas y otomíes, el poblado estuvo bajo la jurisdicción eclesiástica de Huauchinango y el obispado de Puebla tras la Conquista. En 1895 se designó como municipio libre, pasando de San Juan Pantepec a Jalpantepec y finalmente a Pantepec. Sus habitantes combatieron en la batalla del 5 de mayo de 1862 en Puebla y, a partir de 1911, participaron activamente en la Revolución Mexicana; en 1913 apoyaron el plan de Guadalupe de Carranza y fueron castigados por tropas federales que incendiaron el pueblo. El municipio limita al norte con Francisco Z. Mena e Ixhuatlán de Madero (Veracruz), al sur con Jalpan, al oriente con Venustiano Carranza y al poniente con Huehuetla (Hidalgo)."
+  },
+  {
+    "slug": "loreto-baja-california-sur",
+    "name": "Loreto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 223,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Loreto, Baja California Sur, cubre 4.878 km², tiene 223 km de litoral y alberga cinco islas, entre ellas la Isla del Carmen, la playa más larga del municipio.",
+    "aboutTitle": "Islas y litoral de Loreto, Baja California Sur",
+    "about": "Loreto es el municipio que se sitúa en la zona central del estado de Baja California Sur, México. Su territorio se extiende sobre 4,878 km² e incluye un litoral de 223 km y cinco islas bajo su jurisdicción. Las coordenadas geográficas del municipio son 26°33'11\" N y 111°46'22\" O, con variaciones que llegan hasta 25°12'15\" N y 110°55'15\" O. Según el INEGI, la población municipal fue de 9,986 habitantes en 1995, de 11,812 en el censo de 2000 y de 11,839 en 2005, concentrándose la mayor parte en la cabecera, la ciudad de Loreto.\n\nDentro del municipio se encuentran cuatro playas, destacando la Isla del Carmen como la de mayor extensión y la Isla Danzante como la más pequeña. Entre las islas del territorio se encuentran Isla del Carmen, Isla Montserrat, Isla Danzante e Isla Santa Catalina. En 2025 el ayuntamiento celebró la toma de protesta de la alcaldesa Paz del Alma Ochoa Amador, un hecho registrado en sus comunicados oficiales."
+  },
+  {
+    "slug": "floresta",
+    "name": "Floresta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Canelones",
+    "regionSlug": "departamento-de-canelones",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-de-la-costa",
+      "las-piedras",
+      "uruguay",
+      "montevideo",
+      "minas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Floresta, en Canelones, Uruguay, se extiende sobre 65.5 km² entre los arroyos Solís Chico y Solís Grande y al sur de la ruta Interbalnearia.",
+    "aboutTitle": "Floresta: balneario entre los arroyos Solís Chico y Solís Grande",
+    "about": "El municipio de La Floresta, ubicado en el sureste del departamento de Canelones, Uruguay, se sitúa entre los arroyos Solís Chico y Solís Grande y al sur de la ruta Interbalnearia. Limita al sur con el Río de la Plata, al norte con el municipio de Soca, al oeste con Parque del Plata y al este con Solís Grande, en Maldonado. Con una superficie de 65.5 km², fue creado por ley 18.653 el 15 de marzo de 2010 y forma parte del departamento de Canelones. Según datos de 2023, la población total del municipio asciende a 17.315 habitantes. La actividad principal es el turismo, gracias a la cadena de balnearios que se extiende a lo largo del Río de la Plata. Dentro de su territorio se encuentran localidades como Las Vegas, La Floresta, Estación La Floresta, Costa Azul, Bello Horizonte, Guazuvirá, San Luis, Los Titanes, La Tuna, Araminda, Santa Lucía del Este, Biarritz, Cuchilla Alta, El Galeón, Santa Ana, Balneario Argentino y Jaureguiberry. San Luis es la localidad más poblada del municipio. La administración local está compuesta por un alcalde y cuatro concejales."
+  },
+  {
+    "slug": "acacoyagua",
+    "name": "Acacoyagua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "tapachula",
+      "san-rafael-pie-de-la-cuesta",
+      "union-cantinil",
+      "san-marcos-guatemala",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Acacoyagua, municipio chiapaneco fundado en 1947 y con una población de 17.994 habitantes según el censo 2020.",
+    "aboutTitle": "Acacoyagua: sede del caudillo y su historia desde 1947",
+    "about": "Acacoyagua es un municipio del estado de Chiapas, México, y una de las 124 demarcaciones que integran la entidad. Su cabecera municipal lleva el mismo nombre y está ubicada en la Región X Soconusco, establecida en la regionalización de 2011. La población total, según el censo de 2020, asciende a 17.994 habitantes, distribuidos equitativamente entre mujeres y varones.\n\nEl origen del pueblo es náhuatl y su nombre significa \"sede del caudillo\". Fue fundada en 1947 cuando se separó de Escuintla, Chiapas, bajo el decreto del gobernador César A. Lara, impulsado por la lucha encabezada por Alberto Montaño Espejel. A lo largo de su historia, Acacoyagua formó parte de un anexo del pueblo de Escuintla en 1774, se incorporó al estado de Chiapas en 1842, y en 1863 perteneció al Departamento de Soconusco. En 1915 se creó como municipio libre dentro de la primera remunicipalización y, en 1983, se ubicó en la región VIII Soconusco para efectos del Sistema de Planeación."
+  },
+  {
+    "slug": "hijuelas",
+    "name": "Hijuelas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 162,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Valparaíso",
+    "regionSlug": "region-de-valparaiso",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quillota",
+      "vina-del-mar",
+      "valparaiso",
+      "chile",
+      "santiago-de-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hijuelas, la Capital de las Flores de Chile, produce casi la mitad de la floricultura nacional y es Reserva Mundial de la Biosfera desde 2009.",
+    "aboutTitle": "Hijuelas: La Capital de las Flores y Reserva de Biosfera",
+    "about": "Hijuelas es una comuna de la provincia de Quillota, en la Región de Valparaíso, zona central de Chile. La localidad se reconoce como La Capital de las Flores porque concentra prácticamente la mitad de la producción floral nacional. Desde el 25 de mayo de 2009 su territorio está declarado Reserva Mundial de la Biósfera por la Unesco, lo que destaca su valor ecológico y agrícola.\n\nEl valle que hoy ocupa la comuna se llamaba originalmente Las Hijuelas de Torrejón, nombre que proviene del corregidor Manuel de Torrejón, propietario de las tierras a partir de 1718. Tras la compra a Alonso Campofrío, el apellido Torrejón quedó perpetuado en la Punta de Torrejón, acceso al valle de Romeral, cuya hacienda perteneció al capitán y maestre de campo Francisco de Aragón a principios del siglo XVIII. En la actualidad Hijuelas cuenta con el Parque Los Naranjos y un Estadio Municipal, espacios de recreación para sus habitantes."
+  },
+  {
+    "slug": "ocuiltzapotlan",
+    "name": "Ocuiltzapotlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tabasco",
+    "regionSlug": "tabasco",
+    "channels": [
+      "tabasco",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "tabasco",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ocuiltzapotlán, villa del municipio de Centro en Tabasco, se encuentra a 18 km al norte de Villahermosa y cuenta con 23 571 habitantes.",
+    "aboutTitle": "Ocuiltzapotlán: villa histórica a 18 km de Villahermosa",
+    "about": "Ocuiltzapotlán es una villa del municipio de Centro, en el estado de Tabasco, México. Según el censo cuenta con 23 571 habitantes distribuidos entre Ocuiltzapotlán centro (18 311), el fraccionamiento Ocuiltzapotlán Dos (4 675), Villa Unión (311) y el Zapotal (La llave) (273). Es una de las siete villas del municipio y forma parte de los trece Centros de Desarrollo Regional donde se concentran la mayor parte de la actividad económica y social. La localidad está situada a 18 km al norte de Villahermosa, capital del estado, y pertenece a la zona metropolitana de la capital.\n\nEl nombre Ocuiltzapotlán proviene del náhuatl ocuillin “gusano”, zapotl “zapote” y tlan “lugar”, traducido como “lugar del zapote con gusano”. Las primeras referencias oficiales aparecen en un mapa de 1579, cuando la zona se conocía como Oquitzapotlán en la región de los chontales. Con más de 450 años de historia, la villa resistió incursiones de piratas en la Chontalpa y conserva la memoria de una lengua chontal, hoy extinta. En las últimas décadas el crecimiento poblacional se ha acelerado por su ubicación en terrenos altos libres de inundaciones, lo que ha impulsado la creación de nuevos fraccionamientos y polos habitacionales."
+  },
+  {
+    "slug": "yanga",
+    "name": "Yanga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-veracruz",
+      "fortin-de-las-flores",
+      "ixtaczoquitlan",
+      "orizaba",
+      "coscomatepec-de-bravo",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yanga, municipio veracruzano fundado el 10 de agosto de 1609, destaca por ser el primer pueblo libre creado por africanos cimarrones y su clima cálido‑húmedo.",
+    "aboutTitle": "Yanga, el primer pueblo libre fundado por africanos cimarrones",
+    "about": "Yanga es uno de los 212 municipios del estado de Veracruz, México. Su cabecera lleva el mismo nombre y se sitúa en la zona centro del estado, a 18°50’55” N y 96°48’22” O, a 520 m sobre el nivel del mar. Con una superficie de 102.82 km², representa el 0.14 % del territorio veracruzano y el 0.0053 % del país. La localidad nació el 10 de agosto de 1609, cuando un príncipe africano llamado Yanga fundó el primer pueblo libre de México, habitado por cimarrones que escaparon de la esclavitud. Inicialmente se llamó San Lorenzo de los Negros y luego San Lorenzo Cerralvo; el 5 de noviembre de 1932 el decreto oficial cambió el nombre a Yanga, y el 22 de noviembre de 1956 se le concedió la categoría de villa. Su clima cálido‑húmedo presenta una temperatura media anual de 18 °C y una precipitación promedio de 1 200 mm. Limita al este con Cuitláhuac, al noreste con Atoyac y al sureste con Omealca, y está a unos 80 km por carretera al sur de la capital estatal."
+  },
+  {
+    "slug": "pimentel-republica-dominicana",
+    "name": "Pimentel (República Dominicana)",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Duarte",
+    "regionSlug": "duarte",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "la-vega",
+      "moca",
+      "las-terrenas",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pimentel (República Dominicana) es un municipio de Duarte que alcanzó 19.033 habitantes en el censo de 2022, tras superar los 17.864 en 2010.",
+    "aboutTitle": "Historia y crecimiento demográfico de Pimentel (República Dominicana)",
+    "about": "Pimentel es un municipio de la provincia de Duarte, en la República Dominicana. Según el censo nacional de noviembre de 2022, la población total alcanzó los 19.033 habitantes, con 9.367 hombres y 9.666 mujeres. En 2010 la cifra había descendido a 17.864 habitantes, y en 2002 el municipio contaba con 18.280 personas, de las cuales 9.849 vivían en la zona urbana y 8.431 en áreas rurales. El crecimiento poblacional se recuperó después de un leve retroceso entre 2002 y 2010, llegando a su nivel más alto registrado en 2022. El origen del nombre está relacionado con el Partido del Cuaba. En 1812, el Partido del Cuaba reunía alrededor de mil habitantes, distribuidos en pequeñas secciones. La denominación surgió por la disputa entre las autoridades de Partido de Macorís y la Villa de Cotuí sobre la posesión del territorio del río Cuaba, que dividía Cuaba Arriba, donde hoy se halla el distrito municipal de La Peña, y Cuaba Abajo, correspondiente al actual municipio de Pimentel. En el censo de 1920 la población era de 5.937 habitantes, reflejando la lenta expansión demográfica del lugar."
+  },
+  {
+    "slug": "cuquio",
+    "name": "Cuquío",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tepatitlan-de-morelos",
+      "zapotlanejo",
+      "coyula",
+      "tonala",
+      "tlaquepaque",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cuquío, municipio jalisquense con 652.94 km², conserva su nombre tarasco que significa “lugar de sapos” y es una de las 125 demarcaciones de Jalisco.",
+    "aboutTitle": "El origen tarasco y la historia de Cuquío, Jalisco",
+    "about": "Cuquío es uno de los 125 municipios del estado de Jalisco y su cabecera lleva el mismo nombre. Se ubica en la región Centro del estado y limita al norte con Yahualica y el Estado de Zacatecas, al sur con Zapotlanejo y Acatic, al este con Yahualica y Tepatitlán, y al oeste con Ixtlahuacán del Río. Su extensión territorial es de 652.94 kilómetros cuadrados. El nombre proviene de la palabra Cuixui, que significa milano, y se interpreta como “lugar de sapos”. Según la tradición, la fundación del poblado se atribuye a los purépechas que incursionaron por los valles después de la Guerra del Salitre; la tribu de los coquias se asentó en La Cofradía, a dos kilómetros del actual núcleo. En 1530 Nuño de Guzmán conquistó la zona y la sede del corregimiento pasó de Tlacotlán a Cuquío en 1690, permaneciendo allí hasta la Independencia. Don Juan Polaco fue alcalde mayor en 1695 y la construcción del templo comenzó en 1762, finalizando en 1834. En 1823 se designó como partido con ayuntamiento; el 27 de marzo de 1824 se constituyó en departamento del Estado y el 13 de marzo de 1837 se declaró cabecera de partido. En septiembre de 1846 se proclamó cabecera del Cantón de Guadalajara."
+  },
+  {
+    "slug": "salgar-antioquia",
+    "name": "Salgar",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 164,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Antioquia",
+    "regionSlug": "antioquia",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-bolivar-antioquia",
+      "armenia-colombia",
+      "amaga",
+      "andes",
+      "caldas",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Salgar, municipio antioqueño, nació el 26 de octubre de 1865 y limita al norte con Urrao, Betulia y Concordia, y al oeste con El Carmen de Atrato (Chocó).",
+    "aboutTitle": "Río Barroso y la fundación de Salgar en Antioquia",
+    "about": "Salgar es un municipio colombiano en la subregión Suroeste del departamento de Antioquia. Limita al norte con Urrao, Betulia y Concordia; al este con Concordia, Venecia y Tarso; al sur con Pueblorrico y Ciudad Bolívar; y al oeste con El Carmen de Atrato, Chocó, y Urrao. El nombre honra al expresidente Don Eustorgio Salgar. Su historia es reciente; surgió como municipio tras desprenderse de jurisdicciones como Ciudad Bolívar y Concordia a finales del siglo XIX. El origen administrativo se remonta al 26 de octubre de 1865, cuando el Poder Ejecutivo creó la fracción “Barroso” dentro del Distrito de Bolívar, definiendo límites desde los nacimientos del río Barroso hasta la cordillera del Plateado. Tres años después, el 26 de noviembre de 1868, se emitió otra orden que situó la fracción bajo el Distrito de Concordia. En 1962 la Asamblea Departamental de Antioquia otorgó a Ciudad Bolívar la categoría de ciudad. Salgar conserva una identidad ligada a estos decretos y a su posición geográfica entre Antioquia y Chocó."
+  },
+  {
+    "slug": "agua-blanca",
+    "name": "Agua Blanca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 166,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Jutiapa",
+    "regionSlug": "departamento-de-jutiapa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "san-juan-ermita",
+      "santa-ana",
+      "ahuachapan",
+      "sonsonate",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Agua Blanca, municipio de Jutiapa en Guatemala, se ubica a 162 km de la Ciudad de Guatemala y cuenta con 16.823 habitantes según el censo 2018.",
+    "aboutTitle": "Manantiales blanquecinos y ubicación de Agua Blanca, Jutiapa",
+    "about": "Agua Blanca es un municipio del departamento de Jutiapa, en la República de Guatemala, y ocupa el tercer lugar en extensión dentro del departamento. Su territorio cubre 340 km², lo que supone una densidad poblacional de 50 habitantes por km². Según el censo de 2018, la población total era de 16.823 personas, de las cuales el 76 % vivía en áreas rurales.\n\nEl nombre proviene de los manantiales de agua blanquecina que brotan en la zona, especialmente el llamado Viejo Ojo de Agua situado en la cabecera municipal. Administrativamente, el municipio está dividido en 82 centros poblados, que incluyen catorce aldeas y sesenta y ocho caseríos. Geográficamente, Agua Blanca está situada a 162 km de la Ciudad de Guatemala y a 42 km de la cabecera departamental de Jutiapa; limita al norte con los municipios de Ipala y Concepción Las Minas (Chiquimula), al oeste con Asunción Mita, Santa Catarina Mita y San Manuel Chaparrón, al sur con Asunción Mita y la República de El Salvador, y al este con Concepción Las Minas y El Salvador."
   }
 ];
