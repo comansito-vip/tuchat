@@ -1344,7 +1344,57 @@
   "pimentel-republica-dominicana",
   "cuquio",
   "salgar-antioquia",
-  "agua-blanca"
+  "agua-blanca",
+  "paraiso-de-chabasquen",
+  "parrita",
+  "tlaola",
+  "coltauco",
+  "cajola",
+  "santiago-jamiltepec",
+  "union-de-san-antonio",
+  "villa-corona",
+  "arenal",
+  "altamira-puerto-plata",
+  "juan-aldama",
+  "aguaclara",
+  "fray-luis-beltran",
+  "pinas-provincia-de-el-oro",
+  "macara",
+  "aldo-bonzi",
+  "chicama-departamento-de-la-libertad",
+  "convencion",
+  "lamas",
+  "palestina",
+  "puerto-general-san-martin",
+  "morropon-departamento-de-piura",
+  "urarinas",
+  "catazaja",
+  "totoro",
+  "santos-reyes-nopala",
+  "compostela",
+  "adolfo-alsina",
+  "ciudad-hidalgo-chiapas",
+  "quillon",
+  "nueva-granada",
+  "guanagazapa",
+  "bellavista-departamento-de-cajamarca",
+  "puerto-aysen",
+  "guaranda",
+  "ziracuaretiro",
+  "llera",
+  "aguaray",
+  "suesca",
+  "betulia",
+  "mecayapan",
+  "oxapampa",
+  "guaymate",
+  "el-cenepa",
+  "tixkokob",
+  "chuarrancho",
+  "pueblo-nuevo-departamento-de-lambayeque",
+  "janico",
+  "general-pinedo",
+  "megantoni"
  ],
  "descartadas": [
   {
@@ -15526,6 +15576,496 @@
    "slug": "san-lucas",
    "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
    "fecha": "2026-11-06"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tochtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "acultzingo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "aristides-bastidas",
+   "razon": "fraseo calcado de ixtlahuaca: \"sobre el nivel del mar limita al\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "jaral-del-progreso",
+   "razon": "rechazada tras corrección: La ficha afirma que la localidad está situada al noroeste de México, dato que no figura en el material de origen.",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "chugay",
+   "razon": "fraseo calcado de elias-soplin-vargas: \"uno de los ocho distritos que conforman\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "santa-maria-chilchotla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "vega-de-alatorre",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "halacho",
+   "razon": "fraseo calcado de teapa: \"y al sur y oeste con el\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "uchiza",
+   "razon": "rechazada tras corrección: Se inventa que es el principal centro administrativo de la zona; Se inventa que está entre los núcleos poblados más relevantes del entorno; Se inventa que desempeña un papel importante en la organizac",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "huanimaro",
+   "razon": "rechazada tras corrección: Se describe la función administrativa y la relevancia de Huanímaro como cabecera municipal, lo que no está en la fuente; Se menciona la señalización oficial y la identidad local, lo que no está en la ",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "atescatempa",
+   "razon": "fraseo calcado de agua-blanca: \"del departamento de jutiapa en la republica\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "caicara-de-maturin",
+   "razon": "rechazada tras corrección: La ficha afirma que está al noroeste de la entidad, pero el material de origen dice que está en la zona oeste.; Invención de datos no respaldados: 'posición estratégica', 'época colonial', 'asentamien",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "comandante-andresito",
+   "razon": "fraseo calcado de camiri: \"es una ciudad y municipio de la\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "pichidegua",
+   "razon": "fraseo calcado de chimbarongo: \"circunscripcion senatorial de o higgins el nombre\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "samuel-pastor",
+   "razon": "fraseo calcado de yungay-departamento-de-ancash: \"es uno de los ocho distritos que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "huarango",
+   "razon": "rechazada tras corrección: La frase 'que mantienen vivas sus tradiciones' es una invención; el material de origen no menciona las tradiciones de las comunidades indígenas.",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "hidalgotitlan",
+   "razon": "fraseo calcado de sipe-sipe: \"a 27 kilometros al suroeste de la\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "el-higo",
+   "razon": "fraseo calcado de ixhuatlan-de-madero: \"norte del estado de veracruz dentro de\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-jose-el-rodeo",
+   "razon": "rechazada tras corrección: La ficha dice que la localidad 'ha sido un punto de descanso para mercaderes y milicias que cruzaban hacia Chiapas', pero la fuente original solo menciona que la ceiba y el corral eran utilizados por ",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tlahuelilpan",
+   "razon": "fraseo calcado de castillo-de-teayo: \"de longitud oeste a una altitud que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "departamento-santa-rosa",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "aguas-verdes",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-antonio-huista",
+   "razon": "fraseo calcado de cuilco: \"rafael carrera en 1840 la frontera con\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "zapotlan-del-rey",
+   "razon": "fraseo calcado de aguadas: \"de la llegada de los conquistadores la\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "texcaltitlan",
+   "razon": "fraseo calcado de ocuilan: \"uno de los 125 municipios que integran\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-juan-mazatlan",
+   "razon": "fraseo calcado de huehuetla: \"ubicado en la zona de transicion entre\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "senguio",
+   "razon": "rechazada tras corrección: La ficha menciona que Senguio 'mantiene su identidad dentro de la región', lo que no se encuentra en el material de origen.; La ficha afirma que 'estas características climáticas influyen en la activi",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "la-ligua",
+   "razon": "fraseo calcado de quilpue: \"la region de valparaiso capital de la\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "socoltenango",
+   "razon": "rechazada tras corrección: El texto afirma que 'El relieve accidentado condiciona el uso del suelo y la distribución de la población', dato que no figura en la fuente.; El texto afirma que 'Las lluvias estivales aportan la mayo",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "quero",
+   "razon": "rechazada tras corrección: La ficha menciona que la fiesta principal es una tradición arraigada, lo que no se encuentra en el material de origen.",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "cheran",
+   "razon": "fraseo calcado de maravatio: \"uno de los 113 municipios que integran\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "zautla",
+   "razon": "fraseo calcado de metztitlan: \"y tlan lugar lo que se traduce\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "cotija-de-la-paz",
+   "razon": "fraseo calcado de ciudad-acuna: \"es la cabecera del municipio homonimo situada\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "jilotzingo",
+   "razon": "fraseo calcado de ocuilan: \"uno de los 125 municipios que integran\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "ocongate",
+   "razon": "fraseo calcado de lircay: \"es uno de los doce distritos que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "young-departamento-de-rio-negro",
+   "razon": "rechazada tras corrección: La ficha menciona que la ciudad de Young 'concentra la actividad administrativa del municipio', lo que no se menciona en el material de origen; La ficha afirma que 'Como parte del departamento de Río ",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-rafael-la-independencia",
+   "razon": "controles de calidad: aboutTitle de 85 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "santa-catarina-juquila",
+   "razon": "fraseo calcado de general-felipe-angeles: \"por un presidente un sindico y un\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "curahuasi",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "parque-del-plata-departamento-de-canelones",
+   "razon": "fraseo calcado de salinas-departamento-de-canelones: \"la ley 18 653 el 15 de\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "ostuacan",
+   "razon": "controles de calidad: aboutTitle de 77 caracteres (debe estar entre 25 y 70); intro/meta de 200 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "coalcoman-de-vazquez-pallares",
+   "razon": "fraseo calcado de oxchuc: \"censo de 2020 la poblacion total del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "heroica-villa-de-san-blas-atempa",
+   "razon": "fraseo calcado de santiago-pinotepa-nacional: \"es uno de los 570 municipios del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "bajo-biavo",
+   "razon": "fraseo calcado de tocache: \"departamento de san martin en el norte\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "recreo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-ignacio-cerro-gordo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-antonio-zomeyucan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "zoquitlan",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "rio-branco-departamento-de-cerro-largo",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "yupiltepeque",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "sipacate",
+   "razon": "fraseo calcado de santa-maria-cahabon: \"el clima de la cabecera municipal es\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "chibolo",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "andoas",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "pativilca-departamento-de-lima",
+   "razon": "fraseo calcado de supe-departamento-de-lima: \"es uno de los cinco distritos que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "maltrata",
+   "razon": "fraseo calcado de vigas-de-ramirez: \"situado en la zona centro del estado\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "ricaurte",
+   "razon": "controles de calidad: muletillas de IA: gran variedad de",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-vicente-ferrer",
+   "razon": "fraseo calcado de colotlan: \"llegada de los espanoles la zona estuvo\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "cayalti-departamento-de-lambayeque",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "general-las-heras",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "uchumayo",
+   "razon": "fraseo calcado de characato: \"es uno de los veintinueve distritos que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tochimilco",
+   "razon": "fraseo calcado de venustiano-carranza-mexico: \"es uno de los 217 municipios del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "vice",
+   "razon": "rechazada tras corrección: La ficha dice que el distrito fue 'fundado' el 15 de junio de 1920, pero la fuente dice que fue 'creado' mediante Ley N.º 4134 del 15 de junio de 1920.",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "santa-cruz-naranjo",
+   "razon": "fraseo calcado de chiquimulilla: \"municipio del departamento de santa rosa situado\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-lucas",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "tabara-arriba",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "la-primavera",
+   "razon": "fraseo calcado de los-cordobas: \"el municipio incluye ademas de la cabecera\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "arauco",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 713 (line 3 column 561)",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "moloacan",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "pajapan",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "pardo-miguel",
+   "razon": "controles de calidad: muletillas de IA: amplia variedad de",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "totutla",
+   "razon": "fraseo calcado de san-juan-evangelista: \"un municipio del estado de veracruz ubicado\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "villa-isabela",
+   "razon": "fraseo calcado de altamira-puerto-plata: \"un municipio de la provincia de puerto\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "villamar",
+   "razon": "controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "ignacio-de-la-llave",
+   "razon": "rechazada tras corrección: Afirma que el municipio está cercano al río Papaloapan, dato que no aparece literalmente en la fuente.",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "sibinal",
+   "razon": "fraseo calcado de concepcion-tutuapa: \"municipio del departamento de san marcos situado\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "colan",
+   "razon": "fraseo calcado de zepita: \"es uno de los siete distritos que\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "carhuaz",
+   "razon": "fraseo calcado de supe-departamento-de-lima: \"de 1857 durante el gobierno del presidente\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "dzitbalche",
+   "razon": "fraseo calcado de chisec: \"lo que le confiere una posicion estrategica\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "carrillo-puerto",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "san-juan-lalana",
+   "razon": "fraseo calcado de santos-reyes-nopala: \"del mar limita al norte con santiago\"",
+   "fecha": "2026-11-07"
+  },
+  {
+   "slug": "valle-grande-lampa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-07"
   }
  ]
 }

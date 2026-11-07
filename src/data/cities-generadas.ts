@@ -39581,5 +39581,1489 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Agua Blanca, municipio de Jutiapa en Guatemala, se ubica a 162 km de la Ciudad de Guatemala y cuenta con 16.823 habitantes según el censo 2018.",
     "aboutTitle": "Manantiales blanquecinos y ubicación de Agua Blanca, Jutiapa",
     "about": "Agua Blanca es un municipio del departamento de Jutiapa, en la República de Guatemala, y ocupa el tercer lugar en extensión dentro del departamento. Su territorio cubre 340 km², lo que supone una densidad poblacional de 50 habitantes por km². Según el censo de 2018, la población total era de 16.823 personas, de las cuales el 76 % vivía en áreas rurales.\n\nEl nombre proviene de los manantiales de agua blanquecina que brotan en la zona, especialmente el llamado Viejo Ojo de Agua situado en la cabecera municipal. Administrativamente, el municipio está dividido en 82 centros poblados, que incluyen catorce aldeas y sesenta y ocho caseríos. Geográficamente, Agua Blanca está situada a 162 km de la Ciudad de Guatemala y a 42 km de la cabecera departamental de Jutiapa; limita al norte con los municipios de Ipala y Concepción Las Minas (Chiquimula), al oeste con Asunción Mita, Santa Catarina Mita y San Manuel Chaparrón, al sur con Asunción Mita y la República de El Salvador, y al este con Concepción Las Minas y El Salvador."
+  },
+  {
+    "slug": "paraiso-de-chabasquen",
+    "name": "Paraíso de Chabasquén",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Venezuela",
+    "parentSlug": "venezuela",
+    "provincia": "Portuguesa",
+    "regionSlug": "portuguesa",
+    "channels": [
+      "venezuela",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guanare",
+      "trujillo-venezuela",
+      "valera",
+      "acarigua",
+      "barinas",
+      "venezuela",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paraíso de Chabasquén, capital del municipio Monseñor José Vicente de Unda, tiene 20.574 habitantes y está entre los ríos Chabasquencito y Chabasquén.",
+    "aboutTitle": "Paraíso de Chabasquén entre los ríos Chabasquencito y Chabasquén",
+    "about": "Paraíso de Chabasquén es la capital del municipio Monseñor José Vicente de Unda, que pertenece al estado Portuguesa, en Venezuela. Los registros oficiales indican que la población de Paraíso de Chabasquén asciende a 20.574 habitantes. La localidad está situada entre los ríos Chabasquencito y Chabasquén, lo que se señala como una característica geográfica de la zona. El municipio lleva el nombre completo de Monseñor José Vicente de Unda, y su cabecera es precisamente Paraíso de Chabasquén. La cifra de 20.574 habitantes es la que aparece en los datos oficiales para la población de la capital. La ubicación entre los dos ríos aparece en los datos oficiales como elemento distintivo del territorio municipal. En conjunto, la información disponible describe la condición de capital, la población, la ubicación entre los ríos y la pertenencia al estado Portuguesa, ofreciendo una visión clara de Paraíso de Chabasquén dentro del marco administrativo de Venezuela actual."
+  },
+  {
+    "slug": "parrita",
+    "name": "Parrita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Costa Rica",
+    "parentSlug": "costa-rica",
+    "provincia": "Provincia de Puntarenas",
+    "regionSlug": "provincia-de-puntarenas",
+    "channels": [
+      "costa_rica",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "costa-rica",
+      "san-jose",
+      "alajuela",
+      "heredia",
+      "cartago",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Parrita, único distrito del cantón homónimo en Puntarenas, cuenta con 20.068 habitantes y una superficie de 483,22 km² a solo 4 m sobre el nivel del mar.",
+    "aboutTitle": "Parrita: el único distrito del cantón homónimo en Puntarenas",
+    "about": "Parrita es el distrito primero y único del cantón homónimo, situado en la provincia de Puntarenas, Costa Rica. Ocupa la totalidad del cantón, una característica que no se repite en el país. Con una superficie de 483,22 km² y una altitud media de 4 m sobre el nivel del mar, la localidad alberga a 20.068 habitantes según estimaciones de 2022. En el censo de 2011 la población era de 16.115 habitantes, lo que muestra un notable crecimiento. Parrita también funciona como ciudad cabecera del cantón, concentrando la administración local. El cantón se constituyó el 4 de agosto de 1971 mediante el Decreto Ejecutivo n.º 1898‑G, lo que le otorga una identidad administrativa independiente dentro de la región.\n\nDentro de su territorio se encuentran los barrios Julieta y Pueblo Nuevo, y una amplia lista de poblados que incluye Alto Camacho, Ángeles, Bajos Jicote, Bambú, Bandera, entre otros. La red vial es servida por varias rutas nacionales: la 34, 239, 301, 318, 607 y 609, que atraviesan el distrito y facilitan el acceso a sus diferentes sectores."
+  },
+  {
+    "slug": "tlaola",
+    "name": "Tlaola",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xicotepec-de-juarez",
+      "huauchinango",
+      "zacatlan",
+      "chignahuapan",
+      "zaragoza-puebla",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tlaola, municipio de Puebla en la sierra norte, se asienta a 1.180 m sobre el nivel del mar y cuenta con 20.433 habitantes según el censo 2020.",
+    "aboutTitle": "Tlaola: altitud de 1.180 m y clima semicalido subhumedo",
+    "about": "Tlaola es uno de los 217 municipios que conforman el estado de Puebla, situado en la parte noroeste del estado, en la sierra norte, a una altitud promedio de 1.180 m sobre el nivel del mar. Su superficie es de 108.44 kilómetros cuadrados, lo que lo ubica en el puesto 116 dentro de los municipios de Puebla. Limita al norte con Zihuateutla, al noreste con Jopala, al sureste con Tlapacoya, al sur con Ahuacatlán, al suroeste con Chiconcuautla y al oeste con Huauchinango.\n\nEl clima es templado, semicalido subhumedo, con lluvias durante todo el año y temperaturas que oscilan entre -3 °C y 18 °C. La vegetación natural es escasa, predominando bosques de encino. Según el censo de 2020, la población era de 20.433 habitantes, con 48.2 % de hombres y 51.8 % de mujeres, y un crecimiento del 3.06 % respecto a 2010. Los rangos de edad más numerosos fueron 5‑9 años (2.310 habitantes), 10‑14 años (2.305) y 0‑4 años (2.192), representando el 33.3 % del total. El municipio cuenta con 42 localidades y forma parte del distrito electoral local 2 de Puebla y del distrito federal 1, ambos con cabecera en Huauchinango."
+  },
+  {
+    "slug": "coltauco",
+    "name": "Coltauco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rancagua",
+      "curico",
+      "san-antonio-chile",
+      "chile",
+      "santiago-de-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Coltauco, comuna de la región de O'Higgins en Chile, su nombre proviene del mapudungún, que significa ‘Agua de renacuajos’.",
+    "aboutTitle": "Coltauco y sus humedales del río Cachapoal",
+    "about": "Coltauco es una comuna de la zona central de Chile, ubicada en la región del Libertador General Bernardo O'Higgins, provincia de Cachapoal. Su nombre proviene del mapudungún koltraw/kolchaw (renacuajo) ko (agua) y se traduce como “Agua de renacuajos”, referencia a las numerosas vertientes, pantanos y humedales que se forman cerca del río Cachapoal, favoreciendo la reproducción de estos anfibios.\n\nLos antecedentes de la localidad se remontan a la época de la conquista española; en 1726 Melchora de los Reyes vendió la hacienda “San José de Coltauco” al capitán Miguel de Zamorano, quien la convirtió en un pequeño villorrio en 1731. La viceparroquia se creó en 1767 bajo el padre Antonio Zúñiga y el 13 de octubre de 1824 fue erigida como parroquia independiente, dedicada a la Virgen de la Merced, con Juan de Dios Olmedo como primer párroco. Actualmente la comuna forma parte del distrito electoral N.º 15 y de la 9.ª circunscripción senatorial de O'Higgins."
+  },
+  {
+    "slug": "cajola",
+    "name": "Cajolá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "huehuetenango",
+      "solola",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cajolá, municipio de 36 km² en Quetzaltenango, Guatemala, se ubica a 2.510 m s.n.m. y cuenta con una población proyectada de 19.333 habitantes para 2022.",
+    "aboutTitle": "Cajolá: municipio de los 'hijos de Agua' en Quetzaltenango",
+    "about": "Cajolá es un municipio perteneciente al departamento de Quetzaltenango, en la República de Guatemala. Tiene una superficie de 36 km² y su cabecera municipal está situada a una altitud de 2510 m s.n.m. El núcleo urbano se localiza a 15 km de la ciudad de Quetzaltenango y a 214 km de la Ciudad de Guatemala. La mayoría de sus habitantes hablan mam como lengua materna y utilizan el español como segunda lengua, que es el idioma oficial del país.\n\nSegún el censo de 2018, Cajolá contaba con 18.452 habitantes, de los cuales 7.750 eran hombres y 10.702 mujeres, y la población urbana representaba el 100 % del total. Con base en esos datos, los estudios proyectaron 19.333 habitantes para el año 2022. El poblado fue fundado bajo el nombre de Santa Cruz Cajolá, en honor a la Santa Cruz de Cristo, y se cree que el topónimo «Cajolá» proviene del kʼichʼe y significa «hijos de Agua», aunque otra versión lo interpreta como «Caja de Agua» por la presencia de manantiales en un cerro cercano. El cantón «Xetalbiljoj» recibió su nombre porque en un cerro cercano había nidos de cuervos que recolectaban maíz y lo depositaban entre las cuevas que estaban entre las peñas."
+  },
+  {
+    "slug": "santiago-jamiltepec",
+    "name": "Santiago Jamiltepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 225,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santiago Jamiltepec, en el sur de Oaxaca, cuenta con dos relojes de sol en su parque y una iglesia dominica, y su economía incluye minas de oro y plata.",
+    "aboutTitle": "Relojes de sol y la iglesia dominica de Santiago Jamiltepec",
+    "about": "Santiago Jamiltepec es una localidad mexicana situada en el estado de Oaxaca, en la zona sur del país. Su población está compuesta mayoritariamente por grupos indígenas. El relieve es costero y el clima cálido; la orografía incluye zonas montañosas donde se explotan minas de oro y plata, actividad que constituye la base de la economía local. En el centro del pueblo se encuentran dos relojes de sol instalados en el parque, frente a los cuales se alza la Iglesia Católica construida por los dominicos, considerada la más hermosa del asentamiento. Los relojes de sol son únicos en toda la zona costera. El nombre Jamiltepec proviene del náhuatl y significa “Cerro de Adobe”; en mixteco se dice “Casandoo”, aludiendo también al adobe como material de construcción. Según la tradición local, la zona está rodeada de mitos, como la leyenda de Casando´o, un soberano mixteco que fundó el asentamiento tras conflictos con rebeldes de la región."
+  },
+  {
+    "slug": "union-de-san-antonio",
+    "name": "Unión de San Antonio",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lagos-de-moreno",
+      "san-juan-de-los-lagos",
+      "san-miguel-el-alto",
+      "jalostotitlan",
+      "encarnacion-de-diaz",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Unión de San Antonio es un municipio de Jalisco, ubicado en la región de los Altos Norte y forma parte de los 125 municipios del estado.",
+    "aboutTitle": "Unión de San Antonio: cruce histórico de caminos en los Altos Norte",
+    "about": "Unión de San Antonio es municipio de Jalisco situado en la región de los Altos Norte y pertenece a la macrorregión del Bajío Norponiente. Su cabecera municipal lleva el mismo nombre que la localidad. Limita con los municipios jaliscenses de Lagos de Moreno, San Diego de Alejandría y San Juan de los Lagos, y al oriente con el estado de Guanajuato, donde la Zona Metropolitana de León ya ha extendido su mancha urbana a este municipio. El nombre del poblado proviene de la unión de dos caminos reales: uno que conectaba la Villa de León con la localidad de Nuestra Señora de San Juan y otro que iba de Santa María de los Lagos a la Hacienda de Xalpa; por ello surgió la denominación “La Unión”. La denominación “Adobes” obedeció a una población española del mismo nombre y fue adoptada por uno de sus fundadores en recuerdo de una mujer local. Durante casi 300 años formó parte de la provincia de Guadalajara (actualmente Aguascalientes y Jalisco) en el Reino de Nueva Galicia. Los primeros habitantes de la zona fueron pueblos chichimecas, descritos por los mexicas como un conjunto de comunidades originarias del centro‑norte del país."
+  },
+  {
+    "slug": "villa-corona",
+    "name": "Villa Corona",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cocula",
+      "zacoalco-de-torres",
+      "tlajomulco-de-zuniga",
+      "tala",
+      "jocotepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Corona, en Jalisco, cuenta con tres balnearios reconocidos y es cuna de la Banda Machos; su población ronda los 16.969 habitantes.",
+    "aboutTitle": "Balnearios y música de Villa Corona, Jalisco",
+    "about": "Villa Corona es un municipio del estado de Jalisco, México. Se extiende sobre 179.37 km² y, según el II conteo de población y vivienda, cuenta con 16.969 habitantes. Antiguamente llamado Tizapanito, nombre que proviene del náhuatl \"tízal\" y \"pan\", significa \"tierra blanca\". En 1926 Manuel M. Diéguez cambió su denominación a Villa Corona en honor a Ramón Corona, tras la inauguración del ferrocarril a Chamela. La fundación se remonta al siglo XVI, cuando grupos náhuatl se establecieron en La Huerta, bajo el liderazgo de Xopillín.\n\nLa economía se sustenta principalmente en el sector terciario y el turismo, ya que el municipio alberga tres de los balnearios más reconocidos del estado. Además, es la cuna de dos bandas de música con gran trascendencia nacional: la Banda Machos y la Banda Maguey. El 31 de mayo de 1918 se erigió como municipio por decreto número 1899, con Agapito Aguayo como primer presidente municipal. Su ubicación estratégica le confiere un papel importante en el desarrollo económico de la región y del estado."
+  },
+  {
+    "slug": "arenal",
+    "name": "Arenal",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "aguachica",
+      "pelaya",
+      "santa-rosa-del-sur",
+      "el-banco",
+      "pailitas",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Arenal, municipio de Bolívar en Colombia, tiene una extensión de 534 km² y está situado a 65 m sobre el nivel del mar.",
+    "aboutTitle": "Extensión territorial y origen palenquero de Arenal",
+    "about": "Arenal es un municipio colombiano situado al sur del departamento de Bolívar. Sus coordenadas son 8°28′22.66″ N 73°51′43.89″ O. La extensión territorial es de 534 km², la altitud 65 m sobre el nivel del mar y la temperatura media ronda los 30 °C. El territorio se extiende desde la Serranía de San Lucas, en el sur, hasta la zona pantanosa del Cerro de Gómez en la vereda Sereno, al norte. Entre sus centros poblados se encuentran la cabecera municipal y, bajo su jurisdicción, Buenavista, Carnizala, San Rafael, Santo Domingo y San Agustín. También forman parte del municipio las veredas Los Peñones, Tequendama, Paraíso, Caña Braval, Muela, Bonita, Soya, Zabaleta, Barahonda, La Dorada, Sabana Baja, Sabana Alta, Sereno y Quebrada Vieja. La historia de Arenal se remonta a 1540, cuando llegó a la zona un centenar de esclavos procedentes de Ghana, Senegal y Angola, creando uno de los palenques más grandes de la región. En 1628 el capitán Nieto atacó el asentamiento. Los primeros habitantes fueron traídos para trabajar en canteras y en la hacienda Santa Rosa del Arenal, dedicada a la caña de azúcar, algodón y tabaco."
+  },
+  {
+    "slug": "altamira-puerto-plata",
+    "name": "Altamira",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Puerto Plata",
+    "regionSlug": "puerto-plata",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "moca",
+      "la-vega",
+      "san-francisco-de-macoris",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Altamira, municipio de Puerto Plata en República Dominicana, se sitúa a 400 m s.n.m. en la Cordillera Septentrional y cuenta con 17 676 habitantes (censo 2022).",
+    "aboutTitle": "Altamira: municipio de la Cordillera Septentrional y su tabaco",
+    "about": "Altamira es un municipio de la provincia de Puerto Plata, en la República Dominicana. Según el censo de 2022, tiene una población de 17 676 habitantes y ocupa la quinta posición del país en superficie territorial. El relieve es accidentado y cerca del 30 % del territorio está cubierto de bosques; se encuentra dentro de la Cordillera Septentrional, a unos 400 metros sobre el nivel del mar. La economía tradicional se basó en el cultivo de tabaco, producto principal de los primeros conucos que dieron origen a la comunidad. Durante las devastaciones de Osorio la zona sirvió como paso comunicativo entre el Valle del Cibao y Puerto Plata y como refugio para colonos que se negaron a abandonar sus hogares. En 1843, bajo el gobierno de Charles Heráld, se designó como puesto “Cantonal del Ejército Haitiano”, y tras la Ley n.º 40 de 1845 pasó a formar parte de la provincia de Santiago. En la época de la Restauración los bohíos se agruparon en una villa de entre 60 y 75 familias, dedicadas al cultivo de productos de ciclo corto y a la ganadería cimarrona. Más tarde, la única calle del centro, conocida como “La Calle del Comercio”, concentraba los comercios de ropa, calzado y alimentos. Finalmente, el presidente Ulises Heureaux elevó a Altamira a la categoría de municipio."
+  },
+  {
+    "slug": "juan-aldama",
+    "name": "Juan Aldama",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chihuahua",
+    "regionSlug": "chihuahua",
+    "channels": [
+      "chihuahua",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chihuahua",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juan Aldama, ciudad de Chihuahua a 27 km de la capital, destaca por su escudo de 1988 con el lema 'TIERRA FÉRTIL PARA COSECHAR HOMBRES GRANDES'.",
+    "aboutTitle": "El escudo y el río Chuvíscar de Juan Aldama",
+    "about": "Juan Aldama es una ciudad del estado de Chihuahua, situada a 27 kilómetros de la capital del estado y cabecera del municipio de Aldama. Su entorno agrícola se apoya en el río Chuvíscar, cuyas aguas se utilizan para el riego de cultivos locales.\n\nEl escudo municipal, creado en 1988, muestra en la parte inferior el río Chuvíscar, a un lado un bosque, lugar de atracción turística, y unos membrillos que simbolizan la producción de frutas y ates. En el mismo escudo aparece el templo de San Jerónimo, descrito como el lugar donde se inicia la vida en la localidad. Rodeando estos elementos una greca de hojas de membrillo lleva el lema “TIERRA FÉRTIL PARA COSECHAR HOMBRES GRANDES”. El diseño corresponde al ingeniero Homobono Arzate Padilla y el texto del lema al ingeniero Agustín Vázquez Solís.\n\nLa historia de Juan Aldama se remonta al 7 de agosto de 1671, cuando el capitán Pedro Cano de los Ríos denunció dos corrales de ganado. En 1717 los franciscanos fundaron la misión de San Jerónimo para evangelizar a los indígenas conchos y chinarras. El 22 de octubre de 1769 los apaches atacaron la población, provocando 49 muertos y diez prisioneros, lo que obligó a los supervivientes a refugiarse en Chihuahua. La zona fue repoblada en 1783 por el capitán Juan Gutiérrez de la Cueva bajo la orden del comandante Felipe de Neve, y en 1820 se constituyó como ayuntamiento siguiendo la Constitución de Cádiz."
+  },
+  {
+    "slug": "aguaclara",
+    "name": "Aguaclara",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Norte de Santander",
+    "regionSlug": "norte-de-santander",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cucuta",
+      "el-zulia",
+      "villa-del-rosario",
+      "los-patios",
+      "san-cristobal",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aguaclara es un centro poblado del Corregimiento Sector Central del municipio de Cúcuta, ubicado al este de Norte de Santander, Colombia.",
+    "aboutTitle": "Aguaclara, centro poblado del Corregimiento Sector Central de Cúcuta",
+    "about": "Aguaclara es un centro poblado que forma parte del Corregimiento Sector Central del municipio de Cúcuta, en el departamento de Norte de Santander. Esta localidad se ubica al este del departamento y se encuentra muy cerca, por el oeste, de la frontera con Venezuela. Su ubicación geográfica la coloca en una zona de gran importancia estratégica y económica, ya que se encuentra cerca de la ciudad de Cúcuta, capital del departamento. La proximidad a la frontera con Venezuela también la convierte en un punto de interés para la región. Aguaclara es una localidad que forma parte de la comarca de Cúcuta, que se caracteriza por su rica historia y su importancia cultural en la región."
+  },
+  {
+    "slug": "fray-luis-beltran",
+    "name": "Fray Luis Beltrán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 130,
+    "votes": 229,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rosario",
+      "carcarana",
+      "arroyo-seco",
+      "casilda",
+      "canada-de-gomez",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fray Luis Beltrán es una localidad del departamento San Lorenzo, en la provincia de Santa Fe, situada sobre la ribera oeste del río Paraná.",
+    "aboutTitle": "Fray Luis Beltrán y su ubicación en el río Paraná",
+    "about": "Fray Luis Beltrán, anteriormente denominada Puerto Borghi hasta 1950, se ubica en la margen derecha del río Paraná. Esta localidad forma parte del Gran Rosario y se encuentra a 17 km de Rosario, a 153 km de Santa Fe y a 320 km al noroeste de Buenos Aires. Fue fundada por Domingo Borghi y su comuna fue creada el 13 de enero de 1936.\n\nLa localidad cuenta con una población de 18.399 habitantes según datos del Indec de 2022. Entre sus barrios se encuentran el 3 de Febrero, Centro Sur, Centro Norte, Celedonio Escalada, Sargento Cabral, Granaderos, Ombú y el Barrio Remedios Escalada de San Martín, conocido comúnmente como Retiro, además de los sectores FONAVI I, II y III. Su santa patrona es Ntra. Sra. de Luján, cuya festividad se celebra el 8 de mayo."
+  },
+  {
+    "slug": "pinas-provincia-de-el-oro",
+    "name": "Piñas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de El Oro",
+    "regionSlug": "provincia-de-el-oro",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "duran",
+      "machala",
+      "loja",
+      "tumbes",
+      "cuenca",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Piñas es una ciudad ecuatoriana conocida como la «Orquídea de los Andes», situada en los flancos externos de la cordillera occidental de los Andes.",
+    "aboutTitle": "La «Orquídea de los Andes»",
+    "about": "Piñas, también conocida como La Merced de Piñas, es una ciudad ecuatoriana, cabecera del cantón homónimo y la séptima urbe más poblada de la Provincia de El Oro. Se localiza al sur de Ecuador, en los flancos externos de la cordillera occidental de los Andes, a una altitud de 1126 m s. n. m. La ciudad se encuentra atravesada por el río Piñas y presenta un clima templado de 21 °C en promedio. Es llamada «Orquídea de los Andes» debido a la variedad de orquídeas encontradas en la zona.\n\nEn el censo de 2022 registraba 18.482 habitantes. Es uno de los más importantes centros administrativos, económicos, financieros y comerciales del sur de El Oro. Las actividades principales de la ciudad son la minería, el comercio, la agricultura y la ganadería. Sus orígenes datan de inicios del siglo XIX, pero a mediados del siglo XX presentó un crecimiento demográfico significativo debido a la producción minera, consolidándose como el principal núcleo urbano del sureste de la provincia. Según relatos populares, el español Juan de Loayza habría fundado la población entre 1815 y 1816 tras ser enviado a estudiar las minas de la zona, aunque estudios más rigurosos indican que no existe ninguna localidad con ese nombre en el territorio español."
+  },
+  {
+    "slug": "macara",
+    "name": "Macará",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Loja",
+    "regionSlug": "loja",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pinas-provincia-de-el-oro",
+      "loja",
+      "duran",
+      "sullana",
+      "tumbes",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Macará, cantón fronterizo de Loja a 195 km de la capital, destaca por el río Macará que forma la frontera con Perú y su producción de arroz.",
+    "aboutTitle": "Río Macará y la historia del cantón fronterizo",
+    "about": "Macará es un cantón de la provincia de Loja, situado en la región Costa a 195 km de la ciudad de Loja. El territorio se caracteriza por extensos valles donde predomina el cultivo de arroz y por el río Macará, que atraviesa el cantón y constituye un balneario frecuentado por turistas nacionales y extranjeros. Sobre sus riberas se levanta el puente internacional que conecta Ecuador con Perú, facilitando el paso de viajeros y mercancías. Según el Instituto Nacional de Estadística y Censos, en 2022 la población del cantón rondaba los 15.235 habitantes.\n\nEl origen del nombre se remonta a la tribu incásica Macarara, de la que se suprimió la última sílaba. En la época de la conquista el padre Juan de Velasco ya lo mencionaba en su mapa del Reino de Quito. En 1837 el general Juan Otamendi impulsó la consolidación del asentamiento y, el 22 de septiembre de 1902, Macará fue elevada a categoría de cantón. Con una superficie de 576 km², que representa el 5,2 % de la provincia, el cantón incluye las parroquias rurales de La Victoria, Larama y Sabiango, y las urbanas de Eloy Alfaro y Macará Central."
+  },
+  {
+    "slug": "aldo-bonzi",
+    "name": "Aldo Bonzi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 168,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moron",
+      "lanus",
+      "lomas-de-zamora",
+      "argentina",
+      "buenos-aires",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aldo Bonzi, ciudad de la zona oeste del Buenos Aires, recibió su nombre por el empresario que llegó a Argentina en febrero de 1896 a bordo del buque Orione.",
+    "aboutTitle": "Aldo Bonzi: origen italo‑suizo y la donación ferroviaria de 1908",
+    "about": "Aldo Bonzi es una ciudad del partido de La Matanza, en la provincia de Buenos Aires, Argentina, situada actualmente en la zona oeste del Gran Buenos Aires.\n\nLa localidad lleva el nombre de Aldo Bonzi, empresario italo‑argentino que nació en Turín en 1852 y obtuvo un doctorado en leyes en la Universidad de Turín. Llegó a la Argentina en febrero de 1896, embarcado en el buque “Orione” que partió del puerto de Génova. Su actividad comercial lo llevó a integrar el consejo directivo de la Cámara Italiana de Comercio y, junto a su socio suizo Don Mauricio Andreossi, adquirió la Estancia Isabella en la provincia de Córdoba, conocida como “La Ítalo‑Suiza”, donde desarrolló una importante cría de Aberdeen Angus y construyó la casa principal importada de Milán. En 1908 donó a la compañía ferroviaria inglesa Midland las parcelas donde se ubicaría la estación de tren, impulsando el crecimiento del poblado."
+  },
+  {
+    "slug": "chicama-departamento-de-la-libertad",
+    "name": "Chicama",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 162,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de La Libertad",
+    "regionSlug": "departamento-de-la-libertad",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "trujillo",
+      "cajamarca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chicama, distrito de La Libertad a 25 km de Trujillo, conserva su historia colonial y celebra su fiesta patronal en enero, en el norte peruano.",
+    "aboutTitle": "Río Chicama y la herencia colonial del distrito",
+    "about": "Chicama es uno de los ocho distritos que conforman la provincia de Ascope, en el departamento de La Libertad, al norte del Perú. Limita al norte con el departamento de Cajamarca, la provincia de Gran Chimú y los distritos de Ascope y Casa Grande; al este con la provincia de Otuzco; al sur con la provincia de Trujillo; y al oeste con los distritos de Chocope, Magdalena de Cao y Santiago de Cao. Fundado a inicios del siglo XVI por Diego de Mora, gobernador designado por la Corona española, surgió como un tambo de descanso para los viajeros entre los valles Chicama y Moche y la capital de Trujillo. Hasta finales del siglo XVIII se le conocía como Chacma, nombre que luego cambió a Chicama. La arquitectura colonial incluye el templo y convento de los dominicos, la plaza de Armas, el cementerio y varias viviendas. La construcción de la carretera Panamericana provocó que la población se trasladara de la zona de la plaza de Armas a la zona adyacente a la cinta asfáltica, dejando el sector original prácticamente abandonado. El 2 de enero de 1857, durante el gobierno del mariscal Ramón Castilla, el Congreso aprobó la ley que creó varios distritos, entre ellos Chicama."
+  },
+  {
+    "slug": "convencion",
+    "name": "Convención",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Norte de Santander",
+    "regionSlug": "norte-de-santander",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ocana-norte-de-santander",
+      "aguachica",
+      "pelaya",
+      "abrego",
+      "san-martin-cesar",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Convención, municipio colombiano en el noroccidente del departamento de Norte de Santander, conocido como el mayor productor de panela del departamento.",
+    "aboutTitle": "Convención, mayor productor de panela de Norte de Santander",
+    "about": "Convención es un municipio colombiano ubicado en el noroccidente del departamento de Norte de Santander. Es considerado como el mayor productor de panela del departamento y uno de los principales del país. Fue fundado el 6 de noviembre de 1829, poco antes de la disolución de la Gran Colombia. Las tierras donde se levanta esta localidad formaron parte de los territorios habitados por los indígenas chitareros y motilones. Convención cuenta con una población de 18.500 habitantes y se ubica a una altitud de 1076 m s. n. m. con un clima templado. Es el lugar de nacimiento del cineasta Ciro Durán."
+  },
+  {
+    "slug": "lamas",
+    "name": "Lamas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "moyobamba",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lamas, distrito de la Amazonía peruana en San Martín, se ubica a 809 m sobre el nivel del mar y es hogar de la etnia Quechua Lamista.",
+    "aboutTitle": "Lamas: capital a 809 m y hogar de la etnia Quechua Lamista",
+    "about": "Lamas es un distrito que forma parte de la provincia homónima, en el departamento de San Martín, al norte del Perú. El distrito de Lamas es uno de los que componen la provincia de Lamas, ubicada en el departamento de San Martín en el norte del país. Su capital se encuentra situada a 809 m s. n. m. Desde el punto de vista jerárquico de la Iglesia católica forma parte de la Prelatura de Moyobamba, sufragánea de la Metropolitana de Trujillo y está encomendada por la Santa Sede a la archidiócesis de Toledo, en España. En el periodo 2019‑2022 la municipalidad estuvo encabezada por el alcalde Onésimo Huamán Daza, de Alianza para el Progreso, con un equipo de regidores pertenecientes a diversos partidos. En este territorio de la Amazonía peruana habita la etnia Quechua, concretamente el grupo Quechua Lamista, que se autodenomina Llacuash. El distrito pertenece a la Amazonía peruana y forma parte de la provincia."
+  },
+  {
+    "slug": "palestina",
+    "name": "Palestina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "daule",
+      "babahoyo",
+      "guayaquil",
+      "milagro",
+      "portoviejo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Palestina, cantón del Guayas en Ecuador, cuenta con 18.000 habitantes y está a 80 km de Guayaquil, a 10 m sobre el nivel del mar, con clima de 25 °C promedio.",
+    "aboutTitle": "Geografía y origen del cantón Palestina (Guayas)",
+    "about": "Palestina es un cantón de la provincia del Guayas, en la República del Ecuador, cuya cabecera se sitúa a 80 km de Guayaquil. El territorio abarca 200 km² y limita al norte con Colimes, al sur con Santa Lucía, al este con la provincia de Los Ríos y al oeste con Salitre. La altitud es de 10 m sobre el nivel del mar, la temperatura promedio ronda los 25 °C y la precipitación anual se sitúa en 1.200 mm. La población es de aproximadamente 18.000 habitantes, de los cuales unos 8.000 residen en la cabecera cantonal. En la época precolombina el área estuvo ocupada por la tribu Chonanas, que mantuvo acuerdos de paz con los Huancavilcas. Durante la colonia se conoció como \"Embarcadero\". A mediados del siglo XIX, el doctor Vicente Piedrahíta Carbo, tras un viaje a Oriente Próximo, nombró a varias haciendas con nombres de lugares que había visitado, entre ellos Palestina. El 23 de marzo de 1957 se aprobó su parroquialización, y el 3 de febrero de 1987 pasó a formar parte del cantón Santa Lucía. Finalmente, el 20 de julio de 1988 se firmó la ley de cantonización, publicada el 25 de julio de 1988 en el Registro Oficial n.º 100, consolidando a Palestina como cantón independiente."
+  },
+  {
+    "slug": "puerto-general-san-martin",
+    "name": "Puerto General San Martín",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fray-luis-beltran",
+      "rosario",
+      "carcarana",
+      "arroyo-seco",
+      "casilda",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto General San Martín, localidad portuaria del Paraná a 27 km de Rosario, destaca por su parque industrial de 300 millones de dólares inaugurado en 2010.",
+    "aboutTitle": "Puerto General San Martín: puerto y parque industrial en el Paraná",
+    "about": "Puerto General San Martín es una localidad portuaria del departamento San Lorenzo, en la provincia de Santa Fe, situada en la ribera oeste del río Paraná. Se encuentra a 330 km al noroeste de Buenos Aires, a 143 km de la capital provincial y a 27 km de Rosario, formando parte del Gran Rosario. Según el censo de 2022, la población alcanza los 17.965 habitantes, lo que supone un incremento del 34 % respecto al censo de 2001. La economía local se sustenta en un importante parque industrial inaugurado en 2010 por el poder Ejecutivo Nacional, con una inversión de 300 millones de dólares.\n\nLa festividad patronal, dedicada a Nuestra Señora de Fátima, se celebra el 13 de octubre. Entre los referentes históricos destaca la Batalla de Quebracho, cuyo monolito se está construyendo como sitio histórico con fecha del 4 de junio de 1846. La ciudad cuenta con el Museo \"Estación José María Cullen\" y el Museo del Río Paraná. En cuanto a riesgos sísmicos, la zona presenta una baja frecuencia de terremotos, el último de importancia ocurrió en 1888 con epicentro en el Río de la Plata. Los barrios que conforman la localidad incluyen Bella Vista, Cerana, Fátima, Del Sol, Centro, Iturralde y Petróleo."
+  },
+  {
+    "slug": "morropon-departamento-de-piura",
+    "name": "Morropón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Piura",
+    "regionSlug": "departamento-de-piura",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "piura",
+      "sullana",
+      "macara",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Morropón, distrito piurano creado el 2 de enero de 1857, destaca por su Bosque de piedras del Toro y una población cercana a 18.000 habitantes.",
+    "aboutTitle": "Bosque de piedras del Toro y la historia de Morropón",
+    "about": "Morropón es un distrito del norte del Perú, uno de los diez que conforman la provincia homónima en el Departamento de Piura. Fue creado el 2 de enero de 1857 mediante una ley del presidente Ramón Castilla y forma parte de la Diócesis de Chulucanas. Limita al norte con Santa Catalina de Mossa, al noroeste con Chulucanas, al oeste y suroeste con La Matanza, al sur, sureste y el este con Buenos Aires, y al noreste nuevamente con Santa Catalina de Mossa. Su superficie es de 169,96 km² y alberga aproximadamente 18.000 habitantes, según estimaciones recientes; la capital del distrito lleva el mismo nombre, Morropón, y entre sus caseríos destacan El Porvenir y Quebrada de Las Damas.\n\nEntre los atractivos naturales destaca el Bosque de piedras del Toro, ubicado en la subcuenca del río Piura. Con un área de 745.25 has y una altitud media de 200 m s. n. m., este enclave conserva 37 especies vegetales y 63 especies de fauna, de las cuales 47 son aves, incluyendo ocho endémicas de la zona. Las coordenadas del distrito son 5°11′S 79°55′O. La provincia de Morropón, creada el 31 de enero de 1936 bajo la ley 8174 del presidente Óscar R. Benavides, sigue siendo una unidad administrativa importante dentro del gobierno regional de Piura."
+  },
+  {
+    "slug": "urarinas",
+    "name": "Urarinas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 227,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Loreto",
+    "regionSlug": "departamento-de-loreto",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Urarinas es un distrito del Loreto peruano, creado el 2 de julio de 1943, donde se ubica la estación 1 del Oleoducto Norperuano, en la zona oriental del país.",
+    "aboutTitle": "Urarinas y la estación 1 del Oleoducto Norperuano",
+    "about": "Urarinas es uno de los cinco distritos que integran la provincia de Loreto, en el departamento homónimo del Oriente peruano. En su territorio se encuentra la estación 1 del Oleoducto Norperuano y parte del Lote 8, y forma parte del Vicariato Apostólico de Iquitos. Desde el punto de vista humano, la zona está habitada por la etnia del grupo sin clasificar conocida como Urarina. El distrito se creó mediante la Ley N.º 9815 el 2 de julio de 1943; su capital legal es Concordia y la sede municipal se sitúa en la localidad de Maipuco. Según el censo INEI de 2017, el distrito cuenta con numerosos centros poblados, entre los que destacan Concordia, Maypuco, San José de Saramuro, Santa Rosa de Patoyacu, Copal (Copalillo) y muchos otros que forman una red de comunidades dispersas. Entre los centros poblados también se encuentran Santa Cecilia, Santa Rosa de Airico, Santa Silvia, Las Petroleras, Santa Rosa de Siamba, Santa Cruz, Pionero, Pijayual, Dos de Mayo, Nueva Esperanza, 28 de Julio, Baya Yacu, Puerto Rico, San Lorenzo, Nueva Angora, Santa Teresa, Curuhuinsi, San Pedro, Santa Cruz de Tagual, San Juan de Abejaico, 3 Fronteras, Santa Beatriz, Santa Carmela, Pandora, Ayahuasca, Santa Martha, Nueva Alianza y Nueva Unión."
+  },
+  {
+    "slug": "catazaja",
+    "name": "Catazajá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 161,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villahermosa",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Catazajá, municipio mexicano en el estado de Chiapas con una población de 17.619 habitantes según el censo de 2020.",
+    "aboutTitle": "Catazajá, un valle cubierto de agua en Chiapas",
+    "about": "El municipio de Catazajá se ubica al norte del estado de Chiapas y su cabecera es la localidad de Catazajá. El municipio está ubicado en la llanura costera del Golfo, siendo terreno uniformemente plano. El nombre Catazajá proviene del idioma maya y se interpreta como «Valle cubierto de agua». El municipio cuenta con vastos acuíferos y los recursos hidrológicos con que cuenta lo conforman básicamente los ríos Usumacinta, Tres Ríos y San An. El municipio es conocido por su Torneo Internacional de Pesca Deportiva del Robalo, que se lleva a cabo anualmente y reúne a pescadores locales, nacionales e internacionales."
+  },
+  {
+    "slug": "totoro",
+    "name": "Totoró",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 129,
+    "votes": 222,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "popayan",
+      "santander-de-quilichao",
+      "la-plata-huila",
+      "puerto-tejada",
+      "pitalito",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Totoró, municipio del Cauca a 30 km de Popayán, es la puerta de Oro del Oriente Caucano y destaca por el Valle de Malvaza, principal productora de papa.",
+    "aboutTitle": "Valle de Malvaza, principal productor de papa en Totoró",
+    "about": "Totoró es un municipio del Cauca situado al suroeste de Colombia, en la zona oriental del departamento. La cabecera municipal se ubica a 2 750 m s.n.m., entre los 2°38′ de latitud norte y 2°15′ de longitud oeste, y queda a 30 kilómetros de Popayán. Su territorio, mayormente montañoso, forma parte de la cordillera central y abarca 42 198 ha. Gracias a su posición estratégica, el municipio funciona como eje de comunicación entre Popayán y los municipios de Inzá, Belalcázar, Silvia y el departamento del Huila, lo que le valió el sobrenombre de “La puerta de Oro del Oriente Caucano”.\n\nLa economía de Totoró se sustenta en la agricultura y la ganadería. El Valle de Malvaza, dentro del municipio, es la principal zona de extracción de papa del Cauca y abastece de numerosos productos como ulluco, cebolla, maíz, aromáticas, cabuya, yuca, café y plátano. La región también destaca por su diversidad étnica, al albergar a los pueblos indígenas Nasa, Polindara y Totoró, junto a campesinos y pobladores urbanos, manteniendo vivas tradiciones y costumbres ancestrales."
+  },
+  {
+    "slug": "santos-reyes-nopala",
+    "name": "Santos Reyes Nopala",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santiago-jamiltepec",
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santos Reyes Nopala, en la Costa oaxaqueña, cuenta con 15 986 habitantes según el censo de 2010 y se extiende sobre 196.48 km².",
+    "aboutTitle": "Santos Reyes Nopala: territorio costero y usos y costumbres",
+    "about": "Santos Reyes Nopala es uno de los 570 municipios que conforman el estado de Oaxaca y pertenece a la región de la Costa, dentro del distrito de Juquila. Sus coordenadas geográficas son 15°58′ - 16°11′ de latitud norte y 96°17′ - 97°6′ de longitud oeste, y ocupa una superficie de 196.48 kilómetros cuadrados, lo que representa el 0.21 % del territorio estatal. El relieve varía entre los 1 800 y los 100 metros sobre el nivel del mar. Limita al norte con Santiago Yaitepec, Santa María Temaxcaltepec y San Juan Lachao; al este con San Gabriel Mixtepec; al sureste con San Pedro Mixtepec – Distrito 22; al sur con Villa de Tututepec; y al oeste con Santa Catarina Juquila.\n\nSegún el Censo de Población y Vivienda de 2010, la población total del municipio de Santos Reyes Nopala es de 15 986 habitantes, de los que 7 759 son hombres y 8 227 mujeres. En el censo de 2020 el municipio constaba de 44 localidades. La administración local se rige por el sistema de usos y costumbres, sin elecciones partidistas; el ayuntamiento se elige por asamblea abierta para un periodo de tres años, no renovable de forma consecutiva."
+  },
+  {
+    "slug": "compostela",
+    "name": "Compostela",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Nayarit",
+    "regionSlug": "nayarit",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tepic",
+      "puerto-vallarta",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Compostela, municipio de Nayarit con 1848 km² y fundada el 25 de julio de 1540, destaca por su ganadería, agricultura y pequeñas industrias de habanos.",
+    "aboutTitle": "Industria de habanos y agricultura en Compostela, Nayarit",
+    "about": "Compostela es un municipio de la costa sur de Nayarit, México, con una superficie de 1 848 km². Fue fundada el 25 de julio de 1540 por Cristóbal de Oñate bajo el nombre de «Villa de Santiago de Galicia de Compostela», primera capital del reino de Nueva Galicia y conocida en la época colonial como «Compostela de Indias». En la lengua náhuatl el asentamiento se llamaba Valle de Cactlán, que significa “lugar donde usan zapatos”. La cabecera municipal se comunica por carretera y ferrocarril con Guadalajara (Jalisco), Tepic (Nayarit) y Puerto Vallarta (Jalisco).\n\nLa economía de Compostela es mayormente rural; la ganadería y la agricultura son sus actividades principales, aunque también existen minería y pesca a pequeña escala. En el municipio operan pequeñas industrias dedicadas a la elaboración de habanos, artículos de piel, prendas de vestir, empacadoras de frutas y alimentos para ganado. En el ámbito educativo la cabecera cuenta con tres instituciones de nivel superior: la Preparatoria No. 7, el CECyTE 08, la escuela administrativa “ELIAS” y la escuela de Veterinaria y Zootecnia adscrita a la Universidad Autónoma de Nayarit. Según el censo de 2020, Compostela agrupa 251 localidades."
+  },
+  {
+    "slug": "adolfo-alsina",
+    "name": "Adolfo Alsina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pigue",
+      "coronel-suarez",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Adolfo Alsina, partido del oeste bonaerense creado el 28 de julio de 1886, tiene su cabecera en la ciudad de Carhué.",
+    "aboutTitle": "Adolfo Alsina: partido fronterizo y la Capilla Santa Teresita",
+    "about": "Adolfo Alsina es uno de los 135 partidos de la provincia de Buenos Aires, situado en el oeste bonaerense sobre el límite con La Pampa. Su cabecera es la ciudad de Carhué. El partido se creó por ley N° 1827 el 28 de julio de 1886. Según el censo de 2022 la población de Carhué es de 12.000 habitantes, Rivera de 3.448, Villa Maza de 1.902 y otras localidades menores. El territorio se divide en diez cuarteles, cuyo tamaño varía entre 1.432,87 y 91.134,71 hectáreas. En el ámbito educativo existen 54 escuelas públicas y 13 privadas; el 20,70 % de la población mayor de 15 años no superó la primaria, el 57,51 % completó la primaria y no terminó la secundaria, el 15,62 % alcanzó la secundaria completa y el 6,16 % posee estudios terciarios o universitarios completos. La cobertura de obra social o planes privados alcanza el 55,25 % de los habitantes."
+  },
+  {
+    "slug": "ciudad-hidalgo-chiapas",
+    "name": "Ciudad Hidalgo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tapachula",
+      "san-marcos-guatemala",
+      "cajola",
+      "quetzaltenango",
+      "mazatenango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Hidalgo, en Chiapas, se fundó en 1882 a orillas del río Suchiate, en la frontera con Guatemala, y es la cabecera del municipio de Suchiate.",
+    "aboutTitle": "Río Suchiate y la evolución histórica de Ciudad Hidalgo",
+    "about": "Ciudad Hidalgo es la cabecera del municipio de Suchiate, en el extremo sur del estado de Chiapas, México. Se sitúa a orillas del río Suchiate, que marca la frontera con Guatemala y separa la localidad de la ciudad guatemalteca de Tecún Umán, en el departamento de San Marcos. Fue fundada en 1882, coincidiendo con la delimitación oficial de la frontera entre ambos países; la frontera quedó establecida en el propio río Suchiate. Tras la fijación de la línea, habitantes mexicanos que no quisieron perder la nacionalidad cruzaron el río y establecieron la nueva población en tierras de la antigua Hacienda de Los Cerros, en la margen derecha del río. La población recibió inicialmente el nombre de Mariscal, después se le llamó Suchiate y, en 1920, obtuvo la categoría de agencia municipal del municipio de Frontera Hidalgo. El 4 de julio 1925 fue ascendida a pueblo y designada cabecera del nuevo municipio de Suchiate, separado de Frontera Hidalgo. Finalmente, el 24 de julio 1952, el gobernador Francisco J. Grajales la elevó a la categoría de ciudad, adoptando el nombre de Ciudad Hidalgo."
+  },
+  {
+    "slug": "quillon",
+    "name": "Quillón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Ñuble",
+    "regionSlug": "region-de-nuble",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chillan",
+      "concepcion",
+      "los-angeles-chile",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quillón, ciudad de la Región de Ñuble con 17.485 habitantes, celebra su fundación el 22 de diciembre de 1891 y conserva la historia del nombre mapuche 'kellun'.",
+    "aboutTitle": "Parroquia Inmaculada Concepción, fundación de Quillón (22‑dic‑1891)",
+    "about": "Quillón es una ciudad situada en la zona central de Chile, capital de la comuna homónima y ubicada en la Provincia de Diguillín, dentro de la Región de Ñuble. El topónimo proviene del mapudungún *kellun*, que significa “ayudantía”, en referencia al papel que desempeñó el lugar como punto de descanso para viajeros que transitaban entre Concepción y Chillán, especialmente antes de cruzar el Río Itata en balsas. Con la llegada de los españoles en el siglo XVII, la zona pasó a formar parte de la Provincia de Concepción y se consolidó como zona de grandes fundos; a partir de 1600 familias castellanas se asentaron y el camino Concepción‑Florida‑Quillón‑Bulnes incrementó su importancia.\n\nSegún el censo de 2017 la ciudad cuenta con 17.485 habitantes, 8.821 hombres y 8.664 mujeres, lo que da una densidad de 1.755,42 hab/km². La Parroquia Inmaculada Concepción, erigida en 1832, fue destruida por el terremoto de 2010, aunque sigue siendo un símbolo de la historia local. El 22 de diciembre de 1891 la villa de Quillón se convirtió en la capital de la comuna, y en el siglo XX se definieron sus límites territoriales actuales bajo la administración de la provincia de Ñuble, que en 2018 pasó a ser Región de Ñuble."
+  },
+  {
+    "slug": "nueva-granada",
+    "name": "Nueva Granada",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Magdalena",
+    "regionSlug": "magdalena",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ariguani",
+      "plato",
+      "bosconia",
+      "el-copey",
+      "magangue",
+      "magdalena",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nueva Granada es un municipio del departamento del Magdalena, Colombia, situado a 220 km de Santa Marta y con una población de 21.166 habitantes.",
+    "aboutTitle": "Nueva Granada y la explotación del bálsamo de tolú",
+    "about": "Nueva Granada se ubica en el norte de Colombia, en el departamento del Magdalena. Su cabecera municipal cuenta con 8.680 habitantes y se encuentra a 220 km de Santa Marta. El territorio fue colonizado a comienzos del siglo XIX por campesinos procedentes de la ribera del Río Magdalena, algunos de los cuales huían de inundaciones.\n\nLa economía inicial se basó en la explotación maderable, el cultivo de tabaco y la extracción del bálsamo de tolú, un líquido muy comercializado en aquella época. La cabecera municipal tuvo varios nombres, como La Perulera o Nueva Leticia. Fue denominada El Perú hasta 1932, año en que las autoridades del Magdalena anularon el nombre en protesta por el Conflicto de Leticia. A partir de 1930 se llamó Granada y desde el año 2000 el municipio completo se denomina Nueva Granada. Bajo su jurisdicción se encuentran centros poblados como El Bajo, El Corral, El Palmar, La Gloria, Las Tinas, Los Andes y San José de Ballesteros, además de veredas como Tambora, El Palacio o Corozalito."
+  },
+  {
+    "slug": "guanagazapa",
+    "name": "Guanagazapa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Escuintla",
+    "regionSlug": "departamento-de-escuintla",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "escuintla",
+      "villa-nueva",
+      "antigua-guatemala",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guanagazapa, municipio de Escuintla en Guatemala, celebra su fiesta patronal el 10 de agosto en honor a San Lorenzo y está a 28 km de la cabecera departamental.",
+    "aboutTitle": "Fiesta patronal de San Lorenzo y su templo consagrado en Guanagazapa",
+    "about": "Guanagazapa es un municipio del sur‑central de Guatemala, integrado en el departamento de Escuintla. Se ubica a 28 kilómetros de la cabecera departamental y limita al norte con San Vicente Pacaya, al noroeste con Escuintla, al noreste con Pueblo Nuevo Viñas (Santa Rosa), al sur con Iztapa, al sureste con Taxisco y al suroeste con Masagua. El asentamiento original, situado en un valle cercano, fue destruido por un incendio en 1808, lo que obligó a sus habitantes a trasladarse al paraje llamado Los Apantes, donde hoy se encuentra el municipio. Tras la independencia de Centroamérica en 1821, Guanagazapa pasó a formar parte del Distrito N.º 2 (Escuintla) para la administración de justicia mediante el sistema de juicios de jurados.\n\nEn 2003 el reverendo cura párroco Edgar Del Cid organizó la consagración del nuevo templo el 15 de febrero, ceremonia presidida por el obispo coadjutor Monseñor Víctor Hugo Palma. Cada año, el 10 de agosto, la comunidad celebra su fiesta patronal en honor a San Lorenzo, su santo patrono. Los municipios guatemaltecos, incluido Guanagazapa, están regulados por leyes nacionales desde 1985 que establecen su forma de organización y tributación."
+  },
+  {
+    "slug": "bellavista-departamento-de-cajamarca",
+    "name": "Bellavista",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 207,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cajamarca",
+    "regionSlug": "departamento-de-cajamarca",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "jaen-peru",
+      "chachapoyas",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Bellavista, distrito de la provincia de Jaén en Cajamarca, Perú, se fundó el 10 de abril de 1549 y forma parte del Vicariato Apostólico de San Francisco Javier.",
+    "aboutTitle": "Río Marañón y la tradición agrícola de Bellavista",
+    "about": "Bellavista es uno de los doce distritos que integran la provincia de Jaén, en el departamento de Cajamarca, Perú. Se sitúa en la región de selva baja del país. El distrito fue fundado por el Capitán Diego Palomino el 10 de abril de 1549, obtuvo su creación oficial el 29 de diciembre de 1856 y fue reconocido por ley el 2 de enero de 1857, cuando la presidencia estaba a cargo del Mariscal Ramón Castilla. La capital original, conocida hoy como Bellavista Viejo, se trasladó al actual núcleo urbano tras el terremoto del 14 de mayo de 1928. Desde el punto de vista eclesiástico, Bellavista pertenece al Vicariato Apostólico de San Francisco Javier, también llamado Vicariato Apostólico de Jaén. Su escudo, oficializado mediante la Ordenanza Municipal N° 04-2026-MDB/CM, reúne símbolos de la historia y la economía local: una campana colonial, la imagen de San Isidro Labrador y una cruz de madera, junto al Bosque de Yanahuara, el río Marañón y los cultivos de arroz, cacao y café que sustentan a la población. Estos elementos reflejan la tradición religiosa, la riqueza natural y la vocación agrícola del distrito."
+  },
+  {
+    "slug": "puerto-aysen",
+    "name": "Puerto Aysén",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 178,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Aysén del General Carlos Ibáñez del Campo",
+    "regionSlug": "region-de-aysen-del-general-carlos-ibanez-del-campo",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "coyhaique",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Aysén, ciudad chilena a orillas del río Aysén y a 3 km del fiordo de Aysén, nació en 1913 y tiene una población estimada de 27 000 habitantes en 2017.",
+    "aboutTitle": "Puerto Aysén: puerto histórico a orillas del río Aysén",
+    "about": "Puerto Aysén es una ciudad chilena situada en la Región de Aysén. Está ubicada a orillas del río Aysén, a 3 km del interior del fiordo de Aysén. Es capital de la comuna y de la provincia homónimas y, con una población estimada de 27 000 habitantes en 2017, se sitúa como la segunda localidad más importante de la región, después de Coyhaique.\n\nLas primeras noticias de colonos en la zona aparecen a mediados del siglo XIX, principalmente chilotes, alemanes y argentinos que se dedicaron a la pesca, la ganadería y la extracción del ciprés de las Guaitecas. En 1903 el Estado concedió tierras a la Sociedad Industrial de Aysén (SIA), que se comprometió a instalar 100 familias sajonas y a establecer una navegación regular entre Aysén y Puerto Montt. La SIA construyó bodegas en la costa y, en 1913, nació el puerto de Puerto Aysén alrededor de un malecón de madera con corrales, un galpón para la lana, un almacén y una oficina, desde donde partía un camino hacia Coyhaique. En 1920 la población alcanzó 228 habitantes y, en diciembre de 1927, la localidad fue designada ciudad cabecera del territorio del mismo nombre."
+  },
+  {
+    "slug": "guaranda",
+    "name": "Guaranda",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Sucre",
+    "regionSlug": "sucre",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "nechi",
+      "arenal",
+      "san-marcos",
+      "ayapel",
+      "santa-rosa-del-sur",
+      "sucre",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guaranda es un municipio del departamento de Sucre, ubicado en la región de La Mojana, en la margen izquierda del río Cauca y conocido como «La Puerta de Oro».",
+    "aboutTitle": "Guaranda: la Puerta de Oro en la margen del Cauca",
+    "about": "Guaranda es un municipio colombiano del departamento de Sucre, situado en la región de La Mojana, en la margen izquierda del río Cauca. Se le conoce como «La Puerta de Oro de la Mojana Sucreña» y su código DANE es 70-265. Respecto al origen de su nombre existen tres versiones: una sostiene que el fundador Domingo Sampayo propuso cambiar el nombre de Colorado por Guaranda, a semejanza de una ciudad del Ecuador; otra indica que debe su nombre al Cacique Guarandá, jefe indígena que presidía reuniones bajo un árbol llamado Guarango; y una tercera proviene de una leyenda precolombina sobre un loro que habitaba el Árbol del Loro y era considerado un mensajero de los dioses. Bajo su cabecera municipal, Guaranda tiene bajo su jurisdicción los centros poblados de Diazgranados, Gavaldá, La Ceja, La Concordia, Las Pavas, Nueva Esperanza, Palmaritico, Puerto López, Tierra Santa y La Chilleta, además de 43 veredas. El territorio estuvo poblado inicialmente por la familia Panzenú, del grupo indígena Zenú y la tribu de Casinagua, quienes se caracterizaron por realizar trabajos hidráulicos consistentes en extensos sistemas."
+  },
+  {
+    "slug": "ziracuaretiro",
+    "name": "Ziracuaretiro",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 161,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "morelia",
+      "la-barca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ziracuaretiro es un municipio de Michoacán cuya historia se extiende a épocas anteriores a la llegada de los españoles, y forma parte de municipios del estado.",
+    "aboutTitle": "Ziracuaretiro, un municipio en el corazón de Michoacán",
+    "about": "Ziracuaretiro se localiza en la parte central del estado, en las coordenadas 19°26′ de latitud norte y 101°55′ de longitud oeste, a una altitud de 1380 m s. n. m. Su relieve está inscrito en el Eje Neovolcánico, en el que destacan los cerros el Cobero, Cueva, Salto, Panadero y Malpaís. El municipio tiene una superficie de 159,6 km² y representa el 0.27 % por ciento del total del estado. Su hidrografía se constituye principalmente por los ríos Ziracuaretiro, Ziraspen, la Brújula y Calicanto, y manantiales de agua fría. \n\nLa fundación del pueblo se remonta años antes de la llegada de los españoles. En 1554, Don Vasco de Quiroga, plantó 5 especies distintas de plátano traídas de la isla de Santo Domingo y se propagaron los que existen en la región. En 1822, contaba con 327 habitantes, dedicados principalmente a la agricultura. En 1831, se elevó a la categoría de tenencia, perteneciendo al municipio de Taretan y el 16 de marzo de 1922 se independizó como municipio."
+  },
+  {
+    "slug": "llera",
+    "name": "Llera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Tamaulipas",
+    "regionSlug": "tamaulipas",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-victoria",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Llera es un municipio de Tamaulipas ubicado a 291 metros sobre el nivel del mar que alberga parte de la Reserva de la Biosfera El Cielo.",
+    "aboutTitle": "Río Guayalejo y la Reserva El Cielo en Llera",
+    "about": "Llera es uno de los cuarenta y tres municipios de Tamaulipas, ubicado en la zona media del estado, en las estribaciones de la Sierra Madre Oriental y de la sierra de Tamaulipas. La cabecera, la villa de Llera de Canales, fue la primera fundada por el Conde Don José de Escandón y Helguera en la antigua Colonia del Nuevo Santander. El municipio se sitúa a 23° 19′ 04″ de latitud y 99° 1′ 27″ de longitud, a 291 metros sobre el nivel del mar, y ocupa 2.283,53 km², lo que representa el 2,86 por ciento de la superficie estatal. Limita al norte con Victoria y Casas, al sur con Gómez Farías, Xicoténcatl y González, al este con Casas y al oeste con Ciudad Victoria y Jaumave.\n\nDentro de su territorio forma parte de la Reserva de la Biosfera El Cielo, cuya zona suroeste cubre 17.343,6 ha. El río Guayalejo recorre 123 km a través del municipio, abasteciendo a la ganadería, la agricultura y el esparcimiento. La flora combina arbustos como amargoso, lechuguilla y damiana con coníferas y árboles de mayor porte."
+  },
+  {
+    "slug": "aguaray",
+    "name": "Aguaray",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Salta",
+    "regionSlug": "provincia-de-salta",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "salvador-mazza",
+      "yacuiba",
+      "tartagal",
+      "embarcacion",
+      "san-ramon-de-la-nueva-oran",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aguaray es una localidad de la Región del Bermejo, en la provincia de Salta, a 380 km al norte de la capital provincial y cerca de la frontera con Bolivia.",
+    "aboutTitle": "Aguaray y la Región del Bermejo en Salta",
+    "about": "Aguaray se ubica en el departamento General José de San Martín, en el extremo norte de Argentina. Se encuentra a 34 km de la ciudad de Tartagal sobre la RN 34, limitando al norte con el municipio de Salvador Mazza y Bolivia, al sur con el municipio de Tartagal, al este con el departamento Rivadavia y al oeste con el municipio de General Enrique Mosconi y Bolivia. Su ubicación estratégica la sitúa cerca de la frontera con Bolivia. El municipio mantiene una estrecha relación con las localidades vecinas de Salvador Mazza y General Enrique Mosconi.\n\nFundada el 16 de agosto de 1911, es considerada la ciudad más antigua del departamento General José de San Martín debido a su población de extranjeros y conocimiento. En su territorio se asientan etnias de origen quechua chiriguano, iogys y chané, estos últimos presentes en los parajes de la zona. La localidad celebra a su patrona, Santa Teresita del Niño Jesús, el 1 de octubre. Según datos del Indec, su población pasó de 3.502 habitantes en 1991 a 13.507 en 2001."
+  },
+  {
+    "slug": "suesca",
+    "name": "Suesca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "gachancipa",
+      "tocancipa",
+      "la-mesa",
+      "ubate",
+      "zipaquira",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Suesca, municipio de Cundinamarca a 59 km al noreste de Bogotá, destaca por su altitud media de 2 584 m y el significado de su nombre, “Roca de las Aves”.",
+    "aboutTitle": "Suesca: la Roca de las Aves en la sierra de Cundinamarca",
+    "about": "Suesca es un municipio colombiano de la provincia de Almeidas, en el departamento de Cundinamarca, situado a 59 km al noreste de Bogotá. La altitud media del municipio es de 2 584 m, lo que le confiere un clima frío con una temperatura media de 14.3 °C. El topónimo proviene del muysccubun y se interpreta como “Roca de las Aves”, combinación de los vocablos “sue” (ave) y “hyca” (roca o piedra).\n\nEn la época precolombina, Suesca formaba parte de los once uta que integraban el clan de Guatavita dentro del Zipazgo muisca; su gobernante local era tributario del cacique de Guatavita y en la Laguna de Suesca los muiscas tenían un adoratorio dedicado a sus dioses. Tras la llegada de los españoles, en 1536 el licenciado Gonzalo Jiménez de Quesada, bajo órdenes de Pedro Fernández de Lugo, inició la expedición que cruzó la región en busca del nacimiento del Río Grande de La Magdalena."
+  },
+  {
+    "slug": "betulia",
+    "name": "Betulia",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Antioquia",
+    "regionSlug": "antioquia",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "armenia-colombia",
+      "urrao",
+      "ciudad-bolivar-antioquia",
+      "amaga",
+      "la-estrella",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Betulia, municipio antioqueño, se ubica a 131 km de Medellín y destaca por sus tres quebradas que alimentan el río Cauca.",
+    "aboutTitle": "Betulia y sus tres quebradas alimentadoras",
+    "about": "Betulia es un municipio de la subregión suroeste del departamento de Antioquia, en Colombia. Limita al norte con Urrao y Anzá, al este con Armenia, al sur con Concordia y Salgar, y al oeste nuevamente con Urrao. La cabecera municipal está a 131 km de Medellín, ocupa 252 km² y se encuentra a 1 600 m sobre el nivel del mar. El 27 de septiembre de 1848 se fundó el asentamiento, y la legislación de 28 de enero de 1884 lo erigió como municipio. Betulia recibió su nombre bíblico en 1872; antes se conocía como San Mateo y hoy se le llama Pueblo de Parceleros y Amigo de la Ecología. El territorio está atravesado por tres vertientes: la quebrada Buenavista, la quebrada Quebradona, afluente de la primera, y la quebrada San Mateo, que desemboca en el río Cauca. El parque central, dotado con bancas en 1884, servía para que la gente del campo llegara con sus productos para venderlos a la gente del pueblo."
+  },
+  {
+    "slug": "mecayapan",
+    "name": "Mecayapan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "fraccionamiento-ciudad-olmeca",
+      "catemaco",
+      "cosoleacaque",
+      "jaltipan-de-morelos",
+      "acayucan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mecayapan es un municipio rural de Veracruz, México, situado en la zona sureste del estado, en la región Olmeca, a 360 m sobre el nivel del mar.",
+    "aboutTitle": "Mecayapan, un municipio rural en la región Olmeca",
+    "about": "El municipio de Mecayapan se ubica en la zona sureste del estado de Veracruz, dentro de la región Olmeca. Sus coordenadas son 18°13′ de latitud norte y 94°50′ de longitud oeste. El territorio está compuesto por 66 localidades que, en conjunto, albergan a 13.633 habitantes. Cada 11 de mayo se celebran las fiestas patronales en honor a Santiago Jacobo, santo patrón del municipio. El clima predominante es cálido, con lluvias abundantes durante el verano y precipitaciones más escasas en otoño. La altitud del asentamiento es de 360 metros sobre el nivel del mar, lo que influye en la variación de temperaturas entre el día y la noche. Mecayapan se clasifica como un municipio rural, lo que refleja una economía basada en la agricultura y la ganadería tradicional de la región. La dispersión de sus 66 localidades permite una convivencia entre pequeñas comunidades, cada una con su propia identidad dentro del marco municipal. El patrón Santiago Jacobo es venerado con procesiones, misas y eventos culturales que reúnen a los habitantes del municipio."
+  },
+  {
+    "slug": "oxapampa",
+    "name": "Oxapampa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Pasco",
+    "regionSlug": "departamento-de-pasco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cerro-de-pasco",
+      "huanuco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Oxapampa, distrito de la Selva Alta en Pasco, fue fundado el 14 de mayo de 1876 y se sitúa a 1 814 m sobre el nivel del mar.",
+    "aboutTitle": "Oxapampa: distrito de Selva Alta y su historia desde 1876",
+    "about": "Oxapampa es uno de los ocho distritos que integran la provincia homónima, ubicada en el departamento de Pasco, dentro de la región de Selva Alta del Perú. El distrito abarca una superficie aproximada de 982,04 km² y se encuentra a 164 km de Cerro de Pasco, con acceso por carretera afirmada. Su capital, la ciudad de Oxapampa, está situada a 1 814 metros sobre el nivel del mar. El distrito fue creado mediante Ley del 14 de mayo de 1876. Desde el punto de vista eclesiástico forma parte del Vicariato apostólico de San Ramón, cuyo vicario apostólico es el Obispo Mons. Gerardo Žerdín Bukovec, OFM. La administración local depende del Gobierno Regional de Pasco y está incluida en la organización territorial del país. En el periodo 2011‑2014, el alcalde del distrito fue Ángel Alberto Flores Sarmiento, con un equipo de regidores que incluyó a Oscar Ernesto Albengrin Schaus, Américo Ormachea Naula, Teresa Iris Girbau Frey De Camacho, entre otros."
+  },
+  {
+    "slug": "guaymate",
+    "name": "Guaymate",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "La Romana",
+    "regionSlug": "la-romana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-romana",
+      "higuey",
+      "san-pedro-de-macorris",
+      "punta-cana",
+      "santo-domingo-este",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Guaymate es un municipio de la provincia de La Romana cuyo nombre de origen taíno significa árbol de semilla dura y brillante.",
+    "aboutTitle": "Guaymate: origen taíno y legado azucarero",
+    "about": "Guaymate es un municipio de la República Dominicana, situado en la provincia de La Romana y ubicado en el centro de la región de Yuma, a unos 20 km de la ciudad de La Romana. El topónimo proviene del idioma taíno y significa árbol de semilla dura y brillante, nombre que inicialmente designó al arroyo local, hoy llamado arroyo Hondo. El territorio formó parte del cacicazgo de Higüey o Iguanamá bajo el mando del cacique Cotubanamá en la época precolombina. Los primeros asentamientos surgieron entre 1845 y 1850 en las cercanías del arroyo, impulsados por familias como la de Francisco Feliciano, Leandro Amparo y Lorenzo Cabrera. La apertura del puerto de La Romana al comercio exterior en 1852 dio impulso al desarrollo, convirtiendo a Guaymate en punto de descanso para el transporte de madera y productos agrícolas desde El Seibo hacia el puerto y viceversa. En 1910 se estableció la empresa South Puerto Rico Sugar Company, posteriormente Central Romana Corporation, que orientó la economía local a la producción de caña de azúcar y atrajo migrantes dominicanos y extranjeros, entre ellos puertorriqueños, ingleses, chinos, haitianos y colombianos."
+  },
+  {
+    "slug": "el-cenepa",
+    "name": "El Cenepa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Amazonas",
+    "regionSlug": "departamento-de-amazonas",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Cenepa es un distrito de la provincia de Condorcanqui, en el departamento de Amazonas, Perú, con capital en la localidad de Huampami.",
+    "aboutTitle": "El Cenepa y la base de Tiwinza en Amazonas",
+    "about": "El Cenepa es uno de los tres distritos que conforman la provincia de Condorcanqui, situada en el departamento de Amazonas, al norte de Perú. Tiene una extensión de 5.345,48 km² y limita al norte y al oeste con Ecuador, al este con los distritos de Río Santiago y Nieva, y al sur con la provincia de Bagua. Fue creado el 1 de septiembre de 1941 mediante la Ley N.º 9364 durante el gobierno de Manuel Prado Ugarteche.\n\nEn su territorio se desarrollaron las acciones de la Guerra del Cenepa en la Cordillera del Cóndor. El distrito alberga la base de Tiwinza, compartida entre las autoridades de Perú y Ecuador. En este lugar se cedió un kilómetro cuadrado al Ecuador para la construcción de un Parque Binacional y se ubica un cementerio de soldados ecuatorianos caídos. Desde el ámbito religioso, el distrito forma parte del Vicariato Apostólico de San Francisco Javier, también conocido como Vicariato Apostólico de Jaén."
+  },
+  {
+    "slug": "tixkokob",
+    "name": "Tixkokob",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tixkokob, municipio yucateco, fue creado en 1918 y cuenta con 25 cenotes, entre los que destacan Yaax‑Ha y Naj‑Turix.",
+    "aboutTitle": "Cenotes y origen del nombre de Tixkokob, Yucatán",
+    "about": "Tixkokob es uno de los 106 municipios que conforman el estado de Yucatán y se sitúa en el centro norte de la península. Su nombre proviene del maya y significa \"Lugar de la serpiente kokob o barba amarilla\". El territorio formó parte del cacicazgo maya de los ceh pech y, durante la colonia, en 1549 existió una encomienda bajo el mando del capitán Francisco de Montejo el Mozo. Tras la llegada de los europeos, Hernando Pech fue cacique y fue sacrificado por los conquistadores.\n\nCon una extensión de 159.67 kilómetros cuadrados, Tixkokob limita al norte con Muxupip y Yaxkukul, al este con Cacalchén, al sur con Seyé y al oeste con Tixpéhual. La orografía es plana, típica de Yucatán, y el municipio carece de ríos superficiales, aunque posee numerosas aguas subterráneas. Actualmente hay en Tixkokob un total de 25 cenotes conocidos, entre los que se resaltan el Cenote Yaax‑Ha y el Cenote Naj‑Turix, este último ubicado en la zona urbana dentro de una casa particular. Hidrológicamente pertenece a la Región hidrológica Yucatán Norte y a la Cuenca Yucatán."
+  },
+  {
+    "slug": "chuarrancho",
+    "name": "Chuarrancho",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 93,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Guatemala",
+    "regionSlug": "departamento-de-guatemala",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "villa-nueva",
+      "antigua-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chat de Chuarrancho, municipio del departamento de Guatemala, a 36 km de la capital, en la región metropolitana y limítrofe con El Chol, Salamá y San Raymundo.",
+    "aboutTitle": "Chuarrancho, un municipio en la región metropolitana de Guatemala",
+    "about": "Chuarrancho es un municipio del departamento de Guatemala que se encuentra en la región metropolitana de la República de Guatemala. El territorio de Chuarrancho no tiene una fecha exacta de fundación, pero se sabe que apareció como aldea en el censo realizado por el Instituto Nacional de Estadística en 1880, con 1,123 habitantes. El municipio está localizado a 36 kilómetros de la ciudad capital y limita con los municipios de El Chol, Salamá, San Raymundo, San José del Golfo, San Pedro Ayampuc y Chinautla. La economía de Chuarrancho se basa en la agricultura, que constituye la base del comercio local y permite el abastecimiento de los pueblos vecinos. La cercanía a la capital le confiere una posición estratégica dentro de la zona metropolitana, facilitando el intercambio de productos y servicios con los municipios limítrofes. Desde el registro censal de 1880, la población ha mantenido una orientación rural, con actividades agrícolas que siguen siendo el motor principal de la vida económica del municipio."
+  },
+  {
+    "slug": "pueblo-nuevo-departamento-de-lambayeque",
+    "name": "Pueblo Nuevo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 190,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pueblo Nuevo, distrito de Ferreñafe en Lambayeque, alberga 14 503 habitantes según el censo 2017 y se ubica en el Valle Chancay; limita al norte con Mochumí.",
+    "aboutTitle": "Pueblo Nuevo: distrito del Valle Chancay y su acequia Ferreñafana",
+    "about": "El distrito de Pueblo Nuevo es uno de los seis que conforman la provincia de Ferreñafe, en el departamento de Lambayeque, norte del Perú. Limita al norte con el distrito de Mochumí, al este con el distrito de Ferreñafe y al sur y oeste con el distrito de Lambayeque. Su capital es la localidad homónima y la autoridad local es la Municipalidad Distrital de Pueblo Nuevo. Según el Censo del 2017, cuenta con una población de 14 503 habitantes y un estimado al 2020 de 16 007.\n\nPueblo Nuevo se sitúa en la zona central de la Costa Lambayecana, dentro del Valle Chancay, y sus campos son regados por la acequia Ferreñafana, parte del canal Taymi. El plano de Ferreñafe de 1787, elaborado por Don José Mesones Muro, ya mostraba dos manzanas que hoy corresponden a la cuadra uno de Francisco González Burga y la cuadra uno de Miguel Pasco, con estaciones de ferrocarril que conectaban con Mochumí, Illimo, Pacora y Lambayeque. Desde entonces, personas provenientes de localidades cercanas como Morrope, Illimo y Mochumí se establecieron en la zona, atraídas por el cultivo de arroz que ha sido tradicional en Ferreñafe."
+  },
+  {
+    "slug": "janico",
+    "name": "Jánico",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Santiago (República Dominicana)",
+    "regionSlug": "provincia-de-santiago-republica-dominicana",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santiago-de-los-caballeros",
+      "moca",
+      "altamira-puerto-plata",
+      "la-vega",
+      "puerto-plata",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jánico es un municipio de la provincia de Santiago en República Dominicana, situado al sur de Santiago de los Caballeros a 372 metros sobre el nivel del mar.",
+    "aboutTitle": "Jánico y la zona cafetalera de Santiago",
+    "about": "Jánico es un municipio de la República Dominicana ubicado en la provincia de Santiago. Recibió la categoría de municipio el 29 de marzo de 1881 y toma su nombre del río Jánico. En el siglo XV, los españoles erigieron allí la Fortaleza Santo Tomás de Jánico, que fue la primera construcción tierra adentro de la isla y la segunda de toda América después de La Navidad.\n\nLa economía local se basa principalmente en la agricultura, destacando el cultivo del café, lo que sitúa a la zona como una de las cafetaleras más importantes del país. Las remesas del exterior también representan un elemento económico relevante. Según el Censo de Población y Vivienda de 2022, el municipio tiene 14.385 habitantes, de los cuales 10.861 residen en zonas rurales. En cuanto a su demografía, una prueba de ADN de 2016 indicó que el pueblo mantiene uno de los porcentajes más altos de herencia europea/caucásica y precolombina de la isla, con un 76 % y un 10 % respectivamente."
+  },
+  {
+    "slug": "general-pinedo",
+    "name": "General Pinedo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 177,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Chaco",
+    "regionSlug": "provincia-de-chaco",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "charata",
+      "las-brenas",
+      "villa-angela",
+      "presidencia-roque-saenz-pena",
+      "quitilipi",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "General Pinedo, localidad del suroeste del Chaco, nació el 25 de mayo de 1912 y hoy cuenta con una población de 22.225 habitantes según el censo 2010.",
+    "aboutTitle": "General Pinedo: origen ferroviario y plaza central",
+    "about": "General Pinedo es una localidad y municipio del suroeste de la provincia del Chaco, Argentina, y cabecera del departamento Doce de Octubre. Fue creada el 25 de mayo de 1912 y tiene categoría segunda sin Carta Orgánica. Según el censo de 2001 la población urbana alcanzó 15.741 habitantes, de los que 11.332 vivían en el ejido del pueblo; el censo de 2010 registró 22.225 habitantes, 6.484 más que en 2001. Dentro del ejido municipal se encuentran las localidades de Mesón de Fierro y Pampa Landriel.\n\nLa historia de General Pinedo está vinculada al ferrocarril Belgrano; la estación llegó en 1912 desde Añatuya y permitió el tendido posterior hasta Avia Terai. En 1904 el Poder Ejecutivo dividió el Chaco en seis departamentos, situando la región suroeste en el departamento Caaguazú. En 1953 se creó el Departamento 12 de abril con cabecera en General Pinedo, y tras la Revolución de 1955 el 23 de septiembre el gobernador Rodrigo Uncal cambió el nombre a Doce de Octubre. Hoy la ciudad cuenta con una plaza central en la calle 12 que ocupa una manzana completa, la extensión aúlica de la UNNE, la iglesia Inmaculada Concepción y varios centros educativos como el Colegio Público UEGP n.º 32 “Nuestra Señora Del Carmen”, la Escuela Primaria n.º 387 “Alba Isabel Tejeda Favaron” y el Colegio Secundario Público EES n.º 8."
+  },
+  {
+    "slug": "megantoni",
+    "name": "Megantoni",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 218,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cusco",
+    "regionSlug": "departamento-de-cusco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Megantoni, distrito del Cusco creado el 6 de julio de 2016, alberga la comunidad nativa de Camisea y forma parte del área de los lotes de gas de Camisea.",
+    "aboutTitle": "Lotes de gas de Camisea y la comunidad nativa de Megantoni",
+    "about": "Megantoni es uno de los quince distritos que integran la provincia de La Convención, en el departamento del Cusco, sur del Perú. Limita al norte con el distrito de Sepahua (Atalaya), al este con Fitzcarrald (Manu) y al sur y oeste con Echarate. Su capital es la comunidad nativa de Camisea, situada dentro del territorio donde operan los lotes de gas de Camisea. Durante los primeros años, la municipalidad distrital de Echarati administró los recursos y servicios públicos hasta la instalación de nuevas autoridades.\n\nEl distrito se creó el 6 de julio de 2016 durante el gobierno del presidente Ollanta Humala Tasso. Las primeras elecciones municipales se celebraron el 10 de diciembre de 2017, resultando electo Esau Ríos Sherigorompi. En 2022 el alcalde es Roberto Italiano Pascal, de Avanza País – Partido de Integración Social, acompañado por cuatro regidores. Megantoni agrupa más de 24 comunidades y ocho asentamientos rurales, entre ellos Nueva Luz, Puerto Huallana, Sensa, Kirigueti, Campo Verde, Miaría, Nuevo Mundo, Puerto Rico, Segakiato y Tupac."
   }
 ];

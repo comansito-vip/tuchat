@@ -5181,3 +5181,154 @@ Groq: HT
 [2026-11-06T15:28:33.249Z]   ✓ agua-blanca (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
 [2026-11-06T15:28:33.250Z] demasiados intentos fallidos, se corta el lote
 [2026-11-06T15:28:33.472Z] publicadas 41 salas · acumuladas 1331 · quedan 1785 en cola
+[2026-11-07T01:30:06.772Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-07T01:30:06.781Z] cola: 1778 · lote de hoy: 50
+[2026-11-07T01:30:09.046Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-07T01:30:29.753Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-07T01:30:50.356Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-07T01:31:16.213Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-07T01:31:36.921Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-07T01:31:59.657Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-07T01:32:20.375Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-07T01:32:41.083Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-07T01:33:01.085Z]   ✗ morovis: sin fuente utilizable
+[2026-11-07T01:33:22.074Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-07T01:33:42.763Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-07T01:34:03.449Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-07T01:34:24.146Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-07T01:34:44.843Z]   ✗ omealca: sin fuente utilizable
+[2026-11-07T01:35:05.551Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-07T01:35:25.552Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-07T01:35:46.274Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-07T01:36:06.960Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-07T01:36:27.831Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-07T01:43:04.583Z]   ✓ paraiso-de-chabasquen (Venezuela) — escribió Groq, verificó NVIDIA
+[2026-11-07T01:51:05.159Z]   ✗ aristides-bastidas: fraseo calcado de ixtlahuaca: "sobre el nivel del mar limita al"
+[2026-11-07T01:59:17.312Z]   ✗ jaral-del-progreso: rechazada tras corrección: La ficha afirma que la localidad está situada al noroeste de México, dato que no figura en el material de origen.
+[2026-11-07T02:03:20.736Z]   ✗ chugay: fraseo calcado de elias-soplin-vargas: "uno de los ocho distritos que conforman"
+[2026-11-07T02:03:40.754Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-07T02:04:01.796Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-07T02:07:37.115Z]   ✗ halacho: fraseo calcado de teapa: "y al sur y oeste con el"
+[2026-11-07T02:15:23.901Z]   ✗ uchiza: rechazada tras corrección: Se inventa que es el principal centro administrativo de la zona; Se inventa que está entre los núcleos poblados más relevantes del entorno; Se inventa que desempeña un papel importante en la organizac
+[2026-11-07T02:19:56.336Z]   ✗ huanimaro: rechazada tras corrección: Se describe la función administrativa y la relevancia de Huanímaro como cabecera municipal, lo que no está en la fuente; Se menciona la señalización oficial y la identidad local, lo que no está en la 
+[2026-11-07T02:23:36.474Z]   ✓ parrita (Costa Rica) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T02:27:18.275Z]   ✗ atescatempa: fraseo calcado de agua-blanca: "del departamento de jutiapa en la republica"
+[2026-11-07T02:32:34.917Z]   ✗ caicara-de-maturin: rechazada tras corrección: La ficha afirma que está al noroeste de la entidad, pero el material de origen dice que está en la zona oeste.; Invención de datos no respaldados: 'posición estratégica', 'época colonial', 'asentamien
+[2026-11-07T02:33:24.251Z]   ✓ tlaola (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T02:35:56.620Z]   ✗ comandante-andresito: fraseo calcado de camiri: "es una ciudad y municipio de la"
+[2026-11-07T02:37:35.539Z]   ✗ pichidegua: fraseo calcado de chimbarongo: "circunscripcion senatorial de o higgins el nombre"
+[2026-11-07T02:41:39.268Z]   ✗ samuel-pastor: fraseo calcado de yungay-departamento-de-ancash: "es uno de los ocho distritos que"
+[2026-11-07T02:49:02.622Z]   ✗ huarango: rechazada tras corrección: La frase 'que mantienen vivas sus tradiciones' es una invención; el material de origen no menciona las tradiciones de las comunidades indígenas.
+[2026-11-07T02:53:08.154Z]   ✓ coltauco (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-07T02:57:11.148Z]   ✗ hidalgotitlan: fraseo calcado de sipe-sipe: "a 27 kilometros al suroeste de la"
+[2026-11-07T02:57:46.262Z]   ✗ el-higo: fraseo calcado de ixhuatlan-de-madero: "norte del estado de veracruz dentro de"
+[2026-11-07T03:02:31.054Z]   ✗ san-jose-el-rodeo: rechazada tras corrección: La ficha dice que la localidad 'ha sido un punto de descanso para mercaderes y milicias que cruzaban hacia Chiapas', pero la fuente original solo menciona que la ceiba y el corral eran utilizados por 
+[2026-11-07T03:05:58.610Z]   ✗ tlahuelilpan: fraseo calcado de castillo-de-teayo: "de longitud oeste a una altitud que"
+[2026-11-07T03:06:19.609Z]   ✗ departamento-santa-rosa: es una división administrativa, no una localidad
+[2026-11-07T03:07:02.846Z]   ✗ aguas-verdes: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-07T03:10:44.154Z]   ✓ cajola (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T03:15:36.781Z]   ✗ san-antonio-huista: fraseo calcado de cuilco: "rafael carrera en 1840 la frontera con"
+[2026-11-07T03:21:18.467Z]   ✗ zapotlan-del-rey: fraseo calcado de aguadas: "de la llegada de los conquistadores la"
+[2026-11-07T03:22:37.033Z]   ✗ texcaltitlan: fraseo calcado de ocuilan: "uno de los 125 municipios que integran"
+[2026-11-07T03:29:34.300Z]   ✓ santiago-jamiltepec (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T03:31:51.489Z]   ✗ san-juan-mazatlan: fraseo calcado de huehuetla: "ubicado en la zona de transicion entre"
+[2026-11-07T03:36:07.576Z]   ✗ senguio: rechazada tras corrección: La ficha menciona que Senguio 'mantiene su identidad dentro de la región', lo que no se encuentra en el material de origen.; La ficha afirma que 'estas características climáticas influyen en la activi
+[2026-11-07T03:43:00.039Z]   ✗ la-ligua: fraseo calcado de quilpue: "la region de valparaiso capital de la"
+[2026-11-07T03:50:07.362Z]   ✗ socoltenango: rechazada tras corrección: El texto afirma que 'El relieve accidentado condiciona el uso del suelo y la distribución de la población', dato que no figura en la fuente.; El texto afirma que 'Las lluvias estivales aportan la mayo
+[2026-11-07T03:55:39.109Z]   ✗ quero: rechazada tras corrección: La ficha menciona que la fiesta principal es una tradición arraigada, lo que no se encuentra en el material de origen.
+[2026-11-07T03:58:46.868Z]   ✗ cheran: fraseo calcado de maravatio: "uno de los 113 municipios que integran"
+[2026-11-07T04:05:26.538Z]   ✓ union-de-san-antonio (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T04:09:15.906Z]   ✓ villa-corona (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T04:13:03.676Z]   ✗ zautla: fraseo calcado de metztitlan: "y tlan lugar lo que se traduce"
+[2026-11-07T04:18:06.366Z]   ✗ cotija-de-la-paz: fraseo calcado de ciudad-acuna: "es la cabecera del municipio homonimo situada"
+[2026-11-07T04:19:54.091Z]   ✗ jilotzingo: fraseo calcado de ocuilan: "uno de los 125 municipios que integran"
+[2026-11-07T04:23:43.329Z]   ✗ ocongate: fraseo calcado de lircay: "es uno de los doce distritos que"
+[2026-11-07T04:28:17.111Z]   ✓ arenal (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T04:30:32.311Z]   ✓ altamira-puerto-plata (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-07T04:35:30.215Z]   ✗ young-departamento-de-rio-negro: rechazada tras corrección: La ficha menciona que la ciudad de Young 'concentra la actividad administrativa del municipio', lo que no se menciona en el material de origen; La ficha afirma que 'Como parte del departamento de Río 
+[2026-11-07T04:37:39.390Z]   ✗ san-rafael-la-independencia: controles de calidad: aboutTitle de 85 caracteres (debe estar entre 25 y 70)
+[2026-11-07T04:39:48.430Z]   ✗ santa-catarina-juquila: fraseo calcado de general-felipe-angeles: "por un presidente un sindico y un"
+[2026-11-07T04:43:53.250Z]   ✗ curahuasi: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-07T04:49:14.093Z]   ✓ juan-aldama (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T04:51:39.965Z]   ✗ parque-del-plata-departamento-de-canelones: fraseo calcado de salinas-departamento-de-canelones: "la ley 18 653 el 15 de"
+[2026-11-07T04:55:53.039Z]   ✓ aguaclara (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T05:00:03.689Z]   ✓ fray-luis-beltran (Argentina) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-07T05:05:24.381Z]   ✓ pinas-provincia-de-el-oro (Ecuador) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T05:14:24.873Z]   ✗ ostuacan: controles de calidad: aboutTitle de 77 caracteres (debe estar entre 25 y 70); intro/meta de 200 caracteres (debe estar entre 110 y 160)
+[2026-11-07T05:22:19.233Z]   ✗ coalcoman-de-vazquez-pallares: fraseo calcado de oxchuc: "censo de 2020 la poblacion total del"
+[2026-11-07T05:23:02.616Z]   ✗ heroica-villa-de-san-blas-atempa: fraseo calcado de santiago-pinotepa-nacional: "es uno de los 570 municipios del"
+[2026-11-07T05:26:27.089Z]   ✗ bajo-biavo: fraseo calcado de tocache: "departamento de san martin en el norte"
+[2026-11-07T05:29:24.780Z]   ✗ recreo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-07T05:32:22.713Z]   ✗ san-ignacio-cerro-gordo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-07T05:32:43.696Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-07T05:37:51.300Z]   ✗ zoquitlan: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T05:44:46.078Z]   ✗ rio-branco-departamento-de-cerro-largo: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T05:51:50.126Z]   ✗ yupiltepeque: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T05:54:45.398Z]   ✓ macara (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-07T05:59:19.944Z]   ✗ sipacate: fraseo calcado de santa-maria-cahabon: "el clima de la cabecera municipal es"
+[2026-11-07T06:04:59.523Z]   ✗ chibolo: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T06:11:43.006Z]   ✗ andoas: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T06:16:23.990Z]   ✓ aldo-bonzi (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T06:18:55.208Z]   ✗ pativilca-departamento-de-lima: fraseo calcado de supe-departamento-de-lima: "es uno de los cinco distritos que"
+[2026-11-07T06:21:15.060Z]   ✓ chicama-departamento-de-la-libertad (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-07T06:25:21.636Z]   ✓ convencion (Colombia) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T06:29:49.939Z]   ✗ maltrata: fraseo calcado de vigas-de-ramirez: "situado en la zona centro del estado"
+[2026-11-07T06:34:13.189Z]   ✗ ricaurte: controles de calidad: muletillas de IA: gran variedad de
+[2026-11-07T06:35:47.926Z]   ✗ san-vicente-ferrer: fraseo calcado de colotlan: "llegada de los espanoles la zona estuvo"
+[2026-11-07T06:41:27.861Z]   ✗ cayalti-departamento-de-lambayeque: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-07T06:46:48.786Z]   ✓ lamas (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T06:53:58.937Z]   ✗ general-las-heras: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-07T06:55:53.617Z]   ✓ palestina (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-07T07:01:26.242Z]   ✗ uchumayo: fraseo calcado de characato: "es uno de los veintinueve distritos que"
+[2026-11-07T07:04:15.201Z]   ✓ puerto-general-san-martin (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-07T07:08:55.162Z]   ✗ tochimilco: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-07T07:15:24.021Z]   ✗ vice: rechazada tras corrección: La ficha dice que el distrito fue 'fundado' el 15 de junio de 1920, pero la fuente dice que fue 'creado' mediante Ley N.º 4134 del 15 de junio de 1920.
+[2026-11-07T07:23:55.271Z]   ✗ santa-cruz-naranjo: fraseo calcado de chiquimulilla: "municipio del departamento de santa rosa situado"
+[2026-11-07T07:32:44.902Z]   ✗ san-lucas: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-07T07:36:17.716Z]   ✓ morropon-departamento-de-piura (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T07:40:25.247Z]   ✓ urarinas (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-07T07:40:59.272Z]   ✗ tabara-arriba: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-07T07:43:40.639Z]   ✗ la-primavera: fraseo calcado de los-cordobas: "el municipio incluye ademas de la cabecera"
+[2026-11-07T07:46:50.026Z]   ✓ catazaja (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T07:49:43.328Z]   ✓ totoro (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T07:52:42.912Z]   ✗ arauco: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 713 (line 3 column 561)
+[2026-11-07T07:53:50.395Z]   ✓ santos-reyes-nopala (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T07:57:44.477Z]   ✓ compostela (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T08:03:27.609Z]   ✓ adolfo-alsina (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T08:12:06.272Z]   ✗ moloacan: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-07T08:15:06.621Z]   ✓ ciudad-hidalgo-chiapas (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T08:16:14.471Z]   ✓ quillon (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-07T08:19:42.282Z]   ✗ pajapan: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-07T08:24:55.301Z]   ✗ pardo-miguel: controles de calidad: muletillas de IA: amplia variedad de
+[2026-11-07T08:30:02.535Z]   ✓ nueva-granada (Colombia) — escribió NVIDIA-Gemma, verificó Groq
+[2026-11-07T08:31:09.550Z]   ✓ guanagazapa (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-11-07T08:39:05.416Z]   ✓ bellavista-departamento-de-cajamarca (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T08:48:24.730Z]   ✓ puerto-aysen (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T08:56:23.222Z]   ✗ totutla: fraseo calcado de san-juan-evangelista: "un municipio del estado de veracruz ubicado"
+[2026-11-07T08:57:52.452Z]   ✓ guaranda (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:01:26.035Z]   ✓ ziracuaretiro (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T09:06:42.749Z]   ✓ llera (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:13:22.373Z]   ✓ aguaray (Argentina) — escribió NVIDIA-Gemma, verificó Groq
+[2026-11-07T09:15:18.251Z]   ✓ suesca (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:21:12.088Z]   ✓ betulia (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:26:41.705Z]   ✓ mecayapan (México) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T09:30:53.221Z]   ✓ oxapampa (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-07T09:35:48.157Z]   ✓ guaymate (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:40:22.167Z]   ✓ el-cenepa (Perú) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-07T09:48:11.186Z]   ✓ tixkokob (México) — escribió Groq, verificó NVIDIA
+[2026-11-07T09:51:56.190Z]   ✗ villa-isabela: fraseo calcado de altamira-puerto-plata: "un municipio de la provincia de puerto"
+[2026-11-07T09:58:21.934Z]   ✗ villamar: controles de calidad: intro/meta de 161 caracteres (debe estar entre 110 y 160)
+[2026-11-07T10:07:38.442Z]   ✗ ignacio-de-la-llave: rechazada tras corrección: Afirma que el municipio está cercano al río Papaloapan, dato que no aparece literalmente en la fuente.
+[2026-11-07T10:08:34.245Z]   ✗ sibinal: fraseo calcado de concepcion-tutuapa: "municipio del departamento de san marcos situado"
+[2026-11-07T10:12:02.333Z]   ✓ chuarrancho (Guatemala) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-07T10:22:59.361Z]   ✗ colan: fraseo calcado de zepita: "es uno de los siete distritos que"
+[2026-11-07T10:24:11.682Z]   ✓ pueblo-nuevo-departamento-de-lambayeque (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-07T10:28:30.298Z]   ✗ carhuaz: fraseo calcado de supe-departamento-de-lima: "de 1857 durante el gobierno del presidente"
+[2026-11-07T10:31:56.458Z]   ✗ dzitbalche: fraseo calcado de chisec: "lo que le confiere una posicion estrategica"
+[2026-11-07T10:35:38.279Z]   ✗ carrillo-puerto: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-07T10:40:26.319Z]   ✓ janico (República Dominicana) — escribió NVIDIA-Gemma, verificó Groq
+[2026-11-07T10:42:57.907Z]   ✗ san-juan-lalana: fraseo calcado de santos-reyes-nopala: "del mar limita al norte con santiago"
+[2026-11-07T10:43:18.506Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-07T10:45:49.506Z]   ✓ general-pinedo (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-07T10:48:13.358Z]   ✓ megantoni (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-07T10:48:13.522Z] publicadas 50 salas · acumuladas 1381 · quedan 1728 en cola
