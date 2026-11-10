@@ -5486,3 +5486,46 @@ Groq: HT
 [2026-11-09T14:40:59.833Z]   ✗ salsipuedes: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-11-09T14:40:59.833Z] demasiados intentos fallidos, se corta el lote
 [2026-11-09T14:41:00.024Z] publicadas 33 salas · acumuladas 1414 · quedan 1682 en cola
+[2026-11-10T01:30:06.891Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-10T01:30:06.900Z] cola: 1662 · lote de hoy: 50
+[2026-11-10T01:30:08.627Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-10T01:30:29.238Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-10T01:30:49.999Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-10T01:31:13.229Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-10T01:31:33.864Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-10T01:31:54.715Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-10T01:32:15.412Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-10T01:32:36.117Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-10T01:32:56.119Z]   ✗ morovis: sin fuente utilizable
+[2026-11-10T01:33:17.148Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-10T01:33:37.844Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-10T01:33:58.541Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-10T01:34:19.239Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-10T01:34:39.967Z]   ✗ omealca: sin fuente utilizable
+[2026-11-10T01:35:00.585Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-10T01:35:20.586Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-10T01:35:41.297Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-10T01:36:02.012Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-10T01:36:23.870Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-10T01:36:43.872Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-10T01:37:04.577Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-10T01:39:54.806Z]   ✗ aguas-verdes: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-10T01:52:52.032Z]   ✓ quero (Ecuador) — escribió Groq, verificó Gemini
+[2026-11-10T01:59:40.970Z]   ✗ santa-catarina-juquila: fraseo calcado de santos-reyes-nopala: "uno de los 570 municipios que conforman"
+[2026-11-10T02:12:35.277Z]   ✗ bajo-biavo: fraseo calcado de pucusana: "durante el primer gobierno del presidente manuel"
+[2026-11-10T02:19:51.382Z]   ✗ recreo: No se pudo extraer JSON de la respuesta del LLM: Unexpected token '.', ..."blemas": [...]}" is not valid JSON
+[2026-11-10T02:20:12.772Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-10T02:34:12.181Z]   ✗ zoquitlan: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-10T02:47:02.029Z]   ✗ rio-branco-departamento-de-cerro-largo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-10T02:51:32.219Z]   ✗ yupiltepeque: fraseo calcado de puerto-escondido-colombia: "que reune a la comunidad en torno"
+[2026-11-10T03:01:54.658Z]   ✓ sipacate (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-11-10T03:08:55.636Z]   ✗ andoas: fraseo calcado de barranca: "que conforman la provincia de datem del"
+[2026-11-10T03:11:30.127Z]   ✗ maltrata: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-10T03:18:01.530Z]   ✗ san-vicente-ferrer: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:24:31.375Z]   ✗ cayalti-departamento-de-lambayeque: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:33:21.920Z]   ✗ general-las-heras: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:39:53.234Z]   ✗ uchumayo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:46:25.999Z]   ✗ tochimilco: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:52:57.411Z]   ✗ santa-cruz-naranjo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-10T03:52:57.414Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
+[2026-11-10T03:52:57.718Z] publicadas 2 salas · acumuladas 1416 · quedan 1660 en cola

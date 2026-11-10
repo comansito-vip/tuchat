@@ -42035,5 +42035,67 @@
   "intro": "Unión Juárez, conocida como 'La Suiza Chiapaneca', destaca por su escudo creado el 2 de junio de 1996 y su ubicación en la ruta del café de Chiapas.",
   "aboutTitle": "Escudo, volcanes y la ruta del café de Unión Juárez",
   "about": "El municipio de Unión Juárez pertenece a la región de Soconusco, en el sur del estado de Chiapas, y colinda al norte con el departamento guatemalteco de San Marcos. Su geografía favorece la producción de café, por lo que forma parte de la turística ruta del café en Chiapas y se caracteriza por un clima fresco que contrasta con el resto del Soconusco. Por sus paisajes y construcciones de madera, la población recibió el sobrenombre de \"La Suiza Chiapaneca\" otorgado por Raúl Velasco.\n\nEl escudo oficial de la población de Unión Juárez fue creado el 2 de junio de 1996, por el ciudadano Saúl Maldonado Calderón; en él se representa el busto del Lic. Benito Juárez García, el volcán Tacaná al fondo, el pico angulado llamado \"Pico de Loro\" al poniente, y el río Suchiate como símbolo fronterizo al oriente. Además, incluye un triángulo que simboliza la triangulación del pueblo mediante tres monumentos: uno en la línea divisoria al norte, una estructura piramidal en el parque central y la puerta de la iglesia católica. El nombre del municipio se debe al decreto del 18 de octubre de 1870."
+ },
+ {
+  "slug": "quero",
+  "name": "Quero",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 123,
+  "votes": 214,
+  "activity": "Baja",
+  "parentName": "Ecuador",
+  "parentSlug": "ecuador",
+  "provincia": "Provincia de Tungurahua",
+  "regionSlug": "provincia-de-tungurahua",
+  "channels": [
+   "ecuador",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "ambato",
+   "riobamba",
+   "latacunga",
+   "quevedo",
+   "babahoyo",
+   "ecuador",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Quero, cantón de Tungurahua en Ecuador, celebra su fiesta principal el segundo domingo de mayo en el caserío El Santuario y destaca su agricultura.",
+  "aboutTitle": "Fiesta del 2.º domingo de mayo y agricultura de Quero",
+  "about": "Quero es un cantón de la provincia de Tungurahua, en el centro de Ecuador. El nombre Santiago de Quero o simplemente Quero significa “vaso o copa de madera”. El asentamiento original, hoy Pueblo Viejo, fue destruido por los terremotos de 1660 y 1797, y el 11 de julio de 1797 se trasladó al lugar donde se asienta la ciudad actual. La fundación civil data de 1860 y la cantonización se formalizó el 25 de julio de 1972. Con una superficie de 173 km². Limita al norte y oeste con los cantones Mocha y Cevallos, al sur con la provincia de Chimborazo y al este con el cantón Pelileo. Administrativamente está dividido en tres parroquias: la urbana Quero, la rural San Felipe de Rumipamba y Yanayacu‑Mochapata, cuya cabecera está en Yanayacu.\n\nLa economía se sustenta en un 90 % en agricultura y ganadería, destacando cultivos como papas, cebolla, arveja y zanahoria. El resto de la población trabaja como profesionales en diversos cargos. La devoción principal es a la Virgen María bajo la advocación de Nuestra Señora del Rosario del Monte, cuya imagen es muy pequeña. Su fiesta principal es el 2.º domingo de mayo en el caserío El Santuario. El patrono del cantón es el Apóstol Santiago el Mayor y la erección eclesiástica se remonta a 1634."
+ },
+ {
+  "slug": "sipacate",
+  "name": "Sipacate",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 102,
+  "votes": 182,
+  "activity": "Baja",
+  "parentName": "Guatemala",
+  "parentSlug": "guatemala",
+  "provincia": "Departamento de Escuintla",
+  "regionSlug": "departamento-de-escuintla",
+  "channels": [
+   "guatemala",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "escuintla",
+   "mazatenango",
+   "antigua-guatemala",
+   "villa-nueva",
+   "solola",
+   "guatemala",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Sipacate, municipio guatemalteco creado el 14 octubre 2015, destaca por sus playas de surf a 36 km al oeste de Puerto San José.",
+  "aboutTitle": "Parque nacional Sipacate‑Naranjo y el surf en la costa pacífica",
+  "about": "Sipacate es un municipio del departamento de Escuintla, creado el 14 de octubre de 2015. Se ubica en la costa del océano Pacífico, a unos 36 km al oeste de Puerto San José, y forma parte de la zona más central de la costa guatemalteca. El clima es tropical (Aw) y la localidad es conocida por sus playas que atraen a surfistas, aunque también está expuesta a tormentas tropicales y fenómenos atmosféricos similares. Al este del municipio se encuentra el Parque nacional Sipacate‑Naranjo, que combina playas, bosques de mangle y lagunas, y constituye un área protegida importante. Geográficamente, Sipacate limita al norte y oeste con La Gomera, al sur con el Océano Pacífico y al este con Puerto San José. Estudios arqueológicos han identificado en la zona dos oleadas de deforestación vinculadas a la horticultura temprana, la primera poco después de 3500 cal B.C. y la segunda tras 1700 cal B.C., evidenciando la larga ocupación humana del territorio."
  }
 ]
