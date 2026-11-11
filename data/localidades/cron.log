@@ -5529,3 +5529,155 @@ Groq: HT
 [2026-11-10T03:52:57.411Z]   ✗ santa-cruz-naranjo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-11-10T03:52:57.414Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-11-10T03:52:57.718Z] publicadas 2 salas · acumuladas 1416 · quedan 1660 en cola
+[2026-11-11T01:30:07.108Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-11T01:30:07.119Z] cola: 1656 · lote de hoy: 50
+[2026-11-11T01:30:08.826Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-11T01:30:29.530Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-11T01:30:50.242Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-11T01:31:15.483Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-11T01:31:36.198Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-11T01:31:56.826Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-11T01:32:17.529Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-11T01:32:38.141Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-11T01:32:58.143Z]   ✗ morovis: sin fuente utilizable
+[2026-11-11T01:33:19.143Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-11T01:33:39.837Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-11T01:34:00.535Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-11T01:34:21.233Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-11T01:34:41.943Z]   ✗ omealca: sin fuente utilizable
+[2026-11-11T01:35:02.865Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-11T01:35:22.867Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-11T01:35:44.142Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-11T01:36:04.835Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-11T01:36:25.844Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-11T01:36:45.845Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-11T01:37:06.566Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-11T01:43:47.593Z]   ✗ bajo-biavo: rechazada tras corrección: La ficha afirma que la capital se llama Bajo Biavo, dato que no figura en el material de origen.
+[2026-11-11T01:51:27.343Z]   ✗ recreo: rechazada tras corrección: Confusión de localidad: la ficha indica que es Recreo, Provincia de Córdoba, pero el material de origen y el texto describen a Recreo, Provincia de Catamarca.; Invención: el material de origen mencion
+[2026-11-11T01:51:49.492Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-11T01:56:32.933Z]   ✗ zoquitlan: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-11T02:01:44.438Z]   ✗ rio-branco-departamento-de-cerro-largo: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T02:06:13.679Z]   ✗ andoas: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T02:07:31.980Z]   ✗ san-vicente-ferrer: fraseo calcado de el-penol: "es un municipio de la subregion oriente"
+[2026-11-11T02:14:27.504Z]   ✗ cayalti-departamento-de-lambayeque: rechazada tras corrección: La frase 'tradición que atrae a visitantes de la región' no está respaldada por el material de origen.
+[2026-11-11T02:19:16.121Z]   ✓ general-las-heras (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-11T02:22:48.888Z]   ✓ uchumayo (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T02:31:03.443Z]   ✗ tochimilco: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T02:38:52.398Z]   ✓ santa-cruz-naranjo (Guatemala) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T02:44:22.465Z]   ✗ san-lucas: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-11T02:49:27.797Z]   ✗ tabara-arriba: fraseo calcado de naranjal: "la economia local se sustenta principalmente en"
+[2026-11-11T02:50:37.792Z]   ✓ la-primavera (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-11T02:51:16.332Z]   ✗ arauco: fraseo calcado de puerto-varas: "es una ciudad y comuna situada en"
+[2026-11-11T02:53:53.576Z]   ✗ moloacan: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-11T02:56:39.056Z]   ✗ pajapan: fraseo calcado de tihuatlan: "es un municipio del estado de veracruz"
+[2026-11-11T02:59:55.677Z]   ✓ pardo-miguel (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-11T03:06:53.905Z]   ✗ totutla: fraseo calcado de vigas-de-ramirez: "es un municipio de veracruz situado en"
+[2026-11-11T03:10:23.348Z]   ✗ villamar: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-11T03:15:27.478Z]   ✗ ignacio-de-la-llave: rechazada tras corrección: La ficha menciona la 'laguna de Alvara', que no se encuentra en el material de origen, sino una mención a 'Alvara Web Server's Default Page' que parece ser un error de copia y pega y no tiene relación
+[2026-11-11T03:17:47.214Z]   ✗ sibinal: fraseo calcado de san-martin-jilotepeque: "para la imparticion de justicia mediante juicios"
+[2026-11-11T03:22:39.686Z]   ✗ colan: fraseo calcado de zepita: "es uno de los siete distritos que"
+[2026-11-11T03:25:08.289Z]   ✗ carhuaz: fraseo calcado de supe-departamento-de-lima: "de 1857 durante el gobierno del presidente"
+[2026-11-11T03:27:32.777Z]   ✗ dzitbalche: fraseo calcado de hecelchakan: "del estado de campeche mexico su nombre"
+[2026-11-11T03:34:14.713Z]   ✗ carrillo-puerto: fraseo calcado de yanga: "y se situa en la zona centro"
+[2026-11-11T03:36:55.731Z]   ✓ san-juan-lalana (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T03:37:16.321Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-11T03:44:14.963Z]   ✗ aucayacu: fraseo calcado de mazamari: "es una localidad peruana que ejerce como"
+[2026-11-11T03:45:41.467Z]   ✗ zumpahuacan: rechazada tras corrección: La longitud oeste del meridiano de Greenwich está mal citada, el texto original dice 99º36'08" en lugar de 9º36'08"
+[2026-11-11T03:55:03.693Z]   ✗ guadalupe-victoria-puebla: fraseo calcado de zona-bananera: "la economia del municipio se basa en"
+[2026-11-11T03:57:35.611Z]   ✓ rio-bueno (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-11T03:58:30.007Z]   ✗ rosales: fraseo calcado de saucillo: "es uno de los 67 municipios del"
+[2026-11-11T03:59:38.001Z]   ✗ tepeyahualco: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-11T04:02:55.750Z]   ✓ balleza (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T04:11:39.331Z]   ✗ san-julian: fraseo calcado de tizapan-el-alto: "del estado de jalisco mexico cuya cabecera"
+[2026-11-11T04:13:35.497Z]   ✓ batuco (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-11T04:14:57.561Z]   ✗ coxquihui: fraseo calcado de huayacocotla: "de los 212 municipios del estado mexicano"
+[2026-11-11T04:18:35.314Z]   ✗ chirinos: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T04:19:48.536Z]   ✗ francisco-z-mena: fraseo calcado de tlahuapan: "un municipio del estado de puebla situado"
+[2026-11-11T04:27:02.167Z]   ✓ rauch (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T04:31:33.124Z]   ✓ epitacio-huerta (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T04:35:26.286Z]   ✓ puan (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T04:43:36.822Z]   ✗ sarayacu: rechazada tras corrección: La frase 'un centro de comercio local' no aparece en el material de origen.
+[2026-11-11T04:46:47.722Z]   ✗ tecolotlan: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T04:52:33.849Z]   ✗ cumanda: fraseo calcado de chillanes: "segun el sistema integrado de indicadores sociales"
+[2026-11-11T04:57:38.778Z]   ✓ chiconcuautla (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T05:03:16.520Z]   ✗ san-gabriel: fraseo calcado de villa-victoria: "es uno de los 125 municipios que"
+[2026-11-11T05:07:08.453Z]   ✗ santa-maria-petapa: fraseo calcado de ixtlahuaca: "metros sobre el nivel del mar limita"
+[2026-11-11T05:12:47.867Z]   ✗ kimbiri-departamento-de-cusco: controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 166 caracteres (debe estar entre 110 y 160)
+[2026-11-11T05:19:32.728Z]   ✗ tlacuilotepec: rechazada tras corrección: La ficha menciona que la cabecera municipal lleva el mismo nombre que el municipio, lo cual no está explícitamente mencionado en el material de origen, aunque sí se puede inferir.; La ficha repite inf
+[2026-11-11T05:23:52.364Z]   ✗ amatitan: fraseo calcado de tizapan-el-alto: "del estado de jalisco mexico cuya cabecera"
+[2026-11-11T05:27:31.966Z]   ✗ punta-hermosa: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T05:28:28.595Z]   ✓ clemencia (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-11T05:36:36.386Z]   ✗ soconusco: rechazada tras corrección: La frase 'constituye el principal núcleo administrativo del municipio' no está respaldada por el material de origen.; La frase 'refleja una estructura de asentamientos dispersos dentro del territorio 
+[2026-11-11T05:38:38.601Z]   ✗ juchique-de-ferrer: fraseo calcado de heroica-ciudad-de-ejutla-de-crespo: "un municipio situado en la zona central"
+[2026-11-11T05:45:39.194Z]   ✗ cosautlan-de-carvajal: fraseo calcado de tihuatlan: "es un municipio del estado de veracruz"
+[2026-11-11T05:51:29.228Z]   ✗ santa-maria-zacatepec: rechazada tras corrección: La frase 'constituye el centro administrativo local' no está respaldada por el material de origen.
+[2026-11-11T05:53:20.157Z]   ✓ cevicos (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-11T05:55:02.569Z]   ✗ chalhuahuacho: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T05:56:43.932Z]   ✗ quilmana: fraseo calcado de imperial: "la provincia de canete en el departamento"
+[2026-11-11T05:58:34.775Z]   ✗ libertad-departamento-de-san-jose: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T05:59:38.257Z]   ✓ puyango (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:03:17.842Z]   ✗ matanza: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T06:04:45.293Z]   ✓ los-muermos (Chile) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-11T06:10:40.920Z]   ✓ malvinas-argentinas-provincia-de-cordoba (Argentina) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-11T06:13:37.676Z]   ✓ aquitania (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:17:16.887Z]   ✓ espita (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:18:23.830Z]   ✓ macusani (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:23:43.906Z]   ✓ salsipuedes (Argentina) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-11T06:31:54.257Z]   ✓ coelemu (Chile) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-11T06:37:59.977Z]   ✓ san-pablo-etla (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T06:38:49.065Z]   ✓ humahuaca (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:41:48.745Z]   ✓ coronel-dorrego-provincia-de-buenos-aires (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-11T06:47:50.186Z]   ✓ capitan-sarmiento-provincia-de-buenos-aires (Argentina) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-11T06:53:24.589Z]   ✗ villa-rica-departamento-de-pasco: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T06:57:38.715Z]   ✓ calbuco (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-11T07:00:40.576Z]   ✓ plaza-huincul (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-11T07:09:07.084Z]   ✓ puquio-departamento-de-ayacucho (Perú) — escribió NVIDIA, verificó NVIDIA-Gemma
+[2026-11-11T07:12:46.011Z]   ✓ cosolapa (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T07:16:20.783Z]   ✓ asillo (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T07:23:09.490Z]   ✗ nepena: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-11T07:25:34.044Z]   ✓ tlaltetela (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T07:33:47.493Z]   ✓ ixhuatlan-del-sureste (México) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-11T07:34:08.853Z]   ✗ departamento-rosario-vera-penaloza: es una división administrativa, no una localidad
+[2026-11-11T07:41:56.889Z]   ✓ san-bartolome-jocotenango (Guatemala) — escribió NVIDIA, verificó Groq
+[2026-11-11T07:44:06.852Z]   ✓ gustavo-diaz-ordaz (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T07:52:04.697Z]   ✗ san-antonio-palopo: fraseo calcado de coatepeque: "en la region sur occidente de la"
+[2026-11-11T07:57:23.969Z]   ✗ ministro-rivadavia: fraseo calcado de zarate-provincia-de-buenos-aires: "terremoto del rio de la plata el"
+[2026-11-11T08:02:15.092Z]   ✓ san-lorenzo-cacaotepec (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-11T08:05:35.300Z]   ✗ chala: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 892 (line 3 column 786)
+[2026-11-11T08:13:49.689Z]   ✓ la-montanita (Colombia) — escribió NVIDIA-Gemma, verificó NVIDIA
+[2026-11-11T08:15:11.444Z]   ✗ castillo: fraseo calcado de pimentel-republica-dominicana: "un municipio de la provincia de duarte"
+[2026-11-11T08:18:41.917Z]   ✗ panindicuaro: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-11T08:21:49.668Z]   ✓ cuyoaco (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T08:25:21.608Z]   ✓ galvan (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-11T08:27:17.438Z]   ✓ bolivar-provincia-de-carchi (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-11T08:30:55.958Z]   ✓ tacabamba (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-11T08:36:56.468Z]   ✗ condebamba: fraseo calcado de cajabamba: "del gobierno regional de cajamarca su capital"
+[2026-11-11T08:37:17.480Z]   ✗ departamento-chamical: es una división administrativa, no una localidad
+[2026-11-11T08:40:11.892Z]   ✗ san-andres-timilpan: rechazada tras corrección: La localidad se fundó como comunidad otomí; Su ubicación al norte del municipio la sitúa cerca de los límites con otras demarcaciones del Estado de México; La población forma parte del entramado de lo
+[2026-11-11T08:47:03.134Z]   ✗ guemez: fraseo calcado de naranjal: "la economia local se sustenta principalmente en"
+[2026-11-11T08:49:34.351Z]   ✗ ahuacatlan: fraseo calcado de nopalucan: "del estado de puebla mexico su nombre"
+[2026-11-11T08:54:47.785Z]   ✓ loma-de-cabrera (República Dominicana) — escribió NVIDIA, verificó Groq
+[2026-11-11T09:00:21.813Z]   ✗ tatahuicapan-de-juarez: fraseo calcado de la-concordia-mexico: "se ubica en la zona centro del"
+[2026-11-11T09:09:00.906Z]   ✗ caluma: fraseo calcado de pelileo: "es un canton ecuatoriano situado en la"
+[2026-11-11T09:10:09.351Z]   ✗ jepelacio: fraseo calcado de vice: "uno de los seis distritos que integran"
+[2026-11-11T09:17:33.752Z]   ✗ el-parral: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-11T09:22:24.418Z]   ✗ cosio: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T09:26:02.040Z]   ✗ el-chal: fraseo calcado de melchor-de-mencos: "del departamento de peten en el norte"
+[2026-11-11T09:38:49.176Z]   ✗ tayabamba: fraseo calcado de chicama-departamento-de-la-libertad: "en el departamento de la libertad al"
+[2026-11-11T09:39:43.212Z]   ✓ chimbo (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-11T09:43:22.484Z]   ✗ sitala: rechazada tras corrección: La ficha repite información innecesariamente, lo que puede ser considerado como un problema de estilo, pero no es una invención. Sin embargo, hay una pequeña inconsistencia en la redacción: en la fich
+[2026-11-11T09:53:14.868Z]   ✓ aquiles-serdan (México) — escribió NVIDIA, verificó Groq
+[2026-11-11T09:55:49.999Z]   ✗ tabalosos: fraseo calcado de elias-soplin-vargas: "en el departamento de san martin norte"
+[2026-11-11T09:58:52.560Z]   ✓ temozon (México) — escribió Groq, verificó NVIDIA
+[2026-11-11T10:03:13.056Z]   ✗ san-jeronimo-de-tunan: fraseo calcado de santa-isabel-de-las-lajas: "al norte y al oeste con la"
+[2026-11-11T10:10:02.550Z]   ✗ pedro-vicente-maldonado: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-11T10:13:40.162Z]   ✗ sabana-grande-de-palenque: fraseo calcado de yaguate: "un municipio de la provincia de san"
+[2026-11-11T10:20:10.582Z]   ✗ churumuco: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-11T10:21:32.185Z]   ✓ cuarte-de-huerva (España) — escribió Groq, verificó NVIDIA
+[2026-11-11T10:24:16.764Z]   ✗ landazuri: fraseo calcado de palermo-colombia: "dentro de su jurisdiccion estan los centros"
+[2026-11-11T10:25:59.769Z]   ✓ paraiso (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-11T10:32:09.299Z]   ✗ tuzantla: No se pudo extraer JSON de la respuesta del LLM
+[2026-11-11T10:39:01.140Z]   ✗ castillo-grande: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-11T10:43:36.393Z]   ✓ santa-victoria-este (Argentina) — escribió Groq, verificó Gemini
+[2026-11-11T10:47:13.957Z]   ✓ tanhuato-de-guerrero (México) — escribió Groq, verificó Gemini
+[2026-11-11T10:47:14.082Z] publicadas 50 salas · acumuladas 1466 · quedan 1606 en cola

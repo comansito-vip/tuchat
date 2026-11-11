@@ -1429,7 +1429,57 @@
   "acanceh",
   "union-juarez",
   "quero",
-  "sipacate"
+  "sipacate",
+  "general-las-heras",
+  "uchumayo",
+  "santa-cruz-naranjo",
+  "la-primavera",
+  "pardo-miguel",
+  "san-juan-lalana",
+  "rio-bueno",
+  "balleza",
+  "batuco",
+  "rauch",
+  "epitacio-huerta",
+  "puan",
+  "chiconcuautla",
+  "clemencia",
+  "cevicos",
+  "puyango",
+  "los-muermos",
+  "malvinas-argentinas-provincia-de-cordoba",
+  "aquitania",
+  "espita",
+  "macusani",
+  "salsipuedes",
+  "coelemu",
+  "san-pablo-etla",
+  "humahuaca",
+  "coronel-dorrego-provincia-de-buenos-aires",
+  "capitan-sarmiento-provincia-de-buenos-aires",
+  "calbuco",
+  "plaza-huincul",
+  "puquio-departamento-de-ayacucho",
+  "cosolapa",
+  "asillo",
+  "tlaltetela",
+  "ixhuatlan-del-sureste",
+  "san-bartolome-jocotenango",
+  "gustavo-diaz-ordaz",
+  "san-lorenzo-cacaotepec",
+  "la-montanita",
+  "cuyoaco",
+  "galvan",
+  "bolivar-provincia-de-carchi",
+  "tacabamba",
+  "loma-de-cabrera",
+  "chimbo",
+  "aquiles-serdan",
+  "temozon",
+  "cuarte-de-huerva",
+  "paraiso",
+  "santa-victoria-este",
+  "tanhuato-de-guerrero"
  ],
  "descartadas": [
   {
@@ -16871,6 +16921,501 @@
    "slug": "santa-cruz-naranjo",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-11-10"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tochtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "acultzingo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "santa-maria-chilchotla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "vega-de-alatorre",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "bajo-biavo",
+   "razon": "rechazada tras corrección: La ficha afirma que la capital se llama Bajo Biavo, dato que no figura en el material de origen.",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "recreo",
+   "razon": "rechazada tras corrección: Confusión de localidad: la ficha indica que es Recreo, Provincia de Córdoba, pero el material de origen y el texto describen a Recreo, Provincia de Catamarca.; Invención: el material de origen mencion",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-antonio-zomeyucan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "zoquitlan",
+   "razon": "fraseo calcado de venustiano-carranza-mexico: \"es uno de los 217 municipios del\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "rio-branco-departamento-de-cerro-largo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "andoas",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-vicente-ferrer",
+   "razon": "fraseo calcado de el-penol: \"es un municipio de la subregion oriente\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "cayalti-departamento-de-lambayeque",
+   "razon": "rechazada tras corrección: La frase 'tradición que atrae a visitantes de la región' no está respaldada por el material de origen.",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tochimilco",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-lucas",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tabara-arriba",
+   "razon": "fraseo calcado de naranjal: \"la economia local se sustenta principalmente en\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "arauco",
+   "razon": "fraseo calcado de puerto-varas: \"es una ciudad y comuna situada en\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "moloacan",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "pajapan",
+   "razon": "fraseo calcado de tihuatlan: \"es un municipio del estado de veracruz\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "totutla",
+   "razon": "fraseo calcado de vigas-de-ramirez: \"es un municipio de veracruz situado en\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "villamar",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "ignacio-de-la-llave",
+   "razon": "rechazada tras corrección: La ficha menciona la 'laguna de Alvara', que no se encuentra en el material de origen, sino una mención a 'Alvara Web Server's Default Page' que parece ser un error de copia y pega y no tiene relación",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "sibinal",
+   "razon": "fraseo calcado de san-martin-jilotepeque: \"para la imparticion de justicia mediante juicios\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "colan",
+   "razon": "fraseo calcado de zepita: \"es uno de los siete distritos que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "carhuaz",
+   "razon": "fraseo calcado de supe-departamento-de-lima: \"de 1857 durante el gobierno del presidente\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "dzitbalche",
+   "razon": "fraseo calcado de hecelchakan: \"del estado de campeche mexico su nombre\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "carrillo-puerto",
+   "razon": "fraseo calcado de yanga: \"y se situa en la zona centro\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "valle-grande-lampa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "aucayacu",
+   "razon": "fraseo calcado de mazamari: \"es una localidad peruana que ejerce como\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "zumpahuacan",
+   "razon": "rechazada tras corrección: La longitud oeste del meridiano de Greenwich está mal citada, el texto original dice 99º36'08\" en lugar de 9º36'08\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "guadalupe-victoria-puebla",
+   "razon": "fraseo calcado de zona-bananera: \"la economia del municipio se basa en\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "rosales",
+   "razon": "fraseo calcado de saucillo: \"es uno de los 67 municipios del\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tepeyahualco",
+   "razon": "fraseo calcado de venustiano-carranza-mexico: \"es uno de los 217 municipios del\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-julian",
+   "razon": "fraseo calcado de tizapan-el-alto: \"del estado de jalisco mexico cuya cabecera\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "coxquihui",
+   "razon": "fraseo calcado de huayacocotla: \"de los 212 municipios del estado mexicano\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "chirinos",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "francisco-z-mena",
+   "razon": "fraseo calcado de tlahuapan: \"un municipio del estado de puebla situado\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "sarayacu",
+   "razon": "rechazada tras corrección: La frase 'un centro de comercio local' no aparece en el material de origen.",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tecolotlan",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "cumanda",
+   "razon": "fraseo calcado de chillanes: \"segun el sistema integrado de indicadores sociales\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-gabriel",
+   "razon": "fraseo calcado de villa-victoria: \"es uno de los 125 municipios que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "santa-maria-petapa",
+   "razon": "fraseo calcado de ixtlahuaca: \"metros sobre el nivel del mar limita\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "kimbiri-departamento-de-cusco",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 166 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tlacuilotepec",
+   "razon": "rechazada tras corrección: La ficha menciona que la cabecera municipal lleva el mismo nombre que el municipio, lo cual no está explícitamente mencionado en el material de origen, aunque sí se puede inferir.; La ficha repite inf",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "amatitan",
+   "razon": "fraseo calcado de tizapan-el-alto: \"del estado de jalisco mexico cuya cabecera\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "punta-hermosa",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "soconusco",
+   "razon": "rechazada tras corrección: La frase 'constituye el principal núcleo administrativo del municipio' no está respaldada por el material de origen.; La frase 'refleja una estructura de asentamientos dispersos dentro del territorio ",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "juchique-de-ferrer",
+   "razon": "fraseo calcado de heroica-ciudad-de-ejutla-de-crespo: \"un municipio situado en la zona central\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "cosautlan-de-carvajal",
+   "razon": "fraseo calcado de tihuatlan: \"es un municipio del estado de veracruz\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "santa-maria-zacatepec",
+   "razon": "rechazada tras corrección: La frase 'constituye el centro administrativo local' no está respaldada por el material de origen.",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "chalhuahuacho",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "quilmana",
+   "razon": "fraseo calcado de imperial: \"la provincia de canete en el departamento\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "libertad-departamento-de-san-jose",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "matanza",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "villa-rica-departamento-de-pasco",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "nepena",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "departamento-rosario-vera-penaloza",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-antonio-palopo",
+   "razon": "fraseo calcado de coatepeque: \"en la region sur occidente de la\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "ministro-rivadavia",
+   "razon": "fraseo calcado de zarate-provincia-de-buenos-aires: \"terremoto del rio de la plata el\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "chala",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 892 (line 3 column 786)",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "castillo",
+   "razon": "fraseo calcado de pimentel-republica-dominicana: \"un municipio de la provincia de duarte\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "panindicuaro",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "condebamba",
+   "razon": "fraseo calcado de cajabamba: \"del gobierno regional de cajamarca su capital\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "departamento-chamical",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-andres-timilpan",
+   "razon": "rechazada tras corrección: La localidad se fundó como comunidad otomí; Su ubicación al norte del municipio la sitúa cerca de los límites con otras demarcaciones del Estado de México; La población forma parte del entramado de lo",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "guemez",
+   "razon": "fraseo calcado de naranjal: \"la economia local se sustenta principalmente en\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "ahuacatlan",
+   "razon": "fraseo calcado de nopalucan: \"del estado de puebla mexico su nombre\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tatahuicapan-de-juarez",
+   "razon": "fraseo calcado de la-concordia-mexico: \"se ubica en la zona centro del\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "caluma",
+   "razon": "fraseo calcado de pelileo: \"es un canton ecuatoriano situado en la\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "jepelacio",
+   "razon": "fraseo calcado de vice: \"uno de los seis distritos que integran\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "el-parral",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "cosio",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "el-chal",
+   "razon": "fraseo calcado de melchor-de-mencos: \"del departamento de peten en el norte\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tayabamba",
+   "razon": "fraseo calcado de chicama-departamento-de-la-libertad: \"en el departamento de la libertad al\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "sitala",
+   "razon": "rechazada tras corrección: La ficha repite información innecesariamente, lo que puede ser considerado como un problema de estilo, pero no es una invención. Sin embargo, hay una pequeña inconsistencia en la redacción: en la fich",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tabalosos",
+   "razon": "fraseo calcado de elias-soplin-vargas: \"en el departamento de san martin norte\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "san-jeronimo-de-tunan",
+   "razon": "fraseo calcado de santa-isabel-de-las-lajas: \"al norte y al oeste con la\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "pedro-vicente-maldonado",
+   "razon": "Todos los proveedores LLM fallaron: Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "sabana-grande-de-palenque",
+   "razon": "fraseo calcado de yaguate: \"un municipio de la provincia de san\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "churumuco",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "landazuri",
+   "razon": "fraseo calcado de palermo-colombia: \"dentro de su jurisdiccion estan los centros\"",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "tuzantla",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM",
+   "fecha": "2026-11-11"
+  },
+  {
+   "slug": "castillo-grande",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-11"
   }
  ]
 }
