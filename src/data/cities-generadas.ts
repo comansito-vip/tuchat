@@ -43593,5 +43593,365 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Tanhuato de Guerrero, cabecera del municipio homónimo en Michoacán, se fundó como villa el 20 de abril de 1902 y lleva el nombre del héroe Vicente Guerrero.",
     "aboutTitle": "Historia y origen del nombre de Tanhuato de Guerrero",
     "about": "Tanhuato de Guerrero es una población mexicana del estado de Michoacán de Ocampo, cabecera del municipio homónimo. El nombre «Tanhuato» tiene origen chichimeca y se interpreta como ‘cerca del cerro’, mientras que el complemento «de Guerrero» recuerda al héroe nacional Vicente Guerrero. En época prehispánica el poblado formaba parte del Imperio purépecha y fue sometido en 1530 por las fuerzas de Nuño de Guzmán. Durante la colonia quedó bajo latifundios locales y, a mediados del siglo XVIII, el obispo de Michoacán designó un vicario para atender la comunidad.\n\nEl padrón de 1743 registró 112 familias, mayormente indígenas, y una sola española; en 1769 se contabilizaron 16 familias de españoles y mestizos y 110 de naturales. Por Ley Territorial del 10 de diciembre de 1831, tras la guerra de independencia, Tanhuato se constituyó municipio dentro del Partido de La Piedad, ratificando los límites de la concesión virreinal de 1778. En 1862 contaba con ayuntamientos y algunos servicios. El 1 de mayo de 1874 descendió a tenencia de Yurécuaro, pero el 24 de abril de 1877 recuperó su condición de municipio. Finalmente, el 20 de abril de 1902 se constituyó en «Villa»."
+  },
+  {
+    "slug": "tabara-arriba",
+    "name": "Tábara Arriba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 128,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Azua",
+    "regionSlug": "provincia-de-azua",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "republica-dominicana",
+      "santo-domingo",
+      "bani",
+      "la-vega",
+      "amistad",
+      "amor"
+    ],
+    "intro": "En Tábara Arriba, Azua, las fiestas patronales de San Miguel Arcángel se celebran del 21 al 30 de septiembre, y la economía se basa en café, tabaco y guandules.",
+    "aboutTitle": "Agricultura y fiestas patronales de Tábara Arriba",
+    "about": "Tábara Arriba es un municipio de la provincia de Azua, en la República Dominicana. Según el censo de 2022 de la Oficina Nacional de Estadística, cuenta con 20 771 habitantes, de los cuales 11 562 son hombres y 9 209 mujeres; la zona urbana concentra 14 254 personas, equivalente al 68,63 % del total.\n\nSu economía se sustenta principalmente en la agricultura, destacando la producción de café, tabaco y guandules, y en menor medida la ganadería vacuna. En los últimos años ha aumentado la emigración de sus pobladores hacia España, lo que ha generado un flujo de remesas que impulsa el desarrollo local. Las fiestas patronales, dedicadas a San Miguel Arcángel, se celebran entre el 21 y el 30 de septiembre; durante ellas se elige una reina, se organizan atabales, días y noches de vela y se realizan intercambios deportivos. En el ámbito educativo destaca el Liceo Roque Feliz, construido entre 1994 y 1995, que abrió sus puertas en marzo de 1995 con 68 estudiantes, cinco maestros y un director, y dispone de un moderno centro de informática. También funciona la escuela primaria de Tábara Arriba, fundada en 1972."
+  },
+  {
+    "slug": "arauco",
+    "name": "Arauco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Biobío",
+    "regionSlug": "region-del-biobio",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "concepcion",
+      "los-angeles-chile",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Arauco, ciudad y comuna de Chile, está a 70 km al sur de Concepción y se extiende sobre la cuenca del río Carampangue hasta su desembocadura en el Pacífico.",
+    "aboutTitle": "Río Carampangue y la historia del fuerte San Felipe",
+    "about": "Arauco es una ciudad y comuna de la zona sur de Chile, ubicada en la provincia homónima de la región del Biobío, a 70 km al sur de Concepción. Se asienta sobre la cuenca del río Carampangue, que desemboca en el océano Pacífico en su costado norponiente, a los pies de la cordilla de Nahuelbuta. Forma parte de la provincia de Arauco junto a Cañete, Contulmo, Curanilahue, Lebu, Los Álamos y Tirúa, en la zona costera de la región del Biobío, históricamente conocida como la Cuenca del Carbón.\n\nEl nombre proviene del mapudungún ragko, que significa “agua gredosa”. Desde la época precolombina la zona estuvo habitada por mapuches denominados araucanos, y en el siglo XVI el fuerte español San Felipe de Arauco fue fundado en 1552 donde confluyen los ríos Conumo y Carampangue, para luego ser reconstruido varias veces. La Guerra de Arauco, que se prolongó más de tres siglos, marcó la historia del territorio."
+  },
+  {
+    "slug": "carhuaz",
+    "name": "Carhuaz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Áncash",
+    "regionSlug": "departamento-de-ancash",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huaraz",
+      "chimbote",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Carhuaz, distrito de Áncash en Perú, tiene una población estimada superior a 13.600 habitantes y fue fundado el 25 de julio de 1857 bajo Ramón Castilla.",
+    "aboutTitle": "Carhuaz: distrito andino fundado en 1857",
+    "about": "Carhuaz es uno de los once distritos de la provincia homónima, en el departamento de Áncash, Perú. Su capital es la ciudad de Carhuaz y la superficie del distrito es de 194,62 km². Según estimaciones, la población supera los 13.600 habitantes. El distrito se creó mediante Ley el 25 de julio de 1857, durante la presidencia de Ramón Castilla. La creación del distrito se formalizó mediante una ley promulgada el 25 de julio de 1857. La autoridad municipal está encabezada por el alcalde Carlos Eugenio Cantaro García, electo para el periodo 2023‑2026. Alcaldes anteriores fueron Máximo Jesús Caballero García (2015‑2018) y José Maurino Mejía Solórzano (2011‑2014). En el ámbito religioso destaca la Parroquia de San Pedro, cuyo párroco es el Pbro. Manuel Neri Silva Caballero y cuenta con los vicarios Pbro. Elmer Ita Camones y Pbro. Paulino Villafana Morales. Pertenece al departamento de Áncash. El distrito mantiene su capital en la ciudad de Carhuaz, que concentra la actividad administrativa."
+  },
+  {
+    "slug": "dzitbalche",
+    "name": "Dzitbalché",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Campeche",
+    "regionSlug": "campeche",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "campeche",
+      "merida-mexico",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Dzitbalché, municipio de Campeche creado el 1 de enero de 2021, celebra la Feria 2025 y conserva su nombre maya ‘un tallo grande de balché’.",
+    "aboutTitle": "Feria de Dzitbalché 2025 y origen del nombre maya",
+    "about": "Dzitbalché es un municipio del estado de Campeche, México, cuya denominación proviene del maya yucateco Jun ts'íit báalche, que significa “un tallo grande de balché”. Su creación fue propuesta por el Congreso del Estado el 31 de marzo de 2019 y tomó efectos jurídico el 1 de enero de 2021, cuando la anterior Sección Municipal de Dzitbalché pasó a constituir una entidad independiente. Limita al norte y al oeste con el municipio de Calkiní, al sur con Hecelchakán, al sureste con Hopelchén y al este con el estado de Yucatán, concretamente con el municipio de Santa Elena. Entre sus localidades se encuentra La Fátima (Cocbilin).\n\nEl portal oficial del ayuntamiento destaca la Feria de Dzitbalché 2025 como uno de los eventos más relevantes del año, y en la sección de Cultura invita a conocer las costumbres y tradiciones locales. La página de Turismo señala los lugares que se deben visitar en la zona, mientras que el apartado de Gobierno informa sobre los programas y acciones en beneficio de la población. Estos recursos reflejan la identidad y la actividad institucional del municipio."
+  },
+  {
+    "slug": "carrillo-puerto",
+    "name": "Carrillo Puerto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-veracruz",
+      "tierra-blanca",
+      "fortin-de-las-flores",
+      "la-isla",
+      "ixtaczoquitlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Carrillo Puerto, municipio veracruzano con 16.996 habitantes, está entre 18°44’ y 18°54’ N y celebra el 15 de mayo la fiesta de San Isidro Labrador.",
+    "aboutTitle": "Río Atoyac y fiestas de San Isidro y Santiago en Carrillo Puerto",
+    "about": "El municipio de Carrillo Puerto forma parte de los 212 municipios del estado de Veracruz y está situado en la zona centro, dentro de una región montañosa conocida como las Montañas. Sus coordenadas son 18°47” latitud norte y 96°34” longitud oeste, y la altitud varía entre 10 y 300 metros. Consta de 96 localidades que, en conjunto, albergan a 16.996 habitantes según el censo. El territorio se integra en la cuenca del río Atoyac, recibiendo también aguas del río Paso Blanco y de pequeños afluentes. El clima es cálido subhúmedo con lluvias en verano, presentando una humedad media del 55.57 % en gran parte del municipio y una humedad mayor del 44.43 % en el resto.\n\nEntre las celebraciones más relevantes se encuentran las fiestas religiosas: el 15 de mayo se honra a San Isidro Labrador, el 25 de julio se conmemora al Señor Santiago de Galicia y el 22 de octubre se celebra a San Rafael, todas ellas en la cabecera municipal. Estas festividades forman parte de la vida cultural de Carrillo Puerto y reúnen a la población en actos religiosos y tradicionales."
+  },
+  {
+    "slug": "aucayacu",
+    "name": "Aucayacu",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huánuco",
+    "regionSlug": "departamento-de-huanuco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huanuco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aucayacu, capital del distrito José Crespo y Castillo en Huánuco, se ubica al norte de Tingo María, a orillas del río Huallaga.",
+    "aboutTitle": "Aucayacu: entre el río Huallaga y la Cordillera Azul",
+    "about": "Aucayacu es una localidad peruana que funciona como capital del distrito de José Crespo y Castillo, en la provincia de Leoncio Prado, departamento de Huánuco. El pueblo se sitúa al norte de la ciudad de Tingo María, en la parte media del río Huallaga, entre el parque nacional Cordillera Azul y la vertiente oriental de la cordillera de los Andes. El nombre proviene del quechua; los incas llamaban “auca” a los grupos que habitaban las laderas orientales de los Andes, y la combinación alude a los habitantes nómadas de la selva.\n\nLa historia moderna de Aucayacu comienza en 1910, cuando el cauchero Edmundo Ruíz Tuanama, originario del departamento de San Martín, estableció un campamento en la zona conocida como Balsa Cautiva, atraído por la abundante pesca y la presencia de indígenas en la margen derecha del río Aucayacu. En 1945 el ingeniero alemán Hans Víctor Langemak Michelsen llegó desde Tingo María, fundó el fundo cauchero Hilda y consolidó la comunidad. Tres años después, en 1948, reunió a los pobladores y, tras un debate en el que Idelfonso Sajamí Pisco propuso el nombre “Bello Horizonte”, la mayoría de las 18 familias colonas eligió “Aucayacu”, nombre que ha perdurado."
+  },
+  {
+    "slug": "san-julian",
+    "name": "San Julián",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-miguel-el-alto",
+      "san-juan-de-los-lagos",
+      "jalostotitlan",
+      "arandas",
+      "lagos-de-moreno",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Julián, municipio de Jalisco, se sitúa al noreste del estado, en la región Altos Sur; su economía se basa mayormente en el sector primario.",
+    "aboutTitle": "Fundación de San Julián en 1846 por Lino Padilla",
+    "about": "San Julián es un municipio del estado de Jalisco, México. Su cabecera lleva el mismo nombre. Se ubica al noreste del estado, dentro de la Región Altos Sur y forma parte de la macrorregión del Bajío Occidente o Centro Occidente de México. Las coordenadas son 20º54’15\" a 21º10’45\" latitud norte y 102º05’00\" a 110º14’40\" longitud oeste. Los primeros pobladores fueron pueblos chichimecas y posteriormente los nahuas; la zona pasó a formar parte del señorío tecuexe chichimeca y fue conquistada en 1530. El poblado fue fundado por Lino Padilla en 1846, propietario de la Hacienda de Sánchez. La iglesia local se construyó a finales del siglo XIX y principios del XX, y el edificio de la presidencia municipal inició su obra en 1919 bajo la dirección del comisario Juan Zermeño, terminándose en 1952. Desde 1825 perteneció al segundo cantón de Lagos y en 1869 pertenece al H. Ayuntamiento de San Julián."
+  },
+  {
+    "slug": "tecolotlan",
+    "name": "Tecolotlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cocula",
+      "ameca",
+      "zacoalco-de-torres",
+      "ahualulco-de-mercado",
+      "tala",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tecolotlán, municipio jalisciense con 16 603 habitantes según el censo 2020, se ubica en la Sierra de Amula y conserva su historia desde 1524.",
+    "aboutTitle": "Tecolotlán y la batalla de El Guayabo del 10 de noviembre",
+    "about": "Tecolotlán es la cabecera del municipio homónimo, situado en la región Sierra de Amula, al centro‑oeste del estado de Jalisco. Según el censo del año 2020, el municipio tiene 16 603 habitantes. El nombre proviene del náhuatl “Tecolotl” (búho) y “tlán” (lugar), lo que significa “lugar de tecolotes”. Geográficamente se encuentra entre las coordenadas 20°6′55″ y 20°25′00″ de latitud norte y 103°50′45″ y 104°04′05″ de longitud oeste, a una altitud de 1 285 metros sobre el nivel del mar. Al poniente destaca el cerro del Picacho, donde según la tradición surgió el primer núcleo poblacional llamado Los Tecolotes.\n\nEl territorio fue conquistado por Francisco Cortés de San Buenaventura en 1524, quien fundó el poblado. Durante la época de los encomenderos Pedro Gómez y Martín Monje, el lugar se integró a la provincia de Tenamaxtlán. En la lucha contra los franceses, Justino Merino organizó el batallón “Libres de Tecolotlán”, que el 10 de noviembre de 1866 se enfrentó a Berthelin en El Guayabo; el combate comenzó a las 4 de la tarde y duró dos horas, terminando con la muerte de Berthelin y gran parte de sus hombres. El ayuntamiento se estableció por decreto del Congreso del Estado el 8 de abril de 1844."
+  },
+  {
+    "slug": "cumanda",
+    "name": "Cumandá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 209,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Chimborazo",
+    "regionSlug": "chimborazo",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "milagro",
+      "babahoyo",
+      "cuenca",
+      "riobamba",
+      "guayaquil",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cumandá, cantón del Chimborazo, se ubica a 127 km de Riobamba y fue creado el 28 de enero de 1992; su cabecera está a orillas del río Chimbo.",
+    "aboutTitle": "Río Chimbo y la biodiversidad del cantón Cumandá",
+    "about": "Cumandá es un cantón de la provincia de Chimborazo, situado al suroeste de la provincia a 127 km de Riobamba por la Vía Colectora La Unión‑T del Triunfo y la Troncal de la Sierra. Fue cantonizado el 28 de enero de 1992 y su cabecera se localiza a orillas del río Chimbo, que la separa del vecino centro poblado de Bucay, en la provincia del Guayas. Con una extensión de 158,7 km² alberga a 10 197 habitantes, lo que produce una densidad poblacional de 60,25 hab/km².\n\nEl relieve del cantón varía entre 300 y 1 900 m s.n.m., favoreciendo una gran biodiversidad tanto en flora como en fauna, situándolo entre las zonas más ricas del país. El clima es subtropical, con una temperatura promedio de 20 °C. Según el SIISE, el 68,08 % de la población vive en pobreza por necesidades básicas insatisfechas y el 29,76 % en extrema pobreza. En el área rural reside el 42,40 % de los habitantes y la tasa de crecimiento anual entre 1990 y 2001 fue negativa, -2,6 %."
+  },
+  {
+    "slug": "tlacuilotepec",
+    "name": "Tlacuilotepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xicotepec-de-juarez",
+      "huauchinango",
+      "zacatlan",
+      "coatzintla",
+      "poza-rica-de-hidalgo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tlacuilotepec, municipio de Puebla situado en la sierra norte a 1.340 m de altitud, cuenta con 52 localidades según el censo de 2020.",
+    "aboutTitle": "Sierra norte de Puebla: Tlacuilotepec a 1.340 m de altitud",
+    "about": "Tlacuilotepec es uno de los 217 municipios que conforman el estado de Puebla, México. Se encuentra en la sierra norte de la entidad y su cabecera es la localidad que lleva el mismo nombre. El municipio se asienta a una altitud de 1.340 m sobre el nivel del mar, lo que le otorga un clima templado de montaña.\n\nSegún el censo de 2020, el municipio de Tlacuilotepec comprendía 52 localidades. La información visual y fotográfica del municipio está disponible en Wikimedia Commons, donde se alberga una categoría multimedia dedicada al área. Estos datos reflejan la composición y el entorno geográfico de Tlacuilotepec dentro de la región poblana."
+  },
+  {
+    "slug": "amatitan",
+    "name": "Amatitán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tequila",
+      "tala",
+      "nuevo-mexico",
+      "ahualulco-de-mercado",
+      "zapopan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Amatitán, municipio jalisciense situado en la Región Valles, destaca como uno de los productores de tequila más importantes del mundo.",
+    "aboutTitle": "Tequila de Amatitán, corazón del Valle de Jalisco",
+    "about": "Amatitán es un municipio del estado de Jalisco, México, ubicado en la Región Valles. Su cabecera lleva el mismo nombre. Con una extensión de 216.05 km², el nombre proviene del náhuatl \"amatl\" (amate) y \"tlan\" (lugar), lo que significa \"junto a los amates\".\n\nLos primitivos pobladores eran descendientes de los aztecas, quienes disputaron estas tierras con otros indígenas y se concentraron en el cerro del Chiquihuitillo; el cacique Teochicán los expulsó y casi los exterminó. Pertenecían al señorío de Etzatlán. Amatitán es conocido por ser uno de los productores de tequila más importantes del mundo, y donde se originó esta bebida.\n\nLa zona fue habitada inicialmente por descendientes de los aztecas, que se asentaron en el cerro del Chiquihuitillo. En 1530 llegó Cristóbal de Oñate con franciscanos, y el conflicto de la Guerra del Mixtón culminó el 5 de julio de 1541. Amatitán se constituyó como municipio el 13 de marzo de 1837, después de haber dependido del departamento de Tequila en el cantón de Ahualulco. Actualmente el gobierno municipal está encabezado por el presidente municipal para la administración 2024‑2027, quien también ejerce como presidente del Comisariado Ejidal."
+  },
+  {
+    "slug": "san-antonio-palopo",
+    "name": "San Antonio Palopó",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Sololá",
+    "regionSlug": "departamento-de-solola",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "antigua-guatemala",
+      "mazatenango",
+      "quetzaltenango",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Antonio Palopó, municipio guatemalteco a orillas del Lago de Atitlán, cuenta con 15.362 habitantes según el censo 2018 y clima templado Csb.",
+    "aboutTitle": "El origen del nombre Palopó y su historia colonial",
+    "about": "San Antonio Palopó es un municipio del departamento de Sololá, en la región suroccidental de Guatemala, situado a orillas del Lago de Atitlán. Según el censo de 2018, su población es de aproximadamente 15.362 habitantes y su densidad es de 452 personas por kilómetro cuadrado. El territorio abarca 34 km² y se compone de una cabecera municipal, dos aldeas, cinco caseríos y tres cantones. El clima es templado, clasificado como Csb en la escala de Köppen.\n\nEl topónimo combina la referencia a San Antonio de Padua con la palabra k'akch'ikel «Palopó», que significa “árbol de amates”. Durante la época colonial el municipio formó parte de la Provincia del Santísimo Nombre de Jesús bajo la jurisdicción del convento de San Francisco Panajachel. Entre 1838 y 1840 estuvo incluido en el efímero Estado de Los Altos, y en 1963 el director mexicano Emilio Fernández filmó allí “Paloma herida”. En 1892 los viajeros Anne y Alfred P. Maudslay describieron el poblado en su obra “A glimpse of Guatemala”."
   }
 ];
