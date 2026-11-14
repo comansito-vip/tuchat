@@ -45236,5 +45236,307 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "General Cabrera, a 14.473‑inhabitant city in Córdoba, Argentina, lies 170 km from the provincial capital along la RN 158, enmarcada por la Pampa Húmeda.",
     "aboutTitle": "General Cabrera: la Región del Maní en la RN 158",
     "about": "General Cabrera es una ciudad y municipio del centro‑sur cordobés, ubicada en el departamento Juárez Celman. Se encuentra a 170 km de la ciudad de Córdoba, capital de la provincia, sobre la ruta nacional RN 158 y conectada con Alcira Gigena por la ruta provincial E‑90. Con una población de 14.473 habitantes, ocupa el segundo lugar departamental después de La Carlota. La localidad se sitúa a 291 m sobre el nivel del mar, en la llanura pampeana, sin accidentes orográficos relevantes. Su clima es mediterráneo, con inviernos fríos y secos y veranos cálidos y lluviosos, con precipitaciones anuales de entre 650 y 800 mm.\n\nLa economía gira en torno a la agroindustria: destaca la producción de maní, soja, maíz, trigo y girasol, y la ganadería vacuna. Por su abundante fertilidad, la zona se conoce como la \"Región del Maní\". El nombre de la ciudad rinde homenaje a Jerónimo Luis de Cabrera, fundador de la ciudad de Córdoba en 1573."
+  },
+  {
+    "slug": "zumpahuacan",
+    "name": "Zumpahuacán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ixtapan-de-la-sal",
+      "tenango-de-arista",
+      "cuernavaca",
+      "capulhuac-de-mirafuentes",
+      "emiliano-zapata-edomex",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zumpahuacán, cabecera del municipio, lleva su nombre nahua que significa ‘lugar del madroño’ y está en la zona montañosa de la falla del paralelo 19°.",
+    "aboutTitle": "Zumpahuacán: origen nahua y su ubicación en la zona montañosa",
+    "about": "Zumpahuacán es la cabecera del municipio homónimo, ubicada en el Estado de México. Su nombre proviene del náhuatl Tzompahuacán, que significa “lugar del madroño”. También se le conoce como Tzompantitlán, aludiendo a la abundancia del árbol de colorín. Se sitúa en la zona montañosa de la falla del paralelo 19° de latitud norte, en el centro de la República, entre los paralelos 99°27'51\" y 99°37'32\" de longitud oeste y 18°41'35\" y 18°55'22\" de latitud norte. Limita al sur con el Estado de Morelos y el municipio de Malinalco, al norte con Tenancingo, al este con Malinalco y al oeste con Villa Guerrero y Tonatico. Forma parte del VII distrito rentístico y judicial, con cabecera en Tenancingo, y pertenece a la región económica VI, cuya cabecera es Coatepec Harinas.\n\nLa organización social del municipio está estructurada en barrios; la cabecera municipal comprende ocho: La Ascensión, San Miguel, San Mateo, San Agustín, Santa Ana, San Juan, La Cabecera y San Pedro. Cada barrio cuenta con mesas de gobierno local que eligen delegados, tesoreros, escrutadores y secretarios. Estas divisiones facilitan la gestión comunitaria y la participación de los habitantes en asuntos municipales."
+  },
+  {
+    "slug": "san-andres-timilpan",
+    "name": "San Andrés Timilpan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "nicolas-romero",
+      "santa-teresa",
+      "huilango",
+      "coyotepec",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Andrés Timilpan es la cabecera del municipio de Timilpan, en el Estado de México, situada al norte del municipio y con origen otomí.",
+    "aboutTitle": "San Andrés Timilpan, cabecera del municipio de Timilpan",
+    "about": "San Andrés Timilpan es una población mexicana ubicada en la parte norte del Estado de México. Es la cabecera del municipio de Timilpan, lo que la sitúa como el núcleo administrativo municipal. La localidad se encuentra al norte del territorio municipal y forma parte de la región de Atlacomulco. Históricamente, San Andrés Timilpan fue una comunidad otomí, lo que indica la presencia de la cultura indígena en sus orígenes. La denominación del poblado conserva ese legado, aunque la información disponible no detalla manifestaciones específicas de la herencia otomí en la actualidad. Como cabecera, la población alberga las dependencias municipales y sirve de referencia para la organización del municipio. La ubicación geográfica en el norte del municipio la coloca en una posición cercana a otras localidades de la zona, dentro del marco administrativo del Estado de México. Los registros oficiales la identifican como la sede del gobierno municipal. Al estar situada al norte, se encuentra próxima a otras poblaciones del municipio."
+  },
+  {
+    "slug": "pedro-vicente-maldonado",
+    "name": "Pedro Vicente Maldonado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 181,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Pichincha",
+    "regionSlug": "pichincha",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "santo-domingo-ecuador",
+      "ecuador",
+      "quito",
+      "sangolqui",
+      "ibarra",
+      "pichincha",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pedro Vicente Maldonado, cantón de Pichincha, destaca por sus seis cascadas, entre ellas la Laguna Azul y el Salto del Tigre.",
+    "aboutTitle": "Cascadas y origen histórico de Pedro Vicente Maldonado",
+    "about": "Pedro Vicente Maldonado es un cantón del noroeste de la provincia de Pichincha, Ecuador. La zona se dedica a la agricultura, la ganadería y el turismo ecológico, aprovechando la abundancia de ríos y riachuelos que la rodean. Entre sus atractivos naturales destacan seis cascadas: las Tinas, Laguna Azul, Cascadas Verdes, el Salto del Tigre, Tatalá y la Cascada del río Achotillo, que atraen a visitantes nacionales e internacionales.\n\nLa colonización del noroccidente de Pichincha comenzó en 1950 bajo la iniciativa de Teodoro Arrieta y un grupo de 24 personas que partieron de la parroquia de Nono hacia Tandayapa y Mindo, estableciendo una base en San Miguel de Los Bancos. Allí se fundó la cooperativa “Jhon F. Kennedy”, legalizada en 1963, y en 1965 se construyó la primera casa comunal en el kilómetro 111, definiendo el centro poblado entre los kilómetros 115 y 116 de la actual vía Calacalí‑La Independencia. El 29 de septiembre de 1972 se parroquializó San Miguel de los Bancos, creando el recinto jurídico de Pedro Vicente Maldonado, que pasó a ser parroquia el 30 de agosto de 1978 y se cantonizó el 9 de noviembre de 1987 bajo la dirección de Hugo Pérez."
+  },
+  {
+    "slug": "sabana-grande-de-palenque",
+    "name": "Sabana Grande de Palenque",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 157,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San Cristóbal",
+    "regionSlug": "san-cristobal",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-rd",
+      "bani",
+      "santo-domingo-este",
+      "san-pedro-de-macorris",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sabana Grande de Palenque, municipio costero de San Cristóbal en República Dominicana, cuenta con 18.304 habitantes según el Censo 2022.",
+    "aboutTitle": "Historia y turismo de Sabana Grande de Palenque",
+    "about": "Sabana Grande de Palenque es un municipio de la República Dominicana, situado en la provincia de San Cristóbal, a orillas del Mar Caribe y próximo a la ciudad de San Cristóbal. Su nombre proviene de las extensas sabanas que bordean la costa y del término palenque, que alude tanto a las empalizadas usadas por colonizadores para impedir la fuga de esclavos como a las comunidades libres formadas por esclavos africanos escapados.\n\nEl poblado pasó a distrito municipal el primero de enero de 1945 y alcanzó la categoría de municipio el dos de enero de 1997, mediante la Ley n.º 4-97 por el Congreso Dominicano. Según el X Censo Nacional de Población y Vivienda de noviembre de 2022, la población total era de 18.304 habitantes, con 8.969 hombres y 9.335 mujeres. El municipio se destaca por su rol recreativo y turístico, ofreciendo playas caribeñas que resultan muy populares entre los residentes de la región, aunque no se considera uno de los destinos turísticos principales del país."
+  },
+  {
+    "slug": "peralta",
+    "name": "Peralta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 176,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Azua",
+    "regionSlug": "provincia-de-azua",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "bani",
+      "republica-dominicana",
+      "santo-domingo",
+      "san-cristobal-rd",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Peralta, municipio de Azua en la falda de la Cordillera Central, está a 24 km de Azua, a 482 m de altitud y cuenta con 14 670 habitantes (censo 2022).",
+    "aboutTitle": "Peralta, entre los ríos Jura y Ventura, en la Cordillera Central",
+    "about": "Peralta se ubica a unos 24 kilómetros de la ciudad de Azua de Compostela, en la falda de la Cordillera Central y entre los ríos Jura y Ventura. Su elevación promedio es de 482 metros sobre el nivel del mar. La historia del municipio se remonta a finales del siglo XIX, entre 1870 y 1876, cuando los primeros pobladores se asentaron en la zona que hoy constituye el Distrito Municipal de Barro Arriba. El 12 de agosto de 1978, el Distrito Municipal de Peralta, fue elevado a la categoría de municipio mediante la Ley n.º 916.\n\nSegún el censo nacional de población y vivienda 2022, Peralta cuenta con 14 670 habitantes, de los cuales 7 873 son hombres y 6 797 mujeres; aproximadamente el 63,55 % (unos 9 321 habitantes) vive en áreas urbanas. El clima es templado por su altitud, con máximas promedio de 28 °C entre mayo y octubre y mínimas de 19‑20 °C de diciembre a marzo, llegando a 17 °C en los meses más fríos. La economía agrícola se basa principalmente en el café, complementada por guineo, plátano, maíz, aguacate, habichuelas, yuca y cilantro. En el ámbito educativo destacan el Liceo Profesor Héctor Bienvenido Pérez y la Escuela Primaria 19 de Marzo."
+  },
+  {
+    "slug": "huitzilan-de-serdan",
+    "name": "Huitzilan de Serdán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 155,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zaragoza-puebla",
+      "zacatlan",
+      "chignahuapan",
+      "teziutlan",
+      "huauchinango",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huitzilan de Serdán, municipio pueblano fundado en 1895, cuenta con 26 localidades y forma parte de los 217 municipios del estado.",
+    "aboutTitle": "Fundación y estructura de Huitzilan de Serdán",
+    "about": "Huitzilan de Serdán es un municipio del estado de Puebla, México, integrado entre los 217 municipios que conforman la entidad. Su nombre proviene del náhuatl huitzitzillin, que alude al “chupamirto” o colibrí, y se interpreta como “lugar abundante en chupamirtos”. El vocablo combina los conceptos de colibrí y abundancia, reflejando la presencia característica de estas aves en la zona. El municipio se constituyó oficialmente en 1895, fecha que marca su fundación y su desarrollo administrativo. La cabecera municipal es la ciudad de Huitzilan, que concentra los principales servicios públicos y administrativos.\n\nSegún el censo de 2020, el municipio agrupa 26 localidades, lo que refleja la dispersión de la población en el territorio municipal. Estas localidades forman parte del tejido social y económico del municipio, cuya organización territorial sigue la estructura establecida por el estado de Puebla."
+  },
+  {
+    "slug": "putina",
+    "name": "Putina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Puno",
+    "regionSlug": "departamento-de-puno",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "juliaca",
+      "puno",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Putina, distrito de la provincia San Antonio de Putina en Puno, destaca por sus aguas termales y su pertenencia a la diócesis de Puno, administrada por Puno.",
+    "aboutTitle": "Aguas termales y arquitectura colonial en Putina",
+    "about": "Putina es un distrito ubicado en la provincia de San Antonio de Putina, dentro del departamento de Puno, en el sureste de Perú. El distrito se creó en los primeros años de la República y su nombre proviene de las aguas termales que caracterizan la zona; la palabra “PHUTINA” se usa genéricamente para designar manantiales de alta temperatura originados por la actividad volcánica. En Putina, el manantial principal se encuentra en las faldas del cerro Alqamarini, donde hoy operan los baños Wenseslao Molina, y también existen fuentes en las faldas de K’aquencorani y la zona conocida como Huayna Phutina, donde la temperatura es menor. Administrativamente, el distrito forma parte de la diócesis de Puno, sufragánea de la arquidiócesis de Arequipa, y estuvo bajo la alcaldía de Yolinda Barrantes Quenallata (2019‑2022) del partido FADEP. Desde el punto de vista turístico, la capital provincial se presenta como un pueblo con calles empedradas y arquitectura colonial española, una iglesia de gran tamaño y la atmósfera de los ríos que rodean sus casas, ofreciendo una combinación de naturaleza y legado histórico."
+  },
+  {
+    "slug": "tingambato",
+    "name": "Tingambato",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruapan",
+      "morelia",
+      "la-barca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tingambato, en Michoacán, alberga la zona arqueológica Tinganio, punto donde la tierra fría cede paso a la Tierra Caliente.",
+    "aboutTitle": "Tingambato: zona arqueológica Tinganio y su historia prehispánica",
+    "about": "Tingambato es una localidad del estado de Michoacán, México, y cabecera del municipio homónimo. En su territorio se encuentra la zona arqueológica Tinganio, conocida como el punto donde termina la tierra fría e inicia la Tierra Caliente. El nombre proviene de una expresión chichimeca que se interpreta como «cerro caliente o cerro donde hay llama», y según otra interpretación tarasca significa «lugar templado». La ocupación del sitio se remonta al año 1300, cuando llegaron los antecesores de la monarquía tarasca Payácume I y Vapeani I, convirtiéndolo en un centro ceremonial de gran importancia, como atestiguan los montículos regulares que aún no han sido estudiados. Durante la época colonial, los frailes de la orden de San Agustín establecieron un convento y la localidad pasó a ser encomienda de Doña María de Alvarado. Fue cabecera del partido de indios, administrando poblaciones como San Ángel, Taretan y Ziracuaretiro, y albergaba haciendas que producían azúcar, maíz y trigo. En 1754 apareció como vicaría del curato de la Sierra, con una población colonial promedio de 350 habitantes, de los cuales 250 vivían en Tingambato."
+  },
+  {
+    "slug": "huitan",
+    "name": "Huitán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 154,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quetzaltenango",
+    "regionSlug": "departamento-de-quetzaltenango",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-marcos-guatemala",
+      "quetzaltenango",
+      "huehuetenango",
+      "solola",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Huitán, municipio de Quetzaltenango a 40 km de la cabecera departamental, se extiende sobre 16 km² entre Cabricán y Palestina de Los Altos.",
+    "aboutTitle": "Huitán: municipio fronterizo entre Cabricán y Palestina de Los Altos",
+    "about": "Huitán es un municipio del departamento de Quetzaltenango, localizado a 40 km de la ciudad de Quetzaltenango y a 223 km de la Ciudad de Guatemala. Con una superficie de 16 km², colinda al norte con Cabricán, al este con Río Blanco (San Marcos), al sur con San Carlos Sija y Sibilia, y al oeste con Palestina de Los Altos. El municipio se sitúa en la zona norte del departamento, a 35 km de la cabecera, y colinda con dos departamentos. El gobierno municipal está a cargo de un Concejo Municipal integrado por el alcalde, los síndicos y concejales, electos por sufragio universal y secreto para un período de cuatro años. La municipalidad publica información de oficio conforme al Decreto 57‑2008 y mantiene transparencia presupuestaria y rendición de cuentas, accesibles a través de su sitio web oficial. La sede municipal se encuentra en la 1ra. calle 3‑41 zona 1, Huitán, y atiende al público de lunes a viernes de 8:00 am a 5:00 pm."
+  },
+  {
+    "slug": "tzucacab",
+    "name": "Tzucacab",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tzucacab, municipio del sur de Yucatán, ocupa 1.289 km² y conserva tradiciones mayas, con fiestas como el 16 de septiembre y el 20 de noviembre.",
+    "aboutTitle": "Tzucacab: territorio maya y su convenio de 1848",
+    "about": "Tzucacab es uno de los 106 municipios que conforman el estado de Yucatán, situado en la zona sur del territorio. Su extensión territorial es de 1.289 km² y se ubica entre las coordenadas 19°38′ y 20°9′ de latitud norte y 88°59′ y 89°14′ de longitud oeste, a una altitud promedio de 36 metros sobre el nivel del mar. El clima es cálido subhúmedo, con lluvias en verano; la temperatura media anual se sitúa en 26.3 °C y la precipitación anual promedio es de 108.4 milímetros. Según el II Conteo de Población y Vivienda de 2005, el municipio cuenta con 13.564 habitantes, de los cuales 6.900 son hombres y 6.664 mujeres.\n\nEn la época prehispánica el territorio formaba parte del cacicazgo de Cochuah. En 1848 se firmó el convenio de Tzucacab entre el batab maya Jacinto Pat y el líder político de Yucatán Miguel Barbachano, intentando poner fin a la Guerra de Castas. La cultura maya sigue presente en sus tradiciones y celebraciones. Entre las fiestas civiles destacan el aniversario de la Independencia de México el 16 de septiembre y el aniversario de la Revolución mexicana el 20 de noviembre; también se celebra el Día de la Santa Cruz. Estas festividades reflejan la mezcla de herencia indígena y costumbres nacionales que caracterizan al municipio."
   }
 ];
