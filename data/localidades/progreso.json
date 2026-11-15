@@ -1544,7 +1544,50 @@
   "putina",
   "tingambato",
   "huitan",
-  "tzucacab"
+  "tzucacab",
+  "castillo",
+  "el-parral",
+  "landazuri",
+  "santa-teresita",
+  "supe-puerto-departamento-de-lima",
+  "chepica",
+  "picsi-departamento-de-lambayeque",
+  "mancora",
+  "fray-mamerto-esquiu",
+  "granados",
+  "espejo",
+  "sartimbamba",
+  "tzintzuntzan",
+  "villa-vasquez",
+  "nacozari-de-garcia",
+  "las-charcas",
+  "isidro-ayora",
+  "la-merced",
+  "ixtlan-de-los-hervores",
+  "san-ignacio-rio-muerto",
+  "villa-la-angostura",
+  "general-paz",
+  "incahuasi",
+  "juan-de-acosta",
+  "rafael-lara-grajales",
+  "santiago-jocotepec",
+  "sana",
+  "tepoztlan",
+  "mejillones",
+  "carlos-tejedor-provincia-de-buenos-aires",
+  "rancho-arriba",
+  "santa-catalina",
+  "zorritos",
+  "montevideo-rural",
+  "tierra-amarilla",
+  "roque-perez",
+  "presidencia-de-la-plaza",
+  "ciudad-manuel-doblado",
+  "atlantida-departamento-de-canelones",
+  "tisaleo",
+  "estacion-juarez-celman",
+  "patate",
+  "polotitlan"
  ],
  "descartadas": [
   {
@@ -18686,6 +18729,541 @@
    "slug": "mancora",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-11-14"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tochtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "acultzingo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "santa-maria-chilchotla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "vega-de-alatorre",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-antonio-zomeyucan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "valle-grande-lampa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "chala",
+   "razon": "fraseo calcado de parcoy: \"es uno de los trece distritos que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "jepelacio",
+   "razon": "fraseo calcado de santa-lucia-cotzumalguapa: \"se basa en la agricultura destacando la\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "cosio",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tuzantla",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "union-hidalgo",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "chinchao",
+   "razon": "fraseo calcado de tabalosos: \"es uno de los once distritos que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "seybaplaya",
+   "razon": "fraseo calcado de hecelchakan: \"de los trece municipios del estado de\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "erongaricuaro",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "asuncion-ixtaltepec",
+   "razon": "fraseo calcado de santos-reyes-nopala: \"uno de los 570 municipios que conforman\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "purepero-de-echaiz",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "aguililla",
+   "razon": "fraseo calcado de maravatio: \"segun el censo de 2020 la poblacion\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tamesis",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "irimbo",
+   "razon": "fraseo calcado de santiago-ixcuintla: \"es la cabecera del municipio homonimo en\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "la-apartada",
+   "razon": "fraseo calcado de palermo-colombia: \"es un municipio colombiano situado en el\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "yaxcaba",
+   "razon": "fraseo calcado de chemax: \"es uno de los 106 municipios del\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "angamacutiro",
+   "razon": "fraseo calcado de piedad: \"es uno de los 113 municipios que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "cascas",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-pedro-tapanatepec",
+   "razon": "fraseo calcado de la-huerta: \"y la altitud varia de nivel del\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "sanagoran",
+   "razon": "fraseo calcado de elias-soplin-vargas: \"uno de los ocho distritos que conforman\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "jose-sabogal",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "zozocolco-de-hidalgo",
+   "razon": "fraseo calcado de pueblo-viejo: \"es uno de los 212 municipios que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "talpa-de-allende",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "alonso-de-alvarado",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "yarada-los-palos",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "obando",
+   "razon": "rechazada tras corrección: La mención a que la zona fue 'transformada por la agricultura y la minería, configurando la identidad actual del municipio' no está respaldada por el texto, que solo menciona que los colonizadores bus",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "nabon",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tepetzintla",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "mariano-nicolas-valcarcel",
+   "razon": "fraseo calcado de yungay-departamento-de-ancash: \"es uno de los ocho distritos que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "saposoa",
+   "razon": "fraseo calcado de paijan-peru: \"es un distrito del norte del peru\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "campanilla",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "las-guaranas",
+   "razon": "fraseo calcado de tenares: \"estaban desocupadas y el promedio de personas\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "pomabamba-departamento-de-ancash",
+   "razon": "rechazada tras corrección: La ficha menciona que el distrito 'está ubicado en la sierra peruana', lo que no se encuentra en el material de origen; La ficha menciona que 'su relieve es montañoso', lo que no se encuentra en el ma",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "guayacanes",
+   "razon": "fraseo calcado de villa-altagracia: \"un municipio de la republica dominicana ubicado\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "zapotillo",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "huaca",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "desaguadero",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "tinguindin",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "anapoima",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-gabriel-provincia-de-carchi",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "las-rosas-provincia-de-santa-fe",
+   "razon": "fraseo calcado de funes: \"una ciudad de la provincia de santa\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "santo-domingo-xenacoj",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "sopetran",
+   "razon": "fraseo calcado de betulia: \"del departamento de antioquia en colombia limita\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "masisea",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 163 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "eten",
+   "razon": "fraseo calcado de picsi-departamento-de-lambayeque: \"la provincia de chiclayo en el departamento\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "lancones",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "chiconquiaco",
+   "razon": "fraseo calcado de juan-rodriguez-clara: \"es uno de los 212 municipios del\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "celica",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "santa-rosalia",
+   "razon": "rechazada tras corrección: La ficha menciona que la presidenta municipal de Mulegé, Edith Aguilar Villavicencio, encabezó el abanderamiento del contingente del municipio para las Olimpiadas Estatales CONADE en 2027, lo que no e",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "pomata",
+   "razon": "rechazada tras corrección: La ficha afirma que el distrito se creó en 1821, pero la fuente solo menciona que se creó en los años de la Independencia del Perú (1821), lo que no necesariamente implica que se creó exactamente en 1",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "peumo",
+   "razon": "fraseo calcado de chimbarongo: \"forma parte del distrito electoral n 16\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "algarrobo",
+   "razon": "fraseo calcado de olaya-herrera: \"dentro de su jurisdiccion se encuentran los\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "natagaima",
+   "razon": "fraseo calcado de coyaima: \"es un municipio del sur del tolima\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "sivia",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "manseriche",
+   "razon": "fraseo calcado de barranca: \"vicariato apostolico de yurimaguas tambien llamado vicariato\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "el-barrio-de-la-soledad",
+   "razon": "fraseo calcado de santiago-pinotepa-nacional: \"es uno de los 570 municipios del\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "iparia",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "fernando-lores",
+   "razon": "fraseo calcado de tabalosos: \"es uno de los once distritos que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "ranchillos-y-san-miguel",
+   "razon": "controles de calidad: aboutTitle de 89 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "chillia",
+   "razon": "fraseo calcado de chicama-departamento-de-la-libertad: \"en el departamento de la libertad al\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "lagunas-departamento-de-loreto",
+   "razon": "fraseo calcado de vice: \"de los seis distritos que integran la\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "llata",
+   "razon": "fraseo calcado de anta: \"desde el punto de vista eclesiastico pertenece\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "coyomeapan",
+   "razon": "rechazada tras corrección: La ficha menciona que la agricultura se orienta a cultivos de subsistencia adaptados a la altitud, lo que no se menciona en el material de origen.; Se menciona que la comunidad mantiene vivas sus trad",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "campo-grande",
+   "razon": "fraseo calcado de aristobulo-del-valle: \"es una localidad de la provincia de\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "villa-berthet",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "ccatca",
+   "razon": "rechazada tras corrección: El nombre del distrito aparece como \"Ccatcca\" en la fuente, mientras que la ficha lo escribe \"Ccatca\", lo que no está respaldado por el material original.",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "canaris",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "espindola",
+   "razon": "fraseo calcado de majagual: \"se basa en la agricultura y la\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "titiribi",
+   "razon": "fraseo calcado de betulia: \"es un municipio de la subregion suroeste\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-sebastian-tlacotepec",
+   "razon": "fraseo calcado de venustiano-carranza-mexico: \"es uno de los 217 municipios del\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "ocotepec",
+   "razon": "rechazada tras corrección: El chat de Ocotepec no tiene datos en la fuente, pero no es un problema. Sin embargo, la ficha incluye información sobre la misión y visión del ayuntamiento, que no es relevante para la descripción de",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "carlos-tejedor",
+   "razon": "rechazada tras corrección: El texto afirma que 'en sus alrededores se conservan los trazados de la antigua estación Flora', dato que no aparece en la información de origen.",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "arenoso",
+   "razon": "fraseo calcado de samana-rd: \"segun el censo de poblacion y vivienda\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "sabanas-de-san-angel",
+   "razon": "fraseo calcado de canalete: \"es un municipio del norte de colombia\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "ezequiel-montes",
+   "razon": "fraseo calcado de castanos: \"es una ciudad situada en el centro\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "parroquia-crucita",
+   "razon": "rechazada tras corrección: La ficha menciona que los humedales del valle frecuentan las garzas, pero la fuente solo menciona que se pueden observar garzas en el valle, sin mencionar específicamente los humedales.; La ficha menc",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "mazamitla",
+   "razon": "rechazada tras corrección: La cifra de población se presenta como \"11.671\" mientras que el material original indica \"11,671\"; la cifra no aparece literalmente en la fuente.",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "irazola",
+   "razon": "fraseo calcado de supe-departamento-de-lima: \"es uno de los cinco distritos que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "padilla",
+   "razon": "fraseo calcado de jaumave: \"es uno de los 43 municipios que\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "constitucion-departamento-de-pasco",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 109 caracteres (debe estar entre 110 y 160)",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "san-jose-acatempa",
+   "razon": "fraseo calcado de quesada-guatemala: \"un municipio del departamento de jutiapa en\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "diego-de-almagro",
+   "razon": "fraseo calcado de vallenar: \"es una ciudad y comuna del norte\"",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "napo",
+   "razon": "rechazada tras corrección: Menciona que se sitúa 'en el norte del Perú', dato geográfico que no figura en el material de origen.; Añade que los barrios son 'tradicionales', adjetivo no respaldado por la fuente.; Afirma que San ",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "santiago-ixtayutla",
+   "razon": "rechazada tras corrección: La ficha menciona que la entidad se sitúa en la región sur del estado, dentro de la zona conocida por su diversidad cultural, lo que no se encuentra en la fuente.; La ficha describe la población y sus",
+   "fecha": "2026-11-15"
+  },
+  {
+   "slug": "el-quebrachal",
+   "razon": "fraseo calcado de las-lajitas: \"es una ciudad del departamento anta en\"",
+   "fecha": "2026-11-15"
   }
  ]
 }

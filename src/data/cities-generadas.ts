@@ -45538,5 +45538,1289 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Tzucacab, municipio del sur de Yucatán, ocupa 1.289 km² y conserva tradiciones mayas, con fiestas como el 16 de septiembre y el 20 de noviembre.",
     "aboutTitle": "Tzucacab: territorio maya y su convenio de 1848",
     "about": "Tzucacab es uno de los 106 municipios que conforman el estado de Yucatán, situado en la zona sur del territorio. Su extensión territorial es de 1.289 km² y se ubica entre las coordenadas 19°38′ y 20°9′ de latitud norte y 88°59′ y 89°14′ de longitud oeste, a una altitud promedio de 36 metros sobre el nivel del mar. El clima es cálido subhúmedo, con lluvias en verano; la temperatura media anual se sitúa en 26.3 °C y la precipitación anual promedio es de 108.4 milímetros. Según el II Conteo de Población y Vivienda de 2005, el municipio cuenta con 13.564 habitantes, de los cuales 6.900 son hombres y 6.664 mujeres.\n\nEn la época prehispánica el territorio formaba parte del cacicazgo de Cochuah. En 1848 se firmó el convenio de Tzucacab entre el batab maya Jacinto Pat y el líder político de Yucatán Miguel Barbachano, intentando poner fin a la Guerra de Castas. La cultura maya sigue presente en sus tradiciones y celebraciones. Entre las fiestas civiles destacan el aniversario de la Independencia de México el 16 de septiembre y el aniversario de la Revolución mexicana el 20 de noviembre; también se celebra el Día de la Santa Cruz. Estas festividades reflejan la mezcla de herencia indígena y costumbres nacionales que caracterizan al municipio."
+  },
+  {
+    "slug": "castillo",
+    "name": "Castillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 181,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Duarte",
+    "regionSlug": "duarte",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-francisco-de-macoris",
+      "la-vega",
+      "moca",
+      "republica-dominicana",
+      "santo-domingo",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Castillo, municipio de Duarte en República Dominicana, cuenta con el río Nigua de 14 km y una población de 16.786 habitantes según datos recientes.",
+    "aboutTitle": "Río Nigua y la historia de Castillo, Duarte",
+    "about": "Castillo es un municipio de la provincia Duarte, en la República Dominicana, situado en la zona norte del país. El nombre del municipio honra a Manuel María Castillo, nacido en Santo Domingo en 1795 y fallecido en 1856, quien participó en la conspiración contra la ocupación haitiana y organizó la adhesión de la zona a la recién proclamada república en 1844.\n\nEl poblado se originó a mediados del siglo XIX a orillas del río Nigua, conocido entonces como Nigua, y formaba parte del municipio de San Francisco de Macorís, provincia Espaillat. En 1895 se erigió como puesto cantonal bajo el nombre actual de Castillo y, tras la reforma constitucional de 1907, pasó a ser municipio de la entonces provincia Pacificador, hoy Duarte. Según el Censo de 2022, la población total asciende a 16.786 habitantes, de los cuales 8.630 son hombres y 8.156 mujeres, distribuidos entre 6.499 residentes urbanos y 10.287 rurales. La economía es mayoritariamente agrícola, centrada en la producción de víveres, arroz, frutas y cacao."
+  },
+  {
+    "slug": "el-parral",
+    "name": "El Parral",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "durango",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Parral, municipio de Chiapas creado en 2011, se ubica en la región La Fraylesca y limita al norte con Suchiapa y al sur con la Presa La Angostura.",
+    "aboutTitle": "Ríos y reforestación en El Parral, Chiapas",
+    "about": "El Parral es un municipio chiapaneco perteneciente a la región La Fraylesca. Fue creado el 14 de noviembre de 2011 cuando la LXIV Legislatura del Congreso del Estado aprobó la reforma constitucional que estableció su cabecera en la villa del mismo nombre. Se sitúa en la latitud 16.3686 y longitud -93.0066, limitando al norte con Suchiapa, al este con Chiapa de Corzo, al suroeste con Villa Corzo, al sur con la Presa La Angostura, al sureste con La Concordia y al oeste con Villaflores. El relieve varía entre 500 y 1.300 m sobre el nivel del mar, combinando mesetas, cañadas y sierras de la Sierra Madre de Chiapas y la Depresión Central.\n\nEn cuanto a recursos hídricos, el municipio forma parte de las cuencas de los ríos Lacantún y Grijalva, destacando arroyos como Huanacaxtle, Santo Domingo, Macoite y El Amate, además de la presa Belisario Domínguez (La Angostura). La vida comunitaria incluye actividades como la reforestación realizada el 14 de julio de 2025, y la final de la Liga Municipal de Fut‑7 el 27 de julio de 2025, eventos que reflejan el dinamismo local."
+  },
+  {
+    "slug": "landazuri",
+    "name": "Landázuri",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Santander",
+    "regionSlug": "santander",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cimitarra",
+      "barbosa-santander",
+      "chiquinquira",
+      "socorro",
+      "puerto-berrio",
+      "santander",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Landázuri, municipio santandereano de la provincia de Vélez, se ubica a 286 km de Bucaramanga y destaca por su producción de cacao.",
+    "aboutTitle": "Cacao, historia y geografía de Landázuri, Santander",
+    "about": "Landázuri es un municipio del departamento de Santander, Colombia, y forma parte de la provincia de Vélez. Está situado al suroeste del departamento, a 286 kilómetros de Bucaramanga por la vía de Vélez y por la troncal panamericana vía Cimitarra 240 kilómetros, de los cuales una parte no es aún pavimentada. Su actividad económica se centra en la agricultura, principalmente en el cacao y en menor porcentaje en el café; la ganadería también hace parte de su economía en menor proporción . El municipio lleva el nombre en honor del ilustre colono y forjador del centro poblado, José María Landázuri, homenaje que le hizo Aquileo Parra. En la época colonial se llamaba Sábana Alta, luego brevemente Paraje de Belisario y, a mediados del siglo XIX, recibió el nombre de Colonia de Navaja. Bajo su jurisdicción se encuentran centros poblados como Bajo Jordán, Kilómetro 15, Choroló, La India, Miralindo, Plan de Armas, Río Blanco y San Ignacio del Opón."
+  },
+  {
+    "slug": "santa-teresita",
+    "name": "Santa Teresita",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-clemente-del-tuyu",
+      "general-juan-madariaga",
+      "pinamar-divisadero",
+      "villa-gesell",
+      "dolores",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Teresita, fundada el 3 de marzo de 1946, destaca por sus extensas playas en la costa atlántica de la Provincia de Buenos Aires y su clima templado.",
+    "aboutTitle": "Playas y costanera de Santa Teresita, la joya atlántica de la Costa",
+    "about": "Santa Teresita es una localidad turística situada en el Partido de La Costa, Provincia de Buenos Aires, Argentina. Se ubica sobre la costa del Mar Argentino, limitando al norte con Costa Chica, al sur con Mar del Tuyú, al oeste con la Ruta Provincial 11 y al este con el océano Atlántico. Fue fundada el 3 de marzo de 1946 por el abogado y contador Lázaro Freidenberg y se desarrolló como destino de veraneo, conocida por su clima templado oceánico y sus extensas playas. Entre sus atractivos destacan la costanera, los espacios verdes, calles arboladas y una variada oferta gastronómica y comercial, además de la práctica de deportes como el críquet y el tenis.\n\nSegún la estimación de 2010 la población ronda los 15 000 habitantes. La toponimia proviene de un parador llamado Santa Teresa, nombrado por Nunez da Conceição, y adoptó el diminutivo Santa Teresita tras la sugerencia de Juan José Cacace, aprobada por el historiador Ricardo Levene, añadiéndose entre paréntesis “Jagüel del medio” para orientar a los pobladores."
+  },
+  {
+    "slug": "supe-puerto-departamento-de-lima",
+    "name": "Supe Puerto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 97,
+    "votes": 168,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lima",
+    "regionSlug": "departamento-de-lima",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huacho",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Supe Puerto, distrito costero del Departamento de Lima creado el 5 de diciembre de 1905, destaca por su puerto histórico vinculado a la civilización de Caral.",
+    "aboutTitle": "Puerto histórico de Supe Puerto y su vínculo con Caral",
+    "about": "Supe Puerto, oficialmente Distrito de Supe Puerto, pertenece a la Provincia de Barranca, Departamento de Lima, Perú. Limita al norte con la provincia de Barranca, al sur con el distrito de Supe Pueblo, al este con la campiña de Supe Pueblo y Barranca, y al oeste con el Océano Pacífico. Forma parte de la Diócesis de Huacho. Su origen se remonta al periodo arcaico tardío (3000‑1800 a.C.) con el asentamiento de Áspero, vinculado a la antigua ciudad de Caral, que probablemente sirvió como centro pesquero del valle.\n\nEl distrito se constituyó mediante Ley del 5 de diciembre de 1905, bajo el gobierno del presidente José Pardo y Barreda, separándose del distrito de Supe. Durante varias épocas, Puerto Supe fue uno de los puertos más importantes del país, impulsado por la exportación de productos de las haciendas de Paramonga y San Nicolás. En su historia destacan visitas de personalidades como el escritor José María Arguedas, la poeta Blanca Varela y el presidente Fernando Belaúnde Terry en 1963, cuando Víctor H. Zavala Vellutini era alcalde."
+  },
+  {
+    "slug": "chepica",
+    "name": "Chépica",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "curico",
+      "rancagua",
+      "talca",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chépica, comuna de la provincia de Colchagua en la Región del Libertador General Bernardo O'Higgins, se constituyó el 22 de diciembre de 1891 mediante decreto.",
+    "aboutTitle": "Chépica: origen mapudungún, historia y clima mediterráneo",
+    "about": "Chépica es una comuna ubicada en la provincia de Colchagua, dentro de la Región del Libertador General Bernardo O'Higgins, en la zona central de Chile. El nombre proviene del mapudungún Chedpika, que significa ‘hierba grama’, y el pueblo fue conocido originalmente como San Antonio de Colchagua. La comuna se constituyó el 22 de diciembre de 1891 mediante decreto y, hasta el 6 de mayo de 1894, estuvo bajo la administración municipal de Curicó, fecha en la que se creó la municipalidad de Chépica. En 1904 se incorporó al nuevo departamento de Santa Cruz y, el 19 de agosto de 1918, se segregó parte de su territorio para formar la comuna de Auquinco. Posteriormente, el 1 de febrero de 1928, Chépica incorporó el territorio de Auquinco, que fue suprimida. Según la clasificación climática de Köppen, Chépica presenta un clima mediterráneo de lluvias invernales (Csb), con temperaturas promedio entre 14 y 32 °C y una altitud aproximada de 200 m sobre el nivel del mar. En 1960 la comuna sufrió los efectos del terremoto de Valdivia, uno de los más fuertes registrados. Con la regionalización de 1976, Chépica pasó a formar parte de la provincia de Colchagua dentro de la región de O'Higgins."
+  },
+  {
+    "slug": "picsi-departamento-de-lambayeque",
+    "name": "Picsi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Picsi, distrito de Chiclayo en Lambayeque, Perú, fue creado el 12 de noviembre de 1823 y alberga restos arqueológicos de más de 500 años a.C.",
+    "aboutTitle": "Restos arqueológicos de San Miguel de Farcape en Picsi",
+    "about": "Picsi es uno de los veinte distritos que conforman la provincia de Chiclayo, en el departamento de Lambayeque, al norte del Perú. Su origen político se remonta a 1823, cuando Simón Bolívar decretó su creación y la autoridad municipal la ratificó mediante el acuerdo Nª 013-91. En 1999 los investigadores hallaron en el pueblo restos arqueológicos de más de 500 años a.C., pertenecientes a una cultura fastuosa del cacicazgo de Cinto, conocida entonces como San Miguel de Farcape, lo que convierte al distrito en un potencial atractivo turístico dentro del corredor lambayecano.\n\nEl territorio estuvo habitado desde la época de Cinto y Collique, y más tarde los españoles fundaron el pueblo de San Miguel de Picsi, registrado en 1593 y donado el 6 de noviembre de 1641 por doña Juana de Carvajal al Colegio de Trujillo. La población se reforzó con los sobrevivientes del desastre de la \"Pequeña Potosí\" en Zaña y sufrió una epidemia que marcó su historia. El distrito se consolidó formalmente el 12 de noviembre de 1823 mediante Decreto Presidencial."
+  },
+  {
+    "slug": "mancora",
+    "name": "Máncora",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Piura",
+    "regionSlug": "departamento-de-piura",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "talara",
+      "tumbes",
+      "sullana",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Máncora, distrito de Talara en Piura, celebra en julio la festividad de la Virgen del Carmen y cubre una superficie de 100,19 km².",
+    "aboutTitle": "Máncora: distrito de Talara y su fiesta de la Virgen del Carmen",
+    "about": "Máncora es uno de los seis distritos que conforman la provincia de Talara, ubicada en el departamento de Piura, en el norte del Perú. El distrito tiene una superficie de 100,19 km². Desde el punto de vista jerárquico de la Iglesia católica, forma parte de la Vicaría Foránea de Talara de la arquidiócesis de Piura.\n\nEl distrito fue creado por Ley n.º 818 del 14 de noviembre de 1908, en el primer gobierno del presidente Augusto Leguía. Entre sus tradiciones locales destaca la festividad de la Virgen del Carmen, que se celebra en el mes de julio.\n\nEn el período 2019‑2022 el alcalde del distrito fue José Alexander Ramírez Granda, del Movimiento de Desarrollo Local Modelo Región Piura, y entre los regidores se encontraban Naldo Francisco Maceda Estrada y Martín Saavedra Olivos, entre otros. El comisario de la zona es el capitán PNP Pier Ruiz Contreras, mientras que el capitán de Puerto de Talara es el capitán de corbeta Víctor Lun Pun Torres."
+  },
+  {
+    "slug": "fray-mamerto-esquiu",
+    "name": "Fray Mamerto Esquiú",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Catamarca",
+    "regionSlug": "provincia-de-catamarca",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Fray Mamerto Esquiú, nacido el 11 de mayo de 1826 en Piedra Blanca, Catamarca, fue fraile, obispo y beatificado en 2021.",
+    "aboutTitle": "Fray Mamerto Esquiú: legado del fraile catamarqueño",
+    "about": "Fray Mamerto de la Ascensión Esquiú nació el 11 de mayo de 1826 en la localidad argentina de Piedra Blanca, en la provincia de Catamarca, hijo de Santiago Esquiú y María de las Nieves Medina. A los cinco años, bajo la influencia de su madre, comenzó a usar el hábito franciscano, decisión que mantuvo toda su vida. Ingresó al noviciado del convento franciscano catamarqueño el 31 de mayo de 1836 y, al cumplir veintidós años, se ordenó sacerdote, celebrando su primera misa el 15 de mayo de 1849. Desde joven dictó cátedra de filosofía y teología en la escuela del convento y se dedicó a la educación de niños, impartiendo fervientes homilías. En 1850 comenzó a impartir filosofía en el colegio secundario fundado por el gobernador Manuel Navarro. Su defensa encendida de la Constitución Argentina de 1853 le dio relevancia política. Fue beatificado en 2021, reconociendo su legado religioso y social."
+  },
+  {
+    "slug": "granados",
+    "name": "Granados",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 161,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Baja Verapaz",
+    "regionSlug": "departamento-de-baja-verapaz",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "villa-nueva",
+      "antigua-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Granados, municipio de Baja Verapaz en Guatemala, celebra la fiesta del Cristo Negro del 12 al 15 de enero y destaca por la extracción de feldespato y oro.",
+    "aboutTitle": "Granados: fiesta del Cristo Negro y minería de feldespato",
+    "about": "Granados es un municipio del departamento de Baja Verapaz, Guatemala, que lleva el nombre del expresidente Miguel García Granados. Según el censo de 1994 del INE, la población era de 10.096 habitantes y su superficie es de aproximadamente 248 km². La localidad recibió su nombre el 13 de enero de 1893, cuando el gobierno del general José María Reina Barrios la rebautizó en honor al liberal Miguel García Granados, sustituyendo la antigua hacienda y trapiches de Saltán. La cabecera municipal se trasladó a la finca El Rodeo, considerada de mayor capacidad para el cultivo y el desarrollo del municipio, situada en las faldas de la sierra de Chuacus y en la cuenca del río Motagua. La economía local se apoya en la extracción de minerales como feldespato, grafito, mármol verde‑azul, cuarzo, asbesto y oro. En 1999 se construyó la parroquia del Cristo Negro de Granados, iniciativa del sacerdote Felipe Rodas Franco. El municipio celebra dos fiestas titulares: la del Cristo Negro, del 12 al 15 de enero, y la de San Pedro y San Pablo, el 29 de junio. Granados también es reconocido por sus refrescos de rosa de Jamaica y tamarindo, que atraen a familias guatemaltecas y turistas en busca de tranquilidad."
+  },
+  {
+    "slug": "espejo",
+    "name": "Espejo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 185,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Carchi",
+    "regionSlug": "provincia-de-carchi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tulcan",
+      "ibarra",
+      "ipiales",
+      "tuquerres",
+      "pasto",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Espejo, cantón de Carchi (Ecuador), cubre 549,01 km² a 2.983 m s.n.m., con clima frío andino y semitropical y la Cascada El Pailón.",
+    "aboutTitle": "Cascada El Pailón y la Reserva Ecológica de El Ángel en Espejo",
+    "about": "Espejo es un cantón situado en la provincia de Carchi, en el norte de Ecuador, cuya cabecera es la población de El Ángel. El nombre del cantón rinde homenaje a Eugenio Espejo, destacado científico y prócer de la independencia, según lo dispuesto por el Consejo al crear la entidad. Con una extensión de 549,01 km² y una altitud media de 2.983 m sobre el nivel del mar, el territorio combina paisajes de clima frío andino, con temperaturas entre 10 °C y 15 °C, y zonas semitropicales que alcanzan los 26 °C. Entre los atractivos turísticos destacan la Cascada El Pailón, la Cascada Tuscuaza, las aguas termales Blas Ángel, la laguna El Voladero, la Reserva Ecológica El Ángel, la laguna de Rasococha, el Cerro Crespo y el bosque de Polylepis. La división política incluye la parroquia urbana de El Ángel y las rurales de El Goaltal, La Libertad y San Isidro. Según el censo de 2010, la población es mayoritariamente mestiza (95,1 %), con pequeñas proporciones de blancos, afroecuatorianos, indígenas y montubios."
+  },
+  {
+    "slug": "sartimbamba",
+    "name": "Sartimbamba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 172,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de La Libertad",
+    "regionSlug": "departamento-de-la-libertad",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cajamarca",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sartimbamba, distrito de La Libertad en Perú, alberga las pinturas rupestres de Quilca y la antigua mina Monserrate.",
+    "aboutTitle": "Pinturas rupestres de Quilca y la mina Monserrate en Sartimbamba",
+    "about": "Sartimbamba es uno de los ocho distritos que integran la provincia de Sánchez Carrión, en el departamento de La Libertad, Perú. Limita al norte con el departamento de Cajamarca, al este con las provincias de Bolívar y Pataz, al oeste con los distritos de Marcabal y Chugay, y al sur con el distrito de Cochorco. Desde el punto de vista eclesiástico pertenece a la Prelatura de Huamachuco.\n\nEn el territorio se conservan las pinturas rupestres de Quilca, ubicadas en cuevas que sirvieron como centros de adoración y representan los reinos animal, vegetal y mineral. Los hallazgos ceramográficos muestran influencias de las culturas Chimú y Chavín, con predominio de los colores amarillo y gris. Posteriormente la zona formó parte del señorío de los Wamachukos y, durante la época incaica, se organizó como un cacicazgo fortificado. Con la llegada de los españoles se explotaron las minas Monserrate, y el asentamiento pasó a llamarse CitapUquio."
+  },
+  {
+    "slug": "tzintzuntzan",
+    "name": "Tzintzuntzan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 161,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "morelia",
+      "uruapan",
+      "irapuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tzintzuntzan, antigua capital del imperio purépecha, se asienta a orillas del lago de Pátzcuaro en el centro norte de Michoacán.",
+    "aboutTitle": "El legado del templo del Colibrí Mensajero en Tzintzuntzan",
+    "about": "Tzintzuntzan, conocida antiguamente como Mechuacán, fue la ciudad más importante del imperio purépecha y su capital. El nombre proviene del purépecha Tsꞌintsuntsani, traducido como ‘Lugar de los colibríes’, y alude al templo del dios colibrí mensajero que albergaba la comunidad. Los mexicas, al pasar por estas tierras, la llamaron Michhuacan, y el fraile Maturino Gilberti, en 1559, publicó un vocabulario bajo el título ‘Lengua de Mechoacán’, referencia a la lengua hablada en el sitio.\n\nLa localidad actual se sitúa en la zona lacustre del centro norte de Michoacán, justo al borde del lago de Pátzcuaro, llamado en el siglo XVI ‘laguna de Mechoacan’. En el cerro Yahuarato, antes denominado Cerro de Uhcumo según el Códice Plancarte, se erigió un templo sobre cinco yácatas, cada una con un santuario dedicado a una de las deidades de las cinco partes del mundo, destacando la figura del Colibrí Mensajero. El topónimo se descompone en tsintsun‑, raíz que alude al colibrí, -tza‑, afijo de rapidez, y -an, sufijo locativo que indica ‘lugar donde está asentado el templo’."
+  },
+  {
+    "slug": "villa-vasquez",
+    "name": "Villa Vásquez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Monte Cristi",
+    "regionSlug": "provincia-de-monte-cristi",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "puerto-plata",
+      "santiago-de-los-caballeros",
+      "moca",
+      "la-vega",
+      "republica-dominicana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Vásquez, municipio de Monte Cristi con 16.434 habitantes (censo 2022) y clima semiárido de 26,5 °C, destaca por su historia de cambios de nombre.",
+    "aboutTitle": "Clima semiárido y legado histórico de Villa Vásquez",
+    "about": "Villa Vásquez es un municipio de la provincia de Monte Cristi, República Dominicana. Tiene una superficie de 220 km² y, según el Censo Nacional de 2022, una población de 16.434 habitantes, con 8.428 hombres y 8.006 mujeres. El clima es semiárido, con temperatura media anual de 26,5 °C, precipitación anual de 700 mm y evaporación de 1.800 mm, lo que genera un fuerte déficit hídrico; en el litoral costero pueden transcurrir hasta seis meses sin lluvias, bajo la influencia de los vientos alisios del noreste. La escasez hídrica se agudiza por una evaporación media de 1.800 mm al año.\n\nEn su historia, el municipio pasó por varios cambios de nombre: originalmente Santa Ana, pasó a llamarse Villa Vásquez en honor a Horacio Vásquez, luego Demetrio Rodríguez (Ley 1055, 14 de diciembre 1935), Villa Isabel (Ley 1385, 17 de septiembre 1937), Villa Lucas Evangelista de Peña (1960) y recuperó el nombre actual en 1962. El 20 de junio 1938 se convirtió en municipio de Montecristi mediante la Ley 1521, y en 1944 sufrió un grave incendio que marcó su desarrollo urbano. El municipio se extiende sobre 220 km², lo que lo convierte en una zona de baja densidad poblacional."
+  },
+  {
+    "slug": "nacozari-de-garcia",
+    "name": "Nacozari de García",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 183,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nacozari de García, municipio sonorense en la Sierra Madre Occidental, cuenta con 52 localidades según el censo 2020 y una historia política desde 1912.",
+    "aboutTitle": "Región alta de la Sierra Madre Occidental y su estructura municipal",
+    "about": "Nacozari de García es uno de los 72 municipios de Sonora, situado en la región alta de la Sierra Madre Occidental. Según el censo de 2020, el municipio comprende 52 localidades.\n\nComo el resto de los municipios mexicanos, su gobierno está a cargo de un presidente municipal y un cabildo de regidores que ejercen el poder durante tres años, con posibilidad de reelección inmediata. El primer presidente municipal provisional, José S. Romero, fue nombrado por Plutarco Elías Calles bajo instrucciones del gobernador José María Maytorena en diciembre de 1912. Las elecciones para el primer ayuntamiento se celebraron el 19 de enero de 1913, resultando electo Ramón Gil Samaniego. Desde entonces, la lista de presidentes municipales incluye a Manuel S. Molina (1922‑1923), Martín C. Corral (1923‑1924), Alfredo P. Martínez (1924‑1925), Francisco Cárdenas (1925‑1926), Jesús D. Molina (1926‑1927) y Trinidad Durán (1927‑1928), entre otros, reflejando la continuidad institucional del municipio.\n\nLos mandatarios posteriores continúan la sucesión: Edmundo Parra Montaño (1955‑1958), Jesús Félix Bernal (1958‑1961), Eliseo Navarro Valenzuela (1961‑1964), Antonio García Cázares (1964‑1967), José Ernesto Ortiz Terán (1967‑1970), Ernesto Zacarías Peraza Munguía (1970‑1973) y Víctor Manuel Ortiz Quintero (1982‑1984), manteniendo la tradición de alternancia política en la entidad."
+  },
+  {
+    "slug": "las-charcas",
+    "name": "Las Charcas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 193,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de Azua",
+    "regionSlug": "provincia-de-azua",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bani",
+      "san-cristobal-rd",
+      "barahona",
+      "republica-dominicana",
+      "santo-domingo",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Las Charcas, municipio oriental de Azua con 14.341 habitantes, conserva las ruinas del ingenio colonial Cepi Cepí, fundado en 1546 por Diego Caballero.",
+    "aboutTitle": "Ingenio colonial Cepi Cepí y la historia de Las Charcas",
+    "about": "Las Charcas es un municipio de la República Dominicana situado en la provincia de Azua, el más al este de la zona. Su territorio abarca 251,23 km² y se extiende por las laderas que descienden desde la vertiente sur de la Cordillera Central. El origen del municipio se remonta a la época colonial, cuando en 1546 se fundó el ingenio de azúcar Cepi Cepí bajo la dirección de Diego Caballero de la Rosa. En aquel entonces trabajaban alrededor de 70 esclavos negros y 365 indígenas, cuyas ruinas aún se conservan bajo el nombre popular de “Casa de los Indios”. El ingenio fue uno de los focos de los conflictos con los cimarrones que asolaban la región. Un hecho destacado ocurrió el 2 de febrero de 1973, cuando el coronel Francisco Alberto Caamaño desembarcó en Playa Caracoles, frente al municipio, para iniciar una guerrilla contra el gobierno de Joaquín Balaguer. Las Charcas recibió la categoría de distrito municipal el 12 de agosto de 1978 mediante la Ley 917 y, el 15 de septiembre de 2001, fue elevado a municipio. Según el censo de 2022, la población total era de 14.341 habitantes, con 7.470 hombres y 6.871 mujeres."
+  },
+  {
+    "slug": "isidro-ayora",
+    "name": "Isidro Ayora",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Guayas",
+    "regionSlug": "guayas",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "daule",
+      "guayaquil",
+      "milagro",
+      "babahoyo",
+      "la-libertad",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Isidro Ayora, cantón del Guayas, celebra su fiesta de cantonización cada 22 de noviembre y es famoso por sus hamacas artesanales.",
+    "aboutTitle": "Isidro Ayora, el cantón de las hamacas y su fiesta de cantonización",
+    "about": "Isidro Ayora es uno de los veinticinco cantones de la provincia del Guayas, situado al noroeste de la región. Lleva el nombre del expresidente Isidro Ramón Ayora Cueva y su cabecera cantonal, la ciudad del mismo nombre, comparte esa denominación. La zona se originó como la parroquia San Juan Soledad en 1841 y en 1928 adoptó el nombre de Isidro Ayora en homenaje al presidente de entonces. Dentro del cantón se encuentran recintos como Agua Blanca, Las Mercedes, Ciénega Redonda, Corozal, San Agustín, Pueblo Nuevo, La Chonta y Rosa de Oro, entre otros, que han contribuido al desarrollo.\n\nEl cantón es conocido como el cantón de las hamacas, una referencia a sus elaboradas artesanías que atraen al turismo nacional. El Parque Central, junto a la iglesia, constituye el principal espacio de recreación para niños, jóvenes y adultos. Además, es una de las parroquias eclesiásticas más antiguas de Guayas, con 152 años de fundación desde 1862. La gastronomía local incluye fritadas de cerdo, tortillas de maíz rallado y horneadas, arroz con menestra, carne asada al carbón, seco de gallina y encebollado de pescado. Cada 22 de noviembre se celebra la fiesta de cantonización, una fecha señalada en el calendario del cantón."
+  },
+  {
+    "slug": "la-merced",
+    "name": "La Merced",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 199,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Salta",
+    "regionSlug": "provincia-de-salta",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rosario-de-lerma",
+      "el-carril",
+      "salta",
+      "general-guemes",
+      "monterrico",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "La Merced, localidad del departamento Cerrillos en Salta, se ubica a 23 km al sur de la capital y destaca por su producción de tabaco Virginia.",
+    "aboutTitle": "Tabaco Virginia y el Valle del Lerma en La Merced",
+    "about": "La Merced es una localidad del departamento Cerrillos, en la provincia de Salta, Argentina. Se encuentra a la vera de la RN 68, a 23 km al sur de la ciudad de Salta, capital de la provincia, y está situada en el valle del Lerma. Según datos del INDEC, la población pasó de 3.594 habitantes en 1991 a 5.084 en 2001, lo que supuso un crecimiento del 41,5 %. La economía local gira en torno a la producción de tabaco Virginia, actividad iniciada en la década del 40 con las primeras fincas como La Cañadita, Santa Ana y Seminario. Hoy siguen trabajando productores como Héctor Lazarte, Agustín Pandolfi, Antonio Yelamo Resina y la familia García Vera, entre otros, aunque el sector enfrenta dificultades por los precios internacionales. Además, la producción de porotos se ha convertido en una fuente importante de ingresos, impulsada por la crisis tabacalera y la expansión de la exportación salteña. Estos cultivos mantienen activa la vida rural de los mercedeños y sostienen la economía del municipio."
+  },
+  {
+    "slug": "ixtlan-de-los-hervores",
+    "name": "Ixtlán de los Hervores",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 111,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Michoacán",
+    "regionSlug": "michoacan",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-barca",
+      "jamay",
+      "ocotlan",
+      "atotonilco-el-alto",
+      "arandas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ixtlán de los Hervores, municipio de Michoacán, destaca por su géiser de 30 m de altura y por su fundación azteca organizada en 1598 por Don Lucas Carrillo.",
+    "aboutTitle": "El géiser de 30 m y la historia azteca de Ixtlán de los Hervores",
+    "about": "Ixtlán de los Hervores es una localidad del estado de Michoacán, cabecera del municipio homónimo. Su nombre proviene del purépecha y significa “lugar donde abunda la fibra de maguey”. Fundada según el historiador Zamacois por los aztecas, fue organizada como pueblo por Don Lucas Carrillo en 1598, reuniendo comunidades indígenas dispersas. En la época prehispánica formaba parte del gran cacicazgo de Tototlán, situado en el Valle de Cuina, y fue conquistada por las huestes de Nuño de Guzmán, que introdujeron la catequesis a cargo de Fray Juan de Bodia. El curato dependió del obispo de Morelia en 1777 y, más tarde, del de Zamora en 1864. Tras la independencia, la Ley Territorial de 10 de diciembre de 1831 la incluyó en el partido de Zamora. La población se ubica a 135 km de Morelia y a sólo 30 km de Zamora. Destaca su géiser, que cuando está activo se eleva unos 30 m de altura y puede verse a distancia desde la carretera. Rafael Landívar, en su obra Rusticatio mexicano, lo describió como «Inexplicable portento», señalando la violenta salida de agua y finas hebras de cristal. Este fenómeno natural es uno de los símbolos más reconocidos del municipio."
+  },
+  {
+    "slug": "san-ignacio-rio-muerto",
+    "name": "San Ignacio Río Muerto",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-obregon",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Ignacio Río Muerto es un municipio del suroeste de Sonora que nació el 27 de diciembre de 1996 tras separarse de Guaymas.",
+    "aboutTitle": "Historia y origen de la Colonia Agrícola Militar Río Yaqui",
+    "about": "San Ignacio Río Muerto es un municipio del suroeste de Sonora, México. Se constituyó oficialmente el 27 de diciembre de 1996, cuando el Congreso del Estado aprobó la creación de un nuevo municipio tras su separación del municipio de Guaymas, facilitando a los habitantes la gestión de asuntos municipales sin desplazarse a la cabecera de Guaymas. La zona urbana tiene sus orígenes el 22 de enero de 1944, cuando se asentaron los primeros contingentes que hoy forman la colonia militar y la zona urbana Jacinto López, subdividida en los ejidos Chumampaco, Ignacio Zaragoza y El Pensador Mexicano (datos de 2018). La Colonia Agrícola Militar “Río Yaqui” se creó mediante resolución presidencial el 6 de junio de 1911, beneficiando a 72 colonos con una superficie de 5,220 hectáreas. En noviembre de 1949 la zona quedó integrada al municipio de Guaymas mediante la Ley Número Cuatro. Posteriormente, el 26 de diciembre de 1996, la Ley número 254 publicada en el Boletín Oficial del Gobierno del Estado designó como Municipio Libre la comisaría de San Ignacio Río Muerto, bajo la gobernación del licenciado Manlio Fabio Beltrones Rivera."
+  },
+  {
+    "slug": "villa-la-angostura",
+    "name": "Villa La Angostura",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 156,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Neuquén",
+    "regionSlug": "provincia-de-neuquen",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "bariloche",
+      "san-martin-de-los-andes",
+      "junin-de-los-andes",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa La Angostura, apodada «Jardín de la Patagonia», se ubica en el norte del Parque Nacional Nahuel Huapi a 780 m y está rodeada de lagos y bosques.",
+    "aboutTitle": "Villa La Angostura: Cardenal Samoré y el Jardín de la Patagonia",
+    "about": "Villa La Angostura es una ciudad de Argentina situada en el departamento Los Lagos, en el sur de la provincia del Neuquén, dentro de la Patagonia. Está enclavada en el sector norte del Parque Nacional Nahuel Huapi y se caracteriza por estar rodeada de lagos, bosques y montañas, lo que le ha valido el apodo de «Jardín de la Patagonia». A pocos kilómetros se encuentra el paso fronterizo con Chile llamado Cardenal Samoré, y junto a San Carlos de Bariloche y San Martín de los Andes forma un corredor turístico muy frecuentado tanto en verano como en invierno.\n\nFundada bajo el nombre provisional de Nuevo pueblo y futura ciudad industrial Gral. Agustín P. Justo, la denominación definitiva hace referencia al pequeño istmo que une la costa con la península de Quetrihué, cuyo significado mapudungun es «lugar de patos» o «donde hay arrayán». La ciudad se ubica a 780 m sobre el nivel del mar, limita al norte y este con los cerros Bayo (1.782 m), Inacayal (1.840 m) y Belvedere (1.992 m), y al sur y oeste con el lago Nahuel Huapi. El arroyo Las Piedritas la divide en dos y el centro comercial El Cruce, al igual que otros barrios, está construido sobre mallines rellenos con suelo arenoso y escaso en arcilla."
+  },
+  {
+    "slug": "general-paz",
+    "name": "General Paz",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 127,
+    "votes": 219,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chascomus",
+      "general-belgrano",
+      "brandsen",
+      "san-miguel-del-monte",
+      "san-vicente-misiones",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "General Paz, partido del noreste bonaerense, tiene su cabecera en Ranchos a 130 km de Buenos Aires y registró su último sismo en 1888.",
+    "aboutTitle": "General Paz: cabecera Ranchos y límites con Cañuelas",
+    "about": "General Paz es uno de los 135 partidos de la provincia de Buenos Aires y se sitúa en el noreste del territorio provincial. Su cabecera es Ranchos, sobre la ruta 29, a 130 km de Buenos Aires, y forma parte de la Quinta Sección Electoral. En su territorio confluyen los límites al norte con el Partido de Cañuelas, al noreste con San Vicente, al oeste y noroeste con Monte, al este con Brandsen, al sur y sureste con Chascomús y al sudoeste con General Belgrano.\n\nLa zona presenta baja sismicidad; la última expresión sísmica registrada ocurrió el 5 de junio de 1888 a las 3.20 UTC-3, con una magnitud aproximada de 5,0 en la escala de Richter."
+  },
+  {
+    "slug": "incahuasi",
+    "name": "Incahuasi",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 196,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "picsi-departamento-de-lambayeque",
+      "jaen-peru",
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Incahuasi, distrito de la provincia de Ferreñafe en Lambayeque, Perú, está ubicado en la región andina de la cuenca del río La Leche.",
+    "aboutTitle": "Incahuasi, un distrito en la cuenca del río La Leche",
+    "about": "Incahuasi es un distrito situado en la provincia de Ferreñafe, dentro del departamento de Lambayeque, en el norte del Perú. Limita al norte con el distrito de Cañaris, al este con el departamento de Cajamarca, al oeste con el distrito de Salas y al sur con el distrito de Pítipo. El nombre proviene de la comunidad indígena que se estableció en su centro, cuya fundación data de 1747 en el contexto de la defensa de los territorios nativos frente a los hacendados de Sangana Canchachalá y Janque. El distrito fue oficialmente creado mediante la Ley del 17 de febrero de 1951, durante el gobierno del presidente Manuel A. Odría. Geográficamente pertenece a la región andina, en la vertiente Pacífica de la cordillera oriental de los Andes, y se encuentra a lo largo de la cuenca del río La Leche. Según datos locales, el 80 % de la población tiene como primera lengua el quechua Inkawasi‑Kañaris. Desde el punto de vista eclesiástico, Incahuasi forma parte de la diócesis de Chiclayo."
+  },
+  {
+    "slug": "juan-de-acosta",
+    "name": "Juan de Acosta",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Atlántico",
+    "regionSlug": "atlantico",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "baranoa",
+      "galapa",
+      "puerto-colombia",
+      "polonuevo",
+      "sabanalarga",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juan de Acosta, municipio del Atlántico a 40 km de Barranquilla, limita al norte con el mar Caribe, al oriente con Baranoa y al sur con Piojó y Usiacurí.",
+    "aboutTitle": "Juan de Acosta: puerto caribeño y su fiesta en agosto",
+    "about": "Juan de Acosta es un municipio colombiano situado en el occidente del departamento del Atlántico. Limita al norte con el mar Caribe, al nororiente con Tubará, al oriente con Baranoa, al sur con Piojó y Usiacurí, y al occidente nuevamente con el mar Caribe. La cabecera municipal se encuentra a 40 km de Barranquilla, a la que se accede por la carretera del Algodón y la autopista al Mar.\n\nBajo su jurisdicción están los centros poblados de Bocatocino, Chorrera, San José de Saco y Santa Verónica. En la época colonial la zona se conocía como Arroyo Hondo, caracterizada por arroyos de aguas prístinas, colinas, llanos y vegetación espesa. A finales del siglo XVI la población, compuesta inicialmente por tres familias, formaba parte del Partido de Tierradentro, habitado por los indígenas Mocaná, descendientes de los Caribe. En 1599 el territorio aún llevaba el nombre de Arroyo Hondo y en 1606 Juan de Acosta y López organizó una finca que perduró veinte años antes de pasar al Santísimo Sacramento de Tubará; en 1720 el latifundio fue vendido al presbítero de Tubará Diego Lob."
+  },
+  {
+    "slug": "rafael-lara-grajales",
+    "name": "Rafael Lara Grajales",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 200,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "acajete",
+      "san-salvador-el-seco",
+      "tepatlaxco-de-hidalgo",
+      "libres",
+      "acatzingo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rafael Lara Grajales, un municipio en el estado mexicano de Puebla, nombrado en honor al general revolucionario Rafael Lara Grajales.",
+    "aboutTitle": "Rafael Lara Grajales, un municipio con historia ferroviaria",
+    "about": "El municipio de Rafael Lara Grajales es uno de los 217 municipios que conforman al estado mexicano de Puebla. La demarcación fue nombrada en honor al general revolucionario Rafael Lara Grajales, oriundo del municipio. Su cabecera es la Ciudad de Rafael Lara Grajales. En la época prehispánica, se han encontrado vasijas y figuras ornamentales de barro en la zona, lo que sugiere la presencia de asentamientos humanos de grupos nahuas. Durante el siglo XIX, la construcción de la línea de Ferrocarril Mexicano (México - Veracruz) y la posterior construcción de una línea que comunicaría la Ciudad de Puebla con la Ciudad de Xalapa, Veracruz, impulsaron el crecimiento de la población en la zona. El 24 de marzo de 1922 fue fundada formalmente la localidad de San Marcos, que posteriormente fue rebautizada como Villa Central."
+  },
+  {
+    "slug": "santiago-jocotepec",
+    "name": "Santiago Jocotepec",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 160,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "isla",
+      "tres-valles",
+      "cosamaloapan",
+      "carlos-a-carrillo",
+      "tierra-blanca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santiago Jocotepec, municipio oaxaqueño de 14.135 habitantes, destaca por el río Monte Negro y el Cerro Caliente en su paisaje templado.",
+    "aboutTitle": "Río Monte Negro y la riqueza forestal de Santiago Jocotepec",
+    "about": "Santiago Jocotepec, también llamado Xolotepec, es uno de los 570 municipios que integran el estado de Oaxaca. Pertenece al distrito de Choapam, dentro de la región del Papaloapan, y su cabecera es la localidad de Monte Negro. Según el último censo cuenta con 14.135 habitantes. El topónimo proviene del náhuatl y significa “en el cerro de los frutos ácidos”, formado por las voces Xócotl (fruto ácido), Tepetl (cerro) y C (en). El municipio se asienta en la Sierra Madre Oriental y presenta un clima cálido templado, clasificado como Cfb (clima oceánico) con lluvias veraniegas. Entre sus elevaciones más señaladas destacan el Cerro Caliente, con rumbo a Santiago Jocotepec, y el Cerro Flores. El río Monte Negro, principal curso hidrográfico del territorio, desemboca en el río Papaloapan.\n\nLa riqueza forestal es el recurso más importante, pues la diversidad de especies vegetales se destina a la fabricación de muebles. El suelo fértil favorece la agricultura y el cultivo de árboles frutales. Limita al norte con Santa María Jacatepec, San Juan Bautista Tuxtepec y Loma Bonita; al oeste con Ayotzintepec y Santiago Camotlán; al sur con San Juan Petlapa; y al sureste y este con San Juan Lalana, mientras que al noreste colinda con el estado de Veracruz, específicamente con el municipio de Playa Vicente."
+  },
+  {
+    "slug": "sana",
+    "name": "Saña",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "picsi-departamento-de-lambayeque",
+      "chiclayo",
+      "incahuasi",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Saña es un distrito de la provincia de Chiclayo, en el Departamento de Lambayeque, Perú, con capital en Zaña, perteneciente a la región de Lambayeque.",
+    "aboutTitle": "Saña y la historia de la Sevilla del Perú",
+    "about": "El Distrito de Saña se ubica en el norte del Perú y está administrado por la Municipalidad Distrital de Saña. Limita al norte con Tumán y Pucalá, al este con Cayaltí, al sur con Lagunas y al oeste con Reque. Su capital, Zaña, se encuentra a 51 km de Chiclayo y a 46 m s. n. m. Fue fundada el 29 de noviembre de 1563 por el capitán Baltasar Rodríguez con el nombre de Villa Santiago de Miraflores de Saña. Durante el virreinato, fue conocida como la Sevilla del Perú o Potosí pequeño debido a su opulencia como centro de vías comerciales. En la zona habitaron indígenas descendientes de la cultura mochica, quienes realizaron obras de regadío y establecieron el sitio arqueológico de Huaca Rajada‑Sipán, donde se hallaron las tumbas reales del Señor de Sipán. Posteriormente, los españoles trajeron esclavos negros para el servicio y el trabajo agrícola. La altitud de la capital es de 46 metros sobre el nivel del mar y la distancia a la ciudad de Chiclayo es de 51 kilómetros."
+  },
+  {
+    "slug": "tepoztlan",
+    "name": "Tepoztlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Morelos",
+    "regionSlug": "morelos",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cuernavaca",
+      "emiliano-zapata-edomex",
+      "juchitepec",
+      "ozumba-de-alzate",
+      "san-mateo-huitzilzingo",
+      "morelos",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tepoztlán, pueblo de Morelos con 14.130 habitantes, fue nombrado Pueblo Mágico en 2002 y conserva la pirámide del Tepozteco en su cima.",
+    "aboutTitle": "El Dado y la pirámide del Tepozteco en Tepoztlán",
+    "about": "Tepoztlán es un pueblo del estado de Morelos, en el centro‑sur de México, y sede del municipio homónimo. La cabecera cuenta con 14.130 habitantes, mientras que el municipio tenía 54.987 habitantes en 2020 según INEGI. Su cercanía a la Ciudad de México y su clima agradable lo convierten en un destino turístico popular. Destaca la pirámide en la cima del Tepozteco, visible desde el pueblo, y los helados exóticos y artesanías que venden los locales. Las leyendas y tradiciones hacen que se le considere un lugar místico, y a lo largo del año se celebran numerosos festejos.\n\nUna de las festividades más esperadas es el Día de Muertos, cuando la gente sale con sus hijos a “pedir calaverita” llevando una chilacayota en forma de calavera. En la zona de Meztitla se encuentra “el Dado”, una saliente rocosa en forma de cubo, y su “Dadito” cercano, usadas para rappel, escalada y caminatas; en la temporada de lluvias el agua forma un río que atraviesa el cerro. La gastronomía local incluye pozole, itacates y tacos de cecina. Tepoztlán fue nombrado \"Pueblo Mágico\" en 2002, pero perdió el título en 2009 por incumplir las normas de la categoría."
+  },
+  {
+    "slug": "mejillones",
+    "name": "Mejillones",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Antofagasta",
+    "regionSlug": "region-de-antofagasta",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "antofagasta",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mejillones, comuna del Norte Grande chileno a 65 km al norte de Antofagasta, lleva el nombre del molusco choromytilus chorus, abundante en su costa.",
+    "aboutTitle": "Mejillones: puerto histórico y tradición del mejillón en Antofagasta",
+    "about": "Mejillones es una comuna y ciudad del Norte Grande de Chile, situada a 65 kilómetros al norte de la ciudad de Antofagasta, en la provincia y región del mismo nombre. El topónimo proviene del mejillón Choromytilus chorus, molusco abundante en la costa norte y base alimentaria de los habitantes aborígenes.\n\nDurante la época del Imperio español la localidad aparecía dentro del corregimiento de Copiapó. El 6 de septiembre de 1777 una Real Orden menciona a Mejillones en relación al almojarifazgo. En los mapas de la Armada española de 1792 y del cartógrafo Andrés Baleato de 1793, el territorio se incluía dentro de Chile hasta el paralelo 22° S, mientras que la memoria de 1795 de Gil de Taboada señalaba al río Loa como límite con el Perú. Entre 1838 y 1839 Domingo Latrille explotó guano blanco en la ensenada e islotes cercanos a Punta Angamos, actividad que motivó la Ley de 1841 que fijó la frontera norte de Chile en el paralelo 23. Posteriormente el presidente Manuel Bulnes envió expertos para reconocer la costa atacameña, informando al Congreso."
+  },
+  {
+    "slug": "carlos-tejedor-provincia-de-buenos-aires",
+    "name": "Carlos Tejedor",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "general-villegas",
+      "trenque-lauquen",
+      "general-pico",
+      "pehuajo",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Carlos Tejedor, partido de la provincia de Buenos Aires, celebra el 13 de septiembre la fiesta patronal de San Juan Crisóstomo.",
+    "aboutTitle": "Fiesta patronal y datos demográficos de Carlos Tejedor",
+    "about": "Carlos Tejedor es uno de los 135 partidos que forman la provincia de Buenos Aires, en Argentina. La cabecera del partido lleva el mismo nombre y rinde homenaje al gobernador provincial Carlos Tejedor. El territorio abarca 3.933 km² y la densidad poblacional es de 3,1 hab./km². Cada 13 de septiembre se celebra la fiesta patronal en honor a San Juan Crisóstomo, con actos en la parroquia que lleva su nombre. Entre las localidades del partido se encuentran Carlos Tejedor (6.671 hab.), Tres Algarrobos (4.017 hab.), Colonia Seré (902 hab.), Timote (536 hab.) y Curarú (505 hab.). También forman parte del partido varios parajes, entre los que destacan Colonia El Toro, Drysdale, Encina, Esteban de Luca, Hereford, Húsares, Ingeniero Beaugey, Marucha, Necol y Santa Inés. El Concejo Deliberante está integrado por 12 miembros, renovados por mitades cada dos años, al igual que el Consejo Escolar, compuesto por 6 consejeros con el mismo sistema de renovación."
+  },
+  {
+    "slug": "rancho-arriba",
+    "name": "Rancho Arriba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San José de Ocoa",
+    "regionSlug": "san-jose-de-ocoa",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "las-charcas",
+      "republica-dominicana",
+      "santo-domingo",
+      "san-cristobal-rd",
+      "bani",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rancho Arriba, municipio de San José de Ocoa en República Dominicana, cuenta con 14.052 habitantes y un clima moderado de 28 °C a 15 °C según el censo 2022.",
+    "aboutTitle": "Valle intramontano y clima moderado de Rancho Arriba",
+    "about": "Rancho Arriba es un municipio de la República Dominicana situado en la provincia de San José de Ocoa, enclavado en un valle intramontano al sur de la Cordillera Central. La geografía del lugar le confiere un clima moderado, con temperaturas máximas promedio que oscilan entre 28 °C y 25 °C y mínimas entre 18 °C y 15 °C. Según el Censo de Población y Vivienda de 2022, el municipio tenía una población total de 14 052 habitantes, de los cuales 8 063 eran hombres y 5 989 mujeres.\n\nLos orígenes del nombre se remontan a la época de la colonización española, cuando la zona se conocía como «Rancho del Cazador» por la abundante caza de puercos cimarrones; con la disminución de estos animales, los cazadores trasladaron sus refugios a zonas más altas, de ahí el nombre actual. La Ley n.º 18 del 30 de abril de 1989 fusionó las secciones Rancho Arriba y Arroyo Cañas, creando el distrito municipal integrado por los parajes Pinar Claro, Piedra Blanca, Mahoma, Campeche, La Piña, Los Socías, Sector La Iglesia, El Cruce y el Bambú. Al constituirse la provincia de San José de Ocoa, Rancho Arriba pasó a ser municipio, incorporando también la sección Mahoma."
+  },
+  {
+    "slug": "santa-catalina",
+    "name": "Santa Catalina",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "luruaco",
+      "villanueva-bolivar",
+      "santa-rosa",
+      "repelon",
+      "cartagena",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Catalina, municipio bolivarense a 44 km al noreste de Cartagena, es uno de los dos con frente costero y cuenta con 153 km² de territorio.",
+    "aboutTitle": "Frente costero y puerto natural de Santa Catalina",
+    "about": "Santa Catalina es un municipio del departamento de Bolívar, situado a 44 km al noreste de Cartagena de Indias. Forma parte de la región litoral Caribe y se ubica en la zona de influencia del Canal del Dique. Limita al norte y al oriente con los municipios de Piojó y Luruaco (Atlántico), al occidente con el Mar Caribe y Cartagena, y al sur con Clemencia y Villanueva. Con una altitud de 20 m sobre el nivel del mar, ocupa una superficie de 153 km² y, según el censo de 2005, contaba con 12.058 habitantes.\n\nSus costas fueron exploradas entre 1509 y 1510 por Alonso de Ojeda y Diego de Nicuesa, quienes describieron la ensenada de Galerazamba como un puerto natural idóneo para fundar una ciudad. En ese momento la zona estaba habitada por indígenas caribes bajo el liderazgo del cacique Zamba; Nicuesa capturó a la india Catalina, quien luego sirvió como intérprete en expediciones posteriores. El asentamiento recibió el nombre de Santa Catalina en honor a la santa homónima y fue oficialmente fundado el 2 de julio de 1744 mediante decreto del virrey Sebastián de Eslava, que ordenó reubicar a los pobladores de los lugares de Zamba, Palmarito y Pajonal."
+  },
+  {
+    "slug": "zorritos",
+    "name": "Zorritos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Tumbes",
+    "regionSlug": "departamento-de-tumbes",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tumbes",
+      "mancora",
+      "duran",
+      "machala",
+      "talara",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zorritos, distrito costero del norte peruano, cuenta con 14.028 habitantes y fue fundado el 25 de noviembre de 1942 bajo la Ley N.º 9667.",
+    "aboutTitle": "Hervideros y origen histórico de Zorritos, Tumbes",
+    "about": "Zorritos es un distrito de la provincia de Contralmirante Villar, en el departamento de Tumbes, norte del Perú. Limita al norte y al oeste con el golfo de Guayaquil (océano Pacífico), al este con la provincia de Tumbes, al sur con el distrito de Casitas y al suroeste con el distrito de Canoas de Punta Sal. Con una extensión de 644.52 km², su capital, también llamada Zorritos, funciona como capital provincial. El distrito fue creado el 25 de noviembre de 1942 mediante Ley N.º 9667, en el primer gobierno del presidente Manuel Prado Ugarteche.\n\nSegún el censo de 2025, el distrito tiene 14.028 habitantes, 7.092 hombres y 6.936 mujeres, con una densidad poblacional de 21.8 hab./km². La población adulta mayor representa el 13.32 % del total. El 84 % de la población se declara católica, formando parte de la Vicaría foránea de Tumbes de la arquidiócesis de Piura. Entre sus atractivos turísticos destacan los Hervideros, aguas termales situadas a 13 km al sur de la localidad, cuyas temperaturas alcanzan los 30 °C y cuyas aguas contienen sal, cloruro de magnesio, óxido de hierro y sílice."
+  },
+  {
+    "slug": "montevideo-rural",
+    "name": "Montevideo rural",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Montevideo",
+    "regionSlug": "departamento-de-montevideo",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "uruguay",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Montevideo rural, zona agraria del departamento, cubre unos 350 km², representa el 60 % del territorio y alberga 21 000 habitantes, formando cinturón verde.",
+    "aboutTitle": "El cinturón verde y la producción agropecuaria de Montevideo rural",
+    "about": "Montevideo rural es el conjunto de áreas rurales del Departamento de Montevideo, Uruguay, que comprende zonas agrarias, espacios naturales y territorios de transición urbano‑rural. El área rural ocupa unos 350 km², aproximadamente el 60 % del departamento, e incluye localidades como Melilla y los Bañados de Carrasco. Aunque pertenece al mismo ejecutivo que la capital, la zona sigue generando confusión sobre los límites de la capital departamental y su jurisdicción, permaneciendo bajo la dependencia de la Intendencia de Montevideo. Los Bañados de Carrasco, zona característica, forman parte del territorio rural. Melilla, localidad incluida, conserva su carácter tradicional y agrícola. A pesar de que Montevideo es el departamento con menor superficie agropecuaria del país, su rol agrícola es significativo: el Censo General Agropecuario de 2011 registró 16 116 hectáreas productivas y 1 317 explotaciones agropecuarias. Este territorio, conocido como el \"cinturón verde\" de la ciudad, aporta valor productivo, ambiental, paisajístico y sociocultural, combinando actividades agrícolas con la proximidad a la zona metropolitana."
+  },
+  {
+    "slug": "tierra-amarilla",
+    "name": "Tierra Amarilla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de Atacama",
+    "regionSlug": "region-de-atacama",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "copiapo",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tierra Amarilla es una comuna minera y agrícola de la Región de Atacama, situada a 15 kilómetros de Copiapó en el valle de Kellollampu.",
+    "aboutTitle": "La comuna de Tierra Amarilla en el valle de Kellollampu",
+    "about": "Tierra Amarilla es una ciudad y comuna chilena ubicada en el Norte Chico, dentro de la Región de Atacama y a 15 kilómetros de Copiapó. Los historiadores señalan que la zona estuvo habitada por quechuas, quienes denominaban al valle Kellollampu, término de origen aimara que equivale a polvo o tierra amarilla. Las actividades económicas locales se concentran en la minería, donde destacan los pirquineros, y la agricultura centrada en la uva. El sector de Paipote forma junto a Copiapó una conurbación urbana.\n\nEn su historia reciente y geografía destacan menciones documentadas como la de Francisco Astaburoaga en su Diccionario Geográfico de 1899 o la de Luis Risopatrón en 1924. En marzo de 2015, la comuna sufrió un temporal que provocó el desborde del Río Copiapó, aludes y cortes de energía y fibra óptica. Más recientemente, el 1 de agosto de 2022, se produjo un socavón de 25 metros de ancho y 64 metros de profundidad cerca de la mina de cobre Alcaparrosa, cuyo diámetro creció a 50 metros días después. La comuna abarca además la aldea de Los Loros y caseríos como Nantoco, Amolanas, Hornitos y Embalse Lautaro."
+  },
+  {
+    "slug": "roque-perez",
+    "name": "Roque Pérez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 206,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "lobos",
+      "navarro",
+      "san-miguel-del-monte",
+      "saladillo",
+      "canuelas",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Roque Pérez, partido de la provincia de Buenos Aires, celebra cada año la Carrera Solidaria; la 3ª edición se realizó el 8 de noviembre de 2026.",
+    "aboutTitle": "La Carrera Solidaria y la historia del partido de Roque Pérez",
+    "about": "Roque Pérez es uno de los 135 partidos de la provincia de Buenos Aires, situado en el noreste de la provincia entre los 59° y 60° de longitud oeste y 35° 38’ de latitud sur. Su cabecera lleva el mismo nombre. Por el partido pasa la Ruta Nacional 205 y la Ruta Provincial 30, que facilitan el acceso a la zona. El partido lleva el nombre de José Roque Pérez, abogado nacido en Córdoba en 1815, destacado por su labor en la organización de la francmasonería y primer Venerable Maestro de la Gran Logia de la Argentina; falleció durante la epidemia de fiebre amarilla de 1871 mientras presidía la Comisión Popular de Salubridad.\n\nEn 1848, bajo autorización de Juan Manuel de Rosas, se concedió a N. Viruga el permiso para instalar una pulpería en el paraje que luego se conocería como La Paz. En 1856 Ramón Portos y Manuel Millán fundaron la pulpería “El Toro” cerca de la estancia La Biznaga, y en 1859 Portos y Manuel González establecieron el boliche “La Paz”, que aún se conserva. El 8 de noviembre de 2026 se realizó la tercera edición de la Carrera Solidaria y el 7 de noviembre de 2026 la Escuela Primaria Nº 10 celebró su centenario."
+  },
+  {
+    "slug": "presidencia-de-la-plaza",
+    "name": "Presidencia de la Plaza",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Chaco",
+    "regionSlug": "provincia-de-chaco",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "machagai",
+      "quitilipi",
+      "presidencia-roque-saenz-pena",
+      "general-jose-de-san-martin",
+      "el-colorado",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Presidencia de la Plaza, cabecera del departamento homónimo en Chaco, destaca por su ganadería y la Fiesta de la Inmaculada Concepción el 8 de diciembre.",
+    "aboutTitle": "Ganadería y feria Juntos por Plaza en Presidencia de la Plaza",
+    "about": "Presidencia de la Plaza, conocida simplemente como Plaza, es la cabecera del departamento Presidencia de la Plaza en la provincia del Chaco, Argentina. La localidad surgió en 1910 alrededor de una estación del ferrocarril que conectaba Barranqueras con Metán y recibió su nombre en honor a la Presidencia de Victorino de la Plaza (1914‑1916). El primer poblador, Victorio Ghío, inició la explotación de los extensos quebrachales, y entre los primeros habitantes destacó Celestino Fernando Veuthey, que en 1917 se instaló en un predio de 3.300 hectáreas dedicado principalmente a la ganadería.\n\nDurante la primera mitad del siglo, Plaza se consolidó como uno de los principales núcleos habitacionales de la provincia. La ganadería sigue siendo la actividad económica dominante, influida por las tierras bajas y anegadizas al sur de la ciudad, mientras que la fabricación de muebles con maderas de los bosques locales aporta ingresos adicionales. La ruta Nacional N.º 16, parte del Corredor Bioceánico que une Brasil y Chile, y la ruta provincial N.º 7 facilitan el acceso, siendo esta última pavimentada hasta Colonias Unidas en 2021. La localidad celebra la Fiesta de la Inmaculada Concepción de María el 8 de diciembre y organiza la Exposición Provincial del Ternero Chaqueño en la primera quincena de febrero, bajo la Sociedad Rural de Presidencia de la Plaza. Además, cuenta con la feria franca “Juntos por Plaza”."
+  },
+  {
+    "slug": "ciudad-manuel-doblado",
+    "name": "Ciudad Manuel Doblado",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 175,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guanajuato",
+    "regionSlug": "guanajuato",
+    "channels": [
+      "guanajuato",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "arandas",
+      "san-miguel-el-alto",
+      "atotonilco-el-alto",
+      "irapuato",
+      "san-juan-de-los-lagos",
+      "guanajuato",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ciudad Manuel Doblado, en Guanajuato, es la cabecera municipal del municipio homónimo; está a 1 725 m s.n.m. y fue declarada ciudad el 16 de noviembre de 1899.",
+    "aboutTitle": "Fundación y reconocimiento de Ciudad Manuel Doblado",
+    "about": "Ciudad Manuel Doblado es la cabecera municipal del municipio homónimo, situada en el estado de Guanajuato, México. Oficialmente llamada Ciudad Manuel Doblado, es una ciudad mexicana ubicada en dicho estado. Se encuentra en el noroeste del municipio, a 1 725 m sobre el nivel del mar, con coordenadas 101°57'12'' oeste y 20°43'49'' norte. La población se fundó en 1681 como el puesto de Piedra Gorda; en 1693 se le añadió el nombre de San Pedro Piedra Gorda a petición de Tomás Manrique de la Cerda para erigirse allí una congregación. El 16 de noviembre de 1899, mediante decreto del gobernador Joaquín Obregón González, se le reconoció oficialmente como ciudad. Su nombre actual fue puesto en honor a Manuel Doblado, gobernador de Guanajuato de 1846‑1847 y de 1860‑1861. El nombre original, Piedra Gorda, se debe a que según la tradición en el lugar donde se asentaron existía una piedra de gran tamaño y gruesa, a tal punto que se decía que allí se sentaban los gobernantes prehispánicos para sus actos públicos."
+  },
+  {
+    "slug": "atlantida-departamento-de-canelones",
+    "name": "Atlántida",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Uruguay",
+    "parentSlug": "uruguay",
+    "provincia": "Departamento de Canelones",
+    "regionSlug": "departamento-de-canelones",
+    "channels": [
+      "uruguay",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-de-la-costa",
+      "uruguay",
+      "montevideo",
+      "las-piedras",
+      "minas",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Atlántida, municipio del sureste de Canelones en Uruguay, 147 km² de superficie y está al oeste del arroyo Solís Chico.",
+    "aboutTitle": "Atlántida: municipio al oeste del arroyo Solís Chico",
+    "about": "Atlántida es un municipio del departamento de Canelones, situado en la zona sureste del mismo y con la ciudad homónima como sede. El municipio se encuentra localizado en la zona sureste del departamento de Canelones, al oeste del arroyo Solís Chico. Limita al oeste con el municipio de Salinas, al noroeste con Empalme Olmos, al norte con San Jacinto, al este con Parque del Plata y Soca, y al sur con el Río de la Plata. Su territorio incluye las localidades de Atlántida, Villa Argentina, City Golf y Estación Atlántida, y forma parte del distrito electoral CMC del departamento. El municipio fue creado por Ley Nº 18.653 del 15 de marzo de 2010 y ocupa una superficie de 147 km². La autoridad municipal está integrada por el Concejo Municipal, compuesto por el alcalde y cuatro concejales. En julio de 2025 se instaló el nuevo Concejo 2025‑2030 encabezado por Ernesto Capano de la Coalición Republicana, tras la ceremonia con el intendente del departamento, Francisco Legnani."
+  },
+  {
+    "slug": "tisaleo",
+    "name": "Tisaleo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 220,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Tungurahua",
+    "regionSlug": "provincia-de-tungurahua",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ambato",
+      "riobamba",
+      "latacunga",
+      "quevedo",
+      "babahoyo",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tisaleo, cantón de Tungurahua con 12.137 habitantes, destaca por su producción lechera en la parroquia rural de Quinchicoto.",
+    "aboutTitle": "Producción lechera y agricultura en Quinchicoto, Tisaleo",
+    "about": "Tisaleo es una municipalidad del cantón homónimo en la provincia de Tungurahua, Ecuador. Con una superficie de 59 km² y una población de 12.137 habitantes, se ubica entre el cantón Ambato al norte y al oeste, Mocha al sur y Cevallos al este. El cantón está dividido en dos parroquias: la urbana Tisaleo, que funciona como cabecera cantonal, y la rural Quinchicoto, cuya economía se basa en la agricultura y la ganadería, destacándose la producción lechera. En Quinchicoto se concentran varios caseríos, entre ellos Santa Lucía (Centro, La Libertad, Bellavista y Agua Santa), Alobamba, San Diego, San Luis, San Francisco, El Calvario y Chilco (La Esperanza).\n\nLa autoridad municipal está a cargo del alcalde Milton Ramírez, electo para el periodo 15 de mayo de 2023 al 15 de mayo de 2027. El gobierno autónomo descentralizado ofrece servicios de infraestructura, cultura y proyectos de desarrollo, y promueve eventos como las fiestas cantonales y patronales. Más información y trámites están disponibles en el sitio oficial del municipio (http://tisaleo.gob.ec/)."
+  },
+  {
+    "slug": "estacion-juarez-celman",
+    "name": "Estación Juárez Celman",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cordoba-argentina",
+      "malagueno",
+      "jesus-maria-colonia-caroya-sinsacate",
+      "villa-carlos-paz-san-antonio-de-arredondo-villa-rio-icho-cruz",
+      "alta-gracia",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Estación Juárez Celman está a 19 km del centro de Córdoba y se conecta con la capital por la Ruta Nacional 9 y el Ferrocarril General Belgrano.",
+    "aboutTitle": "Estación Juárez Celman y su vínculo ferroviario",
+    "about": "Estación Juárez Celman es una ciudad del departamento Colón, en la provincia de Córdoba, Argentina. Se sitúa a 19 km del centro de la ciudad de Córdoba y está conectada con ella por la Ruta Nacional 9 y por el Ferrocarril General Belgrano. La población se formó gracias al tendido del ferrocarril y a empresas creadas en la zona, y lleva el nombre de Miguel Juárez Celman, presidente de la República entre 1886 y 1890. En diciembre de 1990 adquirió la categoría de municipio al unirse las comisiones vecinales de los barrios Juárez Celman y Parque Norte; desde 2008 es considerada ciudad tras el censo provincial. Integra la región Metropolitana de Córdoba y funciona como “ciudad dormitorio”, ya que gran parte de sus residentes trabajan en la capital, mayormente en el sector informal. El municipio comprende nueve barrios: Barrio Juárez Celman, Barrio IPV 24 de Enero, Barrio Luján, Barrio Villa Los Llanos, Barrio Parque Norte, Barrio Almirante Brown, Barrio Ciudad de los Niños, Barrio 1 de Agosto y Barrio Villa Pastora. El núcleo poblacional más antiguo es el Barrio Juárez Celman, formado en torno a la estación del ferrocarril en el “km 18”."
+  },
+  {
+    "slug": "patate",
+    "name": "Patate",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 162,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Tungurahua",
+    "regionSlug": "provincia-de-tungurahua",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ambato",
+      "tisaleo",
+      "riobamba",
+      "latacunga",
+      "sangolqui",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Patate, cantón de Tungurahua, se cantonizó el 13 de septiembre de 1973 y es conocido por su agricultura de mandarina, aguacate y durazno.",
+    "aboutTitle": "Patate: agricultura y legado del terremoto de 1797",
+    "about": "Patate es un cantón de la provincia de Tungurahua, Ecuador, cuya cabecera cantonal es la ciudad de San Cristóbal de Patate. Cuenta con una población de 6.720 habitantes y una superficie de 315 km². El cantón se creó el 13 de septiembre de 1973, tras separarse del cantón Pelileo durante el gobierno de Guillermo Rodríguez Lara. Limita al norte con el cantón Píllaro y la provincia de Napo, al sur con los cantones Baños y Pelileo, al este con el cantón Baños y al oeste con los cantones Píllaro y Pelileo. Patate está dividido en cuatro parroquias: la urbana Patate y las rurales El Triunfo, Los Andes (cabecera en Poatug) y Sucre (cabecera en Sucre‑Patate Urcu). La economía local depende de la agricultura; entre sus productos destacan la mandarina, el aguacate, el durazno, el babaco, el tomate de árbol, la guayaba, el níspero, el maíz y el tomate riñón. En 1797 un terremoto destruyó el pueblo y desde entonces se venera la imagen del Señor del Terremoto en la iglesia principal del centro cantonal. Patate también ha sido afectada por las erupciones del volcán Tungurahua."
+  },
+  {
+    "slug": "polotitlan",
+    "name": "Polotitlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de México",
+    "regionSlug": "estado-de-mexico",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlacomulco-de-fabela",
+      "santa-teresa",
+      "tequixquiac",
+      "coyotepec",
+      "tepotzotlan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Polotitlán, municipio del Estado de México creado en 1875, cuenta con 14.985 habitantes (censo 2020) y su nombre une el apellido Polo con el náhuatl titlán.",
+    "aboutTitle": "Polotitlán de la Ilustración: origen del nombre y su historia",
+    "about": "Polotitlán es uno de los 125 municipios del Estado de México, cuya cabecera lleva el nombre de Polotitlán de la Ilustración. Según el censo de 2020, la población total del municipio asciende a 14.985 habitantes y está conformada por 29 localidades. El nombre Polotitlán es un falso topónimo náhuatl que combina el apellido Polo con la palabra titlán, interpretado como “Lugar de los Polo”. La designación «de la Ilustración» hace referencia al movimiento cultural del siglo XVIII.\n\nLa población se fundó en 1774 bajo el nombre de San Antonio del Río por José Felipe Polo, quien fungió como su primer alcalde. Sus hijos José Rafael, José Trinidad y Manuel participaron apoyando el bando independentista durante la Independencia de México. En 1852 la ranchería adquirió el rango de pueblo bajo el nombre de San Antonio Polotitlán, en honor a la familia Polo. El 27 de septiembre de 1875 es establecido el municipio de Polotitlán, con cabecera en la localidad homónima. Tres años después, en 1878, su cabecera pasó a llamarse Polotitlán de la Ilustración."
   }
 ];

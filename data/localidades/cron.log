@@ -5999,3 +5999,157 @@ Groq: HT
 [2026-11-14T07:31:17.717Z]   ✗ mancora: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-11-14T07:31:17.717Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-11-14T07:31:17.921Z] publicadas 10 salas · acumuladas 1531 · quedan 1505 en cola
+[2026-11-15T01:30:07.141Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-15T01:30:07.152Z] cola: 1498 · lote de hoy: 50
+[2026-11-15T01:30:08.516Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-15T01:30:29.224Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-15T01:30:50.956Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-15T01:31:14.340Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-15T01:31:35.044Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-15T01:31:55.586Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-15T01:32:16.277Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-15T01:32:36.973Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-15T01:32:56.975Z]   ✗ morovis: sin fuente utilizable
+[2026-11-15T01:33:17.916Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-15T01:33:39.057Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-15T01:33:59.752Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-15T01:34:20.463Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-15T01:34:41.179Z]   ✗ omealca: sin fuente utilizable
+[2026-11-15T01:35:01.872Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-15T01:35:21.873Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-15T01:35:42.585Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-15T01:36:03.271Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-15T01:36:24.174Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-15T01:36:44.175Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-15T01:37:04.903Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-15T01:37:25.624Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-15T01:37:46.132Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-15T01:44:29.413Z]   ✗ chala: fraseo calcado de parcoy: "es uno de los trece distritos que"
+[2026-11-15T01:51:52.240Z]   ✓ castillo (República Dominicana) — escribió Groq, verificó Gemini
+[2026-11-15T01:53:03.782Z]   ✗ jepelacio: fraseo calcado de santa-lucia-cotzumalguapa: "se basa en la agricultura destacando la"
+[2026-11-15T02:00:52.457Z]   ✓ el-parral (México) — escribió Groq, verificó Gemini
+[2026-11-15T02:13:00.279Z]   ✗ cosio: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T02:20:28.510Z]   ✓ landazuri (Colombia) — escribió Groq, verificó Gemini
+[2026-11-15T02:23:48.078Z]   ✗ tuzantla: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-15T02:32:55.422Z]   ✗ union-hidalgo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-15T02:40:29.004Z]   ✗ chinchao: fraseo calcado de tabalosos: "es uno de los once distritos que"
+[2026-11-15T02:43:28.040Z]   ✗ seybaplaya: fraseo calcado de hecelchakan: "de los trece municipios del estado de"
+[2026-11-15T02:51:15.990Z]   ✗ erongaricuaro: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-15T02:58:09.424Z]   ✗ asuncion-ixtaltepec: fraseo calcado de santos-reyes-nopala: "uno de los 570 municipios que conforman"
+[2026-11-15T02:59:32.120Z]   ✗ purepero-de-echaiz: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-11-15T03:04:55.481Z]   ✗ aguililla: fraseo calcado de maravatio: "segun el censo de 2020 la poblacion"
+[2026-11-15T03:11:38.304Z]   ✗ tamesis: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-15T03:25:16.095Z]   ✗ irimbo: fraseo calcado de santiago-ixcuintla: "es la cabecera del municipio homonimo en"
+[2026-11-15T03:26:31.518Z]   ✓ santa-teresita (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T03:33:13.917Z]   ✗ la-apartada: fraseo calcado de palermo-colombia: "es un municipio colombiano situado en el"
+[2026-11-15T03:44:23.039Z]   ✗ yaxcaba: fraseo calcado de chemax: "es uno de los 106 municipios del"
+[2026-11-15T03:51:04.389Z]   ✗ angamacutiro: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-15T04:03:21.257Z]   ✗ cascas: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T04:10:01.279Z]   ✗ san-pedro-tapanatepec: fraseo calcado de la-huerta: "y la altitud varia de nivel del"
+[2026-11-15T04:12:43.243Z]   ✗ sanagoran: fraseo calcado de elias-soplin-vargas: "uno de los ocho distritos que conforman"
+[2026-11-15T04:17:23.173Z]   ✓ supe-puerto-departamento-de-lima (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-15T04:21:32.106Z]   ✗ jose-sabogal: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T04:33:55.153Z]   ✓ chepica (Chile) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-15T04:40:26.451Z]   ✗ zozocolco-de-hidalgo: fraseo calcado de pueblo-viejo: "es uno de los 212 municipios que"
+[2026-11-15T04:53:26.368Z]   ✗ talpa-de-allende: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T05:04:02.847Z]   ✗ alonso-de-alvarado: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T05:11:07.792Z]   ✗ yarada-los-palos: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T05:20:51.912Z]   ✗ obando: rechazada tras corrección: La mención a que la zona fue 'transformada por la agricultura y la minería, configurando la identidad actual del municipio' no está respaldada por el texto, que solo menciona que los colonizadores bus
+[2026-11-15T05:27:26.318Z]   ✓ picsi-departamento-de-lambayeque (Perú) — escribió Groq, verificó Gemini
+[2026-11-15T05:34:14.656Z]   ✗ nabon: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-15T05:45:03.684Z]   ✗ tepetzintla: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T05:58:10.270Z]   ✗ mariano-nicolas-valcarcel: fraseo calcado de yungay-departamento-de-ancash: "es uno de los ocho distritos que"
+[2026-11-15T06:11:06.671Z]   ✗ saposoa: fraseo calcado de paijan-peru: "es un distrito del norte del peru"
+[2026-11-15T06:18:14.796Z]   ✗ campanilla: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T06:23:34.948Z]   ✓ mancora (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-15T06:26:10.039Z]   ✗ las-guaranas: fraseo calcado de tenares: "estaban desocupadas y el promedio de personas"
+[2026-11-15T06:32:28.247Z]   ✗ pomabamba-departamento-de-ancash: rechazada tras corrección: La ficha menciona que el distrito 'está ubicado en la sierra peruana', lo que no se encuentra en el material de origen; La ficha menciona que 'su relieve es montañoso', lo que no se encuentra en el ma
+[2026-11-15T06:38:38.988Z]   ✓ fray-mamerto-esquiu (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T06:42:04.564Z]   ✗ guayacanes: fraseo calcado de villa-altagracia: "un municipio de la republica dominicana ubicado"
+[2026-11-15T06:48:54.209Z]   ✓ granados (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-11-15T06:56:07.995Z]   ✗ zapotillo: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:05:48.128Z]   ✗ huaca: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:12:18.396Z]   ✗ desaguadero: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:25:53.933Z]   ✗ tinguindin: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:30:39.917Z]   ✓ espejo (Ecuador) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-15T07:37:21.342Z]   ✗ anapoima: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:43:56.330Z]   ✗ san-gabriel-provincia-de-carchi: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:50:33.951Z]   ✗ las-rosas-provincia-de-santa-fe: fraseo calcado de funes: "una ciudad de la provincia de santa"
+[2026-11-15T07:57:04.258Z]   ✗ santo-domingo-xenacoj: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-15T07:57:39.957Z]   ✗ sopetran: fraseo calcado de betulia: "del departamento de antioquia en colombia limita"
+[2026-11-15T08:05:18.982Z]   ✗ masisea: controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 163 caracteres (debe estar entre 110 y 160)
+[2026-11-15T08:18:07.279Z]   ✓ sartimbamba (Perú) — escribió Groq, verificó Gemini
+[2026-11-15T08:19:09.236Z]   ✓ tzintzuntzan (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T08:20:19.232Z]   ✓ villa-vasquez (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-15T08:29:30.656Z]   ✗ eten: fraseo calcado de picsi-departamento-de-lambayeque: "la provincia de chiclayo en el departamento"
+[2026-11-15T08:36:43.630Z]   ✗ lancones: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-15T08:41:04.136Z]   ✗ chiconquiaco: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-15T08:47:34.465Z]   ✗ celica: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T08:49:04.176Z]   ✓ nacozari-de-garcia (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T08:52:34.633Z]   ✗ santa-rosalia: rechazada tras corrección: La ficha menciona que la presidenta municipal de Mulegé, Edith Aguilar Villavicencio, encabezó el abanderamiento del contingente del municipio para las Olimpiadas Estatales CONADE en 2027, lo que no e
+[2026-11-15T09:02:21.739Z]   ✓ las-charcas (República Dominicana) — escribió Groq, verificó Gemini
+[2026-11-15T09:06:50.972Z]   ✗ pomata: rechazada tras corrección: La ficha afirma que el distrito se creó en 1821, pero la fuente solo menciona que se creó en los años de la Independencia del Perú (1821), lo que no necesariamente implica que se creó exactamente en 1
+[2026-11-15T09:14:22.597Z]   ✗ peumo: fraseo calcado de chimbarongo: "forma parte del distrito electoral n 16"
+[2026-11-15T09:19:15.988Z]   ✓ isidro-ayora (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-15T09:20:28.551Z]   ✓ la-merced (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T09:26:08.084Z]   ✓ ixtlan-de-los-hervores (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T09:28:49.322Z]   ✗ algarrobo: fraseo calcado de olaya-herrera: "dentro de su jurisdiccion se encuentran los"
+[2026-11-15T09:34:20.562Z]   ✗ natagaima: fraseo calcado de coyaima: "es un municipio del sur del tolima"
+[2026-11-15T09:40:56.948Z]   ✗ sivia: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T09:42:43.935Z]   ✗ manseriche: fraseo calcado de barranca: "vicariato apostolico de yurimaguas tambien llamado vicariato"
+[2026-11-15T09:45:24.420Z]   ✓ san-ignacio-rio-muerto (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T09:52:28.362Z]   ✗ el-barrio-de-la-soledad: fraseo calcado de santiago-pinotepa-nacional: "es uno de los 570 municipios del"
+[2026-11-15T09:53:48.097Z]   ✗ iparia: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-15T10:02:07.542Z]   ✗ fernando-lores: fraseo calcado de tabalosos: "es uno de los once distritos que"
+[2026-11-15T10:05:50.416Z]   ✗ ranchillos-y-san-miguel: controles de calidad: aboutTitle de 89 caracteres (debe estar entre 25 y 70)
+[2026-11-15T10:12:44.159Z]   ✗ chillia: fraseo calcado de chicama-departamento-de-la-libertad: "en el departamento de la libertad al"
+[2026-11-15T10:15:50.518Z]   ✓ villa-la-angostura (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T10:22:50.072Z]   ✗ lagunas-departamento-de-loreto: fraseo calcado de vice: "de los seis distritos que integran la"
+[2026-11-15T10:24:57.776Z]   ✗ llata: fraseo calcado de anta: "desde el punto de vista eclesiastico pertenece"
+[2026-11-15T10:30:10.891Z]   ✓ general-paz (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T10:35:24.864Z]   ✗ coyomeapan: rechazada tras corrección: La ficha menciona que la agricultura se orienta a cultivos de subsistencia adaptados a la altitud, lo que no se menciona en el material de origen.; Se menciona que la comunidad mantiene vivas sus trad
+[2026-11-15T10:42:59.710Z]   ✓ incahuasi (Perú) — escribió NVIDIA, verificó Gemini
+[2026-11-15T10:47:18.665Z]   ✓ juan-de-acosta (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-15T10:47:57.729Z]   ✗ campo-grande: fraseo calcado de aristobulo-del-valle: "es una localidad de la provincia de"
+[2026-11-15T10:49:01.303Z]   ✗ villa-berthet: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-15T10:53:35.700Z]   ✓ rafael-lara-grajales (México) — escribió NVIDIA, verificó Gemini
+[2026-11-15T10:54:30.753Z]   ✓ santiago-jocotepec (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T11:02:49.843Z]   ✓ sana (Perú) — escribió NVIDIA-Gemma, verificó Groq
+[2026-11-15T11:03:42.074Z]   ✓ tepoztlan (México) — escribió Groq, verificó NVIDIA
+[2026-11-15T11:16:58.837Z]   ✗ ccatca: rechazada tras corrección: El nombre del distrito aparece como "Ccatcca" en la fuente, mientras que la ficha lo escribe "Ccatca", lo que no está respaldado por el material original.
+[2026-11-15T11:17:20.156Z]   ✗ canaris: es una división administrativa, no una localidad
+[2026-11-15T11:19:51.028Z]   ✗ espindola: fraseo calcado de majagual: "se basa en la agricultura y la"
+[2026-11-15T11:26:27.990Z]   ✗ titiribi: fraseo calcado de betulia: "es un municipio de la subregion suroeste"
+[2026-11-15T11:36:30.631Z]   ✗ san-sebastian-tlacotepec: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-15T11:40:17.078Z]   ✗ ocotepec: rechazada tras corrección: El chat de Ocotepec no tiene datos en la fuente, pero no es un problema. Sin embargo, la ficha incluye información sobre la misión y visión del ayuntamiento, que no es relevante para la descripción de
+[2026-11-15T11:46:52.955Z]   ✓ mejillones (Chile) — escribió Groq, verificó Gemini
+[2026-11-15T11:54:21.585Z]   ✗ carlos-tejedor: rechazada tras corrección: El texto afirma que 'en sus alrededores se conservan los trazados de la antigua estación Flora', dato que no aparece en la información de origen.
+[2026-11-15T12:07:28.611Z]   ✓ carlos-tejedor-provincia-de-buenos-aires (Argentina) — escribió Groq, verificó Gemini
+[2026-11-15T12:08:41.656Z]   ✗ arenoso: fraseo calcado de samana-rd: "segun el censo de poblacion y vivienda"
+[2026-11-15T12:09:47.784Z]   ✗ sabanas-de-san-angel: fraseo calcado de canalete: "es un municipio del norte de colombia"
+[2026-11-15T12:10:43.611Z]   ✗ ezequiel-montes: fraseo calcado de castanos: "es una ciudad situada en el centro"
+[2026-11-15T12:11:52.628Z]   ✓ rancho-arriba (República Dominicana) — escribió Groq, verificó NVIDIA
+[2026-11-15T12:14:44.948Z]   ✗ parroquia-crucita: rechazada tras corrección: La ficha menciona que los humedales del valle frecuentan las garzas, pero la fuente solo menciona que se pueden observar garzas en el valle, sin mencionar específicamente los humedales.; La ficha menc
+[2026-11-15T12:25:38.841Z]   ✗ mazamitla: rechazada tras corrección: La cifra de población se presenta como "11.671" mientras que el material original indica "11,671"; la cifra no aparece literalmente en la fuente.
+[2026-11-15T12:31:01.515Z]   ✓ santa-catalina (Colombia) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-15T12:32:01.190Z]   ✗ irazola: fraseo calcado de supe-departamento-de-lima: "es uno de los cinco distritos que"
+[2026-11-15T12:38:38.551Z]   ✓ zorritos (Perú) — escribió Groq, verificó Gemini
+[2026-11-15T12:41:50.280Z]   ✓ montevideo-rural (Uruguay) — escribió Groq, verificó NVIDIA
+[2026-11-15T12:43:20.331Z]   ✗ padilla: fraseo calcado de jaumave: "es uno de los 43 municipios que"
+[2026-11-15T12:58:32.378Z]   ✓ tierra-amarilla (Chile) — escribió Gemini, verificó Groq
+[2026-11-15T13:06:12.938Z]   ✓ roque-perez (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T13:09:16.586Z]   ✓ presidencia-de-la-plaza (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T13:14:59.634Z]   ✓ ciudad-manuel-doblado (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-15T13:16:33.578Z]   ✓ atlantida-departamento-de-canelones (Uruguay) — escribió Groq, verificó NVIDIA
+[2026-11-15T13:30:39.072Z]   ✗ constitucion-departamento-de-pasco: controles de calidad: cifra de 5+ dígitos sin separador de miles; intro/meta de 109 caracteres (debe estar entre 110 y 160)
+[2026-11-15T13:31:56.002Z]   ✗ san-jose-acatempa: fraseo calcado de quesada-guatemala: "un municipio del departamento de jutiapa en"
+[2026-11-15T13:38:28.578Z]   ✗ diego-de-almagro: fraseo calcado de vallenar: "es una ciudad y comuna del norte"
+[2026-11-15T13:41:38.237Z]   ✓ tisaleo (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-15T13:50:31.247Z]   ✗ napo: rechazada tras corrección: Menciona que se sitúa 'en el norte del Perú', dato geográfico que no figura en el material de origen.; Añade que los barrios son 'tradicionales', adjetivo no respaldado por la fuente.; Afirma que San 
+[2026-11-15T13:54:32.114Z]   ✓ estacion-juarez-celman (Argentina) — escribió Groq, verificó NVIDIA
+[2026-11-15T13:58:36.131Z]   ✗ santiago-ixtayutla: rechazada tras corrección: La ficha menciona que la entidad se sitúa en la región sur del estado, dentro de la zona conocida por su diversidad cultural, lo que no se encuentra en la fuente.; La ficha describe la población y sus
+[2026-11-15T14:10:40.741Z]   ✓ patate (Ecuador) — escribió Groq, verificó Gemini
+[2026-11-15T14:14:26.154Z]   ✗ el-quebrachal: fraseo calcado de las-lajitas: "es una ciudad del departamento anta en"
+[2026-11-15T14:21:18.266Z]   ✓ polotitlan (México) — escribió Groq, verificó Gemini
+[2026-11-15T14:21:18.266Z] demasiados intentos fallidos, se corta el lote
+[2026-11-15T14:21:18.454Z] publicadas 43 salas · acumuladas 1574 · quedan 1455 en cola
