@@ -6153,3 +6153,157 @@ Groq: HT
 [2026-11-15T14:21:18.266Z]   ✓ polotitlan (México) — escribió Groq, verificó Gemini
 [2026-11-15T14:21:18.266Z] demasiados intentos fallidos, se corta el lote
 [2026-11-15T14:21:18.454Z] publicadas 43 salas · acumuladas 1574 · quedan 1455 en cola
+[2026-11-16T01:30:06.438Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-16T01:30:06.450Z] cola: 1441 · lote de hoy: 50
+[2026-11-16T01:30:09.939Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-16T01:30:30.660Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-16T01:30:51.272Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-16T01:31:16.059Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-16T01:31:36.758Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-16T01:31:57.562Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-16T01:32:18.262Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-16T01:32:39.386Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-16T01:32:59.387Z]   ✗ morovis: sin fuente utilizable
+[2026-11-16T01:33:20.575Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-16T01:33:41.273Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-16T01:34:02.317Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-16T01:34:23.015Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-16T01:34:43.708Z]   ✗ omealca: sin fuente utilizable
+[2026-11-16T01:35:04.412Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-16T01:35:24.414Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-16T01:35:45.225Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-16T01:36:05.914Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-16T01:36:26.868Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-16T01:36:46.869Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-16T01:37:07.686Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-16T01:37:28.274Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-16T01:37:49.007Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-16T01:44:50.726Z]   ✓ union-hidalgo (México) — escribió Groq, verificó NVIDIA
+[2026-11-16T01:47:04.960Z]   ✓ seybaplaya (México) — escribió Groq, verificó NVIDIA
+[2026-11-16T01:51:50.610Z]   ✗ erongaricuaro: fraseo calcado de taretan: "es uno de los 113 municipios del"
+[2026-11-16T01:57:22.288Z]   ✗ asuncion-ixtaltepec: rechazada tras corrección: La ficha menciona que la extensión territorial total es de 661.079 kilómetros cuadrados, pero la fuente original indica que esta cifra es la extensión territorial total de la zona del Istmo de Tehuant
+[2026-11-16T02:04:41.779Z]   ✓ aguililla (México) — escribió Groq, verificó Gemini
+[2026-11-16T02:06:12.451Z]   ✓ tamesis (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-16T02:14:02.558Z]   ✗ la-apartada: fraseo calcado de palermo-colombia: "es un municipio colombiano situado en el"
+[2026-11-16T02:17:23.053Z]   ✓ yaxcaba (México) — escribió Groq, verificó NVIDIA
+[2026-11-16T02:27:21.625Z]   ✗ angamacutiro: fraseo calcado de piedad: "es uno de los 113 municipios que"
+[2026-11-16T02:33:53.127Z]   ✗ jose-sabogal: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T02:40:24.199Z]   ✗ zozocolco-de-hidalgo: fraseo calcado de pueblo-viejo: "es uno de los 212 municipios que"
+[2026-11-16T02:47:51.347Z]   ✗ alonso-de-alvarado: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T02:49:26.680Z]   ✓ nabon (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-16T02:56:24.698Z]   ✗ tepetzintla: rechazada tras corrección: La cifra de habitantes (14.736) no está respaldada por el material de origen.
+[2026-11-16T03:03:07.923Z]   ✗ mariano-nicolas-valcarcel: fraseo calcado de yungay-departamento-de-ancash: "es uno de los ocho distritos que"
+[2026-11-16T03:15:51.516Z]   ✓ saposoa (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T03:26:10.724Z]   ✗ campanilla: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T03:29:01.871Z]   ✗ las-guaranas: fraseo calcado de tenares: "estaban desocupadas y el promedio de personas"
+[2026-11-16T03:33:53.966Z]   ✗ pomabamba-departamento-de-ancash: fraseo calcado de cajabamba: "es uno de los cuatro distritos que"
+[2026-11-16T03:47:50.637Z]   ✓ guayacanes (República Dominicana) — escribió Groq, verificó Gemini
+[2026-11-16T03:59:43.691Z]   ✓ zapotillo (Ecuador) — escribió Groq, verificó Gemini
+[2026-11-16T04:01:48.035Z]   ✗ huaca: fraseo calcado de zepita: "es uno de los siete distritos que"
+[2026-11-16T04:09:56.075Z]   ✗ desaguadero: No se pudo extraer JSON de la respuesta del LLM
+[2026-11-16T04:22:50.581Z]   ✗ tinguindin: fraseo calcado de taretan: "de michoacan cuya cabecera lleva el mismo"
+[2026-11-16T04:33:26.125Z]   ✓ anapoima (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-16T04:45:34.381Z]   ✓ san-gabriel-provincia-de-carchi (Ecuador) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-16T04:48:35.055Z]   ✗ las-rosas-provincia-de-santa-fe: fraseo calcado de las-parejas: "del departamento belgrano en la provincia de"
+[2026-11-16T04:50:47.554Z]   ✓ santo-domingo-xenacoj (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-11-16T04:54:06.089Z]   ✓ sopetran (Colombia) — escribió Groq, verificó NVIDIA
+[2026-11-16T04:57:21.355Z]   ✗ masisea: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T05:03:53.282Z]   ✗ eten: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:11:15.026Z]   ✗ lancones: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:12:24.557Z]   ✗ chiconquiaco: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-16T05:13:15.174Z]   ✗ celica: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T05:19:50.469Z]   ✗ santa-rosalia: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:23:56.534Z]   ✗ pomata: rechazada tras corrección: La ficha menciona que el distrito se creó en 1821, pero la fuente solo dice que se creó en los años de la Independencia del Perú (1821), sin especificar el año exacto.; La ficha menciona que la capita
+[2026-11-16T05:26:37.682Z]   ✗ peumo: fraseo calcado de chimbarongo: "forma parte del distrito electoral n 16"
+[2026-11-16T05:29:19.055Z]   ✗ algarrobo: fraseo calcado de olaya-herrera: "dentro de su jurisdiccion se encuentran los"
+[2026-11-16T05:35:52.671Z]   ✗ natagaima: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:42:24.524Z]   ✗ sivia: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:43:13.205Z]   ✗ manseriche: fraseo calcado de castillo-de-teayo: "de longitud oeste a una altitud que"
+[2026-11-16T05:50:54.841Z]   ✗ el-barrio-de-la-soledad: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T05:57:27.487Z]   ✗ iparia: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T06:00:45.779Z]   ✗ fernando-lores: fraseo calcado de tabalosos: "es uno de los once distritos que"
+[2026-11-16T06:07:15.655Z]   ✗ ranchillos-y-san-miguel: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T06:10:20.873Z]   ✗ chillia: No se pudo extraer JSON de la respuesta del LLM: Expected ',' or '}' after property value in JSON at position 574 (line 3 column 438)
+[2026-11-16T06:14:08.447Z]   ✓ lagunas-departamento-de-loreto (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-16T06:16:19.512Z]   ✗ llata: fraseo calcado de tabalosos: "es uno de los once distritos que"
+[2026-11-16T06:20:34.631Z]   ✗ coyomeapan: No se pudo extraer JSON de la respuesta del LLM
+[2026-11-16T06:31:20.719Z]   ✗ campo-grande: controles de calidad: aboutTitle de 22 caracteres (debe estar entre 25 y 70)
+[2026-11-16T06:35:56.058Z]   ✗ villa-berthet: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T06:42:01.498Z]   ✗ ccatca: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T06:42:22.478Z]   ✗ canaris: es una división administrativa, no una localidad
+[2026-11-16T06:48:46.751Z]   ✗ espindola: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T06:53:47.321Z]   ✗ titiribi: fraseo calcado de betulia: "es un municipio de la subregion suroeste"
+[2026-11-16T06:56:06.179Z]   ✗ san-sebastian-tlacotepec: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-16T07:02:40.856Z]   ✗ ocotepec: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T07:04:10.526Z]   ✗ arenoso: fraseo calcado de samana-rd: "segun el censo de poblacion y vivienda"
+[2026-11-16T07:10:36.024Z]   ✗ sabanas-de-san-angel: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T07:13:00.648Z]   ✓ ezequiel-montes (México) — escribió Groq, verificó NVIDIA
+[2026-11-16T07:14:25.011Z]   ✓ parroquia-crucita (Ecuador) — escribió Groq, verificó NVIDIA
+[2026-11-16T07:20:51.668Z]   ✗ mazamitla: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T07:27:26.238Z]   ✗ irazola: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T07:37:29.219Z]   ✗ padilla: rechazada tras corrección: La ficha afirma que el suicidio de Manuel Mier y Terán ocurrió 'dos años después' de 1824, pero el material de origen indica que fue en 1832 (8 años después).
+[2026-11-16T07:44:08.986Z]   ✗ constitucion-departamento-de-pasco: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T07:47:25.724Z]   ✗ san-jose-acatempa: fraseo calcado de quesada-guatemala: "un municipio del departamento de jutiapa en"
+[2026-11-16T07:54:13.210Z]   ✓ diego-de-almagro (Chile) — escribió Groq, verificó Gemini
+[2026-11-16T07:58:58.113Z]   ✗ napo: fraseo calcado de tabalosos: "es uno de los once distritos que"
+[2026-11-16T08:10:11.951Z]   ✗ santiago-ixtayutla: fraseo calcado de santos-reyes-nopala: "uno de los 570 municipios que conforman"
+[2026-11-16T08:17:45.238Z]   ✗ el-quebrachal: fraseo calcado de las-lajitas: "es una ciudad del departamento anta en"
+[2026-11-16T08:22:51.663Z]   ✗ san-rafael-las-flores: fraseo calcado de nueva-santa-rosa: "departamento de santa rosa situado en la"
+[2026-11-16T08:34:19.127Z]   ✗ querendaro: controles de calidad: aboutTitle genérico: "Queréndaro, municipio de Michoacán y su origen chichimeca"; intro/meta de 103 caracteres (debe estar entre 110 y 160)
+[2026-11-16T08:34:40.205Z]   ✗ departamento-libertad: es una división administrativa, no una localidad
+[2026-11-16T08:39:14.653Z]   ✓ union-de-tula (México) — escribió Groq, verificó NVIDIA
+[2026-11-16T08:42:14.875Z]   ✓ san-rafael-petzal (Guatemala) — escribió Groq, verificó NVIDIA
+[2026-11-16T08:51:15.633Z]   ✗ los-cacaos: fraseo calcado de yaguate: "un municipio de la provincia de san"
+[2026-11-16T08:54:00.345Z]   ✓ santa-barbara-region-del-biobio (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-16T08:57:24.813Z]   ✓ dalcahue (Chile) — escribió Groq, verificó NVIDIA
+[2026-11-16T08:58:48.595Z]   ✗ mitontic: controles de calidad: muletillas de IA: gran variedad de
+[2026-11-16T08:59:29.309Z]   ✓ la-curva (Perú) — escribió Groq, verificó NVIDIA
+[2026-11-16T09:03:18.730Z]   ✓ futrono (Chile) — escribió Groq, verificó Gemini
+[2026-11-16T09:09:57.260Z]   ✗ tiquicheo-de-nicolas-romero: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T09:18:06.587Z]   ✓ suyo (Perú) — escribió Gemini, verificó Groq
+[2026-11-16T09:25:03.494Z]   ✓ laguna-paiva (Argentina) — escribió Groq, verificó Gemini
+[2026-11-16T09:34:52.684Z]   ✗ chanal: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-11-16T09:38:57.825Z]   ✗ sansare: inventa cuándo se anima la sala
+[2026-11-16T09:49:17.931Z]   ✓ altos-del-rosario (Colombia) — escribió Groq, verificó Gemini
+[2026-11-16T09:55:28.514Z]   ✗ choele-choel: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-16T09:56:09.262Z]   ✓ coracora (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T10:02:29.655Z]   ✗ riachuelo-: fraseo calcado de delicias-: "segun el censo de 1907 la comuna"
+[2026-11-16T10:10:48.249Z]   ✗ copala: fraseo calcado de centla: "en la epoca prehispanica la zona estuvo"
+[2026-11-16T10:17:33.916Z]   ✗ paucartambo-departamento-de-cusco: fraseo calcado de anta: "bajo la administracion del gobierno regional del"
+[2026-11-16T10:24:53.541Z]   ✓ general-plutarco-elias-calles (México) — escribió Groq, verificó Gemini
+[2026-11-16T10:32:12.971Z]   ✓ camana-departamento-de-arequipa (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T10:40:01.304Z]   ✓ puerto-inca (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T10:43:44.401Z]   ✓ guerrero-negro (México) — escribió Groq, verificó Gemini
+[2026-11-16T10:51:03.213Z]   ✓ canasgordas (Colombia) — escribió Groq, verificó Gemini
+[2026-11-16T10:54:49.209Z]   ✓ tapilula (México) — escribió Groq, verificó Gemini
+[2026-11-16T10:58:38.528Z]   ✗ ixcatepec: fraseo calcado de ixhuatlan-de-madero: "zona norte del estado de veracruz dentro"
+[2026-11-16T10:58:59.475Z]   ✗ portovelo: es una división administrativa, no una localidad
+[2026-11-16T11:05:50.177Z]   ✗ chinique: rechazada tras corrección: La ficha afirma que Chinique celebra la feria patronal 'La Flor del Chinique' y que esta 'sigue siendo recordada en la celebración local', datos que la fuente no respalda (el texto de origen solo menc
+[2026-11-16T11:09:26.378Z]   ✓ chuy (Uruguay) — escribió Groq, verificó Gemini
+[2026-11-16T11:16:01.491Z]   ✗ nuevo-progreso-departamento-de-san-martin: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T11:23:34.956Z]   ✗ el-jicaro: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-16T11:30:22.082Z]   ✗ huacrachuco: rechazada tras corrección: Atribuye el rango de 'teniente coronel' al comisario Carlos Ángel Mallqui Gutiérrez, cuando la fuente indica 'TNTE' (teniente).
+[2026-11-16T11:37:37.159Z]   ✓ chima (Colombia) — escribió Groq, verificó Gemini
+[2026-11-16T11:44:47.525Z]   ✗ chalma: fraseo calcado de ixhuatlan-de-madero: "zona norte del estado de veracruz dentro"
+[2026-11-16T11:52:52.380Z]   ✓ ilamatlan (México) — escribió Groq, verificó Gemini
+[2026-11-16T12:01:27.272Z]   ✗ curimana: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-16T12:05:09.513Z]   ✓ chambo (Ecuador) — escribió Groq, verificó Gemini
+[2026-11-16T12:08:49.878Z]   ✓ medio-baudo (Colombia) — escribió Groq, verificó Gemini
+[2026-11-16T12:13:47.677Z]   ✗ zentla: controles de calidad: muletillas de IA: gran variedad de
+[2026-11-16T12:20:41.951Z]   ✗ san-juan-la-laguna: fraseo calcado de santiago-atitlan: "un municipio del departamento de solola guatemala"
+[2026-11-16T12:27:35.316Z]   ✓ calle-larga (Chile) — escribió Groq, verificó Gemini
+[2026-11-16T12:31:12.844Z]   ✗ pimampiro-provincia-de-imbabura: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-16T12:37:58.637Z]   ✗ taraco: fraseo calcado de anta: "desde el punto de vista eclesiastico pertenece"
+[2026-11-16T12:41:39.072Z]   ✓ sabana-iglesia (República Dominicana) — escribió Groq, verificó Gemini
+[2026-11-16T12:45:14.740Z]   ✓ cadereyta-de-montes (México) — escribió Groq, verificó Gemini
+[2026-11-16T12:51:20.272Z]   ✓ combarbala (Chile) — escribió Groq, verificó Gemini
+[2026-11-16T12:55:29.326Z]   ✗ zihuateutla: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T13:02:54.886Z]   ✓ neshuya (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T13:07:55.908Z]   ✗ rosas: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-16T13:14:50.524Z]   ✗ chaglla: fraseo calcado de panao: "la provincia de pachitea en el departamento"
+[2026-11-16T13:22:01.302Z]   ✓ lampa-departamento-de-puno (Perú) — escribió Groq, verificó Gemini
+[2026-11-16T13:29:47.114Z]   ✓ soyaniquilpan-de-juarez (México) — escribió Groq, verificó Gemini
+[2026-11-16T13:35:36.288Z]   ✓ el-tabo (Chile) — escribió Groq, verificó Gemini
+[2026-11-16T13:43:04.764Z]   ✗ el-tablon: fraseo calcado de san-bernardo-colombia: "un municipio del departamento de narino colombia"
+[2026-11-16T13:43:04.766Z] demasiados intentos fallidos, se corta el lote
+[2026-11-16T13:43:04.948Z] publicadas 46 salas · acumuladas 1620 · quedan 1395 en cola
