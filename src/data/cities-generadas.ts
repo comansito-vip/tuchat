@@ -48286,5 +48286,325 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Irázola, distrito de Padre Abad en Ucayali, lleva el nombre del religioso español Francisco Irázola (1869‑1945) y destaca por sus comunidades nativas y cacao.",
     "aboutTitle": "Irázola: capital Villa San Alejandro y su producción de cacao",
     "about": "Irázola es un distrito ubicado en la provincia de Padre Abad, dentro del departamento de Ucayali, Perú. Lleva el nombre del religioso español Francisco Irázola, nacido en Elorrio el 22 de septiembre de 1869 y fallecido en Huánuco el 12 de julio de 1945, quien exploró la Selva Central a principios del siglo XX y posteriormente ejerció como vicario apostólico del Ucayali. Administrativamente forma parte del Vicariato apostólico de Pucallpa.\n\nLa cuenca del Ucayali ha sido habitada desde tiempos milenarios por grupos Pano como los shipibo, conibo, setevo y cashibo o uni. En el siglo XVIII, misioneros franciscanos establecieron contacto en la Pampa del Sacramento con comunidades denominadas carapachos, de las que descienden los actuales habitantes de San Alejandro, hoy reconocidos como las comunidades de Sinchi Roca y Puerto Nuevo. En 1968 la población de San Alejandro se organizó para crear el distrito, que a los 26 años de su fundación contaba con tres centros poblados: San Juan Bautista, Monte Alegre y Alexander Von Humboldt. La economía se basa en la extracción de madera y en la producción agropecuaria, destacándose el cacao, la palma aceitera y la ganadería, mientras el paisaje combina verdor campestre y la presencia de comunidades nativas cacataibos y awajún."
+  },
+  {
+    "slug": "eten",
+    "name": "Eten",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 115,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Eten, distrito de Chiclayo en Lambayeque, alberga el sombrero de paja más grande del mundo y está a 18 km de la capital regional.",
+    "aboutTitle": "Eten: valle del río Reque y la capital del sombrero",
+    "about": "Eten es uno de los veinte distritos que conforman la provincia de Chiclayo, en el departamento de Lambayeque, al norte del Perú. Con una superficie de 84,78 km², la ciudad se sitúa en el valle del río Reque y presenta un territorio llano con suaves ondulaciones. Según el censo de 2017 la población era de 11 993 habitantes y se estima en 13 649 para 2023. Entre sus accidentes geográficos destacan la pampa de las Delicias, la playa de Lobos y los humedales de Eten, así como médanos y dunas que forman parte del paisaje costero.\n\nEl distrito fue creado durante el proceso de la Independencia del Perú y su capital, la ciudad de Eten, tiene raíces prehispánicas como asentamiento de pescadores, agricultores y artesanos. Fue elevada a villa bajo el nombre de Villa de la Magdalena de Eten el 26 de octubre de 1888 y a ciudad el 19 de noviembre de 1954. Eten es conocida como la tercera ciudad eucarística del mundo y como capital del sombrero; en su museo se encuentra el sombrero más grande del mundo, hecho de paja. El clima es fresco y húmedo en verano por la cercanía del mar y templado en invierno, sobre todo en las madrugadas. La localidad está a 18 km de Chiclayo y limita al norte con Monsefú, al sur con Puerto Eten y Lagunas, al este con Reque y al oeste con el mar del Perú."
+  },
+  {
+    "slug": "santa-rosalia",
+    "name": "Santa Rosalía",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 152,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Baja California Sur",
+    "regionSlug": "baja-california-sur",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Rosalía, ciudad en la costa del Golfo de California, nació como Cachanía y recibió su nombre actual en 1910.",
+    "aboutTitle": "El legado minero de El Boleo en Santa Rosalía",
+    "about": "Santa Rosalía es una pequeña ciudad mexicana situada en la parte central de la península de Baja California Sur, frente al Golfo de California. Es la cabecera del municipio de Mulegé y se ubica al norte del estado. El primer nombre del poblado fue Cachanía, inspirado en la abundante planta xerófila conocida como cachanilla; en 1910 los franceses que trabajaban en la mina cambiaron el nombre a Santa Rosalía, tomando la designación de la antigua cabecera municipal de Mulegé.\n\nEl primer europeo que exploró el golfo de California fue el navegante Francisco de Ulloa en 1539. En 1701 el padre jesuita Juan María de Salvatierra recorrió la región y, en 1705, el padre Juan de Basaldúa fundó la Misión de Santa Rosalía de Mulegé en la población cercana, a unos 60 km de la actual ciudad. La fundación simbólica de Santa Rosalía se produjo en el siglo XIX, impulsada por la empresa minera francesa El Boleo.\n\nEn 1868 se descubrieron menas de cobre de alta pureza en la zona, lo que atrajo a inversores alemanes y a la Casa Rothschild, dando origen a la compañía minera. En 2027 la presidenta municipal de Mulegé, Edith Aguilar Villavicencio, encabezó el abanderamiento del contingente de 540 atletas y entrenadores que representará al municipio en las Olimpiadas Estatales CONADE."
+  },
+  {
+    "slug": "peumo",
+    "name": "Peumo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 122,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rancagua",
+      "curico",
+      "san-antonio-chile",
+      "chile",
+      "santiago-de-chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Peumo, comuna de la provincia de Cachapoal en la Región de O'Higgins, conserva su nombre del árbol nativo peumo.",
+    "aboutTitle": "Peumo: historia minera y origen del nombre del árbol nativo",
+    "about": "Peumo es una comuna de la provincia de Cachapoal, en la Región de O'Higgins, zona central de Chile. Limita al norte con Las Cabras, al sur y este con San Vicente de Tagua Tagua y Coltauco, y al oeste con Pichidegua. Su nombre proviene del mapudungún pegu, que alude al árbol nativo peumo (Cryptocarya alba). La localidad se inscribe en el distrito electoral N.º 16 y en la 8.ª circunscripción senatorial de O'Higgins. La comuna forma parte de la zona central de Chile y está integrada en la Región de O'Higgins. Su territorio se caracteriza por la presencia del árbol peumo, especie nativa de la zona.\n\nEn su historia destacan varios hitos: el 30 de marzo de 1593 Álvaro de Villagra fue nombrado corregidor de Peumo, lo que marcó su relevancia administrativa en la época colonial; en 1664 surgió un establecimiento minero que explotaba un yacimiento de oro, uno de los más antiguos curatos del país. Durante el siglo XVIII el cacique Cipriano Catileu defendió las tierras mapuche contra el adoctrinamiento católico, y el 18 de enero de 1763 se firmó una providencia que apoyó la solicitud del Santo Cura Antonio de Zúñiga para comisionar a Don Manuel Quirós, iniciando los esfuerzos para convertir a Peumo en villa."
+  },
+  {
+    "slug": "natagaima",
+    "name": "Natagaima",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Tolima",
+    "regionSlug": "tolima",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chaparral",
+      "guamo",
+      "espinal",
+      "neiva",
+      "flandes",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Natagaima, municipio del Tolima a 121 km de Ibagué, se asienta a orillas del río Magdalena y registra una temperatura media de 29 °C.",
+    "aboutTitle": "Río Magdalena y la Feria de Natagaima en Tolima",
+    "about": "Natagaima es un municipio del sur del Tolima, Colombia, situado a 121 km de Ibagué, la capital departamental. Con una extensión total de 862 km², de los cuales 196 km² corresponden al área urbana y 766 km² al sector rural, la cabecera municipal se ubica a 326 m s.n.m. El nombre proviene de la combinación de Nataga, supuesto cacique, e Ima, que significa tierra, aunque también se asocia a la cal que los nativos usaban para pintar sus bahareques.\n\nEl territorio está bañado por el río Magdalena y cuenta con otros cauces importantes como Anchique, Painima, Patá y Yaví. El clima es cálido, con una temperatura media de 29 °C. Administrativamente, Natagaima se divide en nueve barrios, entre ellos El Centro, Ricaurte y Las Brisas, y bajo su jurisdicción están poblados centros como La Palmita y Velú.\n\nEl topónimo podría derivar de Nataga, nombre de un cacique, e Ima, que significa tierra; otra versión menciona a un aborigen llamado Nataga, jefe de la región, unido a la reina Ima, del centro del Tolima. Pedro José Ramírez Sendoya lo interpreta como una combinación de la palabra quechua \"Nattac\", referencia a la cal usada por los nativos para pintar sus bahareques, y \"Ima\", territorio.\n\nNatagaima está delimitada por varios municipios y al sur colinda con el departamento del Huila."
+  },
+  {
+    "slug": "villa-berthet",
+    "name": "Villa Berthet",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 118,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Chaco",
+    "regionSlug": "provincia-de-chaco",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-angela",
+      "quitilipi",
+      "machagai",
+      "presidencia-roque-saenz-pena",
+      "las-brenas",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Berthet, apodada el Diamante Chaqueño, destaca por su primer tren el 8 de junio de 1927 y su posición en el suroeste del Chaco.",
+    "aboutTitle": "Villa Berthet, el Diamante Chaqueño y su historia ferroviaria",
+    "about": "Villa Berthet es un municipio y localidad del suroeste de la provincia del Chaco, Argentina, cabecera del departamento San Lorenzo. Se le apoda el Diamante Chaqueño por la gran cantidad de fábricas que impulsaron su desarrollo. Su origen se remonta a 1926, cuando Fernando Cutiellos obtuvo la concesión fiscal del Lote 14 y la compañía La Francia Argentina adquirió 6 ha de la Forestal en el Lote 4 para una playa maderera y depósito. Ese mismo año se acordó la construcción de una vía férrea desde la estación de Haumonia, y el 8 de junio de 1927 llegó el primer tren con maderas, asentando las viviendas que dieron cimiento al pueblo. El 13 de noviembre de 1931 se creó la primera Comisión de Fomento. Geográficamente, Villa Berthet se sitúa en una zona subtropical con estación seca invernal; las precipitaciones anuales rondan los 900 mm y la temperatura media anual es de 20 °C, con veranos de 27 °C e inviernos de 14 °C. Los vientos predominantes soplan del norte, noreste, sureste y sur. Las rutas provinciales 4 y 6 son sus principales accesos: la 4 la conecta asfaltada al sur con Samuhú y al norte con Quitilipi, mientras que la 6 la enlaza al oeste con San Bernardo y Las Breñas y al este, por camino terrado, con Haumonia. La población pasó de 5.552 habitantes en 1991 a 8.805 en 2001 (crecimiento del 58,6 %) y a 12.591 en 2010. La parroquia local es la Iglesia de Jesucristo."
+  },
+  {
+    "slug": "santiago-ixtayutla",
+    "name": "Santiago Ixtayutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 165,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santiago Ixtayutla es uno de los 570 municipios de Oaxaca y colinda al norte con La Reforma, Santa Cruz Itundujia y Santiago Amoltepec.",
+    "aboutTitle": "Límites y usos de costumbre en Santiago Ixtayutla, Oaxaca",
+    "about": "Santiago Ixtayutla es un municipio del estado mexicano de Oaxaca cuya cabecera lleva el mismo nombre. Forma parte de los 570 municipios que integran la entidad y, según el censo de 2020, está compuesto por 33 localidades distribuidas en su territorio. \n\nAl norte limita con los municipios de La Reforma, Santa Cruz Itundujia y Santiago Amoltepec; al este con Santa Cruz Zenzontepec; al sur con Santiago Tetepec y San Agustín Chayuco; y al oeste con San Juan Colorado. El gobierno local se rige mediante el sistema de usos y costumbres, una forma de organización tradicional que regula la vida comunitaria y la toma de decisiones en la zona."
+  },
+  {
+    "slug": "san-rafael-las-flores",
+    "name": "San Rafael las Flores",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 103,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "villa-nueva",
+      "mixco",
+      "antigua-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Rafael las Flores, municipio del sur‑oriente de Guatemala, celebra su fiesta titular el 24 de octubre en honor a San Rafael Arcángel.",
+    "aboutTitle": "Fiesta titular del 24 de octubre en San Rafael las Flores",
+    "about": "San Rafael Las Flores es un municipio del departamento de Santa Rosa, ubicado en la región sur‑oriente de la República de Guatemala. Lleva el nombre de San Rafael Arcángel y se caracteriza por un clima cálido de marzo a agosto, con una temperatura máxima absoluta de 33 °C, y más fresco de octubre a marzo, cuando la mínima puede llegar a 5 °C. \n\nEl gobierno municipal está a cargo de un Concejo Municipal, conforme al artículo 254 de la Constitución y a los artículos 9 y 33 del Código Municipal. La comunidad celebra su fiesta titular el 24 de octubre en honor a su patrón. En los últimos años la municipalidad ha impulsado acciones como el Bono Social para familias (20 septiembre 2021), gestiones con el Programa Mundial de Alimentos (20 septiembre 2021), la entrega de asistencia alimentaria (17 septiembre 2021), actividades artesanales (17 septiembre 2021) y capacitaciones en las aldeas El Copante y Nuevo Amanecer (17 septiembre 2021)."
+  },
+  {
+    "slug": "choele-choel",
+    "name": "Choele Choel",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 170,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Río Negro",
+    "regionSlug": "provincia-de-rio-negro",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Choele Choel, cabecera del departamento Avellaneda en Río Negro, destaca como oasis agrícola del Valle Medio del río Negro.",
+    "aboutTitle": "Isla Grande y el oasis agrícola de Choele Choel",
+    "about": "Choele Choel es una ciudad cabecera del departamento Avellaneda situada en la provincia de Río Negro, dentro del Valle Medio del río Negro. Se ubica en la margen izquierda del río, frente a la isla Grande de Choele Choel, y es la más poblada de la zona. Con una superficie de 196,06 km², la localidad funciona como un oasis agrícola regado por las aguas del río.\n\nEl nombre Choele Choel tiene varias interpretaciones; según el General Olascoaga proviene de “espantajos de cáscaras de árbol”, mientras que Rodolfo Casamiquela lo relaciona con términos mapuches o tehuelches que significan “raza con flor amarilla” o “guijarro”. La fundación oficial data del 9 de julio de 1879, cuando el coronel Conrado Villegas estableció el Pueblo de Nicolás Avellaneda en la isla Pacheco, trasladándose luego a la actual ubicación el 18 de marzo de 1882. En 1883 se abrió una oficina de correos y en 1891 los salesianos fundaron una escuela, consolidando la vida institucional de la comunidad."
+  },
+  {
+    "slug": "chinique",
+    "name": "Chinique",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 154,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Quiché",
+    "regionSlug": "departamento-de-quiche",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "solola",
+      "huehuetenango",
+      "quetzaltenango",
+      "antigua-guatemala",
+      "mixco",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chinique, municipio de Quiché en Guatemala, se fundó oficialmente el 12 de agosto de 1872 cuando se creó el departamento de Quiché.",
+    "aboutTitle": "Chinique: origen k'iche' y clima templado Cwb",
+    "about": "Chinique es un municipio del departamento de Quiché, en la República de Guatemala. El topónimo proviene del K'iche' «chinic´aj taka´aj», que significa «en medio de los planes». La cabecera municipal posee un clima templado, clasificado como Cwb según Köppen. Limita al norte con San Andrés Sajcabajá, al sur, este y sureste con Chiché, y al oeste y noroeste con Santa Cruz del Quiché.\n\nTras la independencia de Centroamérica en 1821, el poblado formó parte de los departamentos de Totonicapán y Huehuetenango hasta que, el 12 de agosto de 1872, el gobierno de facto del presidente provisorio Miguel García Granados creó el departamento de Quiché, al que pertenece desde entonces. En 1892 los arqueólogos ingleses Alfred P. Maudslay y su esposa Anne visitaron Chinique, describiendo un sencillo conjunto de casas de adobe con teja y un suministro de agua que permitía cultivar frutas tropicales para los viajeros. En las ferias patronales de Guatemala se popularizó una zarabanda llamada «La Flor del Chinique»."
+  },
+  {
+    "slug": "taraco",
+    "name": "Taraco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 217,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Puno",
+    "regionSlug": "departamento-de-puno",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "juliaca",
+      "puno",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Taraco es un distrito de la provincia de Huancané, en el departamento de Puno, al sur de Perú, con raíces vinculadas al sector aymara.",
+    "aboutTitle": "El distrito de Taraco y el origen de los Tararos",
+    "about": "El distrito de Taraco se ubica en la provincia de Huancané, dentro del departamento de Puno, al sur de Perú. Desde la organización de la Iglesia católica, integra la Prelatura de Huancané en la arquidiócesis de Arequipa. Su estructura administrativa es una municipalidad distrital unitario y descentralizado, donde el Consejo, formado por el alcalde y los regidores, ejerce las funciones normativas y fiscalizadoras, mientras que la Alcaldía actúa como organismo ejecutor.\n\nSobre la etimología de su nombre existen tres teorías. Modesto Quispe Sucasaca sostiene que proviene de los Tararos, un subgrupo humano del sector aymara y del idioma Arawak que habitó Huancané. Félix Mamani Yucra indica que deriva de tara tara, que significa montones de arena, y acco, términos que se fusionaron en Taraco. Una tercera versión vincula el nombre a San Taraco, un santo trabajador que llegó a la zona para servir a los pobladores y en cuyo honor se bautizó la localidad."
+  },
+  {
+    "slug": "zihuateutla",
+    "name": "Zihuateutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 91,
+    "votes": 149,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xicotepec-de-juarez",
+      "huauchinango",
+      "zacatlan",
+      "coatzintla",
+      "poza-rica-de-hidalgo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Zihuateutla, municipio del norte de Puebla con 176.2 km², destaca por su producción de café y su ubicación en la Sierra Norte, entre Xicotepec y Veracruz.",
+    "aboutTitle": "Café y ríos Cazones y Tecolutla en Zihuateutla",
+    "about": "Zihuateutla es uno de los 217 municipios del estado de Puebla, situado en la parte norte y perteneciente a la región económica de Huauchinango. Su cabecera lleva el mismo nombre y el territorio abarca una superficie de 176.2 km². Limita al norte con Xicotepec, al este con el estado de Veracruz, al sur con Tlaola y Jopala y al oeste con Xicotepec y Huauchinango, enclavado en la Sierra Norte de Puebla, extremo meridional de la Sierra Madre del Sur.\n\nLa economía local depende de la agricultura del café y la ganadería, actividades favorecidas por los suelos ricos en materiales de origen volcánico. En el municipio nacen ríos que forman parte de dos cuencas: afluentes del río Cazones y tributarios del río Tecolutla. La altitud máxima alcanza los 1 200 metros sobre el nivel del mar, mientras que en las cañadas desciende aproximadamente mil metros, creando una variada topografía que influye en el clima y la producción agrícola."
   }
 ];
