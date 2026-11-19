@@ -48606,5 +48606,250 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Zihuateutla, municipio del norte de Puebla con 176.2 km², destaca por su producción de café y su ubicación en la Sierra Norte, entre Xicotepec y Veracruz.",
     "aboutTitle": "Café y ríos Cazones y Tecolutla en Zihuateutla",
     "about": "Zihuateutla es uno de los 217 municipios del estado de Puebla, situado en la parte norte y perteneciente a la región económica de Huauchinango. Su cabecera lleva el mismo nombre y el territorio abarca una superficie de 176.2 km². Limita al norte con Xicotepec, al este con el estado de Veracruz, al sur con Tlaola y Jopala y al oeste con Xicotepec y Huauchinango, enclavado en la Sierra Norte de Puebla, extremo meridional de la Sierra Madre del Sur.\n\nLa economía local depende de la agricultura del café y la ganadería, actividades favorecidas por los suelos ricos en materiales de origen volcánico. En el municipio nacen ríos que forman parte de dos cuencas: afluentes del río Cazones y tributarios del río Tecolutla. La altitud máxima alcanza los 1 200 metros sobre el nivel del mar, mientras que en las cañadas desciende aproximadamente mil metros, creando una variada topografía que influye en el clima y la producción agrícola."
+  },
+  {
+    "slug": "coyomeapan",
+    "name": "Coyomeapan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 214,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zinacatepec",
+      "ajalpan",
+      "altepexi",
+      "tehuacan",
+      "ciudad-mendoza",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Coyomeapan es un municipio de Puebla en la alta montaña, con clima boscoso y lluvioso todo el año, y según el censo 2020 cuenta con 45 localidades.",
+    "aboutTitle": "Coyomeapan: municipio de alta montaña en Puebla",
+    "about": "Coyomeapan es uno de los 217 municipios que forman el estado de Puebla y se ubica en la zona alta de la sierra. El clima es boscoso y recibe lluvia durante todo el año, lo que determina un entorno natural de montaña. La población es mayoritariamente indígena náhuatl y su principal actividad económica es la agricultura. A partir del año 2000 se ha registrado un aumento de la migración hacia los Estados Unidos, lo que ha modificado la dinámica demográfica del municipio. Según el censo de 2020 el municipio cuenta con 45 localidades. El acceso a Coyomeapan se realiza por transporte terrestre desde Tehuacán, atravesando Coxcatlán. El territorio municipal está integrado por varias aldeas dispersas que conforman las 45 localidades registradas. La actividad agrícola se adapta al clima lluvioso de la zona alta. En los alrededores se encuentra la Reserva de la Biosfera Tehuacán‑Cuicatlán, un referente natural de la región. Wikimedia Commons dispone de una categoría multimedia que muestra imágenes y vídeos del municipio y su entorno."
+  },
+  {
+    "slug": "los-cacaos",
+    "name": "Los Cacaos",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 105,
+    "votes": 169,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "San Cristóbal",
+    "regionSlug": "san-cristobal",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-cristobal-rd",
+      "bani",
+      "santo-domingo-este",
+      "republica-dominicana",
+      "santo-domingo",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Los Cacaos, municipio de San Cristóbal en República Dominicana, cuenta con 13.778 habitantes según el censo de 2022.",
+    "aboutTitle": "Historia, demografía y fiesta patronal de Los Cacaos",
+    "about": "Los Cacaos es un municipio de la República Dominicana situado en la provincia de San Cristóbal. Su nombre original «El Cacao» proviene de un arbusto grande de cacao que servía como punto de referencia para encuentros. Los primeros habitantes se establecieron en la década de 1950, entre ellos Doña Reyita Ruíz Arriaga, Nicanor y Ramón Santos Castillo, Mario Garabito y, en áreas como Los Mineros, figuras como el alcalde Manuel Jerónimo (Negro Jerónimo), Garlitos Lara, Yiyi Tejeda, Memo Gross, José Tejeda, Francisco Santos Mejía y Marcelino Santos Mejía. En 1959 Marino Garabito y Subero construyeron la primera escuela, con el profesor Bojolín, y ese mismo año se instaló un cuartel del Ejército que se incendió accidentalmente durante la invasión de Constanza. En 1960 llegaron los primeros vehículos gracias a la carretera que conectaba con San José de Ocoa. El municipio fue elevado a distrito municipal en 1985 y, mediante la Ley n.º 99‑04 del 2 de febrero de 2004, alcanzó la categoría de municipio. Según el Censo de Población y Vivienda de 2022, Los Cacaos tiene 13.778 habitantes, de los cuales 8.188 son hombres y 5.590 mujeres. Aproximadamente el 76,30 % de la población vive en zonas rurales, unos 10.511 habitantes, mientras que la población urbana suma 3.267 habitantes. El municipio cuenta con 3.997 viviendas, de las cuales 32 están desocupadas, y el promedio de ocupantes por hogar es de 3,4 personas."
+  },
+  {
+    "slug": "mitontic",
+    "name": "Mitontic",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Chiapas",
+    "regionSlug": "chiapas",
+    "channels": [
+      "chiapas",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "queretaro",
+      "chiapas",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mitontic, municipio del Altiplano Central chiapaneco, cuenta con 13.755 habitantes y una superficie de 36.51 km² en una zona de clima templado húmedo.",
+    "aboutTitle": "Río San Miguel y la biodiversidad del Altiplano de Mitontic",
+    "about": "Mitontic es un pequeño municipio del centro de Chiapas, situado en el Altiplano Central y considerado uno de los municipios más pobres de México. Limita al norte con Chenalhó, al este con Tenejapa y al sur con Chamula, y su territorio de 36.51 km² está marcado por una topografía accidentada propia de la zona montañosa del centro del estado. El río San Miguel atraviesa la región, cambia su nombre a Soyalhó en Chenalhó y, tras su paso superficial, se convierte en corriente subterránea, acompañada de varios arroyos y manantiales. El clima es templado húmedo, con lluvias abundantes en verano, una temperatura media anual de 18 °C y una precipitación de 2.100 mm.\n\nSegún el censo de 2020, Mitontic cuenta con 13.755 habitantes, lo que supone un crecimiento medio del 2.2 % anual entre 2010 y 2020 y una densidad de 376,5 hab/km². La flora incluye bosques de pino, encino, romerillo, sabino, manzanilla y roble, mientras que la fauna silvestre abarca desde culebras y aves pequeñas hasta venados de campo, armadillos y águilas arpías."
+  },
+  {
+    "slug": "sansare",
+    "name": "Sansare",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 112,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de El Progreso",
+    "regionSlug": "departamento-de-el-progreso",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "villa-nueva",
+      "chiquimula",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Sansare, municipio del departamento de El Progreso en Guatemala, se ubica a 70 km al noreste de la capital y cuenta con 13.674 habitantes (2022).",
+    "aboutTitle": "Sansare: clima tropical y ubicación estratégica en El Progreso",
+    "about": "Sansare, cuyo nombre proviene del árbol «Sare», es un municipio situado en la parte centro‑oriente de Guatemala, a setenta kilómetros al noreste de la Ciudad de Guatemala y a treinta y siete kilómetros de la cabecera departamental Guastatoya. Tras la independencia en 1821 formó parte del circuito de Acasaguastlán del distrito N.º 4 (Chiquimula). En 1871 pasó brevemente al departamento de Guatemala, luego al recién creado Jalapa el 24 de noviembre de 1873, y finalmente al departamento de El Progreso cuando este se constituyó el 13 de abril de 1908, siendo reasignado nuevamente en 1934 bajo el gobierno de Jorge Ubico. La población proyectada para 2022 era de 13.674 habitantes, con una distribución casi equilibrada entre mujeres (50.80 %) y hombres (49.20 %). El municipio se divide en cinco microrregiones; la cabecera municipal y la aldea Los Cerritos concentran la actividad productiva y de servicios. El clima de la cabecera es tropical tipo Aw según Köppen. El municipio destaca por su ubicación estratégica en la zona por donde pasaba el Ferrocarril del Norte de Guatemala."
+  },
+  {
+    "slug": "rosas",
+    "name": "Rosas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cauca",
+    "regionSlug": "cauca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "popayan",
+      "florencia-colombia",
+      "santander-de-quilichao",
+      "pitalito",
+      "la-plata-huila",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rosas, municipio del Cauca a 1.900 m de altitud, se fundó el 24 de abril de 1844 y destaca por su producción de caña panelera, café y plátano.",
+    "aboutTitle": "Rosas, puerta al Macizo Colombiano y su agroindustria",
+    "about": "Rosas es un municipio colombiano ubicado en el centro del departamento del Cauca, conocido como la puerta de entrada al Macizo Colombiano. Se sitúa en la parte centro‑oriental del departamento, a 2º15′2″‑2º20′15″ de latitud norte y 76º36′32″‑76º50′40″ de longitud occidental, a 1.900 m sobre el nivel del mar. Su temperatura media es de 19 °C y está a 41 km de Popayán, la capital del Cauca. Limita al norte con Timbio, al sur con La Sierra, al nororiente con Sotará y al occidente con El Tambo. Fue fundado el 24 de abril de 1844 por el teniente Mauricio Martínez y el capitán Juan Noguera, y lleva el nombre del general liberal Avelino Rosas, antes llamado Dolores.\n\nLa economía se basa en la producción agrícola de caña panelera, café y plátano, y en la ganadería. En su territorio confluyen la subcuenca del río Quilcace y la microcuenca del río Esmita, que desembocan en el Patía, y tres cerros que abastecen de agua a las veredas del suroccidente y del nororiente del municipio. Bajo su jurisdicción están los centros poblados de Céfiro, Párraga y Sauce."
+  },
+  {
+    "slug": "el-tablon",
+    "name": "El Tablón",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 167,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "florencia-colombia",
+      "pasto",
+      "mocoa",
+      "villagarzon",
+      "tuquerres",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Tablón de Gómez, municipio de Nariño a 62 km de San Juan de Pasto, lleva el nombre del presbítero José Gómez.",
+    "aboutTitle": "Historia y centros poblados de El Tablón de Gómez",
+    "about": "El Tablón de Gómez es un municipio del departamento de Nariño, en el sur de Colombia, situado a 62 kilómetros de San Juan de Pasto, la capital departamental. El nombre del municipio rinde homenaje al primer párroco, el presbítero José Gómez. Dentro de su jurisdicción se encuentran la cabecera municipal y cinco centros poblados: Aponte, La Cueva, La Victoria, Las Mesas y San Rafael. Según los registros históricos, a comienzos del siglo XVI la zona estaba habitada por tribus indígenas provenientes del Putumayo, bajo el liderazgo del cacique Carlos Tamabioy. En 1775, tras la llegada de 25 familias Inga del Valle de Sibundoy que cruzaron el páramo de Juanoy y se establecieron en Aponte, el poblado contaba con apenas 300 habitantes. El primer propietario registrado del territorio fue Cristóbal Marsillo, a quien los alféreces concedieron título real en 1699. Desde mediados del siglo XVI el municipio funcionó como cabecera de la doctrina de Juan‑Anabut, vinculada a comunidades como Buysaco, Ixsagui, Mohondi, Guajanzango, Zacanambuy y Chachaubí."
+  },
+  {
+    "slug": "aranguren",
+    "name": "Aranguren",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "España",
+    "parentSlug": "espana",
+    "provincia": "Navarra",
+    "regionSlug": "navarra",
+    "channels": [
+      "navarra",
+      "españa",
+      "chatzona"
+    ],
+    "related": [
+      "egues",
+      "burlada",
+      "villava",
+      "pamplona",
+      "baranain",
+      "navarra",
+      "espana",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Aranguren, municipio navarro de 13 216 habitantes a solo 3 km de Pamplona, lleva el nombre de ‘valle hermoso’ y forma parte de la merindad de Sangüesa.",
+    "aboutTitle": "Valle de Aranguren: origen del nombre y su escudo tradicional",
+    "about": "Aranguren, también conocido como Valle de Aranguren, es un municipio de la Comunidad Foral de Navarra situado en la merindad de Sangüesa y en la Cuenca de Pamplona. Con 13 216 habitantes (INE 2025) es el octavo municipio más poblado de la comunidad y está a 3 km de la capital, Pamplona, formando parte de su área metropolitana. El municipio está dividido en cuatro concejos – Aranguren, Labiano, Tajonar y Zolina – y en cuatro lugares habitados: Ilundáin, Góngora, Laquidáin y Mutilva, que es la capital administrativa.\n\nEl topónimo Aranguren proviene del euskera, donde “haran” significa valle y “guren” una forma arcaica que alude a lo “lozano” o “hermoso”, de ahí la traducción ‘valle hermoso’. El nombre aparece registrado desde principios del siglo XIII y ha sido escrito históricamente como Arangurenh, Arangurynh o Val d'Aranguren, siendo un ejemplo de tautoponimia. Los habitantes se denominan arangurenés o arangurendarrés, y en euskera arangurendar. El escudo del valle lleva la leyenda «Valle de Aranguren» y a menudo se muestra en versión bilingüe «Valle de Aranguren / Aranguren Ibarra»."
+  },
+  {
+    "slug": "villa-juarez",
+    "name": "Villa Juárez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 109,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Sonora",
+    "regionSlug": "sonora",
+    "channels": [
+      "sonora",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ciudad-obregon",
+      "sonora",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Juárez, cabecera municipal del municipio de Benito Juárez en Sonora, fue fundada en 1943 y cuenta con 13.770 habitantes según el censo 2010.",
+    "aboutTitle": "Historia y ubicación de Villa Juárez, Sonora",
+    "about": "Villa Juárez es una villa mexicana ubicada en el sur del estado de Sonora, cercana a la región del valle del Yaqui. Se sitúa en las coordenadas 27°7′45″ de latitud norte y 109°50'14\" de longitud oeste, a una elevación de 20 metros sobre el nivel del mar. Fue fundada en 1943 bajo el nombre de Colonia Irrigación y pertenecía a la comisaría municipal de Bacobampo, del municipio de Etchojoa.\n\nEn 1957, con base en la Ley Número 56, cambió su nombre a Villa Juárez en honor al expresidente Benito Juárez García. El 26 de diciembre de 1996, mediante la Ley Número 153, se creó el Municipio de Benito Juárez y Villa Juárez se convirtió en su cabecera municipal, siendo la localidad más habitada del municipio y la cabecera municipal más joven del estado. Según el censo de 2010, la villa cuenta con 13.770 habitantes."
   }
 ];
