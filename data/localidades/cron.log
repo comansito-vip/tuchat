@@ -6565,3 +6565,83 @@ Groq: HT
 [2026-11-19T03:37:56.161Z]   ✗ alberti-provincia-de-buenos-aires: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
 [2026-11-19T03:37:56.162Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-11-19T03:37:56.448Z] publicadas 8 salas · acumuladas 1643 · quedan 1339 en cola
+[2026-11-20T01:30:06.819Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-20T01:30:06.826Z] cola: 1326 · lote de hoy: 50
+[2026-11-20T01:30:08.200Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-20T01:30:28.942Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-20T01:30:49.680Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-20T01:31:14.679Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-20T01:31:35.412Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-20T01:31:56.225Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-20T01:32:16.993Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-20T01:32:37.745Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-20T01:32:57.747Z]   ✗ morovis: sin fuente utilizable
+[2026-11-20T01:33:18.857Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-20T01:33:39.578Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-20T01:34:00.289Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-20T01:34:21.044Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-20T01:34:41.768Z]   ✗ omealca: sin fuente utilizable
+[2026-11-20T01:35:02.481Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-20T01:35:22.482Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-20T01:35:43.203Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-20T01:36:04.143Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-20T01:36:25.114Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-20T01:36:45.115Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-20T01:37:05.854Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-20T01:37:26.663Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-20T01:37:47.226Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-20T01:44:11.652Z]   ✓ lancones (Perú) — escribió Groq, verificó Gemini
+[2026-11-20T01:50:43.021Z]   ✗ iparia: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-20T01:53:51.036Z]   ✗ ranchillos-y-san-miguel: rechazada tras corrección: Error tipográfico en el campo intro: escribe 'Ranchijos' en lugar de 'Ranchillos'
+[2026-11-20T01:56:27.325Z]   ✓ chillia (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T01:59:58.392Z]   ✗ san-sebastian-tlacotepec: fraseo calcado de venustiano-carranza-mexico: "es uno de los 217 municipios del"
+[2026-11-20T02:06:40.787Z]   ✓ tiquicheo-de-nicolas-romero (México) — escribió Groq, verificó Gemini
+[2026-11-20T02:13:37.549Z]   ✗ chanal: fraseo calcado de tila: "uno de los 124 municipios que integran"
+[2026-11-20T02:16:24.096Z]   ✗ el-jicaro: fraseo calcado de sanarate: "departamento de el progreso en la republica"
+[2026-11-20T02:19:04.675Z]   ✗ chalma: rechazada tras corrección: Cifras de miles sin punto separador: 12 626
+[2026-11-20T02:20:26.632Z]   ✗ curimana: rechazada tras corrección: La frase 'Así, Curimaná combina historia y ubicación geográfica relevante' es un párrafo de cierre motivacional/hueco prohibido.
+[2026-11-20T02:22:41.282Z]   ✗ zentla: fraseo calcado de tihuatlan: "es un municipio del estado de veracruz"
+[2026-11-20T02:25:54.165Z]   ✗ san-juan-la-laguna: fraseo calcado de santiago-atitlan: "durante la epoca colonial formo parte de"
+[2026-11-20T02:26:59.494Z]   ✗ pimampiro-provincia-de-imbabura: fraseo calcado de antonio-ante: "la provincia de imbabura en el norte"
+[2026-11-20T02:32:08.928Z]   ✗ chaglla: fraseo calcado de panao: "la provincia de pachitea en el departamento"
+[2026-11-20T02:33:59.987Z]   ✗ usumatlan: fraseo calcado de rioja-departamento-de-san-martin: "de la llegada de los espanoles el"
+[2026-11-20T02:35:04.110Z]   ✓ almafuerte (Argentina) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T02:36:24.906Z]   ✗ santa-juana: fraseo calcado de chiguayante: "comuna chilena situada en la provincia de"
+[2026-11-20T02:41:35.412Z]   ✗ pueblo-nuevo-departamento-de-la-libertad: controles de calidad: muletillas de IA: amplia variedad de
+[2026-11-20T02:48:26.846Z]   ✗ juan-maria-gutierrez-buenos-aires: fraseo calcado de jose-c-paz: "gran buenos aires en la provincia de"
+[2026-11-20T02:55:16.193Z]   ✓ coronel-marcelino-mariduena (Ecuador) — escribió Groq, verificó Gemini
+[2026-11-20T03:01:04.638Z]   ✗ agua-de-dios: rechazada tras corrección: La frase 'que siguen atrayendo a visitantes y residentes' es una invención que no figura en el material de origen.
+[2026-11-20T03:02:07.115Z]   ✗ cariamanga: fraseo calcado de velasco-ibarra: "habitantes segun el censo de 2022 se"
+[2026-11-20T03:02:50.849Z]   ✓ san-jose-miahuatlan (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T03:04:27.466Z]   ✓ santa-maria-jalapa-del-marques (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T03:08:52.168Z]   ✗ querocotillo: fraseo calcado de megantoni: "es uno de los quince distritos que"
+[2026-11-20T03:12:26.990Z]   ✓ jolalpan (México) — escribió Groq, verificó Gemini
+[2026-11-20T03:15:48.809Z]   ✓ mazatlan-villa-de-flores (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T03:18:40.403Z]   ✗ san-martin-zapotitlan: fraseo calcado de patulul: "municipio del sur occidente de guatemala situado"
+[2026-11-20T03:20:47.056Z]   ✗ hueyapan: fraseo calcado de tlaola: "es uno de los 217 municipios que"
+[2026-11-20T03:22:47.849Z]   ✗ juan-de-herrera: fraseo calcado de pimentel-republica-dominicana: "en la republica dominicana segun el censo"
+[2026-11-20T03:23:47.782Z]   ✗ livitaca: fraseo calcado de elias-soplin-vargas: "uno de los ocho distritos que conforman"
+[2026-11-20T03:25:34.630Z]   ✗ capilla-del-monte: rechazada tras corrección: El dato de que el cerro Uritorco es 'un monolito que atrae a visitantes de todo el país' no figura en el material de origen.
+[2026-11-20T03:26:57.354Z]   ✗ coahuayutla-de-jose-maria-izazaga: rechazada tras corrección: El nombre del cerro 'Zoydepec' es una invención o error tipográfico; el material de origen indica 'Zoyatepec'.
+[2026-11-20T03:28:21.021Z]   ✗ tabacundo: controles de calidad: aboutTitle de 72 caracteres (debe estar entre 25 y 70)
+[2026-11-20T03:29:27.254Z]   ✗ alberti-provincia-de-buenos-aires: fraseo calcado de florencio-varela-argentina: "es uno de los 135 partidos de"
+[2026-11-20T03:32:36.609Z]   ✗ armstrong: fraseo calcado de granadero-baigorria: "la provincia de santa fe argentina se"
+[2026-11-20T03:35:26.157Z]   ✗ juan-lacaze-departamento-de-colonia: rechazada tras corrección: La frase 'representa una de las divisiones más recientes del territorio uruguayo' es una invención no respaldada por el material de origen.
+[2026-11-20T03:40:56.327Z]   ✗ paucara: rechazada tras corrección: La ficha afirma que el territorio incluye 'valles', dato que no aparece en el material de origen.
+[2026-11-20T03:45:44.626Z]   ✗ quellouno: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-20T03:48:23.664Z]   ✓ ocampo-tamaulipas (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T03:50:45.357Z]   ✓ atalaya (Perú) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T03:54:55.021Z]   ✗ calcahualco: fraseo calcado de juan-rodriguez-clara: "es uno de los 212 municipios del"
+[2026-11-20T03:55:18.494Z]   ✗ adolfo-gonzales-chaves: es una división administrativa, no una localidad
+[2026-11-20T03:59:20.029Z]   ✗ anolaima: fraseo calcado de anapoima: "municipio del departamento de cundinamarca situado en"
+[2026-11-20T04:00:41.705Z]   ✓ san-francisco-telixtlahuaca (México) — escribió Groq, verificó NVIDIA-Gemma
+[2026-11-20T04:04:09.232Z]   ✓ marques-de-comillas (México) — escribió NVIDIA-Gemma, verificó Gemini
+[2026-11-20T04:08:35.324Z]   ✓ saldan (Argentina) — escribió NVIDIA-Gemma, verificó Groq
+[2026-11-20T04:10:33.632Z]   ✗ yanahuanca: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:11:45.099Z]   ✗ ayutla-estado-de-jalisco: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:13:11.266Z]   ✗ chinchero: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:14:46.826Z]   ✗ frutillar: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:16:15.494Z]   ✗ puren: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:18:59.512Z]   ✗ las-toscas-provincia-de-santa-fe: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-20T04:18:59.512Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
+[2026-11-20T04:18:59.769Z] publicadas 14 salas · acumuladas 1657 · quedan 1312 en cola
