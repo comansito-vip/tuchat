@@ -49267,5 +49267,756 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Saldán es una ciudad de la provincia de Córdoba, Argentina, situada en el departamento Colón y a 18 km de la capital cordobesa, con casi 10.000 habitantes.",
     "aboutTitle": "Saldán y la herencia del cacique Saldán Inchín",
     "about": "Saldán es una ciudad del centro de la provincia de Córdoba, Argentina, integrante de la conurbación Gran Córdoba. Se sitúa a 18 km de la ciudad de Córdoba y limita con Villa Allende, La Calera y el cordón de las Sierras Chicas. Aunque pertenece oficialmente al departamento Colón, las tres cuartas partes de su territorio y de su población se asientan en el departamento Capital.\n\nLa zona fue habitada por el pueblo sanavirón, con una economía agrícola y alfarera organizada en ayllus o sacates. El nombre de la localidad deriva del cacique Saldán Inchín, líder de comunidades extendidas desde el cerro Pan de Azúcar hasta la zona del Chateau Carreras. Entre sus referentes históricos destaca la Estancia de Luis de Tejeda, donde se hospedaron el General San Martín y el marqués de Sobremonte. La agenda local incluye actividades como la Serenata Saldanense el 20 de junio, caminatas a la Reserva Saldán Inchín y cine en la Casa de la Cultura."
+  },
+  {
+    "slug": "santa-juana",
+    "name": "Santa Juana",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 179,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región del Biobío",
+    "regionSlug": "region-del-biobio",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "concepcion",
+      "los-angeles-chile",
+      "chillan",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santa Juana, comuna del Biobío, destaca por su Fuerte Histórico a 48 km de Concepción y por estar situada en el Valle de Catiray.",
+    "aboutTitle": "Fuerte Histórico de Santa Juana y el Valle de Catiray",
+    "about": "Santa Juana es una comuna de la provincia de Concepción, en la Región del Biobío, situada en el Valle de Catiray, a la ribera sur del río Biobío. Su origen se remonta al 8 de marzo de 1626, cuando Luis Fernández de Córdova y Arce fundó el Fuerte Santa Juana de Guadalcázar, que hoy se conserva como Fuerte Histórico a 48 kilómetros de Concepción y a sólo siete cuadras de la Plaza de Santa Juana. El fuerte se estableció para cerrar el paso a las tribus vallinas y arribanas que cruzaban el río por el vado de Talcamávida. En 1550 Pedro de Valdivia llegó a Catiray con Jerónimo de Alderete y cincuenta jinetes, cruzando el río por Talcamávida antes de continuar hacia la Imperial, Valdivia y Tucapel. El asentamiento fue avasallado y quemado varias veces; en 1739 el gobernador José Antonio Manso de Velasco lo convirtió en plaza fuerte, dotándolo de fosos y guarnición. En 1765 obtuvo el título de Villa. Fue cabecera del Departamento de Lautaro entre 1841 y 1865, fecha en que la capital pasó a Coronel. Con la Ley de Comuna Autónoma, el 22 de diciembre de 1891 se creó la Ilustre Municipalidad de Santa Juana. En noviembre de 2026 la municipalidad publicó convocatorias para trabajadores sociales y psicólogos, y celebró la premiación del campeonato de baloncesto."
+  },
+  {
+    "slug": "juan-maria-gutierrez-buenos-aires",
+    "name": "Juan María Gutiérrez (Buenos Aires)",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 204,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Buenos Aires",
+    "regionSlug": "provincia-de-buenos-aires",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "quilmes",
+      "lomas-de-zamora",
+      "lanus",
+      "la-plata",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juan María Gutiérrez (Buenos Aires) celebra su día local el 16 de abril, conmemorado desde 1996 por la ordenanza n.º 2866/96.",
+    "aboutTitle": "Estación ferroviaria y día festivo de Juan María Gutiérrez",
+    "about": "Juan María Gutiérrez es una localidad del partido de Berazategui, situada en el Gran Buenos Aires, provincia de Buenos Aires, Argentina. La zona se incorporó al trazado ferroviario autorizado por la Ley provincial N°13.782 de mayo de 1883, y el decreto del 19/08/1883 ordenó la construcción del ramal Haedo‑Temperley‑Villa Elisa. La estación Juan María Gutiérrez fue designada el 20 de marzo de 1884 y el lunes 16 de abril de 1884 se detuvo la primera formación en ella.\n\nEl nombre de la localidad rinde homenaje al escritor, poeta y político antirrosista Juan María Gutiérrez (1808‑1878), diputado constituyente de 1853, ministro de la Confederación y rector de la Universidad de Buenos Aires. En el pasado albergó la fábrica de Parafina del Plata y conserva el barrio cerrado El Carmen, uno de los más antiguos del partido, que corresponde al antiguo casco de la estancia de la familia Herrera Vegas‑Pereyra Iraola. Desde la ordenanza n.º 2866/96, aprobada en 1996, se celebra cada 16 de abril el día de la localidad. Entre sus instituciones educativas destacan la Escuela Primaria Básica N.º 7, fundada el 11 de octubre de 1916 y renombrada el 16 de noviembre de 1962, y la Escuela General Básica N.º 55 “Bandera de los Andes”, inaugurada en 1997."
+  },
+  {
+    "slug": "agua-de-dios",
+    "name": "Agua de Dios",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 165,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-santuario",
+      "girardot",
+      "flandes",
+      "melgar",
+      "fusagasuga",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Agua de Dios, municipio de Cundinamarca a 125 km al suroccidente de Bogotá, destaca por sus aguas termales de Los Chorros y su historia leprosa del siglo XIX.",
+    "aboutTitle": "Aguas termales de Los Chorros y origen leproso de Agua de Dios",
+    "about": "Agua de Dios es un municipio colombiano de la provincia del Alto Magdalena, en el departamento de Cundinamarca. Se sitúa a 125 km al suroccidente de Bogotá y limita al norte y oeste con Tocaima, al sur con Ricaurte y al este con Nilo. El topónimo combina el latín aqua, que significa agua, y deus, derivado de la raíz indoeuropea deiw- que alude al brillo diurno. El nombre proviene de las aguas termales conocidas como “Los Chorros”, descubiertas por los primeros visitantes que exclamaron «¡Esto es agua de Dios!». La denominación también tiene raíces latinas: “aqua” para el líquido y “deus” para el brillo divino. En el siglo XIX, el territorio se utilizó como aislamiento para pacientes de lepra expulsados de Tocaima en 1867, bajo la propiedad del expresidente Manuel Murillo Toro, adquirida mediante escritura N° 66 del 22 de febrero de 1856. Además, la zona está marcada por la raíz indoeuropea akwa, emparentada con el germánico ahwo, que designa corriente de agua, reforzando la relación del municipio con sus recursos hídricos."
+  },
+  {
+    "slug": "san-martin-zapotitlan",
+    "name": "San Martín Zapotitlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 124,
+    "votes": 205,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Retalhuleu",
+    "regionSlug": "departamento-de-retalhuleu",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "solola",
+      "tapachula",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Martín Zapotitlán, municipio del departamento de Retalhuleu, Guatemala, celebra su fiesta patronal el 11 de noviembre en honor a San Martín de Tours.",
+    "aboutTitle": "IRTRA Xetulul, Xocomil y Xejuyup en San Martín Zapotitlán",
+    "about": "San Martín Zapotitlán es un municipio del departamento de Retalhuleu, situado en la zona sur‑occidente de Guatemala. Con una superficie de 24 km² es el municipio más pequeño del departamento. La cabecera lleva el mismo nombre y el municipio está dividido en 12 centros poblados reconocidos. En su territorio se encuentran tres de los seis centros recreativos del Instituto de Recreación de los Trabajadores del sector privado (IRTRA): Xetulul, Xocomil y Xejuyup, que destacan a nivel nacional. Tras la independencia de Centroamérica en 1821, el municipio fue asignado al circuito judicial de Cuyotenango. El circuito judicial correspondía al distrito N.º 11, cuya sede era Cuyotenango, en Suchitepéquez. En 1838 pasó al Estado de Los Altos, donde se produjeron revueltas campesinas y tensiones con Guatemala; en 1840 el general Rafael Carrera recuperó la zona para el país. Cada año, el 11 de noviembre, se celebra la fiesta titular en honor a su santo patrono, San Martín de Tours. El topónimo del municipio sigue la tradición de combinar el nombre del santo con una raíz náhuatl."
+  },
+  {
+    "slug": "tabacundo",
+    "name": "Tabacundo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 198,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Pichincha",
+    "regionSlug": "pichincha",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ibarra",
+      "ecuador",
+      "quito",
+      "sangolqui",
+      "tulcan",
+      "pichincha",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tabacundo, ciudad ecuatoriana a 2.877 m s.n.m. en la hoya del río Guayllabamba, destaca como la Capital Mundial de la Rosa y cuenta con 13.019 habitantes.",
+    "aboutTitle": "Tabacundo: capital mundial de la rosa y cuna de la producción floral",
+    "about": "Tabacundo, también conocida como San Juan de Tabacundo, es una ciudad ecuatoriana situada al norte de la Región interandina, en la hoya del río Guayllabamba, a 2.877 m sobre el nivel del mar. El clima es andino, con una temperatura promedio de 15 °C. Al sur de la ciudad atraviesa la línea equinoccial. Con 13.019 habitantes según el censo de 2022, es la quinta urbe más grande de la provincia de Pichincha y la octogésima tercera del país.\n\nLa localidad se ha consolidado como la “Capital Mundial de la Rosa” gracias a su intensa producción florícola, actividad que junto a la ganadería y la agricultura constituye su principal motor económico. Sus orígenes se remontan al siglo XVI, aunque la fecha exacta de fundación es desconocida; los documentos más antiguos la citan en 1534 como un caserío indígena existente al momento de la conquista española. Además, el cantón Pedro Moncayo, del que Tabacundo es cabecera, celebra diversas festividades tradicionales, aunque el texto no especifica fechas concretas."
+  },
+  {
+    "slug": "armstrong",
+    "name": "Armstrong",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "canada-de-gomez",
+      "carcarana",
+      "marcos-juarez",
+      "casilda",
+      "firmat",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Armstrong, ciudad de 12.973 habitantes en Santa Fe, está a 214 km de la capital provincial, a 95 km de Rosario y a 20 km de Cañada de Gómez.",
+    "aboutTitle": "Armstrong, ciudad del suroeste santafesino con historia ferroviaria",
+    "about": "Armstrong es una localidad del Departamento Belgrano, situada en el suroeste de la provincia de Santa Fe, Argentina. Según el Censo de 2022 cuenta con 12.973 habitantes. La población se ubica en la intersección estratégica de la Autopista Rosario‑Córdoba y la Ruta Nacional 178, a 214 km de la capital provincial, a 95 km de Rosario y a 20 km de Cañada de Gómez. Fue fundada en 1882 por la Compañía de Tierras del Ferrocarril Central Argentino; sus planos recibieron aprobación oficial de la provincia en 1929. El nombre honra a Tomás Armstrong, pionero del desarrollo ferroviario en la zona, y la categoría de ciudad se concedió el 4 de diciembre de 1984. Entre los primeros pobladores se encontraban inmigrantes suizos y familias procedentes de la región italiana de Friuli Venezia Giulia, que aportaron mano de obra y tradiciones al crecimiento local. La Cooperativa de Provisión de Obras y Servicios Públicos Ltda., conocida como Cooperativa Eléctrica, lideró la electrificación rural en 1966 y la telefonía rural en 1977. En 2017 impulsó el proyecto PRIER, que instaló la primera planta fotovoltaica de la provincia (200 kVA) y favoreció la promulgación de la Ley Nacional N.º 27.424 de Generación Distribuida."
+  },
+  {
+    "slug": "paucara",
+    "name": "Paucará",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 107,
+    "votes": 189,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Huancavelica",
+    "regionSlug": "departamento-de-huancavelica",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huancavelica",
+      "ayacucho",
+      "huancayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Paucará, distrito de Acobamba en Huancavelica, fue creado el 15 de enero de 1943 y cuenta con 10 415 habitantes según el censo de 2017.",
+    "aboutTitle": "Paucará: distrito creado en 1943 con altitud de 2.500 a 4.000 m",
+    "about": "Paucará es un distrito peruano que forma parte de la provincia de Acobamba, en el departamento de Huancavelica. Su origen administrativo se remonta a la Ley promulgada el 15 de enero de 1943, fecha en la que se estableció oficialmente como entidad local. De acuerdo con el censo nacional de 2017, la población total del distrito asciende a 10 415 habitantes, lo que permite conocer su dimensión demográfica en la última década. El territorio que comprende Paucará cubre una superficie de 225,60 km², una extensión que incluye zonas situadas a distintas alturas. La altitud del distrito oscila entre los 2 500 y los 4 000 metros sobre el nivel del mar, lo que implica que gran parte de su área se encuentra en un entorno de gran altitud. Estas características geográficas influyen en la distribución de los asentamientos y en las condiciones de vida de sus habitantes. En conjunto, los datos oficiales describen a Paucará como una unidad administrativa con una historia reciente, una población concreta y unas dimensiones territoriales bien delimitadas."
+  },
+  {
+    "slug": "ayutla-estado-de-jalisco",
+    "name": "Ayutla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 150,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "estado de Jalisco",
+    "regionSlug": "estado-de-jalisco",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "autlan-de-navarro",
+      "el-grullo",
+      "ameca",
+      "cocula",
+      "ahualulco-de-mercado",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ayutla, municipio de Jalisco, se ubica en la Sierra de Amula; su cabecera lleva el mismo nombre y fue erigido el 28 de febrero de 1888.",
+    "aboutTitle": "Ayutla, la tierra de 'junto a las calabazas' en la Sierra de Amula",
+    "about": "Ayutla, municipio de la Región Sierra Occidental de Jalisco, tiene como cabecera la localidad homónima. El topónimo Ayutla significa “junto a las calabazas” o “lugar de tortugas”. Su asentamiento primitivo fue en Tepospisaloya y su origen se remonta a la época precortesiana. La conquista del pueblo se produjo en 1524 bajo el mando del capitán español Francisco Cortés de San Buenaventura, quien dejó como encomenderos a Martín Monje y Pedro Gómez. En 1525 los frailes Juan de Padilla y Miguel de Bolonia iniciaron la evangelización del área. Durante el virreinato perteneció a la Provincia de Ávalos, al igual que Autlán, Tenamaxtlán y Etzatlán. En 1541 se impusieron tributos que incluían maíz, henequén, gallinas y jícaras, y la población entonces estaba compuesta por cinco españoles, cien indios, siete mulatos y veintidós mestizos. Por decreto número 191 del 2 de marzo de 1830 se trasladó la cabecera del Departamento de Tepospisaloya a Ayutla; desde 1825 formó parte del sexto cantón de Autlán. Fue erigido como municipio el 28 de febrero de 1888. El territorio abarca 939.12 kilómetros cuadrados y limita al norte con Cuautla, Atengo y Tenamaxtlán; al este con Tenamaxtlán y Unión de Tula; al sur con Unión de Tula, Autlán de Navarro y Villa Purificación; y al oeste con Tomatlán."
+  },
+  {
+    "slug": "chinchero",
+    "name": "Chinchero",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 90,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Cusco",
+    "regionSlug": "departamento-de-cusco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cusco",
+      "abancay",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Chinchero, distrito de Urubamba en Cusco, se alza a 3 754 m sobre el nivel del mar y celebra su fiesta cívica el 24 de julio.",
+    "aboutTitle": "Chinchero: residencia inca y fiesta cívica del 24 de julio",
+    "about": "Chinchero es uno de los siete distritos que forman la provincia de Urubamba, en el departamento de Cusco, sur del Perú. La capital, el poblado de Chinchero, se sitúa a 3 754 m sobre el nivel del mar. Los orígenes del lugar son remotos; se conservan vestigios de ocupación que datan de aproximadamente dos mil años, iniciados por los ayarmacas y luego incorporados al Imperio incaico. El inca Túpac Inca Yupanqui eligió Chinchero como residencia y mandó edificar palacetes para su panaca. En 1536, durante la conquista, Manco Inca incendió el poblado para impedir el avance español. Más tarde, el virrey Toledo fundó una reducción de indios y ordenó la construcción de la actual iglesia, erigida sobre estructuras incas. El distrito se creó oficialmente el 9 de septiembre de 1905 mediante la Ley N.º 59 del presidente José Pardo y Barreda. La Municipalidad Distrital, con sede en la Plaza de Armas S/N y encabezada por el alcalde Abg. Alcides Cusihuaman Auccacusi, gestiona servicios como el Centro Integral del Adulto Mayor y la XXI Feria Regional. Entre sus celebraciones destaca el desfile cívico escolar por fiestas patrias, programado para el 24 de julio."
+  },
+  {
+    "slug": "puren",
+    "name": "Purén",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de La Araucanía",
+    "regionSlug": "region-de-la-araucania",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "los-angeles-chile",
+      "temuco",
+      "santa-juana",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Purén, comuna de la Araucanía, se ubica en la cuenca del río Purén, afluente del Imperial, a los pies de la cordillera de Nahuelbuta.",
+    "aboutTitle": "Río Purén y la cordillera de Nahuelbuta, esencia de Purén",
+    "about": "Purén es una ciudad y comuna de la zona sur de Chile, situada al noroeste de la Provincia de Malleco, en la Región de La Araucanía. La localidad se asienta sobre la cuenca del río homónimo, que forma parte de la cuenca del río Imperial, y descansa a los pies de la cordillera de Nahuelbuta. El nombre proviene del mapudungún y significa “tierra de pantanos”. En el ámbito político forma parte del distrito electoral N.º 22 y de la XI circunscripción senatorial de la Araucanía. Históricamente, el territorio fue escenario de intensos conflictos durante la Guerra de Arauco. El fuerte de Purén, fundado por Juan Gómez de Almagro por orden del gobernador Pedro de Valdivia en la primavera de 1553 y llamado Juan Bautista de Purén o Casa Vieja, recibió mejoras en 1589 bajo el mando de Alonso de Sotomayor, pero fue repetidamente atacado y destruido por los mapuches tras la Batalla de Curalaba. La zona sigue marcada por su pasado colonial y por la presencia de la cordillera de Nahuelbuta."
+  },
+  {
+    "slug": "san-bernardo-provincia-de-chaco",
+    "name": "San Bernardo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 186,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Chaco",
+    "regionSlug": "provincia-de-chaco",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-angela",
+      "las-brenas",
+      "charata",
+      "presidencia-roque-saenz-pena",
+      "quitilipi",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Bernardo, en el centro del Chaco (Argentina), tiene como principal vía la ruta provincial 6 que la une a Las Breñas y Villa Berthet.",
+    "aboutTitle": "San Bernardo: de Pampa del Huevo a centro agroforestal del Chaco",
+    "about": "San Bernardo está ubicada en el centro de la provincia del Chaco y es la cabecera del Departamento O'Higgins. Antiguamente se llamaba Pampa del Huevo, por la gran cantidad de huevos de ñandúes que se encontraban en la zona, y sus primeros habitantes fueron los mocovíes. Desde 1922 llegaron obrajeros de la provincia de Santiago del Estero, que se asentaron en núcleos aislados dedicándose a la explotación forestal. Con el auge de la actividad algodonera, los hermanos Gonzalo, Bernardo y Ulpiano Pando, provenientes de España, adquirieron alrededor de 100 ha, instalaron una desmotadora y en 1933 se aprobaron los planos de mensura, momento en que el pueblo recibió el nombre de San Bernardo en honor al hermano fallecido.\n\nLas principales actividades económicas de la localidad son la ganadería, la agricultura y la forestal, complementadas por pequeñas industrias. El 50 % de los suelos de aptitud agrícola se destinan a cultivos anuales como algodón, soja, girasol y trigo, mientras que el resto se usa de forma mixta o ganadera. La principal vía de acceso es la ruta provincial 6, que la comunica por pavimento al noroeste con Las Breñas y al este con Villa Berthet."
+  },
+  {
+    "slug": "san-juan-tecuaco",
+    "name": "San Juan Tecuaco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Santa Rosa",
+    "regionSlug": "departamento-de-santa-rosa",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ahuachapan",
+      "villa-nueva",
+      "escuintla",
+      "guatemala",
+      "ciudad-de-guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Juan Tecuaco, municipio de Santa Rosa en Guatemala, celebra su fiesta titular el 24 de enero en honor a San Juan Evangelista.",
+    "aboutTitle": "Fiesta titular de San Juan Tecuaco el 24 de enero",
+    "about": "San Juan Tecuaco, nombrado en honor a San Juan Evangelista, es un municipio del departamento de Santa Rosa situado en la región sur-oriente de la República de Guatemala. Con una superficie de 80 km², es el segundo municipio más pequeño que tiene el departamento de Santa Rosa, ya que supera únicamente a Santa Cruz Naranjo, que cuenta con una extensión de 57 km². La localidad se encuentra situada a una distancia de 56 kilómetros de la cabecera municipal de Cuilapa. En cuanto a su ubicación geográfica, está rodeado por otros municipios de Santa Rosa, localizándose entre el noreste de Chiquimulilla, al oeste de Oratorio y al sur de Santa María Ixhuatán.\n\nEl municipio celebra su fiesta titular el 24 de enero de cada año en honor a San Juan Evangelista, patrón del municipio. Asimismo, se celebra la feria titular del Barrio del Centro el 12 de diciembre en honor a la Virgen de Guadalupe, y la feria titular del Barrio San Juan el 27 de diciembre. El gobierno municipal está a cargo de un Concejo Municipal, de conformidad con el artículo 254 de la Constitución Política de la República de Guatemala."
+  },
+  {
+    "slug": "jopala",
+    "name": "Jopala",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 106,
+    "votes": 177,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "xicotepec-de-juarez",
+      "huauchinango",
+      "zacatlan",
+      "coatzintla",
+      "poza-rica-de-hidalgo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Jopala es un municipio de Puebla donde predomina la lengua totonaca y el español. Su nombre proviene del náhuatl y significa lugar verde o árbol de Xupale.",
+    "aboutTitle": "Jopala y la feria de la Virgen de la Asunción",
+    "about": "Jopala es un municipio del estado de Puebla con una superficie de 165.35 kilómetros cuadrados. Se estableció como municipio libre en 1895, tras haber sido habitado por grupos nahuas y totonacos en el periodo prehispánico y conquistado en 1522. La cabecera municipal se divide en las colonias Bugambilias, Centro, Patángo, Sataskahuatl e Ixkimpan. Geográficamente colinda con Zihuateutla, Tlaola, Tlapacoya, Hermenegildo Galeana, San Felipe Tepatlán, Olintla y los municipios de Filomeno Mata y Mecatlán en Veracruz.\n\nLa localidad se ubica en la región hidrológica de Tuxpan-Nautla, dentro de la cuenca del río Tecolutla, repartiéndose entre las subcuencas del río Necaxa y el río Laxaxalpan. Su festividad más relevante es la feria patronal en honor a la Virgen de la Asunción, que se celebra del 12 al 22 de agosto. Durante estos 11 días se presentan danzas autóctonas como las de Los Negritos, Los Toreadores, Las Malinches, San Miguel, Los Españoles y Los Wewes, también conocidos como tejoneros."
+  },
+  {
+    "slug": "pichilemu",
+    "name": "Pichilemu",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-antonio-chile",
+      "curico",
+      "rancagua",
+      "talca",
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pichilemu es una ciudad de la región de O'Higgins en Chile, capital de la provincia Cardenal Caro y conocida como la capital chilena del surf.",
+    "aboutTitle": "Pichilemu y la capital chilena del surf",
+    "about": "Pichilemu es una ciudad y comuna de la zona central de Chile, situada en la región de O'Higgins y capital de la provincia Cardenal Caro. Su nombre proviene del mapudungun y significa bosque pequeño. Forma parte del distrito electoral N.° 16 y la 8.ª circunscripción senatorial.\n\nLa localidad es reconocida como la capital chilena del surf debido a la práctica de este deporte en su playa, concretamente en el sector de Punta de Lobos, donde se han desarrollado campeonatos internacionales. Su entorno natural incluye el río Rapel, el Estero Nilahue y diversas lagunas como la de Cahuil, Bajel, El Ancho, El Barro, El Perro, Los Lobos y Petrel. El clima es mediterráneo de lluvia invernal y su territorio alberga ecosistemas de bosque espinoso y bosque esclerófilo mediterráneo costero, donde predominan especies como Lithrea caustica y Azara integrifolia."
+  },
+  {
+    "slug": "ocos",
+    "name": "Ocós",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 101,
+    "votes": 173,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de San Marcos",
+    "regionSlug": "departamento-de-san-marcos",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "tapachula",
+      "san-martin-zapotitlan",
+      "san-marcos-guatemala",
+      "mazatenango",
+      "quetzaltenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Ocós, municipio guatemalteco de San Marcos, vio reducir su territorio en un 66 % el 23 de enero de 2014 tras la creación del nuevo municipio de La Blanca.",
+    "aboutTitle": "Historia territorial y pérdida de Ocós en San Marcos",
+    "about": "Ocós, cuyo nombre proviene del náhuatl y significa «yuca gloriosa», es un municipio del departamento de San Marcos, en la región sur‑occidente de Guatemala. La localidad destaca por su actividad turística y la exportación de recursos naturales, factores que la convierten en una zona importante dentro del país. Tras la independencia de Centroamérica en 1821, el entonces llamado Sanjón de Ocoz fue incorporado al circuito de Retalhuleu, distrito N.º 11 de Suchitepéquez, para la administración de justicia mediante juicios de jurado cuando se definió el Estado de Guatemala en 1825. Entre 1838 y 1840 formó parte del efímero Estado de Los Altos, creado por el congreso federal de la República Federal de Centroamérica y recuperado por la fuerza para Guatemala bajo el mando del general Rafael Carrera.\n\nLa frontera con México se fijó en 1896 tras el Tratado Herrera‑Mariscal, suscrito por el presidente Justo Rufino Barrios en 1882, lo que obligó a Guatemala a renunciar a reclamos sobre el territorio de Soconusco y a perder cerca de 10.300 km, catorce pueblos, diecinueve aldeas y cincuenta y cuatro rancherías. El 23 de enero de 2014 perdió casi dos terceras partes de su territorio cuando fue aprobada la creación del municipio de La Blanca como el trigésimo municipio de San Marcos."
+  },
+  {
+    "slug": "el-pangui",
+    "name": "El Pangui",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 93,
+    "votes": 152,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Zamora Chinchipe",
+    "regionSlug": "zamora-chinchipe",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "loja",
+      "cuenca",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Pangui, cantón amazónico de Zamora Chinchipe, destaca por su gran yacimiento de cobre en Tundayme y su flora de orquídeas únicas.",
+    "aboutTitle": "Cobre, orquídeas y la ruta troncal de El Pangui",
+    "about": "El Pangui es un cantón de la provincia de Zamora Chinchipe, en el sureste de Ecuador. Su nombre proviene del término shuar “Panki”, que significa boa o lugar de las boas, reflejando la abundancia de estas serpientes en las faldas del río Zamora. La población combina mestizos, shuar y saraguro, y la zona es conocida como la Orquídea de la Amazonia por la gran diversidad de orquídeas que atrae a visitantes. Además, el cantón constituye la principal conexión hacia la provincia de Morona Santiago, en particular a Gualaquiza, a través de la carretera Troncal Amazónica.\n\nEl clima es cálido y húmedo, con temperaturas medias entre 20 °C y 24 °C y una humedad relativa que supera el 90 % durante todo el año. La altitud varía de 748 a 2 178 metros sobre el nivel del mar. En el ámbito minero, El Pangui alberga el yacimiento más grande de cobre del país, localizado en la parroquia Tundayme, en la frontera con Perú, y el proyecto a cielo abierto Mirador, gestionado por la empresa china Ecuacorriente SA, está en fase de construcción para extraer concentrado de cobre durante treinta años."
+  },
+  {
+    "slug": "xochitlan-de-vicente-suarez",
+    "name": "Xochitlán de Vicente Suárez",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 102,
+    "votes": 184,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "zaragoza-puebla",
+      "jopala",
+      "zacatlan",
+      "teziutlan",
+      "chignahuapan",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Xochitlán de Vicente Suárez es un municipio de Puebla situado a una altitud promedio de 1.040 m s. n. m. y que abarca un área de 78,20 km².",
+    "aboutTitle": "Xochitlán de Vicente Suárez y su bosque mesófilo",
+    "about": "Xochitlán de Vicente Suárez es uno de los 217 municipios que conforman el estado mexicano de Puebla. Su nombre proviene del nahuatl y significa lugar entre flores. Fue elevado a la categoría de municipio en 1895 y tiene como cabecera la ciudad de Xochitlán de Vicente Suárez.\n\nGeográficamente colinda al norte con Zoquiapan, al oeste con Huitzilan de Serdán y Zapotitlán de Méndez, al sur con Xochiapulco y al este con Nauzontla. Su vegetación destaca por la agricultura de temporal, que ocupa el 78,3 % del territorio, seguida por el bosque de pino-encino con un 13,68 %. El bosque mesófilo de montaña se desarrolla en relieves accidentados y laderas de pendiente pronunciada, con especies principales como los encinos o robles del género Quercus y el magno. La temperatura media anual oscila entre los 12 y los 23 grados centígrados, aunque en invierno puede ser inferior a 0 grados."
+  },
+  {
+    "slug": "muna",
+    "name": "Muna",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 121,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Yucatán",
+    "regionSlug": "yucatan",
+    "channels": [
+      "yucatan",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "merida-mexico",
+      "campeche",
+      "yucatan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Muna es un municipio de Yucatán cuyo nombre en lengua maya significa lugar de agua suave o tierna. Se ubica en la región sur poniente del estado.",
+    "aboutTitle": "Muna: entre la Sierrita y el antiguo cacicazgo Tutul Xiu",
+    "about": "El municipio de Muna se sitúa en la región sur poniente del estado de Yucatán, en México. Su toponimia proviene de las voces mayas Mun, que equivale a tierno o suave, y Á o Há, que significa agua, por lo que se traduce como lugar de agua suave o tierna. En la época prehispánica esta localidad pertenecía al cacicazgo de Tutul Xiu, hasta que en 1526 comenzó a operar bajo el régimen de encomiendas.\n\nA lo largo del siglo XIX, Muna atravesó diversos acontecimientos históricos. En 1841 fue recorrida por el explorador John Lloyd Stephens en su trayecto hacia Uxmal, y en 1848, durante la Guerra de Castas, el capitán Cándido González incendió la población y cegó sus pozos. El 6 de diciembre de 1865, la emperatriz Carlota pernoctó en la cabecera municipal de camino a Uxmal. Muna adquirió el título de villa en 1875, perdiéndolo en 1921 para poder recibir ejidos. Geográficamente, colinda al sur con la Sierrita, que debe trasponerse para llegar al yacimiento arqueológico de Uxmal, y limita con Abalá, Santa Elena, Ticul, Sacalum, Opichén y el estado de Campeche."
+  },
+  {
+    "slug": "cuatro-cienegas",
+    "name": "Cuatro Ciénegas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 201,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Coahuila de Zaragoza",
+    "regionSlug": "coahuila-de-zaragoza",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Cuatro Ciénegas, en el norte de México, cuenta con 12.715 habitantes y es famoso por sus manantiales y lagunas, declarados área protegida en 1994.",
+    "aboutTitle": "Manantiales, lagunas y el Galápagos mexicano de Cuatro Ciénegas",
+    "about": "Cuatro Ciénegas es un municipio del estado de Coahuila de Zaragoza, situado en el norte de México dentro de la región Centro Desierto de Coahuila. Según el censo de 2020, tiene una población de 12.715 habitantes y su cabecera municipal es la ciudad de Cuatro Ciénegas de Carranza. El territorio destaca por sus manantiales y lagunas que emergen en medio del desierto, formando una reserva de la biosfera reconocida por su ecosistema único y por albergar especies endémicas; por ello se le suele llamar el Galápagos mexicano.\n\nEn noviembre de 1994 el gobierno declaró al valle de Cuatro Ciénegas como área de protección de flora y fauna. Gracias a esta designación y a la incorporación al programa Pueblos Mágicos en 2012, bajo la gestión de la profesora Santos Garza Herrera, la localidad ha experimentado un notable desarrollo turístico. Antes de la declaración contaba con solo ocho hoteles; hoy dispone de quince establecimientos de hospedaje. Además, la Poza “La Becerra”, que en 2010 estaba cerrada parcialmente, ha visto triplicar sus visitas turísticas desde entonces, consolidando a Cuatro Ciénegas como un destino de alto potencial económico y natural."
+  },
+  {
+    "slug": "general-deheza",
+    "name": "General Deheza",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-maria-villa-nueva",
+      "rio-cuarto",
+      "rio-tercero",
+      "bell-ville",
+      "santa-rosa-de-calamuchita",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "General Deheza es una ciudad de la provincia de Córdoba situada sobre la ruta nacional RN 158, corredor bioceánico que une Argentina con Chile y Brasil.",
+    "aboutTitle": "General Deheza y la industria de la Aceitera AGD",
+    "about": "General Deheza se ubica al norte del departamento Juárez Celman, en la provincia de Córdoba, Argentina. Se encuentra a 200 km de la capital provincial, entre Villa María y Río Cuarto, y limita con el departamento Tercero Arriba. Su economía se basa en un centro comercial y agropecuario con producciones de maní, soja, maíz, trigo y girasol, además de la ganadería vacuna. La fertilidad de la región de la Pampa Húmeda permite una agricultura y ganadería extensivas, siendo la ciudad sede de la fábrica Aceitera General Deheza (AGD).\n\nLa llegada del ferrocarril en 1874 facilitó el establecimiento de inmigrantes. El 30 de junio de 1893, el gobernador Manuel Demetrio Pizarro aprobó los planos de las colonias General Cabrera y La Agrícola. En 1905 se inauguró el edificio de la estación ferroviaria llamado General Deheza, nombre que la localidad adoptó posteriormente en honor al general Román Antonio Deheza."
+  },
+  {
+    "slug": "puerto-ayora",
+    "name": "Puerto Ayora",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 152,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Galápagos",
+    "regionSlug": "provincia-de-galapagos",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Puerto Ayora es la urbe más poblada de la provincia de Galápagos y cabecera cantonal del Cantón Santa Cruz, con una población de 12.696 habitantes.",
+    "aboutTitle": "Puerto Ayora y la Bahía de la Academia",
+    "about": "Puerto Ayora se localiza en el sur de la Isla Santa Cruz, al centro de las islas Galápagos, a una altitud de 12 m s. n. m. Es la ciudad más poblada del archipiélago y la octogésima quinta a nivel nacional. Debido a su ubicación geográfica y a ser el centro económico de la zona, es llamada El corazón de las Galápagos.\n\nLa ciudad presenta un clima tropical seco con una temperatura promedio de 23,9 °C. Sus actividades principales son el turismo, la pesca artesanal y el transporte. Se encuentra protegida por las orillas de la Bahía de la Academia, un puerto donde operan yates privados, pesqueros y barcos que transportan turistas. En sus alrededores es posible observar leones marinos, iguanas marinas, pelícanos, garzas y piqueros de patas azules. Para acceder a la localidad desde el aeropuerto de Baltra es necesario cruzar el Canal de Itabaca y Baltra en taxis acuáticos."
+  },
+  {
+    "slug": "morazan",
+    "name": "Morazán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 195,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de El Progreso",
+    "regionSlug": "departamento-de-el-progreso",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "guatemala",
+      "ciudad-de-guatemala",
+      "mixco",
+      "coban",
+      "villa-nueva",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Morazán, en El Progreso, Guatemala, es el segundo municipio más grande del departamento y celebra su fiesta titular el 25 de diciembre en honor al Niño Dios.",
+    "aboutTitle": "Morazán y su fiesta del Niño Dios el 25 de diciembre",
+    "about": "Morazán es un municipio del departamento de El Progreso, en la región nor-oriente de Guatemala. Lleva el nombre del liberal hondureño Francisco Morazán, expresidente de la República Federal de Centroamérica. Antes de la adopción del nombre actual, el asentamiento se llamaba «Tocoy Tzima». Se ubica a una distancia de 31 de la cabecera departamental, Guastatoya. Durante la colonia española el único puerto atlántico cercano era Omoa, en la actual Honduras; los productos destinados a la provincia de Guatemala se transportaban por el río Motagua hasta Gualán, de allí en piraguas a Tocoy Tzima y finalmente en yuntas a la Ciudad de Guatemala.\n\nTras la independencia de Centroamérica en 1821, Tocoy fue asignado al circuito de Acasaguastlán del distrito N.º 4 (Chiquimula) para la administración de justicia. En 1887, bajo el gobierno de Manuel Lisandro Barillas, el municipio fue bautizado Morazán en honor al general del mismo nombre. Pasó al departamento de El Progreso el 13 de abril de 1908, bajo el gobierno de Manuel Estrada Cabrera, para mejorar la administración de la región por donde pasaba el Ferrocarril del Norte de Guatemala. Aunque el departamento se desmanteló en 1920, Morazán fue reasignado cuando se creó nuevamente en 1934 por el presidente Jorge Ubico. Es el segundo municipio más grande del departamento, por debajo únicamente de San Agustín Acasaguastlán, y celebra su fiesta titular el 25 de diciembre en honor al Niño Dios."
+  },
+  {
+    "slug": "quillo",
+    "name": "Quillo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 180,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Áncash",
+    "regionSlug": "departamento-de-ancash",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huaraz",
+      "chimbote",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Quillo, distrito de Yungay en Áncash, lleva el nombre quechua Killup, que probablemente signifique “luna”, y se conoce como “Morada de la luna radiante”.",
+    "aboutTitle": "Quillo: la Morada de la Luna en la Cordillera Negra",
+    "about": "Quillo es uno de los ocho distritos que integran la provincia de Yungay, en el departamento de Áncash, Perú. Fue creado mediante Ley del 2 de enero de 1857, durante el gobierno del presidente Ramón Castilla. El nombre proviene del quechua “Killup”, que probablemente signifique “luna”, y por eso el distrito lleva la denominación de “Morada de la luna radiante”. Geográficamente se sitúa en la Cordillera Negra, una zona que sufre una agobiante falta de agua en el llamado “verano serrano”, lo que dificulta la planificación de la producción agropecuaria y el desarrollo humano. La comunidad depende de la construcción de presas en las alturas de la cordillera para almacenar las abundantes precipitaciones que se concentran entre diciembre y abril. En 2017 el fenómeno de El Niño afectó a la zona y el gobierno nacional construyó centenares de casas para los más afectados. Actualmente se ejecutan obras, principalmente la construcción de escuelas públicas en varios caseríos. La gestión política del distrito se percibe deficiente; el actual alcalde no ha logrado gestionar obras públicas, lo que ha retrasado mejoras en educación, infraestructura vial y salud."
+  },
+  {
+    "slug": "viota",
+    "name": "Viotá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 99,
+    "votes": 166,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "agua-de-dios",
+      "fusagasuga",
+      "el-santuario",
+      "melgar",
+      "sibate",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Viotá, municipio de Cundinamarca a 58 km de Bogotá, fue fundado el 27 de marzo de 1767 y se vincula históricamente al cultivo de café.",
+    "aboutTitle": "Río Calandaima y la tradición cafetera de Viotá",
+    "about": "Viotá es un municipio colombiano del departamento de Cundinamarca, situado en la Provincia de Tequendama a 58 km de Bogotá. Su clima es cálido y fue fundado el 27 de marzo de 1767. El topónimo proviene de la lengua muysca, donde “vi” significa “mucho” y “ta” labranza, aunque también se relaciona con la denominación indígena de Viuta o Biuta, lugar de frontera entre Panches y Muyscas. Santa Bárbara de Anapoima fue fundada como viceparroquia el 17 de octubre de 1777, dejó de depender de Anapoima el 8 de febrero de 1782, y el 12 de diciembre de 1834 Don Matías Basurto donó a la iglesia parroquial el terreno y sus ejidos.\n\nEn las vegas del río Calandaima y hacia la cordillera se encuentran piedras con pictogramas y petroglifos. La población en 1843 era de 482 habitantes, en 1870 contó con 2.183 e en 1884 disminuyó a 1.850 personas. El cultivo de café se inició a finales del siglo XIX y llegó a su edad de oro en las décadas de 1920 a 1940."
+  },
+  {
+    "slug": "eloxochitlan",
+    "name": "Eloxochitlán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ajalpan",
+      "zinacatepec",
+      "ixtaczoquitlan",
+      "cordoba-veracruz",
+      "orizaba",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "En Eloxochitlán, Puebla, la fiesta patronal de San Miguel Arcángel se celebra a finales de septiembre, reflejando su tradición católica y su identidad indígena.",
+    "aboutTitle": "Fiesta patronal de San Miguel Arcángel en Eloxochitlán",
+    "about": "Eloxochitlán es un municipio del sureste de Puebla, cuyo nombre significa “entre las flores de elote”. Fue sometido por los españoles en 1522 y obtuvo la condición de municipio libre en 1895. Limita al norte con Zongolica, Veracruz; al sur con Zoquitlán; al este con San Sebastián Tlacotepec y al oeste con Ajalpan, y abarca 109 kilómetros cuadrados. En el censo de 2020 constaba de 46 localidades, de los cuales cerca del 44 % son indígenas, lo que se refleja en la alta presencia de lenguas originarias. La economía se sustenta principalmente en la agricultura, destacando el maíz, el frijol y el café, mientras que la ganadería produce ganado bovino, porcino, caprino, ovino, equino y aves de corral. En la zona alta se explotan bosques de madera para la construcción. Culturalmente, el 90 % de la población es católica y la fiesta patronal se celebra a finales de septiembre en honor a San Miguel Arcángel. La gastronomía local incluye mole de cadera, totopos, tlaxcales, chileatole y dulces como conservas de durazno, tejocote y manzana."
   }
 ];
