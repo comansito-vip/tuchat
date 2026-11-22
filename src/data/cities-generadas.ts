@@ -50018,5 +50018,299 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "En Eloxochitlán, Puebla, la fiesta patronal de San Miguel Arcángel se celebra a finales de septiembre, reflejando su tradición católica y su identidad indígena.",
     "aboutTitle": "Fiesta patronal de San Miguel Arcángel en Eloxochitlán",
     "about": "Eloxochitlán es un municipio del sureste de Puebla, cuyo nombre significa “entre las flores de elote”. Fue sometido por los españoles en 1522 y obtuvo la condición de municipio libre en 1895. Limita al norte con Zongolica, Veracruz; al sur con Zoquitlán; al este con San Sebastián Tlacotepec y al oeste con Ajalpan, y abarca 109 kilómetros cuadrados. En el censo de 2020 constaba de 46 localidades, de los cuales cerca del 44 % son indígenas, lo que se refleja en la alta presencia de lenguas originarias. La economía se sustenta principalmente en la agricultura, destacando el maíz, el frijol y el café, mientras que la ganadería produce ganado bovino, porcino, caprino, ovino, equino y aves de corral. En la zona alta se explotan bosques de madera para la construcción. Culturalmente, el 90 % de la población es católica y la fiesta patronal se celebra a finales de septiembre en honor a San Miguel Arcángel. La gastronomía local incluye mole de cadera, totopos, tlaxcales, chileatole y dulces como conservas de durazno, tejocote y manzana."
+  },
+  {
+    "slug": "juan-de-herrera",
+    "name": "Juan de Herrera",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 168,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de San Juan",
+    "regionSlug": "provincia-de-san-juan",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "republica-dominicana",
+      "santo-domingo",
+      "barahona",
+      "la-vega",
+      "santiago-de-los-caballeros",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Juan de Herrera, municipio de la provincia de San Juan en República Dominicana, cuenta con 12.592 habitantes y celebra su fundación el 16 de octubre de 1946.",
+    "aboutTitle": "Canal de riego Juan de Herrera‑Jinova y su historia",
+    "about": "Juan de Herrera es un municipio de la República Dominicana situado en la provincia de San Juan, al norte de la cabecera comunal. Según el Censo Nacional de 2022 cuenta con 12.592 habitantes, de los cuales el 57,14 % (aproximadamente 7.197) viven en áreas rurales y 5.395 en la zona urbana, representando el 5,15 % del total provincial.\n\nEl origen de la comunidad se remonta a la década de 1700, cuando llegó un español llamado Juan de Herrera y se instaló en el paraje “Las Ovejas” dedicándose a la ganadería. En los años veinte surgió el primer mercado y se construyó el canal de riego Juan de Herrera‑Jinova, puesto en funcionamiento en 1925. El 16 de octubre de 1946 se iniciaron los trabajos de topografía y trazado de calles, consolidando la fundación oficial del municipio, que poco a poco obtuvo escuelas, abastecimiento de agua, cuartel de policía, iglesia, cuerpo de bomberos y dispensario médico."
+  },
+  {
+    "slug": "capilla-del-monte",
+    "name": "Capilla del Monte",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 170,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Córdoba",
+    "regionSlug": "provincia-de-cordoba",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cruz-del-eje",
+      "jesus-maria-colonia-caroya-sinsacate",
+      "dean-funes",
+      "villa-carlos-paz-san-antonio-de-arredondo-villa-rio-icho-cruz",
+      "cordoba-argentina",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Capilla del Monte, ciudad cordobesa a 109 km de Córdoba y al pie del Cerro Uritorco, destaca por su iglesia de San Antonio de Padua y paisajes de montaña.",
+    "aboutTitle": "Cerro Uritorco y la Iglesia de San Antonio en Capilla del Monte",
+    "about": "Capilla del Monte es una ciudad y municipio argentino ubicada en el departamento Punilla, pedanía Dolores, provincia de Córdoba. Se sitúa a 109 km de la ciudad de  Córdoba y a 725 km de Buenos Aires, y es muy conocida por estar al pie del Cerro Uritorco.\n\nLa primera capilla, fundada por la familia española Jaimes hace casi 500 años, dio nombre a la localidad y hoy corresponde a la iglesia de San Antonio de Padua, situada a pocos kilómetros al este del centro y a medio kilómetro de la antigua estación del Tren de las Sierras, cuyo edificio alberga ahora el Centro de Información al Turista. El territorio se extiende de este a oeste por los faldeos del Cerro Uritorco y el Cerro las Gemelas hasta el lago El Cajón, afluente del Río Dolores, e incluye formaciones naturales como la geoforma El Zapato, los mogotes Los Paredones y las riberas del río Calabalumba. Desde finales de los años 80 la zona ha crecido por la llegada de familias de Buenos Aires, Rosario y Córdoba, destacándose la construcción de chalets californianos."
+  },
+  {
+    "slug": "coahuayutla-de-jose-maria-izazaga",
+    "name": "Coahuayutla de José María Izazaga",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 92,
+    "votes": 154,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Guerrero",
+    "regionSlug": "guerrero",
+    "channels": [
+      "guerrero",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "melchor-ocampo",
+      "guerrero",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Coahuayutla de José María Izazaga, el municipio más extenso de Guerrero (3.511,5 km²), está en la Costa Grande y lleva nombre del insurgente José María Izazaga.",
+    "aboutTitle": "Coahuayutla de José María Izazaga: municipio más extenso de Guerrero",
+    "about": "Coahuayutla de José María Izazaga es uno de los 85 municipios del estado de Guerrero y su cabecera es la población de Coahuayutla de Guerrero. El municipio lleva el nombre del hacendado e insurgente José María Izazaga, figura de la Guerra de Independencia. Durante la lucha insurgente, en marzo de 1818 el general Vicente Guerrero estableció allí la comandancia del ejército rebelde, y más tarde Iturbide lo incluyó en la Capitanía General del Sur. Tras la independencia, en 1824 formó parte de la municipalidad de Zacatula, del partido de Tecpan y del distrito de Acapulco, y en 1850 quedó dentro del territorio municipal de La Unión. El 20 de diciembre de 1868 se constituyó como municipio con áreas de La Unión. Situado en la región de la Costa Grande, el municipio se localiza al oeste‑noroeste del estado, entre los meridianos 101°22´ y 101°58´ oeste y latitudes 19°59´ y 18°43´ norte. Con una superficie total de 3,511.5 kilómetros cuadrados, es el municipio más extenso de Guerrero, representando el 5.50 % del territorio estatal. Limita al norte con Michoacán, al sur con Zihuatanejo de Azueta y La Unión de Isidoro Montes de Oca, al este con Coyuca de Catalán y Zirándaro, y al oeste nuevamente con Michoacán. El relieve es predominantemente accidentado, cubriendo el 75 % del área, con elevaciones como el Cerro del Gallo Minero, Amatepec, Zoyatepec, San Isidro, Cerro Verde y Bejuco."
+  },
+  {
+    "slug": "yanahuanca",
+    "name": "Yanahuanca",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 150,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Pasco",
+    "regionSlug": "departamento-de-pasco",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "cerro-de-pasco",
+      "huanuco",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Yanahuanca, capital del distrito homónimo en Pasco, Perú, se sitúa a 3 184 m s.n.m. en el valle del río Chaupihuaranga, a 64 km de Cerro de Pasco.",
+    "aboutTitle": "Valle del río Chaupihuaranga y su patrimonio arqueológico",
+    "about": "Yanahuanca es el distrito capital del mismo nombre, uno de los ocho que integran la provincia de Daniel Alcides Carrión, en el departamento de Pasco, centro del Perú. Con una superficie aproximada de 818,32 km², se ubica a 64 km de Cerro de Pasco y cuenta con acceso por carretera pavimentada. El pueblo, asentado a 3 184 m sobre el nivel del mar, se sitúa en la vertiente oriental de la Cordillera de los Andes, en el valle formado por el río Chaupihuaranga, afluente del Huallaga. La economía local depende en gran medida de la agricultura de subsistencia y de los recursos naturales de la zona.\n\nEl distrito fue creado mediante Ley n.º 9904, del 20 de enero de 1944, durante el gobierno del presidente Manuel Prado Ugarteche. Administrativamente, Yanahuanca forma parte de la Diócesis de Tarma, bajo la arquidiócesis de Huancayo. Desde la época precolombina el valle alberga pinturas rupestres en localidades como Palca y Chinche, y testimonios de culturas Wari y Yaros en sitios como Pillao y Huarautambo. La presencia inca se refleja en el tambo de Huarautambo y los caminos incas que atraviesan la zona."
+  },
+  {
+    "slug": "corzuela",
+    "name": "Corzuela",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Chaco",
+    "regionSlug": "provincia-de-chaco",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "las-brenas",
+      "charata",
+      "presidencia-roque-saenz-pena",
+      "quitilipi",
+      "villa-angela",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Corzuela, cabecera del departamento General Belgrano en Chaco, celebra su aniversario oficial el 11 de julio y es la Capital Provincial de la Tradición.",
+    "aboutTitle": "Corzuela, la Capital Provincial de la Tradición",
+    "about": "Corzuela es el único municipio y cabecera del departamento General Belgrano, situada en el centro‑oeste de la provincia del Chaco, Argentina. La localidad nació a la vera de la Estación del Ferrocarril General Belgrano, de allí tomó su nombre, que proviene del mamífero Mazama americana, llamado corzuela o guazuncho en la región chaqueña. Fue fundada el 30 de abril de 1917 y, por decreto presidencial, se declaró localidad el 11 de julio de 1921, fecha que se celebra como aniversario oficial. Los primeros pobladores fueron Don Baltasar Benito y Doña Esther, seguidos en 1923 por familias como la de Juan Manuel Zarza y Matilde Rodríguez, Tomás Hernández Prieto e Isolina Zabal, entre otros.\n\nCorzuela se autodenomina la «Capital Provincial de la Tradición» y cada noviembre organiza la Fiesta de la Tradición, conmemorando el Día de la Tradición y el nacimiento de José Hernández. En torno a esa fecha se realiza el Festival de Doma y Folclore, que incluye doma de caballos criollos, recitales de música folclórica y bailes típicos, así como la oferta gastronómica tradicional. La actividad ferroviaria marcó el desarrollo inicial del pueblo, y hoy la comunidad mantiene su vínculo con la historia gauchesca y el entorno natural de la región chaqueña."
+  },
+  {
+    "slug": "santo-tomas-la-union",
+    "name": "Santo Tomas La Unión",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 212,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Suchitepéquez",
+    "regionSlug": "departamento-de-suchitepequez",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "mazatenango",
+      "solola",
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "antigua-guatemala",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santo Tomás La Unión, municipio de Suchitepéquez, se ubica a 160 km de la Ciudad de Guatemala y conserva el nombre histórico de Santo Tomás Perdido.",
+    "aboutTitle": "Historia y origen de Santo Tomás La Unión",
+    "about": "Santo Tomás La Unión es un municipio del departamento de Suchitepéquez, en la costa sur de Guatemala, a 160 km de la Ciudad de Guatemala. Su nombre original, Santo Tomás Perdido, proviene de la leyenda de una imagen del apóstol que se perdió en los primeros años de la colonia española. El término «La Unión» hace referencia a la unión de dos poblados que se habían separado.\n\nTras la independencia de Centroamérica, el municipio formó parte del departamento de Sololá/Suchitepéquez y estuvo en el circuito de Mazatenango para la impartición de justicia. En 1838 pasó al Estado de Los Altos, y en 1840 el general Rafael Carrera recuperó la zona para Guatemala. En 1840 el general conservador Rafael Carrera derrotó al presidente liberal hondureño Francisco Morazán, quien había invadido Guatemala. El 12 de agosto de 1872, tras la Revolución Liberal, el territorio pasó a formar parte del departamento de Totonicapán; en 1879 fue adjudicado nuevamente a Suchitepéquez por el Acta Constitutiva de Guatemala. En 1905 pasó a ser una aldea del municipio de Zunil, en el departamento de Quetzaltenango."
+  },
+  {
+    "slug": "tianguismanalco",
+    "name": "Tianguismanalco",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 191,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "atlixco",
+      "huejotzingo",
+      "cholula",
+      "san-andres-cholula",
+      "san-bernardino-tlaxcalancingo",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Tianguismanalco, municipio de Puebla fundado en 1895, abarca 133.66 km² a 1 940‑2 220 m de altitud, al pie de los volcanes Popocatépetl e Iztaccíhuatl.",
+    "aboutTitle": "Tianguismanalco y el Malpaís de Nealtican, zona volcánica",
+    "about": "El municipio de Tianguismanalco es uno de los 217 municipios que conforman el estado de Puebla. Fue establecido como demarcación territorial en 1895 y su cabecera lleva el mismo nombre. Se localiza en el centro‑oeste del estado, al pie de la Sierra Nevada y dentro de la región de los Valles de Atlixco y Matamoros, entre los volcanes Popocatépetl e Iztaccíhuatl. Con una superficie de 133.66 kilómetros cuadrados, representa el 0.39 % del territorio estatal, y su altitud oscila entre 1 940 y 2 220 metros sobre el nivel del mar. Limita al noroeste con San Nicolás de los Ranchos, al noreste con Nealtican, al este con San Jerónimo Tecuanipan y Santa Isabel Cholula, al sur con Atlixco y al oeste con Tochimilco. Al nornoroeste de la cabecera municipal se encuentra el Malpaís de Nealtican, un promontorio de arena y roca volcánica que constituye la falda más oriental del volcán Popocatépetl. El área está cubierta por un denso bosque de pino‑encino y sus bordes albergan extracción de tezontle, actividad limitada por la naturaleza del terreno."
+  },
+  {
+    "slug": "lagunas-departamento-de-lambayeque",
+    "name": "Lagunas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 93,
+    "votes": 152,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de Lambayeque",
+    "regionSlug": "departamento-de-lambayeque",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiclayo",
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Lagunas, distrito de Lambayeque creado el 2 de enero de 1857, situado en el norte de Perú bajo la administración, cubre 429,27 km² a orillas del río Zaña.",
+    "aboutTitle": "Cerro Purulén y el río Zaña: Lagunas, Lambayeque",
+    "about": "Lagunas es uno de los veinte distritos de la provincia de Chiclayo, en el norte de Perú, bajo la administración del Gobierno Regional de Lambayeque. Fue creado por ley el 2 de enero de 1857 y forma parte de la Diócesis de Chiclayo. Su territorio, de 429,27 km², es llano con pequeñas lomas, dunas y médanos; la capital del distrito es el pueblo de Mocupe, situado a 39 km al sur de Chiclayo y a 33 metros sobre el nivel del mar. El río Zaña atraviesa la zona y el distrito está bañado por el Océano Pacífico, ofreciendo playas como La Punta y Calanloche. En Lagunas se encuentran importantes restos arqueológicos, entre ellos el Cerro Purulén, con edificaciones piramidales de entre 3.000 y 3.500 años de antigüedad, y en Úcupe murales policromos de 6,70 m de largo por 1,02 m de altura. La huaca La Teodora se localiza antes de cruzar el puente de Úcupe. El clima costero es húmedo y fresco, sin lluvias, mientras que el interior registra calor y vientos fuertes que arrastran arena. Los suelos limosos profundos presentan salinización cerca de la desembocadura del río Zaña y, a pesar de la escasez de agua, la zona destaca por su fauna y la extracción de chaquiras finas para collares."
+  },
+  {
+    "slug": "mira",
+    "name": "Mira",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 126,
+    "votes": 210,
+    "activity": "Baja",
+    "parentName": "Ecuador",
+    "parentSlug": "ecuador",
+    "provincia": "Provincia de Carchi",
+    "regionSlug": "provincia-de-carchi",
+    "channels": [
+      "ecuador",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "ibarra",
+      "tulcan",
+      "ipiales",
+      "tuquerres",
+      "ecuador",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Mira, cantón de Carchi llamado Balcón de los Andes, fundado el 18 de agosto de 1980, cuenta con 12.727 habitantes que cultivan aguacate y maíz.",
+    "aboutTitle": "Mira, el Balcón de los Andes y su fiesta del Novillo de Bombas",
+    "about": "Mira es un cantón de la provincia de Carchi, en el norte del Ecuador, fundado el 18 de agosto de 1980 y conocido como “Balcón de los Andes”. Tiene una población de 12.727 habitantes según el último censo, una superficie de 581,69 km² y una temperatura promedio de 16,2 °C. El cantón se sitúa al sur de la provincia, cercana a la ciudad de Ibarra y próximo a Salinas en Imbabura. Administrativamente está compuesto por la parroquia urbana de Mira y tres parroquias rurales: Concepción, Jijón y Caamaño y Juan Montalvo. La economía se basa principalmente en la agricultura; se cultivan aguacate, maíz, frejol y tomate riñón, y una parte de la población se dedica a la ganadería y a la crianza de animales menores. En el ámbito cultural destaca la actividad artística, con varias agrupaciones de música y danza, y las fiestas de cantonización que incluyen el tradicional “Novillo de Bombas”."
+  },
+  {
+    "slug": "rinconada-de-parral",
+    "name": "Rinconada de Parral",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 123,
+    "votes": 202,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chile",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Rinconada de Parral, antigua comuna del departamento de Parral en Linares, registró 12.724 habitantes en el censo de 1907 y fue suprimida en 1928.",
+    "aboutTitle": "Creación y supresión de la comuna de Rinconada de Parral",
+    "about": "Rinconada de Parral fue una de las comunas que integró el antiguo departamento de Parral, en la provincia de Linares, Chile. Su territorio se organizó por decreto el 22 de diciembre de 1891, a partir de las subdelegaciones 4.º Curipeumo, 5.º San José, 6.º San Nicolás y 7.º Rinconada. En el censo de 1907 la población ascendía a 12.724 habitantes.\n\nLa comuna dejó de existir tras el Decreto con Fuerza de Ley N.º 8.583, firmado el 30 de diciembre de 1927 por el presidente Carlos Ibáñez del Campo, como parte de una reforma político‑administrativa. La supresión se hizo efectiva el 1 de febrero de 1928, cuando su territorio fue anexado a la comuna de Retiro. Desde entonces Rinconada de Parral forma parte de la historia de la organización territorial de Chile."
   }
 ];
