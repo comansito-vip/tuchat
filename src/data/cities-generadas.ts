@@ -50312,5 +50312,274 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Rinconada de Parral, antigua comuna del departamento de Parral en Linares, registró 12.724 habitantes en el censo de 1907 y fue suprimida en 1928.",
     "aboutTitle": "Creación y supresión de la comuna de Rinconada de Parral",
     "about": "Rinconada de Parral fue una de las comunas que integró el antiguo departamento de Parral, en la provincia de Linares, Chile. Su territorio se organizó por decreto el 22 de diciembre de 1891, a partir de las subdelegaciones 4.º Curipeumo, 5.º San José, 6.º San Nicolás y 7.º Rinconada. En el censo de 1907 la población ascendía a 12.724 habitantes.\n\nLa comuna dejó de existir tras el Decreto con Fuerza de Ley N.º 8.583, firmado el 30 de diciembre de 1927 por el presidente Carlos Ibáñez del Campo, como parte de una reforma político‑administrativa. La supresión se hizo efectiva el 1 de febrero de 1928, cuando su territorio fue anexado a la comuna de Retiro. Desde entonces Rinconada de Parral forma parte de la historia de la organización territorial de Chile."
+  },
+  {
+    "slug": "anolaima",
+    "name": "Anolaima",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 208,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Cundinamarca",
+    "regionSlug": "cundinamarca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "facatativa",
+      "madrid-cundinamarca",
+      "el-rosal",
+      "mosquera",
+      "villeta",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Anolaima, municipio de Cundinamarca a 71 km de Bogotá, es la capital frutera de Colombia y se ubica en la Cordillera Oriental.",
+    "aboutTitle": "Anolaima: capital frutera y puerta a la Cordillera Oriental",
+    "about": "Anolaima es municipio de Cundinamarca, provincia del Tequendama, a 71 km de Bogotá. Se le considera la capital frutera de Colombia. El nombre proviene de los Anolaymas, indígenas de la nación Panche, primera tribu encontrada por los españoles al descender por Zipacón en 1538. Geográficamente está al pie del monte de Cruz Verde, en la Cordillera Oriental. Limita con Facatativá (Peñas de California o Peñas Rojas a 3 312 m), Albán y Guayabal de Síquima (cordillera de Cabrera a 1 550 m y alto de Goteras a 2 800 m), Zipacón y Facatativá (Peñas Blancas y Cerro de Manjui a 2 900 m). El entorno urbano está rodeado por cerros como La Cuchilla de Alta Gracia, Alto de Pan de Azúcar, Guadalupe, Corama, Monserrate y Alto del Triunfo, con alturas entre 1 600 y 1 800 m. Entre sus mesetas destacan la de Caballero de Odín a 1 511 m, la del Centenario y la de Cayundá a 1 706 m. El terreno es quebrado y ondulado, con bosques húmedos de páramo que alimentan tres cuencas hidrográficas."
+  },
+  {
+    "slug": "polvora",
+    "name": "Pólvora",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 110,
+    "votes": 177,
+    "activity": "Baja",
+    "parentName": "Perú",
+    "parentSlug": "peru",
+    "provincia": "Departamento de San Martín",
+    "regionSlug": "departamento-de-san-martin",
+    "channels": [
+      "peru",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "peru",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Pólvora, distrito de la provincia de Tocache en San Martín, Perú, surgió en 1970 como la comunidad de Pacota al iniciar la trocha de la Carretera Marginal.",
+    "aboutTitle": "Ríos fundacionales y origen histórico de Pólvora (San Martín)",
+    "about": "El distrito de Pólvora es uno de los seis que conforman la provincia de Tocache, en el departamento de San Martín, al norte del Perú. Desde el punto de vista eclesiástico pertenece a la Prelatura de Moyobamba, es sufragánea de la Metropolitana de Trujillo y está encomendada por la Santa Sede a la archidiócesis de Toledo en España. \n\nSu origen se remonta al año 1970, cuando la comunidad de Pacota, nombre inicial de Pólvora, se fundó con la apertura de la trocha carrozable para la Carretera Marginal de la Selva. En esa zona el Ministerio de Transportes instaló cinco campamentos a orillas de los ríos Cachiyacu, Pacota, Cerro Mamunchi, Balsayacu y Pulcachi. En aquellos tiempos el río Huallaga era la única vía de comunicación, lo que dificultaba el abastecimiento de alimentos. Dos cazadores locales fueron designados para proveer carne fresca, mientras que la población descubrió tierras fértiles y abundante fauna y pesca en la llanura cercana, sentando las bases de la actual comunidad."
+  },
+  {
+    "slug": "concepcion-las-minas",
+    "name": "Concepción Las Minas",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 125,
+    "votes": 211,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Chiquimula",
+    "regionSlug": "departamento-de-chiquimula",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquimula",
+      "santa-ana",
+      "santa-rosa-de-copan",
+      "ahuachapan",
+      "apopa",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Concepción Las Minas, a 15 km de la frontera salvadoreña, tiene 12.615 habitantes (2022) y fue elevada a municipio el 8 de junio de 1893.",
+    "aboutTitle": "Concepción Las Minas y sus minas de Alotepeque",
+    "about": "Concepción Las Minas, cuyo nombre combina la devoción a la Inmaculada Concepción y la proximidad a las minas de Alotepeque, es la cabecera municipal del mismo nombre en el departamento de Chiquimula, Guatemala. La cabecera municipal se sitúa a 15 kilómetros de la frontera con la República de El Salvador y a 19 kilómetros de la ciudad de Esquipulas. Durante la época colonial se conocía como el «Valle de Concepción», y tras la Independencia de Centroamérica en 1821 quedó asignada al Circuito de Chiquimula en el Distrito N.º 4 para la impartición de justicia mediante juicios de jurados. Fue elevado a la categoría de municipio el 8 de junio de 1893, por decreto del presidente de la República, el general José María Reina Barrios. Desde el año 2000 forma parte de la Mancomunidad de Nor‑Oriente de Guatemala.\n\nSegún el Censo Nacional de 2018, el municipio contaba con 12.360 habitantes, de los cuales el 9 % vivía en zona urbana y el 91 % en zona rural; la población estaba compuesta por un 48 % de hombres y un 52 % de mujeres. Aplicando una tasa de crecimiento anual del 1 %, la población proyectada para 2022 ascendía a 12.615 habitantes. Geográficamente, Concepción Las Minas limita al norte con los municipios de Esquipulas y Quezaltepeque, al sur con la República de El Salvador, al este con El Salvador y la República de Honduras, y al oeste con los municipios de Ipala, Agua Blanca y Jutiapa."
+  },
+  {
+    "slug": "villa-elisa",
+    "name": "Villa Elisa",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 108,
+    "votes": 185,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Entre Ríos",
+    "regionSlug": "provincia-de-entre-rios",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "colon-entre-rios",
+      "paysandu",
+      "concepcion-del-uruguay",
+      "san-salvador-entre-rios",
+      "villaguay",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Elisa, municipio de Entre Ríos, fue fundada en 1890 por Héctor de Elía y declarada centro rural el 29 de octubre de 1923.",
+    "aboutTitle": "Villa Elisa: fundación, economía y patrimonio histórico",
+    "about": "Villa Elisa es un municipio del distrito Segundo, con parte en el distrito Primero, del Departamento Colón, en la provincia de Entre Ríos, Argentina. Comprende la localidad homónima y una zona rural circundante. Fue fundada en 1890 por Héctor de Elía, quien contó con la ayuda de inmigrantes provenientes de Saboya, Piamonte (Italia) y del Cantón de Valais (Suiza), asentados previamente en la Colonia San José bajo el patrocinio del gobernador Justo José de Urquiza. El 29 de octubre de 1923, por decreto del gobernador Ramón Mihura, Villa Elisa fue declarada centro rural con derecho a tener Junta de Fomento, hecho que quedó registrado en el Monumento Histórico Municipal y el Museo Regional \"El Porvenir\", antigua residencia del fundador.\n\nLa economía local se basa en la avicultura, con producción de pollos, y en la ganadería extensiva sobre pasturas naturales. El sector arrocero, con su industria transformadora, es un importante generador de empleo y exporta gran parte de su producción. En menor escala se cultivan trigo, lino, maíz, sorgo y girasol. La apicultura ha crecido recientemente, aprovechando la forestación de eucaliptus que también sustenta una relevante actividad forestal, complementada por el cultivo de pinos."
+  },
+  {
+    "slug": "santiago-sochiapan",
+    "name": "Santiago Sochiapan",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 154,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Veracruz",
+    "regionSlug": "estado-de-veracruz",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "isla",
+      "cosamaloapan",
+      "carlos-a-carrillo",
+      "tres-valles",
+      "acayucan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Santiago Sochiapan, municipio veracruzano fundado el 15 de diciembre de 2003, lleva el nombre Xochiapa, que significa “lugar de las flores”.",
+    "aboutTitle": "Fundación del municipio de Santiago Sochiapan, 15 de diciembre 2003",
+    "about": "Santiago Sochiapan es un municipio de la región del Papaloapan, en el estado de Veracruz, México. El topónimo Xochiapa, que significa “lugar de las flores”, alude a la gran variedad floral que existía antes de la llegada de la comunidad. El asentamiento original fue fundado entre 1600 y 1650 por personas zapotecas provenientes de la sierra de Oaxaca, quienes dieron nombre a la localidad y la convirtieron en la cabecera municipal. Por decreto de 2 de agosto de 1873 se creó el municipio de Playa Vicente y, el 15 de diciembre de 2003, se creó por decreto el municipio de Santiago Sochiapan, estableciéndose la cabecera municipal en la congregación de Xochiapa.\n\nLa lengua predominante en la zona es el zapoteco, con minorías que hablan chinanteco en Cruz Verde y San Gabriel la Chinantla, y mixe en Arroyo Santa María y San Cristóbal. El español se ha extendido entre las generaciones actuales. En 1910 la localidad vivió la revolución armada, que dispersó a la población indígena hacia la selva; al restablecerse la paz, surgieron poblaciones como Santa Teresa, Nueva Era, Arroyo Zacate y Tatahuicapa."
+  },
+  {
+    "slug": "san-pablo-villa-de-mitla-estado-de-oaxaca",
+    "name": "San Pablo Villa de Mitla",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 95,
+    "votes": 174,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "santiago-sochiapan",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Pablo Villa de Mitla, a 46 km al este de Oaxaca, destaca por sus ruinas arqueológicas de Mitla, la tradición textil artesanal y la producción de mezcal.",
+    "aboutTitle": "Ruinas de Mitla y tradición textil en San Pablo Villa de Mitla",
+    "about": "San Pablo Villa de Mitla es la cabecera municipal del distrito de Tlacolula, situada al este de los Valles Centrales de Oaxaca, a 46 km de la ciudad de Oaxaca. El pueblo es famoso por las ruinas arqueológicas de Mitla, por su producción de mezcal y por los textiles artesanales que se elaboran en talleres familiares de más de dos siglos de antigüedad. Muchas de sus casas conservan alrededor de 200 años y presentan un estilo rústico colonial que alberga talleres de tejido y bordado.\n\nEn el centro del poblado se encuentra una casa de cultura que imparte bailes tradicionales y un pequeño mercado al aire libre justo fuera de la zona arqueológica, donde se venden ropa bordada, hamacas, sarapes, tapetes y joyería de fibras trenzadas. Los diseños de los tejidos se inspiran en códices prehispánicos y figuras mitológicas zapotecas, aunque también aparecen motivos de pintores contemporáneos. El municipio cuenta con dos iglesias, una dedicada a San Judas Tadeo y otra a San Pablo; el museo local cerró en 1995 y su colección zapoteca y mixteca desapareció."
+  },
+  {
+    "slug": "el-trebol",
+    "name": "El Trébol",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 94,
+    "votes": 171,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Santa Fe",
+    "regionSlug": "provincia-de-santa-fe",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "san-jorge",
+      "galvez",
+      "marcos-juarez",
+      "canada-de-gomez",
+      "coronda",
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Trébol, ciudad del centro oeste santafesino a 187 km de la capital provincial, destaca por su producción agropecuaria y su herencia irlandesa.",
+    "aboutTitle": "El Trébol: agricultura y herencia irlandesa",
+    "about": "El Trébol es una ciudad y municipio del departamento San Martín, situada en el centro oeste de la provincia de Santa Fe, a 187 km de la capital provincial, a 157 km de la ciudad de Rosario y a 31 km del límite con la provincia de Córdoba. La localidad se encuentra en una zona de llanura pampeana y forma parte de una de las cuencas lecheras de la región, junto a Rafaela (Santa Fe) y Suipacha (Buenos Aires).\\n\\nEl nombre proviene del ferrocarril Central Argentino, que asignó a la estación el símbolo del trébol en honor a la comunidad irlandesa que participó en la construcción del ramal entre Cañada de Gómez y la estancia Las Yerbas. La economía se sustenta en la producción agrícola‑ganadera, destacándose la actividad lechera. En sus orígenes, la zona estuvo habitada por la tribu de los Querandíes, aunque la escasez de cursos de agua dificultó asentamientos permanentes; a partir de 1814 Agustín Rosa Mosqueda solicitó al gobernador Eustaquio Díaz Vélez una fracción de terreno al oeste de Coronda, marcando el inicio de la colonización de la llanura."
+  },
+  {
+    "slug": "codegua",
+    "name": "Codegua",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 116,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Chile",
+    "parentSlug": "chile",
+    "provincia": "Región de O'Higgins",
+    "regionSlug": "region-de-o-higgins",
+    "channels": [
+      "chile",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "rancagua",
+      "chile",
+      "santiago-de-chile",
+      "san-antonio-chile",
+      "curico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Codegua, comuna de la Región de O'Higgins, se sitúa a 19 km al norte de Rancagua y abarca 287 km² de territorio.",
+    "aboutTitle": "Codegua y la rama sudeste del río de la Angostura",
+    "about": "Codegua es una comuna chilena ubicada en la zona central del país, dentro de la Región del Libertador General Bernardo O'Higgins y la provincia de Cachapoal. La localidad se encuentra a 19 km al norte de Rancagua y cubre una superficie de 287 km². Junto a Graneros y Mostazal forma el Cono Norte de la región. El nombre proviene de la expresión indígena «Co‑Deu y Hue», que significa “lugar de aguas de ratas”. Su historia se remonta al menos a 1300 d., con presencia de una comunidad promaucae y restos de un pucará incaico cercano; en 1565 era parte de la Encomienda de Codehua y en 1639 comenzó a poblarse de españoles.\n\nEn el siglo XIX el diccionario de Astaburuaga describía a Codegua como una aldea con iglesia, escuelas primarias, oficina de registro civil y una población de 400 habitantes, situada cerca de una corta corriente que desciende de los Andes y constituye la rama principal sudeste del río de la Angostura. Hoy la municipalidad ofrece una plataforma digital para trámites y ha anunciado las Becas Municipales Codegua 2026 con cupos limitados, además de servicios como licencias de conducir y permisos de circulación."
+  },
+  {
+    "slug": "vallejuelo",
+    "name": "Vallejuelo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 98,
+    "votes": 163,
+    "activity": "Baja",
+    "parentName": "República Dominicana",
+    "parentSlug": "republica-dominicana",
+    "provincia": "Provincia de San Juan",
+    "regionSlug": "provincia-de-san-juan",
+    "channels": [
+      "republica_dominicana",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "barahona",
+      "republica-dominicana",
+      "santo-domingo",
+      "la-vega",
+      "santiago-de-los-caballeros",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Vallejuelo, municipio de San Juan en República Dominicana, cuenta con el Parque Sierrita donde nacen los ríos Bao y La Laguna de Sabana.",
+    "aboutTitle": "Parque Sierrita y los ríos Bao y La Laguna de Sabana",
+    "about": "Vallejuelo es un municipio de la provincia de San Juan, en la República Dominicana. Según el Censo Nacional 2022, su población total es 12.849 habitantes, de los que 7.371 viven en áreas urbanas, lo que representa el 57,4 % del total. El origen del nombre es desconocido, aunque se confirma que la zona fue originalmente un hato y que los primeros pobladores llegaron a Río Arriba del Sur en 1880 procedentes del Cibao.\n\nEl municipio se constituyó como distrito municipal en 1970 y, bajo la Ley n.º 916 del 12 de agosto de 1978, fue elevado a categoría de municipio. En 1912 familias de Hondo Valle y El Cercado se asentaron en Vallejuelo, y en 1936 un nativo de San Juan de la Maguana instaló el primer aserradero, iniciando la actividad comercial que antes se basaba en el trueque con Neyba. Un patrimonio natural destacado es el Parque Sierrita, donde los ríos Bao y La Laguna de Sabana nacen en Jorgillo."
   }
 ];
