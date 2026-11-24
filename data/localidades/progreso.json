@@ -1714,7 +1714,11 @@
   "san-pablo-villa-de-mitla-estado-de-oaxaca",
   "el-trebol",
   "codegua",
-  "vallejuelo"
+  "vallejuelo",
+  "abra-pampa",
+  "tarqui-parroquia-de-cuenca",
+  "gamarra",
+  "villa-jimenez"
  ],
  "descartadas": [
   {
@@ -22216,6 +22220,256 @@
    "slug": "mecatlan",
    "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
    "fecha": "2026-11-23"
+  },
+  {
+   "slug": "cabanas-oeste",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "tezonapa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "playa-vicente",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "charagua-pueblo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "tlalixcoyan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "el-refugio-baja-california",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "soteapan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "chignautla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "morovis",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "tehuipango",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "hueytamalco",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "yehualtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-agustin-loxicha",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "omealca",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "cazones-de-herrera",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "huaytara",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "quimixtlan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "tochtepec",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "acultzingo",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "santa-maria-chilchotla",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "vega-de-alatorre",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-antonio-zomeyucan",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "valle-grande-lampa",
+   "razon": "sin fuente utilizable",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "frutillar",
+   "razon": "fraseo calcado de puerto-varas: \"es una ciudad y comuna situada en\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "pueblo-esther",
+   "razon": "rechazada tras corrección: La ficha indica que Pueblo Esther se encuentra \"a 188 km al norte de la capital provincial, Santa Fe\", mientras que la fuente especifica que la capital provincial (Santa Fe) está al norte, a 188 km de",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "anccohuayllo",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "los-hidalgos",
+   "razon": "fraseo calcado de villa-hermosa: \"segun el censo nacional de 2022 la\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "la-leonesa",
+   "razon": "fraseo calcado de general-pinedo: \"de la provincia del chaco argentina y\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "ahumada",
+   "razon": "controles de calidad: aboutTitle de 79 caracteres (debe estar entre 25 y 70)",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "imuris",
+   "razon": "fraseo calcado de etchojoa: \"es uno de los setenta y dos\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "tambobamba",
+   "razon": "controles de calidad: cifra de 5+ dígitos sin separador de miles",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "enriquillo",
+   "razon": "fraseo calcado de cabral: \"municipio de la provincia de barahona en\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "departamento-nueve-de-julio",
+   "razon": "es una división administrativa, no una localidad",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "chacaltianguis",
+   "razon": "fraseo calcado de tihuatlan: \"es un municipio del estado de veracruz\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "villa-aldama",
+   "razon": "fraseo calcado de caborca: \"y 2 500 metros sobre el nivel\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-miguel-panan",
+   "razon": "fraseo calcado de san-vicente-pacaya: \"su nombre combina la devocion al santo\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-bartolo-departamento-de-totonicapan",
+   "razon": "fraseo calcado de tacana: \"al estado de los altos aprobado por\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "quiruvilca",
+   "razon": "fraseo calcado de yungay-departamento-de-ancash: \"durante el gobierno del presidente jose pardo\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "nealtican",
+   "razon": "rechazada tras corrección: La ficha afirma en la intro que Nealtican 'celebra su fundación el 8 de abril de 1920', pero el material de origen indica que en esa fecha 'ascendió a categoría de municipio', habiendo existido la pob",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "viterbo",
+   "razon": "fraseo calcado de medio-baudo: \"la piscicultura y la cria de cerdos\"",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "villa-sola-de-vega",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "coronel-juan-sola",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-carlos-centro",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "hualgayoc",
+   "razon": "No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "san-pedro-jicayan",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "saboya",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "mecatlan",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "sapillica",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "punta-indio",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
+  },
+  {
+   "slug": "el-tambo",
+   "razon": "Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Cerebras: HTTP 402 {\"message\":\"Payment required to access this resource. Visit your billing tab.\",\"type\":\"payment_required_error\",\"param\":\"quota\",\"code\":\"payment_required\"} Mistral: HTTP 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"cod",
+   "fecha": "2026-11-24"
   }
  ]
 }
