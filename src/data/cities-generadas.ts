@@ -50700,5 +50700,274 @@ export const CITIES_GENERADAS: Place[] = [
     "intro": "Villa Jiménez, en Michoacán, está a 97 km de la capital del Estado, a 2 006 m s.n.m., y su población es de 3 974 habitantes según el censo.",
     "aboutTitle": "Agricultura, ganadería y comercio en Villa Jiménez, Michoacán",
     "about": "Villa Jiménez es la cabecera municipal del municipio de Jiménez, en el estado de Michoacán, México. La población está localizada a 97 km de la capital del Estado, en la coordenada 19°55′23″N 101°44′49″O, y se asienta a una altitud de 2 006 m sobre el nivel del mar. En 2010 la localidad fue catalogada como de grado bajo de vulnerabilidad social.\n\nSegún el censo, la población total de Villa Jiménez es de 3 974 habitantes, lo que representa un decrecimiento promedio de -45 % anual en el periodo 2020‑2030 respecto a los 42 499 habitantes del censo anterior. En 2024 la densidad poblacional alcanzó los 1 626 hab/km². La alfabetización es mayoritaria; solo el 3,70 % de los mayores de 15 años era analfabeto en 2020 y el nivel medio de escolarización se sitúa alrededor de ocho años. Las actividades económicas predominantes son la agricultura, la ganadería y el comercio, que constituyen la base productiva del municipio."
+  },
+  {
+    "slug": "san-bartolo-departamento-de-totonicapan",
+    "name": "San Bartolo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 117,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "Guatemala",
+    "parentSlug": "guatemala",
+    "provincia": "Departamento de Totonicapán",
+    "regionSlug": "departamento-de-totonicapan",
+    "channels": [
+      "guatemala",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huehuetenango",
+      "quetzaltenango",
+      "san-marcos-guatemala",
+      "solola",
+      "mazatenango",
+      "guatemala",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Bartolo, municipio de Totonicapán en Guatemala, recuperó su categoría municipal el 9 de enero de 1949 tras haber sido anexado a Momostenango en 1935.",
+    "aboutTitle": "San Bartolo y sus aguas termales históricas",
+    "about": "San Bartolo Aguas Calientes, municipio del departamento de Totonicapán, Guatemala. Fue fundado alrededor de 1610 por los conquistadores españoles; la primera municipalidad estuvo encabezada por el indígena Diego Ajca como alcalde mayor de Momostenango. El nombre “Aguas Calientes” hace referencia a las aguas termales presentes en la localidad. A finales del siglo XVII el pueblo de Momostenango, junto con Agua Caliente y Chiquimula, contaba con más de 400 tributarios y se consideraba cabecera y convento.\n\nTras la independencia de Centroamérica en 1821, San Bartolo formó parte del departamento de Totonicapán/Huehuetenango y en 1838 pasó al Estado de Los Altos, donde se produjeron revueltas campesinas hasta que el general Rafael Carrera recuperó la zona en 1840. El 12 de agosto de 1872, tras la Revolución Liberal, el gobierno creó el nuevo departamento de Quiché y San Bartolo siguió formando parte del departamento de Totonicapán. En 1935 perdió la categoría de municipio y fue anexado a Momostenango; recuperó la categoría municipal el 9 de enero de 1949, durante el gobierno del Dr. Juan José Arévalo."
+  },
+  {
+    "slug": "nealtican",
+    "name": "Nealtican",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 100,
+    "votes": 182,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Puebla",
+    "regionSlug": "puebla",
+    "channels": [
+      "puebla",
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "huejotzingo",
+      "cholula",
+      "san-andres-cholula",
+      "atlixco",
+      "santa-ana-xalmimilulco",
+      "puebla",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Nealtican, municipio de Puebla, obtuvo categoría municipal el 8 de abril de 1920 y se constituyó como libre en 1930; su cabecera es San Buenaventura Nealtican.",
+    "aboutTitle": "Nealtican: origen del nombre y su historia prehispánica",
+    "about": "Nealtican es uno de los 217 municipios del estado de Puebla y su cabecera es San Buenaventura Nealtican. El nombre proviene del náhuatl y significa “lugar donde me baño”, compuesto por neh (yo), altia (bañar) y -can (lugar). Desde el siglo V d. C. la zona mostró presencia olmeca‑xicalanca y fue un importante centro de comercio de la roca volcánica del malpaís, utilizada para fabricar molcajetes y otras herramientas. Las erupciones del Popocatépetl obligaron a los habitantes a reubicarse en áreas más alejadas, como Tollan‑Cholollan, antes de ser repoblada por grupos nahuas y convertirse en pueblo tributario de México‑Tenochtitlan. Tras la conquista, el teólogo franciscano Buenaventura de Fidanza fue designado patrono y la Parroquia de San Buenaventura se terminó de edificar en 1739. Después de la Independencia, Nealtican pasó a formar parte del distrito de Atlixco, ascendió a categoría de municipio el 8 de abril de 1920 y se constituyó como municipio libre en 1930. Tiene una superficie de 62.52 km², lo que lo sitúa en el puesto 157 del estado por extensión, y limita al noreste con Calpan, al este con San Jerónimo Tecuanipan, al sur y suroeste con Tianguismanalco y al oeste y noroeste con San Nicolás de los Ranchos."
+  },
+  {
+    "slug": "viterbo",
+    "name": "Viterbo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 90,
+    "votes": 156,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Caldas",
+    "regionSlug": "caldas",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "la-virginia",
+      "anserma",
+      "chinchina",
+      "dosquebradas",
+      "pereira",
+      "caldas",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Viterbo, municipio de Caldas, se fundó el 19 de abril de 1911 y se constituyó el 31 de diciembre de 1951 en el valle del río Risaralda.",
+    "aboutTitle": "Viterbo, el paraíso del valle del río Risaralda",
+    "about": "Viterbo es un municipio del Departamento de Caldas, integrado en la subregión del Occidente Próspero o Bajo Occidente, conocida como “el paraíso de Caldas” por sus representativos paisajes de cultivos. Fue fundado el 19 de abril de 1911 por el Presbítero Nazario Restrepo Botero y un grupo de pioneros, y se constituyó oficialmente como municipio el 31 de diciembre de 1951 mediante el decreto No.826, ratificado el 11 de febrero de 1952 por el presidente Roberto Urdaneta Arbeláez. El pueblo se asienta sobre el valle del río Risaralda, en una de las estribaciones de la Cordillera Occidental, dentro del triángulo de convergencia de Pereira, Manizales, Cali y Medellín. Administrativamente cuenta con 14 barrios en la cabecera urbana y 14 veredas rurales.\n\nLa economía de Viterbo se basa en la agropecuaria: cultivos extensivos de caña de azúcar, caña panelera, maíz, cítricos, frutales tropicales y algo de café, complementados con ganadería extensiva, piscicultura y cría de cerdos y aves de corral. Está comunicada por la carretera troncal de occidente, que la enlaza con Manizales, Medellín y Pereira, y dispone de dos aeropuertos a unos 45 minutos: el Internacional Matecaña en Pereira y el de Santa Ana en Cartago."
+  },
+  {
+    "slug": "villa-sola-de-vega",
+    "name": "Villa Sola de Vega",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 120,
+    "votes": 197,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "oaxaca",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Villa Sola de Vega, localidad oaxaqueña cuyo nombre Sola proviene del náhuatl zollin, que significa codorniz, y Vega honra al benefactor José María de la Vega.",
+    "aboutTitle": "Toponimia y origen del nombre de Villa Sola de Vega",
+    "about": "Villa Sola de Vega es una localidad del estado mexicano de Oaxaca y forma parte del municipio homónimo de Villa Sola de Vega. La entidad se sitúa dentro de la zona sur del país y su carácter como población está definido por su pertenencia a la administración municipal. \n\nEl topónimo combina dos referencias: el nombre «Sola» proviene del náhuatl zollin, cuyo significado es «codorniz», y el nombre «Vega» rinde homenaje a José María de la Vega, benefactor de la localidad en el siglo XVIII. Estos orígenes reflejan tanto la riqueza natural de la zona como la influencia histórica de figuras locales que dejaron su huella en la denominación del pueblo."
+  },
+  {
+    "slug": "coronel-juan-sola",
+    "name": "Coronel Juan Solá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 96,
+    "votes": 158,
+    "activity": "Baja",
+    "parentName": "Argentina",
+    "parentSlug": "argentina",
+    "provincia": "Provincia de Salta",
+    "regionSlug": "provincia-de-salta",
+    "channels": [
+      "argentina",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "argentina",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Coronel Juan Solá, localidad salteña de 3.678 habitantes, se ubica en el km 1745 de la Ruta Nacional 81, en el corazón del Chaco Salteño.",
+    "aboutTitle": "Río Bermejo y la Gran Llanura Chaqueña en Coronel Juan Solá",
+    "about": "Coronel Juan Solá, también conocida como Estación Morillo, es una localidad del norte de Argentina situada en la provincia de Salta, en el este de la región del Chaco Salteño, la de mayor superficie provincial. Con una población de 3.678 habitantes, se localiza en el km 1745 de la Ruta Nacional 81, dentro de la Gran Llanura Chaqueña, caracterizada por un relieve totalmente llano y una suave pendiente de oeste a este. El clima es subtropical con estación seca, con temperaturas medias superiores a 23 °C durante todo el año y veranos que se extienden casi seis meses. El suelo, de origen fluvial y eólico, está compuesto principalmente por arena, limo, arcilla y pequeñas cantidades de ceniza volcánica. La zona pertenece a la cuenca del Río Bermejo y conserva paleo cauces abandonados. La vegetación está dominada por el bosque chaqueño o semiárido, donde el quebracho colorado y blanco forman el típico quebrachal, acompañado de algarrobos, palo santo, itín y otras especies forestales. Según fuentes oficiales, el municipio figura entre los principales por su elevado nivel de pobreza."
+  },
+  {
+    "slug": "san-pedro-jicayan",
+    "name": "San Pedro Jicayán",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 119,
+    "votes": 203,
+    "activity": "Baja",
+    "parentName": "México",
+    "parentSlug": "mexico",
+    "provincia": "Estado de Oaxaca",
+    "regionSlug": "estado-de-oaxaca",
+    "channels": [
+      "mexico",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "villa-sola-de-vega",
+      "mexico",
+      "amistad",
+      "amor"
+    ],
+    "intro": "San Pedro Jicayán es un municipio de 65.07 km² en la Costa de Oaxaca, donde el río Santiago cruza su territorio y la temperatura media anual supera los 26 °C.",
+    "aboutTitle": "Río Santiago y cerros de San Pedro Jicayán",
+    "about": "San Pedro Jicayán es uno de los 570 municipios de Oaxaca, situado en la zona suroeste del estado. Forma parte de la Región Costa y del Distrito de Jamiltepec, y su cabecera lleva el mismo nombre. Con una superficie de 65.07 km², representa el 0.07 % del territorio estatal y limita al norte con San Antonio Tepetlapa y San Pedro Atoyac, al oeste y sur con San Miguel Tlacamama y Santiago Pinotepa Nacional, y al este con San Juan Colorado y Pinotepa de Don Luis.\n\nEl relieve es bajo, con cerros como Cruz Santa Inés, Gavilán, Yucundoko, Yucukaki y Yutabacoo que no superan los 400 m s.n.m. La hidrología incluye los ríos Santiago, la Hamaca, Yutandua y Yutacanoo, todos dentro de la cuenca del río Ometepec o Grande y de la región hidrológica Costa Chica‑Río Verde. El clima es cálido subhúmedo, con temperatura media anual superior a 26 °C y precipitaciones que varían entre 2 000 y 2 500 mm en el norte y entre 1 500 y 2 000 mm en el sur. El territorio está cubierto por selva baja y alberga diversas especies arbóreas."
+  },
+  {
+    "slug": "saboya",
+    "name": "Saboyá",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 104,
+    "votes": 187,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Boyacá",
+    "regionSlug": "boyaca",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "chiquinquira",
+      "barbosa-santander",
+      "ubate",
+      "tunja",
+      "la-mesa",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Saboyá, municipio de Boyacá, se ubica en la provincia de Occidente y es citado en la canción \"La Cucharita\" de Jorge Velosa.",
+    "aboutTitle": "Saboyá, el municipio de Boyacá mencionado en “La Cucharita”",
+    "about": "Saboyá es un municipio colombiano situado en la provincia de Occidente, en el departamento de Boyacá. Limita al norte con el departamento de Santander (municipios de Albania y Florián), al este con Santa Sofía y Sutamarchán, al sur con Chiquinquirá y al oeste con Chiquinquirá y Briceño. Dentro de su jurisdicción se encuentra el centro poblado de Garavito. El nombre proviene del cacique Saboyá, quien se enfrentó al primer alcalde de Vélez, Juan Gastón. Con la llegada de los conquistadores españoles, el cacique resistió durante más de 30 años. El capitán Pedro de Galeano, hermano de Martín Galeano, fue encomendero del territorio. La evangelización dominica comenzó en 1556 y en 1758 se incorporaron los indígenas de Chiquinquirá para su adoctrinamiento. El municipio es mencionado en la canción “La Cucharita” del cantautor colombiano Jorge Velosa. Además, el Libertador Simón Bolívar visitó Saboyá el 2 de enero de 1821 y el 6 de septiembre de 1827."
+  },
+  {
+    "slug": "el-tambo",
+    "name": "El Tambo",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 114,
+    "votes": 194,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Nariño",
+    "regionSlug": "narino",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "pasto",
+      "tuquerres",
+      "florencia-colombia",
+      "ipiales",
+      "tulcan",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "El Tambo, municipio de Nariño, está a 37 kilómetros de San Juan de Pasto; su clima templado de 18 °C y la producción de fríjol, maíz y café lo caracterizan.",
+    "aboutTitle": "Agricultura y clima de El Tambo, Nariño",
+    "about": "El Tambo es un municipio colombiano del departamento de Nariño. Se sitúa a 37 kilómetros de San Juan de Pasto, la capital departamental, y limita al norte con El Peñol, al este con Chachagüí y La Florida, al sur con La Florida y Sandoná, y al oeste con Linares y Los Andes. El territorio abarca 3.280 kilómetros cuadrados y se encuentra a 2.240 metros sobre el nivel del mar, lo que le otorga una temperatura promedio de 18 grados Celsius.\n\nLa economía depende de la agricultura y la ganadería. Cultivan 3.700 hectáreas de fríjol, 3.600 de maíz, 948 de café, 450 de cebolla cabezona, 280 de plátano, 320 de caña panelera y 40 de tomate. En la ganadería hay 1.178 bovinos que producen alrededor de 2.800 litros de leche al día y 2.900 cerdos. La población que trabaja en estas actividades asciende a 36.115 habitantes."
+  },
+  {
+    "slug": "hatillo-de-loba",
+    "name": "Hatillo de Loba",
+    "kind": "ciudad",
+    "icon": "💬",
+    "users": 113,
+    "votes": 192,
+    "activity": "Baja",
+    "parentName": "Colombia",
+    "parentSlug": "colombia",
+    "provincia": "Bolívar",
+    "regionSlug": "bolivar",
+    "channels": [
+      "colombia",
+      "latinoamerica",
+      "chatzona"
+    ],
+    "related": [
+      "el-banco",
+      "chimichagua",
+      "pailitas",
+      "pelaya",
+      "curumani",
+      "colombia",
+      "amistad",
+      "amor"
+    ],
+    "intro": "Hatillo de Loba, municipio del sur de Bolívar, Colombia, se asienta en la Isla de Mompox entre los Brazos de Loba, Mompox y el Caño El Violo.",
+    "aboutTitle": "Isla de Mompox y los Brazos de Loba en Hatillo de Loba",
+    "about": "Hatillo de Loba es un municipio de Colombia situado al sur del departamento de Bolívar. Limita al norte con el municipio de Margarita, al oriente con El Banco, al sur con Barranco de Loba y San Martín de Loba, y al occidente con Pinillos. La entidad se formó a partir de un asentamiento iniciado el 3 de febrero de 1738, y sus terrenos fueron adquiridos por José Fernando de Mier en 1745, quien consolidó el caserío que lleva el nombre de Hatillo de Loba. Después de más de dos siglos bajo la jurisdicción de San Martín de Loba, el municipio se creó separándose de ese territorio. Geográficamente, se ubica sobre la Isla de Mompox, rodeada por los ríos Brazos de Loba, Mompox y el Caño El Violo. El himno municipal fue compuesto por Gumercindo Palencia Gil, figura reconocida en la zona de las lobas por sus aportes al folclore colombiano."
   }
 ];
