@@ -7047,3 +7047,6 @@ Groq: HT
 [2026-11-26T02:14:47.923Z]   ✗ yecuatla: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
 [2026-11-26T02:14:47.923Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
 [2026-11-26T02:14:48.166Z] publicadas 4 salas · acumuladas 1718 · quedan 1216 en cola
+[2026-11-26T02:30:07.227Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-26T02:30:07.274Z] a rehacer: 0 · lote de hoy: 12
+[2026-11-26T02:30:07.274Z] lote sin resultados: no se escribe nada
