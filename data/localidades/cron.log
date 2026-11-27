@@ -7050,3 +7050,54 @@ Groq: HT
 [2026-11-26T02:30:07.227Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
 [2026-11-26T02:30:07.274Z] a rehacer: 0 · lote de hoy: 12
 [2026-11-26T02:30:07.274Z] lote sin resultados: no se escribe nada
+[2026-11-27T01:30:07.090Z] aviso: no hay corpus de demanda, la cola se ordena solo por población
+[2026-11-27T01:30:07.097Z] cola: 1215 · lote de hoy: 50
+[2026-11-27T01:30:08.821Z]   ✗ cabanas-oeste: sin fuente utilizable
+[2026-11-27T01:30:29.538Z]   ✗ tezonapa: sin fuente utilizable
+[2026-11-27T01:30:50.238Z]   ✗ playa-vicente: sin fuente utilizable
+[2026-11-27T01:31:16.239Z]   ✗ charagua-pueblo: sin fuente utilizable
+[2026-11-27T01:31:36.969Z]   ✗ tlalixcoyan: sin fuente utilizable
+[2026-11-27T01:31:59.189Z]   ✗ el-refugio-baja-california: sin fuente utilizable
+[2026-11-27T01:32:19.884Z]   ✗ soteapan: sin fuente utilizable
+[2026-11-27T01:32:40.567Z]   ✗ chignautla: sin fuente utilizable
+[2026-11-27T01:33:00.567Z]   ✗ morovis: sin fuente utilizable
+[2026-11-27T01:33:21.435Z]   ✗ tehuipango: sin fuente utilizable
+[2026-11-27T01:33:42.128Z]   ✗ hueytamalco: sin fuente utilizable
+[2026-11-27T01:34:02.918Z]   ✗ yehualtepec: sin fuente utilizable
+[2026-11-27T01:34:23.622Z]   ✗ san-agustin-loxicha: sin fuente utilizable
+[2026-11-27T01:34:44.317Z]   ✗ omealca: sin fuente utilizable
+[2026-11-27T01:35:05.010Z]   ✗ cazones-de-herrera: sin fuente utilizable
+[2026-11-27T01:35:25.011Z]   ✗ huaytara: sin fuente utilizable
+[2026-11-27T01:35:45.776Z]   ✗ quimixtlan: sin fuente utilizable
+[2026-11-27T01:36:06.491Z]   ✗ tochtepec: sin fuente utilizable
+[2026-11-27T01:36:27.334Z]   ✗ acultzingo: sin fuente utilizable
+[2026-11-27T01:36:47.336Z]   ✗ santa-maria-chilchotla: sin fuente utilizable
+[2026-11-27T01:37:08.039Z]   ✗ vega-de-alatorre: sin fuente utilizable
+[2026-11-27T01:37:28.524Z]   ✗ san-antonio-zomeyucan: sin fuente utilizable
+[2026-11-27T01:37:49.193Z]   ✗ valle-grande-lampa: sin fuente utilizable
+[2026-11-27T01:39:36.121Z]   ✗ enriquillo: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-27T01:41:47.636Z]   ✗ villa-aldama: fraseo calcado de pueblo-viejo: "es uno de los 212 municipios que"
+[2026-11-27T01:43:19.410Z]   ✗ san-miguel-panan: No se pudo extraer JSON de la respuesta del LLM: objeto sin cerrar
+[2026-11-27T01:44:19.059Z]   ✗ quiruvilca: fraseo calcado de yungay-departamento-de-ancash: "es uno de los ocho distritos que"
+[2026-11-27T01:46:40.844Z]   ✗ san-carlos-centro: fraseo calcado de armstrong: "provincia de santa fe argentina segun el"
+[2026-11-27T01:48:36.878Z]   ✗ mecatlan: fraseo calcado de san-juan-evangelista: "un municipio del estado de veracruz ubicado"
+[2026-11-27T01:50:40.987Z]   ✗ sapillica: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-27T01:51:44.778Z]   ✗ punta-indio: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-27T01:54:11.144Z]   ✗ molino: fraseo calcado de panao: "uno de los cuatro distritos que integran"
+[2026-11-27T01:55:19.221Z]   ✗ pantepec-chiapas: fraseo calcado de cintalapa: "es uno de los 124 municipios que"
+[2026-11-27T01:57:02.737Z]   ✓ tarandacuao (México) — escribió Groq, verificó Gemini
+[2026-11-27T01:58:36.914Z]   ✗ gonzanama: fraseo calcado de la-calera: "y 3 000 metros sobre el nivel"
+[2026-11-27T02:00:21.190Z]   ✗ cuichapa: fraseo calcado de ixtlahuaca: "sobre el nivel del mar limita al"
+[2026-11-27T02:01:55.847Z]   ✓ atzitzihuacan (México) — escribió Groq, verificó Gemini
+[2026-11-27T02:04:00.383Z]   ✓ chordeleg (Ecuador) — escribió Gemini, verificó Groq
+[2026-11-27T02:05:56.471Z]   ✗ puerto-tirol: fraseo calcado de villa-berthet: "de la provincia del chaco argentina cabecera"
+[2026-11-27T02:07:21.741Z]   ✗ moho: rechazada tras corrección: Affirma que 20.489 habitantes proviene de un 'censo del año 2000' cuando el texto de origen indica que es una 'población estimada en el año 2000'.; Equipara el 'Señor de la Exaltación' como 'conocida 
+[2026-11-27T02:08:31.839Z]   ✗ nueva-helvecia-departamento-de-colonia: controles de calidad: cifra de 5+ dígitos sin separador de miles
+[2026-11-27T02:09:19.998Z]   ✗ ebejico: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-27T02:09:49.740Z]   ✗ mariano-damaso-beraun: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-27T02:10:59.869Z]   ✗ pueblo-nuevo-departamento-de-suchitepequez: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-27T02:11:25.481Z]   ✗ citlaltepetl: Todos los proveedores LLM fallaron: Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kxc12gfkfxdbk6shdzns55xh` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ks5ewm51e2pvv8de4me5yk7h` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kvxp7gcmfz4t1t1zq8a7z8dy` service tier `on_demand` on tokens per Groq: HTTP 429 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m080d1pqeh2tmw49hj6h5pwg` ser
+[2026-11-27T02:11:57.420Z]   ✗ yecuatla: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-27T02:13:13.148Z]   ✗ san-carlos-yautepec: Todos los proveedores LLM fallaron: Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Cerebras: HTTP 402 {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"} Mistral: HTTP 403 {"object":"error","message":"This model is not available in your subscription tier","type":"tier_not_allowed","param":null,"cod
+[2026-11-27T02:13:13.148Z] sin cuota en ningún proveedor: se cierra el lote y se guarda lo hecho
+[2026-11-27T02:13:13.289Z] publicadas 3 salas · acumuladas 1721 · quedan 1212 en cola

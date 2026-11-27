@@ -51079,5 +51079,98 @@
   "intro": "Unguía, municipio chocoano a 478 km de Quibdó, destaca por su acceso fluvial al río Atrato y sus playas Tarena y la bahía de Titumate.",
   "aboutTitle": "El río Atrato y la bahía de Titumate en Unguía",
   "about": "Unguía es un municipio del departamento de Chocó, situado en la parte noroccidental de Colombia, dentro del Urabá chocoano. Con una extensión de 1.190 km², el territorio está bañado por la cuenca del río Atrato, que recibe los afluentes Arquía, Unguía, Tigre y Tanela. En su litoral caribeño destacan la playa Tarena y la bahía de Titumate, mientras que en el interior se encuentran ciénagas como la de Unguía, Marriaga y Hornos.\n\nEl municipio limita al norte con Acandí y el Golfo de Urabá, al oriente con el río Atrato que lo separa de Turbo (Antioquia), al sur con Riosucio y al occidente con la comarca Emberá‑Wounaan y la provincia de Darién en Panamá. No está conectado a la red nacional de vías terrestres; sólo dispone de carreteras internas y una pista aérea en mal estado. El principal medio de transporte es la vía fluvial, que enlaza Unguía con Turbo y con otros municipios ribereños como Acandí, Riosucio, Vigía del Fuerte y Bojayá."
+ },
+ {
+  "slug": "tarandacuao",
+  "name": "Tarandacuao",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 99,
+  "votes": 178,
+  "activity": "Baja",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Guanajuato",
+  "regionSlug": "guanajuato",
+  "channels": [
+   "guanajuato",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "celaya",
+   "atlacomulco-de-fabela",
+   "morelia",
+   "valle-de-bravo",
+   "san-francisco-tlalcilalcalpan",
+   "guanajuato",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Tarandacuao, municipio de Guanajuato, se fundó el 27 de abril de 1612 y su nombre purépecha significa 'lugar por donde entra el agua'.",
+  "aboutTitle": "Tarandacuao y el río Lerma: historia y tradiciones",
+  "about": "Tarandacuao es uno de los 46 municipios de Guanajuato, México, con una superficie de 121 km². Limita al norte y al este con Jerécuaro, al sur con el estado de Michoacán y al oeste con Acámbaro. Fundado por purépechas, obtuvo la legalidad de fundación el 27 de abril de 1612 y el 14 de julio de 1861 pasó a llamarse Tarandacuao de la Constancia. El municipio se divide en 18 comunidades, entre las que destacan la cabecera municipal, San Juan, Buenavista, San José de Hidalgo, La Virgen y La Purísima.\n\nEl nombre, que en lengua purépecha significa “lugar por donde entra el agua”, alude al paso del río Lerma, que atraviesa el territorio tras la presa Solís en Acámbaro y forma pequeñas ramificaciones que favorecen la agricultura. En el municipio destaca el manantial conocido como “Ojo de Agua”. Entre sus atractivos culturales se encuentran el templo de Santiago Apóstol, la casa de la Cultura, el Santuario de Guadalupe, los talleres de cerámica de alta temperatura y actividades de aventura como el rafting."
+ },
+ {
+  "slug": "atzitzihuacan",
+  "name": "Atzitzihuacán",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 110,
+  "votes": 193,
+  "activity": "Baja",
+  "parentName": "México",
+  "parentSlug": "mexico",
+  "provincia": "Puebla",
+  "regionSlug": "puebla",
+  "channels": [
+   "puebla",
+   "mexico",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "atlixco",
+   "izucar-de-matamoros",
+   "ozumba-de-alzate",
+   "amecameca",
+   "san-bernardino-tlaxcalancingo",
+   "puebla",
+   "mexico",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Atzitzihuacán, municipio de Puebla con casi 12 000 habitantes, posee el templo parroquial del siglo XVI y su nombre náhuatl significa ‘lugar de poca agua’.",
+  "aboutTitle": "Templo parroquial de Santiago y origen nahua de Atzitzihuacán",
+  "about": "Atzitzihuacán es un municipio del estado de Puebla, en la región de la Mixteca Poblana, cuya población casi llega a los 12 000 habitantes. Su cabecera lleva el mismo nombre y ocupa una superficie de 127,57 km². Limita al norte con Tochimilco y con el municipio tetelano de Tetela del Volcán, en el estado de Morelos; al este con Huaquechula y Atlixco; al sur con Acteopan y Tepemaxalco; y al poniente nuevamente con Morelos. Sus coordenadas geográficas son 18°46′00″ a 18°53′24″ de latitud norte y 98°28′54″ a 98°42′00″ de longitud occidental. El nombre proviene del náhuatl atzitzintli, hua, can, que significa “lugar de poca agua”. En época prehispánica el territorio fue asentamiento de grupos nahuas sometidos al tributo azteca. Durante la época virreinal los frailes dominicos erigieron la iglesia de Santiago Apóstol, hoy el templo parroquial de Santiago del siglo XVI, abierto todo el año. En 1589 los habitantes solicitaron el suministro de agua a través del arroyo Atzintla. El municipio se constituyó como libre en 1895, después de haber formado parte del exdistrito de Atlixco. En el censo de 2020 se contabilizaron 17 localidades."
+ },
+ {
+  "slug": "chordeleg",
+  "name": "Chordeleg",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 114,
+  "votes": 189,
+  "activity": "Baja",
+  "parentName": "Ecuador",
+  "parentSlug": "ecuador",
+  "provincia": "Azuay",
+  "regionSlug": "azuay",
+  "channels": [
+   "ecuador",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "cuenca",
+   "ecuador",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Chordeleg es un cantón de la provincia del Azuay, reconocido por sus más de cien joyerías y su tradición alfarera.",
+  "aboutTitle": "Artesanías en oro, paja toquilla y la cuenca del río Paute",
+  "about": "Chordeleg es un cantón ecuatoriano situado en la provincia del Azuay. Su cantonización se oficializó el 15 de abril de 1992. Geográficamente, se halla en la cuenca media del río Paute, entre los 2200 y 2600 metros sobre el nivel del mar, y el río Santa Bárbara discurre a 1200 metros del centro poblado. Presenta un clima definido como frío y semihúmedo, con precipitaciones anuales que fluctúan entre los 500 y 1000 milímetros. El territorio cantonal está integrado por las parroquias rurales de Delegsol, La Unión, Principal y San Martín de Puzhio.\n\nLa actividad local destaca ampliamente por la producción artesanal. En el centro cantonal se ubican más de cien joyerías dedicadas a la orfebrería en oro, plata y oro blanco. La alfarería en barro conserva influencias del pueblo indígena cañari y suma una trayectoria histórica de más de cinco mil años. Además, los artesanos chordelenses elaboran sombreros de paja toquilla y bordados hechos a mano. Esta dedicación al trabajo manual le ha valido a la localidad la distinción de Ciudad Creativa por la UNESCO y la denominación de Pueblo Mágico. En su ámbito geográfico también se sitúa el Parque Recreacional de Pungohuayco."
  }
 ]
