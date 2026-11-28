@@ -51172,5 +51172,33 @@
   "intro": "Chordeleg es un cantón de la provincia del Azuay, reconocido por sus más de cien joyerías y su tradición alfarera.",
   "aboutTitle": "Artesanías en oro, paja toquilla y la cuenca del río Paute",
   "about": "Chordeleg es un cantón ecuatoriano situado en la provincia del Azuay. Su cantonización se oficializó el 15 de abril de 1992. Geográficamente, se halla en la cuenca media del río Paute, entre los 2200 y 2600 metros sobre el nivel del mar, y el río Santa Bárbara discurre a 1200 metros del centro poblado. Presenta un clima definido como frío y semihúmedo, con precipitaciones anuales que fluctúan entre los 500 y 1000 milímetros. El territorio cantonal está integrado por las parroquias rurales de Delegsol, La Unión, Principal y San Martín de Puzhio.\n\nLa actividad local destaca ampliamente por la producción artesanal. En el centro cantonal se ubican más de cien joyerías dedicadas a la orfebrería en oro, plata y oro blanco. La alfarería en barro conserva influencias del pueblo indígena cañari y suma una trayectoria histórica de más de cinco mil años. Además, los artesanos chordelenses elaboran sombreros de paja toquilla y bordados hechos a mano. Esta dedicación al trabajo manual le ha valido a la localidad la distinción de Ciudad Creativa por la UNESCO y la denominación de Pueblo Mágico. En su ámbito geográfico también se sitúa el Parque Recreacional de Pungohuayco."
+ },
+ {
+  "slug": "enriquillo",
+  "name": "Enriquillo",
+  "kind": "ciudad",
+  "icon": "💬",
+  "users": 107,
+  "votes": 182,
+  "activity": "Baja",
+  "parentName": "República Dominicana",
+  "parentSlug": "republica-dominicana",
+  "provincia": "Barahona",
+  "regionSlug": "barahona",
+  "channels": [
+   "republica_dominicana",
+   "latinoamerica",
+   "chatzona"
+  ],
+  "related": [
+   "barahona",
+   "bani",
+   "republica-dominicana",
+   "amistad",
+   "amor"
+  ],
+  "intro": "Enriquillo, municipio de Barahona con 12.523 habitantes, obtuvo la categoría de comuna el 1 de abril 1884 y conserva su historia ligada al cacique homónimo.",
+  "aboutTitle": "Historia y demografía de Enriquillo, Barahona",
+  "about": "Enriquillo es un municipio de la República Dominicana situado en la provincia de Barahona. Según el censo de 2022 cuenta 12.523 habitantes, 6.483 hombres y 6.040 mujeres, y el 59,80 % de la población vive en la zona urbana, alrededor de 7.489 personas. El municipio lleva el nombre del cacique Enriquillo y su origen se remonta al siglo XVII, cuando la zona estuvo habitada por negros cimarrones cerca del lago Enriquillo, parte del antiguo cacicazgo de Jaragua. En la segunda década del siglo XVIII se fundó la ranchería de Petit Trou, cuyo nombre en criollo significa “pequeño hoyo”, en las proximidades del río Sito, motivada por la necesidad de acceso al agua.\n\nEn 1845 la comunidad pasó a ser un puesto militar dependiente de Neiba y en 1881 se convirtió en sección mediante la Ley n.º 355. El 1 de abril 1884 fue elevada a puesto cantonal por el Decreto n.º 1959 y, ese mismo día, al estatus de común mediante el Decreto n.º 2205. Durante la Guerra de la Restauración los habitantes de Petit Trou apoyaron al Gobierno Restaurador bajo el mando del coronel Ángel Félix. Hasta mediados del siglo XX el municipio incluía territorios hasta la frontera con Haití, pero en diciembre de 1957 la creación de la provincia de Pedernales redujo su extensión."
  }
 ]
